@@ -14,86 +14,86 @@ class Easing;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::Experimental::Easing);
 // Type: UnityEngine.UIElements.Experimental::Easing
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.Experimental::Easing*
 class CORDL_TYPE Easing : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InBack, addr 0x35796f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method InBack, addr 0x49657f8, size 0x24, virtual false, abstract: false, final false
   static inline float_t InBack(float_t t);
 
-  /// @brief Method InBounce, addr 0x35793d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method InBounce, addr 0x49654d4, size 0x24, virtual false, abstract: false, final false
   static inline float_t InBounce(float_t t);
 
-  /// @brief Method InCirc, addr 0x35797c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InCirc, addr 0x49658c8, size 0x20, virtual false, abstract: false, final false
   static inline float_t InCirc(float_t t);
 
-  /// @brief Method InCubic, addr 0x35792b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InCubic, addr 0x49653b8, size 0x8, virtual false, abstract: false, final false
   static inline float_t InCubic(float_t t);
 
-  /// @brief Method InElastic, addr 0x3579500, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InElastic, addr 0x4965604, size 0x78, virtual false, abstract: false, final false
   static inline float_t InElastic(float_t t);
 
-  /// @brief Method InOutBack, addr 0x3579748, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method InOutBack, addr 0x496584c, size 0x7c, virtual false, abstract: false, final false
   static inline float_t InOutBack(float_t t);
 
-  /// @brief Method InOutBounce, addr 0x35794ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InOutBounce, addr 0x49655b0, size 0x54, virtual false, abstract: false, final false
   static inline float_t InOutBounce(float_t t);
 
-  /// @brief Method InOutCirc, addr 0x3579800, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method InOutCirc, addr 0x4965904, size 0x48, virtual false, abstract: false, final false
   static inline float_t InOutCirc(float_t t);
 
-  /// @brief Method InOutCubic, addr 0x3579320, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method InOutCubic, addr 0x4965424, size 0x48, virtual false, abstract: false, final false
   static inline float_t InOutCubic(float_t t);
 
-  /// @brief Method InOutElastic, addr 0x35795f0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method InOutElastic, addr 0x49656f4, size 0x104, virtual false, abstract: false, final false
   static inline float_t InOutElastic(float_t t);
 
-  /// @brief Method InOutPower, addr 0x3579368, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InOutPower, addr 0x496546c, size 0x68, virtual false, abstract: false, final false
   static inline float_t InOutPower(float_t t, int32_t power);
 
-  /// @brief Method InOutQuad, addr 0x3579274, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InOutQuad, addr 0x4965378, size 0x40, virtual false, abstract: false, final false
   static inline float_t InOutQuad(float_t t);
 
-  /// @brief Method InOutSine, addr 0x3579228, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InOutSine, addr 0x496532c, size 0x34, virtual false, abstract: false, final false
   static inline float_t InOutSine(float_t t);
 
-  /// @brief Method InPower, addr 0x35792bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InPower, addr 0x49653c0, size 0x8, virtual false, abstract: false, final false
   static inline float_t InPower(float_t t, int32_t power);
 
-  /// @brief Method InQuad, addr 0x357925c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InQuad, addr 0x4965360, size 0x8, virtual false, abstract: false, final false
   static inline float_t InQuad(float_t t);
 
-  /// @brief Method InSine, addr 0x35791ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method InSine, addr 0x49652f0, size 0x2c, virtual false, abstract: false, final false
   static inline float_t InSine(float_t t);
 
-  /// @brief Method Linear, addr 0x35791e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Linear, addr 0x49652ec, size 0x4, virtual false, abstract: false, final false
   static inline float_t Linear(float_t t);
 
-  /// @brief Method OutBack, addr 0x3579718, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OutBack, addr 0x496581c, size 0x30, virtual false, abstract: false, final false
   static inline float_t OutBack(float_t t);
 
-  /// @brief Method OutBounce, addr 0x35793f4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OutBounce, addr 0x49654f8, size 0xb8, virtual false, abstract: false, final false
   static inline float_t OutBounce(float_t t);
 
-  /// @brief Method OutCirc, addr 0x35797e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OutCirc, addr 0x49658e8, size 0x1c, virtual false, abstract: false, final false
   static inline float_t OutCirc(float_t t);
 
-  /// @brief Method OutCubic, addr 0x35792c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OutCubic, addr 0x49653c8, size 0x24, virtual false, abstract: false, final false
   static inline float_t OutCubic(float_t t);
 
-  /// @brief Method OutElastic, addr 0x3579578, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OutElastic, addr 0x496567c, size 0x78, virtual false, abstract: false, final false
   static inline float_t OutElastic(float_t t);
 
-  /// @brief Method OutPower, addr 0x35792e8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OutPower, addr 0x49653ec, size 0x38, virtual false, abstract: false, final false
   static inline float_t OutPower(float_t t, int32_t power);
 
-  /// @brief Method OutQuad, addr 0x3579264, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OutQuad, addr 0x4965368, size 0x10, virtual false, abstract: false, final false
   static inline float_t OutQuad(float_t t);
 
-  /// @brief Method OutSine, addr 0x3579218, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OutSine, addr 0x496531c, size 0x10, virtual false, abstract: false, final false
   static inline float_t OutSine(float_t t);
 
 protected:
@@ -109,6 +109,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Easing", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Easing(Easing const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6447 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

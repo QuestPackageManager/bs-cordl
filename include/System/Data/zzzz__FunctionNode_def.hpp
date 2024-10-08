@@ -32,6 +32,9 @@ struct FunctionId;
 namespace System::Data {
 class Function;
 }
+namespace System::Data {
+class TypeLimiter;
+}
 namespace System {
 class Object;
 }
@@ -45,14 +48,14 @@ class FunctionNode;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::FunctionNode);
 // Type: System.Data::FunctionNode
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::FunctionNode*
 class CORDL_TYPE FunctionNode : public ::System::Data::ExpressionNode {
 public:
   // Declarations
-  __declspec(property(get = get_Aggregate))::System::Data::FunctionId Aggregate;
+  __declspec(property(get = get_Aggregate)) ::System::Data::FunctionId Aggregate;
 
   __declspec(property(get = get_IsAggregate)) bool IsAggregate;
 
@@ -60,60 +63,63 @@ public:
   __declspec(property(get = __cordl_internal_get__argumentCount, put = __cordl_internal_set__argumentCount)) int32_t _argumentCount;
 
   /// @brief Field _arguments, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__arguments, put = __cordl_internal_set__arguments))::ArrayW<::System::Data::ExpressionNode*, ::Array<::System::Data::ExpressionNode*>*> _arguments;
+  __declspec(property(get = __cordl_internal_get__arguments, put = __cordl_internal_set__arguments)) ::ArrayW<::System::Data::ExpressionNode*, ::Array<::System::Data::ExpressionNode*>*> _arguments;
+
+  /// @brief Field _capturedLimiter, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__capturedLimiter, put = __cordl_internal_set__capturedLimiter)) ::System::Data::TypeLimiter* _capturedLimiter;
 
   /// @brief Field _info, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__info, put = __cordl_internal_set__info)) int32_t _info;
 
   /// @brief Field _name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
   /// @brief Field s_funcs, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_funcs, put = setStaticF_s_funcs))::ArrayW<::System::Data::Function*, ::Array<::System::Data::Function*>*> s_funcs;
+  static __declspec(property(get = getStaticF_s_funcs, put = setStaticF_s_funcs)) ::ArrayW<::System::Data::Function*, ::Array<::System::Data::Function*>*> s_funcs;
 
-  /// @brief Method AddArgument, addr 0x2d00a54, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method AddArgument, addr 0x40d7e1c, size 0x1e8, virtual false, abstract: false, final false
   inline void AddArgument(::System::Data::ExpressionNode* argument);
 
-  /// @brief Method Bind, addr 0x2d02368, size 0x2d8, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x40d8004, size 0x2dc, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method Check, addr 0x2d00c30, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Check, addr 0x40d82e0, size 0x1ac, virtual false, abstract: false, final false
   inline void Check();
 
-  /// @brief Method DependsOn, addr 0x2d04aa4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x40daa68, size 0x88, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Eval, addr 0x2d02640, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x40d848c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x2d04870, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x40da830, size 0x34, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
 
-  /// @brief Method Eval, addr 0x2d02654, size 0x940, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x40d84a0, size 0x94c, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method EvalFunction, addr 0x2d03214, size 0x165c, virtual false, abstract: false, final false
+  /// @brief Method EvalFunction, addr 0x40d908c, size 0x17a4, virtual false, abstract: false, final false
   inline ::System::Object* EvalFunction(::System::Data::FunctionId id, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> argumentValues, ::System::Data::DataRow* row,
                                         ::System::Data::DataRowVersion version);
 
-  /// @brief Method GetDataType, addr 0x2d02f94, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method GetDataType, addr 0x40d8dec, size 0x2a0, virtual false, abstract: false, final false
   inline ::System::Type* GetDataType(::System::Data::ExpressionNode* node);
 
-  /// @brief Method HasLocalAggregate, addr 0x2d049ac, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x40da970, size 0x7c, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x2d04a28, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x40da9ec, size 0x7c, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x2d048a0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x40da864, size 0x90, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsTableConstant, addr 0x2d04930, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x40da8f4, size 0x7c, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::FunctionNode* New_ctor(::System::Data::DataTable* table, ::StringW name);
 
-  /// @brief Method Optimize, addr 0x2d04b2c, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x40daaf0, size 0x1b4, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
   constexpr int32_t const& __cordl_internal_get__argumentCount() const;
@@ -123,6 +129,10 @@ public:
   constexpr ::ArrayW<::System::Data::ExpressionNode*, ::Array<::System::Data::ExpressionNode*>*> const& __cordl_internal_get__arguments() const;
 
   constexpr ::ArrayW<::System::Data::ExpressionNode*, ::Array<::System::Data::ExpressionNode*>*>& __cordl_internal_get__arguments();
+
+  constexpr ::System::Data::TypeLimiter*& __cordl_internal_get__capturedLimiter();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Data::TypeLimiter*> const& __cordl_internal_get__capturedLimiter() const;
 
   constexpr int32_t const& __cordl_internal_get__info() const;
 
@@ -136,19 +146,21 @@ public:
 
   constexpr void __cordl_internal_set__arguments(::ArrayW<::System::Data::ExpressionNode*, ::Array<::System::Data::ExpressionNode*>*> value);
 
+  constexpr void __cordl_internal_set__capturedLimiter(::System::Data::TypeLimiter* value);
+
   constexpr void __cordl_internal_set__info(int32_t value);
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2d004d4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d7ce0, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW name);
 
   static inline ::ArrayW<::System::Data::Function*, ::Array<::System::Data::Function*>*> getStaticF_s_funcs();
 
-  /// @brief Method get_Aggregate, addr 0x2d006c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Aggregate, addr 0x40daca4, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Data::FunctionId get_Aggregate();
 
-  /// @brief Method get_IsAggregate, addr 0x2d04cdc, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method get_IsAggregate, addr 0x40dad40, size 0x234, virtual false, abstract: false, final false
   inline bool get_IsAggregate();
 
   static inline void setStaticF_s_funcs(::ArrayW<::System::Data::Function*, ::Array<::System::Data::Function*>*> value);
@@ -179,10 +191,16 @@ public:
   /// @brief Field _arguments, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::System::Data::ExpressionNode*, ::Array<::System::Data::ExpressionNode*>*> ____arguments;
 
+  /// @brief Field _capturedLimiter, offset: 0x30, size: 0x8, def value: None
+  ::System::Data::TypeLimiter* ____capturedLimiter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11314 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::FunctionNode, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Data::FunctionNode, 0x38>, "Size mismatch!");
 
 static_assert(offsetof(::System::Data::FunctionNode, ____name) == 0x18, "Offset mismatch!");
 
@@ -191,6 +209,8 @@ static_assert(offsetof(::System::Data::FunctionNode, ____info) == 0x20, "Offset 
 static_assert(offsetof(::System::Data::FunctionNode, ____argumentCount) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::FunctionNode, ____arguments) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::System::Data::FunctionNode, ____capturedLimiter) == 0x30, "Offset mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::FunctionNode);

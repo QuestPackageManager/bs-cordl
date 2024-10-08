@@ -43,22 +43,22 @@ class Asn1CipherBuilderWithKey;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey);
 // Type: Org.BouncyCastle.Crypto.Operators::Asn1CipherBuilderWithKey
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::Asn1CipherBuilderWithKey*
 class CORDL_TYPE Asn1CipherBuilderWithKey : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmDetails))::System::Object* AlgorithmDetails;
+  __declspec(property(get = get_AlgorithmDetails)) ::System::Object* AlgorithmDetails;
 
-  __declspec(property(get = get_Key))::Org::BouncyCastle::Crypto::ICipherParameters* Key;
+  __declspec(property(get = get_Key)) ::Org::BouncyCastle::Crypto::ICipherParameters* Key;
 
   /// @brief Field algorithmIdentifier, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_algorithmIdentifier, put = __cordl_internal_set_algorithmIdentifier))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier;
+  __declspec(property(get = __cordl_internal_get_algorithmIdentifier, put = __cordl_internal_set_algorithmIdentifier)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier;
 
   /// @brief Field encKey, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_encKey, put = __cordl_internal_set_encKey))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* encKey;
+  __declspec(property(get = __cordl_internal_get_encKey, put = __cordl_internal_set_encKey)) ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* encKey;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherBuilder"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherBuilder*() noexcept;
@@ -66,10 +66,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherBuilderWithKey"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*() noexcept;
 
-  /// @brief Method BuildCipher, addr 0x11997bc, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method BuildCipher, addr 0x2370c80, size 0x188, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::ICipher* BuildCipher(::System::IO::Stream* stream);
 
-  /// @brief Method GetMaxOutputSize, addr 0x119977c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method GetMaxOutputSize, addr 0x2370c48, size 0x38, virtual true, abstract: false, final true
   inline int32_t GetMaxOutputSize(int32_t inputLen);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize,
@@ -87,13 +87,13 @@ public:
 
   constexpr void __cordl_internal_set_encKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x1199554, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2370a28, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x1199774, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0x2370c40, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method get_Key, addr 0x11999e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Key, addr 0x2370e8c, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Key();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherBuilder"
@@ -121,6 +121,9 @@ public:
 
   /// @brief Field algorithmIdentifier, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___algorithmIdentifier;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 980 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -78,7 +78,7 @@ MARK_VAL_T(::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoader
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLevelLoader);
 MARK_VAL_T(::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21);
 // Type: ::MultiplayerBeatmapLoaderState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState
@@ -123,6 +123,9 @@ public:
   /// @brief Field WaitingForCountdown value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const WaitingForCountdown;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4818 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -135,7 +138,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerB
 
 } // namespace GlobalNamespace
 // Type: ::<LoadBeatmapLevelDataAsync>d__21
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::MultiplayerLevelLoader::<LoadBeatmapLevelDataAsync>d__21
@@ -145,10 +148,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x265bf18, size 0x46c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b92700, size 0x4d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x265c384, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b92bd0, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -187,6 +190,9 @@ public:
   /// @brief Field <>u__2, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4819 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
@@ -209,7 +215,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmap
 
 } // namespace GlobalNamespace
 // Type: ::MultiplayerLevelLoader
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerLevelLoader*
@@ -221,32 +227,32 @@ public:
   using _LoadBeatmapLevelDataAsync_d__21 = ::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21;
 
   /// @brief Field _beatmapLevelData, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelData, put = __cordl_internal_set__beatmapLevelData))::GlobalNamespace::IBeatmapLevelData* _beatmapLevelData;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelData, put = __cordl_internal_set__beatmapLevelData)) ::GlobalNamespace::IBeatmapLevelData* _beatmapLevelData;
 
   /// @brief Field _beatmapLevelsEntitlementModel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelsEntitlementModel,
-                      put = __cordl_internal_set__beatmapLevelsEntitlementModel))::GlobalNamespace::BeatmapLevelsEntitlementModel* _beatmapLevelsEntitlementModel;
+                      put = __cordl_internal_set__beatmapLevelsEntitlementModel)) ::GlobalNamespace::BeatmapLevelsEntitlementModel* _beatmapLevelsEntitlementModel;
 
   /// @brief Field _beatmapLevelsModel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel)) ::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
 
   /// @brief Field _gameplaySetupData, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplaySetupData, put = __cordl_internal_set__gameplaySetupData))::GlobalNamespace::ILevelGameplaySetupData* _gameplaySetupData;
+  __declspec(property(get = __cordl_internal_get__gameplaySetupData, put = __cordl_internal_set__gameplaySetupData)) ::GlobalNamespace::ILevelGameplaySetupData* _gameplaySetupData;
 
   /// @brief Field _getBeatmapCancellationTokenSource, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__getBeatmapCancellationTokenSource,
-                      put = __cordl_internal_set__getBeatmapCancellationTokenSource))::System::Threading::CancellationTokenSource* _getBeatmapCancellationTokenSource;
+                      put = __cordl_internal_set__getBeatmapCancellationTokenSource)) ::System::Threading::CancellationTokenSource* _getBeatmapCancellationTokenSource;
 
   /// @brief Field _getBeatmapLevelResultTask, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__getBeatmapLevelResultTask,
-                      put = __cordl_internal_set__getBeatmapLevelResultTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* _getBeatmapLevelResultTask;
+                      put = __cordl_internal_set__getBeatmapLevelResultTask)) ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* _getBeatmapLevelResultTask;
 
   /// @brief Field _loaderState, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__loaderState, put = __cordl_internal_set__loaderState))::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState _loaderState;
+  __declspec(property(get = __cordl_internal_get__loaderState, put = __cordl_internal_set__loaderState)) ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState _loaderState;
 
   /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _startTime, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__startTime, put = __cordl_internal_set__startTime)) int64_t _startTime;
@@ -256,29 +262,30 @@ public:
 
   /// @brief Field countdownFinishedEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_countdownFinishedEvent,
-                      put = __cordl_internal_set_countdownFinishedEvent))::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* countdownFinishedEvent;
+                      put =
+                          __cordl_internal_set_countdownFinishedEvent)) ::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* countdownFinishedEvent;
 
   /// @brief Field stillDownloadingSongEvent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_stillDownloadingSongEvent, put = __cordl_internal_set_stillDownloadingSongEvent))::System::Action* stillDownloadingSongEvent;
+  __declspec(property(get = __cordl_internal_get_stillDownloadingSongEvent, put = __cordl_internal_set_stillDownloadingSongEvent)) ::System::Action* stillDownloadingSongEvent;
 
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method ClearLoading, addr 0x265bce8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ClearLoading, addr 0x3b924c8, size 0x34, virtual false, abstract: false, final false
   inline void ClearLoading();
 
-  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x265bbe0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x3b923c8, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* LoadBeatmapLevelDataAsync(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData);
 
-  /// @brief Method LoadLevel, addr 0x265bb48, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method LoadLevel, addr 0x3b92338, size 0x90, virtual false, abstract: false, final false
   inline void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, int64_t initialStartTime);
 
   static inline ::GlobalNamespace::MultiplayerLevelLoader* New_ctor();
 
-  /// @brief Method SetNewStartTime, addr 0x265bce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNewStartTime, addr 0x3b924c0, size 0x8, virtual false, abstract: false, final false
   inline void SetNewStartTime(int64_t newStartTime);
 
-  /// @brief Method Tick, addr 0x265bd1c, size 0x1f4, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x3b924fc, size 0x1fc, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::GlobalNamespace::IBeatmapLevelData*& __cordl_internal_get__beatmapLevelData();
@@ -354,22 +361,22 @@ public:
 
   constexpr void __cordl_internal_set_stillDownloadingSongEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x265bf10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b926f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_countdownFinishedEvent, addr 0x265b9e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_countdownFinishedEvent, addr 0x3b921d8, size 0xb0, virtual false, abstract: false, final false
   inline void add_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
-  /// @brief Method add_stillDownloadingSongEvent, addr 0x265b8b0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_stillDownloadingSongEvent, addr 0x3b920a0, size 0x9c, virtual false, abstract: false, final false
   inline void add_stillDownloadingSongEvent(::System::Action* value);
 
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_countdownFinishedEvent, addr 0x265ba98, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_countdownFinishedEvent, addr 0x3b92288, size 0xb0, virtual false, abstract: false, final false
   inline void remove_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
-  /// @brief Method remove_stillDownloadingSongEvent, addr 0x265b94c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_stillDownloadingSongEvent, addr 0x3b9213c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_stillDownloadingSongEvent(::System::Action* value);
 
 protected:
@@ -421,6 +428,9 @@ public:
 
   /// @brief Field _stillDownloadingCalled, offset: 0x68, size: 0x1, def value: None
   bool ____stillDownloadingCalled;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4820 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

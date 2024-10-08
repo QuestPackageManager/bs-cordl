@@ -16,19 +16,19 @@ class XmlChoiceIdentifierAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlChoiceIdentifierAttribute);
 // Type: System.Xml.Serialization::XmlChoiceIdentifierAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlChoiceIdentifierAttribute*
 class CORDL_TYPE XmlChoiceIdentifierAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_MemberName))::StringW MemberName;
+  __declspec(property(get = get_MemberName)) ::StringW MemberName;
 
   /// @brief Field memberName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberName, put = __cordl_internal_set_memberName))::StringW memberName;
+  __declspec(property(get = __cordl_internal_get_memberName, put = __cordl_internal_set_memberName)) ::StringW memberName;
 
-  /// @brief Method AddKeyHash, addr 0x2efcfa4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x42f9f1c, size 0x7c, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr ::StringW const& __cordl_internal_get_memberName() const;
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set_memberName(::StringW value);
 
-  /// @brief Method get_MemberName, addr 0x2efd43c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x42fa39c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
 protected:
@@ -56,6 +56,9 @@ public:
 
   /// @brief Field memberName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___memberName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7380 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

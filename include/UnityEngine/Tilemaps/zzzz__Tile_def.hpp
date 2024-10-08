@@ -50,7 +50,7 @@ class Tile;
 MARK_VAL_T(::UnityEngine::Tilemaps::__Tile__ColliderType);
 MARK_REF_PTR_T(::UnityEngine::Tilemaps::Tile);
 // Type: ::ColliderType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: true
 // CS Name: ::Tile::ColliderType
@@ -95,6 +95,9 @@ public:
   /// @brief Field Sprite value: static_cast<int32_t>(0x1)
   static ::UnityEngine::Tilemaps::__Tile__ColliderType const Sprite;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18442 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -107,7 +110,7 @@ static_assert(offsetof(::UnityEngine::Tilemaps::__Tile__ColliderType, value__) =
 
 } // namespace UnityEngine::Tilemaps
 // Type: UnityEngine.Tilemaps::Tile
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: false
 // CS Name: ::UnityEngine.Tilemaps::Tile*
@@ -116,37 +119,37 @@ public:
   // Declarations
   using ColliderType = ::UnityEngine::Tilemaps::__Tile__ColliderType;
 
-  __declspec(property(get = get_colliderType, put = set_colliderType))::UnityEngine::Tilemaps::__Tile__ColliderType colliderType;
+  __declspec(property(get = get_colliderType, put = set_colliderType)) ::UnityEngine::Tilemaps::__Tile__ColliderType colliderType;
 
-  __declspec(property(get = get_color, put = set_color))::UnityEngine::Color color;
+  __declspec(property(get = get_color, put = set_color)) ::UnityEngine::Color color;
 
-  __declspec(property(get = get_flags, put = set_flags))::UnityEngine::Tilemaps::TileFlags flags;
+  __declspec(property(get = get_flags, put = set_flags)) ::UnityEngine::Tilemaps::TileFlags flags;
 
-  __declspec(property(get = get_gameObject, put = set_gameObject))::UnityW<::UnityEngine::GameObject> gameObject;
+  __declspec(property(get = get_gameObject, put = set_gameObject)) ::UnityW<::UnityEngine::GameObject> gameObject;
 
   /// @brief Field m_ColliderType, offset 0x7c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_ColliderType, put = __cordl_internal_set_m_ColliderType))::UnityEngine::Tilemaps::__Tile__ColliderType m_ColliderType;
+  __declspec(property(get = __cordl_internal_get_m_ColliderType, put = __cordl_internal_set_m_ColliderType)) ::UnityEngine::Tilemaps::__Tile__ColliderType m_ColliderType;
 
   /// @brief Field m_Color, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Color, put = __cordl_internal_set_m_Color))::UnityEngine::Color m_Color;
+  __declspec(property(get = __cordl_internal_get_m_Color, put = __cordl_internal_set_m_Color)) ::UnityEngine::Color m_Color;
 
   /// @brief Field m_Flags, offset 0x78, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags))::UnityEngine::Tilemaps::TileFlags m_Flags;
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags)) ::UnityEngine::Tilemaps::TileFlags m_Flags;
 
   /// @brief Field m_InstancedGameObject, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_InstancedGameObject, put = __cordl_internal_set_m_InstancedGameObject))::UnityW<::UnityEngine::GameObject> m_InstancedGameObject;
+  __declspec(property(get = __cordl_internal_get_m_InstancedGameObject, put = __cordl_internal_set_m_InstancedGameObject)) ::UnityW<::UnityEngine::GameObject> m_InstancedGameObject;
 
   /// @brief Field m_Sprite, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Sprite, put = __cordl_internal_set_m_Sprite))::UnityW<::UnityEngine::Sprite> m_Sprite;
+  __declspec(property(get = __cordl_internal_get_m_Sprite, put = __cordl_internal_set_m_Sprite)) ::UnityW<::UnityEngine::Sprite> m_Sprite;
 
   /// @brief Field m_Transform, offset 0x30, size 0x40
-  __declspec(property(get = __cordl_internal_get_m_Transform, put = __cordl_internal_set_m_Transform))::UnityEngine::Matrix4x4 m_Transform;
+  __declspec(property(get = __cordl_internal_get_m_Transform, put = __cordl_internal_set_m_Transform)) ::UnityEngine::Matrix4x4 m_Transform;
 
-  __declspec(property(get = get_sprite, put = set_sprite))::UnityW<::UnityEngine::Sprite> sprite;
+  __declspec(property(get = get_sprite, put = set_sprite)) ::UnityW<::UnityEngine::Sprite> sprite;
 
-  __declspec(property(get = get_transform, put = set_transform))::UnityEngine::Matrix4x4 transform;
+  __declspec(property(get = get_transform, put = set_transform)) ::UnityEngine::Matrix4x4 transform;
 
-  /// @brief Method GetTileData, addr 0x34e179c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetTileData, addr 0x48da9c0, size 0xa0, virtual true, abstract: false, final false
   inline void GetTileData(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ByRef<::UnityEngine::Tilemaps::TileData> tileData);
 
   static inline ::UnityEngine::Tilemaps::Tile* New_ctor();
@@ -187,43 +190,43 @@ public:
 
   constexpr void __cordl_internal_set_m_Transform(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method .ctor, addr 0x34e17f8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48dabb8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colliderType, addr 0x34e178c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colliderType, addr 0x48da9b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Tilemaps::__Tile__ColliderType get_colliderType();
 
-  /// @brief Method get_color, addr 0x34e172c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x48da950, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_flags, addr 0x34e177c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flags, addr 0x48da9a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Tilemaps::TileFlags get_flags();
 
-  /// @brief Method get_gameObject, addr 0x34e176c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x48da990, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_sprite, addr 0x34e171c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x48da940, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method get_transform, addr 0x34e1744, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x48da968, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_transform();
 
-  /// @brief Method set_colliderType, addr 0x34e1794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colliderType, addr 0x48da9b8, size 0x8, virtual false, abstract: false, final false
   inline void set_colliderType(::UnityEngine::Tilemaps::__Tile__ColliderType value);
 
-  /// @brief Method set_color, addr 0x34e1738, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x48da95c, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_flags, addr 0x34e1784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_flags, addr 0x48da9a8, size 0x8, virtual false, abstract: false, final false
   inline void set_flags(::UnityEngine::Tilemaps::TileFlags value);
 
-  /// @brief Method set_gameObject, addr 0x34e1774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameObject, addr 0x48da998, size 0x8, virtual false, abstract: false, final false
   inline void set_gameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_sprite, addr 0x34e1724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x48da948, size 0x8, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_transform, addr 0x34e1758, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_transform, addr 0x48da97c, size 0x14, virtual false, abstract: false, final false
   inline void set_transform(::UnityEngine::Matrix4x4 value);
 
 protected:
@@ -257,6 +260,9 @@ public:
 
   /// @brief Field m_ColliderType, offset: 0x7c, size: 0x4, def value: None
   ::UnityEngine::Tilemaps::__Tile__ColliderType ___m_ColliderType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18443 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,38 +33,38 @@ class CmsEnvelopedData;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsEnvelopedData);
 // Type: Org.BouncyCastle.Cms::CmsEnvelopedData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::CmsEnvelopedData*
 class CORDL_TYPE CmsEnvelopedData : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_ContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* ContentInfo;
+  __declspec(property(get = get_ContentInfo)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* ContentInfo;
 
-  __declspec(property(get = get_EncryptionAlgOid))::StringW EncryptionAlgOid;
+  __declspec(property(get = get_EncryptionAlgOid)) ::StringW EncryptionAlgOid;
 
-  __declspec(property(get = get_EncryptionAlgorithmID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* EncryptionAlgorithmID;
+  __declspec(property(get = get_EncryptionAlgorithmID)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* EncryptionAlgorithmID;
 
   /// @brief Field contentInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
+  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
 
   /// @brief Field encAlg, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_encAlg, put = __cordl_internal_set_encAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encAlg;
+  __declspec(property(get = __cordl_internal_get_encAlg, put = __cordl_internal_set_encAlg)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encAlg;
 
   /// @brief Field recipientInfoStore, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_recipientInfoStore, put = __cordl_internal_set_recipientInfoStore))::Org::BouncyCastle::Cms::RecipientInformationStore* recipientInfoStore;
+  __declspec(property(get = __cordl_internal_get_recipientInfoStore, put = __cordl_internal_set_recipientInfoStore)) ::Org::BouncyCastle::Cms::RecipientInformationStore* recipientInfoStore;
 
   /// @brief Field unprotectedAttributes, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_unprotectedAttributes, put = __cordl_internal_set_unprotectedAttributes))::Org::BouncyCastle::Asn1::Asn1Set* unprotectedAttributes;
+  __declspec(property(get = __cordl_internal_get_unprotectedAttributes, put = __cordl_internal_set_unprotectedAttributes)) ::Org::BouncyCastle::Asn1::Asn1Set* unprotectedAttributes;
 
-  /// @brief Method GetEncoded, addr 0x1450cec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x2613d80, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetRecipientInfos, addr 0x1450c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0x2613d04, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
 
-  /// @brief Method GetUnprotectedAttributes, addr 0x1450c78, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetUnprotectedAttributes, addr 0x2613d14, size 0x6c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnprotectedAttributes();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
@@ -97,22 +97,22 @@ public:
 
   constexpr void __cordl_internal_set_unprotectedAttributes(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method .ctor, addr 0x1450acc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2613b68, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method .ctor, addr 0x1450aa8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2613b44, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData);
 
-  /// @brief Method .ctor, addr 0x1450c10, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2613cac, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* envelopedData);
 
-  /// @brief Method get_ContentInfo, addr 0x1450c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x2613d0c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo();
 
-  /// @brief Method get_EncryptionAlgOid, addr 0x1450c3c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgOid, addr 0x2613cd8, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_EncryptionAlgOid();
 
-  /// @brief Method get_EncryptionAlgorithmID, addr 0x1450c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgorithmID, addr 0x2613cd0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithmID();
 
 protected:
@@ -140,6 +140,9 @@ public:
 
   /// @brief Field unprotectedAttributes, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Set* ___unprotectedAttributes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 633 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

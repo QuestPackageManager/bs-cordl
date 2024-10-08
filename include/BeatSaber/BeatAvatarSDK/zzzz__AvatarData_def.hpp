@@ -24,7 +24,7 @@ class AvatarData;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarData);
 // Type: BeatSaber.BeatAvatarSDK::AvatarData
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarData*
@@ -33,102 +33,102 @@ public:
   // Declarations
   /// @brief Field <clothesDetailColor>k__BackingField, offset 0xb8, size 0x10
   __declspec(property(get = __cordl_internal_get__clothesDetailColor_k__BackingField,
-                      put = __cordl_internal_set__clothesDetailColor_k__BackingField))::UnityEngine::Color _clothesDetailColor_k__BackingField;
+                      put = __cordl_internal_set__clothesDetailColor_k__BackingField)) ::UnityEngine::Color _clothesDetailColor_k__BackingField;
 
   /// @brief Field <clothesId>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__clothesId_k__BackingField, put = __cordl_internal_set__clothesId_k__BackingField))::StringW _clothesId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__clothesId_k__BackingField, put = __cordl_internal_set__clothesId_k__BackingField)) ::StringW _clothesId_k__BackingField;
 
   /// @brief Field <clothesPrimaryColor>k__BackingField, offset 0x98, size 0x10
   __declspec(property(get = __cordl_internal_get__clothesPrimaryColor_k__BackingField,
-                      put = __cordl_internal_set__clothesPrimaryColor_k__BackingField))::UnityEngine::Color _clothesPrimaryColor_k__BackingField;
+                      put = __cordl_internal_set__clothesPrimaryColor_k__BackingField)) ::UnityEngine::Color _clothesPrimaryColor_k__BackingField;
 
   /// @brief Field <clothesSecondaryColor>k__BackingField, offset 0xa8, size 0x10
   __declspec(property(get = __cordl_internal_get__clothesSecondaryColor_k__BackingField,
-                      put = __cordl_internal_set__clothesSecondaryColor_k__BackingField))::UnityEngine::Color _clothesSecondaryColor_k__BackingField;
+                      put = __cordl_internal_set__clothesSecondaryColor_k__BackingField)) ::UnityEngine::Color _clothesSecondaryColor_k__BackingField;
 
   /// @brief Field <eyesId>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__eyesId_k__BackingField, put = __cordl_internal_set__eyesId_k__BackingField))::StringW _eyesId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__eyesId_k__BackingField, put = __cordl_internal_set__eyesId_k__BackingField)) ::StringW _eyesId_k__BackingField;
 
   /// @brief Field <facialHairColor>k__BackingField, offset 0x78, size 0x10
-  __declspec(property(get = __cordl_internal_get__facialHairColor_k__BackingField, put = __cordl_internal_set__facialHairColor_k__BackingField))::UnityEngine::Color _facialHairColor_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__facialHairColor_k__BackingField, put = __cordl_internal_set__facialHairColor_k__BackingField)) ::UnityEngine::Color _facialHairColor_k__BackingField;
 
   /// @brief Field <facialHairId>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__facialHairId_k__BackingField, put = __cordl_internal_set__facialHairId_k__BackingField))::StringW _facialHairId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__facialHairId_k__BackingField, put = __cordl_internal_set__facialHairId_k__BackingField)) ::StringW _facialHairId_k__BackingField;
 
   /// @brief Field <glassesColor>k__BackingField, offset 0x68, size 0x10
-  __declspec(property(get = __cordl_internal_get__glassesColor_k__BackingField, put = __cordl_internal_set__glassesColor_k__BackingField))::UnityEngine::Color _glassesColor_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__glassesColor_k__BackingField, put = __cordl_internal_set__glassesColor_k__BackingField)) ::UnityEngine::Color _glassesColor_k__BackingField;
 
   /// @brief Field <glassesId>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__glassesId_k__BackingField, put = __cordl_internal_set__glassesId_k__BackingField))::StringW _glassesId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__glassesId_k__BackingField, put = __cordl_internal_set__glassesId_k__BackingField)) ::StringW _glassesId_k__BackingField;
 
   /// @brief Field <handsColor>k__BackingField, offset 0x88, size 0x10
-  __declspec(property(get = __cordl_internal_get__handsColor_k__BackingField, put = __cordl_internal_set__handsColor_k__BackingField))::UnityEngine::Color _handsColor_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__handsColor_k__BackingField, put = __cordl_internal_set__handsColor_k__BackingField)) ::UnityEngine::Color _handsColor_k__BackingField;
 
   /// @brief Field <handsId>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__handsId_k__BackingField, put = __cordl_internal_set__handsId_k__BackingField))::StringW _handsId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__handsId_k__BackingField, put = __cordl_internal_set__handsId_k__BackingField)) ::StringW _handsId_k__BackingField;
 
   /// @brief Field <headTopId>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__headTopId_k__BackingField, put = __cordl_internal_set__headTopId_k__BackingField))::StringW _headTopId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__headTopId_k__BackingField, put = __cordl_internal_set__headTopId_k__BackingField)) ::StringW _headTopId_k__BackingField;
 
   /// @brief Field <headTopPrimaryColor>k__BackingField, offset 0x48, size 0x10
   __declspec(property(get = __cordl_internal_get__headTopPrimaryColor_k__BackingField,
-                      put = __cordl_internal_set__headTopPrimaryColor_k__BackingField))::UnityEngine::Color _headTopPrimaryColor_k__BackingField;
+                      put = __cordl_internal_set__headTopPrimaryColor_k__BackingField)) ::UnityEngine::Color _headTopPrimaryColor_k__BackingField;
 
   /// @brief Field <headTopSecondaryColor>k__BackingField, offset 0x58, size 0x10
   __declspec(property(get = __cordl_internal_get__headTopSecondaryColor_k__BackingField,
-                      put = __cordl_internal_set__headTopSecondaryColor_k__BackingField))::UnityEngine::Color _headTopSecondaryColor_k__BackingField;
+                      put = __cordl_internal_set__headTopSecondaryColor_k__BackingField)) ::UnityEngine::Color _headTopSecondaryColor_k__BackingField;
 
   /// @brief Field <mouthId>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__mouthId_k__BackingField, put = __cordl_internal_set__mouthId_k__BackingField))::StringW _mouthId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__mouthId_k__BackingField, put = __cordl_internal_set__mouthId_k__BackingField)) ::StringW _mouthId_k__BackingField;
 
   /// @brief Field <skinColorId>k__BackingField, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__skinColorId_k__BackingField, put = __cordl_internal_set__skinColorId_k__BackingField))::StringW _skinColorId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__skinColorId_k__BackingField, put = __cordl_internal_set__skinColorId_k__BackingField)) ::StringW _skinColorId_k__BackingField;
 
-  __declspec(property(get = get_clothesDetailColor, put = set_clothesDetailColor))::UnityEngine::Color clothesDetailColor;
+  __declspec(property(get = get_clothesDetailColor, put = set_clothesDetailColor)) ::UnityEngine::Color clothesDetailColor;
 
-  __declspec(property(get = get_clothesId, put = set_clothesId))::StringW clothesId;
+  __declspec(property(get = get_clothesId, put = set_clothesId)) ::StringW clothesId;
 
-  __declspec(property(get = get_clothesPrimaryColor, put = set_clothesPrimaryColor))::UnityEngine::Color clothesPrimaryColor;
+  __declspec(property(get = get_clothesPrimaryColor, put = set_clothesPrimaryColor)) ::UnityEngine::Color clothesPrimaryColor;
 
-  __declspec(property(get = get_clothesSecondaryColor, put = set_clothesSecondaryColor))::UnityEngine::Color clothesSecondaryColor;
+  __declspec(property(get = get_clothesSecondaryColor, put = set_clothesSecondaryColor)) ::UnityEngine::Color clothesSecondaryColor;
 
-  __declspec(property(get = get_eyesId, put = set_eyesId))::StringW eyesId;
+  __declspec(property(get = get_eyesId, put = set_eyesId)) ::StringW eyesId;
 
-  __declspec(property(get = get_facialHairColor, put = set_facialHairColor))::UnityEngine::Color facialHairColor;
+  __declspec(property(get = get_facialHairColor, put = set_facialHairColor)) ::UnityEngine::Color facialHairColor;
 
-  __declspec(property(get = get_facialHairId, put = set_facialHairId))::StringW facialHairId;
+  __declspec(property(get = get_facialHairId, put = set_facialHairId)) ::StringW facialHairId;
 
-  __declspec(property(get = get_glassesColor, put = set_glassesColor))::UnityEngine::Color glassesColor;
+  __declspec(property(get = get_glassesColor, put = set_glassesColor)) ::UnityEngine::Color glassesColor;
 
-  __declspec(property(get = get_glassesId, put = set_glassesId))::StringW glassesId;
+  __declspec(property(get = get_glassesId, put = set_glassesId)) ::StringW glassesId;
 
-  __declspec(property(get = get_handsColor, put = set_handsColor))::UnityEngine::Color handsColor;
+  __declspec(property(get = get_handsColor, put = set_handsColor)) ::UnityEngine::Color handsColor;
 
-  __declspec(property(get = get_handsId, put = set_handsId))::StringW handsId;
+  __declspec(property(get = get_handsId, put = set_handsId)) ::StringW handsId;
 
-  __declspec(property(get = get_headTopId, put = set_headTopId))::StringW headTopId;
+  __declspec(property(get = get_headTopId, put = set_headTopId)) ::StringW headTopId;
 
-  __declspec(property(get = get_headTopPrimaryColor, put = set_headTopPrimaryColor))::UnityEngine::Color headTopPrimaryColor;
+  __declspec(property(get = get_headTopPrimaryColor, put = set_headTopPrimaryColor)) ::UnityEngine::Color headTopPrimaryColor;
 
-  __declspec(property(get = get_headTopSecondaryColor, put = set_headTopSecondaryColor))::UnityEngine::Color headTopSecondaryColor;
+  __declspec(property(get = get_headTopSecondaryColor, put = set_headTopSecondaryColor)) ::UnityEngine::Color headTopSecondaryColor;
 
-  __declspec(property(get = get_mouthId, put = set_mouthId))::StringW mouthId;
+  __declspec(property(get = get_mouthId, put = set_mouthId)) ::StringW mouthId;
 
-  __declspec(property(get = get_skinColorId, put = set_skinColorId))::StringW skinColorId;
+  __declspec(property(get = get_skinColorId, put = set_skinColorId)) ::StringW skinColorId;
 
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::BeatAvatarSDK::AvatarData*>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::BeatAvatarSDK::AvatarData*>*() noexcept;
 
-  /// @brief Method Clone, addr 0x105baa4, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x222350c, size 0x1ac, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarData* Clone();
 
-  /// @brief Method Equals, addr 0x105c270, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2223c60, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x105be84, size 0x3ec, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2223878, size 0x3e8, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::BeatAvatarSDK::AvatarData* other);
 
-  /// @brief Method GetHashCode, addr 0x105bcec, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x22236b8, size 0x1c0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarData* New_ctor();
@@ -235,111 +235,111 @@ public:
 
   constexpr void __cordl_internal_set__skinColorId_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x105b964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22233cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x105b96c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22233d4, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::StringW headTopId, ::UnityEngine::Color headTopPrimaryColor, ::UnityEngine::Color headTopSecondaryColor, ::StringW glassesId, ::UnityEngine::Color glassesColor,
                     ::StringW facialHairId, ::UnityEngine::Color facialHairColor, ::StringW handsId, ::UnityEngine::Color handsColor, ::StringW clothesId, ::UnityEngine::Color clothesPrimaryColor,
                     ::UnityEngine::Color clothesSecondaryColor, ::UnityEngine::Color clothesDetailColor, ::StringW skinColorId, ::StringW eyesId, ::StringW mouthId);
 
-  /// @brief Method get_clothesDetailColor, addr 0x105b93c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_clothesDetailColor, addr 0x22233a4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_clothesDetailColor();
 
-  /// @brief Method get_clothesId, addr 0x105b864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clothesId, addr 0x22232cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_clothesId();
 
-  /// @brief Method get_clothesPrimaryColor, addr 0x105b90c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_clothesPrimaryColor, addr 0x2223374, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_clothesPrimaryColor();
 
-  /// @brief Method get_clothesSecondaryColor, addr 0x105b924, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_clothesSecondaryColor, addr 0x222338c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_clothesSecondaryColor();
 
-  /// @brief Method get_eyesId, addr 0x105b874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eyesId, addr 0x22232dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_eyesId();
 
-  /// @brief Method get_facialHairColor, addr 0x105b8dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_facialHairColor, addr 0x2223344, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_facialHairColor();
 
-  /// @brief Method get_facialHairId, addr 0x105b844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_facialHairId, addr 0x22232ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_facialHairId();
 
-  /// @brief Method get_glassesColor, addr 0x105b8c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_glassesColor, addr 0x222332c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_glassesColor();
 
-  /// @brief Method get_glassesId, addr 0x105b834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glassesId, addr 0x222329c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_glassesId();
 
-  /// @brief Method get_handsColor, addr 0x105b8f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_handsColor, addr 0x222335c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_handsColor();
 
-  /// @brief Method get_handsId, addr 0x105b854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handsId, addr 0x22232bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_handsId();
 
-  /// @brief Method get_headTopId, addr 0x105b824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headTopId, addr 0x222328c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_headTopId();
 
-  /// @brief Method get_headTopPrimaryColor, addr 0x105b894, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headTopPrimaryColor, addr 0x22232fc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_headTopPrimaryColor();
 
-  /// @brief Method get_headTopSecondaryColor, addr 0x105b8ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headTopSecondaryColor, addr 0x2223314, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_headTopSecondaryColor();
 
-  /// @brief Method get_mouthId, addr 0x105b884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mouthId, addr 0x22232ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_mouthId();
 
-  /// @brief Method get_skinColorId, addr 0x105b954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skinColorId, addr 0x22233bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_skinColorId();
 
   /// @brief Convert to "::System::IEquatable_1<::BeatSaber::BeatAvatarSDK::AvatarData*>"
   constexpr ::System::IEquatable_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* i___System__IEquatable_1___BeatSaber__BeatAvatarSDK__AvatarData__() noexcept;
 
-  /// @brief Method set_clothesDetailColor, addr 0x105b948, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_clothesDetailColor, addr 0x22233b0, size 0xc, virtual false, abstract: false, final false
   inline void set_clothesDetailColor(::UnityEngine::Color value);
 
-  /// @brief Method set_clothesId, addr 0x105b86c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clothesId, addr 0x22232d4, size 0x8, virtual false, abstract: false, final false
   inline void set_clothesId(::StringW value);
 
-  /// @brief Method set_clothesPrimaryColor, addr 0x105b918, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_clothesPrimaryColor, addr 0x2223380, size 0xc, virtual false, abstract: false, final false
   inline void set_clothesPrimaryColor(::UnityEngine::Color value);
 
-  /// @brief Method set_clothesSecondaryColor, addr 0x105b930, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_clothesSecondaryColor, addr 0x2223398, size 0xc, virtual false, abstract: false, final false
   inline void set_clothesSecondaryColor(::UnityEngine::Color value);
 
-  /// @brief Method set_eyesId, addr 0x105b87c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eyesId, addr 0x22232e4, size 0x8, virtual false, abstract: false, final false
   inline void set_eyesId(::StringW value);
 
-  /// @brief Method set_facialHairColor, addr 0x105b8e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_facialHairColor, addr 0x2223350, size 0xc, virtual false, abstract: false, final false
   inline void set_facialHairColor(::UnityEngine::Color value);
 
-  /// @brief Method set_facialHairId, addr 0x105b84c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_facialHairId, addr 0x22232b4, size 0x8, virtual false, abstract: false, final false
   inline void set_facialHairId(::StringW value);
 
-  /// @brief Method set_glassesColor, addr 0x105b8d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_glassesColor, addr 0x2223338, size 0xc, virtual false, abstract: false, final false
   inline void set_glassesColor(::UnityEngine::Color value);
 
-  /// @brief Method set_glassesId, addr 0x105b83c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glassesId, addr 0x22232a4, size 0x8, virtual false, abstract: false, final false
   inline void set_glassesId(::StringW value);
 
-  /// @brief Method set_handsColor, addr 0x105b900, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_handsColor, addr 0x2223368, size 0xc, virtual false, abstract: false, final false
   inline void set_handsColor(::UnityEngine::Color value);
 
-  /// @brief Method set_handsId, addr 0x105b85c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_handsId, addr 0x22232c4, size 0x8, virtual false, abstract: false, final false
   inline void set_handsId(::StringW value);
 
-  /// @brief Method set_headTopId, addr 0x105b82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_headTopId, addr 0x2223294, size 0x8, virtual false, abstract: false, final false
   inline void set_headTopId(::StringW value);
 
-  /// @brief Method set_headTopPrimaryColor, addr 0x105b8a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_headTopPrimaryColor, addr 0x2223308, size 0xc, virtual false, abstract: false, final false
   inline void set_headTopPrimaryColor(::UnityEngine::Color value);
 
-  /// @brief Method set_headTopSecondaryColor, addr 0x105b8b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_headTopSecondaryColor, addr 0x2223320, size 0xc, virtual false, abstract: false, final false
   inline void set_headTopSecondaryColor(::UnityEngine::Color value);
 
-  /// @brief Method set_mouthId, addr 0x105b88c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mouthId, addr 0x22232f4, size 0x8, virtual false, abstract: false, final false
   inline void set_mouthId(::StringW value);
 
-  /// @brief Method set_skinColorId, addr 0x105b95c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_skinColorId, addr 0x22233c4, size 0x8, virtual false, abstract: false, final false
   inline void set_skinColorId(::StringW value);
 
 protected:
@@ -403,6 +403,9 @@ public:
 
   /// @brief Field <skinColorId>k__BackingField, offset: 0xc8, size: 0x8, def value: None
   ::StringW ____skinColorId_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18051 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

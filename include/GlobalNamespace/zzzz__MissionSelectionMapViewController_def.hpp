@@ -80,7 +80,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionSelectionMapViewController);
 MARK_REF_PTR_T(::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0);
 MARK_VAL_T(::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__16);
 // Type: ::<>c__DisplayClass16_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MissionSelectionMapViewController::<>c__DisplayClass16_0*
@@ -88,14 +88,14 @@ class CORDL_TYPE __MissionSelectionMapViewController____c__DisplayClass16_0 : pu
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MissionSelectionMapViewController> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::MissionSelectionMapViewController> __4__this;
 
   /// @brief Field level, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_level, put = __cordl_internal_set_level))::GlobalNamespace::BeatmapLevel* level;
+  __declspec(property(get = __cordl_internal_get_level, put = __cordl_internal_set_level)) ::GlobalNamespace::BeatmapLevel* level;
 
   static inline ::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method <SongPlayerCrossfadeToLevelAsync>b__0, addr 0x267d818, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <SongPlayerCrossfadeToLevelAsync>b__0, addr 0x3ba15a0, size 0x28, virtual false, abstract: false, final false
   inline void _SongPlayerCrossfadeToLevelAsync_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::MissionSelectionMapViewController> const& __cordl_internal_get___4__this() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_level(::GlobalNamespace::BeatmapLevel* value);
 
-  /// @brief Method .ctor, addr 0x267d810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba1598, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,6 +133,9 @@ public:
   /// @brief Field level, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ___level;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4895 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -144,7 +147,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionSelectionMapViewController___
 
 } // namespace GlobalNamespace
 // Type: ::<SongPlayerCrossfadeToLevelAsync>d__16
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::MissionSelectionMapViewController::<SongPlayerCrossfadeToLevelAsync>d__16
@@ -154,10 +157,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x267d840, size 0x324, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ba15c8, size 0x318, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x267db64, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ba18e0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -201,6 +204,9 @@ public:
   /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4896 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
@@ -225,7 +231,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionSelectionMapViewController___
 
 } // namespace GlobalNamespace
 // Type: ::MissionSelectionMapViewController
-// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MissionSelectionMapViewController*
@@ -236,58 +242,58 @@ public:
 
   using __c__DisplayClass16_0 = ::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass16_0;
 
-  /// @brief Field _audioClipAsyncLoader, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioClipAsyncLoader, put = __cordl_internal_set__audioClipAsyncLoader))::GlobalNamespace::AudioClipAsyncLoader* _audioClipAsyncLoader;
+  /// @brief Field _audioClipAsyncLoader, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioClipAsyncLoader, put = __cordl_internal_set__audioClipAsyncLoader)) ::GlobalNamespace::AudioClipAsyncLoader* _audioClipAsyncLoader;
 
-  /// @brief Field _beatmapLevelsModel, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
+  /// @brief Field _beatmapLevelsModel, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel)) ::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
 
-  /// @brief Field _mapScrollView, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__mapScrollView, put = __cordl_internal_set__mapScrollView))::UnityW<::HMUI::ScrollView> _mapScrollView;
+  /// @brief Field _mapScrollView, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__mapScrollView, put = __cordl_internal_set__mapScrollView)) ::UnityW<::HMUI::ScrollView> _mapScrollView;
 
-  /// @brief Field _missionMapAnimationController, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__missionMapAnimationController,
-                      put = __cordl_internal_set__missionMapAnimationController))::UnityW<::GlobalNamespace::MissionMapAnimationController> _missionMapAnimationController;
+  /// @brief Field _missionMapAnimationController, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__missionMapAnimationController, put = __cordl_internal_set__missionMapAnimationController)) ::UnityW<::GlobalNamespace::MissionMapAnimationController>
+      _missionMapAnimationController;
 
-  /// @brief Field _missionNodeSelectionManager, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__missionNodeSelectionManager,
-                      put = __cordl_internal_set__missionNodeSelectionManager))::UnityW<::GlobalNamespace::MissionNodeSelectionManager> _missionNodeSelectionManager;
+  /// @brief Field _missionNodeSelectionManager, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__missionNodeSelectionManager, put = __cordl_internal_set__missionNodeSelectionManager)) ::UnityW<::GlobalNamespace::MissionNodeSelectionManager>
+      _missionNodeSelectionManager;
 
-  /// @brief Field _perceivedLoudnessPerLevelModel, offset 0x90, size 0x8
+  /// @brief Field _perceivedLoudnessPerLevelModel, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__perceivedLoudnessPerLevelModel,
-                      put = __cordl_internal_set__perceivedLoudnessPerLevelModel))::GlobalNamespace::PerceivedLoudnessPerLevelModel* _perceivedLoudnessPerLevelModel;
+                      put = __cordl_internal_set__perceivedLoudnessPerLevelModel)) ::GlobalNamespace::PerceivedLoudnessPerLevelModel* _perceivedLoudnessPerLevelModel;
 
-  /// @brief Field _selectedMissionNode, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectedMissionNode, put = __cordl_internal_set__selectedMissionNode))::UnityW<::GlobalNamespace::MissionNode> _selectedMissionNode;
+  /// @brief Field _selectedMissionNode, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get__selectedMissionNode, put = __cordl_internal_set__selectedMissionNode)) ::UnityW<::GlobalNamespace::MissionNode> _selectedMissionNode;
 
-  /// @brief Field _songPreviewPlayer, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
+  /// @brief Field _songPreviewPlayer, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer)) ::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
 
   __declspec(property(get = get_animatedUpdateIsRequired)) bool animatedUpdateIsRequired;
 
-  /// @brief Field didSelectMissionLevelEvent, offset 0xa8, size 0x8
+  /// @brief Field didSelectMissionLevelEvent, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectMissionLevelEvent,
-                      put = __cordl_internal_set_didSelectMissionLevelEvent))::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>,
-                                                                                                ::UnityW<::GlobalNamespace::MissionNode>>* didSelectMissionLevelEvent;
+                      put = __cordl_internal_set_didSelectMissionLevelEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>,
+                                                                                                 ::UnityW<::GlobalNamespace::MissionNode>>* didSelectMissionLevelEvent;
 
-  /// @brief Method DeselectSelectedNode, addr 0x267d7ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DeselectSelectedNode, addr 0x3ba1574, size 0x1c, virtual false, abstract: false, final false
   inline void DeselectSelectedNode();
 
-  /// @brief Method DidActivate, addr 0x267d424, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3ba11b8, size 0x140, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x267d568, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3ba12f8, size 0x12c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleMissionNodeSelectionManagerDidSelectMissionNode, addr 0x267d698, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionNodeSelectionManagerDidSelectMissionNode, addr 0x3ba1424, size 0x90, virtual false, abstract: false, final false
   inline void HandleMissionNodeSelectionManagerDidSelectMissionNode(::GlobalNamespace::MissionNodeVisualController* missionNodeVisualController);
 
   static inline ::GlobalNamespace::MissionSelectionMapViewController* New_ctor();
 
-  /// @brief Method ShowMissionClearedAnimation, addr 0x267d7c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ShowMissionClearedAnimation, addr 0x3ba1550, size 0x24, virtual false, abstract: false, final false
   inline void ShowMissionClearedAnimation(::System::Action* finishCallback);
 
-  /// @brief Method SongPlayerCrossfadeToLevelAsync, addr 0x267d728, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SongPlayerCrossfadeToLevelAsync, addr 0x3ba14b4, size 0x9c, virtual false, abstract: false, final false
   inline void SongPlayerCrossfadeToLevelAsync(::GlobalNamespace::BeatmapLevel* level);
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
@@ -345,16 +351,16 @@ public:
 
   constexpr void __cordl_internal_set_didSelectMissionLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
-  /// @brief Method .ctor, addr 0x267d808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba1590, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectMissionLevelEvent, addr 0x267d2a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectMissionLevelEvent, addr 0x3ba103c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectMissionLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
-  /// @brief Method get_animatedUpdateIsRequired, addr 0x267d408, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_animatedUpdateIsRequired, addr 0x3ba119c, size 0x1c, virtual false, abstract: false, final false
   inline bool get_animatedUpdateIsRequired();
 
-  /// @brief Method remove_didSelectMissionLevelEvent, addr 0x267d358, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectMissionLevelEvent, addr 0x3ba10ec, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectMissionLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
 protected:
@@ -371,55 +377,58 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionSelectionMapViewController(MissionSelectionMapViewController const&) = delete;
 
-  /// @brief Field _mapScrollView, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _mapScrollView, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::ScrollView> ____mapScrollView;
 
-  /// @brief Field _missionNodeSelectionManager, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _missionNodeSelectionManager, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNodeSelectionManager> ____missionNodeSelectionManager;
 
-  /// @brief Field _missionMapAnimationController, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _missionMapAnimationController, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionMapAnimationController> ____missionMapAnimationController;
 
-  /// @brief Field _songPreviewPlayer, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _songPreviewPlayer, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;
 
-  /// @brief Field _perceivedLoudnessPerLevelModel, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _perceivedLoudnessPerLevelModel, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::PerceivedLoudnessPerLevelModel* ____perceivedLoudnessPerLevelModel;
 
-  /// @brief Field _audioClipAsyncLoader, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _audioClipAsyncLoader, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::AudioClipAsyncLoader* ____audioClipAsyncLoader;
 
-  /// @brief Field _beatmapLevelsModel, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _beatmapLevelsModel, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
-  /// @brief Field didSelectMissionLevelEvent, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field didSelectMissionLevelEvent, offset: 0xb0, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* ___didSelectMissionLevelEvent;
 
-  /// @brief Field _selectedMissionNode, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _selectedMissionNode, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNode> ____selectedMissionNode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4897 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionSelectionMapViewController, 0xb8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionSelectionMapViewController, 0xc0>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____mapScrollView) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____mapScrollView) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____missionNodeSelectionManager) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____missionNodeSelectionManager) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____missionMapAnimationController) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____missionMapAnimationController) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____songPreviewPlayer) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____songPreviewPlayer) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____perceivedLoudnessPerLevelModel) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____perceivedLoudnessPerLevelModel) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____audioClipAsyncLoader) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____audioClipAsyncLoader) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____beatmapLevelsModel) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____beatmapLevelsModel) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ___didSelectMissionLevelEvent) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ___didSelectMissionLevelEvent) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____selectedMissionNode) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController, ____selectedMissionNode) == 0xb8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionSelectionMapViewController);

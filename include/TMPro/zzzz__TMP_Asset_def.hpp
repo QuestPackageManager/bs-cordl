@@ -16,7 +16,7 @@ class TMP_Asset;
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_Asset);
 // Type: TMPro::TMP_Asset
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::TMP_Asset*
@@ -32,7 +32,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_InstanceID, put = __cordl_internal_set_m_InstanceID)) int32_t m_InstanceID;
 
   /// @brief Field material, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_material, put = __cordl_internal_set_material))::UnityW<::UnityEngine::Material> material;
+  __declspec(property(get = __cordl_internal_get_material, put = __cordl_internal_set_material)) ::UnityW<::UnityEngine::Material> material;
 
   /// @brief Field materialHashCode, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_materialHashCode, put = __cordl_internal_set_materialHashCode)) int32_t materialHashCode;
@@ -63,10 +63,10 @@ public:
 
   constexpr void __cordl_internal_set_materialHashCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x336dc60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474eb9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_instanceID, addr 0x336dc38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_instanceID, addr 0x474eb74, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
 protected:
@@ -94,6 +94,9 @@ public:
 
   /// @brief Field materialHashCode, offset: 0x28, size: 0x4, def value: None
   int32_t ___materialHashCode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14403 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

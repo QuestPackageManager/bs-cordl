@@ -4,6 +4,7 @@ module;
 
 #pragma once
 #include "UnityEngine/Audio/AudioClipPlayable.hpp"
+#include "UnityEngine/Audio/AudioManagerTestProxy.hpp"
 #include "UnityEngine/Audio/AudioMixer.hpp"
 #include "UnityEngine/Audio/AudioMixerGroup.hpp"
 #include "UnityEngine/Audio/AudioMixerPlayable.hpp"

@@ -38,7 +38,7 @@ struct __InternetConnectionChecker___IsConnectedToInternetAsync_d__0;
 MARK_REF_PTR_T(::GlobalNamespace::InternetConnectionChecker);
 MARK_VAL_T(::GlobalNamespace::__InternetConnectionChecker___IsConnectedToInternetAsync_d__0);
 // Type: ::<IsConnectedToInternetAsync>d__0
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::InternetConnectionChecker::<IsConnectedToInternetAsync>d__0
@@ -48,10 +48,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x278bc90, size 0x21c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bacf04, size 0x29c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x278beac, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3bad1a0, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -76,6 +76,9 @@ public:
   /// @brief Field <>u__1, offset: 0x20, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18468 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -92,7 +95,7 @@ static_assert(offsetof(::GlobalNamespace::__InternetConnectionChecker___IsConnec
 
 } // namespace GlobalNamespace
 // Type: ::InternetConnectionChecker
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::InternetConnectionChecker*
@@ -101,12 +104,12 @@ public:
   // Declarations
   using _IsConnectedToInternetAsync_d__0 = ::GlobalNamespace::__InternetConnectionChecker___IsConnectedToInternetAsync_d__0;
 
-  /// @brief Method IsConnectedToInternetAsync, addr 0x278bb9c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IsConnectedToInternetAsync, addr 0x3bace18, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* IsConnectedToInternetAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::InternetConnectionChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x278bc88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bacefc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,6 +125,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InternetConnectionChecker", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InternetConnectionChecker(InternetConnectionChecker const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18469 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

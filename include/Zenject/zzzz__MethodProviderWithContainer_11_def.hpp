@@ -42,7 +42,7 @@ class MethodProviderWithContainer_11;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MethodProviderWithContainer_11);
 // Type: Zenject::MethodProviderWithContainer`11
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
@@ -59,7 +59,7 @@ public:
   /// @brief Field _method, offset 0x10, size 0x8
   __declspec(property(
       get = __cordl_internal_get__method,
-      put = __cordl_internal_set__method))::System::Func_12<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TValue>* _method;
+      put = __cordl_internal_set__method)) ::System::Func_12<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TValue>* _method;
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
@@ -109,6 +109,9 @@ public:
 
   /// @brief Field _method, offset: 0x10, size: 0x8, def value: None
   ::System::Func_12<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TValue>* ____method;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12517 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

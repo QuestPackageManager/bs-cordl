@@ -29,32 +29,32 @@ class EncryptedPrivateKeyInfo;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo);
 // Type: Org.BouncyCastle.Asn1.Pkcs::EncryptedPrivateKeyInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::EncryptedPrivateKeyInfo*
 class CORDL_TYPE EncryptedPrivateKeyInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_EncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* EncryptionAlgorithm;
+  __declspec(property(get = get_EncryptionAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* EncryptionAlgorithm;
 
   /// @brief Field algId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_algId, put = __cordl_internal_set_algId))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId;
+  __declspec(property(get = __cordl_internal_get_algId, put = __cordl_internal_set_algId)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::Org::BouncyCastle::Asn1::Asn1OctetString* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::Org::BouncyCastle::Asn1::Asn1OctetString* data;
 
-  /// @brief Method GetEncryptedData, addr 0x11f84ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedData, addr 0x23cd530, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncryptedData();
 
-  /// @brief Method GetInstance, addr 0x11f835c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23cd3ac, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x11f850c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23cd550, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algId();
@@ -69,13 +69,13 @@ public:
 
   constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x11f82d8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cd330, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor, addr 0x11f81f4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cd250, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_EncryptionAlgorithm, addr 0x11f84e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgorithm, addr 0x23cd528, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithm();
 
 protected:
@@ -97,6 +97,9 @@ public:
 
   /// @brief Field data, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1OctetString* ___data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 234 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

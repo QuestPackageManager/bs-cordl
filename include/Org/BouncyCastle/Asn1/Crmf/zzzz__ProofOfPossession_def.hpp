@@ -34,19 +34,19 @@ class ProofOfPossession;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession);
 // Type: Org.BouncyCastle.Asn1.Crmf::ProofOfPossession
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::ProofOfPossession*
 class CORDL_TYPE ProofOfPossession : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_Object))::Org::BouncyCastle::Asn1::Asn1Encodable* Object;
+  __declspec(property(get = get_Object)) ::Org::BouncyCastle::Asn1::Asn1Encodable* Object;
 
   __declspec(property(get = get_Type)) int32_t Type;
 
   /// @brief Field obj, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj))::Org::BouncyCastle::Asn1::Asn1Encodable* obj;
+  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj)) ::Org::BouncyCastle::Asn1::Asn1Encodable* obj;
 
   /// @brief Field tagNo, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_tagNo, put = __cordl_internal_set_tagNo)) int32_t tagNo;
@@ -54,7 +54,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x10f4600, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22d19d0, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* New_ctor();
@@ -65,7 +65,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* New_ctor(int32_t type, ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* privkey);
 
-  /// @brief Method ToAsn1Object, addr 0x10f8c58, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22d5f0c, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_obj();
@@ -80,22 +80,22 @@ public:
 
   constexpr void __cordl_internal_set_tagNo(int32_t value);
 
-  /// @brief Method .ctor, addr 0x10f8b78, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d5e2c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x10f8be8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d5e9c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* Poposk);
 
-  /// @brief Method .ctor, addr 0x10f8a28, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d5ce0, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor, addr 0x10f8c18, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d5ecc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* privkey);
 
-  /// @brief Method get_Object, addr 0x10f8c50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Object, addr 0x22d5f04, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Object();
 
-  /// @brief Method get_Type, addr 0x10f8c48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x22d5efc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Type();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -132,6 +132,9 @@ public:
 
   /// @brief Field TYPE_SIGNING_KEY offset 0xffffffff size 0x4
   static constexpr int32_t TYPE_SIGNING_KEY{ static_cast<int32_t>(0x1) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 121 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

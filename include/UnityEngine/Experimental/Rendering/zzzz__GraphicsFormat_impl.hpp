@@ -154,3 +154,4 @@ constexpr ::UnityEngine::Experimental::Rendering::GraphicsFormat UnityEngine::Ex
 constexpr ::UnityEngine::Experimental::Rendering::GraphicsFormat UnityEngine::Experimental::Rendering::GraphicsFormat::RGBA_ASTC8X8_UFloat{ static_cast<int32_t>(0x94) };
 constexpr ::UnityEngine::Experimental::Rendering::GraphicsFormat UnityEngine::Experimental::Rendering::GraphicsFormat::RGBA_ASTC10X10_UFloat{ static_cast<int32_t>(0x95) };
 constexpr ::UnityEngine::Experimental::Rendering::GraphicsFormat UnityEngine::Experimental::Rendering::GraphicsFormat::RGBA_ASTC12X12_UFloat{ static_cast<int32_t>(0x96) };
+constexpr ::UnityEngine::Experimental::Rendering::GraphicsFormat UnityEngine::Experimental::Rendering::GraphicsFormat::D16_UNorm_S8_UInt{ static_cast<int32_t>(0x97) };

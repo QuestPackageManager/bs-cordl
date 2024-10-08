@@ -10,7 +10,7 @@ namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +19,7 @@ class BeatmapCharacteristicCollectionSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicCollectionSO);
 // Type: ::BeatmapCharacteristicCollectionSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapCharacteristicCollectionSO*
@@ -28,10 +28,11 @@ public:
   // Declarations
   /// @brief Field _beatmapCharacteristics, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCharacteristics,
-                      put = __cordl_internal_set__beatmapCharacteristics))::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>,
-                                                                                   ::Array<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> _beatmapCharacteristics;
+                      put =
+                          __cordl_internal_set__beatmapCharacteristics)) ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>
+      _beatmapCharacteristics;
 
-  __declspec(property(get = get_allBeatmapCharacteristics))::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* allBeatmapCharacteristics;
+  __declspec(property(get = get_allBeatmapCharacteristics)) ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* allBeatmapCharacteristics;
 
   static inline ::GlobalNamespace::BeatmapCharacteristicCollectionSO* New_ctor();
 
@@ -41,11 +42,11 @@ public:
 
   constexpr void __cordl_internal_set__beatmapCharacteristics(::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x14bb4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267416c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allBeatmapCharacteristics, addr 0x14bb4d8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* get_allBeatmapCharacteristics();
+  /// @brief Method get_allBeatmapCharacteristics, addr 0x2674164, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* get_allBeatmapCharacteristics();
 
 protected:
   // Ctor Parameters []
@@ -63,6 +64,9 @@ public:
 
   /// @brief Field _beatmapCharacteristics, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> ____beatmapCharacteristics;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12825 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

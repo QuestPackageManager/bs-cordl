@@ -50,14 +50,14 @@ MARK_REF_PTR_T(::Unity::Jobs::LowLevel::Unsafe::JobsUtility);
 MARK_REF_PTR_T(::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__PanicFunction_);
 MARK_VAL_T(::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters);
 // Type: ::JobScheduleParameters
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: true
 // CS Name: ::JobsUtility::JobScheduleParameters
 struct CORDL_TYPE __JobsUtility__JobScheduleParameters {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x340d95c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e80cc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<void> i_jobData, ::System::IntPtr i_reflectionData, ::Unity::Jobs::JobHandle i_dependency, ::Unity::Jobs::LowLevel::Unsafe::ScheduleMode i_scheduleMode);
 
   // Ctor Parameters []
@@ -80,6 +80,9 @@ public:
   /// @brief Field JobDataPtr, offset: 0x20, size: 0x8, def value: None
   ::System::IntPtr JobDataPtr;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10522 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -98,19 +101,19 @@ static_assert(offsetof(::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobSchedu
 
 } // namespace Unity::Jobs::LowLevel::Unsafe
 // Type: ::PanicFunction_
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: false
 // CS Name: ::JobsUtility::PanicFunction_*
 class CORDL_TYPE __JobsUtility__PanicFunction_ : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x340da50, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x47e818c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__PanicFunction_* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x340d994, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e8104, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -127,6 +130,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __JobsUtility__PanicFunction_(__JobsUtility__PanicFunction_ const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10523 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -134,7 +140,7 @@ static_assert(::cordl_internals::size_check_v<::Unity::Jobs::LowLevel::Unsafe::_
 
 } // namespace Unity::Jobs::LowLevel::Unsafe
 // Type: Unity.Jobs.LowLevel.Unsafe::JobsUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: false
 // CS Name: ::Unity.Jobs.LowLevel.Unsafe::JobsUtility*
@@ -146,39 +152,39 @@ public:
   using PanicFunction_ = ::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__PanicFunction_;
 
   /// @brief Field PanicFunction, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PanicFunction, put = setStaticF_PanicFunction))::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__PanicFunction_* PanicFunction;
+  static __declspec(property(get = getStaticF_PanicFunction, put = setStaticF_PanicFunction)) ::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__PanicFunction_* PanicFunction;
 
-  /// @brief Method CreateJobReflectionData, addr 0x340d85c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateJobReflectionData, addr 0x47e7fcc, size 0x60, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateJobReflectionData(::System::Type* type, ::System::Object* managedJobFunction0, ::System::Object* managedJobFunction1, ::System::Object* managedJobFunction2);
 
-  /// @brief Method CreateJobReflectionData, addr 0x340d7f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateJobReflectionData, addr 0x47e7f60, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateJobReflectionData(::System::Type* wrapperJobType, ::System::Type* userJobType, ::System::Object* managedJobFunction0, ::System::Object* managedJobFunction1,
                                                          ::System::Object* managedJobFunction2);
 
-  /// @brief Method GetWorkStealingRange, addr 0x340d634, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetWorkStealingRange, addr 0x47e7da4, size 0x5c, virtual false, abstract: false, final false
   static inline bool GetWorkStealingRange(ByRef<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex, ByRef<int32_t> beginIndex, ByRef<int32_t> endIndex);
 
-  /// @brief Method InvokePanicFunction, addr 0x340d8f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method InvokePanicFunction, addr 0x47e8068, size 0x64, virtual false, abstract: false, final false
   static inline void InvokePanicFunction();
 
-  /// @brief Method Schedule, addr 0x340d690, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Schedule, addr 0x47e7e00, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle Schedule(ByRef<::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters> parameters);
 
-  /// @brief Method ScheduleParallelFor, addr 0x340d728, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleParallelFor, addr 0x47e7e98, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleParallelFor(ByRef<::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters> parameters, int32_t arrayLength, int32_t innerloopBatchCount);
 
-  /// @brief Method ScheduleParallelFor_Injected, addr 0x340d794, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleParallelFor_Injected, addr 0x47e7f04, size 0x5c, virtual false, abstract: false, final false
   static inline void ScheduleParallelFor_Injected(ByRef<::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters> parameters, int32_t arrayLength, int32_t innerloopBatchCount,
                                                   ByRef<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method Schedule_Injected, addr 0x340d6e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Schedule_Injected, addr 0x47e7e54, size 0x44, virtual false, abstract: false, final false
   static inline void Schedule_Injected(ByRef<::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__JobScheduleParameters> parameters, ByRef<::Unity::Jobs::JobHandle> ret);
 
   static inline ::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__PanicFunction_* getStaticF_PanicFunction();
 
   static inline void setStaticF_PanicFunction(::Unity::Jobs::LowLevel::Unsafe::__JobsUtility__PanicFunction_* value);
 
-  /// @brief Method set_JobCompilerEnabled, addr 0x340d8bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_JobCompilerEnabled, addr 0x47e802c, size 0x3c, virtual false, abstract: false, final false
   static inline void set_JobCompilerEnabled(bool value);
 
 protected:
@@ -194,6 +200,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "JobsUtility", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   JobsUtility(JobsUtility const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10524 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

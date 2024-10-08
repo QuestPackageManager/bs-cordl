@@ -35,7 +35,7 @@ class XmlDataTreeWriter;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::XmlDataTreeWriter);
 // Type: System.Data::XmlDataTreeWriter
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::XmlDataTreeWriter*
@@ -43,13 +43,13 @@ class CORDL_TYPE XmlDataTreeWriter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _dTables, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__dTables, put = __cordl_internal_set__dTables))::System::Collections::ArrayList* _dTables;
+  __declspec(property(get = __cordl_internal_get__dTables, put = __cordl_internal_set__dTables)) ::System::Collections::ArrayList* _dTables;
 
   /// @brief Field _ds, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__ds, put = __cordl_internal_set__ds))::System::Data::DataSet* _ds;
+  __declspec(property(get = __cordl_internal_get__ds, put = __cordl_internal_set__ds)) ::System::Data::DataSet* _ds;
 
   /// @brief Field _dt, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__dt, put = __cordl_internal_set__dt))::System::Data::DataTable* _dt;
+  __declspec(property(get = __cordl_internal_get__dt, put = __cordl_internal_set__dt)) ::System::Data::DataTable* _dt;
 
   /// @brief Field _fFromTable, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__fFromTable, put = __cordl_internal_set__fFromTable)) bool _fFromTable;
@@ -58,44 +58,44 @@ public:
   __declspec(property(get = __cordl_internal_get__isDiffgram, put = __cordl_internal_set__isDiffgram)) bool _isDiffgram;
 
   /// @brief Field _rowsOrder, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__rowsOrder, put = __cordl_internal_set__rowsOrder))::System::Collections::Hashtable* _rowsOrder;
+  __declspec(property(get = __cordl_internal_get__rowsOrder, put = __cordl_internal_set__rowsOrder)) ::System::Collections::Hashtable* _rowsOrder;
 
   /// @brief Field _topLevelTables, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__topLevelTables,
-                      put = __cordl_internal_set__topLevelTables))::ArrayW<::System::Data::DataTable*, ::Array<::System::Data::DataTable*>*> _topLevelTables;
+  __declspec(property(get = __cordl_internal_get__topLevelTables, put = __cordl_internal_set__topLevelTables)) ::ArrayW<::System::Data::DataTable*, ::Array<::System::Data::DataTable*>*>
+      _topLevelTables;
 
   /// @brief Field _writeHierarchy, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get__writeHierarchy, put = __cordl_internal_set__writeHierarchy)) bool _writeHierarchy;
 
   /// @brief Field _xmlw, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__xmlw, put = __cordl_internal_set__xmlw))::System::Xml::XmlWriter* _xmlw;
+  __declspec(property(get = __cordl_internal_get__xmlw, put = __cordl_internal_set__xmlw)) ::System::Xml::XmlWriter* _xmlw;
 
-  /// @brief Method CreateTablesHierarchy, addr 0x2d4555c, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method CreateTablesHierarchy, addr 0x41436dc, size 0x384, virtual false, abstract: false, final false
   inline void CreateTablesHierarchy(::System::Data::DataTable* dt);
 
-  /// @brief Method CreateToplevelTables, addr 0x2d458e0, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method CreateToplevelTables, addr 0x4143a60, size 0x2ec, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataTable*, ::Array<::System::Data::DataTable*>*> CreateToplevelTables();
 
-  /// @brief Method GetNestedChildRelations, addr 0x2d47d84, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method GetNestedChildRelations, addr 0x4145f5c, size 0x348, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* GetNestedChildRelations(::System::Data::DataRow* row);
 
   static inline ::System::Data::XmlDataTreeWriter* New_ctor(::System::Data::DataSet* ds);
 
   static inline ::System::Data::XmlDataTreeWriter* New_ctor(::System::Data::DataTable* dt, bool writeHierarchy);
 
-  /// @brief Method PreserveSpace, addr 0x2d454a8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method PreserveSpace, addr 0x4143620, size 0xbc, virtual false, abstract: false, final false
   static inline bool PreserveSpace(::System::Object* value);
 
-  /// @brief Method RowHasErrors, addr 0x2d449d4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method RowHasErrors, addr 0x4142b5c, size 0xc8, virtual false, abstract: false, final false
   static inline bool RowHasErrors(::System::Data::DataRow* row);
 
-  /// @brief Method Save, addr 0x2d474b8, size 0x8cc, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x4145688, size 0x8d4, virtual false, abstract: false, final false
   inline void Save(::System::Xml::XmlWriter* xw, bool writeSchema);
 
-  /// @brief Method SaveDiffgramData, addr 0x2d43494, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method SaveDiffgramData, addr 0x4141618, size 0x6a8, virtual false, abstract: false, final false
   inline void SaveDiffgramData(::System::Xml::XmlWriter* xw, ::System::Collections::Hashtable* rowsOrder);
 
-  /// @brief Method XmlDataRowWriter, addr 0x2d45bb4, size 0x1904, virtual false, abstract: false, final false
+  /// @brief Method XmlDataRowWriter, addr 0x4143d4c, size 0x193c, virtual false, abstract: false, final false
   inline void XmlDataRowWriter(::System::Data::DataRow* row, ::StringW encodedTableName);
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__dTables();
@@ -152,10 +152,10 @@ public:
 
   constexpr void __cordl_internal_set__xmlw(::System::Xml::XmlWriter* value);
 
-  /// @brief Method .ctor, addr 0x2d43b3c, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4141cc0, size 0x344, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* ds);
 
-  /// @brief Method .ctor, addr 0x2d43340, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41414c8, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* dt, bool writeHierarchy);
 
 protected:
@@ -198,6 +198,9 @@ public:
 
   /// @brief Field _writeHierarchy, offset: 0x48, size: 0x1, def value: None
   bool ____writeHierarchy;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11449 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

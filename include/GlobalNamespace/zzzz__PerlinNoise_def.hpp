@@ -15,7 +15,7 @@ class PerlinNoise;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PerlinNoise);
 // Type: ::PerlinNoise
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PerlinNoise*
@@ -23,32 +23,32 @@ class CORDL_TYPE PerlinNoise : public ::System::Object {
 public:
   // Declarations
   /// @brief Field p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_p, put = setStaticF_p))::ArrayW<int32_t, ::Array<int32_t>*> p;
+  static __declspec(property(get = getStaticF_p, put = setStaticF_p)) ::ArrayW<int32_t, ::Array<int32_t>*> p;
 
   /// @brief Field permutation, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_permutation, put = setStaticF_permutation))::ArrayW<int32_t, ::Array<int32_t>*> permutation;
+  static __declspec(property(get = getStaticF_permutation, put = setStaticF_permutation)) ::ArrayW<int32_t, ::Array<int32_t>*> permutation;
 
-  /// @brief Method Fade, addr 0x2504028, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Fade, addr 0x395b39c, size 0x2c, virtual false, abstract: false, final false
   static inline float_t Fade(float_t t);
 
-  /// @brief Method Grad3D, addr 0x250406c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Grad3D, addr 0x395b3e0, size 0x74, virtual false, abstract: false, final false
   static inline float_t Grad3D(int32_t hash, float_t x, float_t y, float_t z);
 
-  /// @brief Method Inc, addr 0x2504054, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Inc, addr 0x395b3c8, size 0x18, virtual false, abstract: false, final false
   static inline int32_t Inc(int32_t num, int32_t repeat);
 
-  /// @brief Method Lerp, addr 0x25040e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x395b454, size 0x10, virtual false, abstract: false, final false
   static inline float_t Lerp(float_t a, float_t b, float_t x);
 
   static inline ::GlobalNamespace::PerlinNoise* New_ctor();
 
-  /// @brief Method OctavePerlin3D, addr 0x2503a14, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OctavePerlin3D, addr 0x395ad78, size 0xdc, virtual false, abstract: false, final false
   static inline float_t OctavePerlin3D(float_t x, float_t y, float_t z, int32_t octaves, float_t persistence, int32_t repeat);
 
-  /// @brief Method Perlin3D, addr 0x2503af0, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method Perlin3D, addr 0x395ae54, size 0x548, virtual false, abstract: false, final false
   static inline float_t Perlin3D(float_t x, float_t y, float_t z, int32_t repeat);
 
-  /// @brief Method .ctor, addr 0x25040f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395b464, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_p();
@@ -72,6 +72,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PerlinNoise", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PerlinNoise(PerlinNoise const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

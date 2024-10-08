@@ -15,7 +15,7 @@ class WaitUntil;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::WaitUntil);
 // Type: UnityEngine::WaitUntil
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::WaitUntil*
@@ -25,7 +25,7 @@ public:
   __declspec(property(get = get_keepWaiting)) bool keepWaiting;
 
   /// @brief Field m_Predicate, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Predicate, put = __cordl_internal_set_m_Predicate))::System::Func_1<bool>* m_Predicate;
+  __declspec(property(get = __cordl_internal_get_m_Predicate, put = __cordl_internal_set_m_Predicate)) ::System::Func_1<bool>* m_Predicate;
 
   static inline ::UnityEngine::WaitUntil* New_ctor(::System::Func_1<bool>* predicate);
 
@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Predicate(::System::Func_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x344536c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x483b268, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<bool>* predicate);
 
-  /// @brief Method get_keepWaiting, addr 0x344533c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_keepWaiting, addr 0x483b238, size 0x30, virtual true, abstract: false, final false
   inline bool get_keepWaiting();
 
 protected:
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field m_Predicate, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<bool>* ___m_Predicate;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10883 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

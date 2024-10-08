@@ -65,7 +65,7 @@ class __BeatmapObjectSpawnController__InitData;
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectSpawnController);
 MARK_REF_PTR_T(::GlobalNamespace::__BeatmapObjectSpawnController__InitData);
 // Type: ::InitData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapObjectSpawnController::InitData*
@@ -83,7 +83,7 @@ public:
 
   /// @brief Field noteJumpValueType, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_noteJumpValueType,
-                      put = __cordl_internal_set_noteJumpValueType))::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteJumpValueType noteJumpValueType;
+                      put = __cordl_internal_set_noteJumpValueType)) ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteJumpValueType noteJumpValueType;
 
   /// @brief Field noteLinesCount, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_noteLinesCount, put = __cordl_internal_set_noteLinesCount)) int32_t noteLinesCount;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_noteLinesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2643f0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a74bac, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(float_t beatsPerMinute, int32_t noteLinesCount, float_t noteJumpMovementSpeed, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteJumpValueType noteJumpValueType,
                     float_t noteJumpValue);
 
@@ -154,6 +154,9 @@ public:
   /// @brief Field noteJumpValue, offset: 0x20, size: 0x4, def value: None
   float_t ___noteJumpValue;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4057 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -171,7 +174,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectSpawnController__InitDa
 
 } // namespace GlobalNamespace
 // Type: ::BeatmapObjectSpawnController
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapObjectSpawnController*
@@ -180,51 +183,52 @@ public:
   // Declarations
   using InitData = ::GlobalNamespace::__BeatmapObjectSpawnController__InitData;
 
-  /// @brief Field _beatmapCallbacksController, offset 0x20, size 0x8
+  /// @brief Field _beatmapCallbacksController, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+                      put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _beatmapObjectSpawnMovementData, offset 0x18, size 0x8
+  /// @brief Field _beatmapObjectSpawnMovementData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnMovementData,
-                      put = __cordl_internal_set__beatmapObjectSpawnMovementData))::GlobalNamespace::BeatmapObjectSpawnMovementData* _beatmapObjectSpawnMovementData;
+                      put = __cordl_internal_set__beatmapObjectSpawnMovementData)) ::GlobalNamespace::BeatmapObjectSpawnMovementData* _beatmapObjectSpawnMovementData;
 
-  /// @brief Field _beatmapObjectSpawner, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawner, put = __cordl_internal_set__beatmapObjectSpawner))::GlobalNamespace::IBeatmapObjectSpawner* _beatmapObjectSpawner;
+  /// @brief Field _beatmapObjectSpawner, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawner, put = __cordl_internal_set__beatmapObjectSpawner)) ::GlobalNamespace::IBeatmapObjectSpawner* _beatmapObjectSpawner;
 
-  /// @brief Field _disableSpawning, offset 0x48, size 0x1
+  /// @brief Field _disableSpawning, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get__disableSpawning, put = __cordl_internal_set__disableSpawning)) bool _disableSpawning;
 
-  /// @brief Field _initData, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__BeatmapObjectSpawnController__InitData* _initData;
+  /// @brief Field _initData, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__BeatmapObjectSpawnController__InitData* _initData;
 
-  /// @brief Field _isInitialized, offset 0x49, size 0x1
+  /// @brief Field _isInitialized, offset 0x51, size 0x1
   __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
 
-  /// @brief Field _jumpOffsetYProvider, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__jumpOffsetYProvider, put = __cordl_internal_set__jumpOffsetYProvider))::GlobalNamespace::IJumpOffsetYProvider* _jumpOffsetYProvider;
+  /// @brief Field _jumpOffsetYProvider, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__jumpOffsetYProvider, put = __cordl_internal_set__jumpOffsetYProvider)) ::GlobalNamespace::IJumpOffsetYProvider* _jumpOffsetYProvider;
 
-  /// @brief Field _noteDataCallbackWrapper, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteDataCallbackWrapper, put = __cordl_internal_set__noteDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _noteDataCallbackWrapper;
+  /// @brief Field _noteDataCallbackWrapper, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__noteDataCallbackWrapper,
+                      put = __cordl_internal_set__noteDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _noteDataCallbackWrapper;
 
-  /// @brief Field _obstacleDataCallbackWrapper, offset 0x50, size 0x8
+  /// @brief Field _obstacleDataCallbackWrapper, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__obstacleDataCallbackWrapper,
-                      put = __cordl_internal_set__obstacleDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _obstacleDataCallbackWrapper;
+                      put = __cordl_internal_set__obstacleDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _obstacleDataCallbackWrapper;
 
-  /// @brief Field _sliderDataCallbackWrapper, offset 0x60, size 0x8
+  /// @brief Field _sliderDataCallbackWrapper, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__sliderDataCallbackWrapper,
-                      put = __cordl_internal_set__sliderDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _sliderDataCallbackWrapper;
+                      put = __cordl_internal_set__sliderDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _sliderDataCallbackWrapper;
 
-  /// @brief Field _spawnRotation, offset 0x70, size 0x4
+  /// @brief Field _spawnRotation, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get__spawnRotation, put = __cordl_internal_set__spawnRotation)) float_t _spawnRotation;
 
-  /// @brief Field _spawnRotationCallbackWrapper, offset 0x68, size 0x8
+  /// @brief Field _spawnRotationCallbackWrapper, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__spawnRotationCallbackWrapper,
-                      put = __cordl_internal_set__spawnRotationCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _spawnRotationCallbackWrapper;
+                      put = __cordl_internal_set__spawnRotationCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _spawnRotationCallbackWrapper;
 
-  __declspec(property(get = get_beatmapObjectSpawnMovementData))::GlobalNamespace::BeatmapObjectSpawnMovementData* beatmapObjectSpawnMovementData;
+  __declspec(property(get = get_beatmapObjectSpawnMovementData)) ::GlobalNamespace::BeatmapObjectSpawnMovementData* beatmapObjectSpawnMovementData;
 
-  /// @brief Field didInitEvent, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_didInitEvent, put = __cordl_internal_set_didInitEvent))::System::Action* didInitEvent;
+  /// @brief Field didInitEvent, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_didInitEvent, put = __cordl_internal_set_didInitEvent)) ::System::Action* didInitEvent;
 
   __declspec(property(get = get_isInitialized)) bool isInitialized;
 
@@ -247,33 +251,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapObjectSpawnController"
   constexpr operator ::GlobalNamespace::IBeatmapObjectSpawnController*() noexcept;
 
-  /// @brief Method Get2DNoteOffset, addr 0x2643d8c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Get2DNoteOffset, addr 0x3a74a30, size 0x28, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method HandleNoteDataCallback, addr 0x26438c4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDataCallback, addr 0x3a74568, size 0x108, virtual false, abstract: false, final false
   inline void HandleNoteDataCallback(::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method HandleObstacleDataCallback, addr 0x2643644, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleDataCallback, addr 0x3a742e4, size 0x110, virtual false, abstract: false, final false
   inline void HandleObstacleDataCallback(::GlobalNamespace::ObstacleData* obstacleData);
 
-  /// @brief Method HandleSliderDataCallback, addr 0x2643ac4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderDataCallback, addr 0x3a74770, size 0x118, virtual false, abstract: false, final false
   inline void HandleSliderDataCallback(::GlobalNamespace::SliderData* sliderNoteData);
 
-  /// @brief Method HandleSpawnRotationCallback, addr 0x2643d64, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnRotationCallback, addr 0x3a74a08, size 0x1c, virtual false, abstract: false, final false
   inline void HandleSpawnRotationCallback(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
 
-  /// @brief Method JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset, addr 0x2643dc4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset, addr 0x3a74a6c, size 0x18, virtual true, abstract: false, final true
   inline float_t JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, float_t distanceFromPlayer);
 
   static inline ::GlobalNamespace::BeatmapObjectSpawnController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26435ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a7427c, size 0x68, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2643118, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3a73db8, size 0x374, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopSpawning, addr 0x2643d80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StopSpawning, addr 0x3a74a24, size 0xc, virtual false, abstract: false, final false
   inline void StopSpawning();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -354,46 +358,46 @@ public:
 
   constexpr void __cordl_internal_set_didInitEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2643e4c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a74af4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didInitEvent, addr 0x2642fe0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didInitEvent, addr 0x3a73c80, size 0x9c, virtual true, abstract: false, final true
   inline void add_didInitEvent(::System::Action* value);
 
-  /// @brief Method get_beatmapObjectSpawnMovementData, addr 0x2642fd0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beatmapObjectSpawnMovementData, addr 0x3a73c70, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapObjectSpawnMovementData* get_beatmapObjectSpawnMovementData();
 
-  /// @brief Method get_isInitialized, addr 0x2642fd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isInitialized, addr 0x3a73c78, size 0x8, virtual true, abstract: false, final true
   inline bool get_isInitialized();
 
-  /// @brief Method get_jumpDistance, addr 0x2642f40, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_jumpDistance, addr 0x3a73be0, size 0x1c, virtual true, abstract: false, final true
   inline float_t get_jumpDistance();
 
-  /// @brief Method get_jumpDuration, addr 0x2642f24, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_jumpDuration, addr 0x3a73bc4, size 0x1c, virtual true, abstract: false, final true
   inline float_t get_jumpDuration();
 
-  /// @brief Method get_jumpOffsetY, addr 0x2642e50, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_jumpOffsetY, addr 0x3a73af0, size 0x18, virtual true, abstract: false, final true
   inline float_t get_jumpOffsetY();
 
-  /// @brief Method get_moveDuration, addr 0x2642f08, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_moveDuration, addr 0x3a73ba8, size 0x1c, virtual true, abstract: false, final true
   inline float_t get_moveDuration();
 
-  /// @brief Method get_noteJumpMovementSpeed, addr 0x2642f88, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_noteJumpMovementSpeed, addr 0x3a73c28, size 0x1c, virtual true, abstract: false, final true
   inline float_t get_noteJumpMovementSpeed();
 
-  /// @brief Method get_noteLinesCount, addr 0x2642e34, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_noteLinesCount, addr 0x3a73ad4, size 0x1c, virtual true, abstract: false, final true
   inline int32_t get_noteLinesCount();
 
-  /// @brief Method get_noteLinesDistance, addr 0x2642fa4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_noteLinesDistance, addr 0x3a73c44, size 0x20, virtual true, abstract: false, final true
   inline float_t get_noteLinesDistance();
 
-  /// @brief Method get_verticalLayerDistance, addr 0x2642f5c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_verticalLayerDistance, addr 0x3a73bfc, size 0x20, virtual true, abstract: false, final true
   inline float_t get_verticalLayerDistance();
 
   /// @brief Convert to "::GlobalNamespace::IBeatmapObjectSpawnController"
   constexpr ::GlobalNamespace::IBeatmapObjectSpawnController* i___GlobalNamespace__IBeatmapObjectSpawnController() noexcept;
 
-  /// @brief Method remove_didInitEvent, addr 0x264307c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didInitEvent, addr 0x3a73d1c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didInitEvent(::System::Action* value);
 
 protected:
@@ -410,75 +414,78 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapObjectSpawnController(BeatmapObjectSpawnController const&) = delete;
 
-  /// @brief Field _beatmapObjectSpawnMovementData, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _beatmapObjectSpawnMovementData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectSpawnMovementData* ____beatmapObjectSpawnMovementData;
 
-  /// @brief Field _beatmapCallbacksController, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _beatmapCallbacksController, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-  /// @brief Field _beatmapObjectSpawner, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _beatmapObjectSpawner, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapObjectSpawner* ____beatmapObjectSpawner;
 
-  /// @brief Field _jumpOffsetYProvider, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _jumpOffsetYProvider, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IJumpOffsetYProvider* ____jumpOffsetYProvider;
 
-  /// @brief Field _initData, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _initData, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::__BeatmapObjectSpawnController__InitData* ____initData;
 
-  /// @brief Field didInitEvent, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field didInitEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___didInitEvent;
 
-  /// @brief Field _disableSpawning, offset: 0x48, size: 0x1, def value: None
+  /// @brief Field _disableSpawning, offset: 0x50, size: 0x1, def value: None
   bool ____disableSpawning;
 
-  /// @brief Field _isInitialized, offset: 0x49, size: 0x1, def value: None
+  /// @brief Field _isInitialized, offset: 0x51, size: 0x1, def value: None
   bool ____isInitialized;
 
-  /// @brief Field _obstacleDataCallbackWrapper, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _obstacleDataCallbackWrapper, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____obstacleDataCallbackWrapper;
 
-  /// @brief Field _noteDataCallbackWrapper, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _noteDataCallbackWrapper, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____noteDataCallbackWrapper;
 
-  /// @brief Field _sliderDataCallbackWrapper, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _sliderDataCallbackWrapper, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____sliderDataCallbackWrapper;
 
-  /// @brief Field _spawnRotationCallbackWrapper, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _spawnRotationCallbackWrapper, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____spawnRotationCallbackWrapper;
 
-  /// @brief Field _spawnRotation, offset: 0x70, size: 0x4, def value: None
+  /// @brief Field _spawnRotation, offset: 0x78, size: 0x4, def value: None
   float_t ____spawnRotation;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4058 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectSpawnController, 0x78>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapObjectSpawnController, 0x80>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____beatmapObjectSpawnMovementData) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____beatmapObjectSpawnMovementData) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____beatmapCallbacksController) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____beatmapCallbacksController) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____beatmapObjectSpawner) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____beatmapObjectSpawner) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____jumpOffsetYProvider) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____jumpOffsetYProvider) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____initData) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____initData) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ___didInitEvent) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ___didInitEvent) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____disableSpawning) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____disableSpawning) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____isInitialized) == 0x49, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____isInitialized) == 0x51, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____obstacleDataCallbackWrapper) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____obstacleDataCallbackWrapper) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____noteDataCallbackWrapper) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____noteDataCallbackWrapper) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____sliderDataCallbackWrapper) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____sliderDataCallbackWrapper) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____spawnRotationCallbackWrapper) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____spawnRotationCallbackWrapper) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____spawnRotation) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapObjectSpawnController, ____spawnRotation) == 0x78, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapObjectSpawnController);

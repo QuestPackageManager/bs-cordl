@@ -20,27 +20,30 @@ class TimelineUndo;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::TimelineUndo);
 // Type: UnityEngine.Timeline::TimelineUndo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::TimelineUndo*
 class CORDL_TYPE TimelineUndo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PushDestroyUndo, addr 0x33dfc40, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method PushDestroyUndo, addr 0x47b78f4, size 0x88, virtual false, abstract: false, final false
   static inline void PushDestroyUndo(::UnityEngine::Timeline::TimelineAsset* timeline, ::UnityEngine::Object* thingToDirty, ::UnityEngine::Object* objectToDestroy);
 
-  /// @brief Method PushUndo, addr 0x33dfccc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PushUndo, addr 0x47b7980, size 0x4, virtual false, abstract: false, final false
   static inline void PushUndo(::UnityEngine::Object* thingToDirty, ::StringW operation);
 
-  /// @brief Method PushUndo, addr 0x33dfcc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PushUndo, addr 0x47b797c, size 0x4, virtual false, abstract: false, final false
   static inline void PushUndo(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> thingsToDirty, ::StringW operation);
 
-  /// @brief Method RegisterCreatedObjectUndo, addr 0x33dfcd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RegisterCreatedObjectUndo, addr 0x47b7984, size 0x4, virtual false, abstract: false, final false
   static inline void RegisterCreatedObjectUndo(::UnityEngine::Object* thingCreated, ::StringW operation);
 
-  /// @brief Method UndoName, addr 0x33dfcd4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UndoName, addr 0x47b7988, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW UndoName(::StringW name);
+
+  /// @brief Method get_undoEnabled, addr 0x47b78ec, size 0x8, virtual false, abstract: false, final false
+  static inline bool get_undoEnabled();
 
 protected:
   // Ctor Parameters []
@@ -55,6 +58,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TimelineUndo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TimelineUndo(TimelineUndo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15855 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

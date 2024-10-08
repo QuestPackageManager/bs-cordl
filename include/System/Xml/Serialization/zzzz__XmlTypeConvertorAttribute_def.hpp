@@ -13,17 +13,17 @@ class XmlTypeConvertorAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlTypeConvertorAttribute);
 // Type: System.Xml.Serialization::XmlTypeConvertorAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlTypeConvertorAttribute*
 class CORDL_TYPE XmlTypeConvertorAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_Method, put = set_Method))::StringW Method;
+  __declspec(property(get = get_Method, put = set_Method)) ::StringW Method;
 
   /// @brief Field <Method>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Method_k__BackingField, put = __cordl_internal_set__Method_k__BackingField))::StringW _Method_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Method_k__BackingField, put = __cordl_internal_set__Method_k__BackingField)) ::StringW _Method_k__BackingField;
 
   static inline ::System::Xml::Serialization::XmlTypeConvertorAttribute* New_ctor(::StringW method);
 
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__Method_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ef41f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42f1ab8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW method);
 
-  /// @brief Method get_Method, addr 0x2ef41e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x42f1aa8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Method();
 
-  /// @brief Method set_Method, addr 0x2ef41e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Method, addr 0x42f1ab0, size 0x8, virtual false, abstract: false, final false
   inline void set_Method(::StringW value);
 
 protected:
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field <Method>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Method_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7367 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

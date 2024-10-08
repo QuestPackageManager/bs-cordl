@@ -17,7 +17,7 @@ class HttpTransferUpdate;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::HttpTransferUpdate);
 // Type: Oculus.Platform.Models::HttpTransferUpdate
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::HttpTransferUpdate*
@@ -28,7 +28,7 @@ public:
   __declspec(property(get = __cordl_internal_get_IsCompleted, put = __cordl_internal_set_IsCompleted)) bool IsCompleted;
 
   /// @brief Field Payload, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Payload, put = __cordl_internal_set_Payload))::ArrayW<uint8_t, ::Array<uint8_t>*> Payload;
+  __declspec(property(get = __cordl_internal_get_Payload, put = __cordl_internal_set_Payload)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Payload;
 
   /// @brief Field ID, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2b10190, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1b300, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field IsCompleted, offset: 0x20, size: 0x1, def value: None
   bool ___IsCompleted;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15475 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

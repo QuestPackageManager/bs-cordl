@@ -12,7 +12,7 @@ class AutoSetupData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AutoSetupData);
 // Type: ::AutoSetupData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AutoSetupData*
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_selectBasedOnSuggestions(bool value);
 
-  /// @brief Method .ctor, addr 0x2657b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae0e4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field randomSongIfNoneSuggested, offset: 0x13, size: 0x1, def value: None
   bool ___randomSongIfNoneSuggested;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5287 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

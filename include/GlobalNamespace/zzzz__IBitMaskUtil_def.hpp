@@ -16,7 +16,7 @@ class IBitMaskUtil;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IBitMaskUtil);
 // Type: ::IBitMaskUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IBitMaskUtil*
@@ -26,13 +26,13 @@ public:
   /// @brief Method FromBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
 
-  /// @brief Method GetBase64Char, addr 0x15144f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBase64Char, addr 0x26de864, size 0x44, virtual false, abstract: false, final false
   static inline char16_t GetBase64Char(uint64_t digit);
 
-  /// @brief Method GetBase64Digit, addr 0x1514488, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetBase64Digit, addr 0x26de7f8, size 0x6c, virtual false, abstract: false, final false
   static inline uint32_t GetBase64Digit(char16_t c);
 
-  /// @brief Method GetHexDigit, addr 0x1514438, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetHexDigit, addr 0x26de7a8, size 0x50, virtual false, abstract: false, final false
   static inline uint32_t GetHexDigit(char16_t c);
 
   /// @brief Method NumberOfSetBits, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -63,6 +63,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IBitMaskUtil", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IBitMaskUtil(IBitMaskUtil const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16934 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

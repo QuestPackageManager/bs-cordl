@@ -36,28 +36,28 @@ class MemberDescriptor;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::MemberDescriptor);
 // Type: System.ComponentModel::MemberDescriptor
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::MemberDescriptor*
 class CORDL_TYPE MemberDescriptor : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AttributeArray, put = set_AttributeArray))::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> AttributeArray;
+  __declspec(property(get = get_AttributeArray, put = set_AttributeArray)) ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> AttributeArray;
 
-  __declspec(property(get = get_Attributes))::System::ComponentModel::AttributeCollection* Attributes;
+  __declspec(property(get = get_Attributes)) ::System::ComponentModel::AttributeCollection* Attributes;
 
-  __declspec(property(get = get_DisplayName))::StringW DisplayName;
+  __declspec(property(get = get_DisplayName)) ::StringW DisplayName;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
   __declspec(property(get = get_NameHashCode)) int32_t NameHashCode;
 
   /// @brief Field attributeCollection, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_attributeCollection, put = __cordl_internal_set_attributeCollection))::System::ComponentModel::AttributeCollection* attributeCollection;
+  __declspec(property(get = __cordl_internal_get_attributeCollection, put = __cordl_internal_set_attributeCollection)) ::System::ComponentModel::AttributeCollection* attributeCollection;
 
   /// @brief Field attributes, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes))::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes;
+  __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes)) ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes;
 
   /// @brief Field attributesFilled, offset 0x41, size 0x1
   __declspec(property(get = __cordl_internal_get_attributesFilled, put = __cordl_internal_set_attributesFilled)) bool attributesFilled;
@@ -66,58 +66,58 @@ public:
   __declspec(property(get = __cordl_internal_get_attributesFiltered, put = __cordl_internal_set_attributesFiltered)) bool attributesFiltered;
 
   /// @brief Field category, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_category, put = __cordl_internal_set_category))::StringW category;
+  __declspec(property(get = __cordl_internal_get_category, put = __cordl_internal_set_category)) ::StringW category;
 
   /// @brief Field description, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description))::StringW description;
+  __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description)) ::StringW description;
 
   /// @brief Field displayName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_displayName, put = __cordl_internal_set_displayName))::StringW displayName;
+  __declspec(property(get = __cordl_internal_get_displayName, put = __cordl_internal_set_displayName)) ::StringW displayName;
 
   /// @brief Field lockCookie, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_lockCookie, put = __cordl_internal_set_lockCookie))::System::Object* lockCookie;
+  __declspec(property(get = __cordl_internal_get_lockCookie, put = __cordl_internal_set_lockCookie)) ::System::Object* lockCookie;
 
   /// @brief Field metadataVersion, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_metadataVersion, put = __cordl_internal_set_metadataVersion)) int32_t metadataVersion;
 
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   /// @brief Field nameHash, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_nameHash, put = __cordl_internal_set_nameHash)) int32_t nameHash;
 
   /// @brief Field originalAttributes, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_originalAttributes, put = __cordl_internal_set_originalAttributes))::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> originalAttributes;
+  __declspec(property(get = __cordl_internal_get_originalAttributes, put = __cordl_internal_set_originalAttributes)) ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> originalAttributes;
 
-  /// @brief Method CheckAttributesValid, addr 0x2f7ab24, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CheckAttributesValid, addr 0x43e9658, size 0xb0, virtual false, abstract: false, final false
   inline void CheckAttributesValid();
 
-  /// @brief Method CreateAttributeCollection, addr 0x2f7b648, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method CreateAttributeCollection, addr 0x43ea194, size 0x74, virtual true, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* CreateAttributeCollection();
 
-  /// @brief Method Equals, addr 0x2f7b6c4, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x43ea208, size 0x274, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method FillAttributes, addr 0x2f745f8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method FillAttributes, addr 0x43ea47c, size 0xf4, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributeList);
 
-  /// @brief Method FilterAttributesIfNeeded, addr 0x2f7abd4, size 0x748, virtual false, abstract: false, final false
+  /// @brief Method FilterAttributesIfNeeded, addr 0x43e9708, size 0x764, virtual false, abstract: false, final false
   inline void FilterAttributesIfNeeded();
 
-  /// @brief Method FindMethod, addr 0x2f74b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FindMethod, addr 0x43ea570, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* FindMethod(::System::Type* componentClass, ::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> args, ::System::Type* returnType);
 
-  /// @brief Method FindMethod, addr 0x2f7b928, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method FindMethod, addr 0x43ea578, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* FindMethod(::System::Type* componentClass, ::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> args, ::System::Type* returnType,
                                                              bool publicOnly);
 
-  /// @brief Method GetHashCode, addr 0x2f7b9cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x43ea61c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetInvocationTarget, addr 0x2f7b9d4, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetInvocationTarget, addr 0x43ea624, size 0x108, virtual true, abstract: false, final false
   inline ::System::Object* GetInvocationTarget(::System::Type* type, ::System::Object* instance);
 
-  /// @brief Method GetSite, addr 0x2f7c1b8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetSite, addr 0x43eadc8, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::ISite* GetSite(::System::Object* component);
 
   static inline ::System::ComponentModel::MemberDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
@@ -197,28 +197,28 @@ public:
 
   constexpr void __cordl_internal_set_originalAttributes(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
 
-  /// @brief Method .ctor, addr 0x2f7a538, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e9070, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method .ctor, addr 0x2f7a6dc, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e9200, size 0x438, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::MemberDescriptor* oldMemberDescriptor, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> newAttributes);
 
-  /// @brief Method get_AttributeArray, addr 0x2f7ab04, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_AttributeArray, addr 0x43e9638, size 0x20, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> get_AttributeArray();
 
-  /// @brief Method get_Attributes, addr 0x2f7b3e0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x43e9f30, size 0xe4, virtual true, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* get_Attributes();
 
-  /// @brief Method get_DisplayName, addr 0x2f7b520, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x43ea06c, size 0x128, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_Name, addr 0x2f7b4c8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x43ea014, size 0x50, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameHashCode, addr 0x2f7b518, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameHashCode, addr 0x43ea064, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_NameHashCode();
 
-  /// @brief Method set_AttributeArray, addr 0x2f7b31c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method set_AttributeArray, addr 0x43e9e6c, size 0xc4, virtual true, abstract: false, final false
   inline void set_AttributeArray(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
 
 protected:
@@ -270,6 +270,9 @@ public:
 
   /// @brief Field lockCookie, offset: 0x58, size: 0x8, def value: None
   ::System::Object* ___lockCookie;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9410 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

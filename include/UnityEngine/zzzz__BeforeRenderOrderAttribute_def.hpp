@@ -13,7 +13,7 @@ class BeforeRenderOrderAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::BeforeRenderOrderAttribute);
 // Type: UnityEngine::BeforeRenderOrderAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::BeforeRenderOrderAttribute*
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__order_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3434320, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fb718, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t order);
 
-  /// @brief Method get_order, addr 0x3434310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x47fb708, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
-  /// @brief Method set_order, addr 0x3434318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_order, addr 0x47fb710, size 0x8, virtual false, abstract: false, final false
   inline void set_order(int32_t value);
 
 protected:
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field <order>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____order_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10668 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

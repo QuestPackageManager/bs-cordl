@@ -37,7 +37,7 @@ template <typename T> class MirroredNoteController_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::MirroredNoteController_1);
 // Type: ::MirroredNoteController`1
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -46,36 +46,37 @@ template <typename T>
 class CORDL_TYPE MirroredNoteController_1 : public ::GlobalNamespace::NoteControllerBase {
 public:
   // Declarations
-  /// @brief Field _didInitEvent, offset 0x30, size 0x8
+  /// @brief Field _didInitEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__didInitEvent,
-                      put = __cordl_internal_set__didInitEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* _didInitEvent;
+                      put = __cordl_internal_set__didInitEvent)) ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* _didInitEvent;
 
-  /// @brief Field _followedNoteTransform, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__followedNoteTransform, put = __cordl_internal_set__followedNoteTransform))::UnityW<::UnityEngine::Transform> _followedNoteTransform;
+  /// @brief Field _followedNoteTransform, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__followedNoteTransform, put = __cordl_internal_set__followedNoteTransform)) ::UnityW<::UnityEngine::Transform> _followedNoteTransform;
 
-  /// @brief Field _noteDidPassJumpThreeQuartersEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteDidPassJumpThreeQuartersEvent, put = __cordl_internal_set__noteDidPassJumpThreeQuartersEvent))::GlobalNamespace::LazyCopyHashSet_1<
-      ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* _noteDidPassJumpThreeQuartersEvent;
+  /// @brief Field _noteDidPassJumpThreeQuartersEvent, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__noteDidPassJumpThreeQuartersEvent,
+                      put = __cordl_internal_set__noteDidPassJumpThreeQuartersEvent)) ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>*
+      _noteDidPassJumpThreeQuartersEvent;
 
-  /// @brief Field _noteDidStartDissolvingEvent, offset 0x40, size 0x8
+  /// @brief Field _noteDidStartDissolvingEvent, offset 0x48, size 0x8
   __declspec(property(
       get = __cordl_internal_get__noteDidStartDissolvingEvent,
-      put = __cordl_internal_set__noteDidStartDissolvingEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* _noteDidStartDissolvingEvent;
+      put = __cordl_internal_set__noteDidStartDissolvingEvent)) ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* _noteDidStartDissolvingEvent;
 
-  /// @brief Field _noteTransform, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteTransform, put = __cordl_internal_set__noteTransform))::UnityW<::UnityEngine::Transform> _noteTransform;
+  /// @brief Field _noteTransform, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__noteTransform, put = __cordl_internal_set__noteTransform)) ::UnityW<::UnityEngine::Transform> _noteTransform;
 
-  __declspec(property(get = get_didInitEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* didInitEvent;
+  __declspec(property(get = get_didInitEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* didInitEvent;
 
-  /// @brief Field followedNote, offset 0x20, size 0x8
+  /// @brief Field followedNote, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_followedNote, put = __cordl_internal_set_followedNote)) T followedNote;
 
-  __declspec(property(get = get_noteData))::GlobalNamespace::NoteData* noteData;
+  __declspec(property(get = get_noteData)) ::GlobalNamespace::NoteData* noteData;
 
   __declspec(property(
-      get = get_noteDidPassJumpThreeQuartersEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* noteDidPassJumpThreeQuartersEvent;
+      get = get_noteDidPassJumpThreeQuartersEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* noteDidPassJumpThreeQuartersEvent;
 
-  __declspec(property(get = get_noteDidStartDissolvingEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* noteDidStartDissolvingEvent;
+  __declspec(property(get = get_noteDidStartDissolvingEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* noteDidStartDissolvingEvent;
 
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*() noexcept;
@@ -182,23 +183,26 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MirroredNoteController_1(MirroredNoteController_1 const&) = delete;
 
-  /// @brief Field _noteTransform, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _noteTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____noteTransform;
 
-  /// @brief Field followedNote, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field followedNote, offset: 0x28, size: 0x8, def value: None
   T ___followedNote;
 
-  /// @brief Field _followedNoteTransform, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _followedNoteTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____followedNoteTransform;
 
-  /// @brief Field _didInitEvent, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _didInitEvent, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* ____didInitEvent;
 
-  /// @brief Field _noteDidPassJumpThreeQuartersEvent, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _noteDidPassJumpThreeQuartersEvent, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* ____noteDidPassJumpThreeQuartersEvent;
 
-  /// @brief Field _noteDidStartDissolvingEvent, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _noteDidStartDissolvingEvent, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* ____noteDidStartDissolvingEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4094 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

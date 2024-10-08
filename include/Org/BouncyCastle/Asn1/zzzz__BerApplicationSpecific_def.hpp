@@ -16,7 +16,7 @@ class BerApplicationSpecific;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerApplicationSpecific);
 // Type: Org.BouncyCastle.Asn1::BerApplicationSpecific
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::BerApplicationSpecific*
@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerApplicationSpecific* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* vec);
 
-  /// @brief Method .ctor, addr 0x142df08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f274c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* vec);
 
 protected:
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BerApplicationSpecific", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BerApplicationSpecific(BerApplicationSpecific const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

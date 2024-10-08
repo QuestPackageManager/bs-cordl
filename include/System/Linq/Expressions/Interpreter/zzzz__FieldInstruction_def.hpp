@@ -16,7 +16,7 @@ class FieldInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::FieldInstruction);
 // Type: System.Linq.Expressions.Interpreter::FieldInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::FieldInstruction*
@@ -24,11 +24,11 @@ class CORDL_TYPE FieldInstruction : public ::System::Linq::Expressions::Interpre
 public:
   // Declarations
   /// @brief Field _field, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__field, put = __cordl_internal_set__field))::System::Reflection::FieldInfo* _field;
+  __declspec(property(get = __cordl_internal_get__field, put = __cordl_internal_set__field)) ::System::Reflection::FieldInfo* _field;
 
   static inline ::System::Linq::Expressions::Interpreter::FieldInstruction* New_ctor(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method ToString, addr 0x2c4efb8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4053308, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Reflection::FieldInfo*& __cordl_internal_get__field();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__field(::System::Reflection::FieldInfo* value);
 
-  /// @brief Method .ctor, addr 0x2c4ef88, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40532d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::FieldInfo* field);
 
 protected:
@@ -56,6 +56,9 @@ public:
 
   /// @brief Field _field, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::FieldInfo* ____field;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

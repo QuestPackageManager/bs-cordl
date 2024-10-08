@@ -17,7 +17,7 @@ class BaseDigestCalculator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::BaseDigestCalculator);
 // Type: Org.BouncyCastle.Cms::BaseDigestCalculator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::BaseDigestCalculator*
@@ -25,12 +25,12 @@ class CORDL_TYPE BaseDigestCalculator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field digest, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::ArrayW<uint8_t, ::Array<uint8_t>*> digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest)) ::ArrayW<uint8_t, ::Array<uint8_t>*> digest;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::IDigestCalculator"
   constexpr operator ::Org::BouncyCastle::Cms::IDigestCalculator*() noexcept;
 
-  /// @brief Method GetDigest, addr 0x144b548, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method GetDigest, addr 0x260e750, size 0x5c, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
   static inline ::Org::BouncyCastle::Cms::BaseDigestCalculator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x144b520, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260e728, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::IDigestCalculator"
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field digest, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___digest;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 611 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

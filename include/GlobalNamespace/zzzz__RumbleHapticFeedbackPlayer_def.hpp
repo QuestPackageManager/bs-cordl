@@ -39,7 +39,7 @@ class __RumbleHapticFeedbackPlayer__RumbleData;
 MARK_REF_PTR_T(::GlobalNamespace::RumbleHapticFeedbackPlayer);
 MARK_REF_PTR_T(::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData);
 // Type: ::RumbleData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RumbleHapticFeedbackPlayer::RumbleData*
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_strength(float_t value);
 
-  /// @brief Method .ctor, addr 0x250df80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3966250, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,6 +125,9 @@ public:
   /// @brief Field frequency, offset: 0x1c, size: 0x4, def value: None
   float_t ___frequency;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16437 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -142,7 +145,7 @@ static_assert(offsetof(::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleDa
 
 } // namespace GlobalNamespace
 // Type: ::RumbleHapticFeedbackPlayer
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RumbleHapticFeedbackPlayer*
@@ -151,31 +154,31 @@ public:
   // Declarations
   using RumbleData = ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData;
 
-  /// @brief Field _rumblesByNode, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__rumblesByNode, put = __cordl_internal_set__rumblesByNode))::System::Collections::Generic::Dictionary_2<
+  /// @brief Field _rumblesByNode, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__rumblesByNode, put = __cordl_internal_set__rumblesByNode)) ::System::Collections::Generic::Dictionary_2<
       ::UnityEngine::XR::XRNode, ::System::Collections::Generic::Dictionary_2<::System::Object*, ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData*>*>* _rumblesByNode;
 
-  /// @brief Field _vrPlatformHelper, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  /// @brief Field _vrPlatformHelper, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
   /// @brief Convert operator to "::GlobalNamespace::IHapticFeedbackPlayer"
   constexpr operator ::GlobalNamespace::IHapticFeedbackPlayer*() noexcept;
 
-  /// @brief Method CanPlayHapticPreset, addr 0x250dab8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x3965d88, size 0x40, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetRumble, addr 0x250d934, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetRumble, addr 0x3965c0c, size 0x17c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData* GetRumble(::UnityEngine::XR::XRNode node, ::System::Object* preset);
 
-  /// @brief Method LateUpdate, addr 0x250daf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3965dc8, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::RumbleHapticFeedbackPlayer* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x2506af0, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x395e0d0, size 0xc8, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method UpdateRumbles, addr 0x250dafc, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method UpdateRumbles, addr 0x3965dcc, size 0x484, virtual false, abstract: false, final false
   inline void UpdateRumbles();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode,
@@ -196,7 +199,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x250df88, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3966258, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"
@@ -216,12 +219,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RumbleHapticFeedbackPlayer(RumbleHapticFeedbackPlayer const&) = delete;
 
-  /// @brief Field _vrPlatformHelper, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _vrPlatformHelper, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
-  /// @brief Field _rumblesByNode, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _rumblesByNode, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode,
                                                ::System::Collections::Generic::Dictionary_2<::System::Object*, ::GlobalNamespace::__RumbleHapticFeedbackPlayer__RumbleData*>*>* ____rumblesByNode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16438 };
 
   /// @brief Field kContinuousRumbleFrameDuration offset 0xffffffff size 0x4
   static constexpr float_t kContinuousRumbleFrameDuration{ 0.016666668 };
@@ -229,11 +235,11 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RumbleHapticFeedbackPlayer, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RumbleHapticFeedbackPlayer, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RumbleHapticFeedbackPlayer, ____vrPlatformHelper) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RumbleHapticFeedbackPlayer, ____vrPlatformHelper) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RumbleHapticFeedbackPlayer, ____rumblesByNode) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RumbleHapticFeedbackPlayer, ____rumblesByNode) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RumbleHapticFeedbackPlayer);

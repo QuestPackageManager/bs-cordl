@@ -25,40 +25,40 @@ class XmlProcessingInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlProcessingInstruction);
 // Type: System.Xml::XmlProcessingInstruction
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::XmlProcessingInstruction*
 class CORDL_TYPE XmlProcessingInstruction : public ::System::Xml::XmlLinkedNode {
 public:
   // Declarations
-  __declspec(property(put = set_Data))::StringW Data;
+  __declspec(property(put = set_Data)) ::StringW Data;
 
-  __declspec(property(get = get_InnerText, put = set_InnerText))::StringW InnerText;
+  __declspec(property(get = get_InnerText, put = set_InnerText)) ::StringW InnerText;
 
-  __declspec(property(get = get_LocalName))::StringW LocalName;
+  __declspec(property(get = get_LocalName)) ::StringW LocalName;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
+  __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
 
-  __declspec(property(get = get_Value, put = set_Value))::StringW Value;
+  __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
 
   /// @brief Field data, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::StringW data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::StringW data;
 
   /// @brief Field target, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::StringW target;
+  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target)) ::StringW target;
 
-  /// @brief Method CloneNode, addr 0x2ed48f8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x42d29c8, size 0x38, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlProcessingInstruction* New_ctor(::StringW target, ::StringW data, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x2ed495c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x42d2a2c, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x2ed4930, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x42d2a00, size 0x2c, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
   constexpr ::StringW const& __cordl_internal_get_data() const;
@@ -73,31 +73,31 @@ public:
 
   constexpr void __cordl_internal_set_target(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ed47a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42d2878, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW target, ::StringW data, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_InnerText, addr 0x2ed48e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InnerText, addr 0x42d29b4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_InnerText();
 
-  /// @brief Method get_LocalName, addr 0x2ed482c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x42d28fc, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x2ed47d8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x42d28a8, size 0x54, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x2ed48f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x42d29c0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Value, addr 0x2ed4838, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x42d2908, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Data, addr 0x2ed4844, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x42d2914, size 0xa0, virtual false, abstract: false, final false
   inline void set_Data(::StringW value);
 
-  /// @brief Method set_InnerText, addr 0x2ed48ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_InnerText, addr 0x42d29bc, size 0x4, virtual true, abstract: false, final false
   inline void set_InnerText(::StringW value);
 
-  /// @brief Method set_Value, addr 0x2ed4840, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x42d2910, size 0x4, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -119,6 +119,9 @@ public:
 
   /// @brief Field data, offset: 0x28, size: 0x8, def value: None
   ::StringW ___data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7283 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ struct CalendarId;
 // Write type traits
 MARK_VAL_T(::System::Globalization::CalendarId);
 // Type: System.Globalization::CalendarId
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
 // CS Name: ::System.Globalization::CalendarId
@@ -145,6 +145,9 @@ public:
 
   /// @brief Field UNINITIALIZED_VALUE value: static_cast<uint16_t>(0x0u)
   static ::System::Globalization::CalendarId const UNINITIALIZED_VALUE;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3673 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };

@@ -22,7 +22,7 @@ class PgpKeyRing;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing);
 // Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyRing
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyRing*
@@ -31,17 +31,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing* New_ctor();
 
-  /// @brief Method ReadOptionalTrustPacket, addr 0x1321270, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ReadOptionalTrustPacket, addr 0x24ed3ec, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::TrustPacket* ReadOptionalTrustPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method ReadSignaturesAndTrust, addr 0x1321310, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ReadSignaturesAndTrust, addr 0x24ed48c, size 0x2b4, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* ReadSignaturesAndTrust(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method ReadUserIDs, addr 0x13215d8, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method ReadUserIDs, addr 0x24ed740, size 0x33c, virtual false, abstract: false, final false
   static inline void ReadUserIDs(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput, ByRef<::System::Collections::IList*> ids, ByRef<::System::Collections::IList*> idTrusts,
                                  ByRef<::System::Collections::IList*> idSigs);
 
-  /// @brief Method .ctor, addr 0x1321268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ed3e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,6 +57,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PgpKeyRing", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PgpKeyRing(PgpKeyRing const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1647 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

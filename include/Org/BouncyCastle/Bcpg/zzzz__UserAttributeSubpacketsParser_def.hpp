@@ -18,7 +18,7 @@ class UserAttributeSubpacketsParser;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser);
 // Type: Org.BouncyCastle.Bcpg::UserAttributeSubpacketsParser
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::UserAttributeSubpacketsParser*
@@ -26,11 +26,11 @@ class CORDL_TYPE UserAttributeSubpacketsParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field input, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_input, put = __cordl_internal_set_input))::System::IO::Stream* input;
+  __declspec(property(get = __cordl_internal_get_input, put = __cordl_internal_set_input)) ::System::IO::Stream* input;
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method ReadPacket, addr 0x1448388, size 0x2c4, virtual true, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x260b640, size 0x2ac, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* ReadPacket();
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_input();
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_input(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x1448258, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260b510, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
 protected:
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field input, offset: 0x10, size: 0x8, def value: None
   ::System::IO::Stream* ___input;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 598 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

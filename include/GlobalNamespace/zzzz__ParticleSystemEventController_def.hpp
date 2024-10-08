@@ -24,7 +24,7 @@ class __ParticleSystemEventController__Pool;
 MARK_REF_PTR_T(::GlobalNamespace::ParticleSystemEventController);
 MARK_REF_PTR_T(::GlobalNamespace::__ParticleSystemEventController__Pool);
 // Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ParticleSystemEventController::Pool*
@@ -33,7 +33,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__ParticleSystemEventController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26fcc64, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1d780, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,6 +50,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ParticleSystemEventController__Pool(__ParticleSystemEventController__Pool const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4316 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -57,7 +60,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ParticleSyste
 
 } // namespace GlobalNamespace
 // Type: ::ParticleSystemEventController
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ParticleSystemEventController*
@@ -66,37 +69,37 @@ public:
   // Declarations
   using Pool = ::GlobalNamespace::__ParticleSystemEventController__Pool;
 
-  /// @brief Field _particleSystem, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem))::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
+  /// @brief Field _particleSystem, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
-  /// @brief Field _particleSystemFullDuration, offset 0x20, size 0x4
+  /// @brief Field _particleSystemFullDuration, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__particleSystemFullDuration, put = __cordl_internal_set__particleSystemFullDuration)) float_t _particleSystemFullDuration;
 
-  /// @brief Field <startTime>k__BackingField, offset 0x24, size 0x4
+  /// @brief Field <startTime>k__BackingField, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__startTime_k__BackingField, put = __cordl_internal_set__startTime_k__BackingField)) float_t _startTime_k__BackingField;
 
   __declspec(property(get = get_endTime)) float_t endTime;
 
   __declspec(property(get = get_startTime, put = set_startTime)) float_t startTime;
 
-  /// @brief Method Init, addr 0x26fc0d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b1cc00, size 0x30, virtual false, abstract: false, final false
   inline void Init(float_t startTime);
 
-  /// @brief Method InitSpeed, addr 0x26fcb50, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InitSpeed, addr 0x3b1d670, size 0x48, virtual false, abstract: false, final false
   inline void InitSpeed(float_t simulationSpeedMultiplier);
 
-  /// @brief Method ManualUpdate, addr 0x26fc478, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3b1cfa8, size 0x68, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t time, float_t deltaTime);
 
   static inline ::GlobalNamespace::ParticleSystemEventController* New_ctor();
 
-  /// @brief Method Pause, addr 0x26fc8e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x3b1d404, size 0x1c, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Play, addr 0x26fca78, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x3b1d598, size 0x1c, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method Stop, addr 0x26fbde4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x3b1c914, size 0x1c, virtual false, abstract: false, final false
   inline void Stop();
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
@@ -117,16 +120,16 @@ public:
 
   constexpr void __cordl_internal_set__startTime_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x26fcc5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1d778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_endTime, addr 0x26fc46c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_endTime, addr 0x3b1cf9c, size 0xc, virtual false, abstract: false, final false
   inline float_t get_endTime();
 
-  /// @brief Method get_startTime, addr 0x26fcc4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x3b1d768, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startTime();
 
-  /// @brief Method set_startTime, addr 0x26fcc54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startTime, addr 0x3b1d770, size 0x8, virtual false, abstract: false, final false
   inline void set_startTime(float_t value);
 
 protected:
@@ -143,14 +146,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ParticleSystemEventController(ParticleSystemEventController const&) = delete;
 
-  /// @brief Field _particleSystem, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _particleSystem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 
-  /// @brief Field _particleSystemFullDuration, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field _particleSystemFullDuration, offset: 0x28, size: 0x4, def value: None
   float_t ____particleSystemFullDuration;
 
-  /// @brief Field <startTime>k__BackingField, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field <startTime>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   float_t ____startTime_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4317 };
 
   /// @brief Field kMaxSimDelta offset 0xffffffff size 0x4
   static constexpr float_t kMaxSimDelta{ 0.033333335 };
@@ -158,13 +164,13 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParticleSystemEventController, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParticleSystemEventController, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ParticleSystemEventController, ____particleSystem) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ParticleSystemEventController, ____particleSystem) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ParticleSystemEventController, ____particleSystemFullDuration) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ParticleSystemEventController, ____particleSystemFullDuration) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ParticleSystemEventController, ____startTime_k__BackingField) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ParticleSystemEventController, ____startTime_k__BackingField) == 0x2c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ParticleSystemEventController);

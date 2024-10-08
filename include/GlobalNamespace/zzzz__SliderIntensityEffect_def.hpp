@@ -82,7 +82,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SliderIntensityEffect__InitData);
 MARK_REF_PTR_T(::GlobalNamespace::__SliderIntensityEffect__IntensityCalculationDelegate);
 MARK_REF_PTR_T(::GlobalNamespace::__SliderIntensityEffect___ProcessEffectCoroutine_d__32);
 // Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SliderIntensityEffect::InitData*
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_sliderColorIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x26dde7c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a87030, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ArcVisibilityType arcVisibilityType, bool hapticFeedbackEnabled);
 
 protected:
@@ -132,6 +132,9 @@ public:
   /// @brief Field hapticFeedback, offset: 0x14, size: 0x4, def value: None
   float_t ___hapticFeedback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4152 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -143,7 +146,7 @@ static_assert(offsetof(::GlobalNamespace::__SliderIntensityEffect__InitData, ___
 
 } // namespace GlobalNamespace
 // Type: ::FadeElement
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SliderIntensityEffect::FadeElement*
@@ -154,13 +157,13 @@ public:
   __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
   /// @brief Field easeType, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
+  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType)) ::GlobalNamespace::EaseType easeType;
 
   /// @brief Field endIntensity, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_endIntensity, put = __cordl_internal_set_endIntensity)) float_t endIntensity;
 
   /// @brief Field startCallback, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_startCallback, put = __cordl_internal_set_startCallback))::System::Action* startCallback;
+  __declspec(property(get = __cordl_internal_get_startCallback, put = __cordl_internal_set_startCallback)) ::System::Action* startCallback;
 
   /// @brief Field startIntensity, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_startIntensity, put = __cordl_internal_set_startIntensity)) float_t startIntensity;
@@ -197,7 +200,7 @@ public:
 
   constexpr void __cordl_internal_set_startIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x26ddd14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a86ed4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::EaseType easeType, float_t startIntensity, float_t endIntensity, ::System::Action* startCallback);
 
 protected:
@@ -229,6 +232,9 @@ public:
   /// @brief Field startCallback, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___startCallback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4153 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -246,25 +252,25 @@ static_assert(offsetof(::GlobalNamespace::__SliderIntensityEffect__FadeElement, 
 
 } // namespace GlobalNamespace
 // Type: ::IntensityCalculationDelegate
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SliderIntensityEffect::IntensityCalculationDelegate*
 class CORDL_TYPE __SliderIntensityEffect__IntensityCalculationDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x26ddfc0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3a87148, size 0x9c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(float_t timeSinceLastSection, float_t timeSinceHeadNoteJump, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x26de058, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3a871e4, size 0x28, virtual true, abstract: false, final false
   inline float_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x26ddfac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3a87134, size 0x14, virtual true, abstract: false, final false
   inline float_t Invoke(float_t timeSinceLastSection, float_t timeSinceHeadNoteJump);
 
   static inline ::GlobalNamespace::__SliderIntensityEffect__IntensityCalculationDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x26ddee8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a870a8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -281,6 +287,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SliderIntensityEffect__IntensityCalculationDelegate(__SliderIntensityEffect__IntensityCalculationDelegate const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4154 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -288,39 +297,39 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SliderIntensi
 
 } // namespace GlobalNamespace
 // Type: ::<ProcessEffectCoroutine>d__32
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SliderIntensityEffect::<ProcessEffectCoroutine>d__32*
 class CORDL_TYPE __SliderIntensityEffect___ProcessEffectCoroutine_d__32 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::SliderIntensityEffect> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::SliderIntensityEffect> __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get___7__wrap1,
-                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* __7__wrap1;
+                      put = __cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* __7__wrap1;
 
   /// @brief Field <fadeElement>5__3, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__fadeElement_5__3, put = __cordl_internal_set__fadeElement_5__3))::GlobalNamespace::__SliderIntensityEffect__FadeElement* _fadeElement_5__3;
+  __declspec(property(get = __cordl_internal_get__fadeElement_5__3, put = __cordl_internal_set__fadeElement_5__3)) ::GlobalNamespace::__SliderIntensityEffect__FadeElement* _fadeElement_5__3;
 
   /// @brief Field <startTime>5__4, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__startTime_5__4, put = __cordl_internal_set__startTime_5__4)) float_t _startTime_5__4;
 
   /// @brief Field fadeElements, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_fadeElements,
-                      put = __cordl_internal_set_fadeElements))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* fadeElements;
+                      put = __cordl_internal_set_fadeElements)) ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* fadeElements;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -331,21 +340,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26de09c, size 0x38c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a87228, size 0x388, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__SliderIntensityEffect___ProcessEffectCoroutine_d__32* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x26de4d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3a87660, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26de4e0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3a87668, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26de520, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3a876a0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26de080, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3a8720c, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -392,10 +401,10 @@ public:
 
   constexpr void __cordl_internal_set_fadeElements(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x26de428, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x3a875b0, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x26dddcc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a86f84, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -442,6 +451,9 @@ public:
   /// @brief Field <startTime>5__4, offset: 0x40, size: 0x4, def value: None
   float_t ____startTime_5__4;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4155 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -463,7 +475,7 @@ static_assert(offsetof(::GlobalNamespace::__SliderIntensityEffect___ProcessEffec
 
 } // namespace GlobalNamespace
 // Type: ::SliderIntensityEffect
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SliderIntensityEffect*
@@ -478,105 +490,108 @@ public:
 
   using _ProcessEffectCoroutine_d__32 = ::GlobalNamespace::__SliderIntensityEffect___ProcessEffectCoroutine_d__32;
 
-  /// @brief Field _audioTimeSyncController, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
-                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
+  /// @brief Field _audioTimeSyncController, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController, put = __cordl_internal_set__audioTimeSyncController)) ::UnityW<::GlobalNamespace::AudioTimeSyncController>
+      _audioTimeSyncController;
 
-  /// @brief Field _coreIntensity, offset 0x50, size 0x4
+  /// @brief Field _coreIntensity, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__coreIntensity, put = __cordl_internal_set__coreIntensity)) float_t _coreIntensity;
 
-  /// @brief Field _dipEffectFadeElements, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__dipEffectFadeElements,
-                      put = __cordl_internal_set__dipEffectFadeElements))::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*,
-                                                                                  ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> _dipEffectFadeElements;
+  /// @brief Field _dipEffectFadeElements, offset 0x78, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__dipEffectFadeElements,
+      put = __cordl_internal_set__dipEffectFadeElements)) ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*>
+      _dipEffectFadeElements;
 
-  /// @brief Field _effectIntensity, offset 0x54, size 0x4
+  /// @brief Field _effectIntensity, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get__effectIntensity, put = __cordl_internal_set__effectIntensity)) float_t _effectIntensity;
 
-  /// @brief Field _fadeInEffectFadeElements, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__fadeInEffectFadeElements,
-                      put = __cordl_internal_set__fadeInEffectFadeElements))::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*,
-                                                                                     ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> _fadeInEffectFadeElements;
+  /// @brief Field _fadeInEffectFadeElements, offset 0x88, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__fadeInEffectFadeElements,
+      put = __cordl_internal_set__fadeInEffectFadeElements)) ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*>
+      _fadeInEffectFadeElements;
 
-  /// @brief Field _fadeOutDuration, offset 0x24, size 0x4
+  /// @brief Field _fadeOutDuration, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__fadeOutDuration, put = __cordl_internal_set__fadeOutDuration)) float_t _fadeOutDuration;
 
-  /// @brief Field _flashBoost, offset 0x2c, size 0x4
+  /// @brief Field _flashBoost, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__flashBoost, put = __cordl_internal_set__flashBoost)) float_t _flashBoost;
 
-  /// @brief Field _flashEffectFadeElements, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__flashEffectFadeElements,
-                      put = __cordl_internal_set__flashEffectFadeElements))::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*,
-                                                                                    ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> _flashEffectFadeElements;
+  /// @brief Field _flashEffectFadeElements, offset 0x80, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__flashEffectFadeElements,
+      put = __cordl_internal_set__flashEffectFadeElements)) ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*>
+      _flashEffectFadeElements;
 
-  /// @brief Field _flashInDuration, offset 0x30, size 0x4
+  /// @brief Field _flashInDuration, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__flashInDuration, put = __cordl_internal_set__flashInDuration)) float_t _flashInDuration;
 
-  /// @brief Field _flashOutDuration, offset 0x34, size 0x4
+  /// @brief Field _flashOutDuration, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__flashOutDuration, put = __cordl_internal_set__flashOutDuration)) float_t _flashOutDuration;
 
-  /// @brief Field _halfJumpDuration, offset 0x58, size 0x4
+  /// @brief Field _halfJumpDuration, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__halfJumpDuration, put = __cordl_internal_set__halfJumpDuration)) float_t _halfJumpDuration;
 
-  /// @brief Field _initData, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__SliderIntensityEffect__InitData* _initData;
+  /// @brief Field _initData, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__SliderIntensityEffect__InitData* _initData;
 
-  /// @brief Field _intensityCalculationDelegate, offset 0x68, size 0x8
+  /// @brief Field _intensityCalculationDelegate, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__intensityCalculationDelegate,
-                      put = __cordl_internal_set__intensityCalculationDelegate))::GlobalNamespace::__SliderIntensityEffect__IntensityCalculationDelegate* _intensityCalculationDelegate;
+                      put = __cordl_internal_set__intensityCalculationDelegate)) ::GlobalNamespace::__SliderIntensityEffect__IntensityCalculationDelegate* _intensityCalculationDelegate;
 
-  /// @brief Field _longSliderHeadIntensity, offset 0x18, size 0x4
+  /// @brief Field _longSliderHeadIntensity, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__longSliderHeadIntensity, put = __cordl_internal_set__longSliderHeadIntensity)) float_t _longSliderHeadIntensity;
 
-  /// @brief Field _shortSliderHeadIntensity, offset 0x1c, size 0x4
+  /// @brief Field _shortSliderHeadIntensity, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__shortSliderHeadIntensity, put = __cordl_internal_set__shortSliderHeadIntensity)) float_t _shortSliderHeadIntensity;
 
-  /// @brief Field _sliderDuration, offset 0x5c, size 0x4
+  /// @brief Field _sliderDuration, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get__sliderDuration, put = __cordl_internal_set__sliderDuration)) float_t _sliderDuration;
 
-  /// @brief Field _stayOffDuration, offset 0x28, size 0x4
+  /// @brief Field _stayOffDuration, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__stayOffDuration, put = __cordl_internal_set__stayOffDuration)) float_t _stayOffDuration;
 
-  /// @brief Field _tailIntensity, offset 0x20, size 0x4
+  /// @brief Field _tailIntensity, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__tailIntensity, put = __cordl_internal_set__tailIntensity)) float_t _tailIntensity;
 
   __declspec(property(get = get_colorIntensity)) float_t colorIntensity;
 
-  /// @brief Field fadeInDidStartEvent, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_fadeInDidStartEvent, put = __cordl_internal_set_fadeInDidStartEvent))::System::Action* fadeInDidStartEvent;
+  /// @brief Field fadeInDidStartEvent, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_fadeInDidStartEvent, put = __cordl_internal_set_fadeInDidStartEvent)) ::System::Action* fadeInDidStartEvent;
 
-  /// @brief Field headIntensity, offset 0x60, size 0x4
+  /// @brief Field headIntensity, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_headIntensity, put = __cordl_internal_set_headIntensity)) float_t headIntensity;
 
   __declspec(property(get = get_intensity)) float_t intensity;
 
-  /// @brief Method Awake, addr 0x26dd9ec, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3a86bc8, size 0x30c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x26daa88, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a84db8, size 0xf4, virtual false, abstract: false, final false
   inline void Init(float_t sliderDuration, float_t halfJumpDuration, bool startVisible);
 
-  /// @brief Method ManualUpdate, addr 0x26dc364, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3a857e8, size 0x3c, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t timeSinceHeadNoteJump);
 
   static inline ::GlobalNamespace::SliderIntensityEffect* New_ctor();
 
-  /// @brief Method ProcessEffectCoroutine, addr 0x26ddd58, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ProcessEffectCoroutine, addr 0x3a86f18, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ProcessEffectCoroutine(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>* fadeElements);
 
-  /// @brief Method StartFlashEffect, addr 0x26dddf4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method StartFlashEffect, addr 0x3a86fac, size 0x30, virtual false, abstract: false, final false
   inline void StartFlashEffect();
 
-  /// @brief Method StartIntensityDipEffect, addr 0x26dcd6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method StartIntensityDipEffect, addr 0x3a86030, size 0x30, virtual false, abstract: false, final false
   inline void StartIntensityDipEffect();
 
-  /// @brief Method StartIntensityFadeInEffect, addr 0x26dcb10, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method StartIntensityFadeInEffect, addr 0x3a85de4, size 0x30, virtual false, abstract: false, final false
   inline void StartIntensityFadeInEffect();
 
-  /// @brief Method <Awake>b__29_0, addr 0x26dde44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__29_0, addr 0x3a86ff8, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__29_0();
 
-  /// @brief Method <Awake>b__29_1, addr 0x26dde60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__29_1, addr 0x3a87014, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__29_1();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -705,19 +720,19 @@ public:
 
   constexpr void __cordl_internal_set_headIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x26dde24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a86fdc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_fadeInDidStartEvent, addr 0x26dbad4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_fadeInDidStartEvent, addr 0x3a85340, size 0x9c, virtual false, abstract: false, final false
   inline void add_fadeInDidStartEvent(::System::Action* value);
 
-  /// @brief Method get_colorIntensity, addr 0x26dd9c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_colorIntensity, addr 0x3a86ba0, size 0x28, virtual false, abstract: false, final false
   inline float_t get_colorIntensity();
 
-  /// @brief Method get_intensity, addr 0x26da528, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x3a8496c, size 0x28, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method remove_fadeInDidStartEvent, addr 0x26dbfec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_fadeInDidStartEvent, addr 0x3a85678, size 0x9c, virtual false, abstract: false, final false
   inline void remove_fadeInDidStartEvent(::System::Action* value);
 
 protected:
@@ -734,110 +749,113 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SliderIntensityEffect(SliderIntensityEffect const&) = delete;
 
-  /// @brief Field _longSliderHeadIntensity, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _longSliderHeadIntensity, offset: 0x20, size: 0x4, def value: None
   float_t ____longSliderHeadIntensity;
 
-  /// @brief Field _shortSliderHeadIntensity, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field _shortSliderHeadIntensity, offset: 0x24, size: 0x4, def value: None
   float_t ____shortSliderHeadIntensity;
 
-  /// @brief Field _tailIntensity, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field _tailIntensity, offset: 0x28, size: 0x4, def value: None
   float_t ____tailIntensity;
 
-  /// @brief Field _fadeOutDuration, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field _fadeOutDuration, offset: 0x2c, size: 0x4, def value: None
   float_t ____fadeOutDuration;
 
-  /// @brief Field _stayOffDuration, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field _stayOffDuration, offset: 0x30, size: 0x4, def value: None
   float_t ____stayOffDuration;
 
-  /// @brief Field _flashBoost, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _flashBoost, offset: 0x34, size: 0x4, def value: None
   float_t ____flashBoost;
 
-  /// @brief Field _flashInDuration, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _flashInDuration, offset: 0x38, size: 0x4, def value: None
   float_t ____flashInDuration;
 
-  /// @brief Field _flashOutDuration, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field _flashOutDuration, offset: 0x3c, size: 0x4, def value: None
   float_t ____flashOutDuration;
 
-  /// @brief Field _audioTimeSyncController, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _audioTimeSyncController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
-  /// @brief Field _initData, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _initData, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::__SliderIntensityEffect__InitData* ____initData;
 
-  /// @brief Field fadeInDidStartEvent, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field fadeInDidStartEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___fadeInDidStartEvent;
 
-  /// @brief Field _coreIntensity, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field _coreIntensity, offset: 0x58, size: 0x4, def value: None
   float_t ____coreIntensity;
 
-  /// @brief Field _effectIntensity, offset: 0x54, size: 0x4, def value: None
+  /// @brief Field _effectIntensity, offset: 0x5c, size: 0x4, def value: None
   float_t ____effectIntensity;
 
-  /// @brief Field _halfJumpDuration, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field _halfJumpDuration, offset: 0x60, size: 0x4, def value: None
   float_t ____halfJumpDuration;
 
-  /// @brief Field _sliderDuration, offset: 0x5c, size: 0x4, def value: None
+  /// @brief Field _sliderDuration, offset: 0x64, size: 0x4, def value: None
   float_t ____sliderDuration;
 
-  /// @brief Field headIntensity, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field headIntensity, offset: 0x68, size: 0x4, def value: None
   float_t ___headIntensity;
 
-  /// @brief Field _intensityCalculationDelegate, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _intensityCalculationDelegate, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::__SliderIntensityEffect__IntensityCalculationDelegate* ____intensityCalculationDelegate;
 
-  /// @brief Field _dipEffectFadeElements, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _dipEffectFadeElements, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> ____dipEffectFadeElements;
 
-  /// @brief Field _flashEffectFadeElements, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _flashEffectFadeElements, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> ____flashEffectFadeElements;
 
-  /// @brief Field _fadeInEffectFadeElements, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _fadeInEffectFadeElements, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__SliderIntensityEffect__FadeElement*, ::Array<::GlobalNamespace::__SliderIntensityEffect__FadeElement*>*> ____fadeInEffectFadeElements;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4156 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderIntensityEffect, 0x88>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderIntensityEffect, 0x90>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____longSliderHeadIntensity) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____longSliderHeadIntensity) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____shortSliderHeadIntensity) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____shortSliderHeadIntensity) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____tailIntensity) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____tailIntensity) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____fadeOutDuration) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____fadeOutDuration) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____stayOffDuration) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____stayOffDuration) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____flashBoost) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____flashBoost) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____flashInDuration) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____flashInDuration) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____flashOutDuration) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____flashOutDuration) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____audioTimeSyncController) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____audioTimeSyncController) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____initData) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____initData) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ___fadeInDidStartEvent) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ___fadeInDidStartEvent) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____coreIntensity) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____coreIntensity) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____effectIntensity) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____effectIntensity) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____halfJumpDuration) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____halfJumpDuration) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____sliderDuration) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____sliderDuration) == 0x64, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ___headIntensity) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ___headIntensity) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____intensityCalculationDelegate) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____intensityCalculationDelegate) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____dipEffectFadeElements) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____dipEffectFadeElements) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____flashEffectFadeElements) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____flashEffectFadeElements) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____fadeInEffectFadeElements) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderIntensityEffect, ____fadeInEffectFadeElements) == 0x88, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderIntensityEffect);

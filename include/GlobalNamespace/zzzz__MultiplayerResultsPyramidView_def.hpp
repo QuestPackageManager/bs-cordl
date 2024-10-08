@@ -42,57 +42,59 @@ class MultiplayerResultsPyramidView;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerResultsPyramidView);
 // Type: ::MultiplayerResultsPyramidView
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerResultsPyramidView*
 class CORDL_TYPE MultiplayerResultsPyramidView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _anyResultsAvatar, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__anyResultsAvatar, put = __cordl_internal_set__anyResultsAvatar))::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> _anyResultsAvatar;
+  /// @brief Field _anyResultsAvatar, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__anyResultsAvatar, put = __cordl_internal_set__anyResultsAvatar)) ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> _anyResultsAvatar;
 
-  /// @brief Field _avatarsDictionary, offset 0x40, size 0x8
+  /// @brief Field _avatarsDictionary, offset 0x48, size 0x8
   __declspec(property(
       get = __cordl_internal_get__avatarsDictionary,
-      put = __cordl_internal_set__avatarsDictionary))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>>* _avatarsDictionary;
+      put = __cordl_internal_set__avatarsDictionary)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>>* _avatarsDictionary;
 
-  /// @brief Field _avatarsFactory, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarsFactory, put = __cordl_internal_set__avatarsFactory))::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory* _avatarsFactory;
+  /// @brief Field _avatarsFactory, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__avatarsFactory, put = __cordl_internal_set__avatarsFactory)) ::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory* _avatarsFactory;
 
-  /// @brief Field _badgeTimelines, offset 0x50, size 0x8
+  /// @brief Field _badgeTimelines, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__badgeTimelines,
-                      put = __cordl_internal_set__badgeTimelines))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> _badgeTimelines;
+                      put = __cordl_internal_set__badgeTimelines)) ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>
+      _badgeTimelines;
 
-  /// @brief Field _evenCountOffset, offset 0x30, size 0x4
+  /// @brief Field _evenCountOffset, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__evenCountOffset, put = __cordl_internal_set__evenCountOffset)) float_t _evenCountOffset;
 
-  /// @brief Field _multiplayerOffsetByLocalPlayerPosition, offset 0x18, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__multiplayerOffsetByLocalPlayerPosition,
-               put = __cordl_internal_set__multiplayerOffsetByLocalPlayerPosition))::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> _multiplayerOffsetByLocalPlayerPosition;
+  /// @brief Field _multiplayerOffsetByLocalPlayerPosition, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__multiplayerOffsetByLocalPlayerPosition,
+                      put = __cordl_internal_set__multiplayerOffsetByLocalPlayerPosition)) ::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition>
+      _multiplayerOffsetByLocalPlayerPosition;
 
-  /// @brief Field _resultAvatarDirectors, offset 0x48, size 0x8
+  /// @brief Field _resultAvatarDirectors, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__resultAvatarDirectors,
-                      put = __cordl_internal_set__resultAvatarDirectors))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> _resultAvatarDirectors;
+                      put = __cordl_internal_set__resultAvatarDirectors)) ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>
+      _resultAvatarDirectors;
 
-  /// @brief Field _spawnPoints, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__spawnPoints,
-                      put = __cordl_internal_set__spawnPoints))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _spawnPoints;
+  /// @brief Field _spawnPoints, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__spawnPoints, put = __cordl_internal_set__spawnPoints)) ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
+      _spawnPoints;
 
-  /// @brief Field _spawnPointsParent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__spawnPointsParent, put = __cordl_internal_set__spawnPointsParent))::UnityW<::UnityEngine::Transform> _spawnPointsParent;
+  /// @brief Field _spawnPointsParent, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__spawnPointsParent, put = __cordl_internal_set__spawnPointsParent)) ::UnityW<::UnityEngine::Transform> _spawnPointsParent;
 
-  __declspec(property(get = get_badgeTimelines))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> badgeTimelines;
+  __declspec(property(get = get_badgeTimelines)) ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> badgeTimelines;
 
-  __declspec(property(get = get_resultAvatarDirectors))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> resultAvatarDirectors;
+  __declspec(property(get = get_resultAvatarDirectors)) ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> resultAvatarDirectors;
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidView* New_ctor();
 
-  /// @brief Method PrespawnAvatars, addr 0x2744f08, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method PrespawnAvatars, addr 0x3b62724, size 0x3fc, virtual false, abstract: false, final false
   inline void PrespawnAvatars(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* activePlayers);
 
-  /// @brief Method SetupResults, addr 0x27448d0, size 0x614, virtual false, abstract: false, final false
+  /// @brief Method SetupResults, addr 0x3b62130, size 0x5d0, virtual false, abstract: false, final false
   inline void SetupResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, ::UnityEngine::Transform* badgeStartTransform,
                            ::UnityEngine::Transform* badgeMidTransform);
 
@@ -151,13 +153,13 @@ public:
 
   constexpr void __cordl_internal_set__spawnPointsParent(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x274744c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b65738, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_badgeTimelines, addr 0x2746a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badgeTimelines, addr 0x3b64d28, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> get_badgeTimelines();
 
-  /// @brief Method get_resultAvatarDirectors, addr 0x2746a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resultAvatarDirectors, addr 0x3b64d20, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> get_resultAvatarDirectors();
 
 protected:
@@ -174,55 +176,58 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerResultsPyramidView(MultiplayerResultsPyramidView const&) = delete;
 
-  /// @brief Field _multiplayerOffsetByLocalPlayerPosition, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _multiplayerOffsetByLocalPlayerPosition, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> ____multiplayerOffsetByLocalPlayerPosition;
 
-  /// @brief Field _spawnPoints, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _spawnPoints, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ____spawnPoints;
 
-  /// @brief Field _spawnPointsParent, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _spawnPointsParent, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____spawnPointsParent;
 
-  /// @brief Field _evenCountOffset, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _evenCountOffset, offset: 0x38, size: 0x4, def value: None
   float_t ____evenCountOffset;
 
-  /// @brief Field _avatarsFactory, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _avatarsFactory, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory* ____avatarsFactory;
 
-  /// @brief Field _avatarsDictionary, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _avatarsDictionary, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>>* ____avatarsDictionary;
 
-  /// @brief Field _resultAvatarDirectors, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _resultAvatarDirectors, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____resultAvatarDirectors;
 
-  /// @brief Field _badgeTimelines, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _badgeTimelines, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____badgeTimelines;
 
-  /// @brief Field _anyResultsAvatar, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _anyResultsAvatar, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> ____anyResultsAvatar;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerResultsPyramidView, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerResultsPyramidView, 0x68>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____multiplayerOffsetByLocalPlayerPosition) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____multiplayerOffsetByLocalPlayerPosition) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____spawnPoints) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____spawnPoints) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____spawnPointsParent) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____spawnPointsParent) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____evenCountOffset) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____evenCountOffset) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____avatarsFactory) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____avatarsFactory) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____avatarsDictionary) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____avatarsDictionary) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____resultAvatarDirectors) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____resultAvatarDirectors) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____badgeTimelines) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____badgeTimelines) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____anyResultsAvatar) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidView, ____anyResultsAvatar) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerResultsPyramidView);

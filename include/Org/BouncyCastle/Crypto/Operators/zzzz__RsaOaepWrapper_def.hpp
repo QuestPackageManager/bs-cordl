@@ -38,20 +38,20 @@ class RsaOaepWrapper;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper);
 // Type: Org.BouncyCastle.Crypto.Operators::RsaOaepWrapper
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::RsaOaepWrapper*
 class CORDL_TYPE RsaOaepWrapper : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmDetails))::System::Object* AlgorithmDetails;
+  __declspec(property(get = get_AlgorithmDetails)) ::System::Object* AlgorithmDetails;
 
   /// @brief Field algId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_algId, put = __cordl_internal_set_algId))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId;
+  __declspec(property(get = __cordl_internal_get_algId, put = __cordl_internal_set_algId)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId;
 
   /// @brief Field engine, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine;
+  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine)) ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IKeyUnwrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IKeyUnwrapper*() noexcept;
@@ -62,10 +62,10 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper* New_ctor(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters,
                                                                                  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method Unwrap, addr 0x119a8f8, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method Unwrap, addr 0x2371d80, size 0x100, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IBlockResult* Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> cipherText, int32_t offset, int32_t length);
 
-  /// @brief Method Wrap, addr 0x119a9fc, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method Wrap, addr 0x2371e80, size 0x100, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IBlockResult* Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algId();
@@ -80,10 +80,10 @@ public:
 
   constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
 
-  /// @brief Method .ctor, addr 0x119a650, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2371ad8, size 0x2a0, virtual false, abstract: false, final false
   inline void _ctor(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x119a8f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0x2371d78, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IKeyUnwrapper"
@@ -111,6 +111,9 @@ public:
 
   /// @brief Field engine, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* ___engine;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 988 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,7 +31,7 @@ class ValueFixup;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ValueFixup);
 // Type: System.Runtime.Serialization.Formatters.Binary::ValueFixup
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ValueFixup*
@@ -39,30 +39,30 @@ class CORDL_TYPE ValueFixup : public ::System::Object {
 public:
   // Declarations
   /// @brief Field arrayObj, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_arrayObj, put = __cordl_internal_set_arrayObj))::System::Array* arrayObj;
+  __declspec(property(get = __cordl_internal_get_arrayObj, put = __cordl_internal_set_arrayObj)) ::System::Array* arrayObj;
 
   /// @brief Field header, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header))::System::Object* header;
+  __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header)) ::System::Object* header;
 
   /// @brief Field indexMap, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_indexMap, put = __cordl_internal_set_indexMap))::ArrayW<int32_t, ::Array<int32_t>*> indexMap;
+  __declspec(property(get = __cordl_internal_get_indexMap, put = __cordl_internal_set_indexMap)) ::ArrayW<int32_t, ::Array<int32_t>*> indexMap;
 
   /// @brief Field memberName, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberName, put = __cordl_internal_set_memberName))::StringW memberName;
+  __declspec(property(get = __cordl_internal_get_memberName, put = __cordl_internal_set_memberName)) ::StringW memberName;
 
   /// @brief Field memberObject, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberObject, put = __cordl_internal_set_memberObject))::System::Object* memberObject;
+  __declspec(property(get = __cordl_internal_get_memberObject, put = __cordl_internal_set_memberObject)) ::System::Object* memberObject;
 
   /// @brief Field objectInfo, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectInfo, put = __cordl_internal_set_objectInfo))::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo;
+  __declspec(property(get = __cordl_internal_get_objectInfo, put = __cordl_internal_set_objectInfo)) ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo;
 
   /// @brief Field valueFixupEnum, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_valueFixupEnum, put = __cordl_internal_set_valueFixupEnum))::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum valueFixupEnum;
+  __declspec(property(get = __cordl_internal_get_valueFixupEnum, put = __cordl_internal_set_valueFixupEnum)) ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum valueFixupEnum;
 
   /// @brief Field valueInfo, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_valueInfo, put = setStaticF_valueInfo))::System::Reflection::MemberInfo* valueInfo;
+  static __declspec(property(get = getStaticF_valueInfo, put = setStaticF_valueInfo)) ::System::Reflection::MemberInfo* valueInfo;
 
-  /// @brief Method Fixup, addr 0x287b584, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method Fixup, addr 0x3c95560, size 0x308, virtual false, abstract: false, final false
   inline void Fixup(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* record, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* parent);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ValueFixup* New_ctor(::System::Array* arrayObj, ::ArrayW<int32_t, ::Array<int32_t>*> indexMap);
@@ -112,10 +112,10 @@ public:
 
   constexpr void __cordl_internal_set_valueFixupEnum(::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum value);
 
-  /// @brief Method .ctor, addr 0x287c128, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c96100, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Array* arrayObj, ::ArrayW<int32_t, ::Array<int32_t>*> indexMap);
 
-  /// @brief Method .ctor, addr 0x287c580, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9659c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* memberObject, ::StringW memberName, ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo);
 
   static inline ::System::Reflection::MemberInfo* getStaticF_valueInfo();
@@ -156,6 +156,9 @@ public:
 
   /// @brief Field memberName, offset: 0x40, size: 0x8, def value: None
   ::StringW ___memberName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3296 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

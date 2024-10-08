@@ -13,21 +13,21 @@ class UnixNoLibCIPGlobalProperties;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties);
 // Type: System.Net.NetworkInformation::UnixNoLibCIPGlobalProperties
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // CS Name: ::System.Net.NetworkInformation::UnixNoLibCIPGlobalProperties*
 class CORDL_TYPE UnixNoLibCIPGlobalProperties : public ::System::Net::NetworkInformation::UnixIPGlobalProperties {
 public:
   // Declarations
-  __declspec(property(get = get_DomainName))::StringW DomainName;
+  __declspec(property(get = get_DomainName)) ::StringW DomainName;
 
   static inline ::System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x30538a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4377504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DomainName, addr 0x3053858, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_DomainName, addr 0x43774bc, size 0x48, virtual true, abstract: false, final false
   inline ::StringW get_DomainName();
 
 protected:
@@ -43,6 +43,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UnixNoLibCIPGlobalProperties", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UnixNoLibCIPGlobalProperties(UnixNoLibCIPGlobalProperties const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9773 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

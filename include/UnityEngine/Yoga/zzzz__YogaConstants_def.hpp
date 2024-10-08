@@ -13,14 +13,14 @@ class YogaConstants;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Yoga::YogaConstants);
 // Type: UnityEngine.Yoga::YogaConstants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: false
 // CS Name: ::UnityEngine.Yoga::YogaConstants*
 class CORDL_TYPE YogaConstants : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsUndefined, addr 0x3639fcc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsUndefined, addr 0x48f0e94, size 0x18, virtual false, abstract: false, final false
   static inline bool IsUndefined(float_t value);
 
 protected:
@@ -36,6 +36,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "YogaConstants", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   YogaConstants(YogaConstants const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5398 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

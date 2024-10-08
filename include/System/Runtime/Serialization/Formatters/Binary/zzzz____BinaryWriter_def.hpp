@@ -95,7 +95,7 @@ class __BinaryWriter;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter);
 // Type: System.Runtime.Serialization.Formatters.Binary::__BinaryWriter
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::__BinaryWriter*
@@ -103,231 +103,232 @@ class CORDL_TYPE __BinaryWriter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field binaryArray, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_binaryArray, put = __cordl_internal_set_binaryArray))::System::Runtime::Serialization::Formatters::Binary::BinaryArray* binaryArray;
+  __declspec(property(get = __cordl_internal_get_binaryArray, put = __cordl_internal_set_binaryArray)) ::System::Runtime::Serialization::Formatters::Binary::BinaryArray* binaryArray;
 
   /// @brief Field binaryAssembly, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_binaryAssembly, put = __cordl_internal_set_binaryAssembly))::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* binaryAssembly;
+  __declspec(property(get = __cordl_internal_get_binaryAssembly, put = __cordl_internal_set_binaryAssembly)) ::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* binaryAssembly;
 
   /// @brief Field binaryMethodCall, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_binaryMethodCall,
-                      put = __cordl_internal_set_binaryMethodCall))::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* binaryMethodCall;
+                      put = __cordl_internal_set_binaryMethodCall)) ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* binaryMethodCall;
 
   /// @brief Field binaryMethodReturn, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_binaryMethodReturn,
-                      put = __cordl_internal_set_binaryMethodReturn))::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* binaryMethodReturn;
+                      put = __cordl_internal_set_binaryMethodReturn)) ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* binaryMethodReturn;
 
   /// @brief Field binaryObject, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_binaryObject, put = __cordl_internal_set_binaryObject))::System::Runtime::Serialization::Formatters::Binary::BinaryObject* binaryObject;
+  __declspec(property(get = __cordl_internal_get_binaryObject, put = __cordl_internal_set_binaryObject)) ::System::Runtime::Serialization::Formatters::Binary::BinaryObject* binaryObject;
 
   /// @brief Field binaryObjectString, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_binaryObjectString,
-                      put = __cordl_internal_set_binaryObjectString))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* binaryObjectString;
+                      put = __cordl_internal_set_binaryObjectString)) ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* binaryObjectString;
 
   /// @brief Field binaryObjectWithMap, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_binaryObjectWithMap,
-                      put = __cordl_internal_set_binaryObjectWithMap))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* binaryObjectWithMap;
+                      put = __cordl_internal_set_binaryObjectWithMap)) ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* binaryObjectWithMap;
 
   /// @brief Field binaryObjectWithMapTyped, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_binaryObjectWithMapTyped,
-                      put = __cordl_internal_set_binaryObjectWithMapTyped))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* binaryObjectWithMapTyped;
+                      put = __cordl_internal_set_binaryObjectWithMapTyped)) ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* binaryObjectWithMapTyped;
 
   /// @brief Field byteBuffer, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_byteBuffer, put = __cordl_internal_set_byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer;
+  __declspec(property(get = __cordl_internal_get_byteBuffer, put = __cordl_internal_set_byteBuffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer;
 
   /// @brief Field chunkSize, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get_chunkSize, put = __cordl_internal_set_chunkSize)) int32_t chunkSize;
 
   /// @brief Field dataWriter, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_dataWriter, put = __cordl_internal_set_dataWriter))::System::IO::BinaryWriter* dataWriter;
+  __declspec(property(get = __cordl_internal_get_dataWriter, put = __cordl_internal_set_dataWriter)) ::System::IO::BinaryWriter* dataWriter;
 
   /// @brief Field formatterTypeStyle, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_formatterTypeStyle, put = __cordl_internal_set_formatterTypeStyle))::System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle;
+  __declspec(property(get = __cordl_internal_get_formatterTypeStyle,
+                      put = __cordl_internal_set_formatterTypeStyle)) ::System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle;
 
   /// @brief Field m_nestedObjectCount, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_m_nestedObjectCount, put = __cordl_internal_set_m_nestedObjectCount)) int32_t m_nestedObjectCount;
 
   /// @brief Field memberPrimitiveTyped, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_memberPrimitiveTyped,
-                      put = __cordl_internal_set_memberPrimitiveTyped))::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* memberPrimitiveTyped;
+                      put = __cordl_internal_set_memberPrimitiveTyped)) ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* memberPrimitiveTyped;
 
   /// @brief Field memberPrimitiveUnTyped, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_memberPrimitiveUnTyped,
-                      put = __cordl_internal_set_memberPrimitiveUnTyped))::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* memberPrimitiveUnTyped;
+                      put = __cordl_internal_set_memberPrimitiveUnTyped)) ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* memberPrimitiveUnTyped;
 
   /// @brief Field memberReference, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberReference, put = __cordl_internal_set_memberReference))::System::Runtime::Serialization::Formatters::Binary::MemberReference* memberReference;
+  __declspec(property(get = __cordl_internal_get_memberReference, put = __cordl_internal_set_memberReference)) ::System::Runtime::Serialization::Formatters::Binary::MemberReference* memberReference;
 
   /// @brief Field nullCount, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_nullCount, put = __cordl_internal_set_nullCount)) int32_t nullCount;
 
   /// @brief Field objectMapTable, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectMapTable, put = __cordl_internal_set_objectMapTable))::System::Collections::Hashtable* objectMapTable;
+  __declspec(property(get = __cordl_internal_get_objectMapTable, put = __cordl_internal_set_objectMapTable)) ::System::Collections::Hashtable* objectMapTable;
 
   /// @brief Field objectNull, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectNull, put = __cordl_internal_set_objectNull))::System::Runtime::Serialization::Formatters::Binary::ObjectNull* objectNull;
+  __declspec(property(get = __cordl_internal_get_objectNull, put = __cordl_internal_set_objectNull)) ::System::Runtime::Serialization::Formatters::Binary::ObjectNull* objectNull;
 
   /// @brief Field objectWriter, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectWriter, put = __cordl_internal_set_objectWriter))::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter;
+  __declspec(property(get = __cordl_internal_get_objectWriter, put = __cordl_internal_set_objectWriter)) ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter;
 
   /// @brief Field sout, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_sout, put = __cordl_internal_set_sout))::System::IO::Stream* sout;
+  __declspec(property(get = __cordl_internal_get_sout, put = __cordl_internal_set_sout)) ::System::IO::Stream* sout;
 
-  /// @brief Method InternalWriteItemNull, addr 0x2874620, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InternalWriteItemNull, addr 0x3c8f924, size 0x90, virtual false, abstract: false, final false
   inline void InternalWriteItemNull();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* New_ctor(::System::IO::Stream* sout,
                                                                                                ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter,
                                                                                                ::System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle);
 
-  /// @brief Method WriteArrayAsBytes, addr 0x2874a40, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method WriteArrayAsBytes, addr 0x3c8fd28, size 0x144, virtual false, abstract: false, final false
   inline void WriteArrayAsBytes(::System::Array* array, int32_t typeLength);
 
-  /// @brief Method WriteAssembly, addr 0x28752ec, size 0x10d4, virtual false, abstract: false, final false
+  /// @brief Method WriteAssembly, addr 0x3c904d4, size 0xd4, virtual false, abstract: false, final false
   inline void WriteAssembly(::System::Type* type, ::StringW assemblyString, int32_t assemId, bool isNew);
 
-  /// @brief Method WriteBegin, addr 0x2873c70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteBegin, addr 0x3c8eeb0, size 0x4, virtual false, abstract: false, final false
   inline void WriteBegin();
 
-  /// @brief Method WriteBoolean, addr 0x2873c94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteBoolean, addr 0x3c8eed4, size 0x24, virtual false, abstract: false, final false
   inline void WriteBoolean(bool value);
 
-  /// @brief Method WriteByte, addr 0x286e570, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x3c898dc, size 0x20, virtual false, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
-  /// @brief Method WriteBytes, addr 0x2873cdc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteBytes, addr 0x3c8ef1c, size 0x24, virtual false, abstract: false, final false
   inline void WriteBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> byteA, int32_t offset, int32_t size);
 
-  /// @brief Method WriteBytes, addr 0x2873cb8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteBytes, addr 0x3c8eef8, size 0x24, virtual false, abstract: false, final false
   inline void WriteBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method WriteChar, addr 0x2873d00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteChar, addr 0x3c8ef40, size 0x24, virtual false, abstract: false, final false
   inline void WriteChar(char16_t value);
 
-  /// @brief Method WriteChars, addr 0x2873d24, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteChars, addr 0x3c8ef64, size 0x24, virtual false, abstract: false, final false
   inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method WriteDateTime, addr 0x2873edc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteDateTime, addr 0x3c8f19c, size 0x78, virtual false, abstract: false, final false
   inline void WriteDateTime(::System::DateTime value);
 
-  /// @brief Method WriteDecimal, addr 0x2873d48, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WriteDecimal, addr 0x3c8ef88, size 0xec, virtual false, abstract: false, final false
   inline void WriteDecimal(::System::Decimal value);
 
-  /// @brief Method WriteDelayedNullItem, addr 0x28752a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method WriteDelayedNullItem, addr 0x3c90490, size 0x10, virtual false, abstract: false, final false
   inline void WriteDelayedNullItem();
 
-  /// @brief Method WriteDouble, addr 0x2873e2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteDouble, addr 0x3c8f098, size 0x24, virtual false, abstract: false, final false
   inline void WriteDouble(double_t value);
 
-  /// @brief Method WriteEnd, addr 0x2873c74, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteEnd, addr 0x3c8eeb4, size 0x20, virtual false, abstract: false, final false
   inline void WriteEnd();
 
-  /// @brief Method WriteInt16, addr 0x2873e50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteInt16, addr 0x3c8f0bc, size 0x24, virtual false, abstract: false, final false
   inline void WriteInt16(int16_t value);
 
-  /// @brief Method WriteInt32, addr 0x286e5b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteInt32, addr 0x3c89920, size 0x24, virtual false, abstract: false, final false
   inline void WriteInt32(int32_t value);
 
-  /// @brief Method WriteInt64, addr 0x2873e74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteInt64, addr 0x3c8f0e0, size 0x24, virtual false, abstract: false, final false
   inline void WriteInt64(int64_t value);
 
-  /// @brief Method WriteItem, addr 0x2875258, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method WriteItem, addr 0x3c90440, size 0x40, virtual false, abstract: false, final false
   inline void WriteItem(::System::Runtime::Serialization::Formatters::Binary::NameInfo* itemNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo,
                         ::System::Object* value);
 
-  /// @brief Method WriteItemEnd, addr 0x28752b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteItemEnd, addr 0x3c904a0, size 0x4, virtual false, abstract: false, final false
   inline void WriteItemEnd();
 
-  /// @brief Method WriteItemObjectRef, addr 0x28752bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method WriteItemObjectRef, addr 0x3c904a4, size 0x30, virtual false, abstract: false, final false
   inline void WriteItemObjectRef(::System::Runtime::Serialization::Formatters::Binary::NameInfo* nameInfo, int32_t idRef);
 
-  /// @brief Method WriteJaggedArray, addr 0x2874c70, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method WriteJaggedArray, addr 0x3c8fe6c, size 0x180, virtual false, abstract: false, final false
   inline void WriteJaggedArray(::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayNameInfo,
                                ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayElemTypeNameInfo,
                                int32_t length, int32_t lowerBound);
 
-  /// @brief Method WriteMember, addr 0x2874fb8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method WriteMember, addr 0x3c901a4, size 0x108, virtual false, abstract: false, final false
   inline void WriteMember(::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo,
                           ::System::Object* value);
 
-  /// @brief Method WriteMemberNested, addr 0x28751f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WriteMemberNested, addr 0x3c903dc, size 0x1c, virtual false, abstract: false, final false
   inline void WriteMemberNested(::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo);
 
-  /// @brief Method WriteMemberObjectRef, addr 0x2875160, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method WriteMemberObjectRef, addr 0x3c90348, size 0x94, virtual false, abstract: false, final false
   inline void WriteMemberObjectRef(::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, int32_t idRef);
 
-  /// @brief Method WriteMemberString, addr 0x2875210, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WriteMemberString, addr 0x3c903f8, size 0x48, virtual false, abstract: false, final false
   inline void WriteMemberString(::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo,
                                 ::StringW value);
 
-  /// @brief Method WriteMethodCall, addr 0x2874064, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method WriteMethodCall, addr 0x3c8f374, size 0x70, virtual false, abstract: false, final false
   inline void WriteMethodCall();
 
-  /// @brief Method WriteMethodReturn, addr 0x28740e4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method WriteMethodReturn, addr 0x3c8f3e4, size 0x70, virtual false, abstract: false, final false
   inline void WriteMethodReturn();
 
-  /// @brief Method WriteNullItem, addr 0x2875298, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method WriteNullItem, addr 0x3c90480, size 0x10, virtual false, abstract: false, final false
   inline void WriteNullItem(::System::Runtime::Serialization::Formatters::Binary::NameInfo* itemNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo);
 
-  /// @brief Method WriteNullMember, addr 0x28750c0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method WriteNullMember, addr 0x3c902ac, size 0x9c, virtual false, abstract: false, final false
   inline void WriteNullMember(::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo);
 
-  /// @brief Method WriteObject, addr 0x2874164, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x3c8f454, size 0x4d0, virtual false, abstract: false, final false
   inline void
   WriteObject(::System::Runtime::Serialization::Formatters::Binary::NameInfo* nameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo, int32_t numMembers,
               ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes,
               ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, ::Array<::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>*> memberObjectInfos);
 
-  /// @brief Method WriteObjectByteArray, addr 0x2874f58, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method WriteObjectByteArray, addr 0x3c90144, size 0x60, virtual false, abstract: false, final false
   inline void WriteObjectByteArray(::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayNameInfo,
                                    ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo,
                                    ::System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayElemTypeNameInfo, int32_t length, int32_t lowerBound,
                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> byteA);
 
-  /// @brief Method WriteObjectEnd, addr 0x2873f6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteObjectEnd, addr 0x3c8f280, size 0x4, virtual false, abstract: false, final false
   inline void WriteObjectEnd(::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo);
 
-  /// @brief Method WriteObjectString, addr 0x28746b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method WriteObjectString, addr 0x3c8f9b4, size 0x90, virtual false, abstract: false, final false
   inline void WriteObjectString(int32_t objectId, ::StringW value);
 
-  /// @brief Method WriteRectangleArray, addr 0x2874e00, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method WriteRectangleArray, addr 0x3c8ffec, size 0x158, virtual false, abstract: false, final false
   inline void WriteRectangleArray(::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayNameInfo,
                                   ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo,
                                   ::System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayElemTypeNameInfo, int32_t rank, ::ArrayW<int32_t, ::Array<int32_t>*> lengthA,
                                   ::ArrayW<int32_t, ::Array<int32_t>*> lowerBoundA);
 
-  /// @brief Method WriteSByte, addr 0x2873e98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteSByte, addr 0x3c8f104, size 0x20, virtual false, abstract: false, final false
   inline void WriteSByte(int8_t value);
 
-  /// @brief Method WriteSerializationHeader, addr 0x2873fcc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method WriteSerializationHeader, addr 0x3c8f2e4, size 0x90, virtual false, abstract: false, final false
   inline void WriteSerializationHeader(int32_t topId, int32_t headerId, int32_t minorVersion, int32_t majorVersion);
 
-  /// @brief Method WriteSerializationHeaderEnd, addr 0x2873f70, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method WriteSerializationHeaderEnd, addr 0x3c8f284, size 0x60, virtual false, abstract: false, final false
   inline void WriteSerializationHeaderEnd();
 
-  /// @brief Method WriteSingle, addr 0x2873e08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteSingle, addr 0x3c8f074, size 0x24, virtual false, abstract: false, final false
   inline void WriteSingle(float_t value);
 
-  /// @brief Method WriteSingleArray, addr 0x2874740, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method WriteSingleArray, addr 0x3c8fa44, size 0x2e4, virtual false, abstract: false, final false
   inline void WriteSingleArray(::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayNameInfo,
                                ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayElemTypeNameInfo,
                                int32_t length, int32_t lowerBound, ::System::Array* array);
 
-  /// @brief Method WriteString, addr 0x286e590, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteString, addr 0x3c898fc, size 0x24, virtual false, abstract: false, final false
   inline void WriteString(::StringW value);
 
-  /// @brief Method WriteTimeSpan, addr 0x2873eb8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteTimeSpan, addr 0x3c8f124, size 0x78, virtual false, abstract: false, final false
   inline void WriteTimeSpan(::System::TimeSpan value);
 
-  /// @brief Method WriteUInt16, addr 0x2873f00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteUInt16, addr 0x3c8f214, size 0x24, virtual false, abstract: false, final false
   inline void WriteUInt16(uint16_t value);
 
-  /// @brief Method WriteUInt32, addr 0x2873f24, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteUInt32, addr 0x3c8f238, size 0x24, virtual false, abstract: false, final false
   inline void WriteUInt32(uint32_t value);
 
-  /// @brief Method WriteUInt64, addr 0x2873f48, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteUInt64, addr 0x3c8f25c, size 0x24, virtual false, abstract: false, final false
   inline void WriteUInt64(uint64_t value);
 
-  /// @brief Method WriteValue, addr 0x286ee70, size 0x664, virtual false, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3c8a204, size 0x758, virtual false, abstract: false, final false
   inline void WriteValue(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Object* value);
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryArray*& __cordl_internal_get_binaryArray();
@@ -456,7 +457,7 @@ public:
 
   constexpr void __cordl_internal_set_sout(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x28738d0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c8eb28, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* sout, ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter,
                     ::System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle);
 
@@ -536,6 +537,9 @@ public:
 
   /// @brief Field binaryAssembly, offset: 0xa8, size: 0x8, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* ___binaryAssembly;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3279 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

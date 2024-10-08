@@ -20,32 +20,32 @@ class LocalizationDocument;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::Polyglot::LocalizationDocument);
 // Type: BGLib.Polyglot::LocalizationDocument
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
 // CS Name: ::BGLib.Polyglot::LocalizationDocument*
 class CORDL_TYPE LocalizationDocument : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_DocsId))::StringW DocsId;
+  __declspec(property(get = get_DocsId)) ::StringW DocsId;
 
-  __declspec(property(get = get_Format))::BGLib::Polyglot::GoogleDriveDownloadFormat Format;
+  __declspec(property(get = get_Format)) ::BGLib::Polyglot::GoogleDriveDownloadFormat Format;
 
-  __declspec(property(get = get_SheetId))::StringW SheetId;
+  __declspec(property(get = get_SheetId)) ::StringW SheetId;
 
-  __declspec(property(get = get_TextAsset))::UnityW<::UnityEngine::TextAsset> TextAsset;
+  __declspec(property(get = get_TextAsset)) ::UnityW<::UnityEngine::TextAsset> TextAsset;
 
   /// @brief Field docsId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_docsId, put = __cordl_internal_set_docsId))::StringW docsId;
+  __declspec(property(get = __cordl_internal_get_docsId, put = __cordl_internal_set_docsId)) ::StringW docsId;
 
   /// @brief Field format, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format))::BGLib::Polyglot::GoogleDriveDownloadFormat format;
+  __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format)) ::BGLib::Polyglot::GoogleDriveDownloadFormat format;
 
   /// @brief Field sheetId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_sheetId, put = __cordl_internal_set_sheetId))::StringW sheetId;
+  __declspec(property(get = __cordl_internal_get_sheetId, put = __cordl_internal_set_sheetId)) ::StringW sheetId;
 
   /// @brief Field textAsset, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_textAsset, put = __cordl_internal_set_textAsset))::UnityW<::UnityEngine::TextAsset> textAsset;
+  __declspec(property(get = __cordl_internal_get_textAsset, put = __cordl_internal_set_textAsset)) ::UnityW<::UnityEngine::TextAsset> textAsset;
 
   static inline ::BGLib::Polyglot::LocalizationDocument* New_ctor();
 
@@ -73,19 +73,19 @@ public:
 
   constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x10902f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226f5bc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DocsId, addr 0x10902e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DocsId, addr 0x226f5a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DocsId();
 
-  /// @brief Method get_Format, addr 0x10902f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x226f5b4, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format();
 
-  /// @brief Method get_SheetId, addr 0x10902e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SheetId, addr 0x226f5ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SheetId();
 
-  /// @brief Method get_TextAsset, addr 0x10902d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextAsset, addr 0x226f59c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
 
 protected:
@@ -113,6 +113,9 @@ public:
 
   /// @brief Field textAsset, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___textAsset;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17991 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

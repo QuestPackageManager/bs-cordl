@@ -35,7 +35,7 @@ class DigestUtilities;
 MARK_VAL_T(::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm);
 MARK_REF_PTR_T(::Org::BouncyCastle::Security::DigestUtilities);
 // Type: ::DigestAlgorithm
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: true
 // CS Name: ::DigestUtilities::DigestAlgorithm
@@ -240,6 +240,9 @@ public:
   /// @brief Field WHIRLPOOL value: static_cast<int32_t>(0x2a)
   static ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm const WHIRLPOOL;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1744 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -252,7 +255,7 @@ static_assert(offsetof(::Org::BouncyCastle::Security::__DigestUtilities__DigestA
 
 } // namespace Org::BouncyCastle::Security
 // Type: Org.BouncyCastle.Security::DigestUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Security::DigestUtilities*
@@ -262,45 +265,45 @@ public:
   using DigestAlgorithm = ::Org::BouncyCastle::Security::__DigestUtilities__DigestAlgorithm;
 
   /// @brief Field algorithms, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms))::System::Collections::IDictionary* algorithms;
+  static __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms)) ::System::Collections::IDictionary* algorithms;
 
   /// @brief Field oids, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_oids, put = setStaticF_oids))::System::Collections::IDictionary* oids;
+  static __declspec(property(get = getStaticF_oids, put = setStaticF_oids)) ::System::Collections::IDictionary* oids;
 
-  /// @brief Method CalculateDigest, addr 0x139b0e0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CalculateDigest, addr 0x2564cc4, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateDigest(::StringW algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method CalculateDigest, addr 0x139b078, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CalculateDigest, addr 0x2564c5c, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateDigest(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method DoFinal, addr 0x139b1d8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x2564dbc, size 0x134, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method DoFinal, addr 0x139b30c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x2564ef0, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method GetAlgorithmName, addr 0x139af70, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmName, addr 0x2564b54, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetDigest, addr 0x139a36c, size 0xc04, virtual false, abstract: false, final false
+  /// @brief Method GetDigest, addr 0x25640d4, size 0xa80, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* GetDigest(::StringW algorithm);
 
-  /// @brief Method GetDigest, addr 0x139a30c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetDigest, addr 0x2564074, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* GetDigest(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
 
-  /// @brief Method GetObjectIdentifier, addr 0x1399fe4, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method GetObjectIdentifier, addr 0x2563d50, size 0x258, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetObjectIdentifier(::StringW mechanism);
 
   static inline ::Org::BouncyCastle::Security::DigestUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x139659c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2560308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();
 
   static inline ::System::Collections::IDictionary* getStaticF_oids();
 
-  /// @brief Method get_Algorithms, addr 0x139a240, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithms, addr 0x2563fa8, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* get_Algorithms();
 
   static inline void setStaticF_algorithms(::System::Collections::IDictionary* value);
@@ -320,6 +323,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DigestUtilities", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DigestUtilities(DigestUtilities const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1745 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

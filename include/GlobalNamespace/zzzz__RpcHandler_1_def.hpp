@@ -122,7 +122,7 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::__RpcHandler_1____c__DisplayClass18_0_4);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__RpcHandler_1____c__DisplayClass19_0_5);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__RpcHandler_1____c__DisplayClass20_0_1);
 // Type: ::<>c__DisplayClass10_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename T>
@@ -132,7 +132,7 @@ class CORDL_TYPE __RpcHandler_1____c__DisplayClass10_0_1 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_1<::StringW>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action_1<::StringW>* callback;
 
   static inline ::GlobalNamespace::__RpcHandler_1____c__DisplayClass10_0_1<TType, T>* New_ctor();
 
@@ -165,12 +165,15 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14905 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass11_0`2
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename T, typename T0>
@@ -180,7 +183,7 @@ class CORDL_TYPE __RpcHandler_1____c__DisplayClass11_0_2 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_2<::StringW, T0>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action_2<::StringW, T0>* callback;
 
   static inline ::GlobalNamespace::__RpcHandler_1____c__DisplayClass11_0_2<TType, T, T0>* New_ctor();
 
@@ -213,12 +216,15 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::StringW, T0>* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14906 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass12_0`3
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename T, typename T0, typename T1>
@@ -228,7 +234,7 @@ class CORDL_TYPE __RpcHandler_1____c__DisplayClass12_0_3 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_3<::StringW, T0, T1>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action_3<::StringW, T0, T1>* callback;
 
   static inline ::GlobalNamespace::__RpcHandler_1____c__DisplayClass12_0_3<TType, T, T0, T1>* New_ctor();
 
@@ -261,12 +267,15 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_3<::StringW, T0, T1>* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14907 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass13_0`4
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename T, typename T0, typename T1, typename T2>
@@ -276,7 +285,7 @@ class CORDL_TYPE __RpcHandler_1____c__DisplayClass13_0_4 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_4<::StringW, T0, T1, T2>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action_4<::StringW, T0, T1, T2>* callback;
 
   static inline ::GlobalNamespace::__RpcHandler_1____c__DisplayClass13_0_4<TType, T, T0, T1, T2>* New_ctor();
 
@@ -309,12 +318,15 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_4<::StringW, T0, T1, T2>* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14908 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass14_0`5
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3>
@@ -324,7 +336,7 @@ class CORDL_TYPE __RpcHandler_1____c__DisplayClass14_0_5 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_5<::StringW, T0, T1, T2, T3>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action_5<::StringW, T0, T1, T2, T3>* callback;
 
   static inline ::GlobalNamespace::__RpcHandler_1____c__DisplayClass14_0_5<TType, T, T0, T1, T2, T3>* New_ctor();
 
@@ -357,12 +369,15 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_5<::StringW, T0, T1, T2, T3>* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14909 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass15_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename T>
@@ -372,7 +387,7 @@ class CORDL_TYPE __RpcHandler_1____c__DisplayClass15_0_1 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_2<::StringW, int64_t>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action_2<::StringW, int64_t>* callback;
 
   static inline ::GlobalNamespace::__RpcHandler_1____c__DisplayClass15_0_1<TType, T>* New_ctor();
 
@@ -405,12 +420,15 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::StringW, int64_t>* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14910 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass16_0`2
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename T, typename T0>
@@ -420,7 +438,7 @@ class CORDL_TYPE __RpcHandler_1____c__DisplayClass16_0_2 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_3<::StringW, int64_t, T0>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action_3<::StringW, int64_t, T0>* callback;
 
   static inline ::GlobalNamespace::__RpcHandler_1____c__DisplayClass16_0_2<TType, T, T0>* New_ctor();
 
@@ -453,12 +471,15 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_3<::StringW, int64_t, T0>* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14911 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass17_0`3
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename T, typename T0, typename T1>
@@ -468,7 +489,7 @@ class CORDL_TYPE __RpcHandler_1____c__DisplayClass17_0_3 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_4<::StringW, int64_t, T0, T1>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action_4<::StringW, int64_t, T0, T1>* callback;
 
   static inline ::GlobalNamespace::__RpcHandler_1____c__DisplayClass17_0_3<TType, T, T0, T1>* New_ctor();
 
@@ -501,12 +522,15 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_4<::StringW, int64_t, T0, T1>* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14912 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass18_0`4
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename T, typename T0, typename T1, typename T2>
@@ -516,7 +540,7 @@ class CORDL_TYPE __RpcHandler_1____c__DisplayClass18_0_4 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_5<::StringW, int64_t, T0, T1, T2>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action_5<::StringW, int64_t, T0, T1, T2>* callback;
 
   static inline ::GlobalNamespace::__RpcHandler_1____c__DisplayClass18_0_4<TType, T, T0, T1, T2>* New_ctor();
 
@@ -549,12 +573,15 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_5<::StringW, int64_t, T0, T1, T2>* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14913 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass19_0`5
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename T, typename T0, typename T1, typename T2, typename T3>
@@ -564,7 +591,7 @@ class CORDL_TYPE __RpcHandler_1____c__DisplayClass19_0_5 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_6<::StringW, int64_t, T0, T1, T2, T3>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action_6<::StringW, int64_t, T0, T1, T2, T3>* callback;
 
   static inline ::GlobalNamespace::__RpcHandler_1____c__DisplayClass19_0_5<TType, T, T0, T1, T2, T3>* New_ctor();
 
@@ -597,12 +624,15 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_6<::StringW, int64_t, T0, T1, T2, T3>* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14914 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass20_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename T>
@@ -612,7 +642,7 @@ class CORDL_TYPE __RpcHandler_1____c__DisplayClass20_0_1 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_2<::GlobalNamespace::IConnectedPlayer*, T>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action_2<::GlobalNamespace::IConnectedPlayer*, T>* callback;
 
   static inline ::GlobalNamespace::__RpcHandler_1____c__DisplayClass20_0_1<TType, T>* New_ctor();
 
@@ -645,12 +675,15 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::IConnectedPlayer*, T>* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14915 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::RpcHandler`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TType>
@@ -682,15 +715,15 @@ public:
   template <typename T> using __c__DisplayClass20_0_1 = ::GlobalNamespace::__RpcHandler_1____c__DisplayClass20_0_1<TType, T>;
 
   /// @brief Field _messageType, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get__messageType, put = __cordl_internal_set__messageType))::GlobalNamespace::__MultiplayerSessionManager__MessageType _messageType;
+  __declspec(property(get = __cordl_internal_get__messageType, put = __cordl_internal_set__messageType)) ::GlobalNamespace::__MultiplayerSessionManager__MessageType _messageType;
 
   /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _rpcSerializer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__rpcSerializer,
-                      put = __cordl_internal_set__rpcSerializer))::GlobalNamespace::NetworkPacketSerializer_2<TType, ::GlobalNamespace::IConnectedPlayer*>* _rpcSerializer;
+                      put = __cordl_internal_set__rpcSerializer)) ::GlobalNamespace::NetworkPacketSerializer_2<TType, ::GlobalNamespace::IConnectedPlayer*>* _rpcSerializer;
 
   /// @brief Method Destroy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Destroy();
@@ -789,6 +822,9 @@ public:
 
   /// @brief Field _rpcSerializer, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::NetworkPacketSerializer_2<TType, ::GlobalNamespace::IConnectedPlayer*>* ____rpcSerializer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14916 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -92,7 +92,7 @@ MARK_VAL_T(::System::Net::__HttpConnection__InputState);
 MARK_VAL_T(::System::Net::__HttpConnection__LineState);
 MARK_REF_PTR_T(::System::Net::HttpConnection);
 // Type: ::InputState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::HttpConnection::InputState
@@ -133,6 +133,9 @@ public:
   /// @brief Field RequestLine value: static_cast<int32_t>(0x0)
   static ::System::Net::__HttpConnection__InputState const RequestLine;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9654 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -145,7 +148,7 @@ static_assert(offsetof(::System::Net::__HttpConnection__InputState, value__) == 
 
 } // namespace System::Net
 // Type: ::LineState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::HttpConnection::LineState
@@ -190,6 +193,9 @@ public:
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::System::Net::__HttpConnection__LineState const None;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9655 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -202,7 +208,7 @@ static_assert(offsetof(::System::Net::__HttpConnection__LineState, value__) == 0
 
 } // namespace System::Net
 // Type: System.Net::HttpConnection
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::HttpConnection*
@@ -215,68 +221,68 @@ public:
 
   __declspec(property(get = get_IsSecure)) bool IsSecure;
 
-  __declspec(property(get = get_LocalEndPoint))::System::Net::IPEndPoint* LocalEndPoint;
+  __declspec(property(get = get_LocalEndPoint)) ::System::Net::IPEndPoint* LocalEndPoint;
 
-  __declspec(property(put = set_Prefix))::System::Net::ListenerPrefix* Prefix;
+  __declspec(property(put = set_Prefix)) ::System::Net::ListenerPrefix* Prefix;
 
   __declspec(property(get = get_Reuses)) int32_t Reuses;
 
   /// @brief Field buffer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
 
   /// @brief Field cert, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert))::System::Security::Cryptography::X509Certificates::X509Certificate* cert;
+  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert)) ::System::Security::Cryptography::X509Certificates::X509Certificate* cert;
 
   /// @brief Field chunked, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_chunked, put = __cordl_internal_set_chunked)) bool chunked;
 
   /// @brief Field client_cert, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_client_cert, put = __cordl_internal_set_client_cert))::System::Security::Cryptography::X509Certificates::X509Certificate2* client_cert;
+  __declspec(property(get = __cordl_internal_get_client_cert, put = __cordl_internal_set_client_cert)) ::System::Security::Cryptography::X509Certificates::X509Certificate2* client_cert;
 
   /// @brief Field client_cert_errors, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_client_cert_errors, put = __cordl_internal_set_client_cert_errors))::ArrayW<int32_t, ::Array<int32_t>*> client_cert_errors;
+  __declspec(property(get = __cordl_internal_get_client_cert_errors, put = __cordl_internal_set_client_cert_errors)) ::ArrayW<int32_t, ::Array<int32_t>*> client_cert_errors;
 
   /// @brief Field context, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::System::Net::HttpListenerContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context)) ::System::Net::HttpListenerContext* context;
 
   /// @brief Field context_bound, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_context_bound, put = __cordl_internal_set_context_bound)) bool context_bound;
 
   /// @brief Field current_line, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_current_line, put = __cordl_internal_set_current_line))::System::Text::StringBuilder* current_line;
+  __declspec(property(get = __cordl_internal_get_current_line, put = __cordl_internal_set_current_line)) ::System::Text::StringBuilder* current_line;
 
   /// @brief Field epl, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_epl, put = __cordl_internal_set_epl))::System::Net::EndPointListener* epl;
+  __declspec(property(get = __cordl_internal_get_epl, put = __cordl_internal_set_epl)) ::System::Net::EndPointListener* epl;
 
   /// @brief Field i_stream, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_i_stream, put = __cordl_internal_set_i_stream))::System::Net::RequestStream* i_stream;
+  __declspec(property(get = __cordl_internal_get_i_stream, put = __cordl_internal_set_i_stream)) ::System::Net::RequestStream* i_stream;
 
   /// @brief Field input_state, offset 0xb0, size 0x4
-  __declspec(property(get = __cordl_internal_get_input_state, put = __cordl_internal_set_input_state))::System::Net::__HttpConnection__InputState input_state;
+  __declspec(property(get = __cordl_internal_get_input_state, put = __cordl_internal_set_input_state)) ::System::Net::__HttpConnection__InputState input_state;
 
   /// @brief Field last_listener, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_last_listener, put = __cordl_internal_set_last_listener))::System::Net::HttpListener* last_listener;
+  __declspec(property(get = __cordl_internal_get_last_listener, put = __cordl_internal_set_last_listener)) ::System::Net::HttpListener* last_listener;
 
   /// @brief Field line_state, offset 0xb4, size 0x4
-  __declspec(property(get = __cordl_internal_get_line_state, put = __cordl_internal_set_line_state))::System::Net::__HttpConnection__LineState line_state;
+  __declspec(property(get = __cordl_internal_get_line_state, put = __cordl_internal_set_line_state)) ::System::Net::__HttpConnection__LineState line_state;
 
   /// @brief Field local_ep, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_local_ep, put = __cordl_internal_set_local_ep))::System::Net::IPEndPoint* local_ep;
+  __declspec(property(get = __cordl_internal_get_local_ep, put = __cordl_internal_set_local_ep)) ::System::Net::IPEndPoint* local_ep;
 
   /// @brief Field ms, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_ms, put = __cordl_internal_set_ms))::System::IO::MemoryStream* ms;
+  __declspec(property(get = __cordl_internal_get_ms, put = __cordl_internal_set_ms)) ::System::IO::MemoryStream* ms;
 
   /// @brief Field o_stream, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_o_stream, put = __cordl_internal_set_o_stream))::System::Net::ResponseStream* o_stream;
+  __declspec(property(get = __cordl_internal_get_o_stream, put = __cordl_internal_set_o_stream)) ::System::Net::ResponseStream* o_stream;
 
   /// @brief Field onread_cb, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_onread_cb, put = setStaticF_onread_cb))::System::AsyncCallback* onread_cb;
+  static __declspec(property(get = getStaticF_onread_cb, put = setStaticF_onread_cb)) ::System::AsyncCallback* onread_cb;
 
   /// @brief Field position, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) int32_t position;
 
   /// @brief Field prefix, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix))::System::Net::ListenerPrefix* prefix;
+  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix)) ::System::Net::ListenerPrefix* prefix;
 
   /// @brief Field reuses, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_reuses, put = __cordl_internal_set_reuses)) int32_t reuses;
@@ -288,63 +294,63 @@ public:
   __declspec(property(get = __cordl_internal_get_secure, put = __cordl_internal_set_secure)) bool secure;
 
   /// @brief Field sock, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_sock, put = __cordl_internal_set_sock))::System::Net::Sockets::Socket* sock;
+  __declspec(property(get = __cordl_internal_get_sock, put = __cordl_internal_set_sock)) ::System::Net::Sockets::Socket* sock;
 
   /// @brief Field ssl_stream, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_ssl_stream, put = __cordl_internal_set_ssl_stream))::System::Net::Security::SslStream* ssl_stream;
+  __declspec(property(get = __cordl_internal_get_ssl_stream, put = __cordl_internal_set_ssl_stream)) ::System::Net::Security::SslStream* ssl_stream;
 
   /// @brief Field stream, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream)) ::System::IO::Stream* stream;
 
   /// @brief Field timer, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_timer, put = __cordl_internal_set_timer))::System::Threading::Timer* timer;
+  __declspec(property(get = __cordl_internal_get_timer, put = __cordl_internal_set_timer)) ::System::Threading::Timer* timer;
 
-  /// @brief Method BeginReadRequest, addr 0x3023660, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method BeginReadRequest, addr 0x444a064, size 0x1a8, virtual false, abstract: false, final false
   inline void BeginReadRequest();
 
-  /// @brief Method Close, addr 0x3024f14, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x444b8fc, size 0x264, virtual false, abstract: false, final false
   inline void Close(bool force_close);
 
-  /// @brief Method CloseSocket, addr 0x3027410, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CloseSocket, addr 0x444de48, size 0x104, virtual false, abstract: false, final false
   inline void CloseSocket();
 
-  /// @brief Method GetRequestStream, addr 0x3027548, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetRequestStream, addr 0x444df7c, size 0x148, virtual false, abstract: false, final false
   inline ::System::Net::RequestStream* GetRequestStream(bool chunked, int64_t contentlength);
 
-  /// @brief Method GetResponseStream, addr 0x3027770, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetResponseStream, addr 0x444e0c4, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Net::ResponseStream* GetResponseStream();
 
-  /// @brief Method Init, addr 0x30271cc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x444dc10, size 0xa4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Net::HttpConnection* New_ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure,
                                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
-  /// @brief Method OnRead, addr 0x3027838, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnRead, addr 0x444e18c, size 0xd4, virtual false, abstract: false, final false
   static inline void OnRead(::System::IAsyncResult* ares);
 
-  /// @brief Method OnReadInternal, addr 0x302790c, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method OnReadInternal, addr 0x444e260, size 0x338, virtual false, abstract: false, final false
   inline void OnReadInternal(::System::IAsyncResult* ares);
 
-  /// @brief Method OnTimeout, addr 0x30273f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnTimeout, addr 0x444de30, size 0x18, virtual false, abstract: false, final false
   inline void OnTimeout(::System::Object* unused);
 
-  /// @brief Method ProcessInput, addr 0x3027c64, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method ProcessInput, addr 0x444e5b8, size 0x2b8, virtual false, abstract: false, final false
   inline bool ProcessInput(::System::IO::MemoryStream* ms);
 
-  /// @brief Method ReadLine, addr 0x3028944, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x444f2a4, size 0x174, virtual false, abstract: false, final false
   inline ::StringW ReadLine(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t len, ByRef<int32_t> used);
 
-  /// @brief Method RemoveConnection, addr 0x302854c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method RemoveConnection, addr 0x444eea4, size 0x40, virtual false, abstract: false, final false
   inline void RemoveConnection();
 
-  /// @brief Method SendError, addr 0x3027c44, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SendError, addr 0x444e598, size 0x20, virtual false, abstract: false, final false
   inline void SendError();
 
-  /// @brief Method SendError, addr 0x301f0e0, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method SendError, addr 0x4445cac, size 0x1dc, virtual false, abstract: false, final false
   inline void SendError(::StringW msg, int32_t status);
 
-  /// @brief Method Unbind, addr 0x3027518, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Unbind, addr 0x444df4c, size 0x30, virtual false, abstract: false, final false
   inline void Unbind();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
@@ -497,27 +503,27 @@ public:
 
   constexpr void __cordl_internal_set_timer(::System::Threading::Timer* value);
 
-  /// @brief Method <.ctor>b__24_0, addr 0x3029e8c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__24_0, addr 0x44504d4, size 0xf0, virtual false, abstract: false, final false
   inline bool __ctor_b__24_0(::System::Object* t, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch,
                              ::System::Net::Security::SslPolicyErrors e);
 
-  /// @brief Method .ctor, addr 0x3023400, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4449e18, size 0x24c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure, ::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
   static inline ::System::AsyncCallback* getStaticF_onread_cb();
 
-  /// @brief Method get_IsSecure, addr 0x30273e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSecure, addr 0x444de20, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSecure();
 
-  /// @brief Method get_LocalEndPoint, addr 0x3027330, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalEndPoint, addr 0x444dd68, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_LocalEndPoint();
 
-  /// @brief Method get_Reuses, addr 0x3027328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reuses, addr 0x444dd60, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Reuses();
 
   static inline void setStaticF_onread_cb(::System::AsyncCallback* value);
 
-  /// @brief Method set_Prefix, addr 0x30273f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Prefix, addr 0x444de28, size 0x8, virtual false, abstract: false, final false
   inline void set_Prefix(::System::Net::ListenerPrefix* value);
 
 protected:
@@ -608,6 +614,9 @@ public:
 
   /// @brief Field position, offset: 0xb8, size: 0x4, def value: None
   int32_t ___position;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9656 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

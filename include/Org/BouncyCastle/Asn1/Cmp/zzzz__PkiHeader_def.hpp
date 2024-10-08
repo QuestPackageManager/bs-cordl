@@ -44,7 +44,7 @@ class PkiHeader;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::PkiHeader);
 // Type: Org.BouncyCastle.Asn1.Cmp::PkiHeader
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::PkiHeader*
@@ -57,71 +57,71 @@ public:
   /// @brief Field CMP_2000, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_CMP_2000, put = setStaticF_CMP_2000)) int32_t CMP_2000;
 
-  __declspec(property(get = get_FreeText))::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* FreeText;
+  __declspec(property(get = get_FreeText)) ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* FreeText;
 
-  __declspec(property(get = get_MessageTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* MessageTime;
+  __declspec(property(get = get_MessageTime)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* MessageTime;
 
   /// @brief Field NULL_NAME, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_NULL_NAME, put = setStaticF_NULL_NAME))::Org::BouncyCastle::Asn1::X509::GeneralName* NULL_NAME;
+  static __declspec(property(get = getStaticF_NULL_NAME, put = setStaticF_NULL_NAME)) ::Org::BouncyCastle::Asn1::X509::GeneralName* NULL_NAME;
 
-  __declspec(property(get = get_ProtectionAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ProtectionAlg;
+  __declspec(property(get = get_ProtectionAlg)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ProtectionAlg;
 
-  __declspec(property(get = get_Pvno))::Org::BouncyCastle::Asn1::DerInteger* Pvno;
+  __declspec(property(get = get_Pvno)) ::Org::BouncyCastle::Asn1::DerInteger* Pvno;
 
-  __declspec(property(get = get_RecipKID))::Org::BouncyCastle::Asn1::Asn1OctetString* RecipKID;
+  __declspec(property(get = get_RecipKID)) ::Org::BouncyCastle::Asn1::Asn1OctetString* RecipKID;
 
-  __declspec(property(get = get_RecipNonce))::Org::BouncyCastle::Asn1::Asn1OctetString* RecipNonce;
+  __declspec(property(get = get_RecipNonce)) ::Org::BouncyCastle::Asn1::Asn1OctetString* RecipNonce;
 
-  __declspec(property(get = get_Recipient))::Org::BouncyCastle::Asn1::X509::GeneralName* Recipient;
+  __declspec(property(get = get_Recipient)) ::Org::BouncyCastle::Asn1::X509::GeneralName* Recipient;
 
-  __declspec(property(get = get_Sender))::Org::BouncyCastle::Asn1::X509::GeneralName* Sender;
+  __declspec(property(get = get_Sender)) ::Org::BouncyCastle::Asn1::X509::GeneralName* Sender;
 
-  __declspec(property(get = get_SenderKID))::Org::BouncyCastle::Asn1::Asn1OctetString* SenderKID;
+  __declspec(property(get = get_SenderKID)) ::Org::BouncyCastle::Asn1::Asn1OctetString* SenderKID;
 
-  __declspec(property(get = get_SenderNonce))::Org::BouncyCastle::Asn1::Asn1OctetString* SenderNonce;
+  __declspec(property(get = get_SenderNonce)) ::Org::BouncyCastle::Asn1::Asn1OctetString* SenderNonce;
 
-  __declspec(property(get = get_TransactionID))::Org::BouncyCastle::Asn1::Asn1OctetString* TransactionID;
+  __declspec(property(get = get_TransactionID)) ::Org::BouncyCastle::Asn1::Asn1OctetString* TransactionID;
 
   /// @brief Field freeText, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_freeText, put = __cordl_internal_set_freeText))::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* freeText;
+  __declspec(property(get = __cordl_internal_get_freeText, put = __cordl_internal_set_freeText)) ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* freeText;
 
   /// @brief Field generalInfo, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_generalInfo, put = __cordl_internal_set_generalInfo))::Org::BouncyCastle::Asn1::Asn1Sequence* generalInfo;
+  __declspec(property(get = __cordl_internal_get_generalInfo, put = __cordl_internal_set_generalInfo)) ::Org::BouncyCastle::Asn1::Asn1Sequence* generalInfo;
 
   /// @brief Field messageTime, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_messageTime, put = __cordl_internal_set_messageTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* messageTime;
+  __declspec(property(get = __cordl_internal_get_messageTime, put = __cordl_internal_set_messageTime)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* messageTime;
 
   /// @brief Field protectionAlg, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_protectionAlg, put = __cordl_internal_set_protectionAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* protectionAlg;
+  __declspec(property(get = __cordl_internal_get_protectionAlg, put = __cordl_internal_set_protectionAlg)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* protectionAlg;
 
   /// @brief Field pvno, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_pvno, put = __cordl_internal_set_pvno))::Org::BouncyCastle::Asn1::DerInteger* pvno;
+  __declspec(property(get = __cordl_internal_get_pvno, put = __cordl_internal_set_pvno)) ::Org::BouncyCastle::Asn1::DerInteger* pvno;
 
   /// @brief Field recipKID, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_recipKID, put = __cordl_internal_set_recipKID))::Org::BouncyCastle::Asn1::Asn1OctetString* recipKID;
+  __declspec(property(get = __cordl_internal_get_recipKID, put = __cordl_internal_set_recipKID)) ::Org::BouncyCastle::Asn1::Asn1OctetString* recipKID;
 
   /// @brief Field recipNonce, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_recipNonce, put = __cordl_internal_set_recipNonce))::Org::BouncyCastle::Asn1::Asn1OctetString* recipNonce;
+  __declspec(property(get = __cordl_internal_get_recipNonce, put = __cordl_internal_set_recipNonce)) ::Org::BouncyCastle::Asn1::Asn1OctetString* recipNonce;
 
   /// @brief Field recipient, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_recipient, put = __cordl_internal_set_recipient))::Org::BouncyCastle::Asn1::X509::GeneralName* recipient;
+  __declspec(property(get = __cordl_internal_get_recipient, put = __cordl_internal_set_recipient)) ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient;
 
   /// @brief Field sender, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_sender, put = __cordl_internal_set_sender))::Org::BouncyCastle::Asn1::X509::GeneralName* sender;
+  __declspec(property(get = __cordl_internal_get_sender, put = __cordl_internal_set_sender)) ::Org::BouncyCastle::Asn1::X509::GeneralName* sender;
 
   /// @brief Field senderKID, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_senderKID, put = __cordl_internal_set_senderKID))::Org::BouncyCastle::Asn1::Asn1OctetString* senderKID;
+  __declspec(property(get = __cordl_internal_get_senderKID, put = __cordl_internal_set_senderKID)) ::Org::BouncyCastle::Asn1::Asn1OctetString* senderKID;
 
   /// @brief Field senderNonce, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_senderNonce, put = __cordl_internal_set_senderNonce))::Org::BouncyCastle::Asn1::Asn1OctetString* senderNonce;
+  __declspec(property(get = __cordl_internal_get_senderNonce, put = __cordl_internal_set_senderNonce)) ::Org::BouncyCastle::Asn1::Asn1OctetString* senderNonce;
 
   /// @brief Field transactionID, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_transactionID, put = __cordl_internal_set_transactionID))::Org::BouncyCastle::Asn1::Asn1OctetString* transactionID;
+  __declspec(property(get = __cordl_internal_get_transactionID, put = __cordl_internal_set_transactionID)) ::Org::BouncyCastle::Asn1::Asn1OctetString* transactionID;
 
-  /// @brief Method GetGeneralInfo, addr 0x10dd198, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetGeneralInfo, addr 0x22baaa8, size 0x100, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> GetGeneralInfo();
 
-  /// @brief Method GetInstance, addr 0x10dceec, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22ba810, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender,
@@ -131,7 +131,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10dd298, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22baba8, size 0x220, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*& __cordl_internal_get_freeText();
@@ -206,13 +206,13 @@ public:
 
   constexpr void __cordl_internal_set_transactionID(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x10dd104, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22baa14, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  /// @brief Method .ctor, addr 0x10dd074, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ba98c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  /// @brief Method .ctor, addr 0x10dcc30, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ba558, size 0x2b8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline int32_t getStaticF_CMP_1999();
@@ -221,37 +221,37 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralName* getStaticF_NULL_NAME();
 
-  /// @brief Method get_FreeText, addr 0x10dd190, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FreeText, addr 0x22baaa0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* get_FreeText();
 
-  /// @brief Method get_MessageTime, addr 0x10dd158, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MessageTime, addr 0x22baa68, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_MessageTime();
 
-  /// @brief Method get_ProtectionAlg, addr 0x10dd160, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProtectionAlg, addr 0x22baa70, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_ProtectionAlg();
 
-  /// @brief Method get_Pvno, addr 0x10dd140, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Pvno, addr 0x22baa50, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Pvno();
 
-  /// @brief Method get_RecipKID, addr 0x10dd170, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RecipKID, addr 0x22baa80, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_RecipKID();
 
-  /// @brief Method get_RecipNonce, addr 0x10dd188, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RecipNonce, addr 0x22baa98, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_RecipNonce();
 
-  /// @brief Method get_Recipient, addr 0x10dd150, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Recipient, addr 0x22baa60, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Recipient();
 
-  /// @brief Method get_Sender, addr 0x10dd148, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Sender, addr 0x22baa58, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Sender();
 
-  /// @brief Method get_SenderKID, addr 0x10dd168, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SenderKID, addr 0x22baa78, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_SenderKID();
 
-  /// @brief Method get_SenderNonce, addr 0x10dd180, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SenderNonce, addr 0x22baa90, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_SenderNonce();
 
-  /// @brief Method get_TransactionID, addr 0x10dd178, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TransactionID, addr 0x22baa88, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_TransactionID();
 
   static inline void setStaticF_CMP_1999(int32_t value);
@@ -309,6 +309,9 @@ public:
 
   /// @brief Field generalInfo, offset: 0x68, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___generalInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 37 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

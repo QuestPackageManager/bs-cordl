@@ -30,41 +30,41 @@ class RsaBlindedEngine;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine);
 // Type: Org.BouncyCastle.Crypto.Engines::RsaBlindedEngine
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RsaBlindedEngine*
 class CORDL_TYPE RsaBlindedEngine : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field core, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_core, put = __cordl_internal_set_core))::Org::BouncyCastle::Crypto::IRsa* core;
+  __declspec(property(get = __cordl_internal_get_core, put = __cordl_internal_set_core)) ::Org::BouncyCastle::Crypto::IRsa* core;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key;
 
   /// @brief Field random, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
 
-  /// @brief Method GetInputBlockSize, addr 0x115100c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetInputBlockSize, addr 0x232b154, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize, addr 0x11510b0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetOutputBlockSize, addr 0x232b1f8, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method Init, addr 0x1150db0, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x232aefc, size 0x258, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine* New_ctor(::Org::BouncyCastle::Crypto::IRsa* rsa);
 
-  /// @brief Method ProcessBlock, addr 0x1151154, size 0x41c, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x232b29c, size 0x414, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen);
 
   constexpr ::Org::BouncyCastle::Crypto::IRsa*& __cordl_internal_get_core();
@@ -85,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x1150cd4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232ae28, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1150d48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232ae94, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IRsa* rsa);
 
-  /// @brief Method get_AlgorithmName, addr 0x1150d70, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x232aebc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
@@ -119,6 +119,9 @@ public:
 
   /// @brief Field random, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Security::SecureRandom* ___random;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 862 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

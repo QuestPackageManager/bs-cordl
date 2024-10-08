@@ -26,7 +26,7 @@ class DisplayText;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::DisplayText);
 // Type: Org.BouncyCastle.Asn1.X509::DisplayText
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::DisplayText*
@@ -37,15 +37,15 @@ public:
   __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType)) int32_t contentType;
 
   /// @brief Field contents, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_contents, put = __cordl_internal_set_contents))::Org::BouncyCastle::Asn1::IAsn1String* contents;
+  __declspec(property(get = __cordl_internal_get_contents, put = __cordl_internal_set_contents)) ::Org::BouncyCastle::Asn1::IAsn1String* contents;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x13fdef0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25c4168, size 0x174, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DisplayText* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetString, addr 0x13fe0e8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x25c4354, size 0xa0, virtual false, abstract: false, final false
   inline ::StringW GetString();
 
   static inline ::Org::BouncyCastle::Asn1::X509::DisplayText* New_ctor(::Org::BouncyCastle::Asn1::IAsn1String* contents);
@@ -54,7 +54,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::DisplayText* New_ctor(int32_t type, ::StringW text);
 
-  /// @brief Method ToAsn1Object, addr 0x13fe070, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25c42dc, size 0x78, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr int32_t const& __cordl_internal_get_contentType() const;
@@ -69,13 +69,13 @@ public:
 
   constexpr void __cordl_internal_set_contents(::Org::BouncyCastle::Asn1::IAsn1String* value);
 
-  /// @brief Method .ctor, addr 0x13fdec8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c4140, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::IAsn1String* contents);
 
-  /// @brief Method .ctor, addr 0x13fde24, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c40a0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x13fdcb8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c3f44, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::StringW text);
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -115,6 +115,9 @@ public:
 
   /// @brief Field DisplayTextMaximumSize offset 0xffffffff size 0x4
   static constexpr int32_t DisplayTextMaximumSize{ static_cast<int32_t>(0xc8) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 356 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

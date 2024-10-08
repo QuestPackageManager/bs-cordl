@@ -19,7 +19,7 @@ class MultipliedAndAddedColorSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultipliedAndAddedColorSO);
 // Type: ::MultipliedAndAddedColorSO
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultipliedAndAddedColorSO*
@@ -27,15 +27,15 @@ class CORDL_TYPE MultipliedAndAddedColorSO : public ::GlobalNamespace::ColorSO {
 public:
   // Declarations
   /// @brief Field _addColor, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get__addColor, put = __cordl_internal_set__addColor))::UnityEngine::Color _addColor;
+  __declspec(property(get = __cordl_internal_get__addColor, put = __cordl_internal_set__addColor)) ::UnityEngine::Color _addColor;
 
   /// @brief Field _baseColor, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__baseColor, put = __cordl_internal_set__baseColor))::UnityW<::GlobalNamespace::SimpleColorSO> _baseColor;
+  __declspec(property(get = __cordl_internal_get__baseColor, put = __cordl_internal_set__baseColor)) ::UnityW<::GlobalNamespace::SimpleColorSO> _baseColor;
 
   /// @brief Field _multiplierColor, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get__multiplierColor, put = __cordl_internal_set__multiplierColor))::UnityEngine::Color _multiplierColor;
+  __declspec(property(get = __cordl_internal_get__multiplierColor, put = __cordl_internal_set__multiplierColor)) ::UnityEngine::Color _multiplierColor;
 
-  __declspec(property(get = get_color))::UnityEngine::Color color;
+  __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
   static inline ::GlobalNamespace::MultipliedAndAddedColorSO* New_ctor();
 
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set__multiplierColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x14a0cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26612c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x14a0c44, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x2661260, size 0x68, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field _addColor, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Color ____addColor;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18889 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

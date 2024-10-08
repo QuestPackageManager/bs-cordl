@@ -16,7 +16,7 @@ struct LinearColor;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::LinearColor);
 // Type: UnityEngine.Experimental.GlobalIllumination::LinearColor
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::LinearColor
@@ -29,28 +29,28 @@ public:
 
   __declspec(property(get = get_red, put = set_red)) float_t red;
 
-  /// @brief Method Black, addr 0x346cf20, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Black, addr 0x48574d8, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor Black();
 
-  /// @brief Method Convert, addr 0x346cbe8, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x4857214, size 0x2c4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(::UnityEngine::Color color, float_t intensity);
 
-  /// @brief Method get_blue, addr 0x346cb2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blue, addr 0x4857160, size 0x8, virtual false, abstract: false, final false
   inline float_t get_blue();
 
-  /// @brief Method get_green, addr 0x346ca70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_green, addr 0x48570ac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_green();
 
-  /// @brief Method get_red, addr 0x346c9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_red, addr 0x4856ff8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_red();
 
-  /// @brief Method set_blue, addr 0x346cb34, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_blue, addr 0x4857168, size 0xac, virtual false, abstract: false, final false
   inline void set_blue(float_t value);
 
-  /// @brief Method set_green, addr 0x346ca78, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_green, addr 0x48570b4, size 0xac, virtual false, abstract: false, final false
   inline void set_green(float_t value);
 
-  /// @brief Method set_red, addr 0x346c9bc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_red, addr 0x4857000, size 0xac, virtual false, abstract: false, final false
   inline void set_red(float_t value);
 
   // Ctor Parameters []
@@ -72,6 +72,9 @@ public:
 
   /// @brief Field m_intensity, offset: 0xc, size: 0x4, def value: None
   float_t m_intensity;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11256 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

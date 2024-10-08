@@ -23,7 +23,7 @@ struct OVRTextureData;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::OVRTextureData);
 // Type: ::OVRTextureData
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRTextureData
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field uri, offset: 0x18, size: 0x8, def value: None
   ::StringW uri;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7849 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -25,7 +25,7 @@ template <typename T> class PacketPool_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::PacketPool_1);
 // Type: ::PacketPool`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -35,7 +35,7 @@ class CORDL_TYPE PacketPool_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _bag, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__bag, put = __cordl_internal_set__bag))::System::Collections::Concurrent::ConcurrentBag_1<T>* _bag;
+  __declspec(property(get = __cordl_internal_get__bag, put = __cordl_internal_set__bag)) ::System::Collections::Concurrent::ConcurrentBag_1<T>* _bag;
 
   /// @brief Convert operator to "::GlobalNamespace::IPacketPool"
   constexpr operator ::GlobalNamespace::IPacketPool*() noexcept;
@@ -91,6 +91,9 @@ public:
 
   /// @brief Field _bag, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Concurrent::ConcurrentBag_1<T>* ____bag;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14768 };
 
   /// @brief Field kMaxPoolSize offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPoolSize{ static_cast<int32_t>(0x10) };

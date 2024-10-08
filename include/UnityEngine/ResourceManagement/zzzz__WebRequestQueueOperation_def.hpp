@@ -21,7 +21,7 @@ class WebRequestQueueOperation;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::WebRequestQueueOperation);
 // Type: UnityEngine.ResourceManagement::WebRequestQueueOperation
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
 // CS Name: ::UnityEngine.ResourceManagement::WebRequestQueueOperation*
@@ -31,18 +31,20 @@ public:
   __declspec(property(get = get_IsDone)) bool IsDone;
 
   /// @brief Field OnComplete, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_OnComplete, put = __cordl_internal_set_OnComplete))::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* OnComplete;
+  __declspec(property(get = __cordl_internal_get_OnComplete, put = __cordl_internal_set_OnComplete)) ::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* OnComplete;
 
   /// @brief Field Result, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Result, put = __cordl_internal_set_Result))::UnityEngine::Networking::UnityWebRequestAsyncOperation* Result;
+  __declspec(property(get = __cordl_internal_get_Result, put = __cordl_internal_set_Result)) ::UnityEngine::Networking::UnityWebRequestAsyncOperation* Result;
+
+  __declspec(property(get = get_WebRequest, put = set_WebRequest)) ::UnityEngine::Networking::UnityWebRequest* WebRequest;
 
   /// @brief Field m_Completed, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Completed, put = __cordl_internal_set_m_Completed)) bool m_Completed;
 
   /// @brief Field m_WebRequest, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_WebRequest, put = __cordl_internal_set_m_WebRequest))::UnityEngine::Networking::UnityWebRequest* m_WebRequest;
+  __declspec(property(get = __cordl_internal_get_m_WebRequest, put = __cordl_internal_set_m_WebRequest)) ::UnityEngine::Networking::UnityWebRequest* m_WebRequest;
 
-  /// @brief Method Complete, addr 0x333d4fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x471a4a0, size 0x28, virtual false, abstract: false, final false
   inline void Complete(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* New_ctor(::UnityEngine::Networking::UnityWebRequest* request);
@@ -71,11 +73,17 @@ public:
 
   constexpr void __cordl_internal_set_m_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x333d4d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x471a478, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method get_IsDone, addr 0x333d4b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsDone, addr 0x471a448, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsDone();
+
+  /// @brief Method get_WebRequest, addr 0x471a468, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Networking::UnityWebRequest* get_WebRequest();
+
+  /// @brief Method set_WebRequest, addr 0x471a470, size 0x8, virtual false, abstract: false, final false
+  inline void set_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
 protected:
   // Ctor Parameters []
@@ -102,6 +110,9 @@ public:
 
   /// @brief Field m_WebRequest, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Networking::UnityWebRequest* ___m_WebRequest;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15554 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,7 +24,7 @@ class FastAction;
 // Write type traits
 MARK_REF_PTR_T(::TMPro::FastAction);
 // Type: TMPro::FastAction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::FastAction*
@@ -32,21 +32,21 @@ class CORDL_TYPE FastAction : public ::System::Object {
 public:
   // Declarations
   /// @brief Field delegates, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_delegates, put = __cordl_internal_set_delegates))::System::Collections::Generic::LinkedList_1<::System::Action*>* delegates;
+  __declspec(property(get = __cordl_internal_get_delegates, put = __cordl_internal_set_delegates)) ::System::Collections::Generic::LinkedList_1<::System::Action*>* delegates;
 
   /// @brief Field lookup, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_lookup,
-                      put = __cordl_internal_set_lookup))::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* lookup;
+                      put = __cordl_internal_set_lookup)) ::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* lookup;
 
-  /// @brief Method Add, addr 0x335c664, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x473db54, size 0xc0, virtual false, abstract: false, final false
   inline void Add(::System::Action* rhs);
 
-  /// @brief Method Call, addr 0x335c7e4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x473dcd4, size 0x98, virtual false, abstract: false, final false
   inline void Call();
 
   static inline ::TMPro::FastAction* New_ctor();
 
-  /// @brief Method Remove, addr 0x335c724, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x473dc14, size 0xc0, virtual false, abstract: false, final false
   inline void Remove(::System::Action* rhs);
 
   constexpr ::System::Collections::Generic::LinkedList_1<::System::Action*>*& __cordl_internal_get_delegates();
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* value);
 
-  /// @brief Method .ctor, addr 0x335c87c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x473dd6c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field lookup, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* ___lookup;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14373 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

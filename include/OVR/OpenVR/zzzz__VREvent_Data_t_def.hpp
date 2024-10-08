@@ -112,7 +112,7 @@ struct VREvent_Data_t;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::VREvent_Data_t);
 // Type: OVR.OpenVR::VREvent_Data_t
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::VREvent_Data_t
@@ -120,79 +120,79 @@ struct CORDL_TYPE VREvent_Data_t {
 public:
   // Declarations
   /// @brief Field applicationLaunch, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_applicationLaunch, put = __cordl_internal_set_applicationLaunch))::OVR::OpenVR::VREvent_ApplicationLaunch_t applicationLaunch;
+  __declspec(property(get = __cordl_internal_get_applicationLaunch, put = __cordl_internal_set_applicationLaunch)) ::OVR::OpenVR::VREvent_ApplicationLaunch_t applicationLaunch;
 
   /// @brief Field cameraSurface, offset 0x0, size 0x10
-  __declspec(property(get = __cordl_internal_get_cameraSurface, put = __cordl_internal_set_cameraSurface))::OVR::OpenVR::VREvent_EditingCameraSurface_t cameraSurface;
+  __declspec(property(get = __cordl_internal_get_cameraSurface, put = __cordl_internal_set_cameraSurface)) ::OVR::OpenVR::VREvent_EditingCameraSurface_t cameraSurface;
 
   /// @brief Field chaperone, offset 0x0, size 0x10
-  __declspec(property(get = __cordl_internal_get_chaperone, put = __cordl_internal_set_chaperone))::OVR::OpenVR::VREvent_Chaperone_t chaperone;
+  __declspec(property(get = __cordl_internal_get_chaperone, put = __cordl_internal_set_chaperone)) ::OVR::OpenVR::VREvent_Chaperone_t chaperone;
 
   /// @brief Field controller, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_controller, put = __cordl_internal_set_controller))::OVR::OpenVR::VREvent_Controller_t controller;
+  __declspec(property(get = __cordl_internal_get_controller, put = __cordl_internal_set_controller)) ::OVR::OpenVR::VREvent_Controller_t controller;
 
   /// @brief Field dualAnalog, offset 0x0, size 0x14
-  __declspec(property(get = __cordl_internal_get_dualAnalog, put = __cordl_internal_set_dualAnalog))::OVR::OpenVR::VREvent_DualAnalog_t dualAnalog;
+  __declspec(property(get = __cordl_internal_get_dualAnalog, put = __cordl_internal_set_dualAnalog)) ::OVR::OpenVR::VREvent_DualAnalog_t dualAnalog;
 
   /// @brief Field hapticVibration, offset 0x0, size 0x20
-  __declspec(property(get = __cordl_internal_get_hapticVibration, put = __cordl_internal_set_hapticVibration))::OVR::OpenVR::VREvent_HapticVibration_t hapticVibration;
+  __declspec(property(get = __cordl_internal_get_hapticVibration, put = __cordl_internal_set_hapticVibration)) ::OVR::OpenVR::VREvent_HapticVibration_t hapticVibration;
 
   /// @brief Field inputBinding, offset 0x0, size 0x20
-  __declspec(property(get = __cordl_internal_get_inputBinding, put = __cordl_internal_set_inputBinding))::OVR::OpenVR::VREvent_InputBindingLoad_t inputBinding;
+  __declspec(property(get = __cordl_internal_get_inputBinding, put = __cordl_internal_set_inputBinding)) ::OVR::OpenVR::VREvent_InputBindingLoad_t inputBinding;
 
   /// @brief Field ipd, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_ipd, put = __cordl_internal_set_ipd))::OVR::OpenVR::VREvent_Ipd_t ipd;
+  __declspec(property(get = __cordl_internal_get_ipd, put = __cordl_internal_set_ipd)) ::OVR::OpenVR::VREvent_Ipd_t ipd;
 
   /// @brief Field keyboard, offset 0x0, size 0x10
-  __declspec(property(get = __cordl_internal_get_keyboard, put = __cordl_internal_set_keyboard))::OVR::OpenVR::VREvent_Keyboard_t keyboard;
+  __declspec(property(get = __cordl_internal_get_keyboard, put = __cordl_internal_set_keyboard)) ::OVR::OpenVR::VREvent_Keyboard_t keyboard;
 
   /// @brief Field messageOverlay, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_messageOverlay, put = __cordl_internal_set_messageOverlay))::OVR::OpenVR::VREvent_MessageOverlay_t messageOverlay;
+  __declspec(property(get = __cordl_internal_get_messageOverlay, put = __cordl_internal_set_messageOverlay)) ::OVR::OpenVR::VREvent_MessageOverlay_t messageOverlay;
 
   /// @brief Field mouse, offset 0x0, size 0xc
-  __declspec(property(get = __cordl_internal_get_mouse, put = __cordl_internal_set_mouse))::OVR::OpenVR::VREvent_Mouse_t mouse;
+  __declspec(property(get = __cordl_internal_get_mouse, put = __cordl_internal_set_mouse)) ::OVR::OpenVR::VREvent_Mouse_t mouse;
 
   /// @brief Field notification, offset 0x0, size 0x10
-  __declspec(property(get = __cordl_internal_get_notification, put = __cordl_internal_set_notification))::OVR::OpenVR::VREvent_Notification_t notification;
+  __declspec(property(get = __cordl_internal_get_notification, put = __cordl_internal_set_notification)) ::OVR::OpenVR::VREvent_Notification_t notification;
 
   /// @brief Field overlay, offset 0x0, size 0x10
-  __declspec(property(get = __cordl_internal_get_overlay, put = __cordl_internal_set_overlay))::OVR::OpenVR::VREvent_Overlay_t overlay;
+  __declspec(property(get = __cordl_internal_get_overlay, put = __cordl_internal_set_overlay)) ::OVR::OpenVR::VREvent_Overlay_t overlay;
 
   /// @brief Field performanceTest, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_performanceTest, put = __cordl_internal_set_performanceTest))::OVR::OpenVR::VREvent_PerformanceTest_t performanceTest;
+  __declspec(property(get = __cordl_internal_get_performanceTest, put = __cordl_internal_set_performanceTest)) ::OVR::OpenVR::VREvent_PerformanceTest_t performanceTest;
 
   /// @brief Field process, offset 0x0, size 0xc
-  __declspec(property(get = __cordl_internal_get_process, put = __cordl_internal_set_process))::OVR::OpenVR::VREvent_Process_t process;
+  __declspec(property(get = __cordl_internal_get_process, put = __cordl_internal_set_process)) ::OVR::OpenVR::VREvent_Process_t process;
 
   /// @brief Field property, offset 0x0, size 0x10
-  __declspec(property(get = __cordl_internal_get_property, put = __cordl_internal_set_property))::OVR::OpenVR::VREvent_Property_t property;
+  __declspec(property(get = __cordl_internal_get_property, put = __cordl_internal_set_property)) ::OVR::OpenVR::VREvent_Property_t property;
 
   /// @brief Field reserved, offset 0x0, size 0x20
-  __declspec(property(get = __cordl_internal_get_reserved, put = __cordl_internal_set_reserved))::OVR::OpenVR::VREvent_Reserved_t reserved;
+  __declspec(property(get = __cordl_internal_get_reserved, put = __cordl_internal_set_reserved)) ::OVR::OpenVR::VREvent_Reserved_t reserved;
 
   /// @brief Field screenshot, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_screenshot, put = __cordl_internal_set_screenshot))::OVR::OpenVR::VREvent_Screenshot_t screenshot;
+  __declspec(property(get = __cordl_internal_get_screenshot, put = __cordl_internal_set_screenshot)) ::OVR::OpenVR::VREvent_Screenshot_t screenshot;
 
   /// @brief Field screenshotProgress, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_screenshotProgress, put = __cordl_internal_set_screenshotProgress))::OVR::OpenVR::VREvent_ScreenshotProgress_t screenshotProgress;
+  __declspec(property(get = __cordl_internal_get_screenshotProgress, put = __cordl_internal_set_screenshotProgress)) ::OVR::OpenVR::VREvent_ScreenshotProgress_t screenshotProgress;
 
   /// @brief Field scroll, offset 0x0, size 0xc
-  __declspec(property(get = __cordl_internal_get_scroll, put = __cordl_internal_set_scroll))::OVR::OpenVR::VREvent_Scroll_t scroll;
+  __declspec(property(get = __cordl_internal_get_scroll, put = __cordl_internal_set_scroll)) ::OVR::OpenVR::VREvent_Scroll_t scroll;
 
   /// @brief Field seatedZeroPoseReset, offset 0x0, size 0x1
-  __declspec(property(get = __cordl_internal_get_seatedZeroPoseReset, put = __cordl_internal_set_seatedZeroPoseReset))::OVR::OpenVR::VREvent_SeatedZeroPoseReset_t seatedZeroPoseReset;
+  __declspec(property(get = __cordl_internal_get_seatedZeroPoseReset, put = __cordl_internal_set_seatedZeroPoseReset)) ::OVR::OpenVR::VREvent_SeatedZeroPoseReset_t seatedZeroPoseReset;
 
   /// @brief Field spatialAnchor, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_spatialAnchor, put = __cordl_internal_set_spatialAnchor))::OVR::OpenVR::VREvent_SpatialAnchor_t spatialAnchor;
+  __declspec(property(get = __cordl_internal_get_spatialAnchor, put = __cordl_internal_set_spatialAnchor)) ::OVR::OpenVR::VREvent_SpatialAnchor_t spatialAnchor;
 
   /// @brief Field status, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::OVR::OpenVR::VREvent_Status_t status;
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status)) ::OVR::OpenVR::VREvent_Status_t status;
 
   /// @brief Field touchPadMove, offset 0x0, size 0x18
-  __declspec(property(get = __cordl_internal_get_touchPadMove, put = __cordl_internal_set_touchPadMove))::OVR::OpenVR::VREvent_TouchPadMove_t touchPadMove;
+  __declspec(property(get = __cordl_internal_get_touchPadMove, put = __cordl_internal_set_touchPadMove)) ::OVR::OpenVR::VREvent_TouchPadMove_t touchPadMove;
 
   /// @brief Field webConsole, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_webConsole, put = __cordl_internal_set_webConsole))::OVR::OpenVR::VREvent_WebConsole_t webConsole;
+  __declspec(property(get = __cordl_internal_get_webConsole, put = __cordl_internal_set_webConsole)) ::OVR::OpenVR::VREvent_WebConsole_t webConsole;
 
   constexpr ::OVR::OpenVR::VREvent_ApplicationLaunch_t const& __cordl_internal_get_applicationLaunch() const;
 
@@ -729,6 +729,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8925 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 

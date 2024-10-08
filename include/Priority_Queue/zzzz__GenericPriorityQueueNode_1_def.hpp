@@ -13,7 +13,7 @@ template <typename TPriority> class GenericPriorityQueueNode_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Priority_Queue::GenericPriorityQueueNode_1);
 // Type: Priority_Queue::GenericPriorityQueueNode`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Priority_Queue {
 // cpp template
 template <typename TPriority>
@@ -100,6 +100,9 @@ public:
 
   /// @brief Field <InsertionIndex>k__BackingField, offset: 0x20, size: 0x8, def value: None
   int64_t ____InsertionIndex_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16887 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -18,23 +18,23 @@ class TutorialReturnToMenuController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TutorialReturnToMenuController);
 // Type: ::TutorialReturnToMenuController
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TutorialReturnToMenuController*
 class CORDL_TYPE TutorialReturnToMenuController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _tutorialSceneSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__tutorialSceneSetupData,
-                      put = __cordl_internal_set__tutorialSceneSetupData))::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> _tutorialSceneSetupData;
+  /// @brief Field _tutorialSceneSetupData, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__tutorialSceneSetupData, put = __cordl_internal_set__tutorialSceneSetupData)) ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>
+      _tutorialSceneSetupData;
 
   /// @brief Convert operator to "::GlobalNamespace::IReturnToMenuController"
   constexpr operator ::GlobalNamespace::IReturnToMenuController*() noexcept;
 
   static inline ::GlobalNamespace::TutorialReturnToMenuController* New_ctor();
 
-  /// @brief Method ReturnToMenu, addr 0x2717300, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method ReturnToMenu, addr 0x3b376f4, size 0x20, virtual true, abstract: false, final true
   inline void ReturnToMenu();
 
   constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> const& __cordl_internal_get__tutorialSceneSetupData() const;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__tutorialSceneSetupData(::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x2717320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b37714, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
@@ -63,15 +63,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TutorialReturnToMenuController(TutorialReturnToMenuController const&) = delete;
 
-  /// @brief Field _tutorialSceneSetupData, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _tutorialSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> ____tutorialSceneSetupData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4443 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialReturnToMenuController, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialReturnToMenuController, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TutorialReturnToMenuController, ____tutorialSceneSetupData) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TutorialReturnToMenuController, ____tutorialSceneSetupData) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TutorialReturnToMenuController);

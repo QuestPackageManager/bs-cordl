@@ -23,30 +23,30 @@ class KeyUsage;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::KeyUsage);
 // Type: Org.BouncyCastle.Asn1.X509::KeyUsage
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::KeyUsage*
 class CORDL_TYPE KeyUsage : public ::Org::BouncyCastle::Asn1::DerBitString {
 public:
   // Declarations
-  /// @brief Method FromExtensions, addr 0x14047d8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x25ca9a4, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetInstance, addr 0x1404630, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25ca7fc, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* New_ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* New_ctor(int32_t usage);
 
-  /// @brief Method ToString, addr 0x14048b4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25caa80, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x1404744, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ca910, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
-  /// @brief Method .ctor, addr 0x140484c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25caa18, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t usage);
 
 protected:
@@ -89,6 +89,9 @@ public:
 
   /// @brief Field NonRepudiation offset 0xffffffff size 0x4
   static constexpr int32_t NonRepudiation{ static_cast<int32_t>(0x40) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 369 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

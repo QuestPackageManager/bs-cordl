@@ -12,6 +12,7 @@ module;
 #include "UnityEngine/Video/VideoSource.hpp"
 #include "UnityEngine/Video/VideoTimeReference.hpp"
 #include "UnityEngine/Video/VideoTimeSource.hpp"
+#include "UnityEngine/Video/VideoTimeUpdateMode.hpp"
 #ifdef __cpp_modules
 export module Video;
 #endif

@@ -17,7 +17,7 @@ class VectorImageRenderInfo;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::VectorImageRenderInfo);
 // Type: UnityEngine.UIElements.UIR::VectorImageRenderInfo
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfo*
@@ -25,17 +25,17 @@ class CORDL_TYPE VectorImageRenderInfo : public ::UnityEngine::UIElements::UIR::
 public:
   // Declarations
   /// @brief Field firstGradientRemap, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_firstGradientRemap, put = __cordl_internal_set_firstGradientRemap))::UnityEngine::UIElements::UIR::GradientRemap* firstGradientRemap;
+  __declspec(property(get = __cordl_internal_get_firstGradientRemap, put = __cordl_internal_set_firstGradientRemap)) ::UnityEngine::UIElements::UIR::GradientRemap* firstGradientRemap;
 
   /// @brief Field gradientSettingsAlloc, offset 0x28, size 0x18
-  __declspec(property(get = __cordl_internal_get_gradientSettingsAlloc, put = __cordl_internal_set_gradientSettingsAlloc))::UnityEngine::UIElements::UIR::Alloc gradientSettingsAlloc;
+  __declspec(property(get = __cordl_internal_get_gradientSettingsAlloc, put = __cordl_internal_set_gradientSettingsAlloc)) ::UnityEngine::UIElements::UIR::Alloc gradientSettingsAlloc;
 
   /// @brief Field useCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_useCount, put = __cordl_internal_set_useCount)) int32_t useCount;
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x35620c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4938fd0, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::UIR::GradientRemap*& __cordl_internal_get_firstGradientRemap();
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_useCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x356205c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4938f68, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field gradientSettingsAlloc, offset: 0x28, size: 0x18, def value: None
   ::UnityEngine::UIElements::UIR::Alloc ___gradientSettingsAlloc;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6375 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

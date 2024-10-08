@@ -62,7 +62,7 @@ MARK_GEN_REF_PTR_T(::System::IO::Enumeration::__FileSystemEnumerable_1__Delegate
 MARK_GEN_REF_PTR_T(::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate);
 MARK_GEN_REF_PTR_T(::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform);
 // Type: ::FindPredicate
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
@@ -93,12 +93,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FileSystemEnumerable_1__FindPredicate(__FileSystemEnumerable_1__FindPredicate const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3649 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::IO::Enumeration
 // Type: ::FindTransform
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
@@ -129,12 +132,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FileSystemEnumerable_1__FindTransform(__FileSystemEnumerable_1__FindTransform const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3650 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::IO::Enumeration
 // Type: ::DelegateEnumerator
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
@@ -144,7 +150,7 @@ class CORDL_TYPE __FileSystemEnumerable_1__DelegateEnumerator : public ::System:
 public:
   // Declarations
   /// @brief Field _enumerable, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__enumerable, put = __cordl_internal_set__enumerable))::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* _enumerable;
+  __declspec(property(get = __cordl_internal_get__enumerable, put = __cordl_internal_set__enumerable)) ::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* _enumerable;
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>* New_ctor(::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* enumerable);
 
@@ -183,12 +189,15 @@ public:
   /// @brief Field _enumerable, offset: 0x78, size: 0x8, def value: None
   ::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* ____enumerable;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3651 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::IO::Enumeration
 // Type: System.IO.Enumeration::FileSystemEnumerable`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
@@ -203,31 +212,31 @@ public:
 
   using FindTransform = ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>;
 
-  __declspec(property(get = get_ShouldIncludePredicate, put = set_ShouldIncludePredicate))::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* ShouldIncludePredicate;
+  __declspec(property(get = get_ShouldIncludePredicate, put = set_ShouldIncludePredicate)) ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* ShouldIncludePredicate;
 
-  __declspec(property(get = get_ShouldRecursePredicate))::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* ShouldRecursePredicate;
+  __declspec(property(get = get_ShouldRecursePredicate)) ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* ShouldRecursePredicate;
 
   /// @brief Field <ShouldIncludePredicate>k__BackingField, offset 0x30, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__ShouldIncludePredicate_k__BackingField,
-               put = __cordl_internal_set__ShouldIncludePredicate_k__BackingField))::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* _ShouldIncludePredicate_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__ShouldIncludePredicate_k__BackingField,
+      put = __cordl_internal_set__ShouldIncludePredicate_k__BackingField)) ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* _ShouldIncludePredicate_k__BackingField;
 
   /// @brief Field <ShouldRecursePredicate>k__BackingField, offset 0x38, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__ShouldRecursePredicate_k__BackingField,
-               put = __cordl_internal_set__ShouldRecursePredicate_k__BackingField))::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* _ShouldRecursePredicate_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__ShouldRecursePredicate_k__BackingField,
+      put = __cordl_internal_set__ShouldRecursePredicate_k__BackingField)) ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* _ShouldRecursePredicate_k__BackingField;
 
   /// @brief Field _directory, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__directory, put = __cordl_internal_set__directory))::StringW _directory;
+  __declspec(property(get = __cordl_internal_get__directory, put = __cordl_internal_set__directory)) ::StringW _directory;
 
   /// @brief Field _enumerator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__enumerator, put = __cordl_internal_set__enumerator))::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>* _enumerator;
+  __declspec(property(get = __cordl_internal_get__enumerator, put = __cordl_internal_set__enumerator)) ::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>* _enumerator;
 
   /// @brief Field _options, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__options, put = __cordl_internal_set__options))::System::IO::EnumerationOptions* _options;
+  __declspec(property(get = __cordl_internal_get__options, put = __cordl_internal_set__options)) ::System::IO::EnumerationOptions* _options;
 
   /// @brief Field _transform, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* _transform;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept;
@@ -331,6 +340,9 @@ public:
 
   /// @brief Field <ShouldRecursePredicate>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* ____ShouldRecursePredicate_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3652 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

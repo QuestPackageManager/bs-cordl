@@ -26,7 +26,7 @@ class Vector2Tween;
 // Write type traits
 MARK_REF_PTR_T(::Tweening::Vector2Tween);
 // Type: Tweening::Vector2Tween
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
 // CS Name: ::Tweening::Vector2Tween*
@@ -34,10 +34,10 @@ class CORDL_TYPE Vector2Tween : public ::Tweening::Tween_1<::UnityEngine::Vector
 public:
   // Declarations
   /// @brief Field Pool, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Pool, put = setStaticF_Pool))::Zenject::StaticMemoryPool_7<::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Action_1<::UnityEngine::Vector2>*,
-                                                                                                         float_t, ::GlobalNamespace::EaseType, float_t, ::Tweening::Vector2Tween*>* Pool;
+  static __declspec(property(get = getStaticF_Pool, put = setStaticF_Pool)) ::Zenject::StaticMemoryPool_7<::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Action_1<::UnityEngine::Vector2>*,
+                                                                                                          float_t, ::GlobalNamespace::EaseType, float_t, ::Tweening::Vector2Tween*>* Pool;
 
-  /// @brief Method GetValue, addr 0x3070080, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x44640b4, size 0x30, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 GetValue(float_t t);
 
   static inline ::Tweening::Vector2Tween* New_ctor();
@@ -45,10 +45,10 @@ public:
   static inline ::Tweening::Vector2Tween* New_ctor(::UnityEngine::Vector2 fromValue, ::UnityEngine::Vector2 toValue, ::System::Action_1<::UnityEngine::Vector2>* onUpdate, float_t duration,
                                                    ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method .ctor, addr 0x306ff90, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4463fc4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x306ffd8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x446400c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 fromValue, ::UnityEngine::Vector2 toValue, ::System::Action_1<::UnityEngine::Vector2>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
                     float_t delay);
 
@@ -72,6 +72,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Vector2Tween", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Vector2Tween(Vector2Tween const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18544 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

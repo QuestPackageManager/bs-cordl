@@ -20,7 +20,7 @@ class HEU_InputInterface;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputInterface);
 // Type: HoudiniEngineUnity::HEU_InputInterface
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_InputInterface*
@@ -40,7 +40,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_InputInterface* New_ctor(int32_t priority);
 
-  /// @brief Method RegisterInterface, addr 0x25d639c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RegisterInterface, addr 0x3a112c0, size 0x58, virtual false, abstract: false, final false
   inline void RegisterInterface();
 
   constexpr int32_t const& __cordl_internal_get__priority() const;
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__priority(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25d6374, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a11298, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t priority);
 
-  /// @brief Method get_Priority, addr 0x25d636c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Priority, addr 0x3a11290, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Priority();
 
 protected:
@@ -74,6 +74,9 @@ public:
 
   /// @brief Field DEFAULT_PRIORITY offset 0xffffffff size 0x4
   static constexpr int32_t DEFAULT_PRIORITY{ static_cast<int32_t>(0x64) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11783 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,7 +31,7 @@ class __AsyncInstaller__IInstallerRegistry;
 MARK_REF_PTR_T(::BGLib::AppFlow::Initialization::AsyncInstaller);
 MARK_REF_PTR_T(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry);
 // Type: ::IInstallerRegistry
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
 // CS Name: ::AsyncInstaller::IInstallerRegistry*
@@ -52,12 +52,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AsyncInstaller__IInstallerRegistry(__AsyncInstaller__IInstallerRegistry const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17586 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace BGLib::AppFlow::Initialization
 // Type: BGLib.AppFlow.Initialization::AsyncInstaller
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
 // CS Name: ::BGLib.AppFlow.Initialization::AsyncInstaller*
@@ -74,7 +77,7 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::AsyncInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x107ec1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225ca58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,10 +94,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncInstaller(AsyncInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17587 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::AppFlow::Initialization::AsyncInstaller, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGLib::AppFlow::Initialization::AsyncInstaller, 0x28>, "Size mismatch!");
 
 } // namespace BGLib::AppFlow::Initialization
 NEED_NO_BOX(::BGLib::AppFlow::Initialization::AsyncInstaller);

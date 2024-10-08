@@ -20,7 +20,7 @@ class EventBox;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::EventBox);
 // Type: BeatmapSaveDataVersion3::EventBox
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion3::EventBox*
@@ -29,15 +29,15 @@ public:
   // Declarations
   __declspec(property(get = get_beatDistributionParam)) float_t beatDistributionParam;
 
-  __declspec(property(get = get_beatDistributionParamType))::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType;
+  __declspec(property(get = get_beatDistributionParamType)) ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType;
 
   /// @brief Field d, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::BeatmapSaveDataCommon::DistributionParamType d;
+  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d)) ::BeatmapSaveDataCommon::DistributionParamType d;
 
   /// @brief Field f, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_f, put = __cordl_internal_set_f))::BeatmapSaveDataVersion3::IndexFilter* f;
+  __declspec(property(get = __cordl_internal_get_f, put = __cordl_internal_set_f)) ::BeatmapSaveDataVersion3::IndexFilter* f;
 
-  __declspec(property(get = get_indexFilter))::BeatmapSaveDataVersion3::IndexFilter* indexFilter;
+  __declspec(property(get = get_indexFilter)) ::BeatmapSaveDataVersion3::IndexFilter* indexFilter;
 
   /// @brief Field w, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_w, put = __cordl_internal_set_w)) float_t w;
@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_w(float_t value);
 
-  /// @brief Method .ctor, addr 0x1504628, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c84bc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType);
 
-  /// @brief Method get_beatDistributionParam, addr 0x1504618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatDistributionParam, addr 0x26c84ac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beatDistributionParam();
 
-  /// @brief Method get_beatDistributionParamType, addr 0x1504620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatDistributionParamType, addr 0x26c84b4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::DistributionParamType get_beatDistributionParamType();
 
-  /// @brief Method get_indexFilter, addr 0x1504610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indexFilter, addr 0x26c84a4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion3::IndexFilter* get_indexFilter();
 
 protected:
@@ -97,6 +97,9 @@ public:
 
   /// @brief Field d, offset: 0x1c, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::DistributionParamType ___d;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13361 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

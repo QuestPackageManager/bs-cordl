@@ -65,7 +65,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FlyingScoreSpawner);
 MARK_REF_PTR_T(::GlobalNamespace::__FlyingScoreSpawner__InitData);
 MARK_REF_PTR_T(::GlobalNamespace::__FlyingScoreSpawner___SpawnFlyingScoreNextFrameCoroutine_d__5);
 // Type: ::SpawnPosition
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::FlyingScoreSpawner::SpawnPosition
@@ -106,6 +106,9 @@ public:
   /// @brief Field Underground value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition const Underground;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4227 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -118,7 +121,7 @@ static_assert(offsetof(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition, v
 
 } // namespace GlobalNamespace
 // Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FlyingScoreSpawner::InitData*
@@ -126,7 +129,7 @@ class CORDL_TYPE __FlyingScoreSpawner__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field spawnPosition, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_spawnPosition, put = __cordl_internal_set_spawnPosition))::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition spawnPosition;
+  __declspec(property(get = __cordl_internal_get_spawnPosition, put = __cordl_internal_set_spawnPosition)) ::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition spawnPosition;
 
   static inline ::GlobalNamespace::__FlyingScoreSpawner__InitData* New_ctor(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition spawnPosition);
 
@@ -136,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set_spawnPosition(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition value);
 
-  /// @brief Method .ctor, addr 0x26eded4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0ebf8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition spawnPosition);
 
 protected:
@@ -156,6 +159,9 @@ public:
   /// @brief Field spawnPosition, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition ___spawnPosition;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4228 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -165,31 +171,31 @@ static_assert(offsetof(::GlobalNamespace::__FlyingScoreSpawner__InitData, ___spa
 
 } // namespace GlobalNamespace
 // Type: ::<SpawnFlyingScoreNextFrameCoroutine>d__5
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FlyingScoreSpawner::<SpawnFlyingScoreNextFrameCoroutine>d__5*
 class CORDL_TYPE __FlyingScoreSpawner___SpawnFlyingScoreNextFrameCoroutine_d__5 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::FlyingScoreSpawner> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::FlyingScoreSpawner> __4__this;
 
   /// @brief Field color, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
+  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color)) ::UnityEngine::Color color;
 
   /// @brief Field cutScoreBuffer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_cutScoreBuffer, put = __cordl_internal_set_cutScoreBuffer))::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer;
+  __declspec(property(get = __cordl_internal_get_cutScoreBuffer, put = __cordl_internal_set_cutScoreBuffer)) ::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -200,21 +206,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26edf00, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b0ec24, size 0x5c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__FlyingScoreSpawner___SpawnFlyingScoreNextFrameCoroutine_d__5* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x26edf5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b0ec80, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26edf64, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b0ec88, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26edfa4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b0ecc0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26edefc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b0ec20, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -247,7 +253,7 @@ public:
 
   constexpr void __cordl_internal_set_cutScoreBuffer(::GlobalNamespace::IReadonlyCutScoreBuffer* value);
 
-  /// @brief Method .ctor, addr 0x26edb04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0e830, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -288,6 +294,9 @@ public:
   /// @brief Field color, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Color ___color;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4229 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -305,7 +314,7 @@ static_assert(offsetof(::GlobalNamespace::__FlyingScoreSpawner___SpawnFlyingScor
 
 } // namespace GlobalNamespace
 // Type: ::FlyingScoreSpawner
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FlyingScoreSpawner*
@@ -318,27 +327,27 @@ public:
 
   using _SpawnFlyingScoreNextFrameCoroutine_d__5 = ::GlobalNamespace::__FlyingScoreSpawner___SpawnFlyingScoreNextFrameCoroutine_d__5;
 
-  /// @brief Field _flyingScoreEffectPool, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__flyingScoreEffectPool, put = __cordl_internal_set__flyingScoreEffectPool))::GlobalNamespace::__FlyingScoreEffect__Pool* _flyingScoreEffectPool;
+  /// @brief Field _flyingScoreEffectPool, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__flyingScoreEffectPool, put = __cordl_internal_set__flyingScoreEffectPool)) ::GlobalNamespace::__FlyingScoreEffect__Pool* _flyingScoreEffectPool;
 
-  /// @brief Field _initData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__FlyingScoreSpawner__InitData* _initData;
+  /// @brief Field _initData, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__FlyingScoreSpawner__InitData* _initData;
 
   /// @brief Convert operator to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x26eddb0, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x3b0ead4, size 0x11c, virtual true, abstract: false, final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingScoreSpawner* New_ctor();
 
-  /// @brief Method SpawnFlyingScore, addr 0x26edb2c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method SpawnFlyingScore, addr 0x3b0e858, size 0x27c, virtual false, abstract: false, final false
   inline void SpawnFlyingScore(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color);
 
-  /// @brief Method SpawnFlyingScoreNextFrame, addr 0x26eda48, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SpawnFlyingScoreNextFrame, addr 0x3b0e77c, size 0x20, virtual false, abstract: false, final false
   inline void SpawnFlyingScoreNextFrame(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color);
 
-  /// @brief Method SpawnFlyingScoreNextFrameCoroutine, addr 0x26eda68, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SpawnFlyingScoreNextFrameCoroutine, addr 0x3b0e79c, size 0x94, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SpawnFlyingScoreNextFrameCoroutine(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color);
 
   constexpr ::GlobalNamespace::__FlyingScoreEffect__Pool*& __cordl_internal_get__flyingScoreEffectPool();
@@ -353,7 +362,7 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::__FlyingScoreSpawner__InitData* value);
 
-  /// @brief Method .ctor, addr 0x26edecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0ebf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
@@ -373,20 +382,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FlyingScoreSpawner(FlyingScoreSpawner const&) = delete;
 
-  /// @brief Field _flyingScoreEffectPool, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _flyingScoreEffectPool, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::__FlyingScoreEffect__Pool* ____flyingScoreEffectPool;
 
-  /// @brief Field _initData, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _initData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::__FlyingScoreSpawner__InitData* ____initData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4230 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingScoreSpawner, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingScoreSpawner, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingScoreSpawner, ____flyingScoreEffectPool) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingScoreSpawner, ____flyingScoreEffectPool) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingScoreSpawner, ____initData) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingScoreSpawner, ____initData) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition, "", "FlyingScoreSpawner/SpawnPosition");

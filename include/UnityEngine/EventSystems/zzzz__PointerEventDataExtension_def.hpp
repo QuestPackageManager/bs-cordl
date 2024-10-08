@@ -21,23 +21,23 @@ class PointerEventDataExtension;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::PointerEventDataExtension);
 // Type: UnityEngine.EventSystems::PointerEventDataExtension
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: ::UnityEngine.EventSystems::PointerEventDataExtension*
 class CORDL_TYPE PointerEventDataExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRay, addr 0x2c05208, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetRay, addr 0x4006a6c, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::Ray GetRay(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
-  /// @brief Method GetSwipeStart, addr 0x2c046a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetSwipeStart, addr 0x4005ee0, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetSwipeStart(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
-  /// @brief Method IsVRPointer, addr 0x2c02c40, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsVRPointer, addr 0x40043ac, size 0x78, virtual false, abstract: false, final false
   static inline bool IsVRPointer(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
-  /// @brief Method SetSwipeStart, addr 0x2c02cb8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetSwipeStart, addr 0x4004424, size 0x8c, virtual false, abstract: false, final false
   static inline void SetSwipeStart(::UnityEngine::EventSystems::PointerEventData* pointerEventData, ::UnityEngine::Vector2 start);
 
 protected:
@@ -53,6 +53,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PointerEventDataExtension", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PointerEventDataExtension(PointerEventDataExtension const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9026 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

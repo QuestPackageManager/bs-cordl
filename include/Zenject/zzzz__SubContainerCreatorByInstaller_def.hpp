@@ -36,7 +36,7 @@ class SubContainerCreatorByInstaller;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SubContainerCreatorByInstaller);
 // Type: Zenject::SubContainerCreatorByInstaller
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::SubContainerCreatorByInstaller*
@@ -44,21 +44,21 @@ class CORDL_TYPE SubContainerCreatorByInstaller : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _container, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
   /// @brief Field _containerBindInfo, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__containerBindInfo, put = __cordl_internal_set__containerBindInfo))::Zenject::SubContainerCreatorBindInfo* _containerBindInfo;
+  __declspec(property(get = __cordl_internal_get__containerBindInfo, put = __cordl_internal_set__containerBindInfo)) ::Zenject::SubContainerCreatorBindInfo* _containerBindInfo;
 
   /// @brief Field _extraArgs, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__extraArgs, put = __cordl_internal_set__extraArgs))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* _extraArgs;
+  __declspec(property(get = __cordl_internal_get__extraArgs, put = __cordl_internal_set__extraArgs)) ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* _extraArgs;
 
   /// @brief Field _installerType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__installerType, put = __cordl_internal_set__installerType))::System::Type* _installerType;
+  __declspec(property(get = __cordl_internal_get__installerType, put = __cordl_internal_set__installerType)) ::System::Type* _installerType;
 
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateSubContainer, addr 0x36a23f4, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x4ac5ab8, size 0x180, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType);
@@ -90,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set__installerType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x36a2354, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac5a20, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType);
 
-  /// @brief Method .ctor, addr 0x36a2264, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac5930, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType,
                     ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
 
@@ -125,6 +125,9 @@ public:
 
   /// @brief Field _containerBindInfo, offset: 0x28, size: 0x8, def value: None
   ::Zenject::SubContainerCreatorBindInfo* ____containerBindInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

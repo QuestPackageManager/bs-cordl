@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::System::Resources::ResourceManager);
 MARK_REF_PTR_T(::System::Resources::__ResourceManager__CultureNameResourceSetPair);
 MARK_REF_PTR_T(::System::Resources::__ResourceManager__ResourceManagerMediator);
 // Type: ::CultureNameResourceSetPair
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
 // CS Name: ::ResourceManager::CultureNameResourceSetPair*
@@ -68,7 +68,7 @@ public:
   // Declarations
   static inline ::System::Resources::__ResourceManager__CultureNameResourceSetPair* New_ctor();
 
-  /// @brief Method .ctor, addr 0x288efd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca7908, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,6 +85,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ResourceManager__CultureNameResourceSetPair(__ResourceManager__CultureNameResourceSetPair const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3435 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -92,7 +95,7 @@ static_assert(::cordl_internals::size_check_v<::System::Resources::__ResourceMan
 
 } // namespace System::Resources
 // Type: ::ResourceManagerMediator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
 // CS Name: ::ResourceManager::ResourceManagerMediator*
@@ -100,7 +103,7 @@ class CORDL_TYPE __ResourceManager__ResourceManagerMediator : public ::System::O
 public:
   // Declarations
   /// @brief Field _rm, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__rm, put = __cordl_internal_set__rm))::System::Resources::ResourceManager* _rm;
+  __declspec(property(get = __cordl_internal_get__rm, put = __cordl_internal_set__rm)) ::System::Resources::ResourceManager* _rm;
 
   static inline ::System::Resources::__ResourceManager__ResourceManagerMediator* New_ctor(::System::Resources::ResourceManager* rm);
 
@@ -110,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set__rm(::System::Resources::ResourceManager* value);
 
-  /// @brief Method .ctor, addr 0x288efdc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca7910, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::ResourceManager* rm);
 
 protected:
@@ -130,6 +133,9 @@ public:
   /// @brief Field _rm, offset: 0x10, size: 0x8, def value: None
   ::System::Resources::ResourceManager* ____rm;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3436 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -139,7 +145,7 @@ static_assert(offsetof(::System::Resources::__ResourceManager__ResourceManagerMe
 
 } // namespace System::Resources
 // Type: System.Resources::ResourceManager
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
 // CS Name: ::System.Resources::ResourceManager*
@@ -160,19 +166,19 @@ public:
   static __declspec(property(get = getStaticF_MagicNumber, put = setStaticF_MagicNumber)) int32_t MagicNumber;
 
   /// @brief Field MainAssembly, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_MainAssembly, put = __cordl_internal_set_MainAssembly))::System::Reflection::Assembly* MainAssembly;
+  __declspec(property(get = __cordl_internal_get_MainAssembly, put = __cordl_internal_set_MainAssembly)) ::System::Reflection::Assembly* MainAssembly;
 
   /// @brief Field MscorlibName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MscorlibName, put = setStaticF_MscorlibName))::StringW MscorlibName;
+  static __declspec(property(get = getStaticF_MscorlibName, put = setStaticF_MscorlibName)) ::StringW MscorlibName;
 
   /// @brief Field ResReaderTypeName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ResReaderTypeName, put = setStaticF_ResReaderTypeName))::StringW ResReaderTypeName;
+  static __declspec(property(get = getStaticF_ResReaderTypeName, put = setStaticF_ResReaderTypeName)) ::StringW ResReaderTypeName;
 
   /// @brief Field ResSetTypeName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ResSetTypeName, put = setStaticF_ResSetTypeName))::StringW ResSetTypeName;
+  static __declspec(property(get = getStaticF_ResSetTypeName, put = setStaticF_ResSetTypeName)) ::StringW ResSetTypeName;
 
   /// @brief Field ResourceSets, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ResourceSets, put = __cordl_internal_set_ResourceSets))::System::Collections::Hashtable* ResourceSets;
+  __declspec(property(get = __cordl_internal_get_ResourceSets, put = __cordl_internal_set_ResourceSets)) ::System::Collections::Hashtable* ResourceSets;
 
   /// @brief Field UseManifest, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_UseManifest, put = __cordl_internal_set_UseManifest)) bool UseManifest;
@@ -181,46 +187,46 @@ public:
   __declspec(property(get = __cordl_internal_get_UseSatelliteAssem, put = __cordl_internal_set_UseSatelliteAssem)) bool UseSatelliteAssem;
 
   /// @brief Field _callingAssembly, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__callingAssembly, put = __cordl_internal_set__callingAssembly))::System::Reflection::Assembly* _callingAssembly;
+  __declspec(property(get = __cordl_internal_get__callingAssembly, put = __cordl_internal_set__callingAssembly)) ::System::Reflection::Assembly* _callingAssembly;
 
   /// @brief Field _fallbackLoc, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__fallbackLoc, put = __cordl_internal_set__fallbackLoc))::System::Resources::UltimateResourceFallbackLocation _fallbackLoc;
+  __declspec(property(get = __cordl_internal_get__fallbackLoc, put = __cordl_internal_set__fallbackLoc)) ::System::Resources::UltimateResourceFallbackLocation _fallbackLoc;
 
   /// @brief Field _lastUsedResourceCache, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__lastUsedResourceCache,
-                      put = __cordl_internal_set__lastUsedResourceCache))::System::Resources::__ResourceManager__CultureNameResourceSetPair* _lastUsedResourceCache;
+                      put = __cordl_internal_set__lastUsedResourceCache)) ::System::Resources::__ResourceManager__CultureNameResourceSetPair* _lastUsedResourceCache;
 
   /// @brief Field _minResourceSet, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__minResourceSet, put = setStaticF__minResourceSet))::System::Type* _minResourceSet;
+  static __declspec(property(get = getStaticF__minResourceSet, put = setStaticF__minResourceSet)) ::System::Type* _minResourceSet;
 
   /// @brief Field _neutralResourcesCulture, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__neutralResourcesCulture, put = __cordl_internal_set__neutralResourcesCulture))::System::Globalization::CultureInfo* _neutralResourcesCulture;
+  __declspec(property(get = __cordl_internal_get__neutralResourcesCulture, put = __cordl_internal_set__neutralResourcesCulture)) ::System::Globalization::CultureInfo* _neutralResourcesCulture;
 
   /// @brief Field _resourceSets, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__resourceSets,
-                      put = __cordl_internal_set__resourceSets))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>* _resourceSets;
+                      put = __cordl_internal_set__resourceSets)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>* _resourceSets;
 
   /// @brief Field m_callingAssembly, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_callingAssembly, put = __cordl_internal_set_m_callingAssembly))::System::Reflection::RuntimeAssembly* m_callingAssembly;
+  __declspec(property(get = __cordl_internal_get_m_callingAssembly, put = __cordl_internal_set_m_callingAssembly)) ::System::Reflection::RuntimeAssembly* m_callingAssembly;
 
   /// @brief Field resourceGroveler, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_resourceGroveler, put = __cordl_internal_set_resourceGroveler))::System::Resources::IResourceGroveler* resourceGroveler;
+  __declspec(property(get = __cordl_internal_get_resourceGroveler, put = __cordl_internal_set_resourceGroveler)) ::System::Resources::IResourceGroveler* resourceGroveler;
 
-  /// @brief Method CompareNames, addr 0x288f2a0, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method CompareNames, addr 0x3ca7bc8, size 0x25c, virtual false, abstract: false, final false
   static inline bool CompareNames(::StringW asmTypeName1, ::StringW typeName2, ::System::Reflection::AssemblyName* asmName2);
 
-  /// @brief Method Init, addr 0x288ede4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3ca7720, size 0x118, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Resources::ResourceManager* New_ctor();
 
-  /// @brief Method OnDeserialized, addr 0x288f064, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x3ca7994, size 0x1cc, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnDeserializing, addr 0x288f054, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializing, addr 0x3ca7984, size 0x10, virtual false, abstract: false, final false
   inline void OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method OnSerializing, addr 0x288f230, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnSerializing, addr 0x3ca7b60, size 0x68, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext ctx);
 
   constexpr ::System::Reflection::Assembly*& __cordl_internal_get_MainAssembly();
@@ -289,7 +295,7 @@ public:
 
   constexpr void __cordl_internal_set_resourceGroveler(::System::Resources::IResourceGroveler* value);
 
-  /// @brief Method .ctor, addr 0x288ef00, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca783c, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_DEBUG();
@@ -366,6 +372,9 @@ public:
 
   /// @brief Field resourceGroveler, offset: 0x50, size: 0x8, def value: None
   ::System::Resources::IResourceGroveler* ___resourceGroveler;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3437 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

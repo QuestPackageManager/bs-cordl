@@ -15,14 +15,14 @@ class Nullable;
 // Write type traits
 MARK_REF_PTR_T(::System::Nullable);
 // Type: System::Nullable
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::Nullable*
 class CORDL_TYPE Nullable : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetUnderlyingType, addr 0x2964d10, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetUnderlyingType, addr 0x3d784a4, size 0x14c, virtual false, abstract: false, final false
   static inline ::System::Type* GetUnderlyingType(::System::Type* nullableType);
 
 protected:
@@ -38,6 +38,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Nullable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Nullable(Nullable const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

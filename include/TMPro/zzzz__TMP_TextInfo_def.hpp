@@ -40,7 +40,7 @@ class TMP_TextInfo;
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_TextInfo);
 // Type: TMPro::TMP_TextInfo
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::TMP_TextInfo*
@@ -51,40 +51,40 @@ public:
   __declspec(property(get = __cordl_internal_get_characterCount, put = __cordl_internal_set_characterCount)) int32_t characterCount;
 
   /// @brief Field characterInfo, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_characterInfo, put = __cordl_internal_set_characterInfo))::ArrayW<::TMPro::TMP_CharacterInfo, ::Array<::TMPro::TMP_CharacterInfo>*> characterInfo;
+  __declspec(property(get = __cordl_internal_get_characterInfo, put = __cordl_internal_set_characterInfo)) ::ArrayW<::TMPro::TMP_CharacterInfo, ::Array<::TMPro::TMP_CharacterInfo>*> characterInfo;
 
   /// @brief Field k_InfinityVectorNegative, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_InfinityVectorNegative, put = setStaticF_k_InfinityVectorNegative))::UnityEngine::Vector2 k_InfinityVectorNegative;
+  static __declspec(property(get = getStaticF_k_InfinityVectorNegative, put = setStaticF_k_InfinityVectorNegative)) ::UnityEngine::Vector2 k_InfinityVectorNegative;
 
   /// @brief Field k_InfinityVectorPositive, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_InfinityVectorPositive, put = setStaticF_k_InfinityVectorPositive))::UnityEngine::Vector2 k_InfinityVectorPositive;
+  static __declspec(property(get = getStaticF_k_InfinityVectorPositive, put = setStaticF_k_InfinityVectorPositive)) ::UnityEngine::Vector2 k_InfinityVectorPositive;
 
   /// @brief Field lineCount, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_lineCount, put = __cordl_internal_set_lineCount)) int32_t lineCount;
 
   /// @brief Field lineInfo, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_lineInfo, put = __cordl_internal_set_lineInfo))::ArrayW<::TMPro::TMP_LineInfo, ::Array<::TMPro::TMP_LineInfo>*> lineInfo;
+  __declspec(property(get = __cordl_internal_get_lineInfo, put = __cordl_internal_set_lineInfo)) ::ArrayW<::TMPro::TMP_LineInfo, ::Array<::TMPro::TMP_LineInfo>*> lineInfo;
 
   /// @brief Field linkCount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_linkCount, put = __cordl_internal_set_linkCount)) int32_t linkCount;
 
   /// @brief Field linkInfo, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_linkInfo, put = __cordl_internal_set_linkInfo))::ArrayW<::TMPro::TMP_LinkInfo, ::Array<::TMPro::TMP_LinkInfo>*> linkInfo;
+  __declspec(property(get = __cordl_internal_get_linkInfo, put = __cordl_internal_set_linkInfo)) ::ArrayW<::TMPro::TMP_LinkInfo, ::Array<::TMPro::TMP_LinkInfo>*> linkInfo;
 
   /// @brief Field m_CachedMeshInfo, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CachedMeshInfo, put = __cordl_internal_set_m_CachedMeshInfo))::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> m_CachedMeshInfo;
+  __declspec(property(get = __cordl_internal_get_m_CachedMeshInfo, put = __cordl_internal_set_m_CachedMeshInfo)) ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> m_CachedMeshInfo;
 
   /// @brief Field materialCount, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_materialCount, put = __cordl_internal_set_materialCount)) int32_t materialCount;
 
   /// @brief Field meshInfo, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_meshInfo, put = __cordl_internal_set_meshInfo))::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> meshInfo;
+  __declspec(property(get = __cordl_internal_get_meshInfo, put = __cordl_internal_set_meshInfo)) ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> meshInfo;
 
   /// @brief Field pageCount, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_pageCount, put = __cordl_internal_set_pageCount)) int32_t pageCount;
 
   /// @brief Field pageInfo, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_pageInfo, put = __cordl_internal_set_pageInfo))::ArrayW<::TMPro::TMP_PageInfo, ::Array<::TMPro::TMP_PageInfo>*> pageInfo;
+  __declspec(property(get = __cordl_internal_get_pageInfo, put = __cordl_internal_set_pageInfo)) ::ArrayW<::TMPro::TMP_PageInfo, ::Array<::TMPro::TMP_PageInfo>*> pageInfo;
 
   /// @brief Field spaceCount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_spaceCount, put = __cordl_internal_set_spaceCount)) int32_t spaceCount;
@@ -93,36 +93,36 @@ public:
   __declspec(property(get = __cordl_internal_get_spriteCount, put = __cordl_internal_set_spriteCount)) int32_t spriteCount;
 
   /// @brief Field textComponent, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_textComponent, put = __cordl_internal_set_textComponent))::UnityW<::TMPro::TMP_Text> textComponent;
+  __declspec(property(get = __cordl_internal_get_textComponent, put = __cordl_internal_set_textComponent)) ::UnityW<::TMPro::TMP_Text> textComponent;
 
   /// @brief Field wordCount, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_wordCount, put = __cordl_internal_set_wordCount)) int32_t wordCount;
 
   /// @brief Field wordInfo, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_wordInfo, put = __cordl_internal_set_wordInfo))::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> wordInfo;
+  __declspec(property(get = __cordl_internal_get_wordInfo, put = __cordl_internal_set_wordInfo)) ::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> wordInfo;
 
-  /// @brief Method Clear, addr 0x33b578c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x478f494, size 0x5c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearAllData, addr 0x33b57e8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ClearAllData, addr 0x478f4f0, size 0x12c, virtual false, abstract: false, final false
   inline void ClearAllData();
 
-  /// @brief Method ClearAllMeshInfo, addr 0x33b5984, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClearAllMeshInfo, addr 0x478f6d4, size 0xb0, virtual false, abstract: false, final false
   inline void ClearAllMeshInfo();
 
-  /// @brief Method ClearLineInfo, addr 0x33b5ac0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ClearLineInfo, addr 0x478f8f0, size 0x180, virtual false, abstract: false, final false
   inline void ClearLineInfo();
 
-  /// @brief Method ClearMeshInfo, addr 0x33b5914, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ClearMeshInfo, addr 0x478f61c, size 0xb8, virtual false, abstract: false, final false
   inline void ClearMeshInfo(bool updateMesh);
 
-  /// @brief Method ClearPageInfo, addr 0x33b5c40, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ClearPageInfo, addr 0x478fa70, size 0x98, virtual false, abstract: false, final false
   inline void ClearPageInfo();
 
-  /// @brief Method ClearUnusedVertices, addr 0x33b5a5c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x478f840, size 0xb0, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*> materials);
 
-  /// @brief Method CopyMeshInfoVertexData, addr 0x33b5cd8, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method CopyMeshInfoVertexData, addr 0x478fb08, size 0x3c0, virtual false, abstract: false, final false
   inline ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> CopyMeshInfoVertexData();
 
   static inline ::TMPro::TMP_TextInfo* New_ctor();
@@ -131,7 +131,7 @@ public:
 
   static inline ::TMPro::TMP_TextInfo* New_ctor(::TMPro::TMP_Text* textComponent);
 
-  /// @brief Method ResetVertexLayout, addr 0x33b59e8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ResetVertexLayout, addr 0x478f784, size 0xbc, virtual false, abstract: false, final false
   inline void ResetVertexLayout(bool isVolumetric);
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -236,13 +236,13 @@ public:
 
   constexpr void __cordl_internal_set_wordInfo(::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> value);
 
-  /// @brief Method .ctor, addr 0x33b53cc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x478f0d4, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x33b54f4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x478f1fc, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(int32_t characterCount);
 
-  /// @brief Method .ctor, addr 0x33b5620, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x478f328, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_Text* textComponent);
 
   static inline ::UnityEngine::Vector2 getStaticF_k_InfinityVectorNegative();
@@ -314,6 +314,9 @@ public:
 
   /// @brief Field m_CachedMeshInfo, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> ___m_CachedMeshInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14526 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -29,7 +29,7 @@ class TlsStreamCipher;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher);
 // Type: Org.BouncyCastle.Crypto.Tls::TlsStreamCipher
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsStreamCipher*
@@ -37,44 +37,44 @@ class CORDL_TYPE TlsStreamCipher : public ::System::Object {
 public:
   // Declarations
   /// @brief Field context, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context)) ::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
 
   /// @brief Field decryptCipher, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_decryptCipher, put = __cordl_internal_set_decryptCipher))::Org::BouncyCastle::Crypto::IStreamCipher* decryptCipher;
+  __declspec(property(get = __cordl_internal_get_decryptCipher, put = __cordl_internal_set_decryptCipher)) ::Org::BouncyCastle::Crypto::IStreamCipher* decryptCipher;
 
   /// @brief Field encryptCipher, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_encryptCipher, put = __cordl_internal_set_encryptCipher))::Org::BouncyCastle::Crypto::IStreamCipher* encryptCipher;
+  __declspec(property(get = __cordl_internal_get_encryptCipher, put = __cordl_internal_set_encryptCipher)) ::Org::BouncyCastle::Crypto::IStreamCipher* encryptCipher;
 
   /// @brief Field readMac, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_readMac, put = __cordl_internal_set_readMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* readMac;
+  __declspec(property(get = __cordl_internal_get_readMac, put = __cordl_internal_set_readMac)) ::Org::BouncyCastle::Crypto::Tls::TlsMac* readMac;
 
   /// @brief Field usesNonce, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_usesNonce, put = __cordl_internal_set_usesNonce)) bool usesNonce;
 
   /// @brief Field writeMac, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_writeMac, put = __cordl_internal_set_writeMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* writeMac;
+  __declspec(property(get = __cordl_internal_get_writeMac, put = __cordl_internal_set_writeMac)) ::Org::BouncyCastle::Crypto::Tls::TlsMac* writeMac;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept;
 
-  /// @brief Method CheckMac, addr 0x122b5ec, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method CheckMac, addr 0x23fe688, size 0x11c, virtual true, abstract: false, final false
   inline void CheckMac(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> recBuf, int32_t recStart, int32_t recEnd, ::ArrayW<uint8_t, ::Array<uint8_t>*> calcBuf, int32_t calcOff,
                        int32_t calcLen);
 
-  /// @brief Method DecodeCiphertext, addr 0x122b3e4, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method DecodeCiphertext, addr 0x23fe488, size 0x200, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method EncodePlaintext, addr 0x122b1ec, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method EncodePlaintext, addr 0x23fe290, size 0x1f8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method GetPlaintextLimit, addr 0x122b1c0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0x23fe264, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IStreamCipher* clientWriteCipher,
                                                                             ::Org::BouncyCastle::Crypto::IStreamCipher* serverWriteCipher, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest,
                                                                             ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest, int32_t cipherKeySize, bool usesNonce);
 
-  /// @brief Method UpdateIV, addr 0x122b710, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method UpdateIV, addr 0x23fe7a4, size 0x14c, virtual true, abstract: false, final false
   inline void UpdateIV(::Org::BouncyCastle::Crypto::IStreamCipher* cipher, bool forEncryption, int64_t seqNo);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_context();
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_writeMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
 
-  /// @brief Method .ctor, addr 0x122ab20, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fdbec, size 0x678, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IStreamCipher* clientWriteCipher, ::Org::BouncyCastle::Crypto::IStreamCipher* serverWriteCipher,
                     ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest, ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest, int32_t cipherKeySize, bool usesNonce);
 
@@ -151,6 +151,9 @@ public:
 
   /// @brief Field usesNonce, offset: 0x38, size: 0x1, def value: None
   bool ___usesNonce;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1331 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

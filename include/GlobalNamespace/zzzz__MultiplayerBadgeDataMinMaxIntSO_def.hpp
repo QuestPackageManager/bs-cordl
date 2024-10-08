@@ -31,7 +31,7 @@ class MultiplayerBadgeDataMinMaxIntSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO);
 // Type: ::MultiplayerBadgeDataMinMaxIntSO
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerBadgeDataMinMaxIntSO*
@@ -39,21 +39,21 @@ class CORDL_TYPE MultiplayerBadgeDataMinMaxIntSO : public ::GlobalNamespace::Mul
 public:
   // Declarations
   /// @brief Field _minMax, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__minMax, put = __cordl_internal_set__minMax))::GlobalNamespace::MultiplayerBadgeMinMax _minMax;
+  __declspec(property(get = __cordl_internal_get__minMax, put = __cordl_internal_set__minMax)) ::GlobalNamespace::MultiplayerBadgeMinMax _minMax;
 
   /// @brief Field _weightMultiplier, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__weightMultiplier, put = __cordl_internal_set__weightMultiplier)) float_t _weightMultiplier;
 
-  /// @brief Method CalculateBadgeData, addr 0x14dcec8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method CalculateBadgeData, addr 0x2696714, size 0x14, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                           ::GlobalNamespace::PlayerDataModel* playerDataModel, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                           float_t randomMultiplier);
 
-  /// @brief Method CalculateMax, addr 0x14dcedc, size 0x594, virtual false, abstract: false, final false
+  /// @brief Method CalculateMax, addr 0x2696728, size 0x590, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMax(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                     float_t randomMultiplier);
 
-  /// @brief Method CalculateMin, addr 0x14dd470, size 0x598, virtual false, abstract: false, final false
+  /// @brief Method CalculateMin, addr 0x2696cb8, size 0x594, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMin(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                     float_t randomMultiplier);
 
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__weightMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x14dbe0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2695688, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field _weightMultiplier, offset: 0x34, size: 0x4, def value: None
   float_t ____weightMultiplier;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13028 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

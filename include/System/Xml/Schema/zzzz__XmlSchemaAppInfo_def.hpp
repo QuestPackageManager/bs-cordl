@@ -17,22 +17,22 @@ class XmlSchemaAppInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaAppInfo);
 // Type: System.Xml.Schema::XmlSchemaAppInfo
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaAppInfo*
 class CORDL_TYPE XmlSchemaAppInfo : public ::System::Xml::Schema::XmlSchemaObject {
 public:
   // Declarations
-  __declspec(property(get = get_Markup, put = set_Markup))::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> Markup;
+  __declspec(property(get = get_Markup, put = set_Markup)) ::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> Markup;
 
-  __declspec(property(put = set_Source))::StringW Source;
+  __declspec(property(put = set_Source)) ::StringW Source;
 
   /// @brief Field markup, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_markup, put = __cordl_internal_set_markup))::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> markup;
+  __declspec(property(get = __cordl_internal_get_markup, put = __cordl_internal_set_markup)) ::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> markup;
 
   /// @brief Field source, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::StringW source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::StringW source;
 
   static inline ::System::Xml::Schema::XmlSchemaAppInfo* New_ctor();
 
@@ -48,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set_source(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e40538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4242e70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Markup, addr 0x2e40528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Markup, addr 0x4242e60, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> get_Markup();
 
-  /// @brief Method set_Markup, addr 0x2e40530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Markup, addr 0x4242e68, size 0x8, virtual false, abstract: false, final false
   inline void set_Markup(::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> value);
 
-  /// @brief Method set_Source, addr 0x2e40520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Source, addr 0x4242e58, size 0x8, virtual false, abstract: false, final false
   inline void set_Source(::StringW value);
 
 protected:
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field markup, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> ___markup;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7620 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

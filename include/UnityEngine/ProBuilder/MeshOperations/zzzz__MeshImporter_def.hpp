@@ -44,7 +44,7 @@ class __MeshImporter____c;
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::MeshImporter);
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // CS Name: ::MeshImporter::<>c*
@@ -52,17 +52,17 @@ class CORDL_TYPE __MeshImporter____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c* __9;
 
   /// @brief Field <>9__9_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__9_0, put = setStaticF___9__9_0))::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>* __9__9_0;
+  static __declspec(property(get = getStaticF___9__9_0, put = setStaticF___9__9_0)) ::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>* __9__9_0;
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c* New_ctor();
 
-  /// @brief Method <Import>b__9_0, addr 0x3329a34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Import>b__9_0, addr 0x4707694, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 _Import_b__9_0(::UnityEngine::ProBuilder::Vertex* x);
 
-  /// @brief Method .ctor, addr 0x3329a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x470768c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c* getStaticF___9();
@@ -87,6 +87,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MeshImporter____c(__MeshImporter____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14343 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -94,7 +97,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
 // Type: UnityEngine.ProBuilder.MeshOperations::MeshImporter
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::MeshImporter*
@@ -104,26 +107,28 @@ public:
   using __c = ::UnityEngine::ProBuilder::MeshOperations::__MeshImporter____c;
 
   /// @brief Field k_DefaultImportSettings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_DefaultImportSettings, put = setStaticF_k_DefaultImportSettings))::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* k_DefaultImportSettings;
+  static
+      __declspec(property(get = getStaticF_k_DefaultImportSettings, put = setStaticF_k_DefaultImportSettings)) ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* k_DefaultImportSettings;
 
   /// @brief Field m_Destination, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Destination, put = __cordl_internal_set_m_Destination))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Destination;
+  __declspec(property(get = __cordl_internal_get_m_Destination, put = __cordl_internal_set_m_Destination)) ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Destination;
 
   /// @brief Field m_SourceMaterials, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SourceMaterials,
-                      put = __cordl_internal_set_m_SourceMaterials))::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> m_SourceMaterials;
+                      put = __cordl_internal_set_m_SourceMaterials)) ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>
+      m_SourceMaterials;
 
   /// @brief Field m_SourceMesh, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SourceMesh, put = __cordl_internal_set_m_SourceMesh))::UnityW<::UnityEngine::Mesh> m_SourceMesh;
+  __declspec(property(get = __cordl_internal_get_m_SourceMesh, put = __cordl_internal_set_m_SourceMesh)) ::UnityW<::UnityEngine::Mesh> m_SourceMesh;
 
   /// @brief Field m_Vertices, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Vertices,
-                      put = __cordl_internal_set_m_Vertices))::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> m_Vertices;
+  __declspec(property(get = __cordl_internal_get_m_Vertices, put = __cordl_internal_set_m_Vertices)) ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*>
+      m_Vertices;
 
-  /// @brief Method Import, addr 0x33284a0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x47060e0, size 0x184, virtual false, abstract: false, final false
   inline bool Import(::UnityEngine::GameObject* go, ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
 
-  /// @brief Method Import, addr 0x3328624, size 0xab8, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x4706264, size 0xa8c, virtual false, abstract: false, final false
   inline void Import(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* importSettings);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImporter* New_ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination);
@@ -157,13 +162,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Vertices(::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> value);
 
-  /// @brief Method .ctor, addr 0x3328478, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47060b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
-  /// @brief Method .ctor, addr 0x33281e4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4705e30, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method .ctor, addr 0x3328350, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4705f98, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* sourceMesh, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> sourceMaterials, ::UnityEngine::ProBuilder::ProBuilderMesh* destination);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* getStaticF_k_DefaultImportSettings();
@@ -195,6 +200,9 @@ public:
 
   /// @brief Field m_Vertices, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> ___m_Vertices;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14344 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

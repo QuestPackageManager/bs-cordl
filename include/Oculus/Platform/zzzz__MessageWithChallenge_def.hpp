@@ -19,22 +19,22 @@ class MessageWithChallenge;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::MessageWithChallenge);
 // Type: Oculus.Platform::MessageWithChallenge
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::MessageWithChallenge*
 class CORDL_TYPE MessageWithChallenge : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Challenge*> {
 public:
   // Declarations
-  /// @brief Method GetChallenge, addr 0x2afb784, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetChallenge, addr 0x3f08658, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Challenge* GetChallenge();
 
-  /// @brief Method GetDataFromMessage, addr 0x2afb7c0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f08694, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Challenge* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithChallenge* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2af9074, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f06048, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithChallenge", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MessageWithChallenge(MessageWithChallenge const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15322 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

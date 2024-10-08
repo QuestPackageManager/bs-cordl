@@ -14,33 +14,33 @@
 #include "UnityEngine/zzzz__Plane_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Rendering::__CameraProperties___m_ShadowCullPlanes_e__FixedBuffer::__CameraProperties___m_ShadowCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept {
-  this->FixedElementField = FixedElementField;
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Rendering::__CameraProperties___m_ShadowCullPlanes_e__FixedBuffer::__CameraProperties___m_ShadowCullPlanes_e__FixedBuffer() {}
-// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Rendering::__CameraProperties___m_CameraCullPlanes_e__FixedBuffer::__CameraProperties___m_CameraCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept {
-  this->FixedElementField = FixedElementField;
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::Rendering::__CameraProperties___m_CameraCullPlanes_e__FixedBuffer::__CameraProperties___m_CameraCullPlanes_e__FixedBuffer() {}
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::__CameraProperties___layerCullDistances_e__FixedBuffer::__CameraProperties___layerCullDistances_e__FixedBuffer(float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::__CameraProperties___layerCullDistances_e__FixedBuffer::__CameraProperties___layerCullDistances_e__FixedBuffer() {}
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::__CameraProperties___m_CameraCullPlanes_e__FixedBuffer::__CameraProperties___m_CameraCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept {
+  this->FixedElementField = FixedElementField;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::__CameraProperties___m_CameraCullPlanes_e__FixedBuffer::__CameraProperties___m_CameraCullPlanes_e__FixedBuffer() {}
+// Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Rendering::__CameraProperties___m_ShadowCullPlanes_e__FixedBuffer::__CameraProperties___m_ShadowCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept {
+  this->FixedElementField = FixedElementField;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Rendering::__CameraProperties___m_ShadowCullPlanes_e__FixedBuffer::__CameraProperties___m_ShadowCullPlanes_e__FixedBuffer() {}
 //  Writing Method size for method: ::UnityEngine::Rendering::CameraProperties.GetShadowCullingPlane
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Plane (::UnityEngine::Rendering::CameraProperties::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraProperties::GetShadowCullingPlane)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3466dd4;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x484ea68;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraProperties>::get(), "GetShadowCullingPlane",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -52,10 +52,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Plane (::UnityEngine::Rendering::CameraProperties::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraProperties::GetCameraCullingPlane)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3466ec0;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x484eb4c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraProperties>::get(), "GetCameraCullingPlane",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -67,10 +67,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CameraProperties::*)(::UnityEngine::Rendering::CameraProperties)>(
     &::UnityEngine::Rendering::CameraProperties::Equals)> {
-  constexpr static std::size_t size = 0xf6c;
-  constexpr static std::size_t addrs = 0x3466fac;
+  constexpr static std::size_t size = 0x668;
+  constexpr static std::size_t addrs = 0x484ec30;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraProperties>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::CameraProperties>::get() })));
@@ -83,9 +83,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CameraProperties::*)(::System::Object*)>(
     &::UnityEngine::Rendering::CameraProperties::Equals)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3467f18;
+  constexpr static std::size_t addrs = 0x484f298;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraProperties>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraProperties>::get(), 0));
@@ -97,10 +97,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CameraProperties::*)()>(
     &::UnityEngine::Rendering::CameraProperties::GetHashCode)> {
-  constexpr static std::size_t size = 0x1174;
-  constexpr static std::size_t addrs = 0x3467fd0;
+  constexpr static std::size_t size = 0x458;
+  constexpr static std::size_t addrs = 0x484f350;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraProperties>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::CameraProperties>::get(), 2));

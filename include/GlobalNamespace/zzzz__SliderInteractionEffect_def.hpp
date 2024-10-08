@@ -19,36 +19,36 @@ class SliderInteractionEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SliderInteractionEffect);
 // Type: ::SliderInteractionEffect
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SliderInteractionEffect*
 class CORDL_TYPE SliderInteractionEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _sliderInteractionManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__sliderInteractionManager,
-                      put = __cordl_internal_set__sliderInteractionManager))::UnityW<::GlobalNamespace::SliderInteractionManager> _sliderInteractionManager;
+  /// @brief Field _sliderInteractionManager, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__sliderInteractionManager, put = __cordl_internal_set__sliderInteractionManager)) ::UnityW<::GlobalNamespace::SliderInteractionManager>
+      _sliderInteractionManager;
 
-  __declspec(property(get = get_colorType))::GlobalNamespace::ColorType colorType;
+  __declspec(property(get = get_colorType)) ::GlobalNamespace::ColorType colorType;
 
   __declspec(property(get = get_saberInteractionParam)) float_t saberInteractionParam;
 
   /// @brief Method EndEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EndEffect();
 
-  /// @brief Method HandleAllSliderWereRemovedFromActiveSliders, addr 0x26de8e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleAllSliderWereRemovedFromActiveSliders, addr 0x3a87a58, size 0xc, virtual false, abstract: false, final false
   inline void HandleAllSliderWereRemovedFromActiveSliders(::GlobalNamespace::SliderInteractionManager* sliderInteractionManager);
 
-  /// @brief Method HandleSliderWasAddedToActiveSliders, addr 0x26de8d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasAddedToActiveSliders, addr 0x3a87a4c, size 0xc, virtual false, abstract: false, final false
   inline void HandleSliderWasAddedToActiveSliders(::GlobalNamespace::SliderInteractionManager* sliderInteractionManager, float_t saberInteractionParam);
 
   static inline ::GlobalNamespace::SliderInteractionEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26de688, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a87808, size 0xe4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x26dd728, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3a8690c, size 0xe4, virtual true, abstract: false, final false
   inline void Start();
 
   /// @brief Method StartEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set__sliderInteractionManager(::UnityW<::GlobalNamespace::SliderInteractionManager> value);
 
-  /// @brief Method .ctor, addr 0x26dd9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a86b98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorType, addr 0x26dd814, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x3a869f0, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
-  /// @brief Method get_saberInteractionParam, addr 0x26dd904, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_saberInteractionParam, addr 0x3a86ae0, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_saberInteractionParam();
 
 protected:
@@ -83,15 +83,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SliderInteractionEffect(SliderInteractionEffect const&) = delete;
 
-  /// @brief Field _sliderInteractionManager, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _sliderInteractionManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SliderInteractionManager> ____sliderInteractionManager;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4157 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderInteractionEffect, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderInteractionEffect, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderInteractionEffect, ____sliderInteractionManager) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderInteractionEffect, ____sliderInteractionManager) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderInteractionEffect);

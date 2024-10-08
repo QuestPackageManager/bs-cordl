@@ -33,31 +33,31 @@ class Mask;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::Mask);
 // Type: UnityEngine.UI::Mask
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
 // CS Name: ::UnityEngine.UI::Mask*
 class CORDL_TYPE Mask : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
-  __declspec(property(get = get_graphic))::UnityW<::UnityEngine::UI::Graphic> graphic;
+  __declspec(property(get = get_graphic)) ::UnityW<::UnityEngine::UI::Graphic> graphic;
 
-  /// @brief Field m_Graphic, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Graphic, put = __cordl_internal_set_m_Graphic))::UnityW<::UnityEngine::UI::Graphic> m_Graphic;
+  /// @brief Field m_Graphic, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Graphic, put = __cordl_internal_set_m_Graphic)) ::UnityW<::UnityEngine::UI::Graphic> m_Graphic;
 
-  /// @brief Field m_MaskMaterial, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MaskMaterial, put = __cordl_internal_set_m_MaskMaterial))::UnityW<::UnityEngine::Material> m_MaskMaterial;
+  /// @brief Field m_MaskMaterial, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_MaskMaterial, put = __cordl_internal_set_m_MaskMaterial)) ::UnityW<::UnityEngine::Material> m_MaskMaterial;
 
-  /// @brief Field m_RectTransform, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RectTransform, put = __cordl_internal_set_m_RectTransform))::UnityW<::UnityEngine::RectTransform> m_RectTransform;
+  /// @brief Field m_RectTransform, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_RectTransform, put = __cordl_internal_set_m_RectTransform)) ::UnityW<::UnityEngine::RectTransform> m_RectTransform;
 
-  /// @brief Field m_ShowMaskGraphic, offset 0x20, size 0x1
+  /// @brief Field m_ShowMaskGraphic, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ShowMaskGraphic, put = __cordl_internal_set_m_ShowMaskGraphic)) bool m_ShowMaskGraphic;
 
-  /// @brief Field m_UnmaskMaterial, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_UnmaskMaterial, put = __cordl_internal_set_m_UnmaskMaterial))::UnityW<::UnityEngine::Material> m_UnmaskMaterial;
+  /// @brief Field m_UnmaskMaterial, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_UnmaskMaterial, put = __cordl_internal_set_m_UnmaskMaterial)) ::UnityW<::UnityEngine::Material> m_UnmaskMaterial;
 
-  __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
+  __declspec(property(get = get_rectTransform)) ::UnityW<::UnityEngine::RectTransform> rectTransform;
 
   __declspec(property(get = get_showMaskGraphic, put = set_showMaskGraphic)) bool showMaskGraphic;
 
@@ -67,24 +67,24 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::IMaterialModifier"
   constexpr operator ::UnityEngine::UI::IMaterialModifier*() noexcept;
 
-  /// @brief Method GetModifiedMaterial, addr 0x350d050, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method GetModifiedMaterial, addr 0x4a43838, size 0x294, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetModifiedMaterial(::UnityEngine::Material* baseMaterial);
 
-  /// @brief Method IsRaycastLocationValid, addr 0x350cfa4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method IsRaycastLocationValid, addr 0x4a4378c, size 0xac, virtual true, abstract: false, final false
   inline bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
 
-  /// @brief Method MaskEnabled, addr 0x350c97c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method MaskEnabled, addr 0x4a43164, size 0x90, virtual true, abstract: false, final false
   inline bool MaskEnabled();
 
   static inline ::UnityEngine::UI::Mask* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x350cde0, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4a435c8, size 0x1c4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x350ca10, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4a431f8, size 0x160, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnSiblingGraphicEnabledDisabled, addr 0x350ca0c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnSiblingGraphicEnabledDisabled, addr 0x4a431f4, size 0x4, virtual true, abstract: false, final false
   inline void OnSiblingGraphicEnabledDisabled();
 
   constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get_m_Graphic() const;
@@ -117,16 +117,16 @@ public:
 
   constexpr void __cordl_internal_set_m_UnmaskMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x350c96c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a43154, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_graphic, addr 0x350c914, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_graphic, addr 0x4a430fc, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_graphic();
 
-  /// @brief Method get_rectTransform, addr 0x350c804, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x4a42fec, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method get_showMaskGraphic, addr 0x350c85c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showMaskGraphic, addr 0x4a43044, size 0x8, virtual false, abstract: false, final false
   inline bool get_showMaskGraphic();
 
   /// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
@@ -135,7 +135,7 @@ public:
   /// @brief Convert to "::UnityEngine::UI::IMaterialModifier"
   constexpr ::UnityEngine::UI::IMaterialModifier* i___UnityEngine__UI__IMaterialModifier() noexcept;
 
-  /// @brief Method set_showMaskGraphic, addr 0x350c864, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_showMaskGraphic, addr 0x4a4304c, size 0xb0, virtual false, abstract: false, final false
   inline void set_showMaskGraphic(bool value);
 
 protected:
@@ -152,35 +152,38 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Mask(Mask const&) = delete;
 
-  /// @brief Field m_RectTransform, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field m_RectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_RectTransform;
 
-  /// @brief Field m_ShowMaskGraphic, offset: 0x20, size: 0x1, def value: None
+  /// @brief Field m_ShowMaskGraphic, offset: 0x28, size: 0x1, def value: None
   bool ___m_ShowMaskGraphic;
 
-  /// @brief Field m_Graphic, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field m_Graphic, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Graphic> ___m_Graphic;
 
-  /// @brief Field m_MaskMaterial, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field m_MaskMaterial, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_MaskMaterial;
 
-  /// @brief Field m_UnmaskMaterial, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field m_UnmaskMaterial, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_UnmaskMaterial;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15065 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::Mask, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::Mask, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::Mask, ___m_RectTransform) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::Mask, ___m_RectTransform) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::Mask, ___m_ShowMaskGraphic) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::Mask, ___m_ShowMaskGraphic) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::Mask, ___m_Graphic) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::Mask, ___m_Graphic) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::Mask, ___m_MaskMaterial) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::Mask, ___m_MaskMaterial) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::Mask, ___m_UnmaskMaterial) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::Mask, ___m_UnmaskMaterial) == 0x40, "Offset mismatch!");
 
 } // namespace UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::Mask);

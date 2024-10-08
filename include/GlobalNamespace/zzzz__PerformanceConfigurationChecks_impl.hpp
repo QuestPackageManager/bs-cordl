@@ -1,11 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PerformanceConfigurationChecks.hpp"
-#include "BGLib/Polyglot/zzzz__Language_impl.hpp"
-#include "BeatSaber/GameSettings/zzzz__WindowMode_impl.hpp"
-#include "BeatSaber/PerformancePresets/zzzz__BloomPrepassTextureEffectPreset_impl.hpp"
-#include "BeatSaber/PerformancePresets/zzzz__MainEffectPreset_impl.hpp"
-#include "BeatSaber/PerformancePresets/zzzz__MirrorQualityPreset_impl.hpp"
-#include "BeatSaber/PerformancePresets/zzzz__ObstaclesQuality_impl.hpp"
+#include "BeatSaber/Settings/zzzz__Settings_impl.hpp"
 #include "GlobalNamespace/zzzz__ArcVisibilityType_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_impl.hpp"
@@ -18,17 +13,9 @@
 #include "UnityEngine/XR/zzzz__XRSettings_impl.hpp"
 #include "UnityEngine/zzzz__SystemLanguage_impl.hpp"
 #include "UnityEngine/zzzz__ThreadPriority_impl.hpp"
-#include "UnityEngine/zzzz__Vector2Int_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__PerformanceConfigurationChecks_def.hpp"
-#include "BGLib/Polyglot/zzzz__Language_def.hpp"
-#include "BeatSaber/GameSettings/zzzz__GraphicSettingsHandler_def.hpp"
-#include "BeatSaber/GameSettings/zzzz__MainSettingsHandler_def.hpp"
-#include "BeatSaber/GameSettings/zzzz__WindowMode_def.hpp"
-#include "BeatSaber/PerformancePresets/zzzz__BloomPrepassTextureEffectPreset_def.hpp"
-#include "BeatSaber/PerformancePresets/zzzz__MainEffectPreset_def.hpp"
-#include "BeatSaber/PerformancePresets/zzzz__MirrorQualityPreset_def.hpp"
-#include "BeatSaber/PerformancePresets/zzzz__ObstaclesQuality_def.hpp"
+#include "BeatSaber/Settings/zzzz__Settings_def.hpp"
 #include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
@@ -42,7 +29,6 @@
 #include "UnityEngine/XR/zzzz__XRSettings_def.hpp"
 #include "UnityEngine/zzzz__SystemLanguage_def.hpp"
 #include "UnityEngine/zzzz__ThreadPriority_def.hpp"
-#include "UnityEngine/zzzz__Vector2Int_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "frames", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__Mismatch::__PerformanceConfigurationChecks__Mismatch(::StringW message, int32_t frames) noexcept {
@@ -149,91 +135,6 @@ constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__OculusXRConfig::_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__OculusXRConfig::__PerformanceConfigurationChecks__OculusXRConfig() {}
-// Ctor Parameters [CppParam { name: "roomCenter", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "roomRotation", ty: "double_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "controllerPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "controllerRotation", ty: "::UnityEngine::Vector3",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "hapticFeedback", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "smoothCameraEnabled", ty: "bool", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "smoothCameraFieldOfView", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "smoothCameraPositionSmooth", ty: "double_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "smoothCameraRotationSmooth", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "smoothCameraThirdPersonEnabled", ty:
-// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "smoothCameraThirdPersonPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "smoothCameraThirdPersonEulerAngles", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "volume", ty: "double_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "ambientVolumeScale", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "overrideAudioLatency", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "audioLatency", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "enableFPSCounter", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "enableFPSRecorder", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "enableMemoryTracker", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "createScreenshotDuringTheGame", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "language", ty: "::BGLib::Polyglot::Language", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "pauseButtonPressDurationLevel", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "useCustomServerEnvironment", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "forceGameLiftServerEnvironment", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "customServerHostName", ty: "::StringW", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "windowResolution", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "windowMode", ty:
-// "::BeatSaber::GameSettings::WindowMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "performancePresetKey", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam {
-// name: "renderViewportScale", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "targetFramerate", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "vSyncCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxQueuedFrames", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vrResolutionScale",
-// ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "menuVRResolutionScaleMultiplier", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "antiAliasingLevel", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bloomPrePassTextureEffect", ty: "::BeatSaber::PerformancePresets::BloomPrepassTextureEffectPreset",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "mainEffectGraphicsSettings", ty: "::BeatSaber::PerformancePresets::MainEffectPreset", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "mirrorGraphicsSettings", ty: "::BeatSaber::PerformancePresets::MirrorQualityPreset", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxNumberOfCutSoundEffects", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "maxShockwaveParticles", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "burnMarkTrailsEnabled", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "smokeGraphicsSettings", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "screenDisplacementEffectsEnabled", ty:
-// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "obstaclesQuality", ty: "::BeatSaber::PerformancePresets::ObstaclesQuality", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "cpuLevel", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "gpuLevel", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig::__PerformanceConfigurationChecks__GameConfig(
-    ::UnityEngine::Vector3 roomCenter, double_t roomRotation, ::UnityEngine::Vector3 controllerPosition, ::UnityEngine::Vector3 controllerRotation, bool hapticFeedback, bool smoothCameraEnabled,
-    double_t smoothCameraFieldOfView, double_t smoothCameraPositionSmooth, double_t smoothCameraRotationSmooth, bool smoothCameraThirdPersonEnabled,
-    ::UnityEngine::Vector3 smoothCameraThirdPersonPosition, ::UnityEngine::Vector3 smoothCameraThirdPersonEulerAngles, double_t volume, double_t ambientVolumeScale, bool overrideAudioLatency,
-    double_t audioLatency, bool enableFPSCounter, bool enableFPSRecorder, bool enableMemoryTracker, bool createScreenshotDuringTheGame, ::BGLib::Polyglot::Language language,
-    int32_t pauseButtonPressDurationLevel, bool useCustomServerEnvironment, bool forceGameLiftServerEnvironment, ::StringW customServerHostName, ::UnityEngine::Vector2Int windowResolution,
-    ::BeatSaber::GameSettings::WindowMode windowMode, ::StringW performancePresetKey, double_t renderViewportScale, double_t targetFramerate, int32_t vSyncCount, int32_t maxQueuedFrames,
-    double_t vrResolutionScale, double_t menuVRResolutionScaleMultiplier, int32_t antiAliasingLevel, ::BeatSaber::PerformancePresets::BloomPrepassTextureEffectPreset bloomPrePassTextureEffect,
-    ::BeatSaber::PerformancePresets::MainEffectPreset mainEffectGraphicsSettings, ::BeatSaber::PerformancePresets::MirrorQualityPreset mirrorGraphicsSettings, int32_t maxNumberOfCutSoundEffects,
-    int32_t maxShockwaveParticles, bool burnMarkTrailsEnabled, bool smokeGraphicsSettings, bool screenDisplacementEffectsEnabled, ::BeatSaber::PerformancePresets::ObstaclesQuality obstaclesQuality,
-    int32_t cpuLevel, int32_t gpuLevel) noexcept {
-  this->roomCenter = roomCenter;
-  this->roomRotation = roomRotation;
-  this->controllerPosition = controllerPosition;
-  this->controllerRotation = controllerRotation;
-  this->hapticFeedback = hapticFeedback;
-  this->smoothCameraEnabled = smoothCameraEnabled;
-  this->smoothCameraFieldOfView = smoothCameraFieldOfView;
-  this->smoothCameraPositionSmooth = smoothCameraPositionSmooth;
-  this->smoothCameraRotationSmooth = smoothCameraRotationSmooth;
-  this->smoothCameraThirdPersonEnabled = smoothCameraThirdPersonEnabled;
-  this->smoothCameraThirdPersonPosition = smoothCameraThirdPersonPosition;
-  this->smoothCameraThirdPersonEulerAngles = smoothCameraThirdPersonEulerAngles;
-  this->volume = volume;
-  this->ambientVolumeScale = ambientVolumeScale;
-  this->overrideAudioLatency = overrideAudioLatency;
-  this->audioLatency = audioLatency;
-  this->enableFPSCounter = enableFPSCounter;
-  this->enableFPSRecorder = enableFPSRecorder;
-  this->enableMemoryTracker = enableMemoryTracker;
-  this->createScreenshotDuringTheGame = createScreenshotDuringTheGame;
-  this->language = language;
-  this->pauseButtonPressDurationLevel = pauseButtonPressDurationLevel;
-  this->useCustomServerEnvironment = useCustomServerEnvironment;
-  this->forceGameLiftServerEnvironment = forceGameLiftServerEnvironment;
-  this->customServerHostName = customServerHostName;
-  this->windowResolution = windowResolution;
-  this->windowMode = windowMode;
-  this->performancePresetKey = performancePresetKey;
-  this->renderViewportScale = renderViewportScale;
-  this->targetFramerate = targetFramerate;
-  this->vSyncCount = vSyncCount;
-  this->maxQueuedFrames = maxQueuedFrames;
-  this->vrResolutionScale = vrResolutionScale;
-  this->menuVRResolutionScaleMultiplier = menuVRResolutionScaleMultiplier;
-  this->antiAliasingLevel = antiAliasingLevel;
-  this->bloomPrePassTextureEffect = bloomPrePassTextureEffect;
-  this->mainEffectGraphicsSettings = mainEffectGraphicsSettings;
-  this->mirrorGraphicsSettings = mirrorGraphicsSettings;
-  this->maxNumberOfCutSoundEffects = maxNumberOfCutSoundEffects;
-  this->maxShockwaveParticles = maxShockwaveParticles;
-  this->burnMarkTrailsEnabled = burnMarkTrailsEnabled;
-  this->smokeGraphicsSettings = smokeGraphicsSettings;
-  this->screenDisplacementEffectsEnabled = screenDisplacementEffectsEnabled;
-  this->obstaclesQuality = obstaclesQuality;
-  this->cpuLevel = cpuLevel;
-  this->gpuLevel = gpuLevel;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig::__PerformanceConfigurationChecks__GameConfig() {}
 // Ctor Parameters [CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "automaticPlayerHeight", ty: "bool", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "playerHeight", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "noteJumpDurationTypeSettings", ty: "::GlobalNamespace::NoteJumpDurationTypeSettings",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "noteJumpFixedDuration", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "noteJumpStartBeatOffset", ty: "float_t",
@@ -285,9 +186,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::IsValid)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26b5548;
+  constexpr static std::size_t addrs = 0x3aab5ec;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),
                                                                                "IsValid", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -298,10 +199,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::CreateErrorLog)> {
-  constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x26b55a4;
+  constexpr static std::size_t size = 0x28c;
+  constexpr static std::size_t addrs = 0x3aab648;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),
                                                                                "CreateErrorLog", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -311,16 +212,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)(
-    ::BeatSaber::GameSettings::MainSettingsHandler*, ::BeatSaber::GameSettings::GraphicSettingsHandler*, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask)>(
-    &::GlobalNamespace::PerformanceConfigurationChecks::SetExpected)> {
-  constexpr static std::size_t size = 0x6f4;
-  constexpr static std::size_t addrs = 0x26b5840;
+    ByRef<::BeatSaber::Settings::Settings>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask)>(&::GlobalNamespace::PerformanceConfigurationChecks::SetExpected)> {
+  constexpr static std::size_t size = 0x4a4;
+  constexpr static std::size_t addrs = 0x3aab8d4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(), "SetExpected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::MainSettingsHandler*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::GraphicSettingsHandler*>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::BeatSaber::Settings::Settings>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierMask>::get() })));
     return ___internal_method;
@@ -330,16 +229,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)(
-    ::BeatSaber::GameSettings::MainSettingsHandler*, ::BeatSaber::GameSettings::GraphicSettingsHandler*, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask)>(
-    &::GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected)> {
-  constexpr static std::size_t size = 0x1cb4;
-  constexpr static std::size_t addrs = 0x26b5fe4;
+    ByRef<::BeatSaber::Settings::Settings>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask)>(&::GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected)> {
+  constexpr static std::size_t size = 0x1bf8;
+  constexpr static std::size_t addrs = 0x3aabd78;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(), "VerifyExpected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::MainSettingsHandler*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::GraphicSettingsHandler*>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::BeatSaber::Settings::Settings>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierMask>::get() })));
     return ___internal_method;
@@ -351,9 +248,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26b7c98;
+  constexpr static std::size_t addrs = 0x3aad970;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -407,17 +304,17 @@ constexpr void GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___oculusXrConfig = value;
 }
-constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig& GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_get_gameConfig() {
+constexpr ::BeatSaber::Settings::Settings& GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_get_settingsConfig() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___gameConfig;
+  return this->___settingsConfig;
 }
-constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig const& GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_get_gameConfig() const {
+constexpr ::BeatSaber::Settings::Settings const& GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_get_settingsConfig() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___gameConfig;
+  return this->___settingsConfig;
 }
-constexpr void GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_set_gameConfig(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig value) {
+constexpr void GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_set_settingsConfig(::BeatSaber::Settings::Settings value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___gameConfig = value;
+  this->___settingsConfig = value;
 }
 constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__PlayerConfig& GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_get_playerConfig() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -468,27 +365,23 @@ inline ::StringW GlobalNamespace::PerformanceConfigurationChecks::CreateErrorLog
                                                                              "CreateErrorLog", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::PerformanceConfigurationChecks::SetExpected(::BeatSaber::GameSettings::MainSettingsHandler* mainSettingsHandler,
-                                                                         ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettingsHandler,
-                                                                         ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers) {
+inline bool GlobalNamespace::PerformanceConfigurationChecks::SetExpected(ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
+                                                                         ::GlobalNamespace::GameplayModifierMask modifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(), "SetExpected", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::MainSettingsHandler*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::GraphicSettingsHandler*>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::BeatSaber::Settings::Settings>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierMask>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, mainSettingsHandler, graphicSettingsHandler, playerSettings, modifiers);
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, settings, playerSettings, modifiers);
 }
-inline bool GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected(::BeatSaber::GameSettings::MainSettingsHandler* mainSettingsHandler,
-                                                                            ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettingsHandler,
-                                                                            ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers) {
+inline bool GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected(ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings,
+                                                                            ::GlobalNamespace::GameplayModifierMask modifiers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(), "VerifyExpected", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::MainSettingsHandler*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::GraphicSettingsHandler*>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::BeatSaber::Settings::Settings>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierMask>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, mainSettingsHandler, graphicSettingsHandler, playerSettings, modifiers);
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, settings, playerSettings, modifiers);
 }
 template <typename T> inline void GlobalNamespace::PerformanceConfigurationChecks::VerifyEntry(::StringW name, T expected, T actual) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),

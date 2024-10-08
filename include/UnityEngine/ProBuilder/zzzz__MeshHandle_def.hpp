@@ -19,7 +19,7 @@ class MeshHandle;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshHandle);
 // Type: UnityEngine.ProBuilder::MeshHandle
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::MeshHandle*
@@ -27,14 +27,14 @@ class CORDL_TYPE MeshHandle : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Mesh, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Mesh, put = __cordl_internal_set_m_Mesh))::UnityW<::UnityEngine::Mesh> m_Mesh;
+  __declspec(property(get = __cordl_internal_get_m_Mesh, put = __cordl_internal_set_m_Mesh)) ::UnityW<::UnityEngine::Mesh> m_Mesh;
 
   /// @brief Field m_Transform, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Transform, put = __cordl_internal_set_m_Transform))::UnityW<::UnityEngine::Transform> m_Transform;
+  __declspec(property(get = __cordl_internal_get_m_Transform, put = __cordl_internal_set_m_Transform)) ::UnityW<::UnityEngine::Transform> m_Transform;
 
-  __declspec(property(get = get_mesh))::UnityW<::UnityEngine::Mesh> mesh;
+  __declspec(property(get = get_mesh)) ::UnityW<::UnityEngine::Mesh> mesh;
 
-  /// @brief Method DrawMeshNow, addr 0x32bd6bc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method DrawMeshNow, addr 0x469d670, size 0x118, virtual false, abstract: false, final false
   inline void DrawMeshNow(int32_t submeshIndex);
 
   static inline ::UnityEngine::ProBuilder::MeshHandle* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Mesh* mesh);
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x32bd690, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x469d644, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::UnityEngine::Mesh* mesh);
 
-  /// @brief Method get_mesh, addr 0x32bd688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x469d63c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field m_Mesh, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ___m_Mesh;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14212 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

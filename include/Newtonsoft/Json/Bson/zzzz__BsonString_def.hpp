@@ -16,7 +16,7 @@ class BsonString;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonString);
 // Type: Newtonsoft.Json.Bson::BsonString
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Bson::BsonString*
@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set__IncludeLength_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x2ace960, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3edd068, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, bool includeLength);
 
-  /// @brief Method get_ByteCount, addr 0x2aced60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ByteCount, addr 0x3edd44c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ByteCount();
 
-  /// @brief Method get_IncludeLength, addr 0x2aced70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IncludeLength, addr 0x3edd45c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IncludeLength();
 
-  /// @brief Method set_ByteCount, addr 0x2aced68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ByteCount, addr 0x3edd454, size 0x8, virtual false, abstract: false, final false
   inline void set_ByteCount(int32_t value);
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field <IncludeLength>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____IncludeLength_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10482 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

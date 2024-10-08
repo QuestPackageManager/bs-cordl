@@ -17,27 +17,27 @@ class SignatureCreationTime;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime);
 // Type: Org.BouncyCastle.Bcpg.Sig::SignatureCreationTime
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.Sig::SignatureCreationTime*
 class CORDL_TYPE SignatureCreationTime : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method GetTime, addr 0x143c11c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetTime, addr 0x25ff65c, size 0xb4, virtual false, abstract: false, final false
   inline ::System::DateTime GetTime();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime* New_ctor(bool critical, ::System::DateTime date);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method TimeToBytes, addr 0x143bfa0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TimeToBytes, addr 0x25ff4e0, size 0xe8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TimeToBytes(::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x143c0d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ff610, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, ::System::DateTime date);
 
-  /// @brief Method .ctor, addr 0x143c088, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ff5c8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
 protected:
@@ -53,6 +53,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SignatureCreationTime", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SignatureCreationTime(SignatureCreationTime const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 546 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

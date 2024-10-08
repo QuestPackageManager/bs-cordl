@@ -26,78 +26,57 @@ class DownloadHandlerTexture;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Networking::DownloadHandlerTexture);
 // Type: UnityEngine.Networking::DownloadHandlerTexture
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 32, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
 // CS Name: ::UnityEngine.Networking::DownloadHandlerTexture*
 class CORDL_TYPE DownloadHandlerTexture : public ::UnityEngine::Networking::DownloadHandler {
 public:
   // Declarations
-  /// @brief Field mHasTexture, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_mHasTexture, put = __cordl_internal_set_mHasTexture)) bool mHasTexture;
-
-  /// @brief Field mNonReadable, offset 0x31, size 0x1
+  /// @brief Field mNonReadable, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_mNonReadable, put = __cordl_internal_set_mNonReadable)) bool mNonReadable;
 
-  /// @brief Field mTexture, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mTexture, put = __cordl_internal_set_mTexture))::UnityW<::UnityEngine::Texture2D> mTexture;
-
   /// @brief Field m_NativeData, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_NativeData, put = __cordl_internal_set_m_NativeData))::Unity::Collections::NativeArray_1<uint8_t> m_NativeData;
+  __declspec(property(get = __cordl_internal_get_m_NativeData, put = __cordl_internal_set_m_NativeData)) ::Unity::Collections::NativeArray_1<uint8_t> m_NativeData;
 
-  __declspec(property(get = get_texture))::UnityW<::UnityEngine::Texture2D> texture;
+  __declspec(property(get = get_texture)) ::UnityW<::UnityEngine::Texture2D> texture;
 
-  /// @brief Method Create, addr 0x3645fe0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4a6bf60, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerTexture* obj, bool readable);
 
-  /// @brief Method Dispose, addr 0x364607c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4a6c05c, size 0x24, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetContent, addr 0x36461f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x4a6c0f8, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> GetContent(::UnityEngine::Networking::UnityWebRequest* www);
 
-  /// @brief Method GetNativeData, addr 0x3646070, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetNativeData, addr 0x4a6c050, size 0xc, virtual true, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
 
-  /// @brief Method InternalCreateTexture, addr 0x3646024, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateTexture, addr 0x4a6bfa4, size 0x4c, virtual false, abstract: false, final false
   inline void InternalCreateTexture(bool readable);
 
-  /// @brief Method InternalGetTexture, addr 0x36460a4, size 0x110, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Texture2D> InternalGetTexture();
-
-  /// @brief Method InternalGetTextureNative, addr 0x36461b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InternalGetTextureNative, addr 0x4a6c0bc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> InternalGetTextureNative();
 
   static inline ::UnityEngine::Networking::DownloadHandlerTexture* New_ctor(bool readable);
-
-  constexpr bool const& __cordl_internal_get_mHasTexture() const;
-
-  constexpr bool& __cordl_internal_get_mHasTexture();
 
   constexpr bool const& __cordl_internal_get_mNonReadable() const;
 
   constexpr bool& __cordl_internal_get_mNonReadable();
 
-  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_mTexture() const;
-
-  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_mTexture();
-
   constexpr ::Unity::Collections::NativeArray_1<uint8_t> const& __cordl_internal_get_m_NativeData() const;
 
   constexpr ::Unity::Collections::NativeArray_1<uint8_t>& __cordl_internal_get_m_NativeData();
 
-  constexpr void __cordl_internal_set_mHasTexture(bool value);
-
   constexpr void __cordl_internal_set_mNonReadable(bool value);
-
-  constexpr void __cordl_internal_set_mTexture(::UnityW<::UnityEngine::Texture2D> value);
 
   constexpr void __cordl_internal_set_m_NativeData(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x3645f80, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a6bff0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(bool readable);
 
-  /// @brief Method get_texture, addr 0x36460a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x4a6c080, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
 protected:
@@ -117,27 +96,20 @@ public:
   /// @brief Field m_NativeData, offset: 0x18, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> ___m_NativeData;
 
-  /// @brief Field mTexture, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Texture2D> ___mTexture;
-
-  /// @brief Field mHasTexture, offset: 0x30, size: 0x1, def value: None
-  bool ___mHasTexture;
-
-  /// @brief Field mNonReadable, offset: 0x31, size: 0x1, def value: None
+  /// @brief Field mNonReadable, offset: 0x28, size: 0x1, def value: None
   bool ___mNonReadable;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18938 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::DownloadHandlerTexture, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::DownloadHandlerTexture, 0x30>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::Networking::DownloadHandlerTexture, ___m_NativeData) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Networking::DownloadHandlerTexture, ___mTexture) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Networking::DownloadHandlerTexture, ___mHasTexture) == 0x30, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::Networking::DownloadHandlerTexture, ___mNonReadable) == 0x31, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Networking::DownloadHandlerTexture, ___mNonReadable) == 0x28, "Offset mismatch!");
 
 } // namespace UnityEngine::Networking
 NEED_NO_BOX(::UnityEngine::Networking::DownloadHandlerTexture);

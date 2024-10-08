@@ -23,7 +23,7 @@ class OVRProfile;
 MARK_VAL_T(::GlobalNamespace::__OVRProfile__State);
 MARK_REF_PTR_T(::GlobalNamespace::OVRProfile);
 // Type: ::State
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRProfile::State
@@ -72,6 +72,9 @@ public:
   /// @brief Field READY value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__OVRProfile__State const READY;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8230 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -84,7 +87,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRProfile__State, value__) == 0x0, 
 
 } // namespace GlobalNamespace
 // Type: ::OVRProfile
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRProfile*
@@ -97,45 +100,45 @@ public:
 
   __declspec(property(get = get_eyeHeight)) float_t eyeHeight;
 
-  __declspec(property(get = get_id))::StringW id;
+  __declspec(property(get = get_id)) ::StringW id;
 
   __declspec(property(get = get_ipd)) float_t ipd;
 
-  __declspec(property(get = get_locale))::StringW locale;
+  __declspec(property(get = get_locale)) ::StringW locale;
 
   __declspec(property(get = get_neckHeight)) float_t neckHeight;
 
-  __declspec(property(get = get_state))::GlobalNamespace::__OVRProfile__State state;
+  __declspec(property(get = get_state)) ::GlobalNamespace::__OVRProfile__State state;
 
-  __declspec(property(get = get_userName))::StringW userName;
+  __declspec(property(get = get_userName)) ::StringW userName;
 
   static inline ::GlobalNamespace::OVRProfile* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b871dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f90b80, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eyeDepth, addr 0x2b87168, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_eyeDepth, addr 0x3f90b0c, size 0x50, virtual false, abstract: false, final false
   inline float_t get_eyeDepth();
 
-  /// @brief Method get_eyeHeight, addr 0x2b87118, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_eyeHeight, addr 0x3f90abc, size 0x50, virtual false, abstract: false, final false
   inline float_t get_eyeHeight();
 
-  /// @brief Method get_id, addr 0x2b86f24, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x3f908c8, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_ipd, addr 0x2b86fe4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_ipd, addr 0x3f90988, size 0x134, virtual false, abstract: false, final false
   inline float_t get_ipd();
 
-  /// @brief Method get_locale, addr 0x2b86fa4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_locale, addr 0x3f90948, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_locale();
 
-  /// @brief Method get_neckHeight, addr 0x2b871b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_neckHeight, addr 0x3f90b5c, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_neckHeight();
 
-  /// @brief Method get_state, addr 0x2b871d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x3f90b78, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRProfile__State get_state();
 
-  /// @brief Method get_userName, addr 0x2b86f64, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_userName, addr 0x3f90908, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_userName();
 
 protected:
@@ -151,6 +154,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRProfile", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRProfile(OVRProfile const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8231 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

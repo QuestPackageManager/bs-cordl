@@ -16,6 +16,15 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
 }
 namespace UnityEngine::UIElements {
+struct BackgroundPosition;
+}
+namespace UnityEngine::UIElements {
+struct BackgroundRepeat;
+}
+namespace UnityEngine::UIElements {
+struct BackgroundSize;
+}
+namespace UnityEngine::UIElements {
 struct Background;
 }
 namespace UnityEngine::UIElements {
@@ -55,7 +64,7 @@ class IStylePropertyAnimationSystem;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IStylePropertyAnimationSystem);
 // Type: UnityEngine.UIElements::IStylePropertyAnimationSystem
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::IStylePropertyAnimationSystem*
@@ -85,6 +94,18 @@ public:
   /// @brief Method StartTransition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::Background startValue,
                               ::UnityEngine::UIElements::Background endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+
+  /// @brief Method StartTransition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::BackgroundPosition startValue,
+                              ::UnityEngine::UIElements::BackgroundPosition endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+
+  /// @brief Method StartTransition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::BackgroundRepeat startValue,
+                              ::UnityEngine::UIElements::BackgroundRepeat endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+
+  /// @brief Method StartTransition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::BackgroundSize startValue,
+                              ::UnityEngine::UIElements::BackgroundSize endValue, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method StartTransition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool StartTransition(::UnityEngine::UIElements::VisualElement* owner, ::UnityEngine::UIElements::StyleSheets::StylePropertyId prop, ::UnityEngine::UIElements::FontDefinition startValue,
@@ -135,6 +156,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IStylePropertyAnimationSystem", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IStylePropertyAnimationSystem(IStylePropertyAnimationSystem const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6102 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

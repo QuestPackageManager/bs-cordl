@@ -28,7 +28,7 @@ class RecipientInformationStore;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::RecipientInformationStore);
 // Type: Org.BouncyCastle.Cms::RecipientInformationStore
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::RecipientInformationStore*
@@ -37,21 +37,21 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_Item))::Org::BouncyCastle::Cms::RecipientInformation* Item[];
+  __declspec(property(get = get_Item)) ::Org::BouncyCastle::Cms::RecipientInformation* Item[];
 
   /// @brief Field all, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_all, put = __cordl_internal_set_all))::System::Collections::IList* all;
+  __declspec(property(get = __cordl_internal_get_all, put = __cordl_internal_set_all)) ::System::Collections::IList* all;
 
   /// @brief Field table, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table))::System::Collections::IDictionary* table;
+  __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table)) ::System::Collections::IDictionary* table;
 
-  /// @brief Method GetFirstRecipient, addr 0x147b9b8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetFirstRecipient, addr 0x263d4f0, size 0x190, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformation* GetFirstRecipient(::Org::BouncyCastle::Cms::RecipientID* selector);
 
-  /// @brief Method GetRecipients, addr 0x147bbec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetRecipients, addr 0x263d724, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetRecipients();
 
-  /// @brief Method GetRecipients, addr 0x147bc48, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetRecipients, addr 0x263d780, size 0x130, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetRecipients(::Org::BouncyCastle::Cms::RecipientID* selector);
 
   static inline ::Org::BouncyCastle::Cms::RecipientInformationStore* New_ctor(::System::Collections::ICollection* recipientInfos);
@@ -68,13 +68,13 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x14564cc, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261850c, size 0x5b8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* recipientInfos);
 
-  /// @brief Method get_Count, addr 0x147bb48, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x263d680, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x147b9b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x263d4ec, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformation* get_Item(::Org::BouncyCastle::Cms::RecipientID* selector);
 
 protected:
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field table, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::IDictionary* ___table;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 687 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

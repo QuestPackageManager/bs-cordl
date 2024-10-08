@@ -22,37 +22,37 @@ class JoiningLobbyViewController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::JoiningLobbyViewController);
 // Type: ::JoiningLobbyViewController
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::JoiningLobbyViewController*
 class CORDL_TYPE JoiningLobbyViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  /// @brief Field _cancelJoiningButton, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__cancelJoiningButton, put = __cordl_internal_set__cancelJoiningButton))::UnityW<::UnityEngine::UI::Button> _cancelJoiningButton;
+  /// @brief Field _cancelJoiningButton, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__cancelJoiningButton, put = __cordl_internal_set__cancelJoiningButton)) ::UnityW<::UnityEngine::UI::Button> _cancelJoiningButton;
 
-  /// @brief Field _loadingControl, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__loadingControl, put = __cordl_internal_set__loadingControl))::UnityW<::GlobalNamespace::LoadingControl> _loadingControl;
+  /// @brief Field _loadingControl, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__loadingControl, put = __cordl_internal_set__loadingControl)) ::UnityW<::GlobalNamespace::LoadingControl> _loadingControl;
 
-  /// @brief Field _text, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::StringW _text;
+  /// @brief Field _text, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::StringW _text;
 
-  /// @brief Field didCancelEvent, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_didCancelEvent, put = __cordl_internal_set_didCancelEvent))::System::Action* didCancelEvent;
+  /// @brief Field didCancelEvent, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_didCancelEvent, put = __cordl_internal_set_didCancelEvent)) ::System::Action* didCancelEvent;
 
-  /// @brief Method DidActivate, addr 0x267f86c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3ba2ce4, size 0xc4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HideLoading, addr 0x267f82c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HideLoading, addr 0x3ba2ca4, size 0x40, virtual false, abstract: false, final false
   inline void HideLoading();
 
-  /// @brief Method Init, addr 0x267f7f8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3ba2c70, size 0x34, virtual false, abstract: false, final false
   inline void Init(::StringW text);
 
   static inline ::GlobalNamespace::JoiningLobbyViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__8_0, addr 0x267f93c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x3ba2db0, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelJoiningButton() const;
@@ -79,13 +79,13 @@ public:
 
   constexpr void __cordl_internal_set_didCancelEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x267f934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba2da8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didCancelEvent, addr 0x267f6c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didCancelEvent, addr 0x3ba2b38, size 0x9c, virtual false, abstract: false, final false
   inline void add_didCancelEvent(::System::Action* value);
 
-  /// @brief Method remove_didCancelEvent, addr 0x267f75c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didCancelEvent, addr 0x3ba2bd4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didCancelEvent(::System::Action* value);
 
 protected:
@@ -102,30 +102,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JoiningLobbyViewController(JoiningLobbyViewController const&) = delete;
 
-  /// @brief Field _cancelJoiningButton, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _cancelJoiningButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____cancelJoiningButton;
 
-  /// @brief Field _loadingControl, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _loadingControl, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LoadingControl> ____loadingControl;
 
-  /// @brief Field _text, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _text, offset: 0x88, size: 0x8, def value: None
   ::StringW ____text;
 
-  /// @brief Field didCancelEvent, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field didCancelEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action* ___didCancelEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4903 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::JoiningLobbyViewController, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::JoiningLobbyViewController, 0x98>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::JoiningLobbyViewController, ____cancelJoiningButton) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::JoiningLobbyViewController, ____cancelJoiningButton) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::JoiningLobbyViewController, ____loadingControl) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::JoiningLobbyViewController, ____loadingControl) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::JoiningLobbyViewController, ____text) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::JoiningLobbyViewController, ____text) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::JoiningLobbyViewController, ___didCancelEvent) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::JoiningLobbyViewController, ___didCancelEvent) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::JoiningLobbyViewController);

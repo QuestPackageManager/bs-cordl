@@ -15,14 +15,14 @@ class ProviderUtil;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ProviderUtil);
 // Type: Zenject::ProviderUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::ProviderUtil*
 class CORDL_TYPE ProviderUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTypeToInstantiate, addr 0x36a0fa8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetTypeToInstantiate, addr 0x4ac46a4, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Type* GetTypeToInstantiate(::System::Type* contractType, ::System::Type* concreteType);
 
 protected:
@@ -38,6 +38,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ProviderUtil", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ProviderUtil(ProviderUtil const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12533 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

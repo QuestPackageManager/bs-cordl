@@ -25,22 +25,22 @@ class AnimatorIkHandlerManager;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::AnimatorIkHandlerManager);
 // Type: Zenject::AnimatorIkHandlerManager
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::AnimatorIkHandlerManager*
 class CORDL_TYPE AnimatorIkHandlerManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _handlers, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__handlers, put = __cordl_internal_set__handlers))::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* _handlers;
+  /// @brief Field _handlers, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__handlers, put = __cordl_internal_set__handlers)) ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* _handlers;
 
-  /// @brief Method Construct, addr 0x36a5334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x4ac88f4, size 0x8, virtual false, abstract: false, final false
   inline void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* handlers);
 
   static inline ::Zenject::AnimatorIkHandlerManager* New_ctor();
 
-  /// @brief Method OnAnimatorIk, addr 0x36a533c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method OnAnimatorIk, addr 0x4ac88fc, size 0x1b0, virtual false, abstract: false, final false
   inline void OnAnimatorIk();
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*& __cordl_internal_get__handlers();
@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__handlers(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36a55d0, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ac8b90, size 0x2fc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x36a54f4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x4ac8ab4, size 0xdc, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method .ctor, addr 0x36a54ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac8aac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,15 +72,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnimatorIkHandlerManager(AnimatorIkHandlerManager const&) = delete;
 
-  /// @brief Field _handlers, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _handlers, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* ____handlers;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12599 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::AnimatorIkHandlerManager, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Zenject::AnimatorIkHandlerManager, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::Zenject::AnimatorIkHandlerManager, ____handlers) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Zenject::AnimatorIkHandlerManager, ____handlers) == 0x20, "Offset mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::AnimatorIkHandlerManager);

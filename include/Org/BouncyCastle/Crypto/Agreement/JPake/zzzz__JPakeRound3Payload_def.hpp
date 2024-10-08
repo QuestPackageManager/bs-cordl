@@ -16,22 +16,22 @@ class JPakeRound3Payload;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload);
 // Type: Org.BouncyCastle.Crypto.Agreement.JPake::JPakeRound3Payload
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.JPake::JPakeRound3Payload*
 class CORDL_TYPE JPakeRound3Payload : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_MacTag))::Org::BouncyCastle::Math::BigInteger* MacTag;
+  __declspec(property(get = get_MacTag)) ::Org::BouncyCastle::Math::BigInteger* MacTag;
 
-  __declspec(property(get = get_ParticipantId))::StringW ParticipantId;
+  __declspec(property(get = get_ParticipantId)) ::StringW ParticipantId;
 
   /// @brief Field macTag, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_macTag, put = __cordl_internal_set_macTag))::Org::BouncyCastle::Math::BigInteger* macTag;
+  __declspec(property(get = __cordl_internal_get_macTag, put = __cordl_internal_set_macTag)) ::Org::BouncyCastle::Math::BigInteger* macTag;
 
   /// @brief Field participantId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_participantId, put = __cordl_internal_set_participantId))::StringW participantId;
+  __declspec(property(get = __cordl_internal_get_participantId, put = __cordl_internal_set_participantId)) ::StringW participantId;
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload* New_ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* magTag);
 
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_participantId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1488400, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2648c6c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* magTag);
 
-  /// @brief Method get_MacTag, addr 0x1488f94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MacTag, addr 0x26497bc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_MacTag();
 
-  /// @brief Method get_ParticipantId, addr 0x1488f8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParticipantId, addr 0x26497b4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field macTag, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___macTag;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 719 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

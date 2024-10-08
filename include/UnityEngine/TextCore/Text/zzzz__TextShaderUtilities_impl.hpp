@@ -2,17 +2,16 @@
 // IWYU pragma private; include "UnityEngine/TextCore/Text/TextShaderUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextShaderUtilities_def.hpp"
-#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextShaderUtilities.get_ShaderRef_MobileSDF
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(
     &::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x34d9c98;
+  constexpr static std::size_t size = 0x1e8;
+  constexpr static std::size_t addrs = 0x48d60c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
                                                                                "get_ShaderRef_MobileSDF", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -23,10 +22,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(
     &::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileBitmap)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x34d9df4;
+  constexpr static std::size_t size = 0x1e8;
+  constexpr static std::size_t addrs = 0x48d62ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
                                                                                "get_ShaderRef_MobileBitmap", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -36,55 +35,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::GetShaderPropertyIDs)> {
-  constexpr static std::size_t size = 0x988;
-  constexpr static std::size_t addrs = 0x34da0e0;
+  constexpr static std::size_t size = 0xac8;
+  constexpr static std::size_t addrs = 0x48d6610;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
                                                                                "GetShaderPropertyIDs", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextShaderUtilities.UpdateShaderRatios
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::UnityEngine::TextCore::Text::TextShaderUtilities::UpdateShaderRatios)> {
-  constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x34daa68;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(), "UpdateShaderRatios", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextShaderUtilities.IsMaskingEnabled
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Material*)>(&::UnityEngine::TextCore::Text::TextShaderUtilities::IsMaskingEnabled)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x34daec4;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(), "IsMaskingEnabled", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextShaderUtilities.GetPadding
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Material*, bool, bool)>(&::UnityEngine::TextCore::Text::TextShaderUtilities::GetPadding)> {
-  constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x34db060;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(), "GetPadding", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -123,6 +79,48 @@ inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_Shin
 inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_Shininess() {
   return ::cordl_internals::getStaticField<int32_t, "ID_Shininess", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>();
 }
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_OutlineOffset1(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "ID_OutlineOffset1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>(
+      std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_OutlineOffset1() {
+  return ::cordl_internals::getStaticField<int32_t, "ID_OutlineOffset1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_OutlineOffset2(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "ID_OutlineOffset2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>(
+      std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_OutlineOffset2() {
+  return ::cordl_internals::getStaticField<int32_t, "ID_OutlineOffset2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_OutlineOffset3(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "ID_OutlineOffset3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>(
+      std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_OutlineOffset3() {
+  return ::cordl_internals::getStaticField<int32_t, "ID_OutlineOffset3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_OutlineMode(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "ID_OutlineMode", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>(
+      std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_OutlineMode() {
+  return ::cordl_internals::getStaticField<int32_t, "ID_OutlineMode", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_IsoPerimeter(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "ID_IsoPerimeter", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>(
+      std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_IsoPerimeter() {
+  return ::cordl_internals::getStaticField<int32_t, "ID_IsoPerimeter", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_Softness(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "ID_Softness", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>(
+      std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_Softness() {
+  return ::cordl_internals::getStaticField<int32_t, "ID_Softness", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>();
+}
 inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_UnderlayColor(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "ID_UnderlayColor", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>(
       std::forward<int32_t>(value));
@@ -157,6 +155,20 @@ inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_Unde
 }
 inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_UnderlaySoftness() {
   return ::cordl_internals::getStaticField<int32_t, "ID_UnderlaySoftness", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_UnderlayOffset(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "ID_UnderlayOffset", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>(
+      std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_UnderlayOffset() {
+  return ::cordl_internals::getStaticField<int32_t, "ID_UnderlayOffset", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>();
+}
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_UnderlayIsoPerimeter(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "ID_UnderlayIsoPerimeter", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>(
+      std::forward<int32_t>(value));
+}
+inline int32_t UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_ID_UnderlayIsoPerimeter() {
+  return ::cordl_internals::getStaticField<int32_t, "ID_UnderlayIsoPerimeter", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>();
 }
 inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_ID_WeightNormal(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "ID_WeightNormal", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>(
@@ -566,25 +578,6 @@ inline void UnityEngine::TextCore::Text::TextShaderUtilities::GetShaderPropertyI
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
                                                                              "GetShaderPropertyIDs", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
-}
-inline void UnityEngine::TextCore::Text::TextShaderUtilities::UpdateShaderRatios(::UnityEngine::Material* mat) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(), "UpdateShaderRatios", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, mat);
-}
-inline bool UnityEngine::TextCore::Text::TextShaderUtilities::IsMaskingEnabled(::UnityEngine::Material* material) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(), "IsMaskingEnabled", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, material);
-}
-inline float_t UnityEngine::TextCore::Text::TextShaderUtilities::GetPadding(::UnityEngine::Material* material, bool enableExtraPadding, bool isBold) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(), "GetPadding", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, material, enableExtraPadding, isBold);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextShaderUtilities::TextShaderUtilities() {}

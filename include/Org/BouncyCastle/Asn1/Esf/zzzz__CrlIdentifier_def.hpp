@@ -36,29 +36,29 @@ class CrlIdentifier;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::CrlIdentifier);
 // Type: Org.BouncyCastle.Asn1.Esf::CrlIdentifier
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::CrlIdentifier*
 class CORDL_TYPE CrlIdentifier : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_CrlIssuedTime))::System::DateTime CrlIssuedTime;
+  __declspec(property(get = get_CrlIssuedTime)) ::System::DateTime CrlIssuedTime;
 
-  __declspec(property(get = get_CrlIssuer))::Org::BouncyCastle::Asn1::X509::X509Name* CrlIssuer;
+  __declspec(property(get = get_CrlIssuer)) ::Org::BouncyCastle::Asn1::X509::X509Name* CrlIssuer;
 
-  __declspec(property(get = get_CrlNumber))::Org::BouncyCastle::Math::BigInteger* CrlNumber;
+  __declspec(property(get = get_CrlNumber)) ::Org::BouncyCastle::Math::BigInteger* CrlNumber;
 
   /// @brief Field crlIssuedTime, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_crlIssuedTime, put = __cordl_internal_set_crlIssuedTime))::Org::BouncyCastle::Asn1::DerUtcTime* crlIssuedTime;
+  __declspec(property(get = __cordl_internal_get_crlIssuedTime, put = __cordl_internal_set_crlIssuedTime)) ::Org::BouncyCastle::Asn1::DerUtcTime* crlIssuedTime;
 
   /// @brief Field crlIssuer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_crlIssuer, put = __cordl_internal_set_crlIssuer))::Org::BouncyCastle::Asn1::X509::X509Name* crlIssuer;
+  __declspec(property(get = __cordl_internal_get_crlIssuer, put = __cordl_internal_set_crlIssuer)) ::Org::BouncyCastle::Asn1::X509::X509Name* crlIssuer;
 
   /// @brief Field crlNumber, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_crlNumber, put = __cordl_internal_set_crlNumber))::Org::BouncyCastle::Asn1::DerInteger* crlNumber;
+  __declspec(property(get = __cordl_internal_get_crlNumber, put = __cordl_internal_set_crlNumber)) ::Org::BouncyCastle::Asn1::DerInteger* crlNumber;
 
-  /// @brief Method GetInstance, addr 0x1101700, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22de6ac, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* crlIssuer, ::System::DateTime crlIssuedTime);
@@ -68,7 +68,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x1101be8, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22deb7c, size 0x188, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerUtcTime*& __cordl_internal_get_crlIssuedTime();
@@ -89,22 +89,22 @@ public:
 
   constexpr void __cordl_internal_set_crlNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x1101aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dea30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* crlIssuer, ::System::DateTime crlIssuedTime);
 
-  /// @brief Method .ctor, addr 0x1101aa8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dea38, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* crlIssuer, ::System::DateTime crlIssuedTime, ::Org::BouncyCastle::Math::BigInteger* crlNumber);
 
-  /// @brief Method .ctor, addr 0x1101888, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22de828, size 0x208, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CrlIssuedTime, addr 0x1101bbc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_CrlIssuedTime, addr 0x22deb50, size 0x1c, virtual false, abstract: false, final false
   inline ::System::DateTime get_CrlIssuedTime();
 
-  /// @brief Method get_CrlIssuer, addr 0x1101bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlIssuer, addr 0x22deb48, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_CrlIssuer();
 
-  /// @brief Method get_CrlNumber, addr 0x1101bd8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_CrlNumber, addr 0x22deb6c, size 0x10, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_CrlNumber();
 
 protected:
@@ -129,6 +129,9 @@ public:
 
   /// @brief Field crlNumber, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___crlNumber;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 140 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

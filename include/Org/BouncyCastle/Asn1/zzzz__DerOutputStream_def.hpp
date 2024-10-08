@@ -26,7 +26,7 @@ class DerOutputStream;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerOutputStream);
 // Type: Org.BouncyCastle.Asn1::DerOutputStream
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::DerOutputStream*
@@ -35,37 +35,37 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::DerOutputStream* New_ctor(::System::IO::Stream* os);
 
-  /// @brief Method WriteEncoded, addr 0x142a0b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WriteEncoded, addr 0x25ee9a8, size 0x50, virtual false, abstract: false, final false
   inline void WriteEncoded(int32_t flags, int32_t tagNo, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WriteEncoded, addr 0x1429e54, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method WriteEncoded, addr 0x25ee748, size 0x5c, virtual false, abstract: false, final false
   inline void WriteEncoded(int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WriteEncoded, addr 0x1429f2c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WriteEncoded, addr 0x25ee820, size 0x64, virtual false, abstract: false, final false
   inline void WriteEncoded(int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset, int32_t length);
 
-  /// @brief Method WriteEncoded, addr 0x1429eb0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method WriteEncoded, addr 0x25ee7a4, size 0x7c, virtual false, abstract: false, final false
   inline void WriteEncoded(int32_t tag, uint8_t first, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WriteLength, addr 0x1429db4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method WriteLength, addr 0x25ee6a0, size 0xa8, virtual false, abstract: false, final false
   inline void WriteLength(int32_t length);
 
-  /// @brief Method WriteNull, addr 0x142a104, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method WriteNull, addr 0x25ee9f8, size 0x38, virtual false, abstract: false, final false
   inline void WriteNull();
 
-  /// @brief Method WriteObject, addr 0x142a298, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x25eeb88, size 0x70, virtual true, abstract: false, final false
   inline void WriteObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method WriteObject, addr 0x142a308, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x25eebf8, size 0x58, virtual true, abstract: false, final false
   inline void WriteObject(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method WriteObject, addr 0x142a13c, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x25eea30, size 0x158, virtual true, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
-  /// @brief Method WriteTag, addr 0x1429f90, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method WriteTag, addr 0x25ee884, size 0x124, virtual false, abstract: false, final false
   inline void WriteTag(int32_t flags, int32_t tagNo);
 
-  /// @brief Method .ctor, addr 0x1429db0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ee69c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* os);
 
 protected:
@@ -81,6 +81,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DerOutputStream", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DerOutputStream(DerOutputStream const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 457 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

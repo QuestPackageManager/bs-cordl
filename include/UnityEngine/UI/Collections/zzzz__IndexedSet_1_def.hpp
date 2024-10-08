@@ -44,7 +44,7 @@ template <typename T> class IndexedSet_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UI::Collections::IndexedSet_1);
 // Type: UnityEngine.UI.Collections::IndexedSet`1
-// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI::Collections {
 // cpp template
 template <typename T>
@@ -62,13 +62,13 @@ public:
   __declspec(property(get = get_Item, put = set_Item)) T Item[];
 
   /// @brief Field m_Dictionary, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Dictionary, put = __cordl_internal_set_m_Dictionary))::System::Collections::Generic::Dictionary_2<T, int32_t>* m_Dictionary;
+  __declspec(property(get = __cordl_internal_get_m_Dictionary, put = __cordl_internal_set_m_Dictionary)) ::System::Collections::Generic::Dictionary_2<T, int32_t>* m_Dictionary;
 
   /// @brief Field m_EnabledObjectCount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_EnabledObjectCount, put = __cordl_internal_set_m_EnabledObjectCount)) int32_t m_EnabledObjectCount;
 
   /// @brief Field m_List, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List))::System::Collections::Generic::List_1<T>* m_List;
+  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List)) ::System::Collections::Generic::List_1<T>* m_List;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
   constexpr operator ::System::Collections::Generic::ICollection_1<T>*() noexcept;
@@ -205,6 +205,9 @@ public:
 
   /// @brief Field m_EnabledObjectCount, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_EnabledObjectCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15117 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

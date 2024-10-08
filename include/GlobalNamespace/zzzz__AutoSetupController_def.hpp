@@ -30,68 +30,68 @@ class AutoSetupController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AutoSetupController);
 // Type: ::AutoSetupController
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AutoSetupController*
 class CORDL_TYPE AutoSetupController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _autoSetupData, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__autoSetupData, put = __cordl_internal_set__autoSetupData))::GlobalNamespace::AutoSetupData* _autoSetupData;
+  /// @brief Field _autoSetupData, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__autoSetupData, put = __cordl_internal_set__autoSetupData)) ::GlobalNamespace::AutoSetupData* _autoSetupData;
 
-  /// @brief Field _autoStartWhenAllReadyToggle, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__autoStartWhenAllReadyToggle,
-                      put = __cordl_internal_set__autoStartWhenAllReadyToggle))::UnityW<::UnityEngine::UI::Toggle> _autoStartWhenAllReadyToggle;
+  /// @brief Field _autoStartWhenAllReadyToggle, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__autoStartWhenAllReadyToggle, put = __cordl_internal_set__autoStartWhenAllReadyToggle)) ::UnityW<::UnityEngine::UI::Toggle>
+      _autoStartWhenAllReadyToggle;
 
-  /// @brief Field _buttonBinder, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  /// @brief Field _buttonBinder, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder* _buttonBinder;
 
-  /// @brief Field _closeButton, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__closeButton, put = __cordl_internal_set__closeButton))::UnityW<::UnityEngine::UI::Button> _closeButton;
+  /// @brief Field _closeButton, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__closeButton, put = __cordl_internal_set__closeButton)) ::UnityW<::UnityEngine::UI::Button> _closeButton;
 
-  /// @brief Field _forceAutoStartAfterSongSelectionToggle, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__forceAutoStartAfterSongSelectionToggle,
-                      put = __cordl_internal_set__forceAutoStartAfterSongSelectionToggle))::UnityW<::UnityEngine::UI::Toggle> _forceAutoStartAfterSongSelectionToggle;
+  /// @brief Field _forceAutoStartAfterSongSelectionToggle, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__forceAutoStartAfterSongSelectionToggle, put = __cordl_internal_set__forceAutoStartAfterSongSelectionToggle)) ::UnityW<::UnityEngine::UI::Toggle>
+      _forceAutoStartAfterSongSelectionToggle;
 
-  /// @brief Field _randomSongIfNoneSuggestedToggle, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__randomSongIfNoneSuggestedToggle,
-                      put = __cordl_internal_set__randomSongIfNoneSuggestedToggle))::UnityW<::UnityEngine::UI::Toggle> _randomSongIfNoneSuggestedToggle;
+  /// @brief Field _randomSongIfNoneSuggestedToggle, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__randomSongIfNoneSuggestedToggle, put = __cordl_internal_set__randomSongIfNoneSuggestedToggle)) ::UnityW<::UnityEngine::UI::Toggle>
+      _randomSongIfNoneSuggestedToggle;
 
-  /// @brief Field _selectBasedOnSuggestionsToggle, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectBasedOnSuggestionsToggle,
-                      put = __cordl_internal_set__selectBasedOnSuggestionsToggle))::UnityW<::UnityEngine::UI::Toggle> _selectBasedOnSuggestionsToggle;
+  /// @brief Field _selectBasedOnSuggestionsToggle, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__selectBasedOnSuggestionsToggle, put = __cordl_internal_set__selectBasedOnSuggestionsToggle)) ::UnityW<::UnityEngine::UI::Toggle>
+      _selectBasedOnSuggestionsToggle;
 
-  /// @brief Field _toggleBinder, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
+  /// @brief Field _toggleBinder, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder)) ::HMUI::ToggleBinder* _toggleBinder;
 
-  /// @brief Field didFinishEvent, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::GlobalNamespace::AutoSetupData*>* didFinishEvent;
+  /// @brief Field didFinishEvent, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::AutoSetupData*>* didFinishEvent;
 
   static inline ::GlobalNamespace::AutoSetupController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2657a70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3ae0d70, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2657870, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3ae0b7c, size 0x1f4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Setup, addr 0x2657868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3ae0b74, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::AutoSetupData* autoSetupData);
 
-  /// @brief Method <OnEnable>b__12_0, addr 0x2657b5c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_0, addr 0x3ae0e54, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_0();
 
-  /// @brief Method <OnEnable>b__12_1, addr 0x2657b7c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_1, addr 0x3ae0e74, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_1(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_2, addr 0x2657b9c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_2, addr 0x3ae0e94, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_2(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_3, addr 0x2657bbc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_3, addr 0x3ae0eb4, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_3(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_4, addr 0x2657bdc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_4, addr 0x3ae0ed4, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_4(bool isOn);
 
   constexpr ::GlobalNamespace::AutoSetupData*& __cordl_internal_get__autoSetupData();
@@ -148,13 +148,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
-  /// @brief Method .ctor, addr 0x2657a8c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae0d8c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x2657708, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3ae0a14, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x26577b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3ae0ac4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
 protected:
@@ -171,55 +171,58 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AutoSetupController(AutoSetupController const&) = delete;
 
-  /// @brief Field _closeButton, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _closeButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____closeButton;
 
-  /// @brief Field _selectBasedOnSuggestionsToggle, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _selectBasedOnSuggestionsToggle, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____selectBasedOnSuggestionsToggle;
 
-  /// @brief Field _autoStartWhenAllReadyToggle, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _autoStartWhenAllReadyToggle, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____autoStartWhenAllReadyToggle;
 
-  /// @brief Field _forceAutoStartAfterSongSelectionToggle, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _forceAutoStartAfterSongSelectionToggle, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____forceAutoStartAfterSongSelectionToggle;
 
-  /// @brief Field _randomSongIfNoneSuggestedToggle, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _randomSongIfNoneSuggestedToggle, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____randomSongIfNoneSuggestedToggle;
 
-  /// @brief Field didFinishEvent, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::AutoSetupData*>* ___didFinishEvent;
 
-  /// @brief Field _buttonBinder, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _buttonBinder, offset: 0x50, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
-  /// @brief Field _toggleBinder, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _toggleBinder, offset: 0x58, size: 0x8, def value: None
   ::HMUI::ToggleBinder* ____toggleBinder;
 
-  /// @brief Field _autoSetupData, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _autoSetupData, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::AutoSetupData* ____autoSetupData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5286 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AutoSetupController, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AutoSetupController, 0x68>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____closeButton) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____closeButton) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____selectBasedOnSuggestionsToggle) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____selectBasedOnSuggestionsToggle) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____autoStartWhenAllReadyToggle) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____autoStartWhenAllReadyToggle) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____forceAutoStartAfterSongSelectionToggle) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____forceAutoStartAfterSongSelectionToggle) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____randomSongIfNoneSuggestedToggle) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____randomSongIfNoneSuggestedToggle) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AutoSetupController, ___didFinishEvent) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ___didFinishEvent) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____buttonBinder) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____buttonBinder) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____toggleBinder) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____toggleBinder) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____autoSetupData) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AutoSetupController, ____autoSetupData) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AutoSetupController);

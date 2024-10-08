@@ -29,7 +29,7 @@ MARK_VAL_T(::UnityEngine::ParticleSystemJobs::NativeParticleData);
 MARK_VAL_T(::UnityEngine::ParticleSystemJobs::__NativeParticleData__Array3);
 MARK_VAL_T(::UnityEngine::ParticleSystemJobs::__NativeParticleData__Array4);
 // Type: ::Array3
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ParticleSystemJobs {
 // Is value type: true
 // CS Name: ::NativeParticleData::Array3
@@ -53,6 +53,9 @@ public:
   /// @brief Field z, offset: 0x10, size: 0x8, def value: None
   ::cordl_internals::Ptr<float_t> z;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17155 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -69,7 +72,7 @@ static_assert(offsetof(::UnityEngine::ParticleSystemJobs::__NativeParticleData__
 
 } // namespace UnityEngine::ParticleSystemJobs
 // Type: ::Array4
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ParticleSystemJobs {
 // Is value type: true
 // CS Name: ::NativeParticleData::Array4
@@ -97,6 +100,9 @@ public:
   /// @brief Field w, offset: 0x18, size: 0x8, def value: None
   ::cordl_internals::Ptr<float_t> w;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17156 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
@@ -115,7 +121,7 @@ static_assert(offsetof(::UnityEngine::ParticleSystemJobs::__NativeParticleData__
 
 } // namespace UnityEngine::ParticleSystemJobs
 // Type: UnityEngine.ParticleSystemJobs::NativeParticleData
-// SizeInfo { instance_size: 256, native_size: 256, calculated_instance_size: 256, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 256, native_size: 256, calculated_instance_size: 256, calculated_native_size: 272, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ParticleSystemJobs {
 // Is value type: true
 // CS Name: ::UnityEngine.ParticleSystemJobs::NativeParticleData
@@ -189,6 +195,9 @@ public:
 
   /// @brief Field meshIndices, offset: 0xf8, size: 0x8, def value: None
   ::cordl_internals::Ptr<void> meshIndices;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17157 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };

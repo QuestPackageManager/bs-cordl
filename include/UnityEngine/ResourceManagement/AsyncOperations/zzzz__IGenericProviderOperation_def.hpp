@@ -46,7 +46,7 @@ class IGenericProviderOperation;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation);
 // Type: UnityEngine.ResourceManagement.AsyncOperations::IGenericProviderOperation
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::IGenericProviderOperation*
@@ -55,11 +55,11 @@ public:
   // Declarations
   __declspec(property(get = get_DependencyCount)) int32_t DependencyCount;
 
-  __declspec(property(get = get_Location))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* Location;
+  __declspec(property(get = get_Location)) ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* Location;
 
   __declspec(property(get = get_ProvideHandleVersion)) int32_t ProvideHandleVersion;
 
-  __declspec(property(get = get_RequestedType))::System::Type* RequestedType;
+  __declspec(property(get = get_RequestedType)) ::System::Type* RequestedType;
 
   /// @brief Method GetDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetDependencies(::System::Collections::Generic::IList_1<::System::Object*>* dstList);
@@ -113,6 +113,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IGenericProviderOperation", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IGenericProviderOperation(IGenericProviderOperation const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15656 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

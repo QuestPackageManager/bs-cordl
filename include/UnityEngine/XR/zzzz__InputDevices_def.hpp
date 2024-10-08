@@ -27,7 +27,7 @@ class InputDevices;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::XR::InputDevices);
 // Type: UnityEngine.XR::InputDevices
-// SizeInfo { instance_size: 16, native_size: 1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
 // CS Name: ::UnityEngine.XR::InputDevices*
@@ -35,30 +35,30 @@ class CORDL_TYPE InputDevices : public ::System::Object {
 public:
   // Declarations
   /// @brief Field deviceConfigChanged, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_deviceConfigChanged, put = setStaticF_deviceConfigChanged))::System::Action_1<::UnityEngine::XR::InputDevice>* deviceConfigChanged;
+  static __declspec(property(get = getStaticF_deviceConfigChanged, put = setStaticF_deviceConfigChanged)) ::System::Action_1<::UnityEngine::XR::InputDevice>* deviceConfigChanged;
 
   /// @brief Field deviceConnected, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_deviceConnected, put = setStaticF_deviceConnected))::System::Action_1<::UnityEngine::XR::InputDevice>* deviceConnected;
+  static __declspec(property(get = getStaticF_deviceConnected, put = setStaticF_deviceConnected)) ::System::Action_1<::UnityEngine::XR::InputDevice>* deviceConnected;
 
   /// @brief Field deviceDisconnected, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_deviceDisconnected, put = setStaticF_deviceDisconnected))::System::Action_1<::UnityEngine::XR::InputDevice>* deviceDisconnected;
+  static __declspec(property(get = getStaticF_deviceDisconnected, put = setStaticF_deviceDisconnected)) ::System::Action_1<::UnityEngine::XR::InputDevice>* deviceDisconnected;
 
-  /// @brief Method GetDeviceAtXRNode, addr 0x36498b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceAtXRNode, addr 0x4a6fff0, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::InputDevice GetDeviceAtXRNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetDeviceManufacturer, addr 0x364927c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceManufacturer, addr 0x4a6f9c0, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetDeviceManufacturer(uint64_t deviceId);
 
-  /// @brief Method InvokeConnectionEvent, addr 0x3649930, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InvokeConnectionEvent, addr 0x4a70034, size 0xbc, virtual false, abstract: false, final false
   static inline void InvokeConnectionEvent(uint64_t deviceId, ::UnityEngine::XR::ConnectionChangeType change);
 
-  /// @brief Method IsDeviceValid, addr 0x36491e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsDeviceValid, addr 0x4a6f928, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsDeviceValid(uint64_t deviceId);
 
-  /// @brief Method SendHapticImpulse, addr 0x36493b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendHapticImpulse, addr 0x4a6faf4, size 0x5c, virtual false, abstract: false, final false
   static inline bool SendHapticImpulse(uint64_t deviceId, uint32_t channel, float_t amplitude, float_t duration);
 
-  /// @brief Method StopHaptics, addr 0x364946c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method StopHaptics, addr 0x4a6fba8, size 0x3c, virtual false, abstract: false, final false
   static inline void StopHaptics(uint64_t deviceId);
 
   static inline ::System::Action_1<::UnityEngine::XR::InputDevice>* getStaticF_deviceConfigChanged();
@@ -86,6 +86,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InputDevices", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InputDevices(InputDevices const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18186 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

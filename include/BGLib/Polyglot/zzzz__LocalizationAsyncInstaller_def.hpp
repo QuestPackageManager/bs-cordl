@@ -45,7 +45,7 @@ class __LocalizationAsyncInstaller____c;
 MARK_REF_PTR_T(::BGLib::Polyglot::LocalizationAsyncInstaller);
 MARK_REF_PTR_T(::BGLib::Polyglot::__LocalizationAsyncInstaller____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
 // CS Name: ::LocalizationAsyncInstaller::<>c*
@@ -53,17 +53,17 @@ class CORDL_TYPE __LocalizationAsyncInstaller____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::BGLib::Polyglot::__LocalizationAsyncInstaller____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::BGLib::Polyglot::__LocalizationAsyncInstaller____c* __9;
 
   /// @brief Field <>9__6_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0))::System::Func_2<::UnityW<::UnityEngine::TextAsset>, ::BGLib::Polyglot::LocalizationAsset*>* __9__6_0;
+  static __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0)) ::System::Func_2<::UnityW<::UnityEngine::TextAsset>, ::BGLib::Polyglot::LocalizationAsset*>* __9__6_0;
 
   static inline ::BGLib::Polyglot::__LocalizationAsyncInstaller____c* New_ctor();
 
-  /// @brief Method <LocalizationContentToAsset>b__6_0, addr 0x1090270, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <LocalizationContentToAsset>b__6_0, addr 0x226f53c, size 0x60, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::LocalizationAsset* _LocalizationContentToAsset_b__6_0(::UnityEngine::TextAsset* localizationTextAsset);
 
-  /// @brief Method .ctor, addr 0x1090268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226f534, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::Polyglot::__LocalizationAsyncInstaller____c* getStaticF___9();
@@ -88,6 +88,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __LocalizationAsyncInstaller____c(__LocalizationAsyncInstaller____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17989 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -95,7 +98,7 @@ static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::__LocalizationA
 
 } // namespace BGLib::Polyglot
 // Type: BGLib.Polyglot::LocalizationAsyncInstaller
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
 // CS Name: ::BGLib.Polyglot::LocalizationAsyncInstaller*
@@ -104,25 +107,25 @@ public:
   // Declarations
   using __c = ::BGLib::Polyglot::__LocalizationAsyncInstaller____c;
 
-  /// @brief Field _inputFiles, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__inputFiles, put = __cordl_internal_set__inputFiles))::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* _inputFiles;
+  /// @brief Field _inputFiles, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__inputFiles, put = __cordl_internal_set__inputFiles)) ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* _inputFiles;
 
-  /// @brief Field _mainPolyglotAsset, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainPolyglotAsset, put = __cordl_internal_set__mainPolyglotAsset))::UnityW<::BGLib::Polyglot::Localization> _mainPolyglotAsset;
+  /// @brief Field _mainPolyglotAsset, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainPolyglotAsset, put = __cordl_internal_set__mainPolyglotAsset)) ::UnityW<::BGLib::Polyglot::Localization> _mainPolyglotAsset;
 
-  __declspec(property(get = get_assetLabelRuntimeKey))::StringW assetLabelRuntimeKey;
+  __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x1090010, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x226f2e8, size 0x14c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadLocalizationAssetsSync, addr 0x1090160, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LoadLocalizationAssetsSync, addr 0x226f434, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* LoadLocalizationAssetsSync();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x108fee0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x226f1b8, size 0x1c, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>* assets,
                                          ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
 
-  /// @brief Method LocalizationContentToAsset, addr 0x108fefc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method LocalizationContentToAsset, addr 0x226f1d4, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*
   LocalizationContentToAsset(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>* content);
 
@@ -140,10 +143,10 @@ public:
 
   constexpr void __cordl_internal_set__mainPolyglotAsset(::UnityW<::BGLib::Polyglot::Localization> value);
 
-  /// @brief Method .ctor, addr 0x10901bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226f490, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x108fea0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x226f178, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -160,11 +163,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalizationAsyncInstaller(LocalizationAsyncInstaller const&) = delete;
 
-  /// @brief Field _mainPolyglotAsset, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _mainPolyglotAsset, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::BGLib::Polyglot::Localization> ____mainPolyglotAsset;
 
-  /// @brief Field _inputFiles, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _inputFiles, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* ____inputFiles;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17990 };
 
   /// @brief Field kLocalizationContentLabel offset 0xffffffff size 0x8
   static constexpr ::ConstString kLocalizationContentLabel{ u"LocalizationContent" };
@@ -172,11 +178,11 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizationAsyncInstaller, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizationAsyncInstaller, 0x58>, "Size mismatch!");
 
-static_assert(offsetof(::BGLib::Polyglot::LocalizationAsyncInstaller, ____mainPolyglotAsset) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::BGLib::Polyglot::LocalizationAsyncInstaller, ____mainPolyglotAsset) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::Polyglot::LocalizationAsyncInstaller, ____inputFiles) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::BGLib::Polyglot::LocalizationAsyncInstaller, ____inputFiles) == 0x50, "Offset mismatch!");
 
 } // namespace BGLib::Polyglot
 NEED_NO_BOX(::BGLib::Polyglot::LocalizationAsyncInstaller);

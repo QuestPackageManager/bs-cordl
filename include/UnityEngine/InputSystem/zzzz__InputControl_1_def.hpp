@@ -25,7 +25,7 @@ template <typename TValue> class InputControl_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::InputControl_1);
 // Type: UnityEngine.InputSystem::InputControl`1
-// SizeInfo { instance_size: 272, native_size: 265, calculated_instance_size: 272, calculated_native_size: 265, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 272, native_size: 265, calculated_instance_size: 272, calculated_native_size: 265, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
@@ -42,12 +42,13 @@ public:
 
   /// @brief Field m_ProcessorStack, offset 0xe0, size 0x18
   __declspec(property(get = __cordl_internal_get_m_ProcessorStack,
-                      put = __cordl_internal_set_m_ProcessorStack))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*> m_ProcessorStack;
+                      put = __cordl_internal_set_m_ProcessorStack)) ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*>
+      m_ProcessorStack;
 
   /// @brief Field m_UnprocessedCachedValue, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get_m_UnprocessedCachedValue, put = __cordl_internal_set_m_UnprocessedCachedValue)) TValue m_UnprocessedCachedValue;
 
-  __declspec(property(get = get_processors))::ArrayW<::UnityEngine::InputSystem::InputProcessor_1<TValue>*, ::Array<::UnityEngine::InputSystem::InputProcessor_1<TValue>*>*> processors;
+  __declspec(property(get = get_processors)) ::ArrayW<::UnityEngine::InputSystem::InputProcessor_1<TValue>*, ::Array<::UnityEngine::InputSystem::InputProcessor_1<TValue>*>*> processors;
 
   __declspec(property(get = get_unprocessedValue)) TValue unprocessedValue;
 
@@ -55,7 +56,7 @@ public:
 
   __declspec(property(get = get_valueSizeInBytes)) int32_t valueSizeInBytes;
 
-  __declspec(property(get = get_valueType))::System::Type* valueType;
+  __declspec(property(get = get_valueType)) ::System::Type* valueType;
 
   /// @brief Method AddProcessor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AddProcessor(::System::Object* processor);
@@ -189,6 +190,9 @@ public:
 
   /// @brief Field evaluateProcessorsEveryRead, offset: 0x108, size: 0x1, def value: None
   bool ___evaluateProcessorsEveryRead;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6587 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

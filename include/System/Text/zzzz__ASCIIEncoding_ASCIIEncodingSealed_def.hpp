@@ -12,7 +12,7 @@ class __ASCIIEncoding__ASCIIEncodingSealed;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::__ASCIIEncoding__ASCIIEncodingSealed);
 // Type: ::ASCIIEncodingSealed
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
 // CS Name: ::ASCIIEncoding::ASCIIEncodingSealed*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Text::__ASCIIEncoding__ASCIIEncodingSealed* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29e99c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df8128, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "__ASCIIEncoding__ASCIIEncodingSealed", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   __ASCIIEncoding__ASCIIEncodingSealed(__ASCIIEncoding__ASCIIEncodingSealed const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2828 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

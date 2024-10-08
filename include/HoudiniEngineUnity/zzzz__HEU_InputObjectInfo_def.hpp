@@ -32,7 +32,7 @@ class HEU_InputObjectInfo;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputObjectInfo);
 // Type: HoudiniEngineUnity::HEU_InputObjectInfo
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_InputObjectInfo*
@@ -40,32 +40,32 @@ class CORDL_TYPE HEU_InputObjectInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _boundingVolumeReference, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__boundingVolumeReference,
-                      put = __cordl_internal_set__boundingVolumeReference))::UnityW<::GlobalNamespace::HEU_BoundingVolume> _boundingVolumeReference;
+  __declspec(property(get = __cordl_internal_get__boundingVolumeReference, put = __cordl_internal_set__boundingVolumeReference)) ::UnityW<::GlobalNamespace::HEU_BoundingVolume>
+      _boundingVolumeReference;
 
   /// @brief Field _gameObject, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameObject, put = __cordl_internal_set__gameObject))::UnityW<::UnityEngine::GameObject> _gameObject;
+  __declspec(property(get = __cordl_internal_get__gameObject, put = __cordl_internal_set__gameObject)) ::UnityW<::UnityEngine::GameObject> _gameObject;
 
   /// @brief Field _inputInterfaceType, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__inputInterfaceType, put = __cordl_internal_set__inputInterfaceType))::System::Type* _inputInterfaceType;
+  __declspec(property(get = __cordl_internal_get__inputInterfaceType, put = __cordl_internal_set__inputInterfaceType)) ::System::Type* _inputInterfaceType;
 
   /// @brief Field _rotateOffset, offset 0x80, size 0xc
-  __declspec(property(get = __cordl_internal_get__rotateOffset, put = __cordl_internal_set__rotateOffset))::UnityEngine::Vector3 _rotateOffset;
+  __declspec(property(get = __cordl_internal_get__rotateOffset, put = __cordl_internal_set__rotateOffset)) ::UnityEngine::Vector3 _rotateOffset;
 
   /// @brief Field _scaleOffset, offset 0x8c, size 0xc
-  __declspec(property(get = __cordl_internal_get__scaleOffset, put = __cordl_internal_set__scaleOffset))::UnityEngine::Vector3 _scaleOffset;
+  __declspec(property(get = __cordl_internal_get__scaleOffset, put = __cordl_internal_set__scaleOffset)) ::UnityEngine::Vector3 _scaleOffset;
 
   /// @brief Field _syncdTransform, offset 0x30, size 0x40
-  __declspec(property(get = __cordl_internal_get__syncdTransform, put = __cordl_internal_set__syncdTransform))::UnityEngine::Matrix4x4 _syncdTransform;
+  __declspec(property(get = __cordl_internal_get__syncdTransform, put = __cordl_internal_set__syncdTransform)) ::UnityEngine::Matrix4x4 _syncdTransform;
 
   /// @brief Field _terrainReference, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__terrainReference, put = __cordl_internal_set__terrainReference))::UnityW<::UnityEngine::Terrain> _terrainReference;
+  __declspec(property(get = __cordl_internal_get__terrainReference, put = __cordl_internal_set__terrainReference)) ::UnityW<::UnityEngine::Terrain> _terrainReference;
 
   /// @brief Field _tilemapReference, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__tilemapReference, put = __cordl_internal_set__tilemapReference))::UnityW<::UnityEngine::Tilemaps::Tilemap> _tilemapReference;
+  __declspec(property(get = __cordl_internal_get__tilemapReference, put = __cordl_internal_set__tilemapReference)) ::UnityW<::UnityEngine::Tilemaps::Tilemap> _tilemapReference;
 
   /// @brief Field _translateOffset, offset 0x74, size 0xc
-  __declspec(property(get = __cordl_internal_get__translateOffset, put = __cordl_internal_set__translateOffset))::UnityEngine::Vector3 _translateOffset;
+  __declspec(property(get = __cordl_internal_get__translateOffset, put = __cordl_internal_set__translateOffset)) ::UnityEngine::Vector3 _translateOffset;
 
   /// @brief Field _useTransformOffset, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get__useTransformOffset, put = __cordl_internal_set__useTransformOffset)) bool _useTransformOffset;
@@ -73,15 +73,15 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x257fdb0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x39bca48, size 0x84, virtual false, abstract: false, final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InputObjectInfo* destObject);
 
-  /// @brief Method IsEquivalentTo, addr 0x25820d0, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x39bed40, size 0x28c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputObjectInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_InputObjectInfo* New_ctor();
 
-  /// @brief Method SetReferencesFromGameObject, addr 0x2580098, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetReferencesFromGameObject, addr 0x39bcd50, size 0xec, virtual false, abstract: false, final false
   inline void SetReferencesFromGameObject();
 
   constexpr ::UnityW<::GlobalNamespace::HEU_BoundingVolume> const& __cordl_internal_get__boundingVolumeReference() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set__useTransformOffset(bool value);
 
-  /// @brief Method .ctor, addr 0x257fcc8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bc960, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>"
@@ -193,6 +193,9 @@ public:
 
   /// @brief Field _inputInterfaceType, offset: 0x98, size: 0x8, def value: None
   ::System::Type* ____inputInterfaceType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11590 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

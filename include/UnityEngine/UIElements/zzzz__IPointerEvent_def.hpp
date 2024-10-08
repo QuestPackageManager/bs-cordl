@@ -11,6 +11,9 @@ namespace UnityEngine {
 struct EventModifiers;
 }
 namespace UnityEngine {
+struct PenStatus;
+}
+namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
@@ -23,7 +26,7 @@ class IPointerEvent;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IPointerEvent);
 // Type: UnityEngine.UIElements::IPointerEvent
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::IPointerEvent*
@@ -46,33 +49,37 @@ public:
 
   __declspec(property(get = get_ctrlKey)) bool ctrlKey;
 
-  __declspec(property(get = get_deltaPosition))::UnityEngine::Vector3 deltaPosition;
+  __declspec(property(get = get_deltaPosition)) ::UnityEngine::Vector3 deltaPosition;
 
   __declspec(property(get = get_deltaTime)) float_t deltaTime;
 
   __declspec(property(get = get_isPrimary)) bool isPrimary;
 
-  __declspec(property(get = get_localPosition))::UnityEngine::Vector3 localPosition;
+  __declspec(property(get = get_localPosition)) ::UnityEngine::Vector3 localPosition;
 
-  __declspec(property(get = get_modifiers))::UnityEngine::EventModifiers modifiers;
+  __declspec(property(get = get_modifiers)) ::UnityEngine::EventModifiers modifiers;
+
+  __declspec(property(get = get_penStatus)) ::UnityEngine::PenStatus penStatus;
 
   __declspec(property(get = get_pointerId)) int32_t pointerId;
 
-  __declspec(property(get = get_pointerType))::StringW pointerType;
+  __declspec(property(get = get_pointerType)) ::StringW pointerType;
 
-  __declspec(property(get = get_position))::UnityEngine::Vector3 position;
+  __declspec(property(get = get_position)) ::UnityEngine::Vector3 position;
 
   __declspec(property(get = get_pressedButtons)) int32_t pressedButtons;
 
   __declspec(property(get = get_pressure)) float_t pressure;
 
-  __declspec(property(get = get_radius))::UnityEngine::Vector2 radius;
+  __declspec(property(get = get_radius)) ::UnityEngine::Vector2 radius;
 
-  __declspec(property(get = get_radiusVariance))::UnityEngine::Vector2 radiusVariance;
+  __declspec(property(get = get_radiusVariance)) ::UnityEngine::Vector2 radiusVariance;
 
   __declspec(property(get = get_shiftKey)) bool shiftKey;
 
   __declspec(property(get = get_tangentialPressure)) float_t tangentialPressure;
+
+  __declspec(property(get = get_tilt)) ::UnityEngine::Vector2 tilt;
 
   __declspec(property(get = get_twist)) float_t twist;
 
@@ -115,6 +122,9 @@ public:
   /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::EventModifiers get_modifiers();
 
+  /// @brief Method get_penStatus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::PenStatus get_penStatus();
+
   /// @brief Method get_pointerId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_pointerId();
 
@@ -142,6 +152,9 @@ public:
   /// @brief Method get_tangentialPressure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_tangentialPressure();
 
+  /// @brief Method get_tilt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::Vector2 get_tilt();
+
   /// @brief Method get_twist, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_twist();
 
@@ -152,6 +165,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IPointerEvent", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IPointerEvent(IPointerEvent const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5872 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

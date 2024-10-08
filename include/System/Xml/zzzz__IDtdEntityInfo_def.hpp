@@ -13,16 +13,16 @@ class IDtdEntityInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::IDtdEntityInfo);
 // Type: System.Xml::IDtdEntityInfo
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::IDtdEntityInfo*
 class CORDL_TYPE IDtdEntityInfo {
 public:
   // Declarations
-  __declspec(property(get = get_BaseUriString))::StringW BaseUriString;
+  __declspec(property(get = get_BaseUriString)) ::StringW BaseUriString;
 
-  __declspec(property(get = get_DeclaredUriString))::StringW DeclaredUriString;
+  __declspec(property(get = get_DeclaredUriString)) ::StringW DeclaredUriString;
 
   __declspec(property(get = get_IsDeclaredInExternal)) bool IsDeclaredInExternal;
 
@@ -36,13 +36,13 @@ public:
 
   __declspec(property(get = get_LinePosition)) int32_t LinePosition;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_PublicId))::StringW PublicId;
+  __declspec(property(get = get_PublicId)) ::StringW PublicId;
 
-  __declspec(property(get = get_SystemId))::StringW SystemId;
+  __declspec(property(get = get_SystemId)) ::StringW SystemId;
 
-  __declspec(property(get = get_Text))::StringW Text;
+  __declspec(property(get = get_Text)) ::StringW Text;
 
   /// @brief Method get_BaseUriString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_BaseUriString();
@@ -87,6 +87,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IDtdEntityInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IDtdEntityInfo(IDtdEntityInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

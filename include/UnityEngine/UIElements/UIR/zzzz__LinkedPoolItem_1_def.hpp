@@ -12,7 +12,7 @@ template <typename T> class LinkedPoolItem_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UIR::LinkedPoolItem_1);
 // Type: UnityEngine.UIElements.UIR::LinkedPoolItem`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
@@ -51,6 +51,9 @@ public:
 
   /// @brief Field poolNext, offset: 0x10, size: 0x8, def value: None
   T ___poolNext;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6334 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

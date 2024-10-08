@@ -17,7 +17,7 @@ class BeatmapInfo;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapInfo);
 // Type: ::BeatmapInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapInfo*
@@ -25,15 +25,15 @@ class CORDL_TYPE BeatmapInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <characteristic>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__characteristic_k__BackingField, put = __cordl_internal_set__characteristic_k__BackingField))::StringW _characteristic_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__characteristic_k__BackingField, put = __cordl_internal_set__characteristic_k__BackingField)) ::StringW _characteristic_k__BackingField;
 
   /// @brief Field <difficulties>k__BackingField, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__difficulties_k__BackingField,
-                      put = __cordl_internal_set__difficulties_k__BackingField))::GlobalNamespace::BeatmapDifficultyMask _difficulties_k__BackingField;
+                      put = __cordl_internal_set__difficulties_k__BackingField)) ::GlobalNamespace::BeatmapDifficultyMask _difficulties_k__BackingField;
 
-  __declspec(property(get = get_characteristic, put = set_characteristic))::StringW characteristic;
+  __declspec(property(get = get_characteristic, put = set_characteristic)) ::StringW characteristic;
 
-  __declspec(property(get = get_difficulties, put = set_difficulties))::GlobalNamespace::BeatmapDifficultyMask difficulties;
+  __declspec(property(get = get_difficulties, put = set_difficulties)) ::GlobalNamespace::BeatmapDifficultyMask difficulties;
 
   static inline ::GlobalNamespace::BeatmapInfo* New_ctor();
 
@@ -49,19 +49,19 @@ public:
 
   constexpr void __cordl_internal_set__difficulties_k__BackingField(::GlobalNamespace::BeatmapDifficultyMask value);
 
-  /// @brief Method .ctor, addr 0x10be170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229c9e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_characteristic, addr 0x10be150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characteristic, addr 0x229c9c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_characteristic();
 
-  /// @brief Method get_difficulties, addr 0x10be160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficulties, addr 0x229c9d4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficultyMask get_difficulties();
 
-  /// @brief Method set_characteristic, addr 0x10be158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_characteristic, addr 0x229c9cc, size 0x8, virtual false, abstract: false, final false
   inline void set_characteristic(::StringW value);
 
-  /// @brief Method set_difficulties, addr 0x10be168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_difficulties, addr 0x229c9dc, size 0x8, virtual false, abstract: false, final false
   inline void set_difficulties(::GlobalNamespace::BeatmapDifficultyMask value);
 
 protected:
@@ -83,6 +83,9 @@ public:
 
   /// @brief Field <difficulties>k__BackingField, offset: 0x18, size: 0x1, def value: None
   ::GlobalNamespace::BeatmapDifficultyMask ____difficulties_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14849 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

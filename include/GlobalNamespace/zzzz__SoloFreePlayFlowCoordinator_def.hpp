@@ -60,7 +60,7 @@ class __SoloFreePlayFlowCoordinator____c__DisplayClass21_0;
 MARK_REF_PTR_T(::GlobalNamespace::SoloFreePlayFlowCoordinator);
 MARK_REF_PTR_T(::GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0);
 // Type: ::<>c__DisplayClass21_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SoloFreePlayFlowCoordinator::<>c__DisplayClass21_0*
@@ -68,14 +68,14 @@ class CORDL_TYPE __SoloFreePlayFlowCoordinator____c__DisplayClass21_0 : public :
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> __4__this;
 
   /// @brief Field resultsViewController, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_resultsViewController, put = __cordl_internal_set_resultsViewController))::UnityW<::GlobalNamespace::ResultsViewController> resultsViewController;
+  __declspec(property(get = __cordl_internal_get_resultsViewController, put = __cordl_internal_set_resultsViewController)) ::UnityW<::GlobalNamespace::ResultsViewController> resultsViewController;
 
   static inline ::GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method <HandleResultsViewControllerRestartButtonPressed>b__0, addr 0x2789810, size 0x1050, virtual false, abstract: false, final false
+  /// @brief Method <HandleResultsViewControllerRestartButtonPressed>b__0, addr 0x3adf49c, size 0x54, virtual false, abstract: false, final false
   inline void _HandleResultsViewControllerRestartButtonPressed_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::SoloFreePlayFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_resultsViewController(::UnityW<::GlobalNamespace::ResultsViewController> value);
 
-  /// @brief Method .ctor, addr 0x2789800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3adf494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,6 +113,9 @@ public:
   /// @brief Field resultsViewController, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ResultsViewController> ___resultsViewController;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5279 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -124,7 +127,7 @@ static_assert(offsetof(::GlobalNamespace::__SoloFreePlayFlowCoordinator____c__Di
 
 } // namespace GlobalNamespace
 // Type: ::SoloFreePlayFlowCoordinator
-// SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 344, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SoloFreePlayFlowCoordinator*
@@ -133,65 +136,66 @@ public:
   // Declarations
   using __c__DisplayClass21_0 = ::GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0;
 
-  /// @brief Field _defaultLightsPreset, offset 0x118, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultLightsPreset, put = __cordl_internal_set__defaultLightsPreset))::UnityW<::GlobalNamespace::MenuLightsPresetSO> _defaultLightsPreset;
+  /// @brief Field _defaultLightsPreset, offset 0x120, size 0x8
+  __declspec(property(get = __cordl_internal_get__defaultLightsPreset, put = __cordl_internal_set__defaultLightsPreset)) ::UnityW<::GlobalNamespace::MenuLightsPresetSO> _defaultLightsPreset;
 
-  /// @brief Field _menuLightsManager, offset 0x130, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuLightsManager, put = __cordl_internal_set__menuLightsManager))::UnityW<::GlobalNamespace::MenuLightsManager> _menuLightsManager;
+  /// @brief Field _menuLightsManager, offset 0x138, size 0x8
+  __declspec(property(get = __cordl_internal_get__menuLightsManager, put = __cordl_internal_set__menuLightsManager)) ::UnityW<::GlobalNamespace::MenuLightsManager> _menuLightsManager;
 
-  /// @brief Field _platformLeaderboardViewController, offset 0x140, size 0x8
+  /// @brief Field _platformLeaderboardViewController, offset 0x148, size 0x8
   __declspec(property(get = __cordl_internal_get__platformLeaderboardViewController,
-                      put = __cordl_internal_set__platformLeaderboardViewController))::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> _platformLeaderboardViewController;
+                      put = __cordl_internal_set__platformLeaderboardViewController)) ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController>
+      _platformLeaderboardViewController;
 
-  /// @brief Field _platformLeaderboardsModel, offset 0x148, size 0x8
-  __declspec(property(get = __cordl_internal_get__platformLeaderboardsModel,
-                      put = __cordl_internal_set__platformLeaderboardsModel))::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> _platformLeaderboardsModel;
+  /// @brief Field _platformLeaderboardsModel, offset 0x150, size 0x8
+  __declspec(property(get = __cordl_internal_get__platformLeaderboardsModel, put = __cordl_internal_set__platformLeaderboardsModel)) ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel>
+      _platformLeaderboardsModel;
 
-  /// @brief Field _resultsClearedLightsPreset, offset 0x120, size 0x8
-  __declspec(property(get = __cordl_internal_get__resultsClearedLightsPreset,
-                      put = __cordl_internal_set__resultsClearedLightsPreset))::UnityW<::GlobalNamespace::MenuLightsPresetSO> _resultsClearedLightsPreset;
+  /// @brief Field _resultsClearedLightsPreset, offset 0x128, size 0x8
+  __declspec(property(get = __cordl_internal_get__resultsClearedLightsPreset, put = __cordl_internal_set__resultsClearedLightsPreset)) ::UnityW<::GlobalNamespace::MenuLightsPresetSO>
+      _resultsClearedLightsPreset;
 
-  /// @brief Field _resultsFailedLightsPreset, offset 0x128, size 0x8
-  __declspec(property(get = __cordl_internal_get__resultsFailedLightsPreset,
-                      put = __cordl_internal_set__resultsFailedLightsPreset))::UnityW<::GlobalNamespace::MenuLightsPresetSO> _resultsFailedLightsPreset;
+  /// @brief Field _resultsFailedLightsPreset, offset 0x130, size 0x8
+  __declspec(property(get = __cordl_internal_get__resultsFailedLightsPreset, put = __cordl_internal_set__resultsFailedLightsPreset)) ::UnityW<::GlobalNamespace::MenuLightsPresetSO>
+      _resultsFailedLightsPreset;
 
-  /// @brief Field _resultsViewController, offset 0x138, size 0x8
-  __declspec(property(get = __cordl_internal_get__resultsViewController, put = __cordl_internal_set__resultsViewController))::UnityW<::GlobalNamespace::ResultsViewController> _resultsViewController;
+  /// @brief Field _resultsViewController, offset 0x140, size 0x8
+  __declspec(property(get = __cordl_internal_get__resultsViewController, put = __cordl_internal_set__resultsViewController)) ::UnityW<::GlobalNamespace::ResultsViewController> _resultsViewController;
 
-  __declspec(property(get = get_gameMode))::StringW gameMode;
+  __declspec(property(get = get_gameMode)) ::StringW gameMode;
 
-  __declspec(property(get = get_leaderboardViewController))::UnityW<::GlobalNamespace::LeaderboardViewController> leaderboardViewController;
+  __declspec(property(get = get_leaderboardViewController)) ::UnityW<::GlobalNamespace::LeaderboardViewController> leaderboardViewController;
 
-  __declspec(property(get = get_mainTitle))::StringW mainTitle;
+  __declspec(property(get = get_mainTitle)) ::StringW mainTitle;
 
   __declspec(property(get = get_showBackButtonForMainViewController)) bool showBackButtonForMainViewController;
 
-  /// @brief Method HandleResultsViewControllerContinueButtonPressed, addr 0x27896fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleResultsViewControllerContinueButtonPressed, addr 0x3adf388, size 0x40, virtual false, abstract: false, final false
   inline void HandleResultsViewControllerContinueButtonPressed(::GlobalNamespace::ResultsViewController* viewController);
 
-  /// @brief Method HandleResultsViewControllerRestartButtonPressed, addr 0x2789738, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HandleResultsViewControllerRestartButtonPressed, addr 0x3adf3c8, size 0xc4, virtual false, abstract: false, final false
   inline void HandleResultsViewControllerRestartButtonPressed(::GlobalNamespace::ResultsViewController* resultsViewController);
 
-  /// @brief Method IsNewHighScore, addr 0x278968c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsNewHighScore, addr 0x3adf318, size 0x28, virtual false, abstract: false, final false
   inline bool IsNewHighScore(::GlobalNamespace::PlayerLevelStatsData* playerLevelStats, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::SoloFreePlayFlowCoordinator* New_ctor();
 
-  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish, addr 0x2789484, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish, addr 0x3adf118, size 0x200, virtual true, abstract: false, final false
   inline void ProcessLevelCompletionResultsAfterLevelDidFinish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                                                ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* modifiers,
                                                                bool practice);
 
-  /// @brief Method Refresh, addr 0x27896b4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3adf340, size 0x48, virtual true, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate, addr 0x27891c4, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate, addr 0x3adee64, size 0x188, virtual true, abstract: false, final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate, addr 0x2789350, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate, addr 0x3adefec, size 0x12c, virtual true, abstract: false, final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
 
-  /// @brief Method __SetupFromDestination, addr 0x2779954, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method __SetupFromDestination, addr 0x3ad0dd0, size 0x154, virtual false, abstract: false, final false
   inline void __SetupFromDestination(::GlobalNamespace::RunLevelMenuDestination* runLevelMenuDestination);
 
   constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__defaultLightsPreset() const;
@@ -236,19 +240,19 @@ public:
 
   constexpr void __cordl_internal_set__resultsViewController(::UnityW<::GlobalNamespace::ResultsViewController> value);
 
-  /// @brief Method .ctor, addr 0x2789808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3adf48c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameMode, addr 0x2789130, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_gameMode, addr 0x3adedd0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_gameMode();
 
-  /// @brief Method get_leaderboardViewController, addr 0x2789170, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_leaderboardViewController, addr 0x3adee10, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LeaderboardViewController> get_leaderboardViewController();
 
-  /// @brief Method get_mainTitle, addr 0x2789180, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_mainTitle, addr 0x3adee20, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_mainTitle();
 
-  /// @brief Method get_showBackButtonForMainViewController, addr 0x2789178, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_showBackButtonForMainViewController, addr 0x3adee18, size 0x8, virtual true, abstract: false, final false
   inline bool get_showBackButtonForMainViewController();
 
 protected:
@@ -265,45 +269,48 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SoloFreePlayFlowCoordinator(SoloFreePlayFlowCoordinator const&) = delete;
 
-  /// @brief Field _defaultLightsPreset, offset: 0x118, size: 0x8, def value: None
+  /// @brief Field _defaultLightsPreset, offset: 0x120, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____defaultLightsPreset;
 
-  /// @brief Field _resultsClearedLightsPreset, offset: 0x120, size: 0x8, def value: None
+  /// @brief Field _resultsClearedLightsPreset, offset: 0x128, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____resultsClearedLightsPreset;
 
-  /// @brief Field _resultsFailedLightsPreset, offset: 0x128, size: 0x8, def value: None
+  /// @brief Field _resultsFailedLightsPreset, offset: 0x130, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____resultsFailedLightsPreset;
 
-  /// @brief Field _menuLightsManager, offset: 0x130, size: 0x8, def value: None
+  /// @brief Field _menuLightsManager, offset: 0x138, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsManager> ____menuLightsManager;
 
-  /// @brief Field _resultsViewController, offset: 0x138, size: 0x8, def value: None
+  /// @brief Field _resultsViewController, offset: 0x140, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ResultsViewController> ____resultsViewController;
 
-  /// @brief Field _platformLeaderboardViewController, offset: 0x140, size: 0x8, def value: None
+  /// @brief Field _platformLeaderboardViewController, offset: 0x148, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> ____platformLeaderboardViewController;
 
-  /// @brief Field _platformLeaderboardsModel, offset: 0x148, size: 0x8, def value: None
+  /// @brief Field _platformLeaderboardsModel, offset: 0x150, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> ____platformLeaderboardsModel;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5280 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SoloFreePlayFlowCoordinator, 0x150>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SoloFreePlayFlowCoordinator, 0x158>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator, ____defaultLightsPreset) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator, ____defaultLightsPreset) == 0x120, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator, ____resultsClearedLightsPreset) == 0x120, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator, ____resultsClearedLightsPreset) == 0x128, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator, ____resultsFailedLightsPreset) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator, ____resultsFailedLightsPreset) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator, ____menuLightsManager) == 0x130, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator, ____menuLightsManager) == 0x138, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator, ____resultsViewController) == 0x138, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator, ____resultsViewController) == 0x140, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator, ____platformLeaderboardViewController) == 0x140, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator, ____platformLeaderboardViewController) == 0x148, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator, ____platformLeaderboardsModel) == 0x148, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloFreePlayFlowCoordinator, ____platformLeaderboardsModel) == 0x150, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SoloFreePlayFlowCoordinator);

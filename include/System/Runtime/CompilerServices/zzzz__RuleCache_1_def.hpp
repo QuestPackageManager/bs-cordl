@@ -17,7 +17,7 @@ template <typename T> class RuleCache_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::RuleCache_1);
 // Type: System.Runtime.CompilerServices::RuleCache`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
@@ -27,10 +27,10 @@ class CORDL_TYPE RuleCache_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _cacheLock, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__cacheLock, put = __cordl_internal_set__cacheLock))::System::Object* _cacheLock;
+  __declspec(property(get = __cordl_internal_get__cacheLock, put = __cordl_internal_set__cacheLock)) ::System::Object* _cacheLock;
 
   /// @brief Field _rules, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__rules, put = __cordl_internal_set__rules))::ArrayW<T, ::Array<T>*> _rules;
+  __declspec(property(get = __cordl_internal_get__rules, put = __cordl_internal_set__rules)) ::ArrayW<T, ::Array<T>*> _rules;
 
   /// @brief Method AddOrInsert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::ArrayW<T, ::Array<T>*> AddOrInsert(::ArrayW<T, ::Array<T>*> rules, T item);
@@ -80,6 +80,9 @@ public:
 
   /// @brief Field _cacheLock, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____cacheLock;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14095 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,7 +22,7 @@ class Party;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::Party);
 // Type: Oculus.Platform.Models::Party
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::Party*
@@ -30,22 +30,22 @@ class CORDL_TYPE Party : public ::System::Object {
 public:
   // Declarations
   /// @brief Field InvitedUsers, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_InvitedUsers, put = __cordl_internal_set_InvitedUsers))::Oculus::Platform::Models::UserList* InvitedUsers;
+  __declspec(property(get = __cordl_internal_get_InvitedUsers, put = __cordl_internal_set_InvitedUsers)) ::Oculus::Platform::Models::UserList* InvitedUsers;
 
   /// @brief Field InvitedUsersOptional, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_InvitedUsersOptional, put = __cordl_internal_set_InvitedUsersOptional))::Oculus::Platform::Models::UserList* InvitedUsersOptional;
+  __declspec(property(get = __cordl_internal_get_InvitedUsersOptional, put = __cordl_internal_set_InvitedUsersOptional)) ::Oculus::Platform::Models::UserList* InvitedUsersOptional;
 
   /// @brief Field Leader, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_Leader, put = __cordl_internal_set_Leader))::Oculus::Platform::Models::User* Leader;
+  __declspec(property(get = __cordl_internal_get_Leader, put = __cordl_internal_set_Leader)) ::Oculus::Platform::Models::User* Leader;
 
   /// @brief Field LeaderOptional, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_LeaderOptional, put = __cordl_internal_set_LeaderOptional))::Oculus::Platform::Models::User* LeaderOptional;
+  __declspec(property(get = __cordl_internal_get_LeaderOptional, put = __cordl_internal_set_LeaderOptional)) ::Oculus::Platform::Models::User* LeaderOptional;
 
   /// @brief Field Users, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_Users, put = __cordl_internal_set_Users))::Oculus::Platform::Models::UserList* Users;
+  __declspec(property(get = __cordl_internal_get_Users, put = __cordl_internal_set_Users)) ::Oculus::Platform::Models::UserList* Users;
 
   /// @brief Field UsersOptional, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_UsersOptional, put = __cordl_internal_set_UsersOptional))::Oculus::Platform::Models::UserList* UsersOptional;
+  __declspec(property(get = __cordl_internal_get_UsersOptional, put = __cordl_internal_set_UsersOptional)) ::Oculus::Platform::Models::UserList* UsersOptional;
 
   /// @brief Field ID, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2b11f90, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1ce94, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -131,6 +131,9 @@ public:
 
   /// @brief Field Users, offset: 0x40, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___Users;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15505 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

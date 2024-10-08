@@ -25,25 +25,25 @@ class SinkProviderData;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::SinkProviderData);
 // Type: System.Runtime.Remoting.Channels::SinkProviderData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Channels::SinkProviderData*
 class CORDL_TYPE SinkProviderData : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Children))::System::Collections::IList* Children;
+  __declspec(property(get = get_Children)) ::System::Collections::IList* Children;
 
-  __declspec(property(get = get_Properties))::System::Collections::IDictionary* Properties;
+  __declspec(property(get = get_Properties)) ::System::Collections::IDictionary* Properties;
 
   /// @brief Field children, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_children, put = __cordl_internal_set_children))::System::Collections::ArrayList* children;
+  __declspec(property(get = __cordl_internal_get_children, put = __cordl_internal_set_children)) ::System::Collections::ArrayList* children;
 
   /// @brief Field properties, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_properties, put = __cordl_internal_set_properties))::System::Collections::Hashtable* properties;
+  __declspec(property(get = __cordl_internal_get_properties, put = __cordl_internal_set_properties)) ::System::Collections::Hashtable* properties;
 
   /// @brief Field sinkName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_sinkName, put = __cordl_internal_set_sinkName))::StringW sinkName;
+  __declspec(property(get = __cordl_internal_get_sinkName, put = __cordl_internal_set_sinkName)) ::StringW sinkName;
 
   static inline ::System::Runtime::Remoting::Channels::SinkProviderData* New_ctor(::StringW name);
 
@@ -65,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set_sinkName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x285161c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c6e224, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Children, addr 0x28516c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Children, addr 0x3c6e2c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_Children();
 
-  /// @brief Method get_Properties, addr 0x28516d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x3c6e2cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
 protected:
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field properties, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___properties;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3127 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

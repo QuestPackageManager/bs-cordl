@@ -13,9 +13,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__Test_LODGroup_Extensions____c::*)()>(
     &::HoudiniEngineUnity::__Test_LODGroup_Extensions____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f488c;
+  constexpr static std::size_t addrs = 0x3a2e63c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_LODGroup_Extensions____c*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -26,10 +26,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_LODGroup* (
     ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c::*)(::UnityEngine::LODGroup*)>(&::HoudiniEngineUnity::__Test_LODGroup_Extensions____c::_ToTestObject_b__1_0)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25f4894;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x3a2e644;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_LODGroup_Extensions____c*>::get(), "<ToTestObject>b__1_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LODGroup*>::get() })));
@@ -41,10 +41,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_LODGroup* (
     ::HoudiniEngineUnity::__Test_LODGroup_Extensions____c::*)(::UnityEngine::LODGroup*)>(&::HoudiniEngineUnity::__Test_LODGroup_Extensions____c::_ToTestObject_b__2_0)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25f48f8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x3a2e6a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_LODGroup_Extensions____c*>::get(), "<ToTestObject>b__2_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LODGroup*>::get() })));
@@ -105,10 +105,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_LODGroup* (*)(::UnityEngine::LODGroup*)>(
     &::HoudiniEngineUnity::Test_LODGroup_Extensions::ToTestObject)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25f2354;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x3a2c188;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_LODGroup_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LODGroup*>::get() })));
@@ -120,10 +120,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::HoudiniEngineUnity::Test_LODGroup*, ::Array<::HoudiniEngineUnity::Test_LODGroup*>*> (*)(
     ::ArrayW<::UnityEngine::LODGroup*, ::Array<::UnityEngine::LODGroup*>*>)>(&::HoudiniEngineUnity::Test_LODGroup_Extensions::ToTestObject)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x25f4634;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x3a2e3f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_LODGroup_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::LODGroup*, ::Array<::UnityEngine::LODGroup*>*>>::get() })));
@@ -136,10 +136,10 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_LODGroup*>* (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::LODGroup>>*)>(
         &::HoudiniEngineUnity::Test_LODGroup_Extensions::ToTestObject)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x25f472c;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x3a2e4e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_LODGroup_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::LODGroup>>*>::get() })));

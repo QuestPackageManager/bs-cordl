@@ -15,7 +15,7 @@ class EtsiQCObjectIdentifiers;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::Qualified::EtsiQCObjectIdentifiers);
 // Type: Org.BouncyCastle.Asn1.X509.Qualified::EtsiQCObjectIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509.Qualified::EtsiQCObjectIdentifiers*
@@ -23,23 +23,23 @@ class CORDL_TYPE EtsiQCObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field IdEtsiQcs, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdEtsiQcs, put = setStaticF_IdEtsiQcs))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdEtsiQcs;
+  static __declspec(property(get = getStaticF_IdEtsiQcs, put = setStaticF_IdEtsiQcs)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdEtsiQcs;
 
   /// @brief Field IdEtsiQcsLimitValue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdEtsiQcsLimitValue, put = setStaticF_IdEtsiQcsLimitValue))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdEtsiQcsLimitValue;
+  static __declspec(property(get = getStaticF_IdEtsiQcsLimitValue, put = setStaticF_IdEtsiQcsLimitValue)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdEtsiQcsLimitValue;
 
   /// @brief Field IdEtsiQcsQcCompliance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdEtsiQcsQcCompliance, put = setStaticF_IdEtsiQcsQcCompliance))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdEtsiQcsQcCompliance;
+  static __declspec(property(get = getStaticF_IdEtsiQcsQcCompliance, put = setStaticF_IdEtsiQcsQcCompliance)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdEtsiQcsQcCompliance;
 
   /// @brief Field IdEtsiQcsQcSscd, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdEtsiQcsQcSscd, put = setStaticF_IdEtsiQcsQcSscd))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdEtsiQcsQcSscd;
+  static __declspec(property(get = getStaticF_IdEtsiQcsQcSscd, put = setStaticF_IdEtsiQcsQcSscd)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdEtsiQcsQcSscd;
 
   /// @brief Field IdEtsiQcsRetentionPeriod, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdEtsiQcsRetentionPeriod, put = setStaticF_IdEtsiQcsRetentionPeriod))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdEtsiQcsRetentionPeriod;
+  static __declspec(property(get = getStaticF_IdEtsiQcsRetentionPeriod, put = setStaticF_IdEtsiQcsRetentionPeriod)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdEtsiQcsRetentionPeriod;
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::EtsiQCObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12f3d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c19bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdEtsiQcs();
@@ -75,6 +75,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "EtsiQCObjectIdentifiers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   EtsiQCObjectIdentifiers(EtsiQCObjectIdentifiers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 328 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

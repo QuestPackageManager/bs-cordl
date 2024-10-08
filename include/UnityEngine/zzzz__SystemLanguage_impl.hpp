@@ -48,5 +48,6 @@ constexpr ::UnityEngine::SystemLanguage UnityEngine::SystemLanguage::Ukrainian{ 
 constexpr ::UnityEngine::SystemLanguage UnityEngine::SystemLanguage::Vietnamese{ static_cast<int32_t>(0x27) };
 constexpr ::UnityEngine::SystemLanguage UnityEngine::SystemLanguage::ChineseSimplified{ static_cast<int32_t>(0x28) };
 constexpr ::UnityEngine::SystemLanguage UnityEngine::SystemLanguage::ChineseTraditional{ static_cast<int32_t>(0x29) };
-constexpr ::UnityEngine::SystemLanguage UnityEngine::SystemLanguage::Unknown{ static_cast<int32_t>(0x2a) };
+constexpr ::UnityEngine::SystemLanguage UnityEngine::SystemLanguage::Hindi{ static_cast<int32_t>(0x2a) };
+constexpr ::UnityEngine::SystemLanguage UnityEngine::SystemLanguage::Unknown{ static_cast<int32_t>(0x2b) };
 constexpr ::UnityEngine::SystemLanguage UnityEngine::SystemLanguage::Hungarian{ static_cast<int32_t>(0x12) };

@@ -61,7 +61,7 @@ class __SocketAsyncResult____c;
 MARK_REF_PTR_T(::System::Net::Sockets::SocketAsyncResult);
 MARK_REF_PTR_T(::System::Net::Sockets::__SocketAsyncResult____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
 // CS Name: ::SocketAsyncResult::<>c*
@@ -69,17 +69,17 @@ class CORDL_TYPE __SocketAsyncResult____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Net::Sockets::__SocketAsyncResult____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Net::Sockets::__SocketAsyncResult____c* __9;
 
   /// @brief Field <>9__27_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0))::System::Threading::WaitCallback* __9__27_0;
+  static __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0)) ::System::Threading::WaitCallback* __9__27_0;
 
   static inline ::System::Net::Sockets::__SocketAsyncResult____c* New_ctor();
 
-  /// @brief Method <Complete>b__27_0, addr 0x2f5a47c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <Complete>b__27_0, addr 0x438bb18, size 0x78, virtual false, abstract: false, final false
   inline void _Complete_b__27_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x2f5a474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438bb10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Sockets::__SocketAsyncResult____c* getStaticF___9();
@@ -104,6 +104,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SocketAsyncResult____c(__SocketAsyncResult____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9844 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -111,7 +114,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::__SocketAs
 
 } // namespace System::Net::Sockets
 // Type: System.Net.Sockets::SocketAsyncResult
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
 // CS Name: ::System.Net.Sockets::SocketAsyncResult*
@@ -121,35 +124,35 @@ public:
   using __c = ::System::Net::Sockets::__SocketAsyncResult____c;
 
   /// @brief Field AcceptSocket, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_AcceptSocket, put = __cordl_internal_set_AcceptSocket))::System::Net::Sockets::Socket* AcceptSocket;
+  __declspec(property(get = __cordl_internal_get_AcceptSocket, put = __cordl_internal_set_AcceptSocket)) ::System::Net::Sockets::Socket* AcceptSocket;
 
   /// @brief Field AcceptedSocket, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_AcceptedSocket, put = __cordl_internal_set_AcceptedSocket))::System::Net::Sockets::Socket* AcceptedSocket;
+  __declspec(property(get = __cordl_internal_get_AcceptedSocket, put = __cordl_internal_set_AcceptedSocket)) ::System::Net::Sockets::Socket* AcceptedSocket;
 
   /// @brief Field Addresses, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_Addresses, put = __cordl_internal_set_Addresses))::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> Addresses;
+  __declspec(property(get = __cordl_internal_get_Addresses, put = __cordl_internal_set_Addresses)) ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> Addresses;
 
   /// @brief Field Buffer, offset 0x50, size 0x10
-  __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer))::System::Memory_1<uint8_t> Buffer;
+  __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer)) ::System::Memory_1<uint8_t> Buffer;
 
   /// @brief Field Buffers, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_Buffers, put = __cordl_internal_set_Buffers))::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* Buffers;
+  __declspec(property(get = __cordl_internal_get_Buffers, put = __cordl_internal_set_Buffers)) ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* Buffers;
 
   /// @brief Field CurrentAddress, offset 0x94, size 0x4
   __declspec(property(get = __cordl_internal_get_CurrentAddress, put = __cordl_internal_set_CurrentAddress)) int32_t CurrentAddress;
 
   /// @brief Field DelayedException, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_DelayedException, put = __cordl_internal_set_DelayedException))::System::Exception* DelayedException;
+  __declspec(property(get = __cordl_internal_get_DelayedException, put = __cordl_internal_set_DelayedException)) ::System::Exception* DelayedException;
 
   /// @brief Field EndCalled, offset 0xa8, size 0x4
   __declspec(property(get = __cordl_internal_get_EndCalled, put = __cordl_internal_set_EndCalled)) int32_t EndCalled;
 
   /// @brief Field EndPoint, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_EndPoint, put = __cordl_internal_set_EndPoint))::System::Net::EndPoint* EndPoint;
+  __declspec(property(get = __cordl_internal_get_EndPoint, put = __cordl_internal_set_EndPoint)) ::System::Net::EndPoint* EndPoint;
 
-  __declspec(property(get = get_ErrorCode))::System::Net::Sockets::SocketError ErrorCode;
+  __declspec(property(get = get_ErrorCode)) ::System::Net::Sockets::SocketError ErrorCode;
 
-  __declspec(property(get = get_Handle))::System::IntPtr Handle;
+  __declspec(property(get = get_Handle)) ::System::IntPtr Handle;
 
   /// @brief Field Offset, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_Offset, put = __cordl_internal_set_Offset)) int32_t Offset;
@@ -164,7 +167,7 @@ public:
   __declspec(property(get = __cordl_internal_get_Size, put = __cordl_internal_set_Size)) int32_t Size;
 
   /// @brief Field SockFlags, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get_SockFlags, put = __cordl_internal_set_SockFlags))::System::Net::Sockets::SocketFlags SockFlags;
+  __declspec(property(get = __cordl_internal_get_SockFlags, put = __cordl_internal_set_SockFlags)) ::System::Net::Sockets::SocketFlags SockFlags;
 
   /// @brief Field Total, offset 0xa0, size 0x4
   __declspec(property(get = __cordl_internal_get_Total, put = __cordl_internal_set_Total)) int32_t Total;
@@ -173,39 +176,39 @@ public:
   __declspec(property(get = __cordl_internal_get_error, put = __cordl_internal_set_error)) int32_t error;
 
   /// @brief Field operation, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_operation, put = __cordl_internal_set_operation))::System::Net::Sockets::SocketOperation operation;
+  __declspec(property(get = __cordl_internal_get_operation, put = __cordl_internal_set_operation)) ::System::Net::Sockets::SocketOperation operation;
 
   /// @brief Field socket, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_socket, put = __cordl_internal_set_socket))::System::Net::Sockets::Socket* socket;
+  __declspec(property(get = __cordl_internal_get_socket, put = __cordl_internal_set_socket)) ::System::Net::Sockets::Socket* socket;
 
-  /// @brief Method CheckIfThrowDelayedException, addr 0x2f5a348, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CheckIfThrowDelayedException, addr 0x438b9f4, size 0xa0, virtual false, abstract: false, final false
   inline void CheckIfThrowDelayedException();
 
-  /// @brief Method Complete, addr 0x2f56090, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43878f8, size 0x1e8, virtual false, abstract: false, final false
   inline void Complete();
 
-  /// @brief Method Complete, addr 0x2f55908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x4387190, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* e);
 
-  /// @brief Method Complete, addr 0x2f5a400, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x438baa4, size 0x10, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* e, bool synch);
 
-  /// @brief Method Complete, addr 0x2f55910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x4387198, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Net::Sockets::Socket* s);
 
-  /// @brief Method Complete, addr 0x2f55b58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43873d0, size 0xc, virtual false, abstract: false, final false
   inline void Complete(::System::Net::Sockets::Socket* s, int32_t total);
 
-  /// @brief Method Complete, addr 0x2f5a3f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x438ba98, size 0xc, virtual false, abstract: false, final false
   inline void Complete(bool synch);
 
-  /// @brief Method Complete, addr 0x2f56b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43883b0, size 0x8, virtual false, abstract: false, final false
   inline void Complete(int32_t total);
 
-  /// @brief Method CompleteDisposed, addr 0x2f5a3f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CompleteDisposed, addr 0x438ba94, size 0x4, virtual true, abstract: false, final false
   inline void CompleteDisposed();
 
-  /// @brief Method Init, addr 0x2f5a1dc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x438b888, size 0xb4, virtual false, abstract: false, final false
   inline void Init(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::System::Object* state, ::System::Net::Sockets::SocketOperation operation);
 
   static inline ::System::Net::Sockets::SocketAsyncResult* New_ctor();
@@ -321,16 +324,16 @@ public:
 
   constexpr void __cordl_internal_set_socket(::System::Net::Sockets::Socket* value);
 
-  /// @brief Method .ctor, addr 0x2f59e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438b5b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2f5a290, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438b93c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::Socket* socket, ::System::AsyncCallback* callback, ::System::Object* state, ::System::Net::Sockets::SocketOperation operation);
 
-  /// @brief Method get_ErrorCode, addr 0x2f5a2c8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x438b974, size 0x80, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketError get_ErrorCode();
 
-  /// @brief Method get_Handle, addr 0x2f5a178, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x438b874, size 0x14, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Handle();
 
 protected:
@@ -400,6 +403,9 @@ public:
 
   /// @brief Field EndCalled, offset: 0xa8, size: 0x4, def value: None
   int32_t ___EndCalled;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9845 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

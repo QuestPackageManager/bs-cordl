@@ -52,7 +52,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 MARK_GEN_REF_PTR_T(::Zenject::PlaceholderFactory_6);
 MARK_GEN_REF_PTR_T(::Zenject::__PlaceholderFactory_6___get_ParamTypes_d__2);
 // Type: ::<get_ParamTypes>d__2
-// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
@@ -61,15 +61,15 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 class CORDL_TYPE __PlaceholderFactory_6___get_ParamTypes_d__2 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Type__get_Current))::System::Type* System_Collections_Generic_IEnumerator_System_Type__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Type__get_Current)) ::System::Type* System_Collections_Generic_IEnumerator_System_Type__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Type* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Type* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
@@ -177,12 +177,15 @@ public:
   /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
   int32_t _____l__initialThreadId;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12315 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: Zenject::PlaceholderFactory`6
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
@@ -193,7 +196,7 @@ public:
   // Declarations
   using _get_ParamTypes_d__2 = ::Zenject::__PlaceholderFactory_6___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>;
 
-  __declspec(property(get = get_ParamTypes))::System::Collections::Generic::IEnumerable_1<::System::Type*>* ParamTypes;
+  __declspec(property(get = get_ParamTypes)) ::System::Collections::Generic::IEnumerable_1<::System::Type*>* ParamTypes;
 
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
@@ -237,6 +240,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_6", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PlaceholderFactory_6(PlaceholderFactory_6 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12316 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

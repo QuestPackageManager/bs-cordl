@@ -40,7 +40,7 @@ class UxmlAttributeDescription;
 MARK_VAL_T(::UnityEngine::UIElements::__UxmlAttributeDescription__Use);
 MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlAttributeDescription);
 // Type: ::Use
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UxmlAttributeDescription::Use
@@ -89,6 +89,9 @@ public:
   /// @brief Field Required value: static_cast<int32_t>(0x3)
   static ::UnityEngine::UIElements::__UxmlAttributeDescription__Use const Required;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6209 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -101,7 +104,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__UxmlAttributeDescription__Us
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::UxmlAttributeDescription
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::UxmlAttributeDescription*
@@ -111,35 +114,36 @@ public:
   using Use = ::UnityEngine::UIElements::__UxmlAttributeDescription__Use;
 
   /// @brief Field <name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__name_k__BackingField, put = __cordl_internal_set__name_k__BackingField))::StringW _name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__name_k__BackingField, put = __cordl_internal_set__name_k__BackingField)) ::StringW _name_k__BackingField;
 
   /// @brief Field <restriction>k__BackingField, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__restriction_k__BackingField,
-                      put = __cordl_internal_set__restriction_k__BackingField))::UnityEngine::UIElements::UxmlTypeRestriction* _restriction_k__BackingField;
+                      put = __cordl_internal_set__restriction_k__BackingField)) ::UnityEngine::UIElements::UxmlTypeRestriction* _restriction_k__BackingField;
 
   /// @brief Field <typeNamespace>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__typeNamespace_k__BackingField, put = __cordl_internal_set__typeNamespace_k__BackingField))::StringW _typeNamespace_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__typeNamespace_k__BackingField, put = __cordl_internal_set__typeNamespace_k__BackingField)) ::StringW _typeNamespace_k__BackingField;
 
   /// @brief Field <type>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__type_k__BackingField, put = __cordl_internal_set__type_k__BackingField))::StringW _type_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__type_k__BackingField, put = __cordl_internal_set__type_k__BackingField)) ::StringW _type_k__BackingField;
 
   /// @brief Field <use>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__use_k__BackingField, put = __cordl_internal_set__use_k__BackingField))::UnityEngine::UIElements::__UxmlAttributeDescription__Use _use_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__use_k__BackingField,
+                      put = __cordl_internal_set__use_k__BackingField)) ::UnityEngine::UIElements::__UxmlAttributeDescription__Use _use_k__BackingField;
 
   /// @brief Field m_ObsoleteNames, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ObsoleteNames, put = __cordl_internal_set_m_ObsoleteNames))::ArrayW<::StringW, ::Array<::StringW>*> m_ObsoleteNames;
+  __declspec(property(get = __cordl_internal_get_m_ObsoleteNames, put = __cordl_internal_set_m_ObsoleteNames)) ::ArrayW<::StringW, ::Array<::StringW>*> m_ObsoleteNames;
 
-  __declspec(property(get = get_name, put = set_name))::StringW name;
+  __declspec(property(get = get_name, put = set_name)) ::StringW name;
 
-  __declspec(property(put = set_obsoleteNames))::System::Collections::Generic::IEnumerable_1<::StringW>* obsoleteNames;
+  __declspec(property(put = set_obsoleteNames)) ::System::Collections::Generic::IEnumerable_1<::StringW>* obsoleteNames;
 
-  __declspec(property(put = set_restriction))::UnityEngine::UIElements::UxmlTypeRestriction* restriction;
+  __declspec(property(put = set_restriction)) ::UnityEngine::UIElements::UxmlTypeRestriction* restriction;
 
-  __declspec(property(put = set_type))::StringW type;
+  __declspec(property(put = set_type)) ::StringW type;
 
-  __declspec(property(put = set_typeNamespace))::StringW typeNamespace;
+  __declspec(property(put = set_typeNamespace)) ::StringW typeNamespace;
 
-  __declspec(property(put = set_use))::UnityEngine::UIElements::__UxmlAttributeDescription__Use use;
+  __declspec(property(put = set_use)) ::UnityEngine::UIElements::__UxmlAttributeDescription__Use use;
 
   /// @brief Method GetValueFromBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
@@ -152,7 +156,7 @@ public:
   inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::System::Func_3<::StringW, T, T>* converterFunc, T defaultValue,
                                  ByRef<T> value);
 
-  /// @brief Method TryGetValueFromBagAsString, addr 0x35a4b94, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method TryGetValueFromBagAsString, addr 0x4a26814, size 0x50c, virtual false, abstract: false, final false
   inline bool TryGetValueFromBagAsString(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ByRef<::StringW> value);
 
   constexpr ::StringW const& __cordl_internal_get__name_k__BackingField() const;
@@ -191,28 +195,28 @@ public:
 
   constexpr void __cordl_internal_set_m_ObsoleteNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x35a4ae4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a26764, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x35a4b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x4a26788, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name, addr 0x35a4b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x4a26790, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_obsoleteNames, addr 0x35a4b18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_obsoleteNames, addr 0x4a26798, size 0x5c, virtual false, abstract: false, final false
   inline void set_obsoleteNames(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  /// @brief Method set_restriction, addr 0x35a4b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_restriction, addr 0x4a2680c, size 0x8, virtual false, abstract: false, final false
   inline void set_restriction(::UnityEngine::UIElements::UxmlTypeRestriction* value);
 
-  /// @brief Method set_type, addr 0x35a4b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x4a267f4, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::StringW value);
 
-  /// @brief Method set_typeNamespace, addr 0x35a4b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_typeNamespace, addr 0x4a267fc, size 0x8, virtual false, abstract: false, final false
   inline void set_typeNamespace(::StringW value);
 
-  /// @brief Method set_use, addr 0x35a4b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_use, addr 0x4a26804, size 0x8, virtual false, abstract: false, final false
   inline void set_use(::UnityEngine::UIElements::__UxmlAttributeDescription__Use value);
 
 protected:
@@ -246,6 +250,9 @@ public:
 
   /// @brief Field <restriction>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlTypeRestriction* ____restriction_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6210 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

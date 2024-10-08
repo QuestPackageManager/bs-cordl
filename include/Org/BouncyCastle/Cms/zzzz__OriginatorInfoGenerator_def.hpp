@@ -24,7 +24,7 @@ class OriginatorInfoGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::OriginatorInfoGenerator);
 // Type: Org.BouncyCastle.Cms::OriginatorInfoGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::OriginatorInfoGenerator*
@@ -32,12 +32,12 @@ class CORDL_TYPE OriginatorInfoGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field origCerts, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_origCerts, put = __cordl_internal_set_origCerts))::System::Collections::IList* origCerts;
+  __declspec(property(get = __cordl_internal_get_origCerts, put = __cordl_internal_set_origCerts)) ::System::Collections::IList* origCerts;
 
   /// @brief Field origCrls, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_origCrls, put = __cordl_internal_set_origCrls))::System::Collections::IList* origCrls;
+  __declspec(property(get = __cordl_internal_get_origCrls, put = __cordl_internal_set_origCrls)) ::System::Collections::IList* origCrls;
 
-  /// @brief Method Generate, addr 0x1479e28, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Generate, addr 0x263ba20, size 0x88, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* Generate();
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_origCrls(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x1479c9c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263b894, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
 
-  /// @brief Method .ctor, addr 0x1479dac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263b9a4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts);
 
-  /// @brief Method .ctor, addr 0x1479ddc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263b9d4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts, ::Org::BouncyCastle::X509::Store::IX509Store* origCrls);
 
 protected:
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field origCrls, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::IList* ___origCrls;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 680 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

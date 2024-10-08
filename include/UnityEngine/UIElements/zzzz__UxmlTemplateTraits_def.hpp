@@ -15,7 +15,7 @@ class UxmlTemplateTraits;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlTemplateTraits);
 // Type: UnityEngine.UIElements::UxmlTemplateTraits
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::UxmlTemplateTraits*
@@ -23,13 +23,13 @@ class CORDL_TYPE UxmlTemplateTraits : public ::UnityEngine::UIElements::UxmlTrai
 public:
   // Declarations
   /// @brief Field m_Name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Name;
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Name;
 
   /// @brief Field m_Path, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Path, put = __cordl_internal_set_m_Path))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Path;
+  __declspec(property(get = __cordl_internal_get_m_Path, put = __cordl_internal_set_m_Path)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Path;
 
   /// @brief Field m_Src, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Src, put = __cordl_internal_set_m_Src))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Src;
+  __declspec(property(get = __cordl_internal_get_m_Src, put = __cordl_internal_set_m_Src)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Src;
 
   static inline ::UnityEngine::UIElements::UxmlTemplateTraits* New_ctor();
 
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Src(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x35a4620, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a264c8, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field m_Src, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Src;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6204 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

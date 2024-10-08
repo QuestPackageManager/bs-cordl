@@ -13,25 +13,25 @@ class DebuggerDisplayAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::DebuggerDisplayAttribute);
 // Type: System.Diagnostics::DebuggerDisplayAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
 // CS Name: ::System.Diagnostics::DebuggerDisplayAttribute*
 class CORDL_TYPE DebuggerDisplayAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(put = set_Name))::StringW Name;
+  __declspec(property(put = set_Name)) ::StringW Name;
 
-  __declspec(property(put = set_Type))::StringW Type;
+  __declspec(property(put = set_Type)) ::StringW Type;
 
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   /// @brief Field type, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::StringW type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::StringW type;
 
   /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::StringW value;
 
   static inline ::System::Diagnostics::DebuggerDisplayAttribute* New_ctor(::StringW value);
 
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x292d058, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d408b4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method set_Name, addr 0x292d0c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x3d40920, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Type, addr 0x292d0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x3d40928, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::StringW value);
 
 protected:
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field type, offset: 0x20, size: 0x8, def value: None
   ::StringW ___type;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3743 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

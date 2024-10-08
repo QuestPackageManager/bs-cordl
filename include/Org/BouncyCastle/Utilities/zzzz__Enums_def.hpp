@@ -20,28 +20,28 @@ class Enums;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Enums);
 // Type: Org.BouncyCastle.Utilities::Enums
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities::Enums*
 class CORDL_TYPE Enums : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetArbitraryValue, addr 0x13dfdc0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetArbitraryValue, addr 0x25a7530, size 0xe0, virtual false, abstract: false, final false
   static inline ::bs_hook::EnumPtr GetArbitraryValue(::System::Type* enumType);
 
-  /// @brief Method GetEnumValue, addr 0x13dfae4, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method GetEnumValue, addr 0x25a7264, size 0x1d8, virtual false, abstract: false, final false
   static inline ::bs_hook::EnumPtr GetEnumValue(::System::Type* enumType, ::StringW s);
 
-  /// @brief Method GetEnumValues, addr 0x13dfce8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetEnumValues, addr 0x25a745c, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Array* GetEnumValues(::System::Type* enumType);
 
-  /// @brief Method IsEnumType, addr 0x13dfcc8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsEnumType, addr 0x25a743c, size 0x20, virtual false, abstract: false, final false
   static inline bool IsEnumType(::System::Type* t);
 
   static inline ::Org::BouncyCastle::Utilities::Enums* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13dfea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a7610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,6 +57,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Enums", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Enums(Enums const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1833 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

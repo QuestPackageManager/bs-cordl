@@ -46,7 +46,7 @@ struct __FixedSizeReadStream___ProcessReadAsync_d__5;
 MARK_REF_PTR_T(::System::Net::FixedSizeReadStream);
 MARK_VAL_T(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5);
 // Type: ::<ProcessReadAsync>d__5
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::FixedSizeReadStream::<ProcessReadAsync>d__5
@@ -56,10 +56,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3026d34, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x444d6f8, size 0x318, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3026fe4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x444da10, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -103,6 +103,9 @@ public:
   /// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9652 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
@@ -129,7 +132,7 @@ static_assert(offsetof(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d
 
 } // namespace System::Net
 // Type: System.Net::FixedSizeReadStream
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::FixedSizeReadStream*
@@ -148,7 +151,7 @@ public:
 
   static inline ::System::Net::FixedSizeReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
-  /// @brief Method ProcessReadAsync, addr 0x3026c0c, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x444d5d8, size 0x120, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
@@ -164,10 +167,10 @@ public:
 
   constexpr void __cordl_internal_set_position(int64_t value);
 
-  /// @brief Method .ctor, addr 0x3026be4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444d5b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
-  /// @brief Method get_ContentLength, addr 0x3026bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentLength, addr 0x444d5a8, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ContentLength();
 
 protected:
@@ -189,6 +192,9 @@ public:
 
   /// @brief Field position, offset: 0x48, size: 0x8, def value: None
   int64_t ___position;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9653 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

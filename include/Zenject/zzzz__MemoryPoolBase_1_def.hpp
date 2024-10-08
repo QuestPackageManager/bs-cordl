@@ -47,7 +47,7 @@ template <typename TContract> class MemoryPoolBase_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MemoryPoolBase_1);
 // Type: Zenject::MemoryPoolBase`1
-// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -56,11 +56,11 @@ template <typename TContract>
 class CORDL_TYPE MemoryPoolBase_1 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
+  __declspec(property(get = get_Container)) ::Zenject::DiContainer* Container;
 
-  __declspec(property(get = get_InactiveItems))::System::Collections::Generic::IEnumerable_1<TContract>* InactiveItems;
+  __declspec(property(get = get_InactiveItems)) ::System::Collections::Generic::IEnumerable_1<TContract>* InactiveItems;
 
-  __declspec(property(get = get_ItemType))::System::Type* ItemType;
+  __declspec(property(get = get_ItemType)) ::System::Type* ItemType;
 
   __declspec(property(get = get_NumActive)) int32_t NumActive;
 
@@ -72,16 +72,16 @@ public:
   __declspec(property(get = __cordl_internal_get__activeCount, put = __cordl_internal_set__activeCount)) int32_t _activeCount;
 
   /// @brief Field _container, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
   /// @brief Field _factory, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__factory, put = __cordl_internal_set__factory))::Zenject::IFactory_1<TContract>* _factory;
+  __declspec(property(get = __cordl_internal_get__factory, put = __cordl_internal_set__factory)) ::Zenject::IFactory_1<TContract>* _factory;
 
   /// @brief Field _inactiveItems, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__inactiveItems, put = __cordl_internal_set__inactiveItems))::System::Collections::Generic::Stack_1<TContract>* _inactiveItems;
+  __declspec(property(get = __cordl_internal_get__inactiveItems, put = __cordl_internal_set__inactiveItems)) ::System::Collections::Generic::Stack_1<TContract>* _inactiveItems;
 
   /// @brief Field _settings, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings))::Zenject::MemoryPoolSettings* _settings;
+  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings)) ::Zenject::MemoryPoolSettings* _settings;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -239,6 +239,9 @@ public:
 
   /// @brief Field _activeCount, offset: 0x30, size: 0x4, def value: None
   int32_t ____activeCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

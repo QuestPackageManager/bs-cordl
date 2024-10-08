@@ -15,7 +15,7 @@ class SpriteGlyph;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::SpriteGlyph);
 // Type: UnityEngine.TextCore.Text::SpriteGlyph
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // CS Name: ::UnityEngine.TextCore.Text::SpriteGlyph*
@@ -23,7 +23,7 @@ class CORDL_TYPE SpriteGlyph : public ::UnityEngine::TextCore::Glyph {
 public:
   // Declarations
   /// @brief Field sprite, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_sprite, put = __cordl_internal_set_sprite))::UnityW<::UnityEngine::Sprite> sprite;
+  __declspec(property(get = __cordl_internal_get_sprite, put = __cordl_internal_set_sprite)) ::UnityW<::UnityEngine::Sprite> sprite;
 
   static inline ::UnityEngine::TextCore::Text::SpriteGlyph* New_ctor();
 
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x34de38c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b5eec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,6 +52,9 @@ public:
 
   /// @brief Field sprite, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ___sprite;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15209 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,7 +21,7 @@ template <typename TContract> class PlaceholderFactoryBindingFinalizer_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PlaceholderFactoryBindingFinalizer_1);
 // Type: Zenject::PlaceholderFactoryBindingFinalizer`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -31,7 +31,7 @@ class CORDL_TYPE PlaceholderFactoryBindingFinalizer_1 : public ::Zenject::Provid
 public:
   // Declarations
   /// @brief Field _factoryBindInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__factoryBindInfo, put = __cordl_internal_set__factoryBindInfo))::Zenject::FactoryBindInfo* _factoryBindInfo;
+  __declspec(property(get = __cordl_internal_get__factoryBindInfo, put = __cordl_internal_set__factoryBindInfo)) ::Zenject::FactoryBindInfo* _factoryBindInfo;
 
   static inline ::Zenject::PlaceholderFactoryBindingFinalizer_1<TContract>* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field _factoryBindInfo, offset: 0x18, size: 0x8, def value: None
   ::Zenject::FactoryBindInfo* ____factoryBindInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12163 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

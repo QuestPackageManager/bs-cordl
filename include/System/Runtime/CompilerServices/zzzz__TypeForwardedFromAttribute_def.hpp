@@ -13,17 +13,17 @@ class TypeForwardedFromAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::TypeForwardedFromAttribute);
 // Type: System.Runtime.CompilerServices::TypeForwardedFromAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::TypeForwardedFromAttribute*
 class CORDL_TYPE TypeForwardedFromAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_AssemblyFullName))::StringW AssemblyFullName;
+  __declspec(property(get = get_AssemblyFullName)) ::StringW AssemblyFullName;
 
   /// @brief Field <AssemblyFullName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__AssemblyFullName_k__BackingField, put = __cordl_internal_set__AssemblyFullName_k__BackingField))::StringW _AssemblyFullName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__AssemblyFullName_k__BackingField, put = __cordl_internal_set__AssemblyFullName_k__BackingField)) ::StringW _AssemblyFullName_k__BackingField;
 
   static inline ::System::Runtime::CompilerServices::TypeForwardedFromAttribute* New_ctor(::StringW assemblyFullName);
 
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__AssemblyFullName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x288a4ac, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca308c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyFullName);
 
-  /// @brief Method get_AssemblyFullName, addr 0x288a530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyFullName, addr 0x3ca310c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyFullName();
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field <AssemblyFullName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____AssemblyFullName_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3387 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

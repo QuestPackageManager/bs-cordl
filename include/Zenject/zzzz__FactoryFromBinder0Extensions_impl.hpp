@@ -14,55 +14,6 @@
 #include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__MemoryPoolInitialSizeMaxSizeBinder_1_def.hpp"
-template <typename TContract, typename TMemoryPool> constexpr ::System::Guid& Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::__cordl_internal_get_poolId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___poolId;
-}
-template <typename TContract, typename TMemoryPool>
-constexpr ::System::Guid const& Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::__cordl_internal_get_poolId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___poolId;
-}
-template <typename TContract, typename TMemoryPool>
-constexpr void Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::__cordl_internal_set_poolId(::System::Guid value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___poolId = value;
-}
-template <typename TContract, typename TMemoryPool>
-inline ::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>* Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>*>());
-}
-template <typename TContract, typename TMemoryPool> inline void Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename TContract, typename TMemoryPool>
-inline ::Zenject::IProvider* Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::_FromPoolableMemoryPool_b__0(::Zenject::DiContainer* container) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>*>::get(), "<FromPoolableMemoryPool>b__0",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::Zenject::IProvider*, false>(this, ___internal_method, container);
-}
-template <typename TContract, typename TMemoryPool>
-inline ::System::Object* Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>*>::get(),
-                                  "__zenCreate", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
-}
-template <typename TContract, typename TMemoryPool>
-inline ::Zenject::InjectTypeInfo* Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>*>::get(),
-                                  "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
-}
-// Ctor Parameters []
-template <typename TContract, typename TMemoryPool>
-constexpr ::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2() {}
 template <typename TContract> inline void Zenject::__FactoryFromBinder0Extensions____c__1_1<TContract>::setStaticF___9(::Zenject::__FactoryFromBinder0Extensions____c__1_1<TContract>* value) {
   ::cordl_internals::setStaticField<::Zenject::__FactoryFromBinder0Extensions____c__1_1<TContract>*, "<>9",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder0Extensions____c__1_1<TContract>*>::get>(
@@ -220,6 +171,55 @@ template <typename TContract, typename TMemoryPool> inline ::Zenject::InjectType
 }
 // Ctor Parameters []
 template <typename TContract, typename TMemoryPool> constexpr ::Zenject::__FactoryFromBinder0Extensions____c__5_2<TContract, TMemoryPool>::__FactoryFromBinder0Extensions____c__5_2() {}
+template <typename TContract, typename TMemoryPool> constexpr ::System::Guid& Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::__cordl_internal_get_poolId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___poolId;
+}
+template <typename TContract, typename TMemoryPool>
+constexpr ::System::Guid const& Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::__cordl_internal_get_poolId() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___poolId;
+}
+template <typename TContract, typename TMemoryPool>
+constexpr void Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::__cordl_internal_set_poolId(::System::Guid value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___poolId = value;
+}
+template <typename TContract, typename TMemoryPool>
+inline ::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>* Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>*>());
+}
+template <typename TContract, typename TMemoryPool> inline void Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TContract, typename TMemoryPool>
+inline ::Zenject::IProvider* Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::_FromPoolableMemoryPool_b__0(::Zenject::DiContainer* container) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>*>::get(), "<FromPoolableMemoryPool>b__0",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::IProvider*, false>(this, ___internal_method, container);
+}
+template <typename TContract, typename TMemoryPool>
+inline ::System::Object* Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>*>::get(),
+                                  "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
+}
+template <typename TContract, typename TMemoryPool>
+inline ::Zenject::InjectTypeInfo* Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>*>::get(),
+                                  "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+// Ctor Parameters []
+template <typename TContract, typename TMemoryPool>
+constexpr ::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2() {}
 template <typename TContract> constexpr ::System::Guid& Zenject::__FactoryFromBinder0Extensions____c__DisplayClass6_0_1<TContract>::__cordl_internal_get_factoryId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___factoryId;

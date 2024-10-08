@@ -19,29 +19,29 @@ class IllogicalCallContext;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IllogicalCallContext);
 // Type: System.Runtime.Remoting.Messaging::IllogicalCallContext
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::IllogicalCallContext*
 class CORDL_TYPE IllogicalCallContext : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Datastore))::System::Collections::Hashtable* Datastore;
+  __declspec(property(get = get_Datastore)) ::System::Collections::Hashtable* Datastore;
 
   __declspec(property(get = get_HasUserData)) bool HasUserData;
 
-  __declspec(property(get = get_HostContext, put = set_HostContext))::System::Object* HostContext;
+  __declspec(property(get = get_HostContext, put = set_HostContext)) ::System::Object* HostContext;
 
   /// @brief Field m_Datastore, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Datastore, put = __cordl_internal_set_m_Datastore))::System::Collections::Hashtable* m_Datastore;
+  __declspec(property(get = __cordl_internal_get_m_Datastore, put = __cordl_internal_set_m_Datastore)) ::System::Collections::Hashtable* m_Datastore;
 
   /// @brief Field m_HostContext, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_HostContext, put = __cordl_internal_set_m_HostContext))::System::Object* m_HostContext;
+  __declspec(property(get = __cordl_internal_get_m_HostContext, put = __cordl_internal_set_m_HostContext)) ::System::Object* m_HostContext;
 
-  /// @brief Method CreateCopy, addr 0x28536d8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method CreateCopy, addr 0x3c702c8, size 0x254, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* CreateCopy();
 
-  /// @brief Method FreeNamedDataSlot, addr 0x285356c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method FreeNamedDataSlot, addr 0x3c70164, size 0x2c, virtual false, abstract: false, final false
   inline void FreeNamedDataSlot(::StringW name);
 
   static inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* New_ctor();
@@ -58,19 +58,19 @@ public:
 
   constexpr void __cordl_internal_set_m_HostContext(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x285392c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c7051c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Datastore, addr 0x2853630, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Datastore, addr 0x3c70228, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_Datastore();
 
-  /// @brief Method get_HasUserData, addr 0x28536ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_HasUserData, addr 0x3c7029c, size 0x2c, virtual false, abstract: false, final false
   inline bool get_HasUserData();
 
-  /// @brief Method get_HostContext, addr 0x285369c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HostContext, addr 0x3c7028c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_HostContext();
 
-  /// @brief Method set_HostContext, addr 0x28536a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HostContext, addr 0x3c70294, size 0x8, virtual false, abstract: false, final false
   inline void set_HostContext(::System::Object* value);
 
 protected:
@@ -92,6 +92,9 @@ public:
 
   /// @brief Field m_HostContext, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ___m_HostContext;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3143 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

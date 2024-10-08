@@ -32,14 +32,14 @@ struct __BeatmapObjectAvoidanceYOffsetEvaluator__BufferData;
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator);
 MARK_VAL_T(::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData);
 // Type: ::BufferData
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData
 struct CORDL_TYPE __BeatmapObjectAvoidanceYOffsetEvaluator__BufferData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x10603b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2229f98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t songTime, float_t yOffset);
 
   // Ctor Parameters []
@@ -55,6 +55,9 @@ public:
   /// @brief Field yOffset, offset: 0x4, size: 0x4, def value: None
   float_t yOffset;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17609 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -69,7 +72,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluat
 
 } // namespace GlobalNamespace
 // Type: ::BeatmapObjectAvoidanceYOffsetEvaluator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapObjectAvoidanceYOffsetEvaluator*
@@ -79,11 +82,11 @@ public:
   using BufferData = ::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData;
 
   /// @brief Field _audioTimeSource, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource)) ::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _beatmapObjectSpawnController, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnController,
-                      put = __cordl_internal_set__beatmapObjectSpawnController))::GlobalNamespace::IBeatmapObjectSpawnController* _beatmapObjectSpawnController;
+                      put = __cordl_internal_set__beatmapObjectSpawnController)) ::GlobalNamespace::IBeatmapObjectSpawnController* _beatmapObjectSpawnController;
 
   /// @brief Field _currentYJumpOffsetBufferEndIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__currentYJumpOffsetBufferEndIndex, put = __cordl_internal_set__currentYJumpOffsetBufferEndIndex)) int32_t _currentYJumpOffsetBufferEndIndex;
@@ -93,13 +96,14 @@ public:
 
   /// @brief Field _yJumpOffsetBuffer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__yJumpOffsetBuffer,
-                      put = __cordl_internal_set__yJumpOffsetBuffer))::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData,
-                                                                              ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*> _yJumpOffsetBuffer;
+                      put = __cordl_internal_set__yJumpOffsetBuffer)) ::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData,
+                                                                               ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*>
+      _yJumpOffsetBuffer;
 
-  /// @brief Method GetJumpOffsetYAtJumpStartSongTime, addr 0x1060538, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method GetJumpOffsetYAtJumpStartSongTime, addr 0x222a118, size 0x314, virtual false, abstract: false, final false
   inline float_t GetJumpOffsetYAtJumpStartSongTime(float_t lastDeltaTime);
 
-  /// @brief Method ManualUpdate, addr 0x10603c0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x2229fa0, size 0x178, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource,
@@ -139,7 +143,7 @@ public:
   constexpr void __cordl_internal_set__yJumpOffsetBuffer(
       ::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*> value);
 
-  /// @brief Method .ctor, addr 0x1060264, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2229e44, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController, float_t moveToPlayerHeadTParam,
                     ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData);
 
@@ -171,6 +175,9 @@ public:
 
   /// @brief Field _beatmapObjectSpawnController, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapObjectSpawnController* ____beatmapObjectSpawnController;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17610 };
 
   /// @brief Field kYJumpOffsetBufferLength offset 0xffffffff size 0x4
   static constexpr int32_t kYJumpOffsetBufferLength{ static_cast<int32_t>(0x7d0) };

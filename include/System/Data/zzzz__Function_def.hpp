@@ -22,7 +22,7 @@ class Function;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::Function);
 // Type: System.Data::Function
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::Function*
@@ -33,7 +33,7 @@ public:
   __declspec(property(get = __cordl_internal_get__argumentCount, put = __cordl_internal_set__argumentCount)) int32_t _argumentCount;
 
   /// @brief Field _id, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id))::System::Data::FunctionId _id;
+  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) ::System::Data::FunctionId _id;
 
   /// @brief Field _isValidateArguments, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__isValidateArguments, put = __cordl_internal_set__isValidateArguments)) bool _isValidateArguments;
@@ -42,16 +42,16 @@ public:
   __declspec(property(get = __cordl_internal_get__isVariantArgumentList, put = __cordl_internal_set__isVariantArgumentList)) bool _isVariantArgumentList;
 
   /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
   /// @brief Field _parameters, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__parameters, put = __cordl_internal_set__parameters))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _parameters;
+  __declspec(property(get = __cordl_internal_get__parameters, put = __cordl_internal_set__parameters)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> _parameters;
 
   /// @brief Field _result, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__result, put = __cordl_internal_set__result))::System::Type* _result;
+  __declspec(property(get = __cordl_internal_get__result, put = __cordl_internal_set__result)) ::System::Type* _result;
 
   /// @brief Field s_functionName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_functionName, put = setStaticF_s_functionName))::ArrayW<::StringW, ::Array<::StringW>*> s_functionName;
+  static __declspec(property(get = getStaticF_s_functionName, put = setStaticF_s_functionName)) ::ArrayW<::StringW, ::Array<::StringW>*> s_functionName;
 
   static inline ::System::Data::Function* New_ctor(::StringW name, ::System::Data::FunctionId id, ::System::Type* result, bool IsValidateArguments, bool IsVariantArgumentList, int32_t argumentCount,
                                                    ::System::Type* a1, ::System::Type* a2, ::System::Type* a3);
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__result(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2d0599c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40db8b4, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Data::FunctionId id, ::System::Type* result, bool IsValidateArguments, bool IsVariantArgumentList, int32_t argumentCount, ::System::Type* a1,
                     ::System::Type* a2, ::System::Type* a3);
 
@@ -140,6 +140,9 @@ public:
 
   /// @brief Field _parameters, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ____parameters;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11316 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

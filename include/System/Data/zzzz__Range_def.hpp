@@ -13,7 +13,7 @@ struct Range;
 // Write type traits
 MARK_VAL_T(::System::Data::Range);
 // Type: System.Data::Range
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 25, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 25, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: true
 // CS Name: ::System.Data::Range
@@ -26,19 +26,19 @@ public:
 
   __declspec(property(get = get_Min)) int32_t Min;
 
-  /// @brief Method CheckNull, addr 0x2d0ecb8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CheckNull, addr 0x410d80c, size 0x38, virtual false, abstract: false, final false
   inline void CheckNull();
 
-  /// @brief Method .ctor, addr 0x2d0ec6c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410d7c0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t min, int32_t max);
 
-  /// @brief Method get_Count, addr 0x2d096c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4108214, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsNull, addr 0x2d0920c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x4107d64, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_Min, addr 0x2d096e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Min, addr 0x4108234, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Min();
 
   // Ctor Parameters []
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field _isNotNull, offset: 0x8, size: 0x1, def value: None
   bool _isNotNull;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11407 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

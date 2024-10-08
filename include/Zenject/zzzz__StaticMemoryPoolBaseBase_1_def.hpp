@@ -34,7 +34,7 @@ template <typename TValue> class StaticMemoryPoolBaseBase_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::StaticMemoryPoolBaseBase_1);
 // Type: Zenject::StaticMemoryPoolBaseBase`1
-// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TValue>
@@ -43,7 +43,7 @@ template <typename TValue>
 class CORDL_TYPE StaticMemoryPoolBaseBase_1 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_ItemType))::System::Type* ItemType;
+  __declspec(property(get = get_ItemType)) ::System::Type* ItemType;
 
   __declspec(property(get = get_NumActive)) int32_t NumActive;
 
@@ -51,16 +51,16 @@ public:
 
   __declspec(property(get = get_NumTotal)) int32_t NumTotal;
 
-  __declspec(property(put = set_OnDespawnedMethod))::System::Action_1<TValue>* OnDespawnedMethod;
+  __declspec(property(put = set_OnDespawnedMethod)) ::System::Action_1<TValue>* OnDespawnedMethod;
 
   /// @brief Field _activeCount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__activeCount, put = __cordl_internal_set__activeCount)) int32_t _activeCount;
 
   /// @brief Field _onDespawnedMethod, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__onDespawnedMethod, put = __cordl_internal_set__onDespawnedMethod))::System::Action_1<TValue>* _onDespawnedMethod;
+  __declspec(property(get = __cordl_internal_get__onDespawnedMethod, put = __cordl_internal_set__onDespawnedMethod)) ::System::Action_1<TValue>* _onDespawnedMethod;
 
   /// @brief Field _stack, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack))::System::Collections::Generic::Stack_1<TValue>* _stack;
+  __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack)) ::System::Collections::Generic::Stack_1<TValue>* _stack;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -173,6 +173,9 @@ public:
 
   /// @brief Field _activeCount, offset: 0x20, size: 0x4, def value: None
   int32_t ____activeCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12383 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

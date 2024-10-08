@@ -18,7 +18,7 @@ class XmlCachedStream;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlCachedStream);
 // Type: System.Xml::XmlCachedStream
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::XmlCachedStream*
@@ -26,7 +26,7 @@ class CORDL_TYPE XmlCachedStream : public ::System::IO::MemoryStream {
 public:
   // Declarations
   /// @brief Field uri, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri))::System::Uri* uri;
+  __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri)) ::System::Uri* uri;
 
   static inline ::System::Xml::XmlCachedStream* New_ctor(::System::Uri* uri, ::System::IO::Stream* stream);
 
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
-  /// @brief Method .ctor, addr 0x2ee93c8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42e706c, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri, ::System::IO::Stream* stream);
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field uri, offset: 0x50, size: 0x8, def value: None
   ::System::Uri* ___uri;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7316 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

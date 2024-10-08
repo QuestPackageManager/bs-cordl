@@ -35,7 +35,7 @@ class BloomPrePassBackgroundTextureGradient;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundTextureGradient);
 // Type: ::BloomPrePassBackgroundTextureGradient
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BloomPrePassBackgroundTextureGradient*
@@ -54,35 +54,35 @@ public:
   /// @brief Field _inverseProjectionMatrixID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__inverseProjectionMatrixID, put = setStaticF__inverseProjectionMatrixID)) int32_t _inverseProjectionMatrixID;
 
-  /// @brief Field _material, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
+  /// @brief Field _material, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material)) ::UnityW<::UnityEngine::Material> _material;
 
-  /// @brief Field _texture, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__texture, put = __cordl_internal_set__texture))::UnityW<::UnityEngine::Texture2D> _texture;
+  /// @brief Field _texture, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__texture, put = __cordl_internal_set__texture)) ::UnityW<::UnityEngine::Texture2D> _texture;
 
-  /// @brief Field _tintColor, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get__tintColor, put = __cordl_internal_set__tintColor))::UnityEngine::Color _tintColor;
+  /// @brief Field _tintColor, offset 0x28, size 0x10
+  __declspec(property(get = __cordl_internal_get__tintColor, put = __cordl_internal_set__tintColor)) ::UnityEngine::Color _tintColor;
 
-  __declspec(property(get = get_tintColor, put = set_tintColor))::UnityEngine::Color tintColor;
+  __declspec(property(get = get_tintColor, put = set_tintColor)) ::UnityEngine::Color tintColor;
 
-  /// @brief Method InitIfNeeded, addr 0x2516dec, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x396ebc8, size 0x22c, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundTextureGradient* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25170a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x396ee84, size 0x24, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnValidate, addr 0x25170cc, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x396eea8, size 0xa8, virtual true, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Render, addr 0x25171a0, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x396ef7c, size 0x198, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
-  /// @brief Method Start, addr 0x2517018, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x396edf4, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateGradientTexture, addr 0x251701c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UpdateGradientTexture, addr 0x396edf8, size 0x8c, virtual false, abstract: false, final false
   inline void UpdateGradientTexture();
 
   /// @brief Method UpdatePixels, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set__tintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x2515074, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396d138, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__cameraToWorldMatrixID();
@@ -117,7 +117,7 @@ public:
 
   static inline int32_t getStaticF__inverseProjectionMatrixID();
 
-  /// @brief Method get_tintColor, addr 0x2516dd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_tintColor, addr 0x396ebb0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_tintColor();
 
   static inline void setStaticF__cameraToWorldMatrixID(int32_t value);
@@ -128,7 +128,7 @@ public:
 
   static inline void setStaticF__inverseProjectionMatrixID(int32_t value);
 
-  /// @brief Method set_tintColor, addr 0x2516de0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_tintColor, addr 0x396ebbc, size 0xc, virtual false, abstract: false, final false
   inline void set_tintColor(::UnityEngine::Color value);
 
 protected:
@@ -145,14 +145,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassBackgroundTextureGradient(BloomPrePassBackgroundTextureGradient const&) = delete;
 
-  /// @brief Field _tintColor, offset: 0x20, size: 0x10, def value: None
+  /// @brief Field _tintColor, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Color ____tintColor;
 
-  /// @brief Field _texture, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _texture, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____texture;
 
-  /// @brief Field _material, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _material, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16203 };
 
   /// @brief Field kSkyGradientShaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString kSkyGradientShaderName{ u"Hidden/SkyGradient" };
@@ -166,13 +169,13 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundTextureGradient, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundTextureGradient, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundTextureGradient, ____tintColor) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundTextureGradient, ____tintColor) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundTextureGradient, ____texture) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundTextureGradient, ____texture) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundTextureGradient, ____material) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundTextureGradient, ____material) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundTextureGradient);

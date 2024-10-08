@@ -21,7 +21,7 @@ class ByteMatcher;
 // Write type traits
 MARK_REF_PTR_T(::System::ByteMatcher);
 // Type: System::ByteMatcher
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::ByteMatcher*
@@ -29,23 +29,23 @@ class CORDL_TYPE ByteMatcher : public ::System::Object {
 public:
   // Declarations
   /// @brief Field map, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_map, put = __cordl_internal_set_map))::System::Collections::Hashtable* map;
+  __declspec(property(get = __cordl_internal_get_map, put = __cordl_internal_set_map)) ::System::Collections::Hashtable* map;
 
   /// @brief Field starts, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_starts, put = __cordl_internal_set_starts))::System::Collections::Hashtable* starts;
+  __declspec(property(get = __cordl_internal_get_starts, put = __cordl_internal_set_starts)) ::System::Collections::Hashtable* starts;
 
-  /// @brief Method AddMapping, addr 0x29baef4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AddMapping, addr 0x3dcb790, size 0x120, virtual false, abstract: false, final false
   inline void AddMapping(::System::TermInfoStrings key, ::ArrayW<uint8_t, ::Array<uint8_t>*> val);
 
-  /// @brief Method Match, addr 0x29b7fa0, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x3dc8830, size 0x48c, virtual false, abstract: false, final false
   inline ::System::TermInfoStrings Match(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t offset, int32_t length, ByRef<int32_t> used);
 
   static inline ::System::ByteMatcher* New_ctor();
 
-  /// @brief Method Sort, addr 0x29bb014, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Sort, addr 0x3dcb8b0, size 0x4, virtual false, abstract: false, final false
   inline void Sort();
 
-  /// @brief Method StartsWith, addr 0x29b7f18, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x3dc87a8, size 0x88, virtual false, abstract: false, final false
   inline bool StartsWith(int32_t c);
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_map();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_starts(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x29bae2c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dcb6d4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,6 +82,9 @@ public:
 
   /// @brief Field starts, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___starts;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2625 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

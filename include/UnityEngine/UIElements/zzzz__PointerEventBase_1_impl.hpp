@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/UIElements/PointerEventBase_1.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
+#include "UnityEngine/zzzz__PenStatus_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
@@ -10,7 +11,10 @@
 #include "UnityEngine/UIElements/zzzz__IPointerEventInternal_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
+#include "UnityEngine/zzzz__EventType_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/zzzz__PenData_def.hpp"
+#include "UnityEngine/zzzz__PenStatus_def.hpp"
 #include "UnityEngine/zzzz__Touch_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -29,6 +33,78 @@ template <typename T> constexpr UnityEngine::UIElements::PointerEventBase_1<T>::
 /// @brief Convert to "::UnityEngine::UIElements::IPointerEventInternal"
 template <typename T> constexpr ::UnityEngine::UIElements::IPointerEventInternal* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerEventInternal() noexcept {
   return static_cast<::UnityEngine::UIElements::IPointerEventInternal*>(static_cast<void*>(this));
+}
+template <typename T> constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AltitudeNeedsConversion() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AltitudeNeedsConversion;
+}
+template <typename T> constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AltitudeNeedsConversion() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AltitudeNeedsConversion;
+}
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_AltitudeNeedsConversion(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_AltitudeNeedsConversion = value;
+}
+template <typename T> constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AzimuthNeedsConversion() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AzimuthNeedsConversion;
+}
+template <typename T> constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AzimuthNeedsConversion() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AzimuthNeedsConversion;
+}
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_AzimuthNeedsConversion(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_AzimuthNeedsConversion = value;
+}
+template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AltitudeAngle() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AltitudeAngle;
+}
+template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AltitudeAngle() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AltitudeAngle;
+}
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_AltitudeAngle(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_AltitudeAngle = value;
+}
+template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AzimuthAngle() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AzimuthAngle;
+}
+template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_AzimuthAngle() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AzimuthAngle;
+}
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_AzimuthAngle(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_AzimuthAngle = value;
+}
+template <typename T> constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_TiltNeeded() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TiltNeeded;
+}
+template <typename T> constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_TiltNeeded() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TiltNeeded;
+}
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_TiltNeeded(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_TiltNeeded = value;
+}
+template <typename T> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_Tilt() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Tilt;
+}
+template <typename T> constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get_m_Tilt() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Tilt;
+}
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set_m_Tilt(::UnityEngine::Vector2 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Tilt = value;
 }
 template <typename T> constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__pointerId_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -174,30 +250,6 @@ template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tangentialPressure_k__BackingField = value;
 }
-template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__altitudeAngle_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____altitudeAngle_k__BackingField;
-}
-template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__altitudeAngle_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____altitudeAngle_k__BackingField;
-}
-template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__altitudeAngle_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____altitudeAngle_k__BackingField = value;
-}
-template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__azimuthAngle_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____azimuthAngle_k__BackingField;
-}
-template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__azimuthAngle_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____azimuthAngle_k__BackingField;
-}
-template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__azimuthAngle_k__BackingField(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____azimuthAngle_k__BackingField = value;
-}
 template <typename T> constexpr float_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__twist_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____twist_k__BackingField;
@@ -209,6 +261,18 @@ template <typename T> constexpr float_t const& UnityEngine::UIElements::PointerE
 template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__twist_k__BackingField(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____twist_k__BackingField = value;
+}
+template <typename T> constexpr ::UnityEngine::PenStatus& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__penStatus_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____penStatus_k__BackingField;
+}
+template <typename T> constexpr ::UnityEngine::PenStatus const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__penStatus_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____penStatus_k__BackingField;
+}
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__penStatus_k__BackingField(::UnityEngine::PenStatus value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____penStatus_k__BackingField = value;
 }
 template <typename T> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__radius_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -438,6 +502,28 @@ template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+template <typename T> inline ::UnityEngine::Vector2 UnityEngine::UIElements::PointerEventBase_1<T>::get_tilt() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(),
+                                                                             "get_tilt", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
+}
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_tilt(::UnityEngine::Vector2 value) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "set_tilt", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+template <typename T> inline ::UnityEngine::PenStatus UnityEngine::UIElements::PointerEventBase_1<T>::get_penStatus() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(),
+                                                                             "get_penStatus", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::PenStatus, false>(this, ___internal_method);
+}
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_penStatus(::UnityEngine::PenStatus value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "set_penStatus", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::PenStatus>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 template <typename T> inline ::UnityEngine::Vector2 UnityEngine::UIElements::PointerEventBase_1<T>::get_radius() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(),
                                                                              "get_radius", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -547,11 +633,46 @@ template <typename T> inline bool UnityEngine::UIElements::PointerEventBase_1<T>
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Event*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, systemEvent);
 }
+template <typename T> inline bool UnityEngine::UIElements::PointerEventBase_1<T>::IsTouch(::UnityEngine::Event* systemEvent) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "IsTouch", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Event*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, systemEvent);
+}
+template <typename T> inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::TiltToAzimuth(::UnityEngine::Vector2 tilt) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "TiltToAzimuth", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, tilt);
+}
+template <typename T> inline ::UnityEngine::Vector2 UnityEngine::UIElements::PointerEventBase_1<T>::AzimuthAndAlitutudeToTilt(float_t altitude, float_t azimuth) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "AzimuthAndAlitutudeToTilt", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(nullptr, ___internal_method, altitude, azimuth);
+}
+template <typename T> inline float_t UnityEngine::UIElements::PointerEventBase_1<T>::TiltToAltitude(::UnityEngine::Vector2 tilt) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "TiltToAltitude", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, tilt);
+}
 template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::Event* systemEvent) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "GetPooled",
                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Event*>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, systemEvent);
+}
+template <typename T>
+inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::EventType eventType, ::UnityEngine::Vector3 mousePosition, ::UnityEngine::Vector2 delta, int32_t button,
+                                                                   int32_t clickCount, ::UnityEngine::EventModifiers modifiers) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "GetPooled", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 6>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventModifiers>::get() })));
+  return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, eventType, mousePosition, delta, button, clickCount, modifiers);
 }
 /// @param modifiers: ::UnityEngine::EventModifiers (default: static_cast<int32_t>(0x0))
 template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::Touch touch, ::UnityEngine::EventModifiers modifiers) {
@@ -560,6 +681,14 @@ template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::G
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Touch>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventModifiers>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, touch, modifiers);
+}
+/// @param modifiers: ::UnityEngine::EventModifiers (default: static_cast<int32_t>(0x0))
+template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::PenData pen, ::UnityEngine::EventModifiers modifiers) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "GetPooled", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::PenData>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventModifiers>::get() })));
+  return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, pen, modifiers);
 }
 template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

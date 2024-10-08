@@ -33,6 +33,10 @@ constexpr ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateTextureStreamingManage
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdatePreloading::__EarlyUpdate__UpdatePreloading() {}
 // Ctor Parameters []
+constexpr ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateContentLoading::__EarlyUpdate__UpdateContentLoading() {}
+// Ctor Parameters []
+constexpr ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateAsyncInstantiate::__EarlyUpdate__UpdateAsyncInstantiate() {}
+// Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__EarlyUpdate__RendererNotifyInvisible::__EarlyUpdate__RendererNotifyInvisible() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__EarlyUpdate__PlayerCleanupCachedData::__EarlyUpdate__PlayerCleanupCachedData() {}
@@ -54,6 +58,8 @@ constexpr ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateKinect::__EarlyUpdate_
 constexpr ::UnityEngine::PlayerLoop::__EarlyUpdate__DeliverIosPlatformEvents::__EarlyUpdate__DeliverIosPlatformEvents() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__EarlyUpdate__DispatchEventQueueEvents::__EarlyUpdate__DispatchEventQueueEvents() {}
+// Ctor Parameters []
+constexpr ::UnityEngine::PlayerLoop::__EarlyUpdate__Physics2DEarlyUpdate::__EarlyUpdate__Physics2DEarlyUpdate() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__EarlyUpdate__PhysicsResetInterpolatedTransformPosition::__EarlyUpdate__PhysicsResetInterpolatedTransformPosition() {}
 // Ctor Parameters []

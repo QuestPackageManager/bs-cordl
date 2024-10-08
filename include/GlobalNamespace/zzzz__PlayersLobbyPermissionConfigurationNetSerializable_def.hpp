@@ -27,7 +27,7 @@ class PlayersLobbyPermissionConfigurationNetSerializable;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable);
 // Type: ::PlayersLobbyPermissionConfigurationNetSerializable
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayersLobbyPermissionConfigurationNetSerializable*
@@ -36,29 +36,29 @@ public:
   // Declarations
   /// @brief Field _playersPermission, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__playersPermission,
-                      put = __cordl_internal_set__playersPermission))::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* _playersPermission;
+                      put = __cordl_internal_set__playersPermission)) ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* _playersPermission;
 
-  __declspec(property(get = get_playersPermission))::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* playersPermission;
+  __declspec(property(get = get_playersPermission)) ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* playersPermission;
 
-  /// @brief Method Deserialize, addr 0x1517384, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x26e18e8, size 0x164, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x1517104, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26e1668, size 0x60, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*
   Init(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* playersPermission);
 
   static inline ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x15170a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x26e1604, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* Obtain();
 
-  /// @brief Method Release, addr 0x15174ec, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x26e1a4c, size 0xc4, virtual true, abstract: false, final false
   inline void Release();
 
-  /// @brief Method Retain, addr 0x1517620, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Retain, addr 0x26e1b80, size 0x9c, virtual true, abstract: false, final false
   inline void Retain();
 
-  /// @brief Method Serialize, addr 0x1517204, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x26e1768, size 0x180, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*& __cordl_internal_get__playersPermission();
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__playersPermission(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* value);
 
-  /// @brief Method .ctor, addr 0x1517164, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e16c8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_playersPermission, addr 0x1517098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playersPermission, addr 0x26e15fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* get_playersPermission();
 
 protected:
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field _playersPermission, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* ____playersPermission;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16957 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

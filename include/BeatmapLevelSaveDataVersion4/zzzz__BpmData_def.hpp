@@ -20,7 +20,7 @@ class BpmData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapLevelSaveDataVersion4::BpmData);
 // Type: BeatmapLevelSaveDataVersion4::BpmData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapLevelSaveDataVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapLevelSaveDataVersion4::BpmData*
@@ -73,10 +73,10 @@ public:
 
   constexpr void __cordl_internal_set_si(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1505dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c9c04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beat, addr 0x1505de4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x26c9bfc, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
@@ -110,6 +110,9 @@ public:
 
   /// @brief Field eb, offset: 0x1c, size: 0x4, def value: None
   float_t ___eb;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

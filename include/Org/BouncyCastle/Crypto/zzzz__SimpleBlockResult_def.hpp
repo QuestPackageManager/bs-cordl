@@ -17,7 +17,7 @@ class SimpleBlockResult;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::SimpleBlockResult);
 // Type: Org.BouncyCastle.Crypto::SimpleBlockResult
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto::SimpleBlockResult*
@@ -27,15 +27,15 @@ public:
   __declspec(property(get = get_Length)) int32_t Length;
 
   /// @brief Field result, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_result, put = __cordl_internal_set_result))::ArrayW<uint8_t, ::Array<uint8_t>*> result;
+  __declspec(property(get = __cordl_internal_get_result, put = __cordl_internal_set_result)) ::ArrayW<uint8_t, ::Array<uint8_t>*> result;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockResult"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockResult*() noexcept;
 
-  /// @brief Method Collect, addr 0x12373b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0x240a230, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
 
-  /// @brief Method Collect, addr 0x12373bc, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0x240a238, size 0x40, virtual true, abstract: false, final true
   inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> destination, int32_t offset);
 
   static inline ::Org::BouncyCastle::Crypto::SimpleBlockResult* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> result);
@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_result(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1237370, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240a1ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> result);
 
-  /// @brief Method get_Length, addr 0x1237398, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x240a214, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field result, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___result;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1354 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

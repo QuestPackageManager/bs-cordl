@@ -4,9 +4,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SettingsApplicatorSO_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(QuestSettingsApplicatorSO)
-namespace BeatSaber::PerformancePresets {
-class PerformancePreset;
+namespace BeatSaber::Settings {
+struct Settings;
 }
 namespace GlobalNamespace {
 struct SceneType;
@@ -18,19 +19,19 @@ class QuestSettingsApplicatorSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::QuestSettingsApplicatorSO);
 // Type: ::QuestSettingsApplicatorSO
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::QuestSettingsApplicatorSO*
 class CORDL_TYPE QuestSettingsApplicatorSO : public ::GlobalNamespace::SettingsApplicatorSO {
 public:
   // Declarations
-  /// @brief Method ApplyPerformancePreset, addr 0x26c55ac, size 0x2dc, virtual true, abstract: false, final false
-  inline void ApplyPerformancePreset(::BeatSaber::PerformancePresets::PerformancePreset* preset, ::GlobalNamespace::SceneType sceneType);
+  /// @brief Method ApplyGraphicSettings, addr 0x3ab9f8c, size 0x2a4, virtual true, abstract: false, final false
+  inline void ApplyGraphicSettings(ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
 
   static inline ::GlobalNamespace::QuestSettingsApplicatorSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26c5a94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aba424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,6 +47,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "QuestSettingsApplicatorSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   QuestSettingsApplicatorSO(QuestSettingsApplicatorSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5147 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

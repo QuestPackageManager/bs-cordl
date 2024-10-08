@@ -86,7 +86,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__Disp
 MARK_REF_PTR_T(::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0);
 MARK_REF_PTR_T(::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OculusPlatformLeaderboardsHandler::<>c*
@@ -94,17 +94,17 @@ class CORDL_TYPE __OculusPlatformLeaderboardsHandler____c : public ::System::Obj
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c* __9;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::LeaderboardEntryList*>* __9__3_0;
+  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::LeaderboardEntryList*>* __9__3_0;
 
   static inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c* New_ctor();
 
-  /// @brief Method <.ctor>b__3_0, addr 0x14b6b10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__3_0, addr 0x26c49f0, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__3_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>* _);
 
-  /// @brief Method .ctor, addr 0x14b6b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c49e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c* getStaticF___9();
@@ -129,6 +129,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OculusPlatformLeaderboardsHandler____c(__OculusPlatformLeaderboardsHandler____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13300 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -136,7 +139,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusPlatfor
 
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass4_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OculusPlatformLeaderboardsHandler::<>c__DisplayClass4_0*
@@ -144,14 +147,14 @@ class CORDL_TYPE __OculusPlatformLeaderboardsHandler____c__DisplayClass4_0 : pub
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusPlatformLeaderboardsHandler* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::GlobalNamespace::OculusPlatformLeaderboardsHandler* __4__this;
 
   /// @brief Field oculusRequest, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_oculusRequest, put = __cordl_internal_set_oculusRequest))::Oculus::Platform::Request* oculusRequest;
+  __declspec(property(get = __cordl_internal_get_oculusRequest, put = __cordl_internal_set_oculusRequest)) ::Oculus::Platform::Request* oculusRequest;
 
   static inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <AddOculusRequest>b__0, addr 0x14b6b14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <AddOculusRequest>b__0, addr 0x26c49f4, size 0x64, virtual false, abstract: false, final false
   inline void _AddOculusRequest_b__0(::GlobalNamespace::HMAsyncRequest* _);
 
   constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& __cordl_internal_get___4__this();
@@ -166,7 +169,7 @@ public:
 
   constexpr void __cordl_internal_set_oculusRequest(::Oculus::Platform::Request* value);
 
-  /// @brief Method .ctor, addr 0x14b6554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c4444, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -189,6 +192,9 @@ public:
   /// @brief Field oculusRequest, offset: 0x18, size: 0x8, def value: None
   ::Oculus::Platform::Request* ___oculusRequest;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13301 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -200,7 +206,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformLeaderboardsHandler___
 
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass6_0
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OculusPlatformLeaderboardsHandler::<>c__DisplayClass6_0*
@@ -208,18 +214,18 @@ class CORDL_TYPE __OculusPlatformLeaderboardsHandler____c__DisplayClass6_0 : pub
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusPlatformLeaderboardsHandler* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::GlobalNamespace::OculusPlatformLeaderboardsHandler* __4__this;
 
   /// @brief Field completionHandler, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_completionHandler,
-                      put = __cordl_internal_set_completionHandler))::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* completionHandler;
+                      put = __cordl_internal_set_completionHandler)) ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* completionHandler;
 
   /// @brief Field referencePlayerId, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_referencePlayerId, put = __cordl_internal_set_referencePlayerId))::StringW referencePlayerId;
+  __declspec(property(get = __cordl_internal_get_referencePlayerId, put = __cordl_internal_set_referencePlayerId)) ::StringW referencePlayerId;
 
   static inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <GetScores>g__Callback|0, addr 0x14b6b78, size 0x1358, virtual false, abstract: false, final false
+  /// @brief Method <GetScores>g__Callback|0, addr 0x26c4a58, size 0x308, virtual false, abstract: false, final false
   inline void _GetScores_g__Callback_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*>* message);
 
   constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& __cordl_internal_get___4__this();
@@ -240,7 +246,7 @@ public:
 
   constexpr void __cordl_internal_set_referencePlayerId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14b6868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c4750, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -266,6 +272,9 @@ public:
   /// @brief Field referencePlayerId, offset: 0x20, size: 0x8, def value: None
   ::StringW ___referencePlayerId;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13302 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -279,7 +288,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformLeaderboardsHandler___
 
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass7_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OculusPlatformLeaderboardsHandler::<>c__DisplayClass7_0*
@@ -287,15 +296,15 @@ class CORDL_TYPE __OculusPlatformLeaderboardsHandler____c__DisplayClass7_0 : pub
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusPlatformLeaderboardsHandler* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::GlobalNamespace::OculusPlatformLeaderboardsHandler* __4__this;
 
   /// @brief Field completionHandler, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_completionHandler,
-                      put = __cordl_internal_set_completionHandler))::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler;
+                      put = __cordl_internal_set_completionHandler)) ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler;
 
   static inline ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <UploadScore>b__0, addr 0x14b7ed8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <UploadScore>b__0, addr 0x26c4da0, size 0x98, virtual false, abstract: false, final false
   inline void _UploadScore_b__0(::Oculus::Platform::Message_1<bool>* messsage);
 
   constexpr ::GlobalNamespace::OculusPlatformLeaderboardsHandler*& __cordl_internal_get___4__this();
@@ -310,7 +319,7 @@ public:
 
   constexpr void __cordl_internal_set_completionHandler(::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* value);
 
-  /// @brief Method .ctor, addr 0x14b7ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c4984, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -333,6 +342,9 @@ public:
   /// @brief Field completionHandler, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* ___completionHandler;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13303 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -344,7 +356,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformLeaderboardsHandler___
 
 } // namespace GlobalNamespace
 // Type: ::OculusPlatformLeaderboardsHandler
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OculusPlatformLeaderboardsHandler*
@@ -360,29 +372,29 @@ public:
   using __c__DisplayClass7_0 = ::GlobalNamespace::__OculusPlatformLeaderboardsHandler____c__DisplayClass7_0;
 
   /// @brief Field _gameplayModifiersModel, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayModifiersModel,
-                      put = __cordl_internal_set__gameplayModifiersModel))::UnityW<::GlobalNamespace::GameplayModifiersModelSO> _gameplayModifiersModel;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiersModel, put = __cordl_internal_set__gameplayModifiersModel)) ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>
+      _gameplayModifiersModel;
 
   /// @brief Field _leaderboardIdsModel, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__leaderboardIdsModel, put = __cordl_internal_set__leaderboardIdsModel))::GlobalNamespace::LeaderboardIdsModel* _leaderboardIdsModel;
+  __declspec(property(get = __cordl_internal_get__leaderboardIdsModel, put = __cordl_internal_set__leaderboardIdsModel)) ::GlobalNamespace::LeaderboardIdsModel* _leaderboardIdsModel;
 
   /// @brief Field _oculusRequestIds, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__oculusRequestIds, put = __cordl_internal_set__oculusRequestIds))::System::Collections::Generic::HashSet_1<uint64_t>* _oculusRequestIds;
+  __declspec(property(get = __cordl_internal_get__oculusRequestIds, put = __cordl_internal_set__oculusRequestIds)) ::System::Collections::Generic::HashSet_1<uint64_t>* _oculusRequestIds;
 
-  /// @brief Method AddOculusRequest, addr 0x14b6468, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddOculusRequest, addr 0x26c435c, size 0xe8, virtual false, abstract: false, final false
   inline void AddOculusRequest(::Oculus::Platform::Request* oculusRequest, ::GlobalNamespace::HMAsyncRequest* asyncRequest);
 
-  /// @brief Method CheckMessageForValidRequest, addr 0x14b655c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CheckMessageForValidRequest, addr 0x26c444c, size 0x94, virtual false, abstract: false, final false
   inline bool CheckMessageForValidRequest(::Oculus::Platform::Message* message);
 
-  /// @brief Method GetScores, addr 0x14b65f4, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method GetScores, addr 0x26c44e0, size 0x270, virtual true, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* GetScores(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope scope, ::StringW referencePlayerId,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* completionHandler);
 
   static inline ::GlobalNamespace::OculusPlatformLeaderboardsHandler* New_ctor();
 
-  /// @brief Method UploadScore, addr 0x14b6870, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method UploadScore, addr 0x26c4758, size 0x22c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* UploadScore(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData,
                                                         ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler);
 
@@ -404,7 +416,7 @@ public:
 
   constexpr void __cordl_internal_set__oculusRequestIds(::System::Collections::Generic::HashSet_1<uint64_t>* value);
 
-  /// @brief Method .ctor, addr 0x14b6348, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c4238, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -429,6 +441,9 @@ public:
 
   /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13304 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

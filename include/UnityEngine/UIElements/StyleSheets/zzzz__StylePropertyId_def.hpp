@@ -13,7 +13,7 @@ struct StylePropertyId;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StylePropertyId);
 // Type: UnityEngine.UIElements.StyleSheets::StylePropertyId
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyId
@@ -32,26 +32,31 @@ public:
     __E_All = static_cast<int32_t>(0x40000),
     __E_BackgroundColor = static_cast<int32_t>(0x70000),
     __E_BackgroundImage = static_cast<int32_t>(0x70001),
-    __E_BorderBottomColor = static_cast<int32_t>(0x70002),
-    __E_BorderBottomLeftRadius = static_cast<int32_t>(0x70003),
-    __E_BorderBottomRightRadius = static_cast<int32_t>(0x70004),
+    __E_BackgroundPosition = static_cast<int32_t>(0x40001),
+    __E_BackgroundPositionX = static_cast<int32_t>(0x70002),
+    __E_BackgroundPositionY = static_cast<int32_t>(0x70003),
+    __E_BackgroundRepeat = static_cast<int32_t>(0x70004),
+    __E_BackgroundSize = static_cast<int32_t>(0x70005),
+    __E_BorderBottomColor = static_cast<int32_t>(0x70006),
+    __E_BorderBottomLeftRadius = static_cast<int32_t>(0x70007),
+    __E_BorderBottomRightRadius = static_cast<int32_t>(0x70008),
     __E_BorderBottomWidth = static_cast<int32_t>(0x20003),
-    __E_BorderColor = static_cast<int32_t>(0x40001),
-    __E_BorderLeftColor = static_cast<int32_t>(0x70005),
+    __E_BorderColor = static_cast<int32_t>(0x40002),
+    __E_BorderLeftColor = static_cast<int32_t>(0x70009),
     __E_BorderLeftWidth = static_cast<int32_t>(0x20004),
-    __E_BorderRadius = static_cast<int32_t>(0x40002),
-    __E_BorderRightColor = static_cast<int32_t>(0x70006),
+    __E_BorderRadius = static_cast<int32_t>(0x40003),
+    __E_BorderRightColor = static_cast<int32_t>(0x7000a),
     __E_BorderRightWidth = static_cast<int32_t>(0x20005),
-    __E_BorderTopColor = static_cast<int32_t>(0x70007),
-    __E_BorderTopLeftRadius = static_cast<int32_t>(0x70008),
-    __E_BorderTopRightRadius = static_cast<int32_t>(0x70009),
+    __E_BorderTopColor = static_cast<int32_t>(0x7000b),
+    __E_BorderTopLeftRadius = static_cast<int32_t>(0x7000c),
+    __E_BorderTopRightRadius = static_cast<int32_t>(0x7000d),
     __E_BorderTopWidth = static_cast<int32_t>(0x20006),
-    __E_BorderWidth = static_cast<int32_t>(0x40003),
+    __E_BorderWidth = static_cast<int32_t>(0x40004),
     __E_Bottom = static_cast<int32_t>(0x20007),
     __E_Color = static_cast<int32_t>(0x10000),
     __E_Cursor = static_cast<int32_t>(0x30000),
     __E_Display = static_cast<int32_t>(0x20008),
-    __E_Flex = static_cast<int32_t>(0x40004),
+    __E_Flex = static_cast<int32_t>(0x40005),
     __E_FlexBasis = static_cast<int32_t>(0x20009),
     __E_FlexDirection = static_cast<int32_t>(0x2000a),
     __E_FlexGrow = static_cast<int32_t>(0x2000b),
@@ -62,7 +67,7 @@ public:
     __E_JustifyContent = static_cast<int32_t>(0x2000f),
     __E_Left = static_cast<int32_t>(0x20010),
     __E_LetterSpacing = static_cast<int32_t>(0x10002),
-    __E_Margin = static_cast<int32_t>(0x40005),
+    __E_Margin = static_cast<int32_t>(0x40006),
     __E_MarginBottom = static_cast<int32_t>(0x20011),
     __E_MarginLeft = static_cast<int32_t>(0x20012),
     __E_MarginRight = static_cast<int32_t>(0x20013),
@@ -71,9 +76,9 @@ public:
     __E_MaxWidth = static_cast<int32_t>(0x20016),
     __E_MinHeight = static_cast<int32_t>(0x20017),
     __E_MinWidth = static_cast<int32_t>(0x20018),
-    __E_Opacity = static_cast<int32_t>(0x7000a),
-    __E_Overflow = static_cast<int32_t>(0x7000b),
-    __E_Padding = static_cast<int32_t>(0x40006),
+    __E_Opacity = static_cast<int32_t>(0x7000e),
+    __E_Overflow = static_cast<int32_t>(0x7000f),
+    __E_Padding = static_cast<int32_t>(0x40007),
     __E_PaddingBottom = static_cast<int32_t>(0x20019),
     __E_PaddingLeft = static_cast<int32_t>(0x2001a),
     __E_PaddingRight = static_cast<int32_t>(0x2001b),
@@ -86,25 +91,26 @@ public:
     __E_TextShadow = static_cast<int32_t>(0x10003),
     __E_Top = static_cast<int32_t>(0x2001f),
     __E_TransformOrigin = static_cast<int32_t>(0x50002),
-    __E_Transition = static_cast<int32_t>(0x40007),
+    __E_Transition = static_cast<int32_t>(0x40008),
     __E_TransitionDelay = static_cast<int32_t>(0x60000),
     __E_TransitionDuration = static_cast<int32_t>(0x60001),
     __E_TransitionProperty = static_cast<int32_t>(0x60002),
     __E_TransitionTimingFunction = static_cast<int32_t>(0x60003),
     __E_Translate = static_cast<int32_t>(0x50003),
     __E_UnityBackgroundImageTintColor = static_cast<int32_t>(0x30002),
-    __E_UnityBackgroundScaleMode = static_cast<int32_t>(0x30003),
+    __E_UnityBackgroundScaleMode = static_cast<int32_t>(0x40009),
     __E_UnityFont = static_cast<int32_t>(0x10004),
     __E_UnityFontDefinition = static_cast<int32_t>(0x10005),
     __E_UnityFontStyleAndWeight = static_cast<int32_t>(0x10006),
-    __E_UnityOverflowClipBox = static_cast<int32_t>(0x30004),
+    __E_UnityOverflowClipBox = static_cast<int32_t>(0x30003),
     __E_UnityParagraphSpacing = static_cast<int32_t>(0x10007),
-    __E_UnitySliceBottom = static_cast<int32_t>(0x30005),
-    __E_UnitySliceLeft = static_cast<int32_t>(0x30006),
-    __E_UnitySliceRight = static_cast<int32_t>(0x30007),
+    __E_UnitySliceBottom = static_cast<int32_t>(0x30004),
+    __E_UnitySliceLeft = static_cast<int32_t>(0x30005),
+    __E_UnitySliceRight = static_cast<int32_t>(0x30006),
+    __E_UnitySliceScale = static_cast<int32_t>(0x30007),
     __E_UnitySliceTop = static_cast<int32_t>(0x30008),
     __E_UnityTextAlign = static_cast<int32_t>(0x10008),
-    __E_UnityTextOutline = static_cast<int32_t>(0x40008),
+    __E_UnityTextOutline = static_cast<int32_t>(0x4000a),
     __E_UnityTextOutlineColor = static_cast<int32_t>(0x10009),
     __E_UnityTextOutlineWidth = static_cast<int32_t>(0x1000a),
     __E_UnityTextOverflowPosition = static_cast<int32_t>(0x30009),
@@ -152,49 +158,64 @@ public:
   /// @brief Field BackgroundImage value: static_cast<int32_t>(0x70001)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BackgroundImage;
 
-  /// @brief Field BorderBottomColor value: static_cast<int32_t>(0x70002)
+  /// @brief Field BackgroundPosition value: static_cast<int32_t>(0x40001)
+  static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BackgroundPosition;
+
+  /// @brief Field BackgroundPositionX value: static_cast<int32_t>(0x70002)
+  static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BackgroundPositionX;
+
+  /// @brief Field BackgroundPositionY value: static_cast<int32_t>(0x70003)
+  static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BackgroundPositionY;
+
+  /// @brief Field BackgroundRepeat value: static_cast<int32_t>(0x70004)
+  static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BackgroundRepeat;
+
+  /// @brief Field BackgroundSize value: static_cast<int32_t>(0x70005)
+  static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BackgroundSize;
+
+  /// @brief Field BorderBottomColor value: static_cast<int32_t>(0x70006)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderBottomColor;
 
-  /// @brief Field BorderBottomLeftRadius value: static_cast<int32_t>(0x70003)
+  /// @brief Field BorderBottomLeftRadius value: static_cast<int32_t>(0x70007)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderBottomLeftRadius;
 
-  /// @brief Field BorderBottomRightRadius value: static_cast<int32_t>(0x70004)
+  /// @brief Field BorderBottomRightRadius value: static_cast<int32_t>(0x70008)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderBottomRightRadius;
 
   /// @brief Field BorderBottomWidth value: static_cast<int32_t>(0x20003)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderBottomWidth;
 
-  /// @brief Field BorderColor value: static_cast<int32_t>(0x40001)
+  /// @brief Field BorderColor value: static_cast<int32_t>(0x40002)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderColor;
 
-  /// @brief Field BorderLeftColor value: static_cast<int32_t>(0x70005)
+  /// @brief Field BorderLeftColor value: static_cast<int32_t>(0x70009)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderLeftColor;
 
   /// @brief Field BorderLeftWidth value: static_cast<int32_t>(0x20004)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderLeftWidth;
 
-  /// @brief Field BorderRadius value: static_cast<int32_t>(0x40002)
+  /// @brief Field BorderRadius value: static_cast<int32_t>(0x40003)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderRadius;
 
-  /// @brief Field BorderRightColor value: static_cast<int32_t>(0x70006)
+  /// @brief Field BorderRightColor value: static_cast<int32_t>(0x7000a)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderRightColor;
 
   /// @brief Field BorderRightWidth value: static_cast<int32_t>(0x20005)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderRightWidth;
 
-  /// @brief Field BorderTopColor value: static_cast<int32_t>(0x70007)
+  /// @brief Field BorderTopColor value: static_cast<int32_t>(0x7000b)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderTopColor;
 
-  /// @brief Field BorderTopLeftRadius value: static_cast<int32_t>(0x70008)
+  /// @brief Field BorderTopLeftRadius value: static_cast<int32_t>(0x7000c)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderTopLeftRadius;
 
-  /// @brief Field BorderTopRightRadius value: static_cast<int32_t>(0x70009)
+  /// @brief Field BorderTopRightRadius value: static_cast<int32_t>(0x7000d)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderTopRightRadius;
 
   /// @brief Field BorderTopWidth value: static_cast<int32_t>(0x20006)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderTopWidth;
 
-  /// @brief Field BorderWidth value: static_cast<int32_t>(0x40003)
+  /// @brief Field BorderWidth value: static_cast<int32_t>(0x40004)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const BorderWidth;
 
   /// @brief Field Bottom value: static_cast<int32_t>(0x20007)
@@ -212,7 +233,7 @@ public:
   /// @brief Field Display value: static_cast<int32_t>(0x20008)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Display;
 
-  /// @brief Field Flex value: static_cast<int32_t>(0x40004)
+  /// @brief Field Flex value: static_cast<int32_t>(0x40005)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Flex;
 
   /// @brief Field FlexBasis value: static_cast<int32_t>(0x20009)
@@ -245,7 +266,7 @@ public:
   /// @brief Field LetterSpacing value: static_cast<int32_t>(0x10002)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const LetterSpacing;
 
-  /// @brief Field Margin value: static_cast<int32_t>(0x40005)
+  /// @brief Field Margin value: static_cast<int32_t>(0x40006)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Margin;
 
   /// @brief Field MarginBottom value: static_cast<int32_t>(0x20011)
@@ -272,13 +293,13 @@ public:
   /// @brief Field MinWidth value: static_cast<int32_t>(0x20018)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const MinWidth;
 
-  /// @brief Field Opacity value: static_cast<int32_t>(0x7000a)
+  /// @brief Field Opacity value: static_cast<int32_t>(0x7000e)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Opacity;
 
-  /// @brief Field Overflow value: static_cast<int32_t>(0x7000b)
+  /// @brief Field Overflow value: static_cast<int32_t>(0x7000f)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Overflow;
 
-  /// @brief Field Padding value: static_cast<int32_t>(0x40006)
+  /// @brief Field Padding value: static_cast<int32_t>(0x40007)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Padding;
 
   /// @brief Field PaddingBottom value: static_cast<int32_t>(0x20019)
@@ -317,7 +338,7 @@ public:
   /// @brief Field TransformOrigin value: static_cast<int32_t>(0x50002)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const TransformOrigin;
 
-  /// @brief Field Transition value: static_cast<int32_t>(0x40007)
+  /// @brief Field Transition value: static_cast<int32_t>(0x40008)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Transition;
 
   /// @brief Field TransitionDelay value: static_cast<int32_t>(0x60000)
@@ -338,7 +359,7 @@ public:
   /// @brief Field UnityBackgroundImageTintColor value: static_cast<int32_t>(0x30002)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityBackgroundImageTintColor;
 
-  /// @brief Field UnityBackgroundScaleMode value: static_cast<int32_t>(0x30003)
+  /// @brief Field UnityBackgroundScaleMode value: static_cast<int32_t>(0x40009)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityBackgroundScaleMode;
 
   /// @brief Field UnityFont value: static_cast<int32_t>(0x10004)
@@ -350,20 +371,23 @@ public:
   /// @brief Field UnityFontStyleAndWeight value: static_cast<int32_t>(0x10006)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityFontStyleAndWeight;
 
-  /// @brief Field UnityOverflowClipBox value: static_cast<int32_t>(0x30004)
+  /// @brief Field UnityOverflowClipBox value: static_cast<int32_t>(0x30003)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityOverflowClipBox;
 
   /// @brief Field UnityParagraphSpacing value: static_cast<int32_t>(0x10007)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityParagraphSpacing;
 
-  /// @brief Field UnitySliceBottom value: static_cast<int32_t>(0x30005)
+  /// @brief Field UnitySliceBottom value: static_cast<int32_t>(0x30004)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnitySliceBottom;
 
-  /// @brief Field UnitySliceLeft value: static_cast<int32_t>(0x30006)
+  /// @brief Field UnitySliceLeft value: static_cast<int32_t>(0x30005)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnitySliceLeft;
 
-  /// @brief Field UnitySliceRight value: static_cast<int32_t>(0x30007)
+  /// @brief Field UnitySliceRight value: static_cast<int32_t>(0x30006)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnitySliceRight;
+
+  /// @brief Field UnitySliceScale value: static_cast<int32_t>(0x30007)
+  static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnitySliceScale;
 
   /// @brief Field UnitySliceTop value: static_cast<int32_t>(0x30008)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnitySliceTop;
@@ -371,7 +395,7 @@ public:
   /// @brief Field UnityTextAlign value: static_cast<int32_t>(0x10008)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextAlign;
 
-  /// @brief Field UnityTextOutline value: static_cast<int32_t>(0x40008)
+  /// @brief Field UnityTextOutline value: static_cast<int32_t>(0x4000a)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextOutline;
 
   /// @brief Field UnityTextOutlineColor value: static_cast<int32_t>(0x10009)
@@ -397,6 +421,9 @@ public:
 
   /// @brief Field WordSpacing value: static_cast<int32_t>(0x1000d)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const WordSpacing;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6413 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

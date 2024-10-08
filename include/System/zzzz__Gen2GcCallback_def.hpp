@@ -19,7 +19,7 @@ class Gen2GcCallback;
 // Write type traits
 MARK_REF_PTR_T(::System::Gen2GcCallback);
 // Type: System::Gen2GcCallback
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::Gen2GcCallback*
@@ -27,20 +27,20 @@ class CORDL_TYPE Gen2GcCallback : public ::System::Runtime::ConstrainedExecution
 public:
   // Declarations
   /// @brief Field _callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__callback, put = __cordl_internal_set__callback))::System::Func_2<::System::Object*, bool>* _callback;
+  __declspec(property(get = __cordl_internal_get__callback, put = __cordl_internal_set__callback)) ::System::Func_2<::System::Object*, bool>* _callback;
 
   /// @brief Field _weakTargetObj, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__weakTargetObj, put = __cordl_internal_set__weakTargetObj))::System::Runtime::InteropServices::GCHandle _weakTargetObj;
+  __declspec(property(get = __cordl_internal_get__weakTargetObj, put = __cordl_internal_set__weakTargetObj)) ::System::Runtime::InteropServices::GCHandle _weakTargetObj;
 
-  /// @brief Method Finalize, addr 0x294be34, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3d5f35c, size 0x1ac, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Gen2GcCallback* New_ctor();
 
-  /// @brief Method Register, addr 0x294bd8c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x3d5f2b4, size 0x80, virtual false, abstract: false, final false
   static inline void Register(::System::Func_2<::System::Object*, bool>* callback, ::System::Object* targetObj);
 
-  /// @brief Method Setup, addr 0x294be0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3d5f334, size 0x28, virtual false, abstract: false, final false
   inline void Setup(::System::Func_2<::System::Object*, bool>* callback, ::System::Object* targetObj);
 
   constexpr ::System::Func_2<::System::Object*, bool>*& __cordl_internal_get__callback();
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__weakTargetObj(::System::Runtime::InteropServices::GCHandle value);
 
-  /// @brief Method .ctor, addr 0x294bd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d5f2ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field _weakTargetObj, offset: 0x18, size: 0x8, def value: None
   ::System::Runtime::InteropServices::GCHandle ____weakTargetObj;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2386 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

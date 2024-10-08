@@ -31,7 +31,7 @@ class Vector2Composite;
 MARK_VAL_T(::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::Vector2Composite);
 // Type: ::Mode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: true
 // CS Name: ::Vector2Composite::Mode
@@ -76,6 +76,9 @@ public:
   /// @brief Field DigitalNormalized value: static_cast<int32_t>(0x0)
   static ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode const DigitalNormalized;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7095 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -88,7 +91,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Composites::__Vector2Composit
 
 } // namespace UnityEngine::InputSystem::Composites
 // Type: UnityEngine.InputSystem.Composites::Vector2Composite
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Composites::Vector2Composite*
@@ -104,7 +107,7 @@ public:
   __declspec(property(get = __cordl_internal_get_left, put = __cordl_internal_set_left)) int32_t left;
 
   /// @brief Field mode, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode))::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode mode;
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode)) ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode mode;
 
   /// @brief Field normalize, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_normalize, put = __cordl_internal_set_normalize)) bool normalize;
@@ -115,12 +118,12 @@ public:
   /// @brief Field up, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_up, put = __cordl_internal_set_up)) int32_t up;
 
-  /// @brief Method EvaluateMagnitude, addr 0x30fd544, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x44fce5c, size 0x70, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::Vector2Composite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x30fd3e0, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x44fccf8, size 0x164, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_down() const;
@@ -159,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set_up(int32_t value);
 
-  /// @brief Method .ctor, addr 0x30fd5b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44fcecc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -193,6 +196,9 @@ public:
 
   /// @brief Field mode, offset: 0x24, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Composites::__Vector2Composite__Mode ___mode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7096 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

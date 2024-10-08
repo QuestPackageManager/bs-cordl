@@ -29,7 +29,7 @@ class MonoTlsProviderFactory;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::MonoTlsProviderFactory);
 // Type: Mono.Net.Security::MonoTlsProviderFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
 // CS Name: ::Mono.Net.Security::MonoTlsProviderFactory*
@@ -37,53 +37,53 @@ class CORDL_TYPE MonoTlsProviderFactory : public ::System::Object {
 public:
   // Declarations
   /// @brief Field AppleTlsId, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_AppleTlsId, put = setStaticF_AppleTlsId))::System::Guid AppleTlsId;
+  static __declspec(property(get = getStaticF_AppleTlsId, put = setStaticF_AppleTlsId)) ::System::Guid AppleTlsId;
 
   /// @brief Field BtlsId, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_BtlsId, put = setStaticF_BtlsId))::System::Guid BtlsId;
+  static __declspec(property(get = getStaticF_BtlsId, put = setStaticF_BtlsId)) ::System::Guid BtlsId;
 
   /// @brief Field UnityTlsId, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_UnityTlsId, put = setStaticF_UnityTlsId))::System::Guid UnityTlsId;
+  static __declspec(property(get = getStaticF_UnityTlsId, put = setStaticF_UnityTlsId)) ::System::Guid UnityTlsId;
 
   /// @brief Field defaultProvider, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_defaultProvider, put = setStaticF_defaultProvider))::Mono::Net::Security::MobileTlsProvider* defaultProvider;
+  static __declspec(property(get = getStaticF_defaultProvider, put = setStaticF_defaultProvider)) ::Mono::Net::Security::MobileTlsProvider* defaultProvider;
 
   /// @brief Field initialized, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_initialized, put = setStaticF_initialized)) bool initialized;
 
   /// @brief Field locker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_locker, put = setStaticF_locker))::System::Object* locker;
+  static __declspec(property(get = getStaticF_locker, put = setStaticF_locker)) ::System::Object* locker;
 
   /// @brief Field providerCache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_providerCache,
-                             put = setStaticF_providerCache))::System::Collections::Generic::Dictionary_2<::System::Guid, ::Mono::Net::Security::MobileTlsProvider*>* providerCache;
+                             put = setStaticF_providerCache)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::Mono::Net::Security::MobileTlsProvider*>* providerCache;
 
   /// @brief Field providerRegistration, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_providerRegistration,
-                             put = setStaticF_providerRegistration))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Tuple_2<::System::Guid, ::StringW>*>* providerRegistration;
+                             put = setStaticF_providerRegistration)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Tuple_2<::System::Guid, ::StringW>*>* providerRegistration;
 
-  /// @brief Method CreateDefaultProviderImpl, addr 0x2c9f0a0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultProviderImpl, addr 0x40a0044, size 0x188, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* CreateDefaultProviderImpl();
 
-  /// @brief Method GetProvider, addr 0x2c9f954, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetProvider, addr 0x40a08bc, size 0x4c, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* GetProvider();
 
-  /// @brief Method GetProviderInternal, addr 0x2c9aa70, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetProviderInternal, addr 0x409b8dc, size 0x118, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* GetProviderInternal();
 
-  /// @brief Method InitializeInternal, addr 0x2c9eae8, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method InitializeInternal, addr 0x409fabc, size 0x398, virtual false, abstract: false, final false
   static inline void InitializeInternal();
 
-  /// @brief Method InitializeProviderRegistration, addr 0x2c9ee94, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method InitializeProviderRegistration, addr 0x409fe54, size 0x1f0, virtual false, abstract: false, final false
   static inline void InitializeProviderRegistration();
 
-  /// @brief Method LookupProvider, addr 0x2c9f234, size 0x594, virtual false, abstract: false, final false
+  /// @brief Method LookupProvider, addr 0x40a01cc, size 0x560, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* LookupProvider(::StringW name, bool throwOnError);
 
-  /// @brief Method PopulateProviders, addr 0x2c9f904, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method PopulateProviders, addr 0x40a086c, size 0x50, virtual false, abstract: false, final false
   static inline void PopulateProviders();
 
-  /// @brief Method PopulateUnityProviders, addr 0x2c9f7c8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method PopulateUnityProviders, addr 0x40a072c, size 0x140, virtual false, abstract: false, final false
   static inline void PopulateUnityProviders();
 
   static inline ::System::Guid getStaticF_AppleTlsId();
@@ -131,6 +131,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoTlsProviderFactory", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MonoTlsProviderFactory(MonoTlsProviderFactory const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9127 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

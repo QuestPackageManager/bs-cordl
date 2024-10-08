@@ -21,7 +21,7 @@ class SignalCopyBinder;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SignalCopyBinder);
 // Type: Zenject::SignalCopyBinder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::SignalCopyBinder*
@@ -29,28 +29,28 @@ class CORDL_TYPE SignalCopyBinder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _bindInfos, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__bindInfos, put = __cordl_internal_set__bindInfos))::System::Collections::Generic::List_1<::Zenject::BindInfo*>* _bindInfos;
+  __declspec(property(get = __cordl_internal_get__bindInfos, put = __cordl_internal_set__bindInfos)) ::System::Collections::Generic::List_1<::Zenject::BindInfo*>* _bindInfos;
 
-  /// @brief Method AddCopyBindInfo, addr 0x365962c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddCopyBindInfo, addr 0x4a7fd50, size 0xa4, virtual false, abstract: false, final false
   inline void AddCopyBindInfo(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method CopyIntoAllSubContainers, addr 0x36596d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyIntoAllSubContainers, addr 0x4a7fdf4, size 0x8, virtual false, abstract: false, final false
   inline void CopyIntoAllSubContainers();
 
-  /// @brief Method CopyIntoDirectSubContainers, addr 0x3659770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyIntoDirectSubContainers, addr 0x4a7fe90, size 0x8, virtual false, abstract: false, final false
   inline void CopyIntoDirectSubContainers();
 
-  /// @brief Method MoveIntoAllSubContainers, addr 0x3659778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MoveIntoAllSubContainers, addr 0x4a7fe98, size 0x8, virtual false, abstract: false, final false
   inline void MoveIntoAllSubContainers();
 
-  /// @brief Method MoveIntoDirectSubContainers, addr 0x3659780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MoveIntoDirectSubContainers, addr 0x4a7fea0, size 0x8, virtual false, abstract: false, final false
   inline void MoveIntoDirectSubContainers();
 
   static inline ::Zenject::SignalCopyBinder* New_ctor();
 
   static inline ::Zenject::SignalCopyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method SetInheritanceMethod, addr 0x36596dc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetInheritanceMethod, addr 0x4a7fdfc, size 0x94, virtual false, abstract: false, final false
   inline void SetInheritanceMethod(::Zenject::BindingInheritanceMethods method);
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*& __cordl_internal_get__bindInfos();
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set__bindInfos(::System::Collections::Generic::List_1<::Zenject::BindInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x36594b4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a7fbdc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3659534, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a7fc5c, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field _bindInfos, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::BindInfo*>* ____bindInfos;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11954 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

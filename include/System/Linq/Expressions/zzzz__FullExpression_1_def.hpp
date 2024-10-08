@@ -22,7 +22,7 @@ template <typename TDelegate> class FullExpression_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::FullExpression_1);
 // Type: System.Linq.Expressions::FullExpression`1
-// SizeInfo { instance_size: 48, native_size: 41, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 41, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // cpp template
 template <typename TDelegate>
@@ -31,12 +31,12 @@ template <typename TDelegate>
 class CORDL_TYPE FullExpression_1 : public ::System::Linq::Expressions::ExpressionN_1<TDelegate> {
 public:
   // Declarations
-  __declspec(property(get = get_NameCore))::StringW NameCore;
+  __declspec(property(get = get_NameCore)) ::StringW NameCore;
 
   __declspec(property(get = get_TailCallCore)) bool TailCallCore;
 
   /// @brief Field <NameCore>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__NameCore_k__BackingField, put = __cordl_internal_set__NameCore_k__BackingField))::StringW _NameCore_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__NameCore_k__BackingField, put = __cordl_internal_set__NameCore_k__BackingField)) ::StringW _NameCore_k__BackingField;
 
   /// @brief Field <TailCallCore>k__BackingField, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__TailCallCore_k__BackingField, put = __cordl_internal_set__TailCallCore_k__BackingField)) bool _TailCallCore_k__BackingField;
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field <TailCallCore>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____TailCallCore_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13652 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

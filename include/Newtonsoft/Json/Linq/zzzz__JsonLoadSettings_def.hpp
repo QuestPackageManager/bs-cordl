@@ -24,28 +24,28 @@ class JsonLoadSettings;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonLoadSettings);
 // Type: Newtonsoft.Json.Linq::JsonLoadSettings
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Linq::JsonLoadSettings*
 class CORDL_TYPE JsonLoadSettings : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_CommentHandling, put = set_CommentHandling))::Newtonsoft::Json::Linq::CommentHandling CommentHandling;
+  __declspec(property(get = get_CommentHandling, put = set_CommentHandling)) ::Newtonsoft::Json::Linq::CommentHandling CommentHandling;
 
-  __declspec(property(get = get_DuplicatePropertyNameHandling, put = set_DuplicatePropertyNameHandling))::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling DuplicatePropertyNameHandling;
+  __declspec(property(get = get_DuplicatePropertyNameHandling, put = set_DuplicatePropertyNameHandling)) ::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling DuplicatePropertyNameHandling;
 
-  __declspec(property(get = get_LineInfoHandling, put = set_LineInfoHandling))::Newtonsoft::Json::Linq::LineInfoHandling LineInfoHandling;
+  __declspec(property(get = get_LineInfoHandling, put = set_LineInfoHandling)) ::Newtonsoft::Json::Linq::LineInfoHandling LineInfoHandling;
 
   /// @brief Field _commentHandling, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__commentHandling, put = __cordl_internal_set__commentHandling))::Newtonsoft::Json::Linq::CommentHandling _commentHandling;
+  __declspec(property(get = __cordl_internal_get__commentHandling, put = __cordl_internal_set__commentHandling)) ::Newtonsoft::Json::Linq::CommentHandling _commentHandling;
 
   /// @brief Field _duplicatePropertyNameHandling, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__duplicatePropertyNameHandling,
-                      put = __cordl_internal_set__duplicatePropertyNameHandling))::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling _duplicatePropertyNameHandling;
+                      put = __cordl_internal_set__duplicatePropertyNameHandling)) ::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling _duplicatePropertyNameHandling;
 
   /// @brief Field _lineInfoHandling, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__lineInfoHandling, put = __cordl_internal_set__lineInfoHandling))::Newtonsoft::Json::Linq::LineInfoHandling _lineInfoHandling;
+  __declspec(property(get = __cordl_internal_get__lineInfoHandling, put = __cordl_internal_set__lineInfoHandling)) ::Newtonsoft::Json::Linq::LineInfoHandling _lineInfoHandling;
 
   static inline ::Newtonsoft::Json::Linq::JsonLoadSettings* New_ctor();
 
@@ -67,25 +67,25 @@ public:
 
   constexpr void __cordl_internal_set__lineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
-  /// @brief Method .ctor, addr 0x2a99df0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ea947c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CommentHandling, addr 0x2a99e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CommentHandling, addr 0x3ea94a4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::CommentHandling get_CommentHandling();
 
-  /// @brief Method get_DuplicatePropertyNameHandling, addr 0x2a99ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DuplicatePropertyNameHandling, addr 0x3ea9574, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling get_DuplicatePropertyNameHandling();
 
-  /// @brief Method get_LineInfoHandling, addr 0x2a99e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineInfoHandling, addr 0x3ea950c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::LineInfoHandling get_LineInfoHandling();
 
-  /// @brief Method set_CommentHandling, addr 0x2a99e20, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_CommentHandling, addr 0x3ea94ac, size 0x60, virtual false, abstract: false, final false
   inline void set_CommentHandling(::Newtonsoft::Json::Linq::CommentHandling value);
 
-  /// @brief Method set_DuplicatePropertyNameHandling, addr 0x2a99ef8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_DuplicatePropertyNameHandling, addr 0x3ea957c, size 0x60, virtual false, abstract: false, final false
   inline void set_DuplicatePropertyNameHandling(::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling value);
 
-  /// @brief Method set_LineInfoHandling, addr 0x2a99e8c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_LineInfoHandling, addr 0x3ea9514, size 0x60, virtual false, abstract: false, final false
   inline void set_LineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
 protected:
@@ -110,6 +110,9 @@ public:
 
   /// @brief Field _duplicatePropertyNameHandling, offset: 0x18, size: 0x4, def value: None
   ::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling ____duplicatePropertyNameHandling;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10383 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

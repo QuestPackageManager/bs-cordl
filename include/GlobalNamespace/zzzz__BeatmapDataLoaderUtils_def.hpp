@@ -24,18 +24,18 @@ class BeatmapDataLoaderUtils;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataLoaderUtils);
 // Type: ::BeatmapDataLoaderUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderUtils*
 class CORDL_TYPE BeatmapDataLoaderUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEnvironmentKeywords, addr 0x14bebf0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentKeywords, addr 0x26775c8, size 0x14c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentKeywords* GetEnvironmentKeywords(::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                                                                                ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion);
 
-  /// @brief Method GetEnvironmentLightGroups, addr 0x14bed38, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentLightGroups, addr 0x2677714, size 0x110, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IEnvironmentLightGroups* GetEnvironmentLightGroups(::GlobalNamespace::IEnvironmentInfo* environmentInfo);
 
 protected:
@@ -51,6 +51,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoaderUtils", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDataLoaderUtils(BeatmapDataLoaderUtils const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12840 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

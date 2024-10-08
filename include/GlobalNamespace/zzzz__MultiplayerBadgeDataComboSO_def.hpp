@@ -16,19 +16,19 @@ class MultiplayerBadgeDataComboSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataComboSO);
 // Type: ::MultiplayerBadgeDataComboSO
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerBadgeDataComboSO*
 class CORDL_TYPE MultiplayerBadgeDataComboSO : public ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO {
 public:
   // Declarations
-  /// @brief Method GetValue, addr 0x14dbdd4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x2695650, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataComboSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x14dbdfc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2695678, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataComboSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerBadgeDataComboSO(MultiplayerBadgeDataComboSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13023 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

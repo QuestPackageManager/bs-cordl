@@ -28,7 +28,7 @@ class CertRepMessage;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::CertRepMessage);
 // Type: Org.BouncyCastle.Asn1.Cmp::CertRepMessage
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::CertRepMessage*
@@ -36,18 +36,18 @@ class CORDL_TYPE CertRepMessage : public ::Org::BouncyCastle::Asn1::Asn1Encodabl
 public:
   // Declarations
   /// @brief Field caPubs, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_caPubs, put = __cordl_internal_set_caPubs))::Org::BouncyCastle::Asn1::Asn1Sequence* caPubs;
+  __declspec(property(get = __cordl_internal_get_caPubs, put = __cordl_internal_set_caPubs)) ::Org::BouncyCastle::Asn1::Asn1Sequence* caPubs;
 
   /// @brief Field response, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_response, put = __cordl_internal_set_response))::Org::BouncyCastle::Asn1::Asn1Sequence* response;
+  __declspec(property(get = __cordl_internal_get_response, put = __cordl_internal_set_response)) ::Org::BouncyCastle::Asn1::Asn1Sequence* response;
 
-  /// @brief Method GetCAPubs, addr 0x10d6724, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetCAPubs, addr 0x22b4294, size 0xfc, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> GetCAPubs();
 
-  /// @brief Method GetInstance, addr 0x10d64a8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22b4034, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertRepMessage* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetResponse, addr 0x10d6820, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetResponse, addr 0x22b4390, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertResponse*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertResponse*>*> GetResponse();
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertRepMessage* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> caPubs,
@@ -55,7 +55,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertRepMessage* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10d6a9c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22b4600, size 0xb4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_caPubs();
@@ -70,11 +70,11 @@ public:
 
   constexpr void __cordl_internal_set_response(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x10d6630, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b41b0, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> caPubs,
                     ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertResponse*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertResponse*>*> response);
 
-  /// @brief Method .ctor, addr 0x10d63b0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b3f3c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field response, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___response;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

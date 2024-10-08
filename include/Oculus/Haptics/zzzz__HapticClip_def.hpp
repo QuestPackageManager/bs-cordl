@@ -13,7 +13,7 @@ class HapticClip;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Haptics::HapticClip);
 // Type: Oculus.Haptics::HapticClip
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Haptics {
 // Is value type: false
 // CS Name: ::Oculus.Haptics::HapticClip*
@@ -21,7 +21,7 @@ class CORDL_TYPE HapticClip : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field json, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_json, put = __cordl_internal_set_json))::StringW json;
+  __declspec(property(get = __cordl_internal_get_json, put = __cordl_internal_set_json)) ::StringW json;
 
   static inline ::Oculus::Haptics::HapticClip* New_ctor();
 
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_json(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ad17b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3edef30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field json, offset: 0x18, size: 0x8, def value: None
   ::StringW ___json;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18671 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

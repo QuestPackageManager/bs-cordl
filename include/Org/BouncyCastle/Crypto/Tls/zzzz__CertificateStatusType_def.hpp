@@ -13,7 +13,7 @@ class CertificateStatusType;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::CertificateStatusType);
 // Type: Org.BouncyCastle.Crypto.Tls::CertificateStatusType
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CertificateStatusType*
@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatusType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11d08f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a6344, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,6 +38,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CertificateStatusType", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CertificateStatusType(CertificateStatusType const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1190 };
 
   /// @brief Field ocsp offset 0xffffffff size 0x1
   static constexpr uint8_t ocsp{ static_cast<uint8_t>(0x1u) };

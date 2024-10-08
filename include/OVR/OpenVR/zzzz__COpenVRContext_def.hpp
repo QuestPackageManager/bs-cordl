@@ -17,7 +17,7 @@ struct COpenVRContext;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::COpenVRContext);
 // Type: OVR.OpenVR::COpenVRContext
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::COpenVRContext
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field m_pVRSpatialAnchors, offset: 0x78, size: 0x8, def value: None
   ::System::IntPtr m_pVRSpatialAnchors;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9010 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };

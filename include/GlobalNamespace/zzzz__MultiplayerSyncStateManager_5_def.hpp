@@ -49,7 +49,7 @@ template <typename TStateTable, typename TType, typename TState, typename TSeria
 MARK_GEN_REF_PTR_T(::GlobalNamespace::MultiplayerSyncStateManager_5);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__MultiplayerSyncStateManager_5____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
@@ -59,10 +59,11 @@ class CORDL_TYPE __MultiplayerSyncStateManager_5____c : public ::System::Object 
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* __9;
 
   /// @brief Field <>9__37_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__37_0, put = setStaticF___9__37_0))::System::Func_2<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*, int32_t>* __9__37_0;
+  static
+      __declspec(property(get = getStaticF___9__37_0, put = setStaticF___9__37_0)) ::System::Func_2<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*, int32_t>* __9__37_0;
 
   static inline ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* New_ctor();
 
@@ -94,12 +95,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultiplayerSyncStateManager_5____c(__MultiplayerSyncStateManager_5____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17298 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::MultiplayerSyncStateManager`5
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
@@ -110,27 +114,28 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>;
 
-  /// @brief Field _connectedPlayerStates, offset 0x28, size 0x8
+  /// @brief Field _connectedPlayerStates, offset 0x30, size 0x8
   __declspec(property(
       get = __cordl_internal_get__connectedPlayerStates,
-      put = __cordl_internal_set__connectedPlayerStates))::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* _connectedPlayerStates;
+      put = __cordl_internal_set__connectedPlayerStates)) ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* _connectedPlayerStates;
 
-  /// @brief Field _disconnectedPlayerStates, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__disconnectedPlayerStates, put = __cordl_internal_set__disconnectedPlayerStates))::System::Collections::Generic::List_1<
-      ::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* _disconnectedPlayerStates;
+  /// @brief Field _disconnectedPlayerStates, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__disconnectedPlayerStates,
+                      put = __cordl_internal_set__disconnectedPlayerStates)) ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*
+      _disconnectedPlayerStates;
 
-  /// @brief Field _localState, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__localState, put = __cordl_internal_set__localState))::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* _localState;
+  /// @brief Field _localState, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__localState, put = __cordl_internal_set__localState)) ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* _localState;
 
-  /// @brief Field _multiplayerSessionManager, offset 0x18, size 0x8
+  /// @brief Field _multiplayerSessionManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   __declspec(property(get = get_connectedPlayerCount)) int32_t connectedPlayerCount;
 
-  __declspec(property(get = get_deltaMessageType))::GlobalNamespace::__MultiplayerSessionManager__MessageType deltaMessageType;
+  __declspec(property(get = get_deltaMessageType)) ::GlobalNamespace::__MultiplayerSessionManager__MessageType deltaMessageType;
 
-  __declspec(property(get = get_deltaSerializablePool))::GlobalNamespace::IPacketPool_1<TDeltaSerializable>* deltaSerializablePool;
+  __declspec(property(get = get_deltaSerializablePool)) ::GlobalNamespace::IPacketPool_1<TDeltaSerializable>* deltaSerializablePool;
 
   __declspec(property(get = get_deltaUpdateFrequencyMs)) int64_t deltaUpdateFrequencyMs;
 
@@ -140,15 +145,15 @@ public:
 
   __declspec(property(get = get_localBufferSize)) int32_t localBufferSize;
 
-  __declspec(property(get = get_localState))::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* localState;
+  __declspec(property(get = get_localState)) ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* localState;
 
-  __declspec(property(get = get_messageType))::GlobalNamespace::__MultiplayerSessionManager__MessageType messageType;
+  __declspec(property(get = get_messageType)) ::GlobalNamespace::__MultiplayerSessionManager__MessageType messageType;
 
-  __declspec(property(get = get_multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
+  __declspec(property(get = get_multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
 
   __declspec(property(get = get_remoteBufferSize)) int32_t remoteBufferSize;
 
-  __declspec(property(get = get_serializablePool))::GlobalNamespace::IPacketPool_1<TSerializable>* serializablePool;
+  __declspec(property(get = get_serializablePool)) ::GlobalNamespace::IPacketPool_1<TSerializable>* serializablePool;
 
   __declspec(property(get = get_syncTime)) int64_t syncTime;
 
@@ -278,17 +283,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerSyncStateManager_5(MultiplayerSyncStateManager_5 const&) = delete;
 
-  /// @brief Field _multiplayerSessionManager, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _multiplayerSessionManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 
-  /// @brief Field _localState, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _localState, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* ____localState;
 
-  /// @brief Field _connectedPlayerStates, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _connectedPlayerStates, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* ____connectedPlayerStates;
 
-  /// @brief Field _disconnectedPlayerStates, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _disconnectedPlayerStates, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* ____disconnectedPlayerStates;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17299 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

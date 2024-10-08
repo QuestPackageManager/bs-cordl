@@ -15,22 +15,22 @@ class AsymmetricCipherKeyPair;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair);
 // Type: Org.BouncyCastle.Crypto::AsymmetricCipherKeyPair
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto::AsymmetricCipherKeyPair*
 class CORDL_TYPE AsymmetricCipherKeyPair : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Private))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* Private;
+  __declspec(property(get = get_Private)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* Private;
 
-  __declspec(property(get = get_Public))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* Public;
+  __declspec(property(get = get_Public)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* Public;
 
   /// @brief Field privateParameter, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_privateParameter, put = __cordl_internal_set_privateParameter))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter;
+  __declspec(property(get = __cordl_internal_get_privateParameter, put = __cordl_internal_set_privateParameter)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter;
 
   /// @brief Field publicParameter, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_publicParameter, put = __cordl_internal_set_publicParameter))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter;
+  __declspec(property(get = __cordl_internal_get_publicParameter, put = __cordl_internal_set_publicParameter)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter;
 
   static inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter,
                                                                                ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter);
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_publicParameter(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x1233edc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2406dc0, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicParameter, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter);
 
-  /// @brief Method get_Private, addr 0x1233fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Private, addr 0x2406e9c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Private();
 
-  /// @brief Method get_Public, addr 0x1233fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Public, addr 0x2406e94, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Public();
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field privateParameter, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ___privateParameter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1340 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

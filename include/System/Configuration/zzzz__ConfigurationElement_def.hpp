@@ -15,25 +15,25 @@ class ConfigurationElement;
 // Write type traits
 MARK_REF_PTR_T(::System::Configuration::ConfigurationElement);
 // Type: System.Configuration::ConfigurationElement
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Configuration {
 // Is value type: false
 // CS Name: ::System.Configuration::ConfigurationElement*
 class CORDL_TYPE ConfigurationElement : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Properties))::System::Configuration::ConfigurationPropertyCollection* Properties;
+  __declspec(property(get = get_Properties)) ::System::Configuration::ConfigurationPropertyCollection* Properties;
 
-  /// @brief Method IsModified, addr 0x2c0eb1c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x40143b4, size 0x38, virtual true, abstract: false, final false
   inline bool IsModified();
 
-  /// @brief Method Reset, addr 0x2c0eb54, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x40143ec, size 0x38, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentElement);
 
-  /// @brief Method ResetModified, addr 0x2c0eb8c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x4014424, size 0x38, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method get_Properties, addr 0x2c0eae4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x401437c, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -49,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ConfigurationElement", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ConfigurationElement(ConfigurationElement const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19170 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

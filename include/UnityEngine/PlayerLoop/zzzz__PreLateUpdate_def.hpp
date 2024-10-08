@@ -33,13 +33,13 @@ namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__Physics2DLateUpdate;
 }
 namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__PhysicsLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__ScriptRunBehaviourLateUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__UIElementsUpdatePanels;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UNetUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__UpdateMasterServerInterface;
@@ -79,13 +79,13 @@ namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__Physics2DLateUpdate;
 }
 namespace UnityEngine::PlayerLoop {
+struct __PreLateUpdate__PhysicsLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__ScriptRunBehaviourLateUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__UIElementsUpdatePanels;
-}
-namespace UnityEngine::PlayerLoop {
-struct __PreLateUpdate__UNetUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PreLateUpdate__UpdateMasterServerInterface;
@@ -104,13 +104,13 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__EndGraphicsJobsAfterScrip
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__LegacyAnimationUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__ParticleSystemBeginUpdateAll);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__Physics2DLateUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__PhysicsLateUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__ScriptRunBehaviourLateUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__UIElementsUpdatePanels);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__UNetUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateMasterServerInterface);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateNetworkManager);
 // Type: ::Physics2DLateUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreLateUpdate::Physics2DLateUpdate
@@ -125,6 +125,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11050 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -135,8 +138,37 @@ public:
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__Physics2DLateUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// Type: ::PhysicsLateUpdate
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+namespace UnityEngine::PlayerLoop {
+// Is value type: true
+// CS Name: ::PreLateUpdate::PhysicsLateUpdate
+#pragma pack(push, 0)
+struct CORDL_TYPE __PreLateUpdate__PhysicsLateUpdate {
+public:
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PreLateUpdate__PhysicsLateUpdate();
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11051 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+#pragma pack(pop)
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__PhysicsLateUpdate, 0x1>, "Size mismatch!");
+
+} // namespace UnityEngine::PlayerLoop
 // Type: ::AIUpdatePostScript
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreLateUpdate::AIUpdatePostScript
@@ -151,6 +183,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11052 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -162,7 +197,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::DirectorUpdateAnimationBegin
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreLateUpdate::DirectorUpdateAnimationBegin
@@ -177,6 +212,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11053 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -188,7 +226,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::LegacyAnimationUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreLateUpdate::LegacyAnimationUpdate
@@ -203,6 +241,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11054 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -214,7 +255,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::DirectorUpdateAnimationEnd
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreLateUpdate::DirectorUpdateAnimationEnd
@@ -229,6 +270,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11055 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -240,7 +284,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::DirectorDeferredEvaluate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreLateUpdate::DirectorDeferredEvaluate
@@ -255,6 +299,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11056 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -266,7 +313,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::UIElementsUpdatePanels
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreLateUpdate::UIElementsUpdatePanels
@@ -281,6 +328,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11057 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -292,7 +342,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::UpdateNetworkManager
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreLateUpdate::UpdateNetworkManager
@@ -307,6 +357,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11058 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -318,7 +371,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::UpdateMasterServerInterface
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreLateUpdate::UpdateMasterServerInterface
@@ -333,6 +386,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11059 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -343,34 +399,8 @@ public:
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateMasterServerInterface, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::UNetUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
-namespace UnityEngine::PlayerLoop {
-// Is value type: true
-// CS Name: ::PreLateUpdate::UNetUpdate
-#pragma pack(push, 0)
-struct CORDL_TYPE __PreLateUpdate__UNetUpdate {
-public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PreLateUpdate__UNetUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-#pragma pack(pop)
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLateUpdate__UNetUpdate, 0x1>, "Size mismatch!");
-
-} // namespace UnityEngine::PlayerLoop
 // Type: ::EndGraphicsJobsAfterScriptUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreLateUpdate::EndGraphicsJobsAfterScriptUpdate
@@ -385,6 +415,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11060 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -396,7 +429,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::ParticleSystemBeginUpdateAll
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreLateUpdate::ParticleSystemBeginUpdateAll
@@ -411,6 +444,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11061 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -422,7 +458,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::ScriptRunBehaviourLateUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreLateUpdate::ScriptRunBehaviourLateUpdate
@@ -437,6 +473,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11062 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -448,7 +487,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::ConstraintManagerUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreLateUpdate::ConstraintManagerUpdate
@@ -463,6 +502,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11063 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -474,7 +516,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 
 } // namespace UnityEngine::PlayerLoop
 // Type: UnityEngine.PlayerLoop::PreLateUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::UnityEngine.PlayerLoop::PreLateUpdate
@@ -500,11 +542,11 @@ public:
 
   using Physics2DLateUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__Physics2DLateUpdate;
 
+  using PhysicsLateUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__PhysicsLateUpdate;
+
   using ScriptRunBehaviourLateUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__ScriptRunBehaviourLateUpdate;
 
   using UIElementsUpdatePanels = ::UnityEngine::PlayerLoop::__PreLateUpdate__UIElementsUpdatePanels;
-
-  using UNetUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__UNetUpdate;
 
   using UpdateMasterServerInterface = ::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateMasterServerInterface;
 
@@ -516,6 +558,9 @@ public:
 
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11064 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -537,8 +582,8 @@ DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__EndGraphicsJo
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__LegacyAnimationUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/LegacyAnimationUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__ParticleSystemBeginUpdateAll, "UnityEngine.PlayerLoop", "PreLateUpdate/ParticleSystemBeginUpdateAll");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__Physics2DLateUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/Physics2DLateUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__PhysicsLateUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/PhysicsLateUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__ScriptRunBehaviourLateUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/ScriptRunBehaviourLateUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__UIElementsUpdatePanels, "UnityEngine.PlayerLoop", "PreLateUpdate/UIElementsUpdatePanels");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__UNetUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/UNetUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateMasterServerInterface, "UnityEngine.PlayerLoop", "PreLateUpdate/UpdateMasterServerInterface");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateNetworkManager, "UnityEngine.PlayerLoop", "PreLateUpdate/UpdateNetworkManager");

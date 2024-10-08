@@ -16,7 +16,7 @@ class X509KeyUsage;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509KeyUsage);
 // Type: Org.BouncyCastle.X509::X509KeyUsage
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.X509::X509KeyUsage*
@@ -28,7 +28,7 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509KeyUsage* New_ctor(int32_t usage);
 
-  /// @brief Method ToAsn1Object, addr 0x13f2258, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25b8818, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr int32_t const& __cordl_internal_get_usage() const;
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set_usage(int32_t value);
 
-  /// @brief Method .ctor, addr 0x13f2230, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b87f0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t usage);
 
 protected:
@@ -83,6 +83,9 @@ public:
 
   /// @brief Field NonRepudiation offset 0xffffffff size 0x4
   static constexpr int32_t NonRepudiation{ static_cast<int32_t>(0x40) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1867 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,7 +25,7 @@ template <typename T, typename TBase> class SortedList_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::SortedList_2);
 // Type: ::SortedList`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T, typename TBase>
@@ -35,18 +35,18 @@ class CORDL_TYPE SortedList_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _items, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::System::Collections::Generic::LinkedList_1<TBase>* _items;
+  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items)) ::System::Collections::Generic::LinkedList_1<TBase>* _items;
 
   /// @brief Field _lastUsedNode, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__lastUsedNode, put = __cordl_internal_set__lastUsedNode))::System::Collections::Generic::LinkedListNode_1<TBase>* _lastUsedNode;
+  __declspec(property(get = __cordl_internal_get__lastUsedNode, put = __cordl_internal_set__lastUsedNode)) ::System::Collections::Generic::LinkedListNode_1<TBase>* _lastUsedNode;
 
   /// @brief Field _sortedListDataProcessor, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__sortedListDataProcessor,
-                      put = __cordl_internal_set__sortedListDataProcessor))::GlobalNamespace::ISortedListItemProcessor_1<TBase>* _sortedListDataProcessor;
+                      put = __cordl_internal_set__sortedListDataProcessor)) ::GlobalNamespace::ISortedListItemProcessor_1<TBase>* _sortedListDataProcessor;
 
   __declspec(property(get = get_count)) int32_t count;
 
-  __declspec(property(get = get_items))::System::Collections::Generic::LinkedList_1<TBase>* items;
+  __declspec(property(get = get_items)) ::System::Collections::Generic::LinkedList_1<TBase>* items;
 
   /// @brief Convert operator to "::GlobalNamespace::ISortedList_1<TBase>"
   constexpr operator ::GlobalNamespace::ISortedList_1<TBase>*() noexcept;
@@ -120,6 +120,9 @@ public:
 
   /// @brief Field _lastUsedNode, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedListNode_1<TBase>* ____lastUsedNode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17045 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

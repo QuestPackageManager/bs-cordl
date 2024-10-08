@@ -27,48 +27,48 @@ class X509Store;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::X509::X509Store);
 // Type: Mono.Security.X509::X509Store
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
 // CS Name: ::Mono.Security.X509::X509Store*
 class CORDL_TYPE X509Store : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Certificates))::Mono::Security::X509::X509CertificateCollection* Certificates;
+  __declspec(property(get = get_Certificates)) ::Mono::Security::X509::X509CertificateCollection* Certificates;
 
-  __declspec(property(get = get_Crls))::System::Collections::ArrayList* Crls;
+  __declspec(property(get = get_Crls)) ::System::Collections::ArrayList* Crls;
 
   /// @brief Field _certificates, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__certificates, put = __cordl_internal_set__certificates))::Mono::Security::X509::X509CertificateCollection* _certificates;
+  __declspec(property(get = __cordl_internal_get__certificates, put = __cordl_internal_set__certificates)) ::Mono::Security::X509::X509CertificateCollection* _certificates;
 
   /// @brief Field _crl, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__crl, put = __cordl_internal_set__crl)) bool _crl;
 
   /// @brief Field _crls, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__crls, put = __cordl_internal_set__crls))::System::Collections::ArrayList* _crls;
+  __declspec(property(get = __cordl_internal_get__crls, put = __cordl_internal_set__crls)) ::System::Collections::ArrayList* _crls;
 
   /// @brief Field _newFormat, offset 0x29, size 0x1
   __declspec(property(get = __cordl_internal_get__newFormat, put = __cordl_internal_set__newFormat)) bool _newFormat;
 
   /// @brief Field _storePath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__storePath, put = __cordl_internal_set__storePath))::StringW _storePath;
+  __declspec(property(get = __cordl_internal_get__storePath, put = __cordl_internal_set__storePath)) ::StringW _storePath;
 
-  /// @brief Method BuildCertificatesCollection, addr 0x27a8888, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method BuildCertificatesCollection, addr 0x3bcad98, size 0x1dc, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* BuildCertificatesCollection(::StringW storeName);
 
-  /// @brief Method BuildCrlsCollection, addr 0x27a8aec, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method BuildCrlsCollection, addr 0x3bcaffc, size 0x1c8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* BuildCrlsCollection(::StringW storeName);
 
-  /// @brief Method CheckStore, addr 0x27a8f98, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CheckStore, addr 0x3bcb49c, size 0xdc, virtual false, abstract: false, final false
   inline bool CheckStore(::StringW path, bool throwException);
 
-  /// @brief Method Load, addr 0x27a8cac, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x3bcb1c4, size 0x208, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Load(::StringW filename);
 
-  /// @brief Method LoadCertificate, addr 0x27a8eb8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method LoadCertificate, addr 0x3bcb3cc, size 0x68, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* LoadCertificate(::StringW filename);
 
-  /// @brief Method LoadCrl, addr 0x27a8f28, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method LoadCrl, addr 0x3bcb434, size 0x68, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Crl* LoadCrl(::StringW filename);
 
   static inline ::Mono::Security::X509::X509Store* New_ctor(::StringW path, bool crl, bool newFormat);
@@ -103,13 +103,13 @@ public:
 
   constexpr void __cordl_internal_set__storePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x27a8820, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bcad30, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, bool crl, bool newFormat);
 
-  /// @brief Method get_Certificates, addr 0x27a8860, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x3bcad70, size 0x28, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_Certificates();
 
-  /// @brief Method get_Crls, addr 0x27a8a5c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Crls, addr 0x3bcaf74, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_Crls();
 
 protected:
@@ -140,6 +140,9 @@ public:
 
   /// @brief Field _newFormat, offset: 0x29, size: 0x1, def value: None
   bool ____newFormat;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15886 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

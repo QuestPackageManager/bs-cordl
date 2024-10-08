@@ -13,7 +13,7 @@ class OptionalFieldAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::OptionalFieldAttribute);
 // Type: System.Runtime.Serialization::OptionalFieldAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization::OptionalFieldAttribute*
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_versionAdded(int32_t value);
 
-  /// @brief Method .ctor, addr 0x286bc34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c86f90, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_VersionAdded, addr 0x286bc44, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_VersionAdded, addr 0x3c86fa0, size 0x70, virtual false, abstract: false, final false
   inline void set_VersionAdded(int32_t value);
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field versionAdded, offset: 0x10, size: 0x4, def value: None
   int32_t ___versionAdded;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3228 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

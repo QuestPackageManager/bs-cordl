@@ -17,28 +17,29 @@ class JPakeRound2Payload;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload);
 // Type: Org.BouncyCastle.Crypto.Agreement.JPake::JPakeRound2Payload
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.JPake::JPakeRound2Payload*
 class CORDL_TYPE JPakeRound2Payload : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_A))::Org::BouncyCastle::Math::BigInteger* A;
+  __declspec(property(get = get_A)) ::Org::BouncyCastle::Math::BigInteger* A;
 
-  __declspec(property(get = get_KnowledgeProofForX2s))::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> KnowledgeProofForX2s;
+  __declspec(property(get = get_KnowledgeProofForX2s)) ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> KnowledgeProofForX2s;
 
-  __declspec(property(get = get_ParticipantId))::StringW ParticipantId;
+  __declspec(property(get = get_ParticipantId)) ::StringW ParticipantId;
 
   /// @brief Field a, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a))::Org::BouncyCastle::Math::BigInteger* a;
+  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) ::Org::BouncyCastle::Math::BigInteger* a;
 
   /// @brief Field knowledgeProofForX2s, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_knowledgeProofForX2s,
-                      put = __cordl_internal_set_knowledgeProofForX2s))::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2s;
+                      put = __cordl_internal_set_knowledgeProofForX2s)) ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>
+      knowledgeProofForX2s;
 
   /// @brief Field participantId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_participantId, put = __cordl_internal_set_participantId))::StringW participantId;
+  __declspec(property(get = __cordl_internal_get_participantId, put = __cordl_internal_set_participantId)) ::StringW participantId;
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload*
   New_ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* a, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2s);
@@ -61,17 +62,17 @@ public:
 
   constexpr void __cordl_internal_set_participantId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x148780c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264810c, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* a,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2s);
 
-  /// @brief Method get_A, addr 0x1488f08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_A, addr 0x2649730, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_A();
 
-  /// @brief Method get_KnowledgeProofForX2s, addr 0x1488f10, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX2s, addr 0x2649738, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_KnowledgeProofForX2s();
 
-  /// @brief Method get_ParticipantId, addr 0x1488f00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParticipantId, addr 0x2649728, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
 protected:
@@ -96,6 +97,9 @@ public:
 
   /// @brief Field knowledgeProofForX2s, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> ___knowledgeProofForX2s;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 718 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

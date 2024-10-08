@@ -22,7 +22,7 @@ template <typename T> class CachedInvokableCall_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::Events::CachedInvokableCall_1);
 // Type: UnityEngine.Events::CachedInvokableCall`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // cpp template
 template <typename T>
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field m_Arg1, offset: 0x18, size: 0x8, def value: None
   T ___m_Arg1;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10941 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

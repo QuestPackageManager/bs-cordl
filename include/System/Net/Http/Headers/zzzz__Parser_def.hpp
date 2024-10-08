@@ -108,17 +108,17 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::__Parser__TimeSpanSeconds);
 MARK_REF_PTR_T(::System::Net::Http::Headers::__Parser__Token);
 MARK_REF_PTR_T(::System::Net::Http::Headers::__Parser__Uri);
 // Type: ::Token
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::Parser::Token*
 class CORDL_TYPE __Parser__Token : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Check, addr 0x2d9c928, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Check, addr 0x41a29c4, size 0xf4, virtual false, abstract: false, final false
   static inline void Check(::StringW s);
 
-  /// @brief Method TryCheck, addr 0x2da4e4c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TryCheck, addr 0x41ab02c, size 0x68, virtual false, abstract: false, final false
   static inline bool TryCheck(::StringW s);
 
 protected:
@@ -135,6 +135,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Parser__Token(__Parser__Token const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16678 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -142,7 +145,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 
 } // namespace System::Net::Http::Headers
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Parser::DateTime::<>c*
@@ -150,14 +153,14 @@ class CORDL_TYPE __Parser__DateTime____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__Parser__DateTime____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__Parser__DateTime____c* __9;
 
   static inline ::GlobalNamespace::__Parser__DateTime____c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x2da7d98, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x41adf48, size 0xf0, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__2_0(::System::Object* l);
 
-  /// @brief Method .ctor, addr 0x2da7d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41adf40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__Parser__DateTime____c* getStaticF___9();
@@ -178,6 +181,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Parser__DateTime____c(__Parser__DateTime____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16679 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -185,7 +191,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Parser__DateT
 
 } // namespace GlobalNamespace
 // Type: ::DateTime
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::Parser::DateTime*
@@ -195,9 +201,9 @@ public:
   using __c = ::GlobalNamespace::__Parser__DateTime____c;
 
   /// @brief Field ToString, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ToString, put = setStaticF_ToString))::System::Func_2<::System::Object*, ::StringW>* ToString;
+  static __declspec(property(get = getStaticF_ToString, put = setStaticF_ToString)) ::System::Func_2<::System::Object*, ::StringW>* ToString;
 
-  /// @brief Method TryParse, addr 0x2da7c04, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41addbc, size 0x64, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::DateTimeOffset> result);
 
   static inline ::System::Func_2<::System::Object*, ::StringW>* getStaticF_ToString();
@@ -218,6 +224,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Parser__DateTime(__Parser__DateTime const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16680 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -225,14 +234,14 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 
 } // namespace System::Net::Http::Headers
 // Type: ::EmailAddress
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::Parser::EmailAddress*
 class CORDL_TYPE __Parser__EmailAddress : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x2da7e70, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41ae038, size 0xe0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::StringW> result);
 
 protected:
@@ -249,6 +258,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Parser__EmailAddress(__Parser__EmailAddress const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16681 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -256,14 +268,14 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 
 } // namespace System::Net::Http::Headers
 // Type: ::Host
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::Parser::Host*
 class CORDL_TYPE __Parser__Host : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x2da7f58, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41ae118, size 0xc8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::StringW> result);
 
 protected:
@@ -280,6 +292,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Parser__Host(__Parser__Host const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16682 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -287,14 +302,14 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 
 } // namespace System::Net::Http::Headers
 // Type: ::Int
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::Parser::Int*
 class CORDL_TYPE __Parser__Int : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x2da8020, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41ae1e0, size 0x78, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<int32_t> result);
 
 protected:
@@ -311,6 +326,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Parser__Int(__Parser__Int const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16683 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -318,14 +336,14 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 
 } // namespace System::Net::Http::Headers
 // Type: ::Long
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::Parser::Long*
 class CORDL_TYPE __Parser__Long : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x2da8098, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41ae258, size 0x78, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<int64_t> result);
 
 protected:
@@ -342,6 +360,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Parser__Long(__Parser__Long const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16684 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -349,7 +370,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 
 } // namespace System::Net::Http::Headers
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Parser::MD5::<>c*
@@ -357,14 +378,14 @@ class CORDL_TYPE __Parser__MD5____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__Parser__MD5____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__Parser__MD5____c* __9;
 
   static inline ::GlobalNamespace::__Parser__MD5____c* New_ctor();
 
-  /// @brief Method <.cctor>b__2_0, addr 0x2da8330, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__2_0, addr 0x41ae4e8, size 0x94, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__2_0(::System::Object* l);
 
-  /// @brief Method .ctor, addr 0x2da8328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41ae4e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__Parser__MD5____c* getStaticF___9();
@@ -385,6 +406,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Parser__MD5____c(__Parser__MD5____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16685 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -392,7 +416,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Parser__MD5__
 
 } // namespace GlobalNamespace
 // Type: ::MD5
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::Parser::MD5*
@@ -402,9 +426,9 @@ public:
   using __c = ::GlobalNamespace::__Parser__MD5____c;
 
   /// @brief Field ToString, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ToString, put = setStaticF_ToString))::System::Func_2<::System::Object*, ::StringW>* ToString;
+  static __declspec(property(get = getStaticF_ToString, put = setStaticF_ToString)) ::System::Func_2<::System::Object*, ::StringW>* ToString;
 
-  /// @brief Method TryParse, addr 0x2da8110, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41ae2d0, size 0xf0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> result);
 
   static inline ::System::Func_2<::System::Object*, ::StringW>* getStaticF_ToString();
@@ -425,6 +449,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Parser__MD5(__Parser__MD5 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16686 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -432,14 +459,14 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 
 } // namespace System::Net::Http::Headers
 // Type: ::TimeSpanSeconds
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::Parser::TimeSpanSeconds*
 class CORDL_TYPE __Parser__TimeSpanSeconds : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x2da83c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41ae57c, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::TimeSpan> result);
 
 protected:
@@ -456,6 +483,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Parser__TimeSpanSeconds(__Parser__TimeSpanSeconds const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16687 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -463,14 +493,14 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 
 } // namespace System::Net::Http::Headers
 // Type: ::Uri
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::Parser::Uri*
 class CORDL_TYPE __Parser__Uri : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryParse, addr 0x2da8474, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41ae62c, size 0x6c, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Uri*> result);
 
 protected:
@@ -487,6 +517,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Parser__Uri(__Parser__Uri const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16688 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -494,7 +527,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 
 } // namespace System::Net::Http::Headers
 // Type: System.Net.Http.Headers::Parser
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::System.Net.Http.Headers::Parser*
@@ -532,6 +565,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Parser", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Parser(Parser const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16689 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

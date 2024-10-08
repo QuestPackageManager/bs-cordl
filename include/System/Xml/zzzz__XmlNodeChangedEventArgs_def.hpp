@@ -20,32 +20,32 @@ class XmlNodeChangedEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlNodeChangedEventArgs);
 // Type: System.Xml::XmlNodeChangedEventArgs
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::XmlNodeChangedEventArgs*
 class CORDL_TYPE XmlNodeChangedEventArgs : public ::System::EventArgs {
 public:
   // Declarations
-  __declspec(property(get = get_Action))::System::Xml::XmlNodeChangedAction Action;
+  __declspec(property(get = get_Action)) ::System::Xml::XmlNodeChangedAction Action;
 
   /// @brief Field action, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action))::System::Xml::XmlNodeChangedAction action;
+  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action)) ::System::Xml::XmlNodeChangedAction action;
 
   /// @brief Field newParent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_newParent, put = __cordl_internal_set_newParent))::System::Xml::XmlNode* newParent;
+  __declspec(property(get = __cordl_internal_get_newParent, put = __cordl_internal_set_newParent)) ::System::Xml::XmlNode* newParent;
 
   /// @brief Field newValue, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_newValue, put = __cordl_internal_set_newValue))::StringW newValue;
+  __declspec(property(get = __cordl_internal_get_newValue, put = __cordl_internal_set_newValue)) ::StringW newValue;
 
   /// @brief Field node, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_node, put = __cordl_internal_set_node))::System::Xml::XmlNode* node;
+  __declspec(property(get = __cordl_internal_get_node, put = __cordl_internal_set_node)) ::System::Xml::XmlNode* node;
 
   /// @brief Field oldParent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_oldParent, put = __cordl_internal_set_oldParent))::System::Xml::XmlNode* oldParent;
+  __declspec(property(get = __cordl_internal_get_oldParent, put = __cordl_internal_set_oldParent)) ::System::Xml::XmlNode* oldParent;
 
   /// @brief Field oldValue, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_oldValue, put = __cordl_internal_set_oldValue))::StringW oldValue;
+  __declspec(property(get = __cordl_internal_get_oldValue, put = __cordl_internal_set_oldValue)) ::StringW oldValue;
 
   static inline ::System::Xml::XmlNodeChangedEventArgs* New_ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue,
                                                                  ::StringW newValue, ::System::Xml::XmlNodeChangedAction action);
@@ -86,11 +86,11 @@ public:
 
   constexpr void __cordl_internal_set_oldValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ed02b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42ce4c0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue,
                     ::System::Xml::XmlNodeChangedAction action);
 
-  /// @brief Method get_Action, addr 0x2ed0350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Action, addr 0x42ce55c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNodeChangedAction get_Action();
 
 protected:
@@ -124,6 +124,9 @@ public:
 
   /// @brief Field newValue, offset: 0x38, size: 0x8, def value: None
   ::StringW ___newValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7276 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

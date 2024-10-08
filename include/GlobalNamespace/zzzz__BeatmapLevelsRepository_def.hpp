@@ -30,7 +30,7 @@ class BeatmapLevelsRepository;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelsRepository);
 // Type: ::BeatmapLevelsRepository
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapLevelsRepository*
@@ -39,34 +39,38 @@ public:
   // Declarations
   /// @brief Field _beatmapLevelIdToBeatmapLevelPackId, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelIdToBeatmapLevelPackId,
-                      put = __cordl_internal_set__beatmapLevelIdToBeatmapLevelPackId))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _beatmapLevelIdToBeatmapLevelPackId;
+                      put = __cordl_internal_set__beatmapLevelIdToBeatmapLevelPackId)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _beatmapLevelIdToBeatmapLevelPackId;
 
   /// @brief Field _beatmapLevelPacks, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelPacks,
-                      put = __cordl_internal_set__beatmapLevelPacks))::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> _beatmapLevelPacks;
+                      put = __cordl_internal_set__beatmapLevelPacks)) ::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*>
+      _beatmapLevelPacks;
 
   /// @brief Field _idToBeatmapLevel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__idToBeatmapLevel,
-                      put = __cordl_internal_set__idToBeatmapLevel))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevel*>* _idToBeatmapLevel;
+                      put = __cordl_internal_set__idToBeatmapLevel)) ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevel*>* _idToBeatmapLevel;
 
   /// @brief Field _idToBeatmapLevelPack, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__idToBeatmapLevelPack,
-                      put = __cordl_internal_set__idToBeatmapLevelPack))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelPack*>* _idToBeatmapLevelPack;
+                      put = __cordl_internal_set__idToBeatmapLevelPack)) ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelPack*>* _idToBeatmapLevelPack;
 
-  __declspec(property(get = get_beatmapLevelPacks))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks;
+  __declspec(property(get = get_beatmapLevelPacks)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks;
 
-  /// @brief Method GetBeatmapLevelById, addr 0x14ce7f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AddBeatmapLevel, addr 0x268814c, size 0x98, virtual false, abstract: false, final false
+  inline void AddBeatmapLevel(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW songPackId);
+
+  /// @brief Method GetBeatmapLevelById, addr 0x26880f4, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevel* GetBeatmapLevelById(::StringW levelId);
 
-  /// @brief Method GetBeatmapLevelPackByBeatmapLevelId, addr 0x14ce770, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapLevelPackByBeatmapLevelId, addr 0x2688070, size 0x84, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelPack* GetBeatmapLevelPackByBeatmapLevelId(::StringW levelId);
 
-  /// @brief Method GetBeatmapLevelPackByPackId, addr 0x14ce718, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapLevelPackByPackId, addr 0x2688018, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelPack* GetBeatmapLevelPackByPackId(::StringW packId);
 
   static inline ::GlobalNamespace::BeatmapLevelsRepository* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks);
 
-  /// @brief Method TryGetBeatmapLevelById, addr 0x14ce84c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TryGetBeatmapLevelById, addr 0x26881e4, size 0x68, virtual false, abstract: false, final false
   inline bool TryGetBeatmapLevelById(::StringW levelId, ByRef<::GlobalNamespace::BeatmapLevel*> beatmapLevel);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __cordl_internal_get__beatmapLevelIdToBeatmapLevelPackId();
@@ -94,10 +98,10 @@ public:
 
   constexpr void __cordl_internal_set__idToBeatmapLevelPack(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method .ctor, addr 0x14ce4c8, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2687cd8, size 0x340, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks);
 
-  /// @brief Method get_beatmapLevelPacks, addr 0x14ce4c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelPacks, addr 0x2687cd0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* get_beatmapLevelPacks();
 
 protected:
@@ -125,6 +129,9 @@ public:
 
   /// @brief Field _beatmapLevelIdToBeatmapLevelPackId, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ____beatmapLevelIdToBeatmapLevelPackId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12915 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

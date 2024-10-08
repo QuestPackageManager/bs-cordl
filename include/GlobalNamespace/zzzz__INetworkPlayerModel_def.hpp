@@ -33,16 +33,16 @@ class INetworkPlayerModel;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::INetworkPlayerModel);
 // Type: ::INetworkPlayerModel
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::INetworkPlayerModel*
 class CORDL_TYPE INetworkPlayerModel {
 public:
   // Declarations
-  __declspec(property(get = get_configuration))::GlobalNamespace::GameplayServerConfiguration configuration;
+  __declspec(property(get = get_configuration)) ::GlobalNamespace::GameplayServerConfiguration configuration;
 
-  __declspec(property(get = get_connectedPlayerManager))::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager;
+  __declspec(property(get = get_connectedPlayerManager)) ::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager;
 
   __declspec(property(get = get_currentPartySize)) int32_t currentPartySize;
 
@@ -52,11 +52,11 @@ public:
 
   __declspec(property(get = get_localPlayerIsPartyOwner)) bool localPlayerIsPartyOwner;
 
-  __declspec(property(get = get_otherPlayers))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* otherPlayers;
+  __declspec(property(get = get_otherPlayers)) ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* otherPlayers;
 
-  __declspec(property(get = get_partyPlayers))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* partyPlayers;
+  __declspec(property(get = get_partyPlayers)) ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* partyPlayers;
 
-  __declspec(property(get = get_selectionMask))::GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
+  __declspec(property(get = get_selectionMask)) ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
 
   /// @brief Method CreatePartyConnection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline bool CreatePartyConnection(::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T>* config);
@@ -137,6 +137,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "INetworkPlayerModel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   INetworkPlayerModel(INetworkPlayerModel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14761 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

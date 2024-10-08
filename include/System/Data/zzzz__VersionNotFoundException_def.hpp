@@ -19,7 +19,7 @@ class VersionNotFoundException;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::VersionNotFoundException);
 // Type: System.Data::VersionNotFoundException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::VersionNotFoundException*
@@ -32,13 +32,13 @@ public:
 
   static inline ::System::Data::VersionNotFoundException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x2cb7a4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c726c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2cb7a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c7264, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2cb7aa8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c72c8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "VersionNotFoundException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   VersionNotFoundException(VersionNotFoundException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11308 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

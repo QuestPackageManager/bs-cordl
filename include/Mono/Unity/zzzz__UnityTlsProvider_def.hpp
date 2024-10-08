@@ -54,16 +54,16 @@ class UnityTlsProvider;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Unity::UnityTlsProvider);
 // Type: Mono.Unity::UnityTlsProvider
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
 // CS Name: ::Mono.Unity::UnityTlsProvider*
 class CORDL_TYPE UnityTlsProvider : public ::Mono::Net::Security::MobileTlsProvider {
 public:
   // Declarations
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_SupportedProtocols))::System::Security::Authentication::SslProtocols SupportedProtocols;
+  __declspec(property(get = get_SupportedProtocols)) ::System::Security::Authentication::SslProtocols SupportedProtocols;
 
   __declspec(property(get = get_SupportsCleanShutdown)) bool SupportsCleanShutdown;
 
@@ -73,44 +73,44 @@ public:
 
   __declspec(property(get = get_SupportsSslStream)) bool SupportsSslStream;
 
-  __declspec(property(get = get_ID))::System::Guid _cordl_ID;
+  __declspec(property(get = get_ID)) ::System::Guid _cordl_ID;
 
-  /// @brief Method CreateSslStream, addr 0x2c973ac, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method CreateSslStream, addr 0x4098134, size 0x88, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* CreateSslStream(::System::Net::Security::SslStream* sslStream, ::System::IO::Stream* innerStream, bool leaveInnerStreamOpen,
                                                                            ::Mono::Security::Interface::MonoTlsSettings* settings);
 
   static inline ::Mono::Unity::UnityTlsProvider* New_ctor();
 
-  /// @brief Method ValidateCertificate, addr 0x2c974d0, size 0x978, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x4098250, size 0x958, virtual true, abstract: false, final false
   inline bool ValidateCertificate(::Mono::Net::Security::ChainValidationHelper* validator, ::StringW targetHost, bool serverMode,
                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain,
                                   ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*> chain, ByRef<::System::Net::Security::SslPolicyErrors> errors, ByRef<int32_t> status11);
 
-  /// @brief Method .ctor, addr 0x2c97e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4098ba8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ID, addr 0x2c9732c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ID, addr 0x40980b4, size 0x58, virtual true, abstract: false, final false
   inline ::System::Guid get_ID();
 
-  /// @brief Method get_Name, addr 0x2c972ec, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4098074, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_SupportedProtocols, addr 0x2c973a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportedProtocols, addr 0x409812c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Authentication::SslProtocols get_SupportedProtocols();
 
-  /// @brief Method get_SupportsCleanShutdown, addr 0x2c9739c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsCleanShutdown, addr 0x4098124, size 0x8, virtual true, abstract: false, final false
   inline bool get_SupportsCleanShutdown();
 
-  /// @brief Method get_SupportsConnectionInfo, addr 0x2c97394, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsConnectionInfo, addr 0x409811c, size 0x8, virtual true, abstract: false, final false
   inline bool get_SupportsConnectionInfo();
 
-  /// @brief Method get_SupportsMonoExtensions, addr 0x2c9738c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsMonoExtensions, addr 0x4098114, size 0x8, virtual true, abstract: false, final false
   inline bool get_SupportsMonoExtensions();
 
-  /// @brief Method get_SupportsSslStream, addr 0x2c97384, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsSslStream, addr 0x409810c, size 0x8, virtual true, abstract: false, final false
   inline bool get_SupportsSslStream();
 
-  /// @brief Method x509verify_callback, addr 0x2c97288, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method x509verify_callback, addr 0x4098010, size 0x64, virtual false, abstract: false, final false
   static inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result x509verify_callback(::cordl_internals::Ptr<void> userData, ::Mono::Unity::__UnityTls__unitytls_x509_ref cert,
                                                                                           ::Mono::Unity::__UnityTls__unitytls_x509verify_result result,
                                                                                           ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
@@ -128,6 +128,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UnityTlsProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UnityTlsProvider(UnityTlsProvider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9097 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

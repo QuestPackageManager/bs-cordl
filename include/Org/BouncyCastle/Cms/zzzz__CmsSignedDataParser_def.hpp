@@ -48,74 +48,74 @@ class CmsSignedDataParser;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsSignedDataParser);
 // Type: Org.BouncyCastle.Cms::CmsSignedDataParser
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::CmsSignedDataParser*
 class CORDL_TYPE CmsSignedDataParser : public ::Org::BouncyCastle::Cms::CmsContentInfoParser {
 public:
   // Declarations
-  __declspec(property(get = get_DigestOids))::Org::BouncyCastle::Utilities::Collections::ISet* DigestOids;
+  __declspec(property(get = get_DigestOids)) ::Org::BouncyCastle::Utilities::Collections::ISet* DigestOids;
 
   /// @brief Field Helper, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper))::Org::BouncyCastle::Cms::CmsSignedHelper* Helper;
+  static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper)) ::Org::BouncyCastle::Cms::CmsSignedHelper* Helper;
 
-  __declspec(property(get = get_SignedContentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SignedContentType;
+  __declspec(property(get = get_SignedContentType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SignedContentType;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
   /// @brief Field _attributeStore, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__attributeStore, put = __cordl_internal_set__attributeStore))::Org::BouncyCastle::X509::Store::IX509Store* _attributeStore;
+  __declspec(property(get = __cordl_internal_get__attributeStore, put = __cordl_internal_set__attributeStore)) ::Org::BouncyCastle::X509::Store::IX509Store* _attributeStore;
 
   /// @brief Field _certSet, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__certSet, put = __cordl_internal_set__certSet))::Org::BouncyCastle::Asn1::Asn1Set* _certSet;
+  __declspec(property(get = __cordl_internal_get__certSet, put = __cordl_internal_set__certSet)) ::Org::BouncyCastle::Asn1::Asn1Set* _certSet;
 
   /// @brief Field _certificateStore, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__certificateStore, put = __cordl_internal_set__certificateStore))::Org::BouncyCastle::X509::Store::IX509Store* _certificateStore;
+  __declspec(property(get = __cordl_internal_get__certificateStore, put = __cordl_internal_set__certificateStore)) ::Org::BouncyCastle::X509::Store::IX509Store* _certificateStore;
 
   /// @brief Field _crlSet, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__crlSet, put = __cordl_internal_set__crlSet))::Org::BouncyCastle::Asn1::Asn1Set* _crlSet;
+  __declspec(property(get = __cordl_internal_get__crlSet, put = __cordl_internal_set__crlSet)) ::Org::BouncyCastle::Asn1::Asn1Set* _crlSet;
 
   /// @brief Field _crlStore, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__crlStore, put = __cordl_internal_set__crlStore))::Org::BouncyCastle::X509::Store::IX509Store* _crlStore;
+  __declspec(property(get = __cordl_internal_get__crlStore, put = __cordl_internal_set__crlStore)) ::Org::BouncyCastle::X509::Store::IX509Store* _crlStore;
 
   /// @brief Field _digestOids, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__digestOids, put = __cordl_internal_set__digestOids))::Org::BouncyCastle::Utilities::Collections::ISet* _digestOids;
+  __declspec(property(get = __cordl_internal_get__digestOids, put = __cordl_internal_set__digestOids)) ::Org::BouncyCastle::Utilities::Collections::ISet* _digestOids;
 
   /// @brief Field _digests, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__digests, put = __cordl_internal_set__digests))::System::Collections::IDictionary* _digests;
+  __declspec(property(get = __cordl_internal_get__digests, put = __cordl_internal_set__digests)) ::System::Collections::IDictionary* _digests;
 
   /// @brief Field _isCertCrlParsed, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__isCertCrlParsed, put = __cordl_internal_set__isCertCrlParsed)) bool _isCertCrlParsed;
 
   /// @brief Field _signedContent, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__signedContent, put = __cordl_internal_set__signedContent))::Org::BouncyCastle::Cms::CmsTypedStream* _signedContent;
+  __declspec(property(get = __cordl_internal_get__signedContent, put = __cordl_internal_set__signedContent)) ::Org::BouncyCastle::Cms::CmsTypedStream* _signedContent;
 
   /// @brief Field _signedContentType, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__signedContentType, put = __cordl_internal_set__signedContentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* _signedContentType;
+  __declspec(property(get = __cordl_internal_get__signedContentType, put = __cordl_internal_set__signedContentType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _signedContentType;
 
   /// @brief Field _signedData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__signedData, put = __cordl_internal_set__signedData))::Org::BouncyCastle::Asn1::Cms::SignedDataParser* _signedData;
+  __declspec(property(get = __cordl_internal_get__signedData, put = __cordl_internal_set__signedData)) ::Org::BouncyCastle::Asn1::Cms::SignedDataParser* _signedData;
 
   /// @brief Field _signerInfoStore, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__signerInfoStore, put = __cordl_internal_set__signerInfoStore))::Org::BouncyCastle::Cms::SignerInformationStore* _signerInfoStore;
+  __declspec(property(get = __cordl_internal_get__signerInfoStore, put = __cordl_internal_set__signerInfoStore)) ::Org::BouncyCastle::Cms::SignerInformationStore* _signerInfoStore;
 
-  /// @brief Method GetAsn1Set, addr 0x146228c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetAsn1Set, addr 0x2624134, size 0xb0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Set* GetAsn1Set(::Org::BouncyCastle::Asn1::Asn1SetParser* asn1SetParser);
 
-  /// @brief Method GetAttributeCertificates, addr 0x14620f4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeCertificates, addr 0x2623f9c, size 0x88, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetAttributeCertificates(::StringW type);
 
-  /// @brief Method GetCertificates, addr 0x146217c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetCertificates, addr 0x2624024, size 0x88, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates(::StringW type);
 
-  /// @brief Method GetCrls, addr 0x1462204, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetCrls, addr 0x26240ac, size 0x88, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCrls(::StringW type);
 
-  /// @brief Method GetSignedContent, addr 0x1462344, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method GetSignedContent, addr 0x26241ec, size 0x44c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetSignedContent();
 
-  /// @brief Method GetSignerInfos, addr 0x14615c4, size 0x9b8, virtual false, abstract: false, final false
+  /// @brief Method GetSignerInfos, addr 0x26234ac, size 0x97c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::SignerInformationStore* GetSignerInfos();
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedDataParser* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock);
@@ -126,15 +126,15 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedDataParser* New_ctor(::Org::BouncyCastle::Cms::CmsTypedStream* signedContent, ::System::IO::Stream* sigData);
 
-  /// @brief Method PopulateCertCrlSets, addr 0x1461f7c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method PopulateCertCrlSets, addr 0x2623e28, size 0x174, virtual false, abstract: false, final false
   inline void PopulateCertCrlSets();
 
-  /// @brief Method ReplaceCertificatesAndCrls, addr 0x1462a20, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ReplaceCertificatesAndCrls, addr 0x26248a8, size 0x1a4, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* ReplaceCertificatesAndCrls(::System::IO::Stream* original, ::Org::BouncyCastle::X509::Store::IX509Store* x509Certs,
                                                                  ::Org::BouncyCastle::X509::Store::IX509Store* x509Crls, ::Org::BouncyCastle::X509::Store::IX509Store* x509AttrCerts,
                                                                  ::System::IO::Stream* outStr);
 
-  /// @brief Method ReplaceSigners, addr 0x14627a8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ReplaceSigners, addr 0x2624638, size 0x19c, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* ReplaceSigners(::System::IO::Stream* original, ::Org::BouncyCastle::Cms::SignerInformationStore* signerInformationStore, ::System::IO::Stream* outStr);
 
   constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __cordl_internal_get__attributeStore();
@@ -209,27 +209,27 @@ public:
 
   constexpr void __cordl_internal_set__signerInfoStore(::Org::BouncyCastle::Cms::SignerInformationStore* value);
 
-  /// @brief Method .ctor, addr 0x1460c3c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2622b60, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock);
 
-  /// @brief Method .ctor, addr 0x1460cb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2622bd4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* sigData);
 
-  /// @brief Method .ctor, addr 0x1460cc4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2622be0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsTypedStream* signedContent, ::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock);
 
-  /// @brief Method .ctor, addr 0x1460d44, size 0x784, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2622c58, size 0x760, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsTypedStream* signedContent, ::System::IO::Stream* sigData);
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedHelper* getStaticF_Helper();
 
-  /// @brief Method get_DigestOids, addr 0x146155c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_DigestOids, addr 0x262344c, size 0x60, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* get_DigestOids();
 
-  /// @brief Method get_SignedContentType, addr 0x146233c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignedContentType, addr 0x26241e4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_SignedContentType();
 
-  /// @brief Method get_Version, addr 0x1461538, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x2623428, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsSignedHelper* value);
@@ -283,6 +283,9 @@ public:
 
   /// @brief Field _crlStore, offset: 0x78, size: 0x8, def value: None
   ::Org::BouncyCastle::X509::Store::IX509Store* ____crlStore;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 652 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

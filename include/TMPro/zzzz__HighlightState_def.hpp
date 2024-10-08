@@ -24,29 +24,29 @@ struct HighlightState;
 // Write type traits
 MARK_VAL_T(::TMPro::HighlightState);
 // Type: TMPro::HighlightState
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
 // CS Name: ::TMPro::HighlightState
 struct CORDL_TYPE HighlightState {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x336e318, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x474f248, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x336e398, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x474f2c8, size 0xa4, virtual false, abstract: false, final false
   inline bool Equals(::TMPro::HighlightState other);
 
-  /// @brief Method GetHashCode, addr 0x336e2ac, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x474f1dc, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x336e18c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474f0b8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color32 color, ::TMPro::TMP_Offset padding);
 
-  /// @brief Method op_Equality, addr 0x336e19c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x474f0c8, size 0xcc, virtual false, abstract: false, final false
   static inline bool op_Equality(::TMPro::HighlightState lhs, ::TMPro::HighlightState rhs);
 
-  /// @brief Method op_Inequality, addr 0x336e264, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x474f194, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::TMPro::HighlightState lhs, ::TMPro::HighlightState rhs);
 
   // Ctor Parameters []
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field padding, offset: 0x4, size: 0x10, def value: None
   ::TMPro::TMP_Offset padding;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14407 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

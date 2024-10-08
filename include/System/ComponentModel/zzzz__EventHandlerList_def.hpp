@@ -28,7 +28,7 @@ class __EventHandlerList__ListEntry;
 MARK_REF_PTR_T(::System::ComponentModel::EventHandlerList);
 MARK_REF_PTR_T(::System::ComponentModel::__EventHandlerList__ListEntry);
 // Type: ::ListEntry
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::EventHandlerList::ListEntry*
@@ -36,13 +36,13 @@ class CORDL_TYPE __EventHandlerList__ListEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _handler, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__handler, put = __cordl_internal_set__handler))::System::Delegate* _handler;
+  __declspec(property(get = __cordl_internal_get__handler, put = __cordl_internal_set__handler)) ::System::Delegate* _handler;
 
   /// @brief Field _key, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__key, put = __cordl_internal_set__key))::System::Object* _key;
+  __declspec(property(get = __cordl_internal_get__key, put = __cordl_internal_set__key)) ::System::Object* _key;
 
   /// @brief Field _next, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next))::System::ComponentModel::__EventHandlerList__ListEntry* _next;
+  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next)) ::System::ComponentModel::__EventHandlerList__ListEntry* _next;
 
   constexpr ::System::Delegate*& __cordl_internal_get__handler();
 
@@ -85,6 +85,9 @@ public:
   /// @brief Field _handler, offset: 0x20, size: 0x8, def value: None
   ::System::Delegate* ____handler;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9315 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -98,7 +101,7 @@ static_assert(offsetof(::System::ComponentModel::__EventHandlerList__ListEntry, 
 
 } // namespace System::ComponentModel
 // Type: System.ComponentModel::EventHandlerList
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::EventHandlerList*
@@ -107,15 +110,15 @@ public:
   // Declarations
   using ListEntry = ::System::ComponentModel::__EventHandlerList__ListEntry;
 
-  __declspec(property(get = get_Item))::System::Delegate* Item[];
+  __declspec(property(get = get_Item)) ::System::Delegate* Item[];
 
   /// @brief Field _head, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__head, put = __cordl_internal_set__head))::System::ComponentModel::__EventHandlerList__ListEntry* _head;
+  __declspec(property(get = __cordl_internal_get__head, put = __cordl_internal_set__head)) ::System::ComponentModel::__EventHandlerList__ListEntry* _head;
 
   /// @brief Field _parent, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::System::ComponentModel::Component* _parent;
+  __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent)) ::System::ComponentModel::Component* _parent;
 
-  /// @brief Method Find, addr 0x2f60358, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x43d09dc, size 0x18, virtual false, abstract: false, final false
   inline ::System::ComponentModel::__EventHandlerList__ListEntry* Find(::System::Object* key);
 
   constexpr ::System::ComponentModel::__EventHandlerList__ListEntry*& __cordl_internal_get__head();
@@ -130,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set__parent(::System::ComponentModel::Component* value);
 
-  /// @brief Method get_Item, addr 0x2f602f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x43d0974, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Delegate* get_Item(::System::Object* key);
 
 protected:
@@ -152,6 +155,9 @@ public:
 
   /// @brief Field _parent, offset: 0x18, size: 0x8, def value: None
   ::System::ComponentModel::Component* ____parent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9316 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,38 +16,38 @@ class NumericsHelpers;
 // Write type traits
 MARK_REF_PTR_T(::System::Numerics::NumericsHelpers);
 // Type: System.Numerics::NumericsHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Numerics {
 // Is value type: false
 // CS Name: ::System.Numerics::NumericsHelpers*
 class CORDL_TYPE NumericsHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Abs, addr 0x2daf8f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x41b4bbc, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t Abs(int32_t a);
 
-  /// @brief Method CbitHighZero, addr 0x2db06c8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CbitHighZero, addr 0x41b596c, size 0x78, virtual false, abstract: false, final false
   static inline int32_t CbitHighZero(uint32_t u);
 
-  /// @brief Method CbitHighZero, addr 0x2db4c14, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CbitHighZero, addr 0x41b9dd4, size 0x24, virtual false, abstract: false, final false
   static inline int32_t CbitHighZero(uint64_t uu);
 
-  /// @brief Method CombineHash, addr 0x2daebd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x41b3ca8, size 0x8, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t n1, int32_t n2);
 
-  /// @brief Method CombineHash, addr 0x2db4c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x41b9df8, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t CombineHash(uint32_t u1, uint32_t u2);
 
-  /// @brief Method DangerousMakeTwosComplement, addr 0x2dae6f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DangerousMakeTwosComplement, addr 0x41b3800, size 0xb4, virtual false, abstract: false, final false
   static inline void DangerousMakeTwosComplement(::ArrayW<uint32_t, ::Array<uint32_t>*> d);
 
-  /// @brief Method GetDoubleFromParts, addr 0x2db0744, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetDoubleFromParts, addr 0x41b59e4, size 0xa8, virtual false, abstract: false, final false
   static inline double_t GetDoubleFromParts(int32_t sign, int32_t exp, uint64_t man);
 
-  /// @brief Method GetDoubleParts, addr 0x2dadeac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetDoubleParts, addr 0x41b2f98, size 0x7c, virtual false, abstract: false, final false
   static inline void GetDoubleParts(double_t dbl, ByRef<int32_t> sign, ByRef<int32_t> exp, ByRef<uint64_t> man, ByRef<bool> fFinite);
 
-  /// @brief Method MakeUlong, addr 0x2daed7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MakeUlong, addr 0x41b3e80, size 0x10, virtual false, abstract: false, final false
   static inline uint64_t MakeUlong(uint32_t uHi, uint32_t uLo);
 
 protected:
@@ -63,6 +63,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NumericsHelpers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NumericsHelpers(NumericsHelpers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17846 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

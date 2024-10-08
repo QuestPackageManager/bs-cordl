@@ -22,14 +22,14 @@ class MissingFieldException;
 // Write type traits
 MARK_REF_PTR_T(::System::MissingFieldException);
 // Type: System::MissingFieldException
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::MissingFieldException*
 class CORDL_TYPE MissingFieldException : public ::System::MissingMemberException {
 public:
   // Declarations
-  __declspec(property(get = get_Message))::StringW Message;
+  __declspec(property(get = get_Message)) ::StringW Message;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
@@ -42,19 +42,19 @@ public:
 
   static inline ::System::MissingFieldException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x29866ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d9781c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2986790, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d978c0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW fieldName);
 
-  /// @brief Method .ctor, addr 0x2986814, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d97944, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x298676c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d9789c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x298699c, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3d97acc, size 0x114, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -73,6 +73,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MissingFieldException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MissingFieldException(MissingFieldException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2526 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

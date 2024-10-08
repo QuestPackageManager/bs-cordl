@@ -28,7 +28,7 @@ class Time;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::Time);
 // Type: Org.BouncyCastle.Asn1.X509::Time
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::Time*
@@ -36,31 +36,31 @@ class CORDL_TYPE Time : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field time, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time))::Org::BouncyCastle::Asn1::Asn1Object* time;
+  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) ::Org::BouncyCastle::Asn1::Asn1Object* time;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x140c23c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25d21e4, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Time* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x140afdc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25d0fc4, size 0x1b4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Time* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetTime, addr 0x140c500, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetTime, addr 0x25d24cc, size 0xc8, virtual false, abstract: false, final false
   inline ::StringW GetTime();
 
   static inline ::Org::BouncyCastle::Asn1::X509::Time* New_ctor(::System::DateTime date);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Time* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* time);
 
-  /// @brief Method ToAsn1Object, addr 0x140c7d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25d2744, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToDateTime, addr 0x140c5f0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x25d2594, size 0x1b0, virtual false, abstract: false, final false
   inline ::System::DateTime ToDateTime();
 
-  /// @brief Method ToString, addr 0x140c7dc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25d274c, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_time();
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_time(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method .ctor, addr 0x140c398, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d2338, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime date);
 
-  /// @brief Method .ctor, addr 0x140c258, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d2200, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* time);
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -94,6 +94,9 @@ public:
 
   /// @brief Field time, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Object* ___time;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 394 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

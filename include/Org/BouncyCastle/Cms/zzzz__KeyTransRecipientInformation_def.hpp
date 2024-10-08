@@ -31,7 +31,7 @@ class KeyTransRecipientInformation;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::KeyTransRecipientInformation);
 // Type: Org.BouncyCastle.Cms::KeyTransRecipientInformation
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::KeyTransRecipientInformation*
@@ -39,18 +39,18 @@ class CORDL_TYPE KeyTransRecipientInformation : public ::Org::BouncyCastle::Cms:
 public:
   // Declarations
   /// @brief Field info, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info;
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info)) ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info;
 
-  /// @brief Method GetContentStream, addr 0x1478908, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetContentStream, addr 0x263a4c0, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
-  /// @brief Method GetExchangeEncryptionAlgorithmName, addr 0x14783bc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetExchangeEncryptionAlgorithmName, addr 0x2639f84, size 0x1c4, virtual false, abstract: false, final false
   inline ::StringW GetExchangeEncryptionAlgorithmName(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algo);
 
   static inline ::Org::BouncyCastle::Cms::KeyTransRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info,
                                                                                  ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method UnwrapKey, addr 0x1478580, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method UnwrapKey, addr 0x263a148, size 0x378, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* UnwrapKey(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo*& __cordl_internal_get_info();
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* value);
 
-  /// @brief Method .ctor, addr 0x1456a74, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2618ac4, size 0x214, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field info, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* ___info;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 676 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

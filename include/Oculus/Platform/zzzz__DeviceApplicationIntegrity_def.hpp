@@ -16,14 +16,14 @@ class DeviceApplicationIntegrity;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::DeviceApplicationIntegrity);
 // Type: Oculus.Platform::DeviceApplicationIntegrity
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::DeviceApplicationIntegrity*
 class CORDL_TYPE DeviceApplicationIntegrity : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetIntegrityToken, addr 0x2b06cb8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetIntegrityToken, addr 0x3f13588, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::StringW>* GetIntegrityToken(::StringW challenge_nonce);
 
 protected:
@@ -39,6 +39,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DeviceApplicationIntegrity", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DeviceApplicationIntegrity(DeviceApplicationIntegrity const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15398 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

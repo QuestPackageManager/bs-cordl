@@ -3,8 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DragVisualMode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstddef>
 CORDL_MODULE_EXPORT(StartDragArgs)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -15,111 +16,98 @@ class Hashtable;
 namespace System {
 class Object;
 }
+namespace UnityEngine::UIElements {
+struct DragVisualMode;
+}
 namespace UnityEngine {
 class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-class StartDragArgs;
+struct StartDragArgs;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::UIElements::StartDragArgs);
+MARK_VAL_T(::UnityEngine::UIElements::StartDragArgs);
 // Type: UnityEngine.UIElements::StartDragArgs
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
-// Is value type: false
-// CS Name: ::UnityEngine.UIElements::StartDragArgs*
-class CORDL_TYPE StartDragArgs : public ::System::Object {
+// Is value type: true
+// CS Name: ::UnityEngine.UIElements::StartDragArgs
+struct CORDL_TYPE StartDragArgs {
 public:
   // Declarations
-  /// @brief Field <title>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__title_k__BackingField, put = __cordl_internal_set__title_k__BackingField))::StringW _title_k__BackingField;
+  __declspec(property(get = get_genericData, put = set_genericData)) ::System::Collections::Hashtable* genericData;
 
-  /// @brief Field <unityObjectReferences>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__unityObjectReferences_k__BackingField,
-      put = __cordl_internal_set__unityObjectReferences_k__BackingField))::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* _unityObjectReferences_k__BackingField;
+  __declspec(property(get = get_title)) ::StringW title;
 
-  /// @brief Field <userData>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__userData_k__BackingField, put = __cordl_internal_set__userData_k__BackingField))::System::Object* _userData_k__BackingField;
+  __declspec(property(get = get_unityObjectReferences, put = set_unityObjectReferences)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* unityObjectReferences;
 
-  /// @brief Field m_GenericData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_GenericData, put = __cordl_internal_set_m_GenericData))::System::Collections::Hashtable* m_GenericData;
+  __declspec(property(get = get_visualMode)) ::UnityEngine::UIElements::DragVisualMode visualMode;
 
-  __declspec(property(get = get_userData))::System::Object* userData;
+  /// @brief Method SetGenericData, addr 0x499ed0c, size 0x90, virtual false, abstract: false, final false
+  inline void SetGenericData(::StringW key, ::System::Object* data);
 
-  static inline ::UnityEngine::UIElements::StartDragArgs* New_ctor(::StringW title, ::System::Object* userData);
+  /// @brief Method .ctor, addr 0x499cdec, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::StringW title, ::UnityEngine::UIElements::DragVisualMode visualMode);
 
-  constexpr ::StringW const& __cordl_internal_get__title_k__BackingField() const;
+  /// @brief Method get_genericData, addr 0x499ecec, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Hashtable* get_genericData();
 
-  constexpr ::StringW& __cordl_internal_get__title_k__BackingField();
+  /// @brief Method get_title, addr 0x499ecdc, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_title();
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*& __cordl_internal_get__unityObjectReferences_k__BackingField();
+  /// @brief Method get_unityObjectReferences, addr 0x499ecfc, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* get_unityObjectReferences();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*> const&
-  __cordl_internal_get__unityObjectReferences_k__BackingField() const;
+  /// @brief Method get_visualMode, addr 0x499ece4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::DragVisualMode get_visualMode();
 
-  constexpr ::System::Object*& __cordl_internal_get__userData_k__BackingField();
+  /// @brief Method set_genericData, addr 0x499ecf4, size 0x8, virtual false, abstract: false, final false
+  inline void set_genericData(::System::Collections::Hashtable* value);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__userData_k__BackingField() const;
+  /// @brief Method set_unityObjectReferences, addr 0x499ed04, size 0x8, virtual false, abstract: false, final false
+  inline void set_unityObjectReferences(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* value);
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_m_GenericData();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_m_GenericData() const;
-
-  constexpr void __cordl_internal_set__title_k__BackingField(::StringW value);
-
-  constexpr void __cordl_internal_set__unityObjectReferences_k__BackingField(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* value);
-
-  constexpr void __cordl_internal_set__userData_k__BackingField(::System::Object* value);
-
-  constexpr void __cordl_internal_set_m_GenericData(::System::Collections::Hashtable* value);
-
-  /// @brief Method .ctor, addr 0x359fae8, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::StringW title, ::System::Object* userData);
-
-  /// @brief Method get_userData, addr 0x359fba0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Object* get_userData();
-
-protected:
   // Ctor Parameters []
   // @brief default ctor
   constexpr StartDragArgs();
 
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "StartDragArgs", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StartDragArgs(StartDragArgs&&) = delete;
+  // Ctor Parameters [CppParam { name: "_title_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_visualMode_k__BackingField", ty:
+  // "::UnityEngine::UIElements::DragVisualMode", modifiers: "", def_value: None }, CppParam { name: "_genericData_k__BackingField", ty: "::System::Collections::Hashtable*", modifiers: "", def_value:
+  // None }, CppParam { name: "_unityObjectReferences_k__BackingField", ty: "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*", modifiers: "", def_value: None }]
+  constexpr StartDragArgs(::StringW _title_k__BackingField, ::UnityEngine::UIElements::DragVisualMode _visualMode_k__BackingField, ::System::Collections::Hashtable* _genericData_k__BackingField,
+                          ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* _unityObjectReferences_k__BackingField) noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StartDragArgs", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StartDragArgs(StartDragArgs const&) = delete;
+  /// @brief Field <title>k__BackingField, offset: 0x0, size: 0x8, def value: None
+  ::StringW _title_k__BackingField;
 
-  /// @brief Field <title>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____title_k__BackingField;
+  /// @brief Field <visualMode>k__BackingField, offset: 0x8, size: 0x4, def value: None
+  ::UnityEngine::UIElements::DragVisualMode _visualMode_k__BackingField;
 
-  /// @brief Field <userData>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* ____userData_k__BackingField;
+  /// @brief Field <genericData>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Hashtable* _genericData_k__BackingField;
 
-  /// @brief Field m_GenericData, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___m_GenericData;
+  /// @brief Field <unityObjectReferences>k__BackingField, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* _unityObjectReferences_k__BackingField;
 
-  /// @brief Field <unityObjectReferences>k__BackingField, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* ____unityObjectReferences_k__BackingField;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5725 };
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StartDragArgs, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StartDragArgs, 0x20>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, ____title_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, _title_k__BackingField) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, ____userData_k__BackingField) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, _visualMode_k__BackingField) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, ___m_GenericData) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, _genericData_k__BackingField) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, ____unityObjectReferences_k__BackingField) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, _unityObjectReferences_k__BackingField) == 0x18, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
-NEED_NO_BOX(::UnityEngine::UIElements::StartDragArgs);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StartDragArgs*, "UnityEngine.UIElements", "StartDragArgs");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StartDragArgs, "UnityEngine.UIElements", "StartDragArgs");

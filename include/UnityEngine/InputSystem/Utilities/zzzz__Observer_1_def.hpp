@@ -24,7 +24,7 @@ template <typename TValue> class Observer_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::Observer_1);
 // Type: UnityEngine.InputSystem.Utilities::Observer`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
@@ -34,10 +34,10 @@ class CORDL_TYPE Observer_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_OnCompleted, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OnCompleted, put = __cordl_internal_set_m_OnCompleted))::System::Action* m_OnCompleted;
+  __declspec(property(get = __cordl_internal_get_m_OnCompleted, put = __cordl_internal_set_m_OnCompleted)) ::System::Action* m_OnCompleted;
 
   /// @brief Field m_OnNext, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OnNext, put = __cordl_internal_set_m_OnNext))::System::Action_1<TValue>* m_OnNext;
+  __declspec(property(get = __cordl_internal_get_m_OnNext, put = __cordl_internal_set_m_OnNext)) ::System::Action_1<TValue>* m_OnNext;
 
   /// @brief Convert operator to "::System::IObserver_1<TValue>"
   constexpr operator ::System::IObserver_1<TValue>*() noexcept;
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field m_OnCompleted, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___m_OnCompleted;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7064 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

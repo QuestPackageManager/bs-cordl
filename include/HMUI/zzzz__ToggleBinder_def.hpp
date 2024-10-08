@@ -37,7 +37,7 @@ class __ToggleBinder____c__DisplayClass7_0;
 MARK_REF_PTR_T(::HMUI::ToggleBinder);
 MARK_REF_PTR_T(::HMUI::__ToggleBinder____c__DisplayClass7_0);
 // Type: ::<>c__DisplayClass7_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::ToggleBinder::<>c__DisplayClass7_0*
@@ -45,14 +45,14 @@ class CORDL_TYPE __ToggleBinder____c__DisplayClass7_0 : public ::System::Object 
 public:
   // Declarations
   /// @brief Field action, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action))::System::Action* action;
+  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action)) ::System::Action* action;
 
   /// @brief Field enabled, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_enabled, put = __cordl_internal_set_enabled)) bool enabled;
 
   static inline ::HMUI::__ToggleBinder____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <AddBinding>b__0, addr 0x252b168, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <AddBinding>b__0, addr 0x398294c, size 0x3c, virtual false, abstract: false, final false
   inline void _AddBinding_b__0(bool b);
 
   constexpr ::System::Action*& __cordl_internal_get_action();
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_enabled(bool value);
 
-  /// @brief Method .ctor, addr 0x252ab20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3982314, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,6 +90,9 @@ public:
   /// @brief Field action, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___action;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15980 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -101,7 +104,7 @@ static_assert(offsetof(::HMUI::__ToggleBinder____c__DisplayClass7_0, ___action) 
 
 } // namespace HMUI
 // Type: HMUI::ToggleBinder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::ToggleBinder*
@@ -113,30 +116,30 @@ public:
   /// @brief Field _bindings, offset 0x10, size 0x8
   __declspec(property(
       get = __cordl_internal_get__bindings,
-      put = __cordl_internal_set__bindings))::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::UnityEngine::Events::UnityAction_1<bool>*>*>* _bindings;
+      put = __cordl_internal_set__bindings)) ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::UnityEngine::Events::UnityAction_1<bool>*>*>* _bindings;
 
   /// @brief Field _enabled, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__enabled, put = __cordl_internal_set__enabled)) bool _enabled;
 
-  /// @brief Method AddBinding, addr 0x252a92c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x3982120, size 0xdc, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::UI::Toggle* toggle, ::System::Action_1<bool>* action);
 
-  /// @brief Method AddBinding, addr 0x252aa04, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x39821fc, size 0x118, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::UI::Toggle* toggle, bool enabled, ::System::Action* action);
 
-  /// @brief Method AddBindings, addr 0x252a7c8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddBindings, addr 0x3981fbc, size 0x164, virtual false, abstract: false, final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x252ab28, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x398231c, size 0x234, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Disable, addr 0x252ad5c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x3982550, size 0x1fc, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x252af60, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x398274c, size 0x200, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method Init, addr 0x252a718, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3981f0c, size 0x74, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::HMUI::ToggleBinder* New_ctor();
@@ -156,10 +159,10 @@ public:
 
   constexpr void __cordl_internal_set__enabled(bool value);
 
-  /// @brief Method .ctor, addr 0x252a6f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3981ee8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x252a78c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3981f80, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Toggle>, ::System::Action_1<bool>*>*>* bindingData);
 
 protected:
@@ -181,6 +184,9 @@ public:
 
   /// @brief Field _enabled, offset: 0x18, size: 0x1, def value: None
   bool ____enabled;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15981 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

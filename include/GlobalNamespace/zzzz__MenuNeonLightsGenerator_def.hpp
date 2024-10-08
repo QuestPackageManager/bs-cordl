@@ -21,47 +21,47 @@ class MenuNeonLightsGenerator;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MenuNeonLightsGenerator);
 // Type: ::MenuNeonLightsGenerator
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MenuNeonLightsGenerator*
 class CORDL_TYPE MenuNeonLightsGenerator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _afterSpawnRotation, offset 0x60, size 0xc
-  __declspec(property(get = __cordl_internal_get__afterSpawnRotation, put = __cordl_internal_set__afterSpawnRotation))::UnityEngine::Vector3 _afterSpawnRotation;
+  /// @brief Field _afterSpawnRotation, offset 0x68, size 0xc
+  __declspec(property(get = __cordl_internal_get__afterSpawnRotation, put = __cordl_internal_set__afterSpawnRotation)) ::UnityEngine::Vector3 _afterSpawnRotation;
 
-  /// @brief Field _angle, offset 0x20, size 0x4
+  /// @brief Field _angle, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__angle, put = __cordl_internal_set__angle)) float_t _angle;
 
-  /// @brief Field _generate, offset 0x18, size 0x1
+  /// @brief Field _generate, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__generate, put = __cordl_internal_set__generate)) bool _generate;
 
-  /// @brief Field _intensityCurve, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__intensityCurve, put = __cordl_internal_set__intensityCurve))::UnityEngine::AnimationCurve* _intensityCurve;
+  /// @brief Field _intensityCurve, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__intensityCurve, put = __cordl_internal_set__intensityCurve)) ::UnityEngine::AnimationCurve* _intensityCurve;
 
-  /// @brief Field _intensityMultiplier, offset 0x30, size 0x4
+  /// @brief Field _intensityMultiplier, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__intensityMultiplier, put = __cordl_internal_set__intensityMultiplier)) float_t _intensityMultiplier;
 
-  /// @brief Field _lengthCurve, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__lengthCurve, put = __cordl_internal_set__lengthCurve))::UnityEngine::AnimationCurve* _lengthCurve;
+  /// @brief Field _lengthCurve, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__lengthCurve, put = __cordl_internal_set__lengthCurve)) ::UnityEngine::AnimationCurve* _lengthCurve;
 
-  /// @brief Field _lengthMultiplier, offset 0x40, size 0x4
+  /// @brief Field _lengthMultiplier, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__lengthMultiplier, put = __cordl_internal_set__lengthMultiplier)) float_t _lengthMultiplier;
 
-  /// @brief Field _neonLightPrefab, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__neonLightPrefab, put = __cordl_internal_set__neonLightPrefab))::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _neonLightPrefab;
+  /// @brief Field _neonLightPrefab, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__neonLightPrefab, put = __cordl_internal_set__neonLightPrefab)) ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _neonLightPrefab;
 
-  /// @brief Field _numberOfElements, offset 0x24, size 0x4
+  /// @brief Field _numberOfElements, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__numberOfElements, put = __cordl_internal_set__numberOfElements)) int32_t _numberOfElements;
 
-  /// @brief Field _radius, offset 0x1c, size 0x4
+  /// @brief Field _radius, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__radius, put = __cordl_internal_set__radius)) float_t _radius;
 
-  /// @brief Field _widthCurve, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__widthCurve, put = __cordl_internal_set__widthCurve))::UnityEngine::AnimationCurve* _widthCurve;
+  /// @brief Field _widthCurve, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__widthCurve, put = __cordl_internal_set__widthCurve)) ::UnityEngine::AnimationCurve* _widthCurve;
 
-  /// @brief Field _widthMultiplier, offset 0x50, size 0x4
+  /// @brief Field _widthMultiplier, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__widthMultiplier, put = __cordl_internal_set__widthMultiplier)) float_t _widthMultiplier;
 
   static inline ::GlobalNamespace::MenuNeonLightsGenerator* New_ctor();
@@ -138,7 +138,7 @@ public:
 
   constexpr void __cordl_internal_set__widthMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x2639150, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a6b864, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -155,70 +155,73 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MenuNeonLightsGenerator(MenuNeonLightsGenerator const&) = delete;
 
-  /// @brief Field _generate, offset: 0x18, size: 0x1, def value: None
+  /// @brief Field _generate, offset: 0x20, size: 0x1, def value: None
   bool ____generate;
 
-  /// @brief Field _radius, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field _radius, offset: 0x24, size: 0x4, def value: None
   float_t ____radius;
 
-  /// @brief Field _angle, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field _angle, offset: 0x28, size: 0x4, def value: None
   float_t ____angle;
 
-  /// @brief Field _numberOfElements, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field _numberOfElements, offset: 0x2c, size: 0x4, def value: None
   int32_t ____numberOfElements;
 
-  /// @brief Field _intensityCurve, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _intensityCurve, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____intensityCurve;
 
-  /// @brief Field _intensityMultiplier, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _intensityMultiplier, offset: 0x38, size: 0x4, def value: None
   float_t ____intensityMultiplier;
 
-  /// @brief Field _lengthCurve, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _lengthCurve, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____lengthCurve;
 
-  /// @brief Field _lengthMultiplier, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _lengthMultiplier, offset: 0x48, size: 0x4, def value: None
   float_t ____lengthMultiplier;
 
-  /// @brief Field _widthCurve, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _widthCurve, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____widthCurve;
 
-  /// @brief Field _widthMultiplier, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field _widthMultiplier, offset: 0x58, size: 0x4, def value: None
   float_t ____widthMultiplier;
 
-  /// @brief Field _neonLightPrefab, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _neonLightPrefab, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____neonLightPrefab;
 
-  /// @brief Field _afterSpawnRotation, offset: 0x60, size: 0xc, def value: None
+  /// @brief Field _afterSpawnRotation, offset: 0x68, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____afterSpawnRotation;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4034 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuNeonLightsGenerator, 0x70>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuNeonLightsGenerator, 0x78>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____generate) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____generate) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____radius) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____radius) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____angle) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____angle) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____numberOfElements) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____numberOfElements) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____intensityCurve) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____intensityCurve) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____intensityMultiplier) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____intensityMultiplier) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____lengthCurve) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____lengthCurve) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____lengthMultiplier) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____lengthMultiplier) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____widthCurve) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____widthCurve) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____widthMultiplier) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____widthMultiplier) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____neonLightPrefab) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____neonLightPrefab) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____afterSpawnRotation) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____afterSpawnRotation) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MenuNeonLightsGenerator);

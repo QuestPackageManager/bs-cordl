@@ -52,7 +52,7 @@ struct __LogicalCallContext__Reader;
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::LogicalCallContext);
 MARK_VAL_T(::System::Runtime::Remoting::Messaging::__LogicalCallContext__Reader);
 // Type: ::Reader
-// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: true
 // CS Name: ::LogicalCallContext::Reader
@@ -63,19 +63,19 @@ public:
 
   __declspec(property(get = get_IsNull)) bool IsNull;
 
-  /// @brief Method Clone, addr 0x2840ee4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x3c5dfe8, size 0x68, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* Clone();
 
-  /// @brief Method GetData, addr 0x28534f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x3c700ec, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* GetData(::StringW name);
 
-  /// @brief Method .ctor, addr 0x28547c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c713bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
 
-  /// @brief Method get_HasInfo, addr 0x28547d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasInfo, addr 0x3c713c4, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasInfo();
 
-  /// @brief Method get_IsNull, addr 0x2840ecc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x3c5dfd0, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
   // Ctor Parameters []
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field m_ctx, offset: 0x0, size: 0x8, def value: None
   ::System::Runtime::Remoting::Messaging::LogicalCallContext* m_ctx;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3144 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -100,7 +103,7 @@ static_assert(offsetof(::System::Runtime::Remoting::Messaging::__LogicalCallCont
 
 } // namespace System::Runtime::Remoting::Messaging
 // Type: System.Runtime.Remoting.Messaging::LogicalCallContext
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::LogicalCallContext*
@@ -109,7 +112,7 @@ public:
   // Declarations
   using Reader = ::System::Runtime::Remoting::Messaging::__LogicalCallContext__Reader;
 
-  __declspec(property(get = get_Datastore))::System::Collections::Hashtable* Datastore;
+  __declspec(property(get = get_Datastore)) ::System::Collections::Hashtable* Datastore;
 
   __declspec(property(get = get_HasInfo)) bool HasInfo;
 
@@ -117,29 +120,31 @@ public:
 
   /// @brief Field _recvHeaders, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__recvHeaders,
-                      put = __cordl_internal_set__recvHeaders))::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> _recvHeaders;
+                      put = __cordl_internal_set__recvHeaders)) ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*>
+      _recvHeaders;
 
   /// @brief Field _sendHeaders, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__sendHeaders,
-                      put = __cordl_internal_set__sendHeaders))::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> _sendHeaders;
+                      put = __cordl_internal_set__sendHeaders)) ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*>
+      _sendHeaders;
 
   /// @brief Field m_Datastore, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Datastore, put = __cordl_internal_set_m_Datastore))::System::Collections::Hashtable* m_Datastore;
+  __declspec(property(get = __cordl_internal_get_m_Datastore, put = __cordl_internal_set_m_Datastore)) ::System::Collections::Hashtable* m_Datastore;
 
   /// @brief Field m_HostContext, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_HostContext, put = __cordl_internal_set_m_HostContext))::System::Object* m_HostContext;
+  __declspec(property(get = __cordl_internal_get_m_HostContext, put = __cordl_internal_set_m_HostContext)) ::System::Object* m_HostContext;
 
   /// @brief Field m_IsCorrelationMgr, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsCorrelationMgr, put = __cordl_internal_set_m_IsCorrelationMgr)) bool m_IsCorrelationMgr;
 
   /// @brief Field m_RemotingData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RemotingData, put = __cordl_internal_set_m_RemotingData))::System::Runtime::Remoting::Messaging::CallContextRemotingData* m_RemotingData;
+  __declspec(property(get = __cordl_internal_get_m_RemotingData, put = __cordl_internal_set_m_RemotingData)) ::System::Runtime::Remoting::Messaging::CallContextRemotingData* m_RemotingData;
 
   /// @brief Field m_SecurityData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SecurityData, put = __cordl_internal_set_m_SecurityData))::System::Runtime::Remoting::Messaging::CallContextSecurityData* m_SecurityData;
+  __declspec(property(get = __cordl_internal_get_m_SecurityData, put = __cordl_internal_set_m_SecurityData)) ::System::Runtime::Remoting::Messaging::CallContextSecurityData* m_SecurityData;
 
   /// @brief Field s_callContextType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_callContextType, put = setStaticF_s_callContextType))::System::Type* s_callContextType;
+  static __declspec(property(get = getStaticF_s_callContextType, put = setStaticF_s_callContextType)) ::System::Type* s_callContextType;
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
@@ -147,16 +152,16 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Clone, addr 0x2854024, size 0x5f8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3c70c08, size 0x608, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method GetData, addr 0x285470c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x3c71300, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Object* GetData(::StringW name);
 
-  /// @brief Method GetObjectData, addr 0x2853ca4, size 0x354, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x3c7088c, size 0x350, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Merge, addr 0x28411f0, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method Merge, addr 0x3c5e2ec, size 0x230, virtual false, abstract: false, final false
   inline void Merge(::System::Runtime::Remoting::Messaging::LogicalCallContext* lc);
 
   static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* New_ctor();
@@ -164,7 +169,7 @@ public:
   static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                      ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetData, addr 0x2853598, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3c70190, size 0x98, virtual false, abstract: false, final false
   inline void SetData(::StringW name, ::System::Object* data);
 
   constexpr ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> const& __cordl_internal_get__recvHeaders() const;
@@ -209,21 +214,21 @@ public:
 
   constexpr void __cordl_internal_set_m_SecurityData(::System::Runtime::Remoting::Messaging::CallContextSecurityData* value);
 
-  /// @brief Method .ctor, addr 0x2853934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c70524, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x285393c, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c7052c, size 0x2fc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Type* getStaticF_s_callContextType();
 
-  /// @brief Method get_Datastore, addr 0x2853c38, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Datastore, addr 0x3c70828, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_Datastore();
 
-  /// @brief Method get_HasInfo, addr 0x2841190, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_HasInfo, addr 0x3c5e28c, size 0x60, virtual false, abstract: false, final false
   inline bool get_HasInfo();
 
-  /// @brief Method get_HasUserData, addr 0x2853ff8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_HasUserData, addr 0x3c70bdc, size 0x2c, virtual false, abstract: false, final false
   inline bool get_HasUserData();
 
   /// @brief Convert to "::System::ICloneable"
@@ -268,6 +273,9 @@ public:
 
   /// @brief Field _recvHeaders, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> ____recvHeaders;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3145 };
 
   /// @brief Field s_CorrelationMgrSlotName offset 0xffffffff size 0x8
   static constexpr ::ConstString s_CorrelationMgrSlotName{ u"System.Diagnostics.Trace.CorrelationManagerSlot" };

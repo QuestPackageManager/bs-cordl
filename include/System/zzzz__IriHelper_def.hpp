@@ -18,23 +18,23 @@ class IriHelper;
 // Write type traits
 MARK_REF_PTR_T(::System::IriHelper);
 // Type: System::IriHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::IriHelper*
 class CORDL_TYPE IriHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckIriUnicodeRange, addr 0x2fa8630, size 0x630, virtual false, abstract: false, final false
+  /// @brief Method CheckIriUnicodeRange, addr 0x43936cc, size 0x630, virtual false, abstract: false, final false
   static inline bool CheckIriUnicodeRange(char16_t highSurr, char16_t lowSurr, ByRef<bool> surrogatePair, bool isQuery);
 
-  /// @brief Method CheckIriUnicodeRange, addr 0x2fa85d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckIriUnicodeRange, addr 0x4393674, size 0x58, virtual false, abstract: false, final false
   static inline bool CheckIriUnicodeRange(char16_t unicode, bool isQuery);
 
-  /// @brief Method CheckIsReserved, addr 0x2fa8c60, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CheckIsReserved, addr 0x4393cfc, size 0x144, virtual false, abstract: false, final false
   static inline bool CheckIsReserved(char16_t ch, ::System::UriComponents component);
 
-  /// @brief Method EscapeUnescapeIri, addr 0x2fa8da4, size 0x7fc, virtual false, abstract: false, final false
+  /// @brief Method EscapeUnescapeIri, addr 0x4393e40, size 0x85c, virtual false, abstract: false, final false
   static inline ::StringW EscapeUnescapeIri(::cordl_internals::Ptr<char16_t> pInput, int32_t start, int32_t end, ::System::UriComponents component);
 
 protected:
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IriHelper", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IriHelper(IriHelper const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9154 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

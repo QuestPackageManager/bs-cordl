@@ -17,7 +17,7 @@ class ToolboxItemAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::ToolboxItemAttribute);
 // Type: System.ComponentModel::ToolboxItemAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::ToolboxItemAttribute*
@@ -25,23 +25,23 @@ class CORDL_TYPE ToolboxItemAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field Default, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::System::ComponentModel::ToolboxItemAttribute* Default;
+  static __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::System::ComponentModel::ToolboxItemAttribute* Default;
 
   /// @brief Field None, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_None, put = setStaticF_None))::System::ComponentModel::ToolboxItemAttribute* None;
+  static __declspec(property(get = getStaticF_None, put = setStaticF_None)) ::System::ComponentModel::ToolboxItemAttribute* None;
 
-  __declspec(property(get = get_ToolboxItemTypeName))::StringW ToolboxItemTypeName;
+  __declspec(property(get = get_ToolboxItemTypeName)) ::StringW ToolboxItemTypeName;
 
   /// @brief Field _toolboxItemTypeName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__toolboxItemTypeName, put = __cordl_internal_set__toolboxItemTypeName))::StringW _toolboxItemTypeName;
+  __declspec(property(get = __cordl_internal_get__toolboxItemTypeName, put = __cordl_internal_set__toolboxItemTypeName)) ::StringW _toolboxItemTypeName;
 
-  /// @brief Method Equals, addr 0x2f6a2a8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x43daad0, size 0xfc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2f6a39c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x43dabcc, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x2f6a104, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x43da92c, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::ToolboxItemAttribute* New_ctor(bool defaultType);
@@ -54,17 +54,17 @@ public:
 
   constexpr void __cordl_internal_set__toolboxItemTypeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f6a16c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43da994, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(bool defaultType);
 
-  /// @brief Method .ctor, addr 0x2f6a1c8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43da9f0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW toolboxItemTypeName);
 
   static inline ::System::ComponentModel::ToolboxItemAttribute* getStaticF_Default();
 
   static inline ::System::ComponentModel::ToolboxItemAttribute* getStaticF_None();
 
-  /// @brief Method get_ToolboxItemTypeName, addr 0x2f6a254, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_ToolboxItemTypeName, addr 0x43daa7c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_ToolboxItemTypeName();
 
   static inline void setStaticF_Default(::System::ComponentModel::ToolboxItemAttribute* value);
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field _toolboxItemTypeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____toolboxItemTypeName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

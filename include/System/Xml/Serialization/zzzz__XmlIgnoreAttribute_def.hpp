@@ -12,7 +12,7 @@ class XmlIgnoreAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlIgnoreAttribute);
 // Type: System.Xml.Serialization::XmlIgnoreAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlIgnoreAttribute*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Serialization::XmlIgnoreAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2efec74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42fb9c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlIgnoreAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlIgnoreAttribute(XmlIgnoreAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7385 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

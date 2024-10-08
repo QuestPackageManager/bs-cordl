@@ -14,7 +14,7 @@ class HMACRIPEMD160;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::HMACRIPEMD160);
 // Type: System.Security.Cryptography::HMACRIPEMD160
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::HMACRIPEMD160*
@@ -25,10 +25,10 @@ public:
 
   static inline ::System::Security::Cryptography::HMACRIPEMD160* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x280c898, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2b7c0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x280c8bc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2b7e4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HMACRIPEMD160", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HMACRIPEMD160(HMACRIPEMD160 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2935 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

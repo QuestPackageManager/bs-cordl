@@ -22,7 +22,7 @@ template <typename TKey, typename TValue> class __CacheDict_2__Entry;
 MARK_GEN_REF_PTR_T(::System::Dynamic::Utils::CacheDict_2);
 MARK_GEN_REF_PTR_T(::System::Dynamic::Utils::__CacheDict_2__Entry);
 // Type: ::Entry
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Dynamic::Utils {
 // cpp template
 template <typename TKey, typename TValue>
@@ -86,12 +86,15 @@ public:
   /// @brief Field _value, offset: 0x20, size: 0x8, def value: None
   TValue ____value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14135 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Dynamic::Utils
 // Type: System.Dynamic.Utils::CacheDict`2
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Dynamic::Utils {
 // cpp template
 template <typename TKey, typename TValue>
@@ -107,7 +110,8 @@ public:
   /// @brief Field _entries, offset 0x18, size 0x8
   __declspec(property(
       get = __cordl_internal_get__entries,
-      put = __cordl_internal_set__entries))::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> _entries;
+      put = __cordl_internal_set__entries)) ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*>
+      _entries;
 
   /// @brief Field _mask, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__mask, put = __cordl_internal_set__mask)) int32_t _mask;
@@ -161,6 +165,9 @@ public:
 
   /// @brief Field _entries, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> ____entries;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14136 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -109,7 +109,7 @@ MARK_REF_PTR_T(::Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0);
 MARK_REF_PTR_T(::Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0);
 MARK_VAL_T(::Tayx::Graphy::__GraphyDebugger__DebugCondition);
 // Type: ::DebugVariable
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
 // CS Name: ::GraphyDebugger::DebugVariable
@@ -174,6 +174,9 @@ public:
   /// @brief Field Ram_Reserved value: static_cast<int32_t>(0x5)
   static ::Tayx::Graphy::__GraphyDebugger__DebugVariable const Ram_Reserved;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17055 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -186,7 +189,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__DebugVariable, value__)
 
 } // namespace Tayx::Graphy
 // Type: ::DebugComparer
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
 // CS Name: ::GraphyDebugger::DebugComparer
@@ -239,6 +242,9 @@ public:
   /// @brief Field Less_than value: static_cast<int32_t>(0x0)
   static ::Tayx::Graphy::__GraphyDebugger__DebugComparer const Less_than;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17056 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -251,7 +257,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__DebugComparer, value__)
 
 } // namespace Tayx::Graphy
 // Type: ::ConditionEvaluation
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
 // CS Name: ::GraphyDebugger::ConditionEvaluation
@@ -292,6 +298,9 @@ public:
   /// @brief Field Only_one_condition_has_to_be_met value: static_cast<int32_t>(0x1)
   static ::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation const Only_one_condition_has_to_be_met;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17057 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -304,7 +313,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation, va
 
 } // namespace Tayx::Graphy
 // Type: ::MessageType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
 // CS Name: ::GraphyDebugger::MessageType
@@ -349,6 +358,9 @@ public:
   /// @brief Field Warning value: static_cast<int32_t>(0x1)
   static ::Tayx::Graphy::__GraphyDebugger__MessageType const Warning;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17058 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -361,7 +373,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__MessageType, value__) =
 
 } // namespace Tayx::Graphy
 // Type: ::DebugCondition
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
 // CS Name: ::GraphyDebugger::DebugCondition
@@ -385,6 +397,9 @@ public:
   /// @brief Field Value, offset: 0x8, size: 0x4, def value: None
   float_t Value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17059 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
@@ -401,7 +416,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__DebugCondition, Value) 
 
 } // namespace Tayx::Graphy
 // Type: ::DebugPacket
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
 // CS Name: ::GraphyDebugger::DebugPacket*
@@ -412,19 +427,19 @@ public:
   __declspec(property(get = __cordl_internal_get_Active, put = __cordl_internal_set_Active)) bool Active;
 
   /// @brief Field Callbacks, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_Callbacks, put = __cordl_internal_set_Callbacks))::System::Collections::Generic::List_1<::System::Action*>* Callbacks;
+  __declspec(property(get = __cordl_internal_get_Callbacks, put = __cordl_internal_set_Callbacks)) ::System::Collections::Generic::List_1<::System::Action*>* Callbacks;
 
   __declspec(property(get = get_Check)) bool Check;
 
   /// @brief Field ConditionEvaluation, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_ConditionEvaluation, put = __cordl_internal_set_ConditionEvaluation))::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation ConditionEvaluation;
+  __declspec(property(get = __cordl_internal_get_ConditionEvaluation, put = __cordl_internal_set_ConditionEvaluation)) ::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation ConditionEvaluation;
 
   /// @brief Field DebugBreak, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_DebugBreak, put = __cordl_internal_set_DebugBreak)) bool DebugBreak;
 
   /// @brief Field DebugConditions, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_DebugConditions,
-                      put = __cordl_internal_set_DebugConditions))::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>* DebugConditions;
+                      put = __cordl_internal_set_DebugConditions)) ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>* DebugConditions;
 
   /// @brief Field ExecuteOnce, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_ExecuteOnce, put = __cordl_internal_set_ExecuteOnce)) bool ExecuteOnce;
@@ -439,19 +454,19 @@ public:
   __declspec(property(get = __cordl_internal_get_InitSleepTime, put = __cordl_internal_set_InitSleepTime)) float_t InitSleepTime;
 
   /// @brief Field Message, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_Message, put = __cordl_internal_set_Message))::StringW Message;
+  __declspec(property(get = __cordl_internal_get_Message, put = __cordl_internal_set_Message)) ::StringW Message;
 
   /// @brief Field MessageType, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_MessageType, put = __cordl_internal_set_MessageType))::Tayx::Graphy::__GraphyDebugger__MessageType MessageType;
+  __declspec(property(get = __cordl_internal_get_MessageType, put = __cordl_internal_set_MessageType)) ::Tayx::Graphy::__GraphyDebugger__MessageType MessageType;
 
   /// @brief Field ScreenshotFileName, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_ScreenshotFileName, put = __cordl_internal_set_ScreenshotFileName))::StringW ScreenshotFileName;
+  __declspec(property(get = __cordl_internal_get_ScreenshotFileName, put = __cordl_internal_set_ScreenshotFileName)) ::StringW ScreenshotFileName;
 
   /// @brief Field TakeScreenshot, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_TakeScreenshot, put = __cordl_internal_set_TakeScreenshot)) bool TakeScreenshot;
 
   /// @brief Field UnityEvents, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_UnityEvents, put = __cordl_internal_set_UnityEvents))::UnityEngine::Events::UnityEvent* UnityEvents;
+  __declspec(property(get = __cordl_internal_get_UnityEvents, put = __cordl_internal_set_UnityEvents)) ::UnityEngine::Events::UnityEvent* UnityEvents;
 
   /// @brief Field canBeChecked, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_canBeChecked, put = __cordl_internal_set_canBeChecked)) bool canBeChecked;
@@ -462,12 +477,12 @@ public:
   /// @brief Field timePassed, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_timePassed, put = __cordl_internal_set_timePassed)) float_t timePassed;
 
-  /// @brief Method Executed, addr 0x306482c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Executed, addr 0x445462c, size 0xc, virtual false, abstract: false, final false
   inline void Executed();
 
   static inline ::Tayx::Graphy::__GraphyDebugger__DebugPacket* New_ctor();
 
-  /// @brief Method Update, addr 0x3064138, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4453f04, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_Active() const;
@@ -572,10 +587,10 @@ public:
 
   constexpr void __cordl_internal_set_timePassed(float_t value);
 
-  /// @brief Method .ctor, addr 0x3063720, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4453504, size 0x120, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Check, addr 0x3064838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Check, addr 0x4454638, size 0x8, virtual false, abstract: false, final false
   inline bool get_Check();
 
 protected:
@@ -643,6 +658,9 @@ public:
   /// @brief Field timePassed, offset: 0x6c, size: 0x4, def value: None
   float_t ___timePassed;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17060 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -683,158 +701,8 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__DebugPacket, ___execute
 static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger__DebugPacket, ___timePassed) == 0x6c, "Offset mismatch!");
 
 } // namespace Tayx::Graphy
-// Type: ::<>c__DisplayClass18_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
-namespace Tayx::Graphy {
-// Is value type: false
-// CS Name: ::GraphyDebugger::<>c__DisplayClass18_0*
-class CORDL_TYPE __GraphyDebugger____c__DisplayClass18_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field packetId, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_packetId, put = __cordl_internal_set_packetId)) int32_t packetId;
-
-  static inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0* New_ctor();
-
-  /// @brief Method <GetFirstDebugPacketWithId>b__0, addr 0x3064840, size 0x24, virtual false, abstract: false, final false
-  inline bool _GetFirstDebugPacketWithId_b__0(::Tayx::Graphy::__GraphyDebugger__DebugPacket* x);
-
-  constexpr int32_t const& __cordl_internal_get_packetId() const;
-
-  constexpr int32_t& __cordl_internal_get_packetId();
-
-  constexpr void __cordl_internal_set_packetId(int32_t value);
-
-  /// @brief Method .ctor, addr 0x3063c08, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GraphyDebugger____c__DisplayClass18_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass18_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __GraphyDebugger____c__DisplayClass18_0(__GraphyDebugger____c__DisplayClass18_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass18_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __GraphyDebugger____c__DisplayClass18_0(__GraphyDebugger____c__DisplayClass18_0 const&) = delete;
-
-  /// @brief Field packetId, offset: 0x10, size: 0x4, def value: None
-  int32_t ___packetId;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0, 0x18>, "Size mismatch!");
-
-static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0, ___packetId) == 0x10, "Offset mismatch!");
-
-} // namespace Tayx::Graphy
-// Type: ::<>c__DisplayClass19_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
-namespace Tayx::Graphy {
-// Is value type: false
-// CS Name: ::GraphyDebugger::<>c__DisplayClass19_0*
-class CORDL_TYPE __GraphyDebugger____c__DisplayClass19_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field packetId, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_packetId, put = __cordl_internal_set_packetId)) int32_t packetId;
-
-  static inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0* New_ctor();
-
-  /// @brief Method <GetAllDebugPacketsWithId>b__0, addr 0x3064864, size 0x24, virtual false, abstract: false, final false
-  inline bool _GetAllDebugPacketsWithId_b__0(::Tayx::Graphy::__GraphyDebugger__DebugPacket* x);
-
-  constexpr int32_t const& __cordl_internal_get_packetId() const;
-
-  constexpr int32_t& __cordl_internal_get_packetId();
-
-  constexpr void __cordl_internal_set_packetId(int32_t value);
-
-  /// @brief Method .ctor, addr 0x3063cec, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GraphyDebugger____c__DisplayClass19_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass19_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __GraphyDebugger____c__DisplayClass19_0(__GraphyDebugger____c__DisplayClass19_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass19_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __GraphyDebugger____c__DisplayClass19_0(__GraphyDebugger____c__DisplayClass19_0 const&) = delete;
-
-  /// @brief Field packetId, offset: 0x10, size: 0x4, def value: None
-  int32_t ___packetId;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0, 0x18>, "Size mismatch!");
-
-static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0, ___packetId) == 0x10, "Offset mismatch!");
-
-} // namespace Tayx::Graphy
-// Type: ::<>c__DisplayClass21_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
-namespace Tayx::Graphy {
-// Is value type: false
-// CS Name: ::GraphyDebugger::<>c__DisplayClass21_0*
-class CORDL_TYPE __GraphyDebugger____c__DisplayClass21_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field packetId, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_packetId, put = __cordl_internal_set_packetId)) int32_t packetId;
-
-  static inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0* New_ctor();
-
-  /// @brief Method <RemoveAllDebugPacketsWithId>b__0, addr 0x3064888, size 0x24, virtual false, abstract: false, final false
-  inline bool _RemoveAllDebugPacketsWithId_b__0(::Tayx::Graphy::__GraphyDebugger__DebugPacket* x);
-
-  constexpr int32_t const& __cordl_internal_get_packetId() const;
-
-  constexpr int32_t& __cordl_internal_get_packetId();
-
-  constexpr void __cordl_internal_set_packetId(int32_t value);
-
-  /// @brief Method .ctor, addr 0x3063e6c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GraphyDebugger____c__DisplayClass21_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass21_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __GraphyDebugger____c__DisplayClass21_0(__GraphyDebugger____c__DisplayClass21_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass21_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __GraphyDebugger____c__DisplayClass21_0(__GraphyDebugger____c__DisplayClass21_0 const&) = delete;
-
-  /// @brief Field packetId, offset: 0x10, size: 0x4, def value: None
-  int32_t ___packetId;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0, 0x18>, "Size mismatch!");
-
-static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0, ___packetId) == 0x10, "Offset mismatch!");
-
-} // namespace Tayx::Graphy
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
 // CS Name: ::GraphyDebugger::<>c*
@@ -842,17 +710,17 @@ class CORDL_TYPE __GraphyDebugger____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Tayx::Graphy::__GraphyDebugger____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Tayx::Graphy::__GraphyDebugger____c* __9;
 
   /// @brief Field <>9__24_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__24_0, put = setStaticF___9__24_0))::System::Predicate_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>* __9__24_0;
+  static __declspec(property(get = getStaticF___9__24_0, put = setStaticF___9__24_0)) ::System::Predicate_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>* __9__24_0;
 
   static inline ::Tayx::Graphy::__GraphyDebugger____c* New_ctor();
 
-  /// @brief Method <CheckDebugPackets>b__24_0, addr 0x3064918, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <CheckDebugPackets>b__24_0, addr 0x44546a4, size 0xc, virtual false, abstract: false, final false
   inline bool _CheckDebugPackets_b__24_0(::Tayx::Graphy::__GraphyDebugger__DebugPacket* packet);
 
-  /// @brief Method .ctor, addr 0x3064910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445469c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Tayx::Graphy::__GraphyDebugger____c* getStaticF___9();
@@ -877,14 +745,176 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GraphyDebugger____c(__GraphyDebugger____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17061 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyDebugger____c, 0x10>, "Size mismatch!");
 
 } // namespace Tayx::Graphy
+// Type: ::<>c__DisplayClass18_0
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace Tayx::Graphy {
+// Is value type: false
+// CS Name: ::GraphyDebugger::<>c__DisplayClass18_0*
+class CORDL_TYPE __GraphyDebugger____c__DisplayClass18_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field packetId, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_packetId, put = __cordl_internal_set_packetId)) int32_t packetId;
+
+  static inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0* New_ctor();
+
+  /// @brief Method <GetFirstDebugPacketWithId>b__0, addr 0x44546b0, size 0x24, virtual false, abstract: false, final false
+  inline bool _GetFirstDebugPacketWithId_b__0(::Tayx::Graphy::__GraphyDebugger__DebugPacket* x);
+
+  constexpr int32_t const& __cordl_internal_get_packetId() const;
+
+  constexpr int32_t& __cordl_internal_get_packetId();
+
+  constexpr void __cordl_internal_set_packetId(int32_t value);
+
+  /// @brief Method .ctor, addr 0x44539e4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __GraphyDebugger____c__DisplayClass18_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass18_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __GraphyDebugger____c__DisplayClass18_0(__GraphyDebugger____c__DisplayClass18_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass18_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __GraphyDebugger____c__DisplayClass18_0(__GraphyDebugger____c__DisplayClass18_0 const&) = delete;
+
+  /// @brief Field packetId, offset: 0x10, size: 0x4, def value: None
+  int32_t ___packetId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17062 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger____c__DisplayClass18_0, ___packetId) == 0x10, "Offset mismatch!");
+
+} // namespace Tayx::Graphy
+// Type: ::<>c__DisplayClass19_0
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace Tayx::Graphy {
+// Is value type: false
+// CS Name: ::GraphyDebugger::<>c__DisplayClass19_0*
+class CORDL_TYPE __GraphyDebugger____c__DisplayClass19_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field packetId, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_packetId, put = __cordl_internal_set_packetId)) int32_t packetId;
+
+  static inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0* New_ctor();
+
+  /// @brief Method <GetAllDebugPacketsWithId>b__0, addr 0x44546d4, size 0x24, virtual false, abstract: false, final false
+  inline bool _GetAllDebugPacketsWithId_b__0(::Tayx::Graphy::__GraphyDebugger__DebugPacket* x);
+
+  constexpr int32_t const& __cordl_internal_get_packetId() const;
+
+  constexpr int32_t& __cordl_internal_get_packetId();
+
+  constexpr void __cordl_internal_set_packetId(int32_t value);
+
+  /// @brief Method .ctor, addr 0x4453ac4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __GraphyDebugger____c__DisplayClass19_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass19_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __GraphyDebugger____c__DisplayClass19_0(__GraphyDebugger____c__DisplayClass19_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass19_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __GraphyDebugger____c__DisplayClass19_0(__GraphyDebugger____c__DisplayClass19_0 const&) = delete;
+
+  /// @brief Field packetId, offset: 0x10, size: 0x4, def value: None
+  int32_t ___packetId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17063 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger____c__DisplayClass19_0, ___packetId) == 0x10, "Offset mismatch!");
+
+} // namespace Tayx::Graphy
+// Type: ::<>c__DisplayClass21_0
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace Tayx::Graphy {
+// Is value type: false
+// CS Name: ::GraphyDebugger::<>c__DisplayClass21_0*
+class CORDL_TYPE __GraphyDebugger____c__DisplayClass21_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field packetId, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_packetId, put = __cordl_internal_set_packetId)) int32_t packetId;
+
+  static inline ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0* New_ctor();
+
+  /// @brief Method <RemoveAllDebugPacketsWithId>b__0, addr 0x44546f8, size 0x24, virtual false, abstract: false, final false
+  inline bool _RemoveAllDebugPacketsWithId_b__0(::Tayx::Graphy::__GraphyDebugger__DebugPacket* x);
+
+  constexpr int32_t const& __cordl_internal_get_packetId() const;
+
+  constexpr int32_t& __cordl_internal_get_packetId();
+
+  constexpr void __cordl_internal_set_packetId(int32_t value);
+
+  /// @brief Method .ctor, addr 0x4453c40, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __GraphyDebugger____c__DisplayClass21_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass21_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __GraphyDebugger____c__DisplayClass21_0(__GraphyDebugger____c__DisplayClass21_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__GraphyDebugger____c__DisplayClass21_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __GraphyDebugger____c__DisplayClass21_0(__GraphyDebugger____c__DisplayClass21_0 const&) = delete;
+
+  /// @brief Field packetId, offset: 0x10, size: 0x4, def value: None
+  int32_t ___packetId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17064 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0, ___packetId) == 0x10, "Offset mismatch!");
+
+} // namespace Tayx::Graphy
 // Type: Tayx.Graphy::GraphyDebugger
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
 // CS Name: ::Tayx.Graphy::GraphyDebugger*
@@ -911,75 +941,75 @@ public:
 
   using __c__DisplayClass21_0 = ::Tayx::Graphy::__GraphyDebugger____c__DisplayClass21_0;
 
-  /// @brief Field m_audioMonitor, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_audioMonitor, put = __cordl_internal_set_m_audioMonitor))::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> m_audioMonitor;
+  /// @brief Field m_audioMonitor, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_audioMonitor, put = __cordl_internal_set_m_audioMonitor)) ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> m_audioMonitor;
 
-  /// @brief Field m_debugPackets, offset 0x18, size 0x8
+  /// @brief Field m_debugPackets, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_debugPackets,
-                      put = __cordl_internal_set_m_debugPackets))::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>* m_debugPackets;
+                      put = __cordl_internal_set_m_debugPackets)) ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>* m_debugPackets;
 
-  /// @brief Field m_fpsMonitor, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_fpsMonitor, put = __cordl_internal_set_m_fpsMonitor))::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> m_fpsMonitor;
+  /// @brief Field m_fpsMonitor, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_fpsMonitor, put = __cordl_internal_set_m_fpsMonitor)) ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> m_fpsMonitor;
 
-  /// @brief Field m_ramMonitor, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ramMonitor, put = __cordl_internal_set_m_ramMonitor))::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> m_ramMonitor;
+  /// @brief Field m_ramMonitor, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ramMonitor, put = __cordl_internal_set_m_ramMonitor)) ::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> m_ramMonitor;
 
-  /// @brief Method AddCallbackToAllDebugPacketWithId, addr 0x3063f4c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method AddCallbackToAllDebugPacketWithId, addr 0x4453d1c, size 0x1e8, virtual false, abstract: false, final false
   inline void AddCallbackToAllDebugPacketWithId(::System::Action* callback, int32_t id);
 
-  /// @brief Method AddCallbackToFirstDebugPacketWithId, addr 0x3063e74, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddCallbackToFirstDebugPacketWithId, addr 0x4453c48, size 0xd4, virtual false, abstract: false, final false
   inline void AddCallbackToFirstDebugPacketWithId(::System::Action* callback, int32_t id);
 
-  /// @brief Method AddNewDebugPacket, addr 0x30634dc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x44532cc, size 0xa4, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(::Tayx::Graphy::__GraphyDebugger__DebugPacket* newDebugPacket);
 
-  /// @brief Method AddNewDebugPacket, addr 0x3063584, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x4453370, size 0x194, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(int32_t newId, ::Tayx::Graphy::__GraphyDebugger__DebugCondition newDebugCondition, ::Tayx::Graphy::__GraphyDebugger__MessageType newMessageType, ::StringW newMessage,
                                 bool newDebugBreak, ::System::Action* newCallback);
 
-  /// @brief Method AddNewDebugPacket, addr 0x3063954, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x4453738, size 0x12c, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(int32_t newId, ::Tayx::Graphy::__GraphyDebugger__DebugCondition newDebugCondition, ::Tayx::Graphy::__GraphyDebugger__MessageType newMessageType, ::StringW newMessage,
                                 bool newDebugBreak, ::System::Collections::Generic::List_1<::System::Action*>* newCallbacks);
 
-  /// @brief Method AddNewDebugPacket, addr 0x306383c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x4453624, size 0x114, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(int32_t newId, ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>* newDebugConditions,
                                 ::Tayx::Graphy::__GraphyDebugger__MessageType newMessageType, ::StringW newMessage, bool newDebugBreak, ::System::Action* newCallback);
 
-  /// @brief Method AddNewDebugPacket, addr 0x3063a84, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddNewDebugPacket, addr 0x4453864, size 0xac, virtual false, abstract: false, final false
   inline void AddNewDebugPacket(int32_t newId, ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugCondition>* newDebugConditions,
                                 ::Tayx::Graphy::__GraphyDebugger__MessageType newMessageType, ::StringW newMessage, bool newDebugBreak,
                                 ::System::Collections::Generic::List_1<::System::Action*>* newCallbacks);
 
-  /// @brief Method CheckDebugPackets, addr 0x30630c0, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method CheckDebugPackets, addr 0x4452eb4, size 0x418, virtual false, abstract: false, final false
   inline void CheckDebugPackets();
 
-  /// @brief Method CheckIfConditionIsMet, addr 0x3064194, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CheckIfConditionIsMet, addr 0x4453f60, size 0xf4, virtual false, abstract: false, final false
   inline bool CheckIfConditionIsMet(::Tayx::Graphy::__GraphyDebugger__DebugCondition debugCondition);
 
-  /// @brief Method ExecuteOperationsInDebugPacket, addr 0x30642a4, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteOperationsInDebugPacket, addr 0x4454054, size 0x3e4, virtual false, abstract: false, final false
   inline void ExecuteOperationsInDebugPacket(::Tayx::Graphy::__GraphyDebugger__DebugPacket* debugPacket);
 
-  /// @brief Method GetAllDebugPacketsWithId, addr 0x3063c10, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetAllDebugPacketsWithId, addr 0x44539ec, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>* GetAllDebugPacketsWithId(int32_t packetId);
 
-  /// @brief Method GetFirstDebugPacketWithId, addr 0x3063b30, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetFirstDebugPacketWithId, addr 0x4453910, size 0xd4, virtual false, abstract: false, final false
   inline ::Tayx::Graphy::__GraphyDebugger__DebugPacket* GetFirstDebugPacketWithId(int32_t packetId);
 
-  /// @brief Method GetRequestedValueFromDebugVariable, addr 0x3064660, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetRequestedValueFromDebugVariable, addr 0x4454438, size 0x1f4, virtual false, abstract: false, final false
   inline float_t GetRequestedValueFromDebugVariable(::Tayx::Graphy::__GraphyDebugger__DebugVariable debugVariable);
 
   static inline ::Tayx::Graphy::GraphyDebugger* New_ctor();
 
-  /// @brief Method RemoveAllDebugPacketsWithId, addr 0x3063d80, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method RemoveAllDebugPacketsWithId, addr 0x4453b58, size 0xe8, virtual false, abstract: false, final false
   inline void RemoveAllDebugPacketsWithId(int32_t packetId);
 
-  /// @brief Method RemoveFirstDebugPacketWithId, addr 0x3063cf4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RemoveFirstDebugPacketWithId, addr 0x4453acc, size 0x8c, virtual false, abstract: false, final false
   inline void RemoveFirstDebugPacketWithId(int32_t packetId);
 
-  /// @brief Method Start, addr 0x306301c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4452e10, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x30630bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4452eb0, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> const& __cordl_internal_get_m_audioMonitor() const;
@@ -1006,7 +1036,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ramMonitor(::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> value);
 
-  /// @brief Method .ctor, addr 0x3062f60, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4452d5c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1023,30 +1053,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GraphyDebugger(GraphyDebugger const&) = delete;
 
-  /// @brief Field m_debugPackets, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field m_debugPackets, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Tayx::Graphy::__GraphyDebugger__DebugPacket*>* ___m_debugPackets;
 
-  /// @brief Field m_fpsMonitor, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field m_fpsMonitor, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> ___m_fpsMonitor;
 
-  /// @brief Field m_ramMonitor, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field m_ramMonitor, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> ___m_ramMonitor;
 
-  /// @brief Field m_audioMonitor, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field m_audioMonitor, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> ___m_audioMonitor;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17065 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::GraphyDebugger, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::GraphyDebugger, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::GraphyDebugger, ___m_debugPackets) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::GraphyDebugger, ___m_debugPackets) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::GraphyDebugger, ___m_fpsMonitor) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::GraphyDebugger, ___m_fpsMonitor) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::GraphyDebugger, ___m_ramMonitor) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::GraphyDebugger, ___m_ramMonitor) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::GraphyDebugger, ___m_audioMonitor) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::GraphyDebugger, ___m_audioMonitor) == 0x38, "Offset mismatch!");
 
 } // namespace Tayx::Graphy
 DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::__GraphyDebugger__ConditionEvaluation, "Tayx.Graphy", "GraphyDebugger/ConditionEvaluation");

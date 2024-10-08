@@ -17,7 +17,7 @@ class CreditsSetupSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CreditsSetupSO);
 // Type: ::CreditsSetupSO
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CreditsSetupSO*
@@ -28,25 +28,25 @@ public:
   __declspec(property(get = __cordl_internal_get_columnCount, put = __cordl_internal_set_columnCount)) int32_t columnCount;
 
   /// @brief Field headerLocalizedTextPrefab, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_headerLocalizedTextPrefab, put = __cordl_internal_set_headerLocalizedTextPrefab))::UnityW<::UnityEngine::GameObject> headerLocalizedTextPrefab;
+  __declspec(property(get = __cordl_internal_get_headerLocalizedTextPrefab, put = __cordl_internal_set_headerLocalizedTextPrefab)) ::UnityW<::UnityEngine::GameObject> headerLocalizedTextPrefab;
 
   /// @brief Field headerTextPrefab, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_headerTextPrefab, put = __cordl_internal_set_headerTextPrefab))::UnityW<::UnityEngine::GameObject> headerTextPrefab;
+  __declspec(property(get = __cordl_internal_get_headerTextPrefab, put = __cordl_internal_set_headerTextPrefab)) ::UnityW<::UnityEngine::GameObject> headerTextPrefab;
 
   /// @brief Field normalLocalizedTextPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_normalLocalizedTextPrefab, put = __cordl_internal_set_normalLocalizedTextPrefab))::UnityW<::UnityEngine::GameObject> normalLocalizedTextPrefab;
+  __declspec(property(get = __cordl_internal_get_normalLocalizedTextPrefab, put = __cordl_internal_set_normalLocalizedTextPrefab)) ::UnityW<::UnityEngine::GameObject> normalLocalizedTextPrefab;
 
   /// @brief Field normalTextPrefab, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_normalTextPrefab, put = __cordl_internal_set_normalTextPrefab))::UnityW<::UnityEngine::GameObject> normalTextPrefab;
+  __declspec(property(get = __cordl_internal_get_normalTextPrefab, put = __cordl_internal_set_normalTextPrefab)) ::UnityW<::UnityEngine::GameObject> normalTextPrefab;
 
   /// @brief Field spaceHeight, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_spaceHeight, put = __cordl_internal_set_spaceHeight)) float_t spaceHeight;
 
   /// @brief Field titleLocalizedTextPrefab, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_titleLocalizedTextPrefab, put = __cordl_internal_set_titleLocalizedTextPrefab))::UnityW<::UnityEngine::GameObject> titleLocalizedTextPrefab;
+  __declspec(property(get = __cordl_internal_get_titleLocalizedTextPrefab, put = __cordl_internal_set_titleLocalizedTextPrefab)) ::UnityW<::UnityEngine::GameObject> titleLocalizedTextPrefab;
 
   /// @brief Field titleTextPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_titleTextPrefab, put = __cordl_internal_set_titleTextPrefab))::UnityW<::UnityEngine::GameObject> titleTextPrefab;
+  __declspec(property(get = __cordl_internal_get_titleTextPrefab, put = __cordl_internal_set_titleTextPrefab)) ::UnityW<::UnityEngine::GameObject> titleTextPrefab;
 
   static inline ::GlobalNamespace::CreditsSetupSO* New_ctor();
 
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_titleTextPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x276f6d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2229828, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -138,6 +138,9 @@ public:
 
   /// @brief Field spaceHeight, offset: 0x4c, size: 0x4, def value: None
   float_t ___spaceHeight;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18713 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

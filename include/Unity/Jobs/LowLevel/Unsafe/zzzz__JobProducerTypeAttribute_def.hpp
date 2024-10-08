@@ -15,7 +15,7 @@ class JobProducerTypeAttribute;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute);
 // Type: Unity.Jobs.LowLevel.Unsafe::JobProducerTypeAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: false
 // CS Name: ::Unity.Jobs.LowLevel.Unsafe::JobProducerTypeAttribute*
@@ -23,7 +23,7 @@ class CORDL_TYPE JobProducerTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <ProducerType>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ProducerType_k__BackingField, put = __cordl_internal_set__ProducerType_k__BackingField))::System::Type* _ProducerType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ProducerType_k__BackingField, put = __cordl_internal_set__ProducerType_k__BackingField)) ::System::Type* _ProducerType_k__BackingField;
 
   static inline ::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute* New_ctor(::System::Type* producerType);
 
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__ProducerType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x340d60c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e7d7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* producerType);
 
 protected:
@@ -52,6 +52,9 @@ public:
 
   /// @brief Field <ProducerType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____ProducerType_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10519 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,7 +12,7 @@ class Motion;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Motion);
 // Type: UnityEngine::Motion
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::Motion*
@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__isAnimatorMotion_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x33fd668, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d65dc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isLooping, addr 0x33fd6c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isLooping, addr 0x47dd470, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isLooping();
 
 protected:
@@ -54,6 +54,9 @@ public:
 
   /// @brief Field <isAnimatorMotion>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____isAnimatorMotion_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16833 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

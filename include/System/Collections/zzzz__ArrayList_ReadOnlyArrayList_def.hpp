@@ -35,7 +35,7 @@ class __ArrayList__ReadOnlyArrayList;
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::__ArrayList__ReadOnlyArrayList);
 // Type: ::ReadOnlyArrayList
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
 // CS Name: ::ArrayList::ReadOnlyArrayList*
@@ -52,67 +52,67 @@ public:
 
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
-  __declspec(property(get = get_Item, put = set_Item))::System::Object* Item[];
+  __declspec(property(get = get_Item, put = set_Item)) ::System::Object* Item[];
 
-  __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
+  __declspec(property(get = get_SyncRoot)) ::System::Object* SyncRoot;
 
   /// @brief Field _list, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::ArrayList* _list;
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list)) ::System::Collections::ArrayList* _list;
 
-  /// @brief Method Add, addr 0x293b860, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x3d4ede0, size 0x4c, virtual true, abstract: false, final false
   inline int32_t Add(::System::Object* obj);
 
-  /// @brief Method AddRange, addr 0x293b8b0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method AddRange, addr 0x3d4ee2c, size 0x4c, virtual true, abstract: false, final false
   inline void AddRange(::System::Collections::ICollection* c);
 
-  /// @brief Method Clear, addr 0x293b950, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x3d4eec4, size 0x4c, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clone, addr 0x293b9a0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x3d4ef10, size 0xe8, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method Contains, addr 0x293ba8c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x3d4eff8, size 0x24, virtual true, abstract: false, final false
   inline bool Contains(::System::Object* obj);
 
-  /// @brief Method CopyTo, addr 0x293bab0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3d4f01c, size 0x24, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method CopyTo, addr 0x293bad4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3d4f040, size 0x24, virtual true, abstract: false, final false
   inline void CopyTo(int32_t index, ::System::Array* array, int32_t arrayIndex, int32_t count);
 
-  /// @brief Method GetEnumerator, addr 0x293baf8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3d4f064, size 0x24, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method IndexOf, addr 0x293bb1c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3d4f088, size 0x24, virtual true, abstract: false, final false
   inline int32_t IndexOf(::System::Object* value);
 
-  /// @brief Method Insert, addr 0x293bb40, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Insert, addr 0x3d4f0ac, size 0x4c, virtual true, abstract: false, final false
   inline void Insert(int32_t index, ::System::Object* obj);
 
-  /// @brief Method InsertRange, addr 0x293bb90, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method InsertRange, addr 0x3d4f0f8, size 0x4c, virtual true, abstract: false, final false
   inline void InsertRange(int32_t index, ::System::Collections::ICollection* c);
 
   static inline ::System::Collections::__ArrayList__ReadOnlyArrayList* New_ctor(::System::Collections::ArrayList* l);
 
-  /// @brief Method Remove, addr 0x293bbe0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x3d4f144, size 0x4c, virtual true, abstract: false, final false
   inline void Remove(::System::Object* value);
 
-  /// @brief Method RemoveAt, addr 0x293bc30, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x3d4f190, size 0x4c, virtual true, abstract: false, final false
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method RemoveRange, addr 0x293bc80, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method RemoveRange, addr 0x3d4f1dc, size 0x4c, virtual true, abstract: false, final false
   inline void RemoveRange(int32_t index, int32_t count);
 
-  /// @brief Method Reverse, addr 0x293bcd0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Reverse, addr 0x3d4f228, size 0x4c, virtual true, abstract: false, final false
   inline void Reverse(int32_t index, int32_t count);
 
-  /// @brief Method Sort, addr 0x293bd20, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Sort, addr 0x3d4f274, size 0x4c, virtual true, abstract: false, final false
   inline void Sort(int32_t index, int32_t count, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method ToArray, addr 0x293bd70, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ToArray, addr 0x3d4f2c0, size 0x24, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ToArray();
 
-  /// @brief Method ToArray, addr 0x293bd94, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ToArray, addr 0x3d4f2e4, size 0x24, virtual true, abstract: false, final false
   inline ::System::Array* ToArray(::System::Type* type);
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__list();
@@ -121,31 +121,31 @@ public:
 
   constexpr void __cordl_internal_set__list(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x2939128, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d4c6fc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* l);
 
-  /// @brief Method get_Count, addr 0x293b770, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3d4ecf4, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsFixedSize, addr 0x293b79c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixedSize, addr 0x3d4ed20, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x293b794, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x3d4ed18, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x293b7a4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x3d4ed28, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x293b7c8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3d4ed4c, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method get_SyncRoot, addr 0x293b83c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x3d4edbc, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method set_Capacity, addr 0x293b900, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method set_Capacity, addr 0x3d4ee78, size 0x4c, virtual true, abstract: false, final false
   inline void set_Capacity(int32_t value);
 
-  /// @brief Method set_Item, addr 0x293b7ec, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x3d4ed70, size 0x4c, virtual true, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Object* value);
 
 protected:
@@ -164,6 +164,9 @@ public:
 
   /// @brief Field _list, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::ArrayList* ____list;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3797 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

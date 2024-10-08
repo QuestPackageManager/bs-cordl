@@ -12,7 +12,7 @@ class LocalizationRequiredAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::LocalizationRequiredAttribute);
 // Type: JetBrains.Annotations::LocalizationRequiredAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::LocalizationRequiredAttribute*
@@ -34,16 +34,16 @@ public:
 
   constexpr void __cordl_internal_set__Required_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3651098, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77918, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x36510b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77938, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(bool required);
 
-  /// @brief Method get_Required, addr 0x36510e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Required, addr 0x4a77964, size 0x8, virtual false, abstract: false, final false
   inline bool get_Required();
 
-  /// @brief Method set_Required, addr 0x36510ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Required, addr 0x4a7796c, size 0xc, virtual false, abstract: false, final false
   inline void set_Required(bool value);
 
 protected:
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field <Required>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Required_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18334 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

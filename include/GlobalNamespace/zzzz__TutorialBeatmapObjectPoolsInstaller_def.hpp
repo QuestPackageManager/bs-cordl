@@ -24,27 +24,28 @@ class TutorialBeatmapObjectPoolsInstaller;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller);
 // Type: ::TutorialBeatmapObjectPoolsInstaller
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TutorialBeatmapObjectPoolsInstaller*
 class CORDL_TYPE TutorialBeatmapObjectPoolsInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Field _basicNotePrefab, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__basicNotePrefab, put = __cordl_internal_set__basicNotePrefab))::UnityW<::GlobalNamespace::TutorialNoteController> _basicNotePrefab;
+  /// @brief Field _basicNotePrefab, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__basicNotePrefab, put = __cordl_internal_set__basicNotePrefab)) ::UnityW<::GlobalNamespace::TutorialNoteController> _basicNotePrefab;
 
-  /// @brief Field _bombNotePrefab, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__bombNotePrefab, put = __cordl_internal_set__bombNotePrefab))::UnityW<::GlobalNamespace::BombNoteController> _bombNotePrefab;
+  /// @brief Field _bombNotePrefab, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__bombNotePrefab, put = __cordl_internal_set__bombNotePrefab)) ::UnityW<::GlobalNamespace::BombNoteController> _bombNotePrefab;
 
-  /// @brief Field _noteLineConnectionControllerPrefab, offset 0x38, size 0x8
+  /// @brief Field _noteLineConnectionControllerPrefab, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__noteLineConnectionControllerPrefab,
-                      put = __cordl_internal_set__noteLineConnectionControllerPrefab))::UnityW<::GlobalNamespace::NoteLineConnectionController> _noteLineConnectionControllerPrefab;
+                      put = __cordl_internal_set__noteLineConnectionControllerPrefab)) ::UnityW<::GlobalNamespace::NoteLineConnectionController>
+      _noteLineConnectionControllerPrefab;
 
-  /// @brief Field _obstaclePrefab, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__obstaclePrefab, put = __cordl_internal_set__obstaclePrefab))::UnityW<::GlobalNamespace::ObstacleController> _obstaclePrefab;
+  /// @brief Field _obstaclePrefab, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__obstaclePrefab, put = __cordl_internal_set__obstaclePrefab)) ::UnityW<::GlobalNamespace::ObstacleController> _obstaclePrefab;
 
-  /// @brief Method InstallBindings, addr 0x275ee10, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b7bb20, size 0x18c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller* New_ctor();
@@ -73,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__obstaclePrefab(::UnityW<::GlobalNamespace::ObstacleController> value);
 
-  /// @brief Method .ctor, addr 0x275ef9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7bcac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,30 +91,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TutorialBeatmapObjectPoolsInstaller(TutorialBeatmapObjectPoolsInstaller const&) = delete;
 
-  /// @brief Field _basicNotePrefab, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _basicNotePrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TutorialNoteController> ____basicNotePrefab;
 
-  /// @brief Field _bombNotePrefab, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _bombNotePrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BombNoteController> ____bombNotePrefab;
 
-  /// @brief Field _obstaclePrefab, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _obstaclePrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObstacleController> ____obstaclePrefab;
 
-  /// @brief Field _noteLineConnectionControllerPrefab, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _noteLineConnectionControllerPrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteLineConnectionController> ____noteLineConnectionControllerPrefab;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4712 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller, ____basicNotePrefab) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller, ____basicNotePrefab) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller, ____bombNotePrefab) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller, ____bombNotePrefab) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller, ____obstaclePrefab) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller, ____obstaclePrefab) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller, ____noteLineConnectionControllerPrefab) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller, ____noteLineConnectionControllerPrefab) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller);

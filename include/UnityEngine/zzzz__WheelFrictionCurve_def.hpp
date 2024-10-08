@@ -13,7 +13,7 @@ struct WheelFrictionCurve;
 // Write type traits
 MARK_VAL_T(::UnityEngine::WheelFrictionCurve);
 // Type: UnityEngine::WheelFrictionCurve
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::WheelFrictionCurve
@@ -30,34 +30,34 @@ public:
 
   __declspec(property(get = get_stiffness, put = set_stiffness)) float_t stiffness;
 
-  /// @brief Method get_asymptoteSlip, addr 0x34aa698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asymptoteSlip, addr 0x4879e64, size 0x8, virtual false, abstract: false, final false
   inline float_t get_asymptoteSlip();
 
-  /// @brief Method get_asymptoteValue, addr 0x34aa6a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asymptoteValue, addr 0x4879e74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_asymptoteValue();
 
-  /// @brief Method get_extremumSlip, addr 0x34aa678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_extremumSlip, addr 0x4879e44, size 0x8, virtual false, abstract: false, final false
   inline float_t get_extremumSlip();
 
-  /// @brief Method get_extremumValue, addr 0x34aa688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_extremumValue, addr 0x4879e54, size 0x8, virtual false, abstract: false, final false
   inline float_t get_extremumValue();
 
-  /// @brief Method get_stiffness, addr 0x34aa6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stiffness, addr 0x4879e84, size 0x8, virtual false, abstract: false, final false
   inline float_t get_stiffness();
 
-  /// @brief Method set_asymptoteSlip, addr 0x34aa6a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_asymptoteSlip, addr 0x4879e6c, size 0x8, virtual false, abstract: false, final false
   inline void set_asymptoteSlip(float_t value);
 
-  /// @brief Method set_asymptoteValue, addr 0x34aa6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_asymptoteValue, addr 0x4879e7c, size 0x8, virtual false, abstract: false, final false
   inline void set_asymptoteValue(float_t value);
 
-  /// @brief Method set_extremumSlip, addr 0x34aa680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_extremumSlip, addr 0x4879e4c, size 0x8, virtual false, abstract: false, final false
   inline void set_extremumSlip(float_t value);
 
-  /// @brief Method set_extremumValue, addr 0x34aa690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_extremumValue, addr 0x4879e5c, size 0x8, virtual false, abstract: false, final false
   inline void set_extremumValue(float_t value);
 
-  /// @brief Method set_stiffness, addr 0x34aa6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stiffness, addr 0x4879e8c, size 0x8, virtual false, abstract: false, final false
   inline void set_stiffness(float_t value);
 
   // Ctor Parameters []
@@ -83,6 +83,9 @@ public:
 
   /// @brief Field m_Stiffness, offset: 0x10, size: 0x4, def value: None
   float_t m_Stiffness;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15668 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

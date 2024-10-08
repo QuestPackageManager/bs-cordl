@@ -33,7 +33,7 @@ class CVRChaperoneSetup;
 // Write type traits
 MARK_REF_PTR_T(::OVR::OpenVR::CVRChaperoneSetup);
 // Type: OVR.OpenVR::CVRChaperoneSetup
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::OVR.OpenVR::CVRChaperoneSetup*
@@ -41,68 +41,68 @@ class CORDL_TYPE CVRChaperoneSetup : public ::System::Object {
 public:
   // Declarations
   /// @brief Field FnTable, offset 0x10, size 0xa0
-  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRChaperoneSetup FnTable;
+  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRChaperoneSetup FnTable;
 
-  /// @brief Method CommitWorkingCopy, addr 0x2bfbcd0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CommitWorkingCopy, addr 0x3ffd644, size 0x24, virtual false, abstract: false, final false
   inline bool CommitWorkingCopy(::OVR::OpenVR::EChaperoneConfigFile configFile);
 
-  /// @brief Method ExportLiveToBuffer, addr 0x2bfc188, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ExportLiveToBuffer, addr 0x3ffdafc, size 0x28, virtual false, abstract: false, final false
   inline bool ExportLiveToBuffer(::System::Text::StringBuilder* pBuffer, ByRef<uint32_t> pnBufferLength);
 
-  /// @brief Method GetLiveCollisionBoundsInfo, addr 0x2bfbe10, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetLiveCollisionBoundsInfo, addr 0x3ffd784, size 0xa8, virtual false, abstract: false, final false
   inline bool GetLiveCollisionBoundsInfo(ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*>> pQuadsBuffer);
 
-  /// @brief Method GetLiveCollisionBoundsTagsInfo, addr 0x2bfc00c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetLiveCollisionBoundsTagsInfo, addr 0x3ffd980, size 0xa8, virtual false, abstract: false, final false
   inline bool GetLiveCollisionBoundsTagsInfo(ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> pTagsBuffer);
 
-  /// @brief Method GetLivePhysicalBoundsInfo, addr 0x2bfc0e0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetLivePhysicalBoundsInfo, addr 0x3ffda54, size 0xa8, virtual false, abstract: false, final false
   inline bool GetLivePhysicalBoundsInfo(ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*>> pQuadsBuffer);
 
-  /// @brief Method GetLiveSeatedZeroPoseToRawTrackingPose, addr 0x2bfbfbc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetLiveSeatedZeroPoseToRawTrackingPose, addr 0x3ffd930, size 0x24, virtual false, abstract: false, final false
   inline bool GetLiveSeatedZeroPoseToRawTrackingPose(ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose);
 
-  /// @brief Method GetWorkingCollisionBoundsInfo, addr 0x2bfbd68, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetWorkingCollisionBoundsInfo, addr 0x3ffd6dc, size 0xa8, virtual false, abstract: false, final false
   inline bool GetWorkingCollisionBoundsInfo(ByRef<::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*>> pQuadsBuffer);
 
-  /// @brief Method GetWorkingPlayAreaRect, addr 0x2bfbd44, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetWorkingPlayAreaRect, addr 0x3ffd6b8, size 0x24, virtual false, abstract: false, final false
   inline bool GetWorkingPlayAreaRect(ByRef<::OVR::OpenVR::HmdQuad_t> rect);
 
-  /// @brief Method GetWorkingPlayAreaSize, addr 0x2bfbd18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetWorkingPlayAreaSize, addr 0x3ffd68c, size 0x2c, virtual false, abstract: false, final false
   inline bool GetWorkingPlayAreaSize(ByRef<float_t> pSizeX, ByRef<float_t> pSizeZ);
 
-  /// @brief Method GetWorkingSeatedZeroPoseToRawTrackingPose, addr 0x2bfbeb8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetWorkingSeatedZeroPoseToRawTrackingPose, addr 0x3ffd82c, size 0x24, virtual false, abstract: false, final false
   inline bool GetWorkingSeatedZeroPoseToRawTrackingPose(ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatSeatedZeroPoseToRawTrackingPose);
 
-  /// @brief Method GetWorkingStandingZeroPoseToRawTrackingPose, addr 0x2bfbedc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetWorkingStandingZeroPoseToRawTrackingPose, addr 0x3ffd850, size 0x24, virtual false, abstract: false, final false
   inline bool GetWorkingStandingZeroPoseToRawTrackingPose(ByRef<::OVR::OpenVR::HmdMatrix34_t> pmatStandingZeroPoseToRawTrackingPose);
 
-  /// @brief Method ImportFromBufferToWorking, addr 0x2bfc1b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ImportFromBufferToWorking, addr 0x3ffdb24, size 0x24, virtual false, abstract: false, final false
   inline bool ImportFromBufferToWorking(::StringW pBuffer, uint32_t nImportFlags);
 
   static inline ::OVR::OpenVR::CVRChaperoneSetup* New_ctor(::System::IntPtr pInterface);
 
-  /// @brief Method ReloadFromDisk, addr 0x2bfbf98, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReloadFromDisk, addr 0x3ffd90c, size 0x24, virtual false, abstract: false, final false
   inline void ReloadFromDisk(::OVR::OpenVR::EChaperoneConfigFile configFile);
 
-  /// @brief Method RevertWorkingCopy, addr 0x2bfbcf4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RevertWorkingCopy, addr 0x3ffd668, size 0x24, virtual false, abstract: false, final false
   inline void RevertWorkingCopy();
 
-  /// @brief Method SetWorkingCollisionBoundsInfo, addr 0x2bfbf24, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetWorkingCollisionBoundsInfo, addr 0x3ffd898, size 0x2c, virtual false, abstract: false, final false
   inline void SetWorkingCollisionBoundsInfo(::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*> pQuadsBuffer);
 
-  /// @brief Method SetWorkingCollisionBoundsTagsInfo, addr 0x2bfbfe0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetWorkingCollisionBoundsTagsInfo, addr 0x3ffd954, size 0x2c, virtual false, abstract: false, final false
   inline void SetWorkingCollisionBoundsTagsInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> pTagsBuffer);
 
-  /// @brief Method SetWorkingPhysicalBoundsInfo, addr 0x2bfc0b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetWorkingPhysicalBoundsInfo, addr 0x3ffda28, size 0x2c, virtual false, abstract: false, final false
   inline bool SetWorkingPhysicalBoundsInfo(::ArrayW<::OVR::OpenVR::HmdQuad_t, ::Array<::OVR::OpenVR::HmdQuad_t>*> pQuadsBuffer);
 
-  /// @brief Method SetWorkingPlayAreaSize, addr 0x2bfbf00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetWorkingPlayAreaSize, addr 0x3ffd874, size 0x24, virtual false, abstract: false, final false
   inline void SetWorkingPlayAreaSize(float_t sizeX, float_t sizeZ);
 
-  /// @brief Method SetWorkingSeatedZeroPoseToRawTrackingPose, addr 0x2bfbf50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetWorkingSeatedZeroPoseToRawTrackingPose, addr 0x3ffd8c4, size 0x24, virtual false, abstract: false, final false
   inline void SetWorkingSeatedZeroPoseToRawTrackingPose(ByRef<::OVR::OpenVR::HmdMatrix34_t> pMatSeatedZeroPoseToRawTrackingPose);
 
-  /// @brief Method SetWorkingStandingZeroPoseToRawTrackingPose, addr 0x2bfbf74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetWorkingStandingZeroPoseToRawTrackingPose, addr 0x3ffd8e8, size 0x24, virtual false, abstract: false, final false
   inline void SetWorkingStandingZeroPoseToRawTrackingPose(ByRef<::OVR::OpenVR::HmdMatrix34_t> pMatStandingZeroPoseToRawTrackingPose);
 
   constexpr ::OVR::OpenVR::IVRChaperoneSetup const& __cordl_internal_get_FnTable() const;
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRChaperoneSetup value);
 
-  /// @brief Method .ctor, addr 0x2bfbbbc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ffd530, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:
@@ -130,6 +130,9 @@ public:
 
   /// @brief Field FnTable, offset: 0x10, size: 0xa0, def value: None
   ::OVR::OpenVR::IVRChaperoneSetup ___FnTable;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8846 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

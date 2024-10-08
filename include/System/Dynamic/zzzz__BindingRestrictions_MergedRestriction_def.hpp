@@ -18,7 +18,7 @@ class __BindingRestrictions__MergedRestriction;
 // Write type traits
 MARK_REF_PTR_T(::System::Dynamic::__BindingRestrictions__MergedRestriction);
 // Type: ::MergedRestriction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Dynamic {
 // Is value type: false
 // CS Name: ::BindingRestrictions::MergedRestriction*
@@ -26,12 +26,12 @@ class CORDL_TYPE __BindingRestrictions__MergedRestriction : public ::System::Dyn
 public:
   // Declarations
   /// @brief Field Left, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Left, put = __cordl_internal_set_Left))::System::Dynamic::BindingRestrictions* Left;
+  __declspec(property(get = __cordl_internal_get_Left, put = __cordl_internal_set_Left)) ::System::Dynamic::BindingRestrictions* Left;
 
   /// @brief Field Right, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Right, put = __cordl_internal_set_Right))::System::Dynamic::BindingRestrictions* Right;
+  __declspec(property(get = __cordl_internal_get_Right, put = __cordl_internal_set_Right)) ::System::Dynamic::BindingRestrictions* Right;
 
-  /// @brief Method GetExpression, addr 0x2c81c74, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x4084b8c, size 0x14c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression();
 
   static inline ::System::Dynamic::__BindingRestrictions__MergedRestriction* New_ctor(::System::Dynamic::BindingRestrictions* left, ::System::Dynamic::BindingRestrictions* right);
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_Right(::System::Dynamic::BindingRestrictions* value);
 
-  /// @brief Method .ctor, addr 0x2c813d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4084304, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Dynamic::BindingRestrictions* left, ::System::Dynamic::BindingRestrictions* right);
 
 protected:
@@ -70,6 +70,9 @@ public:
 
   /// @brief Field Right, offset: 0x18, size: 0x8, def value: None
   ::System::Dynamic::BindingRestrictions* ___Right;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14102 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,7 +21,7 @@ struct SplitAudioJob;
 // Write type traits
 MARK_VAL_T(::LufsMetering::SplitAudioJob);
 // Type: LufsMetering::SplitAudioJob
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LufsMetering {
 // Is value type: true
 // CS Name: ::LufsMetering::SplitAudioJob
@@ -31,11 +31,11 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Create, addr 0x26d7a64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3afde30, size 0x10, virtual false, abstract: false, final false
   static inline ::LufsMetering::SplitAudioJob Create(::Unity::Collections::NativeArray_1<float_t> interleavedData, ::Unity::Collections::NativeArray_1<float_t> channelData, int32_t numChannels,
                                                      int32_t channel);
 
-  /// @brief Method Execute, addr 0x26d7a74, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3afde40, size 0x1c, virtual true, abstract: false, final true
   inline void Execute(int32_t i);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field channel, offset: 0x24, size: 0x4, def value: None
   int32_t channel;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5376 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

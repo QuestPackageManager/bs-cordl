@@ -22,7 +22,7 @@ template <typename T> class SimpleMemoryPool_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::SimpleMemoryPool_1);
 // Type: ::SimpleMemoryPool`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -32,15 +32,15 @@ class CORDL_TYPE SimpleMemoryPool_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _activeElements, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__activeElements, put = __cordl_internal_set__activeElements))::GlobalNamespace::LazyCopyHashSet_1<T>* _activeElements;
+  __declspec(property(get = __cordl_internal_get__activeElements, put = __cordl_internal_set__activeElements)) ::GlobalNamespace::LazyCopyHashSet_1<T>* _activeElements;
 
   /// @brief Field _createNewItemFunc, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__createNewItemFunc, put = __cordl_internal_set__createNewItemFunc))::System::Func_1<T>* _createNewItemFunc;
+  __declspec(property(get = __cordl_internal_get__createNewItemFunc, put = __cordl_internal_set__createNewItemFunc)) ::System::Func_1<T>* _createNewItemFunc;
 
   /// @brief Field _inactiveElements, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__inactiveElements, put = __cordl_internal_set__inactiveElements))::System::Collections::Generic::List_1<T>* _inactiveElements;
+  __declspec(property(get = __cordl_internal_get__inactiveElements, put = __cordl_internal_set__inactiveElements)) ::System::Collections::Generic::List_1<T>* _inactiveElements;
 
-  __declspec(property(get = get_items))::System::Collections::Generic::List_1<T>* items;
+  __declspec(property(get = get_items)) ::System::Collections::Generic::List_1<T>* items;
 
   /// @brief Method Despawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Despawn(T item);
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field _createNewItemFunc, offset: 0x20, size: 0x8, def value: None
   ::System::Func_1<T>* ____createNewItemFunc;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

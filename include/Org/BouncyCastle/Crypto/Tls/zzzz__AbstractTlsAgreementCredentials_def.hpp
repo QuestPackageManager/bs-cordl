@@ -23,7 +23,7 @@ class AbstractTlsAgreementCredentials;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials);
 // Type: Org.BouncyCastle.Crypto.Tls::AbstractTlsAgreementCredentials
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::AbstractTlsAgreementCredentials*
@@ -41,7 +41,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11ca67c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a0284, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials"
@@ -63,6 +63,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsAgreementCredentials", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AbstractTlsAgreementCredentials(AbstractTlsAgreementCredentials const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1159 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

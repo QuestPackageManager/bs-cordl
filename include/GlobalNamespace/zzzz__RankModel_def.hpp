@@ -22,7 +22,7 @@ class RankModel;
 MARK_VAL_T(::GlobalNamespace::__RankModel__Rank);
 MARK_REF_PTR_T(::GlobalNamespace::RankModel);
 // Type: ::Rank
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::RankModel::Rank
@@ -87,6 +87,9 @@ public:
   /// @brief Field SSS value: static_cast<int32_t>(0x7)
   static ::GlobalNamespace::__RankModel__Rank const SSS;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16960 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -99,7 +102,7 @@ static_assert(offsetof(::GlobalNamespace::__RankModel__Rank, value__) == 0x0, "O
 
 } // namespace GlobalNamespace
 // Type: ::RankModel
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RankModel*
@@ -108,10 +111,10 @@ public:
   // Declarations
   using Rank = ::GlobalNamespace::__RankModel__Rank;
 
-  /// @brief Method GetRankForScore, addr 0x1517f5c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetRankForScore, addr 0x26e24ac, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__RankModel__Rank GetRankForScore(int32_t multipliedScore, int32_t modifiedScore, int32_t maxMultipliedScore, int32_t maxModifiedScore);
 
-  /// @brief Method GetRankName, addr 0x1517ea0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetRankName, addr 0x26e23f0, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetRankName(::GlobalNamespace::__RankModel__Rank rank);
 
 protected:
@@ -127,6 +130,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RankModel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RankModel(RankModel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16961 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

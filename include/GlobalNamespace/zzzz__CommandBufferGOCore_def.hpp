@@ -33,22 +33,22 @@ class CommandBufferGOCore;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CommandBufferGOCore);
 // Type: ::CommandBufferGOCore
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CommandBufferGOCore*
 class CORDL_TYPE CommandBufferGOCore : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _cameras, offset 0x18, size 0x8
+  /// @brief Field _cameras, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__cameras,
-                      put = __cordl_internal_set__cameras))::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* _cameras;
+                      put = __cordl_internal_set__cameras)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* _cameras;
 
   /// @brief Field _material, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__material, put = setStaticF__material))::UnityW<::UnityEngine::Material> _material;
+  static __declspec(property(get = getStaticF__material, put = setStaticF__material)) ::UnityW<::UnityEngine::Material> _material;
 
-  /// @brief Field _mesh, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
+  /// @brief Field _mesh, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh)) ::UnityW<::UnityEngine::Mesh> _mesh;
 
   /// @brief Method CamerasDict, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* CamerasDict();
@@ -61,13 +61,13 @@ public:
 
   static inline ::GlobalNamespace::CommandBufferGOCore* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2c08128, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x400a470, size 0x400, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2c07d14, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x400a090, size 0x3e0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnWillRenderObject, addr 0x2c085d4, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method OnWillRenderObject, addr 0x400a918, size 0x1b0, virtual true, abstract: false, final false
   inline void OnWillRenderObject();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>*& __cordl_internal_get__cameras();
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  /// @brief Method .ctor, addr 0x2c07950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4009ccc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__material();
@@ -104,20 +104,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CommandBufferGOCore(CommandBufferGOCore const&) = delete;
 
-  /// @brief Field _cameras, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _cameras, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* ____cameras;
 
-  /// @brief Field _mesh, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _mesh, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____mesh;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17795 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CommandBufferGOCore, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CommandBufferGOCore, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CommandBufferGOCore, ____cameras) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CommandBufferGOCore, ____cameras) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CommandBufferGOCore, ____mesh) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CommandBufferGOCore, ____mesh) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CommandBufferGOCore);

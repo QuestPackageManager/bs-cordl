@@ -23,27 +23,27 @@ class TMP_GlyphPairAdjustmentRecord;
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_GlyphPairAdjustmentRecord);
 // Type: TMPro::TMP_GlyphPairAdjustmentRecord
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::TMP_GlyphPairAdjustmentRecord*
 class CORDL_TYPE TMP_GlyphPairAdjustmentRecord : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_featureLookupFlags, put = set_featureLookupFlags))::TMPro::FontFeatureLookupFlags featureLookupFlags;
+  __declspec(property(get = get_featureLookupFlags, put = set_featureLookupFlags)) ::TMPro::FontFeatureLookupFlags featureLookupFlags;
 
-  __declspec(property(get = get_firstAdjustmentRecord, put = set_firstAdjustmentRecord))::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord;
+  __declspec(property(get = get_firstAdjustmentRecord, put = set_firstAdjustmentRecord)) ::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord;
 
   /// @brief Field m_FeatureLookupFlags, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_FeatureLookupFlags, put = __cordl_internal_set_m_FeatureLookupFlags))::TMPro::FontFeatureLookupFlags m_FeatureLookupFlags;
+  __declspec(property(get = __cordl_internal_get_m_FeatureLookupFlags, put = __cordl_internal_set_m_FeatureLookupFlags)) ::TMPro::FontFeatureLookupFlags m_FeatureLookupFlags;
 
   /// @brief Field m_FirstAdjustmentRecord, offset 0x10, size 0x14
-  __declspec(property(get = __cordl_internal_get_m_FirstAdjustmentRecord, put = __cordl_internal_set_m_FirstAdjustmentRecord))::TMPro::TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord;
+  __declspec(property(get = __cordl_internal_get_m_FirstAdjustmentRecord, put = __cordl_internal_set_m_FirstAdjustmentRecord)) ::TMPro::TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord;
 
   /// @brief Field m_SecondAdjustmentRecord, offset 0x24, size 0x14
-  __declspec(property(get = __cordl_internal_get_m_SecondAdjustmentRecord, put = __cordl_internal_set_m_SecondAdjustmentRecord))::TMPro::TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord;
+  __declspec(property(get = __cordl_internal_get_m_SecondAdjustmentRecord, put = __cordl_internal_set_m_SecondAdjustmentRecord)) ::TMPro::TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord;
 
-  __declspec(property(get = get_secondAdjustmentRecord, put = set_secondAdjustmentRecord))::TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord;
+  __declspec(property(get = get_secondAdjustmentRecord, put = set_secondAdjustmentRecord)) ::TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord;
 
   static inline ::TMPro::TMP_GlyphPairAdjustmentRecord* New_ctor(::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, ::TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord);
 
@@ -67,28 +67,28 @@ public:
 
   constexpr void __cordl_internal_set_m_SecondAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value);
 
-  /// @brief Method .ctor, addr 0x337bfb4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x475cb3c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_GlyphAdjustmentRecord firstAdjustmentRecord, ::TMPro::TMP_GlyphAdjustmentRecord secondAdjustmentRecord);
 
-  /// @brief Method .ctor, addr 0x337b4a4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x475c0f0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord glyphPairAdjustmentRecord);
 
-  /// @brief Method get_featureLookupFlags, addr 0x337e814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_featureLookupFlags, addr 0x475f2f4, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::FontFeatureLookupFlags get_featureLookupFlags();
 
-  /// @brief Method get_firstAdjustmentRecord, addr 0x337e7c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_firstAdjustmentRecord, addr 0x475f2a4, size 0x14, virtual false, abstract: false, final false
   inline ::TMPro::TMP_GlyphAdjustmentRecord get_firstAdjustmentRecord();
 
-  /// @brief Method get_secondAdjustmentRecord, addr 0x337e7ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_secondAdjustmentRecord, addr 0x475f2cc, size 0x14, virtual false, abstract: false, final false
   inline ::TMPro::TMP_GlyphAdjustmentRecord get_secondAdjustmentRecord();
 
-  /// @brief Method set_featureLookupFlags, addr 0x337e81c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_featureLookupFlags, addr 0x475f2fc, size 0x8, virtual false, abstract: false, final false
   inline void set_featureLookupFlags(::TMPro::FontFeatureLookupFlags value);
 
-  /// @brief Method set_firstAdjustmentRecord, addr 0x337e7d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_firstAdjustmentRecord, addr 0x475f2b8, size 0x14, virtual false, abstract: false, final false
   inline void set_firstAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value);
 
-  /// @brief Method set_secondAdjustmentRecord, addr 0x337e800, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_secondAdjustmentRecord, addr 0x475f2e0, size 0x14, virtual false, abstract: false, final false
   inline void set_secondAdjustmentRecord(::TMPro::TMP_GlyphAdjustmentRecord value);
 
 protected:
@@ -113,6 +113,9 @@ public:
 
   /// @brief Field m_FeatureLookupFlags, offset: 0x38, size: 0x4, def value: None
   ::TMPro::FontFeatureLookupFlags ___m_FeatureLookupFlags;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ class Lock;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Lock);
 // Type: System.Threading::Lock
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::System.Threading::Lock*
@@ -23,14 +23,14 @@ class CORDL_TYPE Lock : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _lock, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock))::System::Object* _lock;
+  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock)) ::System::Object* _lock;
 
-  /// @brief Method Acquire, addr 0x29cc9e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x3ddbc64, size 0x8, virtual false, abstract: false, final false
   inline void Acquire();
 
   static inline ::System::Threading::Lock* New_ctor();
 
-  /// @brief Method Release, addr 0x29cca04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x3ddbc88, size 0x8, virtual false, abstract: false, final false
   inline void Release();
 
   constexpr ::System::Object*& __cordl_internal_get__lock();
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__lock(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x29cca14, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ddbc98, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field _lock, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____lock;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2699 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

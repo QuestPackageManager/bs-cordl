@@ -58,7 +58,7 @@ template <typename T> class __ReadOnlyCollectionBuilder_1__Enumerator;
 MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1);
 MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::__ReadOnlyCollectionBuilder_1__Enumerator);
 // Type: ::Enumerator
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
@@ -69,10 +69,10 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field _builder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__builder, put = __cordl_internal_set__builder))::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1<T>* _builder;
+  __declspec(property(get = __cordl_internal_get__builder, put = __cordl_internal_set__builder)) ::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1<T>* _builder;
 
   /// @brief Field _current, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) T _current;
@@ -171,12 +171,15 @@ public:
   /// @brief Field _current, offset: 0x20, size: 0x8, def value: None
   T ____current;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14093 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Runtime::CompilerServices
 // Type: System.Runtime.CompilerServices::ReadOnlyCollectionBuilder`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
@@ -197,16 +200,16 @@ public:
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   __declspec(property(get = System_Collections_IList_get_IsFixedSize)) bool System_Collections_IList_IsFixedSize;
 
   __declspec(property(get = System_Collections_IList_get_IsReadOnly)) bool System_Collections_IList_IsReadOnly;
 
-  __declspec(property(get = System_Collections_IList_get_Item, put = System_Collections_IList_set_Item))::System::Object* System_Collections_IList_Item[];
+  __declspec(property(get = System_Collections_IList_get_Item, put = System_Collections_IList_set_Item)) ::System::Object* System_Collections_IList_Item[];
 
   /// @brief Field _items, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::ArrayW<T, ::Array<T>*> _items;
+  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items)) ::ArrayW<T, ::Array<T>*> _items;
 
   /// @brief Field _size, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__size, put = __cordl_internal_set__size)) int32_t _size;
@@ -396,6 +399,9 @@ public:
 
   /// @brief Field _version, offset: 0x1c, size: 0x4, def value: None
   int32_t ____version;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14094 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

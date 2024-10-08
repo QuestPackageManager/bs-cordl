@@ -38,7 +38,7 @@ class HEU_TOPNodeData;
 MARK_VAL_T(::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState);
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TOPNodeData);
 // Type: ::PDGState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HEU_TOPNodeData::PDGState
@@ -95,6 +95,9 @@ public:
   /// @brief Field NONE value: static_cast<int32_t>(0x0)
   static ::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState const NONE;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11715 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -107,7 +110,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState, value_
 
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_TOPNodeData
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_TOPNodeData*
@@ -120,41 +123,41 @@ public:
   __declspec(property(get = __cordl_internal_get__nodeID, put = __cordl_internal_set__nodeID)) int32_t _nodeID;
 
   /// @brief Field _nodeName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__nodeName, put = __cordl_internal_set__nodeName))::StringW _nodeName;
+  __declspec(property(get = __cordl_internal_get__nodeName, put = __cordl_internal_set__nodeName)) ::StringW _nodeName;
 
   /// @brief Field _parentName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__parentName, put = __cordl_internal_set__parentName))::StringW _parentName;
+  __declspec(property(get = __cordl_internal_get__parentName, put = __cordl_internal_set__parentName)) ::StringW _parentName;
 
   /// @brief Field _pdgState, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__pdgState, put = __cordl_internal_set__pdgState))::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState _pdgState;
+  __declspec(property(get = __cordl_internal_get__pdgState, put = __cordl_internal_set__pdgState)) ::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState _pdgState;
 
   /// @brief Field _showResults, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__showResults, put = __cordl_internal_set__showResults)) bool _showResults;
 
   /// @brief Field _tags, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__tags, put = __cordl_internal_set__tags))::HoudiniEngineUnity::TOPNodeTags* _tags;
+  __declspec(property(get = __cordl_internal_get__tags, put = __cordl_internal_set__tags)) ::HoudiniEngineUnity::TOPNodeTags* _tags;
 
   /// @brief Field _workItemTally, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__workItemTally, put = __cordl_internal_set__workItemTally))::HoudiniEngineUnity::HEU_WorkItemTally* _workItemTally;
+  __declspec(property(get = __cordl_internal_get__workItemTally, put = __cordl_internal_set__workItemTally)) ::HoudiniEngineUnity::HEU_WorkItemTally* _workItemTally;
 
   /// @brief Field _workResultParentGO, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__workResultParentGO, put = __cordl_internal_set__workResultParentGO))::UnityW<::UnityEngine::GameObject> _workResultParentGO;
+  __declspec(property(get = __cordl_internal_get__workResultParentGO, put = __cordl_internal_set__workResultParentGO)) ::UnityW<::UnityEngine::GameObject> _workResultParentGO;
 
   /// @brief Field _workResults, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__workResults, put = __cordl_internal_set__workResults))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* _workResults;
+  __declspec(property(get = __cordl_internal_get__workResults, put = __cordl_internal_set__workResults)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* _workResults;
 
-  /// @brief Method AnyWorkItemsFailed, addr 0x25ad808, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsFailed, addr 0x39e9148, size 0x24, virtual false, abstract: false, final false
   inline bool AnyWorkItemsFailed();
 
-  /// @brief Method AnyWorkItemsPending, addr 0x25adae0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsPending, addr 0x39e93e8, size 0x58, virtual false, abstract: false, final false
   inline bool AnyWorkItemsPending();
 
-  /// @brief Method AreAllWorkItemsComplete, addr 0x25ada4c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AreAllWorkItemsComplete, addr 0x39e9354, size 0x4c, virtual false, abstract: false, final false
   inline bool AreAllWorkItemsComplete();
 
   static inline ::HoudiniEngineUnity::HEU_TOPNodeData* New_ctor();
 
-  /// @brief Method Reset, addr 0x25ada28, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x39e9330, size 0x24, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__nodeID() const;
@@ -211,7 +214,7 @@ public:
 
   constexpr void __cordl_internal_set__workResults(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* value);
 
-  /// @brief Method .ctor, addr 0x25abff8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e7948, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -254,6 +257,9 @@ public:
 
   /// @brief Field _workItemTally, offset: 0x48, size: 0x8, def value: None
   ::HoudiniEngineUnity::HEU_WorkItemTally* ____workItemTally;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11716 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

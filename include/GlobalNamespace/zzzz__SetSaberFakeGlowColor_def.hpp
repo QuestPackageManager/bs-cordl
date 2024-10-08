@@ -26,37 +26,37 @@ class SetSaberFakeGlowColor;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SetSaberFakeGlowColor);
 // Type: ::SetSaberFakeGlowColor
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SetSaberFakeGlowColor*
 class CORDL_TYPE SetSaberFakeGlowColor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _colorManager, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  /// @brief Field _colorManager, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager)) ::GlobalNamespace::ColorManager* _colorManager;
 
-  /// @brief Field _parametric3SliceSprite, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__parametric3SliceSprite,
-                      put = __cordl_internal_set__parametric3SliceSprite))::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> _parametric3SliceSprite;
+  /// @brief Field _parametric3SliceSprite, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__parametric3SliceSprite, put = __cordl_internal_set__parametric3SliceSprite)) ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>
+      _parametric3SliceSprite;
 
-  /// @brief Field _saberType, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__saberType, put = __cordl_internal_set__saberType))::GlobalNamespace::SaberType _saberType;
+  /// @brief Field _saberType, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get__saberType, put = __cordl_internal_set__saberType)) ::GlobalNamespace::SaberType _saberType;
 
-  /// @brief Field _saberTypeObject, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberTypeObject, put = __cordl_internal_set__saberTypeObject))::UnityW<::GlobalNamespace::SaberTypeObject> _saberTypeObject;
+  /// @brief Field _saberTypeObject, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberTypeObject, put = __cordl_internal_set__saberTypeObject)) ::UnityW<::GlobalNamespace::SaberTypeObject> _saberTypeObject;
 
-  /// @brief Field _tintColor, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get__tintColor, put = __cordl_internal_set__tintColor))::UnityEngine::Color _tintColor;
+  /// @brief Field _tintColor, offset 0x20, size 0x10
+  __declspec(property(get = __cordl_internal_get__tintColor, put = __cordl_internal_set__tintColor)) ::UnityEngine::Color _tintColor;
 
-  __declspec(property(put = set_saberType))::GlobalNamespace::SaberType saberType;
+  __declspec(property(put = set_saberType)) ::GlobalNamespace::SaberType saberType;
 
   static inline ::GlobalNamespace::SetSaberFakeGlowColor* New_ctor();
 
-  /// @brief Method SetColors, addr 0x2753984, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x3b70c7c, size 0x5c, virtual false, abstract: false, final false
   inline void SetColors();
 
-  /// @brief Method Start, addr 0x27539e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b70cd8, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
@@ -89,10 +89,10 @@ public:
 
   constexpr void __cordl_internal_set__tintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x2753a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b70d68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_saberType, addr 0x27534a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_saberType, addr 0x3b70868, size 0xc, virtual false, abstract: false, final false
   inline void set_saberType(::GlobalNamespace::SaberType value);
 
 protected:
@@ -109,35 +109,38 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SetSaberFakeGlowColor(SetSaberFakeGlowColor const&) = delete;
 
-  /// @brief Field _tintColor, offset: 0x18, size: 0x10, def value: None
+  /// @brief Field _tintColor, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____tintColor;
 
-  /// @brief Field _saberTypeObject, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _saberTypeObject, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTypeObject> ____saberTypeObject;
 
-  /// @brief Field _parametric3SliceSprite, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _parametric3SliceSprite, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> ____parametric3SliceSprite;
 
-  /// @brief Field _colorManager, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _colorManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
-  /// @brief Field _saberType, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _saberType, offset: 0x48, size: 0x4, def value: None
   ::GlobalNamespace::SaberType ____saberType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4651 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetSaberFakeGlowColor, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetSaberFakeGlowColor, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetSaberFakeGlowColor, ____tintColor) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetSaberFakeGlowColor, ____tintColor) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetSaberFakeGlowColor, ____saberTypeObject) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetSaberFakeGlowColor, ____saberTypeObject) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetSaberFakeGlowColor, ____parametric3SliceSprite) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetSaberFakeGlowColor, ____parametric3SliceSprite) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetSaberFakeGlowColor, ____colorManager) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetSaberFakeGlowColor, ____colorManager) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetSaberFakeGlowColor, ____saberType) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetSaberFakeGlowColor, ____saberType) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SetSaberFakeGlowColor);

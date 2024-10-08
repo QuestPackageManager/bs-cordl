@@ -13,7 +13,7 @@ class DoubleControl;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::DoubleControl);
 // Type: UnityEngine.InputSystem.Controls::DoubleControl
-// SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 265, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 265, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Controls::DoubleControl*
@@ -22,13 +22,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Controls::DoubleControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x31af978, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x44eb3f8, size 0x68, virtual true, abstract: false, final false
   inline double_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x31af984, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x44eb460, size 0x78, virtual true, abstract: false, final false
   inline void WriteValueIntoState(double_t value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method .ctor, addr 0x31af8f0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44eb370, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DoubleControl", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DoubleControl(DoubleControl const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7008 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,7 +26,7 @@ class PlatformException;
 MARK_VAL_T(::GlobalNamespace::__PlatformException__ErrorType);
 MARK_REF_PTR_T(::GlobalNamespace::PlatformException);
 // Type: ::ErrorType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PlatformException::ErrorType
@@ -71,6 +71,9 @@ public:
   /// @brief Field PlatformUserEntitlement value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__PlatformException__ErrorType const PlatformUserEntitlement;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18633 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -83,7 +86,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformException__ErrorType, value_
 
 } // namespace GlobalNamespace
 // Type: ::PlatformException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlatformException*
@@ -96,7 +99,7 @@ public:
   __declspec(property(get = __cordl_internal_get_code, put = __cordl_internal_set_code)) int32_t code;
 
   /// @brief Field error, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_error, put = __cordl_internal_set_error))::GlobalNamespace::__PlatformException__ErrorType error;
+  __declspec(property(get = __cordl_internal_get_error, put = __cordl_internal_set_error)) ::GlobalNamespace::__PlatformException__ErrorType error;
 
   /// @brief Field httpCode, offset 0x94, size 0x4
   __declspec(property(get = __cordl_internal_get_httpCode, put = __cordl_internal_set_httpCode)) int32_t httpCode;
@@ -124,10 +127,10 @@ public:
 
   constexpr void __cordl_internal_set_httpCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c07484, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4009738, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlatformException__ErrorType error, int32_t code, int32_t httpCode, ::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2c07470, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4009724, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlatformException__ErrorType error, ::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -152,6 +155,9 @@ public:
 
   /// @brief Field httpCode, offset: 0x94, size: 0x4, def value: None
   int32_t ___httpCode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18634 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

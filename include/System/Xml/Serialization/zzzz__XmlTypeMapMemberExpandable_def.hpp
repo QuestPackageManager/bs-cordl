@@ -13,7 +13,7 @@ class XmlTypeMapMemberExpandable;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlTypeMapMemberExpandable);
 // Type: System.Xml.Serialization::XmlTypeMapMemberExpandable
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlTypeMapMemberExpandable*
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__flatArrayIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2f1c920, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4318fdc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FlatArrayIndex, addr 0x2f1c910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FlatArrayIndex, addr 0x4318fcc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FlatArrayIndex();
 
-  /// @brief Method set_FlatArrayIndex, addr 0x2f1c918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FlatArrayIndex, addr 0x4318fd4, size 0x8, virtual false, abstract: false, final false
   inline void set_FlatArrayIndex(int32_t value);
 
 protected:
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field _flatArrayIndex, offset: 0x78, size: 0x4, def value: None
   int32_t ____flatArrayIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7427 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

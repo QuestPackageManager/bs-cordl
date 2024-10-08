@@ -22,22 +22,22 @@ struct AccelerometerState;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::AccelerometerState);
 // Type: UnityEngine.InputSystem.LowLevel::AccelerometerState
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::AccelerometerState
 struct CORDL_TYPE AccelerometerState {
 public:
   // Declarations
-  __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
+  __declspec(property(get = get_format)) ::UnityEngine::InputSystem::Utilities::FourCC format;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method get_format, addr 0x318ebbc, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x4591b54, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method get_kFormat, addr 0x318eb8c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_kFormat, addr 0x4591b24, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -52,6 +52,9 @@ public:
 
   /// @brief Field acceleration, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 acceleration;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6883 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

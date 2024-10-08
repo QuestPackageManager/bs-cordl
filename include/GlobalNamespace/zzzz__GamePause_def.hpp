@@ -39,7 +39,7 @@ class GamePause;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GamePause);
 // Type: ::GamePause
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GamePause*
@@ -47,55 +47,57 @@ class CORDL_TYPE GamePause : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _audioListenerController, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioListenerController,
-                      put = __cordl_internal_set__audioListenerController))::UnityW<::GlobalNamespace::AudioListenerController> _audioListenerController;
+  __declspec(property(get = __cordl_internal_get__audioListenerController, put = __cordl_internal_set__audioListenerController)) ::UnityW<::GlobalNamespace::AudioListenerController>
+      _audioListenerController;
 
   /// @brief Field _beatmapObjectExecutionRatingsRecorder, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectExecutionRatingsRecorder,
-                      put = __cordl_internal_set__beatmapObjectExecutionRatingsRecorder))::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder> _beatmapObjectExecutionRatingsRecorder;
+                      put = __cordl_internal_set__beatmapObjectExecutionRatingsRecorder)) ::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder>
+      _beatmapObjectExecutionRatingsRecorder;
 
   /// @brief Field _gameEnergyCounter, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameEnergyCounter, put = __cordl_internal_set__gameEnergyCounter))::UnityW<::GlobalNamespace::GameEnergyCounter> _gameEnergyCounter;
+  __declspec(property(get = __cordl_internal_get__gameEnergyCounter, put = __cordl_internal_set__gameEnergyCounter)) ::UnityW<::GlobalNamespace::GameEnergyCounter> _gameEnergyCounter;
 
   /// @brief Field _pause, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__pause, put = __cordl_internal_set__pause)) bool _pause;
 
   /// @brief Field _playerHeadAndObstacleInteraction, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__playerHeadAndObstacleInteraction,
-                      put = __cordl_internal_set__playerHeadAndObstacleInteraction))::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> _playerHeadAndObstacleInteraction;
+                      put = __cordl_internal_set__playerHeadAndObstacleInteraction)) ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>
+      _playerHeadAndObstacleInteraction;
 
   /// @brief Field _saberManager, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
+  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager)) ::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
   /// @brief Field _scoreController, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
+  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController)) ::GlobalNamespace::IScoreController* _scoreController;
 
   /// @brief Field _songController, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__songController, put = __cordl_internal_set__songController))::UnityW<::GlobalNamespace::SongController> _songController;
+  __declspec(property(get = __cordl_internal_get__songController, put = __cordl_internal_set__songController)) ::UnityW<::GlobalNamespace::SongController> _songController;
 
   /// @brief Field didPauseEvent, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_didPauseEvent, put = __cordl_internal_set_didPauseEvent))::System::Action* didPauseEvent;
+  __declspec(property(get = __cordl_internal_get_didPauseEvent, put = __cordl_internal_set_didPauseEvent)) ::System::Action* didPauseEvent;
 
   /// @brief Field didResumeEvent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_didResumeEvent, put = __cordl_internal_set_didResumeEvent))::System::Action* didResumeEvent;
+  __declspec(property(get = __cordl_internal_get_didResumeEvent, put = __cordl_internal_set_didResumeEvent)) ::System::Action* didResumeEvent;
 
   __declspec(property(get = get_isPaused)) bool isPaused;
 
   /// @brief Field willResumeEvent, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_willResumeEvent, put = __cordl_internal_set_willResumeEvent))::System::Action* willResumeEvent;
+  __declspec(property(get = __cordl_internal_get_willResumeEvent, put = __cordl_internal_set_willResumeEvent)) ::System::Action* willResumeEvent;
 
   /// @brief Convert operator to "::GlobalNamespace::IGamePause"
   constexpr operator ::GlobalNamespace::IGamePause*() noexcept;
 
   static inline ::GlobalNamespace::GamePause* New_ctor();
 
-  /// @brief Method Pause, addr 0x270ec0c, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method Pause, addr 0x3b30278, size 0x150, virtual true, abstract: false, final true
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x270ed80, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method Resume, addr 0x3b303ec, size 0x14c, virtual true, abstract: false, final true
   inline void Resume();
 
-  /// @brief Method WillResume, addr 0x270ed5c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method WillResume, addr 0x3b303c8, size 0x24, virtual true, abstract: false, final true
   inline void WillResume();
 
   constexpr ::UnityW<::GlobalNamespace::AudioListenerController> const& __cordl_internal_get__audioListenerController() const;
@@ -164,31 +166,31 @@ public:
 
   constexpr void __cordl_internal_set_willResumeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x270eecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b30538, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPauseEvent, addr 0x270e864, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didPauseEvent, addr 0x3b2fed0, size 0x9c, virtual true, abstract: false, final true
   inline void add_didPauseEvent(::System::Action* value);
 
-  /// @brief Method add_didResumeEvent, addr 0x270ead4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didResumeEvent, addr 0x3b30140, size 0x9c, virtual true, abstract: false, final true
   inline void add_didResumeEvent(::System::Action* value);
 
-  /// @brief Method add_willResumeEvent, addr 0x270e99c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_willResumeEvent, addr 0x3b30008, size 0x9c, virtual true, abstract: false, final true
   inline void add_willResumeEvent(::System::Action* value);
 
-  /// @brief Method get_isPaused, addr 0x270e85c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isPaused, addr 0x3b2fec8, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPaused();
 
   /// @brief Convert to "::GlobalNamespace::IGamePause"
   constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
-  /// @brief Method remove_didPauseEvent, addr 0x270e900, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didPauseEvent, addr 0x3b2ff6c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didPauseEvent(::System::Action* value);
 
-  /// @brief Method remove_didResumeEvent, addr 0x270eb70, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didResumeEvent, addr 0x3b301dc, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_willResumeEvent, addr 0x270ea38, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_willResumeEvent, addr 0x3b300a4, size 0x9c, virtual true, abstract: false, final true
   inline void remove_willResumeEvent(::System::Action* value);
 
 protected:
@@ -237,6 +239,9 @@ public:
 
   /// @brief Field _pause, offset: 0x60, size: 0x1, def value: None
   bool ____pause;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4408 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

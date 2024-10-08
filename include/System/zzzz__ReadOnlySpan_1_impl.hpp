@@ -37,6 +37,11 @@ template <typename T> inline ByRef<T> System::ReadOnlySpan_1<T>::get_Item(int32_
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<ByRef<T>, false>(this, ___internal_method, index);
 }
+template <typename T> inline ByRef<T> System::ReadOnlySpan_1<T>::GetPinnableReference() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlySpan_1<T>>::get(), "GetPinnableReference",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<ByRef<T>, false>(this, ___internal_method);
+}
 template <typename T> inline void System::ReadOnlySpan_1<T>::CopyTo(::System::Span_1<T> destination) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlySpan_1<T>>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),

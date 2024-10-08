@@ -43,7 +43,7 @@ class ActivationTrack;
 MARK_VAL_T(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState);
 MARK_REF_PTR_T(::UnityEngine::Timeline::ActivationTrack);
 // Type: ::PostPlaybackState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
 // CS Name: ::ActivationTrack::PostPlaybackState
@@ -92,6 +92,9 @@ public:
   /// @brief Field Revert value: static_cast<int32_t>(0x2)
   static ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState const Revert;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15742 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -104,7 +107,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackS
 
 } // namespace UnityEngine::Timeline
 // Type: UnityEngine.Timeline::ActivationTrack
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::ActivationTrack*
@@ -114,28 +117,29 @@ public:
   using PostPlaybackState = ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState;
 
   /// @brief Field m_ActivationMixer, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ActivationMixer, put = __cordl_internal_set_m_ActivationMixer))::UnityEngine::Timeline::ActivationMixerPlayable* m_ActivationMixer;
+  __declspec(property(get = __cordl_internal_get_m_ActivationMixer, put = __cordl_internal_set_m_ActivationMixer)) ::UnityEngine::Timeline::ActivationMixerPlayable* m_ActivationMixer;
 
   /// @brief Field m_PostPlaybackState, offset 0xa0, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_PostPlaybackState, put = __cordl_internal_set_m_PostPlaybackState))::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState m_PostPlaybackState;
+  __declspec(property(get = __cordl_internal_get_m_PostPlaybackState,
+                      put = __cordl_internal_set_m_PostPlaybackState)) ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState m_PostPlaybackState;
 
-  __declspec(property(get = get_postPlaybackState, put = set_postPlaybackState))::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState postPlaybackState;
+  __declspec(property(get = get_postPlaybackState, put = set_postPlaybackState)) ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState postPlaybackState;
 
-  /// @brief Method CanCompileClips, addr 0x33bc298, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CanCompileClips, addr 0x4795188, size 0x5c, virtual true, abstract: false, final false
   inline bool CanCompileClips();
 
-  /// @brief Method CreateTrackMixer, addr 0x33bc3d4, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method CreateTrackMixer, addr 0x47952c4, size 0xdc, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, int32_t inputCount);
 
-  /// @brief Method GatherProperties, addr 0x33bc4b8, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method GatherProperties, addr 0x47953a0, size 0x12c, virtual true, abstract: false, final false
   inline void GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver);
 
   static inline ::UnityEngine::Timeline::ActivationTrack* New_ctor();
 
-  /// @brief Method OnCreateClip, addr 0x33bc75c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnCreateClip, addr 0x4795644, size 0x50, virtual true, abstract: false, final false
   inline void OnCreateClip(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method UpdateTrackMode, addr 0x33bc3c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method UpdateTrackMode, addr 0x47952b0, size 0x14, virtual false, abstract: false, final false
   inline void UpdateTrackMode();
 
   constexpr ::UnityEngine::Timeline::ActivationMixerPlayable*& __cordl_internal_get_m_ActivationMixer();
@@ -150,13 +154,13 @@ public:
 
   constexpr void __cordl_internal_set_m_PostPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
 
-  /// @brief Method .ctor, addr 0x33bc7b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4795698, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_postPlaybackState, addr 0x33bc3a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_postPlaybackState, addr 0x4795294, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState get_postPlaybackState();
 
-  /// @brief Method set_postPlaybackState, addr 0x33bc3ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_postPlaybackState, addr 0x479529c, size 0x14, virtual false, abstract: false, final false
   inline void set_postPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
 
 protected:
@@ -178,6 +182,9 @@ public:
 
   /// @brief Field m_ActivationMixer, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::Timeline::ActivationMixerPlayable* ___m_ActivationMixer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15743 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

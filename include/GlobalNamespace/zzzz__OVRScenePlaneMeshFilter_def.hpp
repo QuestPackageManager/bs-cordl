@@ -54,7 +54,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRScenePlaneMeshFilter);
 MARK_VAL_T(::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob);
 MARK_VAL_T(::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList);
 // Type: ::NList
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRScenePlaneMeshFilter::TriangulateBoundaryJob::NList
@@ -68,28 +68,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x2b913c4, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3f9ace0, size 0x48, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetAt, addr 0x2b91284, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAt, addr 0x3f9ab98, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetAt(int32_t index);
 
-  /// @brief Method RemoveAt, addr 0x2b91378, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x3f9ac94, size 0x3c, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method .ctor, addr 0x2b911d4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f9aae4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method get_Count, addr 0x2b913b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3f9acd0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x2b91278, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3f9ab8c, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t index);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_Count, addr 0x2b913bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Count, addr 0x3f9acd8, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
   // Ctor Parameters []
@@ -106,6 +106,9 @@ public:
   /// @brief Field _data, offset: 0x8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> _data;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8258 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -120,7 +123,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRScenePlaneMeshFilter__Triangulate
 
 } // namespace GlobalNamespace
 // Type: ::TriangulateBoundaryJob
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRScenePlaneMeshFilter::TriangulateBoundaryJob
@@ -132,13 +135,13 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Cross, addr 0x2b912c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Cross, addr 0x3f9abdc, size 0x10, virtual false, abstract: false, final false
   static inline float_t Cross(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method Execute, addr 0x2b90e40, size 0x394, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3f9a78c, size 0x358, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method PointInTriangle, addr 0x2b912d0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method PointInTriangle, addr 0x3f9abec, size 0xa8, virtual false, abstract: false, final false
   static inline bool PointInTriangle(::UnityEngine::Vector2 p, ::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, ::UnityEngine::Vector2 c);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -158,6 +161,9 @@ public:
   /// @brief Field Triangles, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> Triangles;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8259 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
@@ -172,7 +178,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRScenePlaneMeshFilter__Triangulate
 
 } // namespace GlobalNamespace
 // Type: ::OVRScenePlaneMeshFilter
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRScenePlaneMeshFilter*
@@ -181,39 +187,39 @@ public:
   // Declarations
   using TriangulateBoundaryJob = ::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob;
 
-  /// @brief Field _boundary, offset 0x48, size 0x10
-  __declspec(property(get = __cordl_internal_get__boundary, put = __cordl_internal_set__boundary))::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _boundary;
+  /// @brief Field _boundary, offset 0x50, size 0x10
+  __declspec(property(get = __cordl_internal_get__boundary, put = __cordl_internal_set__boundary)) ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _boundary;
 
-  /// @brief Field _jobHandle, offset 0x28, size 0x18
-  __declspec(property(get = __cordl_internal_get__jobHandle, put = __cordl_internal_set__jobHandle))::System::Nullable_1<::Unity::Jobs::JobHandle> _jobHandle;
+  /// @brief Field _jobHandle, offset 0x30, size 0x18
+  __declspec(property(get = __cordl_internal_get__jobHandle, put = __cordl_internal_set__jobHandle)) ::System::Nullable_1<::Unity::Jobs::JobHandle> _jobHandle;
 
-  /// @brief Field _mesh, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
+  /// @brief Field _mesh, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh)) ::UnityW<::UnityEngine::Mesh> _mesh;
 
-  /// @brief Field _meshFilter, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
+  /// @brief Field _meshFilter, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter)) ::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
-  /// @brief Field _meshRequested, offset 0x40, size 0x1
+  /// @brief Field _meshRequested, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get__meshRequested, put = __cordl_internal_set__meshRequested)) bool _meshRequested;
 
-  /// @brief Field _triangles, offset 0x58, size 0x10
-  __declspec(property(get = __cordl_internal_get__triangles, put = __cordl_internal_set__triangles))::Unity::Collections::NativeArray_1<int32_t> _triangles;
+  /// @brief Field _triangles, offset 0x60, size 0x10
+  __declspec(property(get = __cordl_internal_get__triangles, put = __cordl_internal_set__triangles)) ::Unity::Collections::NativeArray_1<int32_t> _triangles;
 
   static inline ::GlobalNamespace::OVRScenePlaneMeshFilter* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2b90da8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3f9a704, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RequestMeshGeneration, addr 0x2b8fb50, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RequestMeshGeneration, addr 0x3f994e8, size 0x30, virtual false, abstract: false, final false
   inline void RequestMeshGeneration();
 
-  /// @brief Method ScheduleMeshGeneration, addr 0x2b900ac, size 0x5c8, virtual false, abstract: false, final false
+  /// @brief Method ScheduleMeshGeneration, addr 0x3f999fc, size 0x5c8, virtual false, abstract: false, final false
   inline void ScheduleMeshGeneration();
 
-  /// @brief Method Start, addr 0x2b8ff00, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3f99858, size 0x1a4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2b90674, size 0x734, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f99fc4, size 0x740, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> const& __cordl_internal_get__boundary() const;
@@ -252,7 +258,7 @@ public:
 
   constexpr void __cordl_internal_set__triangles(::Unity::Collections::NativeArray_1<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x2b90e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f9a784, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -269,40 +275,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRScenePlaneMeshFilter(OVRScenePlaneMeshFilter const&) = delete;
 
-  /// @brief Field _meshFilter, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _meshFilter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
-  /// @brief Field _mesh, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _mesh, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____mesh;
 
-  /// @brief Field _jobHandle, offset: 0x28, size: 0x18, def value: None
+  /// @brief Field _jobHandle, offset: 0x30, size: 0x18, def value: None
   ::System::Nullable_1<::Unity::Jobs::JobHandle> ____jobHandle;
 
-  /// @brief Field _meshRequested, offset: 0x40, size: 0x1, def value: None
+  /// @brief Field _meshRequested, offset: 0x48, size: 0x1, def value: None
   bool ____meshRequested;
 
-  /// @brief Field _boundary, offset: 0x48, size: 0x10, def value: None
+  /// @brief Field _boundary, offset: 0x50, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> ____boundary;
 
-  /// @brief Field _triangles, offset: 0x58, size: 0x10, def value: None
+  /// @brief Field _triangles, offset: 0x60, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> ____triangles;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8260 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRScenePlaneMeshFilter, 0x68>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRScenePlaneMeshFilter, 0x70>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlaneMeshFilter, ____meshFilter) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlaneMeshFilter, ____meshFilter) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlaneMeshFilter, ____mesh) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlaneMeshFilter, ____mesh) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlaneMeshFilter, ____jobHandle) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlaneMeshFilter, ____jobHandle) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlaneMeshFilter, ____meshRequested) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlaneMeshFilter, ____meshRequested) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlaneMeshFilter, ____boundary) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlaneMeshFilter, ____boundary) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlaneMeshFilter, ____triangles) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlaneMeshFilter, ____triangles) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRScenePlaneMeshFilter);

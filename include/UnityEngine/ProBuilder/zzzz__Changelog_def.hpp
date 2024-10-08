@@ -22,19 +22,19 @@ class Changelog;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Changelog);
 // Type: UnityEngine.ProBuilder::Changelog
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::Changelog*
 class CORDL_TYPE Changelog : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_entries))::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::ChangelogEntry*>* entries;
+  __declspec(property(get = get_entries)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::ChangelogEntry*>* entries;
 
   /// @brief Field m_Entries, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Entries, put = __cordl_internal_set_m_Entries))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>* m_Entries;
+  __declspec(property(get = __cordl_internal_get_m_Entries, put = __cordl_internal_set_m_Entries)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>* m_Entries;
 
-  /// @brief Method CreateEntry, addr 0x32ad628, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method CreateEntry, addr 0x468d914, size 0x168, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::StringW version, ::StringW contents);
 
   static inline ::UnityEngine::ProBuilder::Changelog* New_ctor(::StringW log);
@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Entries(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>* value);
 
-  /// @brief Method .ctor, addr 0x32ad31c, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x468d618, size 0x2fc, virtual false, abstract: false, final false
   inline void _ctor(::StringW log);
 
-  /// @brief Method get_entries, addr 0x32ad2a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_entries, addr 0x468d59c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::ChangelogEntry*>* get_entries();
 
 protected:
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field m_Entries, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>* ___m_Entries;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14180 };
 
   /// @brief Field k_ChangelogEntryPattern offset 0xffffffff size 0x8
   static constexpr ::ConstString k_ChangelogEntryPattern{ u"(##\\s\\[[0-9]+\\.[0-9]+\\.[0-9]+(\\-[a-zA-Z]+(\\.[0-9]+)*)*\\])" };

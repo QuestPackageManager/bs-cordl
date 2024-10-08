@@ -18,14 +18,14 @@ class Test_HAPI_AttributeInfo_Extensions;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_AttributeInfo_Extensions);
 // Type: HoudiniEngineUnity::Test_HAPI_AttributeInfo_Extensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_AttributeInfo_Extensions*
 class CORDL_TYPE Test_HAPI_AttributeInfo_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToTestObject, addr 0x25f3740, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a2d51c, size 0x80, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_HAPI_AttributeInfo* ToTestObject(::HoudiniEngineUnity::HAPI_AttributeInfo self);
 
 protected:
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_AttributeInfo_Extensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Test_HAPI_AttributeInfo_Extensions(Test_HAPI_AttributeInfo_Extensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11843 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,19 +13,19 @@ class ContractAnnotationAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::ContractAnnotationAttribute);
 // Type: JetBrains.Annotations::ContractAnnotationAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::ContractAnnotationAttribute*
 class CORDL_TYPE ContractAnnotationAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_Contract, put = set_Contract))::StringW Contract;
+  __declspec(property(get = get_Contract, put = set_Contract)) ::StringW Contract;
 
   __declspec(property(get = get_ForceFullStates, put = set_ForceFullStates)) bool ForceFullStates;
 
   /// @brief Field <Contract>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Contract_k__BackingField, put = __cordl_internal_set__Contract_k__BackingField))::StringW _Contract_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Contract_k__BackingField, put = __cordl_internal_set__Contract_k__BackingField)) ::StringW _Contract_k__BackingField;
 
   /// @brief Field <ForceFullStates>k__BackingField, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__ForceFullStates_k__BackingField, put = __cordl_internal_set__ForceFullStates_k__BackingField)) bool _ForceFullStates_k__BackingField;
@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set__ForceFullStates_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3651014, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77894, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW contract);
 
-  /// @brief Method .ctor, addr 0x3651040, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a778c0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW contract, bool forceFullStates);
 
-  /// @brief Method get_Contract, addr 0x3651074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Contract, addr 0x4a778f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Contract();
 
-  /// @brief Method get_ForceFullStates, addr 0x3651084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ForceFullStates, addr 0x4a77904, size 0x8, virtual false, abstract: false, final false
   inline bool get_ForceFullStates();
 
-  /// @brief Method set_Contract, addr 0x365107c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Contract, addr 0x4a778fc, size 0x8, virtual false, abstract: false, final false
   inline void set_Contract(::StringW value);
 
-  /// @brief Method set_ForceFullStates, addr 0x365108c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ForceFullStates, addr 0x4a7790c, size 0xc, virtual false, abstract: false, final false
   inline void set_ForceFullStates(bool value);
 
 protected:
@@ -83,6 +83,9 @@ public:
 
   /// @brief Field <ForceFullStates>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____ForceFullStates_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18333 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

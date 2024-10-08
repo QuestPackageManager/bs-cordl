@@ -17,6 +17,9 @@ namespace GlobalNamespace {
 class IBeatToTimeConverter;
 }
 namespace GlobalNamespace {
+class IBeatmapLightEventConverter;
+}
+namespace GlobalNamespace {
 class IndexFilter;
 }
 namespace GlobalNamespace {
@@ -35,7 +38,7 @@ template <typename TIn, typename TOut> class FxBeatmapEventDataBox_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::FxBeatmapEventDataBox_2);
 // Type: ::FxBeatmapEventDataBox`2
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TIn, typename TOut>
@@ -48,7 +51,7 @@ public:
   __declspec(property(get = __cordl_internal_get__beatStep, put = __cordl_internal_set__beatStep)) float_t _beatStep;
 
   /// @brief Field _fxBaseDataList, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__fxBaseDataList, put = __cordl_internal_set__fxBaseDataList))::System::Collections::Generic::IReadOnlyList_1<TIn>* _fxBaseDataList;
+  __declspec(property(get = __cordl_internal_get__fxBaseDataList, put = __cordl_internal_set__fxBaseDataList)) ::System::Collections::Generic::IReadOnlyList_1<TIn>* _fxBaseDataList;
 
   /// @brief Method CreateVfxBeatmapEventData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TOut CreateVfxBeatmapEventData(TIn data, float_t time, int32_t groupId, int32_t elementId, float_t distributionOffset);
@@ -60,7 +63,8 @@ public:
 
   /// @brief Method Unpack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
-                     ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
+                     ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter,
+                     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 
   constexpr float_t const& __cordl_internal_get__beatStep() const;
 
@@ -98,6 +102,9 @@ public:
 
   /// @brief Field _fxBaseDataList, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<TIn>* ____fxBaseDataList;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12857 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

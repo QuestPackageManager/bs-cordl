@@ -15,7 +15,7 @@ class TriangulationDebugContext;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext);
 // Type: UnityEngine.ProBuilder.Poly2Tri::TriangulationDebugContext
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationDebugContext*
@@ -23,7 +23,7 @@ class CORDL_TYPE TriangulationDebugContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _tcx, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__tcx, put = __cordl_internal_set__tcx))::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* _tcx;
+  __declspec(property(get = __cordl_internal_get__tcx, put = __cordl_internal_set__tcx)) ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* _tcx;
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__tcx(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* value);
 
-  /// @brief Method .ctor, addr 0x32a6258, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4686950, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field _tcx, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* ____tcx;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17743 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

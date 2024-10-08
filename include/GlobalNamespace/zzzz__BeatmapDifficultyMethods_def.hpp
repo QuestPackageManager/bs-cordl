@@ -18,23 +18,23 @@ class BeatmapDifficultyMethods;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDifficultyMethods);
 // Type: ::BeatmapDifficultyMethods
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapDifficultyMethods*
 class CORDL_TYPE BeatmapDifficultyMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DefaultRating, addr 0x14c8cfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method DefaultRating, addr 0x2681c70, size 0x20, virtual false, abstract: false, final false
   static inline int32_t DefaultRating(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method Name, addr 0x14c8bc4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Name, addr 0x2681b38, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method NoteJumpMovementSpeed, addr 0x14c8d24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method NoteJumpMovementSpeed, addr 0x2681c90, size 0x20, virtual false, abstract: false, final false
   static inline float_t NoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method ShortName, addr 0x14c8c60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ShortName, addr 0x2681bd4, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW ShortName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyMethods", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDifficultyMethods(BeatmapDifficultyMethods const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12889 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

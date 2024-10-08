@@ -18,29 +18,29 @@ class Blake2sDigest;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Blake2sDigest);
 // Type: Org.BouncyCastle.Crypto.Digests::Blake2sDigest
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::Blake2sDigest*
 class CORDL_TYPE Blake2sDigest : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field blake2s_IV, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_blake2s_IV, put = setStaticF_blake2s_IV))::ArrayW<uint32_t, ::Array<uint32_t>*> blake2s_IV;
+  static __declspec(property(get = getStaticF_blake2s_IV, put = setStaticF_blake2s_IV)) ::ArrayW<uint32_t, ::Array<uint32_t>*> blake2s_IV;
 
   /// @brief Field blake2s_sigma, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_blake2s_sigma, put = setStaticF_blake2s_sigma)) Il2CppObject* blake2s_sigma;
 
   /// @brief Field buffer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
 
   /// @brief Field bufferPos, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_bufferPos, put = __cordl_internal_set_bufferPos)) int32_t bufferPos;
 
   /// @brief Field chainValue, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_chainValue, put = __cordl_internal_set_chainValue))::ArrayW<uint32_t, ::Array<uint32_t>*> chainValue;
+  __declspec(property(get = __cordl_internal_get_chainValue, put = __cordl_internal_set_chainValue)) ::ArrayW<uint32_t, ::Array<uint32_t>*> chainValue;
 
   /// @brief Field digestLength, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_digestLength, put = __cordl_internal_set_digestLength)) int32_t digestLength;
@@ -49,19 +49,19 @@ public:
   __declspec(property(get = __cordl_internal_get_f0, put = __cordl_internal_set_f0)) uint32_t f0;
 
   /// @brief Field internalState, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_internalState, put = __cordl_internal_set_internalState))::ArrayW<uint32_t, ::Array<uint32_t>*> internalState;
+  __declspec(property(get = __cordl_internal_get_internalState, put = __cordl_internal_set_internalState)) ::ArrayW<uint32_t, ::Array<uint32_t>*> internalState;
 
   /// @brief Field key, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::ArrayW<uint8_t, ::Array<uint8_t>*> key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::ArrayW<uint8_t, ::Array<uint8_t>*> key;
 
   /// @brief Field keyLength, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_keyLength, put = __cordl_internal_set_keyLength)) int32_t keyLength;
 
   /// @brief Field personalization, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_personalization, put = __cordl_internal_set_personalization))::ArrayW<uint8_t, ::Array<uint8_t>*> personalization;
+  __declspec(property(get = __cordl_internal_get_personalization, put = __cordl_internal_set_personalization)) ::ArrayW<uint8_t, ::Array<uint8_t>*> personalization;
 
   /// @brief Field salt, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_salt, put = __cordl_internal_set_salt))::ArrayW<uint8_t, ::Array<uint8_t>*> salt;
+  __declspec(property(get = __cordl_internal_get_salt, put = __cordl_internal_set_salt)) ::ArrayW<uint8_t, ::Array<uint8_t>*> salt;
 
   /// @brief Field t0, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_t0, put = __cordl_internal_set_t0)) uint32_t t0;
@@ -72,34 +72,34 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x1492f40, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x265356c, size 0x140, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> message, int32_t offset, int32_t len);
 
-  /// @brief Method ClearKey, addr 0x1493338, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ClearKey, addr 0x2653964, size 0x48, virtual true, abstract: false, final false
   inline void ClearKey();
 
-  /// @brief Method ClearSalt, addr 0x1493380, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ClearSalt, addr 0x26539ac, size 0x1c, virtual true, abstract: false, final false
   inline void ClearSalt();
 
-  /// @brief Method Compress, addr 0x14929b4, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method Compress, addr 0x2652fe0, size 0x58c, virtual false, abstract: false, final false
   inline void Compress(::ArrayW<uint8_t, ::Array<uint8_t>*> message, int32_t messagePos);
 
-  /// @brief Method DoFinal, addr 0x1493080, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x26536ac, size 0x130, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOffset);
 
-  /// @brief Method G, addr 0x1493214, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method G, addr 0x2653840, size 0xcc, virtual false, abstract: false, final false
   inline void G(uint32_t m1, uint32_t m2, int32_t posA, int32_t posB, int32_t posC, int32_t posD);
 
-  /// @brief Method GetByteLength, addr 0x1493330, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetByteLength, addr 0x265395c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0x1493328, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x2653954, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method Init, addr 0x149216c, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26527ac, size 0x290, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method InitializeInternalState, addr 0x14927c0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method InitializeInternalState, addr 0x2652dec, size 0x13c, virtual false, abstract: false, final false
   inline void InitializeInternalState();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Blake2sDigest* New_ctor();
@@ -113,10 +113,10 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Digests::Blake2sDigest* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t digestBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
                                                                               ::ArrayW<uint8_t, ::Array<uint8_t>*> personalization);
 
-  /// @brief Method Reset, addr 0x14931b0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x26537dc, size 0x64, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x14928fc, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x2652f28, size 0xb8, virtual true, abstract: false, final false
   inline void Update(uint8_t b);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
@@ -191,32 +191,32 @@ public:
 
   constexpr void __cordl_internal_set_t1(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x1491f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2652580, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x149205c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265269c, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Blake2sDigest* digest);
 
-  /// @brief Method .ctor, addr 0x1491f44, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2652588, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(int32_t digestBits);
 
-  /// @brief Method .ctor, addr 0x14923fc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2652a3c, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x149255c, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2652b98, size 0x254, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t digestBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalization);
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_blake2s_IV();
 
   static inline Il2CppObject* getStaticF_blake2s_sigma();
 
-  /// @brief Method get_AlgorithmName, addr 0x14932e8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2653914, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
-  /// @brief Method rotr32, addr 0x14932e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method rotr32, addr 0x265390c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t rotr32(uint32_t x, int32_t rot);
 
   static inline void setStaticF_blake2s_IV(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
@@ -278,6 +278,9 @@ public:
 
   /// @brief Field ROUNDS offset 0xffffffff size 0x4
   static constexpr int32_t ROUNDS{ static_cast<int32_t>(0xa) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 747 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,7 +26,7 @@ class Decoder;
 // Write type traits
 MARK_REF_PTR_T(::UnityOpus::Decoder);
 // Type: UnityOpus::Decoder
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityOpus {
 // Is value type: false
 // CS Name: ::UnityOpus::Decoder*
@@ -34,30 +34,30 @@ class CORDL_TYPE Decoder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field channels, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_channels, put = __cordl_internal_set_channels))::UnityOpus::NumChannels channels;
+  __declspec(property(get = __cordl_internal_get_channels, put = __cordl_internal_set_channels)) ::UnityOpus::NumChannels channels;
 
   /// @brief Field decoder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_decoder, put = __cordl_internal_set_decoder))::System::IntPtr decoder;
+  __declspec(property(get = __cordl_internal_get_decoder, put = __cordl_internal_set_decoder)) ::System::IntPtr decoder;
 
   /// @brief Field disposedValue, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_disposedValue, put = __cordl_internal_set_disposedValue)) bool disposedValue;
 
   /// @brief Field softclipMem, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_softclipMem, put = __cordl_internal_set_softclipMem))::ArrayW<float_t, ::Array<float_t>*> softclipMem;
+  __declspec(property(get = __cordl_internal_get_softclipMem, put = __cordl_internal_set_softclipMem)) ::ArrayW<float_t, ::Array<float_t>*> softclipMem;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Decode, addr 0x26073bc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x3a40dbc, size 0x94, virtual false, abstract: false, final false
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t dataLength, ::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t decodeFec);
 
-  /// @brief Method Dispose, addr 0x2607798, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3a4111c, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x26075f8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3a40fc0, size 0x40, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x26076f8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3a4107c, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityOpus::Decoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_softclipMem(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x26071d4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a40bfc, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
 
   /// @brief Convert to "::System::IDisposable"
@@ -117,6 +117,9 @@ public:
 
   /// @brief Field disposedValue, offset: 0x28, size: 0x1, def value: None
   bool ___disposedValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18965 };
 
   /// @brief Field maximumPacketDuration offset 0xffffffff size 0x4
   static constexpr int32_t maximumPacketDuration{ static_cast<int32_t>(0x1680) };

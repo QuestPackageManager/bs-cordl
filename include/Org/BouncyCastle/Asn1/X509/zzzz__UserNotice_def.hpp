@@ -28,24 +28,24 @@ class UserNotice;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::UserNotice);
 // Type: Org.BouncyCastle.Asn1.X509::UserNotice
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::UserNotice*
 class CORDL_TYPE UserNotice : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_ExplicitText))::Org::BouncyCastle::Asn1::X509::DisplayText* ExplicitText;
+  __declspec(property(get = get_ExplicitText)) ::Org::BouncyCastle::Asn1::X509::DisplayText* ExplicitText;
 
-  __declspec(property(get = get_NoticeRef))::Org::BouncyCastle::Asn1::X509::NoticeReference* NoticeRef;
+  __declspec(property(get = get_NoticeRef)) ::Org::BouncyCastle::Asn1::X509::NoticeReference* NoticeRef;
 
   /// @brief Field explicitText, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_explicitText, put = __cordl_internal_set_explicitText))::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText;
+  __declspec(property(get = __cordl_internal_get_explicitText, put = __cordl_internal_set_explicitText)) ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText;
 
   /// @brief Field noticeRef, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_noticeRef, put = __cordl_internal_set_noticeRef))::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef;
+  __declspec(property(get = __cordl_internal_get_noticeRef, put = __cordl_internal_set_noticeRef)) ::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef;
 
-  /// @brief Method GetInstance, addr 0x140ca90, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25d29ec, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText);
@@ -54,7 +54,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x140cb44, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25d2aa0, size 0x130, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::DisplayText*& __cordl_internal_get_explicitText();
@@ -69,19 +69,19 @@ public:
 
   constexpr void __cordl_internal_set_noticeRef(::Org::BouncyCastle::Asn1::X509::NoticeReference* value);
 
-  /// @brief Method .ctor, addr 0x140c7e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d2750, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText);
 
-  /// @brief Method .ctor, addr 0x140c80c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d277c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str);
 
-  /// @brief Method .ctor, addr 0x140c888, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d27f0, size 0x1fc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_ExplicitText, addr 0x140cb3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ExplicitText, addr 0x25d2a98, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::DisplayText* get_ExplicitText();
 
-  /// @brief Method get_NoticeRef, addr 0x140cb34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NoticeRef, addr 0x25d2a90, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::NoticeReference* get_NoticeRef();
 
 protected:
@@ -103,6 +103,9 @@ public:
 
   /// @brief Field explicitText, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::DisplayText* ___explicitText;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 395 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

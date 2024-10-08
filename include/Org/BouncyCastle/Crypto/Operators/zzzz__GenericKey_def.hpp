@@ -20,22 +20,22 @@ class GenericKey;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::GenericKey);
 // Type: Org.BouncyCastle.Crypto.Operators::GenericKey
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::GenericKey*
 class CORDL_TYPE GenericKey : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmIdentifier))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* AlgorithmIdentifier;
+  __declspec(property(get = get_AlgorithmIdentifier)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* AlgorithmIdentifier;
 
-  __declspec(property(get = get_Representation))::System::Object* Representation;
+  __declspec(property(get = get_Representation)) ::System::Object* Representation;
 
   /// @brief Field algorithmIdentifier, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_algorithmIdentifier, put = __cordl_internal_set_algorithmIdentifier))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier;
+  __declspec(property(get = __cordl_internal_get_algorithmIdentifier, put = __cordl_internal_set_algorithmIdentifier)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier;
 
   /// @brief Field representation, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_representation, put = __cordl_internal_set_representation))::System::Object* representation;
+  __declspec(property(get = __cordl_internal_get_representation, put = __cordl_internal_set_representation)) ::System::Object* representation;
 
   static inline ::Org::BouncyCastle::Crypto::Operators::GenericKey* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier,
                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> representation);
@@ -56,19 +56,19 @@ public:
 
   constexpr void __cordl_internal_set_representation(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x119f420, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237681c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier, ::ArrayW<uint8_t, ::Array<uint8_t>*> representation);
 
-  /// @brief Method .ctor, addr 0x119f44c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2376848, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier, ::System::Object* representation);
 
-  /// @brief Method .ctor, addr 0x119f3f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23767f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* representation);
 
-  /// @brief Method get_AlgorithmIdentifier, addr 0x119f478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AlgorithmIdentifier, addr 0x2376874, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmIdentifier();
 
-  /// @brief Method get_Representation, addr 0x119f480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Representation, addr 0x237687c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Representation();
 
 protected:
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field representation, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ___representation;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1004 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

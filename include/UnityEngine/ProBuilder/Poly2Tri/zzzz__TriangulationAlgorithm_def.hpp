@@ -13,7 +13,7 @@ struct TriangulationAlgorithm;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm);
 // Type: UnityEngine.ProBuilder.Poly2Tri::TriangulationAlgorithm
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: true
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationAlgorithm
@@ -49,6 +49,9 @@ public:
 
   /// @brief Field DTSweep value: static_cast<int32_t>(0x0)
   static ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm const DTSweep;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17740 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

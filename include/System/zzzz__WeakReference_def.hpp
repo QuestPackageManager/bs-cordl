@@ -25,7 +25,7 @@ class WeakReference;
 // Write type traits
 MARK_REF_PTR_T(::System::WeakReference);
 // Type: System::WeakReference
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::WeakReference*
@@ -34,12 +34,12 @@ public:
   // Declarations
   __declspec(property(get = get_IsAlive)) bool IsAlive;
 
-  __declspec(property(get = get_Target, put = set_Target))::System::Object* Target;
+  __declspec(property(get = get_Target, put = set_Target)) ::System::Object* Target;
 
   __declspec(property(get = get_TrackResurrection)) bool TrackResurrection;
 
   /// @brief Field gcHandle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_gcHandle, put = __cordl_internal_set_gcHandle))::System::Runtime::InteropServices::GCHandle gcHandle;
+  __declspec(property(get = __cordl_internal_get_gcHandle, put = __cordl_internal_set_gcHandle)) ::System::Runtime::InteropServices::GCHandle gcHandle;
 
   /// @brief Field isLongReference, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_isLongReference, put = __cordl_internal_set_isLongReference)) bool isLongReference;
@@ -47,13 +47,13 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method AllocateHandle, addr 0x29c0074, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AllocateHandle, addr 0x3dcf7f0, size 0x28, virtual false, abstract: false, final false
   inline void AllocateHandle(::System::Object* target);
 
-  /// @brief Method Finalize, addr 0x29c02a8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3dcfa20, size 0x9c, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetObjectData, addr 0x29c0344, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3dcfabc, size 0x180, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::WeakReference* New_ctor();
@@ -76,31 +76,31 @@ public:
 
   constexpr void __cordl_internal_set_isLongReference(bool value);
 
-  /// @brief Method .ctor, addr 0x29c009c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dcf818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x29c0108, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dcf884, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x29c00a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dcf820, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target);
 
-  /// @brief Method .ctor, addr 0x29c00d4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dcf850, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, bool trackResurrection);
 
-  /// @brief Method get_IsAlive, addr 0x29c0240, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_IsAlive, addr 0x3dcf9b8, size 0x20, virtual true, abstract: false, final false
   inline bool get_IsAlive();
 
-  /// @brief Method get_Target, addr 0x29c0260, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_Target, addr 0x3dcf9d8, size 0x34, virtual true, abstract: false, final false
   inline ::System::Object* get_Target();
 
-  /// @brief Method get_TrackResurrection, addr 0x29c02a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TrackResurrection, addr 0x3dcfa18, size 0x8, virtual true, abstract: false, final false
   inline bool get_TrackResurrection();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method set_Target, addr 0x29c0294, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_Target, addr 0x3dcfa0c, size 0xc, virtual true, abstract: false, final false
   inline void set_Target(::System::Object* value);
 
 protected:
@@ -122,6 +122,9 @@ public:
 
   /// @brief Field gcHandle, offset: 0x18, size: 0x8, def value: None
   ::System::Runtime::InteropServices::GCHandle ___gcHandle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2644 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

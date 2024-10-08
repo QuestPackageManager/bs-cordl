@@ -14,7 +14,7 @@ template <typename T> struct ArrayBuilder_1;
 // Write type traits
 MARK_GEN_VAL_T(::System::Collections::Generic::ArrayBuilder_1);
 // Type: System.Collections.Generic::ArrayBuilder`1
-// SizeInfo { instance_size: 16, native_size: 28, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 28, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -23,14 +23,29 @@ template <typename T>
 struct CORDL_TYPE ArrayBuilder_1 {
 public:
   // Declarations
-  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::ArrayW<T, ::Array<T>*> ToArray();
+  __declspec(property(get = get_Capacity)) int32_t Capacity;
+
+  __declspec(property(get = get_Count)) int32_t Count;
+
+  __declspec(property(get = get_Item)) T Item[];
+
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Add(T item);
+
+  /// @brief Method EnsureCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void EnsureCapacity(int32_t minimum);
 
   /// @brief Method UncheckedAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UncheckedAdd(T item);
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(int32_t capacity);
+  /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_Capacity();
+
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_Count();
+
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T get_Item(int32_t index);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -44,6 +59,9 @@ public:
 
   /// @brief Field _count, offset: 0x8, size: 0x4, def value: None
   int32_t _count;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3859 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

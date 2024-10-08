@@ -14,14 +14,14 @@ class IMask;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::IMask);
 // Type: UnityEngine.UI::IMask
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
 // CS Name: ::UnityEngine.UI::IMask*
 class CORDL_TYPE IMask {
 public:
   // Declarations
-  __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
+  __declspec(property(get = get_rectTransform)) ::UnityW<::UnityEngine::RectTransform> rectTransform;
 
   /// @brief Method Enabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Enabled();
@@ -36,6 +36,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IMask", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IMask(IMask const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15024 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,6 +21,9 @@ namespace UnityEngine::PlayerLoop {
 struct __PreUpdate__Physics2DUpdate;
 }
 namespace UnityEngine::PlayerLoop {
+struct __PreUpdate__PhysicsClothUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct __PreUpdate__PhysicsUpdate;
 }
 namespace UnityEngine::PlayerLoop {
@@ -52,6 +55,9 @@ namespace UnityEngine::PlayerLoop {
 struct __PreUpdate__Physics2DUpdate;
 }
 namespace UnityEngine::PlayerLoop {
+struct __PreUpdate__PhysicsClothUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct __PreUpdate__PhysicsUpdate;
 }
 namespace UnityEngine::PlayerLoop {
@@ -70,12 +76,13 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__PreUpdate__CheckTexFieldInput);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PreUpdate__IMGUISendQueuedEvents);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PreUpdate__NewInputUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PreUpdate__Physics2DUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::__PreUpdate__PhysicsClothUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PreUpdate__PhysicsUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PreUpdate__SendMouseEvents);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PreUpdate__UpdateVideo);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PreUpdate__WindUpdate);
 // Type: ::PhysicsUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreUpdate::PhysicsUpdate
@@ -90,6 +97,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11034 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -101,7 +111,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::Physics2DUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreUpdate::Physics2DUpdate
@@ -116,6 +126,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11035 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -126,8 +139,37 @@ public:
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUpdate__Physics2DUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
+// Type: ::PhysicsClothUpdate
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+namespace UnityEngine::PlayerLoop {
+// Is value type: true
+// CS Name: ::PreUpdate::PhysicsClothUpdate
+#pragma pack(push, 0)
+struct CORDL_TYPE __PreUpdate__PhysicsClothUpdate {
+public:
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PreUpdate__PhysicsClothUpdate();
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11036 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+#pragma pack(pop)
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUpdate__PhysicsClothUpdate, 0x1>, "Size mismatch!");
+
+} // namespace UnityEngine::PlayerLoop
 // Type: ::CheckTexFieldInput
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreUpdate::CheckTexFieldInput
@@ -142,6 +184,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11037 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -153,7 +198,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::IMGUISendQueuedEvents
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreUpdate::IMGUISendQueuedEvents
@@ -168,6 +213,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11038 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -179,7 +227,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::SendMouseEvents
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreUpdate::SendMouseEvents
@@ -194,6 +242,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11039 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -205,7 +256,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::AIUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreUpdate::AIUpdate
@@ -220,6 +271,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11040 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -231,7 +285,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::WindUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreUpdate::WindUpdate
@@ -246,6 +300,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11041 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -257,7 +314,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::UpdateVideo
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreUpdate::UpdateVideo
@@ -272,6 +329,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11042 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -283,7 +343,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::NewInputUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PreUpdate::NewInputUpdate
@@ -298,6 +358,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11043 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -309,7 +372,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 
 } // namespace UnityEngine::PlayerLoop
 // Type: UnityEngine.PlayerLoop::PreUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::UnityEngine.PlayerLoop::PreUpdate
@@ -327,6 +390,8 @@ public:
 
   using Physics2DUpdate = ::UnityEngine::PlayerLoop::__PreUpdate__Physics2DUpdate;
 
+  using PhysicsClothUpdate = ::UnityEngine::PlayerLoop::__PreUpdate__PhysicsClothUpdate;
+
   using PhysicsUpdate = ::UnityEngine::PlayerLoop::__PreUpdate__PhysicsUpdate;
 
   using SendMouseEvents = ::UnityEngine::PlayerLoop::__PreUpdate__SendMouseEvents;
@@ -341,6 +406,9 @@ public:
 
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11044 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -358,6 +426,7 @@ DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreUpdate__CheckTexFieldInpu
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreUpdate__IMGUISendQueuedEvents, "UnityEngine.PlayerLoop", "PreUpdate/IMGUISendQueuedEvents");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreUpdate__NewInputUpdate, "UnityEngine.PlayerLoop", "PreUpdate/NewInputUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreUpdate__Physics2DUpdate, "UnityEngine.PlayerLoop", "PreUpdate/Physics2DUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreUpdate__PhysicsClothUpdate, "UnityEngine.PlayerLoop", "PreUpdate/PhysicsClothUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreUpdate__PhysicsUpdate, "UnityEngine.PlayerLoop", "PreUpdate/PhysicsUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreUpdate__SendMouseEvents, "UnityEngine.PlayerLoop", "PreUpdate/SendMouseEvents");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PreUpdate__UpdateVideo, "UnityEngine.PlayerLoop", "PreUpdate/UpdateVideo");

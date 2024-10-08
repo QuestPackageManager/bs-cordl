@@ -39,7 +39,7 @@ class __MultiplayerPlayerPlacement____c;
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPlayerPlacement);
 MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerPlayerPlacement____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerPlayerPlacement::<>c*
@@ -47,17 +47,17 @@ class CORDL_TYPE __MultiplayerPlayerPlacement____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__MultiplayerPlayerPlacement____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__MultiplayerPlayerPlacement____c* __9;
 
   /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0))::System::Comparison_1<::GlobalNamespace::IConnectedPlayer*>* __9__4_0;
+  static __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0)) ::System::Comparison_1<::GlobalNamespace::IConnectedPlayer*>* __9__4_0;
 
   static inline ::GlobalNamespace::__MultiplayerPlayerPlacement____c* New_ctor();
 
-  /// @brief Method <SortPlayers>b__4_0, addr 0x2745700, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method <SortPlayers>b__4_0, addr 0x3b62f0c, size 0x128, virtual false, abstract: false, final false
   inline int32_t _SortPlayers_b__4_0(::GlobalNamespace::IConnectedPlayer* p1, ::GlobalNamespace::IConnectedPlayer* p2);
 
-  /// @brief Method .ctor, addr 0x27456f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b62f04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__MultiplayerPlayerPlacement____c* getStaticF___9();
@@ -82,6 +82,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultiplayerPlayerPlacement____c(__MultiplayerPlayerPlacement____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4581 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -89,7 +92,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerPl
 
 } // namespace GlobalNamespace
 // Type: ::MultiplayerPlayerPlacement
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerPlayerPlacement*
@@ -98,22 +101,22 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__MultiplayerPlayerPlacement____c;
 
-  /// @brief Method GetAngleBetweenPlayersWithEvenAdjustment, addr 0x273ee18, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetAngleBetweenPlayersWithEvenAdjustment, addr 0x3b5cc9c, size 0x2c, virtual false, abstract: false, final false
   static inline float_t GetAngleBetweenPlayersWithEvenAdjustment(int32_t numberOfPlayers, ::GlobalNamespace::MultiplayerPlayerLayout layout);
 
-  /// @brief Method GetLocalPlayerIndex, addr 0x274540c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method GetLocalPlayerIndex, addr 0x3b62c20, size 0x288, virtual false, abstract: false, final false
   static inline int32_t GetLocalPlayerIndex(::System::Collections::Generic::IList_1<::GlobalNamespace::IConnectedPlayer*>* otherPlayers, ::GlobalNamespace::IConnectedPlayer* localPlayer);
 
-  /// @brief Method GetOuterCirclePositionAngleForPlayer, addr 0x273ee7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetOuterCirclePositionAngleForPlayer, addr 0x3b5cd0c, size 0x14, virtual false, abstract: false, final false
   static inline float_t GetOuterCirclePositionAngleForPlayer(int32_t playerIndex, int32_t localPlayerIndex, float_t angleBetweenPlayers);
 
-  /// @brief Method GetOuterCircleRadius, addr 0x273ee38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetOuterCircleRadius, addr 0x3b5ccc8, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetOuterCircleRadius(float_t angleBetweenPlayers, float_t innerCircleRadius);
 
-  /// @brief Method GetPlayerWorldPosition, addr 0x273ee8c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerWorldPosition, addr 0x3b5cd20, size 0x148, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetPlayerWorldPosition(float_t outerCircleRadius, float_t outerCirclePositionAngle, ::GlobalNamespace::MultiplayerPlayerLayout layout);
 
-  /// @brief Method SortPlayers, addr 0x2745310, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SortPlayers, addr 0x3b62b28, size 0xf8, virtual false, abstract: false, final false
   static inline void SortPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* players);
 
 protected:
@@ -129,6 +132,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayerPlacement", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerPlayerPlacement(MultiplayerPlayerPlacement const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4582 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

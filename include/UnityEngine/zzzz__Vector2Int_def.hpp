@@ -29,7 +29,7 @@ struct Vector2Int;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Vector2Int);
 // Type: UnityEngine::Vector2Int
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::Vector2Int
@@ -37,22 +37,22 @@ struct CORDL_TYPE Vector2Int {
 public:
   // Declarations
   /// @brief Field s_Down, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Down, put = setStaticF_s_Down))::UnityEngine::Vector2Int s_Down;
+  static __declspec(property(get = getStaticF_s_Down, put = setStaticF_s_Down)) ::UnityEngine::Vector2Int s_Down;
 
   /// @brief Field s_Left, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Left, put = setStaticF_s_Left))::UnityEngine::Vector2Int s_Left;
+  static __declspec(property(get = getStaticF_s_Left, put = setStaticF_s_Left)) ::UnityEngine::Vector2Int s_Left;
 
   /// @brief Field s_One, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_One, put = setStaticF_s_One))::UnityEngine::Vector2Int s_One;
+  static __declspec(property(get = getStaticF_s_One, put = setStaticF_s_One)) ::UnityEngine::Vector2Int s_One;
 
   /// @brief Field s_Right, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Right, put = setStaticF_s_Right))::UnityEngine::Vector2Int s_Right;
+  static __declspec(property(get = getStaticF_s_Right, put = setStaticF_s_Right)) ::UnityEngine::Vector2Int s_Right;
 
   /// @brief Field s_Up, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Up, put = setStaticF_s_Up))::UnityEngine::Vector2Int s_Up;
+  static __declspec(property(get = getStaticF_s_Up, put = setStaticF_s_Up)) ::UnityEngine::Vector2Int s_Up;
 
   /// @brief Field s_Zero, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Zero, put = setStaticF_s_Zero))::UnityEngine::Vector2Int s_Zero;
+  static __declspec(property(get = getStaticF_s_Zero, put = setStaticF_s_Zero)) ::UnityEngine::Vector2Int s_Zero;
 
   __declspec(property(get = get_x, put = set_x)) int32_t x;
 
@@ -64,25 +64,25 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Equals, addr 0x344bd70, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x482c9ac, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x344bdf8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x482ca34, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Vector2Int other);
 
-  /// @brief Method FloorToInt, addr 0x344bc58, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method FloorToInt, addr 0x482c8c4, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int FloorToInt(::UnityEngine::Vector2 v);
 
-  /// @brief Method GetHashCode, addr 0x344be20, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x482ca5c, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x344be68, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x482caa4, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x344be74, size 0x17c, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x482cab4, size 0x178, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x344bc40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482c8ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t x, int32_t y);
 
   static inline ::UnityEngine::Vector2Int getStaticF_s_Down();
@@ -97,10 +97,10 @@ public:
 
   static inline ::UnityEngine::Vector2Int getStaticF_s_Zero();
 
-  /// @brief Method get_x, addr 0x344bc20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x482c88c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();
 
-  /// @brief Method get_y, addr 0x344bc30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x482c89c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_y();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Vector2Int>"
@@ -109,10 +109,10 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Equality, addr 0x344bd50, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x482c98c, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Vector2Int lhs, ::UnityEngine::Vector2Int rhs);
 
-  /// @brief Method op_Implicit, addr 0x344bc48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x482c8b4, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::Vector2Int v);
 
   static inline void setStaticF_s_Down(::UnityEngine::Vector2Int value);
@@ -127,10 +127,10 @@ public:
 
   static inline void setStaticF_s_Zero(::UnityEngine::Vector2Int value);
 
-  /// @brief Method set_x, addr 0x344bc28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x482c894, size 0x8, virtual false, abstract: false, final false
   inline void set_x(int32_t value);
 
-  /// @brief Method set_y, addr 0x344bc38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x482c8a4, size 0x8, virtual false, abstract: false, final false
   inline void set_y(int32_t value);
 
   // Ctor Parameters []
@@ -145,6 +145,9 @@ public:
 
   /// @brief Field m_Y, offset: 0x4, size: 0x4, def value: None
   int32_t m_Y;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10782 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

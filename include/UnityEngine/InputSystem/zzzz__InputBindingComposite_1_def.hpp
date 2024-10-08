@@ -23,7 +23,7 @@ template <typename TValue> class InputBindingComposite_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::InputBindingComposite_1);
 // Type: UnityEngine.InputSystem::InputBindingComposite`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
@@ -34,7 +34,7 @@ public:
   // Declarations
   __declspec(property(get = get_valueSizeInBytes)) int32_t valueSizeInBytes;
 
-  __declspec(property(get = get_valueType))::System::Type* valueType;
+  __declspec(property(get = get_valueType)) ::System::Type* valueType;
 
   static inline ::UnityEngine::InputSystem::InputBindingComposite_1<TValue>* New_ctor();
 
@@ -69,6 +69,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InputBindingComposite_1(InputBindingComposite_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6561 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

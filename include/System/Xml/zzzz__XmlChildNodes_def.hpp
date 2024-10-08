@@ -19,7 +19,7 @@ class XmlChildNodes;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlChildNodes);
 // Type: System.Xml::XmlChildNodes
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::XmlChildNodes*
@@ -29,12 +29,12 @@ public:
   __declspec(property(get = get_Count)) int32_t Count;
 
   /// @brief Field container, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container))::System::Xml::XmlNode* container;
+  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container)) ::System::Xml::XmlNode* container;
 
-  /// @brief Method GetEnumerator, addr 0x2ec038c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x42be8a4, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method Item, addr 0x2ec02e4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Item, addr 0x42be7fc, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* Item(int32_t i);
 
   static inline ::System::Xml::XmlChildNodes* New_ctor(::System::Xml::XmlNode* container);
@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set_container(::System::Xml::XmlNode* value);
 
-  /// @brief Method .ctor, addr 0x2ec02bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42be7d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* container);
 
-  /// @brief Method get_Count, addr 0x2ec0340, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x42be858, size 0x4c, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
 protected:
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field container, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlNode* ___container;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7257 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

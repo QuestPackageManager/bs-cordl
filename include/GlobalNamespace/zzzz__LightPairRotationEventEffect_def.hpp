@@ -40,7 +40,7 @@ class __LightPairRotationEventEffect__RotationData;
 MARK_REF_PTR_T(::GlobalNamespace::LightPairRotationEventEffect);
 MARK_REF_PTR_T(::GlobalNamespace::__LightPairRotationEventEffect__RotationData);
 // Type: ::RotationData
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightPairRotationEventEffect::RotationData*
@@ -57,13 +57,13 @@ public:
   __declspec(property(get = __cordl_internal_get_rotationSpeed, put = __cordl_internal_set_rotationSpeed)) float_t rotationSpeed;
 
   /// @brief Field startRotation, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_startRotation, put = __cordl_internal_set_startRotation))::UnityEngine::Quaternion startRotation;
+  __declspec(property(get = __cordl_internal_get_startRotation, put = __cordl_internal_set_startRotation)) ::UnityEngine::Quaternion startRotation;
 
   /// @brief Field startRotationAngle, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_startRotationAngle, put = __cordl_internal_set_startRotationAngle)) float_t startRotationAngle;
 
   /// @brief Field transform, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
+  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform)) ::UnityW<::UnityEngine::Transform> transform;
 
   static inline ::GlobalNamespace::__LightPairRotationEventEffect__RotationData* New_ctor();
 
@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x26f8eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b197a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -138,6 +138,9 @@ public:
   /// @brief Field rotationAngle, offset: 0x34, size: 0x4, def value: None
   float_t ___rotationAngle;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4300 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -157,7 +160,7 @@ static_assert(offsetof(::GlobalNamespace::__LightPairRotationEventEffect__Rotati
 
 } // namespace GlobalNamespace
 // Type: ::LightPairRotationEventEffect
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightPairRotationEventEffect*
@@ -166,78 +169,78 @@ public:
   // Declarations
   using RotationData = ::GlobalNamespace::__LightPairRotationEventEffect__RotationData;
 
-  /// @brief Field _audioTimeSource, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  /// @brief Field _audioTimeSource, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource)) ::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
-  /// @brief Field _beatmapCallbacksController, offset 0x50, size 0x8
+  /// @brief Field _beatmapCallbacksController, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+                      put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset 0x80, size 0x8
+  /// @brief Field _beatmapDataCallbackWrapper, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
+                      put = __cordl_internal_set__beatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
-  /// @brief Field _eventL, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__eventL, put = __cordl_internal_set__eventL))::GlobalNamespace::BasicBeatmapEventType _eventL;
+  /// @brief Field _eventL, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__eventL, put = __cordl_internal_set__eventL)) ::GlobalNamespace::BasicBeatmapEventType _eventL;
 
-  /// @brief Field _eventR, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__eventR, put = __cordl_internal_set__eventR))::GlobalNamespace::BasicBeatmapEventType _eventR;
+  /// @brief Field _eventR, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__eventR, put = __cordl_internal_set__eventR)) ::GlobalNamespace::BasicBeatmapEventType _eventR;
 
-  /// @brief Field _overrideRandomValues, offset 0x30, size 0x1
+  /// @brief Field _overrideRandomValues, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__overrideRandomValues, put = __cordl_internal_set__overrideRandomValues)) bool _overrideRandomValues;
 
-  /// @brief Field _randomDirection, offset 0x78, size 0x4
+  /// @brief Field _randomDirection, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get__randomDirection, put = __cordl_internal_set__randomDirection)) float_t _randomDirection;
 
-  /// @brief Field _randomGenerationFrameNum, offset 0x70, size 0x4
+  /// @brief Field _randomGenerationFrameNum, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get__randomGenerationFrameNum, put = __cordl_internal_set__randomGenerationFrameNum)) int32_t _randomGenerationFrameNum;
 
-  /// @brief Field _randomStartRotation, offset 0x74, size 0x4
+  /// @brief Field _randomStartRotation, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get__randomStartRotation, put = __cordl_internal_set__randomStartRotation)) float_t _randomStartRotation;
 
-  /// @brief Field _rotationDataL, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__rotationDataL, put = __cordl_internal_set__rotationDataL))::GlobalNamespace::__LightPairRotationEventEffect__RotationData* _rotationDataL;
+  /// @brief Field _rotationDataL, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__rotationDataL, put = __cordl_internal_set__rotationDataL)) ::GlobalNamespace::__LightPairRotationEventEffect__RotationData* _rotationDataL;
 
-  /// @brief Field _rotationDataR, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__rotationDataR, put = __cordl_internal_set__rotationDataR))::GlobalNamespace::__LightPairRotationEventEffect__RotationData* _rotationDataR;
+  /// @brief Field _rotationDataR, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__rotationDataR, put = __cordl_internal_set__rotationDataR)) ::GlobalNamespace::__LightPairRotationEventEffect__RotationData* _rotationDataR;
 
-  /// @brief Field _rotationVector, offset 0x24, size 0xc
-  __declspec(property(get = __cordl_internal_get__rotationVector, put = __cordl_internal_set__rotationVector))::UnityEngine::Vector3 _rotationVector;
+  /// @brief Field _rotationVector, offset 0x2c, size 0xc
+  __declspec(property(get = __cordl_internal_get__rotationVector, put = __cordl_internal_set__rotationVector)) ::UnityEngine::Vector3 _rotationVector;
 
-  /// @brief Field _startRotation, offset 0x38, size 0x4
+  /// @brief Field _startRotation, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__startRotation, put = __cordl_internal_set__startRotation)) float_t _startRotation;
 
-  /// @brief Field _switchOverrideRandomValuesEvent, offset 0x20, size 0x4
+  /// @brief Field _switchOverrideRandomValuesEvent, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__switchOverrideRandomValuesEvent,
-                      put = __cordl_internal_set__switchOverrideRandomValuesEvent))::GlobalNamespace::BasicBeatmapEventType _switchOverrideRandomValuesEvent;
+                      put = __cordl_internal_set__switchOverrideRandomValuesEvent)) ::GlobalNamespace::BasicBeatmapEventType _switchOverrideRandomValuesEvent;
 
-  /// @brief Field _transformL, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__transformL, put = __cordl_internal_set__transformL))::UnityW<::UnityEngine::Transform> _transformL;
+  /// @brief Field _transformL, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__transformL, put = __cordl_internal_set__transformL)) ::UnityW<::UnityEngine::Transform> _transformL;
 
-  /// @brief Field _transformR, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__transformR, put = __cordl_internal_set__transformR))::UnityW<::UnityEngine::Transform> _transformR;
+  /// @brief Field _transformR, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__transformR, put = __cordl_internal_set__transformR)) ::UnityW<::UnityEngine::Transform> _transformR;
 
-  /// @brief Field _useZPositionForAngleOffset, offset 0x31, size 0x1
+  /// @brief Field _useZPositionForAngleOffset, offset 0x39, size 0x1
   __declspec(property(get = __cordl_internal_get__useZPositionForAngleOffset, put = __cordl_internal_set__useZPositionForAngleOffset)) bool _useZPositionForAngleOffset;
 
-  /// @brief Field _zPositionAngleOffsetScale, offset 0x34, size 0x4
+  /// @brief Field _zPositionAngleOffsetScale, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__zPositionAngleOffsetScale, put = __cordl_internal_set__zPositionAngleOffsetScale)) float_t _zPositionAngleOffsetScale;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x26f917c, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b19a68, size 0x380, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::LightPairRotationEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26f9160, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b19a4c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x26f8aec, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b193d4, size 0x3cc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x26f8ebc, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b197a8, size 0x2a4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateRotationData, addr 0x26f94fc, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method UpdateRotationData, addr 0x3b19de8, size 0x21c, virtual false, abstract: false, final false
   inline void UpdateRotationData(int32_t beatmapEventDataValue, ::GlobalNamespace::__LightPairRotationEventEffect__RotationData* rotationData, float_t startRotationOffset, float_t direction);
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -348,7 +351,7 @@ public:
 
   constexpr void __cordl_internal_set__zPositionAngleOffsetScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x26f9718, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1a004, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -365,59 +368,62 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightPairRotationEventEffect(LightPairRotationEventEffect const&) = delete;
 
-  /// @brief Field _eventL, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _eventL, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____eventL;
 
-  /// @brief Field _eventR, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field _eventR, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____eventR;
 
-  /// @brief Field _switchOverrideRandomValuesEvent, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field _switchOverrideRandomValuesEvent, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____switchOverrideRandomValuesEvent;
 
-  /// @brief Field _rotationVector, offset: 0x24, size: 0xc, def value: None
+  /// @brief Field _rotationVector, offset: 0x2c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____rotationVector;
 
-  /// @brief Field _overrideRandomValues, offset: 0x30, size: 0x1, def value: None
+  /// @brief Field _overrideRandomValues, offset: 0x38, size: 0x1, def value: None
   bool ____overrideRandomValues;
 
-  /// @brief Field _useZPositionForAngleOffset, offset: 0x31, size: 0x1, def value: None
+  /// @brief Field _useZPositionForAngleOffset, offset: 0x39, size: 0x1, def value: None
   bool ____useZPositionForAngleOffset;
 
-  /// @brief Field _zPositionAngleOffsetScale, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field _zPositionAngleOffsetScale, offset: 0x3c, size: 0x4, def value: None
   float_t ____zPositionAngleOffsetScale;
 
-  /// @brief Field _startRotation, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _startRotation, offset: 0x40, size: 0x4, def value: None
   float_t ____startRotation;
 
-  /// @brief Field _transformL, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _transformL, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transformL;
 
-  /// @brief Field _transformR, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _transformR, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transformR;
 
-  /// @brief Field _beatmapCallbacksController, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _beatmapCallbacksController, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-  /// @brief Field _audioTimeSource, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _audioTimeSource, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
-  /// @brief Field _rotationDataL, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _rotationDataL, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::__LightPairRotationEventEffect__RotationData* ____rotationDataL;
 
-  /// @brief Field _rotationDataR, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _rotationDataR, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::__LightPairRotationEventEffect__RotationData* ____rotationDataR;
 
-  /// @brief Field _randomGenerationFrameNum, offset: 0x70, size: 0x4, def value: None
+  /// @brief Field _randomGenerationFrameNum, offset: 0x78, size: 0x4, def value: None
   int32_t ____randomGenerationFrameNum;
 
-  /// @brief Field _randomStartRotation, offset: 0x74, size: 0x4, def value: None
+  /// @brief Field _randomStartRotation, offset: 0x7c, size: 0x4, def value: None
   float_t ____randomStartRotation;
 
-  /// @brief Field _randomDirection, offset: 0x78, size: 0x4, def value: None
+  /// @brief Field _randomDirection, offset: 0x80, size: 0x4, def value: None
   float_t ____randomDirection;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4301 };
 
   /// @brief Field kSpeedMultiplier offset 0xffffffff size 0x4
   static constexpr float_t kSpeedMultiplier{ 20.0 };
@@ -425,43 +431,43 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightPairRotationEventEffect, 0x88>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightPairRotationEventEffect, 0x90>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____eventL) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____eventL) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____eventR) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____eventR) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____switchOverrideRandomValuesEvent) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____switchOverrideRandomValuesEvent) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____rotationVector) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____rotationVector) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____overrideRandomValues) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____overrideRandomValues) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____useZPositionForAngleOffset) == 0x31, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____useZPositionForAngleOffset) == 0x39, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____zPositionAngleOffsetScale) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____zPositionAngleOffsetScale) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____startRotation) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____startRotation) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____transformL) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____transformL) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____transformR) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____transformR) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____beatmapCallbacksController) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____beatmapCallbacksController) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____audioTimeSource) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____audioTimeSource) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____rotationDataL) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____rotationDataL) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____rotationDataR) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____rotationDataR) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____randomGenerationFrameNum) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____randomGenerationFrameNum) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____randomStartRotation) == 0x74, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____randomStartRotation) == 0x7c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____randomDirection) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____randomDirection) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____beatmapDataCallbackWrapper) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairRotationEventEffect, ____beatmapDataCallbackWrapper) == 0x88, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightPairRotationEventEffect);

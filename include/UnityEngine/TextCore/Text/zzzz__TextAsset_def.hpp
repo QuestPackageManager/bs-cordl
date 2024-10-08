@@ -17,7 +17,7 @@ class TextAsset;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextAsset);
 // Type: UnityEngine.TextCore.Text::TextAsset
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // CS Name: ::UnityEngine.TextCore.Text::TextAsset*
@@ -35,19 +35,19 @@ public:
   __declspec(property(get = __cordl_internal_get_m_InstanceID, put = __cordl_internal_set_m_InstanceID)) int32_t m_InstanceID;
 
   /// @brief Field m_Material, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Material, put = __cordl_internal_set_m_Material))::UnityW<::UnityEngine::Material> m_Material;
+  __declspec(property(get = __cordl_internal_get_m_Material, put = __cordl_internal_set_m_Material)) ::UnityW<::UnityEngine::Material> m_Material;
 
   /// @brief Field m_MaterialHashCode, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MaterialHashCode, put = __cordl_internal_set_m_MaterialHashCode)) int32_t m_MaterialHashCode;
 
   /// @brief Field m_Version, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version))::StringW m_Version;
+  __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version)) ::StringW m_Version;
 
-  __declspec(property(get = get_material, put = set_material))::UnityW<::UnityEngine::Material> material;
+  __declspec(property(get = get_material, put = set_material)) ::UnityW<::UnityEngine::Material> material;
 
   __declspec(property(get = get_materialHashCode, put = set_materialHashCode)) int32_t materialHashCode;
 
-  __declspec(property(get = get_version, put = set_version))::StringW version;
+  __declspec(property(get = get_version, put = set_version)) ::StringW version;
 
   static inline ::UnityEngine::TextCore::Text::TextAsset* New_ctor();
 
@@ -81,34 +81,34 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x34dc0cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b134c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hashCode, addr 0x34dbc24, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x48b37d4, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_instanceID, addr 0x34dbbfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_instanceID, addr 0x48acb10, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
-  /// @brief Method get_material, addr 0x34dc01c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x48b5f0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_materialHashCode, addr 0x34dc02c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_materialHashCode, addr 0x48b3804, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_materialHashCode();
 
-  /// @brief Method get_version, addr 0x34dc004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x48b5ef4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
-  /// @brief Method set_hashCode, addr 0x34dc014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hashCode, addr 0x48b5f04, size 0x8, virtual false, abstract: false, final false
   inline void set_hashCode(int32_t value);
 
-  /// @brief Method set_material, addr 0x34dc024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_material, addr 0x48b5f14, size 0x8, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
-  /// @brief Method set_materialHashCode, addr 0x34dc0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_materialHashCode, addr 0x48b5f1c, size 0x8, virtual false, abstract: false, final false
   inline void set_materialHashCode(int32_t value);
 
-  /// @brief Method set_version, addr 0x34dc00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_version, addr 0x48b5efc, size 0x8, virtual false, abstract: false, final false
   inline void set_version(::StringW value);
 
 protected:
@@ -139,6 +139,9 @@ public:
 
   /// @brief Field m_MaterialHashCode, offset: 0x30, size: 0x4, def value: None
   int32_t ___m_MaterialHashCode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15210 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

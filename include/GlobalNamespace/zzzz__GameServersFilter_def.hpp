@@ -15,7 +15,7 @@ class GameServersFilter;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameServersFilter);
 // Type: ::GameServersFilter
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 59, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 59, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameServersFilter*
@@ -32,13 +32,13 @@ public:
   __declspec(property(get = __cordl_internal_get_filterBySongPacks, put = __cordl_internal_set_filterBySongPacks)) bool filterBySongPacks;
 
   /// @brief Field filteredDifficulty, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get_filteredDifficulty, put = __cordl_internal_set_filteredDifficulty))::GlobalNamespace::BeatmapDifficultyMask filteredDifficulty;
+  __declspec(property(get = __cordl_internal_get_filteredDifficulty, put = __cordl_internal_set_filteredDifficulty)) ::GlobalNamespace::BeatmapDifficultyMask filteredDifficulty;
 
   /// @brief Field filteredModifiers, offset 0x14, size 0x2
-  __declspec(property(get = __cordl_internal_get_filteredModifiers, put = __cordl_internal_set_filteredModifiers))::GlobalNamespace::GameplayModifierMask filteredModifiers;
+  __declspec(property(get = __cordl_internal_get_filteredModifiers, put = __cordl_internal_set_filteredModifiers)) ::GlobalNamespace::GameplayModifierMask filteredModifiers;
 
   /// @brief Field filteredSongPacks, offset 0x18, size 0x20
-  __declspec(property(get = __cordl_internal_get_filteredSongPacks, put = __cordl_internal_set_filteredSongPacks))::GlobalNamespace::SongPackMask filteredSongPacks;
+  __declspec(property(get = __cordl_internal_get_filteredSongPacks, put = __cordl_internal_set_filteredSongPacks)) ::GlobalNamespace::SongPackMask filteredSongPacks;
 
   /// @brief Field showFull, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_showFull, put = __cordl_internal_set_showFull)) bool showFull;
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_showProtected(bool value);
 
-  /// @brief Method .ctor, addr 0x265a340, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b91258, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -148,6 +148,9 @@ public:
 
   /// @brief Field showInternetGames, offset: 0x3a, size: 0x1, def value: None
   bool ___showInternetGames;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4812 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

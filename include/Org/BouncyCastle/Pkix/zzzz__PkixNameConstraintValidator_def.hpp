@@ -39,7 +39,7 @@ class PkixNameConstraintValidator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixNameConstraintValidator);
 // Type: Org.BouncyCastle.Pkix::PkixNameConstraintValidator
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkix::PkixNameConstraintValidator*
@@ -47,251 +47,251 @@ class CORDL_TYPE PkixNameConstraintValidator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field SerialNumberOid, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SerialNumberOid, put = setStaticF_SerialNumberOid))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SerialNumberOid;
+  static __declspec(property(get = getStaticF_SerialNumberOid, put = setStaticF_SerialNumberOid)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SerialNumberOid;
 
   /// @brief Field excludedSubtreesDN, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_excludedSubtreesDN, put = __cordl_internal_set_excludedSubtreesDN))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesDN;
+  __declspec(property(get = __cordl_internal_get_excludedSubtreesDN, put = __cordl_internal_set_excludedSubtreesDN)) ::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesDN;
 
   /// @brief Field excludedSubtreesDNS, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_excludedSubtreesDNS, put = __cordl_internal_set_excludedSubtreesDNS))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesDNS;
+  __declspec(property(get = __cordl_internal_get_excludedSubtreesDNS, put = __cordl_internal_set_excludedSubtreesDNS)) ::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesDNS;
 
   /// @brief Field excludedSubtreesEmail, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_excludedSubtreesEmail, put = __cordl_internal_set_excludedSubtreesEmail))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesEmail;
+  __declspec(property(get = __cordl_internal_get_excludedSubtreesEmail, put = __cordl_internal_set_excludedSubtreesEmail)) ::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesEmail;
 
   /// @brief Field excludedSubtreesIP, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_excludedSubtreesIP, put = __cordl_internal_set_excludedSubtreesIP))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesIP;
+  __declspec(property(get = __cordl_internal_get_excludedSubtreesIP, put = __cordl_internal_set_excludedSubtreesIP)) ::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesIP;
 
   /// @brief Field excludedSubtreesOtherName, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_excludedSubtreesOtherName,
-                      put = __cordl_internal_set_excludedSubtreesOtherName))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesOtherName;
+                      put = __cordl_internal_set_excludedSubtreesOtherName)) ::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesOtherName;
 
   /// @brief Field excludedSubtreesURI, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_excludedSubtreesURI, put = __cordl_internal_set_excludedSubtreesURI))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesURI;
+  __declspec(property(get = __cordl_internal_get_excludedSubtreesURI, put = __cordl_internal_set_excludedSubtreesURI)) ::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesURI;
 
   /// @brief Field permittedSubtreesDN, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_permittedSubtreesDN, put = __cordl_internal_set_permittedSubtreesDN))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesDN;
+  __declspec(property(get = __cordl_internal_get_permittedSubtreesDN, put = __cordl_internal_set_permittedSubtreesDN)) ::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesDN;
 
   /// @brief Field permittedSubtreesDNS, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_permittedSubtreesDNS, put = __cordl_internal_set_permittedSubtreesDNS))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesDNS;
+  __declspec(property(get = __cordl_internal_get_permittedSubtreesDNS, put = __cordl_internal_set_permittedSubtreesDNS)) ::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesDNS;
 
   /// @brief Field permittedSubtreesEmail, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_permittedSubtreesEmail, put = __cordl_internal_set_permittedSubtreesEmail))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesEmail;
+  __declspec(property(get = __cordl_internal_get_permittedSubtreesEmail, put = __cordl_internal_set_permittedSubtreesEmail)) ::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesEmail;
 
   /// @brief Field permittedSubtreesIP, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_permittedSubtreesIP, put = __cordl_internal_set_permittedSubtreesIP))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesIP;
+  __declspec(property(get = __cordl_internal_get_permittedSubtreesIP, put = __cordl_internal_set_permittedSubtreesIP)) ::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesIP;
 
   /// @brief Field permittedSubtreesOtherName, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_permittedSubtreesOtherName,
-                      put = __cordl_internal_set_permittedSubtreesOtherName))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesOtherName;
+                      put = __cordl_internal_set_permittedSubtreesOtherName)) ::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesOtherName;
 
   /// @brief Field permittedSubtreesURI, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_permittedSubtreesURI, put = __cordl_internal_set_permittedSubtreesURI))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesURI;
+  __declspec(property(get = __cordl_internal_get_permittedSubtreesURI, put = __cordl_internal_set_permittedSubtreesURI)) ::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesURI;
 
-  /// @brief Method AddExcludedSubtree, addr 0x1382780, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method AddExcludedSubtree, addr 0x254da0c, size 0x188, virtual false, abstract: false, final false
   inline void AddExcludedSubtree(::Org::BouncyCastle::Asn1::X509::GeneralSubtree* subtree);
 
-  /// @brief Method CheckExcludedDN, addr 0x1378790, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CheckExcludedDN, addr 0x2543994, size 0x10, virtual false, abstract: false, final false
   inline void CheckExcludedDN(::Org::BouncyCastle::Asn1::Asn1Sequence* dn);
 
-  /// @brief Method CheckExcludedDirectory, addr 0x13787a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CheckExcludedDirectory, addr 0x25439a4, size 0x58, virtual false, abstract: false, final false
   inline void CheckExcludedDirectory(::Org::BouncyCastle::Utilities::Collections::ISet* excluded, ::Org::BouncyCastle::Asn1::Asn1Sequence* directory);
 
-  /// @brief Method CheckExcludedDns, addr 0x137e0fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CheckExcludedDns, addr 0x25492e8, size 0x58, virtual false, abstract: false, final false
   inline void CheckExcludedDns(::Org::BouncyCastle::Utilities::Collections::ISet* excluded, ::StringW dns);
 
-  /// @brief Method CheckExcludedEmail, addr 0x137dbd4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CheckExcludedEmail, addr 0x2548dd8, size 0x58, virtual false, abstract: false, final false
   inline void CheckExcludedEmail(::Org::BouncyCastle::Utilities::Collections::ISet* excluded, ::StringW email);
 
-  /// @brief Method CheckExcludedIP, addr 0x137f1f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CheckExcludedIP, addr 0x254a39c, size 0x58, virtual false, abstract: false, final false
   inline void CheckExcludedIP(::Org::BouncyCastle::Utilities::Collections::ISet* excluded, ::ArrayW<uint8_t, ::Array<uint8_t>*> ip);
 
-  /// @brief Method CheckExcludedOtherName, addr 0x137d3ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CheckExcludedOtherName, addr 0x25485bc, size 0x58, virtual false, abstract: false, final false
   inline void CheckExcludedOtherName(::Org::BouncyCastle::Utilities::Collections::ISet* excluded, ::Org::BouncyCastle::Asn1::X509::OtherName* name);
 
-  /// @brief Method CheckExcludedUri, addr 0x137eb78, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CheckExcludedUri, addr 0x2549d34, size 0x58, virtual false, abstract: false, final false
   inline void CheckExcludedUri(::Org::BouncyCastle::Utilities::Collections::ISet* excluded, ::StringW uri);
 
-  /// @brief Method CheckPermittedDN, addr 0x1378660, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CheckPermittedDN, addr 0x2543868, size 0x10, virtual false, abstract: false, final false
   inline void CheckPermittedDN(::Org::BouncyCastle::Asn1::Asn1Sequence* dn);
 
-  /// @brief Method CheckPermittedDirectory, addr 0x1378670, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CheckPermittedDirectory, addr 0x2543878, size 0x11c, virtual false, abstract: false, final false
   inline void CheckPermittedDirectory(::Org::BouncyCastle::Utilities::Collections::ISet* permitted, ::Org::BouncyCastle::Asn1::Asn1Sequence* directory);
 
-  /// @brief Method CheckPermittedDns, addr 0x137dfec, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CheckPermittedDns, addr 0x25491dc, size 0x10c, virtual false, abstract: false, final false
   inline void CheckPermittedDns(::Org::BouncyCastle::Utilities::Collections::ISet* permitted, ::StringW dns);
 
-  /// @brief Method CheckPermittedEmail, addr 0x137dab4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CheckPermittedEmail, addr 0x2548cbc, size 0x11c, virtual false, abstract: false, final false
   inline void CheckPermittedEmail(::Org::BouncyCastle::Utilities::Collections::ISet* permitted, ::StringW email);
 
-  /// @brief Method CheckPermittedIP, addr 0x137f0e8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CheckPermittedIP, addr 0x254a290, size 0x10c, virtual false, abstract: false, final false
   inline void CheckPermittedIP(::Org::BouncyCastle::Utilities::Collections::ISet* permitted, ::ArrayW<uint8_t, ::Array<uint8_t>*> ip);
 
-  /// @brief Method CheckPermittedOtherName, addr 0x137d2e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckPermittedOtherName, addr 0x25484f8, size 0x5c, virtual false, abstract: false, final false
   inline void CheckPermittedOtherName(::Org::BouncyCastle::Utilities::Collections::ISet* permitted, ::Org::BouncyCastle::Asn1::X509::OtherName* name);
 
-  /// @brief Method CheckPermittedUri, addr 0x137ea68, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CheckPermittedUri, addr 0x2549c28, size 0x10c, virtual false, abstract: false, final false
   inline void CheckPermittedUri(::Org::BouncyCastle::Utilities::Collections::ISet* permitted, ::StringW uri);
 
-  /// @brief Method CollectionsAreEqual, addr 0x1382f0c, size 0x6a4, virtual false, abstract: false, final false
+  /// @brief Method CollectionsAreEqual, addr 0x254e190, size 0x6a8, virtual false, abstract: false, final false
   inline bool CollectionsAreEqual(::System::Collections::ICollection* coll1, ::System::Collections::ICollection* coll2);
 
-  /// @brief Method CompareTo, addr 0x137cd60, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0x2547f8c, size 0xdc, virtual false, abstract: false, final false
   static inline int32_t CompareTo(::ArrayW<uint8_t, ::Array<uint8_t>*> ip1, ::ArrayW<uint8_t, ::Array<uint8_t>*> ip2);
 
-  /// @brief Method Equals, addr 0x1382da0, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x254e024, size 0x16c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method ExtractHostFromURL, addr 0x137e590, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ExtractHostFromURL, addr 0x2549760, size 0x19c, virtual false, abstract: false, final false
   static inline ::StringW ExtractHostFromURL(::StringW url);
 
-  /// @brief Method ExtractIPsAndSubnetMasks, addr 0x137c7d0, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ExtractIPsAndSubnetMasks, addr 0x2547aec, size 0x17c, virtual false, abstract: false, final false
   inline ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> ExtractIPsAndSubnetMasks(::ArrayW<uint8_t, ::Array<uint8_t>*> ipWithSubmask1,
                                                                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> ipWithSubmask2);
 
-  /// @brief Method ExtractNameAsString, addr 0x137a4cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ExtractNameAsString, addr 0x254572c, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW ExtractNameAsString(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method GetHashCode, addr 0x1382914, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x254dba0, size 0xf0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method HashCode, addr 0x1382908, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HashCode, addr 0x254db94, size 0xc, virtual false, abstract: false, final false
   inline int32_t HashCode();
 
-  /// @brief Method HashCollection, addr 0x1382a04, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method HashCollection, addr 0x254dc90, size 0x394, virtual false, abstract: false, final false
   inline int32_t HashCollection(::System::Collections::ICollection* c);
 
-  /// @brief Method IntersectDN, addr 0x13787fc, size 0x7d4, virtual false, abstract: false, final false
+  /// @brief Method IntersectDN, addr 0x25439fc, size 0x804, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* IntersectDN(::Org::BouncyCastle::Utilities::Collections::ISet* permitted, ::Org::BouncyCastle::Utilities::Collections::ISet* dns);
 
-  /// @brief Method IntersectDns, addr 0x137fb94, size 0x7b8, virtual false, abstract: false, final false
+  /// @brief Method IntersectDns, addr 0x254ad78, size 0x7e0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* IntersectDns(::Org::BouncyCastle::Utilities::Collections::ISet* permitted, ::Org::BouncyCastle::Utilities::Collections::ISet* dnss);
 
-  /// @brief Method IntersectEmail, addr 0x1379e14, size 0x6b8, virtual false, abstract: false, final false
+  /// @brief Method IntersectEmail, addr 0x254506c, size 0x6c0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* IntersectEmail(::Org::BouncyCastle::Utilities::Collections::ISet* permitted, ::Org::BouncyCastle::Utilities::Collections::ISet* emails);
 
-  /// @brief Method IntersectEmail, addr 0x137a4f8, size 0x584, virtual false, abstract: false, final false
+  /// @brief Method IntersectEmail, addr 0x2545758, size 0x5c8, virtual false, abstract: false, final false
   inline void IntersectEmail(::StringW email1, ::StringW email2, ::Org::BouncyCastle::Utilities::Collections::ISet* intersect);
 
-  /// @brief Method IntersectEmptyPermittedSubtree, addr 0x1382658, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method IntersectEmptyPermittedSubtree, addr 0x254d8d8, size 0x134, virtual false, abstract: false, final false
   inline void IntersectEmptyPermittedSubtree(int32_t nameType);
 
-  /// @brief Method IntersectIP, addr 0x137b7f4, size 0x780, virtual false, abstract: false, final false
+  /// @brief Method IntersectIP, addr 0x2546ae0, size 0x7a0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* IntersectIP(::Org::BouncyCastle::Utilities::Collections::ISet* permitted, ::Org::BouncyCastle::Utilities::Collections::ISet* ips);
 
-  /// @brief Method IntersectIPRange, addr 0x137bf74, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method IntersectIPRange, addr 0x2547280, size 0x244, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* IntersectIPRange(::ArrayW<uint8_t, ::Array<uint8_t>*> ipWithSubmask1, ::ArrayW<uint8_t, ::Array<uint8_t>*> ipWithSubmask2);
 
-  /// @brief Method IntersectOtherName, addr 0x13795b4, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method IntersectOtherName, addr 0x2544808, size 0x69c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* IntersectOtherName(::Org::BouncyCastle::Utilities::Collections::ISet* permitted,
                                                                                ::Org::BouncyCastle::Utilities::Collections::ISet* otherNames);
 
-  /// @brief Method IntersectOtherName, addr 0x1379c4c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IntersectOtherName, addr 0x2544ea4, size 0xd8, virtual false, abstract: false, final false
   inline void IntersectOtherName(::Org::BouncyCastle::Asn1::X509::OtherName* otherName1, ::Org::BouncyCastle::Asn1::X509::OtherName* otherName2,
                                  ::Org::BouncyCastle::Utilities::Collections::ISet* intersect);
 
-  /// @brief Method IntersectPermittedSubtree, addr 0x1381bb4, size 0xaa4, virtual false, abstract: false, final false
+  /// @brief Method IntersectPermittedSubtree, addr 0x254ce30, size 0xaa8, virtual false, abstract: false, final false
   inline void IntersectPermittedSubtree(::Org::BouncyCastle::Asn1::Asn1Sequence* permitted);
 
-  /// @brief Method IntersectUri, addr 0x1380914, size 0x6a4, virtual false, abstract: false, final false
+  /// @brief Method IntersectUri, addr 0x254bb48, size 0x6ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* IntersectUri(::Org::BouncyCastle::Utilities::Collections::ISet* permitted, ::Org::BouncyCastle::Utilities::Collections::ISet* uris);
 
-  /// @brief Method IntersectUri, addr 0x1380fb8, size 0x584, virtual false, abstract: false, final false
+  /// @brief Method IntersectUri, addr 0x254c1f4, size 0x5c8, virtual false, abstract: false, final false
   inline void IntersectUri(::StringW email1, ::StringW email2, ::Org::BouncyCastle::Utilities::Collections::ISet* intersect);
 
-  /// @brief Method IpWithSubnetMask, addr 0x137cf00, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IpWithSubnetMask, addr 0x254812c, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> IpWithSubnetMask(::ArrayW<uint8_t, ::Array<uint8_t>*> ip, ::ArrayW<uint8_t, ::Array<uint8_t>*> subnetMask);
 
-  /// @brief Method IsDirectoryConstrained, addr 0x137e158, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method IsDirectoryConstrained, addr 0x2549340, size 0x334, virtual false, abstract: false, final false
   inline bool IsDirectoryConstrained(::Org::BouncyCastle::Utilities::Collections::ISet* constraints, ::Org::BouncyCastle::Asn1::Asn1Sequence* directory);
 
-  /// @brief Method IsDnsConstrained, addr 0x137dc30, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsDnsConstrained, addr 0x2548e30, size 0x80, virtual false, abstract: false, final false
   inline bool IsDnsConstrained(::StringW constraint, ::StringW dns);
 
-  /// @brief Method IsDnsConstrained, addr 0x137dcb0, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method IsDnsConstrained, addr 0x2548eb0, size 0x32c, virtual false, abstract: false, final false
   inline bool IsDnsConstrained(::Org::BouncyCastle::Utilities::Collections::ISet* constraints, ::StringW dns);
 
-  /// @brief Method IsEmailConstrained, addr 0x137d408, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method IsEmailConstrained, addr 0x2548614, size 0x178, virtual false, abstract: false, final false
   inline bool IsEmailConstrained(::StringW constraint, ::StringW email);
 
-  /// @brief Method IsEmailConstrained, addr 0x137d760, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method IsEmailConstrained, addr 0x2548980, size 0x33c, virtual false, abstract: false, final false
   inline bool IsEmailConstrained(::Org::BouncyCastle::Utilities::Collections::ISet* constraints, ::StringW email);
 
-  /// @brief Method IsIPConstrained, addr 0x137ebd4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method IsIPConstrained, addr 0x2549d8c, size 0x1b8, virtual false, abstract: false, final false
   inline bool IsIPConstrained(::ArrayW<uint8_t, ::Array<uint8_t>*> constraint, ::ArrayW<uint8_t, ::Array<uint8_t>*> ip);
 
-  /// @brief Method IsIPConstrained, addr 0x137ed8c, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method IsIPConstrained, addr 0x2549f44, size 0x34c, virtual false, abstract: false, final false
   inline bool IsIPConstrained(::Org::BouncyCastle::Utilities::Collections::ISet* constraints, ::ArrayW<uint8_t, ::Array<uint8_t>*> ip);
 
-  /// @brief Method IsOtherNameConstrained, addr 0x137cfa4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsOtherNameConstrained, addr 0x25481d0, size 0x1c, virtual false, abstract: false, final false
   inline bool IsOtherNameConstrained(::Org::BouncyCastle::Asn1::X509::OtherName* constraint, ::Org::BouncyCastle::Asn1::X509::OtherName* otherName);
 
-  /// @brief Method IsOtherNameConstrained, addr 0x137cfc0, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method IsOtherNameConstrained, addr 0x25481ec, size 0x30c, virtual false, abstract: false, final false
   inline bool IsOtherNameConstrained(::Org::BouncyCastle::Utilities::Collections::ISet* constraints, ::Org::BouncyCastle::Asn1::X509::OtherName* otherName);
 
-  /// @brief Method IsUriConstrained, addr 0x137e4a4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IsUriConstrained, addr 0x2549674, size 0xec, virtual false, abstract: false, final false
   inline bool IsUriConstrained(::StringW constraint, ::StringW uri);
 
-  /// @brief Method IsUriConstrained, addr 0x137e72c, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method IsUriConstrained, addr 0x25498fc, size 0x32c, virtual false, abstract: false, final false
   inline bool IsUriConstrained(::Org::BouncyCastle::Utilities::Collections::ISet* constraints, ::StringW uri);
 
-  /// @brief Method Max, addr 0x137ccf4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x2547f18, size 0x74, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Max(::ArrayW<uint8_t, ::Array<uint8_t>*> ip1, ::ArrayW<uint8_t, ::Array<uint8_t>*> ip2);
 
-  /// @brief Method Min, addr 0x137cc88, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x2547ea4, size 0x74, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Min(::ArrayW<uint8_t, ::Array<uint8_t>*> ip1, ::ArrayW<uint8_t, ::Array<uint8_t>*> ip2);
 
-  /// @brief Method MinMaxIPs, addr 0x137c9cc, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method MinMaxIPs, addr 0x2547c68, size 0x23c, virtual false, abstract: false, final false
   inline ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*>
   MinMaxIPs(::ArrayW<uint8_t, ::Array<uint8_t>*> ip1, ::ArrayW<uint8_t, ::Array<uint8_t>*> subnetmask1, ::ArrayW<uint8_t, ::Array<uint8_t>*> ip2, ::ArrayW<uint8_t, ::Array<uint8_t>*> subnetmask2);
 
   static inline ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator* New_ctor();
 
-  /// @brief Method Or, addr 0x137ce3c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Or, addr 0x2548068, size 0xc4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Or(::ArrayW<uint8_t, ::Array<uint8_t>*> ip1, ::ArrayW<uint8_t, ::Array<uint8_t>*> ip2);
 
-  /// @brief Method SpecialEquals, addr 0x13835b0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SpecialEquals, addr 0x254e838, size 0x128, virtual false, abstract: false, final false
   inline bool SpecialEquals(::System::Object* o1, ::System::Object* o2);
 
-  /// @brief Method StringifyIP, addr 0x13836d8, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method StringifyIP, addr 0x254e960, size 0x1c4, virtual false, abstract: false, final false
   inline ::StringW StringifyIP(::ArrayW<uint8_t, ::Array<uint8_t>*> ip);
 
-  /// @brief Method StringifyIPCollection, addr 0x138388c, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method StringifyIPCollection, addr 0x254eb24, size 0x3f0, virtual false, abstract: false, final false
   inline ::StringW StringifyIPCollection(::Org::BouncyCastle::Utilities::Collections::ISet* ips);
 
-  /// @brief Method StringifyOtherNameCollection, addr 0x1383c7c, size 0x594, virtual false, abstract: false, final false
+  /// @brief Method StringifyOtherNameCollection, addr 0x254ef14, size 0x594, virtual false, abstract: false, final false
   inline ::StringW StringifyOtherNameCollection(::Org::BouncyCastle::Utilities::Collections::ISet* otherNames);
 
-  /// @brief Method ToString, addr 0x1384210, size 0x6bc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x254f4a8, size 0x6bc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UnionDN, addr 0x1378fd0, size 0x5e4, virtual false, abstract: false, final false
+  /// @brief Method UnionDN, addr 0x2544200, size 0x608, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* UnionDN(::Org::BouncyCastle::Utilities::Collections::ISet* excluded, ::Org::BouncyCastle::Asn1::Asn1Sequence* dn);
 
-  /// @brief Method UnionDns, addr 0x138034c, size 0x5c8, virtual false, abstract: false, final false
+  /// @brief Method UnionDns, addr 0x254b558, size 0x5f0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* UnionDns(::Org::BouncyCastle::Utilities::Collections::ISet* excluded, ::StringW dns);
 
-  /// @brief Method UnionEmail, addr 0x137aa7c, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method UnionEmail, addr 0x2545d20, size 0x43c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* UnionEmail(::Org::BouncyCastle::Utilities::Collections::ISet* excluded, ::StringW email);
 
-  /// @brief Method UnionEmail, addr 0x137aeb4, size 0x940, virtual false, abstract: false, final false
+  /// @brief Method UnionEmail, addr 0x254615c, size 0x984, virtual false, abstract: false, final false
   inline void UnionEmail(::StringW email1, ::StringW email2, ::Org::BouncyCastle::Utilities::Collections::ISet* _cordl_union);
 
-  /// @brief Method UnionIP, addr 0x137c1b4, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method UnionIP, addr 0x25474c4, size 0x4b4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* UnionIP(::Org::BouncyCastle::Utilities::Collections::ISet* excluded, ::ArrayW<uint8_t, ::Array<uint8_t>*> ip);
 
-  /// @brief Method UnionIPRange, addr 0x137c65c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method UnionIPRange, addr 0x2547978, size 0x174, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* UnionIPRange(::ArrayW<uint8_t, ::Array<uint8_t>*> ipWithSubmask1, ::ArrayW<uint8_t, ::Array<uint8_t>*> ipWithSubmask2);
 
-  /// @brief Method UnionOtherName, addr 0x1379d24, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UnionOtherName, addr 0x2544f7c, size 0xf0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* UnionOtherName(::Org::BouncyCastle::Utilities::Collections::ISet* permitted, ::Org::BouncyCastle::Asn1::X509::OtherName* otherName);
 
-  /// @brief Method UnionUri, addr 0x138153c, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method UnionUri, addr 0x254c7bc, size 0x424, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* UnionUri(::Org::BouncyCastle::Utilities::Collections::ISet* excluded, ::StringW uri);
 
-  /// @brief Method WithinDNSubtree, addr 0x13782a4, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method WithinDNSubtree, addr 0x25434ac, size 0x3bc, virtual false, abstract: false, final false
   static inline bool WithinDNSubtree(::Org::BouncyCastle::Asn1::Asn1Sequence* dns, ::Org::BouncyCastle::Asn1::Asn1Sequence* subtree);
 
-  /// @brief Method WithinDomain, addr 0x137d56c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method WithinDomain, addr 0x254878c, size 0x1f4, virtual false, abstract: false, final false
   inline bool WithinDomain(::StringW testDomain, ::StringW domain);
 
   constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_excludedSubtreesDN();
@@ -366,20 +366,20 @@ public:
 
   constexpr void __cordl_internal_set_permittedSubtreesURI(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  /// @brief Method .ctor, addr 0x1368f74, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2534374, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method checkExcluded, addr 0x1381a8c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method checkExcluded, addr 0x254cd08, size 0x128, virtual false, abstract: false, final false
   inline void checkExcluded(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method checkPermitted, addr 0x1381964, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method checkPermitted, addr 0x254cbe0, size 0x128, virtual false, abstract: false, final false
   inline void checkPermitted(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_SerialNumberOid();
 
   static inline void setStaticF_SerialNumberOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method unionURI, addr 0x137f254, size 0x940, virtual false, abstract: false, final false
+  /// @brief Method unionURI, addr 0x254a3f4, size 0x984, virtual false, abstract: false, final false
   inline void unionURI(::StringW email1, ::StringW email2, ::Org::BouncyCastle::Utilities::Collections::ISet* _cordl_union);
 
 protected:
@@ -431,6 +431,9 @@ public:
 
   /// @brief Field permittedSubtreesOtherName, offset: 0x68, size: 0x8, def value: None
   ::Org::BouncyCastle::Utilities::Collections::ISet* ___permittedSubtreesOtherName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1726 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

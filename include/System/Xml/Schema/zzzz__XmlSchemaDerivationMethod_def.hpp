@@ -13,7 +13,7 @@ struct XmlSchemaDerivationMethod;
 // Write type traits
 MARK_VAL_T(::System::Xml::Schema::XmlSchemaDerivationMethod);
 // Type: System.Xml.Schema::XmlSchemaDerivationMethod
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
 // CS Name: ::System.Xml.Schema::XmlSchemaDerivationMethod
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field Union value: static_cast<int32_t>(0x10)
   static ::System::Xml::Schema::XmlSchemaDerivationMethod const Union;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7638 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

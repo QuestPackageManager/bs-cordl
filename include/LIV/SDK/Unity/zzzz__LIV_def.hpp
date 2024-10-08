@@ -61,25 +61,25 @@ class __LIV___WaitForUnityEndOfFrame_d__68;
 MARK_REF_PTR_T(::LIV::SDK::Unity::LIV);
 MARK_REF_PTR_T(::LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68);
 // Type: ::<WaitForUnityEndOfFrame>d__68
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: false
 // CS Name: ::LIV::<WaitForUnityEndOfFrame>d__68*
 class CORDL_TYPE __LIV___WaitForUnityEndOfFrame_d__68 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::LIV::SDK::Unity::LIV> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::LIV::SDK::Unity::LIV> __4__this;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -90,21 +90,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x261fa2c, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a57778, size 0xf0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x261fbc0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3a5792c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x261fbc8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3a57934, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x261fc08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3a5796c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x261fa28, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3a57774, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::LIV::SDK::Unity::LIV> value);
 
-  /// @brief Method .ctor, addr 0x261f048, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a56e44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -160,6 +160,9 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::LIV::SDK::Unity::LIV> _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17250 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -173,7 +176,7 @@ static_assert(offsetof(::LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68, 
 
 } // namespace LIV::SDK::Unity
 // Type: LIV.SDK.Unity::LIV
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: false
 // CS Name: ::LIV.SDK.Unity::LIV*
@@ -182,70 +185,70 @@ public:
   // Declarations
   using _WaitForUnityEndOfFrame_d__68 = ::LIV::SDK::Unity::__LIV___WaitForUnityEndOfFrame_d__68;
 
-  __declspec(property(get = get_HMDCamera, put = set_HMDCamera))::UnityW<::UnityEngine::Camera> HMDCamera;
+  __declspec(property(get = get_HMDCamera, put = set_HMDCamera)) ::UnityW<::UnityEngine::Camera> HMDCamera;
 
-  __declspec(property(get = get_MRCameraPrefab, put = set_MRCameraPrefab))::UnityW<::UnityEngine::Camera> MRCameraPrefab;
+  __declspec(property(get = get_MRCameraPrefab, put = set_MRCameraPrefab)) ::UnityW<::UnityEngine::Camera> MRCameraPrefab;
 
-  /// @brief Field _HMDCamera, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__HMDCamera, put = __cordl_internal_set__HMDCamera))::UnityW<::UnityEngine::Camera> _HMDCamera;
+  /// @brief Field _HMDCamera, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__HMDCamera, put = __cordl_internal_set__HMDCamera)) ::UnityW<::UnityEngine::Camera> _HMDCamera;
 
-  /// @brief Field _HMDCameraCandidate, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__HMDCameraCandidate, put = __cordl_internal_set__HMDCameraCandidate))::UnityW<::UnityEngine::Camera> _HMDCameraCandidate;
+  /// @brief Field _HMDCameraCandidate, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get__HMDCameraCandidate, put = __cordl_internal_set__HMDCameraCandidate)) ::UnityW<::UnityEngine::Camera> _HMDCameraCandidate;
 
-  /// @brief Field _MRCameraPrefab, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__MRCameraPrefab, put = __cordl_internal_set__MRCameraPrefab))::UnityW<::UnityEngine::Camera> _MRCameraPrefab;
+  /// @brief Field _MRCameraPrefab, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__MRCameraPrefab, put = __cordl_internal_set__MRCameraPrefab)) ::UnityW<::UnityEngine::Camera> _MRCameraPrefab;
 
-  /// @brief Field _MRCameraPrefabCandidate, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__MRCameraPrefabCandidate, put = __cordl_internal_set__MRCameraPrefabCandidate))::UnityW<::UnityEngine::Camera> _MRCameraPrefabCandidate;
+  /// @brief Field _MRCameraPrefabCandidate, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get__MRCameraPrefabCandidate, put = __cordl_internal_set__MRCameraPrefabCandidate)) ::UnityW<::UnityEngine::Camera> _MRCameraPrefabCandidate;
 
-  /// @brief Field _disableStandardAssets, offset 0x78, size 0x1
+  /// @brief Field _disableStandardAssets, offset 0x80, size 0x1
   __declspec(property(get = __cordl_internal_get__disableStandardAssets, put = __cordl_internal_set__disableStandardAssets)) bool _disableStandardAssets;
 
-  /// @brief Field _enabled, offset 0xc0, size 0x1
+  /// @brief Field _enabled, offset 0xc8, size 0x1
   __declspec(property(get = __cordl_internal_get__enabled, put = __cordl_internal_set__enabled)) bool _enabled;
 
-  /// @brief Field _excludeBehaviours, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__excludeBehaviours, put = __cordl_internal_set__excludeBehaviours))::ArrayW<::StringW, ::Array<::StringW>*> _excludeBehaviours;
+  /// @brief Field _excludeBehaviours, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__excludeBehaviours, put = __cordl_internal_set__excludeBehaviours)) ::ArrayW<::StringW, ::Array<::StringW>*> _excludeBehaviours;
 
-  /// @brief Field _excludeBehavioursCandidate, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__excludeBehavioursCandidate,
-                      put = __cordl_internal_set__excludeBehavioursCandidate))::ArrayW<::StringW, ::Array<::StringW>*> _excludeBehavioursCandidate;
+  /// @brief Field _excludeBehavioursCandidate, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get__excludeBehavioursCandidate, put = __cordl_internal_set__excludeBehavioursCandidate)) ::ArrayW<::StringW, ::Array<::StringW>*>
+      _excludeBehavioursCandidate;
 
-  /// @brief Field _fixPostEffectsAlpha, offset 0x88, size 0x1
+  /// @brief Field _fixPostEffectsAlpha, offset 0x90, size 0x1
   __declspec(property(get = __cordl_internal_get__fixPostEffectsAlpha, put = __cordl_internal_set__fixPostEffectsAlpha)) bool _fixPostEffectsAlpha;
 
-  /// @brief Field _invalidate, offset 0x9c, size 0x4
-  __declspec(property(get = __cordl_internal_get__invalidate, put = __cordl_internal_set__invalidate))::LIV::SDK::Unity::INVALIDATION_FLAGS _invalidate;
+  /// @brief Field _invalidate, offset 0xa4, size 0x4
+  __declspec(property(get = __cordl_internal_get__invalidate, put = __cordl_internal_set__invalidate)) ::LIV::SDK::Unity::INVALIDATION_FLAGS _invalidate;
 
-  /// @brief Field _isActive, offset 0x89, size 0x1
+  /// @brief Field _isActive, offset 0x91, size 0x1
   __declspec(property(get = __cordl_internal_get__isActive, put = __cordl_internal_set__isActive)) bool _isActive;
 
   __declspec(property(get = get__isReady)) bool _isReady;
 
-  /// @brief Field _render, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__render, put = __cordl_internal_set__render))::LIV::SDK::Unity::SDKRender* _render;
+  /// @brief Field _render, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__render, put = __cordl_internal_set__render)) ::LIV::SDK::Unity::SDKRender* _render;
 
-  /// @brief Field _spectatorLayerMask, offset 0x7c, size 0x4
-  __declspec(property(get = __cordl_internal_get__spectatorLayerMask, put = __cordl_internal_set__spectatorLayerMask))::UnityEngine::LayerMask _spectatorLayerMask;
+  /// @brief Field _spectatorLayerMask, offset 0x84, size 0x4
+  __declspec(property(get = __cordl_internal_get__spectatorLayerMask, put = __cordl_internal_set__spectatorLayerMask)) ::UnityEngine::LayerMask _spectatorLayerMask;
 
-  /// @brief Field _stage, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__stage, put = __cordl_internal_set__stage))::UnityW<::UnityEngine::Transform> _stage;
+  /// @brief Field _stage, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__stage, put = __cordl_internal_set__stage)) ::UnityW<::UnityEngine::Transform> _stage;
 
-  /// @brief Field _stageCandidate, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__stageCandidate, put = __cordl_internal_set__stageCandidate))::UnityW<::UnityEngine::Transform> _stageCandidate;
+  /// @brief Field _stageCandidate, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__stageCandidate, put = __cordl_internal_set__stageCandidate)) ::UnityW<::UnityEngine::Transform> _stageCandidate;
 
-  /// @brief Field _stageTransform, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__stageTransform, put = __cordl_internal_set__stageTransform))::UnityW<::UnityEngine::Transform> _stageTransform;
+  /// @brief Field _stageTransform, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__stageTransform, put = __cordl_internal_set__stageTransform)) ::UnityW<::UnityEngine::Transform> _stageTransform;
 
-  /// @brief Field _waitForEndOfFrameCoroutine, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__waitForEndOfFrameCoroutine, put = __cordl_internal_set__waitForEndOfFrameCoroutine))::UnityEngine::Coroutine* _waitForEndOfFrameCoroutine;
+  /// @brief Field _waitForEndOfFrameCoroutine, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get__waitForEndOfFrameCoroutine, put = __cordl_internal_set__waitForEndOfFrameCoroutine)) ::UnityEngine::Coroutine* _waitForEndOfFrameCoroutine;
 
-  /// @brief Field _wasReady, offset 0x98, size 0x1
+  /// @brief Field _wasReady, offset 0xa0, size 0x1
   __declspec(property(get = __cordl_internal_get__wasReady, put = __cordl_internal_set__wasReady)) bool _wasReady;
 
   __declspec(property(get = get_disableStandardAssets, put = set_disableStandardAssets)) bool disableStandardAssets;
 
-  __declspec(property(get = get_excludeBehaviours, put = set_excludeBehaviours))::ArrayW<::StringW, ::Array<::StringW>*> excludeBehaviours;
+  __declspec(property(get = get_excludeBehaviours, put = set_excludeBehaviours)) ::ArrayW<::StringW, ::Array<::StringW>*> excludeBehaviours;
 
   __declspec(property(get = get_fixPostEffectsAlpha, put = set_fixPostEffectsAlpha)) bool fixPostEffectsAlpha;
 
@@ -253,89 +256,89 @@ public:
 
   __declspec(property(get = get_isValid)) bool isValid;
 
-  /// @brief Field onActivate, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_onActivate, put = __cordl_internal_set_onActivate))::System::Action* onActivate;
+  /// @brief Field onActivate, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_onActivate, put = __cordl_internal_set_onActivate)) ::System::Action* onActivate;
 
-  /// @brief Field onDeactivate, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_onDeactivate, put = __cordl_internal_set_onDeactivate))::System::Action* onDeactivate;
+  /// @brief Field onDeactivate, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_onDeactivate, put = __cordl_internal_set_onDeactivate)) ::System::Action* onDeactivate;
 
-  /// @brief Field onPostRender, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_onPostRender, put = __cordl_internal_set_onPostRender))::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPostRender;
+  /// @brief Field onPostRender, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_onPostRender, put = __cordl_internal_set_onPostRender)) ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPostRender;
 
-  /// @brief Field onPostRenderBackground, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_onPostRenderBackground, put = __cordl_internal_set_onPostRenderBackground))::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPostRenderBackground;
+  /// @brief Field onPostRenderBackground, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_onPostRenderBackground, put = __cordl_internal_set_onPostRenderBackground)) ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPostRenderBackground;
 
-  /// @brief Field onPostRenderForeground, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_onPostRenderForeground, put = __cordl_internal_set_onPostRenderForeground))::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPostRenderForeground;
+  /// @brief Field onPostRenderForeground, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_onPostRenderForeground, put = __cordl_internal_set_onPostRenderForeground)) ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPostRenderForeground;
 
-  /// @brief Field onPreRender, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_onPreRender, put = __cordl_internal_set_onPreRender))::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPreRender;
+  /// @brief Field onPreRender, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_onPreRender, put = __cordl_internal_set_onPreRender)) ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPreRender;
 
-  /// @brief Field onPreRenderBackground, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_onPreRenderBackground, put = __cordl_internal_set_onPreRenderBackground))::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPreRenderBackground;
+  /// @brief Field onPreRenderBackground, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_onPreRenderBackground, put = __cordl_internal_set_onPreRenderBackground)) ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPreRenderBackground;
 
-  /// @brief Field onPreRenderForeground, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_onPreRenderForeground, put = __cordl_internal_set_onPreRenderForeground))::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPreRenderForeground;
+  /// @brief Field onPreRenderForeground, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_onPreRenderForeground, put = __cordl_internal_set_onPreRenderForeground)) ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* onPreRenderForeground;
 
-  __declspec(property(get = get_render))::LIV::SDK::Unity::SDKRender* render;
+  __declspec(property(get = get_render)) ::LIV::SDK::Unity::SDKRender* render;
 
-  __declspec(property(get = get_spectatorLayerMask, put = set_spectatorLayerMask))::UnityEngine::LayerMask spectatorLayerMask;
+  __declspec(property(get = get_spectatorLayerMask, put = set_spectatorLayerMask)) ::UnityEngine::LayerMask spectatorLayerMask;
 
-  __declspec(property(get = get_stage, put = set_stage))::UnityW<::UnityEngine::Transform> stage;
+  __declspec(property(get = get_stage, put = set_stage)) ::UnityW<::UnityEngine::Transform> stage;
 
-  __declspec(property(get = get_stageLocalToWorldMatrix))::UnityEngine::Matrix4x4 stageLocalToWorldMatrix;
+  __declspec(property(get = get_stageLocalToWorldMatrix)) ::UnityEngine::Matrix4x4 stageLocalToWorldMatrix;
 
-  __declspec(property(get = get_stageTransform, put = set_stageTransform))::UnityW<::UnityEngine::Transform> stageTransform;
+  __declspec(property(get = get_stageTransform, put = set_stageTransform)) ::UnityW<::UnityEngine::Transform> stageTransform;
 
-  __declspec(property(get = get_stageWorldToLocalMatrix))::UnityEngine::Matrix4x4 stageWorldToLocalMatrix;
+  __declspec(property(get = get_stageWorldToLocalMatrix)) ::UnityEngine::Matrix4x4 stageWorldToLocalMatrix;
 
-  __declspec(property(get = get_trackedSpaceOrigin, put = set_trackedSpaceOrigin))::UnityW<::UnityEngine::Transform> trackedSpaceOrigin;
+  __declspec(property(get = get_trackedSpaceOrigin, put = set_trackedSpaceOrigin)) ::UnityW<::UnityEngine::Transform> trackedSpaceOrigin;
 
-  /// @brief Method Activate, addr 0x261f070, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x3a56e6c, size 0x18, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method CreateAssets, addr 0x261f340, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CreateAssets, addr 0x3a57160, size 0x68, virtual false, abstract: false, final false
   inline void CreateAssets();
 
-  /// @brief Method DestroyAssets, addr 0x261f418, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method DestroyAssets, addr 0x3a57230, size 0x20, virtual false, abstract: false, final false
   inline void DestroyAssets();
 
-  /// @brief Method Invalidate, addr 0x261ef60, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Invalidate, addr 0x3a56d64, size 0x78, virtual false, abstract: false, final false
   inline void Invalidate();
 
   static inline ::LIV::SDK::Unity::LIV* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x261efd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3a56ddc, size 0x8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x261eef8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3a56cfc, size 0xc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnSDKActivate, addr 0x261f094, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnSDKActivate, addr 0x3a56e90, size 0xac, virtual false, abstract: false, final false
   inline void OnSDKActivate();
 
-  /// @brief Method OnSDKDeactivate, addr 0x261f140, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnSDKDeactivate, addr 0x3a56f3c, size 0xb4, virtual false, abstract: false, final false
   inline void OnSDKDeactivate();
 
-  /// @brief Method OnSDKReadyChanged, addr 0x261f088, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnSDKReadyChanged, addr 0x3a56e84, size 0xc, virtual false, abstract: false, final false
   inline void OnSDKReadyChanged(bool value);
 
-  /// @brief Method StartRenderCoroutine, addr 0x261f3b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartRenderCoroutine, addr 0x3a571c8, size 0x44, virtual false, abstract: false, final false
   inline void StartRenderCoroutine();
 
-  /// @brief Method StopRenderCoroutine, addr 0x261f3f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method StopRenderCoroutine, addr 0x3a5720c, size 0x24, virtual false, abstract: false, final false
   inline void StopRenderCoroutine();
 
-  /// @brief Method SubmitSDKOutput, addr 0x261f1f4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SubmitSDKOutput, addr 0x3a56ff0, size 0x170, virtual false, abstract: false, final false
   inline void SubmitSDKOutput();
 
-  /// @brief Method Update, addr 0x261ef48, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a56d4c, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSDKReady, addr 0x261ef04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdateSDKReady, addr 0x3a56d08, size 0x44, virtual false, abstract: false, final false
   inline void UpdateSDKReady();
 
-  /// @brief Method WaitForUnityEndOfFrame, addr 0x261efe0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method WaitForUnityEndOfFrame, addr 0x3a56de4, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* WaitForUnityEndOfFrame();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__HMDCamera() const;
@@ -494,79 +497,79 @@ public:
 
   constexpr void __cordl_internal_set_onPreRenderForeground(::System::Action_1<::LIV::SDK::Unity::SDKRender*>* value);
 
-  /// @brief Method .ctor, addr 0x261f868, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a5764c, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HMDCamera, addr 0x261eb08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HMDCamera, addr 0x3a5690c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_HMDCamera();
 
-  /// @brief Method get_MRCameraPrefab, addr 0x261ebfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MRCameraPrefab, addr 0x3a56a00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_MRCameraPrefab();
 
-  /// @brief Method get__isReady, addr 0x261ede4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get__isReady, addr 0x3a56be8, size 0x74, virtual false, abstract: false, final false
   inline bool get__isReady();
 
-  /// @brief Method get_disableStandardAssets, addr 0x261ec88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disableStandardAssets, addr 0x3a56a8c, size 0x8, virtual false, abstract: false, final false
   inline bool get_disableStandardAssets();
 
-  /// @brief Method get_excludeBehaviours, addr 0x261ecac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_excludeBehaviours, addr 0x3a56ab0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_excludeBehaviours();
 
-  /// @brief Method get_fixPostEffectsAlpha, addr 0x261ecd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fixPostEffectsAlpha, addr 0x3a56ad8, size 0x8, virtual false, abstract: false, final false
   inline bool get_fixPostEffectsAlpha();
 
-  /// @brief Method get_isActive, addr 0x261eddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x3a56be0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_isValid, addr 0x261ece8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x3a56aec, size 0xf4, virtual false, abstract: false, final false
   inline bool get_isValid();
 
-  /// @brief Method get_render, addr 0x261eef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_render, addr 0x3a56cf4, size 0x8, virtual false, abstract: false, final false
   inline ::LIV::SDK::Unity::SDKRender* get_render();
 
-  /// @brief Method get_spectatorLayerMask, addr 0x261ec9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spectatorLayerMask, addr 0x3a56aa0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_spectatorLayerMask();
 
-  /// @brief Method get_stage, addr 0x261e7cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_stage, addr 0x3a565e0, size 0x90, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_stage();
 
-  /// @brief Method get_stageLocalToWorldMatrix, addr 0x261e908, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_stageLocalToWorldMatrix, addr 0x3a5671c, size 0xf0, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_stageLocalToWorldMatrix();
 
-  /// @brief Method get_stageTransform, addr 0x261eaf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stageTransform, addr 0x3a568fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_stageTransform();
 
-  /// @brief Method get_stageWorldToLocalMatrix, addr 0x261ea00, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_stageWorldToLocalMatrix, addr 0x3a5680c, size 0xf0, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_stageWorldToLocalMatrix();
 
-  /// @brief Method get_trackedSpaceOrigin, addr 0x261e900, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_trackedSpaceOrigin, addr 0x3a56714, size 0x4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_trackedSpaceOrigin();
 
-  /// @brief Method set_HMDCamera, addr 0x261eb10, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method set_HMDCamera, addr 0x3a56914, size 0xec, virtual false, abstract: false, final false
   inline void set_HMDCamera(::UnityEngine::Camera* value);
 
-  /// @brief Method set_MRCameraPrefab, addr 0x261ec04, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_MRCameraPrefab, addr 0x3a56a08, size 0x84, virtual false, abstract: false, final false
   inline void set_MRCameraPrefab(::UnityEngine::Camera* value);
 
-  /// @brief Method set_disableStandardAssets, addr 0x261ec90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disableStandardAssets, addr 0x3a56a94, size 0xc, virtual false, abstract: false, final false
   inline void set_disableStandardAssets(bool value);
 
-  /// @brief Method set_excludeBehaviours, addr 0x261ecb4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_excludeBehaviours, addr 0x3a56ab8, size 0x20, virtual false, abstract: false, final false
   inline void set_excludeBehaviours(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_fixPostEffectsAlpha, addr 0x261ecdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_fixPostEffectsAlpha, addr 0x3a56ae0, size 0xc, virtual false, abstract: false, final false
   inline void set_fixPostEffectsAlpha(bool value);
 
-  /// @brief Method set_spectatorLayerMask, addr 0x261eca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_spectatorLayerMask, addr 0x3a56aa8, size 0x8, virtual false, abstract: false, final false
   inline void set_spectatorLayerMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_stage, addr 0x261e85c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_stage, addr 0x3a56670, size 0x90, virtual false, abstract: false, final false
   inline void set_stage(::UnityEngine::Transform* value);
 
-  /// @brief Method set_stageTransform, addr 0x261eb00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stageTransform, addr 0x3a56904, size 0x8, virtual false, abstract: false, final false
   inline void set_stageTransform(::UnityEngine::Transform* value);
 
-  /// @brief Method set_trackedSpaceOrigin, addr 0x261e904, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_trackedSpaceOrigin, addr 0x3a56718, size 0x4, virtual false, abstract: false, final false
   inline void set_trackedSpaceOrigin(::UnityEngine::Transform* value);
 
 protected:
@@ -583,140 +586,143 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LIV(LIV const&) = delete;
 
-  /// @brief Field onActivate, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field onActivate, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___onActivate;
 
-  /// @brief Field onPreRender, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field onPreRender, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* ___onPreRender;
 
-  /// @brief Field onPreRenderBackground, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field onPreRenderBackground, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* ___onPreRenderBackground;
 
-  /// @brief Field onPostRenderBackground, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field onPostRenderBackground, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* ___onPostRenderBackground;
 
-  /// @brief Field onPreRenderForeground, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field onPreRenderForeground, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* ___onPreRenderForeground;
 
-  /// @brief Field onPostRenderForeground, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field onPostRenderForeground, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* ___onPostRenderForeground;
 
-  /// @brief Field onPostRender, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field onPostRender, offset: 0x50, size: 0x8, def value: None
   ::System::Action_1<::LIV::SDK::Unity::SDKRender*>* ___onPostRender;
 
-  /// @brief Field onDeactivate, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field onDeactivate, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___onDeactivate;
 
-  /// @brief Field _stage, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _stage, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____stage;
 
-  /// @brief Field _stageTransform, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _stageTransform, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____stageTransform;
 
-  /// @brief Field _HMDCamera, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _HMDCamera, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____HMDCamera;
 
-  /// @brief Field _MRCameraPrefab, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _MRCameraPrefab, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____MRCameraPrefab;
 
-  /// @brief Field _disableStandardAssets, offset: 0x78, size: 0x1, def value: None
+  /// @brief Field _disableStandardAssets, offset: 0x80, size: 0x1, def value: None
   bool ____disableStandardAssets;
 
-  /// @brief Field _spectatorLayerMask, offset: 0x7c, size: 0x4, def value: None
+  /// @brief Field _spectatorLayerMask, offset: 0x84, size: 0x4, def value: None
   ::UnityEngine::LayerMask ____spectatorLayerMask;
 
-  /// @brief Field _excludeBehaviours, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _excludeBehaviours, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ____excludeBehaviours;
 
-  /// @brief Field _fixPostEffectsAlpha, offset: 0x88, size: 0x1, def value: None
+  /// @brief Field _fixPostEffectsAlpha, offset: 0x90, size: 0x1, def value: None
   bool ____fixPostEffectsAlpha;
 
-  /// @brief Field _isActive, offset: 0x89, size: 0x1, def value: None
+  /// @brief Field _isActive, offset: 0x91, size: 0x1, def value: None
   bool ____isActive;
 
-  /// @brief Field _render, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _render, offset: 0x98, size: 0x8, def value: None
   ::LIV::SDK::Unity::SDKRender* ____render;
 
-  /// @brief Field _wasReady, offset: 0x98, size: 0x1, def value: None
+  /// @brief Field _wasReady, offset: 0xa0, size: 0x1, def value: None
   bool ____wasReady;
 
-  /// @brief Field _invalidate, offset: 0x9c, size: 0x4, def value: None
+  /// @brief Field _invalidate, offset: 0xa4, size: 0x4, def value: None
   ::LIV::SDK::Unity::INVALIDATION_FLAGS ____invalidate;
 
-  /// @brief Field _stageCandidate, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _stageCandidate, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____stageCandidate;
 
-  /// @brief Field _HMDCameraCandidate, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field _HMDCameraCandidate, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____HMDCameraCandidate;
 
-  /// @brief Field _MRCameraPrefabCandidate, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _MRCameraPrefabCandidate, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____MRCameraPrefabCandidate;
 
-  /// @brief Field _excludeBehavioursCandidate, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _excludeBehavioursCandidate, offset: 0xc0, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ____excludeBehavioursCandidate;
 
-  /// @brief Field _enabled, offset: 0xc0, size: 0x1, def value: None
+  /// @brief Field _enabled, offset: 0xc8, size: 0x1, def value: None
   bool ____enabled;
 
-  /// @brief Field _waitForEndOfFrameCoroutine, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _waitForEndOfFrameCoroutine, offset: 0xd0, size: 0x8, def value: None
   ::UnityEngine::Coroutine* ____waitForEndOfFrameCoroutine;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17251 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::LIV, 0xd0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::LIV, 0xd8>, "Size mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onActivate) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onActivate) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPreRender) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPreRender) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPreRenderBackground) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPreRenderBackground) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPostRenderBackground) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPostRenderBackground) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPreRenderForeground) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPreRenderForeground) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPostRenderForeground) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPostRenderForeground) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPostRender) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onPostRender) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onDeactivate) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ___onDeactivate) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____stage) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____stage) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____stageTransform) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____stageTransform) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____HMDCamera) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____HMDCamera) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____MRCameraPrefab) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____MRCameraPrefab) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____disableStandardAssets) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____disableStandardAssets) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____spectatorLayerMask) == 0x7c, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____spectatorLayerMask) == 0x84, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____excludeBehaviours) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____excludeBehaviours) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____fixPostEffectsAlpha) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____fixPostEffectsAlpha) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____isActive) == 0x89, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____isActive) == 0x91, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____render) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____render) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____wasReady) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____wasReady) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____invalidate) == 0x9c, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____invalidate) == 0xa4, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____stageCandidate) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____stageCandidate) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____HMDCameraCandidate) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____HMDCameraCandidate) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____MRCameraPrefabCandidate) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____MRCameraPrefabCandidate) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____excludeBehavioursCandidate) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____excludeBehavioursCandidate) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____enabled) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____enabled) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::LIV::SDK::Unity::LIV, ____waitForEndOfFrameCoroutine) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::LIV::SDK::Unity::LIV, ____waitForEndOfFrameCoroutine) == 0xd0, "Offset mismatch!");
 
 } // namespace LIV::SDK::Unity
 NEED_NO_BOX(::LIV::SDK::Unity::LIV);

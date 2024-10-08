@@ -30,50 +30,50 @@ class RsaBlindingEngine;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RsaBlindingEngine);
 // Type: Org.BouncyCastle.Crypto.Engines::RsaBlindingEngine
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RsaBlindingEngine*
 class CORDL_TYPE RsaBlindingEngine : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field blindingFactor, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_blindingFactor, put = __cordl_internal_set_blindingFactor))::Org::BouncyCastle::Math::BigInteger* blindingFactor;
+  __declspec(property(get = __cordl_internal_get_blindingFactor, put = __cordl_internal_set_blindingFactor)) ::Org::BouncyCastle::Math::BigInteger* blindingFactor;
 
   /// @brief Field core, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_core, put = __cordl_internal_set_core))::Org::BouncyCastle::Crypto::IRsa* core;
+  __declspec(property(get = __cordl_internal_get_core, put = __cordl_internal_set_core)) ::Org::BouncyCastle::Crypto::IRsa* core;
 
   /// @brief Field forEncryption, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
 
-  /// @brief Method BlindMessage, addr 0x1151a54, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method BlindMessage, addr 0x232bb8c, size 0x64, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* BlindMessage(::Org::BouncyCastle::Math::BigInteger* msg);
 
-  /// @brief Method GetInputBlockSize, addr 0x11517b8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetInputBlockSize, addr 0x232b8f0, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize, addr 0x115185c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetOutputBlockSize, addr 0x232b994, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method Init, addr 0x1151644, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x232b77c, size 0x174, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaBlindingEngine* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaBlindingEngine* New_ctor(::Org::BouncyCastle::Crypto::IRsa* rsa);
 
-  /// @brief Method ProcessBlock, addr 0x1151900, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x232ba38, size 0x154, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen);
 
-  /// @brief Method UnblindMessage, addr 0x1151ab8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method UnblindMessage, addr 0x232bbf0, size 0x5c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* UnblindMessage(::Org::BouncyCastle::Math::BigInteger* blindedMsg);
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_blindingFactor();
@@ -100,13 +100,13 @@ public:
 
   constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x1151570, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232b6b0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x11515dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232b714, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IRsa* rsa);
 
-  /// @brief Method get_AlgorithmName, addr 0x1151604, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x232b73c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
@@ -137,6 +137,9 @@ public:
 
   /// @brief Field forEncryption, offset: 0x28, size: 0x1, def value: None
   bool ___forEncryption;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 863 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

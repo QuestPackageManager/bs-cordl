@@ -19,7 +19,7 @@ struct StylePropertyValue;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StylePropertyValue);
 // Type: UnityEngine.UIElements.StyleSheets::StylePropertyValue
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyValue
@@ -39,6 +39,9 @@ public:
 
   /// @brief Field handle, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::UIElements::StyleValueHandle handle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6418 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

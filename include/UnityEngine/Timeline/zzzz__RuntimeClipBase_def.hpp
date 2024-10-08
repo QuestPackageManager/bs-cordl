@@ -14,7 +14,7 @@ class RuntimeClipBase;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::RuntimeClipBase);
 // Type: UnityEngine.Timeline::RuntimeClipBase
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::RuntimeClipBase*
@@ -31,16 +31,16 @@ public:
 
   static inline ::UnityEngine::Timeline::RuntimeClipBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33d4f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47adac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_duration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline double_t get_duration();
 
-  /// @brief Method get_intervalEnd, addr 0x33d55a4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_intervalEnd, addr 0x47ae110, size 0x84, virtual true, abstract: false, final false
   inline int64_t get_intervalEnd();
 
-  /// @brief Method get_intervalStart, addr 0x33d5534, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_intervalStart, addr 0x47ae0a0, size 0x70, virtual true, abstract: false, final false
   inline int64_t get_intervalStart();
 
   /// @brief Method get_start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -59,6 +59,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeClipBase", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeClipBase(RuntimeClipBase const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15798 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

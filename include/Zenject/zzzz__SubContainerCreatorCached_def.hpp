@@ -27,7 +27,7 @@ class SubContainerCreatorCached;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SubContainerCreatorCached);
 // Type: Zenject::SubContainerCreatorCached
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::SubContainerCreatorCached*
@@ -38,15 +38,15 @@ public:
   __declspec(property(get = __cordl_internal_get__isLookingUp, put = __cordl_internal_set__isLookingUp)) bool _isLookingUp;
 
   /// @brief Field _subContainer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__subContainer, put = __cordl_internal_set__subContainer))::Zenject::DiContainer* _subContainer;
+  __declspec(property(get = __cordl_internal_get__subContainer, put = __cordl_internal_set__subContainer)) ::Zenject::DiContainer* _subContainer;
 
   /// @brief Field _subCreator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__subCreator, put = __cordl_internal_set__subCreator))::Zenject::ISubContainerCreator* _subCreator;
+  __declspec(property(get = __cordl_internal_get__subCreator, put = __cordl_internal_set__subCreator)) ::Zenject::ISubContainerCreator* _subCreator;
 
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateSubContainer, addr 0x36a468c, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x4ac7c6c, size 0x17c, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorCached* New_ctor(::Zenject::ISubContainerCreator* subCreator);
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__subCreator(::Zenject::ISubContainerCreator* value);
 
-  /// @brief Method .ctor, addr 0x36a4664, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac7c44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ISubContainerCreator* subCreator);
 
   /// @brief Convert to "::Zenject::ISubContainerCreator"
@@ -97,6 +97,9 @@ public:
 
   /// @brief Field _subContainer, offset: 0x20, size: 0x8, def value: None
   ::Zenject::DiContainer* ____subContainer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12593 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

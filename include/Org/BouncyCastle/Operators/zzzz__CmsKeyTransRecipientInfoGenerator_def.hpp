@@ -26,19 +26,19 @@ class CmsKeyTransRecipientInfoGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator);
 // Type: Org.BouncyCastle.Operators::CmsKeyTransRecipientInfoGenerator
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Operators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Operators::CmsKeyTransRecipientInfoGenerator*
 class CORDL_TYPE CmsKeyTransRecipientInfoGenerator : public ::Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmDetails))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* AlgorithmDetails;
+  __declspec(property(get = get_AlgorithmDetails)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* AlgorithmDetails;
 
   /// @brief Field keyWrapper, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyWrapper, put = __cordl_internal_set_keyWrapper))::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper;
+  __declspec(property(get = __cordl_internal_get_keyWrapper, put = __cordl_internal_set_keyWrapper)) ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper;
 
-  /// @brief Method GenerateWrappedKey, addr 0x119ef48, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method GenerateWrappedKey, addr 0x237634c, size 0x130, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateWrappedKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentKey);
 
   static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* recipCert,
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set_keyWrapper(::Org::BouncyCastle::Crypto::IKeyWrapper* value);
 
-  /// @brief Method .ctor, addr 0x119ec9c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23760a0, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* recipCert, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
-  /// @brief Method .ctor, addr 0x119ede8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23761ec, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x119ee5c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmDetails, addr 0x2376260, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmDetails();
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field keyWrapper, offset: 0x40, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IKeyWrapper* ___keyWrapper;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 998 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

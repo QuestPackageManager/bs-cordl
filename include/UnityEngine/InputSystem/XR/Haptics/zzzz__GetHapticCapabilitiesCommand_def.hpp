@@ -26,7 +26,7 @@ struct GetHapticCapabilitiesCommand;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand);
 // Type: UnityEngine.InputSystem.XR.Haptics::GetHapticCapabilitiesCommand
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
+// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::GetHapticCapabilitiesCommand
@@ -35,9 +35,9 @@ struct CORDL_TYPE GetHapticCapabilitiesCommand {
 public:
   // Declarations
   /// @brief Field baseCommand, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
+  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand)) ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
-  __declspec(property(get = get_capabilities))::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities capabilities;
+  __declspec(property(get = get_capabilities)) ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities capabilities;
 
   /// @brief Field frequencyHz, offset 0xc, size 0x4
   __declspec(property(get = __cordl_internal_get_frequencyHz, put = __cordl_internal_set_frequencyHz)) uint32_t frequencyHz;
@@ -48,12 +48,12 @@ public:
   /// @brief Field numChannels, offset 0x8, size 0x4
   __declspec(property(get = __cordl_internal_get_numChannels, put = __cordl_internal_set_numChannels)) uint32_t numChannels;
 
-  __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
+  __declspec(property(get = get_typeStatic)) ::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x316df24, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x45718b8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -80,13 +80,13 @@ public:
 
   constexpr void __cordl_internal_set_numChannels(uint32_t value);
 
-  /// @brief Method get_Type, addr 0x316e2b4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4571c48, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_capabilities, addr 0x316df80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_capabilities, addr 0x4571914, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
 
-  /// @brief Method get_typeStatic, addr 0x316e2e4, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x4571c78, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -163,6 +163,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6720 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 

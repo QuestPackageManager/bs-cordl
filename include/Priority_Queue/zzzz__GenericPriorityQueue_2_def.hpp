@@ -51,7 +51,7 @@ template <typename TItem, typename TPriority> class __GenericPriorityQueue_2___G
 MARK_GEN_REF_PTR_T(::Priority_Queue::GenericPriorityQueue_2);
 MARK_GEN_REF_PTR_T(::Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25);
 // Type: ::<GetEnumerator>d__25
-// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
@@ -62,7 +62,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TItem__get_Current)) TItem System_Collections_Generic_IEnumerator_TItem__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -71,7 +71,7 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TItem __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>* __4__this;
 
   /// @brief Field <i>5__2, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
@@ -164,12 +164,15 @@ public:
   /// @brief Field <i>5__2, offset: 0x28, size: 0x4, def value: None
   int32_t ____i_5__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16885 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Priority_Queue
 // Type: Priority_Queue::GenericPriorityQueue`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
@@ -187,10 +190,10 @@ public:
   __declspec(property(get = get_MaxSize)) int32_t MaxSize;
 
   /// @brief Field _comparer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Comparison_1<TPriority>* _comparer;
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer)) ::System::Comparison_1<TPriority>* _comparer;
 
   /// @brief Field _nodes, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__nodes, put = __cordl_internal_set__nodes))::ArrayW<TItem, ::Array<TItem>*> _nodes;
+  __declspec(property(get = __cordl_internal_get__nodes, put = __cordl_internal_set__nodes)) ::ArrayW<TItem, ::Array<TItem>*> _nodes;
 
   /// @brief Field _numNodes, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__numNodes, put = __cordl_internal_set__numNodes)) int32_t _numNodes;
@@ -340,6 +343,9 @@ public:
 
   /// @brief Field _comparer, offset: 0x28, size: 0x8, def value: None
   ::System::Comparison_1<TPriority>* ____comparer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16886 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

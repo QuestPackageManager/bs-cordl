@@ -15,19 +15,19 @@ class DoubleLinkAxis;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::DoubleLinkAxis);
 // Type: System.Xml.Schema::DoubleLinkAxis
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::DoubleLinkAxis*
 class CORDL_TYPE DoubleLinkAxis : public ::MS::Internal::Xml::XPath::Axis {
 public:
   // Declarations
-  __declspec(property(get = get_Next, put = set_Next))::MS::Internal::Xml::XPath::Axis* Next;
+  __declspec(property(get = get_Next, put = set_Next)) ::MS::Internal::Xml::XPath::Axis* Next;
 
   /// @brief Field next, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::MS::Internal::Xml::XPath::Axis* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::MS::Internal::Xml::XPath::Axis* next;
 
-  /// @brief Method ConvertTree, addr 0x2f215b8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ConvertTree, addr 0x431da50, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::DoubleLinkAxis* ConvertTree(::MS::Internal::Xml::XPath::Axis* axis);
 
   static inline ::System::Xml::Schema::DoubleLinkAxis* New_ctor(::MS::Internal::Xml::XPath::Axis* axis, ::System::Xml::Schema::DoubleLinkAxis* inputaxis);
@@ -38,13 +38,13 @@ public:
 
   constexpr void __cordl_internal_set_next(::MS::Internal::Xml::XPath::Axis* value);
 
-  /// @brief Method .ctor, addr 0x2f21560, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x431d9f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::Axis* axis, ::System::Xml::Schema::DoubleLinkAxis* inputaxis);
 
-  /// @brief Method get_Next, addr 0x2f21550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Next, addr 0x431d9e8, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::Axis* get_Next();
 
-  /// @brief Method set_Next, addr 0x2f21558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Next, addr 0x431d9f0, size 0x8, virtual false, abstract: false, final false
   inline void set_Next(::MS::Internal::Xml::XPath::Axis* value);
 
 protected:
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field next, offset: 0x40, size: 0x8, def value: None
   ::MS::Internal::Xml::XPath::Axis* ___next;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7443 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

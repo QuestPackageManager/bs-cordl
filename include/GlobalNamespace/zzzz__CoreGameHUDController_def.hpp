@@ -27,7 +27,7 @@ class __CoreGameHUDController__InitData;
 MARK_REF_PTR_T(::GlobalNamespace::CoreGameHUDController);
 MARK_REF_PTR_T(::GlobalNamespace::__CoreGameHUDController__InitData);
 // Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CoreGameHUDController::InitData*
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_showEnergyPanel(bool value);
 
-  /// @brief Method .ctor, addr 0x270aedc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2bee8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool hide, bool showEnergyPanel, bool advancedHUD);
 
 protected:
@@ -89,6 +89,9 @@ public:
   /// @brief Field advancedHUD, offset: 0x12, size: 0x1, def value: None
   bool ___advancedHUD;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4389 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -102,7 +105,7 @@ static_assert(offsetof(::GlobalNamespace::__CoreGameHUDController__InitData, ___
 
 } // namespace GlobalNamespace
 // Type: ::CoreGameHUDController
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CoreGameHUDController*
@@ -111,32 +114,32 @@ public:
   // Declarations
   using InitData = ::GlobalNamespace::__CoreGameHUDController__InitData;
 
-  /// @brief Field _canvasGroup, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup))::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
+  /// @brief Field _canvasGroup, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup)) ::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
 
-  /// @brief Field _energyPanelGO, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__energyPanelGO, put = __cordl_internal_set__energyPanelGO))::UnityW<::UnityEngine::GameObject> _energyPanelGO;
+  /// @brief Field _energyPanelGO, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__energyPanelGO, put = __cordl_internal_set__energyPanelGO)) ::UnityW<::UnityEngine::GameObject> _energyPanelGO;
 
-  /// @brief Field _immediateRankGO, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__immediateRankGO, put = __cordl_internal_set__immediateRankGO))::UnityW<::UnityEngine::GameObject> _immediateRankGO;
+  /// @brief Field _immediateRankGO, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__immediateRankGO, put = __cordl_internal_set__immediateRankGO)) ::UnityW<::UnityEngine::GameObject> _immediateRankGO;
 
-  /// @brief Field _relativeScoreGO, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__relativeScoreGO, put = __cordl_internal_set__relativeScoreGO))::UnityW<::UnityEngine::GameObject> _relativeScoreGO;
+  /// @brief Field _relativeScoreGO, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__relativeScoreGO, put = __cordl_internal_set__relativeScoreGO)) ::UnityW<::UnityEngine::GameObject> _relativeScoreGO;
 
-  /// @brief Field _songProgressPanelGO, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__songProgressPanelGO, put = __cordl_internal_set__songProgressPanelGO))::UnityW<::UnityEngine::GameObject> _songProgressPanelGO;
+  /// @brief Field _songProgressPanelGO, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__songProgressPanelGO, put = __cordl_internal_set__songProgressPanelGO)) ::UnityW<::UnityEngine::GameObject> _songProgressPanelGO;
 
   __declspec(property(put = set_alpha)) float_t alpha;
 
-  __declspec(property(get = get_energyPanelGo))::UnityW<::UnityEngine::GameObject> energyPanelGo;
+  __declspec(property(get = get_energyPanelGo)) ::UnityW<::UnityEngine::GameObject> energyPanelGo;
 
-  __declspec(property(get = get_immediateRankGo))::UnityW<::UnityEngine::GameObject> immediateRankGo;
+  __declspec(property(get = get_immediateRankGo)) ::UnityW<::UnityEngine::GameObject> immediateRankGo;
 
-  __declspec(property(get = get_relativeScoreGo))::UnityW<::UnityEngine::GameObject> relativeScoreGo;
+  __declspec(property(get = get_relativeScoreGo)) ::UnityW<::UnityEngine::GameObject> relativeScoreGo;
 
-  __declspec(property(get = get_songProgressPanelGO))::UnityW<::UnityEngine::GameObject> songProgressPanelGO;
+  __declspec(property(get = get_songProgressPanelGO)) ::UnityW<::UnityEngine::GameObject> songProgressPanelGO;
 
-  /// @brief Method Initialize, addr 0x270ae44, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3b2be50, size 0x90, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::__CoreGameHUDController__InitData* initData);
 
   static inline ::GlobalNamespace::CoreGameHUDController* New_ctor();
@@ -171,22 +174,22 @@ public:
 
   constexpr void __cordl_internal_set__songProgressPanelGO(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x270aed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2bee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_energyPanelGo, addr 0x270ae20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_energyPanelGo, addr 0x3b2be2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_energyPanelGo();
 
-  /// @brief Method get_immediateRankGo, addr 0x270ae18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_immediateRankGo, addr 0x3b2be24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_immediateRankGo();
 
-  /// @brief Method get_relativeScoreGo, addr 0x270ae10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_relativeScoreGo, addr 0x3b2be1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_relativeScoreGo();
 
-  /// @brief Method get_songProgressPanelGO, addr 0x270ae08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songProgressPanelGO, addr 0x3b2be14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_songProgressPanelGO();
 
-  /// @brief Method set_alpha, addr 0x270ae28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x3b2be34, size 0x1c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
 protected:
@@ -203,35 +206,38 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CoreGameHUDController(CoreGameHUDController const&) = delete;
 
-  /// @brief Field _songProgressPanelGO, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _songProgressPanelGO, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____songProgressPanelGO;
 
-  /// @brief Field _relativeScoreGO, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _relativeScoreGO, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____relativeScoreGO;
 
-  /// @brief Field _immediateRankGO, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _immediateRankGO, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____immediateRankGO;
 
-  /// @brief Field _energyPanelGO, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _energyPanelGO, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____energyPanelGO;
 
-  /// @brief Field _canvasGroup, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _canvasGroup, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4390 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CoreGameHUDController, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CoreGameHUDController, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CoreGameHUDController, ____songProgressPanelGO) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CoreGameHUDController, ____songProgressPanelGO) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CoreGameHUDController, ____relativeScoreGO) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CoreGameHUDController, ____relativeScoreGO) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CoreGameHUDController, ____immediateRankGO) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CoreGameHUDController, ____immediateRankGO) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CoreGameHUDController, ____energyPanelGO) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CoreGameHUDController, ____energyPanelGO) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CoreGameHUDController, ____canvasGroup) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CoreGameHUDController, ____canvasGroup) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CoreGameHUDController);

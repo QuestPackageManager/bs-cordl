@@ -23,7 +23,7 @@ class SingleConverter;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::SingleConverter);
 // Type: System.ComponentModel::SingleConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::SingleConverter*
@@ -32,26 +32,26 @@ public:
   // Declarations
   __declspec(property(get = get_AllowHex)) bool AllowHex;
 
-  __declspec(property(get = get_TargetType))::System::Type* TargetType;
+  __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
 
-  /// @brief Method FromString, addr 0x2f751c0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x43e3eb4, size 0x70, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method FromString, addr 0x2f75100, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x43e3df4, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
   static inline ::System::ComponentModel::SingleConverter* New_ctor();
 
-  /// @brief Method ToString, addr 0x2f75230, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x43e3f24, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x2f752e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e3fd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowHex, addr 0x2f7508c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AllowHex, addr 0x43e3d80, size 0x8, virtual true, abstract: false, final false
   inline bool get_AllowHex();
 
-  /// @brief Method get_TargetType, addr 0x2f75094, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x43e3d88, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
 protected:
@@ -67,6 +67,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SingleConverter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SingleConverter(SingleConverter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9385 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

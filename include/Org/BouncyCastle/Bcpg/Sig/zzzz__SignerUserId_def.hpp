@@ -15,27 +15,27 @@ class SignerUserId;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::SignerUserId);
 // Type: Org.BouncyCastle.Bcpg.Sig::SignerUserId
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.Sig::SignerUserId*
 class CORDL_TYPE SignerUserId : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method GetId, addr 0x143c484, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x25ff9cc, size 0xb4, virtual false, abstract: false, final false
   inline ::StringW GetId();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::SignerUserId* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::SignerUserId* New_ctor(bool critical, ::StringW userId);
 
-  /// @brief Method UserIdToBytes, addr 0x143c34c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UserIdToBytes, addr 0x25ff894, size 0xa4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> UserIdToBytes(::StringW id);
 
-  /// @brief Method .ctor, addr 0x143c3f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ff938, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x143c438, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ff980, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, ::StringW userId);
 
 protected:
@@ -51,6 +51,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SignerUserId", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SignerUserId(SignerUserId const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 548 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

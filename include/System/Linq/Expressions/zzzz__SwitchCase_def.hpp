@@ -18,24 +18,24 @@ class SwitchCase;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::SwitchCase);
 // Type: System.Linq.Expressions::SwitchCase
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions::SwitchCase*
 class CORDL_TYPE SwitchCase : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Body))::System::Linq::Expressions::Expression* Body;
+  __declspec(property(get = get_Body)) ::System::Linq::Expressions::Expression* Body;
 
-  __declspec(property(get = get_TestValues))::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* TestValues;
+  __declspec(property(get = get_TestValues)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* TestValues;
 
   /// @brief Field <Body>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Body_k__BackingField, put = __cordl_internal_set__Body_k__BackingField))::System::Linq::Expressions::Expression* _Body_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Body_k__BackingField, put = __cordl_internal_set__Body_k__BackingField)) ::System::Linq::Expressions::Expression* _Body_k__BackingField;
 
   /// @brief Field <TestValues>k__BackingField, offset 0x10, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__TestValues_k__BackingField,
-               put = __cordl_internal_set__TestValues_k__BackingField))::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* _TestValues_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__TestValues_k__BackingField,
+      put = __cordl_internal_set__TestValues_k__BackingField)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* _TestValues_k__BackingField;
 
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__Body_k__BackingField();
 
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set__TestValues_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method get_Body, addr 0x2c41920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x4045cbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
-  /// @brief Method get_TestValues, addr 0x2c41918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TestValues, addr 0x4045cb4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_TestValues();
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field <Body>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____Body_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13690 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

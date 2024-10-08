@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputNodeUICache);
 MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputAssetUICache);
 MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputObjectUICache);
 // Type: ::HEU_InputObjectUICache
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HEU_InputNodeUICache::HEU_InputObjectUICache*
@@ -38,7 +38,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputObjectUICache* New_ctor();
 
-  /// @brief Method .ctor, addr 0x258254c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bf1c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,6 +55,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HEU_InputNodeUICache__HEU_InputObjectUICache(__HEU_InputNodeUICache__HEU_InputObjectUICache const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11592 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -62,7 +65,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_InputN
 
 } // namespace HoudiniEngineUnity
 // Type: ::HEU_InputAssetUICache
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HEU_InputNodeUICache::HEU_InputAssetUICache*
@@ -71,7 +74,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputAssetUICache* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2582554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bf1c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,6 +91,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HEU_InputNodeUICache__HEU_InputAssetUICache(__HEU_InputNodeUICache__HEU_InputAssetUICache const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11593 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -95,7 +101,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_InputN
 
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_InputNodeUICache
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_InputNodeUICache*
@@ -108,11 +114,11 @@ public:
 
   /// @brief Field _inputAssetCache, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__inputAssetCache,
-                      put = __cordl_internal_set__inputAssetCache))::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputAssetUICache*>* _inputAssetCache;
+                      put = __cordl_internal_set__inputAssetCache)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputAssetUICache*>* _inputAssetCache;
 
   /// @brief Field _inputObjectCache, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__inputObjectCache,
-                      put = __cordl_internal_set__inputObjectCache))::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputObjectUICache*>* _inputObjectCache;
+                      put = __cordl_internal_set__inputObjectCache)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputObjectUICache*>* _inputObjectCache;
 
   static inline ::HoudiniEngineUnity::HEU_InputNodeUICache* New_ctor();
 
@@ -130,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set__inputObjectCache(::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputObjectUICache*>* value);
 
-  /// @brief Method .ctor, addr 0x258248c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bf0fc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -152,6 +158,9 @@ public:
 
   /// @brief Field _inputAssetCache, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputNodeUICache__HEU_InputAssetUICache*>* ____inputAssetCache;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

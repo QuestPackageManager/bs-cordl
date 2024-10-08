@@ -14,19 +14,19 @@ class KeyedHashAlgorithm;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::KeyedHashAlgorithm);
 // Type: System.Security.Cryptography::KeyedHashAlgorithm
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::KeyedHashAlgorithm*
 class CORDL_TYPE KeyedHashAlgorithm : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  __declspec(property(get = get_Key, put = set_Key))::ArrayW<uint8_t, ::Array<uint8_t>*> Key;
+  __declspec(property(get = get_Key, put = set_Key)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Key;
 
   /// @brief Field KeyValue, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_KeyValue, put = __cordl_internal_set_KeyValue))::ArrayW<uint8_t, ::Array<uint8_t>*> KeyValue;
+  __declspec(property(get = __cordl_internal_get_KeyValue, put = __cordl_internal_set_KeyValue)) ::ArrayW<uint8_t, ::Array<uint8_t>*> KeyValue;
 
-  /// @brief Method Dispose, addr 0x280c75c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c2b690, size 0x38, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Security::Cryptography::KeyedHashAlgorithm* New_ctor();
@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set_KeyValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x280c7a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2b6d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Key, addr 0x280ceb4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x3c2bd90, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
-  /// @brief Method set_Key, addr 0x280cf2c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x3c2be08, size 0x100, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field KeyValue, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___KeyValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2941 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

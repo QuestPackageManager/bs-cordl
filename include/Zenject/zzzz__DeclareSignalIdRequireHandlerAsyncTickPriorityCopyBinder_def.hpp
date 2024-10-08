@@ -21,7 +21,7 @@ class DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder);
 // Type: Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder*
@@ -30,10 +30,10 @@ public:
   // Declarations
   static inline ::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method WithId, addr 0x3659378, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithId, addr 0x4a7faa0, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder* WithId(::System::Object* identifier);
 
-  /// @brief Method .ctor, addr 0x3659330, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a7fa58, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
 protected:
@@ -49,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder(DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11950 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

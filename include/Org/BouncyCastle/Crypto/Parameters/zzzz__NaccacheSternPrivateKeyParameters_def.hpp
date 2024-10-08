@@ -22,24 +22,24 @@ class NaccacheSternPrivateKeyParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::NaccacheSternPrivateKeyParameters
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::NaccacheSternPrivateKeyParameters*
 class CORDL_TYPE NaccacheSternPrivateKeyParameters : public ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters {
 public:
   // Declarations
-  __declspec(property(get = get_PhiN))::Org::BouncyCastle::Math::BigInteger* PhiN;
+  __declspec(property(get = get_PhiN)) ::Org::BouncyCastle::Math::BigInteger* PhiN;
 
-  __declspec(property(get = get_SmallPrimes))::System::Collections::ArrayList* SmallPrimes;
+  __declspec(property(get = get_SmallPrimes)) ::System::Collections::ArrayList* SmallPrimes;
 
-  __declspec(property(get = get_SmallPrimesList))::System::Collections::IList* SmallPrimesList;
+  __declspec(property(get = get_SmallPrimesList)) ::System::Collections::IList* SmallPrimesList;
 
   /// @brief Field phiN, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_phiN, put = __cordl_internal_set_phiN))::Org::BouncyCastle::Math::BigInteger* phiN;
+  __declspec(property(get = __cordl_internal_get_phiN, put = __cordl_internal_set_phiN)) ::Org::BouncyCastle::Math::BigInteger* phiN;
 
   /// @brief Field smallPrimes, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_smallPrimes, put = __cordl_internal_set_smallPrimes))::System::Collections::IList* smallPrimes;
+  __declspec(property(get = __cordl_internal_get_smallPrimes, put = __cordl_internal_set_smallPrimes)) ::System::Collections::IList* smallPrimes;
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n,
                                                                                                      int32_t lowerSigmaBound, ::System::Collections::ArrayList* smallPrimes,
@@ -61,21 +61,21 @@ public:
 
   constexpr void __cordl_internal_set_smallPrimes(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x11aa118, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238028c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n, int32_t lowerSigmaBound, ::System::Collections::ArrayList* smallPrimes,
                     ::Org::BouncyCastle::Math::BigInteger* phiN);
 
-  /// @brief Method .ctor, addr 0x11aa16c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23802e0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n, int32_t lowerSigmaBound, ::System::Collections::IList* smallPrimes,
                     ::Org::BouncyCastle::Math::BigInteger* phiN);
 
-  /// @brief Method get_PhiN, addr 0x11aa1c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PhiN, addr 0x2380334, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PhiN();
 
-  /// @brief Method get_SmallPrimes, addr 0x11aa1c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_SmallPrimes, addr 0x238033c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_SmallPrimes();
 
-  /// @brief Method get_SmallPrimesList, addr 0x11aa230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SmallPrimesList, addr 0x238039c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_SmallPrimesList();
 
 protected:
@@ -97,6 +97,9 @@ public:
 
   /// @brief Field smallPrimes, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::IList* ___smallPrimes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1070 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

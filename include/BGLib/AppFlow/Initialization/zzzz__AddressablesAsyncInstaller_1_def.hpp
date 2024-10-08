@@ -61,7 +61,7 @@ template <typename T> struct __AddressablesAsyncInstaller_1___LoadResourcesBefor
 MARK_GEN_REF_PTR_T(::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1);
 MARK_GEN_VAL_T(::BGLib::AppFlow::Initialization::__AddressablesAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__2);
 // Type: ::<LoadResourcesBeforeInstallAsync>d__2
-// SizeInfo { instance_size: 64, native_size: 80, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 80, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
@@ -115,6 +115,9 @@ public:
   /// @brief Field <>u__2, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<T>*> __u__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17584 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
@@ -123,7 +126,7 @@ public:
 // Non member Declarations
 } // namespace BGLib::AppFlow::Initialization
 // Type: BGLib.AppFlow.Initialization::AddressablesAsyncInstaller`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
@@ -134,11 +137,12 @@ public:
   // Declarations
   using _LoadResourcesBeforeInstallAsync_d__2 = ::BGLib::AppFlow::Initialization::__AddressablesAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__2<T>;
 
-  /// @brief Field _handle, offset 0x20, size 0x20
+  /// @brief Field _handle, offset 0x28, size 0x20
   __declspec(property(get = __cordl_internal_get__handle,
-                      put = __cordl_internal_set__handle))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*> _handle;
+                      put = __cordl_internal_set__handle)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*>
+      _handle;
 
-  __declspec(property(get = get_assetLabelRuntimeKey))::StringW assetLabelRuntimeKey;
+  __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
   /// @brief Method GetLocations, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* GetLocations(::StringW runtimeKey);
@@ -186,8 +190,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AddressablesAsyncInstaller_1(AddressablesAsyncInstaller_1 const&) = delete;
 
-  /// @brief Field _handle, offset: 0x20, size: 0x20, def value: None
+  /// @brief Field _handle, offset: 0x28, size: 0x20, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*> ____handle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17585 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

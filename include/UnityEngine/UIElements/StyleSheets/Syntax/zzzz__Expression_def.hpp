@@ -21,7 +21,7 @@ class Expression;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::Syntax::Expression);
 // Type: UnityEngine.UIElements.StyleSheets.Syntax::Expression
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::Expression*
@@ -29,24 +29,25 @@ class CORDL_TYPE Expression : public ::System::Object {
 public:
   // Declarations
   /// @brief Field combinator, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_combinator, put = __cordl_internal_set_combinator))::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator combinator;
+  __declspec(property(get = __cordl_internal_get_combinator, put = __cordl_internal_set_combinator)) ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator combinator;
 
   /// @brief Field dataType, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_dataType, put = __cordl_internal_set_dataType))::UnityEngine::UIElements::StyleSheets::Syntax::DataType dataType;
+  __declspec(property(get = __cordl_internal_get_dataType, put = __cordl_internal_set_dataType)) ::UnityEngine::UIElements::StyleSheets::Syntax::DataType dataType;
 
   /// @brief Field keyword, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyword, put = __cordl_internal_set_keyword))::StringW keyword;
+  __declspec(property(get = __cordl_internal_get_keyword, put = __cordl_internal_set_keyword)) ::StringW keyword;
 
   /// @brief Field multiplier, offset 0x14, size 0xc
-  __declspec(property(get = __cordl_internal_get_multiplier, put = __cordl_internal_set_multiplier))::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier multiplier;
+  __declspec(property(get = __cordl_internal_get_multiplier, put = __cordl_internal_set_multiplier)) ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier multiplier;
 
   /// @brief Field subExpressions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_subExpressions,
-                      put = __cordl_internal_set_subExpressions))::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*,
-                                                                          ::Array<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*> subExpressions;
+  __declspec(property(
+      get = __cordl_internal_get_subExpressions,
+      put = __cordl_internal_set_subExpressions)) ::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*, ::Array<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*>
+      subExpressions;
 
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type;
 
   static inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* New_ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type);
 
@@ -88,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType value);
 
-  /// @brief Method .ctor, addr 0x358cddc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4962890, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type);
 
 protected:
@@ -122,6 +123,9 @@ public:
 
   /// @brief Field keyword, offset: 0x30, size: 0x8, def value: None
   ::StringW ___keyword;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6437 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

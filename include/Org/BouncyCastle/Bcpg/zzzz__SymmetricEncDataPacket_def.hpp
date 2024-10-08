@@ -15,7 +15,7 @@ class SymmetricEncDataPacket;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SymmetricEncDataPacket);
 // Type: Org.BouncyCastle.Bcpg::SymmetricEncDataPacket
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::SymmetricEncDataPacket*
@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::SymmetricEncDataPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x1441e4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2605278, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
 protected:
@@ -40,6 +40,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SymmetricEncDataPacket", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SymmetricEncDataPacket(SymmetricEncDataPacket const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 592 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

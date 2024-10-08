@@ -20,46 +20,46 @@ class Streams;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Streams);
 // Type: Org.BouncyCastle.Utilities.IO::Streams
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.IO::Streams*
 class CORDL_TYPE Streams : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Drain, addr 0x13d2044, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Drain, addr 0x2599a74, size 0x84, virtual false, abstract: false, final false
   static inline void Drain(::System::IO::Stream* inStr);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Streams* New_ctor();
 
-  /// @brief Method PipeAll, addr 0x13d2140, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method PipeAll, addr 0x2599b70, size 0xe0, virtual false, abstract: false, final false
   static inline void PipeAll(::System::IO::Stream* inStr, ::System::IO::Stream* outStr);
 
-  /// @brief Method PipeAllLimited, addr 0x13d22a8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method PipeAllLimited, addr 0x2599cd8, size 0x144, virtual false, abstract: false, final false
   static inline int64_t PipeAllLimited(::System::IO::Stream* inStr, int64_t limit, ::System::IO::Stream* outStr);
 
-  /// @brief Method ReadAll, addr 0x13d20c8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadAll, addr 0x2599af8, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAll(::System::IO::Stream* inStr);
 
-  /// @brief Method ReadAllLimited, addr 0x13d2220, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ReadAllLimited, addr 0x2599c50, size 0x88, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAllLimited(::System::IO::Stream* inStr, int32_t limit);
 
-  /// @brief Method ReadFully, addr 0x13d23f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadFully, addr 0x2599e1c, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t ReadFully(::System::IO::Stream* inStr, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method ReadFully, addr 0x13d240c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ReadFully, addr 0x2599e38, size 0x80, virtual false, abstract: false, final false
   static inline int32_t ReadFully(::System::IO::Stream* inStr, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method WriteBufTo, addr 0x13d24ac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method WriteBufTo, addr 0x2599ed8, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t WriteBufTo(::System::IO::MemoryStream* buf, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t offset);
 
-  /// @brief Method WriteBufTo, addr 0x13d248c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteBufTo, addr 0x2599eb8, size 0x20, virtual false, abstract: false, final false
   static inline void WriteBufTo(::System::IO::MemoryStream* buf, ::System::IO::Stream* output);
 
-  /// @brief Method WriteZeroes, addr 0x13d2560, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method WriteZeroes, addr 0x2599f88, size 0xbc, virtual false, abstract: false, final false
   static inline void WriteZeroes(::System::IO::Stream* outStr, int64_t count);
 
-  /// @brief Method .ctor, addr 0x13d203c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2599a6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field BufferSize offset 0xffffffff size 0x4
   static constexpr int32_t BufferSize{ static_cast<int32_t>(0x200) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

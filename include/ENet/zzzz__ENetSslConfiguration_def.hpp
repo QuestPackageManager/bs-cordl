@@ -18,7 +18,7 @@ struct ENetSslConfiguration;
 // Write type traits
 MARK_VAL_T(::ENet::ENetSslConfiguration);
 // Type: ENet::ENetSslConfiguration
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: true
 // CS Name: ::ENet::ENetSslConfiguration
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field hostName, offset: 0x40, size: 0x8, def value: None
   ::StringW hostName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17679 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };

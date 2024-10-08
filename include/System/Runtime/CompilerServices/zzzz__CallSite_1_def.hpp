@@ -44,7 +44,7 @@ template <typename T> class __CallSite_1____c;
 MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::CallSite_1);
 MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::__CallSite_1____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
@@ -54,19 +54,19 @@ class CORDL_TYPE __CallSite_1____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Runtime::CompilerServices::__CallSite_1____c<T>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Runtime::CompilerServices::__CallSite_1____c<T>* __9;
 
   /// @brief Field <>9__20_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__20_0,
-                             put = setStaticF___9__20_0))::System::Converter_2<::System::Reflection::ParameterInfo*, ::System::Linq::Expressions::ParameterExpression*>* __9__20_0;
+                             put = setStaticF___9__20_0)) ::System::Converter_2<::System::Reflection::ParameterInfo*, ::System::Linq::Expressions::ParameterExpression*>* __9__20_0;
 
   /// @brief Field <>9__20_1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__20_1,
-                             put = setStaticF___9__20_1))::System::Converter_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Expression*>* __9__20_1;
+                             put = setStaticF___9__20_1)) ::System::Converter_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Expression*>* __9__20_1;
 
   /// @brief Field <>9__21_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__21_0,
-                             put = setStaticF___9__21_0))::System::Converter_2<::System::Reflection::ParameterInfo*, ::System::Linq::Expressions::ParameterExpression*>* __9__21_0;
+                             put = setStaticF___9__21_0)) ::System::Converter_2<::System::Reflection::ParameterInfo*, ::System::Linq::Expressions::ParameterExpression*>* __9__21_0;
 
   static inline ::System::Runtime::CompilerServices::__CallSite_1____c<T>* New_ctor();
 
@@ -112,12 +112,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CallSite_1____c(__CallSite_1____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14087 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Runtime::CompilerServices
 // Type: System.Runtime.CompilerServices::CallSite`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
@@ -129,7 +132,7 @@ public:
   using __c = ::System::Runtime::CompilerServices::__CallSite_1____c<T>;
 
   /// @brief Field Rules, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Rules, put = __cordl_internal_set_Rules))::ArrayW<T, ::Array<T>*> Rules;
+  __declspec(property(get = __cordl_internal_get_Rules, put = __cordl_internal_set_Rules)) ::ArrayW<T, ::Array<T>*> Rules;
 
   /// @brief Field Target, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_Target, put = __cordl_internal_set_Target)) T Target;
@@ -224,6 +227,9 @@ public:
 
   /// @brief Field Rules, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ___Rules;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14088 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

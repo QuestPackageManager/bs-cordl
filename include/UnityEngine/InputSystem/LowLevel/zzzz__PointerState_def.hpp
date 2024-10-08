@@ -24,22 +24,22 @@ struct PointerState;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::PointerState);
 // Type: UnityEngine.InputSystem.LowLevel::PointerState
-// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::PointerState
 struct CORDL_TYPE PointerState {
 public:
   // Declarations
-  __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
+  __declspec(property(get = get_format)) ::UnityEngine::InputSystem::Utilities::FourCC format;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method get_format, addr 0x318eb5c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x4591af4, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method get_kFormat, addr 0x318eb2c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_kFormat, addr 0x4591ac4, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field displayIndex, offset: 0x22, size: 0x2, def value: None
   uint16_t displayIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6882 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };

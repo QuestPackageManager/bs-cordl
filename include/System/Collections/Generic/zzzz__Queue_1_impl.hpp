@@ -209,6 +209,15 @@ template <typename T> inline void System::Collections::Generic::Queue_1<T>::_cto
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, capacity);
 }
+template <typename T> inline ::System::Collections::Generic::Queue_1<T>* System::Collections::Generic::Queue_1<T>::New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::Queue_1<T>*>(collection));
+}
+template <typename T> inline void System::Collections::Generic::Queue_1<T>::_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Queue_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, collection);
+}
 template <typename T> inline int32_t System::Collections::Generic::Queue_1<T>::get_Count() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Queue_1<T>*>::get(), "get_Count",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));

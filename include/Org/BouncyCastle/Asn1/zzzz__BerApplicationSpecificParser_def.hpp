@@ -25,7 +25,7 @@ class BerApplicationSpecificParser;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerApplicationSpecificParser);
 // Type: Org.BouncyCastle.Asn1::BerApplicationSpecificParser
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::BerApplicationSpecificParser*
@@ -33,7 +33,7 @@ class CORDL_TYPE BerApplicationSpecificParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field parser, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_parser, put = __cordl_internal_set_parser))::Org::BouncyCastle::Asn1::Asn1StreamParser* parser;
+  __declspec(property(get = __cordl_internal_get_parser, put = __cordl_internal_set_parser)) ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser;
 
   /// @brief Field tag, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_tag, put = __cordl_internal_set_tag)) int32_t tag;
@@ -46,10 +46,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerApplicationSpecificParser* New_ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method ReadObject, addr 0x142df0c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method ReadObject, addr 0x25f2750, size 0x20, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
-  /// @brief Method ToAsn1Object, addr 0x14287c0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x25ed114, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& __cordl_internal_get_parser();
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_tag(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1428790, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ed0e4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser"
@@ -92,6 +92,9 @@ public:
 
   /// @brief Field parser, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1StreamParser* ___parser;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 474 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,7 @@ class HEU_InputObjectPreset;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputObjectPreset);
 // Type: HoudiniEngineUnity::HEU_InputObjectPreset
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_InputObjectPreset*
@@ -22,19 +22,19 @@ class CORDL_TYPE HEU_InputObjectPreset : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _gameObjectName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameObjectName, put = __cordl_internal_set__gameObjectName))::StringW _gameObjectName;
+  __declspec(property(get = __cordl_internal_get__gameObjectName, put = __cordl_internal_set__gameObjectName)) ::StringW _gameObjectName;
 
   /// @brief Field _isSceneObject, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__isSceneObject, put = __cordl_internal_set__isSceneObject)) bool _isSceneObject;
 
   /// @brief Field _rotateOffset, offset 0x28, size 0xc
-  __declspec(property(get = __cordl_internal_get__rotateOffset, put = __cordl_internal_set__rotateOffset))::UnityEngine::Vector3 _rotateOffset;
+  __declspec(property(get = __cordl_internal_get__rotateOffset, put = __cordl_internal_set__rotateOffset)) ::UnityEngine::Vector3 _rotateOffset;
 
   /// @brief Field _scaleOffset, offset 0x34, size 0xc
-  __declspec(property(get = __cordl_internal_get__scaleOffset, put = __cordl_internal_set__scaleOffset))::UnityEngine::Vector3 _scaleOffset;
+  __declspec(property(get = __cordl_internal_get__scaleOffset, put = __cordl_internal_set__scaleOffset)) ::UnityEngine::Vector3 _scaleOffset;
 
   /// @brief Field _translateOffset, offset 0x1c, size 0xc
-  __declspec(property(get = __cordl_internal_get__translateOffset, put = __cordl_internal_set__translateOffset))::UnityEngine::Vector3 _translateOffset;
+  __declspec(property(get = __cordl_internal_get__translateOffset, put = __cordl_internal_set__translateOffset)) ::UnityEngine::Vector3 _translateOffset;
 
   /// @brief Field _useTransformOffset, offset 0x19, size 0x1
   __declspec(property(get = __cordl_internal_get__useTransformOffset, put = __cordl_internal_set__useTransformOffset)) bool _useTransformOffset;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__useTransformOffset(bool value);
 
-  /// @brief Method .ctor, addr 0x255e8a8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399c61c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,6 +111,9 @@ public:
 
   /// @brief Field _scaleOffset, offset: 0x34, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____scaleOffset;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11553 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,7 +17,7 @@ class ShareMediaResult;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::ShareMediaResult);
 // Type: Oculus.Platform.Models::ShareMediaResult
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::ShareMediaResult*
@@ -25,7 +25,7 @@ class CORDL_TYPE ShareMediaResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Status, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_Status, put = __cordl_internal_set_Status))::Oculus::Platform::ShareMediaStatus Status;
+  __declspec(property(get = __cordl_internal_get_Status, put = __cordl_internal_set_Status)) ::Oculus::Platform::ShareMediaStatus Status;
 
   static inline ::Oculus::Platform::Models::ShareMediaResult* New_ctor(::System::IntPtr o);
 
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_Status(::Oculus::Platform::ShareMediaStatus value);
 
-  /// @brief Method .ctor, addr 0x2b13114, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1de98, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -54,6 +54,9 @@ public:
 
   /// @brief Field Status, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::ShareMediaStatus ___Status;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15520 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

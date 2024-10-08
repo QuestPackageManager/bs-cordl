@@ -22,7 +22,7 @@ class LightColorBaseData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightColorBaseData);
 // Type: ::LightColorBaseData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightColorBaseData*
@@ -36,10 +36,10 @@ public:
   __declspec(property(get = __cordl_internal_get_brightness, put = __cordl_internal_set_brightness)) float_t brightness;
 
   /// @brief Field colorType, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_colorType, put = __cordl_internal_set_colorType))::GlobalNamespace::EnvironmentColorType colorType;
+  __declspec(property(get = __cordl_internal_get_colorType, put = __cordl_internal_set_colorType)) ::GlobalNamespace::EnvironmentColorType colorType;
 
   /// @brief Field easeType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
+  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType)) ::GlobalNamespace::EaseType easeType;
 
   /// @brief Field strobeBeatFrequency, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_strobeBeatFrequency, put = __cordl_internal_set_strobeBeatFrequency)) int32_t strobeBeatFrequency;
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousValue(bool value);
 
-  /// @brief Method .ctor, addr 0x14c3ce8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267c778, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency,
                     float_t strobeBrightness, bool strobeFade);
 
@@ -145,6 +145,9 @@ public:
 
   /// @brief Field strobeFade, offset: 0x2c, size: 0x1, def value: None
   bool ___strobeFade;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12869 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

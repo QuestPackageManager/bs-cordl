@@ -15,17 +15,17 @@ class XmlSchemaSimpleContent;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSimpleContent);
 // Type: System.Xml.Schema::XmlSchemaSimpleContent
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaSimpleContent*
 class CORDL_TYPE XmlSchemaSimpleContent : public ::System::Xml::Schema::XmlSchemaContentModel {
 public:
   // Declarations
-  __declspec(property(get = get_Content, put = set_Content))::System::Xml::Schema::XmlSchemaContent* Content;
+  __declspec(property(get = get_Content, put = set_Content)) ::System::Xml::Schema::XmlSchemaContent* Content;
 
   /// @brief Field content, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::System::Xml::Schema::XmlSchemaContent* content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content)) ::System::Xml::Schema::XmlSchemaContent* content;
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleContent* New_ctor();
 
@@ -35,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set_content(::System::Xml::Schema::XmlSchemaContent* value);
 
-  /// @brief Method .ctor, addr 0x2e4fbe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4252374, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Content, addr 0x2e4fbd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x4252364, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContent* get_Content();
 
-  /// @brief Method set_Content, addr 0x2e4fbe0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Content, addr 0x425236c, size 0x8, virtual true, abstract: false, final false
   inline void set_Content(::System::Xml::Schema::XmlSchemaContent* value);
 
 protected:
@@ -60,6 +60,9 @@ public:
 
   /// @brief Field content, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaContent* ___content;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7686 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

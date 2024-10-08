@@ -79,220 +79,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c);
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0);
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1);
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2);
-// Type: ::<>c__DisplayClass0_0
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace UnityEngine::ProBuilder::MeshOperations {
-// Is value type: false
-// CS Name: ::Bevel::<>c__DisplayClass0_0*
-class CORDL_TYPE __Bevel____c__DisplayClass0_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field <>9__7, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___9__7, put = __cordl_internal_set___9__7))::System::Func_2<int32_t, int32_t>* __9__7;
-
-  /// @brief Field <>9__8, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___9__8, put = __cordl_internal_set___9__8))::System::Func_2<int32_t, int32_t>* __9__8;
-
-  /// @brief Field ignore, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ignore,
-                      put = __cordl_internal_set_ignore))::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>* ignore;
-
-  /// @brief Field sharedIndexes, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_sharedIndexes,
-                      put = __cordl_internal_set_sharedIndexes))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> sharedIndexes;
-
-  static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* New_ctor();
-
-  /// @brief Method <BevelEdges>b__7, addr 0x3310628, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t _BevelEdges_b__7(int32_t x);
-
-  /// @brief Method <BevelEdges>b__8, addr 0x3310664, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t _BevelEdges_b__8(int32_t x);
-
-  constexpr ::System::Func_2<int32_t, int32_t>*& __cordl_internal_get___9__7();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& __cordl_internal_get___9__7() const;
-
-  constexpr ::System::Func_2<int32_t, int32_t>*& __cordl_internal_get___9__8();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& __cordl_internal_get___9__8() const;
-
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>*& __cordl_internal_get_ignore();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>*> const&
-  __cordl_internal_get_ignore() const;
-
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const& __cordl_internal_get_sharedIndexes() const;
-
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>& __cordl_internal_get_sharedIndexes();
-
-  constexpr void __cordl_internal_set___9__7(::System::Func_2<int32_t, int32_t>* value);
-
-  constexpr void __cordl_internal_set___9__8(::System::Func_2<int32_t, int32_t>* value);
-
-  constexpr void __cordl_internal_set_ignore(::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>* value);
-
-  constexpr void __cordl_internal_set_sharedIndexes(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
-
-  /// @brief Method .ctor, addr 0x330f70c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Bevel____c__DisplayClass0_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __Bevel____c__DisplayClass0_0(__Bevel____c__DisplayClass0_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __Bevel____c__DisplayClass0_0(__Bevel____c__DisplayClass0_0 const&) = delete;
-
-  /// @brief Field ignore, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>* ___ignore;
-
-  /// @brief Field sharedIndexes, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> ___sharedIndexes;
-
-  /// @brief Field <>9__7, offset: 0x20, size: 0x8, def value: None
-  ::System::Func_2<int32_t, int32_t>* _____9__7;
-
-  /// @brief Field <>9__8, offset: 0x28, size: 0x8, def value: None
-  ::System::Func_2<int32_t, int32_t>* _____9__8;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0, 0x30>, "Size mismatch!");
-
-static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0, ___ignore) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0, ___sharedIndexes) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0, _____9__7) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0, _____9__8) == 0x28, "Offset mismatch!");
-
-} // namespace UnityEngine::ProBuilder::MeshOperations
-// Type: ::<>c__DisplayClass0_1
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
-namespace UnityEngine::ProBuilder::MeshOperations {
-// Is value type: false
-// CS Name: ::Bevel::<>c__DisplayClass0_1*
-class CORDL_TYPE __Bevel____c__DisplayClass0_1 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field lup, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_lup, put = __cordl_internal_set_lup))::UnityEngine::ProBuilder::EdgeLookup lup;
-
-  static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1* New_ctor();
-
-  /// @brief Method <BevelEdges>b__4, addr 0x33106a0, size 0x3c, virtual false, abstract: false, final false
-  inline bool _BevelEdges_b__4(::UnityEngine::ProBuilder::WingedEdge* x);
-
-  constexpr ::UnityEngine::ProBuilder::EdgeLookup const& __cordl_internal_get_lup() const;
-
-  constexpr ::UnityEngine::ProBuilder::EdgeLookup& __cordl_internal_get_lup();
-
-  constexpr void __cordl_internal_set_lup(::UnityEngine::ProBuilder::EdgeLookup value);
-
-  /// @brief Method .ctor, addr 0x330f714, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Bevel____c__DisplayClass0_1();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __Bevel____c__DisplayClass0_1(__Bevel____c__DisplayClass0_1&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __Bevel____c__DisplayClass0_1(__Bevel____c__DisplayClass0_1 const&) = delete;
-
-  /// @brief Field lup, offset: 0x10, size: 0x10, def value: None
-  ::UnityEngine::ProBuilder::EdgeLookup ___lup;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1, 0x20>, "Size mismatch!");
-
-static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1, ___lup) == 0x10, "Offset mismatch!");
-
-} // namespace UnityEngine::ProBuilder::MeshOperations
-// Type: ::<>c__DisplayClass0_2
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace UnityEngine::ProBuilder::MeshOperations {
-// Is value type: false
-// CS Name: ::Bevel::<>c__DisplayClass0_2*
-class CORDL_TYPE __Bevel____c__DisplayClass0_2 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1))::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* CS$__8__locals1;
-
-  /// @brief Field c, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) int32_t c;
-
-  static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2* New_ctor();
-
-  /// @brief Method <BevelEdges>b__5, addr 0x33106dc, size 0x100, virtual false, abstract: false, final false
-  inline bool _BevelEdges_b__5(::UnityEngine::ProBuilder::WingedEdge* x);
-
-  constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*& __cordl_internal_get_CS$__8__locals1();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*> const& __cordl_internal_get_CS$__8__locals1() const;
-
-  constexpr int32_t const& __cordl_internal_get_c() const;
-
-  constexpr int32_t& __cordl_internal_get_c();
-
-  constexpr void __cordl_internal_set_CS$__8__locals1(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* value);
-
-  constexpr void __cordl_internal_set_c(int32_t value);
-
-  /// @brief Method .ctor, addr 0x33103a0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Bevel____c__DisplayClass0_2();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_2", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __Bevel____c__DisplayClass0_2(__Bevel____c__DisplayClass0_2&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_2", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __Bevel____c__DisplayClass0_2(__Bevel____c__DisplayClass0_2 const&) = delete;
-
-  /// @brief Field c, offset: 0x10, size: 0x4, def value: None
-  int32_t ___c;
-
-  /// @brief Field CS$<>8__locals1, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* ___CS$__8__locals1;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2, 0x20>, "Size mismatch!");
-
-static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2, ___c) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2, ___CS$__8__locals1) == 0x18, "Offset mismatch!");
-
-} // namespace UnityEngine::ProBuilder::MeshOperations
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // CS Name: ::Bevel::<>c*
@@ -300,42 +88,42 @@ class CORDL_TYPE __Bevel____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::ProBuilder::MeshOperations::__Bevel____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c* __9;
 
   /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0))::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>* __9__0_0;
+  static __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0)) ::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>* __9__0_0;
 
   /// @brief Field <>9__0_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__0_1, put = setStaticF___9__0_1))::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>* __9__0_1;
+  static __declspec(property(get = getStaticF___9__0_1, put = setStaticF___9__0_1)) ::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>* __9__0_1;
 
   /// @brief Field <>9__0_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__0_2, put = setStaticF___9__0_2))::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>* __9__0_2;
+  static __declspec(property(get = getStaticF___9__0_2, put = setStaticF___9__0_2)) ::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>* __9__0_2;
 
   /// @brief Field <>9__0_3, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__0_3, put = setStaticF___9__0_3))::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>* __9__0_3;
+  static __declspec(property(get = getStaticF___9__0_3, put = setStaticF___9__0_3)) ::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>* __9__0_3;
 
   /// @brief Field <>9__0_6, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__0_6, put = setStaticF___9__0_6))::System::Func_2<
+  static __declspec(property(get = getStaticF___9__0_6, put = setStaticF___9__0_6)) ::System::Func_2<
       ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int32_t>*>, int32_t>* __9__0_6;
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c* New_ctor();
 
-  /// @brief Method <BevelEdges>b__0_0, addr 0x3310848, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <BevelEdges>b__0_0, addr 0x46ee428, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _BevelEdges_b__0_0(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
-  /// @brief Method <BevelEdges>b__0_1, addr 0x33108b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <BevelEdges>b__0_1, addr 0x46ee490, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _BevelEdges_b__0_1(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
-  /// @brief Method <BevelEdges>b__0_2, addr 0x33108c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <BevelEdges>b__0_2, addr 0x46ee4a8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _BevelEdges_b__0_2(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
-  /// @brief Method <BevelEdges>b__0_3, addr 0x33108e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <BevelEdges>b__0_3, addr 0x46ee4c0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _BevelEdges_b__0_3(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
-  /// @brief Method <BevelEdges>b__0_6, addr 0x3310860, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <BevelEdges>b__0_6, addr 0x46ee440, size 0x50, virtual false, abstract: false, final false
   inline int32_t _BevelEdges_b__0_6(::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int32_t>*> x);
 
-  /// @brief Method .ctor, addr 0x3310840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46ee420, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c* getStaticF___9();
@@ -378,14 +166,240 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Bevel____c(__Bevel____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14315 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
+// Type: ::<>c__DisplayClass0_0
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace UnityEngine::ProBuilder::MeshOperations {
+// Is value type: false
+// CS Name: ::Bevel::<>c__DisplayClass0_0*
+class CORDL_TYPE __Bevel____c__DisplayClass0_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>9__7, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get___9__7, put = __cordl_internal_set___9__7)) ::System::Func_2<int32_t, int32_t>* __9__7;
+
+  /// @brief Field <>9__8, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get___9__8, put = __cordl_internal_set___9__8)) ::System::Func_2<int32_t, int32_t>* __9__8;
+
+  /// @brief Field ignore, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_ignore,
+                      put = __cordl_internal_set_ignore)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>* ignore;
+
+  /// @brief Field sharedIndexes, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_sharedIndexes,
+                      put = __cordl_internal_set_sharedIndexes)) ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>
+      sharedIndexes;
+
+  static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* New_ctor();
+
+  /// @brief Method <BevelEdges>b__7, addr 0x46ee4d8, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t _BevelEdges_b__7(int32_t x);
+
+  /// @brief Method <BevelEdges>b__8, addr 0x46ee514, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t _BevelEdges_b__8(int32_t x);
+
+  constexpr ::System::Func_2<int32_t, int32_t>*& __cordl_internal_get___9__7();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& __cordl_internal_get___9__7() const;
+
+  constexpr ::System::Func_2<int32_t, int32_t>*& __cordl_internal_get___9__8();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& __cordl_internal_get___9__8() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>*& __cordl_internal_get_ignore();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>*> const&
+  __cordl_internal_get_ignore() const;
+
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const& __cordl_internal_get_sharedIndexes() const;
+
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>& __cordl_internal_get_sharedIndexes();
+
+  constexpr void __cordl_internal_set___9__7(::System::Func_2<int32_t, int32_t>* value);
+
+  constexpr void __cordl_internal_set___9__8(::System::Func_2<int32_t, int32_t>* value);
+
+  constexpr void __cordl_internal_set_ignore(::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>* value);
+
+  constexpr void __cordl_internal_set_sharedIndexes(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
+
+  /// @brief Method .ctor, addr 0x46ed4a4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Bevel____c__DisplayClass0_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __Bevel____c__DisplayClass0_0(__Bevel____c__DisplayClass0_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __Bevel____c__DisplayClass0_0(__Bevel____c__DisplayClass0_0 const&) = delete;
+
+  /// @brief Field ignore, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>* ___ignore;
+
+  /// @brief Field sharedIndexes, offset: 0x18, size: 0x8, def value: None
+  ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> ___sharedIndexes;
+
+  /// @brief Field <>9__7, offset: 0x20, size: 0x8, def value: None
+  ::System::Func_2<int32_t, int32_t>* _____9__7;
+
+  /// @brief Field <>9__8, offset: 0x28, size: 0x8, def value: None
+  ::System::Func_2<int32_t, int32_t>* _____9__8;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14316 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0, ___ignore) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0, ___sharedIndexes) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0, _____9__7) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0, _____9__8) == 0x28, "Offset mismatch!");
+
+} // namespace UnityEngine::ProBuilder::MeshOperations
+// Type: ::<>c__DisplayClass0_1
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace UnityEngine::ProBuilder::MeshOperations {
+// Is value type: false
+// CS Name: ::Bevel::<>c__DisplayClass0_1*
+class CORDL_TYPE __Bevel____c__DisplayClass0_1 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field lup, offset 0x10, size 0x10
+  __declspec(property(get = __cordl_internal_get_lup, put = __cordl_internal_set_lup)) ::UnityEngine::ProBuilder::EdgeLookup lup;
+
+  static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1* New_ctor();
+
+  /// @brief Method <BevelEdges>b__4, addr 0x46ee550, size 0x38, virtual false, abstract: false, final false
+  inline bool _BevelEdges_b__4(::UnityEngine::ProBuilder::WingedEdge* x);
+
+  constexpr ::UnityEngine::ProBuilder::EdgeLookup const& __cordl_internal_get_lup() const;
+
+  constexpr ::UnityEngine::ProBuilder::EdgeLookup& __cordl_internal_get_lup();
+
+  constexpr void __cordl_internal_set_lup(::UnityEngine::ProBuilder::EdgeLookup value);
+
+  /// @brief Method .ctor, addr 0x46ed4ac, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Bevel____c__DisplayClass0_1();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_1", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __Bevel____c__DisplayClass0_1(__Bevel____c__DisplayClass0_1&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __Bevel____c__DisplayClass0_1(__Bevel____c__DisplayClass0_1 const&) = delete;
+
+  /// @brief Field lup, offset: 0x10, size: 0x10, def value: None
+  ::UnityEngine::ProBuilder::EdgeLookup ___lup;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14317 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1, ___lup) == 0x10, "Offset mismatch!");
+
+} // namespace UnityEngine::ProBuilder::MeshOperations
+// Type: ::<>c__DisplayClass0_2
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace UnityEngine::ProBuilder::MeshOperations {
+// Is value type: false
+// CS Name: ::Bevel::<>c__DisplayClass0_2*
+class CORDL_TYPE __Bevel____c__DisplayClass0_2 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1,
+                      put = __cordl_internal_set_CS$__8__locals1)) ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* CS$__8__locals1;
+
+  /// @brief Field c, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) int32_t c;
+
+  static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2* New_ctor();
+
+  /// @brief Method <BevelEdges>b__5, addr 0x46ee588, size 0x124, virtual false, abstract: false, final false
+  inline bool _BevelEdges_b__5(::UnityEngine::ProBuilder::WingedEdge* x);
+
+  constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*& __cordl_internal_get_CS$__8__locals1();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*> const& __cordl_internal_get_CS$__8__locals1() const;
+
+  constexpr int32_t const& __cordl_internal_get_c() const;
+
+  constexpr int32_t& __cordl_internal_get_c();
+
+  constexpr void __cordl_internal_set_CS$__8__locals1(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* value);
+
+  constexpr void __cordl_internal_set_c(int32_t value);
+
+  /// @brief Method .ctor, addr 0x46ee140, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Bevel____c__DisplayClass0_2();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_2", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __Bevel____c__DisplayClass0_2(__Bevel____c__DisplayClass0_2&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_2", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __Bevel____c__DisplayClass0_2(__Bevel____c__DisplayClass0_2 const&) = delete;
+
+  /// @brief Field c, offset: 0x10, size: 0x4, def value: None
+  int32_t ___c;
+
+  /// @brief Field CS$<>8__locals1, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* ___CS$__8__locals1;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14318 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2, ___c) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2, ___CS$__8__locals1) == 0x18, "Offset mismatch!");
+
+} // namespace UnityEngine::ProBuilder::MeshOperations
 // Type: UnityEngine.ProBuilder.MeshOperations::Bevel
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::Bevel*
@@ -401,23 +415,23 @@ public:
   using __c__DisplayClass0_2 = ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2;
 
   /// @brief Field k_BridgeIndexesTri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_BridgeIndexesTri, put = setStaticF_k_BridgeIndexesTri))::ArrayW<int32_t, ::Array<int32_t>*> k_BridgeIndexesTri;
+  static __declspec(property(get = getStaticF_k_BridgeIndexesTri, put = setStaticF_k_BridgeIndexesTri)) ::ArrayW<int32_t, ::Array<int32_t>*> k_BridgeIndexesTri;
 
-  /// @brief Method BevelEdges, addr 0x330cfc4, size 0x2748, virtual false, abstract: false, final false
+  /// @brief Method BevelEdges, addr 0x46eae08, size 0x269c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* BevelEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                      ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* edges, float_t amount);
 
-  /// @brief Method GetBridgeFaces, addr 0x330faec, size 0x8b4, virtual false, abstract: false, final false
+  /// @brief Method GetBridgeFaces, addr 0x46ed8b8, size 0x888, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::FaceRebuildData*>* GetBridgeFaces(
       ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::UnityEngine::ProBuilder::WingedEdge* left, ::UnityEngine::ProBuilder::WingedEdge* right,
       ::System::Collections::Generic::Dictionary_2<
           int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int32_t>*>>*>*
           holes);
 
-  /// @brief Method GetLeadingEdge, addr 0x33104ac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetLeadingEdge, addr 0x46ee248, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge GetLeadingEdge(::UnityEngine::ProBuilder::WingedEdge* wing, int32_t common);
 
-  /// @brief Method SlideEdge, addr 0x330f71c, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method SlideEdge, addr 0x46ed4b4, size 0x404, virtual false, abstract: false, final false
   static inline void SlideEdge(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::UnityEngine::ProBuilder::WingedEdge* we, float_t amount);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_k_BridgeIndexesTri();
@@ -437,6 +451,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Bevel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Bevel(Bevel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14319 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

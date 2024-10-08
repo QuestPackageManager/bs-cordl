@@ -17,7 +17,7 @@ class StringListSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StringListSO);
 // Type: ::StringListSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::StringListSO*
@@ -25,9 +25,9 @@ class CORDL_TYPE StringListSO : public ::GlobalNamespace::PersistentScriptableOb
 public:
   // Declarations
   /// @brief Field _strings, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__strings, put = __cordl_internal_set__strings))::ArrayW<::StringW, ::Array<::StringW>*> _strings;
+  __declspec(property(get = __cordl_internal_get__strings, put = __cordl_internal_set__strings)) ::ArrayW<::StringW, ::Array<::StringW>*> _strings;
 
-  __declspec(property(get = get_strings))::System::Collections::Generic::IReadOnlyList_1<::StringW>* strings;
+  __declspec(property(get = get_strings)) ::System::Collections::Generic::IReadOnlyList_1<::StringW>* strings;
 
   static inline ::GlobalNamespace::StringListSO* New_ctor();
 
@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x10989ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2275ee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_strings, addr 0x10989e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_strings, addr 0x2275ed8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_strings();
 
 protected:
@@ -59,6 +59,9 @@ public:
 
   /// @brief Field _strings, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ____strings;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17205 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::Noise3DTexturesGenerator);
 MARK_VAL_T(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPropertyNameCouple);
 MARK_VAL_T(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple);
 // Type: ::MaterialTextureParamsCouple
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::Noise3DTexturesGenerator::MaterialTextureParamsCouple
@@ -65,6 +65,9 @@ public:
   /// @brief Field materialPropertyNameCouples, offset: 0x8, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPropertyNameCouple, ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPropertyNameCouple>*> materialPropertyNameCouples;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17816 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -79,7 +82,7 @@ static_assert(offsetof(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTe
 
 } // namespace GlobalNamespace
 // Type: ::MaterialPropertyNameCouple
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::Noise3DTexturesGenerator::MaterialPropertyNameCouple
@@ -100,6 +103,9 @@ public:
   /// @brief Field material, offset: 0x8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> material;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17817 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -114,7 +120,7 @@ static_assert(offsetof(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPr
 
 } // namespace GlobalNamespace
 // Type: ::Noise3DTexturesGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Noise3DTexturesGenerator*
@@ -125,17 +131,18 @@ public:
 
   using MaterialTextureParamsCouple = ::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple;
 
-  /// @brief Field _data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple,
-                                                                                                   ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple>*> _data;
+  /// @brief Field _data, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data)) ::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple,
+                                                                                                    ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple>*>
+      _data;
 
   /// @brief Field _texture, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__texture, put = setStaticF__texture))::UnityW<::UnityEngine::Texture3D> _texture;
+  static __declspec(property(get = getStaticF__texture, put = setStaticF__texture)) ::UnityW<::UnityEngine::Texture3D> _texture;
 
-  /// @brief Method Awake, addr 0x2c0c400, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x400e700, size 0x208, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateNoisePixels, addr 0x2c0c610, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method CreateNoisePixels, addr 0x400e908, size 0x318, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> CreateNoisePixels(int32_t width, int32_t height, int32_t depth, float_t scale, int32_t repeat, float_t contrast);
 
   static inline ::GlobalNamespace::Noise3DTexturesGenerator* New_ctor();
@@ -149,7 +156,7 @@ public:
   constexpr void __cordl_internal_set__data(
       ::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple, ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple>*> value);
 
-  /// @brief Method .ctor, addr 0x2c0c934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400ec20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::Texture3D> getStaticF__texture();
@@ -170,15 +177,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Noise3DTexturesGenerator(Noise3DTexturesGenerator const&) = delete;
 
-  /// @brief Field _data, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _data, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple, ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple>*> ____data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17818 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Noise3DTexturesGenerator, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Noise3DTexturesGenerator, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::Noise3DTexturesGenerator, ____data) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::Noise3DTexturesGenerator, ____data) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Noise3DTexturesGenerator);

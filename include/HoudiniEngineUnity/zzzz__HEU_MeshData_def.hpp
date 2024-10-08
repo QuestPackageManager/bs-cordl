@@ -30,7 +30,7 @@ class HEU_MeshData;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_MeshData);
 // Type: HoudiniEngineUnity::HEU_MeshData
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_MeshData*
@@ -38,34 +38,35 @@ class CORDL_TYPE HEU_MeshData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _colors, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__colors, put = __cordl_internal_set__colors))::System::Collections::Generic::List_1<::UnityEngine::Color32>* _colors;
+  __declspec(property(get = __cordl_internal_get__colors, put = __cordl_internal_set__colors)) ::System::Collections::Generic::List_1<::UnityEngine::Color32>* _colors;
 
   /// @brief Field _indices, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__indices, put = __cordl_internal_set__indices))::System::Collections::Generic::List_1<int32_t>* _indices;
+  __declspec(property(get = __cordl_internal_get__indices, put = __cordl_internal_set__indices)) ::System::Collections::Generic::List_1<int32_t>* _indices;
 
   /// @brief Field _meshTopology, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__meshTopology, put = __cordl_internal_set__meshTopology))::UnityEngine::MeshTopology _meshTopology;
+  __declspec(property(get = __cordl_internal_get__meshTopology, put = __cordl_internal_set__meshTopology)) ::UnityEngine::MeshTopology _meshTopology;
 
   /// @brief Field _normals, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__normals, put = __cordl_internal_set__normals))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _normals;
+  __declspec(property(get = __cordl_internal_get__normals, put = __cordl_internal_set__normals)) ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _normals;
 
   /// @brief Field _pointIndexToMeshIndexMap, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__pointIndexToMeshIndexMap,
-                      put = __cordl_internal_set__pointIndexToMeshIndexMap))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* _pointIndexToMeshIndexMap;
+                      put = __cordl_internal_set__pointIndexToMeshIndexMap)) ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* _pointIndexToMeshIndexMap;
 
   /// @brief Field _tangents, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__tangents, put = __cordl_internal_set__tangents))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* _tangents;
+  __declspec(property(get = __cordl_internal_get__tangents, put = __cordl_internal_set__tangents)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* _tangents;
 
   /// @brief Field _triangleNormals, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__triangleNormals, put = __cordl_internal_set__triangleNormals))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _triangleNormals;
+  __declspec(property(get = __cordl_internal_get__triangleNormals, put = __cordl_internal_set__triangleNormals)) ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _triangleNormals;
 
   /// @brief Field _uvs, offset 0x38, size 0x8
   __declspec(property(
       get = __cordl_internal_get__uvs,
-      put = __cordl_internal_set__uvs))::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, ::Array<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>*> _uvs;
+      put = __cordl_internal_set__uvs)) ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, ::Array<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>*>
+      _uvs;
 
   /// @brief Field _vertices, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__vertices, put = __cordl_internal_set__vertices))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _vertices;
+  __declspec(property(get = __cordl_internal_get__vertices, put = __cordl_internal_set__vertices)) ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _vertices;
 
   static inline ::HoudiniEngineUnity::HEU_MeshData* New_ctor();
 
@@ -124,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set__vertices(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x25e00a8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a1ae24, size 0x1e8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -167,6 +168,9 @@ public:
 
   /// @brief Field _meshTopology, offset: 0x50, size: 0x4, def value: None
   ::UnityEngine::MeshTopology ____meshTopology;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11795 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

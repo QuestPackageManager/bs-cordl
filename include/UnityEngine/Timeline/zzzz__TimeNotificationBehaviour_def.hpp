@@ -63,7 +63,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TimeNotificationBehaviour);
 MARK_REF_PTR_T(::UnityEngine::Timeline::__TimeNotificationBehaviour____c);
 MARK_VAL_T(::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry);
 // Type: ::NotificationEntry
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
 // CS Name: ::TimeNotificationBehaviour::NotificationEntry
@@ -76,13 +76,13 @@ public:
 
   __declspec(property(get = get_triggerOnce)) bool triggerOnce;
 
-  /// @brief Method get_prewarm, addr 0x33db9c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_prewarm, addr 0x47b359c, size 0xc, virtual false, abstract: false, final false
   inline bool get_prewarm();
 
-  /// @brief Method get_triggerInEditor, addr 0x33db9d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_triggerInEditor, addr 0x47b35a8, size 0xc, virtual false, abstract: false, final false
   inline bool get_triggerInEditor();
 
-  /// @brief Method get_triggerOnce, addr 0x33db104, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_triggerOnce, addr 0x47b2cc4, size 0xc, virtual false, abstract: false, final false
   inline bool get_triggerOnce();
 
   // Ctor Parameters []
@@ -107,6 +107,9 @@ public:
   /// @brief Field flags, offset: 0x12, size: 0x2, def value: None
   ::UnityEngine::Timeline::NotificationFlags flags;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15825 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -125,7 +128,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__TimeNotificationBehaviour__Not
 
 } // namespace UnityEngine::Timeline
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::TimeNotificationBehaviour::<>c*
@@ -133,17 +136,17 @@ class CORDL_TYPE __TimeNotificationBehaviour____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::Timeline::__TimeNotificationBehaviour____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Timeline::__TimeNotificationBehaviour____c* __9;
 
   /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0))::System::Comparison_1<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry>* __9__12_0;
+  static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0)) ::System::Comparison_1<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry>* __9__12_0;
 
   static inline ::UnityEngine::Timeline::__TimeNotificationBehaviour____c* New_ctor();
 
-  /// @brief Method <SortNotifications>b__12_0, addr 0x33dbac8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <SortNotifications>b__12_0, addr 0x47b3694, size 0x10, virtual false, abstract: false, final false
   inline int32_t _SortNotifications_b__12_0(::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry x, ::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry y);
 
-  /// @brief Method .ctor, addr 0x33dbac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47b368c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Timeline::__TimeNotificationBehaviour____c* getStaticF___9();
@@ -168,6 +171,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TimeNotificationBehaviour____c(__TimeNotificationBehaviour____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15826 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -175,7 +181,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__TimeNot
 
 } // namespace UnityEngine::Timeline
 // Type: UnityEngine.Timeline::TimeNotificationBehaviour
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::TimeNotificationBehaviour*
@@ -191,51 +197,51 @@ public:
 
   /// @brief Field m_Notifications, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Notifications,
-                      put = __cordl_internal_set_m_Notifications))::System::Collections::Generic::List_1<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry>* m_Notifications;
+                      put = __cordl_internal_set_m_Notifications)) ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry>* m_Notifications;
 
   /// @brief Field m_PreviousTime, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PreviousTime, put = __cordl_internal_set_m_PreviousTime)) double_t m_PreviousTime;
 
   /// @brief Field m_TimeSource, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_TimeSource, put = __cordl_internal_set_m_TimeSource))::UnityEngine::Playables::Playable m_TimeSource;
+  __declspec(property(get = __cordl_internal_get_m_TimeSource, put = __cordl_internal_set_m_TimeSource)) ::UnityEngine::Playables::Playable m_TimeSource;
 
-  __declspec(property(put = set_timeSource))::UnityEngine::Playables::Playable timeSource;
+  __declspec(property(put = set_timeSource)) ::UnityEngine::Playables::Playable timeSource;
 
-  /// @brief Method AddNotification, addr 0x33dad38, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AddNotification, addr 0x47b2910, size 0xf0, virtual false, abstract: false, final false
   inline void AddNotification(double_t time, ::UnityEngine::Playables::INotification* payload, ::UnityEngine::Timeline::NotificationFlags flags);
 
-  /// @brief Method CanRestoreNotification, addr 0x33db964, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CanRestoreNotification, addr 0x47b3538, size 0x5c, virtual false, abstract: false, final false
   static inline bool CanRestoreNotification(::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry e, ::UnityEngine::Playables::FrameData info, double_t currentTime,
                                             double_t previousTime);
 
-  /// @brief Method Create, addr 0x33dac1c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x47b27f4, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeNotificationBehaviour*> Create(::UnityEngine::Playables::PlayableGraph graph, double_t duration,
                                                                                                                        ::UnityEngine::Playables::DirectorWrapMode loopMode);
 
   static inline ::UnityEngine::Timeline::TimeNotificationBehaviour* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x33db110, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x47b2cd0, size 0x1a4, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnGraphStart, addr 0x33dae30, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x47b2a00, size 0x1b8, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method PrepareFrame, addr 0x33db344, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x47b2efc, size 0x35c, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method Restore_internal, addr 0x33db9c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Restore_internal, addr 0x47b3594, size 0x8, virtual false, abstract: false, final false
   static inline void Restore_internal(ByRef<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry> e);
 
-  /// @brief Method SortNotifications, addr 0x33daff4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SortNotifications, addr 0x47b2bb8, size 0x10c, virtual false, abstract: false, final false
   inline void SortNotifications();
 
-  /// @brief Method SyncDurationWithExternalSource, addr 0x33db6a0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SyncDurationWithExternalSource, addr 0x47b3258, size 0x104, virtual false, abstract: false, final false
   inline void SyncDurationWithExternalSource(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method TriggerNotificationsInRange, addr 0x33db7a4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method TriggerNotificationsInRange, addr 0x47b335c, size 0x1dc, virtual false, abstract: false, final false
   inline void TriggerNotificationsInRange(double_t start, double_t end, ::UnityEngine::Playables::FrameData info, ::UnityEngine::Playables::Playable playable, bool checkState);
 
-  /// @brief Method Trigger_internal, addr 0x33db2bc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Trigger_internal, addr 0x47b2e74, size 0x88, virtual false, abstract: false, final false
   static inline void Trigger_internal(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::PlayableOutput output,
                                       ByRef<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry> e);
 
@@ -264,10 +270,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TimeSource(::UnityEngine::Playables::Playable value);
 
-  /// @brief Method .ctor, addr 0x33db9e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47b35b4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_timeSource, addr 0x33dac14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timeSource, addr 0x47b27ec, size 0x8, virtual false, abstract: false, final false
   inline void set_timeSource(::UnityEngine::Playables::Playable value);
 
 protected:
@@ -295,6 +301,9 @@ public:
 
   /// @brief Field m_TimeSource, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Playables::Playable ___m_TimeSource;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15827 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ class AsymmetricKeyParameter;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter);
 // Type: Org.BouncyCastle.Crypto::AsymmetricKeyParameter
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto::AsymmetricKeyParameter*
@@ -34,13 +34,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method Equals, addr 0x11a173c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2378b00, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x11a17d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2378b98, size 0x24, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* other);
 
-  /// @brief Method GetHashCode, addr 0x11a17f8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2378bbc, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* New_ctor(bool privateKey);
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set_privateKey(bool value);
 
-  /// @brief Method .ctor, addr 0x11a170c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2378ad0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool privateKey);
 
-  /// @brief Method get_IsPrivate, addr 0x11a1734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsPrivate, addr 0x2378af8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsPrivate();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field privateKey, offset: 0x10, size: 0x1, def value: None
   bool ___privateKey;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1020 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

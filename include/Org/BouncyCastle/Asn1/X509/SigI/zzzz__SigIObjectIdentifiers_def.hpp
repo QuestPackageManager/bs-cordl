@@ -15,7 +15,7 @@ class SigIObjectIdentifiers;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers);
 // Type: Org.BouncyCastle.Asn1.X509.SigI::SigIObjectIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509::SigI {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509.SigI::SigIObjectIdentifiers*
@@ -23,29 +23,29 @@ class CORDL_TYPE SigIObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field IdSigI, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigI, put = setStaticF_IdSigI))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigI;
+  static __declspec(property(get = getStaticF_IdSigI, put = setStaticF_IdSigI)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigI;
 
   /// @brief Field IdSigICP, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigICP, put = setStaticF_IdSigICP))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigICP;
+  static __declspec(property(get = getStaticF_IdSigICP, put = setStaticF_IdSigICP)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigICP;
 
   /// @brief Field IdSigICPSigConform, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigICPSigConform, put = setStaticF_IdSigICPSigConform))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigICPSigConform;
+  static __declspec(property(get = getStaticF_IdSigICPSigConform, put = setStaticF_IdSigICPSigConform)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigICPSigConform;
 
   /// @brief Field IdSigIKP, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigIKP, put = setStaticF_IdSigIKP))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIKP;
+  static __declspec(property(get = getStaticF_IdSigIKP, put = setStaticF_IdSigIKP)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIKP;
 
   /// @brief Field IdSigIKPDirectoryService, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigIKPDirectoryService, put = setStaticF_IdSigIKPDirectoryService))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIKPDirectoryService;
+  static __declspec(property(get = getStaticF_IdSigIKPDirectoryService, put = setStaticF_IdSigIKPDirectoryService)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIKPDirectoryService;
 
   /// @brief Field IdSigION, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigION, put = setStaticF_IdSigION))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigION;
+  static __declspec(property(get = getStaticF_IdSigION, put = setStaticF_IdSigION)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigION;
 
   /// @brief Field IdSigIONPersonalData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigIONPersonalData, put = setStaticF_IdSigIONPersonalData))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIONPersonalData;
+  static __declspec(property(get = getStaticF_IdSigIONPersonalData, put = setStaticF_IdSigIONPersonalData)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIONPersonalData;
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12f67f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c4370, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigI();
@@ -89,6 +89,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SigIObjectIdentifiers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SigIObjectIdentifiers(SigIObjectIdentifiers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 337 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

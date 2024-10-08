@@ -16,19 +16,21 @@ class ResolveEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::System::ResolveEventArgs);
 // Type: System::ResolveEventArgs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::ResolveEventArgs*
 class CORDL_TYPE ResolveEventArgs : public ::System::EventArgs {
 public:
   // Declarations
+  __declspec(property(get = get_Name)) ::StringW Name;
+
   /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
   /// @brief Field <RequestingAssembly>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__RequestingAssembly_k__BackingField,
-                      put = __cordl_internal_set__RequestingAssembly_k__BackingField))::System::Reflection::Assembly* _RequestingAssembly_k__BackingField;
+                      put = __cordl_internal_set__RequestingAssembly_k__BackingField)) ::System::Reflection::Assembly* _RequestingAssembly_k__BackingField;
 
   static inline ::System::ResolveEventArgs* New_ctor(::StringW name);
 
@@ -46,11 +48,14 @@ public:
 
   constexpr void __cordl_internal_set__RequestingAssembly_k__BackingField(::System::Reflection::Assembly* value);
 
-  /// @brief Method .ctor, addr 0x2974fdc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d86a74, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2975048, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d86ae0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Reflection::Assembly* requestingAssembly);
+
+  /// @brief Method get_Name, addr 0x3d86b50, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Name();
 
 protected:
   // Ctor Parameters []
@@ -71,6 +76,9 @@ public:
 
   /// @brief Field <RequestingAssembly>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::Assembly* ____RequestingAssembly_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2464 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,7 +26,7 @@ class IMethodMessage;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMethodMessage);
 // Type: System.Runtime.Remoting.Messaging::IMethodMessage
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::IMethodMessage*
@@ -35,19 +35,19 @@ public:
   // Declarations
   __declspec(property(get = get_ArgCount)) int32_t ArgCount;
 
-  __declspec(property(get = get_Args))::ArrayW<::System::Object*, ::Array<::System::Object*>*> Args;
+  __declspec(property(get = get_Args)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> Args;
 
-  __declspec(property(get = get_LogicalCallContext))::System::Runtime::Remoting::Messaging::LogicalCallContext* LogicalCallContext;
+  __declspec(property(get = get_LogicalCallContext)) ::System::Runtime::Remoting::Messaging::LogicalCallContext* LogicalCallContext;
 
-  __declspec(property(get = get_MethodBase))::System::Reflection::MethodBase* MethodBase;
+  __declspec(property(get = get_MethodBase)) ::System::Reflection::MethodBase* MethodBase;
 
-  __declspec(property(get = get_MethodName))::StringW MethodName;
+  __declspec(property(get = get_MethodName)) ::StringW MethodName;
 
-  __declspec(property(get = get_MethodSignature))::System::Object* MethodSignature;
+  __declspec(property(get = get_MethodSignature)) ::System::Object* MethodSignature;
 
-  __declspec(property(get = get_TypeName))::StringW TypeName;
+  __declspec(property(get = get_TypeName)) ::StringW TypeName;
 
-  __declspec(property(get = get_Uri))::StringW Uri;
+  __declspec(property(get = get_Uri)) ::StringW Uri;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
@@ -89,6 +89,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IMethodMessage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IMethodMessage(IMethodMessage const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3171 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

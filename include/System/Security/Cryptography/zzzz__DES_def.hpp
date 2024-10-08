@@ -17,55 +17,57 @@ class DES;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::DES);
 // Type: System.Security.Cryptography::DES
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::DES*
 class CORDL_TYPE DES : public ::System::Security::Cryptography::SymmetricAlgorithm {
 public:
   // Declarations
-  __declspec(property(get = get_Key, put = set_Key))::ArrayW<uint8_t, ::Array<uint8_t>*> Key;
+  __declspec(property(get = get_Key, put = set_Key)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Key;
 
   /// @brief Field s_legalBlockSizes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_legalBlockSizes,
-                             put = setStaticF_s_legalBlockSizes))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> s_legalBlockSizes;
+                             put = setStaticF_s_legalBlockSizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
+      s_legalBlockSizes;
 
   /// @brief Field s_legalKeySizes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_legalKeySizes,
-                             put = setStaticF_s_legalKeySizes))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> s_legalKeySizes;
+                             put = setStaticF_s_legalKeySizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
+      s_legalKeySizes;
 
-  /// @brief Method Create, addr 0x280a948, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3c29924, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::DES* Create();
 
-  /// @brief Method IsLegalKeySize, addr 0x280aa68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsLegalKeySize, addr 0x3c29a34, size 0x20, virtual false, abstract: false, final false
   static inline bool IsLegalKeySize(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
 
-  /// @brief Method IsSemiWeakKey, addr 0x280a528, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method IsSemiWeakKey, addr 0x3c2951c, size 0x20c, virtual false, abstract: false, final false
   static inline bool IsSemiWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
 
-  /// @brief Method IsWeakKey, addr 0x280a400, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method IsWeakKey, addr 0x3c293fc, size 0x120, virtual false, abstract: false, final false
   static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
 
   static inline ::System::Security::Cryptography::DES* New_ctor();
 
-  /// @brief Method QuadWordFromBigEndian, addr 0x280aa88, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method QuadWordFromBigEndian, addr 0x3c29a54, size 0x98, virtual false, abstract: false, final false
   static inline uint64_t QuadWordFromBigEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> block);
 
-  /// @brief Method .ctor, addr 0x280a29c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c29298, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes();
 
-  /// @brief Method get_Key, addr 0x280a318, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x3c29314, size 0xe8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
   static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
   static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
-  /// @brief Method set_Key, addr 0x280a73c, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x3c29728, size 0x1fc, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:
@@ -81,6 +83,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DES", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DES(DES const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2927 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

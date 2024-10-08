@@ -18,7 +18,7 @@ class SemaphoreFullException;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::SemaphoreFullException);
 // Type: System.Threading::SemaphoreFullException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::System.Threading::SemaphoreFullException*
@@ -29,10 +29,10 @@ public:
 
   static inline ::System::Threading::SemaphoreFullException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x29c8784, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd763c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x29c87d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd7688, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:
@@ -48,6 +48,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SemaphoreFullException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SemaphoreFullException(SemaphoreFullException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2670 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

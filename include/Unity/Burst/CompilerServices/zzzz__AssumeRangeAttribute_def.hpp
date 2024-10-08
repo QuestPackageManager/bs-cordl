@@ -13,7 +13,7 @@ class AssumeRangeAttribute;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::CompilerServices::AssumeRangeAttribute);
 // Type: Unity.Burst.CompilerServices::AssumeRangeAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst::CompilerServices {
 // Is value type: false
 // CS Name: ::Unity.Burst.CompilerServices::AssumeRangeAttribute*
@@ -24,10 +24,10 @@ public:
 
   static inline ::Unity::Burst::CompilerServices::AssumeRangeAttribute* New_ctor(uint64_t min, uint64_t max);
 
-  /// @brief Method .ctor, addr 0x30d49bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44c4564, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t min, int64_t max);
 
-  /// @brief Method .ctor, addr 0x30d49c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44c456c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t min, uint64_t max);
 
 protected:
@@ -43,6 +43,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AssumeRangeAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AssumeRangeAttribute(AssumeRangeAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14626 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

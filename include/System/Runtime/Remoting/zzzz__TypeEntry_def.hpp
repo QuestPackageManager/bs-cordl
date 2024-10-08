@@ -13,22 +13,22 @@ class TypeEntry;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::TypeEntry);
 // Type: System.Runtime.Remoting::TypeEntry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting::TypeEntry*
 class CORDL_TYPE TypeEntry : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AssemblyName, put = set_AssemblyName))::StringW AssemblyName;
+  __declspec(property(get = get_AssemblyName, put = set_AssemblyName)) ::StringW AssemblyName;
 
-  __declspec(property(get = get_TypeName, put = set_TypeName))::StringW TypeName;
+  __declspec(property(get = get_TypeName, put = set_TypeName)) ::StringW TypeName;
 
   /// @brief Field assembly_name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_assembly_name, put = __cordl_internal_set_assembly_name))::StringW assembly_name;
+  __declspec(property(get = __cordl_internal_get_assembly_name, put = __cordl_internal_set_assembly_name)) ::StringW assembly_name;
 
   /// @brief Field type_name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_type_name, put = __cordl_internal_set_type_name))::StringW type_name;
+  __declspec(property(get = __cordl_internal_get_type_name, put = __cordl_internal_set_type_name)) ::StringW type_name;
 
   static inline ::System::Runtime::Remoting::TypeEntry* New_ctor();
 
@@ -44,19 +44,19 @@ public:
 
   constexpr void __cordl_internal_set_type_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x284483c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c6185c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AssemblyName, addr 0x2844844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyName, addr 0x3c61864, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyName();
 
-  /// @brief Method get_TypeName, addr 0x2844854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x3c61874, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
-  /// @brief Method set_AssemblyName, addr 0x284484c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AssemblyName, addr 0x3c6186c, size 0x8, virtual false, abstract: false, final false
   inline void set_AssemblyName(::StringW value);
 
-  /// @brief Method set_TypeName, addr 0x284485c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TypeName, addr 0x3c6187c, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeName(::StringW value);
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field type_name, offset: 0x18, size: 0x8, def value: None
   ::StringW ___type_name;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3078 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

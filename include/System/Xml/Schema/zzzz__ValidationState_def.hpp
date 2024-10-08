@@ -32,7 +32,7 @@ class ValidationState;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::ValidationState);
 // Type: System.Xml.Schema::ValidationState
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::ValidationState*
@@ -40,26 +40,26 @@ class CORDL_TYPE ValidationState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field AllElementsSet, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_AllElementsSet, put = __cordl_internal_set_AllElementsSet))::System::Xml::Schema::BitSet* AllElementsSet;
+  __declspec(property(get = __cordl_internal_get_AllElementsSet, put = __cordl_internal_set_AllElementsSet)) ::System::Xml::Schema::BitSet* AllElementsSet;
 
   /// @brief Field CheckRequiredAttribute, offset 0x13, size 0x1
   __declspec(property(get = __cordl_internal_get_CheckRequiredAttribute, put = __cordl_internal_set_CheckRequiredAttribute)) bool CheckRequiredAttribute;
 
   /// @brief Field Constr, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_Constr,
-                      put = __cordl_internal_set_Constr))::ArrayW<::System::Xml::Schema::ConstraintStruct*, ::Array<::System::Xml::Schema::ConstraintStruct*>*> Constr;
+  __declspec(property(get = __cordl_internal_get_Constr, put = __cordl_internal_set_Constr)) ::ArrayW<::System::Xml::Schema::ConstraintStruct*, ::Array<::System::Xml::Schema::ConstraintStruct*>*>
+      Constr;
 
   /// @brief Field CurPos, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_CurPos, put = __cordl_internal_set_CurPos))::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> CurPos;
+  __declspec(property(get = __cordl_internal_get_CurPos, put = __cordl_internal_set_CurPos)) ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> CurPos;
 
   /// @brief Field CurrentState, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_CurrentState, put = __cordl_internal_set_CurrentState))::System::Xml::Schema::StateUnion CurrentState;
+  __declspec(property(get = __cordl_internal_get_CurrentState, put = __cordl_internal_set_CurrentState)) ::System::Xml::Schema::StateUnion CurrentState;
 
   /// @brief Field ElementDecl, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_ElementDecl, put = __cordl_internal_set_ElementDecl))::System::Xml::Schema::SchemaElementDecl* ElementDecl;
+  __declspec(property(get = __cordl_internal_get_ElementDecl, put = __cordl_internal_set_ElementDecl)) ::System::Xml::Schema::SchemaElementDecl* ElementDecl;
 
   /// @brief Field ElementDeclBeforeXsi, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_ElementDeclBeforeXsi, put = __cordl_internal_set_ElementDeclBeforeXsi))::System::Xml::Schema::SchemaElementDecl* ElementDeclBeforeXsi;
+  __declspec(property(get = __cordl_internal_get_ElementDeclBeforeXsi, put = __cordl_internal_set_ElementDeclBeforeXsi)) ::System::Xml::Schema::SchemaElementDecl* ElementDeclBeforeXsi;
 
   /// @brief Field HasMatched, offset 0x4c, size 0x1
   __declspec(property(get = __cordl_internal_get_HasMatched, put = __cordl_internal_set_HasMatched)) bool HasMatched;
@@ -71,20 +71,20 @@ public:
   __declspec(property(get = __cordl_internal_get_IsNill, put = __cordl_internal_set_IsNill)) bool IsNill;
 
   /// @brief Field LocalName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_LocalName, put = __cordl_internal_set_LocalName))::StringW LocalName;
+  __declspec(property(get = __cordl_internal_get_LocalName, put = __cordl_internal_set_LocalName)) ::StringW LocalName;
 
   /// @brief Field Namespace, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_Namespace, put = __cordl_internal_set_Namespace))::StringW Namespace;
+  __declspec(property(get = __cordl_internal_get_Namespace, put = __cordl_internal_set_Namespace)) ::StringW Namespace;
 
   /// @brief Field NeedValidateChildren, offset 0x12, size 0x1
   __declspec(property(get = __cordl_internal_get_NeedValidateChildren, put = __cordl_internal_set_NeedValidateChildren)) bool NeedValidateChildren;
 
   /// @brief Field ProcessContents, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_ProcessContents, put = __cordl_internal_set_ProcessContents))::System::Xml::Schema::XmlSchemaContentProcessing ProcessContents;
+  __declspec(property(get = __cordl_internal_get_ProcessContents, put = __cordl_internal_set_ProcessContents)) ::System::Xml::Schema::XmlSchemaContentProcessing ProcessContents;
 
   /// @brief Field RunningPositions, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_RunningPositions,
-                      put = __cordl_internal_set_RunningPositions))::System::Collections::Generic::List_1<::System::Xml::Schema::RangePositionInfo>* RunningPositions;
+                      put = __cordl_internal_set_RunningPositions)) ::System::Collections::Generic::List_1<::System::Xml::Schema::RangePositionInfo>* RunningPositions;
 
   /// @brief Field TooComplex, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_TooComplex, put = __cordl_internal_set_TooComplex)) bool TooComplex;
@@ -93,7 +93,7 @@ public:
   __declspec(property(get = __cordl_internal_get_ValidationSkipped, put = __cordl_internal_set_ValidationSkipped)) bool ValidationSkipped;
 
   /// @brief Field Validity, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_Validity, put = __cordl_internal_set_Validity))::System::Xml::Schema::XmlSchemaValidity Validity;
+  __declspec(property(get = __cordl_internal_get_Validity, put = __cordl_internal_set_Validity)) ::System::Xml::Schema::XmlSchemaValidity Validity;
 
   static inline ::System::Xml::Schema::ValidationState* New_ctor();
 
@@ -205,7 +205,7 @@ public:
 
   constexpr void __cordl_internal_set_Validity(::System::Xml::Schema::XmlSchemaValidity value);
 
-  /// @brief Method .ctor, addr 0x2e32598, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4235790, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -275,6 +275,9 @@ public:
 
   /// @brief Field TooComplex, offset: 0x68, size: 0x1, def value: None
   bool ___TooComplex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7598 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

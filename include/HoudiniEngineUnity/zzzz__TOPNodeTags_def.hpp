@@ -12,7 +12,7 @@ class TOPNodeTags;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::TOPNodeTags);
 // Type: HoudiniEngineUnity::TOPNodeTags
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::TOPNodeTags*
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__show(bool value);
 
-  /// @brief Method .ctor, addr 0x25ab7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e7144, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field _autoload, offset: 0x11, size: 0x1, def value: None
   bool ____autoload;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11713 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

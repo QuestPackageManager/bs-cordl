@@ -18,7 +18,7 @@ struct BMPAlloc;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UIR::BMPAlloc);
 // Type: UnityEngine.UIElements.UIR::BMPAlloc
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements.UIR::BMPAlloc
@@ -26,15 +26,15 @@ struct CORDL_TYPE BMPAlloc {
 public:
   // Declarations
   /// @brief Field Invalid, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Invalid, put = setStaticF_Invalid))::UnityEngine::UIElements::UIR::BMPAlloc Invalid;
+  static __declspec(property(get = getStaticF_Invalid, put = setStaticF_Invalid)) ::UnityEngine::UIElements::UIR::BMPAlloc Invalid;
 
-  /// @brief Method Equals, addr 0x361e0a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x4935970, size 0x38, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UIR::BMPAlloc other);
 
-  /// @brief Method IsValid, addr 0x361e0d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x493354c, size 0x10, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method ToString, addr 0x361e0e8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x49359a8, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_Invalid();
@@ -60,6 +60,9 @@ public:
 
   /// @brief Field ownedState, offset: 0x7, size: 0x1, def value: None
   ::UnityEngine::UIElements::UIR::OwnedState ownedState;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6369 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

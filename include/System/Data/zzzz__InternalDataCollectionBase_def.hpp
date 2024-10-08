@@ -38,7 +38,7 @@ class InternalDataCollectionBase;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::InternalDataCollectionBase);
 // Type: System.Data::InternalDataCollectionBase
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::InternalDataCollectionBase*
@@ -49,12 +49,12 @@ public:
 
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
-  __declspec(property(get = get_List))::System::Collections::ArrayList* List;
+  __declspec(property(get = get_List)) ::System::Collections::ArrayList* List;
 
-  __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
+  __declspec(property(get = get_SyncRoot)) ::System::Object* SyncRoot;
 
   /// @brief Field s_refreshEventArgs, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_refreshEventArgs, put = setStaticF_s_refreshEventArgs))::System::ComponentModel::CollectionChangeEventArgs* s_refreshEventArgs;
+  static __declspec(property(get = getStaticF_s_refreshEventArgs, put = setStaticF_s_refreshEventArgs)) ::System::ComponentModel::CollectionChangeEventArgs* s_refreshEventArgs;
 
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
@@ -62,32 +62,32 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x2ca6f60, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x40dd6e4, size 0x48, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* ar, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x2ca6fa8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x40dd72c, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method NamesEqual, addr 0x2ca6fdc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method NamesEqual, addr 0x40dd760, size 0xac, virtual false, abstract: false, final false
   inline int32_t NamesEqual(::StringW s1, ::StringW s2, bool fCaseSensitive, ::System::Globalization::CultureInfo* locale);
 
   static inline ::System::Data::InternalDataCollectionBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ca7094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40dd818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ComponentModel::CollectionChangeEventArgs* getStaticF_s_refreshEventArgs();
 
-  /// @brief Method get_Count, addr 0x2ca6f34, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x40dd6b8, size 0x2c, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x2ca6fd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x40dd758, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_List, addr 0x2ca708c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_List, addr 0x40dd810, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* get_List();
 
-  /// @brief Method get_SyncRoot, addr 0x2ca7088, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x40dd80c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -111,6 +111,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InternalDataCollectionBase", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InternalDataCollectionBase(InternalDataCollectionBase const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11323 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

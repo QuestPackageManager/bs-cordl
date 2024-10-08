@@ -32,7 +32,7 @@ struct PoseState;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::XR::PoseState);
 // Type: UnityEngine.InputSystem.XR::PoseState
-// SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
+// SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.XR::PoseState
@@ -41,27 +41,27 @@ struct CORDL_TYPE PoseState {
 public:
   // Declarations
   /// @brief Field angularVelocity, offset 0x30, size 0xc
-  __declspec(property(get = __cordl_internal_get_angularVelocity, put = __cordl_internal_set_angularVelocity))::UnityEngine::Vector3 angularVelocity;
+  __declspec(property(get = __cordl_internal_get_angularVelocity, put = __cordl_internal_set_angularVelocity)) ::UnityEngine::Vector3 angularVelocity;
 
-  __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
+  __declspec(property(get = get_format)) ::UnityEngine::InputSystem::Utilities::FourCC format;
 
   /// @brief Field isTracked, offset 0x0, size 0x1
   __declspec(property(get = __cordl_internal_get_isTracked, put = __cordl_internal_set_isTracked)) bool isTracked;
 
   /// @brief Field position, offset 0x8, size 0xc
-  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector3 position;
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) ::UnityEngine::Vector3 position;
 
   /// @brief Field rotation, offset 0x14, size 0x10
-  __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation))::UnityEngine::Quaternion rotation;
+  __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation)) ::UnityEngine::Quaternion rotation;
 
   /// @brief Field s_Format, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_Format, put = setStaticF_s_Format))::UnityEngine::InputSystem::Utilities::FourCC s_Format;
+  static __declspec(property(get = getStaticF_s_Format, put = setStaticF_s_Format)) ::UnityEngine::InputSystem::Utilities::FourCC s_Format;
 
   /// @brief Field trackingState, offset 0x4, size 0x4
-  __declspec(property(get = __cordl_internal_get_trackingState, put = __cordl_internal_set_trackingState))::UnityEngine::XR::InputTrackingState trackingState;
+  __declspec(property(get = __cordl_internal_get_trackingState, put = __cordl_internal_set_trackingState)) ::UnityEngine::XR::InputTrackingState trackingState;
 
   /// @brief Field velocity, offset 0x24, size 0xc
-  __declspec(property(get = __cordl_internal_get_velocity, put = __cordl_internal_set_velocity))::UnityEngine::Vector3 velocity;
+  __declspec(property(get = __cordl_internal_get_velocity, put = __cordl_internal_set_velocity)) ::UnityEngine::Vector3 velocity;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
@@ -102,13 +102,13 @@ public:
 
   constexpr void __cordl_internal_set_velocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3169240, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x456ca94, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool isTracked, ::UnityEngine::XR::InputTrackingState trackingState, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 velocity,
                     ::UnityEngine::Vector3 angularVelocity);
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_s_Format();
 
-  /// @brief Method get_format, addr 0x31691e8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x456ca3c, size 0x58, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -217,6 +217,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6695 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };
 

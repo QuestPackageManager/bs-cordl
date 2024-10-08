@@ -13,17 +13,17 @@ class AssertionException;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Assertions::AssertionException);
 // Type: UnityEngine.Assertions::AssertionException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Assertions {
 // Is value type: false
 // CS Name: ::UnityEngine.Assertions::AssertionException*
 class CORDL_TYPE AssertionException : public ::System::Exception {
 public:
   // Declarations
-  __declspec(property(get = get_Message))::StringW Message;
+  __declspec(property(get = get_Message)) ::StringW Message;
 
   /// @brief Field m_UserMessage, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_UserMessage, put = __cordl_internal_set_m_UserMessage))::StringW m_UserMessage;
+  __declspec(property(get = __cordl_internal_get_m_UserMessage, put = __cordl_internal_set_m_UserMessage)) ::StringW m_UserMessage;
 
   static inline ::UnityEngine::Assertions::AssertionException* New_ctor(::StringW message, ::StringW userMessage);
 
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_m_UserMessage(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3460474, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485985c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW userMessage);
 
-  /// @brief Method get_Message, addr 0x3460b88, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x485a164, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field m_UserMessage, offset: 0x90, size: 0x8, def value: None
   ::StringW ___m_UserMessage;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11282 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

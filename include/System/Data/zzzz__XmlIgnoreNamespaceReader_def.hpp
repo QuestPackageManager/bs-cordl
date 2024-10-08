@@ -20,7 +20,7 @@ class XmlIgnoreNamespaceReader;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::XmlIgnoreNamespaceReader);
 // Type: System.Data::XmlIgnoreNamespaceReader
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::XmlIgnoreNamespaceReader*
@@ -28,12 +28,12 @@ class CORDL_TYPE XmlIgnoreNamespaceReader : public ::System::Xml::XmlNodeReader 
 public:
   // Declarations
   /// @brief Field _namespacesToIgnore, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__namespacesToIgnore, put = __cordl_internal_set__namespacesToIgnore))::System::Collections::Generic::List_1<::StringW>* _namespacesToIgnore;
+  __declspec(property(get = __cordl_internal_get__namespacesToIgnore, put = __cordl_internal_set__namespacesToIgnore)) ::System::Collections::Generic::List_1<::StringW>* _namespacesToIgnore;
 
-  /// @brief Method MoveToFirstAttribute, addr 0x2d2d024, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method MoveToFirstAttribute, addr 0x412b2d4, size 0x110, virtual true, abstract: false, final false
   inline bool MoveToFirstAttribute();
 
-  /// @brief Method MoveToNextAttribute, addr 0x2d2d134, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method MoveToNextAttribute, addr 0x412b3e4, size 0x10c, virtual true, abstract: false, final false
   inline bool MoveToNextAttribute();
 
   static inline ::System::Data::XmlIgnoreNamespaceReader* New_ctor(::System::Xml::XmlDocument* xdoc, ::ArrayW<::StringW, ::Array<::StringW>*> namespacesToIgnore);
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__namespacesToIgnore(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x2d2cf8c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x412b23c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocument* xdoc, ::ArrayW<::StringW, ::Array<::StringW>*> namespacesToIgnore);
 
 protected:
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field _namespacesToIgnore, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____namespacesToIgnore;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11438 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

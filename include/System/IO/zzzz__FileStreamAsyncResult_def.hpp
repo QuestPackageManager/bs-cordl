@@ -28,16 +28,16 @@ class FileStreamAsyncResult;
 // Write type traits
 MARK_REF_PTR_T(::System::IO::FileStreamAsyncResult);
 // Type: System.IO::FileStreamAsyncResult
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
 // CS Name: ::System.IO::FileStreamAsyncResult*
 class CORDL_TYPE FileStreamAsyncResult : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AsyncState))::System::Object* AsyncState;
+  __declspec(property(get = get_AsyncState)) ::System::Object* AsyncState;
 
-  __declspec(property(get = get_AsyncWaitHandle))::System::Threading::WaitHandle* AsyncWaitHandle;
+  __declspec(property(get = get_AsyncWaitHandle)) ::System::Threading::WaitHandle* AsyncWaitHandle;
 
   /// @brief Field BytesRead, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_BytesRead, put = __cordl_internal_set_BytesRead)) int32_t BytesRead;
@@ -53,7 +53,7 @@ public:
   __declspec(property(get = __cordl_internal_get_OriginalCount, put = __cordl_internal_set_OriginalCount)) int32_t OriginalCount;
 
   /// @brief Field cb, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_cb, put = __cordl_internal_set_cb))::System::AsyncCallback* cb;
+  __declspec(property(get = __cordl_internal_get_cb, put = __cordl_internal_set_cb)) ::System::AsyncCallback* cb;
 
   /// @brief Field completed, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_completed, put = __cordl_internal_set_completed)) bool completed;
@@ -62,18 +62,18 @@ public:
   __declspec(property(get = __cordl_internal_get_completedSynch, put = __cordl_internal_set_completedSynch)) bool completedSynch;
 
   /// @brief Field realcb, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_realcb, put = __cordl_internal_set_realcb))::System::AsyncCallback* realcb;
+  __declspec(property(get = __cordl_internal_get_realcb, put = __cordl_internal_set_realcb)) ::System::AsyncCallback* realcb;
 
   /// @brief Field state, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Object* state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state)) ::System::Object* state;
 
   /// @brief Field wh, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_wh, put = __cordl_internal_set_wh))::System::Threading::ManualResetEvent* wh;
+  __declspec(property(get = __cordl_internal_get_wh, put = __cordl_internal_set_wh)) ::System::Threading::ManualResetEvent* wh;
 
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
-  /// @brief Method CBWrapper, addr 0x28f196c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CBWrapper, addr 0x3d083f0, size 0x94, virtual false, abstract: false, final false
   static inline void CBWrapper(::System::IAsyncResult* ares);
 
   static inline ::System::IO::FileStreamAsyncResult* New_ctor(::System::AsyncCallback* cb, ::System::Object* state);
@@ -132,19 +132,19 @@ public:
 
   constexpr void __cordl_internal_set_wh(::System::Threading::ManualResetEvent* value);
 
-  /// @brief Method .ctor, addr 0x28f1894, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d08324, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method get_AsyncState, addr 0x28f1a00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x3d08484, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x28f1a10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x3d08494, size 0x8, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x28f1a08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x3d0848c, size 0x8, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x28f1a18, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x3d0849c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IAsyncResult"
@@ -190,6 +190,9 @@ public:
 
   /// @brief Field realcb, offset: 0x40, size: 0x8, def value: None
   ::System::AsyncCallback* ___realcb;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3634 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -27,7 +27,7 @@ class EncodingTable;
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::EncodingTable);
 // Type: System.Globalization::EncodingTable
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::EncodingTable*
@@ -36,35 +36,37 @@ public:
   // Declarations
   /// @brief Field codePageDataPtr, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_codePageDataPtr,
-                             put = setStaticF_codePageDataPtr))::ArrayW<::System::Globalization::InternalCodePageDataItem, ::Array<::System::Globalization::InternalCodePageDataItem>*> codePageDataPtr;
+                             put = setStaticF_codePageDataPtr)) ::ArrayW<::System::Globalization::InternalCodePageDataItem, ::Array<::System::Globalization::InternalCodePageDataItem>*>
+      codePageDataPtr;
 
   /// @brief Field encodingDataPtr, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_encodingDataPtr,
-                             put = setStaticF_encodingDataPtr))::ArrayW<::System::Globalization::InternalEncodingDataItem, ::Array<::System::Globalization::InternalEncodingDataItem>*> encodingDataPtr;
+                             put = setStaticF_encodingDataPtr)) ::ArrayW<::System::Globalization::InternalEncodingDataItem, ::Array<::System::Globalization::InternalEncodingDataItem>*>
+      encodingDataPtr;
 
   /// @brief Field hashByCodePage, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_hashByCodePage,
-                             put = setStaticF_hashByCodePage))::System::Collections::Generic::Dictionary_2<int32_t, ::System::Globalization::CodePageDataItem*>* hashByCodePage;
+                             put = setStaticF_hashByCodePage)) ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Globalization::CodePageDataItem*>* hashByCodePage;
 
   /// @brief Field hashByName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_hashByName, put = setStaticF_hashByName))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* hashByName;
+  static __declspec(property(get = getStaticF_hashByName, put = setStaticF_hashByName)) ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* hashByName;
 
   /// @brief Field lastEncodingItem, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_lastEncodingItem, put = setStaticF_lastEncodingItem)) int32_t lastEncodingItem;
 
-  /// @brief Method ENC, addr 0x291f8b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ENC, addr 0x3d331f4, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Globalization::InternalEncodingDataItem ENC(::StringW name, uint16_t cp);
 
-  /// @brief Method GetCodePageDataItem, addr 0x292527c, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method GetCodePageDataItem, addr 0x3d38bac, size 0x2bc, virtual false, abstract: false, final false
   static inline ::System::Globalization::CodePageDataItem* GetCodePageDataItem(int32_t codepage);
 
-  /// @brief Method GetCodePageFromName, addr 0x2924ff8, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method GetCodePageFromName, addr 0x3d38930, size 0x27c, virtual false, abstract: false, final false
   static inline int32_t GetCodePageFromName(::StringW name);
 
-  /// @brief Method GetNumEncodingItems, addr 0x291f84c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetNumEncodingItems, addr 0x3d33190, size 0x64, virtual false, abstract: false, final false
   static inline int32_t GetNumEncodingItems();
 
-  /// @brief Method MapCodePageDataItem, addr 0x291f8b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MapCodePageDataItem, addr 0x3d331fc, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Globalization::InternalCodePageDataItem MapCodePageDataItem(uint16_t cp, uint16_t fcp, ::StringW names, uint32_t flags);
 
   static inline ::ArrayW<::System::Globalization::InternalCodePageDataItem, ::Array<::System::Globalization::InternalCodePageDataItem>*> getStaticF_codePageDataPtr();
@@ -77,7 +79,7 @@ public:
 
   static inline int32_t getStaticF_lastEncodingItem();
 
-  /// @brief Method internalGetCodePageFromName, addr 0x2924d84, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method internalGetCodePageFromName, addr 0x3d386c0, size 0x250, virtual false, abstract: false, final false
   static inline int32_t internalGetCodePageFromName(::StringW name);
 
   static inline void setStaticF_codePageDataPtr(::ArrayW<::System::Globalization::InternalCodePageDataItem, ::Array<::System::Globalization::InternalCodePageDataItem>*> value);
@@ -103,6 +105,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "EncodingTable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   EncodingTable(EncodingTable const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3721 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

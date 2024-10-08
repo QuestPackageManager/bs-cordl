@@ -48,7 +48,7 @@ class ChannelServices;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::ChannelServices);
 // Type: System.Runtime.Remoting.Channels::ChannelServices
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Channels::ChannelServices*
@@ -56,54 +56,54 @@ class CORDL_TYPE ChannelServices : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CrossContextUrl, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CrossContextUrl, put = setStaticF_CrossContextUrl))::StringW CrossContextUrl;
+  static __declspec(property(get = getStaticF_CrossContextUrl, put = setStaticF_CrossContextUrl)) ::StringW CrossContextUrl;
 
   /// @brief Field _crossContextSink, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__crossContextSink, put = setStaticF__crossContextSink))::System::Runtime::Remoting::Contexts::CrossContextChannel* _crossContextSink;
+  static __declspec(property(get = getStaticF__crossContextSink, put = setStaticF__crossContextSink)) ::System::Runtime::Remoting::Contexts::CrossContextChannel* _crossContextSink;
 
   /// @brief Field delayedClientChannels, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_delayedClientChannels, put = setStaticF_delayedClientChannels))::System::Collections::ArrayList* delayedClientChannels;
+  static __declspec(property(get = getStaticF_delayedClientChannels, put = setStaticF_delayedClientChannels)) ::System::Collections::ArrayList* delayedClientChannels;
 
   /// @brief Field oldStartModeTypes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_oldStartModeTypes, put = setStaticF_oldStartModeTypes))::System::Collections::IList* oldStartModeTypes;
+  static __declspec(property(get = getStaticF_oldStartModeTypes, put = setStaticF_oldStartModeTypes)) ::System::Collections::IList* oldStartModeTypes;
 
   /// @brief Field registeredChannels, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_registeredChannels, put = setStaticF_registeredChannels))::System::Collections::ArrayList* registeredChannels;
+  static __declspec(property(get = getStaticF_registeredChannels, put = setStaticF_registeredChannels)) ::System::Collections::ArrayList* registeredChannels;
 
-  /// @brief Method CheckIncomingMessage, addr 0x284f788, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method CheckIncomingMessage, addr 0x3c6c44c, size 0x29c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::ReturnMessage* CheckIncomingMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method CheckReturnMessage, addr 0x284fa2c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method CheckReturnMessage, addr 0x3c6c6e8, size 0x1c8, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::IMessage* CheckReturnMessage(::System::Runtime::Remoting::Messaging::IMessage* callMsg,
                                                                                      ::System::Runtime::Remoting::Messaging::IMessage* retMsg);
 
-  /// @brief Method CreateClientChannelSinkChain, addr 0x284dd2c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method CreateClientChannelSinkChain, addr 0x3c6aa0c, size 0x210, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::IMessageSink* CreateClientChannelSinkChain(::System::Runtime::Remoting::Channels::IChannelSender* sender, ::StringW url,
                                                                                                    ::ArrayW<::System::Object*, ::Array<::System::Object*>*> channelDataArray,
                                                                                                    ByRef<::StringW> objectUri);
 
-  /// @brief Method CreateClientChannelSinkChain, addr 0x2840290, size 0x87c, virtual false, abstract: false, final false
+  /// @brief Method CreateClientChannelSinkChain, addr 0x3c5d384, size 0x894, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::IMessageSink* CreateClientChannelSinkChain(::StringW url, ::System::Object* remoteChannelData, ByRef<::StringW> objectUri);
 
-  /// @brief Method CreateProvider, addr 0x284f3cc, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method CreateProvider, addr 0x3c6c0b0, size 0x2f8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateProvider(::System::Runtime::Remoting::ProviderData* prov);
 
-  /// @brief Method GetCurrentChannelInfo, addr 0x284fc08, size 0x500, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentChannelInfo, addr 0x3c6c8b8, size 0x508, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCurrentChannelInfo();
 
-  /// @brief Method IsLocalCall, addr 0x284fc00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsLocalCall, addr 0x3c6c8b0, size 0x8, virtual false, abstract: false, final false
   static inline bool IsLocalCall(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
 
-  /// @brief Method RegisterChannel, addr 0x284df34, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RegisterChannel, addr 0x3c6ac1c, size 0x58, virtual false, abstract: false, final false
   static inline void RegisterChannel(::System::Runtime::Remoting::Channels::IChannel* chnl);
 
-  /// @brief Method RegisterChannel, addr 0x284df8c, size 0x878, virtual false, abstract: false, final false
+  /// @brief Method RegisterChannel, addr 0x3c6ac74, size 0x85c, virtual false, abstract: false, final false
   static inline void RegisterChannel(::System::Runtime::Remoting::Channels::IChannel* chnl, bool ensureSecurity);
 
-  /// @brief Method RegisterChannelConfig, addr 0x284e804, size 0xbc8, virtual false, abstract: false, final false
+  /// @brief Method RegisterChannelConfig, addr 0x3c6b4d0, size 0xbe0, virtual false, abstract: false, final false
   static inline void RegisterChannelConfig(::System::Runtime::Remoting::ChannelData* channel);
 
-  /// @brief Method SyncDispatchMessage, addr 0x284f6e0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SyncDispatchMessage, addr 0x3c6c3a8, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::IMessage* SyncDispatchMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   static inline ::StringW getStaticF_CrossContextUrl();
@@ -116,7 +116,7 @@ public:
 
   static inline ::System::Collections::ArrayList* getStaticF_registeredChannels();
 
-  /// @brief Method get_CrossContextChannel, addr 0x284dcd4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_CrossContextChannel, addr 0x3c6a9b4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Contexts::CrossContextChannel* get_CrossContextChannel();
 
   static inline void setStaticF_CrossContextUrl(::StringW value);
@@ -142,6 +142,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ChannelServices", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ChannelServices(ChannelServices const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3113 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

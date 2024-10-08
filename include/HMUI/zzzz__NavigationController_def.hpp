@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::HMUI::NavigationController);
 MARK_REF_PTR_T(::HMUI::__NavigationController____c__DisplayClass10_0);
 MARK_REF_PTR_T(::HMUI::__NavigationController____c__DisplayClass8_0);
 // Type: ::Orientation
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
 // CS Name: ::NavigationController::Orientation
@@ -102,6 +102,9 @@ public:
   /// @brief Field Vertical value: static_cast<int32_t>(0x1)
   static ::HMUI::__NavigationController__Orientation const Vertical;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16752 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -114,7 +117,7 @@ static_assert(offsetof(::HMUI::__NavigationController__Orientation, value__) == 
 
 } // namespace HMUI
 // Type: ::Alignment
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
 // CS Name: ::NavigationController::Alignment
@@ -159,6 +162,9 @@ public:
   /// @brief Field Middle value: static_cast<int32_t>(0x1)
   static ::HMUI::__NavigationController__Alignment const Middle;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16753 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -170,100 +176,8 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__NavigationController__Al
 static_assert(offsetof(::HMUI::__NavigationController__Alignment, value__) == 0x0, "Offset mismatch!");
 
 } // namespace HMUI
-// Type: ::<>c__DisplayClass8_0
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace HMUI {
-// Is value type: false
-// CS Name: ::NavigationController::<>c__DisplayClass8_0*
-class CORDL_TYPE __NavigationController____c__DisplayClass8_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::HMUI::NavigationController> __4__this;
-
-  /// @brief Field endPositions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_endPositions, put = __cordl_internal_set_endPositions))::ArrayW<float_t, ::Array<float_t>*> endPositions;
-
-  /// @brief Field startPositions, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_startPositions, put = __cordl_internal_set_startPositions))::ArrayW<float_t, ::Array<float_t>*> startPositions;
-
-  /// @brief Field viewController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_viewController, put = __cordl_internal_set_viewController))::UnityW<::HMUI::ViewController> viewController;
-
-  static inline ::HMUI::__NavigationController____c__DisplayClass8_0* New_ctor();
-
-  /// @brief Method <PushViewController>g__AnimationLayouter|0, addr 0x253b680, size 0x2a8, virtual false, abstract: false, final false
-  inline void _PushViewController_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers);
-
-  constexpr ::UnityW<::HMUI::NavigationController> const& __cordl_internal_get___4__this() const;
-
-  constexpr ::UnityW<::HMUI::NavigationController>& __cordl_internal_get___4__this();
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_endPositions() const;
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_endPositions();
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_startPositions() const;
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_startPositions();
-
-  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_viewController() const;
-
-  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_viewController();
-
-  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::NavigationController> value);
-
-  constexpr void __cordl_internal_set_endPositions(::ArrayW<float_t, ::Array<float_t>*> value);
-
-  constexpr void __cordl_internal_set_startPositions(::ArrayW<float_t, ::Array<float_t>*> value);
-
-  constexpr void __cordl_internal_set_viewController(::UnityW<::HMUI::ViewController> value);
-
-  /// @brief Method .ctor, addr 0x253b3d0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __NavigationController____c__DisplayClass8_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NavigationController____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __NavigationController____c__DisplayClass8_0(__NavigationController____c__DisplayClass8_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__NavigationController____c__DisplayClass8_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __NavigationController____c__DisplayClass8_0(__NavigationController____c__DisplayClass8_0 const&) = delete;
-
-  /// @brief Field startPositions, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<float_t, ::Array<float_t>*> ___startPositions;
-
-  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::HMUI::NavigationController> _____4__this;
-
-  /// @brief Field viewController, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::HMUI::ViewController> ___viewController;
-
-  /// @brief Field endPositions, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<float_t, ::Array<float_t>*> ___endPositions;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::__NavigationController____c__DisplayClass8_0, 0x30>, "Size mismatch!");
-
-static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass8_0, ___startPositions) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass8_0, _____4__this) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass8_0, ___viewController) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass8_0, ___endPositions) == 0x28, "Offset mismatch!");
-
-} // namespace HMUI
 // Type: ::<>c__DisplayClass10_0
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::NavigationController::<>c__DisplayClass10_0*
@@ -271,20 +185,20 @@ class CORDL_TYPE __NavigationController____c__DisplayClass10_0 : public ::System
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::HMUI::NavigationController> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::NavigationController> __4__this;
 
   /// @brief Field endPositions, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_endPositions, put = __cordl_internal_set_endPositions))::ArrayW<float_t, ::Array<float_t>*> endPositions;
+  __declspec(property(get = __cordl_internal_get_endPositions, put = __cordl_internal_set_endPositions)) ::ArrayW<float_t, ::Array<float_t>*> endPositions;
 
   /// @brief Field moveOffset, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_moveOffset, put = __cordl_internal_set_moveOffset)) float_t moveOffset;
 
   /// @brief Field startPositions, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_startPositions, put = __cordl_internal_set_startPositions))::ArrayW<float_t, ::Array<float_t>*> startPositions;
+  __declspec(property(get = __cordl_internal_get_startPositions, put = __cordl_internal_set_startPositions)) ::ArrayW<float_t, ::Array<float_t>*> startPositions;
 
   static inline ::HMUI::__NavigationController____c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x253b928, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x224af6c, size 0x278, virtual false, abstract: false, final false
   inline void _PopViewControllers_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers,
                                                          ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* removingViewControllers);
 
@@ -312,7 +226,7 @@ public:
 
   constexpr void __cordl_internal_set_startPositions(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x253b5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224aec4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -341,6 +255,9 @@ public:
   /// @brief Field moveOffset, offset: 0x28, size: 0x4, def value: None
   float_t ___moveOffset;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16754 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -355,8 +272,103 @@ static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass10_0, __
 static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass10_0, ___moveOffset) == 0x28, "Offset mismatch!");
 
 } // namespace HMUI
+// Type: ::<>c__DisplayClass8_0
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace HMUI {
+// Is value type: false
+// CS Name: ::NavigationController::<>c__DisplayClass8_0*
+class CORDL_TYPE __NavigationController____c__DisplayClass8_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>4__this, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::NavigationController> __4__this;
+
+  /// @brief Field endPositions, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_endPositions, put = __cordl_internal_set_endPositions)) ::ArrayW<float_t, ::Array<float_t>*> endPositions;
+
+  /// @brief Field startPositions, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_startPositions, put = __cordl_internal_set_startPositions)) ::ArrayW<float_t, ::Array<float_t>*> startPositions;
+
+  /// @brief Field viewController, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_viewController, put = __cordl_internal_set_viewController)) ::UnityW<::HMUI::ViewController> viewController;
+
+  static inline ::HMUI::__NavigationController____c__DisplayClass8_0* New_ctor();
+
+  /// @brief Method <PushViewController>g__AnimationLayouter|0, addr 0x224b1e4, size 0x290, virtual false, abstract: false, final false
+  inline void _PushViewController_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers);
+
+  constexpr ::UnityW<::HMUI::NavigationController> const& __cordl_internal_get___4__this() const;
+
+  constexpr ::UnityW<::HMUI::NavigationController>& __cordl_internal_get___4__this();
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_endPositions() const;
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_endPositions();
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_startPositions() const;
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_startPositions();
+
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_viewController() const;
+
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_viewController();
+
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::NavigationController> value);
+
+  constexpr void __cordl_internal_set_endPositions(::ArrayW<float_t, ::Array<float_t>*> value);
+
+  constexpr void __cordl_internal_set_startPositions(::ArrayW<float_t, ::Array<float_t>*> value);
+
+  constexpr void __cordl_internal_set_viewController(::UnityW<::HMUI::ViewController> value);
+
+  /// @brief Method .ctor, addr 0x224aebc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __NavigationController____c__DisplayClass8_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__NavigationController____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __NavigationController____c__DisplayClass8_0(__NavigationController____c__DisplayClass8_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__NavigationController____c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __NavigationController____c__DisplayClass8_0(__NavigationController____c__DisplayClass8_0 const&) = delete;
+
+  /// @brief Field startPositions, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<float_t, ::Array<float_t>*> ___startPositions;
+
+  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
+  ::UnityW<::HMUI::NavigationController> _____4__this;
+
+  /// @brief Field viewController, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::HMUI::ViewController> ___viewController;
+
+  /// @brief Field endPositions, offset: 0x28, size: 0x8, def value: None
+  ::ArrayW<float_t, ::Array<float_t>*> ___endPositions;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16755 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::HMUI::__NavigationController____c__DisplayClass8_0, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass8_0, ___startPositions) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass8_0, _____4__this) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass8_0, ___viewController) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::__NavigationController____c__DisplayClass8_0, ___endPositions) == 0x28, "Offset mismatch!");
+
+} // namespace HMUI
 // Type: HMUI::NavigationController
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::NavigationController*
@@ -371,43 +383,43 @@ public:
 
   using __c__DisplayClass8_0 = ::HMUI::__NavigationController____c__DisplayClass8_0;
 
-  /// @brief Field _alignment, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get__alignment, put = __cordl_internal_set__alignment))::HMUI::__NavigationController__Alignment _alignment;
+  /// @brief Field _alignment, offset 0x90, size 0x4
+  __declspec(property(get = __cordl_internal_get__alignment, put = __cordl_internal_set__alignment)) ::HMUI::__NavigationController__Alignment _alignment;
 
-  /// @brief Field _edgeSize, offset 0x8c, size 0x4
+  /// @brief Field _edgeSize, offset 0x94, size 0x4
   __declspec(property(get = __cordl_internal_get__edgeSize, put = __cordl_internal_set__edgeSize)) float_t _edgeSize;
 
-  /// @brief Field _orientation, offset 0x80, size 0x4
-  __declspec(property(get = __cordl_internal_get__orientation, put = __cordl_internal_set__orientation))::HMUI::__NavigationController__Orientation _orientation;
+  /// @brief Field _orientation, offset 0x88, size 0x4
+  __declspec(property(get = __cordl_internal_get__orientation, put = __cordl_internal_set__orientation)) ::HMUI::__NavigationController__Orientation _orientation;
 
-  /// @brief Field _reversedStacking, offset 0x84, size 0x1
+  /// @brief Field _reversedStacking, offset 0x8c, size 0x1
   __declspec(property(get = __cordl_internal_get__reversedStacking, put = __cordl_internal_set__reversedStacking)) bool _reversedStacking;
 
-  /// @brief Field _viewControllersSeparator, offset 0x90, size 0x4
+  /// @brief Field _viewControllersSeparator, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get__viewControllersSeparator, put = __cordl_internal_set__viewControllersSeparator)) float_t _viewControllersSeparator;
 
-  /// @brief Method GetNewPositionsForViewControllers, addr 0x253adb0, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method GetNewPositionsForViewControllers, addr 0x224a9e8, size 0x488, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetNewPositionsForViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers,
                                                                                 ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* fixedViewControllers, float_t fixedEndPos);
 
-  /// @brief Method LayoutViewControllers, addr 0x253ac98, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method LayoutViewControllers, addr 0x224a8d0, size 0x118, virtual true, abstract: false, final false
   inline void LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers);
 
   static inline ::HMUI::NavigationController* New_ctor();
 
-  /// @brief Method PopViewController, addr 0x253b3d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method PopViewController, addr 0x2248f30, size 0x14, virtual false, abstract: false, final false
   inline void PopViewController(::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PopViewControllers, addr 0x253b3ec, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method PopViewControllers, addr 0x2249074, size 0x1e0, virtual false, abstract: false, final false
   inline void PopViewControllers(int32_t numberOfViewControllersToPop, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PositionVector, addr 0x253b2d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method PositionVector, addr 0x224ae9c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 PositionVector(float_t pos);
 
-  /// @brief Method PushViewController, addr 0x253b2f0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method PushViewController, addr 0x2248cfc, size 0xd8, virtual false, abstract: false, final false
   inline void PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method SetupViewControllerRect, addr 0x253b2a4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetupViewControllerRect, addr 0x224ae70, size 0x2c, virtual false, abstract: false, final false
   inline void SetupViewControllerRect(::HMUI::ViewController* viewController);
 
   constexpr ::HMUI::__NavigationController__Alignment const& __cordl_internal_get__alignment() const;
@@ -440,7 +452,7 @@ public:
 
   constexpr void __cordl_internal_set__viewControllersSeparator(float_t value);
 
-  /// @brief Method .ctor, addr 0x253b670, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224af60, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -457,35 +469,38 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NavigationController(NavigationController const&) = delete;
 
-  /// @brief Field _orientation, offset: 0x80, size: 0x4, def value: None
+  /// @brief Field _orientation, offset: 0x88, size: 0x4, def value: None
   ::HMUI::__NavigationController__Orientation ____orientation;
 
-  /// @brief Field _reversedStacking, offset: 0x84, size: 0x1, def value: None
+  /// @brief Field _reversedStacking, offset: 0x8c, size: 0x1, def value: None
   bool ____reversedStacking;
 
-  /// @brief Field _alignment, offset: 0x88, size: 0x4, def value: None
+  /// @brief Field _alignment, offset: 0x90, size: 0x4, def value: None
   ::HMUI::__NavigationController__Alignment ____alignment;
 
-  /// @brief Field _edgeSize, offset: 0x8c, size: 0x4, def value: None
+  /// @brief Field _edgeSize, offset: 0x94, size: 0x4, def value: None
   float_t ____edgeSize;
 
-  /// @brief Field _viewControllersSeparator, offset: 0x90, size: 0x4, def value: None
+  /// @brief Field _viewControllersSeparator, offset: 0x98, size: 0x4, def value: None
   float_t ____viewControllersSeparator;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16756 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::NavigationController, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::NavigationController, 0xa0>, "Size mismatch!");
 
-static_assert(offsetof(::HMUI::NavigationController, ____orientation) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::HMUI::NavigationController, ____orientation) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::NavigationController, ____reversedStacking) == 0x84, "Offset mismatch!");
+static_assert(offsetof(::HMUI::NavigationController, ____reversedStacking) == 0x8c, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::NavigationController, ____alignment) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::HMUI::NavigationController, ____alignment) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::NavigationController, ____edgeSize) == 0x8c, "Offset mismatch!");
+static_assert(offsetof(::HMUI::NavigationController, ____edgeSize) == 0x94, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::NavigationController, ____viewControllersSeparator) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::HMUI::NavigationController, ____viewControllersSeparator) == 0x98, "Offset mismatch!");
 
 } // namespace HMUI
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::__NavigationController__Alignment, "HMUI", "NavigationController/Alignment");

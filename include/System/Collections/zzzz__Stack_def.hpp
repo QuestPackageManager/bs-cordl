@@ -46,23 +46,23 @@ MARK_REF_PTR_T(::System::Collections::Stack);
 MARK_REF_PTR_T(::System::Collections::__Stack__StackDebugView);
 MARK_REF_PTR_T(::System::Collections::__Stack__StackEnumerator);
 // Type: ::StackEnumerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
 // CS Name: ::Stack::StackEnumerator*
 class CORDL_TYPE __Stack__StackEnumerator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Current))::System::Object* Current;
+  __declspec(property(get = get_Current)) ::System::Object* Current;
 
   /// @brief Field _currentElement, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentElement, put = __cordl_internal_set__currentElement))::System::Object* _currentElement;
+  __declspec(property(get = __cordl_internal_get__currentElement, put = __cordl_internal_set__currentElement)) ::System::Object* _currentElement;
 
   /// @brief Field _index, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   /// @brief Field _stack, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack))::System::Collections::Stack* _stack;
+  __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack)) ::System::Collections::Stack* _stack;
 
   /// @brief Field _version, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
@@ -73,15 +73,15 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x2936d64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3d4a3b4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method MoveNext, addr 0x2936d6c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x3d4a3bc, size 0x108, virtual true, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Collections::__Stack__StackEnumerator* New_ctor(::System::Collections::Stack* stack);
 
-  /// @brief Method Reset, addr 0x2936ee4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3d4a550, size 0x7c, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Object*& __cordl_internal_get__currentElement();
@@ -108,10 +108,10 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2936b00, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d4a158, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Stack* stack);
 
-  /// @brief Method get_Current, addr 0x2936e50, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x3d4a4c4, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -146,6 +146,9 @@ public:
   /// @brief Field _currentElement, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____currentElement;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3791 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -161,7 +164,7 @@ static_assert(offsetof(::System::Collections::__Stack__StackEnumerator, ____curr
 
 } // namespace System::Collections
 // Type: ::StackDebugView
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
 // CS Name: ::Stack::StackDebugView*
@@ -182,6 +185,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Stack__StackDebugView(__Stack__StackDebugView const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3792 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -189,7 +195,7 @@ static_assert(::cordl_internals::size_check_v<::System::Collections::__Stack__St
 
 } // namespace System::Collections
 // Type: System.Collections::Stack
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
 // CS Name: ::System.Collections::Stack*
@@ -204,16 +210,16 @@ public:
 
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
-  __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
+  __declspec(property(get = get_SyncRoot)) ::System::Object* SyncRoot;
 
   /// @brief Field _array, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> _array;
 
   /// @brief Field _size, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__size, put = __cordl_internal_set__size)) int32_t _size;
 
   /// @brief Field _syncRoot, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot)) ::System::Object* _syncRoot;
 
   /// @brief Field _version, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
@@ -227,29 +233,29 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clear, addr 0x2936728, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x3d49d98, size 0x30, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clone, addr 0x2936758, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x3d49dc8, size 0x90, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method CopyTo, addr 0x29367e8, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3d49e58, size 0x2a8, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x2936aa0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3d4a100, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Collections::Stack* New_ctor();
 
   static inline ::System::Collections::Stack* New_ctor(int32_t initialCapacity);
 
-  /// @brief Method Peek, addr 0x2936b40, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x3d4a198, size 0x84, virtual true, abstract: false, final false
   inline ::System::Object* Peek();
 
-  /// @brief Method Pop, addr 0x2936bc8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Pop, addr 0x3d4a21c, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* Pop();
 
-  /// @brief Method Push, addr 0x2936c60, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Push, addr 0x3d4a2b0, size 0x104, virtual true, abstract: false, final false
   inline void Push(::System::Object* obj);
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__array() const;
@@ -276,19 +282,19 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2936578, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d49bf4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x29365d4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d49c50, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity);
 
-  /// @brief Method get_Count, addr 0x29366a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3d49d18, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x29366a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x3d49d20, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x29366b0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x3d49d28, size 0x70, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -325,6 +331,9 @@ public:
 
   /// @brief Field _syncRoot, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3793 };
 
   /// @brief Field _defaultCapacity offset 0xffffffff size 0x4
   static constexpr int32_t _defaultCapacity{ static_cast<int32_t>(0xa) };

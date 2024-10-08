@@ -13,7 +13,7 @@ class AssemblyTrademarkAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::AssemblyTrademarkAttribute);
 // Type: System.Reflection::AssemblyTrademarkAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::AssemblyTrademarkAttribute*
@@ -21,7 +21,7 @@ class CORDL_TYPE AssemblyTrademarkAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <Trademark>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Trademark_k__BackingField, put = __cordl_internal_set__Trademark_k__BackingField))::StringW _Trademark_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Trademark_k__BackingField, put = __cordl_internal_set__Trademark_k__BackingField)) ::StringW _Trademark_k__BackingField;
 
   static inline ::System::Reflection::AssemblyTrademarkAttribute* New_ctor(::StringW trademark);
 
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set__Trademark_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2893b00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cac1f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW trademark);
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field <Trademark>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Trademark_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3457 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

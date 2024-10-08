@@ -19,23 +19,23 @@ struct IndexField;
 // Write type traits
 MARK_VAL_T(::System::Data::IndexField);
 // Type: System.Data::IndexField
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: true
 // CS Name: ::System.Data::IndexField
 struct CORDL_TYPE IndexField {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x2d10878, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x410f3ac, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2d10900, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x410f43c, size 0x80, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x2d10848, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410f380, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column, bool isDescending);
 
-  /// @brief Method op_Equality, addr 0x2d10858, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x410f390, size 0x1c, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Data::IndexField if1, ::System::Data::IndexField if2);
 
   // Ctor Parameters []
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field IsDescending, offset: 0x8, size: 0x1, def value: None
   bool IsDescending;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11421 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

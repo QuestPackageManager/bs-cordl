@@ -13,7 +13,7 @@ struct HAPI_StatusType;
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_StatusType);
 // Type: HoudiniEngineUnity::HAPI_StatusType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HoudiniEngineUnity::HAPI_StatusType
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field HAPI_STATUS_MAX value: static_cast<int32_t>(0x3)
   static ::HoudiniEngineUnity::HAPI_StatusType const HAPI_STATUS_MAX;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11631 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

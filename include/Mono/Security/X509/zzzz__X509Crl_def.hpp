@@ -47,27 +47,27 @@ class __X509Crl__X509CrlEntry;
 MARK_REF_PTR_T(::Mono::Security::X509::X509Crl);
 MARK_REF_PTR_T(::Mono::Security::X509::__X509Crl__X509CrlEntry);
 // Type: ::X509CrlEntry
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
 // CS Name: ::X509Crl::X509CrlEntry*
 class CORDL_TYPE __X509Crl__X509CrlEntry : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Extensions))::Mono::Security::X509::X509ExtensionCollection* Extensions;
+  __declspec(property(get = get_Extensions)) ::Mono::Security::X509::X509ExtensionCollection* Extensions;
 
-  __declspec(property(get = get_RevocationDate))::System::DateTime RevocationDate;
+  __declspec(property(get = get_RevocationDate)) ::System::DateTime RevocationDate;
 
-  __declspec(property(get = get_SerialNumber))::ArrayW<uint8_t, ::Array<uint8_t>*> SerialNumber;
+  __declspec(property(get = get_SerialNumber)) ::ArrayW<uint8_t, ::Array<uint8_t>*> SerialNumber;
 
   /// @brief Field extensions, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::Mono::Security::X509::X509ExtensionCollection* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions)) ::Mono::Security::X509::X509ExtensionCollection* extensions;
 
   /// @brief Field revocationDate, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_revocationDate, put = __cordl_internal_set_revocationDate))::System::DateTime revocationDate;
+  __declspec(property(get = __cordl_internal_get_revocationDate, put = __cordl_internal_set_revocationDate)) ::System::DateTime revocationDate;
 
   /// @brief Field sn, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_sn, put = __cordl_internal_set_sn))::ArrayW<uint8_t, ::Array<uint8_t>*> sn;
+  __declspec(property(get = __cordl_internal_get_sn, put = __cordl_internal_set_sn)) ::ArrayW<uint8_t, ::Array<uint8_t>*> sn;
 
   static inline ::Mono::Security::X509::__X509Crl__X509CrlEntry* New_ctor(::Mono::Security::ASN1* entry);
 
@@ -89,16 +89,16 @@ public:
 
   constexpr void __cordl_internal_set_sn(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x27a430c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc68ac, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* entry);
 
-  /// @brief Method get_Extensions, addr 0x27a4f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x3bc74c0, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
 
-  /// @brief Method get_RevocationDate, addr 0x27a4f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationDate, addr 0x3bc74b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_RevocationDate();
 
-  /// @brief Method get_SerialNumber, addr 0x27a4990, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x3bc6f34, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
 
 protected:
@@ -124,6 +124,9 @@ public:
   /// @brief Field extensions, offset: 0x20, size: 0x8, def value: None
   ::Mono::Security::X509::X509ExtensionCollection* ___extensions;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15877 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -137,7 +140,7 @@ static_assert(offsetof(::Mono::Security::X509::__X509Crl__X509CrlEntry, ___exten
 
 } // namespace Mono::Security::X509
 // Type: Mono.Security.X509::X509Crl
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
 // CS Name: ::Mono.Security.X509::X509Crl*
@@ -146,65 +149,65 @@ public:
   // Declarations
   using X509CrlEntry = ::Mono::Security::X509::__X509Crl__X509CrlEntry;
 
-  __declspec(property(get = get_Extensions))::Mono::Security::X509::X509ExtensionCollection* Extensions;
+  __declspec(property(get = get_Extensions)) ::Mono::Security::X509::X509ExtensionCollection* Extensions;
 
-  __declspec(property(get = get_Hash))::ArrayW<uint8_t, ::Array<uint8_t>*> Hash;
+  __declspec(property(get = get_Hash)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Hash;
 
-  __declspec(property(get = get_IssuerName))::StringW IssuerName;
+  __declspec(property(get = get_IssuerName)) ::StringW IssuerName;
 
-  __declspec(property(get = get_NextUpdate))::System::DateTime NextUpdate;
+  __declspec(property(get = get_NextUpdate)) ::System::DateTime NextUpdate;
 
   /// @brief Field encoded, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_encoded, put = __cordl_internal_set_encoded))::ArrayW<uint8_t, ::Array<uint8_t>*> encoded;
+  __declspec(property(get = __cordl_internal_get_encoded, put = __cordl_internal_set_encoded)) ::ArrayW<uint8_t, ::Array<uint8_t>*> encoded;
 
   /// @brief Field entries, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_entries, put = __cordl_internal_set_entries))::System::Collections::ArrayList* entries;
+  __declspec(property(get = __cordl_internal_get_entries, put = __cordl_internal_set_entries)) ::System::Collections::ArrayList* entries;
 
   /// @brief Field extensions, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::Mono::Security::X509::X509ExtensionCollection* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions)) ::Mono::Security::X509::X509ExtensionCollection* extensions;
 
   /// @brief Field hash_value, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_hash_value, put = __cordl_internal_set_hash_value))::ArrayW<uint8_t, ::Array<uint8_t>*> hash_value;
+  __declspec(property(get = __cordl_internal_get_hash_value, put = __cordl_internal_set_hash_value)) ::ArrayW<uint8_t, ::Array<uint8_t>*> hash_value;
 
   /// @brief Field issuer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_issuer, put = __cordl_internal_set_issuer))::StringW issuer;
+  __declspec(property(get = __cordl_internal_get_issuer, put = __cordl_internal_set_issuer)) ::StringW issuer;
 
   /// @brief Field nextUpdate, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_nextUpdate, put = __cordl_internal_set_nextUpdate))::System::DateTime nextUpdate;
+  __declspec(property(get = __cordl_internal_get_nextUpdate, put = __cordl_internal_set_nextUpdate)) ::System::DateTime nextUpdate;
 
   /// @brief Field signature, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_signature, put = __cordl_internal_set_signature))::ArrayW<uint8_t, ::Array<uint8_t>*> signature;
+  __declspec(property(get = __cordl_internal_get_signature, put = __cordl_internal_set_signature)) ::ArrayW<uint8_t, ::Array<uint8_t>*> signature;
 
   /// @brief Field signatureOID, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_signatureOID, put = __cordl_internal_set_signatureOID))::StringW signatureOID;
+  __declspec(property(get = __cordl_internal_get_signatureOID, put = __cordl_internal_set_signatureOID)) ::StringW signatureOID;
 
   /// @brief Field thisUpdate, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_thisUpdate, put = __cordl_internal_set_thisUpdate))::System::DateTime thisUpdate;
+  __declspec(property(get = __cordl_internal_get_thisUpdate, put = __cordl_internal_set_thisUpdate)) ::System::DateTime thisUpdate;
 
   /// @brief Field version, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) uint8_t version;
 
-  /// @brief Method Compare, addr 0x27a474c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3bc6ce4, size 0x90, virtual false, abstract: false, final false
   inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> array1, ::ArrayW<uint8_t, ::Array<uint8_t>*> array2);
 
-  /// @brief Method GetCrlEntry, addr 0x27a4848, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetCrlEntry, addr 0x3bc6df0, size 0x144, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::__X509Crl__X509CrlEntry* GetCrlEntry(::ArrayW<uint8_t, ::Array<uint8_t>*> serialNumber);
 
-  /// @brief Method GetCrlEntry, addr 0x27a47c8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetCrlEntry, addr 0x3bc6d74, size 0x7c, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::__X509Crl__X509CrlEntry* GetCrlEntry(::Mono::Security::X509::X509Certificate* x509);
 
   static inline ::Mono::Security::X509::X509Crl* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> crl);
 
-  /// @brief Method Parse, addr 0x27a3c5c, size 0x6b0, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3bc6258, size 0x654, virtual false, abstract: false, final false
   inline void Parse(::ArrayW<uint8_t, ::Array<uint8_t>*> crl);
 
-  /// @brief Method VerifySignature, addr 0x27a4da8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3bc7344, size 0x174, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
 
-  /// @brief Method VerifySignature, addr 0x27a4a08, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3bc6fac, size 0x2c4, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::DSA* dsa);
 
-  /// @brief Method VerifySignature, addr 0x27a4cd4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3bc7270, size 0xd4, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::RSA* rsa);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_encoded() const;
@@ -267,19 +270,19 @@ public:
 
   constexpr void __cordl_internal_set_version(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x27a3b64, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc6164, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> crl);
 
-  /// @brief Method get_Extensions, addr 0x27a4520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x3bc6ab4, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
 
-  /// @brief Method get_Hash, addr 0x27a4528, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method get_Hash, addr 0x3bc6abc, size 0x218, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Hash();
 
-  /// @brief Method get_IssuerName, addr 0x27a473c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerName, addr 0x3bc6cd4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IssuerName();
 
-  /// @brief Method get_NextUpdate, addr 0x27a4744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextUpdate, addr 0x3bc6cdc, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_NextUpdate();
 
 protected:
@@ -325,6 +328,9 @@ public:
 
   /// @brief Field hash_value, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___hash_value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15878 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

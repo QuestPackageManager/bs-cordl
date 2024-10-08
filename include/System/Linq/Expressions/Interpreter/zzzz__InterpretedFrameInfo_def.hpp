@@ -16,17 +16,17 @@ struct InterpretedFrameInfo;
 // Write type traits
 MARK_VAL_T(::System::Linq::Expressions::Interpreter::InterpretedFrameInfo);
 // Type: System.Linq.Expressions.Interpreter::InterpretedFrameInfo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: true
 // CS Name: ::System.Linq.Expressions.Interpreter::InterpretedFrameInfo
 struct CORDL_TYPE InterpretedFrameInfo {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2c5d0fc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4061114, size 0x78, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2c597a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405d818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW methodName, ::System::Linq::Expressions::Interpreter::DebugInfo* info);
 
   // Ctor Parameters []
@@ -42,6 +42,9 @@ public:
 
   /// @brief Field _debugInfo, offset: 0x8, size: 0x8, def value: None
   ::System::Linq::Expressions::Interpreter::DebugInfo* _debugInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13901 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

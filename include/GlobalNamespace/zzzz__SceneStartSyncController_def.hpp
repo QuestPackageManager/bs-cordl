@@ -32,61 +32,61 @@ class SceneStartSyncController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SceneStartSyncController);
 // Type: ::SceneStartSyncController
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 85, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SceneStartSyncController*
 class CORDL_TYPE SceneStartSyncController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _gameplayRpcManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayRpcManager, put = __cordl_internal_set__gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
+  /// @brief Field _gameplayRpcManager, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayRpcManager, put = __cordl_internal_set__gameplayRpcManager)) ::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
 
-  /// @brief Field _multiplayerSessionManager, offset 0x18, size 0x8
+  /// @brief Field _multiplayerSessionManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
-  /// @brief Field _playersAtGameStartModel, offset 0x48, size 0x8
+  /// @brief Field _playersAtGameStartModel, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__playersAtGameStartModel,
-                      put = __cordl_internal_set__playersAtGameStartModel))::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playersAtGameStartModel;
+                      put = __cordl_internal_set__playersAtGameStartModel)) ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playersAtGameStartModel;
 
-  /// @brief Field _sceneStartHandler, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneStartHandler, put = __cordl_internal_set__sceneStartHandler))::GlobalNamespace::SceneStartHandler* _sceneStartHandler;
+  /// @brief Field _sceneStartHandler, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__sceneStartHandler, put = __cordl_internal_set__sceneStartHandler)) ::GlobalNamespace::SceneStartHandler* _sceneStartHandler;
 
-  /// @brief Field _sceneSyncStarted, offset 0x54, size 0x1
+  /// @brief Field _sceneSyncStarted, offset 0x5c, size 0x1
   __declspec(property(get = __cordl_internal_get__sceneSyncStarted, put = __cordl_internal_set__sceneSyncStarted)) bool _sceneSyncStarted;
 
-  /// @brief Field _waitStartTime, offset 0x50, size 0x4
+  /// @brief Field _waitStartTime, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__waitStartTime, put = __cordl_internal_set__waitStartTime)) float_t _waitStartTime;
 
-  /// @brief Field syncStartDidFailEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_syncStartDidFailEvent, put = __cordl_internal_set_syncStartDidFailEvent))::System::Action* syncStartDidFailEvent;
+  /// @brief Field syncStartDidFailEvent, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_syncStartDidFailEvent, put = __cordl_internal_set_syncStartDidFailEvent)) ::System::Action* syncStartDidFailEvent;
 
-  /// @brief Field syncStartDidReceiveTooLateEvent, offset 0x30, size 0x8
+  /// @brief Field syncStartDidReceiveTooLateEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_syncStartDidReceiveTooLateEvent,
-                      put = __cordl_internal_set_syncStartDidReceiveTooLateEvent))::System::Action_1<::StringW>* syncStartDidReceiveTooLateEvent;
+                      put = __cordl_internal_set_syncStartDidReceiveTooLateEvent)) ::System::Action_1<::StringW>* syncStartDidReceiveTooLateEvent;
 
-  /// @brief Field syncStartDidSuccessEvent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_syncStartDidSuccessEvent, put = __cordl_internal_set_syncStartDidSuccessEvent))::System::Action_1<::StringW>* syncStartDidSuccessEvent;
+  /// @brief Field syncStartDidSuccessEvent, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_syncStartDidSuccessEvent, put = __cordl_internal_set_syncStartDidSuccessEvent)) ::System::Action_1<::StringW>* syncStartDidSuccessEvent;
 
-  /// @brief Method HandleSceneSetupDidFinish, addr 0x29ef3e8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneSetupDidFinish, addr 0x3dfd1a0, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSceneSetupDidFinish(::StringW sessionGameId);
 
-  /// @brief Method HandleSceneSetupDidReceiveTooLate, addr 0x29ef434, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneSetupDidReceiveTooLate, addr 0x3dfd1ec, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSceneSetupDidReceiveTooLate(::StringW sessionGameId);
 
   static inline ::GlobalNamespace::SceneStartSyncController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x29ef188, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3dfcf48, size 0xf8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x29ef118, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3dfced8, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSceneLoadSync, addr 0x29ef288, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method StartSceneLoadSync, addr 0x3dfd040, size 0x160, virtual false, abstract: false, final false
   inline void StartSceneLoadSync(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method Update, addr 0x29ef130, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3dfcef0, size 0x58, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
@@ -143,25 +143,25 @@ public:
 
   constexpr void __cordl_internal_set_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x29ef480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfd238, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_syncStartDidFailEvent, addr 0x29eefe0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartDidFailEvent, addr 0x3dfcda0, size 0x9c, virtual false, abstract: false, final false
   inline void add_syncStartDidFailEvent(::System::Action* value);
 
-  /// @brief Method add_syncStartDidReceiveTooLateEvent, addr 0x29eee80, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartDidReceiveTooLateEvent, addr 0x3dfcc40, size 0xb0, virtual false, abstract: false, final false
   inline void add_syncStartDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_syncStartDidSuccessEvent, addr 0x29eed20, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartDidSuccessEvent, addr 0x3dfcae0, size 0xb0, virtual false, abstract: false, final false
   inline void add_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_syncStartDidFailEvent, addr 0x29ef07c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartDidFailEvent, addr 0x3dfce3c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_syncStartDidFailEvent(::System::Action* value);
 
-  /// @brief Method remove_syncStartDidReceiveTooLateEvent, addr 0x29eef30, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartDidReceiveTooLateEvent, addr 0x3dfccf0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_syncStartDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_syncStartDidSuccessEvent, addr 0x29eedd0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartDidSuccessEvent, addr 0x3dfcb90, size 0xb0, virtual false, abstract: false, final false
   inline void remove_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
 
 protected:
@@ -178,32 +178,35 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SceneStartSyncController(SceneStartSyncController const&) = delete;
 
-  /// @brief Field _multiplayerSessionManager, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _multiplayerSessionManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 
-  /// @brief Field _gameplayRpcManager, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _gameplayRpcManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IGameplayRpcManager* ____gameplayRpcManager;
 
-  /// @brief Field syncStartDidSuccessEvent, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field syncStartDidSuccessEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___syncStartDidSuccessEvent;
 
-  /// @brief Field syncStartDidReceiveTooLateEvent, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field syncStartDidReceiveTooLateEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___syncStartDidReceiveTooLateEvent;
 
-  /// @brief Field syncStartDidFailEvent, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field syncStartDidFailEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___syncStartDidFailEvent;
 
-  /// @brief Field _sceneStartHandler, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _sceneStartHandler, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::SceneStartHandler* ____sceneStartHandler;
 
-  /// @brief Field _playersAtGameStartModel, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _playersAtGameStartModel, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* ____playersAtGameStartModel;
 
-  /// @brief Field _waitStartTime, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field _waitStartTime, offset: 0x58, size: 0x4, def value: None
   float_t ____waitStartTime;
 
-  /// @brief Field _sceneSyncStarted, offset: 0x54, size: 0x1, def value: None
+  /// @brief Field _sceneSyncStarted, offset: 0x5c, size: 0x1, def value: None
   bool ____sceneSyncStarted;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17315 };
 
   /// @brief Field kLoadOtherTimeout offset 0xffffffff size 0x4
   static constexpr float_t kLoadOtherTimeout{ 15.0 };
@@ -214,25 +217,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SceneStartSyncController, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SceneStartSyncController, 0x60>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____multiplayerSessionManager) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____multiplayerSessionManager) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____gameplayRpcManager) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____gameplayRpcManager) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ___syncStartDidSuccessEvent) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ___syncStartDidSuccessEvent) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ___syncStartDidReceiveTooLateEvent) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ___syncStartDidReceiveTooLateEvent) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ___syncStartDidFailEvent) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ___syncStartDidFailEvent) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____sceneStartHandler) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____sceneStartHandler) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____playersAtGameStartModel) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____playersAtGameStartModel) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____waitStartTime) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____waitStartTime) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____sceneSyncStarted) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SceneStartSyncController, ____sceneSyncStarted) == 0x5c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SceneStartSyncController);

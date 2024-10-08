@@ -68,7 +68,7 @@ struct __DisposeBlock__SpawnedObjectPoolPair;
 MARK_REF_PTR_T(::Zenject::DisposeBlock);
 MARK_VAL_T(::Zenject::__DisposeBlock__SpawnedObjectPoolPair);
 // Type: ::SpawnedObjectPoolPair
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: true
 // CS Name: ::DisposeBlock::SpawnedObjectPoolPair
@@ -88,6 +88,9 @@ public:
   /// @brief Field Object, offset: 0x8, size: 0x8, def value: None
   ::System::Object* Object;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12648 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -102,7 +105,7 @@ static_assert(offsetof(::Zenject::__DisposeBlock__SpawnedObjectPoolPair, Object)
 
 } // namespace Zenject
 // Type: Zenject::DisposeBlock
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::DisposeBlock*
@@ -112,42 +115,42 @@ public:
   using SpawnedObjectPoolPair = ::Zenject::__DisposeBlock__SpawnedObjectPoolPair;
 
   /// @brief Field _disposables, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__disposables, put = __cordl_internal_set__disposables))::System::Collections::Generic::List_1<::System::IDisposable*>* _disposables;
+  __declspec(property(get = __cordl_internal_get__disposables, put = __cordl_internal_set__disposables)) ::System::Collections::Generic::List_1<::System::IDisposable*>* _disposables;
 
   /// @brief Field _objectPoolPairs, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__objectPoolPairs,
-                      put = __cordl_internal_set__objectPoolPairs))::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>* _objectPoolPairs;
+                      put = __cordl_internal_set__objectPoolPairs)) ::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>* _objectPoolPairs;
 
   /// @brief Field _pool, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__pool, put = setStaticF__pool))::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* _pool;
+  static __declspec(property(get = getStaticF__pool, put = setStaticF__pool)) ::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* _pool;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x36b4fc0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4ad8144, size 0xe4, virtual false, abstract: false, final false
   inline void Add(::System::IDisposable* disposable);
 
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void AddRange(::System::Collections::Generic::IList_1<T>* disposables);
 
-  /// @brief Method Dispose, addr 0x36b5184, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4ad8304, size 0x80, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method LazyInitializeDisposableList, addr 0x36b4ecc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LazyInitializeDisposableList, addr 0x4ad8050, size 0xf4, virtual false, abstract: false, final false
   inline void LazyInitializeDisposableList();
 
   static inline ::Zenject::DisposeBlock* New_ctor();
 
-  /// @brief Method OnDespawned, addr 0x36b4b6c, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method OnDespawned, addr 0x4ad7cf0, size 0x360, virtual false, abstract: false, final false
   static inline void OnDespawned(::Zenject::DisposeBlock* that);
 
-  /// @brief Method OnSpawned, addr 0x36b4b40, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnSpawned, addr 0x4ad7cc4, size 0x2c, virtual false, abstract: false, final false
   static inline void OnSpawned(::Zenject::DisposeBlock* that);
 
-  /// @brief Method Remove, addr 0x36b50a8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4ad8228, size 0x64, virtual false, abstract: false, final false
   inline void Remove(::System::IDisposable* disposable);
 
-  /// @brief Method Spawn, addr 0x36b510c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Spawn, addr 0x4ad828c, size 0x78, virtual false, abstract: false, final false
   static inline ::Zenject::DisposeBlock* Spawn();
 
   /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -201,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set__objectPoolPairs(::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>* value);
 
-  /// @brief Method .ctor, addr 0x36b5204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad8384, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* getStaticF__pool();
@@ -230,6 +233,9 @@ public:
 
   /// @brief Field _objectPoolPairs, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>* ____objectPoolPairs;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12649 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

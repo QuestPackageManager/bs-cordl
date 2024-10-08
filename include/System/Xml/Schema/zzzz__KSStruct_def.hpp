@@ -20,7 +20,7 @@ class KSStruct;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::KSStruct);
 // Type: System.Xml.Schema::KSStruct
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::KSStruct*
@@ -31,11 +31,11 @@ public:
   __declspec(property(get = __cordl_internal_get_depth, put = __cordl_internal_set_depth)) int32_t depth;
 
   /// @brief Field fields, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_fields,
-                      put = __cordl_internal_set_fields))::ArrayW<::System::Xml::Schema::LocatedActiveAxis*, ::Array<::System::Xml::Schema::LocatedActiveAxis*>*> fields;
+  __declspec(property(get = __cordl_internal_get_fields, put = __cordl_internal_set_fields)) ::ArrayW<::System::Xml::Schema::LocatedActiveAxis*, ::Array<::System::Xml::Schema::LocatedActiveAxis*>*>
+      fields;
 
   /// @brief Field ks, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ks, put = __cordl_internal_set_ks))::System::Xml::Schema::KeySequence* ks;
+  __declspec(property(get = __cordl_internal_get_ks, put = __cordl_internal_set_ks)) ::System::Xml::Schema::KeySequence* ks;
 
   static inline ::System::Xml::Schema::KSStruct* New_ctor(::System::Xml::Schema::KeySequence* ks, int32_t dim);
 
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_ks(::System::Xml::Schema::KeySequence* value);
 
-  /// @brief Method .ctor, addr 0x2f25e70, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432216c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::KeySequence* ks, int32_t dim);
 
 protected:
@@ -82,6 +82,9 @@ public:
 
   /// @brief Field fields, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Xml::Schema::LocatedActiveAxis*, ::Array<::System::Xml::Schema::LocatedActiveAxis*>*> ___fields;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7456 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

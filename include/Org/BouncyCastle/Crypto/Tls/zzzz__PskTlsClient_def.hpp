@@ -29,7 +29,7 @@ class PskTlsClient;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::PskTlsClient);
 // Type: Org.BouncyCastle.Crypto.Tls::PskTlsClient
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::PskTlsClient*
@@ -37,21 +37,21 @@ class CORDL_TYPE PskTlsClient : public ::Org::BouncyCastle::Crypto::Tls::Abstrac
 public:
   // Declarations
   /// @brief Field mDHVerifier, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_mDHVerifier, put = __cordl_internal_set_mDHVerifier))::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* mDHVerifier;
+  __declspec(property(get = __cordl_internal_get_mDHVerifier, put = __cordl_internal_set_mDHVerifier)) ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* mDHVerifier;
 
   /// @brief Field mPskIdentity, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPskIdentity, put = __cordl_internal_set_mPskIdentity))::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* mPskIdentity;
+  __declspec(property(get = __cordl_internal_get_mPskIdentity, put = __cordl_internal_set_mPskIdentity)) ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* mPskIdentity;
 
-  /// @brief Method CreatePskKeyExchange, addr 0x1204560, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method CreatePskKeyExchange, addr 0x23d8244, size 0xa8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreatePskKeyExchange(int32_t keyExchange);
 
-  /// @brief Method GetAuthentication, addr 0x120451c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetAuthentication, addr 0x23d8208, size 0x3c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication* GetAuthentication();
 
-  /// @brief Method GetCipherSuites, addr 0x12043e0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetCipherSuites, addr 0x23d80d4, size 0x74, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetCipherSuites();
 
-  /// @brief Method GetKeyExchange, addr 0x1204454, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GetKeyExchange, addr 0x23d8148, size 0xc0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::PskTlsClient* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
@@ -74,14 +74,14 @@ public:
 
   constexpr void __cordl_internal_set_mPskIdentity(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* value);
 
-  /// @brief Method .ctor, addr 0x12043b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d80a8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
                     ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity);
 
-  /// @brief Method .ctor, addr 0x1204334, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8030, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity);
 
-  /// @brief Method .ctor, addr 0x12042c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d7fc4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity);
 
 protected:
@@ -103,6 +103,9 @@ public:
 
   /// @brief Field mPskIdentity, offset: 0x58, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* ___mPskIdentity;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1261 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

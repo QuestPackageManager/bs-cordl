@@ -18,7 +18,7 @@ class PacketLayerBase;
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::Layers::PacketLayerBase);
 // Type: LiteNetLib.Layers::PacketLayerBase
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Layers {
 // Is value type: false
 // CS Name: ::LiteNetLib.Layers::PacketLayerBase*
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_ExtraPacketSizeForLayer(int32_t value);
 
-  /// @brief Method .ctor, addr 0x261d300, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a5606c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t extraPacketSizeForLayer);
 
 protected:
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field ExtraPacketSizeForLayer, offset: 0x10, size: 0x4, def value: None
   int32_t ___ExtraPacketSizeForLayer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16573 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

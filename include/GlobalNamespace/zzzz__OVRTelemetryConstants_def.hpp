@@ -85,7 +85,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRTelemetryConstants__SBB__MarkerId);
 MARK_REF_PTR_T(::GlobalNamespace::__OVRTelemetryConstants__Scene);
 MARK_REF_PTR_T(::GlobalNamespace::__OVRTelemetryConstants__Scene__MarkerId);
 // Type: ::MarkerId
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::OVRManager::MarkerId*
@@ -112,6 +112,9 @@ public:
   /// @brief Field Init offset 0xffffffff size 0x4
   static constexpr int32_t Init{ static_cast<int32_t>(0x9b83dd9) };
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8293 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -119,7 +122,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 
 } // namespace GlobalNamespace
 // Type: ::AnnotationTypes
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::OVRManager::AnnotationTypes*
@@ -143,6 +146,9 @@ public:
   /// @brief Field Origin offset 0xffffffff size 0x8
   static constexpr ::ConstString Origin{ u"Origin" };
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8294 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -150,7 +156,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 
 } // namespace GlobalNamespace
 // Type: ::ConsentOrigins
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRTelemetryConstants::OVRManager::ConsentOrigins
@@ -195,6 +201,9 @@ public:
   /// @brief Field Settings value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__OVRTelemetryConstants__OVRManager__ConsentOrigins const Settings;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8295 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -207,7 +216,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRTelemetryConstants__OVRManager__C
 
 } // namespace GlobalNamespace
 // Type: ::OVRManager
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::OVRManager*
@@ -221,10 +230,10 @@ public:
   using MarkerId = ::GlobalNamespace::__OVRTelemetryConstants__OVRManager__MarkerId;
 
   /// @brief Field InitPermissionRequest, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_InitPermissionRequest, put = setStaticF_InitPermissionRequest))::GlobalNamespace::__OVRTelemetry__MarkerPoint InitPermissionRequest;
+  static __declspec(property(get = getStaticF_InitPermissionRequest, put = setStaticF_InitPermissionRequest)) ::GlobalNamespace::__OVRTelemetry__MarkerPoint InitPermissionRequest;
 
   /// @brief Field InitializeInsightPassthrough, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_InitializeInsightPassthrough, put = setStaticF_InitializeInsightPassthrough))::GlobalNamespace::__OVRTelemetry__MarkerPoint InitializeInsightPassthrough;
+  static __declspec(property(get = getStaticF_InitializeInsightPassthrough, put = setStaticF_InitializeInsightPassthrough)) ::GlobalNamespace::__OVRTelemetry__MarkerPoint InitializeInsightPassthrough;
 
   static inline ::GlobalNamespace::__OVRTelemetry__MarkerPoint getStaticF_InitPermissionRequest();
 
@@ -248,6 +257,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTelemetryConstants__OVRManager(__OVRTelemetryConstants__OVRManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8296 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -255,7 +267,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 
 } // namespace GlobalNamespace
 // Type: ::MarkerId
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::Scene::MarkerId*
@@ -291,6 +303,9 @@ public:
   /// @brief Field SpatialAnchorSetComponentStatus offset 0xffffffff size 0x4
   static constexpr int32_t SpatialAnchorSetComponentStatus{ static_cast<int32_t>(0x9b8087e) };
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8297 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -298,7 +313,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 
 } // namespace GlobalNamespace
 // Type: ::Scene
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::Scene*
@@ -321,6 +336,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTelemetryConstants__Scene(__OVRTelemetryConstants__Scene const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8298 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -328,7 +346,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 
 } // namespace GlobalNamespace
 // Type: ::Editor
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::Editor*
@@ -352,6 +370,9 @@ public:
   /// @brief Field Start offset 0xffffffff size 0x4
   static constexpr int32_t Start{ static_cast<int32_t>(0x9b83563) };
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8299 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -359,7 +380,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 
 } // namespace GlobalNamespace
 // Type: ::MarkerId
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::SBB::MarkerId*
@@ -395,6 +416,9 @@ public:
   /// @brief Field RunBlock offset 0xffffffff size 0x4
   static constexpr int32_t RunBlock{ static_cast<int32_t>(0x9b82868) };
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8300 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -402,7 +426,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 
 } // namespace GlobalNamespace
 // Type: ::AnnotationType
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::SBB::AnnotationType*
@@ -426,6 +450,9 @@ public:
   /// @brief Field BlockId offset 0xffffffff size 0x8
   static constexpr ::ConstString BlockId{ u"BlockId" };
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8301 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -433,7 +460,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 
 } // namespace GlobalNamespace
 // Type: ::SBB
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::SBB*
@@ -458,6 +485,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTelemetryConstants__SBB(__OVRTelemetryConstants__SBB const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8302 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -465,7 +495,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryC
 
 } // namespace GlobalNamespace
 // Type: ::OVRTelemetryConstants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants*
@@ -493,6 +523,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRTelemetryConstants(OVRTelemetryConstants const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8303 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

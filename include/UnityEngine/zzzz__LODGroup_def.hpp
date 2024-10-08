@@ -18,7 +18,7 @@ class LODGroup;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::LODGroup);
 // Type: UnityEngine::LODGroup
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::LODGroup*
@@ -29,19 +29,19 @@ public:
 
   __declspec(property(get = get_size)) float_t size;
 
-  /// @brief Method GetLODs, addr 0x34290f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLODs, addr 0x480ef78, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> GetLODs();
 
-  /// @brief Method RecalculateBounds, addr 0x34290b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RecalculateBounds, addr 0x480ef3c, size 0x3c, virtual false, abstract: false, final false
   inline void RecalculateBounds();
 
-  /// @brief Method SetLODs, addr 0x3429130, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLODs, addr 0x480efb4, size 0x44, virtual false, abstract: false, final false
   inline void SetLODs(::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> lods);
 
-  /// @brief Method get_lodCount, addr 0x342907c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_lodCount, addr 0x480ef00, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_lodCount();
 
-  /// @brief Method get_size, addr 0x3429040, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x480eec4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_size();
 
 protected:
@@ -57,6 +57,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LODGroup", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LODGroup(LODGroup const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10739 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

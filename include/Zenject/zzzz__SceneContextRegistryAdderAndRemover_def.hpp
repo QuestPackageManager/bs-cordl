@@ -31,7 +31,7 @@ class SceneContextRegistryAdderAndRemover;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SceneContextRegistryAdderAndRemover);
 // Type: Zenject::SceneContextRegistryAdderAndRemover
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::SceneContextRegistryAdderAndRemover*
@@ -39,10 +39,10 @@ class CORDL_TYPE SceneContextRegistryAdderAndRemover : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _registry, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__registry, put = __cordl_internal_set__registry))::Zenject::SceneContextRegistry* _registry;
+  __declspec(property(get = __cordl_internal_get__registry, put = __cordl_internal_set__registry)) ::Zenject::SceneContextRegistry* _registry;
 
   /// @brief Field _sceneContext, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneContext, put = __cordl_internal_set__sceneContext))::UnityW<::Zenject::SceneContext> _sceneContext;
+  __declspec(property(get = __cordl_internal_get__sceneContext, put = __cordl_internal_set__sceneContext)) ::UnityW<::Zenject::SceneContext> _sceneContext;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -50,10 +50,10 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x36afc5c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4ad2f20, size 0x20, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Initialize, addr 0x36afc3c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x4ad2f00, size 0x20, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::Zenject::SceneContextRegistryAdderAndRemover* New_ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set__sceneContext(::UnityW<::Zenject::SceneContext> value);
 
-  /// @brief Method __zenCreate, addr 0x36afc7c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ad2f40, size 0x118, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36afd98, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ad3058, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x36afc10, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad2ed4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
 
   /// @brief Convert to "::System::IDisposable"
@@ -104,6 +104,9 @@ public:
 
   /// @brief Field _sceneContext, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::Zenject::SceneContext> ____sceneContext;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12632 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,22 +19,22 @@ class MessageWithUserAccountAgeCategory;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::MessageWithUserAccountAgeCategory);
 // Type: Oculus.Platform::MessageWithUserAccountAgeCategory
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::MessageWithUserAccountAgeCategory*
 class CORDL_TYPE MessageWithUserAccountAgeCategory : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2afdfe0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f0ad6c, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserAccountAgeCategory* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetUserAccountAgeCategory, addr 0x2afdfa4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetUserAccountAgeCategory, addr 0x3f0ad30, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserAccountAgeCategory* GetUserAccountAgeCategory();
 
   static inline ::Oculus::Platform::MessageWithUserAccountAgeCategory* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2af9c24, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f06bf8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithUserAccountAgeCategory", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MessageWithUserAccountAgeCategory(MessageWithUserAccountAgeCategory const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15366 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

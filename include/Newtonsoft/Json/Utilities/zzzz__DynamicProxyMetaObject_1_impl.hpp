@@ -1080,13 +1080,12 @@ inline ::System::Dynamic::DynamicMetaObject*
 Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>::CallMethodNoResult(::StringW methodName, ::System::Dynamic::DynamicMetaObjectBinder* binder,
                                                                              ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> args,
                                                                              ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1__Fallback<T>* fallback) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*>::get(), "CallMethodNoResult", std::span<Il2CppClass const* const, 0>(),
-          ::std::array<Il2CppType const*, 4>{
-              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObjectBinder*>::get(),
-              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>>::get(),
-              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1__Fallback<T>*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>*>::get(), "CallMethodNoResult", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObjectBinder*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1__Fallback<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*, false>(this, ___internal_method, methodName, binder, args, fallback);
 }
 template <typename T> inline ::System::Dynamic::BindingRestrictions* Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>::GetRestrictions() {

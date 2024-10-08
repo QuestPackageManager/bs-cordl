@@ -19,31 +19,31 @@ class ZenjectSafeBehaviour;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ZenjectSafeBehaviour);
 // Type: ::ZenjectSafeBehaviour
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ZenjectSafeBehaviour*
 class CORDL_TYPE ZenjectSafeBehaviour : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _isInjected, offset 0x18, size 0x1
+  /// @brief Field _isInjected, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__isInjected, put = __cordl_internal_set__isInjected)) bool _isInjected;
 
-  /// @brief Field _wasOnEnableCalled, offset 0x19, size 0x1
+  /// @brief Field _wasOnEnableCalled, offset 0x21, size 0x1
   __declspec(property(get = __cordl_internal_get__wasOnEnableCalled, put = __cordl_internal_set__wasOnEnableCalled)) bool _wasOnEnableCalled;
 
-  /// @brief Method Inject, addr 0x2c0d78c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x400fa48, size 0x20, virtual false, abstract: false, final false
   inline void Inject();
 
   static inline ::GlobalNamespace::ZenjectSafeBehaviour* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x2c0d7cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x400fa88, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnEnablePostInjection, addr 0x2c0d7ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnablePostInjection, addr 0x400faa8, size 0x4, virtual true, abstract: false, final false
   inline void OnEnablePostInjection();
 
-  /// @brief Method TryInvokeOnEnablePostInjection, addr 0x2c0d7ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TryInvokeOnEnablePostInjection, addr 0x400fa68, size 0x20, virtual false, abstract: false, final false
   inline void TryInvokeOnEnablePostInjection();
 
   constexpr bool const& __cordl_internal_get__isInjected() const;
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__wasOnEnableCalled(bool value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2c0d890, size 0x1254, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x400fb4c, size 0x250, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x2c0d7f0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x400faac, size 0xa0, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method .ctor, addr 0x2c08b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400ae4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,20 +81,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ZenjectSafeBehaviour(ZenjectSafeBehaviour const&) = delete;
 
-  /// @brief Field _isInjected, offset: 0x18, size: 0x1, def value: None
+  /// @brief Field _isInjected, offset: 0x20, size: 0x1, def value: None
   bool ____isInjected;
 
-  /// @brief Field _wasOnEnableCalled, offset: 0x19, size: 0x1, def value: None
+  /// @brief Field _wasOnEnableCalled, offset: 0x21, size: 0x1, def value: None
   bool ____wasOnEnableCalled;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17831 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ZenjectSafeBehaviour, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ZenjectSafeBehaviour, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ZenjectSafeBehaviour, ____isInjected) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ZenjectSafeBehaviour, ____isInjected) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ZenjectSafeBehaviour, ____wasOnEnableCalled) == 0x19, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ZenjectSafeBehaviour, ____wasOnEnableCalled) == 0x21, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ZenjectSafeBehaviour);

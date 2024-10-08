@@ -22,7 +22,7 @@ class ObjectNull;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectNull);
 // Type: System.Runtime.Serialization.Formatters.Binary::ObjectNull
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ObjectNull*
@@ -32,18 +32,18 @@ public:
   /// @brief Field nullCount, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_nullCount, put = __cordl_internal_set_nullCount)) int32_t nullCount;
 
-  /// @brief Method Dump, addr 0x2871088, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3c8c4c8, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectNull* New_ctor();
 
-  /// @brief Method Read, addr 0x2871028, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x3c8c468, size 0x60, virtual false, abstract: false, final false
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input, ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method SetNullCount, addr 0x2870f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNullCount, addr 0x3c8c3b4, size 0x8, virtual false, abstract: false, final false
   inline void SetNullCount(int32_t nullCount);
 
-  /// @brief Method Write, addr 0x2870f7c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x3c8c3bc, size 0xac, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_nullCount() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_nullCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2870f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c8c3ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field nullCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___nullCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3273 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

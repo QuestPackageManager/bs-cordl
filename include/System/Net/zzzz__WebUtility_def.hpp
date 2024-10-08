@@ -34,7 +34,7 @@ class __WebUtility__UrlDecoder;
 MARK_REF_PTR_T(::System::Net::WebUtility);
 MARK_REF_PTR_T(::System::Net::__WebUtility__UrlDecoder);
 // Type: ::UrlDecoder
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::WebUtility::UrlDecoder*
@@ -45,13 +45,13 @@ public:
   __declspec(property(get = __cordl_internal_get__bufferSize, put = __cordl_internal_set__bufferSize)) int32_t _bufferSize;
 
   /// @brief Field _byteBuffer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__byteBuffer, put = __cordl_internal_set__byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _byteBuffer;
+  __declspec(property(get = __cordl_internal_get__byteBuffer, put = __cordl_internal_set__byteBuffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _byteBuffer;
 
   /// @brief Field _charBuffer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__charBuffer, put = __cordl_internal_set__charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _charBuffer;
+  __declspec(property(get = __cordl_internal_get__charBuffer, put = __cordl_internal_set__charBuffer)) ::ArrayW<char16_t, ::Array<char16_t>*> _charBuffer;
 
   /// @brief Field _encoding, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding))::System::Text::Encoding* _encoding;
+  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding)) ::System::Text::Encoding* _encoding;
 
   /// @brief Field _numBytes, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__numBytes, put = __cordl_internal_set__numBytes)) int32_t _numBytes;
@@ -59,16 +59,16 @@ public:
   /// @brief Field _numChars, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__numChars, put = __cordl_internal_set__numChars)) int32_t _numChars;
 
-  /// @brief Method AddByte, addr 0x3007ca0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AddByte, addr 0x4431480, size 0x98, virtual false, abstract: false, final false
   inline void AddByte(uint8_t b);
 
-  /// @brief Method AddChar, addr 0x3007d38, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddChar, addr 0x4431518, size 0x60, virtual false, abstract: false, final false
   inline void AddChar(char16_t ch);
 
-  /// @brief Method FlushBytes, addr 0x3007f50, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method FlushBytes, addr 0x4431730, size 0x60, virtual false, abstract: false, final false
   inline void FlushBytes();
 
-  /// @brief Method GetString, addr 0x3007d98, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x4431578, size 0x88, virtual false, abstract: false, final false
   inline ::StringW GetString();
 
   static inline ::System::Net::__WebUtility__UrlDecoder* New_ctor(int32_t bufferSize, ::System::Text::Encoding* encoding);
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set__numChars(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3007bdc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44313bc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t bufferSize, ::System::Text::Encoding* encoding);
 
 protected:
@@ -144,6 +144,9 @@ public:
   /// @brief Field _encoding, offset: 0x30, size: 0x8, def value: None
   ::System::Text::Encoding* ____encoding;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9584 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -163,7 +166,7 @@ static_assert(offsetof(::System::Net::__WebUtility__UrlDecoder, ____encoding) ==
 
 } // namespace System::Net
 // Type: System.Net::WebUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::WebUtility*
@@ -173,33 +176,33 @@ public:
   using UrlDecoder = ::System::Net::__WebUtility__UrlDecoder;
 
   /// @brief Field _htmlDecodeConformance, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__htmlDecodeConformance, put = setStaticF__htmlDecodeConformance))::System::Net::Configuration::UnicodeDecodingConformance _htmlDecodeConformance;
+  static __declspec(property(get = getStaticF__htmlDecodeConformance, put = setStaticF__htmlDecodeConformance)) ::System::Net::Configuration::UnicodeDecodingConformance _htmlDecodeConformance;
 
   /// @brief Field _htmlEncodeConformance, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__htmlEncodeConformance, put = setStaticF__htmlEncodeConformance))::System::Net::Configuration::UnicodeEncodingConformance _htmlEncodeConformance;
+  static __declspec(property(get = getStaticF__htmlEncodeConformance, put = setStaticF__htmlEncodeConformance)) ::System::Net::Configuration::UnicodeEncodingConformance _htmlEncodeConformance;
 
   /// @brief Field _htmlEntityEndingChars, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__htmlEntityEndingChars, put = setStaticF__htmlEntityEndingChars))::ArrayW<char16_t, ::Array<char16_t>*> _htmlEntityEndingChars;
+  static __declspec(property(get = getStaticF__htmlEntityEndingChars, put = setStaticF__htmlEntityEndingChars)) ::ArrayW<char16_t, ::Array<char16_t>*> _htmlEntityEndingChars;
 
-  /// @brief Method GetNextUnicodeScalarValueFromUtf16Surrogate, addr 0x3007914, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetNextUnicodeScalarValueFromUtf16Surrogate, addr 0x44310e0, size 0xb8, virtual false, abstract: false, final false
   static inline int32_t GetNextUnicodeScalarValueFromUtf16Surrogate(ByRef<::cordl_internals::Ptr<char16_t>> pch, ByRef<int32_t> charsRemaining);
 
-  /// @brief Method HexToInt, addr 0x3007c50, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HexToInt, addr 0x4431430, size 0x50, virtual false, abstract: false, final false
   static inline int32_t HexToInt(char16_t h);
 
-  /// @brief Method HtmlEncode, addr 0x3007214, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method HtmlEncode, addr 0x44309ec, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW HtmlEncode(::StringW value);
 
-  /// @brief Method HtmlEncode, addr 0x300747c, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method HtmlEncode, addr 0x4430c54, size 0x3a8, virtual false, abstract: false, final false
   static inline void HtmlEncode(::StringW value, ::System::IO::TextWriter* output);
 
-  /// @brief Method IndexOfHtmlEncodingChars, addr 0x3007334, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method IndexOfHtmlEncodingChars, addr 0x4430b0c, size 0x148, virtual false, abstract: false, final false
   static inline int32_t IndexOfHtmlEncodingChars(::StringW s, int32_t startPos);
 
-  /// @brief Method UrlDecode, addr 0x3007e20, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method UrlDecode, addr 0x4431600, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW UrlDecode(::StringW encodedValue);
 
-  /// @brief Method UrlDecodeInternal, addr 0x30079cc, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method UrlDecodeInternal, addr 0x4431198, size 0x224, virtual false, abstract: false, final false
   static inline ::StringW UrlDecodeInternal(::StringW value, ::System::Text::Encoding* encoding);
 
   static inline ::System::Net::Configuration::UnicodeDecodingConformance getStaticF__htmlDecodeConformance();
@@ -208,7 +211,7 @@ public:
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF__htmlEntityEndingChars();
 
-  /// @brief Method get_HtmlEncodeConformance, addr 0x3007830, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_HtmlEncodeConformance, addr 0x4430ffc, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Net::Configuration::UnicodeEncodingConformance get_HtmlEncodeConformance();
 
   static inline void setStaticF__htmlDecodeConformance(::System::Net::Configuration::UnicodeDecodingConformance value);
@@ -230,6 +233,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "WebUtility", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   WebUtility(WebUtility const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9585 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

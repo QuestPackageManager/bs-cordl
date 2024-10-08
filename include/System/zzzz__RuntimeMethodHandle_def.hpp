@@ -36,40 +36,40 @@ struct RuntimeMethodHandle;
 // Write type traits
 MARK_VAL_T(::System::RuntimeMethodHandle);
 // Type: System::RuntimeMethodHandle
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
 // CS Name: ::System::RuntimeMethodHandle
 struct CORDL_TYPE RuntimeMethodHandle {
 public:
   // Declarations
-  __declspec(property(get = get_Value))::System::IntPtr Value;
+  __declspec(property(get = get_Value)) ::System::IntPtr Value;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
-  /// @brief Method ConstructInstantiation, addr 0x29b5640, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ConstructInstantiation, addr 0x3dc604c, size 0x158, virtual false, abstract: false, final false
   static inline ::StringW ConstructInstantiation(::System::Reflection::RuntimeMethodInfo* method, ::System::TypeNameFormatFlags format);
 
-  /// @brief Method Equals, addr 0x29b553c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3dc5f48, size 0xfc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x29b5638, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3dc6044, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetObjectData, addr 0x29b5380, size 0x1bc, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x3dc5db8, size 0x190, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method IsNullHandle, addr 0x29b5798, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsNullHandle, addr 0x3dc61a4, size 0x10, virtual false, abstract: false, final false
   inline bool IsNullHandle();
 
-  /// @brief Method .ctor, addr 0x29b51c4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc5c28, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x29b51bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc5c20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr v);
 
-  /// @brief Method get_Value, addr 0x29b5378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3dc5db0, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Value();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field value, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2619 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

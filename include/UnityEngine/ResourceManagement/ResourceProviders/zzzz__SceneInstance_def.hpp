@@ -23,31 +23,31 @@ struct SceneInstance;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance);
 // Type: UnityEngine.ResourceManagement.ResourceProviders::SceneInstance
-// SizeInfo { instance_size: 16, native_size: 24, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 24, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::SceneInstance
 struct CORDL_TYPE SceneInstance {
 public:
   // Declarations
-  __declspec(property(get = get_Scene, put = set_Scene))::UnityEngine::SceneManagement::Scene Scene;
+  __declspec(property(get = get_Scene, put = set_Scene)) ::UnityEngine::SceneManagement::Scene Scene;
 
-  /// @brief Method Activate, addr 0x334599c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x4727618, size 0x20, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method ActivateAsync, addr 0x33459bc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ActivateAsync, addr 0x4727638, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* ActivateAsync();
 
-  /// @brief Method Equals, addr 0x3345a08, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4727684, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x33459e8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4727664, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_Scene, addr 0x334598c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Scene, addr 0x4727608, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SceneManagement::Scene get_Scene();
 
-  /// @brief Method set_Scene, addr 0x3345994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Scene, addr 0x4727610, size 0x8, virtual false, abstract: false, final false
   inline void set_Scene(::UnityEngine::SceneManagement::Scene value);
 
   // Ctor Parameters []
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field m_Operation, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::AsyncOperation* m_Operation;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15621 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

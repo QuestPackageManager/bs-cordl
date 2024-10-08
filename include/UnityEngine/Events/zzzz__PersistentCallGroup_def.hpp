@@ -25,7 +25,7 @@ class PersistentCallGroup;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Events::PersistentCallGroup);
 // Type: UnityEngine.Events::PersistentCallGroup
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
 // CS Name: ::UnityEngine.Events::PersistentCallGroup*
@@ -35,9 +35,9 @@ public:
   __declspec(property(get = get_Count)) int32_t Count;
 
   /// @brief Field m_Calls, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Calls, put = __cordl_internal_set_m_Calls))::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* m_Calls;
+  __declspec(property(get = __cordl_internal_get_m_Calls, put = __cordl_internal_set_m_Calls)) ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* m_Calls;
 
-  /// @brief Method Initialize, addr 0x3473ed0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4846ba4, size 0x190, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Events::InvokableCallList* invokableList, ::UnityEngine::Events::UnityEventBase* unityEventBase);
 
   static inline ::UnityEngine::Events::PersistentCallGroup* New_ctor();
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Calls(::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* value);
 
-  /// @brief Method .ctor, addr 0x3473e08, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4846adc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x3473e88, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4846b5c, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
 protected:
@@ -70,6 +70,9 @@ public:
 
   /// @brief Field m_Calls, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* ___m_Calls;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10944 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

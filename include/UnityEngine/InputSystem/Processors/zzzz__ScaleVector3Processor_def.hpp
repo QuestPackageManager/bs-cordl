@@ -21,7 +21,7 @@ class ScaleVector3Processor;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::ScaleVector3Processor);
 // Type: UnityEngine.InputSystem.Processors::ScaleVector3Processor
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Processors::ScaleVector3Processor*
@@ -39,10 +39,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::ScaleVector3Processor* New_ctor();
 
-  /// @brief Method Process, addr 0x319e9e8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x45a2300, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x319ea00, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x45a2318, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_x() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_z(float_t value);
 
-  /// @brief Method .ctor, addr 0x319eac4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45a23dc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field z, offset: 0x18, size: 0x4, def value: None
   float_t ___z;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6967 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

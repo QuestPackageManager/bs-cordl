@@ -24,80 +24,80 @@ class BaseInput;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::BaseInput);
 // Type: UnityEngine.EventSystems::BaseInput
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: ::UnityEngine.EventSystems::BaseInput*
 class CORDL_TYPE BaseInput : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
-  __declspec(property(get = get_compositionCursorPos, put = set_compositionCursorPos))::UnityEngine::Vector2 compositionCursorPos;
+  __declspec(property(get = get_compositionCursorPos, put = set_compositionCursorPos)) ::UnityEngine::Vector2 compositionCursorPos;
 
-  __declspec(property(get = get_compositionString))::StringW compositionString;
+  __declspec(property(get = get_compositionString)) ::StringW compositionString;
 
-  __declspec(property(get = get_imeCompositionMode, put = set_imeCompositionMode))::UnityEngine::IMECompositionMode imeCompositionMode;
+  __declspec(property(get = get_imeCompositionMode, put = set_imeCompositionMode)) ::UnityEngine::IMECompositionMode imeCompositionMode;
 
-  __declspec(property(get = get_mousePosition))::UnityEngine::Vector2 mousePosition;
+  __declspec(property(get = get_mousePosition)) ::UnityEngine::Vector2 mousePosition;
 
   __declspec(property(get = get_mousePresent)) bool mousePresent;
 
-  __declspec(property(get = get_mouseScrollDelta))::UnityEngine::Vector2 mouseScrollDelta;
+  __declspec(property(get = get_mouseScrollDelta)) ::UnityEngine::Vector2 mouseScrollDelta;
 
   __declspec(property(get = get_touchCount)) int32_t touchCount;
 
   __declspec(property(get = get_touchSupported)) bool touchSupported;
 
-  /// @brief Method GetAxisRaw, addr 0x352da58, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetAxisRaw, addr 0x4a60b30, size 0xc, virtual true, abstract: false, final false
   inline float_t GetAxisRaw(::StringW axisName);
 
-  /// @brief Method GetButtonDown, addr 0x352da64, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetButtonDown, addr 0x4a60b3c, size 0xc, virtual true, abstract: false, final false
   inline bool GetButtonDown(::StringW buttonName);
 
-  /// @brief Method GetMouseButton, addr 0x352d9f4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetMouseButton, addr 0x4a60acc, size 0xc, virtual true, abstract: false, final false
   inline bool GetMouseButton(int32_t button);
 
-  /// @brief Method GetMouseButtonDown, addr 0x352d9dc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetMouseButtonDown, addr 0x4a60ab4, size 0xc, virtual true, abstract: false, final false
   inline bool GetMouseButtonDown(int32_t button);
 
-  /// @brief Method GetMouseButtonUp, addr 0x352d9e8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetMouseButtonUp, addr 0x4a60ac0, size 0xc, virtual true, abstract: false, final false
   inline bool GetMouseButtonUp(int32_t button);
 
-  /// @brief Method GetTouch, addr 0x352da20, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetTouch, addr 0x4a60af8, size 0x38, virtual true, abstract: false, final false
   inline ::UnityEngine::Touch GetTouch(int32_t index);
 
   static inline ::UnityEngine::EventSystems::BaseInput* New_ctor();
 
-  /// @brief Method .ctor, addr 0x352da70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a60b48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_compositionCursorPos, addr 0x352d9c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_compositionCursorPos, addr 0x4a60a9c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 get_compositionCursorPos();
 
-  /// @brief Method get_compositionString, addr 0x352d9a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_compositionString, addr 0x4a60a80, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_compositionString();
 
-  /// @brief Method get_imeCompositionMode, addr 0x352d9b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_imeCompositionMode, addr 0x4a60a88, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::IMECompositionMode get_imeCompositionMode();
 
-  /// @brief Method get_mousePosition, addr 0x352da00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_mousePosition, addr 0x4a60ad8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 get_mousePosition();
 
-  /// @brief Method get_mousePresent, addr 0x352d9d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_mousePresent, addr 0x4a60aac, size 0x8, virtual true, abstract: false, final false
   inline bool get_mousePresent();
 
-  /// @brief Method get_mouseScrollDelta, addr 0x352da08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_mouseScrollDelta, addr 0x4a60ae0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 get_mouseScrollDelta();
 
-  /// @brief Method get_touchCount, addr 0x352da18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_touchCount, addr 0x4a60af0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_touchCount();
 
-  /// @brief Method get_touchSupported, addr 0x352da10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_touchSupported, addr 0x4a60ae8, size 0x8, virtual true, abstract: false, final false
   inline bool get_touchSupported();
 
-  /// @brief Method set_compositionCursorPos, addr 0x352d9cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_compositionCursorPos, addr 0x4a60aa4, size 0x8, virtual true, abstract: false, final false
   inline void set_compositionCursorPos(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_imeCompositionMode, addr 0x352d9b8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_imeCompositionMode, addr 0x4a60a90, size 0xc, virtual true, abstract: false, final false
   inline void set_imeCompositionMode(::UnityEngine::IMECompositionMode value);
 
 protected:
@@ -114,10 +114,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseInput(BaseInput const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15165 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::BaseInput, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::BaseInput, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::BaseInput);

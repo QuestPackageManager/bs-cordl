@@ -22,7 +22,7 @@ class INetworkPlayer;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::INetworkPlayer);
 // Type: ::INetworkPlayer
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::INetworkPlayer*
@@ -41,9 +41,9 @@ public:
 
   __declspec(property(get = get_canUnblock)) bool canUnblock;
 
-  __declspec(property(get = get_configuration))::GlobalNamespace::GameplayServerConfiguration configuration;
+  __declspec(property(get = get_configuration)) ::GlobalNamespace::GameplayServerConfiguration configuration;
 
-  __declspec(property(get = get_connectedPlayer))::GlobalNamespace::IConnectedPlayer* connectedPlayer;
+  __declspec(property(get = get_connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* connectedPlayer;
 
   __declspec(property(get = get_currentPartySize)) int32_t currentPartySize;
 
@@ -57,11 +57,11 @@ public:
 
   __declspec(property(get = get_requiresPassword)) bool requiresPassword;
 
-  __declspec(property(get = get_selectionMask))::GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
+  __declspec(property(get = get_selectionMask)) ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
 
-  __declspec(property(get = get_userId))::StringW userId;
+  __declspec(property(get = get_userId)) ::StringW userId;
 
-  __declspec(property(get = get_userName))::StringW userName;
+  __declspec(property(get = get_userName)) ::StringW userName;
 
   /// @brief Method Block, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Block();
@@ -148,6 +148,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "INetworkPlayer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   INetworkPlayer(INetworkPlayer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14760 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -99,7 +99,7 @@ MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateF
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1);
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1);
 // Type: ::<>c__DisplayClass3_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass3_0*
@@ -107,17 +107,17 @@ class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass3_0 : pu
 public:
   // Declarations
   /// @brief Field c, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::System::Reflection::ConstructorInfo* c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) ::System::Reflection::ConstructorInfo* c;
 
   /// @brief Field method, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::System::Reflection::MethodBase* method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method)) ::System::Reflection::MethodBase* method;
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <CreateParameterizedConstructor>b__0, addr 0x2a49cd4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <CreateParameterizedConstructor>b__0, addr 0x3e5b308, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Object* _CreateParameterizedConstructor_b__0(::ArrayW<::System::Object*, ::Array<::System::Object*>*> a);
 
-  /// @brief Method <CreateParameterizedConstructor>b__1, addr 0x2a49cf0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <CreateParameterizedConstructor>b__1, addr 0x3e5b324, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _CreateParameterizedConstructor_b__1(::ArrayW<::System::Object*, ::Array<::System::Object*>*> a);
 
   constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get_c();
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set_method(::System::Reflection::MethodBase* value);
 
-  /// @brief Method .ctor, addr 0x2a49c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5b294, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -155,6 +155,9 @@ public:
   /// @brief Field method, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::MethodBase* ___method;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10215 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -166,7 +169,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__LateBoundReflectionDeleg
 
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass4_0`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -176,10 +179,10 @@ class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1 : 
 public:
   // Declarations
   /// @brief Field c, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::System::Reflection::ConstructorInfo* c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) ::System::Reflection::ConstructorInfo* c;
 
   /// @brief Field method, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::System::Reflection::MethodBase* method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method)) ::System::Reflection::MethodBase* method;
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>* New_ctor();
 
@@ -224,12 +227,15 @@ public:
   /// @brief Field method, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::MethodBase* ___method;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10216 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass5_0`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -239,10 +245,10 @@ class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1 : 
 public:
   // Declarations
   /// @brief Field constructorInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_constructorInfo, put = __cordl_internal_set_constructorInfo))::System::Reflection::ConstructorInfo* constructorInfo;
+  __declspec(property(get = __cordl_internal_get_constructorInfo, put = __cordl_internal_set_constructorInfo)) ::System::Reflection::ConstructorInfo* constructorInfo;
 
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>* New_ctor();
 
@@ -287,12 +293,15 @@ public:
   /// @brief Field constructorInfo, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::ConstructorInfo* ___constructorInfo;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10217 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass6_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -302,7 +311,7 @@ class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1 : 
 public:
   // Declarations
   /// @brief Field propertyInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_propertyInfo, put = __cordl_internal_set_propertyInfo))::System::Reflection::PropertyInfo* propertyInfo;
+  __declspec(property(get = __cordl_internal_get_propertyInfo, put = __cordl_internal_set_propertyInfo)) ::System::Reflection::PropertyInfo* propertyInfo;
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>* New_ctor();
 
@@ -335,12 +344,15 @@ public:
   /// @brief Field propertyInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::PropertyInfo* ___propertyInfo;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10218 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass7_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -350,7 +362,7 @@ class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1 : 
 public:
   // Declarations
   /// @brief Field fieldInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_fieldInfo, put = __cordl_internal_set_fieldInfo))::System::Reflection::FieldInfo* fieldInfo;
+  __declspec(property(get = __cordl_internal_get_fieldInfo, put = __cordl_internal_set_fieldInfo)) ::System::Reflection::FieldInfo* fieldInfo;
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>* New_ctor();
 
@@ -383,12 +395,15 @@ public:
   /// @brief Field fieldInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::FieldInfo* ___fieldInfo;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10219 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass8_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -398,7 +413,7 @@ class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1 : 
 public:
   // Declarations
   /// @brief Field fieldInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_fieldInfo, put = __cordl_internal_set_fieldInfo))::System::Reflection::FieldInfo* fieldInfo;
+  __declspec(property(get = __cordl_internal_get_fieldInfo, put = __cordl_internal_set_fieldInfo)) ::System::Reflection::FieldInfo* fieldInfo;
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>* New_ctor();
 
@@ -431,12 +446,15 @@ public:
   /// @brief Field fieldInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::FieldInfo* ___fieldInfo;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10220 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass9_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -446,7 +464,7 @@ class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1 : 
 public:
   // Declarations
   /// @brief Field propertyInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_propertyInfo, put = __cordl_internal_set_propertyInfo))::System::Reflection::PropertyInfo* propertyInfo;
+  __declspec(property(get = __cordl_internal_get_propertyInfo, put = __cordl_internal_set_propertyInfo)) ::System::Reflection::PropertyInfo* propertyInfo;
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>* New_ctor();
 
@@ -479,12 +497,15 @@ public:
   /// @brief Field propertyInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::PropertyInfo* ___propertyInfo;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10221 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: Newtonsoft.Json.Utilities::LateBoundReflectionDelegateFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::LateBoundReflectionDelegateFactory*
@@ -506,7 +527,7 @@ public:
   template <typename T> using __c__DisplayClass9_0_1 = ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>;
 
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* _instance;
+  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* _instance;
 
   /// @brief Method CreateDefaultConstructor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Func_1<T>* CreateDefaultConstructor(::System::Type* type);
@@ -520,7 +541,7 @@ public:
   /// @brief Method CreateMethodCall, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::Newtonsoft::Json::Utilities::MethodCall_2<T, ::System::Object*>* CreateMethodCall(::System::Reflection::MethodBase* method);
 
-  /// @brief Method CreateParameterizedConstructor, addr 0x2a49b04, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method CreateParameterizedConstructor, addr 0x3e5b138, size 0x15c, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* CreateParameterizedConstructor(::System::Reflection::MethodBase* method);
 
   /// @brief Method CreateSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -531,12 +552,12 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a49c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5b29c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x2a49aac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x3e5b0e0, size 0x58, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* get_Instance();
 
   static inline void setStaticF__instance(::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* value);
@@ -554,6 +575,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LateBoundReflectionDelegateFactory(LateBoundReflectionDelegateFactory const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

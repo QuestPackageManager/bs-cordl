@@ -15,20 +15,20 @@ class MouseCaptureController;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::MouseCaptureController);
 // Type: UnityEngine.UIElements::MouseCaptureController
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::MouseCaptureController*
 class CORDL_TYPE MouseCaptureController : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CaptureMouse, addr 0x3593418, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CaptureMouse, addr 0x49c64fc, size 0xd8, virtual false, abstract: false, final false
   static inline void CaptureMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
-  /// @brief Method HasMouseCapture, addr 0x3597d00, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HasMouseCapture, addr 0x49c4ca8, size 0xac, virtual false, abstract: false, final false
   static inline bool HasMouseCapture(::UnityEngine::UIElements::IEventHandler* handler);
 
-  /// @brief Method ReleaseMouse, addr 0x3598688, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ReleaseMouse, addr 0x49c66d0, size 0xd8, virtual false, abstract: false, final false
   static inline void ReleaseMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MouseCaptureController(MouseCaptureController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5957 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

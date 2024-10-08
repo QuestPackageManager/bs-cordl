@@ -18,31 +18,31 @@ class Datatype_normalizedString;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_normalizedString);
 // Type: System.Xml.Schema::Datatype_normalizedString
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::Datatype_normalizedString*
 class CORDL_TYPE Datatype_normalizedString : public ::System::Xml::Schema::Datatype_string {
 public:
   // Declarations
-  __declspec(property(get = get_BuiltInWhitespaceFacet))::System::Xml::Schema::XmlSchemaWhiteSpace BuiltInWhitespaceFacet;
+  __declspec(property(get = get_BuiltInWhitespaceFacet)) ::System::Xml::Schema::XmlSchemaWhiteSpace BuiltInWhitespaceFacet;
 
   __declspec(property(get = get_HasValueFacets)) bool HasValueFacets;
 
-  __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
+  __declspec(property(get = get_TypeCode)) ::System::Xml::Schema::XmlTypeCode TypeCode;
 
   static inline ::System::Xml::Schema::Datatype_normalizedString* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f32834, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432e7d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x2f3a3ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x4336334, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_HasValueFacets, addr 0x2f3a3b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasValueFacets, addr 0x433633c, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasValueFacets();
 
-  /// @brief Method get_TypeCode, addr 0x2f3a3a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x433632c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -58,6 +58,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_normalizedString", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Datatype_normalizedString(Datatype_normalizedString const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7519 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

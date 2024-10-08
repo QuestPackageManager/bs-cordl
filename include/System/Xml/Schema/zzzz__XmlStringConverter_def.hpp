@@ -28,28 +28,28 @@ class XmlStringConverter;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlStringConverter);
 // Type: System.Xml.Schema::XmlStringConverter
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlStringConverter*
 class CORDL_TYPE XmlStringConverter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
-  /// @brief Method ChangeType, addr 0x2e6dca4, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x426e9d0, size 0x280, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x2e6df40, size 0x43c, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x426ec50, size 0x424, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method Create, addr 0x2e6da34, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x426e778, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlStringConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method ToString, addr 0x2e6da94, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x426e7d0, size 0x200, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x2e6d9cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x426e710, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:
@@ -65,6 +65,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlStringConverter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlStringConverter(XmlStringConverter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7714 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

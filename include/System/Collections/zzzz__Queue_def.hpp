@@ -47,23 +47,23 @@ MARK_REF_PTR_T(::System::Collections::Queue);
 MARK_REF_PTR_T(::System::Collections::__Queue__QueueDebugView);
 MARK_REF_PTR_T(::System::Collections::__Queue__QueueEnumerator);
 // Type: ::QueueEnumerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
 // CS Name: ::Queue::QueueEnumerator*
 class CORDL_TYPE __Queue__QueueEnumerator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Current))::System::Object* Current;
+  __declspec(property(get = get_Current)) ::System::Object* Current;
 
   /// @brief Field _currentElement, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentElement, put = __cordl_internal_set__currentElement))::System::Object* _currentElement;
+  __declspec(property(get = __cordl_internal_get__currentElement, put = __cordl_internal_set__currentElement)) ::System::Object* _currentElement;
 
   /// @brief Field _index, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   /// @brief Field _q, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__q, put = __cordl_internal_set__q))::System::Collections::Queue* _q;
+  __declspec(property(get = __cordl_internal_get__q, put = __cordl_internal_set__q)) ::System::Collections::Queue* _q;
 
   /// @brief Field _version, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
@@ -74,15 +74,15 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x2932e40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3d46570, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method MoveNext, addr 0x2932e48, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x3d46578, size 0xcc, virtual true, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Collections::__Queue__QueueEnumerator* New_ctor(::System::Collections::Queue* q);
 
-  /// @brief Method Reset, addr 0x2932fa4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3d466d4, size 0x88, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Object*& __cordl_internal_get__currentElement();
@@ -109,10 +109,10 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2932c50, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d46388, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Queue* q);
 
-  /// @brief Method get_Current, addr 0x2932f10, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x3d46644, size 0x90, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -147,6 +147,9 @@ public:
   /// @brief Field _currentElement, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____currentElement;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3781 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -162,7 +165,7 @@ static_assert(offsetof(::System::Collections::__Queue__QueueEnumerator, ____curr
 
 } // namespace System::Collections
 // Type: ::QueueDebugView
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
 // CS Name: ::Queue::QueueDebugView*
@@ -183,6 +186,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Queue__QueueDebugView(__Queue__QueueDebugView const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3782 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -190,7 +196,7 @@ static_assert(::cordl_internals::size_check_v<::System::Collections::__Queue__Qu
 
 } // namespace System::Collections
 // Type: System.Collections::Queue
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
 // CS Name: ::System.Collections::Queue*
@@ -205,10 +211,10 @@ public:
 
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
-  __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
+  __declspec(property(get = get_SyncRoot)) ::System::Object* SyncRoot;
 
   /// @brief Field _array, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> _array;
 
   /// @brief Field _growFactor, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__growFactor, put = __cordl_internal_set__growFactor)) int32_t _growFactor;
@@ -220,7 +226,7 @@ public:
   __declspec(property(get = __cordl_internal_get__size, put = __cordl_internal_set__size)) int32_t _size;
 
   /// @brief Field _syncRoot, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot)) ::System::Object* _syncRoot;
 
   /// @brief Field _tail, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__tail, put = __cordl_internal_set__tail)) int32_t _tail;
@@ -237,22 +243,22 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x29326ac, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x3d45e04, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method CopyTo, addr 0x2932814, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3d45f64, size 0x1e4, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method Dequeue, addr 0x2932ca0, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Dequeue, addr 0x3d463d8, size 0xc8, virtual true, abstract: false, final false
   inline ::System::Object* Dequeue();
 
-  /// @brief Method Enqueue, addr 0x2932a08, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Enqueue, addr 0x3d46148, size 0xfc, virtual true, abstract: false, final false
   inline void Enqueue(::System::Object* obj);
 
-  /// @brief Method GetElement, addr 0x2932e00, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetElement, addr 0x3d46530, size 0x40, virtual false, abstract: false, final false
   inline ::System::Object* GetElement(int32_t i);
 
-  /// @brief Method GetEnumerator, addr 0x2932bf0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3d46330, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Collections::Queue* New_ctor();
@@ -263,10 +269,10 @@ public:
 
   static inline ::System::Collections::Queue* New_ctor(::System::Collections::ICollection* col);
 
-  /// @brief Method Peek, addr 0x2932d6c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x3d464a0, size 0x90, virtual true, abstract: false, final false
   inline ::System::Object* Peek();
 
-  /// @brief Method SetCapacity, addr 0x2932b04, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x3d46244, size 0xec, virtual false, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__array() const;
@@ -311,25 +317,25 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2932264, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d459b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2932430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d45b7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x2932270, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d459c4, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, float_t growFactor);
 
-  /// @brief Method .ctor, addr 0x2932438, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d45b84, size 0x278, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* col);
 
-  /// @brief Method get_Count, addr 0x29326a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3d45dfc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x2932790, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x3d45ee8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x2932798, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x3d45ef0, size 0x74, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -375,6 +381,9 @@ public:
 
   /// @brief Field _syncRoot, offset: 0x30, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3783 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

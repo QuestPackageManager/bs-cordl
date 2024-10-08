@@ -24,7 +24,7 @@ class CompletionActionInvoker;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Tasks::CompletionActionInvoker);
 // Type: System.Threading.Tasks::CompletionActionInvoker
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
 // CS Name: ::System.Threading.Tasks::CompletionActionInvoker*
@@ -32,20 +32,20 @@ class CORDL_TYPE CompletionActionInvoker : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_action, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_action, put = __cordl_internal_set_m_action))::System::Threading::Tasks::ITaskCompletionAction* m_action;
+  __declspec(property(get = __cordl_internal_get_m_action, put = __cordl_internal_set_m_action)) ::System::Threading::Tasks::ITaskCompletionAction* m_action;
 
   /// @brief Field m_completingTask, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_completingTask, put = __cordl_internal_set_m_completingTask))::System::Threading::Tasks::Task* m_completingTask;
+  __declspec(property(get = __cordl_internal_get_m_completingTask, put = __cordl_internal_set_m_completingTask)) ::System::Threading::Tasks::Task* m_completingTask;
 
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
 
-  /// @brief Method MarkAborted, addr 0x29e4eb8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method MarkAborted, addr 0x3df37e8, size 0x4, virtual true, abstract: false, final true
   inline void MarkAborted(::System::Threading::ThreadAbortException* e);
 
   static inline ::System::Threading::Tasks::CompletionActionInvoker* New_ctor(::System::Threading::Tasks::ITaskCompletionAction* action, ::System::Threading::Tasks::Task* completingTask);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x29e4e10, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x3df3740, size 0xa8, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
   constexpr ::System::Threading::Tasks::ITaskCompletionAction*& __cordl_internal_get_m_action();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_m_completingTask(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x29e1714, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3deff9c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ITaskCompletionAction* action, ::System::Threading::Tasks::Task* completingTask);
 
   /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field m_completingTask, offset: 0x18, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ___m_completingTask;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2791 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,7 +23,7 @@ class PemWriter;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::OpenSsl::PemWriter);
 // Type: Org.BouncyCastle.OpenSsl::PemWriter
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.OpenSsl::PemWriter*
@@ -32,13 +32,13 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::OpenSsl::PemWriter* New_ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method WriteObject, addr 0x1348130, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x2513bcc, size 0x164, virtual false, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
-  /// @brief Method WriteObject, addr 0x13482a0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x2513d30, size 0x84, virtual false, abstract: false, final false
   inline void WriteObject(::System::Object* obj, ::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0x134812c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2513bc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* writer);
 
 protected:
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PemWriter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PemWriter(PemWriter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1691 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

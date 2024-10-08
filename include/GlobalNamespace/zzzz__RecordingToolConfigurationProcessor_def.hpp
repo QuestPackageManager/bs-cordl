@@ -87,7 +87,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__RecordingToolConfigurationProcessor__Playbac
 MARK_REF_PTR_T(::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration);
 MARK_REF_PTR_T(::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration);
 // Type: ::ColorSaveData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RecordingToolConfigurationProcessor::ColorSaveData*
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x26c17ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab6464, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -149,6 +149,9 @@ public:
   /// @brief Field b, offset: 0x18, size: 0x4, def value: None
   float_t ___b;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5112 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -162,7 +165,7 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolConfigurationProcessor_
 
 } // namespace GlobalNamespace
 // Type: ::PlaybackScreenshot
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RecordingToolConfigurationProcessor::PlaybackScreenshot*
@@ -170,19 +173,19 @@ class CORDL_TYPE __RecordingToolConfigurationProcessor__PlaybackScreenshot : pub
 public:
   // Declarations
   /// @brief Field backgroundColor, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_backgroundColor, put = __cordl_internal_set_backgroundColor))::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData* backgroundColor;
+  __declspec(property(get = __cordl_internal_get_backgroundColor, put = __cordl_internal_set_backgroundColor)) ::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData* backgroundColor;
 
   /// @brief Field excludedLayers, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_excludedLayers, put = __cordl_internal_set_excludedLayers))::ArrayW<::StringW, ::Array<::StringW>*> excludedLayers;
+  __declspec(property(get = __cordl_internal_get_excludedLayers, put = __cordl_internal_set_excludedLayers)) ::ArrayW<::StringW, ::Array<::StringW>*> excludedLayers;
 
   /// @brief Field includedLayers, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_includedLayers, put = __cordl_internal_set_includedLayers))::ArrayW<::StringW, ::Array<::StringW>*> includedLayers;
+  __declspec(property(get = __cordl_internal_get_includedLayers, put = __cordl_internal_set_includedLayers)) ::ArrayW<::StringW, ::Array<::StringW>*> includedLayers;
 
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   /// @brief Field type, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::StringW type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::StringW type;
 
   static inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot* New_ctor();
 
@@ -216,7 +219,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26c17b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab646c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -248,6 +251,9 @@ public:
   /// @brief Field backgroundColor, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData* ___backgroundColor;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5113 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -265,7 +271,7 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolConfigurationProcessor_
 
 } // namespace GlobalNamespace
 // Type: ::RecordingToolConfiguration
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RecordingToolConfigurationProcessor::RecordingToolConfiguration*
@@ -274,8 +280,9 @@ public:
   // Declarations
   /// @brief Field recordingConfigurations, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_recordingConfigurations,
-                      put = __cordl_internal_set_recordingConfigurations))::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*,
-                                                                                   ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>*> recordingConfigurations;
+                      put = __cordl_internal_set_recordingConfigurations)) ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*,
+                                                                                    ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>*>
+      recordingConfigurations;
 
   static inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* New_ctor();
 
@@ -289,7 +296,7 @@ public:
   constexpr void __cordl_internal_set_recordingConfigurations(
       ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>*> value);
 
-  /// @brief Method .ctor, addr 0x26c17bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab4950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -310,6 +317,9 @@ public:
   ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>*>
       ___recordingConfigurations;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5114 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -319,7 +329,7 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolConfigurationProcessor_
 
 } // namespace GlobalNamespace
 // Type: ::RecordingConfiguration
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RecordingToolConfigurationProcessor::RecordingConfiguration*
@@ -330,39 +340,40 @@ public:
   __declspec(property(get = __cordl_internal_get_addDateTimeSuffixToRecordingName, put = __cordl_internal_set_addDateTimeSuffixToRecordingName)) bool addDateTimeSuffixToRecordingName;
 
   /// @brief Field cameraView, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_cameraView, put = __cordl_internal_set_cameraView))::StringW cameraView;
+  __declspec(property(get = __cordl_internal_get_cameraView, put = __cordl_internal_set_cameraView)) ::StringW cameraView;
 
   /// @brief Field characteristic, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_characteristic, put = __cordl_internal_set_characteristic))::StringW characteristic;
+  __declspec(property(get = __cordl_internal_get_characteristic, put = __cordl_internal_set_characteristic)) ::StringW characteristic;
 
   /// @brief Field difficulty, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty))::StringW difficulty;
+  __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty)) ::StringW difficulty;
 
   /// @brief Field environmentName, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentName, put = __cordl_internal_set_environmentName))::StringW environmentName;
+  __declspec(property(get = __cordl_internal_get_environmentName, put = __cordl_internal_set_environmentName)) ::StringW environmentName;
 
   /// @brief Field environmentType, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentType, put = __cordl_internal_set_environmentType))::StringW environmentType;
+  __declspec(property(get = __cordl_internal_get_environmentType, put = __cordl_internal_set_environmentType)) ::StringW environmentType;
 
   /// @brief Field framerate, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_framerate, put = __cordl_internal_set_framerate)) int32_t framerate;
 
   /// @brief Field levelID, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_levelID, put = __cordl_internal_set_levelID))::StringW levelID;
+  __declspec(property(get = __cordl_internal_get_levelID, put = __cordl_internal_set_levelID)) ::StringW levelID;
 
   /// @brief Field mode, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode))::StringW mode;
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode)) ::StringW mode;
 
   /// @brief Field overrideEnvironments, offset 0x7c, size 0x1
   __declspec(property(get = __cordl_internal_get_overrideEnvironments, put = __cordl_internal_set_overrideEnvironments)) bool overrideEnvironments;
 
   /// @brief Field packID, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_packID, put = __cordl_internal_set_packID))::StringW packID;
+  __declspec(property(get = __cordl_internal_get_packID, put = __cordl_internal_set_packID)) ::StringW packID;
 
   /// @brief Field playbackScreenshots, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_playbackScreenshots,
-                      put = __cordl_internal_set_playbackScreenshots))::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*,
-                                                                               ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>*> playbackScreenshots;
+                      put = __cordl_internal_set_playbackScreenshots)) ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*,
+                                                                                ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>*>
+      playbackScreenshots;
 
   /// @brief Field practice, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get_practice, put = __cordl_internal_set_practice)) bool practice;
@@ -371,10 +382,10 @@ public:
   __declspec(property(get = __cordl_internal_get_recordPerformance, put = __cordl_internal_set_recordPerformance)) bool recordPerformance;
 
   /// @brief Field recordingMode, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_recordingMode, put = __cordl_internal_set_recordingMode))::StringW recordingMode;
+  __declspec(property(get = __cordl_internal_get_recordingMode, put = __cordl_internal_set_recordingMode)) ::StringW recordingMode;
 
   /// @brief Field recordingPath, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_recordingPath, put = __cordl_internal_set_recordingPath))::StringW recordingPath;
+  __declspec(property(get = __cordl_internal_get_recordingPath, put = __cordl_internal_set_recordingPath)) ::StringW recordingPath;
 
   /// @brief Field runLevel, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_runLevel, put = __cordl_internal_set_runLevel)) bool runLevel;
@@ -540,7 +551,7 @@ public:
 
   constexpr void __cordl_internal_set_startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x26c17c4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab6474, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -627,6 +638,9 @@ public:
   /// @brief Field saveToOldFormat, offset: 0x90, size: 0x1, def value: None
   bool ___saveToOldFormat;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5115 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -680,7 +694,7 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolConfigurationProcessor_
 
 } // namespace GlobalNamespace
 // Type: ::RecordingToolConfigurationProcessor
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RecordingToolConfigurationProcessor*
@@ -696,58 +710,58 @@ public:
   using RecordingToolConfiguration = ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration;
 
   /// @brief Field _beatmapLevelsModel, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel)) ::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
 
   /// @brief Field _commandLineParserResult, offset 0x10, size 0x18
   __declspec(property(get = __cordl_internal_get__commandLineParserResult,
-                      put = __cordl_internal_set__commandLineParserResult))::BGLib::DotnetExtension::CommandLine::CommandLineParserResult _commandLineParserResult;
+                      put = __cordl_internal_set__commandLineParserResult)) ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult _commandLineParserResult;
 
   /// @brief Field _environmentListModel, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__environmentListModel, put = __cordl_internal_set__environmentListModel))::GlobalNamespace::EnvironmentsListModel* _environmentListModel;
+  __declspec(property(get = __cordl_internal_get__environmentListModel, put = __cordl_internal_set__environmentListModel)) ::GlobalNamespace::EnvironmentsListModel* _environmentListModel;
 
   /// @brief Field _logger, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
+  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger)) ::GlobalNamespace::IBeatSaberLogger* _logger;
 
   /// @brief Field _posesSerializer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__posesSerializer, put = __cordl_internal_set__posesSerializer))::GlobalNamespace::IPosesSerializer* _posesSerializer;
+  __declspec(property(get = __cordl_internal_get__posesSerializer, put = __cordl_internal_set__posesSerializer)) ::GlobalNamespace::IPosesSerializer* _posesSerializer;
 
-  /// @brief Method CreateMenuDestinationFromConfiguration, addr 0x26c041c, size 0x1390, virtual false, abstract: false, final false
+  /// @brief Method CreateMenuDestinationFromConfiguration, addr 0x3ab60e8, size 0x37c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MenuDestination* CreateMenuDestinationFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings, bool quitAppAfterRun);
 
-  /// @brief Method CreateObjectsMovementRecorderInitDataFromConfiguration, addr 0x26c0324, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CreateObjectsMovementRecorderInitDataFromConfiguration, addr 0x3ab5ff4, size 0xf4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ObjectsMovementRecorder__InitData* CreateObjectsMovementRecorderInitDataFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings);
 
-  /// @brief Method CreateRecordingToolSettingsFromConfiguration, addr 0x26bf0d8, size 0x124c, virtual false, abstract: false, final false
+  /// @brief Method CreateRecordingToolSettingsFromConfiguration, addr 0x3ab4d28, size 0x115c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RecordingToolSettings*
   CreateRecordingToolSettingsFromConfiguration(::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* recordingToolConfiguration,
                                                ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 
-  /// @brief Method DeserializeConfigurationFile, addr 0x26bea7c, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method DeserializeConfigurationFile, addr 0x3ab46f8, size 0x258, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* DeserializeConfigurationFile(::StringW jsonData);
 
-  /// @brief Method GetConfigFilePath, addr 0x26be810, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetConfigFilePath, addr 0x3ab446c, size 0x78, virtual false, abstract: false, final false
   inline ::StringW GetConfigFilePath();
 
-  /// @brief Method GetDefaultMrcLayersMask, addr 0x26becf4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultMrcLayersMask, addr 0x3ab4974, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask GetDefaultMrcLayersMask();
 
-  /// @brief Method GetLayerMask, addr 0x26bed88, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetLayerMask, addr 0x3ab4a08, size 0x1d8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
 
-  /// @brief Method GetLayersMask, addr 0x26bef90, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetLayersMask, addr 0x3ab4be0, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask GetLayersMask(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
 
-  /// @brief Method GetLevelPackAndLevelPreviewForLevelId, addr 0x26bf03c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetLevelPackAndLevelPreviewForLevelId, addr 0x3ab4c8c, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*>
   GetLevelPackAndLevelPreviewForLevelId(::StringW packId, ::StringW levelId, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  /// @brief Method IsRecordingToolEnabled, addr 0x26be790, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsRecordingToolEnabled, addr 0x3ab43f0, size 0x7c, virtual false, abstract: false, final false
   inline bool IsRecordingToolEnabled();
 
-  /// @brief Method LoadConfiguration, addr 0x26becd8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LoadConfiguration, addr 0x3ab4958, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* LoadConfiguration(::StringW filePath);
 
-  /// @brief Method LoadConfigurationFile, addr 0x26be88c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method LoadConfigurationFile, addr 0x3ab44e4, size 0x214, virtual false, abstract: false, final false
   inline ::StringW LoadConfigurationFile(::StringW filePath);
 
   static inline ::GlobalNamespace::RecordingToolConfigurationProcessor* New_ctor(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult,
@@ -785,7 +799,7 @@ public:
 
   constexpr void __cordl_internal_set__posesSerializer(::GlobalNamespace::IPosesSerializer* value);
 
-  /// @brief Method .ctor, addr 0x26be734, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab4394, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult, ::GlobalNamespace::IBeatSaberLogger* logger,
                     ::GlobalNamespace::IPosesSerializer* posesSerializer, ::GlobalNamespace::EnvironmentsListModel* environmentListModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
@@ -817,6 +831,9 @@ public:
 
   /// @brief Field _beatmapLevelsModel, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5116 };
 
   /// @brief Field kDefaultMrcLayersMask offset 0xffffffff size 0x8
   static constexpr ::ConstString kDefaultMrcLayersMask{ u"DefaultMrcLayers" };

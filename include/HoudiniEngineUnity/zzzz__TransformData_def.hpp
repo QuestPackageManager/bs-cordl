@@ -23,20 +23,20 @@ struct TransformData;
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::TransformData);
 // Type: HoudiniEngineUnity::TransformData
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HoudiniEngineUnity::TransformData
 struct CORDL_TYPE TransformData {
 public:
   // Declarations
-  /// @brief Method CopyTo, addr 0x25c44f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x39ffc40, size 0x80, virtual false, abstract: false, final false
   inline void CopyTo(::UnityEngine::Transform* other, bool copyParent);
 
-  /// @brief Method CopyToLocal, addr 0x25c4578, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CopyToLocal, addr 0x39ffcc0, size 0x80, virtual false, abstract: false, final false
   inline void CopyToLocal(::UnityEngine::Transform* other, bool copyParent);
 
-  /// @brief Method .ctor, addr 0x25c4460, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ffba8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* other);
 
   // Ctor Parameters []
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field parent, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> parent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11767 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

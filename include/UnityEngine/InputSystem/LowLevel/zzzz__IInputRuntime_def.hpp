@@ -44,7 +44,7 @@ class IInputRuntime;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputRuntime);
 // Type: UnityEngine.InputSystem.LowLevel::IInputRuntime
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputRuntime*
@@ -61,25 +61,25 @@ public:
 
   __declspec(property(get = get_isPlayerFocused)) bool isPlayerFocused;
 
-  __declspec(property(get = get_onBeforeUpdate, put = set_onBeforeUpdate))::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* onBeforeUpdate;
+  __declspec(property(get = get_onBeforeUpdate, put = set_onBeforeUpdate)) ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* onBeforeUpdate;
 
-  __declspec(property(get = get_onDeviceDiscovered, put = set_onDeviceDiscovered))::System::Action_2<int32_t, ::StringW>* onDeviceDiscovered;
+  __declspec(property(get = get_onDeviceDiscovered, put = set_onDeviceDiscovered)) ::System::Action_2<int32_t, ::StringW>* onDeviceDiscovered;
 
-  __declspec(property(get = get_onPlayerFocusChanged, put = set_onPlayerFocusChanged))::System::Action_1<bool>* onPlayerFocusChanged;
+  __declspec(property(get = get_onPlayerFocusChanged, put = set_onPlayerFocusChanged)) ::System::Action_1<bool>* onPlayerFocusChanged;
 
-  __declspec(property(get = get_onShouldRunUpdate, put = set_onShouldRunUpdate))::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* onShouldRunUpdate;
+  __declspec(property(get = get_onShouldRunUpdate, put = set_onShouldRunUpdate)) ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* onShouldRunUpdate;
 
-  __declspec(property(get = get_onShutdown, put = set_onShutdown))::System::Action* onShutdown;
+  __declspec(property(get = get_onShutdown, put = set_onShutdown)) ::System::Action* onShutdown;
 
-  __declspec(property(get = get_onUpdate, put = set_onUpdate))::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* onUpdate;
+  __declspec(property(get = get_onUpdate, put = set_onUpdate)) ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* onUpdate;
 
   __declspec(property(get = get_pollingFrequency, put = set_pollingFrequency)) float_t pollingFrequency;
 
   __declspec(property(get = get_runInBackground, put = set_runInBackground)) bool runInBackground;
 
-  __declspec(property(get = get_screenOrientation))::UnityEngine::ScreenOrientation screenOrientation;
+  __declspec(property(get = get_screenOrientation)) ::UnityEngine::ScreenOrientation screenOrientation;
 
-  __declspec(property(get = get_screenSize))::UnityEngine::Vector2 screenSize;
+  __declspec(property(get = get_screenSize)) ::UnityEngine::Vector2 screenSize;
 
   __declspec(property(get = get_unscaledGameTime)) float_t unscaledGameTime;
 
@@ -174,6 +174,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IInputRuntime", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IInputRuntime(IInputRuntime const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6924 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

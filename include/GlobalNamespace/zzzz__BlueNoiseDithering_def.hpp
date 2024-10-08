@@ -16,7 +16,7 @@ class BlueNoiseDithering;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BlueNoiseDithering);
 // Type: ::BlueNoiseDithering
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BlueNoiseDithering*
@@ -30,11 +30,11 @@ public:
   static __declspec(property(get = getStaticF__noiseParamsID, put = setStaticF__noiseParamsID)) int32_t _noiseParamsID;
 
   /// @brief Field _noiseTexture, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__noiseTexture, put = __cordl_internal_set__noiseTexture))::UnityW<::UnityEngine::Texture2D> _noiseTexture;
+  __declspec(property(get = __cordl_internal_get__noiseTexture, put = __cordl_internal_set__noiseTexture)) ::UnityW<::UnityEngine::Texture2D> _noiseTexture;
 
   static inline ::GlobalNamespace::BlueNoiseDithering* New_ctor();
 
-  /// @brief Method SetBlueNoiseShaderParams, addr 0x251bc38, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetBlueNoiseShaderParams, addr 0x39737d0, size 0xec, virtual false, abstract: false, final false
   inline void SetBlueNoiseShaderParams(int32_t cameraPixelWidth, int32_t cameraPixelHeight);
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__noiseTexture() const;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__noiseTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x251bd24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39738bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__globalNoiseTextureID();
@@ -70,6 +70,9 @@ public:
 
   /// @brief Field _noiseTexture, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____noiseTexture;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16229 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -40,7 +40,7 @@ class __DynamicUtils__BinderWrapper;
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::DynamicUtils);
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__DynamicUtils__BinderWrapper);
 // Type: ::BinderWrapper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::DynamicUtils::BinderWrapper*
@@ -48,33 +48,33 @@ class CORDL_TYPE __DynamicUtils__BinderWrapper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _getCSharpArgumentInfoArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__getCSharpArgumentInfoArray, put = setStaticF__getCSharpArgumentInfoArray))::System::Object* _getCSharpArgumentInfoArray;
+  static __declspec(property(get = getStaticF__getCSharpArgumentInfoArray, put = setStaticF__getCSharpArgumentInfoArray)) ::System::Object* _getCSharpArgumentInfoArray;
 
   /// @brief Field _getMemberCall, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__getMemberCall, put = setStaticF__getMemberCall))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _getMemberCall;
+  static __declspec(property(get = getStaticF__getMemberCall, put = setStaticF__getMemberCall)) ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _getMemberCall;
 
   /// @brief Field _init, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF__init, put = setStaticF__init)) bool _init;
 
   /// @brief Field _setCSharpArgumentInfoArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__setCSharpArgumentInfoArray, put = setStaticF__setCSharpArgumentInfoArray))::System::Object* _setCSharpArgumentInfoArray;
+  static __declspec(property(get = getStaticF__setCSharpArgumentInfoArray, put = setStaticF__setCSharpArgumentInfoArray)) ::System::Object* _setCSharpArgumentInfoArray;
 
   /// @brief Field _setMemberCall, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__setMemberCall, put = setStaticF__setMemberCall))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _setMemberCall;
+  static __declspec(property(get = getStaticF__setMemberCall, put = setStaticF__setMemberCall)) ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _setMemberCall;
 
-  /// @brief Method CreateMemberCalls, addr 0x2a41c5c, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method CreateMemberCalls, addr 0x3e53130, size 0x4d4, virtual false, abstract: false, final false
   static inline void CreateMemberCalls();
 
-  /// @brief Method CreateSharpArgumentInfoArray, addr 0x2a41984, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method CreateSharpArgumentInfoArray, addr 0x3e52e58, size 0x2d8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateSharpArgumentInfoArray(::ArrayW<int32_t, ::Array<int32_t>*> values);
 
-  /// @brief Method GetMember, addr 0x2a42138, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetMember, addr 0x3e53604, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSiteBinder* GetMember(::StringW name, ::System::Type* context);
 
-  /// @brief Method Init, addr 0x2a4179c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3e52c80, size 0x1d8, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method SetMember, addr 0x2a4230c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SetMember, addr 0x3e537d8, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSiteBinder* SetMember(::StringW name, ::System::Type* context);
 
   static inline ::System::Object* getStaticF__getCSharpArgumentInfoArray();
@@ -130,6 +130,9 @@ public:
   /// @brief Field CSharpBinderFlagsTypeName offset 0xffffffff size 0x8
   static constexpr ::ConstString CSharpBinderFlagsTypeName{ u"Microsoft.CSharp.RuntimeBinder.CSharpBinderFlags, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" };
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10190 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -137,7 +140,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::__D
 
 } // namespace Newtonsoft::Json::Utilities
 // Type: Newtonsoft.Json.Utilities::DynamicUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::DynamicUtils*
@@ -146,7 +149,7 @@ public:
   // Declarations
   using BinderWrapper = ::Newtonsoft::Json::Utilities::__DynamicUtils__BinderWrapper;
 
-  /// @brief Method GetDynamicMemberNames, addr 0x2a416b4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetDynamicMemberNames, addr 0x3e52b98, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider);
 
 protected:
@@ -162,6 +165,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DynamicUtils", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DynamicUtils(DynamicUtils const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,32 +33,32 @@ class GeneralSubtree;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::GeneralSubtree);
 // Type: Org.BouncyCastle.Asn1.X509::GeneralSubtree
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::GeneralSubtree*
 class CORDL_TYPE GeneralSubtree : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_Base))::Org::BouncyCastle::Asn1::X509::GeneralName* Base;
+  __declspec(property(get = get_Base)) ::Org::BouncyCastle::Asn1::X509::GeneralName* Base;
 
-  __declspec(property(get = get_Maximum))::Org::BouncyCastle::Math::BigInteger* Maximum;
+  __declspec(property(get = get_Maximum)) ::Org::BouncyCastle::Math::BigInteger* Maximum;
 
-  __declspec(property(get = get_Minimum))::Org::BouncyCastle::Math::BigInteger* Minimum;
+  __declspec(property(get = get_Minimum)) ::Org::BouncyCastle::Math::BigInteger* Minimum;
 
   /// @brief Field baseName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_baseName, put = __cordl_internal_set_baseName))::Org::BouncyCastle::Asn1::X509::GeneralName* baseName;
+  __declspec(property(get = __cordl_internal_get_baseName, put = __cordl_internal_set_baseName)) ::Org::BouncyCastle::Asn1::X509::GeneralName* baseName;
 
   /// @brief Field maximum, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_maximum, put = __cordl_internal_set_maximum))::Org::BouncyCastle::Asn1::DerInteger* maximum;
+  __declspec(property(get = __cordl_internal_get_maximum, put = __cordl_internal_set_maximum)) ::Org::BouncyCastle::Asn1::DerInteger* maximum;
 
   /// @brief Field minimum, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_minimum, put = __cordl_internal_set_minimum))::Org::BouncyCastle::Asn1::DerInteger* minimum;
+  __declspec(property(get = __cordl_internal_get_minimum, put = __cordl_internal_set_minimum)) ::Org::BouncyCastle::Asn1::DerInteger* minimum;
 
-  /// @brief Method GetInstance, addr 0x1401d6c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25c7f40, size 0x7c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralSubtree* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x1401df0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25c7fbc, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralSubtree* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralSubtree* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* baseName);
@@ -68,7 +68,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralSubtree* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x1401f24, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25c80f0, size 0x17c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_baseName();
@@ -89,22 +89,22 @@ public:
 
   constexpr void __cordl_internal_set_minimum(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x1401d20, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c7ef4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* baseName);
 
-  /// @brief Method .ctor, addr 0x1401c70, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c7e50, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* baseName, ::Org::BouncyCastle::Math::BigInteger* minimum, ::Org::BouncyCastle::Math::BigInteger* maximum);
 
-  /// @brief Method .ctor, addr 0x14019e4, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c7bcc, size 0x284, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Base, addr 0x1401e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Base, addr 0x25c8060, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Base();
 
-  /// @brief Method get_Maximum, addr 0x1401f10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Maximum, addr 0x25c80dc, size 0x14, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Maximum();
 
-  /// @brief Method get_Minimum, addr 0x1401e9c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Minimum, addr 0x25c8068, size 0x74, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Minimum();
 
 protected:
@@ -129,6 +129,9 @@ public:
 
   /// @brief Field maximum, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___maximum;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 363 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

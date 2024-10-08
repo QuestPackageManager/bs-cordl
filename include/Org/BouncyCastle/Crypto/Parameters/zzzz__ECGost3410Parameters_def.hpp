@@ -21,27 +21,27 @@ class ECGost3410Parameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::ECGost3410Parameters
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ECGost3410Parameters*
 class CORDL_TYPE ECGost3410Parameters : public ::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters {
 public:
   // Declarations
-  __declspec(property(get = get_DigestParamSet))::Org::BouncyCastle::Asn1::DerObjectIdentifier* DigestParamSet;
+  __declspec(property(get = get_DigestParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DigestParamSet;
 
-  __declspec(property(get = get_EncryptionParamSet))::Org::BouncyCastle::Asn1::DerObjectIdentifier* EncryptionParamSet;
+  __declspec(property(get = get_EncryptionParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* EncryptionParamSet;
 
-  __declspec(property(get = get_PublicKeyParamSet))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PublicKeyParamSet;
+  __declspec(property(get = get_PublicKeyParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PublicKeyParamSet;
 
   /// @brief Field _digestParamSet, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__digestParamSet, put = __cordl_internal_set__digestParamSet))::Org::BouncyCastle::Asn1::DerObjectIdentifier* _digestParamSet;
+  __declspec(property(get = __cordl_internal_get__digestParamSet, put = __cordl_internal_set__digestParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _digestParamSet;
 
   /// @brief Field _encryptionParamSet, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__encryptionParamSet, put = __cordl_internal_set__encryptionParamSet))::Org::BouncyCastle::Asn1::DerObjectIdentifier* _encryptionParamSet;
+  __declspec(property(get = __cordl_internal_get__encryptionParamSet, put = __cordl_internal_set__encryptionParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _encryptionParamSet;
 
   /// @brief Field _publicKeyParamSet, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__publicKeyParamSet, put = __cordl_internal_set__publicKeyParamSet))::Org::BouncyCastle::Asn1::DerObjectIdentifier* _publicKeyParamSet;
+  __declspec(property(get = __cordl_internal_get__publicKeyParamSet, put = __cordl_internal_set__publicKeyParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _publicKeyParamSet;
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* dp,
                                                                                         ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet,
@@ -71,21 +71,21 @@ public:
 
   constexpr void __cordl_internal_set__publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x11a42e4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237b650, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* dp, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet,
                     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
-  /// @brief Method .ctor, addr 0x11a4264, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237b5d0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters* dp, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet,
                     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
-  /// @brief Method get_DigestParamSet, addr 0x11a4254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestParamSet, addr 0x237b5c0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DigestParamSet();
 
-  /// @brief Method get_EncryptionParamSet, addr 0x11a425c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionParamSet, addr 0x237b5c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_EncryptionParamSet();
 
-  /// @brief Method get_PublicKeyParamSet, addr 0x11a424c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyParamSet, addr 0x237b5b8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
 protected:
@@ -110,6 +110,9 @@ public:
 
   /// @brief Field _encryptionParamSet, offset: 0x58, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ____encryptionParamSet;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1035 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

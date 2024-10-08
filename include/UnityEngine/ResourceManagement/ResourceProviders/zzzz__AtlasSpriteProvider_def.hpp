@@ -15,7 +15,7 @@ class AtlasSpriteProvider;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider);
 // Type: UnityEngine.ResourceManagement.ResourceProviders::AtlasSpriteProvider
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::AtlasSpriteProvider*
@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x33440b8, size 0x34c, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x4725080, size 0x380, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface);
 
-  /// @brief Method .ctor, addr 0x3344404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4725400, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -43,6 +43,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AtlasSpriteProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AtlasSpriteProvider(AtlasSpriteProvider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15609 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,7 +22,7 @@ class DebuggableAttribute;
 MARK_VAL_T(::System::Diagnostics::__DebuggableAttribute__DebuggingModes);
 MARK_REF_PTR_T(::System::Diagnostics::DebuggableAttribute);
 // Type: ::DebuggingModes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: true
 // CS Name: ::DebuggableAttribute::DebuggingModes
@@ -75,6 +75,9 @@ public:
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::System::Diagnostics::__DebuggableAttribute__DebuggingModes const None;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3738 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -87,7 +90,7 @@ static_assert(offsetof(::System::Diagnostics::__DebuggableAttribute__DebuggingMo
 
 } // namespace System::Diagnostics
 // Type: System.Diagnostics::DebuggableAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
 // CS Name: ::System.Diagnostics::DebuggableAttribute*
@@ -97,7 +100,7 @@ public:
   using DebuggingModes = ::System::Diagnostics::__DebuggableAttribute__DebuggingModes;
 
   /// @brief Field m_debuggingModes, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_debuggingModes, put = __cordl_internal_set_m_debuggingModes))::System::Diagnostics::__DebuggableAttribute__DebuggingModes m_debuggingModes;
+  __declspec(property(get = __cordl_internal_get_m_debuggingModes, put = __cordl_internal_set_m_debuggingModes)) ::System::Diagnostics::__DebuggableAttribute__DebuggingModes m_debuggingModes;
 
   static inline ::System::Diagnostics::DebuggableAttribute* New_ctor(::System::Diagnostics::__DebuggableAttribute__DebuggingModes modes);
 
@@ -107,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_m_debuggingModes(::System::Diagnostics::__DebuggableAttribute__DebuggingModes value);
 
-  /// @brief Method .ctor, addr 0x292cecc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d40730, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::__DebuggableAttribute__DebuggingModes modes);
 
 protected:
@@ -126,6 +129,9 @@ public:
 
   /// @brief Field m_debuggingModes, offset: 0x10, size: 0x4, def value: None
   ::System::Diagnostics::__DebuggableAttribute__DebuggingModes ___m_debuggingModes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3739 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

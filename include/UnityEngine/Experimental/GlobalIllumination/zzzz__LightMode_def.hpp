@@ -13,7 +13,7 @@ struct LightMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::LightMode);
 // Type: UnityEngine.Experimental.GlobalIllumination::LightMode
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::LightMode
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field Unknown value: static_cast<uint8_t>(0x3u)
   static ::UnityEngine::Experimental::GlobalIllumination::LightMode const Unknown;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11253 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

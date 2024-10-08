@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRResources);
 MARK_REF_PTR_T(::GlobalNamespace::__OVRResources____c__DisplayClass2_0);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__OVRResources____c__DisplayClass3_0_1);
 // Type: ::<>c__DisplayClass2_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRResources::<>c__DisplayClass2_0*
@@ -45,11 +45,11 @@ class CORDL_TYPE __OVRResources____c__DisplayClass2_0 : public ::System::Object 
 public:
   // Declarations
   /// @brief Field path, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_path, put = __cordl_internal_set_path))::StringW path;
+  __declspec(property(get = __cordl_internal_get_path, put = __cordl_internal_set_path)) ::StringW path;
 
   static inline ::GlobalNamespace::__OVRResources____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <Load>b__0, addr 0x2b874fc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <Load>b__0, addr 0x3f90e9c, size 0x34, virtual false, abstract: false, final false
   inline bool _Load_b__0(::StringW s);
 
   constexpr ::StringW const& __cordl_internal_get_path() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_path(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2b87418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f90db8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,6 +78,9 @@ public:
   /// @brief Field path, offset: 0x10, size: 0x8, def value: None
   ::StringW ___path;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8232 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -87,7 +90,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRResources____c__DisplayClass2_0, 
 
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass3_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -97,7 +100,7 @@ class CORDL_TYPE __OVRResources____c__DisplayClass3_0_1 : public ::System::Objec
 public:
   // Declarations
   /// @brief Field path, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_path, put = __cordl_internal_set_path))::StringW path;
+  __declspec(property(get = __cordl_internal_get_path, put = __cordl_internal_set_path)) ::StringW path;
 
   static inline ::GlobalNamespace::__OVRResources____c__DisplayClass3_0_1<T>* New_ctor();
 
@@ -130,12 +133,15 @@ public:
   /// @brief Field path, offset: 0x10, size: 0x8, def value: None
   ::StringW ___path;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8233 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::OVRResources
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRResources*
@@ -147,12 +153,12 @@ public:
   template <typename T> using __c__DisplayClass3_0_1 = ::GlobalNamespace::__OVRResources____c__DisplayClass3_0_1<T>;
 
   /// @brief Field assetNames, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_assetNames, put = setStaticF_assetNames))::System::Collections::Generic::List_1<::StringW>* assetNames;
+  static __declspec(property(get = getStaticF_assetNames, put = setStaticF_assetNames)) ::System::Collections::Generic::List_1<::StringW>* assetNames;
 
   /// @brief Field resourceBundle, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_resourceBundle, put = setStaticF_resourceBundle))::UnityW<::UnityEngine::AssetBundle> resourceBundle;
+  static __declspec(property(get = getStaticF_resourceBundle, put = setStaticF_resourceBundle)) ::UnityW<::UnityEngine::AssetBundle> resourceBundle;
 
-  /// @brief Method Load, addr 0x2b87234, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x3f90bd8, size 0x1e0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path);
 
   /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -160,10 +166,10 @@ public:
 
   static inline ::GlobalNamespace::OVRResources* New_ctor();
 
-  /// @brief Method SetResourceBundle, addr 0x2b87420, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetResourceBundle, addr 0x3f90dc0, size 0xd4, virtual false, abstract: false, final false
   static inline void SetResourceBundle(::UnityEngine::AssetBundle* bundle);
 
-  /// @brief Method .ctor, addr 0x2b874f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f90e94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_assetNames();
@@ -188,10 +194,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRResources(OVRResources const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8234 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRResources, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRResources, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRResources);

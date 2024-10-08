@@ -29,30 +29,30 @@ class DecoderReplacementFallback;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::DecoderReplacementFallback);
 // Type: System.Text::DecoderReplacementFallback
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
 // CS Name: ::System.Text::DecoderReplacementFallback*
 class CORDL_TYPE DecoderReplacementFallback : public ::System::Text::DecoderFallback {
 public:
   // Declarations
-  __declspec(property(get = get_DefaultString))::StringW DefaultString;
+  __declspec(property(get = get_DefaultString)) ::StringW DefaultString;
 
   __declspec(property(get = get_MaxCharCount)) int32_t MaxCharCount;
 
   /// @brief Field _strDefault, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__strDefault, put = __cordl_internal_set__strDefault))::StringW _strDefault;
+  __declspec(property(get = __cordl_internal_get__strDefault, put = __cordl_internal_set__strDefault)) ::StringW _strDefault;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CreateFallbackBuffer, addr 0x29ec190, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x3dfa88c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method Equals, addr 0x29ec248, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3dfa93c, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x29ec2c8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3dfa9bc, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Text::DecoderReplacementFallback* New_ctor();
@@ -61,7 +61,7 @@ public:
 
   static inline ::System::Text::DecoderReplacementFallback* New_ctor(::StringW replacement);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x29ec12c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x3dfa828, size 0x5c, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::StringW const& __cordl_internal_get__strDefault() const;
@@ -70,19 +70,19 @@ public:
 
   constexpr void __cordl_internal_set__strDefault(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29ead1c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df946c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x29ec028, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfa724, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x29ebe80, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfa57c, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::StringW replacement);
 
-  /// @brief Method get_DefaultString, addr 0x29ec188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultString, addr 0x3dfa884, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DefaultString();
 
-  /// @brief Method get_MaxCharCount, addr 0x29ec22c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x3dfa920, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -104,6 +104,9 @@ public:
 
   /// @brief Field _strDefault, offset: 0x10, size: 0x8, def value: None
   ::StringW ____strDefault;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2839 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

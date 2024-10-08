@@ -32,7 +32,7 @@ template <typename T, typename U> class __HeaderInfo__HeaderTypeInfo_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2);
 // Type: ::HeaderTypeInfo`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // cpp template
 template <typename T, typename U>
@@ -42,7 +42,7 @@ class CORDL_TYPE __HeaderInfo__HeaderTypeInfo_2 : public ::System::Net::Http::He
 public:
   // Declarations
   /// @brief Field parser, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_parser, put = __cordl_internal_set_parser))::System::Net::Http::Headers::TryParseDelegate_1<T>* parser;
+  __declspec(property(get = __cordl_internal_get_parser, put = __cordl_internal_set_parser)) ::System::Net::Http::Headers::TryParseDelegate_1<T>* parser;
 
   /// @brief Method AddToCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AddToCollection(::System::Object* collection, ::System::Object* value);
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field parser, offset: 0x28, size: 0x8, def value: None
   ::System::Net::Http::Headers::TryParseDelegate_1<T>* ___parser;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16658 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

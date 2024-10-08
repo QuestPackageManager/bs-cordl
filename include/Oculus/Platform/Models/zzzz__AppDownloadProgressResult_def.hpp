@@ -17,7 +17,7 @@ class AppDownloadProgressResult;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::AppDownloadProgressResult);
 // Type: Oculus.Platform.Models::AppDownloadProgressResult
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::AppDownloadProgressResult*
@@ -31,7 +31,7 @@ public:
   __declspec(property(get = __cordl_internal_get_DownloadedBytes, put = __cordl_internal_set_DownloadedBytes)) int64_t DownloadedBytes;
 
   /// @brief Field StatusCode, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_StatusCode, put = __cordl_internal_set_StatusCode))::Oculus::Platform::AppStatus StatusCode;
+  __declspec(property(get = __cordl_internal_get_StatusCode, put = __cordl_internal_set_StatusCode)) ::Oculus::Platform::AppStatus StatusCode;
 
   static inline ::Oculus::Platform::Models::AppDownloadProgressResult* New_ctor(::System::IntPtr o);
 
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_StatusCode(::Oculus::Platform::AppStatus value);
 
-  /// @brief Method .ctor, addr 0x2b0e03c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f194a4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field StatusCode, offset: 0x20, size: 0x4, def value: None
   ::Oculus::Platform::AppStatus ___StatusCode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15451 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

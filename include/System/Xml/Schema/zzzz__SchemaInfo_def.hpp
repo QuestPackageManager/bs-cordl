@@ -58,68 +58,69 @@ class SchemaInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::SchemaInfo);
 // Type: System.Xml.Schema::SchemaInfo
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::SchemaInfo*
 class CORDL_TYPE SchemaInfo : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AttributeDecls))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>* AttributeDecls;
+  __declspec(property(get = get_AttributeDecls)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>* AttributeDecls;
 
-  __declspec(property(get = get_DocTypeName, put = set_DocTypeName))::System::Xml::XmlQualifiedName* DocTypeName;
+  __declspec(property(get = get_DocTypeName, put = set_DocTypeName)) ::System::Xml::XmlQualifiedName* DocTypeName;
 
-  __declspec(property(get = get_ElementDecls))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* ElementDecls;
+  __declspec(property(get = get_ElementDecls)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* ElementDecls;
 
-  __declspec(property(get = get_ElementDeclsByType))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* ElementDeclsByType;
+  __declspec(property(get = get_ElementDeclsByType)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* ElementDeclsByType;
 
   __declspec(property(get = get_ErrorCount, put = set_ErrorCount)) int32_t ErrorCount;
 
-  __declspec(property(get = get_GeneralEntities))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* GeneralEntities;
+  __declspec(property(get = get_GeneralEntities)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* GeneralEntities;
 
-  __declspec(property(put = set_InternalDtdSubset))::StringW InternalDtdSubset;
+  __declspec(property(put = set_InternalDtdSubset)) ::StringW InternalDtdSubset;
 
-  __declspec(property(get = get_Notations))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::Schema::SchemaNotation*>* Notations;
+  __declspec(property(get = get_Notations)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::Schema::SchemaNotation*>* Notations;
 
-  __declspec(property(get = get_ParameterEntities))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* ParameterEntities;
+  __declspec(property(get = get_ParameterEntities)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* ParameterEntities;
 
-  __declspec(property(get = get_SchemaType, put = set_SchemaType))::System::Xml::Schema::SchemaType SchemaType;
+  __declspec(property(get = get_SchemaType, put = set_SchemaType)) ::System::Xml::Schema::SchemaType SchemaType;
 
   __declspec(property(get = System_Xml_IDtdInfo_get_HasDefaultAttributes)) bool System_Xml_IDtdInfo_HasDefaultAttributes;
 
   __declspec(property(get = System_Xml_IDtdInfo_get_HasNonCDataAttributes)) bool System_Xml_IDtdInfo_HasNonCDataAttributes;
 
-  __declspec(property(get = System_Xml_IDtdInfo_get_InternalDtdSubset))::StringW System_Xml_IDtdInfo_InternalDtdSubset;
+  __declspec(property(get = System_Xml_IDtdInfo_get_InternalDtdSubset)) ::StringW System_Xml_IDtdInfo_InternalDtdSubset;
 
-  __declspec(property(get = System_Xml_IDtdInfo_get_Name))::System::Xml::XmlQualifiedName* System_Xml_IDtdInfo_Name;
+  __declspec(property(get = System_Xml_IDtdInfo_get_Name)) ::System::Xml::XmlQualifiedName* System_Xml_IDtdInfo_Name;
 
-  __declspec(property(get = get_TargetNamespaces))::System::Collections::Generic::Dictionary_2<::StringW, bool>* TargetNamespaces;
+  __declspec(property(get = get_TargetNamespaces)) ::System::Collections::Generic::Dictionary_2<::StringW, bool>* TargetNamespaces;
 
-  __declspec(
-      property(get = get_UndeclaredElementDecls))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* UndeclaredElementDecls;
+  __declspec(property(
+      get = get_UndeclaredElementDecls)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* UndeclaredElementDecls;
 
   /// @brief Field attributeDecls, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_attributeDecls,
-                      put = __cordl_internal_set_attributeDecls))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>* attributeDecls;
+                      put = __cordl_internal_set_attributeDecls)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>* attributeDecls;
 
   /// @brief Field docTypeName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_docTypeName, put = __cordl_internal_set_docTypeName))::System::Xml::XmlQualifiedName* docTypeName;
+  __declspec(property(get = __cordl_internal_get_docTypeName, put = __cordl_internal_set_docTypeName)) ::System::Xml::XmlQualifiedName* docTypeName;
 
   /// @brief Field elementDecls, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_elementDecls,
-                      put = __cordl_internal_set_elementDecls))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* elementDecls;
+                      put = __cordl_internal_set_elementDecls)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* elementDecls;
 
   /// @brief Field elementDeclsByType, offset 0x60, size 0x8
   __declspec(property(
       get = __cordl_internal_get_elementDeclsByType,
-      put = __cordl_internal_set_elementDeclsByType))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* elementDeclsByType;
+      put = __cordl_internal_set_elementDeclsByType)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* elementDeclsByType;
 
   /// @brief Field errorCount, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_errorCount, put = __cordl_internal_set_errorCount)) int32_t errorCount;
 
   /// @brief Field generalEntities, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_generalEntities,
-                      put = __cordl_internal_set_generalEntities))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* generalEntities;
+                      put =
+                          __cordl_internal_set_generalEntities)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* generalEntities;
 
   /// @brief Field hasDefaultAttributes, offset 0x41, size 0x1
   __declspec(property(get = __cordl_internal_get_hasDefaultAttributes, put = __cordl_internal_set_hasDefaultAttributes)) bool hasDefaultAttributes;
@@ -128,80 +129,80 @@ public:
   __declspec(property(get = __cordl_internal_get_hasNonCDataAttributes, put = __cordl_internal_set_hasNonCDataAttributes)) bool hasNonCDataAttributes;
 
   /// @brief Field internalDtdSubset, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_internalDtdSubset, put = __cordl_internal_set_internalDtdSubset))::StringW internalDtdSubset;
+  __declspec(property(get = __cordl_internal_get_internalDtdSubset, put = __cordl_internal_set_internalDtdSubset)) ::StringW internalDtdSubset;
 
   /// @brief Field notations, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_notations,
-                      put = __cordl_internal_set_notations))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::Schema::SchemaNotation*>* notations;
+                      put = __cordl_internal_set_notations)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::Schema::SchemaNotation*>* notations;
 
   /// @brief Field parameterEntities, offset 0x28, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_parameterEntities,
-               put = __cordl_internal_set_parameterEntities))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* parameterEntities;
+  __declspec(property(
+      get = __cordl_internal_get_parameterEntities,
+      put = __cordl_internal_set_parameterEntities)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* parameterEntities;
 
   /// @brief Field schemaType, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get_schemaType, put = __cordl_internal_set_schemaType))::System::Xml::Schema::SchemaType schemaType;
+  __declspec(property(get = __cordl_internal_get_schemaType, put = __cordl_internal_set_schemaType)) ::System::Xml::Schema::SchemaType schemaType;
 
   /// @brief Field targetNamespaces, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetNamespaces, put = __cordl_internal_set_targetNamespaces))::System::Collections::Generic::Dictionary_2<::StringW, bool>* targetNamespaces;
+  __declspec(property(get = __cordl_internal_get_targetNamespaces, put = __cordl_internal_set_targetNamespaces)) ::System::Collections::Generic::Dictionary_2<::StringW, bool>* targetNamespaces;
 
   /// @brief Field undeclaredElementDecls, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_undeclaredElementDecls,
-                      put = __cordl_internal_set_undeclaredElementDecls))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*,
-                                                                                                                      ::System::Xml::Schema::SchemaElementDecl*>* undeclaredElementDecls;
+                      put = __cordl_internal_set_undeclaredElementDecls)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>*
+      undeclaredElementDecls;
 
   /// @brief Convert operator to "::System::Xml::IDtdInfo"
   constexpr operator ::System::Xml::IDtdInfo*() noexcept;
 
-  /// @brief Method Add, addr 0x2e1901c, size 0x8e0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x421c674, size 0x8d8, virtual false, abstract: false, final false
   inline void Add(::System::Xml::Schema::SchemaInfo* sinfo, ::System::Xml::Schema::ValidationEventHandler* eventhandler);
 
-  /// @brief Method Contains, addr 0x2e18b5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x421c1b8, size 0x58, virtual false, abstract: false, final false
   inline bool Contains(::StringW ns);
 
-  /// @brief Method Finish, addr 0x2e198fc, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x421cf4c, size 0x1b4, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method GetAttributeXdr, addr 0x2e18bb4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeXdr, addr 0x421c210, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaAttDef* GetAttributeXdr(::System::Xml::Schema::SchemaElementDecl* ed, ::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method GetAttributeXsd, addr 0x2e18d04, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeXsd, addr 0x421c35c, size 0x220, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaAttDef* GetAttributeXsd(::System::Xml::Schema::SchemaElementDecl* ed, ::System::Xml::XmlQualifiedName* qname,
                                                               ::System::Xml::Schema::XmlSchemaObject* partialValidationType, ByRef<::System::Xml::Schema::AttributeMatchState> attributeMatchState);
 
-  /// @brief Method GetAttributeXsd, addr 0x2e18f1c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeXsd, addr 0x421c57c, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaAttDef* GetAttributeXsd(::System::Xml::Schema::SchemaElementDecl* ed, ::System::Xml::XmlQualifiedName* qname, ByRef<bool> skip);
 
-  /// @brief Method GetElement, addr 0x2e18aec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetElement, addr 0x421c148, size 0x18, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaElement* GetElement(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method GetElementDecl, addr 0x2e189fc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetElementDecl, addr 0x421c058, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaElementDecl* GetElementDecl(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method GetTypeDecl, addr 0x2e18a74, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetTypeDecl, addr 0x421c0d0, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaElementDecl* GetTypeDecl(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method HasSchema, addr 0x2e18b04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HasSchema, addr 0x421c160, size 0x58, virtual false, abstract: false, final false
   inline bool HasSchema(::StringW ns);
 
   static inline ::System::Xml::Schema::SchemaInfo* New_ctor();
 
-  /// @brief Method System.Xml.IDtdInfo.LookupAttributeList, addr 0x2e19ac0, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdInfo.LookupAttributeList, addr 0x421d110, size 0xc8, virtual true, abstract: false, final true
   inline ::System::Xml::IDtdAttributeListInfo* System_Xml_IDtdInfo_LookupAttributeList(::StringW prefix, ::StringW localName);
 
-  /// @brief Method System.Xml.IDtdInfo.LookupEntity, addr 0x2e19b8c, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdInfo.LookupEntity, addr 0x421d1d8, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Xml::IDtdEntityInfo* System_Xml_IDtdInfo_LookupEntity(::StringW name);
 
-  /// @brief Method System.Xml.IDtdInfo.get_HasDefaultAttributes, addr 0x2e19ab0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdInfo.get_HasDefaultAttributes, addr 0x421d100, size 0x8, virtual true, abstract: false, final true
   inline bool System_Xml_IDtdInfo_get_HasDefaultAttributes();
 
-  /// @brief Method System.Xml.IDtdInfo.get_HasNonCDataAttributes, addr 0x2e19ab8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdInfo.get_HasNonCDataAttributes, addr 0x421d108, size 0x8, virtual true, abstract: false, final true
   inline bool System_Xml_IDtdInfo_get_HasNonCDataAttributes();
 
-  /// @brief Method System.Xml.IDtdInfo.get_InternalDtdSubset, addr 0x2e19c4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdInfo.get_InternalDtdSubset, addr 0x421d294, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IDtdInfo_get_InternalDtdSubset();
 
-  /// @brief Method System.Xml.IDtdInfo.get_Name, addr 0x2e19c44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdInfo.get_Name, addr 0x421d28c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::XmlQualifiedName* System_Xml_IDtdInfo_get_Name();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>*& __cordl_internal_get_attributeDecls();
@@ -294,55 +295,55 @@ public:
 
   constexpr void __cordl_internal_set_undeclaredElementDecls(::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* value);
 
-  /// @brief Method .ctor, addr 0x2e18670, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421bcec, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AttributeDecls, addr 0x2e18964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeDecls, addr 0x421bfc8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>* get_AttributeDecls();
 
-  /// @brief Method get_DocTypeName, addr 0x2e1881c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DocTypeName, addr 0x421be90, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_DocTypeName();
 
-  /// @brief Method get_ElementDecls, addr 0x2e18834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementDecls, addr 0x421bea8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* get_ElementDecls();
 
-  /// @brief Method get_ElementDeclsByType, addr 0x2e1895c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementDeclsByType, addr 0x421bfc0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* get_ElementDeclsByType();
 
-  /// @brief Method get_ErrorCount, addr 0x2e189ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorCount, addr 0x421c048, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ErrorCount();
 
-  /// @brief Method get_GeneralEntities, addr 0x2e18844, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_GeneralEntities, addr 0x421beb8, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* get_GeneralEntities();
 
-  /// @brief Method get_Notations, addr 0x2e1896c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Notations, addr 0x421bfd0, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::Schema::SchemaNotation*>* get_Notations();
 
-  /// @brief Method get_ParameterEntities, addr 0x2e188c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterEntities, addr 0x421bf30, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaEntity*>* get_ParameterEntities();
 
-  /// @brief Method get_SchemaType, addr 0x2e18944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaType, addr 0x421bfa8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaType get_SchemaType();
 
-  /// @brief Method get_TargetNamespaces, addr 0x2e18954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetNamespaces, addr 0x421bfb8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, bool>* get_TargetNamespaces();
 
-  /// @brief Method get_UndeclaredElementDecls, addr 0x2e1883c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UndeclaredElementDecls, addr 0x421beb0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaElementDecl*>* get_UndeclaredElementDecls();
 
   /// @brief Convert to "::System::Xml::IDtdInfo"
   constexpr ::System::Xml::IDtdInfo* i___System__Xml__IDtdInfo() noexcept;
 
-  /// @brief Method set_DocTypeName, addr 0x2e18824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DocTypeName, addr 0x421be98, size 0x8, virtual false, abstract: false, final false
   inline void set_DocTypeName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_ErrorCount, addr 0x2e189f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorCount, addr 0x421c050, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorCount(int32_t value);
 
-  /// @brief Method set_InternalDtdSubset, addr 0x2e1882c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InternalDtdSubset, addr 0x421bea0, size 0x8, virtual false, abstract: false, final false
   inline void set_InternalDtdSubset(::StringW value);
 
-  /// @brief Method set_SchemaType, addr 0x2e1894c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaType, addr 0x421bfb0, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaType(::System::Xml::Schema::SchemaType value);
 
 protected:
@@ -400,6 +401,9 @@ public:
 
   /// @brief Field notations, offset: 0x68, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::Schema::SchemaNotation*>* ___notations;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

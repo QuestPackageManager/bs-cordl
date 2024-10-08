@@ -20,7 +20,7 @@ class DefaultSignatureResult;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult);
 // Type: Org.BouncyCastle.Crypto.Operators::DefaultSignatureResult
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::DefaultSignatureResult*
@@ -28,15 +28,15 @@ class CORDL_TYPE DefaultSignatureResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mSigner, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mSigner, put = __cordl_internal_set_mSigner))::Org::BouncyCastle::Crypto::ISigner* mSigner;
+  __declspec(property(get = __cordl_internal_get_mSigner, put = __cordl_internal_set_mSigner)) ::Org::BouncyCastle::Crypto::ISigner* mSigner;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockResult"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockResult*() noexcept;
 
-  /// @brief Method Collect, addr 0x119f12c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0x237652c, size 0xa4, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
 
-  /// @brief Method Collect, addr 0x119f1d0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0x23765d0, size 0x40, virtual true, abstract: false, final true
   inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  /// @brief Method .ctor, addr 0x119f104, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2376504, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"
@@ -69,6 +69,9 @@ public:
 
   /// @brief Field mSigner, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::ISigner* ___mSigner;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1000 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

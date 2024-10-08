@@ -31,7 +31,7 @@ struct __VertexPath__Vertex;
 MARK_REF_PTR_T(::GlobalNamespace::VertexPath);
 MARK_VAL_T(::GlobalNamespace::__VertexPath__Vertex);
 // Type: ::Vertex
-// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::VertexPath::Vertex
@@ -55,6 +55,9 @@ public:
   /// @brief Field normal, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 normal;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5157 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
 
@@ -71,7 +74,7 @@ static_assert(offsetof(::GlobalNamespace::__VertexPath__Vertex, normal) == 0x18,
 
 } // namespace GlobalNamespace
 // Type: ::VertexPath
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::VertexPath*
@@ -81,46 +84,47 @@ public:
   using Vertex = ::GlobalNamespace::__VertexPath__Vertex;
 
   /// @brief Field _anchorVertexMap, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__anchorVertexMap, put = __cordl_internal_set__anchorVertexMap))::ArrayW<int32_t, ::Array<int32_t>*> _anchorVertexMap;
+  __declspec(property(get = __cordl_internal_get__anchorVertexMap, put = __cordl_internal_set__anchorVertexMap)) ::ArrayW<int32_t, ::Array<int32_t>*> _anchorVertexMap;
 
   /// @brief Field _back, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF__back, put = setStaticF__back))::UnityEngine::Vector3 _back;
+  static __declspec(property(get = getStaticF__back, put = setStaticF__back)) ::UnityEngine::Vector3 _back;
 
   /// @brief Field _cumulativeLengthAtEachVertex, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__cumulativeLengthAtEachVertex,
-                      put = __cordl_internal_set__cumulativeLengthAtEachVertex))::ArrayW<float_t, ::Array<float_t>*> _cumulativeLengthAtEachVertex;
+  __declspec(property(get = __cordl_internal_get__cumulativeLengthAtEachVertex, put = __cordl_internal_set__cumulativeLengthAtEachVertex)) ::ArrayW<float_t, ::Array<float_t>*>
+      _cumulativeLengthAtEachVertex;
 
   /// @brief Field _length, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) float_t _length;
 
   /// @brief Field _localVertices, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__localVertices,
-                      put = __cordl_internal_set__localVertices))::ArrayW<::GlobalNamespace::__VertexPath__Vertex, ::Array<::GlobalNamespace::__VertexPath__Vertex>*> _localVertices;
+                      put = __cordl_internal_set__localVertices)) ::ArrayW<::GlobalNamespace::__VertexPath__Vertex, ::Array<::GlobalNamespace::__VertexPath__Vertex>*>
+      _localVertices;
 
   __declspec(property(get = get_length)) float_t length;
 
   /// @brief Field vertexCount, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_vertexCount, put = __cordl_internal_set_vertexCount)) int32_t vertexCount;
 
-  /// @brief Method AddVertex, addr 0x26c8f10, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method AddVertex, addr 0x3abd72c, size 0x40c, virtual false, abstract: false, final false
   inline void AddVertex(ByRef<::UnityEngine::Vector3> p0, ByRef<::UnityEngine::Vector3> p1, ByRef<::UnityEngine::Vector3> p2, ByRef<::UnityEngine::Vector3> p3, float_t t,
                         ByRef<::UnityEngine::Vector3> lastRotationAxis, ByRef<float_t> currentPathLength, ByRef<::GlobalNamespace::__VertexPath__Vertex> lastVertex, ByRef<int32_t> vertCount);
 
-  /// @brief Method GetPoint, addr 0x26c8ed8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x3abd6f4, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(int32_t index);
 
-  /// @brief Method GetVertex, addr 0x26c8e78, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetVertex, addr 0x3abd694, size 0x60, virtual false, abstract: false, final false
   inline void GetVertex(int32_t index, ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> tangent, ByRef<::UnityEngine::Vector3> normal);
 
   static inline ::GlobalNamespace::VertexPath* New_ctor(int32_t numberOfPathSegments);
 
-  /// @brief Method SplitBezierPathIntoFixNumberOfSegments, addr 0x26c88dc, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method SplitBezierPathIntoFixNumberOfSegments, addr 0x3abd120, size 0x53c, virtual false, abstract: false, final false
   inline void SplitBezierPathIntoFixNumberOfSegments(::GlobalNamespace::BezierPath* bezierPath, int32_t numberOfVertexSegments);
 
-  /// @brief Method TimeAtPoint, addr 0x26c8e40, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method TimeAtPoint, addr 0x3abd65c, size 0x38, virtual false, abstract: false, final false
   inline float_t TimeAtPoint(int32_t pointIndex);
 
-  /// @brief Method UpdateByBezierPath, addr 0x26c8448, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method UpdateByBezierPath, addr 0x3abcca0, size 0x458, virtual false, abstract: false, final false
   inline void UpdateByBezierPath(::GlobalNamespace::BezierPath* bezierPath);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__anchorVertexMap() const;
@@ -153,12 +157,12 @@ public:
 
   constexpr void __cordl_internal_set_vertexCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26c8364, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abcbbc, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfPathSegments);
 
   static inline ::UnityEngine::Vector3 getStaticF__back();
 
-  /// @brief Method get_length, addr 0x26c88d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x3abd118, size 0x8, virtual false, abstract: false, final false
   inline float_t get_length();
 
   static inline void setStaticF__back(::UnityEngine::Vector3 value);
@@ -191,6 +195,9 @@ public:
 
   /// @brief Field _anchorVertexMap, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____anchorVertexMap;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5158 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

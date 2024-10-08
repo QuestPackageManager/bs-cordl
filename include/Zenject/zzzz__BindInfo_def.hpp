@@ -41,7 +41,7 @@ class BindInfo;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::BindInfo);
 // Type: Zenject::BindInfo
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::BindInfo*
@@ -49,32 +49,32 @@ class CORDL_TYPE BindInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Arguments, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_Arguments, put = __cordl_internal_set_Arguments))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* Arguments;
+  __declspec(property(get = __cordl_internal_get_Arguments, put = __cordl_internal_set_Arguments)) ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* Arguments;
 
   /// @brief Field BindingInheritanceMethod, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_BindingInheritanceMethod, put = __cordl_internal_set_BindingInheritanceMethod))::Zenject::BindingInheritanceMethods BindingInheritanceMethod;
+  __declspec(property(get = __cordl_internal_get_BindingInheritanceMethod, put = __cordl_internal_set_BindingInheritanceMethod)) ::Zenject::BindingInheritanceMethods BindingInheritanceMethod;
 
   /// @brief Field ConcreteIdentifier, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ConcreteIdentifier, put = __cordl_internal_set_ConcreteIdentifier))::System::Object* ConcreteIdentifier;
+  __declspec(property(get = __cordl_internal_get_ConcreteIdentifier, put = __cordl_internal_set_ConcreteIdentifier)) ::System::Object* ConcreteIdentifier;
 
   /// @brief Field Condition, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_Condition, put = __cordl_internal_set_Condition))::Zenject::BindingCondition* Condition;
+  __declspec(property(get = __cordl_internal_get_Condition, put = __cordl_internal_set_Condition)) ::Zenject::BindingCondition* Condition;
 
   /// @brief Field ContextInfo, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_ContextInfo, put = __cordl_internal_set_ContextInfo))::StringW ContextInfo;
+  __declspec(property(get = __cordl_internal_get_ContextInfo, put = __cordl_internal_set_ContextInfo)) ::StringW ContextInfo;
 
   /// @brief Field ContractTypes, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_ContractTypes, put = __cordl_internal_set_ContractTypes))::System::Collections::Generic::List_1<::System::Type*>* ContractTypes;
+  __declspec(property(get = __cordl_internal_get_ContractTypes, put = __cordl_internal_set_ContractTypes)) ::System::Collections::Generic::List_1<::System::Type*>* ContractTypes;
 
   /// @brief Field Identifier, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Identifier, put = __cordl_internal_set_Identifier))::System::Object* Identifier;
+  __declspec(property(get = __cordl_internal_get_Identifier, put = __cordl_internal_set_Identifier)) ::System::Object* Identifier;
 
   /// @brief Field InstantiatedCallback, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_InstantiatedCallback,
-                      put = __cordl_internal_set_InstantiatedCallback))::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* InstantiatedCallback;
+                      put = __cordl_internal_set_InstantiatedCallback)) ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* InstantiatedCallback;
 
   /// @brief Field InvalidBindResponse, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_InvalidBindResponse, put = __cordl_internal_set_InvalidBindResponse))::Zenject::InvalidBindResponses InvalidBindResponse;
+  __declspec(property(get = __cordl_internal_get_InvalidBindResponse, put = __cordl_internal_set_InvalidBindResponse)) ::Zenject::InvalidBindResponses InvalidBindResponse;
 
   /// @brief Field MarkAsCreationBinding, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_MarkAsCreationBinding, put = __cordl_internal_set_MarkAsCreationBinding)) bool MarkAsCreationBinding;
@@ -95,26 +95,26 @@ public:
   __declspec(property(get = __cordl_internal_get_SaveProvider, put = __cordl_internal_set_SaveProvider)) bool SaveProvider;
 
   /// @brief Field Scope, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get_Scope, put = __cordl_internal_set_Scope))::Zenject::ScopeTypes Scope;
+  __declspec(property(get = __cordl_internal_get_Scope, put = __cordl_internal_set_Scope)) ::Zenject::ScopeTypes Scope;
 
   /// @brief Field ToChoice, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_ToChoice, put = __cordl_internal_set_ToChoice))::Zenject::ToChoices ToChoice;
+  __declspec(property(get = __cordl_internal_get_ToChoice, put = __cordl_internal_set_ToChoice)) ::Zenject::ToChoices ToChoice;
 
   /// @brief Field ToTypes, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_ToTypes, put = __cordl_internal_set_ToTypes))::System::Collections::Generic::List_1<::System::Type*>* ToTypes;
+  __declspec(property(get = __cordl_internal_get_ToTypes, put = __cordl_internal_set_ToTypes)) ::System::Collections::Generic::List_1<::System::Type*>* ToTypes;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3675b48, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4a9aa70, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Zenject::BindInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x3675a4c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4a9a974, size 0xfc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetContextInfo, addr 0x3675ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContextInfo, addr 0x4a9aac8, size 0x8, virtual false, abstract: false, final false
   inline void SetContextInfo(::StringW contextInfo);
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get_Arguments();
@@ -225,7 +225,7 @@ public:
 
   constexpr void __cordl_internal_set_ToTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
 
-  /// @brief Method .ctor, addr 0x3675960, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a9a890, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -298,6 +298,9 @@ public:
 
   /// @brief Field InstantiatedCallback, offset: 0x78, size: 0x8, def value: None
   ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* ___InstantiatedCallback;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12245 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

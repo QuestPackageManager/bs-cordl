@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::System::Net::UnsafeNclNativeMethods);
 MARK_REF_PTR_T(::System::Net::__UnsafeNclNativeMethods__HttpApi);
 MARK_REF_PTR_T(::System::Net::__UnsafeNclNativeMethods__SecureStringHelper);
 // Type: ::HTTP_REQUEST_HEADER_ID
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID*
@@ -47,9 +47,9 @@ class CORDL_TYPE __UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID : pub
 public:
   // Declarations
   /// @brief Field m_Strings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_Strings, put = setStaticF_m_Strings))::ArrayW<::StringW, ::Array<::StringW>*> m_Strings;
+  static __declspec(property(get = getStaticF_m_Strings, put = setStaticF_m_Strings)) ::ArrayW<::StringW, ::Array<::StringW>*> m_Strings;
 
-  /// @brief Method ToString, addr 0x301bcfc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x4442fc4, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t position);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_Strings();
@@ -70,6 +70,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID(__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9627 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -77,7 +80,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnsafeNclNati
 
 } // namespace GlobalNamespace
 // Type: ::HttpApi
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::UnsafeNclNativeMethods::HttpApi*
@@ -87,7 +90,7 @@ public:
   using HTTP_REQUEST_HEADER_ID = ::GlobalNamespace::__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID;
 
   /// @brief Field m_Strings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_Strings, put = setStaticF_m_Strings))::ArrayW<::StringW, ::Array<::StringW>*> m_Strings;
+  static __declspec(property(get = getStaticF_m_Strings, put = setStaticF_m_Strings)) ::ArrayW<::StringW, ::Array<::StringW>*> m_Strings;
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_Strings();
 
@@ -107,6 +110,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnsafeNclNativeMethods__HttpApi(__UnsafeNclNativeMethods__HttpApi const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9628 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -114,17 +120,17 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__UnsafeNclNativeMe
 
 } // namespace System::Net
 // Type: ::SecureStringHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::UnsafeNclNativeMethods::SecureStringHelper*
 class CORDL_TYPE __UnsafeNclNativeMethods__SecureStringHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateSecureString, addr 0x301c9ec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CreateSecureString, addr 0x44437ec, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Security::SecureString* CreateSecureString(::StringW plainString);
 
-  /// @brief Method CreateString, addr 0x301c83c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x4443678, size 0x174, virtual false, abstract: false, final false
   static inline ::StringW CreateString(::System::Security::SecureString* secureString);
 
 protected:
@@ -141,6 +147,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnsafeNclNativeMethods__SecureStringHelper(__UnsafeNclNativeMethods__SecureStringHelper const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9629 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -148,7 +157,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__UnsafeNclNativeMe
 
 } // namespace System::Net
 // Type: System.Net::UnsafeNclNativeMethods
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::UnsafeNclNativeMethods*
@@ -172,6 +181,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UnsafeNclNativeMethods(UnsafeNclNativeMethods const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9630 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ template <typename T> class LinkedListNode_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::LinkedListNode_1);
 // Type: System.Collections.Generic::LinkedListNode`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -24,11 +24,11 @@ template <typename T>
 class CORDL_TYPE LinkedListNode_1 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_List))::System::Collections::Generic::LinkedList_1<T>* List;
+  __declspec(property(get = get_List)) ::System::Collections::Generic::LinkedList_1<T>* List;
 
-  __declspec(property(get = get_Next))::System::Collections::Generic::LinkedListNode_1<T>* Next;
+  __declspec(property(get = get_Next)) ::System::Collections::Generic::LinkedListNode_1<T>* Next;
 
-  __declspec(property(get = get_Previous))::System::Collections::Generic::LinkedListNode_1<T>* Previous;
+  __declspec(property(get = get_Previous)) ::System::Collections::Generic::LinkedListNode_1<T>* Previous;
 
   __declspec(property(get = get_Value, put = set_Value)) T Value;
 
@@ -36,13 +36,13 @@ public:
   __declspec(property(get = __cordl_internal_get_item, put = __cordl_internal_set_item)) T item;
 
   /// @brief Field list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::Generic::LinkedList_1<T>* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list)) ::System::Collections::Generic::LinkedList_1<T>* list;
 
   /// @brief Field next, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Collections::Generic::LinkedListNode_1<T>* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::System::Collections::Generic::LinkedListNode_1<T>* next;
 
   /// @brief Field prev, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_prev, put = __cordl_internal_set_prev))::System::Collections::Generic::LinkedListNode_1<T>* prev;
+  __declspec(property(get = __cordl_internal_get_prev, put = __cordl_internal_set_prev)) ::System::Collections::Generic::LinkedListNode_1<T>* prev;
 
   /// @brief Method Invalidate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Invalidate();
@@ -121,6 +121,9 @@ public:
 
   /// @brief Field item, offset: 0x28, size: 0x8, def value: None
   T ___item;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9483 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

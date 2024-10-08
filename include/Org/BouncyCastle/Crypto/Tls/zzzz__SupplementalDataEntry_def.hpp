@@ -14,19 +14,19 @@ class SupplementalDataEntry;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry);
 // Type: Org.BouncyCastle.Crypto.Tls::SupplementalDataEntry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SupplementalDataEntry*
 class CORDL_TYPE SupplementalDataEntry : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Data))::ArrayW<uint8_t, ::Array<uint8_t>*> Data;
+  __declspec(property(get = get_Data)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Data;
 
   __declspec(property(get = get_DataType)) int32_t DataType;
 
   /// @brief Field mData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mData, put = __cordl_internal_set_mData))::ArrayW<uint8_t, ::Array<uint8_t>*> mData;
+  __declspec(property(get = __cordl_internal_get_mData, put = __cordl_internal_set_mData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mData;
 
   /// @brief Field mDataType, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_mDataType, put = __cordl_internal_set_mDataType)) int32_t mDataType;
@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_mDataType(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1209ba8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dd6bc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataType, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Data, addr 0x1209be0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Data, addr 0x23dd6f4, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Data();
 
-  /// @brief Method get_DataType, addr 0x1209bd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x23dd6ec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_DataType();
 
 protected:
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field mData, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1284 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

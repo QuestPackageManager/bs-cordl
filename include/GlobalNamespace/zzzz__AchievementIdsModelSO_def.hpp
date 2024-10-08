@@ -18,7 +18,7 @@ class AchievementIdsModelSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AchievementIdsModelSO);
 // Type: ::AchievementIdsModelSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AchievementIdsModelSO*
@@ -27,9 +27,9 @@ public:
   // Declarations
   /// @brief Field _achievementsIds, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__achievementsIds,
-                      put = __cordl_internal_set__achievementsIds))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* _achievementsIds;
+                      put = __cordl_internal_set__achievementsIds)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* _achievementsIds;
 
-  __declspec(property(get = get_achievementsIds))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* achievementsIds;
+  __declspec(property(get = get_achievementsIds)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* achievementsIds;
 
   static inline ::GlobalNamespace::AchievementIdsModelSO* New_ctor();
 
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set__achievementsIds(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* value);
 
-  /// @brief Method .ctor, addr 0x14a10bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2661880, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_achievementsIds, addr 0x14a10b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_achievementsIds, addr 0x2661878, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* get_achievementsIds();
 
 protected:
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field _achievementsIds, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* ____achievementsIds;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12705 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

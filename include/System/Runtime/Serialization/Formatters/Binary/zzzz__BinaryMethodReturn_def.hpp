@@ -23,7 +23,7 @@ class BinaryMethodReturn;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn);
 // Type: System.Runtime.Serialization.Formatters.Binary::BinaryMethodReturn
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryMethodReturn*
@@ -31,35 +31,35 @@ class CORDL_TYPE BinaryMethodReturn : public ::System::Object {
 public:
   // Declarations
   /// @brief Field argTypes, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_argTypes, put = __cordl_internal_set_argTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes;
+  __declspec(property(get = __cordl_internal_get_argTypes, put = __cordl_internal_set_argTypes)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes;
 
   /// @brief Field args, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::ArrayW<::System::Object*, ::Array<::System::Object*>*> args;
+  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args;
 
   /// @brief Field bArgsPrimitive, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_bArgsPrimitive, put = __cordl_internal_set_bArgsPrimitive)) bool bArgsPrimitive;
 
   /// @brief Field callContext, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_callContext, put = __cordl_internal_set_callContext))::System::Object* callContext;
+  __declspec(property(get = __cordl_internal_get_callContext, put = __cordl_internal_set_callContext)) ::System::Object* callContext;
 
   /// @brief Field instanceOfVoid, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_instanceOfVoid, put = setStaticF_instanceOfVoid))::System::Object* instanceOfVoid;
+  static __declspec(property(get = getStaticF_instanceOfVoid, put = setStaticF_instanceOfVoid)) ::System::Object* instanceOfVoid;
 
   /// @brief Field messageEnum, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_messageEnum, put = __cordl_internal_set_messageEnum))::System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum;
+  __declspec(property(get = __cordl_internal_get_messageEnum, put = __cordl_internal_set_messageEnum)) ::System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum;
 
   /// @brief Field returnType, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_returnType, put = __cordl_internal_set_returnType))::System::Type* returnType;
+  __declspec(property(get = __cordl_internal_get_returnType, put = __cordl_internal_set_returnType)) ::System::Type* returnType;
 
   /// @brief Field returnValue, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_returnValue, put = __cordl_internal_set_returnValue))::System::Object* returnValue;
+  __declspec(property(get = __cordl_internal_get_returnValue, put = __cordl_internal_set_returnValue)) ::System::Object* returnValue;
 
-  /// @brief Method Dump, addr 0x286fe78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3c8b2e0, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* New_ctor();
 
-  /// @brief Method Write, addr 0x286fd30, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x3c8b198, size 0x148, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_argTypes() const;
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_returnValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x286fd20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c8b188, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_instanceOfVoid();
@@ -145,6 +145,9 @@ public:
 
   /// @brief Field returnType, offset: 0x38, size: 0x8, def value: None
   ::System::Type* ___returnType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3263 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

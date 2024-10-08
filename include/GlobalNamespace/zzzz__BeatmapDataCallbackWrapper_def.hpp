@@ -21,7 +21,7 @@ class BeatmapDataCallbackWrapper;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataCallbackWrapper);
 // Type: ::BeatmapDataCallbackWrapper
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapDataCallbackWrapper*
@@ -29,13 +29,13 @@ class CORDL_TYPE BeatmapDataCallbackWrapper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field BasicBeatmapEventType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_BasicBeatmapEventType, put = __cordl_internal_set_BasicBeatmapEventType))::System::Type* BasicBeatmapEventType;
+  __declspec(property(get = __cordl_internal_get_BasicBeatmapEventType, put = __cordl_internal_set_BasicBeatmapEventType)) ::System::Type* BasicBeatmapEventType;
 
   /// @brief Field aheadTime, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_aheadTime, put = __cordl_internal_set_aheadTime)) float_t aheadTime;
 
   /// @brief Field subtypeIdentifiers, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_subtypeIdentifiers, put = __cordl_internal_set_subtypeIdentifiers))::ArrayW<int32_t, ::Array<int32_t>*> subtypeIdentifiers;
+  __declspec(property(get = __cordl_internal_get_subtypeIdentifiers, put = __cordl_internal_set_subtypeIdentifiers)) ::ArrayW<int32_t, ::Array<int32_t>*> subtypeIdentifiers;
 
   /// @brief Method CallCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CallCallback(::GlobalNamespace::BeatmapDataItem* beatmapData);
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_subtypeIdentifiers(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x263e240, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a70030, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int32_t, ::Array<int32_t>*> subtypeIdentifiers);
 
 protected:
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field subtypeIdentifiers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ___subtypeIdentifiers;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4049 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

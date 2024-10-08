@@ -17,7 +17,7 @@ struct PoseOffsets;
 // Write type traits
 MARK_VAL_T(::BeatSaber::RecPlay::PoseOffsets);
 // Type: BeatSaber.RecPlay::PoseOffsets
-// SizeInfo { instance_size: 84, native_size: 84, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 84, native_size: 84, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::RecPlay {
 // Is value type: true
 // CS Name: ::BeatSaber.RecPlay::PoseOffsets
@@ -25,18 +25,18 @@ struct CORDL_TYPE PoseOffsets {
 public:
   // Declarations
   /// @brief Field kDefault, offset 0xffffffff, size 0x54
-  static __declspec(property(get = getStaticF_kDefault, put = setStaticF_kDefault))::BeatSaber::RecPlay::PoseOffsets kDefault;
+  static __declspec(property(get = getStaticF_kDefault, put = setStaticF_kDefault)) ::BeatSaber::RecPlay::PoseOffsets kDefault;
 
-  /// @brief Method AdjustHead, addr 0x1075d98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AdjustHead, addr 0x223d0d4, size 0xb8, virtual false, abstract: false, final false
   inline void AdjustHead(ByRef<::UnityEngine::Pose> pose);
 
-  /// @brief Method AdjustLeftHand, addr 0x1075cc0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AdjustLeftHand, addr 0x223d004, size 0x68, virtual false, abstract: false, final false
   inline void AdjustLeftHand(ByRef<::UnityEngine::Pose> pose);
 
-  /// @brief Method AdjustPose, addr 0x10760b4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AdjustPose, addr 0x223d450, size 0x11c, virtual false, abstract: false, final false
   static inline void AdjustPose(ByRef<::UnityEngine::Pose> pose, ByRef<::UnityEngine::Pose> room, ByRef<::UnityEngine::Pose> controller);
 
-  /// @brief Method AdjustRightHand, addr 0x1075d2c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AdjustRightHand, addr 0x223d06c, size 0x68, virtual false, abstract: false, final false
   inline void AdjustRightHand(ByRef<::UnityEngine::Pose> pose);
 
   static inline ::BeatSaber::RecPlay::PoseOffsets getStaticF_kDefault();
@@ -59,6 +59,9 @@ public:
 
   /// @brief Field rightController, offset: 0x38, size: 0x1c, def value: None
   ::UnityEngine::Pose rightController;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18994 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };

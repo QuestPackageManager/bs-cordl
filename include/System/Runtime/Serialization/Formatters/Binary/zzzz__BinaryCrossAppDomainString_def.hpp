@@ -16,7 +16,7 @@ class BinaryCrossAppDomainString;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString);
 // Type: System.Runtime.Serialization.Formatters.Binary::BinaryCrossAppDomainString
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryCrossAppDomainString*
@@ -29,12 +29,12 @@ public:
   /// @brief Field value, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) int32_t value;
 
-  /// @brief Method Dump, addr 0x286ff94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3c8b3fc, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainString* New_ctor();
 
-  /// @brief Method Read, addr 0x286ff50, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x3c8b3b8, size 0x44, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
   constexpr int32_t const& __cordl_internal_get_objectId() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x286ff48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c8b3b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field value, offset: 0x14, size: 0x4, def value: None
   int32_t ___value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3265 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

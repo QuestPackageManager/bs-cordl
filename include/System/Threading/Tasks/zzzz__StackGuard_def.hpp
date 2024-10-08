@@ -13,7 +13,7 @@ class StackGuard;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Tasks::StackGuard);
 // Type: System.Threading.Tasks::StackGuard
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
 // CS Name: ::System.Threading.Tasks::StackGuard*
@@ -23,12 +23,12 @@ public:
   /// @brief Field m_inliningDepth, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_inliningDepth, put = __cordl_internal_set_m_inliningDepth)) int32_t m_inliningDepth;
 
-  /// @brief Method EndInliningScope, addr 0x29e4efc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method EndInliningScope, addr 0x3df382c, size 0x14, virtual false, abstract: false, final false
   inline void EndInliningScope();
 
   static inline ::System::Threading::Tasks::StackGuard* New_ctor();
 
-  /// @brief Method TryBeginInliningScope, addr 0x29e4ebc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method TryBeginInliningScope, addr 0x3df37ec, size 0x40, virtual false, abstract: false, final false
   inline bool TryBeginInliningScope();
 
   constexpr int32_t const& __cordl_internal_get_m_inliningDepth() const;
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set_m_inliningDepth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x29ddbec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dec540, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,6 +59,9 @@ public:
 
   /// @brief Field MAX_UNCHECKED_INLINING_DEPTH offset 0xffffffff size 0x4
   static constexpr int32_t MAX_UNCHECKED_INLINING_DEPTH{ static_cast<int32_t>(0x14) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2796 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

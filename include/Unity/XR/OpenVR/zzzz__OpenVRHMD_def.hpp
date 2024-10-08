@@ -15,7 +15,7 @@ class OpenVRHMD;
 // Write type traits
 MARK_REF_PTR_T(::Unity::XR::OpenVR::OpenVRHMD);
 // Type: Unity.XR.OpenVR::OpenVRHMD
-// SizeInfo { instance_size: 512, native_size: -1, calculated_instance_size: 512, calculated_native_size: 512, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 512, native_size: -1, calculated_instance_size: 512, calculated_native_size: 512, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::OpenVR {
 // Is value type: false
 // CS Name: ::Unity.XR.OpenVR::OpenVRHMD*
@@ -24,53 +24,53 @@ public:
   // Declarations
   /// @brief Field <centerEyeAngularVelocity>k__BackingField, offset 0x1f8, size 0x8
   __declspec(property(get = __cordl_internal_get__centerEyeAngularVelocity_k__BackingField,
-                      put = __cordl_internal_set__centerEyeAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _centerEyeAngularVelocity_k__BackingField;
+                      put = __cordl_internal_set__centerEyeAngularVelocity_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _centerEyeAngularVelocity_k__BackingField;
 
   /// @brief Field <centerEyeVelocity>k__BackingField, offset 0x1f0, size 0x8
   __declspec(property(get = __cordl_internal_get__centerEyeVelocity_k__BackingField,
-                      put = __cordl_internal_set__centerEyeVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _centerEyeVelocity_k__BackingField;
+                      put = __cordl_internal_set__centerEyeVelocity_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _centerEyeVelocity_k__BackingField;
 
   /// @brief Field <deviceAngularVelocity>k__BackingField, offset 0x1c8, size 0x8
   __declspec(property(get = __cordl_internal_get__deviceAngularVelocity_k__BackingField,
-                      put = __cordl_internal_set__deviceAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAngularVelocity_k__BackingField;
+                      put = __cordl_internal_set__deviceAngularVelocity_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAngularVelocity_k__BackingField;
 
   /// @brief Field <deviceVelocity>k__BackingField, offset 0x1c0, size 0x8
   __declspec(property(get = __cordl_internal_get__deviceVelocity_k__BackingField,
-                      put = __cordl_internal_set__deviceVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceVelocity_k__BackingField;
+                      put = __cordl_internal_set__deviceVelocity_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _deviceVelocity_k__BackingField;
 
   /// @brief Field <leftEyeAngularVelocity>k__BackingField, offset 0x1d8, size 0x8
   __declspec(property(get = __cordl_internal_get__leftEyeAngularVelocity_k__BackingField,
-                      put = __cordl_internal_set__leftEyeAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _leftEyeAngularVelocity_k__BackingField;
+                      put = __cordl_internal_set__leftEyeAngularVelocity_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _leftEyeAngularVelocity_k__BackingField;
 
   /// @brief Field <leftEyeVelocity>k__BackingField, offset 0x1d0, size 0x8
   __declspec(property(get = __cordl_internal_get__leftEyeVelocity_k__BackingField,
-                      put = __cordl_internal_set__leftEyeVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _leftEyeVelocity_k__BackingField;
+                      put = __cordl_internal_set__leftEyeVelocity_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _leftEyeVelocity_k__BackingField;
 
   /// @brief Field <rightEyeAngularVelocity>k__BackingField, offset 0x1e8, size 0x8
   __declspec(property(get = __cordl_internal_get__rightEyeAngularVelocity_k__BackingField,
-                      put = __cordl_internal_set__rightEyeAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _rightEyeAngularVelocity_k__BackingField;
+                      put = __cordl_internal_set__rightEyeAngularVelocity_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _rightEyeAngularVelocity_k__BackingField;
 
   /// @brief Field <rightEyeVelocity>k__BackingField, offset 0x1e0, size 0x8
   __declspec(property(get = __cordl_internal_get__rightEyeVelocity_k__BackingField,
-                      put = __cordl_internal_set__rightEyeVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _rightEyeVelocity_k__BackingField;
+                      put = __cordl_internal_set__rightEyeVelocity_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _rightEyeVelocity_k__BackingField;
 
-  __declspec(property(get = get_centerEyeAngularVelocity, put = set_centerEyeAngularVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* centerEyeAngularVelocity;
+  __declspec(property(get = get_centerEyeAngularVelocity, put = set_centerEyeAngularVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* centerEyeAngularVelocity;
 
-  __declspec(property(get = get_centerEyeVelocity, put = set_centerEyeVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* centerEyeVelocity;
+  __declspec(property(get = get_centerEyeVelocity, put = set_centerEyeVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* centerEyeVelocity;
 
-  __declspec(property(get = get_deviceAngularVelocity, put = set_deviceAngularVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* deviceAngularVelocity;
+  __declspec(property(get = get_deviceAngularVelocity, put = set_deviceAngularVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* deviceAngularVelocity;
 
-  __declspec(property(get = get_deviceVelocity, put = set_deviceVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* deviceVelocity;
+  __declspec(property(get = get_deviceVelocity, put = set_deviceVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* deviceVelocity;
 
-  __declspec(property(get = get_leftEyeAngularVelocity, put = set_leftEyeAngularVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* leftEyeAngularVelocity;
+  __declspec(property(get = get_leftEyeAngularVelocity, put = set_leftEyeAngularVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* leftEyeAngularVelocity;
 
-  __declspec(property(get = get_leftEyeVelocity, put = set_leftEyeVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* leftEyeVelocity;
+  __declspec(property(get = get_leftEyeVelocity, put = set_leftEyeVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* leftEyeVelocity;
 
-  __declspec(property(get = get_rightEyeAngularVelocity, put = set_rightEyeAngularVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* rightEyeAngularVelocity;
+  __declspec(property(get = get_rightEyeAngularVelocity, put = set_rightEyeAngularVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* rightEyeAngularVelocity;
 
-  __declspec(property(get = get_rightEyeVelocity, put = set_rightEyeVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* rightEyeVelocity;
+  __declspec(property(get = get_rightEyeVelocity, put = set_rightEyeVelocity)) ::UnityEngine::InputSystem::Controls::Vector3Control* rightEyeVelocity;
 
-  /// @brief Method FinishSetup, addr 0x30d4aec, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x44c4760, size 0x1ac, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::OpenVR::OpenVRHMD* New_ctor();
@@ -123,55 +123,55 @@ public:
 
   constexpr void __cordl_internal_set__rightEyeVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method .ctor, addr 0x30d4c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44c490c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_centerEyeAngularVelocity, addr 0x30d4adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeAngularVelocity, addr 0x44c4750, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyeAngularVelocity();
 
-  /// @brief Method get_centerEyeVelocity, addr 0x30d4acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeVelocity, addr 0x44c4740, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyeVelocity();
 
-  /// @brief Method get_deviceAngularVelocity, addr 0x30d4a7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceAngularVelocity, addr 0x44c46f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
 
-  /// @brief Method get_deviceVelocity, addr 0x30d4a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceVelocity, addr 0x44c46e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
-  /// @brief Method get_leftEyeAngularVelocity, addr 0x30d4a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeAngularVelocity, addr 0x44c4710, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyeAngularVelocity();
 
-  /// @brief Method get_leftEyeVelocity, addr 0x30d4a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeVelocity, addr 0x44c4700, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyeVelocity();
 
-  /// @brief Method get_rightEyeAngularVelocity, addr 0x30d4abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeAngularVelocity, addr 0x44c4730, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyeAngularVelocity();
 
-  /// @brief Method get_rightEyeVelocity, addr 0x30d4aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeVelocity, addr 0x44c4720, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyeVelocity();
 
-  /// @brief Method set_centerEyeAngularVelocity, addr 0x30d4ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeAngularVelocity, addr 0x44c4758, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_centerEyeVelocity, addr 0x30d4ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeVelocity, addr 0x44c4748, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_deviceAngularVelocity, addr 0x30d4a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceAngularVelocity, addr 0x44c46f8, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_deviceVelocity, addr 0x30d4a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceVelocity, addr 0x44c46e8, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_leftEyeAngularVelocity, addr 0x30d4aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeAngularVelocity, addr 0x44c4718, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_leftEyeVelocity, addr 0x30d4a94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeVelocity, addr 0x44c4708, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_rightEyeAngularVelocity, addr 0x30d4ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeAngularVelocity, addr 0x44c4738, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_rightEyeVelocity, addr 0x30d4ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeVelocity, addr 0x44c4728, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
 protected:
@@ -211,6 +211,9 @@ public:
 
   /// @brief Field <centerEyeAngularVelocity>k__BackingField, offset: 0x1f8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____centerEyeAngularVelocity_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6486 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

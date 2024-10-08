@@ -16,7 +16,7 @@ class BinaryAssemblyInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo);
 // Type: System.Runtime.Serialization.Formatters.Binary::BinaryAssemblyInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryAssemblyInfo*
@@ -24,12 +24,12 @@ class CORDL_TYPE BinaryAssemblyInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field assembly, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_assembly, put = __cordl_internal_set_assembly))::System::Reflection::Assembly* assembly;
+  __declspec(property(get = __cordl_internal_get_assembly, put = __cordl_internal_set_assembly)) ::System::Reflection::Assembly* assembly;
 
   /// @brief Field assemblyString, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_assemblyString, put = __cordl_internal_set_assemblyString))::StringW assemblyString;
+  __declspec(property(get = __cordl_internal_get_assemblyString, put = __cordl_internal_set_assemblyString)) ::StringW assemblyString;
 
-  /// @brief Method GetAssembly, addr 0x286f528, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetAssembly, addr 0x3c8a9b0, size 0x114, virtual false, abstract: false, final false
   inline ::System::Reflection::Assembly* GetAssembly();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* New_ctor(::StringW assemblyString);
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set_assemblyString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x286f4d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c8a95c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyString);
 
-  /// @brief Method .ctor, addr 0x286f4fc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c8a984, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyString, ::System::Reflection::Assembly* assembly);
 
 protected:
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field assembly, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::Assembly* ___assembly;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3257 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

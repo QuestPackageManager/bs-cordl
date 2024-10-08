@@ -29,7 +29,7 @@ class LikeNode;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::LikeNode);
 // Type: System.Data::LikeNode
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::LikeNode*
@@ -40,12 +40,12 @@ public:
   __declspec(property(get = __cordl_internal_get__kind, put = __cordl_internal_set__kind)) int32_t _kind;
 
   /// @brief Field _pattern, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__pattern, put = __cordl_internal_set__pattern))::StringW _pattern;
+  __declspec(property(get = __cordl_internal_get__pattern, put = __cordl_internal_set__pattern)) ::StringW _pattern;
 
-  /// @brief Method AnalyzePattern, addr 0x2cfd3f0, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method AnalyzePattern, addr 0x4100c1c, size 0x2e0, virtual false, abstract: false, final false
   inline ::StringW AnalyzePattern(::StringW pat);
 
-  /// @brief Method Eval, addr 0x2cfced4, size 0x51c, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x41006c8, size 0x554, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
   static inline ::System::Data::LikeNode* New_ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right);
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__pattern(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2cfce90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4100684, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right);
 
 protected:
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field _pattern, offset: 0x38, size: 0x8, def value: None
   ::StringW ____pattern;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

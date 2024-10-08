@@ -31,7 +31,7 @@ class HEU_LoadBufferVolume;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferVolume);
 // Type: HoudiniEngineUnity::HEU_LoadBufferVolume
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferVolume*
@@ -39,14 +39,14 @@ class CORDL_TYPE HEU_LoadBufferVolume : public ::HoudiniEngineUnity::HEU_LoadBuf
 public:
   // Declarations
   /// @brief Field _detailMaps, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__detailMaps, put = __cordl_internal_set__detailMaps))::System::Collections::Generic::List_1<Il2CppObject*>* _detailMaps;
+  __declspec(property(get = __cordl_internal_get__detailMaps, put = __cordl_internal_set__detailMaps)) ::System::Collections::Generic::List_1<Il2CppObject*>* _detailMaps;
 
   /// @brief Field _detailProperties, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__detailProperties, put = __cordl_internal_set__detailProperties))::HoudiniEngineUnity::HEU_DetailProperties* _detailProperties;
+  __declspec(property(get = __cordl_internal_get__detailProperties, put = __cordl_internal_set__detailProperties)) ::HoudiniEngineUnity::HEU_DetailProperties* _detailProperties;
 
   /// @brief Field _detailPrototypes, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__detailPrototypes,
-                      put = __cordl_internal_set__detailPrototypes))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* _detailPrototypes;
+                      put = __cordl_internal_set__detailPrototypes)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* _detailPrototypes;
 
   /// @brief Field _heightMap, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__heightMap, put = __cordl_internal_set__heightMap)) Il2CppObject* _heightMap;
@@ -61,26 +61,26 @@ public:
   __declspec(property(get = __cordl_internal_get__heightRange, put = __cordl_internal_set__heightRange)) float_t _heightRange;
 
   /// @brief Field _position, offset 0x64, size 0xc
-  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position))::UnityEngine::Vector3 _position;
+  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position)) ::UnityEngine::Vector3 _position;
 
   /// @brief Field _scatterTrees, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__scatterTrees, put = __cordl_internal_set__scatterTrees))::HoudiniEngineUnity::HEU_VolumeScatterTrees* _scatterTrees;
+  __declspec(property(get = __cordl_internal_get__scatterTrees, put = __cordl_internal_set__scatterTrees)) ::HoudiniEngineUnity::HEU_VolumeScatterTrees* _scatterTrees;
 
   /// @brief Field _specifiedTerrainMaterialName, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__specifiedTerrainMaterialName, put = __cordl_internal_set__specifiedTerrainMaterialName))::StringW _specifiedTerrainMaterialName;
+  __declspec(property(get = __cordl_internal_get__specifiedTerrainMaterialName, put = __cordl_internal_set__specifiedTerrainMaterialName)) ::StringW _specifiedTerrainMaterialName;
 
   /// @brief Field _splatLayers, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__splatLayers,
-                      put = __cordl_internal_set__splatLayers))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>* _splatLayers;
+                      put = __cordl_internal_set__splatLayers)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>* _splatLayers;
 
   /// @brief Field _splatMaps, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__splatMaps, put = __cordl_internal_set__splatMaps)) Il2CppObject* _splatMaps;
 
   /// @brief Field _terrainDataExportPath, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__terrainDataExportPath, put = __cordl_internal_set__terrainDataExportPath))::StringW _terrainDataExportPath;
+  __declspec(property(get = __cordl_internal_get__terrainDataExportPath, put = __cordl_internal_set__terrainDataExportPath)) ::StringW _terrainDataExportPath;
 
   /// @brief Field _terrainDataPath, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__terrainDataPath, put = __cordl_internal_set__terrainDataPath))::StringW _terrainDataPath;
+  __declspec(property(get = __cordl_internal_get__terrainDataPath, put = __cordl_internal_set__terrainDataPath)) ::StringW _terrainDataPath;
 
   /// @brief Field _terrainSizeX, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__terrainSizeX, put = __cordl_internal_set__terrainSizeX)) float_t _terrainSizeX;
@@ -195,7 +195,7 @@ public:
 
   constexpr void __cordl_internal_set__tileIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25bcd04, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f846c, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -262,6 +262,9 @@ public:
 
   /// @brief Field _specifiedTerrainMaterialName, offset: 0xa0, size: 0x8, def value: None
   ::StringW ____specifiedTerrainMaterialName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11750 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

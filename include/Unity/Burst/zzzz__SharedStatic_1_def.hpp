@@ -17,7 +17,7 @@ template <typename T> struct SharedStatic_1;
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Burst::SharedStatic_1);
 // Type: Unity.Burst::SharedStatic`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // cpp template
 template <typename T>
@@ -28,7 +28,7 @@ public:
   // Declarations
   __declspec(property(get = get_Data)) T Data;
 
-  __declspec(property(get = get_UnsafeDataPointer))::cordl_internals::Ptr<void> UnsafeDataPointer;
+  __declspec(property(get = get_UnsafeDataPointer)) ::cordl_internals::Ptr<void> UnsafeDataPointer;
 
   /// @brief Method CheckIf_T_IsUnmanagedOrThrow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void CheckIf_T_IsUnmanagedOrThrow();
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field DefaultAlignment offset 0xffffffff size 0x4
   static constexpr uint32_t DefaultAlignment{ static_cast<uint32_t>(0x4020010u) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14590 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

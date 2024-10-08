@@ -63,28 +63,28 @@ class SchemaElementDecl;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::SchemaElementDecl);
 // Type: System.Xml.Schema::SchemaElementDecl
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::SchemaElementDecl*
 class CORDL_TYPE SchemaElementDecl : public ::System::Xml::Schema::SchemaDeclBase {
 public:
   // Declarations
-  __declspec(property(get = get_AnyAttribute, put = set_AnyAttribute))::System::Xml::Schema::XmlSchemaAnyAttribute* AnyAttribute;
+  __declspec(property(get = get_AnyAttribute, put = set_AnyAttribute)) ::System::Xml::Schema::XmlSchemaAnyAttribute* AnyAttribute;
 
-  __declspec(property(get = get_AttDefs))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>* AttDefs;
+  __declspec(property(get = get_AttDefs)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>* AttDefs;
 
-  __declspec(property(get = get_Block, put = set_Block))::System::Xml::Schema::XmlSchemaDerivationMethod Block;
+  __declspec(property(get = get_Block, put = set_Block)) ::System::Xml::Schema::XmlSchemaDerivationMethod Block;
 
-  __declspec(property(get = get_Constraints,
-                      put = set_Constraints))::ArrayW<::System::Xml::Schema::CompiledIdentityConstraint*, ::Array<::System::Xml::Schema::CompiledIdentityConstraint*>*> Constraints;
+  __declspec(property(get = get_Constraints, put = set_Constraints)) ::ArrayW<::System::Xml::Schema::CompiledIdentityConstraint*, ::Array<::System::Xml::Schema::CompiledIdentityConstraint*>*>
+      Constraints;
 
-  __declspec(property(get = get_ContentValidator, put = set_ContentValidator))::System::Xml::Schema::ContentValidator* ContentValidator;
+  __declspec(property(get = get_ContentValidator, put = set_ContentValidator)) ::System::Xml::Schema::ContentValidator* ContentValidator;
 
-  __declspec(property(get = get_DefaultAttDefs))::System::Collections::Generic::IList_1<::System::Xml::IDtdDefaultAttributeInfo*>* DefaultAttDefs;
+  __declspec(property(get = get_DefaultAttDefs)) ::System::Collections::Generic::IList_1<::System::Xml::IDtdDefaultAttributeInfo*>* DefaultAttDefs;
 
   /// @brief Field Empty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::System::Xml::Schema::SchemaElementDecl* Empty;
+  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::System::Xml::Schema::SchemaElementDecl* Empty;
 
   __declspec(property(get = get_HasDefaultAttribute)) bool HasDefaultAttribute;
 
@@ -100,32 +100,33 @@ public:
 
   __declspec(property(get = get_IsNotationDeclared, put = set_IsNotationDeclared)) bool IsNotationDeclared;
 
-  __declspec(property(get = get_ProhibitedAttributes))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::XmlQualifiedName*>* ProhibitedAttributes;
+  __declspec(property(get = get_ProhibitedAttributes)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::XmlQualifiedName*>* ProhibitedAttributes;
 
-  __declspec(property(get = get_SchemaElement, put = set_SchemaElement))::System::Xml::Schema::XmlSchemaElement* SchemaElement;
+  __declspec(property(get = get_SchemaElement, put = set_SchemaElement)) ::System::Xml::Schema::XmlSchemaElement* SchemaElement;
 
   __declspec(property(get = System_Xml_IDtdAttributeListInfo_get_HasNonCDataAttributes)) bool System_Xml_IDtdAttributeListInfo_HasNonCDataAttributes;
 
   /// @brief Field anyAttribute, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_anyAttribute, put = __cordl_internal_set_anyAttribute))::System::Xml::Schema::XmlSchemaAnyAttribute* anyAttribute;
+  __declspec(property(get = __cordl_internal_get_anyAttribute, put = __cordl_internal_set_anyAttribute)) ::System::Xml::Schema::XmlSchemaAnyAttribute* anyAttribute;
 
   /// @brief Field attdefs, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_attdefs,
-                      put = __cordl_internal_set_attdefs))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>* attdefs;
+                      put = __cordl_internal_set_attdefs)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>* attdefs;
 
   /// @brief Field block, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get_block, put = __cordl_internal_set_block))::System::Xml::Schema::XmlSchemaDerivationMethod block;
+  __declspec(property(get = __cordl_internal_get_block, put = __cordl_internal_set_block)) ::System::Xml::Schema::XmlSchemaDerivationMethod block;
 
   /// @brief Field constraints, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_constraints,
-                      put = __cordl_internal_set_constraints))::ArrayW<::System::Xml::Schema::CompiledIdentityConstraint*, ::Array<::System::Xml::Schema::CompiledIdentityConstraint*>*> constraints;
+                      put = __cordl_internal_set_constraints)) ::ArrayW<::System::Xml::Schema::CompiledIdentityConstraint*, ::Array<::System::Xml::Schema::CompiledIdentityConstraint*>*>
+      constraints;
 
   /// @brief Field contentValidator, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_contentValidator, put = __cordl_internal_set_contentValidator))::System::Xml::Schema::ContentValidator* contentValidator;
+  __declspec(property(get = __cordl_internal_get_contentValidator, put = __cordl_internal_set_contentValidator)) ::System::Xml::Schema::ContentValidator* contentValidator;
 
   /// @brief Field defaultAttdefs, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_defaultAttdefs,
-                      put = __cordl_internal_set_defaultAttdefs))::System::Collections::Generic::List_1<::System::Xml::IDtdDefaultAttributeInfo*>* defaultAttdefs;
+                      put = __cordl_internal_set_defaultAttdefs)) ::System::Collections::Generic::List_1<::System::Xml::IDtdDefaultAttributeInfo*>* defaultAttdefs;
 
   /// @brief Field hasNonCDataAttribute, offset 0x71, size 0x1
   __declspec(property(get = __cordl_internal_get_hasNonCDataAttribute, put = __cordl_internal_set_hasNonCDataAttribute)) bool hasNonCDataAttribute;
@@ -146,29 +147,29 @@ public:
   __declspec(property(get = __cordl_internal_get_isNotationDeclared, put = __cordl_internal_set_isNotationDeclared)) bool isNotationDeclared;
 
   /// @brief Field prohibitedAttributes, offset 0x78, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_prohibitedAttributes,
-               put = __cordl_internal_set_prohibitedAttributes))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::XmlQualifiedName*>* prohibitedAttributes;
+  __declspec(property(
+      get = __cordl_internal_get_prohibitedAttributes,
+      put = __cordl_internal_set_prohibitedAttributes)) ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::XmlQualifiedName*>* prohibitedAttributes;
 
   /// @brief Field schemaElement, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_schemaElement, put = __cordl_internal_set_schemaElement))::System::Xml::Schema::XmlSchemaElement* schemaElement;
+  __declspec(property(get = __cordl_internal_get_schemaElement, put = __cordl_internal_set_schemaElement)) ::System::Xml::Schema::XmlSchemaElement* schemaElement;
 
   /// @brief Convert operator to "::System::Xml::IDtdAttributeListInfo"
   constexpr operator ::System::Xml::IDtdAttributeListInfo*() noexcept;
 
-  /// @brief Method AddAttDef, addr 0x2e17d70, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AddAttDef, addr 0x421b404, size 0x150, virtual false, abstract: false, final false
   inline void AddAttDef(::System::Xml::Schema::SchemaAttDef* attdef);
 
-  /// @brief Method CheckAttributes, addr 0x2e17f54, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method CheckAttributes, addr 0x421b5e4, size 0x298, virtual false, abstract: false, final false
   inline void CheckAttributes(::System::Collections::Hashtable* presence, bool standalone);
 
-  /// @brief Method Clone, addr 0x2e17c68, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x421b2fc, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaElementDecl* Clone();
 
-  /// @brief Method CreateAnyTypeElementDecl, addr 0x2e17ab4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateAnyTypeElementDecl, addr 0x421b14c, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::SchemaElementDecl* CreateAnyTypeElementDecl();
 
-  /// @brief Method GetAttDef, addr 0x2e17ec4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetAttDef, addr 0x421b554, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaAttDef* GetAttDef(::System::Xml::XmlQualifiedName* qname);
 
   static inline ::System::Xml::Schema::SchemaElementDecl* New_ctor();
@@ -177,13 +178,13 @@ public:
 
   static inline ::System::Xml::Schema::SchemaElementDecl* New_ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
 
-  /// @brief Method System.Xml.IDtdAttributeListInfo.LookupAttribute, addr 0x2e17b80, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdAttributeListInfo.LookupAttribute, addr 0x421b218, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Xml::IDtdAttributeInfo* System_Xml_IDtdAttributeListInfo_LookupAttribute(::StringW prefix, ::StringW localName);
 
-  /// @brief Method System.Xml.IDtdAttributeListInfo.LookupDefaultAttributes, addr 0x2e17c38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdAttributeListInfo.LookupDefaultAttributes, addr 0x421b2cc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Xml::IDtdDefaultAttributeInfo*>* System_Xml_IDtdAttributeListInfo_LookupDefaultAttributes();
 
-  /// @brief Method System.Xml.IDtdAttributeListInfo.get_HasNonCDataAttributes, addr 0x2e17b78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IDtdAttributeListInfo.get_HasNonCDataAttributes, addr 0x421b210, size 0x8, virtual true, abstract: false, final true
   inline bool System_Xml_IDtdAttributeListInfo_get_HasNonCDataAttributes();
 
   constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute*& __cordl_internal_get_anyAttribute();
@@ -272,60 +273,60 @@ public:
 
   constexpr void __cordl_internal_set_schemaElement(::System::Xml::Schema::XmlSchemaElement* value);
 
-  /// @brief Method .ctor, addr 0x2e17820, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421aeac, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e178dc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421af6c, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaDatatype* dtype);
 
-  /// @brief Method .ctor, addr 0x2e179e0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421b074, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
 
   static inline ::System::Xml::Schema::SchemaElementDecl* getStaticF_Empty();
 
-  /// @brief Method get_AnyAttribute, addr 0x2e17d40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnyAttribute, addr 0x421b3d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnyAttribute* get_AnyAttribute();
 
-  /// @brief Method get_AttDefs, addr 0x2e17f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttDefs, addr 0x421b5d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::SchemaAttDef*>* get_AttDefs();
 
-  /// @brief Method get_Block, addr 0x2e17cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Block, addr 0x421b388, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDerivationMethod get_Block();
 
-  /// @brief Method get_Constraints, addr 0x2e17d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Constraints, addr 0x421b3e4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::Schema::CompiledIdentityConstraint*, ::Array<::System::Xml::Schema::CompiledIdentityConstraint*>*> get_Constraints();
 
-  /// @brief Method get_ContentValidator, addr 0x2e17d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentValidator, addr 0x421b3c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::ContentValidator* get_ContentValidator();
 
-  /// @brief Method get_DefaultAttDefs, addr 0x2e17f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultAttDefs, addr 0x421b5cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Xml::IDtdDefaultAttributeInfo*>* get_DefaultAttDefs();
 
-  /// @brief Method get_HasDefaultAttribute, addr 0x2e17d18, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasDefaultAttribute, addr 0x421b3ac, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasDefaultAttribute();
 
-  /// @brief Method get_HasNonCDataAttribute, addr 0x2e17c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasNonCDataAttribute, addr 0x421b2e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasNonCDataAttribute();
 
-  /// @brief Method get_HasRequiredAttribute, addr 0x2e17d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasRequiredAttribute, addr 0x421b3bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasRequiredAttribute();
 
-  /// @brief Method get_IsAbstract, addr 0x2e17ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAbstract, addr 0x421b360, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAbstract();
 
-  /// @brief Method get_IsIdDeclared, addr 0x2e17c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsIdDeclared, addr 0x421b2d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsIdDeclared();
 
-  /// @brief Method get_IsNillable, addr 0x2e17ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNillable, addr 0x421b374, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNillable();
 
-  /// @brief Method get_IsNotationDeclared, addr 0x2e17d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNotationDeclared, addr 0x421b398, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNotationDeclared();
 
-  /// @brief Method get_ProhibitedAttributes, addr 0x2e17f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProhibitedAttributes, addr 0x421b5dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Xml::XmlQualifiedName*>* get_ProhibitedAttributes();
 
-  /// @brief Method get_SchemaElement, addr 0x2e17d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaElement, addr 0x421b3f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
 
   /// @brief Convert to "::System::Xml::IDtdAttributeListInfo"
@@ -333,34 +334,34 @@ public:
 
   static inline void setStaticF_Empty(::System::Xml::Schema::SchemaElementDecl* value);
 
-  /// @brief Method set_AnyAttribute, addr 0x2e17d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnyAttribute, addr 0x421b3dc, size 0x8, virtual false, abstract: false, final false
   inline void set_AnyAttribute(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
 
-  /// @brief Method set_Block, addr 0x2e17cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Block, addr 0x421b390, size 0x8, virtual false, abstract: false, final false
   inline void set_Block(::System::Xml::Schema::XmlSchemaDerivationMethod value);
 
-  /// @brief Method set_Constraints, addr 0x2e17d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Constraints, addr 0x421b3ec, size 0x8, virtual false, abstract: false, final false
   inline void set_Constraints(::ArrayW<::System::Xml::Schema::CompiledIdentityConstraint*, ::Array<::System::Xml::Schema::CompiledIdentityConstraint*>*> value);
 
-  /// @brief Method set_ContentValidator, addr 0x2e17d38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContentValidator, addr 0x421b3cc, size 0x8, virtual false, abstract: false, final false
   inline void set_ContentValidator(::System::Xml::Schema::ContentValidator* value);
 
-  /// @brief Method set_HasNonCDataAttribute, addr 0x2e17c5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_HasNonCDataAttribute, addr 0x421b2f0, size 0xc, virtual false, abstract: false, final false
   inline void set_HasNonCDataAttribute(bool value);
 
-  /// @brief Method set_IsAbstract, addr 0x2e17cd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsAbstract, addr 0x421b368, size 0xc, virtual false, abstract: false, final false
   inline void set_IsAbstract(bool value);
 
-  /// @brief Method set_IsIdDeclared, addr 0x2e17c48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsIdDeclared, addr 0x421b2dc, size 0xc, virtual false, abstract: false, final false
   inline void set_IsIdDeclared(bool value);
 
-  /// @brief Method set_IsNillable, addr 0x2e17ce8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsNillable, addr 0x421b37c, size 0xc, virtual false, abstract: false, final false
   inline void set_IsNillable(bool value);
 
-  /// @brief Method set_IsNotationDeclared, addr 0x2e17d0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsNotationDeclared, addr 0x421b3a0, size 0xc, virtual false, abstract: false, final false
   inline void set_IsNotationDeclared(bool value);
 
-  /// @brief Method set_SchemaElement, addr 0x2e17d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaElement, addr 0x421b3fc, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaElement(::System::Xml::Schema::XmlSchemaElement* value);
 
 protected:
@@ -418,6 +419,9 @@ public:
 
   /// @brief Field schemaElement, offset: 0xa0, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaElement* ___schemaElement;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7585 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

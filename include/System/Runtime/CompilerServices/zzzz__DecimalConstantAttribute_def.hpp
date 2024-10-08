@@ -17,17 +17,17 @@ class DecimalConstantAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::DecimalConstantAttribute);
 // Type: System.Runtime.CompilerServices::DecimalConstantAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::DecimalConstantAttribute*
 class CORDL_TYPE DecimalConstantAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_Value))::System::Decimal Value;
+  __declspec(property(get = get_Value)) ::System::Decimal Value;
 
   /// @brief Field _dec, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get__dec, put = __cordl_internal_set__dec))::System::Decimal _dec;
+  __declspec(property(get = __cordl_internal_get__dec, put = __cordl_internal_set__dec)) ::System::Decimal _dec;
 
   static inline ::System::Runtime::CompilerServices::DecimalConstantAttribute* New_ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low);
 
@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__dec(::System::Decimal value);
 
-  /// @brief Method .ctor, addr 0x2889eb0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca2aa4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low);
 
-  /// @brief Method get_Value, addr 0x2889f4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3ca2b40, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_Value();
 
 protected:
@@ -59,6 +59,9 @@ public:
 
   /// @brief Field _dec, offset: 0x10, size: 0x10, def value: None
   ::System::Decimal ____dec;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3367 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

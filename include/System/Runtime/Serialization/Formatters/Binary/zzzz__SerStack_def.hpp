@@ -18,7 +18,7 @@ class SerStack;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::SerStack);
 // Type: System.Runtime.Serialization.Formatters.Binary::SerStack
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::SerStack*
@@ -26,32 +26,32 @@ class CORDL_TYPE SerStack : public ::System::Object {
 public:
   // Declarations
   /// @brief Field objects, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_objects, put = __cordl_internal_set_objects))::ArrayW<::System::Object*, ::Array<::System::Object*>*> objects;
+  __declspec(property(get = __cordl_internal_get_objects, put = __cordl_internal_set_objects)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> objects;
 
   /// @brief Field stackId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_stackId, put = __cordl_internal_set_stackId))::StringW stackId;
+  __declspec(property(get = __cordl_internal_get_stackId, put = __cordl_internal_set_stackId)) ::StringW stackId;
 
   /// @brief Field top, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_top, put = __cordl_internal_set_top)) int32_t top;
 
-  /// @brief Method IncreaseCapacity, addr 0x28835d8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IncreaseCapacity, addr 0x3c9d414, size 0x88, virtual false, abstract: false, final false
   inline void IncreaseCapacity();
 
-  /// @brief Method IsEmpty, addr 0x2877aac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x3c91c3c, size 0x10, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerStack* New_ctor(::StringW stackId);
 
-  /// @brief Method Peek, addr 0x287b53c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x3c95518, size 0x40, virtual false, abstract: false, final false
   inline ::System::Object* Peek();
 
-  /// @brief Method PeekPeek, addr 0x2882538, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PeekPeek, addr 0x3c9c460, size 0x44, virtual false, abstract: false, final false
   inline ::System::Object* PeekPeek();
 
-  /// @brief Method Pop, addr 0x2877abc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x3c91c4c, size 0x50, virtual false, abstract: false, final false
   inline ::System::Object* Pop();
 
-  /// @brief Method Push, addr 0x2877b0c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x3c91c9c, size 0xac, virtual false, abstract: false, final false
   inline void Push(::System::Object* obj);
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_objects() const;
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_top(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2879098, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c931c8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW stackId);
 
 protected:
@@ -97,6 +97,9 @@ public:
 
   /// @brief Field top, offset: 0x20, size: 0x4, def value: None
   int32_t ___top;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3292 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,7 +36,7 @@ struct CancellationToken;
 MARK_REF_PTR_T(::System::Threading::__CancellationToken____c);
 MARK_VAL_T(::System::Threading::CancellationToken);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::CancellationToken::<>c*
@@ -44,14 +44,14 @@ class CORDL_TYPE __CancellationToken____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Threading::__CancellationToken____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Threading::__CancellationToken____c* __9;
 
   static inline ::System::Threading::__CancellationToken____c* New_ctor();
 
-  /// @brief Method <.cctor>b__26_0, addr 0x29c9578, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__26_0, addr 0x3dd85c8, size 0x6c, virtual false, abstract: false, final false
   inline void __cctor_b__26_0(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x29c9570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd85c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::__CancellationToken____c* getStaticF___9();
@@ -72,6 +72,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CancellationToken____c(__CancellationToken____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2679 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -79,7 +82,7 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::__Cancellatio
 
 } // namespace System::Threading
 // Type: System.Threading::CancellationToken
-// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
 // CS Name: ::System.Threading::CancellationToken
@@ -93,57 +96,57 @@ public:
   __declspec(property(get = get_IsCancellationRequested)) bool IsCancellationRequested;
 
   /// @brief Field s_actionToActionObjShunt, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_actionToActionObjShunt, put = setStaticF_s_actionToActionObjShunt))::System::Action_1<::System::Object*>* s_actionToActionObjShunt;
+  static __declspec(property(get = getStaticF_s_actionToActionObjShunt, put = setStaticF_s_actionToActionObjShunt)) ::System::Action_1<::System::Object*>* s_actionToActionObjShunt;
 
-  /// @brief Method Equals, addr 0x29c92b0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3dd81ec, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x29c92a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x3dd81dc, size 0x10, virtual false, abstract: false, final false
   inline bool Equals(::System::Threading::CancellationToken other);
 
-  /// @brief Method GetHashCode, addr 0x29c9328, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3dd8294, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method InternalRegisterWithoutEC, addr 0x29c8f20, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InternalRegisterWithoutEC, addr 0x3dd7e04, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationTokenRegistration InternalRegisterWithoutEC(::System::Action_1<::System::Object*>* callback, ::System::Object* state);
 
-  /// @brief Method Register, addr 0x29c8ccc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x3dd7b44, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationTokenRegistration Register(::System::Action* callback);
 
-  /// @brief Method Register, addr 0x29c8ee8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x3dd7d68, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationTokenRegistration Register(::System::Action_1<::System::Object*>* callback, ::System::Object* state);
 
-  /// @brief Method Register, addr 0x29c8db8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x3dd7c3c, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationTokenRegistration Register(::System::Action_1<::System::Object*>* callback, ::System::Object* state, bool useSynchronizationContext,
                                                                      bool useExecutionContext);
 
-  /// @brief Method ThrowIfCancellationRequested, addr 0x29c93b4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfCancellationRequested, addr 0x3dd83d0, size 0x78, virtual false, abstract: false, final false
   inline void ThrowIfCancellationRequested();
 
-  /// @brief Method ThrowOperationCanceledException, addr 0x29c93ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ThrowOperationCanceledException, addr 0x3dd8448, size 0x58, virtual false, abstract: false, final false
   inline void ThrowOperationCanceledException();
 
-  /// @brief Method .ctor, addr 0x29c8c58, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd7ab0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(bool canceled);
 
-  /// @brief Method .ctor, addr 0x29c8c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd7aa8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationTokenSource* source);
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_actionToActionObjShunt();
 
-  /// @brief Method get_CanBeCanceled, addr 0x29c8c40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_CanBeCanceled, addr 0x3dd7a98, size 0x10, virtual false, abstract: false, final false
   inline bool get_CanBeCanceled();
 
-  /// @brief Method get_IsCancellationRequested, addr 0x29c8bf8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCancellationRequested, addr 0x3dd7a50, size 0x2c, virtual false, abstract: false, final false
   inline bool get_IsCancellationRequested();
 
-  /// @brief Method get_None, addr 0x29c8bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_None, addr 0x3dd7a48, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Threading::CancellationToken get_None();
 
-  /// @brief Method op_Equality, addr 0x29c939c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3dd8308, size 0x64, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Threading::CancellationToken left, ::System::Threading::CancellationToken right);
 
-  /// @brief Method op_Inequality, addr 0x29c93a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3dd836c, size 0x64, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Threading::CancellationToken left, ::System::Threading::CancellationToken right);
 
   static inline void setStaticF_s_actionToActionObjShunt(::System::Action_1<::System::Object*>* value);
@@ -157,6 +160,9 @@ public:
 
   /// @brief Field _source, offset: 0x0, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* _source;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2680 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

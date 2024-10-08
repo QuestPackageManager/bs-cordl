@@ -15,16 +15,16 @@ class IInternalMessage;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IInternalMessage);
 // Type: System.Runtime.Remoting.Messaging::IInternalMessage
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::IInternalMessage*
 class CORDL_TYPE IInternalMessage {
 public:
   // Declarations
-  __declspec(property(get = get_TargetIdentity, put = set_TargetIdentity))::System::Runtime::Remoting::Identity* TargetIdentity;
+  __declspec(property(get = get_TargetIdentity, put = set_TargetIdentity)) ::System::Runtime::Remoting::Identity* TargetIdentity;
 
-  __declspec(property(get = get_Uri, put = set_Uri))::StringW Uri;
+  __declspec(property(get = get_Uri, put = set_Uri)) ::StringW Uri;
 
   /// @brief Method get_TargetIdentity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Identity* get_TargetIdentity();
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IInternalMessage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IInternalMessage(IInternalMessage const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3166 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

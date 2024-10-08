@@ -24,37 +24,37 @@ class XmlArrayItemAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlArrayItemAttribute);
 // Type: System.Xml.Serialization::XmlArrayItemAttribute
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlArrayItemAttribute*
 class CORDL_TYPE XmlArrayItemAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_DataType))::StringW DataType;
+  __declspec(property(get = get_DataType)) ::StringW DataType;
 
-  __declspec(property(get = get_ElementName))::StringW ElementName;
+  __declspec(property(get = get_ElementName)) ::StringW ElementName;
 
-  __declspec(property(get = get_Form))::System::Xml::Schema::XmlSchemaForm Form;
+  __declspec(property(get = get_Form)) ::System::Xml::Schema::XmlSchemaForm Form;
 
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
   __declspec(property(get = get_IsNullableSpecified)) bool IsNullableSpecified;
 
-  __declspec(property(get = get_Namespace))::StringW Namespace;
+  __declspec(property(get = get_Namespace)) ::StringW Namespace;
 
   __declspec(property(get = get_NestingLevel)) int32_t NestingLevel;
 
-  __declspec(property(get = get_Type))::System::Type* Type;
+  __declspec(property(get = get_Type)) ::System::Type* Type;
 
   /// @brief Field dataType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_dataType, put = __cordl_internal_set_dataType))::StringW dataType;
+  __declspec(property(get = __cordl_internal_get_dataType, put = __cordl_internal_set_dataType)) ::StringW dataType;
 
   /// @brief Field elementName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_elementName, put = __cordl_internal_set_elementName))::StringW elementName;
+  __declspec(property(get = __cordl_internal_get_elementName, put = __cordl_internal_set_elementName)) ::StringW elementName;
 
   /// @brief Field form, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_form, put = __cordl_internal_set_form))::System::Xml::Schema::XmlSchemaForm form;
+  __declspec(property(get = __cordl_internal_get_form, put = __cordl_internal_set_form)) ::System::Xml::Schema::XmlSchemaForm form;
 
   /// @brief Field isNullable, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_isNullable, put = __cordl_internal_set_isNullable)) bool isNullable;
@@ -66,12 +66,12 @@ public:
   __declspec(property(get = __cordl_internal_get_nestingLevel, put = __cordl_internal_set_nestingLevel)) int32_t nestingLevel;
 
   /// @brief Field ns, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns))::StringW ns;
+  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::StringW ns;
 
   /// @brief Field type, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  /// @brief Method AddKeyHash, addr 0x2efa900, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x42f77b4, size 0x164, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr ::StringW const& __cordl_internal_get_dataType() const;
@@ -122,28 +122,28 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method get_DataType, addr 0x2efa828, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x42f76dc, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DataType();
 
-  /// @brief Method get_ElementName, addr 0x2efa87c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_ElementName, addr 0x42f7730, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_ElementName();
 
-  /// @brief Method get_Form, addr 0x2efa8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x42f7784, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_IsNullable, addr 0x2efa8e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x42f7794, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_IsNullableSpecified, addr 0x2efa8e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullableSpecified, addr 0x42f779c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullableSpecified();
 
-  /// @brief Method get_Namespace, addr 0x2efa8d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x42f778c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_NestingLevel, addr 0x2efa8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NestingLevel, addr 0x42f77ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NestingLevel();
 
-  /// @brief Method get_Type, addr 0x2efa8f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x42f77a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -183,6 +183,9 @@ public:
 
   /// @brief Field type, offset: 0x38, size: 0x8, def value: None
   ::System::Type* ___type;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7375 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

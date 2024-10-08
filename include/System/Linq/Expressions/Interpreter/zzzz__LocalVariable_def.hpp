@@ -14,7 +14,7 @@ class LocalVariable;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::LocalVariable);
 // Type: System.Linq.Expressions.Interpreter::LocalVariable
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::LocalVariable*
@@ -33,7 +33,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LocalVariable* New_ctor(int32_t index, bool closure);
 
-  /// @brief Method ToString, addr 0x2c70cbc, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4073ce0, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_Index() const;
@@ -48,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set__flags(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c70c78, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4073ca8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, bool closure);
 
-  /// @brief Method get_InClosure, addr 0x2c6b85c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_InClosure, addr 0x406e97c, size 0xc, virtual false, abstract: false, final false
   inline bool get_InClosure();
 
-  /// @brief Method get_IsBoxed, addr 0x2c6b868, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsBoxed, addr 0x406e988, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsBoxed();
 
-  /// @brief Method set_IsBoxed, addr 0x2c70c5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_IsBoxed, addr 0x4073c98, size 0x10, virtual false, abstract: false, final false
   inline void set_IsBoxed(bool value);
 
 protected:
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field _flags, offset: 0x14, size: 0x4, def value: None
   int32_t ____flags;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13937 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

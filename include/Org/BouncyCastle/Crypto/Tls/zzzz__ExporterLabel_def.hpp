@@ -13,7 +13,7 @@ class ExporterLabel;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ExporterLabel);
 // Type: Org.BouncyCastle.Crypto.Tls::ExporterLabel
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ExporterLabel*
@@ -21,11 +21,11 @@ class CORDL_TYPE ExporterLabel : public ::System::Object {
 public:
   // Declarations
   /// @brief Field extended_master_secret, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_extended_master_secret, put = setStaticF_extended_master_secret))::StringW extended_master_secret;
+  static __declspec(property(get = getStaticF_extended_master_secret, put = setStaticF_extended_master_secret)) ::StringW extended_master_secret;
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ExporterLabel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x120276c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d648c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_extended_master_secret();
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ExporterLabel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ExporterLabel(ExporterLabel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1242 };
 
   /// @brief Field client_EAP_encryption offset 0xffffffff size 0x8
   static constexpr ::ConstString client_EAP_encryption{ u"client EAP encryption" };

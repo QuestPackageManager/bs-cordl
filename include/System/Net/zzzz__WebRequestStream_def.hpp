@@ -125,7 +125,7 @@ MARK_VAL_T(::System::Net::__WebRequestStream___WriteChunkTrailer_d__40);
 MARK_VAL_T(::System::Net::__WebRequestStream___WriteChunkTrailer_inner_d__39);
 MARK_VAL_T(::System::Net::__WebRequestStream___WriteRequestAsync_d__38);
 // Type: ::<FinishWriting>d__31
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<FinishWriting>d__31
@@ -135,10 +135,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3047450, size 0x2e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x436bc50, size 0x328, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3047730, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x436bf78, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -171,6 +171,9 @@ public:
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9716 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
@@ -191,7 +194,7 @@ static_assert(offsetof(::System::Net::__WebRequestStream___FinishWriting_d__31, 
 
 } // namespace System::Net
 // Type: ::<WriteAsyncInner>d__33
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<WriteAsyncInner>d__33
@@ -201,10 +204,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x304773c, size 0x4ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x436bfe0, size 0x500, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3047be8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x436c4e0, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -256,6 +259,9 @@ public:
   /// @brief Field <>u__2, offset: 0x58, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9717 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
@@ -286,7 +292,7 @@ static_assert(offsetof(::System::Net::__WebRequestStream___WriteAsyncInner_d__33
 
 } // namespace System::Net
 // Type: ::<ProcessWrite>d__34
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<ProcessWrite>d__34
@@ -296,10 +302,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3047bf4, size 0x534, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x436c548, size 0x580, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3048128, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x436cac8, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -342,6 +348,9 @@ public:
   /// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9718 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
@@ -368,7 +377,7 @@ static_assert(offsetof(::System::Net::__WebRequestStream___ProcessWrite_d__34, _
 
 } // namespace System::Net
 // Type: ::<Initialize>d__36
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<Initialize>d__36
@@ -378,10 +387,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3048134, size 0x308, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x436cb30, size 0x364, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x304843c, size 0x100c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x436ce94, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -419,6 +428,9 @@ public:
   /// @brief Field <>u__2, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9719 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
@@ -441,7 +453,7 @@ static_assert(offsetof(::System::Net::__WebRequestStream___Initialize_d__36, __u
 
 } // namespace System::Net
 // Type: ::<SetHeadersAsync>d__37
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<SetHeadersAsync>d__37
@@ -451,10 +463,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3049448, size 0x69c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x436cefc, size 0x6e4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3049ae4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x436d5e0, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -490,6 +502,9 @@ public:
   /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9720 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
@@ -512,7 +527,7 @@ static_assert(offsetof(::System::Net::__WebRequestStream___SetHeadersAsync_d__37
 
 } // namespace System::Net
 // Type: ::<WriteRequestAsync>d__38
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<WriteRequestAsync>d__38
@@ -522,10 +537,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3049af0, size 0x4b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x436d648, size 0x51c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3049fa8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x436db64, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -566,6 +581,9 @@ public:
   /// @brief Field <>u__2, offset: 0x48, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9721 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
@@ -590,7 +608,7 @@ static_assert(offsetof(::System::Net::__WebRequestStream___WriteRequestAsync_d__
 
 } // namespace System::Net
 // Type: ::<WriteChunkTrailer_inner>d__39
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<WriteChunkTrailer_inner>d__39
@@ -600,10 +618,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3049fb4, size 0x234, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x436dbcc, size 0x27c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x304a1e8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x436de48, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -636,6 +654,9 @@ public:
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9722 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
@@ -656,7 +677,7 @@ static_assert(offsetof(::System::Net::__WebRequestStream___WriteChunkTrailer_inn
 
 } // namespace System::Net
 // Type: ::<WriteChunkTrailer>d__40
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<WriteChunkTrailer>d__40
@@ -666,10 +687,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x304a1f4, size 0x6c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x436deb0, size 0x704, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x304a8b4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x436e5b4, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -711,6 +732,9 @@ public:
   /// @brief Field <>u__2, offset: 0x48, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9723 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
@@ -735,7 +759,7 @@ static_assert(offsetof(::System::Net::__WebRequestStream___WriteChunkTrailer_d__
 
 } // namespace System::Net
 // Type: System.Net::WebRequestStream
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::WebRequestStream*
@@ -764,14 +788,14 @@ public:
 
   __declspec(property(get = get_HasWriteBuffer)) bool HasWriteBuffer;
 
-  __declspec(property(get = get_InnerStream))::System::IO::Stream* InnerStream;
+  __declspec(property(get = get_InnerStream)) ::System::IO::Stream* InnerStream;
 
   __declspec(property(get = get_KeepAlive)) bool KeepAlive;
 
   __declspec(property(get = get_WriteBufferLength)) int32_t WriteBufferLength;
 
   /// @brief Field <InnerStream>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__InnerStream_k__BackingField, put = __cordl_internal_set__InnerStream_k__BackingField))::System::IO::Stream* _InnerStream_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__InnerStream_k__BackingField, put = __cordl_internal_set__InnerStream_k__BackingField)) ::System::IO::Stream* _InnerStream_k__BackingField;
 
   /// @brief Field <KeepAlive>k__BackingField, offset 0x98, size 0x1
   __declspec(property(get = __cordl_internal_get__KeepAlive_k__BackingField, put = __cordl_internal_set__KeepAlive_k__BackingField)) bool _KeepAlive_k__BackingField;
@@ -786,16 +810,16 @@ public:
   __declspec(property(get = __cordl_internal_get_completeRequestWritten, put = __cordl_internal_set_completeRequestWritten)) int32_t completeRequestWritten;
 
   /// @brief Field crlf, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_crlf, put = setStaticF_crlf))::ArrayW<uint8_t, ::Array<uint8_t>*> crlf;
+  static __declspec(property(get = getStaticF_crlf, put = setStaticF_crlf)) ::ArrayW<uint8_t, ::Array<uint8_t>*> crlf;
 
   /// @brief Field headers, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::ArrayW<uint8_t, ::Array<uint8_t>*> headers;
+  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers)) ::ArrayW<uint8_t, ::Array<uint8_t>*> headers;
 
   /// @brief Field headersSent, offset 0x80, size 0x1
   __declspec(property(get = __cordl_internal_get_headersSent, put = __cordl_internal_set_headersSent)) bool headersSent;
 
   /// @brief Field pendingWrite, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_pendingWrite, put = __cordl_internal_set_pendingWrite))::System::Net::WebCompletionSource* pendingWrite;
+  __declspec(property(get = __cordl_internal_get_pendingWrite, put = __cordl_internal_set_pendingWrite)) ::System::Net::WebCompletionSource* pendingWrite;
 
   /// @brief Field requestWritten, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_requestWritten, put = __cordl_internal_set_requestWritten)) bool requestWritten;
@@ -807,55 +831,55 @@ public:
   __declspec(property(get = __cordl_internal_get_totalWritten, put = __cordl_internal_set_totalWritten)) int64_t totalWritten;
 
   /// @brief Field writeBuffer, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_writeBuffer, put = __cordl_internal_set_writeBuffer))::System::IO::MemoryStream* writeBuffer;
+  __declspec(property(get = __cordl_internal_get_writeBuffer, put = __cordl_internal_set_writeBuffer)) ::System::IO::MemoryStream* writeBuffer;
 
-  /// @brief Method CheckWriteOverflow, addr 0x3046d44, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CheckWriteOverflow, addr 0x436b56c, size 0x98, virtual false, abstract: false, final false
   inline void CheckWriteOverflow(int64_t contentLength, int64_t totalWritten, int64_t size);
 
-  /// @brief Method Close_internal, addr 0x304723c, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method Close_internal, addr 0x436ba44, size 0x178, virtual true, abstract: false, final false
   inline void Close_internal(ByRef<bool> disposed);
 
-  /// @brief Method FinishWriting, addr 0x3046810, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FinishWriting, addr 0x436b048, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FinishWriting(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetWriteBuffer, addr 0x3046734, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetWriteBuffer, addr 0x436af74, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Net::BufferOffsetSize* GetWriteBuffer();
 
-  /// @brief Method Initialize, addr 0x30455c0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4369b44, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* Initialize(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method KillBuffer, addr 0x3033a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method KillBuffer, addr 0x436b604, size 0x8, virtual false, abstract: false, final false
   inline void KillBuffer();
 
   static inline ::System::Net::WebRequestStream* New_ctor(::System::Net::WebConnection* connection, ::System::Net::WebOperation* operation, ::System::IO::Stream* stream,
                                                           ::System::Net::WebConnectionTunnel* tunnel);
 
-  /// @brief Method ProcessWrite, addr 0x3046c44, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ProcessWrite, addr 0x436b474, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ProcessWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsync, addr 0x304714c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x436b95c, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SetHeadersAsync, addr 0x3046de0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetHeadersAsync, addr 0x436b60c, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SetHeadersAsync(bool setInternalLength, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryReadFromBufferedContent, addr 0x30471fc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method TryReadFromBufferedContent, addr 0x436ba0c, size 0x38, virtual true, abstract: false, final false
   inline bool TryReadFromBufferedContent(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ByRef<int32_t> result);
 
-  /// @brief Method WriteAsync, addr 0x30468e8, size 0x258, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x436b118, size 0x260, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteAsyncInner, addr 0x3046b40, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method WriteAsyncInner, addr 0x436b378, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsyncInner(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::Net::WebCompletionSource* completion,
                                                            ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteChunkTrailer, addr 0x3047078, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method WriteChunkTrailer, addr 0x436b890, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteChunkTrailer();
 
-  /// @brief Method WriteChunkTrailer_inner, addr 0x3046fa0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method WriteChunkTrailer_inner, addr 0x436b7c0, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteChunkTrailer_inner(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteRequestAsync, addr 0x3046ec4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method WriteRequestAsync, addr 0x436b6ec, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteRequestAsync(::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get__InnerStream_k__BackingField();
@@ -930,27 +954,27 @@ public:
 
   constexpr void __cordl_internal_set_writeBuffer(::System::IO::MemoryStream* value);
 
-  /// @brief Method .ctor, addr 0x3041750, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43656e0, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebConnection* connection, ::System::Net::WebOperation* operation, ::System::IO::Stream* stream, ::System::Net::WebConnectionTunnel* tunnel);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_crlf();
 
-  /// @brief Method get_CanRead, addr 0x30466ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x436aeec, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanWrite, addr 0x30466b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x436aef4, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_HasWriteBuffer, addr 0x30466bc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_HasWriteBuffer, addr 0x436aefc, size 0x34, virtual false, abstract: false, final false
   inline bool get_HasWriteBuffer();
 
-  /// @brief Method get_InnerStream, addr 0x304669c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InnerStream, addr 0x436aedc, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_InnerStream();
 
-  /// @brief Method get_KeepAlive, addr 0x30466a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeepAlive, addr 0x436aee4, size 0x8, virtual false, abstract: false, final false
   inline bool get_KeepAlive();
 
-  /// @brief Method get_WriteBufferLength, addr 0x30466f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_WriteBufferLength, addr 0x436af30, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_WriteBufferLength();
 
   static inline void setStaticF_crlf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
@@ -1004,6 +1028,9 @@ public:
 
   /// @brief Field <KeepAlive>k__BackingField, offset: 0x98, size: 0x1, def value: None
   bool ____KeepAlive_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9724 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

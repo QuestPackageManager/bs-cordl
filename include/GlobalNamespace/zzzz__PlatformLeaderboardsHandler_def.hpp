@@ -33,7 +33,7 @@ class PlatformLeaderboardsHandler;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlatformLeaderboardsHandler);
 // Type: ::PlatformLeaderboardsHandler
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlatformLeaderboardsHandler*
@@ -51,7 +51,7 @@ public:
   inline ::GlobalNamespace::HMAsyncRequest* UploadScore(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData,
                                                         ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler);
 
-  /// @brief Method .ctor, addr 0x14b7f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c4354, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,6 +67,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsHandler", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PlatformLeaderboardsHandler(PlatformLeaderboardsHandler const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13305 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

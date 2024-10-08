@@ -14,7 +14,7 @@ class KeySizes;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::KeySizes);
 // Type: System.Security.Cryptography::KeySizes
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::KeySizes*
@@ -36,10 +36,10 @@ public:
   /// @brief Field m_skipSize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_skipSize, put = __cordl_internal_set_m_skipSize)) int32_t m_skipSize;
 
-  /// @brief Method IsLegal, addr 0x2809e8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsLegal, addr 0x3c28e80, size 0x4c, virtual false, abstract: false, final false
   inline bool IsLegal(int32_t keySize);
 
-  /// @brief Method IsLegalKeySize, addr 0x2809ed8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsLegalKeySize, addr 0x3c28ecc, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsLegalKeySize(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> legalKeys, int32_t size);
 
   static inline ::System::Security::Cryptography::KeySizes* New_ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set_m_skipSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2809c20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c28c2c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
 
-  /// @brief Method get_MaxSize, addr 0x2809e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxSize, addr 0x3c28e70, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxSize();
 
-  /// @brief Method get_MinSize, addr 0x2809e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinSize, addr 0x3c28e68, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MinSize();
 
-  /// @brief Method get_SkipSize, addr 0x2809e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SkipSize, addr 0x3c28e78, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SkipSize();
 
 protected:
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field m_skipSize, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_skipSize;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2922 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

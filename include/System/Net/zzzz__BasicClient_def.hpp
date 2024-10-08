@@ -27,36 +27,36 @@ class BasicClient;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::BasicClient);
 // Type: System.Net::BasicClient
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::BasicClient*
 class CORDL_TYPE BasicClient : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AuthenticationType))::StringW AuthenticationType;
+  __declspec(property(get = get_AuthenticationType)) ::StringW AuthenticationType;
 
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-  /// @brief Method Authenticate, addr 0x301dbcc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x4444974, size 0xac, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method GetBytes, addr 0x301e024, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x4444d20, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(::StringW str);
 
-  /// @brief Method InternalAuthenticate, addr 0x301dc78, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method InternalAuthenticate, addr 0x4444a20, size 0x300, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* InternalAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   static inline ::System::Net::BasicClient* New_ctor();
 
-  /// @brief Method PreAuthenticate, addr 0x301e0cc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x4444dbc, size 0xc, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method .ctor, addr 0x301d020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4443dd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AuthenticationType, addr 0x301e0d8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x4444dc8, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
   /// @brief Convert to "::System::Net::IAuthenticationModule"
@@ -75,6 +75,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BasicClient", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BasicClient(BasicClient const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9635 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

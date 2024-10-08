@@ -24,7 +24,7 @@ class HEU_TOPNetworkData;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TOPNetworkData);
 // Type: HoudiniEngineUnity::HEU_TOPNetworkData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_TOPNetworkData*
@@ -35,22 +35,22 @@ public:
   __declspec(property(get = __cordl_internal_get__nodeID, put = __cordl_internal_set__nodeID)) int32_t _nodeID;
 
   /// @brief Field _nodeName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__nodeName, put = __cordl_internal_set__nodeName))::StringW _nodeName;
+  __declspec(property(get = __cordl_internal_get__nodeName, put = __cordl_internal_set__nodeName)) ::StringW _nodeName;
 
   /// @brief Field _parentName, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__parentName, put = __cordl_internal_set__parentName))::StringW _parentName;
+  __declspec(property(get = __cordl_internal_get__parentName, put = __cordl_internal_set__parentName)) ::StringW _parentName;
 
   /// @brief Field _selectedTOPIndex, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__selectedTOPIndex, put = __cordl_internal_set__selectedTOPIndex)) int32_t _selectedTOPIndex;
 
   /// @brief Field _tags, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__tags, put = __cordl_internal_set__tags))::HoudiniEngineUnity::TOPNodeTags* _tags;
+  __declspec(property(get = __cordl_internal_get__tags, put = __cordl_internal_set__tags)) ::HoudiniEngineUnity::TOPNodeTags* _tags;
 
   /// @brief Field _topNodeNames, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__topNodeNames, put = __cordl_internal_set__topNodeNames))::ArrayW<::StringW, ::Array<::StringW>*> _topNodeNames;
+  __declspec(property(get = __cordl_internal_get__topNodeNames, put = __cordl_internal_set__topNodeNames)) ::ArrayW<::StringW, ::Array<::StringW>*> _topNodeNames;
 
   /// @brief Field _topNodes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__topNodes, put = __cordl_internal_set__topNodes))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>* _topNodes;
+  __declspec(property(get = __cordl_internal_get__topNodes, put = __cordl_internal_set__topNodes)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>* _topNodes;
 
   static inline ::HoudiniEngineUnity::HEU_TOPNetworkData* New_ctor();
 
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__topNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>* value);
 
-  /// @brief Method .ctor, addr 0x25aba6c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e73e0, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,6 +133,9 @@ public:
 
   /// @brief Field _tags, offset: 0x40, size: 0x8, def value: None
   ::HoudiniEngineUnity::TOPNodeTags* ____tags;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11714 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

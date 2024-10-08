@@ -17,7 +17,7 @@ class TrailElement;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TrailElement);
 // Type: ::TrailElement
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TrailElement*
@@ -31,26 +31,26 @@ public:
   __declspec(property(get = __cordl_internal_get_localDistance, put = __cordl_internal_set_localDistance)) float_t localDistance;
 
   /// @brief Field normal, offset 0x1c, size 0xc
-  __declspec(property(get = __cordl_internal_get_normal, put = __cordl_internal_set_normal))::UnityEngine::Vector3 normal;
+  __declspec(property(get = __cordl_internal_get_normal, put = __cordl_internal_set_normal)) ::UnityEngine::Vector3 normal;
 
   /// @brief Field position, offset 0x10, size 0xc
-  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector3 position;
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) ::UnityEngine::Vector3 position;
 
   /// @brief Field time, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
 
-  /// @brief Method CopyFrom, addr 0x26ec128, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x4011ed0, size 0x40, virtual false, abstract: false, final false
   inline void CopyFrom(::GlobalNamespace::TrailElement* other);
 
   static inline ::GlobalNamespace::TrailElement* New_ctor();
 
-  /// @brief Method SetData, addr 0x26ec0e8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x4011e90, size 0x40, virtual false, abstract: false, final false
   inline void SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time);
 
-  /// @brief Method SetDistance, addr 0x26ec168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDistance, addr 0x4011f10, size 0x8, virtual false, abstract: false, final false
   inline void SetDistance(float_t value);
 
-  /// @brief Method UpdateLocalDistance, addr 0x26ec170, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalDistance, addr 0x4011f18, size 0xa8, virtual false, abstract: false, final false
   inline void UpdateLocalDistance(::GlobalNamespace::TrailElement* prev);
 
   constexpr float_t const& __cordl_internal_get_distance() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x26ec218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4011fc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,6 +114,9 @@ public:
 
   /// @brief Field time, offset: 0x30, size: 0x4, def value: None
   float_t ___time;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18757 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

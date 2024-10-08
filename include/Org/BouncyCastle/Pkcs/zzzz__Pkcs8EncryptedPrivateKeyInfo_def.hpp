@@ -23,7 +23,7 @@ class Pkcs8EncryptedPrivateKeyInfo;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo);
 // Type: Org.BouncyCastle.Pkcs::Pkcs8EncryptedPrivateKeyInfo
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkcs::Pkcs8EncryptedPrivateKeyInfo*
@@ -32,22 +32,22 @@ public:
   // Declarations
   /// @brief Field encryptedPrivateKeyInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_encryptedPrivateKeyInfo,
-                      put = __cordl_internal_set_encryptedPrivateKeyInfo))::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encryptedPrivateKeyInfo;
+                      put = __cordl_internal_set_encryptedPrivateKeyInfo)) ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encryptedPrivateKeyInfo;
 
-  /// @brief Method DecryptPrivateKeyInfo, addr 0x1358d10, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method DecryptPrivateKeyInfo, addr 0x25243e4, size 0x3b0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* DecryptPrivateKeyInfo(::Org::BouncyCastle::Crypto::IDecryptorBuilderProvider* inputDecryptorProvider);
 
-  /// @brief Method GetEncoded, addr 0x1358cf4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x25243c8, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncryptedData, addr 0x1358cd8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedData, addr 0x25243ac, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncryptedData();
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedPrivateKeyInfo);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encryptedPrivateKeyInfo);
 
-  /// @brief Method ToAsn1Structure, addr 0x1358cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Structure, addr 0x25243a4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* ToAsn1Structure();
 
   constexpr ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*& __cordl_internal_get_encryptedPrivateKeyInfo();
@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set_encryptedPrivateKeyInfo(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* value);
 
-  /// @brief Method .ctor, addr 0x1358c9c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2524370, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedPrivateKeyInfo);
 
-  /// @brief Method .ctor, addr 0x1358c74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2524348, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encryptedPrivateKeyInfo);
 
-  /// @brief Method parseBytes, addr 0x1358b4c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method parseBytes, addr 0x2524228, size 0x118, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* parseBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> pkcs8Encoding);
 
 protected:
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field encryptedPrivateKeyInfo, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* ___encryptedPrivateKeyInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1703 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

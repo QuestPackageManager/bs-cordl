@@ -50,7 +50,7 @@ MARK_VAL_T(::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitle
 MARK_REF_PTR_T(::GlobalNamespace::ISonyCommerceHelper);
 MARK_VAL_T(::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult);
 // Type: ::DisplayProductBrowseDialogResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ISonyCommerceHelper::DisplayProductBrowseDialogResult
@@ -91,6 +91,9 @@ public:
   /// @brief Field OK value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult const OK;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12763 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -103,7 +106,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__DisplayProductB
 
 } // namespace GlobalNamespace
 // Type: ::DisplayCategoryBrowseDialogResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ISonyCommerceHelper::DisplayCategoryBrowseDialogResult
@@ -144,6 +147,9 @@ public:
   /// @brief Field OK value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult const OK;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12764 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -156,7 +162,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__DisplayCategory
 
 } // namespace GlobalNamespace
 // Type: ::GetAdditionalContentEntitlementsResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ISonyCommerceHelper::GetAdditionalContentEntitlementsResult
@@ -197,6 +203,9 @@ public:
   /// @brief Field OK value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult const OK;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12765 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -209,7 +218,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalCo
 
 } // namespace GlobalNamespace
 // Type: ::AdditionalContentEntitlementsAsyncResult
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ISonyCommerceHelper::AdditionalContentEntitlementsAsyncResult
@@ -231,6 +240,9 @@ public:
   /// @brief Field entitlementsLabels, offset: 0x8, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> entitlementsLabels;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12766 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -245,7 +257,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__AdditionalConte
 
 } // namespace GlobalNamespace
 // Type: ::ISonyCommerceHelper
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ISonyCommerceHelper*
@@ -279,6 +291,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ISonyCommerceHelper", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ISonyCommerceHelper(ISonyCommerceHelper const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12767 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

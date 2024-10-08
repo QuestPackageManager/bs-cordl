@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::Zenject::__InjectTypeInfo__InjectConstructorInfo);
 MARK_REF_PTR_T(::Zenject::__InjectTypeInfo__InjectMemberInfo);
 MARK_REF_PTR_T(::Zenject::__InjectTypeInfo__InjectMethodInfo);
 // Type: ::InjectMemberInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::InjectTypeInfo::InjectMemberInfo*
@@ -64,10 +64,10 @@ class CORDL_TYPE __InjectTypeInfo__InjectMemberInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Info, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Info, put = __cordl_internal_set_Info))::Zenject::InjectableInfo* Info;
+  __declspec(property(get = __cordl_internal_get_Info, put = __cordl_internal_set_Info)) ::Zenject::InjectableInfo* Info;
 
   /// @brief Field Setter, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Setter, put = __cordl_internal_set_Setter))::Zenject::ZenMemberSetterMethod* Setter;
+  __declspec(property(get = __cordl_internal_get_Setter, put = __cordl_internal_set_Setter)) ::Zenject::ZenMemberSetterMethod* Setter;
 
   static inline ::Zenject::__InjectTypeInfo__InjectMemberInfo* New_ctor(::Zenject::ZenMemberSetterMethod* setter, ::Zenject::InjectableInfo* info);
 
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_Setter(::Zenject::ZenMemberSetterMethod* value);
 
-  /// @brief Method .ctor, addr 0x3650ea8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77728, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenMemberSetterMethod* setter, ::Zenject::InjectableInfo* info);
 
 protected:
@@ -106,6 +106,9 @@ public:
   /// @brief Field Info, offset: 0x18, size: 0x8, def value: None
   ::Zenject::InjectableInfo* ___Info;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18305 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -117,7 +120,7 @@ static_assert(offsetof(::Zenject::__InjectTypeInfo__InjectMemberInfo, ___Info) =
 
 } // namespace Zenject
 // Type: ::InjectConstructorInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::InjectTypeInfo::InjectConstructorInfo*
@@ -125,10 +128,10 @@ class CORDL_TYPE __InjectTypeInfo__InjectConstructorInfo : public ::System::Obje
 public:
   // Declarations
   /// @brief Field Factory, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Factory, put = __cordl_internal_set_Factory))::Zenject::ZenFactoryMethod* Factory;
+  __declspec(property(get = __cordl_internal_get_Factory, put = __cordl_internal_set_Factory)) ::Zenject::ZenFactoryMethod* Factory;
 
   /// @brief Field Parameters, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Parameters, put = __cordl_internal_set_Parameters))::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> Parameters;
+  __declspec(property(get = __cordl_internal_get_Parameters, put = __cordl_internal_set_Parameters)) ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> Parameters;
 
   static inline ::Zenject::__InjectTypeInfo__InjectConstructorInfo* New_ctor(::Zenject::ZenFactoryMethod* factory,
                                                                              ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters);
@@ -145,7 +148,7 @@ public:
 
   constexpr void __cordl_internal_set_Parameters(::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x3650ed4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77754, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenFactoryMethod* factory, ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters);
 
 protected:
@@ -168,6 +171,9 @@ public:
   /// @brief Field Parameters, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> ___Parameters;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18306 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -179,7 +185,7 @@ static_assert(offsetof(::Zenject::__InjectTypeInfo__InjectConstructorInfo, ___Pa
 
 } // namespace Zenject
 // Type: ::InjectMethodInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::InjectTypeInfo::InjectMethodInfo*
@@ -187,13 +193,13 @@ class CORDL_TYPE __InjectTypeInfo__InjectMethodInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Action, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Action, put = __cordl_internal_set_Action))::Zenject::ZenInjectMethod* Action;
+  __declspec(property(get = __cordl_internal_get_Action, put = __cordl_internal_set_Action)) ::Zenject::ZenInjectMethod* Action;
 
   /// @brief Field Name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::StringW Name;
 
   /// @brief Field Parameters, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Parameters, put = __cordl_internal_set_Parameters))::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> Parameters;
+  __declspec(property(get = __cordl_internal_get_Parameters, put = __cordl_internal_set_Parameters)) ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> Parameters;
 
   static inline ::Zenject::__InjectTypeInfo__InjectMethodInfo* New_ctor(::Zenject::ZenInjectMethod* action, ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters,
                                                                         ::StringW name);
@@ -216,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set_Parameters(::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x3650f00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77780, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenInjectMethod* action, ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters, ::StringW name);
 
 protected:
@@ -242,6 +248,9 @@ public:
   /// @brief Field Parameters, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> ___Parameters;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18307 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -255,7 +264,7 @@ static_assert(offsetof(::Zenject::__InjectTypeInfo__InjectMethodInfo, ___Paramet
 
 } // namespace Zenject
 // Type: Zenject::InjectTypeInfo
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::InjectTypeInfo*
@@ -268,35 +277,37 @@ public:
 
   using InjectMethodInfo = ::Zenject::__InjectTypeInfo__InjectMethodInfo;
 
-  __declspec(property(get = get_AllInjectables))::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* AllInjectables;
+  __declspec(property(get = get_AllInjectables)) ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* AllInjectables;
 
-  __declspec(property(get = get_BaseTypeInfo, put = set_BaseTypeInfo))::Zenject::InjectTypeInfo* BaseTypeInfo;
+  __declspec(property(get = get_BaseTypeInfo, put = set_BaseTypeInfo)) ::Zenject::InjectTypeInfo* BaseTypeInfo;
 
   /// @brief Field CS$<>9__CachedAnonymousMethodDelegate2, offset 0xffffffff, size 0x8
   static __declspec(property(
       get = getStaticF_CS$__9__CachedAnonymousMethodDelegate2,
-      put = setStaticF_CS$__9__CachedAnonymousMethodDelegate2))::System::Func_2<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Zenject::InjectableInfo*>* CS$__9__CachedAnonymousMethodDelegate2;
+      put = setStaticF_CS$__9__CachedAnonymousMethodDelegate2)) ::System::Func_2<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Zenject::InjectableInfo*>* CS$__9__CachedAnonymousMethodDelegate2;
 
   /// @brief Field CS$<>9__CachedAnonymousMethodDelegate3, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CS$__9__CachedAnonymousMethodDelegate3, put = setStaticF_CS$__9__CachedAnonymousMethodDelegate3))::System::Func_2<
+  static __declspec(property(get = getStaticF_CS$__9__CachedAnonymousMethodDelegate3, put = setStaticF_CS$__9__CachedAnonymousMethodDelegate3)) ::System::Func_2<
       ::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>*>* CS$__9__CachedAnonymousMethodDelegate3;
 
   /// @brief Field InjectConstructor, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_InjectConstructor, put = __cordl_internal_set_InjectConstructor))::Zenject::__InjectTypeInfo__InjectConstructorInfo* InjectConstructor;
+  __declspec(property(get = __cordl_internal_get_InjectConstructor, put = __cordl_internal_set_InjectConstructor)) ::Zenject::__InjectTypeInfo__InjectConstructorInfo* InjectConstructor;
 
   /// @brief Field InjectMembers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_InjectMembers,
-                      put = __cordl_internal_set_InjectMembers))::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*> InjectMembers;
+                      put = __cordl_internal_set_InjectMembers)) ::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*>
+      InjectMembers;
 
   /// @brief Field InjectMethods, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_InjectMethods,
-                      put = __cordl_internal_set_InjectMethods))::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*> InjectMethods;
+                      put = __cordl_internal_set_InjectMethods)) ::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*>
+      InjectMethods;
 
   /// @brief Field Type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type))::System::Type* Type;
+  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type)) ::System::Type* Type;
 
   /// @brief Field <BaseTypeInfo>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__BaseTypeInfo_k__BackingField, put = __cordl_internal_set__BaseTypeInfo_k__BackingField))::Zenject::InjectTypeInfo* _BaseTypeInfo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BaseTypeInfo_k__BackingField, put = __cordl_internal_set__BaseTypeInfo_k__BackingField)) ::Zenject::InjectTypeInfo* _BaseTypeInfo_k__BackingField;
 
   static inline ::Zenject::InjectTypeInfo* New_ctor(::System::Type* type, ::Zenject::__InjectTypeInfo__InjectConstructorInfo* injectConstructor,
                                                     ::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*> injectMethods,
@@ -332,15 +343,15 @@ public:
 
   constexpr void __cordl_internal_set__BaseTypeInfo_k__BackingField(::Zenject::InjectTypeInfo* value);
 
-  /// @brief Method .ctor, addr 0x3650c7c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a774fc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::Zenject::__InjectTypeInfo__InjectConstructorInfo* injectConstructor,
                     ::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*> injectMethods,
                     ::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*> injectMembers);
 
-  /// @brief Method <get_AllInjectables>b__0, addr 0x3650e78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <get_AllInjectables>b__0, addr 0x4a776f8, size 0x18, virtual false, abstract: false, final false
   static inline ::Zenject::InjectableInfo* _get_AllInjectables_b__0(::Zenject::__InjectTypeInfo__InjectMemberInfo* x);
 
-  /// @brief Method <get_AllInjectables>b__1, addr 0x3650e90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <get_AllInjectables>b__1, addr 0x4a77710, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* _get_AllInjectables_b__1(::Zenject::__InjectTypeInfo__InjectMethodInfo* x);
 
   static inline ::System::Func_2<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Zenject::InjectableInfo*>* getStaticF_CS$__9__CachedAnonymousMethodDelegate2();
@@ -348,10 +359,10 @@ public:
   static inline ::System::Func_2<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>*>*
   getStaticF_CS$__9__CachedAnonymousMethodDelegate3();
 
-  /// @brief Method get_AllInjectables, addr 0x3650ccc, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method get_AllInjectables, addr 0x4a7754c, size 0x1ac, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* get_AllInjectables();
 
-  /// @brief Method get_BaseTypeInfo, addr 0x3650cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseTypeInfo, addr 0x4a7753c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectTypeInfo* get_BaseTypeInfo();
 
   static inline void setStaticF_CS$__9__CachedAnonymousMethodDelegate2(::System::Func_2<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Zenject::InjectableInfo*>* value);
@@ -359,7 +370,7 @@ public:
   static inline void setStaticF_CS$__9__CachedAnonymousMethodDelegate3(
       ::System::Func_2<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>*>* value);
 
-  /// @brief Method set_BaseTypeInfo, addr 0x3650cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseTypeInfo, addr 0x4a77544, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseTypeInfo(::Zenject::InjectTypeInfo* value);
 
 protected:
@@ -390,6 +401,9 @@ public:
 
   /// @brief Field <BaseTypeInfo>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::Zenject::InjectTypeInfo* ____BaseTypeInfo_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18308 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

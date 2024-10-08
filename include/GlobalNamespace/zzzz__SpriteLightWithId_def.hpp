@@ -29,7 +29,7 @@ class SpriteLightWithId;
 MARK_VAL_T(::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType);
 MARK_REF_PTR_T(::GlobalNamespace::SpriteLightWithId);
 // Type: ::MultiplyColorByAlphaType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::SpriteLightWithId::MultiplyColorByAlphaType
@@ -74,6 +74,9 @@ public:
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType const None;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16294 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -86,7 +89,7 @@ static_assert(offsetof(::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAl
 
 } // namespace GlobalNamespace
 // Type: ::SpriteLightWithId
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 83, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 91, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SpriteLightWithId*
@@ -95,40 +98,40 @@ public:
   // Declarations
   using MultiplyColorByAlphaType = ::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType;
 
-  /// @brief Field _hideAlphaRangeMax, offset 0x40, size 0x4
+  /// @brief Field _hideAlphaRangeMax, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__hideAlphaRangeMax, put = __cordl_internal_set__hideAlphaRangeMax)) float_t _hideAlphaRangeMax;
 
-  /// @brief Field _hideAlphaRangeMin, offset 0x3c, size 0x4
+  /// @brief Field _hideAlphaRangeMin, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__hideAlphaRangeMin, put = __cordl_internal_set__hideAlphaRangeMin)) float_t _hideAlphaRangeMin;
 
-  /// @brief Field _hideIfAlphaOutOfRange, offset 0x38, size 0x1
+  /// @brief Field _hideIfAlphaOutOfRange, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__hideIfAlphaOutOfRange, put = __cordl_internal_set__hideIfAlphaOutOfRange)) bool _hideIfAlphaOutOfRange;
 
-  /// @brief Field _intensity, offset 0x44, size 0x4
+  /// @brief Field _intensity, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__intensity, put = __cordl_internal_set__intensity)) float_t _intensity;
 
-  /// @brief Field _minAlpha, offset 0x48, size 0x4
+  /// @brief Field _minAlpha, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__minAlpha, put = __cordl_internal_set__minAlpha)) float_t _minAlpha;
 
-  /// @brief Field _multiplyColorByAlpha, offset 0x4c, size 0x4
+  /// @brief Field _multiplyColorByAlpha, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get__multiplyColorByAlpha,
-                      put = __cordl_internal_set__multiplyColorByAlpha))::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType _multiplyColorByAlpha;
+                      put = __cordl_internal_set__multiplyColorByAlpha)) ::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType _multiplyColorByAlpha;
 
-  /// @brief Field _setAlphaOnly, offset 0x51, size 0x1
+  /// @brief Field _setAlphaOnly, offset 0x59, size 0x1
   __declspec(property(get = __cordl_internal_get__setAlphaOnly, put = __cordl_internal_set__setAlphaOnly)) bool _setAlphaOnly;
 
-  /// @brief Field _setColorOnly, offset 0x50, size 0x1
+  /// @brief Field _setColorOnly, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__setColorOnly, put = __cordl_internal_set__setColorOnly)) bool _setColorOnly;
 
-  /// @brief Field _setOnlyOnce, offset 0x52, size 0x1
+  /// @brief Field _setOnlyOnce, offset 0x5a, size 0x1
   __declspec(property(get = __cordl_internal_get__setOnlyOnce, put = __cordl_internal_set__setOnlyOnce)) bool _setOnlyOnce;
 
-  /// @brief Field _spriteRenderer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer))::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
+  /// @brief Field _spriteRenderer, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer)) ::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
 
-  __declspec(property(get = get_color))::UnityEngine::Color color;
+  __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x2523dd0, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x397b5f8, size 0x144, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::SpriteLightWithId* New_ctor();
@@ -193,10 +196,10 @@ public:
 
   constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  /// @brief Method .ctor, addr 0x2523f14, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397b73c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x2523db4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x397b5dc, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -213,60 +216,63 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpriteLightWithId(SpriteLightWithId const&) = delete;
 
-  /// @brief Field _spriteRenderer, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _spriteRenderer, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 
-  /// @brief Field _hideIfAlphaOutOfRange, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field _hideIfAlphaOutOfRange, offset: 0x40, size: 0x1, def value: None
   bool ____hideIfAlphaOutOfRange;
 
-  /// @brief Field _hideAlphaRangeMin, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field _hideAlphaRangeMin, offset: 0x44, size: 0x4, def value: None
   float_t ____hideAlphaRangeMin;
 
-  /// @brief Field _hideAlphaRangeMax, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _hideAlphaRangeMax, offset: 0x48, size: 0x4, def value: None
   float_t ____hideAlphaRangeMax;
 
-  /// @brief Field _intensity, offset: 0x44, size: 0x4, def value: None
+  /// @brief Field _intensity, offset: 0x4c, size: 0x4, def value: None
   float_t ____intensity;
 
-  /// @brief Field _minAlpha, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field _minAlpha, offset: 0x50, size: 0x4, def value: None
   float_t ____minAlpha;
 
-  /// @brief Field _multiplyColorByAlpha, offset: 0x4c, size: 0x4, def value: None
+  /// @brief Field _multiplyColorByAlpha, offset: 0x54, size: 0x4, def value: None
   ::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType ____multiplyColorByAlpha;
 
-  /// @brief Field _setColorOnly, offset: 0x50, size: 0x1, def value: None
+  /// @brief Field _setColorOnly, offset: 0x58, size: 0x1, def value: None
   bool ____setColorOnly;
 
-  /// @brief Field _setAlphaOnly, offset: 0x51, size: 0x1, def value: None
+  /// @brief Field _setAlphaOnly, offset: 0x59, size: 0x1, def value: None
   bool ____setAlphaOnly;
 
-  /// @brief Field _setOnlyOnce, offset: 0x52, size: 0x1, def value: None
+  /// @brief Field _setOnlyOnce, offset: 0x5a, size: 0x1, def value: None
   bool ____setOnlyOnce;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpriteLightWithId, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpriteLightWithId, 0x60>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____spriteRenderer) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____spriteRenderer) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____hideIfAlphaOutOfRange) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____hideIfAlphaOutOfRange) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____hideAlphaRangeMin) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____hideAlphaRangeMin) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____hideAlphaRangeMax) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____hideAlphaRangeMax) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____intensity) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____intensity) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____minAlpha) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____minAlpha) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____multiplyColorByAlpha) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____multiplyColorByAlpha) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____setColorOnly) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____setColorOnly) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____setAlphaOnly) == 0x51, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____setAlphaOnly) == 0x59, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____setOnlyOnce) == 0x52, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteLightWithId, ____setOnlyOnce) == 0x5a, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType, "", "SpriteLightWithId/MultiplyColorByAlphaType");

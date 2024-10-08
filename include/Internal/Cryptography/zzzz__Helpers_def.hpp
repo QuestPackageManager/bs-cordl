@@ -15,23 +15,23 @@ class Helpers;
 // Write type traits
 MARK_REF_PTR_T(::Internal::Cryptography::Helpers);
 // Type: Internal.Cryptography::Helpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Cryptography {
 // Is value type: false
 // CS Name: ::Internal.Cryptography::Helpers*
 class CORDL_TYPE Helpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CloneByteArray, addr 0x27d7b68, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CloneByteArray, addr 0x3bf970c, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CloneByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> src);
 
-  /// @brief Method NibbleToHex, addr 0x27d7ccc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NibbleToHex, addr 0x3bf9870, size 0x1c, virtual false, abstract: false, final false
   static inline char16_t NibbleToHex(uint8_t b);
 
-  /// @brief Method ToHexArrayUpper, addr 0x27d7be0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ToHexArrayUpper, addr 0x3bf9784, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> ToHexArrayUpper(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method ToHexStringUpper, addr 0x27d7ce8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToHexStringUpper, addr 0x3bf988c, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW ToHexStringUpper(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
 protected:
@@ -47,6 +47,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Helpers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Helpers(Helpers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2309 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

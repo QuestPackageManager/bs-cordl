@@ -32,32 +32,32 @@ class AttributeCertificate;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::AttributeCertificate);
 // Type: Org.BouncyCastle.Asn1.X509::AttributeCertificate
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::AttributeCertificate*
 class CORDL_TYPE AttributeCertificate : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_ACInfo))::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* ACInfo;
+  __declspec(property(get = get_ACInfo)) ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* ACInfo;
 
-  __declspec(property(get = get_SignatureAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* SignatureAlgorithm;
+  __declspec(property(get = get_SignatureAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* SignatureAlgorithm;
 
-  __declspec(property(get = get_SignatureValue))::Org::BouncyCastle::Asn1::DerBitString* SignatureValue;
+  __declspec(property(get = get_SignatureValue)) ::Org::BouncyCastle::Asn1::DerBitString* SignatureValue;
 
   /// @brief Field acinfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_acinfo, put = __cordl_internal_set_acinfo))::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* acinfo;
+  __declspec(property(get = __cordl_internal_get_acinfo, put = __cordl_internal_set_acinfo)) ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* acinfo;
 
   /// @brief Field signatureAlgorithm, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_signatureAlgorithm, put = __cordl_internal_set_signatureAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm;
+  __declspec(property(get = __cordl_internal_get_signatureAlgorithm, put = __cordl_internal_set_signatureAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm;
 
   /// @brief Field signatureValue, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_signatureValue, put = __cordl_internal_set_signatureValue))::Org::BouncyCastle::Asn1::DerBitString* signatureValue;
+  __declspec(property(get = __cordl_internal_get_signatureValue, put = __cordl_internal_set_signatureValue)) ::Org::BouncyCastle::Asn1::DerBitString* signatureValue;
 
-  /// @brief Method GetInstance, addr 0x12f76b8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24c51e8, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetSignatureOctets, addr 0x12f7ab4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureOctets, addr 0x24c55d0, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureOctets();
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* acinfo,
@@ -66,7 +66,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x12f7ad4, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24c55f0, size 0x118, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo*& __cordl_internal_get_acinfo();
@@ -87,20 +87,20 @@ public:
 
   constexpr void __cordl_internal_set_signatureValue(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method .ctor, addr 0x12f78d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c5400, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* acinfo, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm,
                     ::Org::BouncyCastle::Asn1::DerBitString* signatureValue);
 
-  /// @brief Method .ctor, addr 0x12f775c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c528c, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_ACInfo, addr 0x12f7a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ACInfo, addr 0x24c55b8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* get_ACInfo();
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x12f7aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgorithm, addr 0x24c55c0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
 
-  /// @brief Method get_SignatureValue, addr 0x12f7aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureValue, addr 0x24c55c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_SignatureValue();
 
 protected:
@@ -125,6 +125,9 @@ public:
 
   /// @brief Field signatureValue, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerBitString* ___signatureValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 341 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

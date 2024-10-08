@@ -17,7 +17,7 @@ class TMP_ColorGradient;
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_ColorGradient);
 // Type: TMPro::TMP_ColorGradient
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::TMP_ColorGradient*
@@ -25,22 +25,22 @@ class CORDL_TYPE TMP_ColorGradient : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field bottomLeft, offset 0x3c, size 0x10
-  __declspec(property(get = __cordl_internal_get_bottomLeft, put = __cordl_internal_set_bottomLeft))::UnityEngine::Color bottomLeft;
+  __declspec(property(get = __cordl_internal_get_bottomLeft, put = __cordl_internal_set_bottomLeft)) ::UnityEngine::Color bottomLeft;
 
   /// @brief Field bottomRight, offset 0x4c, size 0x10
-  __declspec(property(get = __cordl_internal_get_bottomRight, put = __cordl_internal_set_bottomRight))::UnityEngine::Color bottomRight;
+  __declspec(property(get = __cordl_internal_get_bottomRight, put = __cordl_internal_set_bottomRight)) ::UnityEngine::Color bottomRight;
 
   /// @brief Field colorMode, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_colorMode, put = __cordl_internal_set_colorMode))::TMPro::ColorMode colorMode;
+  __declspec(property(get = __cordl_internal_get_colorMode, put = __cordl_internal_set_colorMode)) ::TMPro::ColorMode colorMode;
 
   /// @brief Field k_DefaultColor, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_k_DefaultColor, put = setStaticF_k_DefaultColor))::UnityEngine::Color k_DefaultColor;
+  static __declspec(property(get = getStaticF_k_DefaultColor, put = setStaticF_k_DefaultColor)) ::UnityEngine::Color k_DefaultColor;
 
   /// @brief Field topLeft, offset 0x1c, size 0x10
-  __declspec(property(get = __cordl_internal_get_topLeft, put = __cordl_internal_set_topLeft))::UnityEngine::Color topLeft;
+  __declspec(property(get = __cordl_internal_get_topLeft, put = __cordl_internal_set_topLeft)) ::UnityEngine::Color topLeft;
 
   /// @brief Field topRight, offset 0x2c, size 0x10
-  __declspec(property(get = __cordl_internal_get_topRight, put = __cordl_internal_set_topRight))::UnityEngine::Color topRight;
+  __declspec(property(get = __cordl_internal_get_topRight, put = __cordl_internal_set_topRight)) ::UnityEngine::Color topRight;
 
   static inline ::TMPro::TMP_ColorGradient* New_ctor();
 
@@ -78,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set_topRight(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x336e43c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474f36c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x336e4d8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474f408, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
-  /// @brief Method .ctor, addr 0x336e544, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474f474, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
   static inline ::UnityEngine::Color getStaticF_k_DefaultColor();
@@ -119,6 +119,9 @@ public:
 
   /// @brief Field bottomRight, offset: 0x4c, size: 0x10, def value: None
   ::UnityEngine::Color ___bottomRight;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14410 };
 
   /// @brief Field k_DefaultColorMode value: static_cast<int32_t>(0x3)
   static ::TMPro::ColorMode const k_DefaultColorMode;

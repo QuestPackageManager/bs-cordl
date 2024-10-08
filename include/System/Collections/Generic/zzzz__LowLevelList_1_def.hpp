@@ -20,7 +20,7 @@ template <typename T> class LowLevelList_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::LowLevelList_1);
 // Type: System.Collections.Generic::LowLevelList`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -36,7 +36,7 @@ public:
   __declspec(property(get = get_Item, put = set_Item)) T Item[];
 
   /// @brief Field _items, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::ArrayW<T, ::Array<T>*> _items;
+  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items)) ::ArrayW<T, ::Array<T>*> _items;
 
   /// @brief Field _size, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__size, put = __cordl_internal_set__size)) int32_t _size;
@@ -45,7 +45,7 @@ public:
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field s_emptyArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_emptyArray, put = setStaticF_s_emptyArray))::ArrayW<T, ::Array<T>*> s_emptyArray;
+  static __declspec(property(get = getStaticF_s_emptyArray, put = setStaticF_s_emptyArray)) ::ArrayW<T, ::Array<T>*> s_emptyArray;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Add(T item);
@@ -155,6 +155,9 @@ public:
 
   /// @brief Field _version, offset: 0x1c, size: 0x4, def value: None
   int32_t ____version;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3874 };
 
   /// @brief Field _defaultCapacity offset 0xffffffff size 0x4
   static constexpr int32_t _defaultCapacity{ static_cast<int32_t>(0x4) };

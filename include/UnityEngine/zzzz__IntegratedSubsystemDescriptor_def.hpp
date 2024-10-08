@@ -21,17 +21,17 @@ class IntegratedSubsystemDescriptor;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::IntegratedSubsystemDescriptor);
 // Type: UnityEngine::IntegratedSubsystemDescriptor
-// SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::IntegratedSubsystemDescriptor*
 class CORDL_TYPE IntegratedSubsystemDescriptor : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_id))::StringW id;
+  __declspec(property(get = get_id)) ::StringW id;
 
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
   /// @brief Convert operator to "::UnityEngine::ISubsystemDescriptor"
   constexpr operator ::UnityEngine::ISubsystemDescriptor*() noexcept;
@@ -41,7 +41,7 @@ public:
 
   static inline ::UnityEngine::IntegratedSubsystemDescriptor* New_ctor();
 
-  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x34aca60, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x489fa34, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x34aca6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489fa40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x34ac9e8, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x489f9bc, size 0x3c, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
   /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18607 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

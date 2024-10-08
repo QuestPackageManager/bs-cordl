@@ -24,7 +24,7 @@ class PlatformInstallerSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlatformInstallerSO);
 // Type: ::PlatformInstallerSO
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlatformInstallerSO*
@@ -32,24 +32,25 @@ class CORDL_TYPE PlatformInstallerSO : public ::Zenject::ScriptableObjectInstall
 public:
   // Declarations
   /// @brief Field _achievementIdsModel, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__achievementIdsModel, put = __cordl_internal_set__achievementIdsModel))::UnityW<::GlobalNamespace::AchievementIdsModelSO> _achievementIdsModel;
+  __declspec(property(get = __cordl_internal_get__achievementIdsModel, put = __cordl_internal_set__achievementIdsModel)) ::UnityW<::GlobalNamespace::AchievementIdsModelSO> _achievementIdsModel;
 
   /// @brief Field _mockPlatformAdditionalContentModelInitialData, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__mockPlatformAdditionalContentModelInitialData, put = __cordl_internal_set__mockPlatformAdditionalContentModelInitialData))::UnityW<
-      ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> _mockPlatformAdditionalContentModelInitialData;
+  __declspec(property(get = __cordl_internal_get__mockPlatformAdditionalContentModelInitialData,
+                      put = __cordl_internal_set__mockPlatformAdditionalContentModelInitialData)) ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>
+      _mockPlatformAdditionalContentModelInitialData;
 
   /// @brief Field _ps4AchievementIdsModel, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__ps4AchievementIdsModel,
-                      put = __cordl_internal_set__ps4AchievementIdsModel))::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> _ps4AchievementIdsModel;
+  __declspec(property(get = __cordl_internal_get__ps4AchievementIdsModel, put = __cordl_internal_set__ps4AchievementIdsModel)) ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO>
+      _ps4AchievementIdsModel;
 
   /// @brief Field _ps5AchievementIdsModel, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__ps5AchievementIdsModel,
-                      put = __cordl_internal_set__ps5AchievementIdsModel))::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> _ps5AchievementIdsModel;
+  __declspec(property(get = __cordl_internal_get__ps5AchievementIdsModel, put = __cordl_internal_set__ps5AchievementIdsModel)) ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO>
+      _ps5AchievementIdsModel;
 
   /// @brief Field _setupData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__setupData, put = __cordl_internal_set__setupData))::GlobalNamespace::AppInitSetupData* _setupData;
+  __declspec(property(get = __cordl_internal_get__setupData, put = __cordl_internal_set__setupData)) ::GlobalNamespace::AppInitSetupData* _setupData;
 
-  /// @brief Method InstallBindings, addr 0x262eeec, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26d9a18, size 0x90, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PlatformInstallerSO* New_ctor();
@@ -84,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData* value);
 
-  /// @brief Method .ctor, addr 0x262ef7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d9aa8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,6 +116,9 @@ public:
 
   /// @brief Field _mockPlatformAdditionalContentModelInitialData, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> ____mockPlatformAdditionalContentModelInitialData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17869 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

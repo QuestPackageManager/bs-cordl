@@ -18,14 +18,14 @@ class IntrospectionExtensions;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::IntrospectionExtensions);
 // Type: System.Reflection::IntrospectionExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::IntrospectionExtensions*
 class CORDL_TYPE IntrospectionExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTypeInfo, addr 0x28951dc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetTypeInfo, addr 0x3cad7c4, size 0x160, virtual false, abstract: false, final false
   static inline ::System::Reflection::TypeInfo* GetTypeInfo(::System::Type* type);
 
 protected:
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IntrospectionExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IntrospectionExtensions(IntrospectionExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3473 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

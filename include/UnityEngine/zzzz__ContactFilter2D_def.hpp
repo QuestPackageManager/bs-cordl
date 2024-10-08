@@ -19,26 +19,26 @@ struct ContactFilter2D;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ContactFilter2D);
 // Type: UnityEngine::ContactFilter2D
-// SizeInfo { instance_size: 28, native_size: 44, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 28, native_size: 44, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::ContactFilter2D
 struct CORDL_TYPE ContactFilter2D {
 public:
   // Declarations
-  /// @brief Method CheckConsistency, addr 0x349531c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CheckConsistency, addr 0x4879ca8, size 0x3c, virtual false, abstract: false, final false
   inline void CheckConsistency();
 
-  /// @brief Method CheckConsistency_Injected, addr 0x3495358, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CheckConsistency_Injected, addr 0x4879ce4, size 0x3c, virtual false, abstract: false, final false
   static inline void CheckConsistency_Injected(ByRef<::UnityEngine::ContactFilter2D> _unity_self);
 
-  /// @brief Method CreateLegacyFilter, addr 0x3493d68, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CreateLegacyFilter, addr 0x48788f4, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::ContactFilter2D CreateLegacyFilter(int32_t layerMask, float_t minDepth, float_t maxDepth);
 
-  /// @brief Method SetDepth, addr 0x34953a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetDepth, addr 0x4879d30, size 0x48, virtual false, abstract: false, final false
   inline void SetDepth(float_t minDepth, float_t maxDepth);
 
-  /// @brief Method SetLayerMask, addr 0x3495394, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetLayerMask, addr 0x4879d20, size 0x10, virtual false, abstract: false, final false
   inline void SetLayerMask(::UnityEngine::LayerMask layerMask);
 
   // Ctor Parameters []
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field maxNormalAngle, offset: 0x18, size: 0x4, def value: None
   float_t maxNormalAngle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18529 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

@@ -19,22 +19,22 @@ class SignalTickPriorityCopyBinder;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SignalTickPriorityCopyBinder);
 // Type: Zenject::SignalTickPriorityCopyBinder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::SignalTickPriorityCopyBinder*
 class CORDL_TYPE SignalTickPriorityCopyBinder : public ::Zenject::SignalCopyBinder {
 public:
   // Declarations
-  __declspec(property(get = get_SignalBindInfo, put = set_SignalBindInfo))::Zenject::SignalDeclarationBindInfo* SignalBindInfo;
+  __declspec(property(get = get_SignalBindInfo, put = set_SignalBindInfo)) ::Zenject::SignalDeclarationBindInfo* SignalBindInfo;
 
   /// @brief Field <SignalBindInfo>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__SignalBindInfo_k__BackingField,
-                      put = __cordl_internal_set__SignalBindInfo_k__BackingField))::Zenject::SignalDeclarationBindInfo* _SignalBindInfo_k__BackingField;
+                      put = __cordl_internal_set__SignalBindInfo_k__BackingField)) ::Zenject::SignalDeclarationBindInfo* _SignalBindInfo_k__BackingField;
 
   static inline ::Zenject::SignalTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method WithTickPriority, addr 0x365983c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WithTickPriority, addr 0x4a7ff58, size 0x24, virtual false, abstract: false, final false
   inline ::Zenject::SignalCopyBinder* WithTickPriority(int32_t priority);
 
   constexpr ::Zenject::SignalDeclarationBindInfo*& __cordl_internal_get__SignalBindInfo_k__BackingField();
@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__SignalBindInfo_k__BackingField(::Zenject::SignalDeclarationBindInfo* value);
 
-  /// @brief Method .ctor, addr 0x36592d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a7f9f8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method get_SignalBindInfo, addr 0x365982c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignalBindInfo, addr 0x4a7ff48, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SignalDeclarationBindInfo* get_SignalBindInfo();
 
-  /// @brief Method set_SignalBindInfo, addr 0x3659834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SignalBindInfo, addr 0x4a7ff50, size 0x8, virtual false, abstract: false, final false
   inline void set_SignalBindInfo(::Zenject::SignalDeclarationBindInfo* value);
 
 protected:
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field <SignalBindInfo>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::Zenject::SignalDeclarationBindInfo* ____SignalBindInfo_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11956 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

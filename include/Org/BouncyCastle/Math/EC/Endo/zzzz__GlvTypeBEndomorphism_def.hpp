@@ -31,7 +31,7 @@ class GlvTypeBEndomorphism;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism);
 // Type: Org.BouncyCastle.Math.EC.Endo::GlvTypeBEndomorphism
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Endo {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Math.EC.Endo::GlvTypeBEndomorphism*
@@ -40,13 +40,13 @@ public:
   // Declarations
   __declspec(property(get = get_HasEfficientPointMap)) bool HasEfficientPointMap;
 
-  __declspec(property(get = get_PointMap))::Org::BouncyCastle::Math::EC::ECPointMap* PointMap;
+  __declspec(property(get = get_PointMap)) ::Org::BouncyCastle::Math::EC::ECPointMap* PointMap;
 
   /// @brief Field m_parameters, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_parameters, put = __cordl_internal_set_m_parameters))::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* m_parameters;
+  __declspec(property(get = __cordl_internal_get_m_parameters, put = __cordl_internal_set_m_parameters)) ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* m_parameters;
 
   /// @brief Field m_pointMap, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_pointMap, put = __cordl_internal_set_m_pointMap))::Org::BouncyCastle::Math::EC::ECPointMap* m_pointMap;
+  __declspec(property(get = __cordl_internal_get_m_pointMap, put = __cordl_internal_set_m_pointMap)) ::Org::BouncyCastle::Math::EC::ECPointMap* m_pointMap;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism"
   constexpr operator ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*() noexcept;
@@ -54,7 +54,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism"
   constexpr operator ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*() noexcept;
 
-  /// @brief Method DecomposeScalar, addr 0x12a898c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method DecomposeScalar, addr 0x247706c, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> DecomposeScalar(::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* parameters);
@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set_m_pointMap(::Org::BouncyCastle::Math::EC::ECPointMap* value);
 
-  /// @brief Method .ctor, addr 0x12a88d4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2476fb8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* parameters);
 
-  /// @brief Method get_HasEfficientPointMap, addr 0x12a8a10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasEfficientPointMap, addr 0x24770f0, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasEfficientPointMap();
 
-  /// @brief Method get_PointMap, addr 0x12a8a08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PointMap, addr 0x24770e8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism"
@@ -105,6 +105,9 @@ public:
 
   /// @brief Field m_pointMap, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::EC::ECPointMap* ___m_pointMap;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1523 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

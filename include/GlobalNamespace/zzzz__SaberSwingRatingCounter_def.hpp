@@ -42,7 +42,7 @@ class SaberSwingRatingCounter;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SaberSwingRatingCounter);
 // Type: ::SaberSwingRatingCounter
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SaberSwingRatingCounter*
@@ -50,57 +50,57 @@ class CORDL_TYPE SaberSwingRatingCounter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _afterCutBottomPos, offset 0x98, size 0xc
-  __declspec(property(get = __cordl_internal_get__afterCutBottomPos, put = __cordl_internal_set__afterCutBottomPos))::UnityEngine::Vector3 _afterCutBottomPos;
+  __declspec(property(get = __cordl_internal_get__afterCutBottomPos, put = __cordl_internal_set__afterCutBottomPos)) ::UnityEngine::Vector3 _afterCutBottomPos;
 
   /// @brief Field _afterCutRating, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__afterCutRating, put = __cordl_internal_set__afterCutRating)) float_t _afterCutRating;
 
   /// @brief Field _afterCutTopPos, offset 0x8c, size 0xc
-  __declspec(property(get = __cordl_internal_get__afterCutTopPos, put = __cordl_internal_set__afterCutTopPos))::UnityEngine::Vector3 _afterCutTopPos;
+  __declspec(property(get = __cordl_internal_get__afterCutTopPos, put = __cordl_internal_set__afterCutTopPos)) ::UnityEngine::Vector3 _afterCutTopPos;
 
   /// @brief Field _beforeCutBottomPos, offset 0x80, size 0xc
-  __declspec(property(get = __cordl_internal_get__beforeCutBottomPos, put = __cordl_internal_set__beforeCutBottomPos))::UnityEngine::Vector3 _beforeCutBottomPos;
+  __declspec(property(get = __cordl_internal_get__beforeCutBottomPos, put = __cordl_internal_set__beforeCutBottomPos)) ::UnityEngine::Vector3 _beforeCutBottomPos;
 
   /// @brief Field _beforeCutRating, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__beforeCutRating, put = __cordl_internal_set__beforeCutRating)) float_t _beforeCutRating;
 
   /// @brief Field _beforeCutTopPos, offset 0x74, size 0xc
-  __declspec(property(get = __cordl_internal_get__beforeCutTopPos, put = __cordl_internal_set__beforeCutTopPos))::UnityEngine::Vector3 _beforeCutTopPos;
+  __declspec(property(get = __cordl_internal_get__beforeCutTopPos, put = __cordl_internal_set__beforeCutTopPos)) ::UnityEngine::Vector3 _beforeCutTopPos;
 
   /// @brief Field _cutBottomPos, offset 0xbc, size 0xc
-  __declspec(property(get = __cordl_internal_get__cutBottomPos, put = __cordl_internal_set__cutBottomPos))::UnityEngine::Vector3 _cutBottomPos;
+  __declspec(property(get = __cordl_internal_get__cutBottomPos, put = __cordl_internal_set__cutBottomPos)) ::UnityEngine::Vector3 _cutBottomPos;
 
   /// @brief Field _cutPlaneNormal, offset 0x18, size 0xc
-  __declspec(property(get = __cordl_internal_get__cutPlaneNormal, put = __cordl_internal_set__cutPlaneNormal))::UnityEngine::Vector3 _cutPlaneNormal;
+  __declspec(property(get = __cordl_internal_get__cutPlaneNormal, put = __cordl_internal_set__cutPlaneNormal)) ::UnityEngine::Vector3 _cutPlaneNormal;
 
   /// @brief Field _cutTime, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__cutTime, put = __cordl_internal_set__cutTime)) float_t _cutTime;
 
   /// @brief Field _cutTopPos, offset 0xb0, size 0xc
-  __declspec(property(get = __cordl_internal_get__cutTopPos, put = __cordl_internal_set__cutTopPos))::UnityEngine::Vector3 _cutTopPos;
+  __declspec(property(get = __cordl_internal_get__cutTopPos, put = __cordl_internal_set__cutTopPos)) ::UnityEngine::Vector3 _cutTopPos;
 
   /// @brief Field _didChangeReceivers, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__didChangeReceivers,
-                      put = __cordl_internal_set__didChangeReceivers))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>* _didChangeReceivers;
+                      put = __cordl_internal_set__didChangeReceivers)) ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>* _didChangeReceivers;
 
   /// @brief Field _didFinishReceivers, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__didFinishReceivers,
-                      put = __cordl_internal_set__didFinishReceivers))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>* _didFinishReceivers;
+                      put = __cordl_internal_set__didFinishReceivers)) ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>* _didFinishReceivers;
 
   /// @brief Field _finished, offset 0xc8, size 0x1
   __declspec(property(get = __cordl_internal_get__finished, put = __cordl_internal_set__finished)) bool _finished;
 
   /// @brief Field _newPlaneNormal, offset 0xa4, size 0xc
-  __declspec(property(get = __cordl_internal_get__newPlaneNormal, put = __cordl_internal_set__newPlaneNormal))::UnityEngine::Vector3 _newPlaneNormal;
+  __declspec(property(get = __cordl_internal_get__newPlaneNormal, put = __cordl_internal_set__newPlaneNormal)) ::UnityEngine::Vector3 _newPlaneNormal;
 
   /// @brief Field _noteForward, offset 0x44, size 0xc
-  __declspec(property(get = __cordl_internal_get__noteForward, put = __cordl_internal_set__noteForward))::UnityEngine::Vector3 _noteForward;
+  __declspec(property(get = __cordl_internal_get__noteForward, put = __cordl_internal_set__noteForward)) ::UnityEngine::Vector3 _noteForward;
 
   /// @brief Field _notePlane, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get__notePlane, put = __cordl_internal_set__notePlane))::UnityEngine::Plane _notePlane;
+  __declspec(property(get = __cordl_internal_get__notePlane, put = __cordl_internal_set__notePlane)) ::UnityEngine::Plane _notePlane;
 
   /// @brief Field _notePlaneCenter, offset 0x68, size 0xc
-  __declspec(property(get = __cordl_internal_get__notePlaneCenter, put = __cordl_internal_set__notePlaneCenter))::UnityEngine::Vector3 _notePlaneCenter;
+  __declspec(property(get = __cordl_internal_get__notePlaneCenter, put = __cordl_internal_set__notePlaneCenter)) ::UnityEngine::Vector3 _notePlaneCenter;
 
   /// @brief Field _notePlaneWasCut, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__notePlaneWasCut, put = __cordl_internal_set__notePlaneWasCut)) bool _notePlaneWasCut;
@@ -112,7 +112,7 @@ public:
   __declspec(property(get = __cordl_internal_get__rateBeforeCut, put = __cordl_internal_set__rateBeforeCut)) bool _rateBeforeCut;
 
   /// @brief Field _saberMovementData, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberMovementData, put = __cordl_internal_set__saberMovementData))::GlobalNamespace::ISaberMovementData* _saberMovementData;
+  __declspec(property(get = __cordl_internal_get__saberMovementData, put = __cordl_internal_set__saberMovementData)) ::GlobalNamespace::ISaberMovementData* _saberMovementData;
 
   __declspec(property(get = get_afterCutRating)) float_t afterCutRating;
 
@@ -124,30 +124,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounter"
   constexpr operator ::GlobalNamespace::ISaberSwingRatingCounter*() noexcept;
 
-  /// @brief Method DrawGizmos, addr 0x14afd08, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method DrawGizmos, addr 0x2671384, size 0x2b4, virtual false, abstract: false, final false
   inline void DrawGizmos();
 
-  /// @brief Method Finish, addr 0x14afb5c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x26711d8, size 0x1ac, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method Init, addr 0x14af078, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2670460, size 0x418, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ISaberMovementData* saberMovementData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, bool rateBeforeCut, bool rateAfterCut);
 
   static inline ::GlobalNamespace::SaberSwingRatingCounter* New_ctor();
 
-  /// @brief Method ProcessNewData, addr 0x14af3dc, size 0x780, virtual true, abstract: false, final true
+  /// @brief Method ProcessNewData, addr 0x2670878, size 0x960, virtual true, abstract: false, final true
   inline void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
 
-  /// @brief Method RegisterDidChangeReceiver, addr 0x14aef18, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidChangeReceiver, addr 0x2670300, size 0x58, virtual true, abstract: false, final true
   inline void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method RegisterDidFinishReceiver, addr 0x14aef70, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidFinishReceiver, addr 0x2670358, size 0x58, virtual true, abstract: false, final true
   inline void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  /// @brief Method UnregisterDidChangeReceiver, addr 0x14aefc8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidChangeReceiver, addr 0x26703b0, size 0x58, virtual true, abstract: false, final true
   inline void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method UnregisterDidFinishReceiver, addr 0x14af020, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidFinishReceiver, addr 0x2670408, size 0x58, virtual true, abstract: false, final true
   inline void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__afterCutBottomPos() const;
@@ -278,13 +278,13 @@ public:
 
   constexpr void __cordl_internal_set__saberMovementData(::GlobalNamespace::ISaberMovementData* value);
 
-  /// @brief Method .ctor, addr 0x14b008c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2671638, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_afterCutRating, addr 0x14aef10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_afterCutRating, addr 0x26702f8, size 0x8, virtual true, abstract: false, final true
   inline float_t get_afterCutRating();
 
-  /// @brief Method get_beforeCutRating, addr 0x14aef08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beforeCutRating, addr 0x26702f0, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beforeCutRating();
 
   /// @brief Convert to "::GlobalNamespace::ISaberMovementDataProcessor"
@@ -369,6 +369,9 @@ public:
 
   /// @brief Field _finished, offset: 0xc8, size: 0x1, def value: None
   bool ____finished;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

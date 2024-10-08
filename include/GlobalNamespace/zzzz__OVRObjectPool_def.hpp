@@ -81,7 +81,7 @@ MARK_GEN_VAL_T(::GlobalNamespace::__OVRObjectPool__ListScope_1);
 MARK_GEN_VAL_T(::GlobalNamespace::__OVRObjectPool__QueueScope_1);
 MARK_GEN_VAL_T(::GlobalNamespace::__OVRObjectPool__StackScope_1);
 // Type: ::Storage`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -91,7 +91,7 @@ class CORDL_TYPE __OVRObjectPool__Storage_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field HashSet, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HashSet, put = setStaticF_HashSet))::System::Collections::Generic::HashSet_1<T>* HashSet;
+  static __declspec(property(get = getStaticF_HashSet, put = setStaticF_HashSet)) ::System::Collections::Generic::HashSet_1<T>* HashSet;
 
   static inline ::System::Collections::Generic::HashSet_1<T>* getStaticF_HashSet();
 
@@ -111,12 +111,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRObjectPool__Storage_1(__OVRObjectPool__Storage_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8426 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::ListScope`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -147,6 +150,9 @@ public:
   /// @brief Field _list, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* _list;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8427 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -155,7 +161,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::DictionaryScope`2
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
@@ -186,6 +192,9 @@ public:
   /// @brief Field _dictionary, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8428 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -194,7 +203,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::HashSetScope`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -225,6 +234,9 @@ public:
   /// @brief Field _set, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<T>* _set;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8429 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -233,7 +245,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::StackScope`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -264,6 +276,9 @@ public:
   /// @brief Field _stack, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<T>* _stack;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8430 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -272,7 +287,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::QueueScope`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -303,6 +318,9 @@ public:
   /// @brief Field _queue, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::Queue_1<T>* _queue;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8431 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -311,7 +329,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::ItemScope`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -342,6 +360,9 @@ public:
   /// @brief Field _item, offset: 0x0, size: 0x8, def value: None
   T _item;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8432 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -350,7 +371,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::OVRObjectPool
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRObjectPool*
@@ -414,6 +435,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRObjectPool", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRObjectPool(OVRObjectPool const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

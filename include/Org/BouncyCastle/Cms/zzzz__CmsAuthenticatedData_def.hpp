@@ -33,50 +33,50 @@ class CmsAuthenticatedData;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAuthenticatedData);
 // Type: Org.BouncyCastle.Cms::CmsAuthenticatedData
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::CmsAuthenticatedData*
 class CORDL_TYPE CmsAuthenticatedData : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_ContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* ContentInfo;
+  __declspec(property(get = get_ContentInfo)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* ContentInfo;
 
-  __declspec(property(get = get_MacAlgOid))::StringW MacAlgOid;
+  __declspec(property(get = get_MacAlgOid)) ::StringW MacAlgOid;
 
-  __declspec(property(get = get_MacAlgorithmID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* MacAlgorithmID;
+  __declspec(property(get = get_MacAlgorithmID)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* MacAlgorithmID;
 
   /// @brief Field authAttrs, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_authAttrs, put = __cordl_internal_set_authAttrs))::Org::BouncyCastle::Asn1::Asn1Set* authAttrs;
+  __declspec(property(get = __cordl_internal_get_authAttrs, put = __cordl_internal_set_authAttrs)) ::Org::BouncyCastle::Asn1::Asn1Set* authAttrs;
 
   /// @brief Field contentInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
+  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
 
   /// @brief Field mac, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::ArrayW<uint8_t, ::Array<uint8_t>*> mac;
+  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mac;
 
   /// @brief Field macAlg, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_macAlg, put = __cordl_internal_set_macAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlg;
+  __declspec(property(get = __cordl_internal_get_macAlg, put = __cordl_internal_set_macAlg)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlg;
 
   /// @brief Field recipientInfoStore, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_recipientInfoStore, put = __cordl_internal_set_recipientInfoStore))::Org::BouncyCastle::Cms::RecipientInformationStore* recipientInfoStore;
+  __declspec(property(get = __cordl_internal_get_recipientInfoStore, put = __cordl_internal_set_recipientInfoStore)) ::Org::BouncyCastle::Cms::RecipientInformationStore* recipientInfoStore;
 
   /// @brief Field unauthAttrs, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_unauthAttrs, put = __cordl_internal_set_unauthAttrs))::Org::BouncyCastle::Asn1::Asn1Set* unauthAttrs;
+  __declspec(property(get = __cordl_internal_get_unauthAttrs, put = __cordl_internal_set_unauthAttrs)) ::Org::BouncyCastle::Asn1::Asn1Set* unauthAttrs;
 
-  /// @brief Method GetAuthAttrs, addr 0x144b930, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetAuthAttrs, addr 0x260eb38, size 0x6c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAuthAttrs();
 
-  /// @brief Method GetEncoded, addr 0x144ba18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x260ec10, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetMac, addr 0x144b890, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetMac, addr 0x260ea98, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
 
-  /// @brief Method GetRecipientInfos, addr 0x144b920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0x260eb28, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
 
-  /// @brief Method GetUnauthAttrs, addr 0x144b9a4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetUnauthAttrs, addr 0x260eba4, size 0x6c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnauthAttrs();
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authData);
@@ -121,22 +121,22 @@ public:
 
   constexpr void __cordl_internal_set_unauthAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method .ctor, addr 0x144b6e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260e8e8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authData);
 
-  /// @brief Method .ctor, addr 0x144b86c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260ea74, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* authData);
 
-  /// @brief Method .ctor, addr 0x144b704, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260e90c, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method get_ContentInfo, addr 0x144b928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x260eb30, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo();
 
-  /// @brief Method get_MacAlgOid, addr 0x144b8f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_MacAlgOid, addr 0x260eafc, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_MacAlgOid();
 
-  /// @brief Method get_MacAlgorithmID, addr 0x144b8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MacAlgorithmID, addr 0x260eaf4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_MacAlgorithmID();
 
 protected:
@@ -170,6 +170,9 @@ public:
 
   /// @brief Field mac, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mac;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 616 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

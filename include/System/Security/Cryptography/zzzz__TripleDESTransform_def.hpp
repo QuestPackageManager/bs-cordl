@@ -20,7 +20,7 @@ class TripleDESTransform;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::TripleDESTransform);
 // Type: System.Security.Cryptography::TripleDESTransform
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::TripleDESTransform*
@@ -28,27 +28,27 @@ class CORDL_TYPE TripleDESTransform : public ::Mono::Security::Cryptography::Sym
 public:
   // Declarations
   /// @brief Field D1, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_D1, put = __cordl_internal_set_D1))::System::Security::Cryptography::DESTransform* D1;
+  __declspec(property(get = __cordl_internal_get_D1, put = __cordl_internal_set_D1)) ::System::Security::Cryptography::DESTransform* D1;
 
   /// @brief Field D2, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_D2, put = __cordl_internal_set_D2))::System::Security::Cryptography::DESTransform* D2;
+  __declspec(property(get = __cordl_internal_get_D2, put = __cordl_internal_set_D2)) ::System::Security::Cryptography::DESTransform* D2;
 
   /// @brief Field D3, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_D3, put = __cordl_internal_set_D3))::System::Security::Cryptography::DESTransform* D3;
+  __declspec(property(get = __cordl_internal_get_D3, put = __cordl_internal_set_D3)) ::System::Security::Cryptography::DESTransform* D3;
 
   /// @brief Field E1, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_E1, put = __cordl_internal_set_E1))::System::Security::Cryptography::DESTransform* E1;
+  __declspec(property(get = __cordl_internal_get_E1, put = __cordl_internal_set_E1)) ::System::Security::Cryptography::DESTransform* E1;
 
   /// @brief Field E2, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_E2, put = __cordl_internal_set_E2))::System::Security::Cryptography::DESTransform* E2;
+  __declspec(property(get = __cordl_internal_get_E2, put = __cordl_internal_set_E2)) ::System::Security::Cryptography::DESTransform* E2;
 
   /// @brief Field E3, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_E3, put = __cordl_internal_set_E3))::System::Security::Cryptography::DESTransform* E3;
+  __declspec(property(get = __cordl_internal_get_E3, put = __cordl_internal_set_E3)) ::System::Security::Cryptography::DESTransform* E3;
 
-  /// @brief Method ECB, addr 0x2822714, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ECB, addr 0x3c4110c, size 0x13c, virtual true, abstract: false, final false
   inline void ECB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method GetStrongKey, addr 0x282266c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetStrongKey, addr 0x3c41064, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetStrongKey();
 
   static inline ::System::Security::Cryptography::TripleDESTransform* New_ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_E3(::System::Security::Cryptography::DESTransform* value);
 
-  /// @brief Method .ctor, addr 0x2822330, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c40d48, size 0x31c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
 protected:
@@ -124,6 +124,9 @@ public:
 
   /// @brief Field D3, offset: 0x80, size: 0x8, def value: None
   ::System::Security::Cryptography::DESTransform* ___D3;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2986 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

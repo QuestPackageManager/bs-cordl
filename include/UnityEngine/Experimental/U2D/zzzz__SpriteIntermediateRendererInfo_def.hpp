@@ -29,7 +29,7 @@ struct SpriteIntermediateRendererInfo;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo);
 // Type: UnityEngine.Experimental.U2D::SpriteIntermediateRendererInfo
-// SizeInfo { instance_size: 168, native_size: 168, calculated_instance_size: 168, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: 168, calculated_instance_size: 168, calculated_native_size: 180, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::U2D {
 // Is value type: true
 // CS Name: ::UnityEngine.Experimental.U2D::SpriteIntermediateRendererInfo
@@ -95,6 +95,9 @@ public:
 
   /// @brief Field ShaderChannelMask, offset: 0xa0, size: 0x4, def value: None
   int32_t ShaderChannelMask;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11250 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };

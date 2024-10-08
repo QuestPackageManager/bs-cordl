@@ -34,7 +34,7 @@ MARK_VAL_T(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType);
 MARK_REF_PTR_T(::GlobalNamespace::MenuEnvironmentManager);
 MARK_REF_PTR_T(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects);
 // Type: ::MenuEnvironmentType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::MenuEnvironmentManager::MenuEnvironmentType
@@ -79,6 +79,9 @@ public:
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType const None;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4031 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -91,7 +94,7 @@ static_assert(offsetof(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironm
 
 } // namespace GlobalNamespace
 // Type: ::MenuEnvironmentObjects
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MenuEnvironmentManager::MenuEnvironmentObjects*
@@ -100,14 +103,14 @@ public:
   // Declarations
   /// @brief Field _menuEnvironmentType, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__menuEnvironmentType,
-                      put = __cordl_internal_set__menuEnvironmentType))::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType _menuEnvironmentType;
+                      put = __cordl_internal_set__menuEnvironmentType)) ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType _menuEnvironmentType;
 
   /// @brief Field _wrapper, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__wrapper, put = __cordl_internal_set__wrapper))::UnityW<::UnityEngine::GameObject> _wrapper;
+  __declspec(property(get = __cordl_internal_get__wrapper, put = __cordl_internal_set__wrapper)) ::UnityW<::UnityEngine::GameObject> _wrapper;
 
-  __declspec(property(get = get_menuEnvironmentType))::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType menuEnvironmentType;
+  __declspec(property(get = get_menuEnvironmentType)) ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType menuEnvironmentType;
 
-  __declspec(property(get = get_wrapper))::UnityW<::UnityEngine::GameObject> wrapper;
+  __declspec(property(get = get_wrapper)) ::UnityW<::UnityEngine::GameObject> wrapper;
 
   static inline ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects* New_ctor();
 
@@ -123,13 +126,13 @@ public:
 
   constexpr void __cordl_internal_set__wrapper(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x2639148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a6b85c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_menuEnvironmentType, addr 0x2639138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menuEnvironmentType, addr 0x3a6b84c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType get_menuEnvironmentType();
 
-  /// @brief Method get_wrapper, addr 0x2639140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wrapper, addr 0x3a6b854, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_wrapper();
 
 protected:
@@ -152,6 +155,9 @@ public:
   /// @brief Field _wrapper, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____wrapper;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4032 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -163,7 +169,7 @@ static_assert(offsetof(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironm
 
 } // namespace GlobalNamespace
 // Type: ::MenuEnvironmentManager
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MenuEnvironmentManager*
@@ -174,20 +180,22 @@ public:
 
   using MenuEnvironmentType = ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType;
 
-  /// @brief Field _data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::ArrayW<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*,
-                                                                                                   ::Array<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*>*> _data;
+  /// @brief Field _data, offset 0x20, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__data,
+      put = __cordl_internal_set__data)) ::ArrayW<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*, ::Array<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*>*>
+      _data;
 
-  /// @brief Field _prevMenuEnvironmentType, offset 0x20, size 0x4
+  /// @brief Field _prevMenuEnvironmentType, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__prevMenuEnvironmentType,
-                      put = __cordl_internal_set__prevMenuEnvironmentType))::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType _prevMenuEnvironmentType;
+                      put = __cordl_internal_set__prevMenuEnvironmentType)) ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType _prevMenuEnvironmentType;
 
   static inline ::GlobalNamespace::MenuEnvironmentManager* New_ctor();
 
-  /// @brief Method ShowEnvironmentType, addr 0x2638fb0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ShowEnvironmentType, addr 0x3a6b6bc, size 0x188, virtual false, abstract: false, final false
   inline void ShowEnvironmentType(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType menuEnvironmentType);
 
-  /// @brief Method Start, addr 0x2638fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3a6b6b4, size 0x8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*, ::Array<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*>*> const&
@@ -205,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set__prevMenuEnvironmentType(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType value);
 
-  /// @brief Method .ctor, addr 0x2639130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a6b844, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -222,20 +230,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MenuEnvironmentManager(MenuEnvironmentManager const&) = delete;
 
-  /// @brief Field _data, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _data, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*, ::Array<::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentObjects*>*> ____data;
 
-  /// @brief Field _prevMenuEnvironmentType, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field _prevMenuEnvironmentType, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType ____prevMenuEnvironmentType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4033 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuEnvironmentManager, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuEnvironmentManager, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuEnvironmentManager, ____data) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuEnvironmentManager, ____data) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuEnvironmentManager, ____prevMenuEnvironmentType) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuEnvironmentManager, ____prevMenuEnvironmentType) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MenuEnvironmentManager__MenuEnvironmentType, "", "MenuEnvironmentManager/MenuEnvironmentType");

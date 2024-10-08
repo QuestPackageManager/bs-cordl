@@ -11,6 +11,9 @@ CORDL_MODULE_EXPORT(UxmlEnumAttributeDescription_1)
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
+namespace System {
+class Type;
+}
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
@@ -31,7 +34,7 @@ template <typename T> class __UxmlEnumAttributeDescription_1____c;
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1);
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::__UxmlEnumAttributeDescription_1____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -41,13 +44,13 @@ class CORDL_TYPE __UxmlEnumAttributeDescription_1____c : public ::System::Object
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::UIElements::__UxmlEnumAttributeDescription_1____c<T>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__UxmlEnumAttributeDescription_1____c<T>* __9;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Func_3<::StringW, T, T>* __9__3_0;
+  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_3<::StringW, T, T>* __9__3_0;
 
   /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0))::System::Func_3<::StringW, T, T>* __9__4_0;
+  static __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0)) ::System::Func_3<::StringW, T, T>* __9__4_0;
 
   static inline ::UnityEngine::UIElements::__UxmlEnumAttributeDescription_1____c<T>* New_ctor();
 
@@ -86,12 +89,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UxmlEnumAttributeDescription_1____c(__UxmlEnumAttributeDescription_1____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6229 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::UxmlEnumAttributeDescription`1
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -104,6 +110,12 @@ public:
 
   /// @brief Method ConvertValueToEnum, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline U ConvertValueToEnum(::StringW v, U defaultValue);
+
+  /// @brief Method GetEnumNameErrorMessage, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::StringW GetEnumNameErrorMessage(::StringW v, ::System::Type* enumType);
+
+  /// @brief Method GetEnumRangeErrorMessage, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::StringW GetEnumRangeErrorMessage(::StringW v, ::System::Type* enumType);
 
   /// @brief Method GetValueFromBag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -129,6 +141,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UxmlEnumAttributeDescription_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UxmlEnumAttributeDescription_1(UxmlEnumAttributeDescription_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6230 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

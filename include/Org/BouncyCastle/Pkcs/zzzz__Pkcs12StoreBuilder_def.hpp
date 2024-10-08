@@ -18,7 +18,7 @@ class Pkcs12StoreBuilder;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder);
 // Type: Org.BouncyCastle.Pkcs::Pkcs12StoreBuilder
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkcs::Pkcs12StoreBuilder*
@@ -26,35 +26,35 @@ class CORDL_TYPE Pkcs12StoreBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field certAlgorithm, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_certAlgorithm, put = __cordl_internal_set_certAlgorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* certAlgorithm;
+  __declspec(property(get = __cordl_internal_get_certAlgorithm, put = __cordl_internal_set_certAlgorithm)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* certAlgorithm;
 
   /// @brief Field certPrfAlgorithm, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_certPrfAlgorithm, put = __cordl_internal_set_certPrfAlgorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* certPrfAlgorithm;
+  __declspec(property(get = __cordl_internal_get_certPrfAlgorithm, put = __cordl_internal_set_certPrfAlgorithm)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* certPrfAlgorithm;
 
   /// @brief Field keyAlgorithm, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyAlgorithm, put = __cordl_internal_set_keyAlgorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm;
+  __declspec(property(get = __cordl_internal_get_keyAlgorithm, put = __cordl_internal_set_keyAlgorithm)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm;
 
   /// @brief Field keyPrfAlgorithm, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyPrfAlgorithm, put = __cordl_internal_set_keyPrfAlgorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyPrfAlgorithm;
+  __declspec(property(get = __cordl_internal_get_keyPrfAlgorithm, put = __cordl_internal_set_keyPrfAlgorithm)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyPrfAlgorithm;
 
   /// @brief Field useDerEncoding, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_useDerEncoding, put = __cordl_internal_set_useDerEncoding)) bool useDerEncoding;
 
-  /// @brief Method Build, addr 0x1358580, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x2523c90, size 0x88, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12Store* Build();
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* New_ctor();
 
-  /// @brief Method SetCertAlgorithm, addr 0x1358614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCertAlgorithm, addr 0x2523d18, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetCertAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* certAlgorithm);
 
-  /// @brief Method SetKeyAlgorithm, addr 0x135861c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetKeyAlgorithm, addr 0x2523d20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetKeyAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm);
 
-  /// @brief Method SetKeyAlgorithm, addr 0x1358624, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetKeyAlgorithm, addr 0x2523d28, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetKeyAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyPrfAlgorithm);
 
-  /// @brief Method SetUseDerEncoding, addr 0x1358630, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetUseDerEncoding, addr 0x2523d34, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetUseDerEncoding(bool useDerEncoding);
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_certAlgorithm();
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_useDerEncoding(bool value);
 
-  /// @brief Method .ctor, addr 0x1358508, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2523c18, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,6 +118,9 @@ public:
 
   /// @brief Field useDerEncoding, offset: 0x30, size: 0x1, def value: None
   bool ___useDerEncoding;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1701 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

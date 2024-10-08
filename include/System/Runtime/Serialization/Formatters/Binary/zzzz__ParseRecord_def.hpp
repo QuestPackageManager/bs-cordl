@@ -37,7 +37,7 @@ class ParseRecord;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ParseRecord);
 // Type: System.Runtime.Serialization.Formatters.Binary::ParseRecord
-// SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ParseRecord*
@@ -45,23 +45,23 @@ class CORDL_TYPE ParseRecord : public ::System::Object {
 public:
   // Declarations
   /// @brief Field PRarrayElementType, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRarrayElementType, put = __cordl_internal_set_PRarrayElementType))::System::Type* PRarrayElementType;
+  __declspec(property(get = __cordl_internal_get_PRarrayElementType, put = __cordl_internal_set_PRarrayElementType)) ::System::Type* PRarrayElementType;
 
   /// @brief Field PRarrayElementTypeCode, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get_PRarrayElementTypeCode,
-                      put = __cordl_internal_set_PRarrayElementTypeCode))::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRarrayElementTypeCode;
+                      put = __cordl_internal_set_PRarrayElementTypeCode)) ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRarrayElementTypeCode;
 
   /// @brief Field PRarrayElementTypeString, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRarrayElementTypeString, put = __cordl_internal_set_PRarrayElementTypeString))::StringW PRarrayElementTypeString;
+  __declspec(property(get = __cordl_internal_get_PRarrayElementTypeString, put = __cordl_internal_set_PRarrayElementTypeString)) ::StringW PRarrayElementTypeString;
 
   /// @brief Field PRarrayTypeEnum, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_PRarrayTypeEnum, put = __cordl_internal_set_PRarrayTypeEnum))::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE PRarrayTypeEnum;
+  __declspec(property(get = __cordl_internal_get_PRarrayTypeEnum, put = __cordl_internal_set_PRarrayTypeEnum)) ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE PRarrayTypeEnum;
 
   /// @brief Field PRdtType, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRdtType, put = __cordl_internal_set_PRdtType))::System::Type* PRdtType;
+  __declspec(property(get = __cordl_internal_get_PRdtType, put = __cordl_internal_set_PRdtType)) ::System::Type* PRdtType;
 
   /// @brief Field PRdtTypeCode, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_PRdtTypeCode, put = __cordl_internal_set_PRdtTypeCode))::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRdtTypeCode;
+  __declspec(property(get = __cordl_internal_get_PRdtTypeCode, put = __cordl_internal_set_PRdtTypeCode)) ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE PRdtTypeCode;
 
   /// @brief Field PRheaderId, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get_PRheaderId, put = __cordl_internal_set_PRheaderId)) int64_t PRheaderId;
@@ -70,7 +70,7 @@ public:
   __declspec(property(get = __cordl_internal_get_PRidRef, put = __cordl_internal_set_PRidRef)) int64_t PRidRef;
 
   /// @brief Field PRindexMap, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRindexMap, put = __cordl_internal_set_PRindexMap))::ArrayW<int32_t, ::Array<int32_t>*> PRindexMap;
+  __declspec(property(get = __cordl_internal_get_PRindexMap, put = __cordl_internal_set_PRindexMap)) ::ArrayW<int32_t, ::Array<int32_t>*> PRindexMap;
 
   /// @brief Field PRisArrayVariant, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get_PRisArrayVariant, put = __cordl_internal_set_PRisArrayVariant)) bool PRisArrayVariant;
@@ -88,91 +88,91 @@ public:
   __declspec(property(get = __cordl_internal_get_PRisValueTypeFixup, put = __cordl_internal_set_PRisValueTypeFixup)) bool PRisValueTypeFixup;
 
   /// @brief Field PRkeyDt, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRkeyDt, put = __cordl_internal_set_PRkeyDt))::StringW PRkeyDt;
+  __declspec(property(get = __cordl_internal_get_PRkeyDt, put = __cordl_internal_set_PRkeyDt)) ::StringW PRkeyDt;
 
   /// @brief Field PRlengthA, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRlengthA, put = __cordl_internal_set_PRlengthA))::ArrayW<int32_t, ::Array<int32_t>*> PRlengthA;
+  __declspec(property(get = __cordl_internal_get_PRlengthA, put = __cordl_internal_set_PRlengthA)) ::ArrayW<int32_t, ::Array<int32_t>*> PRlengthA;
 
   /// @brief Field PRlinearlength, offset 0xb4, size 0x4
   __declspec(property(get = __cordl_internal_get_PRlinearlength, put = __cordl_internal_set_PRlinearlength)) int32_t PRlinearlength;
 
   /// @brief Field PRlowerBoundA, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRlowerBoundA, put = __cordl_internal_set_PRlowerBoundA))::ArrayW<int32_t, ::Array<int32_t>*> PRlowerBoundA;
+  __declspec(property(get = __cordl_internal_get_PRlowerBoundA, put = __cordl_internal_set_PRlowerBoundA)) ::ArrayW<int32_t, ::Array<int32_t>*> PRlowerBoundA;
 
   /// @brief Field PRmemberData, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRmemberData, put = __cordl_internal_set_PRmemberData))::ArrayW<::System::Object*, ::Array<::System::Object*>*> PRmemberData;
+  __declspec(property(get = __cordl_internal_get_PRmemberData, put = __cordl_internal_set_PRmemberData)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> PRmemberData;
 
   /// @brief Field PRmemberIndex, offset 0xb0, size 0x4
   __declspec(property(get = __cordl_internal_get_PRmemberIndex, put = __cordl_internal_set_PRmemberIndex)) int32_t PRmemberIndex;
 
   /// @brief Field PRmemberTypeEnum, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_PRmemberTypeEnum,
-                      put = __cordl_internal_set_PRmemberTypeEnum))::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE PRmemberTypeEnum;
+                      put = __cordl_internal_set_PRmemberTypeEnum)) ::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE PRmemberTypeEnum;
 
   /// @brief Field PRmemberValueEnum, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_PRmemberValueEnum,
-                      put = __cordl_internal_set_PRmemberValueEnum))::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE PRmemberValueEnum;
+                      put = __cordl_internal_set_PRmemberValueEnum)) ::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE PRmemberValueEnum;
 
   /// @brief Field PRname, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRname, put = __cordl_internal_set_PRname))::StringW PRname;
+  __declspec(property(get = __cordl_internal_get_PRname, put = __cordl_internal_set_PRname)) ::StringW PRname;
 
   /// @brief Field PRnewObj, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRnewObj, put = __cordl_internal_set_PRnewObj))::System::Object* PRnewObj;
+  __declspec(property(get = __cordl_internal_get_PRnewObj, put = __cordl_internal_set_PRnewObj)) ::System::Object* PRnewObj;
 
   /// @brief Field PRnullCount, offset 0x118, size 0x4
   __declspec(property(get = __cordl_internal_get_PRnullCount, put = __cordl_internal_set_PRnullCount)) int32_t PRnullCount;
 
   /// @brief Field PRobjectA, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRobjectA, put = __cordl_internal_set_PRobjectA))::ArrayW<::System::Object*, ::Array<::System::Object*>*> PRobjectA;
+  __declspec(property(get = __cordl_internal_get_PRobjectA, put = __cordl_internal_set_PRobjectA)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> PRobjectA;
 
   /// @brief Field PRobjectId, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_PRobjectId, put = __cordl_internal_set_PRobjectId)) int64_t PRobjectId;
 
   /// @brief Field PRobjectInfo, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRobjectInfo, put = __cordl_internal_set_PRobjectInfo))::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* PRobjectInfo;
+  __declspec(property(get = __cordl_internal_get_PRobjectInfo, put = __cordl_internal_set_PRobjectInfo)) ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* PRobjectInfo;
 
   /// @brief Field PRobjectPositionEnum, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_PRobjectPositionEnum,
-                      put = __cordl_internal_set_PRobjectPositionEnum))::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE PRobjectPositionEnum;
+                      put = __cordl_internal_set_PRobjectPositionEnum)) ::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE PRobjectPositionEnum;
 
   /// @brief Field PRobjectTypeEnum, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_PRobjectTypeEnum,
-                      put = __cordl_internal_set_PRobjectTypeEnum))::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE PRobjectTypeEnum;
+                      put = __cordl_internal_set_PRobjectTypeEnum)) ::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE PRobjectTypeEnum;
 
   /// @brief Field PRparseTypeEnum, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_PRparseTypeEnum, put = __cordl_internal_set_PRparseTypeEnum))::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE PRparseTypeEnum;
+  __declspec(property(get = __cordl_internal_get_PRparseTypeEnum, put = __cordl_internal_set_PRparseTypeEnum)) ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE PRparseTypeEnum;
 
   /// @brief Field PRpositionA, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRpositionA, put = __cordl_internal_set_PRpositionA))::ArrayW<int32_t, ::Array<int32_t>*> PRpositionA;
+  __declspec(property(get = __cordl_internal_get_PRpositionA, put = __cordl_internal_set_PRpositionA)) ::ArrayW<int32_t, ::Array<int32_t>*> PRpositionA;
 
   /// @brief Field PRprimitiveArray, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRprimitiveArray, put = __cordl_internal_set_PRprimitiveArray))::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* PRprimitiveArray;
+  __declspec(property(get = __cordl_internal_get_PRprimitiveArray, put = __cordl_internal_set_PRprimitiveArray)) ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* PRprimitiveArray;
 
   /// @brief Field PRrank, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get_PRrank, put = __cordl_internal_set_PRrank)) int32_t PRrank;
 
   /// @brief Field PRrectangularMap, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRrectangularMap, put = __cordl_internal_set_PRrectangularMap))::ArrayW<int32_t, ::Array<int32_t>*> PRrectangularMap;
+  __declspec(property(get = __cordl_internal_get_PRrectangularMap, put = __cordl_internal_set_PRrectangularMap)) ::ArrayW<int32_t, ::Array<int32_t>*> PRrectangularMap;
 
   /// @brief Field PRsi, offset 0x110, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRsi, put = __cordl_internal_set_PRsi))::System::Runtime::Serialization::SerializationInfo* PRsi;
+  __declspec(property(get = __cordl_internal_get_PRsi, put = __cordl_internal_set_PRsi)) ::System::Runtime::Serialization::SerializationInfo* PRsi;
 
   /// @brief Field PRtopId, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_PRtopId, put = __cordl_internal_set_PRtopId)) int64_t PRtopId;
 
   /// @brief Field PRupperBoundA, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRupperBoundA, put = __cordl_internal_set_PRupperBoundA))::ArrayW<int32_t, ::Array<int32_t>*> PRupperBoundA;
+  __declspec(property(get = __cordl_internal_get_PRupperBoundA, put = __cordl_internal_set_PRupperBoundA)) ::ArrayW<int32_t, ::Array<int32_t>*> PRupperBoundA;
 
   /// @brief Field PRvalue, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRvalue, put = __cordl_internal_set_PRvalue))::StringW PRvalue;
+  __declspec(property(get = __cordl_internal_get_PRvalue, put = __cordl_internal_set_PRvalue)) ::StringW PRvalue;
 
   /// @brief Field PRvarValue, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_PRvarValue, put = __cordl_internal_set_PRvarValue))::System::Object* PRvarValue;
+  __declspec(property(get = __cordl_internal_get_PRvarValue, put = __cordl_internal_set_PRvarValue)) ::System::Object* PRvarValue;
 
   /// @brief Field parseRecordIdCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_parseRecordIdCount, put = setStaticF_parseRecordIdCount)) int32_t parseRecordIdCount;
 
-  /// @brief Method Init, addr 0x2881e60, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c9bd8c, size 0x58, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* New_ctor();
@@ -417,7 +417,7 @@ public:
 
   constexpr void __cordl_internal_set_PRvarValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x287fe28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c99da4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_parseRecordIdCount();
@@ -557,6 +557,9 @@ public:
 
   /// @brief Field PRnullCount, offset: 0x118, size: 0x4, def value: None
   int32_t ___PRnullCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3291 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

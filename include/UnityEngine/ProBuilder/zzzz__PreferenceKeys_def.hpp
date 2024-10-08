@@ -15,7 +15,7 @@ class PreferenceKeys;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::PreferenceKeys);
 // Type: UnityEngine.ProBuilder::PreferenceKeys
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::PreferenceKeys*
@@ -23,13 +23,13 @@ class CORDL_TYPE PreferenceKeys : public ::System::Object {
 public:
   // Declarations
   /// @brief Field proBuilderBlue, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_proBuilderBlue, put = setStaticF_proBuilderBlue))::UnityEngine::Color proBuilderBlue;
+  static __declspec(property(get = getStaticF_proBuilderBlue, put = setStaticF_proBuilderBlue)) ::UnityEngine::Color proBuilderBlue;
 
   /// @brief Field proBuilderDarkGray, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_proBuilderDarkGray, put = setStaticF_proBuilderDarkGray))::UnityEngine::Color proBuilderDarkGray;
+  static __declspec(property(get = getStaticF_proBuilderDarkGray, put = setStaticF_proBuilderDarkGray)) ::UnityEngine::Color proBuilderDarkGray;
 
   /// @brief Field proBuilderLightGray, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_proBuilderLightGray, put = setStaticF_proBuilderLightGray))::UnityEngine::Color proBuilderLightGray;
+  static __declspec(property(get = getStaticF_proBuilderLightGray, put = setStaticF_proBuilderLightGray)) ::UnityEngine::Color proBuilderLightGray;
 
   static inline ::UnityEngine::Color getStaticF_proBuilderBlue();
 
@@ -74,6 +74,9 @@ public:
 
   /// @brief Field DEGREE_SYMBOL offset 0xffffffff size 0x2
   static constexpr char16_t DEGREE_SYMBOL{ u'\u{b0}' };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14224 };
 
   /// @brief Field defaultUnwrapParameters offset 0xffffffff size 0x8
   static constexpr ::ConstString defaultUnwrapParameters{ u"pbDefaultUnwrapParameters" };

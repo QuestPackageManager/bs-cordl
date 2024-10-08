@@ -18,18 +18,19 @@ class BloomPrePassBackgroundColorsGradientTintColorWithLightIds;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds);
 // Type: ::BloomPrePassBackgroundColorsGradientTintColorWithLightIds
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BloomPrePassBackgroundColorsGradientTintColorWithLightIds*
 class CORDL_TYPE BloomPrePassBackgroundColorsGradientTintColorWithLightIds : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _bloomPrePassBackgroundColorsGradient, offset 0x30, size 0x8
+  /// @brief Field _bloomPrePassBackgroundColorsGradient, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__bloomPrePassBackgroundColorsGradient,
-                      put = __cordl_internal_set__bloomPrePassBackgroundColorsGradient))::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> _bloomPrePassBackgroundColorsGradient;
+                      put = __cordl_internal_set__bloomPrePassBackgroundColorsGradient)) ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient>
+      _bloomPrePassBackgroundColorsGradient;
 
-  /// @brief Method ColorWasSet, addr 0x251f820, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39775b0, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds* New_ctor();
@@ -40,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set__bloomPrePassBackgroundColorsGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> value);
 
-  /// @brief Method .ctor, addr 0x251f840, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39775d0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,15 +58,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassBackgroundColorsGradientTintColorWithLightIds(BloomPrePassBackgroundColorsGradientTintColorWithLightIds const&) = delete;
 
-  /// @brief Field _bloomPrePassBackgroundColorsGradient, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _bloomPrePassBackgroundColorsGradient, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> ____bloomPrePassBackgroundColorsGradient;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16253 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds, ____bloomPrePassBackgroundColorsGradient) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds, ____bloomPrePassBackgroundColorsGradient) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds);

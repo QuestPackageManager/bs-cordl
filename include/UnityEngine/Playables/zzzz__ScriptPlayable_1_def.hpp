@@ -41,7 +41,7 @@ template <typename T> struct ScriptPlayable_1;
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Playables::ScriptPlayable_1);
 // Type: UnityEngine.Playables::ScriptPlayable`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // cpp template
 template <typename T>
@@ -51,7 +51,7 @@ struct CORDL_TYPE ScriptPlayable_1 {
 public:
   // Declarations
   /// @brief Field m_NullPlayable, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_m_NullPlayable, put = setStaticF_m_NullPlayable))::UnityEngine::Playables::ScriptPlayable_1<T> m_NullPlayable;
+  static __declspec(property(get = getStaticF_m_NullPlayable, put = setStaticF_m_NullPlayable)) ::UnityEngine::Playables::ScriptPlayable_1<T> m_NullPlayable;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*();
@@ -120,6 +120,9 @@ public:
 
   /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Playables::PlayableHandle m_Handle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11247 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

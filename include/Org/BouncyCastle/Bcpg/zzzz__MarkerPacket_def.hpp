@@ -20,7 +20,7 @@ class MarkerPacket;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::MarkerPacket);
 // Type: Org.BouncyCastle.Bcpg::MarkerPacket
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::MarkerPacket*
@@ -28,9 +28,9 @@ class CORDL_TYPE MarkerPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacke
 public:
   // Declarations
   /// @brief Field marker, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_marker, put = __cordl_internal_set_marker))::ArrayW<uint8_t, ::Array<uint8_t>*> marker;
+  __declspec(property(get = __cordl_internal_get_marker, put = __cordl_internal_set_marker)) ::ArrayW<uint8_t, ::Array<uint8_t>*> marker;
 
-  /// @brief Method Encode, addr 0x1445078, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x26083ec, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   static inline ::Org::BouncyCastle::Bcpg::MarkerPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_marker(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1441e74, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26052a0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
 protected:
@@ -60,6 +60,9 @@ public:
 
   /// @brief Field marker, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___marker;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 574 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

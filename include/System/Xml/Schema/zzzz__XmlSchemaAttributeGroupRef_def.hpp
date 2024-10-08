@@ -15,17 +15,17 @@ class XmlSchemaAttributeGroupRef;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaAttributeGroupRef);
 // Type: System.Xml.Schema::XmlSchemaAttributeGroupRef
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaAttributeGroupRef*
 class CORDL_TYPE XmlSchemaAttributeGroupRef : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
-  __declspec(property(get = get_RefName, put = set_RefName))::System::Xml::XmlQualifiedName* RefName;
+  __declspec(property(get = get_RefName, put = set_RefName)) ::System::Xml::XmlQualifiedName* RefName;
 
   /// @brief Field refName, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_refName, put = __cordl_internal_set_refName))::System::Xml::XmlQualifiedName* refName;
+  __declspec(property(get = __cordl_internal_get_refName, put = __cordl_internal_set_refName)) ::System::Xml::XmlQualifiedName* refName;
 
   static inline ::System::Xml::Schema::XmlSchemaAttributeGroupRef* New_ctor();
 
@@ -35,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set_refName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x2e40f1c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x424384c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RefName, addr 0x2e40e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RefName, addr 0x42437ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_RefName();
 
-  /// @brief Method set_RefName, addr 0x2e40e84, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_RefName, addr 0x42437b4, size 0x98, virtual false, abstract: false, final false
   inline void set_RefName(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -60,6 +60,9 @@ public:
 
   /// @brief Field refName, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___refName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7623 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,7 @@ class SmallXmlParserException;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Xml::SmallXmlParserException);
 // Type: Mono.Xml::SmallXmlParserException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Xml {
 // Is value type: false
 // CS Name: ::Mono.Xml::SmallXmlParserException*
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_line(int32_t value);
 
-  /// @brief Method .ctor, addr 0x27beae8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be0a58, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg, int32_t line, int32_t column);
 
 protected:
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field column, offset: 0x90, size: 0x4, def value: None
   int32_t ___column;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2255 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

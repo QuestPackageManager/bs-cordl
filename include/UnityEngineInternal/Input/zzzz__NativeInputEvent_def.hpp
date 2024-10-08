@@ -18,7 +18,7 @@ struct NativeInputEvent;
 // Write type traits
 MARK_VAL_T(::UnityEngineInternal::Input::NativeInputEvent);
 // Type: UnityEngineInternal.Input::NativeInputEvent
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
+// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngineInternal::Input {
 // Is value type: true
 // CS Name: ::UnityEngineInternal.Input::NativeInputEvent
@@ -39,7 +39,7 @@ public:
   __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) double_t time;
 
   /// @brief Field type, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::UnityEngineInternal::Input::NativeInputEventType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::UnityEngineInternal::Input::NativeInputEventType type;
 
   constexpr uint16_t const& __cordl_internal_get_deviceId() const;
 
@@ -156,6 +156,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18843 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 

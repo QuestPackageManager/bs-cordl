@@ -31,7 +31,7 @@ template <typename P1, typename P2, typename P3, typename T> class PrefabFactory
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PrefabFactory_4);
 // Type: Zenject::PrefabFactory`4
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename P1, typename P2, typename P3, typename T>
@@ -40,10 +40,10 @@ template <typename P1, typename P2, typename P3, typename T>
 class CORDL_TYPE PrefabFactory_4 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
+  __declspec(property(get = get_Container)) ::Zenject::DiContainer* Container;
 
   /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
@@ -99,6 +99,9 @@ public:
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12402 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

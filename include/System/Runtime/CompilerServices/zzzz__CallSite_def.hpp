@@ -15,17 +15,17 @@ class CallSite;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::CallSite);
 // Type: System.Runtime.CompilerServices::CallSite
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::CallSite*
 class CORDL_TYPE CallSite : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Binder))::System::Runtime::CompilerServices::CallSiteBinder* Binder;
+  __declspec(property(get = get_Binder)) ::System::Runtime::CompilerServices::CallSiteBinder* Binder;
 
   /// @brief Field _binder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__binder, put = __cordl_internal_set__binder))::System::Runtime::CompilerServices::CallSiteBinder* _binder;
+  __declspec(property(get = __cordl_internal_get__binder, put = __cordl_internal_set__binder)) ::System::Runtime::CompilerServices::CallSiteBinder* _binder;
 
   /// @brief Field _match, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__match, put = __cordl_internal_set__match)) bool _match;
@@ -44,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set__match(bool value);
 
-  /// @brief Method .ctor, addr 0x2c81068, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4083f9c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::CompilerServices::CallSiteBinder* binder);
 
-  /// @brief Method get_Binder, addr 0x2c81090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Binder, addr 0x4083fc4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::CallSiteBinder* get_Binder();
 
 protected:
@@ -69,6 +69,9 @@ public:
 
   /// @brief Field _match, offset: 0x18, size: 0x1, def value: None
   bool ____match;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14086 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

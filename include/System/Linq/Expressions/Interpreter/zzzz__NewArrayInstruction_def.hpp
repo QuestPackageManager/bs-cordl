@@ -20,7 +20,7 @@ class NewArrayInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::NewArrayInstruction);
 // Type: System.Linq.Expressions.Interpreter::NewArrayInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::NewArrayInstruction*
@@ -29,16 +29,16 @@ public:
   // Declarations
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
   __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
   /// @brief Field _elementType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__elementType, put = __cordl_internal_set__elementType))::System::Type* _elementType;
+  __declspec(property(get = __cordl_internal_get__elementType, put = __cordl_internal_set__elementType)) ::System::Type* _elementType;
 
   static inline ::System::Linq::Expressions::Interpreter::NewArrayInstruction* New_ctor(::System::Type* elementType);
 
-  /// @brief Method Run, addr 0x2c46230, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x404a5b8, size 0x90, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type*& __cordl_internal_get__elementType();
@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set__elementType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2c461b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x404a540, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType);
 
-  /// @brief Method get_ConsumedStack, addr 0x2c461e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x404a568, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c461f0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x404a578, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c461e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x404a570, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field _elementType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____elementType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13724 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

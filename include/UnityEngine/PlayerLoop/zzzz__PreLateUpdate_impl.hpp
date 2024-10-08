@@ -5,6 +5,8 @@
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__PreLateUpdate__Physics2DLateUpdate::__PreLateUpdate__Physics2DLateUpdate() {}
 // Ctor Parameters []
+constexpr ::UnityEngine::PlayerLoop::__PreLateUpdate__PhysicsLateUpdate::__PreLateUpdate__PhysicsLateUpdate() {}
+// Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__PreLateUpdate__AIUpdatePostScript::__PreLateUpdate__AIUpdatePostScript() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorUpdateAnimationBegin::__PreLateUpdate__DirectorUpdateAnimationBegin() {}
@@ -20,8 +22,6 @@ constexpr ::UnityEngine::PlayerLoop::__PreLateUpdate__UIElementsUpdatePanels::__
 constexpr ::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateNetworkManager::__PreLateUpdate__UpdateNetworkManager() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateMasterServerInterface::__PreLateUpdate__UpdateMasterServerInterface() {}
-// Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::__PreLateUpdate__UNetUpdate::__PreLateUpdate__UNetUpdate() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__PreLateUpdate__EndGraphicsJobsAfterScriptUpdate::__PreLateUpdate__EndGraphicsJobsAfterScriptUpdate() {}
 // Ctor Parameters []

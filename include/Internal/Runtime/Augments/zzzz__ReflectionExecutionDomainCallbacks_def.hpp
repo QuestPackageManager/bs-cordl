@@ -18,19 +18,19 @@ class ReflectionExecutionDomainCallbacks;
 // Write type traits
 MARK_REF_PTR_T(::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks);
 // Type: Internal.Runtime.Augments::ReflectionExecutionDomainCallbacks
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Runtime::Augments {
 // Is value type: false
 // CS Name: ::Internal.Runtime.Augments::ReflectionExecutionDomainCallbacks*
 class CORDL_TYPE ReflectionExecutionDomainCallbacks : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateMissingMetadataException, addr 0x27d7988, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateMissingMetadataException, addr 0x3bf9540, size 0x54, virtual false, abstract: false, final false
   inline ::System::Exception* CreateMissingMetadataException(::System::Type* attributeType);
 
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27d7980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf9538, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionExecutionDomainCallbacks", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ReflectionExecutionDomainCallbacks(ReflectionExecutionDomainCallbacks const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2307 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

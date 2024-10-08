@@ -53,7 +53,7 @@ class __TextWriter____c;
 MARK_REF_PTR_T(::System::IO::TextWriter);
 MARK_REF_PTR_T(::System::IO::__TextWriter____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
 // CS Name: ::TextWriter::<>c*
@@ -61,35 +61,35 @@ class CORDL_TYPE __TextWriter____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::IO::__TextWriter____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::IO::__TextWriter____c* __9;
 
   /// @brief Field <>9__56_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__56_0, put = setStaticF___9__56_0))::System::Action_1<::System::Object*>* __9__56_0;
+  static __declspec(property(get = getStaticF___9__56_0, put = setStaticF___9__56_0)) ::System::Action_1<::System::Object*>* __9__56_0;
 
   /// @brief Field <>9__57_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__57_0, put = setStaticF___9__57_0))::System::Action_1<::System::Object*>* __9__57_0;
+  static __declspec(property(get = getStaticF___9__57_0, put = setStaticF___9__57_0)) ::System::Action_1<::System::Object*>* __9__57_0;
 
   /// @brief Field <>9__59_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__59_0, put = setStaticF___9__59_0))::System::Action_1<::System::Object*>* __9__59_0;
+  static __declspec(property(get = getStaticF___9__59_0, put = setStaticF___9__59_0)) ::System::Action_1<::System::Object*>* __9__59_0;
 
   /// @brief Field <>9__67_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__67_0, put = setStaticF___9__67_0))::System::Action_1<::System::Object*>* __9__67_0;
+  static __declspec(property(get = getStaticF___9__67_0, put = setStaticF___9__67_0)) ::System::Action_1<::System::Object*>* __9__67_0;
 
   static inline ::System::IO::__TextWriter____c* New_ctor();
 
-  /// @brief Method <FlushAsync>b__67_0, addr 0x28b832c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <FlushAsync>b__67_0, addr 0x3ccfe00, size 0x84, virtual false, abstract: false, final false
   inline void _FlushAsync_b__67_0(::System::Object* state);
 
-  /// @brief Method <WriteAsync>b__56_0, addr 0x28b810c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <WriteAsync>b__56_0, addr 0x3ccfbe0, size 0xac, virtual false, abstract: false, final false
   inline void _WriteAsync_b__56_0(::System::Object* state);
 
-  /// @brief Method <WriteAsync>b__57_0, addr 0x28b81b8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <WriteAsync>b__57_0, addr 0x3ccfc8c, size 0xac, virtual false, abstract: false, final false
   inline void _WriteAsync_b__57_0(::System::Object* state);
 
-  /// @brief Method <WriteAsync>b__59_0, addr 0x28b8264, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <WriteAsync>b__59_0, addr 0x3ccfd38, size 0xc8, virtual false, abstract: false, final false
   inline void _WriteAsync_b__59_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x28b8104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ccfbd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::__TextWriter____c* getStaticF___9();
@@ -126,6 +126,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TextWriter____c(__TextWriter____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3591 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -133,7 +136,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__TextWriter____c, 0
 
 } // namespace System::IO
 // Type: System.IO::TextWriter
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
 // CS Name: ::System.IO::TextWriter*
@@ -147,25 +150,25 @@ public:
   using __c = ::System::IO::__TextWriter____c;
 
   /// @brief Field CoreNewLine, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_CoreNewLine, put = __cordl_internal_set_CoreNewLine))::ArrayW<char16_t, ::Array<char16_t>*> CoreNewLine;
+  __declspec(property(get = __cordl_internal_get_CoreNewLine, put = __cordl_internal_set_CoreNewLine)) ::ArrayW<char16_t, ::Array<char16_t>*> CoreNewLine;
 
   /// @brief Field CoreNewLineStr, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_CoreNewLineStr, put = __cordl_internal_set_CoreNewLineStr))::StringW CoreNewLineStr;
+  __declspec(property(get = __cordl_internal_get_CoreNewLineStr, put = __cordl_internal_set_CoreNewLineStr)) ::StringW CoreNewLineStr;
 
-  __declspec(property(get = get_Encoding))::System::Text::Encoding* Encoding;
+  __declspec(property(get = get_Encoding)) ::System::Text::Encoding* Encoding;
 
-  __declspec(property(get = get_FormatProvider))::System::IFormatProvider* FormatProvider;
+  __declspec(property(get = get_FormatProvider)) ::System::IFormatProvider* FormatProvider;
 
-  __declspec(property(get = get_NewLine))::StringW NewLine;
+  __declspec(property(get = get_NewLine, put = set_NewLine)) ::StringW NewLine;
 
   /// @brief Field Null, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Null, put = setStaticF_Null))::System::IO::TextWriter* Null;
+  static __declspec(property(get = getStaticF_Null, put = setStaticF_Null)) ::System::IO::TextWriter* Null;
 
   /// @brief Field _internalFormatProvider, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__internalFormatProvider, put = __cordl_internal_set__internalFormatProvider))::System::IFormatProvider* _internalFormatProvider;
+  __declspec(property(get = __cordl_internal_get__internalFormatProvider, put = __cordl_internal_set__internalFormatProvider)) ::System::IFormatProvider* _internalFormatProvider;
 
   /// @brief Field s_coreNewLine, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_coreNewLine, put = setStaticF_s_coreNewLine))::ArrayW<char16_t, ::Array<char16_t>*> s_coreNewLine;
+  static __declspec(property(get = getStaticF_s_coreNewLine, put = setStaticF_s_coreNewLine)) ::ArrayW<char16_t, ::Array<char16_t>*> s_coreNewLine;
 
   /// @brief Convert operator to "::System::IAsyncDisposable"
   constexpr operator ::System::IAsyncDisposable*() noexcept;
@@ -173,65 +176,65 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x28b7474, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3ccef08, size 0x6c, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x28b74e4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3ccef78, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x28b74e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3ccef74, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DisposeAsync, addr 0x28b25b4, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method DisposeAsync, addr 0x3cca4bc, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
-  /// @brief Method Flush, addr 0x28b7550, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x3ccefe4, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x28b4914, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x3ccbf48, size 0x1f0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync();
 
   static inline ::System::IO::TextWriter* New_ctor();
 
   static inline ::System::IO::TextWriter* New_ctor(::System::IFormatProvider* formatProvider);
 
-  /// @brief Method Synchronized, addr 0x28b78c4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Synchronized, addr 0x3ccf38c, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::IO::TextWriter* Synchronized(::System::IO::TextWriter* writer);
 
-  /// @brief Method Write, addr 0x28b7560, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ccf038, size 0x20, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
-  /// @brief Method Write, addr 0x28b7580, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ccf058, size 0x1a4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x28b776c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ccf234, size 0x6c, virtual true, abstract: false, final false
   inline void Write(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method Write, addr 0x28b7734, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ccf1fc, size 0x38, virtual true, abstract: false, final false
   inline void Write(::StringW value);
 
-  /// @brief Method Write, addr 0x28b755c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ccf034, size 0x4, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
-  /// @brief Method WriteAsync, addr 0x28b442c, size 0x250, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x3ccba8c, size 0x250, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteAsync, addr 0x28b3dc4, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x3ccb444, size 0x238, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::StringW value);
 
-  /// @brief Method WriteAsync, addr 0x28b3860, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x3ccaeec, size 0x238, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(char16_t value);
 
-  /// @brief Method WriteLine, addr 0x28b77d8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3ccf2a0, size 0x14, virtual true, abstract: false, final false
   inline void WriteLine();
 
-  /// @brief Method WriteLine, addr 0x28b77ec, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3ccf2b4, size 0x30, virtual true, abstract: false, final false
   inline void WriteLine(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteLine, addr 0x28b7858, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3ccf320, size 0x6c, virtual true, abstract: false, final false
   inline void WriteLine(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method WriteLine, addr 0x28b781c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3ccf2e4, size 0x3c, virtual true, abstract: false, final false
   inline void WriteLine(::StringW value);
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_CoreNewLine() const;
@@ -252,10 +255,10 @@ public:
 
   constexpr void __cordl_internal_set__internalFormatProvider(::System::IFormatProvider* value);
 
-  /// @brief Method .ctor, addr 0x28b2154, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cca028, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x28b19b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc98a8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::IFormatProvider* formatProvider);
 
   static inline ::System::IO::TextWriter* getStaticF_Null();
@@ -265,10 +268,10 @@ public:
   /// @brief Method get_Encoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method get_FormatProvider, addr 0x28b740c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_FormatProvider, addr 0x3cceea0, size 0x68, virtual true, abstract: false, final false
   inline ::System::IFormatProvider* get_FormatProvider();
 
-  /// @brief Method get_NewLine, addr 0x28b7554, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NewLine, addr 0x3ccefe8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NewLine();
 
   /// @brief Convert to "::System::IAsyncDisposable"
@@ -280,6 +283,9 @@ public:
   static inline void setStaticF_Null(::System::IO::TextWriter* value);
 
   static inline void setStaticF_s_coreNewLine(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  /// @brief Method set_NewLine, addr 0x3cceff0, size 0x44, virtual true, abstract: false, final false
+  inline void set_NewLine(::StringW value);
 
 protected:
   // Ctor Parameters []
@@ -303,6 +309,9 @@ public:
 
   /// @brief Field _internalFormatProvider, offset: 0x28, size: 0x8, def value: None
   ::System::IFormatProvider* ____internalFormatProvider;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3592 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

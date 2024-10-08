@@ -226,7 +226,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction);
 MARK_REF_PTR_T(::System::Xml::Schema::__XsdBuilder__XsdEntry);
 MARK_REF_PTR_T(::System::Xml::Schema::__XsdBuilder__XsdInitFunction);
 // Type: ::State
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
 // CS Name: ::XsdBuilder::State
@@ -451,6 +451,9 @@ public:
   /// @brief Field WhiteSpace value: static_cast<int32_t>(0x2c)
   static ::System::Xml::Schema::__XsdBuilder__State const WhiteSpace;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7720 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -463,19 +466,19 @@ static_assert(offsetof(::System::Xml::Schema::__XsdBuilder__State, value__) == 0
 
 } // namespace System::Xml::Schema
 // Type: ::XsdBuildFunction
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::XsdBuilder::XsdBuildFunction*
 class CORDL_TYPE __XsdBuilder__XsdBuildFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e85b28, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x42854dc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
   static inline ::System::Xml::Schema::__XsdBuilder__XsdBuildFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2e85a50, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x428543c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -492,6 +495,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __XsdBuilder__XsdBuildFunction(__XsdBuilder__XsdBuildFunction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7721 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -499,19 +505,19 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__XsdBuilde
 
 } // namespace System::Xml::Schema
 // Type: ::XsdInitFunction
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::XsdBuilder::XsdInitFunction*
 class CORDL_TYPE __XsdBuilder__XsdInitFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e85c14, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4285590, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
   static inline ::System::Xml::Schema::__XsdBuilder__XsdInitFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2e85b3c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42854f0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -528,6 +534,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __XsdBuilder__XsdInitFunction(__XsdBuilder__XsdInitFunction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7722 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -535,19 +544,19 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__XsdBuilde
 
 } // namespace System::Xml::Schema
 // Type: ::XsdEndChildFunction
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::XsdBuilder::XsdEndChildFunction*
 class CORDL_TYPE __XsdBuilder__XsdEndChildFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e85cfc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4285640, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::Schema::XsdBuilder* builder);
 
   static inline ::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2e85c28, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42855a4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -564,6 +573,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __XsdBuilder__XsdEndChildFunction(__XsdBuilder__XsdEndChildFunction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7723 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -571,7 +583,7 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__XsdBuilde
 
 } // namespace System::Xml::Schema
 // Type: ::XsdAttributeEntry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::XsdBuilder::XsdAttributeEntry*
@@ -579,10 +591,10 @@ class CORDL_TYPE __XsdBuilder__XsdAttributeEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Attribute, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_Attribute, put = __cordl_internal_set_Attribute))::System::Xml::Schema::__SchemaNames__Token Attribute;
+  __declspec(property(get = __cordl_internal_get_Attribute, put = __cordl_internal_set_Attribute)) ::System::Xml::Schema::__SchemaNames__Token Attribute;
 
   /// @brief Field BuildFunc, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_BuildFunc, put = __cordl_internal_set_BuildFunc))::System::Xml::Schema::__XsdBuilder__XsdBuildFunction* BuildFunc;
+  __declspec(property(get = __cordl_internal_get_BuildFunc, put = __cordl_internal_set_BuildFunc)) ::System::Xml::Schema::__XsdBuilder__XsdBuildFunction* BuildFunc;
 
   static inline ::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry* New_ctor(::System::Xml::Schema::__SchemaNames__Token a, ::System::Xml::Schema::__XsdBuilder__XsdBuildFunction* build);
 
@@ -598,7 +610,7 @@ public:
 
   constexpr void __cordl_internal_set_BuildFunc(::System::Xml::Schema::__XsdBuilder__XsdBuildFunction* value);
 
-  /// @brief Method .ctor, addr 0x2e85d10, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4285654, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::__SchemaNames__Token a, ::System::Xml::Schema::__XsdBuilder__XsdBuildFunction* build);
 
 protected:
@@ -621,6 +633,9 @@ public:
   /// @brief Field BuildFunc, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::Schema::__XsdBuilder__XsdBuildFunction* ___BuildFunc;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7724 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -632,7 +647,7 @@ static_assert(offsetof(::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry, _
 
 } // namespace System::Xml::Schema
 // Type: ::XsdEntry
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::XsdBuilder::XsdEntry*
@@ -640,25 +655,26 @@ class CORDL_TYPE __XsdBuilder__XsdEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Attributes, offset 0x20, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_Attributes,
-               put = __cordl_internal_set_Attributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> Attributes;
+  __declspec(property(get = __cordl_internal_get_Attributes,
+                      put = __cordl_internal_set_Attributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      Attributes;
 
   /// @brief Field CurrentState, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_CurrentState, put = __cordl_internal_set_CurrentState))::System::Xml::Schema::__XsdBuilder__State CurrentState;
+  __declspec(property(get = __cordl_internal_get_CurrentState, put = __cordl_internal_set_CurrentState)) ::System::Xml::Schema::__XsdBuilder__State CurrentState;
 
   /// @brief Field EndChildFunc, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_EndChildFunc, put = __cordl_internal_set_EndChildFunc))::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction* EndChildFunc;
+  __declspec(property(get = __cordl_internal_get_EndChildFunc, put = __cordl_internal_set_EndChildFunc)) ::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction* EndChildFunc;
 
   /// @brief Field InitFunc, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_InitFunc, put = __cordl_internal_set_InitFunc))::System::Xml::Schema::__XsdBuilder__XsdInitFunction* InitFunc;
+  __declspec(property(get = __cordl_internal_get_InitFunc, put = __cordl_internal_set_InitFunc)) ::System::Xml::Schema::__XsdBuilder__XsdInitFunction* InitFunc;
 
   /// @brief Field Name, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::System::Xml::Schema::__SchemaNames__Token Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::System::Xml::Schema::__SchemaNames__Token Name;
 
   /// @brief Field NextStates, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_NextStates,
-                      put = __cordl_internal_set_NextStates))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> NextStates;
+                      put = __cordl_internal_set_NextStates)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      NextStates;
 
   /// @brief Field ParseContent, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_ParseContent, put = __cordl_internal_set_ParseContent)) bool ParseContent;
@@ -711,7 +727,7 @@ public:
 
   constexpr void __cordl_internal_set_ParseContent(bool value);
 
-  /// @brief Method .ctor, addr 0x2e85d40, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4285684, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::__SchemaNames__Token n, ::System::Xml::Schema::__XsdBuilder__State state,
                     ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> nextStates,
                     ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> attributes,
@@ -752,6 +768,9 @@ public:
   /// @brief Field ParseContent, offset: 0x38, size: 0x1, def value: None
   bool ___ParseContent;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7725 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -773,7 +792,7 @@ static_assert(offsetof(::System::Xml::Schema::__XsdBuilder__XsdEntry, ___ParseCo
 
 } // namespace System::Xml::Schema
 // Type: ::BuilderNamespaceManager
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::XsdBuilder::BuilderNamespaceManager*
@@ -781,12 +800,12 @@ class CORDL_TYPE __XsdBuilder__BuilderNamespaceManager : public ::System::Xml::X
 public:
   // Declarations
   /// @brief Field nsMgr, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_nsMgr, put = __cordl_internal_set_nsMgr))::System::Xml::XmlNamespaceManager* nsMgr;
+  __declspec(property(get = __cordl_internal_get_nsMgr, put = __cordl_internal_set_nsMgr)) ::System::Xml::XmlNamespaceManager* nsMgr;
 
   /// @brief Field reader, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader))::System::Xml::XmlReader* reader;
+  __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader)) ::System::Xml::XmlReader* reader;
 
-  /// @brief Method LookupNamespace, addr 0x2e85dd0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x4285714, size 0x60, virtual true, abstract: false, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
   static inline ::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager* New_ctor(::System::Xml::XmlNamespaceManager* nsMgr, ::System::Xml::XmlReader* reader);
@@ -803,7 +822,7 @@ public:
 
   constexpr void __cordl_internal_set_reader(::System::Xml::XmlReader* value);
 
-  /// @brief Method .ctor, addr 0x2e85da4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42856e8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNamespaceManager* nsMgr, ::System::Xml::XmlReader* reader);
 
 protected:
@@ -826,6 +845,9 @@ public:
   /// @brief Field reader, offset: 0x58, size: 0x8, def value: None
   ::System::Xml::XmlReader* ___reader;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7726 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -837,7 +859,7 @@ static_assert(offsetof(::System::Xml::Schema::__XsdBuilder__BuilderNamespaceMana
 
 } // namespace System::Xml::Schema
 // Type: System.Xml.Schema::XsdBuilder
-// SizeInfo { instance_size: 416, native_size: -1, calculated_instance_size: 416, calculated_native_size: 416, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 416, native_size: -1, calculated_instance_size: 416, calculated_native_size: 416, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XsdBuilder*
@@ -859,849 +881,877 @@ public:
   using XsdInitFunction = ::System::Xml::Schema::__XsdBuilder__XsdInitFunction;
 
   /// @brief Field AllSubelements, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_AllSubelements,
-                             put = setStaticF_AllSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> AllSubelements;
+  static
+      __declspec(property(get = getStaticF_AllSubelements, put = setStaticF_AllSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+          AllSubelements;
 
   /// @brief Field AnnotatedSubelements, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_AnnotatedSubelements,
-                             put = setStaticF_AnnotatedSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> AnnotatedSubelements;
+                             put = setStaticF_AnnotatedSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      AnnotatedSubelements;
 
   /// @brief Field AnnotationAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_AnnotationAttributes,
-      put = setStaticF_AnnotationAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> AnnotationAttributes;
+  static
+      __declspec(property(get = getStaticF_AnnotationAttributes,
+                          put = setStaticF_AnnotationAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+          AnnotationAttributes;
 
   /// @brief Field AnnotationSubelements, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_AnnotationSubelements,
-                             put = setStaticF_AnnotationSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> AnnotationSubelements;
+                             put = setStaticF_AnnotationSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      AnnotationSubelements;
 
   /// @brief Field AnyAttributeAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_AnyAttributeAttributes,
-                             put = setStaticF_AnyAttributeAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                               ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> AnyAttributeAttributes;
+  static
+      __declspec(property(get = getStaticF_AnyAttributeAttributes,
+                          put = setStaticF_AnyAttributeAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+          AnyAttributeAttributes;
 
   /// @brief Field AnyAttributes, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_AnyAttributes,
-               put = setStaticF_AnyAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> AnyAttributes;
+  static __declspec(property(get = getStaticF_AnyAttributes,
+                             put = setStaticF_AnyAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      AnyAttributes;
 
   /// @brief Field AppinfoAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_AppinfoAttributes,
-      put = setStaticF_AppinfoAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> AppinfoAttributes;
+  static __declspec(property(get = getStaticF_AppinfoAttributes,
+                             put = setStaticF_AppinfoAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      AppinfoAttributes;
 
   /// @brief Field AttributeAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_AttributeAttributes,
-      put = setStaticF_AttributeAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> AttributeAttributes;
+  static __declspec(property(get = getStaticF_AttributeAttributes,
+                             put = setStaticF_AttributeAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      AttributeAttributes;
 
   /// @brief Field AttributeGroupAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_AttributeGroupAttributes,
-                             put = setStaticF_AttributeGroupAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                                 ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> AttributeGroupAttributes;
+  static __declspec(property(
+      get = getStaticF_AttributeGroupAttributes,
+      put = setStaticF_AttributeGroupAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      AttributeGroupAttributes;
 
   /// @brief Field AttributeGroupRefAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_AttributeGroupRefAttributes,
-                             put = setStaticF_AttributeGroupRefAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                                    ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> AttributeGroupRefAttributes;
+  static __declspec(property(
+      get = getStaticF_AttributeGroupRefAttributes,
+      put = setStaticF_AttributeGroupRefAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      AttributeGroupRefAttributes;
 
   /// @brief Field AttributeGroupSubelements, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_AttributeGroupSubelements,
-               put = setStaticF_AttributeGroupSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> AttributeGroupSubelements;
+  static __declspec(property(get = getStaticF_AttributeGroupSubelements,
+                             put = setStaticF_AttributeGroupSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      AttributeGroupSubelements;
 
   /// @brief Field AttributeSubelements, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_AttributeSubelements,
-                             put = setStaticF_AttributeSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> AttributeSubelements;
+                             put = setStaticF_AttributeSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      AttributeSubelements;
 
   /// @brief Field ChoiceSequenceSubelements, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_ChoiceSequenceSubelements,
-               put = setStaticF_ChoiceSequenceSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> ChoiceSequenceSubelements;
+  static __declspec(property(get = getStaticF_ChoiceSequenceSubelements,
+                             put = setStaticF_ChoiceSequenceSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      ChoiceSequenceSubelements;
 
   /// @brief Field ComplexContentAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ComplexContentAttributes,
-                             put = setStaticF_ComplexContentAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                                 ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> ComplexContentAttributes;
+  static __declspec(property(
+      get = getStaticF_ComplexContentAttributes,
+      put = setStaticF_ComplexContentAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      ComplexContentAttributes;
 
   /// @brief Field ComplexContentExtensionAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ComplexContentExtensionAttributes,
-                             put = setStaticF_ComplexContentExtensionAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                                          ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> ComplexContentExtensionAttributes;
+  static __declspec(property(
+      get = getStaticF_ComplexContentExtensionAttributes,
+      put = setStaticF_ComplexContentExtensionAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      ComplexContentExtensionAttributes;
 
   /// @brief Field ComplexContentExtensionSubelements, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ComplexContentExtensionSubelements,
-                             put = setStaticF_ComplexContentExtensionSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State,
-                                                                                           ::Array<::System::Xml::Schema::__XsdBuilder__State>*> ComplexContentExtensionSubelements;
+                             put = setStaticF_ComplexContentExtensionSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      ComplexContentExtensionSubelements;
 
   /// @brief Field ComplexContentRestrictionAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ComplexContentRestrictionAttributes,
-                             put = setStaticF_ComplexContentRestrictionAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                                            ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> ComplexContentRestrictionAttributes;
+  static __declspec(property(
+      get = getStaticF_ComplexContentRestrictionAttributes,
+      put = setStaticF_ComplexContentRestrictionAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      ComplexContentRestrictionAttributes;
 
   /// @brief Field ComplexContentRestrictionSubelements, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ComplexContentRestrictionSubelements,
-                             put = setStaticF_ComplexContentRestrictionSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State,
-                                                                                             ::Array<::System::Xml::Schema::__XsdBuilder__State>*> ComplexContentRestrictionSubelements;
+                             put = setStaticF_ComplexContentRestrictionSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      ComplexContentRestrictionSubelements;
 
   /// @brief Field ComplexContentSubelements, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_ComplexContentSubelements,
-               put = setStaticF_ComplexContentSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> ComplexContentSubelements;
+  static __declspec(property(get = getStaticF_ComplexContentSubelements,
+                             put = setStaticF_ComplexContentSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      ComplexContentSubelements;
 
   /// @brief Field ComplexTypeAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ComplexTypeAttributes,
-                             put = setStaticF_ComplexTypeAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                              ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> ComplexTypeAttributes;
+  static
+      __declspec(property(get = getStaticF_ComplexTypeAttributes,
+                          put = setStaticF_ComplexTypeAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+          ComplexTypeAttributes;
 
   /// @brief Field ComplexTypeSubelements, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ComplexTypeSubelements,
-                             put = setStaticF_ComplexTypeSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> ComplexTypeSubelements;
+                             put = setStaticF_ComplexTypeSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      ComplexTypeSubelements;
 
-  __declspec(property(get = get_CurrentElement))::System::Xml::Schema::__SchemaNames__Token CurrentElement;
+  __declspec(property(get = get_CurrentElement)) ::System::Xml::Schema::__SchemaNames__Token CurrentElement;
 
   /// @brief Field DerivationMethodStrings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DerivationMethodStrings, put = setStaticF_DerivationMethodStrings))::ArrayW<::StringW, ::Array<::StringW>*> DerivationMethodStrings;
+  static __declspec(property(get = getStaticF_DerivationMethodStrings, put = setStaticF_DerivationMethodStrings)) ::ArrayW<::StringW, ::Array<::StringW>*> DerivationMethodStrings;
 
   /// @brief Field DerivationMethodValues, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DerivationMethodValues, put = setStaticF_DerivationMethodValues))::ArrayW<int32_t, ::Array<int32_t>*> DerivationMethodValues;
+  static __declspec(property(get = getStaticF_DerivationMethodValues, put = setStaticF_DerivationMethodValues)) ::ArrayW<int32_t, ::Array<int32_t>*> DerivationMethodValues;
 
   /// @brief Field DocumentationAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DocumentationAttributes,
-                             put = setStaticF_DocumentationAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                                ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> DocumentationAttributes;
+  static __declspec(property(
+      get = getStaticF_DocumentationAttributes,
+      put = setStaticF_DocumentationAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      DocumentationAttributes;
 
   /// @brief Field ElementAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_ElementAttributes,
-      put = setStaticF_ElementAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> ElementAttributes;
+  static __declspec(property(get = getStaticF_ElementAttributes,
+                             put = setStaticF_ElementAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      ElementAttributes;
 
   /// @brief Field ElementSubelements, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ElementSubelements,
-                             put = setStaticF_ElementSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> ElementSubelements;
+                             put = setStaticF_ElementSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      ElementSubelements;
 
   /// @brief Field FacetAttributes, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_FacetAttributes,
-               put = setStaticF_FacetAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> FacetAttributes;
+  static __declspec(property(get = getStaticF_FacetAttributes,
+                             put = setStaticF_FacetAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      FacetAttributes;
 
   /// @brief Field FieldAttributes, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_FieldAttributes,
-               put = setStaticF_FieldAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> FieldAttributes;
+  static __declspec(property(get = getStaticF_FieldAttributes,
+                             put = setStaticF_FieldAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      FieldAttributes;
 
   /// @brief Field FormStringValues, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_FormStringValues, put = setStaticF_FormStringValues))::ArrayW<::StringW, ::Array<::StringW>*> FormStringValues;
+  static __declspec(property(get = getStaticF_FormStringValues, put = setStaticF_FormStringValues)) ::ArrayW<::StringW, ::Array<::StringW>*> FormStringValues;
 
   /// @brief Field GroupAttributes, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_GroupAttributes,
-               put = setStaticF_GroupAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> GroupAttributes;
+  static __declspec(property(get = getStaticF_GroupAttributes,
+                             put = setStaticF_GroupAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      GroupAttributes;
 
   /// @brief Field GroupRefAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_GroupRefAttributes,
-      put = setStaticF_GroupRefAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> GroupRefAttributes;
+  static __declspec(property(get = getStaticF_GroupRefAttributes,
+                             put = setStaticF_GroupRefAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      GroupRefAttributes;
 
   /// @brief Field GroupSubelements, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_GroupSubelements,
-                             put = setStaticF_GroupSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> GroupSubelements;
+                             put = setStaticF_GroupSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      GroupSubelements;
 
   /// @brief Field IdentityConstraintAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdentityConstraintAttributes,
-                             put = setStaticF_IdentityConstraintAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                                     ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> IdentityConstraintAttributes;
+  static __declspec(property(
+      get = getStaticF_IdentityConstraintAttributes,
+      put = setStaticF_IdentityConstraintAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      IdentityConstraintAttributes;
 
   /// @brief Field IdentityConstraintSubelements, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_IdentityConstraintSubelements,
-               put = setStaticF_IdentityConstraintSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> IdentityConstraintSubelements;
+  static __declspec(property(get = getStaticF_IdentityConstraintSubelements,
+                             put = setStaticF_IdentityConstraintSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      IdentityConstraintSubelements;
 
   /// @brief Field ImportAttributes, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_ImportAttributes,
-               put = setStaticF_ImportAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> ImportAttributes;
+  static __declspec(property(get = getStaticF_ImportAttributes,
+                             put = setStaticF_ImportAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      ImportAttributes;
 
   /// @brief Field IncludeAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_IncludeAttributes,
-      put = setStaticF_IncludeAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> IncludeAttributes;
+  static __declspec(property(get = getStaticF_IncludeAttributes,
+                             put = setStaticF_IncludeAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      IncludeAttributes;
 
   /// @brief Field NotationAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_NotationAttributes,
-      put = setStaticF_NotationAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> NotationAttributes;
+  static __declspec(property(get = getStaticF_NotationAttributes,
+                             put = setStaticF_NotationAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      NotationAttributes;
 
-  __declspec(property(get = get_ParentContainer))::System::Xml::Schema::XmlSchemaObject* ParentContainer;
+  __declspec(property(get = get_ParentContainer)) ::System::Xml::Schema::XmlSchemaObject* ParentContainer;
 
-  __declspec(property(get = get_ParentElement))::System::Xml::Schema::__SchemaNames__Token ParentElement;
+  __declspec(property(get = get_ParentElement)) ::System::Xml::Schema::__SchemaNames__Token ParentElement;
 
   /// @brief Field ParticleAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_ParticleAttributes,
-      put = setStaticF_ParticleAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> ParticleAttributes;
+  static __declspec(property(get = getStaticF_ParticleAttributes,
+                             put = setStaticF_ParticleAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      ParticleAttributes;
 
   /// @brief Field ProcessContentsStringValues, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ProcessContentsStringValues, put = setStaticF_ProcessContentsStringValues))::ArrayW<::StringW, ::Array<::StringW>*> ProcessContentsStringValues;
+  static __declspec(property(get = getStaticF_ProcessContentsStringValues, put = setStaticF_ProcessContentsStringValues)) ::ArrayW<::StringW, ::Array<::StringW>*> ProcessContentsStringValues;
 
   /// @brief Field RedefineAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_RedefineAttributes,
-      put = setStaticF_RedefineAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> RedefineAttributes;
+  static __declspec(property(get = getStaticF_RedefineAttributes,
+                             put = setStaticF_RedefineAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      RedefineAttributes;
 
   /// @brief Field RedefineSubelements, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_RedefineSubelements,
-                             put = setStaticF_RedefineSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> RedefineSubelements;
+                             put = setStaticF_RedefineSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      RedefineSubelements;
 
   /// @brief Field SchemaAttributes, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_SchemaAttributes,
-               put = setStaticF_SchemaAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> SchemaAttributes;
+  static __declspec(property(get = getStaticF_SchemaAttributes,
+                             put = setStaticF_SchemaAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      SchemaAttributes;
 
   /// @brief Field SchemaElement, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SchemaElement,
-                             put = setStaticF_SchemaElement))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> SchemaElement;
+  static __declspec(property(get = getStaticF_SchemaElement, put = setStaticF_SchemaElement)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      SchemaElement;
 
   /// @brief Field SchemaEntries, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SchemaEntries,
-                             put = setStaticF_SchemaEntries))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdEntry*>*> SchemaEntries;
+                             put = setStaticF_SchemaEntries)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdEntry*>*>
+      SchemaEntries;
 
   /// @brief Field SchemaSubelements, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SchemaSubelements,
-                             put = setStaticF_SchemaSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> SchemaSubelements;
+                             put = setStaticF_SchemaSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      SchemaSubelements;
 
   /// @brief Field SelectorAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_SelectorAttributes,
-      put = setStaticF_SelectorAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> SelectorAttributes;
+  static __declspec(property(get = getStaticF_SelectorAttributes,
+                             put = setStaticF_SelectorAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      SelectorAttributes;
 
   /// @brief Field SimpleContentAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SimpleContentAttributes,
-                             put = setStaticF_SimpleContentAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                                ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> SimpleContentAttributes;
+  static __declspec(property(
+      get = getStaticF_SimpleContentAttributes,
+      put = setStaticF_SimpleContentAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      SimpleContentAttributes;
 
   /// @brief Field SimpleContentExtensionAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SimpleContentExtensionAttributes,
-                             put = setStaticF_SimpleContentExtensionAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                                         ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> SimpleContentExtensionAttributes;
+  static __declspec(property(
+      get = getStaticF_SimpleContentExtensionAttributes,
+      put = setStaticF_SimpleContentExtensionAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      SimpleContentExtensionAttributes;
 
   /// @brief Field SimpleContentExtensionSubelements, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_SimpleContentExtensionSubelements,
-      put = setStaticF_SimpleContentExtensionSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> SimpleContentExtensionSubelements;
+  static __declspec(property(get = getStaticF_SimpleContentExtensionSubelements,
+                             put = setStaticF_SimpleContentExtensionSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      SimpleContentExtensionSubelements;
 
   /// @brief Field SimpleContentRestrictionAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SimpleContentRestrictionAttributes,
-                             put = setStaticF_SimpleContentRestrictionAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                                           ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> SimpleContentRestrictionAttributes;
+  static __declspec(property(
+      get = getStaticF_SimpleContentRestrictionAttributes,
+      put = setStaticF_SimpleContentRestrictionAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      SimpleContentRestrictionAttributes;
 
   /// @brief Field SimpleContentRestrictionSubelements, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SimpleContentRestrictionSubelements,
-                             put = setStaticF_SimpleContentRestrictionSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State,
-                                                                                            ::Array<::System::Xml::Schema::__XsdBuilder__State>*> SimpleContentRestrictionSubelements;
+                             put = setStaticF_SimpleContentRestrictionSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      SimpleContentRestrictionSubelements;
 
   /// @brief Field SimpleContentSubelements, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_SimpleContentSubelements,
-               put = setStaticF_SimpleContentSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> SimpleContentSubelements;
+  static __declspec(property(get = getStaticF_SimpleContentSubelements,
+                             put = setStaticF_SimpleContentSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      SimpleContentSubelements;
 
   /// @brief Field SimpleTypeAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_SimpleTypeAttributes,
-      put = setStaticF_SimpleTypeAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> SimpleTypeAttributes;
+  static
+      __declspec(property(get = getStaticF_SimpleTypeAttributes,
+                          put = setStaticF_SimpleTypeAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+          SimpleTypeAttributes;
 
   /// @brief Field SimpleTypeListAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SimpleTypeListAttributes,
-                             put = setStaticF_SimpleTypeListAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                                 ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> SimpleTypeListAttributes;
+  static __declspec(property(
+      get = getStaticF_SimpleTypeListAttributes,
+      put = setStaticF_SimpleTypeListAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      SimpleTypeListAttributes;
 
   /// @brief Field SimpleTypeListSubelements, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_SimpleTypeListSubelements,
-               put = setStaticF_SimpleTypeListSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> SimpleTypeListSubelements;
+  static __declspec(property(get = getStaticF_SimpleTypeListSubelements,
+                             put = setStaticF_SimpleTypeListSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      SimpleTypeListSubelements;
 
   /// @brief Field SimpleTypeRestrictionAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SimpleTypeRestrictionAttributes,
-                             put = setStaticF_SimpleTypeRestrictionAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                                        ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> SimpleTypeRestrictionAttributes;
+  static __declspec(property(
+      get = getStaticF_SimpleTypeRestrictionAttributes,
+      put = setStaticF_SimpleTypeRestrictionAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      SimpleTypeRestrictionAttributes;
 
   /// @brief Field SimpleTypeRestrictionSubelements, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_SimpleTypeRestrictionSubelements,
-      put = setStaticF_SimpleTypeRestrictionSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> SimpleTypeRestrictionSubelements;
+  static __declspec(property(get = getStaticF_SimpleTypeRestrictionSubelements,
+                             put = setStaticF_SimpleTypeRestrictionSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      SimpleTypeRestrictionSubelements;
 
   /// @brief Field SimpleTypeSubelements, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SimpleTypeSubelements,
-                             put = setStaticF_SimpleTypeSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> SimpleTypeSubelements;
+                             put = setStaticF_SimpleTypeSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      SimpleTypeSubelements;
 
   /// @brief Field SimpleTypeUnionAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SimpleTypeUnionAttributes,
-                             put = setStaticF_SimpleTypeUnionAttributes))::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*,
-                                                                                  ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> SimpleTypeUnionAttributes;
+  static __declspec(property(
+      get = getStaticF_SimpleTypeUnionAttributes,
+      put = setStaticF_SimpleTypeUnionAttributes)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+      SimpleTypeUnionAttributes;
 
   /// @brief Field SimpleTypeUnionSubelements, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_SimpleTypeUnionSubelements,
-               put = setStaticF_SimpleTypeUnionSubelements))::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> SimpleTypeUnionSubelements;
+  static __declspec(property(get = getStaticF_SimpleTypeUnionSubelements,
+                             put = setStaticF_SimpleTypeUnionSubelements)) ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>
+      SimpleTypeUnionSubelements;
 
   /// @brief Field UseStringValues, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_UseStringValues, put = setStaticF_UseStringValues))::ArrayW<::StringW, ::Array<::StringW>*> UseStringValues;
+  static __declspec(property(get = getStaticF_UseStringValues, put = setStaticF_UseStringValues)) ::ArrayW<::StringW, ::Array<::StringW>*> UseStringValues;
 
   /// @brief Field all, offset 0x100, size 0x8
-  __declspec(property(get = __cordl_internal_get_all, put = __cordl_internal_set_all))::System::Xml::Schema::XmlSchemaAll* all;
+  __declspec(property(get = __cordl_internal_get_all, put = __cordl_internal_set_all)) ::System::Xml::Schema::XmlSchemaAll* all;
 
   /// @brief Field annotation, offset 0x158, size 0x8
-  __declspec(property(get = __cordl_internal_get_annotation, put = __cordl_internal_set_annotation))::System::Xml::Schema::XmlSchemaAnnotation* annotation;
+  __declspec(property(get = __cordl_internal_get_annotation, put = __cordl_internal_set_annotation)) ::System::Xml::Schema::XmlSchemaAnnotation* annotation;
 
   /// @brief Field anyAttribute, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_anyAttribute, put = __cordl_internal_set_anyAttribute))::System::Xml::Schema::XmlSchemaAnyAttribute* anyAttribute;
+  __declspec(property(get = __cordl_internal_get_anyAttribute, put = __cordl_internal_set_anyAttribute)) ::System::Xml::Schema::XmlSchemaAnyAttribute* anyAttribute;
 
   /// @brief Field anyElement, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_anyElement, put = __cordl_internal_set_anyElement))::System::Xml::Schema::XmlSchemaAny* anyElement;
+  __declspec(property(get = __cordl_internal_get_anyElement, put = __cordl_internal_set_anyElement)) ::System::Xml::Schema::XmlSchemaAny* anyElement;
 
   /// @brief Field appInfo, offset 0x160, size 0x8
-  __declspec(property(get = __cordl_internal_get_appInfo, put = __cordl_internal_set_appInfo))::System::Xml::Schema::XmlSchemaAppInfo* appInfo;
+  __declspec(property(get = __cordl_internal_get_appInfo, put = __cordl_internal_set_appInfo)) ::System::Xml::Schema::XmlSchemaAppInfo* appInfo;
 
   /// @brief Field attribute, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_attribute, put = __cordl_internal_set_attribute))::System::Xml::Schema::XmlSchemaAttribute* attribute;
+  __declspec(property(get = __cordl_internal_get_attribute, put = __cordl_internal_set_attribute)) ::System::Xml::Schema::XmlSchemaAttribute* attribute;
 
   /// @brief Field attributeGroup, offset 0x120, size 0x8
-  __declspec(property(get = __cordl_internal_get_attributeGroup, put = __cordl_internal_set_attributeGroup))::System::Xml::Schema::XmlSchemaAttributeGroup* attributeGroup;
+  __declspec(property(get = __cordl_internal_get_attributeGroup, put = __cordl_internal_set_attributeGroup)) ::System::Xml::Schema::XmlSchemaAttributeGroup* attributeGroup;
 
   /// @brief Field attributeGroupRef, offset 0x128, size 0x8
-  __declspec(property(get = __cordl_internal_get_attributeGroupRef, put = __cordl_internal_set_attributeGroupRef))::System::Xml::Schema::XmlSchemaAttributeGroupRef* attributeGroupRef;
+  __declspec(property(get = __cordl_internal_get_attributeGroupRef, put = __cordl_internal_set_attributeGroupRef)) ::System::Xml::Schema::XmlSchemaAttributeGroupRef* attributeGroupRef;
 
   /// @brief Field canIncludeImport, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_canIncludeImport, put = __cordl_internal_set_canIncludeImport)) bool canIncludeImport;
 
   /// @brief Field choice, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get_choice, put = __cordl_internal_set_choice))::System::Xml::Schema::XmlSchemaChoice* choice;
+  __declspec(property(get = __cordl_internal_get_choice, put = __cordl_internal_set_choice)) ::System::Xml::Schema::XmlSchemaChoice* choice;
 
   /// @brief Field complexContent, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_complexContent, put = __cordl_internal_set_complexContent))::System::Xml::Schema::XmlSchemaComplexContent* complexContent;
+  __declspec(property(get = __cordl_internal_get_complexContent, put = __cordl_internal_set_complexContent)) ::System::Xml::Schema::XmlSchemaComplexContent* complexContent;
 
   /// @brief Field complexContentExtension, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_complexContentExtension,
-                      put = __cordl_internal_set_complexContentExtension))::System::Xml::Schema::XmlSchemaComplexContentExtension* complexContentExtension;
+                      put = __cordl_internal_set_complexContentExtension)) ::System::Xml::Schema::XmlSchemaComplexContentExtension* complexContentExtension;
 
   /// @brief Field complexContentRestriction, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_complexContentRestriction,
-                      put = __cordl_internal_set_complexContentRestriction))::System::Xml::Schema::XmlSchemaComplexContentRestriction* complexContentRestriction;
+                      put = __cordl_internal_set_complexContentRestriction)) ::System::Xml::Schema::XmlSchemaComplexContentRestriction* complexContentRestriction;
 
   /// @brief Field complexType, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_complexType, put = __cordl_internal_set_complexType))::System::Xml::Schema::XmlSchemaComplexType* complexType;
+  __declspec(property(get = __cordl_internal_get_complexType, put = __cordl_internal_set_complexType)) ::System::Xml::Schema::XmlSchemaComplexType* complexType;
 
   /// @brief Field containerStack, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_containerStack, put = __cordl_internal_set_containerStack))::System::Collections::Stack* containerStack;
+  __declspec(property(get = __cordl_internal_get_containerStack, put = __cordl_internal_set_containerStack)) ::System::Collections::Stack* containerStack;
 
   /// @brief Field currentEntry, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_currentEntry, put = __cordl_internal_set_currentEntry))::System::Xml::Schema::__XsdBuilder__XsdEntry* currentEntry;
+  __declspec(property(get = __cordl_internal_get_currentEntry, put = __cordl_internal_set_currentEntry)) ::System::Xml::Schema::__XsdBuilder__XsdEntry* currentEntry;
 
   /// @brief Field documentation, offset 0x168, size 0x8
-  __declspec(property(get = __cordl_internal_get_documentation, put = __cordl_internal_set_documentation))::System::Xml::Schema::XmlSchemaDocumentation* documentation;
+  __declspec(property(get = __cordl_internal_get_documentation, put = __cordl_internal_set_documentation)) ::System::Xml::Schema::XmlSchemaDocumentation* documentation;
 
   /// @brief Field element, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_element, put = __cordl_internal_set_element))::System::Xml::Schema::XmlSchemaElement* element;
+  __declspec(property(get = __cordl_internal_get_element, put = __cordl_internal_set_element)) ::System::Xml::Schema::XmlSchemaElement* element;
 
   /// @brief Field facet, offset 0x170, size 0x8
-  __declspec(property(get = __cordl_internal_get_facet, put = __cordl_internal_set_facet))::System::Xml::Schema::XmlSchemaFacet* facet;
+  __declspec(property(get = __cordl_internal_get_facet, put = __cordl_internal_set_facet)) ::System::Xml::Schema::XmlSchemaFacet* facet;
 
   /// @brief Field group, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get_group, put = __cordl_internal_set_group))::System::Xml::Schema::XmlSchemaGroup* group;
+  __declspec(property(get = __cordl_internal_get_group, put = __cordl_internal_set_group)) ::System::Xml::Schema::XmlSchemaGroup* group;
 
   /// @brief Field groupRef, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get_groupRef, put = __cordl_internal_set_groupRef))::System::Xml::Schema::XmlSchemaGroupRef* groupRef;
+  __declspec(property(get = __cordl_internal_get_groupRef, put = __cordl_internal_set_groupRef)) ::System::Xml::Schema::XmlSchemaGroupRef* groupRef;
 
   /// @brief Field hasChild, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_hasChild, put = __cordl_internal_set_hasChild)) bool hasChild;
 
   /// @brief Field identityConstraint, offset 0x138, size 0x8
-  __declspec(property(get = __cordl_internal_get_identityConstraint, put = __cordl_internal_set_identityConstraint))::System::Xml::Schema::XmlSchemaIdentityConstraint* identityConstraint;
+  __declspec(property(get = __cordl_internal_get_identityConstraint, put = __cordl_internal_set_identityConstraint)) ::System::Xml::Schema::XmlSchemaIdentityConstraint* identityConstraint;
 
   /// @brief Field import, offset 0x150, size 0x8
-  __declspec(property(get = __cordl_internal_get_import, put = __cordl_internal_set_import))::System::Xml::Schema::XmlSchemaImport* import;
+  __declspec(property(get = __cordl_internal_get_import, put = __cordl_internal_set_import)) ::System::Xml::Schema::XmlSchemaImport* import;
 
   /// @brief Field include, offset 0x148, size 0x8
-  __declspec(property(get = __cordl_internal_get_include, put = __cordl_internal_set_include))::System::Xml::Schema::XmlSchemaInclude* include;
+  __declspec(property(get = __cordl_internal_get_include, put = __cordl_internal_set_include)) ::System::Xml::Schema::XmlSchemaInclude* include;
 
   /// @brief Field markup, offset 0x178, size 0x8
-  __declspec(property(get = __cordl_internal_get_markup, put = __cordl_internal_set_markup))::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> markup;
+  __declspec(property(get = __cordl_internal_get_markup, put = __cordl_internal_set_markup)) ::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> markup;
 
   /// @brief Field nameTable, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
+  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable* nameTable;
 
   /// @brief Field namespaceManager, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_namespaceManager, put = __cordl_internal_set_namespaceManager))::System::Xml::XmlNamespaceManager* namespaceManager;
+  __declspec(property(get = __cordl_internal_get_namespaceManager, put = __cordl_internal_set_namespaceManager)) ::System::Xml::XmlNamespaceManager* namespaceManager;
 
   /// @brief Field namespaces, offset 0x198, size 0x8
-  __declspec(property(get = __cordl_internal_get_namespaces, put = __cordl_internal_set_namespaces))::System::Collections::Hashtable* namespaces;
+  __declspec(property(get = __cordl_internal_get_namespaces, put = __cordl_internal_set_namespaces)) ::System::Collections::Hashtable* namespaces;
 
   /// @brief Field nextEntry, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_nextEntry, put = __cordl_internal_set_nextEntry))::System::Xml::Schema::__XsdBuilder__XsdEntry* nextEntry;
+  __declspec(property(get = __cordl_internal_get_nextEntry, put = __cordl_internal_set_nextEntry)) ::System::Xml::Schema::__XsdBuilder__XsdEntry* nextEntry;
 
   /// @brief Field notation, offset 0x130, size 0x8
-  __declspec(property(get = __cordl_internal_get_notation, put = __cordl_internal_set_notation))::System::Xml::Schema::XmlSchemaNotation* notation;
+  __declspec(property(get = __cordl_internal_get_notation, put = __cordl_internal_set_notation)) ::System::Xml::Schema::XmlSchemaNotation* notation;
 
   /// @brief Field particle, offset 0x118, size 0x8
-  __declspec(property(get = __cordl_internal_get_particle, put = __cordl_internal_set_particle))::System::Xml::Schema::XmlSchemaParticle* particle;
+  __declspec(property(get = __cordl_internal_get_particle, put = __cordl_internal_set_particle)) ::System::Xml::Schema::XmlSchemaParticle* particle;
 
   /// @brief Field positionInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_positionInfo, put = __cordl_internal_set_positionInfo))::System::Xml::PositionInfo* positionInfo;
+  __declspec(property(get = __cordl_internal_get_positionInfo, put = __cordl_internal_set_positionInfo)) ::System::Xml::PositionInfo* positionInfo;
 
   /// @brief Field reader, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader))::System::Xml::XmlReader* reader;
+  __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader)) ::System::Xml::XmlReader* reader;
 
   /// @brief Field redefine, offset 0x180, size 0x8
-  __declspec(property(get = __cordl_internal_get_redefine, put = __cordl_internal_set_redefine))::System::Xml::Schema::XmlSchemaRedefine* redefine;
+  __declspec(property(get = __cordl_internal_get_redefine, put = __cordl_internal_set_redefine)) ::System::Xml::Schema::XmlSchemaRedefine* redefine;
 
   /// @brief Field schema, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_schema, put = __cordl_internal_set_schema))::System::Xml::Schema::XmlSchema* schema;
+  __declspec(property(get = __cordl_internal_get_schema, put = __cordl_internal_set_schema)) ::System::Xml::Schema::XmlSchema* schema;
 
   /// @brief Field schemaNames, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_schemaNames, put = __cordl_internal_set_schemaNames))::System::Xml::Schema::SchemaNames* schemaNames;
+  __declspec(property(get = __cordl_internal_get_schemaNames, put = __cordl_internal_set_schemaNames)) ::System::Xml::Schema::SchemaNames* schemaNames;
 
   /// @brief Field sequence, offset 0x110, size 0x8
-  __declspec(property(get = __cordl_internal_get_sequence, put = __cordl_internal_set_sequence))::System::Xml::Schema::XmlSchemaSequence* sequence;
+  __declspec(property(get = __cordl_internal_get_sequence, put = __cordl_internal_set_sequence)) ::System::Xml::Schema::XmlSchemaSequence* sequence;
 
   /// @brief Field simpleContent, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_simpleContent, put = __cordl_internal_set_simpleContent))::System::Xml::Schema::XmlSchemaSimpleContent* simpleContent;
+  __declspec(property(get = __cordl_internal_get_simpleContent, put = __cordl_internal_set_simpleContent)) ::System::Xml::Schema::XmlSchemaSimpleContent* simpleContent;
 
   /// @brief Field simpleContentExtension, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_simpleContentExtension,
-                      put = __cordl_internal_set_simpleContentExtension))::System::Xml::Schema::XmlSchemaSimpleContentExtension* simpleContentExtension;
+                      put = __cordl_internal_set_simpleContentExtension)) ::System::Xml::Schema::XmlSchemaSimpleContentExtension* simpleContentExtension;
 
   /// @brief Field simpleContentRestriction, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get_simpleContentRestriction,
-                      put = __cordl_internal_set_simpleContentRestriction))::System::Xml::Schema::XmlSchemaSimpleContentRestriction* simpleContentRestriction;
+                      put = __cordl_internal_set_simpleContentRestriction)) ::System::Xml::Schema::XmlSchemaSimpleContentRestriction* simpleContentRestriction;
 
   /// @brief Field simpleType, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_simpleType, put = __cordl_internal_set_simpleType))::System::Xml::Schema::XmlSchemaSimpleType* simpleType;
+  __declspec(property(get = __cordl_internal_get_simpleType, put = __cordl_internal_set_simpleType)) ::System::Xml::Schema::XmlSchemaSimpleType* simpleType;
 
   /// @brief Field simpleTypeList, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get_simpleTypeList, put = __cordl_internal_set_simpleTypeList))::System::Xml::Schema::XmlSchemaSimpleTypeList* simpleTypeList;
+  __declspec(property(get = __cordl_internal_get_simpleTypeList, put = __cordl_internal_set_simpleTypeList)) ::System::Xml::Schema::XmlSchemaSimpleTypeList* simpleTypeList;
 
   /// @brief Field simpleTypeRestriction, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get_simpleTypeRestriction, put = __cordl_internal_set_simpleTypeRestriction))::System::Xml::Schema::XmlSchemaSimpleTypeRestriction* simpleTypeRestriction;
+  __declspec(property(get = __cordl_internal_get_simpleTypeRestriction, put = __cordl_internal_set_simpleTypeRestriction)) ::System::Xml::Schema::XmlSchemaSimpleTypeRestriction* simpleTypeRestriction;
 
   /// @brief Field simpleTypeUnion, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_simpleTypeUnion, put = __cordl_internal_set_simpleTypeUnion))::System::Xml::Schema::XmlSchemaSimpleTypeUnion* simpleTypeUnion;
+  __declspec(property(get = __cordl_internal_get_simpleTypeUnion, put = __cordl_internal_set_simpleTypeUnion)) ::System::Xml::Schema::XmlSchemaSimpleTypeUnion* simpleTypeUnion;
 
   /// @brief Field stateHistory, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_stateHistory, put = __cordl_internal_set_stateHistory))::System::Xml::HWStack* stateHistory;
+  __declspec(property(get = __cordl_internal_get_stateHistory, put = __cordl_internal_set_stateHistory)) ::System::Xml::HWStack* stateHistory;
 
   /// @brief Field unhandledAttributes, offset 0x190, size 0x8
-  __declspec(property(get = __cordl_internal_get_unhandledAttributes, put = __cordl_internal_set_unhandledAttributes))::System::Collections::ArrayList* unhandledAttributes;
+  __declspec(property(get = __cordl_internal_get_unhandledAttributes, put = __cordl_internal_set_unhandledAttributes)) ::System::Collections::ArrayList* unhandledAttributes;
 
   /// @brief Field validationEventHandler, offset 0x188, size 0x8
-  __declspec(property(get = __cordl_internal_get_validationEventHandler, put = __cordl_internal_set_validationEventHandler))::System::Xml::Schema::ValidationEventHandler* validationEventHandler;
+  __declspec(property(get = __cordl_internal_get_validationEventHandler, put = __cordl_internal_set_validationEventHandler)) ::System::Xml::Schema::ValidationEventHandler* validationEventHandler;
 
   /// @brief Field xpath, offset 0x140, size 0x8
-  __declspec(property(get = __cordl_internal_get_xpath, put = __cordl_internal_set_xpath))::System::Xml::Schema::XmlSchemaXPath* xpath;
+  __declspec(property(get = __cordl_internal_get_xpath, put = __cordl_internal_set_xpath)) ::System::Xml::Schema::XmlSchemaXPath* xpath;
 
   /// @brief Field xso, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_xso, put = __cordl_internal_set_xso))::System::Xml::Schema::XmlSchemaObject* xso;
+  __declspec(property(get = __cordl_internal_get_xso, put = __cordl_internal_set_xso)) ::System::Xml::Schema::XmlSchemaObject* xso;
 
-  /// @brief Method AddAttribute, addr 0x2e7c678, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x427d2c4, size 0x230, virtual false, abstract: false, final false
   inline void AddAttribute(::System::Xml::Schema::XmlSchemaObject* value);
 
-  /// @brief Method AddParticle, addr 0x2e7ec5c, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method AddParticle, addr 0x427f918, size 0x2d8, virtual false, abstract: false, final false
   inline void AddParticle(::System::Xml::Schema::XmlSchemaParticle* particle);
 
-  /// @brief Method BuildAnnotated_Id, addr 0x2e7bd70, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method BuildAnnotated_Id, addr 0x427c9cc, size 0x24, virtual false, abstract: false, final false
   static inline void BuildAnnotated_Id(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAnyAttribute_Namespace, addr 0x2e7ea4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildAnyAttribute_Namespace, addr 0x427f710, size 0x20, virtual false, abstract: false, final false
   static inline void BuildAnyAttribute_Namespace(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAnyAttribute_ProcessContents, addr 0x2e7ea6c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method BuildAnyAttribute_ProcessContents, addr 0x427f730, size 0xa0, virtual false, abstract: false, final false
   static inline void BuildAnyAttribute_ProcessContents(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAny_Namespace, addr 0x2e7f1c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildAny_Namespace, addr 0x427fe54, size 0x20, virtual false, abstract: false, final false
   static inline void BuildAny_Namespace(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAny_ProcessContents, addr 0x2e7f1e4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method BuildAny_ProcessContents, addr 0x427fe74, size 0xa0, virtual false, abstract: false, final false
   static inline void BuildAny_ProcessContents(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAppinfo_Source, addr 0x2e7fccc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BuildAppinfo_Source, addr 0x428090c, size 0x68, virtual false, abstract: false, final false
   static inline void BuildAppinfo_Source(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttributeGroupRef_Ref, addr 0x2e7e7b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildAttributeGroupRef_Ref, addr 0x427f428, size 0x70, virtual false, abstract: false, final false
   static inline void BuildAttributeGroupRef_Ref(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttributeGroup_Name, addr 0x2e7e728, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildAttributeGroup_Name, addr 0x427f39c, size 0x20, virtual false, abstract: false, final false
   static inline void BuildAttributeGroup_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttribute_Default, addr 0x2e7c880, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildAttribute_Default, addr 0x427d4f4, size 0x20, virtual false, abstract: false, final false
   static inline void BuildAttribute_Default(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttribute_Fixed, addr 0x2e7c8a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildAttribute_Fixed, addr 0x427d514, size 0x20, virtual false, abstract: false, final false
   static inline void BuildAttribute_Fixed(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttribute_Form, addr 0x2e7c8c0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method BuildAttribute_Form, addr 0x427d534, size 0xa0, virtual false, abstract: false, final false
   static inline void BuildAttribute_Form(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttribute_Name, addr 0x2e7cbd4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildAttribute_Name, addr 0x427d848, size 0x20, virtual false, abstract: false, final false
   static inline void BuildAttribute_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttribute_Ref, addr 0x2e7ca00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildAttribute_Ref, addr 0x427d674, size 0x70, virtual false, abstract: false, final false
   static inline void BuildAttribute_Ref(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttribute_Type, addr 0x2e7cbf4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildAttribute_Type, addr 0x427d868, size 0x70, virtual false, abstract: false, final false
   static inline void BuildAttribute_Type(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildAttribute_Use, addr 0x2e7c960, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method BuildAttribute_Use, addr 0x427d5d4, size 0xa0, virtual false, abstract: false, final false
   static inline void BuildAttribute_Use(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexContentExtension_Base, addr 0x2e7e198, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexContentExtension_Base, addr 0x427ee20, size 0x70, virtual false, abstract: false, final false
   static inline void BuildComplexContentExtension_Base(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexContentRestriction_Base, addr 0x2e7e288, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexContentRestriction_Base, addr 0x427ef0c, size 0x70, virtual false, abstract: false, final false
   static inline void BuildComplexContentRestriction_Base(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexContent_Mixed, addr 0x2e7e054, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexContent_Mixed, addr 0x427ece0, size 0x70, virtual false, abstract: false, final false
   static inline void BuildComplexContent_Mixed(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexType_Abstract, addr 0x2e7dd90, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexType_Abstract, addr 0x427ea20, size 0x70, virtual false, abstract: false, final false
   static inline void BuildComplexType_Abstract(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexType_Block, addr 0x2e7de00, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexType_Block, addr 0x427ea90, size 0x68, virtual false, abstract: false, final false
   static inline void BuildComplexType_Block(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexType_Final, addr 0x2e7de68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexType_Final, addr 0x427eaf8, size 0x68, virtual false, abstract: false, final false
   static inline void BuildComplexType_Final(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexType_Mixed, addr 0x2e7ded0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexType_Mixed, addr 0x427eb60, size 0x78, virtual false, abstract: false, final false
   static inline void BuildComplexType_Mixed(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildComplexType_Name, addr 0x2e7df48, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildComplexType_Name, addr 0x427ebd8, size 0x20, virtual false, abstract: false, final false
   static inline void BuildComplexType_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildDocumentation_Source, addr 0x2e7fe04, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BuildDocumentation_Source, addr 0x4280a40, size 0x68, virtual false, abstract: false, final false
   static inline void BuildDocumentation_Source(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildDocumentation_XmlLang, addr 0x2e7fe6c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method BuildDocumentation_XmlLang, addr 0x4280aa8, size 0x140, virtual false, abstract: false, final false
   static inline void BuildDocumentation_XmlLang(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Abstract, addr 0x2e7cd58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Abstract, addr 0x427d9c8, size 0x70, virtual false, abstract: false, final false
   static inline void BuildElement_Abstract(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Block, addr 0x2e7ced4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Block, addr 0x427db44, size 0x68, virtual false, abstract: false, final false
   static inline void BuildElement_Block(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Default, addr 0x2e7cf3c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Default, addr 0x427dbac, size 0x20, virtual false, abstract: false, final false
   static inline void BuildElement_Default(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Final, addr 0x2e7d06c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Final, addr 0x427dcdc, size 0x68, virtual false, abstract: false, final false
   static inline void BuildElement_Final(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Fixed, addr 0x2e7d0d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Fixed, addr 0x427dd44, size 0x20, virtual false, abstract: false, final false
   static inline void BuildElement_Fixed(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Form, addr 0x2e7cf5c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Form, addr 0x427dbcc, size 0xa0, virtual false, abstract: false, final false
   static inline void BuildElement_Form(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_MaxOccurs, addr 0x2e7d0f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_MaxOccurs, addr 0x427dd64, size 0x1c, virtual false, abstract: false, final false
   static inline void BuildElement_MaxOccurs(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_MinOccurs, addr 0x2e7d1d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_MinOccurs, addr 0x427de40, size 0x1c, virtual false, abstract: false, final false
   static inline void BuildElement_MinOccurs(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Name, addr 0x2e7d2ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Name, addr 0x427df1c, size 0x20, virtual false, abstract: false, final false
   static inline void BuildElement_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Nillable, addr 0x2e7d2cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Nillable, addr 0x427df3c, size 0x70, virtual false, abstract: false, final false
   static inline void BuildElement_Nillable(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Ref, addr 0x2e7d33c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Ref, addr 0x427dfac, size 0x70, virtual false, abstract: false, final false
   static inline void BuildElement_Ref(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_SubstitutionGroup, addr 0x2e7cffc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_SubstitutionGroup, addr 0x427dc6c, size 0x70, virtual false, abstract: false, final false
   static inline void BuildElement_SubstitutionGroup(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildElement_Type, addr 0x2e7d3ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildElement_Type, addr 0x427e01c, size 0x70, virtual false, abstract: false, final false
   static inline void BuildElement_Type(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildFacet_Fixed, addr 0x2e7f69c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BuildFacet_Fixed, addr 0x42802f8, size 0x78, virtual false, abstract: false, final false
   static inline void BuildFacet_Fixed(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildFacet_Value, addr 0x2e7f714, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildFacet_Value, addr 0x4280370, size 0x20, virtual false, abstract: false, final false
   static inline void BuildFacet_Value(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildField_XPath, addr 0x2e7fb38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildField_XPath, addr 0x4280780, size 0x20, virtual false, abstract: false, final false
   static inline void BuildField_XPath(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildGroupRef_Ref, addr 0x2e7ef88, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildGroupRef_Ref, addr 0x427fc28, size 0x70, virtual false, abstract: false, final false
   static inline void BuildGroupRef_Ref(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildGroup_Name, addr 0x2e7ebc8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildGroup_Name, addr 0x427f888, size 0x20, virtual false, abstract: false, final false
   static inline void BuildGroup_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildIdentityConstraint_Name, addr 0x2e7f87c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildIdentityConstraint_Name, addr 0x42804cc, size 0x20, virtual false, abstract: false, final false
   static inline void BuildIdentityConstraint_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildIdentityConstraint_Refer, addr 0x2e7f89c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method BuildIdentityConstraint_Refer, addr 0x42804ec, size 0x120, virtual false, abstract: false, final false
   static inline void BuildIdentityConstraint_Refer(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildImport_Namespace, addr 0x2e7c4a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildImport_Namespace, addr 0x427d0fc, size 0x20, virtual false, abstract: false, final false
   static inline void BuildImport_Namespace(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildImport_SchemaLocation, addr 0x2e7c4c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildImport_SchemaLocation, addr 0x427d11c, size 0x20, virtual false, abstract: false, final false
   static inline void BuildImport_SchemaLocation(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildInclude_SchemaLocation, addr 0x2e7c3dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildInclude_SchemaLocation, addr 0x427d034, size 0x20, virtual false, abstract: false, final false
   static inline void BuildInclude_SchemaLocation(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildNotation_Name, addr 0x2e7f308, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildNotation_Name, addr 0x427ff94, size 0x20, virtual false, abstract: false, final false
   static inline void BuildNotation_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildNotation_Public, addr 0x2e7f328, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildNotation_Public, addr 0x427ffb4, size 0x20, virtual false, abstract: false, final false
   static inline void BuildNotation_Public(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildNotation_System, addr 0x2e7f348, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildNotation_System, addr 0x427ffd4, size 0x20, virtual false, abstract: false, final false
   static inline void BuildNotation_System(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildParticle_MaxOccurs, addr 0x2e7ef50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method BuildParticle_MaxOccurs, addr 0x427fbf0, size 0x1c, virtual false, abstract: false, final false
   static inline void BuildParticle_MaxOccurs(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildParticle_MinOccurs, addr 0x2e7ef6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method BuildParticle_MinOccurs, addr 0x427fc0c, size 0x1c, virtual false, abstract: false, final false
   static inline void BuildParticle_MinOccurs(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildRedefine_SchemaLocation, addr 0x2e7c594, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildRedefine_SchemaLocation, addr 0x427d1e4, size 0x20, virtual false, abstract: false, final false
   static inline void BuildRedefine_SchemaLocation(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSchema_AttributeFormDefault, addr 0x2e7bd94, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method BuildSchema_AttributeFormDefault, addr 0x427c9f0, size 0xa0, virtual false, abstract: false, final false
   static inline void BuildSchema_AttributeFormDefault(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSchema_BlockDefault, addr 0x2e7c2a4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BuildSchema_BlockDefault, addr 0x427cf00, size 0x68, virtual false, abstract: false, final false
   static inline void BuildSchema_BlockDefault(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSchema_ElementFormDefault, addr 0x2e7bf08, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method BuildSchema_ElementFormDefault, addr 0x427cb64, size 0xa0, virtual false, abstract: false, final false
   static inline void BuildSchema_ElementFormDefault(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSchema_FinalDefault, addr 0x2e7bfe8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BuildSchema_FinalDefault, addr 0x427cc44, size 0x68, virtual false, abstract: false, final false
   static inline void BuildSchema_FinalDefault(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSchema_TargetNamespace, addr 0x2e7bfa8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildSchema_TargetNamespace, addr 0x427cc04, size 0x20, virtual false, abstract: false, final false
   static inline void BuildSchema_TargetNamespace(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSchema_Version, addr 0x2e7bfc8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildSchema_Version, addr 0x427cc24, size 0x20, virtual false, abstract: false, final false
   static inline void BuildSchema_Version(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSelector_XPath, addr 0x2e7fa64, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildSelector_XPath, addr 0x42806b0, size 0x20, virtual false, abstract: false, final false
   static inline void BuildSelector_XPath(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSimpleContentExtension_Base, addr 0x2e7e4b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildSimpleContentExtension_Base, addr 0x427f134, size 0x70, virtual false, abstract: false, final false
   static inline void BuildSimpleContentExtension_Base(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSimpleContentRestriction_Base, addr 0x2e7e5fc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildSimpleContentRestriction_Base, addr 0x427f274, size 0x70, virtual false, abstract: false, final false
   static inline void BuildSimpleContentRestriction_Base(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSimpleTypeList_ItemType, addr 0x2e7daa8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildSimpleTypeList_ItemType, addr 0x427e740, size 0x70, virtual false, abstract: false, final false
   static inline void BuildSimpleTypeList_ItemType(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSimpleTypeRestriction_Base, addr 0x2e7dbc0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildSimpleTypeRestriction_Base, addr 0x427e854, size 0x70, virtual false, abstract: false, final false
   static inline void BuildSimpleTypeRestriction_Base(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSimpleTypeUnion_MemberTypes, addr 0x2e7d81c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method BuildSimpleTypeUnion_MemberTypes, addr 0x427e4b8, size 0x1dc, virtual false, abstract: false, final false
   static inline void BuildSimpleTypeUnion_MemberTypes(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSimpleType_Final, addr 0x2e7d70c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BuildSimpleType_Final, addr 0x427e3ac, size 0x68, virtual false, abstract: false, final false
   static inline void BuildSimpleType_Final(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method BuildSimpleType_Name, addr 0x2e7d6ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BuildSimpleType_Name, addr 0x427e38c, size 0x20, virtual false, abstract: false, final false
   static inline void BuildSimpleType_Name(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method EndAppinfo, addr 0x2e7fd38, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EndAppinfo, addr 0x4280978, size 0x24, virtual false, abstract: false, final false
   static inline void EndAppinfo(::System::Xml::Schema::XsdBuilder* builder);
 
-  /// @brief Method EndChildren, addr 0x2e7af18, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method EndChildren, addr 0x427bb74, size 0x3c, virtual true, abstract: false, final false
   inline void EndChildren();
 
-  /// @brief Method EndDocumentation, addr 0x2e7ffac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EndDocumentation, addr 0x4280be8, size 0x24, virtual false, abstract: false, final false
   static inline void EndDocumentation(::System::Xml::Schema::XsdBuilder* builder);
 
-  /// @brief Method EndRedefine, addr 0x2e7c5b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method EndRedefine, addr 0x427d204, size 0x1c, virtual false, abstract: false, final false
   static inline void EndRedefine(::System::Xml::Schema::XsdBuilder* builder);
 
-  /// @brief Method GetContainer, addr 0x2e7b010, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetContainer, addr 0x427bc6c, size 0x138, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* GetContainer(::System::Xml::Schema::__XsdBuilder__State state);
 
-  /// @brief Method GetNextState, addr 0x2e7a3d8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetNextState, addr 0x427b080, size 0x15c, virtual false, abstract: false, final false
   inline bool GetNextState(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method InitAll, addr 0x2e7eff8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InitAll, addr 0x427fc98, size 0x70, virtual false, abstract: false, final false
   static inline void InitAll(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitAnnotation, addr 0x2e7fb58, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method InitAnnotation, addr 0x42807a0, size 0xc8, virtual false, abstract: false, final false
   static inline void InitAnnotation(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitAny, addr 0x2e7f150, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InitAny, addr 0x427fde4, size 0x70, virtual false, abstract: false, final false
   static inline void InitAny(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitAnyAttribute, addr 0x2e7e828, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method InitAnyAttribute, addr 0x427f498, size 0x278, virtual false, abstract: false, final false
   static inline void InitAnyAttribute(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitAppinfo, addr 0x2e7fc24, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method InitAppinfo, addr 0x4280868, size 0xa4, virtual false, abstract: false, final false
   static inline void InitAppinfo(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitAttribute, addr 0x2e7c5d0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method InitAttribute, addr 0x427d220, size 0xa4, virtual false, abstract: false, final false
   static inline void InitAttribute(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitAttributeGroup, addr 0x2e7e66c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InitAttributeGroup, addr 0x427f2e4, size 0xb8, virtual false, abstract: false, final false
   static inline void InitAttributeGroup(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitAttributeGroupRef, addr 0x2e7e748, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InitAttributeGroupRef, addr 0x427f3bc, size 0x6c, virtual false, abstract: false, final false
   static inline void InitAttributeGroupRef(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitChoice, addr 0x2e7f06c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InitChoice, addr 0x427fd08, size 0x70, virtual false, abstract: false, final false
   static inline void InitChoice(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitComplexContent, addr 0x2e7df68, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method InitComplexContent, addr 0x427ebf8, size 0xe8, virtual false, abstract: false, final false
   static inline void InitComplexContent(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitComplexContentExtension, addr 0x2e7e0c4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method InitComplexContentExtension, addr 0x427ed50, size 0xd0, virtual false, abstract: false, final false
   static inline void InitComplexContentExtension(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitComplexContentRestriction, addr 0x2e7e208, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InitComplexContentRestriction, addr 0x427ee90, size 0x7c, virtual false, abstract: false, final false
   static inline void InitComplexContentRestriction(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitComplexType, addr 0x2e7dc30, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method InitComplexType, addr 0x427e8c4, size 0x15c, virtual false, abstract: false, final false
   static inline void InitComplexType(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitDocumentation, addr 0x2e7fd5c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method InitDocumentation, addr 0x428099c, size 0xa4, virtual false, abstract: false, final false
   static inline void InitDocumentation(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitElement, addr 0x2e7cc64, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method InitElement, addr 0x427d8d8, size 0xf0, virtual false, abstract: false, final false
   static inline void InitElement(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitFacet, addr 0x2e7f368, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method InitFacet, addr 0x427fff4, size 0x304, virtual false, abstract: false, final false
   static inline void InitFacet(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitField, addr 0x2e7fa84, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InitField, addr 0x42806d0, size 0xb0, virtual false, abstract: false, final false
   static inline void InitField(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitGroup, addr 0x2e7eb0c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InitGroup, addr 0x427f7d0, size 0xb8, virtual false, abstract: false, final false
   static inline void InitGroup(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitGroupRef, addr 0x2e7ebe8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InitGroupRef, addr 0x427f8a8, size 0x70, virtual false, abstract: false, final false
   static inline void InitGroupRef(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitIdentityConstraint, addr 0x2e7f734, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method InitIdentityConstraint, addr 0x4280390, size 0x13c, virtual false, abstract: false, final false
   static inline void InitIdentityConstraint(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitImport, addr 0x2e7c3fc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InitImport, addr 0x427d054, size 0xa8, virtual false, abstract: false, final false
   static inline void InitImport(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitInclude, addr 0x2e7c330, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InitInclude, addr 0x427cf8c, size 0xa8, virtual false, abstract: false, final false
   static inline void InitInclude(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitNotation, addr 0x2e7f284, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InitNotation, addr 0x427ff14, size 0x80, virtual false, abstract: false, final false
   static inline void InitNotation(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitRedefine, addr 0x2e7c4e8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InitRedefine, addr 0x427d13c, size 0xa8, virtual false, abstract: false, final false
   static inline void InitRedefine(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSchema, addr 0x2e7c30c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method InitSchema, addr 0x427cf68, size 0x24, virtual false, abstract: false, final false
   static inline void InitSchema(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSelector, addr 0x2e7f9bc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method InitSelector, addr 0x428060c, size 0xa4, virtual false, abstract: false, final false
   static inline void InitSelector(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSequence, addr 0x2e7f0e0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InitSequence, addr 0x427fd78, size 0x6c, virtual false, abstract: false, final false
   static inline void InitSequence(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSimpleContent, addr 0x2e7e2f8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method InitSimpleContent, addr 0x427ef7c, size 0xe8, virtual false, abstract: false, final false
   static inline void InitSimpleContent(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSimpleContentExtension, addr 0x2e7e3e4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method InitSimpleContentExtension, addr 0x427f064, size 0xd0, virtual false, abstract: false, final false
   static inline void InitSimpleContentExtension(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSimpleContentRestriction, addr 0x2e7e528, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method InitSimpleContentRestriction, addr 0x427f1a4, size 0xd0, virtual false, abstract: false, final false
   static inline void InitSimpleContentRestriction(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSimpleType, addr 0x2e7d41c, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method InitSimpleType, addr 0x427e08c, size 0x300, virtual false, abstract: false, final false
   static inline void InitSimpleType(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSimpleTypeList, addr 0x2e7da00, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method InitSimpleTypeList, addr 0x427e69c, size 0xa4, virtual false, abstract: false, final false
   static inline void InitSimpleTypeList(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSimpleTypeRestriction, addr 0x2e7db18, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method InitSimpleTypeRestriction, addr 0x427e7b0, size 0xa4, virtual false, abstract: false, final false
   static inline void InitSimpleTypeRestriction(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method InitSimpleTypeUnion, addr 0x2e7d774, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method InitSimpleTypeUnion, addr 0x427e414, size 0xa4, virtual false, abstract: false, final false
   static inline void InitSimpleTypeUnion(::System::Xml::Schema::XsdBuilder* builder, ::StringW value);
 
-  /// @brief Method IsContentParsed, addr 0x2e7ad18, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method IsContentParsed, addr 0x427b974, size 0x1c, virtual true, abstract: false, final false
   inline bool IsContentParsed();
 
-  /// @brief Method IsSkipableElement, addr 0x2e7a668, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsSkipableElement, addr 0x427b310, size 0x28, virtual false, abstract: false, final false
   inline bool IsSkipableElement(::System::Xml::XmlQualifiedName* qname);
 
   static inline ::System::Xml::Schema::XsdBuilder* New_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlNamespaceManager* curmgr, ::System::Xml::Schema::XmlSchema* schema,
                                                             ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
                                                             ::System::Xml::Schema::ValidationEventHandler* eventhandler);
 
-  /// @brief Method ParseBlockFinalEnum, addr 0x2e7c050, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method ParseBlockFinalEnum, addr 0x427ccac, size 0x254, virtual false, abstract: false, final false
   inline int32_t ParseBlockFinalEnum(::StringW value, ::StringW attributeName);
 
-  /// @brief Method ParseBoolean, addr 0x2e7cdc8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ParseBoolean, addr 0x427da38, size 0x10c, virtual false, abstract: false, final false
   inline bool ParseBoolean(::StringW value, ::StringW attributeName);
 
-  /// @brief Method ParseEnum, addr 0x2e7be34, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ParseEnum, addr 0x427ca90, size 0xd4, virtual false, abstract: false, final false
   inline int32_t ParseEnum(::StringW value, ::StringW attributeName, ::ArrayW<::StringW, ::Array<::StringW>*> values);
 
-  /// @brief Method ParseQName, addr 0x2e7ca70, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ParseQName, addr 0x427d6e4, size 0x164, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* ParseQName(::StringW value, ::StringW attributeName);
 
-  /// @brief Method ParseUriReference, addr 0x2e7fd34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ParseUriReference, addr 0x4280974, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW ParseUriReference(::StringW s);
 
-  /// @brief Method Pop, addr 0x2e7af54, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x427bbb0, size 0xbc, virtual false, abstract: false, final false
   inline void Pop();
 
-  /// @brief Method ProcessAttribute, addr 0x2e7a77c, size 0x4a4, virtual true, abstract: false, final false
+  /// @brief Method ProcessAttribute, addr 0x427b420, size 0x460, virtual true, abstract: false, final false
   inline void ProcessAttribute(::StringW prefix, ::StringW name, ::StringW ns, ::StringW value);
 
-  /// @brief Method ProcessCData, addr 0x2e7ad3c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ProcessCData, addr 0x427b998, size 0x58, virtual true, abstract: false, final false
   inline void ProcessCData(::StringW value);
 
-  /// @brief Method ProcessElement, addr 0x2e7a2c0, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ProcessElement, addr 0x427af68, size 0x118, virtual true, abstract: false, final false
   inline bool ProcessElement(::StringW prefix, ::StringW name, ::StringW ns);
 
-  /// @brief Method ProcessMarkup, addr 0x2e7ad34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ProcessMarkup, addr 0x427b990, size 0x8, virtual true, abstract: false, final false
   inline void ProcessMarkup(::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> markup);
 
-  /// @brief Method Push, addr 0x2e7a534, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x427b1dc, size 0x98, virtual false, abstract: false, final false
   inline void Push();
 
-  /// @brief Method RecordPosition, addr 0x2e7a5cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RecordPosition, addr 0x427b274, size 0x9c, virtual false, abstract: false, final false
   inline void RecordPosition();
 
-  /// @brief Method SendValidationEvent, addr 0x2e7ffd0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x4280c0c, size 0x140, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::StringW arg0, ::StringW arg1, ::StringW arg2);
 
-  /// @brief Method SendValidationEvent, addr 0x2e7ac20, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x427b880, size 0xf4, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SendValidationEvent, addr 0x2e7a690, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x427b338, size 0xe8, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::StringW msg);
 
-  /// @brief Method SendValidationEvent, addr 0x2e7d9f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x427e694, size 0x8, virtual false, abstract: false, final false
   inline void SendValidationEvent(::System::Xml::Schema::XmlSchemaException* e);
 
-  /// @brief Method SendValidationEvent, addr 0x2e80170, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x4280d4c, size 0xd4, virtual false, abstract: false, final false
   inline void SendValidationEvent(::System::Xml::Schema::XmlSchemaException* e, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SetContainer, addr 0x2e7b148, size 0xb04, virtual false, abstract: false, final false
+  /// @brief Method SetContainer, addr 0x427bda4, size 0xb04, virtual false, abstract: false, final false
   inline void SetContainer(::System::Xml::Schema::__XsdBuilder__State state, ::System::Object* container);
 
-  /// @brief Method SetMaxOccurs, addr 0x2e7d110, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetMaxOccurs, addr 0x427dd80, size 0xc0, virtual false, abstract: false, final false
   inline void SetMaxOccurs(::System::Xml::Schema::XmlSchemaParticle* particle, ::StringW value);
 
-  /// @brief Method SetMinOccurs, addr 0x2e7d1ec, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetMinOccurs, addr 0x427de5c, size 0xc0, virtual false, abstract: false, final false
   inline void SetMinOccurs(::System::Xml::Schema::XmlSchemaParticle* particle, ::StringW value);
 
-  /// @brief Method StartChildren, addr 0x2e7ad94, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method StartChildren, addr 0x427b9f0, size 0x184, virtual true, abstract: false, final false
   inline void StartChildren();
 
   constexpr ::System::Xml::Schema::XmlSchemaAll*& __cordl_internal_get_all();
@@ -2004,7 +2054,7 @@ public:
 
   constexpr void __cordl_internal_set_xso(::System::Xml::Schema::XmlSchemaObject* value);
 
-  /// @brief Method .ctor, addr 0x2e7a0f8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x427adb4, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlNamespaceManager* curmgr, ::System::Xml::Schema::XmlSchema* schema, ::System::Xml::XmlNameTable* nameTable,
                     ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventhandler);
 
@@ -2130,13 +2180,13 @@ public:
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_UseStringValues();
 
-  /// @brief Method get_CurrentElement, addr 0x2e7bc4c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentElement, addr 0x427c8a8, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::__SchemaNames__Token get_CurrentElement();
 
-  /// @brief Method get_ParentContainer, addr 0x2e7bce0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_ParentContainer, addr 0x427c93c, size 0x90, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* get_ParentContainer();
 
-  /// @brief Method get_ParentElement, addr 0x2e7bc68, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_ParentElement, addr 0x427c8c4, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::__SchemaNames__Token get_ParentElement();
 
   static inline void setStaticF_AllSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value);
@@ -2430,6 +2480,9 @@ public:
 
   /// @brief Field namespaces, offset: 0x198, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___namespaces;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7727 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

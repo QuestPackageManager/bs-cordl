@@ -21,18 +21,18 @@ class BranchInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::BranchInstruction);
 // Type: System.Linq.Expressions.Interpreter::BranchInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 22, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 22, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::BranchInstruction*
 class CORDL_TYPE BranchInstruction : public ::System::Linq::Expressions::Interpreter::OffsetInstruction {
 public:
   // Declarations
-  __declspec(property(get = get_Cache))::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> Cache;
+  __declspec(property(get = get_Cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> Cache;
 
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
   __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
@@ -43,17 +43,18 @@ public:
   __declspec(property(get = __cordl_internal_get__hasValue, put = __cordl_internal_set__hasValue)) bool _hasValue;
 
   /// @brief Field s_caches, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_caches, put = setStaticF_s_caches))::ArrayW<
+  static __declspec(property(get = getStaticF_s_caches, put = setStaticF_s_caches)) ::ArrayW<
       ::ArrayW<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*>,
                ::Array<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*>>*>,
       ::Array<::ArrayW<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*>,
-                       ::Array<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*>>*>>*> s_caches;
+                       ::Array<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*>>*>>*>
+      s_caches;
 
   static inline ::System::Linq::Expressions::Interpreter::BranchInstruction* New_ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::BranchInstruction* New_ctor(bool hasResult, bool hasValue);
 
-  /// @brief Method Run, addr 0x2c48a48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x404cde8, size 0x8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr bool const& __cordl_internal_get__hasResult() const;
@@ -68,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__hasValue(bool value);
 
-  /// @brief Method .ctor, addr 0x2c4899c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x404cd3c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2c489c0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x404cd60, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool hasResult, bool hasValue);
 
   static inline ::ArrayW<::ArrayW<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*>,
@@ -80,16 +81,16 @@ public:
                                           ::Array<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*>>*>>*>
   getStaticF_s_caches();
 
-  /// @brief Method get_Cache, addr 0x2c48774, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x404cb14, size 0x228, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> get_Cache();
 
-  /// @brief Method get_ConsumedStack, addr 0x2c48a38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x404cdd8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c489f8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x404cd98, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c48a40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x404cde0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void
@@ -118,6 +119,9 @@ public:
 
   /// @brief Field _hasValue, offset: 0x15, size: 0x1, def value: None
   bool ____hasValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13739 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

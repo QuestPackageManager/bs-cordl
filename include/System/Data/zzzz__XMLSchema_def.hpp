@@ -34,31 +34,31 @@ class XMLSchema;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::XMLSchema);
 // Type: System.Data::XMLSchema
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::XMLSchema*
 class CORDL_TYPE XMLSchema : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FEqualIdentity, addr 0x2d1661c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FEqualIdentity, addr 0x411516c, size 0x74, virtual false, abstract: false, final false
   static inline bool FEqualIdentity(::System::Xml::XmlNode* node, ::StringW name, ::StringW ns);
 
-  /// @brief Method GenUniqueColumnName, addr 0x2d18364, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GenUniqueColumnName, addr 0x4116f10, size 0x124, virtual false, abstract: false, final false
   static inline ::StringW GenUniqueColumnName(::StringW proposedName, ::System::Data::DataTable* table);
 
-  /// @brief Method GetBooleanAttribute, addr 0x2d1c6e4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetBooleanAttribute, addr 0x411af00, size 0x150, virtual false, abstract: false, final false
   static inline bool GetBooleanAttribute(::System::Xml::XmlElement* element, ::StringW attrName, ::StringW attrNS, bool defVal);
 
-  /// @brief Method GetConverter, addr 0x2d1c68c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetConverter, addr 0x411aea8, size 0x58, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::TypeConverter* GetConverter(::System::Type* type);
 
   static inline ::System::Data::XMLSchema* New_ctor();
 
-  /// @brief Method SetProperties, addr 0x2d187d4, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method SetProperties, addr 0x411736c, size 0x44c, virtual false, abstract: false, final false
   static inline void SetProperties(::System::Object* instance, ::System::Xml::XmlAttributeCollection* attrs);
 
-  /// @brief Method .ctor, addr 0x2d16408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4114f58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,6 +74,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XMLSchema", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XMLSchema(XMLSchema const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

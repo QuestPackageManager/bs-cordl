@@ -24,7 +24,7 @@ class MockPlayerLobbyPoseGeneratorMirror;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror);
 // Type: ::MockPlayerLobbyPoseGeneratorMirror
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MockPlayerLobbyPoseGeneratorMirror*
@@ -32,28 +32,28 @@ class CORDL_TYPE MockPlayerLobbyPoseGeneratorMirror : public ::GlobalNamespace::
 public:
   // Declarations
   /// @brief Field _mirroredPlayer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__mirroredPlayer, put = __cordl_internal_set__mirroredPlayer))::GlobalNamespace::IConnectedPlayer* _mirroredPlayer;
+  __declspec(property(get = __cordl_internal_get__mirroredPlayer, put = __cordl_internal_set__mirroredPlayer)) ::GlobalNamespace::IConnectedPlayer* _mirroredPlayer;
 
   /// @brief Field _nodePoseSyncStateManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
-                      put = __cordl_internal_set__nodePoseSyncStateManager))::UnityW<::GlobalNamespace::NodePoseSyncStateManager> _nodePoseSyncStateManager;
+  __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager, put = __cordl_internal_set__nodePoseSyncStateManager)) ::UnityW<::GlobalNamespace::NodePoseSyncStateManager>
+      _nodePoseSyncStateManager;
 
-  /// @brief Method Dispose, addr 0x27315e4, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3b5089c, size 0xd0, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FindPlayerToMirror, addr 0x273181c, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method FindPlayerToMirror, addr 0x3b50abc, size 0x39c, virtual false, abstract: false, final false
   inline void FindPlayerToMirror();
 
-  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x2731bc0, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x3b50e58, size 0x1dc, virtual false, abstract: false, final false
   inline void HandleOptionalAvatarDataReceived(::BeatSaber::AvatarCore::OptionalAvatarDataPacket* optionalAvatarDataPacket, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method Init, addr 0x27315e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3b50898, size 0x4, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                                 ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
-  /// @brief Method Tick, addr 0x27316b4, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x3b5096c, size 0x150, virtual true, abstract: false, final false
   inline void Tick();
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__mirroredPlayer();
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::UnityW<::GlobalNamespace::NodePoseSyncStateManager> value);
 
-  /// @brief Method .ctor, addr 0x273145c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4e6ac, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
 protected:
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field _mirroredPlayer, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____mirroredPlayer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4526 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

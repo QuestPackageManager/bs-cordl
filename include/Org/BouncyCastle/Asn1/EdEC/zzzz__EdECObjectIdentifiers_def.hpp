@@ -15,7 +15,7 @@ class EdECObjectIdentifiers;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers);
 // Type: Org.BouncyCastle.Asn1.EdEC::EdECObjectIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::EdEC {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.EdEC::EdECObjectIdentifiers*
@@ -23,23 +23,23 @@ class CORDL_TYPE EdECObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field id_Ed25519, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_Ed25519, put = setStaticF_id_Ed25519))::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_Ed25519;
+  static __declspec(property(get = getStaticF_id_Ed25519, put = setStaticF_id_Ed25519)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_Ed25519;
 
   /// @brief Field id_Ed448, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_Ed448, put = setStaticF_id_Ed448))::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_Ed448;
+  static __declspec(property(get = getStaticF_id_Ed448, put = setStaticF_id_Ed448)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_Ed448;
 
   /// @brief Field id_X25519, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_X25519, put = setStaticF_id_X25519))::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_X25519;
+  static __declspec(property(get = getStaticF_id_X25519, put = setStaticF_id_X25519)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_X25519;
 
   /// @brief Field id_X448, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_X448, put = setStaticF_id_X448))::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_X448;
+  static __declspec(property(get = getStaticF_id_X448, put = setStaticF_id_X448)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_X448;
 
   /// @brief Field id_edwards_curve_algs, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_edwards_curve_algs, put = setStaticF_id_edwards_curve_algs))::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_edwards_curve_algs;
+  static __declspec(property(get = getStaticF_id_edwards_curve_algs, put = setStaticF_id_edwards_curve_algs)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_edwards_curve_algs;
 
   static inline ::Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10fee30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dbec0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_id_Ed25519();
@@ -75,6 +75,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "EdECObjectIdentifiers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   EdECObjectIdentifiers(EdECObjectIdentifiers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

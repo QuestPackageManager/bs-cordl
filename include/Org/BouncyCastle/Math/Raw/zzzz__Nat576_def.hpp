@@ -17,43 +17,43 @@ class Nat576;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::Raw::Nat576);
 // Type: Org.BouncyCastle.Math.Raw::Nat576
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::Raw {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Math.Raw::Nat576*
 class CORDL_TYPE Nat576 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Copy64, addr 0x1302428, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Copy64, addr 0x24ceec4, size 0x1c4, virtual false, abstract: false, final false
   static inline void Copy64(::ArrayW<uint64_t, ::Array<uint64_t>*> x, int32_t xOff, ::ArrayW<uint64_t, ::Array<uint64_t>*> z, int32_t zOff);
 
-  /// @brief Method Copy64, addr 0x1302314, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Copy64, addr 0x24cedb0, size 0x114, virtual false, abstract: false, final false
   static inline void Copy64(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z);
 
-  /// @brief Method Create64, addr 0x13025ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Create64, addr 0x24cf088, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<uint64_t, ::Array<uint64_t>*> Create64();
 
-  /// @brief Method CreateExt64, addr 0x1302630, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateExt64, addr 0x24cf0cc, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<uint64_t, ::Array<uint64_t>*> CreateExt64();
 
-  /// @brief Method Eq64, addr 0x1302674, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Eq64, addr 0x24cf110, size 0x60, virtual false, abstract: false, final false
   static inline bool Eq64(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> y);
 
-  /// @brief Method FromBigInteger64, addr 0x13026dc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method FromBigInteger64, addr 0x24cf170, size 0xcc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint64_t, ::Array<uint64_t>*> FromBigInteger64(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method IsOne64, addr 0x13027b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsOne64, addr 0x24cf23c, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsOne64(::ArrayW<uint64_t, ::Array<uint64_t>*> x);
 
-  /// @brief Method IsZero64, addr 0x1302810, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsZero64, addr 0x24cf2a8, size 0x54, virtual false, abstract: false, final false
   static inline bool IsZero64(::ArrayW<uint64_t, ::Array<uint64_t>*> x);
 
   static inline ::Org::BouncyCastle::Math::Raw::Nat576* New_ctor();
 
-  /// @brief Method ToBigInteger64, addr 0x130285c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ToBigInteger64, addr 0x24cf2fc, size 0xdc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ToBigInteger64(::ArrayW<uint64_t, ::Array<uint64_t>*> x);
 
-  /// @brief Method .ctor, addr 0x130293c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24cf3d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,6 +69,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Nat576", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Nat576(Nat576 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1600 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

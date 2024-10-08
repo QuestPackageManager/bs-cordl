@@ -46,7 +46,7 @@ class UriParser;
 MARK_VAL_T(::System::__UriParser__UriQuirksVersion);
 MARK_REF_PTR_T(::System::UriParser);
 // Type: ::UriQuirksVersion
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
 // CS Name: ::UriParser::UriQuirksVersion
@@ -87,6 +87,9 @@ public:
   /// @brief Field V3 value: static_cast<int32_t>(0x3)
   static ::System::__UriParser__UriQuirksVersion const V3;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9170 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -99,7 +102,7 @@ static_assert(offsetof(::System::__UriParser__UriQuirksVersion, value__) == 0x0,
 
 } // namespace System
 // Type: System::UriParser
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::UriParser*
@@ -113,143 +116,143 @@ public:
   __declspec(property(get = get_DefaultPort)) int32_t DefaultPort;
 
   /// @brief Field FileSyntaxFlags, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FileSyntaxFlags, put = setStaticF_FileSyntaxFlags))::System::UriSyntaxFlags FileSyntaxFlags;
+  static __declspec(property(get = getStaticF_FileSyntaxFlags, put = setStaticF_FileSyntaxFlags)) ::System::UriSyntaxFlags FileSyntaxFlags;
 
   /// @brief Field FileUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_FileUri, put = setStaticF_FileUri))::System::UriParser* FileUri;
+  static __declspec(property(get = getStaticF_FileUri, put = setStaticF_FileUri)) ::System::UriParser* FileUri;
 
-  __declspec(property(get = get_Flags))::System::UriSyntaxFlags Flags;
+  __declspec(property(get = get_Flags)) ::System::UriSyntaxFlags Flags;
 
   /// @brief Field FtpUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_FtpUri, put = setStaticF_FtpUri))::System::UriParser* FtpUri;
+  static __declspec(property(get = getStaticF_FtpUri, put = setStaticF_FtpUri)) ::System::UriParser* FtpUri;
 
   /// @brief Field GopherUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_GopherUri, put = setStaticF_GopherUri))::System::UriParser* GopherUri;
+  static __declspec(property(get = getStaticF_GopherUri, put = setStaticF_GopherUri)) ::System::UriParser* GopherUri;
 
   /// @brief Field HttpSyntaxFlags, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_HttpSyntaxFlags, put = setStaticF_HttpSyntaxFlags))::System::UriSyntaxFlags HttpSyntaxFlags;
+  static __declspec(property(get = getStaticF_HttpSyntaxFlags, put = setStaticF_HttpSyntaxFlags)) ::System::UriSyntaxFlags HttpSyntaxFlags;
 
   /// @brief Field HttpUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HttpUri, put = setStaticF_HttpUri))::System::UriParser* HttpUri;
+  static __declspec(property(get = getStaticF_HttpUri, put = setStaticF_HttpUri)) ::System::UriParser* HttpUri;
 
   /// @brief Field HttpsUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HttpsUri, put = setStaticF_HttpsUri))::System::UriParser* HttpsUri;
+  static __declspec(property(get = getStaticF_HttpsUri, put = setStaticF_HttpsUri)) ::System::UriParser* HttpsUri;
 
   __declspec(property(get = get_IsSimple)) bool IsSimple;
 
   /// @brief Field LdapUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_LdapUri, put = setStaticF_LdapUri))::System::UriParser* LdapUri;
+  static __declspec(property(get = getStaticF_LdapUri, put = setStaticF_LdapUri)) ::System::UriParser* LdapUri;
 
   /// @brief Field MailToUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MailToUri, put = setStaticF_MailToUri))::System::UriParser* MailToUri;
+  static __declspec(property(get = getStaticF_MailToUri, put = setStaticF_MailToUri)) ::System::UriParser* MailToUri;
 
   /// @brief Field NetPipeUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_NetPipeUri, put = setStaticF_NetPipeUri))::System::UriParser* NetPipeUri;
+  static __declspec(property(get = getStaticF_NetPipeUri, put = setStaticF_NetPipeUri)) ::System::UriParser* NetPipeUri;
 
   /// @brief Field NetTcpUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_NetTcpUri, put = setStaticF_NetTcpUri))::System::UriParser* NetTcpUri;
+  static __declspec(property(get = getStaticF_NetTcpUri, put = setStaticF_NetTcpUri)) ::System::UriParser* NetTcpUri;
 
   /// @brief Field NewsUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_NewsUri, put = setStaticF_NewsUri))::System::UriParser* NewsUri;
+  static __declspec(property(get = getStaticF_NewsUri, put = setStaticF_NewsUri)) ::System::UriParser* NewsUri;
 
   /// @brief Field NntpUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_NntpUri, put = setStaticF_NntpUri))::System::UriParser* NntpUri;
+  static __declspec(property(get = getStaticF_NntpUri, put = setStaticF_NntpUri)) ::System::UriParser* NntpUri;
 
-  __declspec(property(get = get_SchemeName))::StringW SchemeName;
+  __declspec(property(get = get_SchemeName)) ::StringW SchemeName;
 
   /// @brief Field TelnetUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_TelnetUri, put = setStaticF_TelnetUri))::System::UriParser* TelnetUri;
+  static __declspec(property(get = getStaticF_TelnetUri, put = setStaticF_TelnetUri)) ::System::UriParser* TelnetUri;
 
   /// @brief Field UuidUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_UuidUri, put = setStaticF_UuidUri))::System::UriParser* UuidUri;
+  static __declspec(property(get = getStaticF_UuidUri, put = setStaticF_UuidUri)) ::System::UriParser* UuidUri;
 
   /// @brief Field VsMacrosUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_VsMacrosUri, put = setStaticF_VsMacrosUri))::System::UriParser* VsMacrosUri;
+  static __declspec(property(get = getStaticF_VsMacrosUri, put = setStaticF_VsMacrosUri)) ::System::UriParser* VsMacrosUri;
 
   /// @brief Field WsUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_WsUri, put = setStaticF_WsUri))::System::UriParser* WsUri;
+  static __declspec(property(get = getStaticF_WsUri, put = setStaticF_WsUri)) ::System::UriParser* WsUri;
 
   /// @brief Field WssUri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_WssUri, put = setStaticF_WssUri))::System::UriParser* WssUri;
+  static __declspec(property(get = getStaticF_WssUri, put = setStaticF_WssUri)) ::System::UriParser* WssUri;
 
   /// @brief Field m_Flags, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags))::System::UriSyntaxFlags m_Flags;
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags)) ::System::UriSyntaxFlags m_Flags;
 
   /// @brief Field m_Port, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Port, put = __cordl_internal_set_m_Port)) int32_t m_Port;
 
   /// @brief Field m_Scheme, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Scheme, put = __cordl_internal_set_m_Scheme))::StringW m_Scheme;
+  __declspec(property(get = __cordl_internal_get_m_Scheme, put = __cordl_internal_set_m_Scheme)) ::StringW m_Scheme;
 
   /// @brief Field m_Table, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_Table, put = setStaticF_m_Table))::System::Collections::Generic::Dictionary_2<::StringW, ::System::UriParser*>* m_Table;
+  static __declspec(property(get = getStaticF_m_Table, put = setStaticF_m_Table)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::UriParser*>* m_Table;
 
   /// @brief Field m_TempTable, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_TempTable, put = setStaticF_m_TempTable))::System::Collections::Generic::Dictionary_2<::StringW, ::System::UriParser*>* m_TempTable;
+  static __declspec(property(get = getStaticF_m_TempTable, put = setStaticF_m_TempTable)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::UriParser*>* m_TempTable;
 
   /// @brief Field m_UpdatableFlags, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_UpdatableFlags, put = __cordl_internal_set_m_UpdatableFlags))::System::UriSyntaxFlags m_UpdatableFlags;
+  __declspec(property(get = __cordl_internal_get_m_UpdatableFlags, put = __cordl_internal_set_m_UpdatableFlags)) ::System::UriSyntaxFlags m_UpdatableFlags;
 
   /// @brief Field m_UpdatableFlagsUsed, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_UpdatableFlagsUsed, put = __cordl_internal_set_m_UpdatableFlagsUsed)) bool m_UpdatableFlagsUsed;
 
   /// @brief Field s_QuirksVersion, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_QuirksVersion, put = setStaticF_s_QuirksVersion))::System::__UriParser__UriQuirksVersion s_QuirksVersion;
+  static __declspec(property(get = getStaticF_s_QuirksVersion, put = setStaticF_s_QuirksVersion)) ::System::__UriParser__UriQuirksVersion s_QuirksVersion;
 
-  /// @brief Method FindOrFetchAsUnknownV1Syntax, addr 0x2fac03c, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method FindOrFetchAsUnknownV1Syntax, addr 0x4397170, size 0x2d0, virtual false, abstract: false, final false
   static inline ::System::UriParser* FindOrFetchAsUnknownV1Syntax(::StringW lwrCaseScheme);
 
-  /// @brief Method GetComponents, addr 0x2fab51c, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method GetComponents, addr 0x439666c, size 0x218, virtual true, abstract: false, final false
   inline ::StringW GetComponents(::System::Uri* uri, ::System::UriComponents components, ::System::UriFormat format);
 
-  /// @brief Method GetSyntax, addr 0x2fa7ecc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetSyntax, addr 0x4392f68, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::UriParser* GetSyntax(::StringW lwrCaseScheme);
 
-  /// @brief Method InFact, addr 0x2fa7f9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InFact, addr 0x4393038, size 0x1c, virtual false, abstract: false, final false
   inline bool InFact(::System::UriSyntaxFlags flags);
 
-  /// @brief Method InitializeAndValidate, addr 0x2fab2f0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method InitializeAndValidate, addr 0x439644c, size 0x28, virtual true, abstract: false, final false
   inline void InitializeAndValidate(::System::Uri* uri, ByRef<::System::UriFormatException*> parsingError);
 
-  /// @brief Method InternalGetComponents, addr 0x2fac3a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalGetComponents, addr 0x43974b4, size 0xc, virtual false, abstract: false, final false
   inline ::StringW InternalGetComponents(::System::Uri* thisUri, ::System::UriComponents uriComponents, ::System::UriFormat uriFormat);
 
-  /// @brief Method InternalIsBaseOf, addr 0x2fac394, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalIsBaseOf, addr 0x43974a8, size 0xc, virtual false, abstract: false, final false
   inline bool InternalIsBaseOf(::System::Uri* thisBaseUri, ::System::Uri* uriLink);
 
-  /// @brief Method InternalIsWellFormedOriginalString, addr 0x2fac3ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalIsWellFormedOriginalString, addr 0x43974c0, size 0xc, virtual false, abstract: false, final false
   inline bool InternalIsWellFormedOriginalString(::System::Uri* thisUri);
 
-  /// @brief Method InternalOnNewUri, addr 0x2fac338, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InternalOnNewUri, addr 0x439744c, size 0x44, virtual false, abstract: false, final false
   inline ::System::UriParser* InternalOnNewUri();
 
-  /// @brief Method InternalResolve, addr 0x2fac388, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalResolve, addr 0x439749c, size 0xc, virtual false, abstract: false, final false
   inline ::StringW InternalResolve(::System::Uri* thisBaseUri, ::System::Uri* uriLink, ByRef<::System::UriFormatException*> parsingError);
 
-  /// @brief Method InternalValidate, addr 0x2fac37c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalValidate, addr 0x4397490, size 0xc, virtual false, abstract: false, final false
   inline void InternalValidate(::System::Uri* thisUri, ByRef<::System::UriFormatException*> parsingError);
 
-  /// @brief Method IsAllSet, addr 0x2fabfc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsAllSet, addr 0x43970fc, size 0x8, virtual false, abstract: false, final false
   inline bool IsAllSet(::System::UriSyntaxFlags flags);
 
-  /// @brief Method IsBaseOf, addr 0x2fab500, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method IsBaseOf, addr 0x4396650, size 0x1c, virtual true, abstract: false, final false
   inline bool IsBaseOf(::System::Uri* baseUri, ::System::Uri* relativeUri);
 
-  /// @brief Method IsFullMatch, addr 0x2fabf6c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsFullMatch, addr 0x43970a0, size 0x5c, virtual false, abstract: false, final false
   inline bool IsFullMatch(::System::UriSyntaxFlags flags, ::System::UriSyntaxFlags expected);
 
-  /// @brief Method IsWellFormedOriginalString, addr 0x2fab748, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method IsWellFormedOriginalString, addr 0x4396884, size 0x18, virtual true, abstract: false, final false
   inline bool IsWellFormedOriginalString(::System::Uri* uri);
 
   static inline ::System::UriParser* New_ctor(::System::UriSyntaxFlags flags);
 
-  /// @brief Method NotAny, addr 0x2fa7fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method NotAny, addr 0x4393054, size 0x8, virtual false, abstract: false, final false
   inline bool NotAny(::System::UriSyntaxFlags flags);
 
-  /// @brief Method OnNewUri, addr 0x2fab2ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnNewUri, addr 0x4396448, size 0x4, virtual true, abstract: false, final false
   inline ::System::UriParser* OnNewUri();
 
-  /// @brief Method Resolve, addr 0x2fab318, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method Resolve, addr 0x4396474, size 0x1dc, virtual true, abstract: false, final false
   inline ::StringW Resolve(::System::Uri* baseUri, ::System::Uri* relativeUri, ByRef<::System::UriFormatException*> parsingError);
 
   constexpr ::System::UriSyntaxFlags const& __cordl_internal_get_m_Flags() const;
@@ -282,7 +285,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdatableFlagsUsed(bool value);
 
-  /// @brief Method .ctor, addr 0x2fabfd0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4397104, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::UriSyntaxFlags flags);
 
   static inline ::System::UriSyntaxFlags getStaticF_FileSyntaxFlags();
@@ -327,19 +330,19 @@ public:
 
   static inline ::System::__UriParser__UriQuirksVersion getStaticF_s_QuirksVersion();
 
-  /// @brief Method get_DefaultPort, addr 0x2fab2e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultPort, addr 0x4396440, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DefaultPort();
 
-  /// @brief Method get_Flags, addr 0x2fabf64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x4397098, size 0x8, virtual false, abstract: false, final false
   inline ::System::UriSyntaxFlags get_Flags();
 
-  /// @brief Method get_IsSimple, addr 0x2fac32c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsSimple, addr 0x4397440, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsSimple();
 
-  /// @brief Method get_SchemeName, addr 0x2fab2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemeName, addr 0x4396438, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SchemeName();
 
-  /// @brief Method get_ShouldUseLegacyV2Quirks, addr 0x2fab14c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldUseLegacyV2Quirks, addr 0x43962a8, size 0x60, virtual false, abstract: false, final false
   static inline bool get_ShouldUseLegacyV2Quirks();
 
   static inline void setStaticF_FileSyntaxFlags(::System::UriSyntaxFlags value);
@@ -451,6 +454,9 @@ public:
 
   /// @brief Field VsmacrosSyntaxFlags value: static_cast<int32_t>(0x17d02fd1)
   static ::System::UriSyntaxFlags const VsmacrosSyntaxFlags;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9172 };
 
   /// @brief Field c_InitialTableSize offset 0xffffffff size 0x4
   static constexpr int32_t c_InitialTableSize{ static_cast<int32_t>(0x19) };

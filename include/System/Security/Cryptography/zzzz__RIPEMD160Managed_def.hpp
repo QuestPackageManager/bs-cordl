@@ -14,7 +14,7 @@ class RIPEMD160Managed;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::RIPEMD160Managed);
 // Type: System.Security.Cryptography::RIPEMD160Managed
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::RIPEMD160Managed*
@@ -22,53 +22,53 @@ class CORDL_TYPE RIPEMD160Managed : public ::System::Security::Cryptography::RIP
 public:
   // Declarations
   /// @brief Field _blockDWords, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__blockDWords, put = __cordl_internal_set__blockDWords))::ArrayW<uint32_t, ::Array<uint32_t>*> _blockDWords;
+  __declspec(property(get = __cordl_internal_get__blockDWords, put = __cordl_internal_set__blockDWords)) ::ArrayW<uint32_t, ::Array<uint32_t>*> _blockDWords;
 
   /// @brief Field _buffer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
 
   /// @brief Field _count, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int64_t _count;
 
   /// @brief Field _stateMD160, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__stateMD160, put = __cordl_internal_set__stateMD160))::ArrayW<uint32_t, ::Array<uint32_t>*> _stateMD160;
+  __declspec(property(get = __cordl_internal_get__stateMD160, put = __cordl_internal_set__stateMD160)) ::ArrayW<uint32_t, ::Array<uint32_t>*> _stateMD160;
 
-  /// @brief Method F, addr 0x281323c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method F, addr 0x3c31fbc, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t F(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method G, addr 0x2813248, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method G, addr 0x3c31fc8, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t G(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method H, addr 0x2813258, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method H, addr 0x3c31fd8, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t H(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method HashCore, addr 0x2811814, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x3c305c4, size 0x4, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x2811994, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x3c30748, size 0x4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method I, addr 0x2813264, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method I, addr 0x3c31fe4, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t I(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method Initialize, addr 0x28117d0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3c30580, size 0x44, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeState, addr 0x281174c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InitializeState, addr 0x3c304fc, size 0x84, virtual false, abstract: false, final false
   inline void InitializeState();
 
-  /// @brief Method J, addr 0x2813274, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method J, addr 0x3c31ff4, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t J(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method MDTransform, addr 0x2811b40, size 0x16fc, virtual false, abstract: false, final false
+  /// @brief Method MDTransform, addr 0x3c308f0, size 0x16cc, virtual false, abstract: false, final false
   static inline void MDTransform(::cordl_internals::Ptr<uint32_t> blockDWords, ::cordl_internals::Ptr<uint32_t> state, ::cordl_internals::Ptr<uint8_t> block);
 
   static inline ::System::Security::Cryptography::RIPEMD160Managed* New_ctor();
 
-  /// @brief Method _EndHash, addr 0x2811998, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method _EndHash, addr 0x3c3074c, size 0x1a4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _EndHash();
 
-  /// @brief Method _HashData, addr 0x2811818, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method _HashData, addr 0x3c305c8, size 0x180, virtual false, abstract: false, final false
   inline void _HashData(::ArrayW<uint8_t, ::Array<uint8_t>*> partIn, int32_t ibStart, int32_t cbSize);
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__blockDWords() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__stateMD160(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x280c97c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2b898, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,6 +123,9 @@ public:
 
   /// @brief Field _blockDWords, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ____blockDWords;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2953 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

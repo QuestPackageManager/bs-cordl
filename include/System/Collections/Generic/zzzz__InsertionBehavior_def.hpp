@@ -13,7 +13,7 @@ struct InsertionBehavior;
 // Write type traits
 MARK_VAL_T(::System::Collections::Generic::InsertionBehavior);
 // Type: System.Collections.Generic::InsertionBehavior
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // Is value type: true
 // CS Name: ::System.Collections.Generic::InsertionBehavior
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field ThrowOnExisting value: static_cast<uint8_t>(0x2u)
   static ::System::Collections::Generic::InsertionBehavior const ThrowOnExisting;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3831 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

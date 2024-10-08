@@ -25,7 +25,7 @@ class SliderData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::SliderData);
 // Type: BeatmapSaveDataVersion3::SliderData
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion3::SliderData*
@@ -35,19 +35,19 @@ public:
   __declspec(property(get = get_headControlPointLengthMultiplier)) float_t headControlPointLengthMultiplier;
 
   /// @brief Field m, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m, put = __cordl_internal_set_m))::BeatmapSaveDataCommon::SliderMidAnchorMode m;
+  __declspec(property(get = __cordl_internal_get_m, put = __cordl_internal_set_m)) ::BeatmapSaveDataCommon::SliderMidAnchorMode m;
 
   /// @brief Field mu, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_mu, put = __cordl_internal_set_mu)) float_t mu;
 
-  __declspec(property(get = get_sliderMidAnchorMode))::BeatmapSaveDataCommon::SliderMidAnchorMode sliderMidAnchorMode;
+  __declspec(property(get = get_sliderMidAnchorMode)) ::BeatmapSaveDataCommon::SliderMidAnchorMode sliderMidAnchorMode;
 
   __declspec(property(get = get_tailControlPointLengthMultiplier)) float_t tailControlPointLengthMultiplier;
 
-  __declspec(property(get = get_tailCutDirection))::BeatmapSaveDataCommon::NoteCutDirection tailCutDirection;
+  __declspec(property(get = get_tailCutDirection)) ::BeatmapSaveDataCommon::NoteCutDirection tailCutDirection;
 
   /// @brief Field tc, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_tc, put = __cordl_internal_set_tc))::BeatmapSaveDataCommon::NoteCutDirection tc;
+  __declspec(property(get = __cordl_internal_get_tc, put = __cordl_internal_set_tc)) ::BeatmapSaveDataCommon::NoteCutDirection tc;
 
   /// @brief Field tmu, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_tmu, put = __cordl_internal_set_tmu)) float_t tmu;
@@ -81,21 +81,21 @@ public:
 
   constexpr void __cordl_internal_set_tmu(float_t value);
 
-  /// @brief Method .ctor, addr 0x15051e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c9028, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, float_t headControlPointLengthMultiplier,
                     ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection, float_t tailBeat, int32_t tailLine, int32_t tailLayer, float_t tailControlPointLengthMultiplier,
                     ::BeatmapSaveDataCommon::NoteCutDirection tailCutDirection, ::BeatmapSaveDataCommon::SliderMidAnchorMode sliderMidAnchorMode);
 
-  /// @brief Method get_headControlPointLengthMultiplier, addr 0x15051c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headControlPointLengthMultiplier, addr 0x26c9008, size 0x8, virtual false, abstract: false, final false
   inline float_t get_headControlPointLengthMultiplier();
 
-  /// @brief Method get_sliderMidAnchorMode, addr 0x15051e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sliderMidAnchorMode, addr 0x26c9020, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::SliderMidAnchorMode get_sliderMidAnchorMode();
 
-  /// @brief Method get_tailControlPointLengthMultiplier, addr 0x15051d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailControlPointLengthMultiplier, addr 0x26c9010, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tailControlPointLengthMultiplier();
 
-  /// @brief Method get_tailCutDirection, addr 0x15051d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailCutDirection, addr 0x26c9018, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_tailCutDirection();
 
 protected:
@@ -123,6 +123,9 @@ public:
 
   /// @brief Field m, offset: 0x3c, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::SliderMidAnchorMode ___m;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13381 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

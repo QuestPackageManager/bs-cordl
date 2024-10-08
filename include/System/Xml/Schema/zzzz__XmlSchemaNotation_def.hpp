@@ -16,34 +16,34 @@ class XmlSchemaNotation;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaNotation);
 // Type: System.Xml.Schema::XmlSchemaNotation
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaNotation*
 class CORDL_TYPE XmlSchemaNotation : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
-  __declspec(property(get = get_Name, put = set_Name))::StringW Name;
+  __declspec(property(get = get_Name, put = set_Name)) ::StringW Name;
 
-  __declspec(property(get = get_NameAttribute, put = set_NameAttribute))::StringW NameAttribute;
+  __declspec(property(get = get_NameAttribute, put = set_NameAttribute)) ::StringW NameAttribute;
 
-  __declspec(property(get = get_Public, put = set_Public))::StringW Public;
+  __declspec(property(get = get_Public, put = set_Public)) ::StringW Public;
 
-  __declspec(property(get = get_QualifiedName, put = set_QualifiedName))::System::Xml::XmlQualifiedName* QualifiedName;
+  __declspec(property(get = get_QualifiedName, put = set_QualifiedName)) ::System::Xml::XmlQualifiedName* QualifiedName;
 
-  __declspec(property(get = get_System, put = set_System))::StringW System;
+  __declspec(property(get = get_System, put = set_System)) ::StringW System;
 
   /// @brief Field name, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   /// @brief Field publicId, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_publicId, put = __cordl_internal_set_publicId))::StringW publicId;
+  __declspec(property(get = __cordl_internal_get_publicId, put = __cordl_internal_set_publicId)) ::StringW publicId;
 
   /// @brief Field qname, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_qname, put = __cordl_internal_set_qname))::System::Xml::XmlQualifiedName* qname;
+  __declspec(property(get = __cordl_internal_get_qname, put = __cordl_internal_set_qname)) ::System::Xml::XmlQualifiedName* qname;
 
   /// @brief Field systemId, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_systemId, put = __cordl_internal_set_systemId))::StringW systemId;
+  __declspec(property(get = __cordl_internal_get_systemId, put = __cordl_internal_set_systemId)) ::StringW systemId;
 
   static inline ::System::Xml::Schema::XmlSchemaNotation* New_ctor();
 
@@ -71,37 +71,37 @@ public:
 
   constexpr void __cordl_internal_set_systemId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e459c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4248254, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x2e45978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4248204, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameAttribute, addr 0x2e459b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameAttribute, addr 0x4248244, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NameAttribute();
 
-  /// @brief Method get_Public, addr 0x2e45988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Public, addr 0x4248214, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Public();
 
-  /// @brief Method get_QualifiedName, addr 0x2e459a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QualifiedName, addr 0x4248234, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_QualifiedName();
 
-  /// @brief Method get_System, addr 0x2e45998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_System, addr 0x4248224, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_System();
 
-  /// @brief Method set_Name, addr 0x2e45980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x424820c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_NameAttribute, addr 0x2e459c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_NameAttribute, addr 0x424824c, size 0x8, virtual true, abstract: false, final false
   inline void set_NameAttribute(::StringW value);
 
-  /// @brief Method set_Public, addr 0x2e45990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Public, addr 0x424821c, size 0x8, virtual false, abstract: false, final false
   inline void set_Public(::StringW value);
 
-  /// @brief Method set_QualifiedName, addr 0x2e459b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QualifiedName, addr 0x424823c, size 0x8, virtual false, abstract: false, final false
   inline void set_QualifiedName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_System, addr 0x2e459a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_System, addr 0x424822c, size 0x8, virtual false, abstract: false, final false
   inline void set_System(::StringW value);
 
 protected:
@@ -129,6 +129,9 @@ public:
 
   /// @brief Field qname, offset: 0x68, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___qname;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7670 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

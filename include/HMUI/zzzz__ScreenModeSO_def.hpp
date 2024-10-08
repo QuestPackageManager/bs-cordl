@@ -15,7 +15,7 @@ class ScreenModeSO;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ScreenModeSO);
 // Type: HMUI::ScreenModeSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::ScreenModeSO*
@@ -23,9 +23,9 @@ class CORDL_TYPE ScreenModeSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::HMUI::ScreenModeData* _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data)) ::HMUI::ScreenModeData* _data;
 
-  __declspec(property(get = get_data))::HMUI::ScreenModeData* data;
+  __declspec(property(get = get_data)) ::HMUI::ScreenModeData* data;
 
   static inline ::HMUI::ScreenModeSO* New_ctor();
 
@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set__data(::HMUI::ScreenModeData* value);
 
-  /// @brief Method .ctor, addr 0x253c720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224bf3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_data, addr 0x253c718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x224bf34, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::ScreenModeData* get_data();
 
 protected:
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field _data, offset: 0x18, size: 0x8, def value: None
   ::HMUI::ScreenModeData* ____data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16760 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

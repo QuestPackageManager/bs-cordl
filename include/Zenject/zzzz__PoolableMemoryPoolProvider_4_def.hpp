@@ -37,7 +37,7 @@ template <typename TParam1, typename TParam2, typename TContract, typename TMemo
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PoolableMemoryPoolProvider_4);
 // Type: Zenject::PoolableMemoryPoolProvider`4
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TContract, typename TMemoryPool>
@@ -89,6 +89,9 @@ public:
 
   /// @brief Field _pool, offset: 0x28, size: 0x8, def value: None
   TMemoryPool ____pool;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12521 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

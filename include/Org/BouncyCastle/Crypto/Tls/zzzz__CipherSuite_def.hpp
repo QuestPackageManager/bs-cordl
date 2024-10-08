@@ -13,19 +13,19 @@ class CipherSuite;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::CipherSuite);
 // Type: Org.BouncyCastle.Crypto.Tls::CipherSuite
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CipherSuite*
 class CORDL_TYPE CipherSuite : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsScsv, addr 0x11d21a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsScsv, addr 0x23a7ba8, size 0x20, virtual false, abstract: false, final false
   static inline bool IsScsv(int32_t cipherSuite);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CipherSuite* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11d21c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a7bc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -815,6 +815,9 @@ public:
 
   /// @brief Field TLS_SRP_SHA_WITH_AES_256_CBC_SHA offset 0xffffffff size 0x4
   static constexpr int32_t TLS_SRP_SHA_WITH_AES_256_CBC_SHA{ static_cast<int32_t>(0xc020) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1197 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

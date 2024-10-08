@@ -19,7 +19,7 @@ class SignatureAndHashAlgorithm;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm);
 // Type: Org.BouncyCastle.Crypto.Tls::SignatureAndHashAlgorithm
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SignatureAndHashAlgorithm*
@@ -36,18 +36,18 @@ public:
   /// @brief Field mSignature, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get_mSignature, put = __cordl_internal_set_mSignature)) uint8_t mSignature;
 
-  /// @brief Method Encode, addr 0x1207c48, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x23db7e0, size 0x9c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Equals, addr 0x1207b34, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x23db6cc, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x1207c04, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x23db79c, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* New_ctor(uint8_t hash, uint8_t signature);
 
-  /// @brief Method Parse, addr 0x1207ce4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x23db87c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* Parse(::System::IO::Stream* input);
 
   constexpr uint8_t const& __cordl_internal_get_mHash() const;
@@ -62,13 +62,13 @@ public:
 
   constexpr void __cordl_internal_set_mSignature(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x12079c0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23db564, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(uint8_t hash, uint8_t signature);
 
-  /// @brief Method get_Hash, addr 0x1207b24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Hash, addr 0x23db6bc, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_Hash();
 
-  /// @brief Method get_Signature, addr 0x1207b2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x23db6c4, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_Signature();
 
 protected:
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field mSignature, offset: 0x11, size: 0x1, def value: None
   uint8_t ___mSignature;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1275 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

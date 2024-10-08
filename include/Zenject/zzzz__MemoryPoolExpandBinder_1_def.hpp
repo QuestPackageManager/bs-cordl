@@ -27,7 +27,7 @@ template <typename TContract> class MemoryPoolExpandBinder_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MemoryPoolExpandBinder_1);
 // Type: Zenject::MemoryPoolExpandBinder`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -36,11 +36,11 @@ template <typename TContract>
 class CORDL_TYPE MemoryPoolExpandBinder_1 : public ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract> {
 public:
   // Declarations
-  __declspec(property(get = get_MemoryPoolBindInfo, put = set_MemoryPoolBindInfo))::Zenject::MemoryPoolBindInfo* MemoryPoolBindInfo;
+  __declspec(property(get = get_MemoryPoolBindInfo, put = set_MemoryPoolBindInfo)) ::Zenject::MemoryPoolBindInfo* MemoryPoolBindInfo;
 
   /// @brief Field <MemoryPoolBindInfo>k__BackingField, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__MemoryPoolBindInfo_k__BackingField,
-                      put = __cordl_internal_set__MemoryPoolBindInfo_k__BackingField))::Zenject::MemoryPoolBindInfo* _MemoryPoolBindInfo_k__BackingField;
+                      put = __cordl_internal_set__MemoryPoolBindInfo_k__BackingField)) ::Zenject::MemoryPoolBindInfo* _MemoryPoolBindInfo_k__BackingField;
 
   /// @brief Method ExpandByDoubling, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByDoubling(bool showExpandWarning);
@@ -82,6 +82,9 @@ public:
 
   /// @brief Field <MemoryPoolBindInfo>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::Zenject::MemoryPoolBindInfo* ____MemoryPoolBindInfo_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12165 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

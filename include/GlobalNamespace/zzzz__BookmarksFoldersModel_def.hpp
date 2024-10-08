@@ -31,7 +31,7 @@ class __BookmarksFoldersModel____c;
 MARK_REF_PTR_T(::GlobalNamespace::BookmarksFoldersModel);
 MARK_REF_PTR_T(::GlobalNamespace::__BookmarksFoldersModel____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BookmarksFoldersModel::<>c*
@@ -39,17 +39,17 @@ class CORDL_TYPE __BookmarksFoldersModel____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__BookmarksFoldersModel____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__BookmarksFoldersModel____c* __9;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Func_2<::System::__Environment__SpecialFolder, ::StringW>* __9__3_0;
+  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_2<::System::__Environment__SpecialFolder, ::StringW>* __9__3_0;
 
   static inline ::GlobalNamespace::__BookmarksFoldersModel____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x14abd18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266cfdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_bookmarksFolders>b__3_0, addr 0x14abd20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <get_bookmarksFolders>b__3_0, addr 0x266cfe4, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _get_bookmarksFolders_b__3_0(::System::__Environment__SpecialFolder specialFolder);
 
   static inline ::GlobalNamespace::__BookmarksFoldersModel____c* getStaticF___9();
@@ -74,6 +74,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BookmarksFoldersModel____c(__BookmarksFoldersModel____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12761 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -81,7 +84,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BookmarksFold
 
 } // namespace GlobalNamespace
 // Type: ::BookmarksFoldersModel
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BookmarksFoldersModel*
@@ -92,12 +95,13 @@ public:
 
   /// @brief Field _bookmarksFolders, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__bookmarksFolders,
-                      put = __cordl_internal_set__bookmarksFolders))::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> _bookmarksFolders;
+                      put = __cordl_internal_set__bookmarksFolders)) ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*>
+      _bookmarksFolders;
 
-  __declspec(property(get = get_bookmarksFolders))::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> bookmarksFolders;
+  __declspec(property(get = get_bookmarksFolders)) ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> bookmarksFolders;
 
   /// @brief Field myFolders, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_myFolders, put = __cordl_internal_set_myFolders))::ArrayW<::StringW, ::Array<::StringW>*> myFolders;
+  __declspec(property(get = __cordl_internal_get_myFolders, put = __cordl_internal_set_myFolders)) ::ArrayW<::StringW, ::Array<::StringW>*> myFolders;
 
   static inline ::GlobalNamespace::BookmarksFoldersModel* New_ctor();
 
@@ -113,10 +117,10 @@ public:
 
   constexpr void __cordl_internal_set_myFolders(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x14abcac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266cf78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bookmarksFolders, addr 0x14ab6d8, size 0x594, virtual false, abstract: false, final false
+  /// @brief Method get_bookmarksFolders, addr 0x266c978, size 0x5c0, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> get_bookmarksFolders();
 
 protected:
@@ -138,6 +142,9 @@ public:
 
   /// @brief Field _bookmarksFolders, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> ____bookmarksFolders;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12762 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

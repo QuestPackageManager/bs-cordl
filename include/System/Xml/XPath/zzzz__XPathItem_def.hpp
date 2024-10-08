@@ -30,20 +30,20 @@ class XPathItem;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XPath::XPathItem);
 // Type: System.Xml.XPath::XPathItem
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::XPath {
 // Is value type: false
 // CS Name: ::System.Xml.XPath::XPathItem*
 class CORDL_TYPE XPathItem : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_TypedValue))::System::Object* TypedValue;
+  __declspec(property(get = get_TypedValue)) ::System::Object* TypedValue;
 
-  __declspec(property(get = get_Value))::StringW Value;
+  __declspec(property(get = get_Value)) ::StringW Value;
 
   __declspec(property(get = get_ValueAsBoolean)) bool ValueAsBoolean;
 
-  __declspec(property(get = get_ValueAsDateTime))::System::DateTime ValueAsDateTime;
+  __declspec(property(get = get_ValueAsDateTime)) ::System::DateTime ValueAsDateTime;
 
   __declspec(property(get = get_ValueAsDouble)) double_t ValueAsDouble;
 
@@ -51,19 +51,19 @@ public:
 
   __declspec(property(get = get_ValueAsLong)) int64_t ValueAsLong;
 
-  __declspec(property(get = get_ValueType))::System::Type* ValueType;
+  __declspec(property(get = get_ValueType)) ::System::Type* ValueType;
 
-  __declspec(property(get = get_XmlType))::System::Xml::Schema::XmlSchemaType* XmlType;
+  __declspec(property(get = get_XmlType)) ::System::Xml::Schema::XmlSchemaType* XmlType;
 
   static inline ::System::Xml::XPath::XPathItem* New_ctor();
 
-  /// @brief Method ValueAs, addr 0x2eefe68, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ValueAs, addr 0x42ed7d8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* ValueAs(::System::Type* returnType);
 
   /// @brief Method ValueAs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ValueAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x2eefe7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42ed7ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_TypedValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -106,6 +106,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XPathItem", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XPathItem(XPathItem const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7345 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

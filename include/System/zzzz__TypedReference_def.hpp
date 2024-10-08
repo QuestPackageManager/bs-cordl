@@ -31,7 +31,7 @@ struct TypedReference;
 // Write type traits
 MARK_VAL_T(::System::TypedReference);
 // Type: System::TypedReference
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
 // CS Name: ::System::TypedReference
@@ -40,23 +40,23 @@ public:
   // Declarations
   __declspec(property(get = get_IsNull)) bool IsNull;
 
-  /// @brief Method Equals, addr 0x29a80f0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3db88e8, size 0x50, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x29a8038, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3db8854, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method InternalMakeTypedReference, addr 0x29a8034, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalMakeTypedReference, addr 0x3db8850, size 0x4, virtual false, abstract: false, final false
   static inline void InternalMakeTypedReference(::cordl_internals::Ptr<void> result, ::System::Object* target, ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> flds,
                                                 ::System::RuntimeType* lastFieldType);
 
-  /// @brief Method MakeTypedReference, addr 0x29a7be8, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method MakeTypedReference, addr 0x3db8424, size 0x428, virtual false, abstract: false, final false
   static inline ::System::TypedReference MakeTypedReference(::System::Object* target, ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> flds);
 
-  /// @brief Method SetTypedReference, addr 0x29a81b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetTypedReference, addr 0x3db8958, size 0x4c, virtual false, abstract: false, final false
   static inline void SetTypedReference(::System::TypedReference target, ::System::Object* value);
 
-  /// @brief Method get_IsNull, addr 0x29a8148, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x3db8938, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
   // Ctor Parameters []
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field Type, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr Type;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2573 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

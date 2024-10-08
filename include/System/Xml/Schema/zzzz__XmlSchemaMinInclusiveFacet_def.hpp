@@ -12,7 +12,7 @@ class XmlSchemaMinInclusiveFacet;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaMinInclusiveFacet);
 // Type: System.Xml.Schema::XmlSchemaMinInclusiveFacet
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaMinInclusiveFacet*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaMinInclusiveFacet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e452f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4247b84, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaMinInclusiveFacet", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaMinInclusiveFacet(XmlSchemaMinInclusiveFacet const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7652 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

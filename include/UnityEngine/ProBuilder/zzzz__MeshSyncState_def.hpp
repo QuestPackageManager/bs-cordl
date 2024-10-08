@@ -13,7 +13,7 @@ struct MeshSyncState;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ProBuilder::MeshSyncState);
 // Type: UnityEngine.ProBuilder::MeshSyncState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // CS Name: ::UnityEngine.ProBuilder::MeshSyncState
@@ -28,6 +28,7 @@ public:
     __E_InstanceIDMismatch = static_cast<int32_t>(0x1),
     __E_Lightmap = static_cast<int32_t>(0x2),
     __E_InSync = static_cast<int32_t>(0x3),
+    __E_NeedsRebuild = static_cast<int32_t>(0x4),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -59,8 +60,14 @@ public:
   /// @brief Field Lightmap value: static_cast<int32_t>(0x2)
   static ::UnityEngine::ProBuilder::MeshSyncState const Lightmap;
 
+  /// @brief Field NeedsRebuild value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::ProBuilder::MeshSyncState const NeedsRebuild;
+
   /// @brief Field Null value: static_cast<int32_t>(0x0)
   static ::UnityEngine::ProBuilder::MeshSyncState const Null;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14237 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

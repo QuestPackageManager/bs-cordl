@@ -27,7 +27,7 @@ class PlayerSpecificSettingsNetSerializable;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerSpecificSettingsNetSerializable);
 // Type: ::PlayerSpecificSettingsNetSerializable
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSpecificSettingsNetSerializable*
@@ -38,7 +38,7 @@ public:
   __declspec(property(get = __cordl_internal_get_automaticPlayerHeight, put = __cordl_internal_set_automaticPlayerHeight)) bool automaticPlayerHeight;
 
   /// @brief Field colorScheme, offset 0x2c, size 0x70
-  __declspec(property(get = __cordl_internal_get_colorScheme, put = __cordl_internal_set_colorScheme))::GlobalNamespace::ColorSchemeNetSerializable colorScheme;
+  __declspec(property(get = __cordl_internal_get_colorScheme, put = __cordl_internal_set_colorScheme)) ::GlobalNamespace::ColorSchemeNetSerializable colorScheme;
 
   /// @brief Field headPosToPlayerHeightOffset, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_headPosToPlayerHeightOffset, put = __cordl_internal_set_headPosToPlayerHeightOffset)) float_t headPosToPlayerHeightOffset;
@@ -50,15 +50,15 @@ public:
   __declspec(property(get = __cordl_internal_get_playerHeight, put = __cordl_internal_set_playerHeight)) float_t playerHeight;
 
   /// @brief Field userId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_userId, put = __cordl_internal_set_userId))::StringW userId;
+  __declspec(property(get = __cordl_internal_get_userId, put = __cordl_internal_set_userId)) ::StringW userId;
 
   /// @brief Field userName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_userName, put = __cordl_internal_set_userName))::StringW userName;
+  __declspec(property(get = __cordl_internal_get_userName, put = __cordl_internal_set_userName)) ::StringW userName;
 
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x10c38b8, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x22a216c, size 0x98, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   static inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* New_ctor();
@@ -68,7 +68,7 @@ public:
                                                                                    ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                                                                                    ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
-  /// @brief Method Serialize, addr 0x10c36c8, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x22a1f80, size 0x90, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr bool const& __cordl_internal_get_automaticPlayerHeight() const;
@@ -113,10 +113,10 @@ public:
 
   constexpr void __cordl_internal_set_userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x10c38b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a2164, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x10c3950, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a2204, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float_t playerHeight, float_t headPosToPlayerHeightOffset, ::UnityEngine::Color saberAColor,
                     ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                     ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
@@ -158,6 +158,9 @@ public:
 
   /// @brief Field colorScheme, offset: 0x2c, size: 0x70, def value: None
   ::GlobalNamespace::ColorSchemeNetSerializable ___colorScheme;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14890 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

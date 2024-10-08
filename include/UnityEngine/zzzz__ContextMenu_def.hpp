@@ -14,7 +14,7 @@ class ContextMenu;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ContextMenu);
 // Type: UnityEngine::ContextMenu
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::ContextMenu*
@@ -22,7 +22,7 @@ class CORDL_TYPE ContextMenu : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field menuItem, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_menuItem, put = __cordl_internal_set_menuItem))::StringW menuItem;
+  __declspec(property(get = __cordl_internal_get_menuItem, put = __cordl_internal_set_menuItem)) ::StringW menuItem;
 
   /// @brief Field priority, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_priority, put = __cordl_internal_set_priority)) int32_t priority;
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_validate(bool value);
 
-  /// @brief Method .ctor, addr 0x3448ae0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4830fb8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName);
 
-  /// @brief Method .ctor, addr 0x3448b18, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4830ff0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction);
 
-  /// @brief Method .ctor, addr 0x3448b54, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x483102c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
 protected:
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field priority, offset: 0x1c, size: 0x4, def value: None
   int32_t ___priority;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10821 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

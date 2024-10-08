@@ -21,22 +21,22 @@ class RaycastUITopLevelChecker;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::RaycastUITopLevelChecker);
 // Type: HMUI::RaycastUITopLevelChecker
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::RaycastUITopLevelChecker*
 class CORDL_TYPE RaycastUITopLevelChecker : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _canvas, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__canvas, put = __cordl_internal_set__canvas))::UnityW<::UnityEngine::Canvas> _canvas;
+  /// @brief Field _canvas, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__canvas, put = __cordl_internal_set__canvas)) ::UnityW<::UnityEngine::Canvas> _canvas;
 
   __declspec(property(get = get_isOnTop)) bool isOnTop;
 
-  /// @brief Field results, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_results, put = __cordl_internal_set_results))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* results;
+  /// @brief Field results, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_results, put = __cordl_internal_set_results)) ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* results;
 
-  /// @brief Method Awake, addr 0x252edec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3985754, size 0x74, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::HMUI::RaycastUITopLevelChecker* New_ctor();
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_results(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* value);
 
-  /// @brief Method .ctor, addr 0x252f068, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39859d0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isOnTop, addr 0x252ee60, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method get_isOnTop, addr 0x39857c8, size 0x208, virtual false, abstract: false, final false
   inline bool get_isOnTop();
 
 protected:
@@ -73,20 +73,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RaycastUITopLevelChecker(RaycastUITopLevelChecker const&) = delete;
 
-  /// @brief Field results, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field results, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* ___results;
 
-  /// @brief Field _canvas, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _canvas, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Canvas> ____canvas;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16002 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::RaycastUITopLevelChecker, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::RaycastUITopLevelChecker, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::HMUI::RaycastUITopLevelChecker, ___results) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::HMUI::RaycastUITopLevelChecker, ___results) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::RaycastUITopLevelChecker, ____canvas) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::HMUI::RaycastUITopLevelChecker, ____canvas) == 0x28, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::RaycastUITopLevelChecker);

@@ -13,7 +13,7 @@ class EncoderExceptionFallbackBuffer;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::EncoderExceptionFallbackBuffer);
 // Type: System.Text::EncoderExceptionFallbackBuffer
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
 // CS Name: ::System.Text::EncoderExceptionFallbackBuffer*
@@ -22,24 +22,24 @@ public:
   // Declarations
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  /// @brief Method Fallback, addr 0x27e28ec, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x3c03304, size 0xac, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback, addr 0x27e29d0, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x3c033e0, size 0x250, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x27e2e28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x3c03820, size 0x8, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious, addr 0x27e2e30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method MovePrevious, addr 0x3c03828, size 0x8, virtual true, abstract: false, final false
   inline bool MovePrevious();
 
   static inline ::System::Text::EncoderExceptionFallbackBuffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27e2878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c03290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Remaining, addr 0x27e2e38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x3c03830, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:
@@ -55,6 +55,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallbackBuffer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   EncoderExceptionFallbackBuffer(EncoderExceptionFallbackBuffer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2845 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

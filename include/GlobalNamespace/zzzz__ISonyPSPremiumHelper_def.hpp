@@ -33,7 +33,7 @@ MARK_VAL_T(::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPremiumDialogRe
 MARK_VAL_T(::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStatusResult);
 MARK_REF_PTR_T(::GlobalNamespace::ISonyPSPremiumHelper);
 // Type: ::DisplayJoinPremiumDialogResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ISonyPSPremiumHelper::DisplayJoinPremiumDialogResult
@@ -74,6 +74,9 @@ public:
   /// @brief Field OK value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult const OK;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13131 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -86,7 +89,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPre
 
 } // namespace GlobalNamespace
 // Type: ::GetPremiumStatusResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ISonyPSPremiumHelper::GetPremiumStatusResult
@@ -131,6 +134,9 @@ public:
   /// @brief Field Unauthorized value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStatusResult const Unauthorized;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13132 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -143,7 +149,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStat
 
 } // namespace GlobalNamespace
 // Type: ::ISonyPSPremiumHelper
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ISonyPSPremiumHelper*
@@ -170,6 +176,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ISonyPSPremiumHelper", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ISonyPSPremiumHelper(ISonyPSPremiumHelper const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

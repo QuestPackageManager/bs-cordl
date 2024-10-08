@@ -15,7 +15,7 @@ class ValidationMarker;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ValidationMarker);
 // Type: Zenject::ValidationMarker
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::ValidationMarker*
@@ -24,13 +24,13 @@ public:
   // Declarations
   __declspec(property(get = get_InstantiateFailed, put = set_InstantiateFailed)) bool InstantiateFailed;
 
-  __declspec(property(get = get_MarkedType, put = set_MarkedType))::System::Type* MarkedType;
+  __declspec(property(get = get_MarkedType, put = set_MarkedType)) ::System::Type* MarkedType;
 
   /// @brief Field <InstantiateFailed>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__InstantiateFailed_k__BackingField, put = __cordl_internal_set__InstantiateFailed_k__BackingField)) bool _InstantiateFailed_k__BackingField;
 
   /// @brief Field <MarkedType>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__MarkedType_k__BackingField, put = __cordl_internal_set__MarkedType_k__BackingField))::System::Type* _MarkedType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MarkedType_k__BackingField, put = __cordl_internal_set__MarkedType_k__BackingField)) ::System::Type* _MarkedType_k__BackingField;
 
   static inline ::Zenject::ValidationMarker* New_ctor(::System::Type* markedType);
 
@@ -48,22 +48,22 @@ public:
 
   constexpr void __cordl_internal_set__MarkedType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x369d160, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac08cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType);
 
-  /// @brief Method .ctor, addr 0x36b871c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4adb8a4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType, bool instantiateFailed);
 
-  /// @brief Method get_InstantiateFailed, addr 0x36b8750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstantiateFailed, addr 0x4adb8d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateFailed();
 
-  /// @brief Method get_MarkedType, addr 0x36b8764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarkedType, addr 0x4adb8ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MarkedType();
 
-  /// @brief Method set_InstantiateFailed, addr 0x36b8758, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_InstantiateFailed, addr 0x4adb8e0, size 0xc, virtual false, abstract: false, final false
   inline void set_InstantiateFailed(bool value);
 
-  /// @brief Method set_MarkedType, addr 0x36b876c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MarkedType, addr 0x4adb8f4, size 0x8, virtual false, abstract: false, final false
   inline void set_MarkedType(::System::Type* value);
 
 protected:
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field <MarkedType>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____MarkedType_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12665 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

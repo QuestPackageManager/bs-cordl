@@ -19,37 +19,37 @@ class XmlReflectionMember;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlReflectionMember);
 // Type: System.Xml.Serialization::XmlReflectionMember
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlReflectionMember*
 class CORDL_TYPE XmlReflectionMember : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_DeclaringType, put = set_DeclaringType))::System::Type* DeclaringType;
+  __declspec(property(get = get_DeclaringType, put = set_DeclaringType)) ::System::Type* DeclaringType;
 
   __declspec(property(get = get_IsReturnValue)) bool IsReturnValue;
 
-  __declspec(property(get = get_MemberName))::StringW MemberName;
+  __declspec(property(get = get_MemberName)) ::StringW MemberName;
 
-  __declspec(property(get = get_MemberType))::System::Type* MemberType;
+  __declspec(property(get = get_MemberType)) ::System::Type* MemberType;
 
-  __declspec(property(get = get_XmlAttributes))::System::Xml::Serialization::XmlAttributes* XmlAttributes;
+  __declspec(property(get = get_XmlAttributes)) ::System::Xml::Serialization::XmlAttributes* XmlAttributes;
 
   /// @brief Field declaringType, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_declaringType, put = __cordl_internal_set_declaringType))::System::Type* declaringType;
+  __declspec(property(get = __cordl_internal_get_declaringType, put = __cordl_internal_set_declaringType)) ::System::Type* declaringType;
 
   /// @brief Field isReturnValue, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_isReturnValue, put = __cordl_internal_set_isReturnValue)) bool isReturnValue;
 
   /// @brief Field memberName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberName, put = __cordl_internal_set_memberName))::StringW memberName;
+  __declspec(property(get = __cordl_internal_get_memberName, put = __cordl_internal_set_memberName)) ::StringW memberName;
 
   /// @brief Field memberType, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberType, put = __cordl_internal_set_memberType))::System::Type* memberType;
+  __declspec(property(get = __cordl_internal_get_memberType, put = __cordl_internal_set_memberType)) ::System::Type* memberType;
 
   /// @brief Field xmlAttributes, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_xmlAttributes, put = __cordl_internal_set_xmlAttributes))::System::Xml::Serialization::XmlAttributes* xmlAttributes;
+  __declspec(property(get = __cordl_internal_get_xmlAttributes, put = __cordl_internal_set_xmlAttributes)) ::System::Xml::Serialization::XmlAttributes* xmlAttributes;
 
   static inline ::System::Xml::Serialization::XmlReflectionMember* New_ctor(::StringW name, ::System::Type* type, ::System::Xml::Serialization::XmlAttributes* attributes);
 
@@ -83,25 +83,25 @@ public:
 
   constexpr void __cordl_internal_set_xmlAttributes(::System::Xml::Serialization::XmlAttributes* value);
 
-  /// @brief Method .ctor, addr 0x2f03c2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4300914, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Type* type, ::System::Xml::Serialization::XmlAttributes* attributes);
 
-  /// @brief Method get_DeclaringType, addr 0x2f06058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x4302ad0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_IsReturnValue, addr 0x2f06040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReturnValue, addr 0x4302ab8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReturnValue();
 
-  /// @brief Method get_MemberName, addr 0x2f06048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x4302ac0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
-  /// @brief Method get_MemberType, addr 0x2f06050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x4302ac8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();
 
-  /// @brief Method get_XmlAttributes, addr 0x2f02f28, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_XmlAttributes, addr 0x42ffc1c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAttributes* get_XmlAttributes();
 
-  /// @brief Method set_DeclaringType, addr 0x2f06060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DeclaringType, addr 0x4302ad8, size 0x8, virtual false, abstract: false, final false
   inline void set_DeclaringType(::System::Type* value);
 
 protected:
@@ -132,6 +132,9 @@ public:
 
   /// @brief Field declaringType, offset: 0x30, size: 0x8, def value: None
   ::System::Type* ___declaringType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7395 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

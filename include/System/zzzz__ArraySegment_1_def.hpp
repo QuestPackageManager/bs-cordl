@@ -51,7 +51,7 @@ template <typename T> struct __ArraySegment_1__Enumerator;
 MARK_GEN_VAL_T(::System::ArraySegment_1);
 MARK_GEN_VAL_T(::System::__ArraySegment_1__Enumerator);
 // Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 36, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 36, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // cpp template
 template <typename T>
@@ -62,7 +62,7 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
@@ -120,6 +120,9 @@ public:
   /// @brief Field _current, offset: 0x10, size: 0x4, def value: None
   int32_t _current;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2350 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -128,7 +131,7 @@ public:
 // Non member Declarations
 } // namespace System
 // Type: System::ArraySegment`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // cpp template
 template <typename T>
@@ -139,7 +142,7 @@ public:
   // Declarations
   using Enumerator = ::System::__ArraySegment_1__Enumerator<T>;
 
-  __declspec(property(get = get_Array))::ArrayW<T, ::Array<T>*> Array;
+  __declspec(property(get = get_Array)) ::ArrayW<T, ::Array<T>*> Array;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -152,7 +155,7 @@ public:
   __declspec(property(get = System_Collections_Generic_IReadOnlyList_T__get_Item)) T System_Collections_Generic_IReadOnlyList_T__Item[];
 
   /// @brief Field <Empty>k__BackingField, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF__Empty_k__BackingField, put = setStaticF__Empty_k__BackingField))::System::ArraySegment_1<T> _Empty_k__BackingField;
+  static __declspec(property(get = getStaticF__Empty_k__BackingField, put = setStaticF__Empty_k__BackingField)) ::System::ArraySegment_1<T> _Empty_k__BackingField;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
   constexpr operator ::System::Collections::Generic::ICollection_1<T>*();
@@ -285,6 +288,9 @@ public:
 
   /// @brief Field _count, offset: 0xc, size: 0x4, def value: None
   int32_t _count;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2351 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

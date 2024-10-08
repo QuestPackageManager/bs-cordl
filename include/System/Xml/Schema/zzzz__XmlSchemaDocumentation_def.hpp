@@ -20,30 +20,30 @@ class XmlSchemaDocumentation;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaDocumentation);
 // Type: System.Xml.Schema::XmlSchemaDocumentation
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaDocumentation*
 class CORDL_TYPE XmlSchemaDocumentation : public ::System::Xml::Schema::XmlSchemaObject {
 public:
   // Declarations
-  __declspec(property(put = set_Language))::StringW Language;
+  __declspec(property(put = set_Language)) ::StringW Language;
 
-  __declspec(property(put = set_Markup))::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> Markup;
+  __declspec(property(put = set_Markup)) ::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> Markup;
 
-  __declspec(property(put = set_Source))::StringW Source;
+  __declspec(property(put = set_Source)) ::StringW Source;
 
   /// @brief Field language, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language))::StringW language;
+  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language)) ::StringW language;
 
   /// @brief Field languageType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_languageType, put = setStaticF_languageType))::System::Xml::Schema::XmlSchemaSimpleType* languageType;
+  static __declspec(property(get = getStaticF_languageType, put = setStaticF_languageType)) ::System::Xml::Schema::XmlSchemaSimpleType* languageType;
 
   /// @brief Field markup, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_markup, put = __cordl_internal_set_markup))::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> markup;
+  __declspec(property(get = __cordl_internal_get_markup, put = __cordl_internal_set_markup)) ::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> markup;
 
   /// @brief Field source, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::StringW source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::StringW source;
 
   static inline ::System::Xml::Schema::XmlSchemaDocumentation* New_ctor();
 
@@ -65,20 +65,20 @@ public:
 
   constexpr void __cordl_internal_set_source(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e4415c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4246a34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* getStaticF_languageType();
 
   static inline void setStaticF_languageType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_Language, addr 0x2e44084, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method set_Language, addr 0x424695c, size 0xd0, virtual false, abstract: false, final false
   inline void set_Language(::StringW value);
 
-  /// @brief Method set_Markup, addr 0x2e44154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Markup, addr 0x4246a2c, size 0x8, virtual false, abstract: false, final false
   inline void set_Markup(::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> value);
 
-  /// @brief Method set_Source, addr 0x2e4407c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Source, addr 0x4246954, size 0x8, virtual false, abstract: false, final false
   inline void set_Source(::StringW value);
 
 protected:
@@ -103,6 +103,9 @@ public:
 
   /// @brief Field markup, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> ___markup;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7639 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

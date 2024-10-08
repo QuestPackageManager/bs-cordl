@@ -30,7 +30,7 @@ class PyramidBloomMainEffectSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PyramidBloomMainEffectSO);
 // Type: ::PyramidBloomMainEffectSO
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PyramidBloomMainEffectSO*
@@ -50,7 +50,7 @@ public:
   __declspec(property(get = __cordl_internal_get__bloomBlendFactor, put = __cordl_internal_set__bloomBlendFactor)) float_t _bloomBlendFactor;
 
   /// @brief Field _bloomFog, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomFog, put = __cordl_internal_set__bloomFog))::UnityW<::GlobalNamespace::BloomFogSO> _bloomFog;
+  __declspec(property(get = __cordl_internal_get__bloomFog, put = __cordl_internal_set__bloomFog)) ::UnityW<::GlobalNamespace::BloomFogSO> _bloomFog;
 
   /// @brief Field _bloomIntensity, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__bloomIntensity, put = __cordl_internal_set__bloomIntensity)) float_t _bloomIntensity;
@@ -62,7 +62,7 @@ public:
   __declspec(property(get = __cordl_internal_get__bloomRadius, put = __cordl_internal_set__bloomRadius)) float_t _bloomRadius;
 
   /// @brief Field _bloomRenderer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomRenderer, put = __cordl_internal_set__bloomRenderer))::UnityW<::GlobalNamespace::PyramidBloomRendererSO> _bloomRenderer;
+  __declspec(property(get = __cordl_internal_get__bloomRenderer, put = __cordl_internal_set__bloomRenderer)) ::UnityW<::GlobalNamespace::PyramidBloomRendererSO> _bloomRenderer;
 
   /// @brief Field _bloomTexID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__bloomTexID, put = setStaticF__bloomTexID)) int32_t _bloomTexID;
@@ -74,52 +74,52 @@ public:
   __declspec(property(get = __cordl_internal_get__downBloomIntensityOffset, put = __cordl_internal_set__downBloomIntensityOffset)) float_t _downBloomIntensityOffset;
 
   /// @brief Field _downsamplePass, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get__downsamplePass, put = __cordl_internal_set__downsamplePass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _downsamplePass;
+  __declspec(property(get = __cordl_internal_get__downsamplePass, put = __cordl_internal_set__downsamplePass)) ::GlobalNamespace::__PyramidBloomRendererSO__Pass _downsamplePass;
 
   /// @brief Field _fadeID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__fadeID, put = setStaticF__fadeID)) int32_t _fadeID;
 
   /// @brief Field _fadeMaterial, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__fadeMaterial, put = __cordl_internal_set__fadeMaterial))::UnityW<::UnityEngine::Material> _fadeMaterial;
+  __declspec(property(get = __cordl_internal_get__fadeMaterial, put = __cordl_internal_set__fadeMaterial)) ::UnityW<::UnityEngine::Material> _fadeMaterial;
 
   /// @brief Field _fadeShader, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__fadeShader, put = __cordl_internal_set__fadeShader))::UnityW<::UnityEngine::Shader> _fadeShader;
+  __declspec(property(get = __cordl_internal_get__fadeShader, put = __cordl_internal_set__fadeShader)) ::UnityW<::UnityEngine::Shader> _fadeShader;
 
   /// @brief Field _finalUpsamplePass, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get__finalUpsamplePass, put = __cordl_internal_set__finalUpsamplePass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _finalUpsamplePass;
+  __declspec(property(get = __cordl_internal_get__finalUpsamplePass, put = __cordl_internal_set__finalUpsamplePass)) ::GlobalNamespace::__PyramidBloomRendererSO__Pass _finalUpsamplePass;
 
   /// @brief Field _mainEffectMaterial, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainEffectMaterial, put = __cordl_internal_set__mainEffectMaterial))::UnityW<::UnityEngine::Material> _mainEffectMaterial;
+  __declspec(property(get = __cordl_internal_get__mainEffectMaterial, put = __cordl_internal_set__mainEffectMaterial)) ::UnityW<::UnityEngine::Material> _mainEffectMaterial;
 
   /// @brief Field _mainEffectShader, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainEffectShader, put = __cordl_internal_set__mainEffectShader))::UnityW<::UnityEngine::Shader> _mainEffectShader;
+  __declspec(property(get = __cordl_internal_get__mainEffectShader, put = __cordl_internal_set__mainEffectShader)) ::UnityW<::UnityEngine::Shader> _mainEffectShader;
 
   /// @brief Field _preFilterPass, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__preFilterPass, put = __cordl_internal_set__preFilterPass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _preFilterPass;
+  __declspec(property(get = __cordl_internal_get__preFilterPass, put = __cordl_internal_set__preFilterPass)) ::GlobalNamespace::__PyramidBloomRendererSO__Pass _preFilterPass;
 
   /// @brief Field _pyramidWeightsParam, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__pyramidWeightsParam, put = __cordl_internal_set__pyramidWeightsParam)) float_t _pyramidWeightsParam;
 
   /// @brief Field _upsamplePass, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get__upsamplePass, put = __cordl_internal_set__upsamplePass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _upsamplePass;
+  __declspec(property(get = __cordl_internal_get__upsamplePass, put = __cordl_internal_set__upsamplePass)) ::GlobalNamespace::__PyramidBloomRendererSO__Pass _upsamplePass;
 
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  /// @brief Method LazyInitializeMaterials, addr 0x2c09ff8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method LazyInitializeMaterials, addr 0x400c2e4, size 0x124, virtual false, abstract: false, final false
   inline void LazyInitializeMaterials();
 
   static inline ::GlobalNamespace::PyramidBloomMainEffectSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2c0a11c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x400c408, size 0x30, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2c09fdc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x400c2c8, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PreRender, addr 0x2c0a14c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x400c438, size 0x64, virtual true, abstract: false, final false
   inline void PreRender();
 
-  /// @brief Method Render, addr 0x2c0a1b0, size 0x27c, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x400c49c, size 0x27c, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade);
 
   constexpr float_t const& __cordl_internal_get__alphaWeights() const;
@@ -236,7 +236,7 @@ public:
 
   constexpr void __cordl_internal_set__upsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
 
-  /// @brief Method .ctor, addr 0x2c0a42c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400c718, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__bloomIntensityID();
@@ -245,7 +245,7 @@ public:
 
   static inline int32_t getStaticF__fadeID();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x2c09fd4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x400c2c0, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
   static inline void setStaticF__bloomIntensityID(int32_t value);
@@ -324,6 +324,9 @@ public:
 
   /// @brief Field _mainEffectMaterial, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____mainEffectMaterial;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17811 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

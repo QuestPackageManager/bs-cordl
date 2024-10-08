@@ -17,38 +17,38 @@ class SphereCollider;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::SphereCollider);
 // Type: UnityEngine::SphereCollider
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::SphereCollider*
 class CORDL_TYPE SphereCollider : public ::UnityEngine::Collider {
 public:
   // Declarations
-  __declspec(property(get = get_center, put = set_center))::UnityEngine::Vector3 center;
+  __declspec(property(get = get_center, put = set_center)) ::UnityEngine::Vector3 center;
 
   __declspec(property(get = get_radius, put = set_radius)) float_t radius;
 
   static inline ::UnityEngine::SphereCollider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x34a56b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x488f7b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_center, addr 0x34a54f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x488f5f0, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_center_Injected, addr 0x34a554c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_center_Injected, addr 0x488f64c, size 0x44, virtual false, abstract: false, final false
   inline void get_center_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_radius, addr 0x34a5628, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x488f728, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_center, addr 0x34a5590, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x488f690, size 0x54, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_center_Injected, addr 0x34a55e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_center_Injected, addr 0x488f6e4, size 0x44, virtual false, abstract: false, final false
   inline void set_center_Injected(ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_radius, addr 0x34a5664, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x488f764, size 0x4c, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
 protected:
@@ -64,6 +64,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SphereCollider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SphereCollider(SphereCollider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15708 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

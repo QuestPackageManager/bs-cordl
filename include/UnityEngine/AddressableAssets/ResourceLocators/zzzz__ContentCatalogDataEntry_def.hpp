@@ -25,44 +25,44 @@ class ContentCatalogDataEntry;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry);
 // Type: UnityEngine.AddressableAssets.ResourceLocators::ContentCatalogDataEntry
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ContentCatalogDataEntry*
 class CORDL_TYPE ContentCatalogDataEntry : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Data, put = set_Data))::System::Object* Data;
+  __declspec(property(get = get_Data, put = set_Data)) ::System::Object* Data;
 
-  __declspec(property(get = get_Dependencies, put = set_Dependencies))::System::Collections::Generic::List_1<::System::Object*>* Dependencies;
+  __declspec(property(get = get_Dependencies, put = set_Dependencies)) ::System::Collections::Generic::List_1<::System::Object*>* Dependencies;
 
-  __declspec(property(get = get_InternalId, put = set_InternalId))::StringW InternalId;
+  __declspec(property(get = get_InternalId, put = set_InternalId)) ::StringW InternalId;
 
-  __declspec(property(get = get_Keys, put = set_Keys))::System::Collections::Generic::List_1<::System::Object*>* Keys;
+  __declspec(property(get = get_Keys, put = set_Keys)) ::System::Collections::Generic::List_1<::System::Object*>* Keys;
 
-  __declspec(property(get = get_Provider, put = set_Provider))::StringW Provider;
+  __declspec(property(get = get_Provider, put = set_Provider)) ::StringW Provider;
 
-  __declspec(property(get = get_ResourceType, put = set_ResourceType))::System::Type* ResourceType;
+  __declspec(property(get = get_ResourceType, put = set_ResourceType)) ::System::Type* ResourceType;
 
   /// @brief Field <Data>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__Data_k__BackingField, put = __cordl_internal_set__Data_k__BackingField))::System::Object* _Data_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Data_k__BackingField, put = __cordl_internal_set__Data_k__BackingField)) ::System::Object* _Data_k__BackingField;
 
   /// @brief Field <Dependencies>k__BackingField, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__Dependencies_k__BackingField,
-                      put = __cordl_internal_set__Dependencies_k__BackingField))::System::Collections::Generic::List_1<::System::Object*>* _Dependencies_k__BackingField;
+                      put = __cordl_internal_set__Dependencies_k__BackingField)) ::System::Collections::Generic::List_1<::System::Object*>* _Dependencies_k__BackingField;
 
   /// @brief Field <InternalId>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__InternalId_k__BackingField, put = __cordl_internal_set__InternalId_k__BackingField))::StringW _InternalId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__InternalId_k__BackingField, put = __cordl_internal_set__InternalId_k__BackingField)) ::StringW _InternalId_k__BackingField;
 
   /// @brief Field <Keys>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__Keys_k__BackingField,
-                      put = __cordl_internal_set__Keys_k__BackingField))::System::Collections::Generic::List_1<::System::Object*>* _Keys_k__BackingField;
+                      put = __cordl_internal_set__Keys_k__BackingField)) ::System::Collections::Generic::List_1<::System::Object*>* _Keys_k__BackingField;
 
   /// @brief Field <Provider>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Provider_k__BackingField, put = __cordl_internal_set__Provider_k__BackingField))::StringW _Provider_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Provider_k__BackingField, put = __cordl_internal_set__Provider_k__BackingField)) ::StringW _Provider_k__BackingField;
 
   /// @brief Field <ResourceType>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__ResourceType_k__BackingField, put = __cordl_internal_set__ResourceType_k__BackingField))::System::Type* _ResourceType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ResourceType_k__BackingField, put = __cordl_internal_set__ResourceType_k__BackingField)) ::System::Type* _ResourceType_k__BackingField;
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry* New_ctor(::System::Type* type, ::StringW internalId, ::StringW provider,
                                                                                                       ::System::Collections::Generic::IEnumerable_1<::System::Object*>* keys,
@@ -105,44 +105,44 @@ public:
 
   constexpr void __cordl_internal_set__ResourceType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x308f890, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448458c, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW internalId, ::StringW provider, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* keys,
                     ::System::Collections::Generic::IEnumerable_1<::System::Object*>* dependencies, ::System::Object* extraData);
 
-  /// @brief Method get_Data, addr 0x308f870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x448456c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Data();
 
-  /// @brief Method get_Dependencies, addr 0x308f860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dependencies, addr 0x448455c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* get_Dependencies();
 
-  /// @brief Method get_InternalId, addr 0x308f830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalId, addr 0x448452c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_Keys, addr 0x308f850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x448454c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* get_Keys();
 
-  /// @brief Method get_Provider, addr 0x308f840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Provider, addr 0x448453c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Provider();
 
-  /// @brief Method get_ResourceType, addr 0x308f880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceType, addr 0x448457c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ResourceType();
 
-  /// @brief Method set_Data, addr 0x308f878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x4484574, size 0x8, virtual false, abstract: false, final false
   inline void set_Data(::System::Object* value);
 
-  /// @brief Method set_Dependencies, addr 0x308f868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Dependencies, addr 0x4484564, size 0x8, virtual false, abstract: false, final false
   inline void set_Dependencies(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  /// @brief Method set_InternalId, addr 0x308f838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InternalId, addr 0x4484534, size 0x8, virtual false, abstract: false, final false
   inline void set_InternalId(::StringW value);
 
-  /// @brief Method set_Keys, addr 0x308f858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Keys, addr 0x4484554, size 0x8, virtual false, abstract: false, final false
   inline void set_Keys(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  /// @brief Method set_Provider, addr 0x308f848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Provider, addr 0x4484544, size 0x8, virtual false, abstract: false, final false
   inline void set_Provider(::StringW value);
 
-  /// @brief Method set_ResourceType, addr 0x308f888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ResourceType, addr 0x4484584, size 0x8, virtual false, abstract: false, final false
   inline void set_ResourceType(::System::Type* value);
 
 protected:
@@ -176,6 +176,9 @@ public:
 
   /// @brief Field <ResourceType>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::System::Type* ____ResourceType_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16158 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

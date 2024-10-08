@@ -16,7 +16,7 @@ class ScriptableRuntimeReflectionSystemWrapper;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper);
 // Type: UnityEngine.Experimental.Rendering::ScriptableRuntimeReflectionSystemWrapper
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
 // CS Name: ::UnityEngine.Experimental.Rendering::ScriptableRuntimeReflectionSystemWrapper*
@@ -25,11 +25,11 @@ public:
   // Declarations
   /// @brief Field <implementation>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__implementation_k__BackingField,
-                      put = __cordl_internal_set__implementation_k__BackingField))::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* _implementation_k__BackingField;
+                      put = __cordl_internal_set__implementation_k__BackingField)) ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* _implementation_k__BackingField;
 
-  __declspec(property(get = get_implementation, put = set_implementation))::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* implementation;
+  __declspec(property(get = get_implementation, put = set_implementation)) ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* implementation;
 
-  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x346f068, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x4858da0, size 0xc0, virtual false, abstract: false, final false
   inline void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(ByRef<bool> result);
 
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* New_ctor();
@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set__implementation_k__BackingField(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
-  /// @brief Method .ctor, addr 0x346f050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4858d88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_implementation, addr 0x346f058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_implementation, addr 0x4858d90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* get_implementation();
 
-  /// @brief Method set_implementation, addr 0x346f060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_implementation, addr 0x4858d98, size 0x8, virtual false, abstract: false, final false
   inline void set_implementation(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
 protected:
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field <implementation>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* ____implementation_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11275 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

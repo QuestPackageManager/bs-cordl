@@ -22,7 +22,7 @@ class QueryExpression;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::QueryExpression);
 // Type: Newtonsoft.Json.Linq.JsonPath::QueryExpression
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::QueryExpression*
@@ -30,9 +30,9 @@ class CORDL_TYPE QueryExpression : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Operator, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_Operator, put = __cordl_internal_set_Operator))::Newtonsoft::Json::Linq::JsonPath::QueryOperator Operator;
+  __declspec(property(get = __cordl_internal_get_Operator, put = __cordl_internal_set_Operator)) ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Operator;
 
-  /// @brief Method IsMatch, addr 0x2ab1b9c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x3ec1214, size 0x10, virtual false, abstract: false, final false
   inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t);
 
   /// @brief Method IsMatch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_Operator(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value);
 
-  /// @brief Method .ctor, addr 0x2ab1b74, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ec11ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator);
 
 protected:
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field Operator, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::Linq::JsonPath::QueryOperator ___Operator;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10417 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

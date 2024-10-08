@@ -18,25 +18,25 @@ class HEU_ExampleInstanceCustomAttribute;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HEU_ExampleInstanceCustomAttribute);
 // Type: ::HEU_ExampleInstanceCustomAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::HEU_ExampleInstanceCustomAttribute*
 class CORDL_TYPE HEU_ExampleInstanceCustomAttribute : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method InstancerCallback, addr 0x255cbb0, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method InstancerCallback, addr 0x399a864, size 0x3a8, virtual false, abstract: false, final false
   inline void InstancerCallback();
 
   /// @brief Method LogArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void LogArray(::StringW name, ::ArrayW<T, ::Array<T>*> arr, int32_t tupleSize);
 
-  /// @brief Method LogAttr, addr 0x255cf5c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method LogAttr, addr 0x399ac0c, size 0x154, virtual false, abstract: false, final false
   static inline void LogAttr(::HoudiniEngineUnity::HEU_OutputAttribute* outAttr);
 
   static inline ::GlobalNamespace::HEU_ExampleInstanceCustomAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x255d0b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399ad60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,10 +53,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ExampleInstanceCustomAttribute(HEU_ExampleInstanceCustomAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11530 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HEU_ExampleInstanceCustomAttribute, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HEU_ExampleInstanceCustomAttribute, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HEU_ExampleInstanceCustomAttribute);

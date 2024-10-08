@@ -27,7 +27,7 @@ class Parser;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Util::Parser);
 // Type: System.Security.Util::Parser
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: false
 // CS Name: ::System.Security.Util::Parser*
@@ -35,25 +35,25 @@ class CORDL_TYPE Parser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _doc, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__doc, put = __cordl_internal_set__doc))::System::Security::SecurityDocument* _doc;
+  __declspec(property(get = __cordl_internal_get__doc, put = __cordl_internal_set__doc)) ::System::Security::SecurityDocument* _doc;
 
   /// @brief Field _t, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__t, put = __cordl_internal_set__t))::System::Security::Util::Tokenizer* _t;
+  __declspec(property(get = __cordl_internal_get__t, put = __cordl_internal_set__t)) ::System::Security::Util::Tokenizer* _t;
 
-  /// @brief Method DetermineFormat, addr 0x2802190, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method DetermineFormat, addr 0x3c21df8, size 0x18c, virtual false, abstract: false, final false
   inline int32_t DetermineFormat(::System::Security::Util::TokenizerStream* stream);
 
-  /// @brief Method GetRequiredSizes, addr 0x2801c38, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method GetRequiredSizes, addr 0x3c218c0, size 0x440, virtual false, abstract: false, final false
   inline void GetRequiredSizes(::System::Security::Util::TokenizerStream* stream, ByRef<int32_t> index);
 
-  /// @brief Method GetTopElement, addr 0x2801c10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetTopElement, addr 0x3c21898, size 0x28, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* GetTopElement();
 
   static inline ::System::Security::Util::Parser* New_ctor(::StringW input);
 
   static inline ::System::Security::Util::Parser* New_ctor(::System::Security::Util::Tokenizer* t);
 
-  /// @brief Method ParseContents, addr 0x2802da4, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method ParseContents, addr 0x3c229d8, size 0x2f8, virtual false, abstract: false, final false
   inline void ParseContents();
 
   constexpr ::System::Security::SecurityDocument*& __cordl_internal_get__doc();
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__t(::System::Security::Util::Tokenizer* value);
 
-  /// @brief Method .ctor, addr 0x2803284, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c22ea4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW input);
 
-  /// @brief Method .ctor, addr 0x28031e0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c22e00, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Util::Tokenizer* t);
 
 protected:
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field _t, offset: 0x18, size: 0x8, def value: None
   ::System::Security::Util::Tokenizer* ____t;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2894 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

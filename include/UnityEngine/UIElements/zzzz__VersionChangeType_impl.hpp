@@ -23,3 +23,5 @@ constexpr ::UnityEngine::UIElements::VersionChangeType UnityEngine::UIElements::
 constexpr ::UnityEngine::UIElements::VersionChangeType UnityEngine::UIElements::VersionChangeType::Color{ static_cast<int32_t>(0x2000) };
 constexpr ::UnityEngine::UIElements::VersionChangeType UnityEngine::UIElements::VersionChangeType::RenderHints{ static_cast<int32_t>(0x4000) };
 constexpr ::UnityEngine::UIElements::VersionChangeType UnityEngine::UIElements::VersionChangeType::TransitionProperty{ static_cast<int32_t>(0x8000) };
+constexpr ::UnityEngine::UIElements::VersionChangeType UnityEngine::UIElements::VersionChangeType::EventCallbackCategories{ static_cast<int32_t>(0x10000) };
+constexpr ::UnityEngine::UIElements::VersionChangeType UnityEngine::UIElements::VersionChangeType::Picking{ static_cast<int32_t>(0x100000) };

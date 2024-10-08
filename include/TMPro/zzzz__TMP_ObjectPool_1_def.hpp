@@ -19,7 +19,7 @@ template <typename T> class TMP_ObjectPool_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::TMPro::TMP_ObjectPool_1);
 // Type: TMPro::TMP_ObjectPool`1
-// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // cpp template
 template <typename T>
@@ -38,13 +38,13 @@ public:
   __declspec(property(get = get_countInactive)) int32_t countInactive;
 
   /// @brief Field m_ActionOnGet, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ActionOnGet, put = __cordl_internal_set_m_ActionOnGet))::UnityEngine::Events::UnityAction_1<T>* m_ActionOnGet;
+  __declspec(property(get = __cordl_internal_get_m_ActionOnGet, put = __cordl_internal_set_m_ActionOnGet)) ::UnityEngine::Events::UnityAction_1<T>* m_ActionOnGet;
 
   /// @brief Field m_ActionOnRelease, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ActionOnRelease, put = __cordl_internal_set_m_ActionOnRelease))::UnityEngine::Events::UnityAction_1<T>* m_ActionOnRelease;
+  __declspec(property(get = __cordl_internal_get_m_ActionOnRelease, put = __cordl_internal_set_m_ActionOnRelease)) ::UnityEngine::Events::UnityAction_1<T>* m_ActionOnRelease;
 
   /// @brief Field m_Stack, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Stack, put = __cordl_internal_set_m_Stack))::System::Collections::Generic::Stack_1<T>* m_Stack;
+  __declspec(property(get = __cordl_internal_get_m_Stack, put = __cordl_internal_set_m_Stack)) ::System::Collections::Generic::Stack_1<T>* m_Stack;
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Get();
@@ -118,6 +118,9 @@ public:
 
   /// @brief Field <countAll>k__BackingField, offset: 0x28, size: 0x4, def value: None
   int32_t ____countAll_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14482 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

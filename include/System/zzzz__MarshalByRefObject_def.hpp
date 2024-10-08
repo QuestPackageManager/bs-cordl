@@ -24,22 +24,22 @@ class MarshalByRefObject;
 // Write type traits
 MARK_REF_PTR_T(::System::MarshalByRefObject);
 // Type: System::MarshalByRefObject
-// SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::MarshalByRefObject*
 class CORDL_TYPE MarshalByRefObject : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_ObjectIdentity, put = set_ObjectIdentity))::System::Runtime::Remoting::ServerIdentity* ObjectIdentity;
+  __declspec(property(get = get_ObjectIdentity, put = set_ObjectIdentity)) ::System::Runtime::Remoting::ServerIdentity* ObjectIdentity;
 
   /// @brief Field _identity, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__identity, put = __cordl_internal_set__identity))::System::Object* _identity;
+  __declspec(property(get = __cordl_internal_get__identity, put = __cordl_internal_set__identity)) ::System::Object* _identity;
 
-  /// @brief Method CreateObjRef, addr 0x29b043c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CreateObjRef, addr 0x3dc0e14, size 0x38, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
-  /// @brief Method InitializeLifetimeService, addr 0x29b047c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method InitializeLifetimeService, addr 0x3dc0e4c, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* InitializeLifetimeService();
 
   static inline ::System::MarshalByRefObject* New_ctor();
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__identity(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x29a9cb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dba4fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ObjectIdentity, addr 0x29b03bc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectIdentity, addr 0x3dc0da4, size 0x38, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity();
 
-  /// @brief Method set_ObjectIdentity, addr 0x29b03fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectIdentity, addr 0x3dc0ddc, size 0x38, virtual false, abstract: false, final false
   inline void set_ObjectIdentity(::System::Runtime::Remoting::ServerIdentity* value);
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field _identity, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____identity;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2607 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

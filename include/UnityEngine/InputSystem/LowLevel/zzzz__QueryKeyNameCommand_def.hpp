@@ -35,7 +35,7 @@ struct __QueryKeyNameCommand___nameBuffer_e__FixedBuffer;
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand);
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer);
 // Type: ::<nameBuffer>e__FixedBuffer
-// SizeInfo { instance_size: 256, native_size: 256, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 256, native_size: 256, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::QueryKeyNameCommand::<nameBuffer>e__FixedBuffer
@@ -56,6 +56,9 @@ public:
   /// @brief Size padding 0x100 - 0x1 = 0xff, packed as 0xff
   uint8_t _cordl_size_padding[0xff];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6852 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
 
@@ -69,8 +72,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryKeyNameComma
 
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: UnityEngine.InputSystem.LowLevel::QueryKeyNameCommand
-// SizeInfo { instance_size: 268, native_size: 268, calculated_instance_size: 268, calculated_native_size: 284, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0)
-// }
+// SizeInfo { instance_size: 268, native_size: 268, calculated_instance_size: 268, calculated_native_size: 284, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QueryKeyNameCommand
@@ -81,23 +83,23 @@ public:
   using _nameBuffer_e__FixedBuffer = ::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer;
 
   /// @brief Field baseCommand, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
+  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand)) ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
   /// @brief Field nameBuffer, offset 0xc, size 0x100
-  __declspec(property(get = __cordl_internal_get_nameBuffer, put = __cordl_internal_set_nameBuffer))::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer nameBuffer;
+  __declspec(property(get = __cordl_internal_get_nameBuffer, put = __cordl_internal_set_nameBuffer)) ::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer nameBuffer;
 
   /// @brief Field scanOrKeyCode, offset 0x8, size 0x4
   __declspec(property(get = __cordl_internal_get_scanOrKeyCode, put = __cordl_internal_set_scanOrKeyCode)) int32_t scanOrKeyCode;
 
-  __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
+  __declspec(property(get = get_typeStatic)) ::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x318de04, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4590db4, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand Create(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method ReadKeyName, addr 0x318ddc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReadKeyName, addr 0x4590d74, size 0x10, virtual false, abstract: false, final false
   inline ::StringW ReadKeyName();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -118,10 +120,10 @@ public:
 
   constexpr void __cordl_internal_set_scanOrKeyCode(int32_t value);
 
-  /// @brief Method get_Type, addr 0x318dd94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4590d44, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x318ddd4, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x4590d84, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -184,6 +186,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6853 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10c };
 

@@ -30,7 +30,7 @@ class RelativeScoreAndImmediateRankCounter;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RelativeScoreAndImmediateRankCounter);
 // Type: ::RelativeScoreAndImmediateRankCounter
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RelativeScoreAndImmediateRankCounter*
@@ -38,42 +38,42 @@ class CORDL_TYPE RelativeScoreAndImmediateRankCounter : public ::UnityEngine::Mo
 public:
   // Declarations
   /// @brief Field _gameplayModifiers, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
-  /// @brief Field _gameplayModifiersModel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayModifiersModel,
-                      put = __cordl_internal_set__gameplayModifiersModel))::UnityW<::GlobalNamespace::GameplayModifiersModelSO> _gameplayModifiersModel;
+  /// @brief Field _gameplayModifiersModel, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayModifiersModel, put = __cordl_internal_set__gameplayModifiersModel)) ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>
+      _gameplayModifiersModel;
 
-  /// @brief Field <immediateRank>k__BackingField, offset 0x3c, size 0x4
+  /// @brief Field <immediateRank>k__BackingField, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__immediateRank_k__BackingField,
-                      put = __cordl_internal_set__immediateRank_k__BackingField))::GlobalNamespace::__RankModel__Rank _immediateRank_k__BackingField;
+                      put = __cordl_internal_set__immediateRank_k__BackingField)) ::GlobalNamespace::__RankModel__Rank _immediateRank_k__BackingField;
 
-  /// @brief Field <relativeScore>k__BackingField, offset 0x38, size 0x4
+  /// @brief Field <relativeScore>k__BackingField, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__relativeScore_k__BackingField, put = __cordl_internal_set__relativeScore_k__BackingField)) float_t _relativeScore_k__BackingField;
 
-  /// @brief Field _scoreController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
+  /// @brief Field _scoreController, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController)) ::GlobalNamespace::IScoreController* _scoreController;
 
-  __declspec(property(get = get_immediateRank, put = set_immediateRank))::GlobalNamespace::__RankModel__Rank immediateRank;
+  __declspec(property(get = get_immediateRank, put = set_immediateRank)) ::GlobalNamespace::__RankModel__Rank immediateRank;
 
   __declspec(property(get = get_relativeScore, put = set_relativeScore)) float_t relativeScore;
 
-  /// @brief Field relativeScoreOrImmediateRankDidChangeEvent, offset 0x30, size 0x8
+  /// @brief Field relativeScoreOrImmediateRankDidChangeEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_relativeScoreOrImmediateRankDidChangeEvent,
-                      put = __cordl_internal_set_relativeScoreOrImmediateRankDidChangeEvent))::System::Action* relativeScoreOrImmediateRankDidChangeEvent;
+                      put = __cordl_internal_set_relativeScoreOrImmediateRankDidChangeEvent)) ::System::Action* relativeScoreOrImmediateRankDidChangeEvent;
 
-  /// @brief Method HandleScoreDidChange, addr 0x270d4cc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreDidChange, addr 0x3b2e6ec, size 0x13c, virtual false, abstract: false, final false
   inline void HandleScoreDidChange(int32_t scoreWithoutModifiers, int32_t scoreWithModifiers);
 
   static inline ::GlobalNamespace::RelativeScoreAndImmediateRankCounter* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x270d3c4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b2e5ec, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x270d28c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b2e4b0, size 0x13c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateRelativeScoreAndImmediateRank, addr 0x270d608, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UpdateRelativeScoreAndImmediateRank, addr 0x3b2e828, size 0x88, virtual false, abstract: false, final false
   inline void UpdateRelativeScoreAndImmediateRank(int32_t score, int32_t modifiedScore, int32_t maxPossibleScore, int32_t maxPossibleModifiedScore);
 
   constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
@@ -112,25 +112,25 @@ public:
 
   constexpr void __cordl_internal_set_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x270d690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2e8b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_relativeScoreOrImmediateRankDidChangeEvent, addr 0x270bdf4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_relativeScoreOrImmediateRankDidChangeEvent, addr 0x3b2cdb8, size 0x9c, virtual false, abstract: false, final false
   inline void add_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
-  /// @brief Method get_immediateRank, addr 0x270d27c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_immediateRank, addr 0x3b2e4a0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__RankModel__Rank get_immediateRank();
 
-  /// @brief Method get_relativeScore, addr 0x270d26c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_relativeScore, addr 0x3b2e490, size 0x8, virtual false, abstract: false, final false
   inline float_t get_relativeScore();
 
-  /// @brief Method remove_relativeScoreOrImmediateRankDidChangeEvent, addr 0x270d1d0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_relativeScoreOrImmediateRankDidChangeEvent, addr 0x3b2e3f4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
-  /// @brief Method set_immediateRank, addr 0x270d284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_immediateRank, addr 0x3b2e4a8, size 0x8, virtual false, abstract: false, final false
   inline void set_immediateRank(::GlobalNamespace::__RankModel__Rank value);
 
-  /// @brief Method set_relativeScore, addr 0x270d274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_relativeScore, addr 0x3b2e498, size 0x8, virtual false, abstract: false, final false
   inline void set_relativeScore(float_t value);
 
 protected:
@@ -147,40 +147,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RelativeScoreAndImmediateRankCounter(RelativeScoreAndImmediateRankCounter const&) = delete;
 
-  /// @brief Field _gameplayModifiersModel, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
-
-  /// @brief Field _scoreController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::IScoreController* ____scoreController;
 
   /// @brief Field _gameplayModifiers, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
 
-  /// @brief Field relativeScoreOrImmediateRankDidChangeEvent, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _scoreController, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::IScoreController* ____scoreController;
+
+  /// @brief Field relativeScoreOrImmediateRankDidChangeEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action* ___relativeScoreOrImmediateRankDidChangeEvent;
 
-  /// @brief Field <relativeScore>k__BackingField, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field <relativeScore>k__BackingField, offset: 0x40, size: 0x4, def value: None
   float_t ____relativeScore_k__BackingField;
 
-  /// @brief Field <immediateRank>k__BackingField, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field <immediateRank>k__BackingField, offset: 0x44, size: 0x4, def value: None
   ::GlobalNamespace::__RankModel__Rank ____immediateRank_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4400 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RelativeScoreAndImmediateRankCounter, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RelativeScoreAndImmediateRankCounter, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ____gameplayModifiersModel) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ____scoreController) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ____gameplayModifiersModel) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ____gameplayModifiers) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ___relativeScoreOrImmediateRankDidChangeEvent) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ____scoreController) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ____relativeScore_k__BackingField) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ___relativeScoreOrImmediateRankDidChangeEvent) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ____immediateRank_k__BackingField) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ____relativeScore_k__BackingField) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::RelativeScoreAndImmediateRankCounter, ____immediateRank_k__BackingField) == 0x44, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RelativeScoreAndImmediateRankCounter);

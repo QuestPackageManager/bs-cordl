@@ -24,33 +24,33 @@ class XPathNodeInfoAtom;
 // Write type traits
 MARK_REF_PTR_T(::MS::Internal::Xml::Cache::XPathNodeInfoAtom);
 // Type: MS.Internal.Xml.Cache::XPathNodeInfoAtom
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::Cache {
 // Is value type: false
 // CS Name: ::MS.Internal.Xml.Cache::XPathNodeInfoAtom*
 class CORDL_TYPE XPathNodeInfoAtom : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Document))::System::Xml::XPath::XPathDocument* Document;
+  __declspec(property(get = get_Document)) ::System::Xml::XPath::XPathDocument* Document;
 
   __declspec(property(get = get_LineNumberBase)) int32_t LineNumberBase;
 
   __declspec(property(get = get_LinePositionBase)) int32_t LinePositionBase;
 
-  __declspec(property(get = get_LocalName))::StringW LocalName;
+  __declspec(property(get = get_LocalName)) ::StringW LocalName;
 
-  __declspec(property(get = get_NamespaceUri))::StringW NamespaceUri;
+  __declspec(property(get = get_NamespaceUri)) ::StringW NamespaceUri;
 
-  __declspec(property(get = get_PageInfo))::MS::Internal::Xml::Cache::XPathNodePageInfo* PageInfo;
+  __declspec(property(get = get_PageInfo)) ::MS::Internal::Xml::Cache::XPathNodePageInfo* PageInfo;
 
-  __declspec(property(get = get_ParentPage))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> ParentPage;
+  __declspec(property(get = get_ParentPage)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> ParentPage;
 
-  __declspec(property(get = get_Prefix))::StringW Prefix;
+  __declspec(property(get = get_Prefix)) ::StringW Prefix;
 
-  __declspec(property(get = get_SiblingPage))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> SiblingPage;
+  __declspec(property(get = get_SiblingPage)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> SiblingPage;
 
   /// @brief Field _doc, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__doc, put = __cordl_internal_set__doc))::System::Xml::XPath::XPathDocument* _doc;
+  __declspec(property(get = __cordl_internal_get__doc, put = __cordl_internal_set__doc)) ::System::Xml::XPath::XPathDocument* _doc;
 
   /// @brief Field _lineNumBase, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__lineNumBase, put = __cordl_internal_set__lineNumBase)) int32_t _lineNumBase;
@@ -59,24 +59,25 @@ public:
   __declspec(property(get = __cordl_internal_get__linePosBase, put = __cordl_internal_set__linePosBase)) int32_t _linePosBase;
 
   /// @brief Field _localName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__localName, put = __cordl_internal_set__localName))::StringW _localName;
+  __declspec(property(get = __cordl_internal_get__localName, put = __cordl_internal_set__localName)) ::StringW _localName;
 
   /// @brief Field _namespaceUri, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__namespaceUri, put = __cordl_internal_set__namespaceUri))::StringW _namespaceUri;
+  __declspec(property(get = __cordl_internal_get__namespaceUri, put = __cordl_internal_set__namespaceUri)) ::StringW _namespaceUri;
 
   /// @brief Field _pageInfo, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__pageInfo, put = __cordl_internal_set__pageInfo))::MS::Internal::Xml::Cache::XPathNodePageInfo* _pageInfo;
+  __declspec(property(get = __cordl_internal_get__pageInfo, put = __cordl_internal_set__pageInfo)) ::MS::Internal::Xml::Cache::XPathNodePageInfo* _pageInfo;
 
   /// @brief Field _pageParent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__pageParent,
-                      put = __cordl_internal_set__pageParent))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _pageParent;
+  __declspec(property(get = __cordl_internal_get__pageParent, put = __cordl_internal_set__pageParent)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>
+      _pageParent;
 
   /// @brief Field _pageSibling, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__pageSibling,
-                      put = __cordl_internal_set__pageSibling))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _pageSibling;
+                      put = __cordl_internal_set__pageSibling)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>
+      _pageSibling;
 
   /// @brief Field _prefix, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__prefix, put = __cordl_internal_set__prefix))::StringW _prefix;
+  __declspec(property(get = __cordl_internal_get__prefix, put = __cordl_internal_set__prefix)) ::StringW _prefix;
 
   constexpr ::System::Xml::XPath::XPathDocument*& __cordl_internal_get__doc();
 
@@ -132,31 +133,31 @@ public:
 
   constexpr void __cordl_internal_set__prefix(::StringW value);
 
-  /// @brief Method get_Document, addr 0x2e93dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x4293fdc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XPath::XPathDocument* get_Document();
 
-  /// @brief Method get_LineNumberBase, addr 0x2e93de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumberBase, addr 0x4293fe4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumberBase();
 
-  /// @brief Method get_LinePositionBase, addr 0x2e93de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePositionBase, addr 0x4293fec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePositionBase();
 
-  /// @brief Method get_LocalName, addr 0x2e93db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x4293fb4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri, addr 0x2e93db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceUri, addr 0x4293fbc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method get_PageInfo, addr 0x2e93da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageInfo, addr 0x4293fac, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();
 
-  /// @brief Method get_ParentPage, addr 0x2e93dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentPage, addr 0x4293fd4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_ParentPage();
 
-  /// @brief Method get_Prefix, addr 0x2e93dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x4293fc4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_SiblingPage, addr 0x2e93dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SiblingPage, addr 0x4293fcc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_SiblingPage();
 
 protected:
@@ -199,6 +200,9 @@ public:
 
   /// @brief Field _pageInfo, offset: 0x48, size: 0x8, def value: None
   ::MS::Internal::Xml::Cache::XPathNodePageInfo* ____pageInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7759 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

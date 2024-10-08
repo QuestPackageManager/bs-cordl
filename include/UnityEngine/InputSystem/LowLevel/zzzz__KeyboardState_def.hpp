@@ -31,7 +31,7 @@ struct __KeyboardState___keys_e__FixedBuffer;
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::KeyboardState);
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__KeyboardState___keys_e__FixedBuffer);
 // Type: ::<keys>e__FixedBuffer
-// SizeInfo { instance_size: 14, native_size: 14, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 14, native_size: 14, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::KeyboardState::<keys>e__FixedBuffer
@@ -52,6 +52,9 @@ public:
   /// @brief Size padding 0xe - 0x1 = 0xd, packed as 0xd
   uint8_t _cordl_size_padding[0xd];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6877 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe };
 
@@ -65,7 +68,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__KeyboardState___k
 
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: UnityEngine.InputSystem.LowLevel::KeyboardState
-// SizeInfo { instance_size: 14, native_size: 14, calculated_instance_size: 14, calculated_native_size: 30, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 14, native_size: 14, calculated_instance_size: 14, calculated_native_size: 30, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::KeyboardState
@@ -74,27 +77,27 @@ public:
   // Declarations
   using _keys_e__FixedBuffer = ::UnityEngine::InputSystem::LowLevel::__KeyboardState___keys_e__FixedBuffer;
 
-  __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
+  __declspec(property(get = get_format)) ::UnityEngine::InputSystem::Utilities::FourCC format;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method Press, addr 0x318e9c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Press, addr 0x4591954, size 0xc, virtual false, abstract: false, final false
   inline void Press(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method Release, addr 0x318e9d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x4591960, size 0xc, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method Set, addr 0x318e9b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x4591948, size 0xc, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::InputSystem::Key key, bool state);
 
-  /// @brief Method .ctor, addr 0x318e8f0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4591884, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::InputSystem::Key, ::Array<::UnityEngine::InputSystem::Key>*> pressedKeys);
 
-  /// @brief Method get_Format, addr 0x318e8c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x4591854, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x318e9dc, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x459196c, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -109,6 +112,9 @@ public:
 
   /// @brief Field keys, offset: 0x0, size: 0xe, def value: None
   ::UnityEngine::InputSystem::LowLevel::__KeyboardState___keys_e__FixedBuffer keys;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6878 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe };

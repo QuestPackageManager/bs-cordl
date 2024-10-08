@@ -32,7 +32,7 @@ class Operator;
 MARK_VAL_T(::MS::Internal::Xml::XPath::__Operator__Op);
 MARK_REF_PTR_T(::MS::Internal::Xml::XPath::Operator);
 // Type: ::Op
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::XPath {
 // Is value type: true
 // CS Name: ::Operator::Op
@@ -125,6 +125,9 @@ public:
   /// @brief Field UNION value: static_cast<int32_t>(0xe)
   static ::MS::Internal::Xml::XPath::__Operator__Op const UNION;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7746 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -137,7 +140,7 @@ static_assert(offsetof(::MS::Internal::Xml::XPath::__Operator__Op, value__) == 0
 
 } // namespace MS::Internal::Xml::XPath
 // Type: MS.Internal.Xml.XPath::Operator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::XPath {
 // Is value type: false
 // CS Name: ::MS.Internal.Xml.XPath::Operator*
@@ -146,22 +149,22 @@ public:
   // Declarations
   using Op = ::MS::Internal::Xml::XPath::__Operator__Op;
 
-  __declspec(property(get = get_ReturnType))::System::Xml::XPath::XPathResultType ReturnType;
+  __declspec(property(get = get_ReturnType)) ::System::Xml::XPath::XPathResultType ReturnType;
 
-  __declspec(property(get = get_Type))::MS::Internal::Xml::XPath::__AstNode__AstType Type;
+  __declspec(property(get = get_Type)) ::MS::Internal::Xml::XPath::__AstNode__AstType Type;
 
   /// @brief Field _opType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__opType, put = __cordl_internal_set__opType))::MS::Internal::Xml::XPath::__Operator__Op _opType;
+  __declspec(property(get = __cordl_internal_get__opType, put = __cordl_internal_set__opType)) ::MS::Internal::Xml::XPath::__Operator__Op _opType;
 
   /// @brief Field _opnd1, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__opnd1, put = __cordl_internal_set__opnd1))::MS::Internal::Xml::XPath::AstNode* _opnd1;
+  __declspec(property(get = __cordl_internal_get__opnd1, put = __cordl_internal_set__opnd1)) ::MS::Internal::Xml::XPath::AstNode* _opnd1;
 
   /// @brief Field _opnd2, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__opnd2, put = __cordl_internal_set__opnd2))::MS::Internal::Xml::XPath::AstNode* _opnd2;
+  __declspec(property(get = __cordl_internal_get__opnd2, put = __cordl_internal_set__opnd2)) ::MS::Internal::Xml::XPath::AstNode* _opnd2;
 
   /// @brief Field s_invertOp, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_invertOp,
-                             put = setStaticF_s_invertOp))::ArrayW<::MS::Internal::Xml::XPath::__Operator__Op, ::Array<::MS::Internal::Xml::XPath::__Operator__Op>*> s_invertOp;
+  static __declspec(property(get = getStaticF_s_invertOp, put = setStaticF_s_invertOp)) ::ArrayW<::MS::Internal::Xml::XPath::__Operator__Op, ::Array<::MS::Internal::Xml::XPath::__Operator__Op>*>
+      s_invertOp;
 
   static inline ::MS::Internal::Xml::XPath::Operator* New_ctor(::MS::Internal::Xml::XPath::__Operator__Op op, ::MS::Internal::Xml::XPath::AstNode* opnd1, ::MS::Internal::Xml::XPath::AstNode* opnd2);
 
@@ -183,15 +186,15 @@ public:
 
   constexpr void __cordl_internal_set__opnd2(::MS::Internal::Xml::XPath::AstNode* value);
 
-  /// @brief Method .ctor, addr 0x2e8f7ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x428fa98, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::__Operator__Op op, ::MS::Internal::Xml::XPath::AstNode* opnd1, ::MS::Internal::Xml::XPath::AstNode* opnd2);
 
   static inline ::ArrayW<::MS::Internal::Xml::XPath::__Operator__Op, ::Array<::MS::Internal::Xml::XPath::__Operator__Op>*> getStaticF_s_invertOp();
 
-  /// @brief Method get_ReturnType, addr 0x2e8f7f0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x428fadc, size 0x24, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x2e8f7e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x428fad4, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::__AstNode__AstType get_Type();
 
   static inline void setStaticF_s_invertOp(::ArrayW<::MS::Internal::Xml::XPath::__Operator__Op, ::Array<::MS::Internal::Xml::XPath::__Operator__Op>*> value);
@@ -218,6 +221,9 @@ public:
 
   /// @brief Field _opnd2, offset: 0x20, size: 0x8, def value: None
   ::MS::Internal::Xml::XPath::AstNode* ____opnd2;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7747 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,7 +16,7 @@ class ShaderPropertyIDFromPropertyAttribute;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute);
 // Type: BGLib.UnityExtension::ShaderPropertyIDFromPropertyAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: false
 // CS Name: ::BGLib.UnityExtension::ShaderPropertyIDFromPropertyAttribute*
@@ -24,9 +24,9 @@ class CORDL_TYPE ShaderPropertyIDFromPropertyAttribute : public ::BGLib::UnityEx
 public:
   // Declarations
   /// @brief Field nestedPropertyName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_nestedPropertyName, put = __cordl_internal_set_nestedPropertyName))::StringW nestedPropertyName;
+  __declspec(property(get = __cordl_internal_get_nestedPropertyName, put = __cordl_internal_set_nestedPropertyName)) ::StringW nestedPropertyName;
 
-  /// @brief Method GetTargetName, addr 0x10998fc, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method GetTargetName, addr 0x2276f34, size 0xd4, virtual true, abstract: false, final false
   inline ::StringW GetTargetName();
 
   static inline ::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute* New_ctor(::StringW propertyName, ::StringW nestedPropertyName, ::StringW nameFilter,
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_nestedPropertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x10998cc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2276f04, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::StringW nestedPropertyName, ::StringW nameFilter, ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType filterPropType);
 
 protected:
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field nestedPropertyName, offset: 0x20, size: 0x8, def value: None
   ::StringW ___nestedPropertyName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17227 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

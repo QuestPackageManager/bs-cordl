@@ -25,7 +25,7 @@ class SubContainerCreatorByNewPrefabDynamicContext;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SubContainerCreatorByNewPrefabDynamicContext);
 // Type: Zenject::SubContainerCreatorByNewPrefabDynamicContext
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabDynamicContext*
@@ -33,12 +33,12 @@ class CORDL_TYPE SubContainerCreatorByNewPrefabDynamicContext : public ::Zenject
 public:
   // Declarations
   /// @brief Field _gameObjectBindInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo))::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
+  __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo)) ::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
 
   /// @brief Field _prefabProvider, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__prefabProvider, put = __cordl_internal_set__prefabProvider))::Zenject::IPrefabProvider* _prefabProvider;
+  __declspec(property(get = __cordl_internal_get__prefabProvider, put = __cordl_internal_set__prefabProvider)) ::Zenject::IPrefabProvider* _prefabProvider;
 
-  /// @brief Method CreateGameObject, addr 0x36a3480, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method CreateGameObject, addr 0x4ac6ad8, size 0x1c0, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(ByRef<bool> shouldMakeActive);
 
   static inline ::Zenject::SubContainerCreatorByNewPrefabDynamicContext* New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__prefabProvider(::Zenject::IPrefabProvider* value);
 
-  /// @brief Method .ctor, addr 0x36a3444, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac6a9c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field _gameObjectBindInfo, offset: 0x20, size: 0x8, def value: None
   ::Zenject::GameObjectCreationParameters* ____gameObjectBindInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12573 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

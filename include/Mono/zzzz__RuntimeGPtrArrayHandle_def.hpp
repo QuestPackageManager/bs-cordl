@@ -20,33 +20,33 @@ struct RuntimeGPtrArrayHandle;
 // Write type traits
 MARK_VAL_T(::Mono::RuntimeGPtrArrayHandle);
 // Type: Mono::RuntimeGPtrArrayHandle
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
 // CS Name: ::Mono::RuntimeGPtrArrayHandle
 struct CORDL_TYPE RuntimeGPtrArrayHandle {
 public:
   // Declarations
-  __declspec(property(get = get_Item))::System::IntPtr Item[];
+  __declspec(property(get = get_Item)) ::System::IntPtr Item[];
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method DestroyAndFree, addr 0x27bddd4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DestroyAndFree, addr 0x3bdfeb0, size 0x1c, virtual false, abstract: false, final false
   static inline void DestroyAndFree(ByRef<::Mono::RuntimeGPtrArrayHandle> h);
 
-  /// @brief Method GPtrArrayFree, addr 0x27bddd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GPtrArrayFree, addr 0x3bdfeac, size 0x4, virtual false, abstract: false, final false
   static inline void GPtrArrayFree(::cordl_internals::Ptr<::Mono::__RuntimeStructs__GPtrArray> value);
 
-  /// @brief Method Lookup, addr 0x27bdd64, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Lookup, addr 0x3bdfe48, size 0x64, virtual false, abstract: false, final false
   inline ::System::IntPtr Lookup(int32_t i);
 
-  /// @brief Method .ctor, addr 0x27bdd24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bdfe08, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_Item, addr 0x27bdd60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3bdfe44, size 0x4, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Item(int32_t i);
 
-  /// @brief Method get_Length, addr 0x27bdd44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3bdfe28, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   // Ctor Parameters []
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field value, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<::Mono::__RuntimeStructs__GPtrArray> value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2233 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

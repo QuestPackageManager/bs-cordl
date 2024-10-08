@@ -52,7 +52,7 @@ class DataRelation;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::DataRelation);
 // Type: System.Data::DataRelation
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::DataRelation*
@@ -61,69 +61,69 @@ public:
   // Declarations
   __declspec(property(get = get_CheckMultipleNested, put = set_CheckMultipleNested)) bool CheckMultipleNested;
 
-  __declspec(property(get = get_ChildColumnNames))::ArrayW<::StringW, ::Array<::StringW>*> ChildColumnNames;
+  __declspec(property(get = get_ChildColumnNames)) ::ArrayW<::StringW, ::Array<::StringW>*> ChildColumnNames;
 
-  __declspec(property(get = get_ChildColumns))::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> ChildColumns;
+  __declspec(property(get = get_ChildColumns)) ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> ChildColumns;
 
-  __declspec(property(get = get_ChildColumnsReference))::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> ChildColumnsReference;
+  __declspec(property(get = get_ChildColumnsReference)) ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> ChildColumnsReference;
 
-  __declspec(property(get = get_ChildKey))::System::Data::DataKey ChildKey;
+  __declspec(property(get = get_ChildKey)) ::System::Data::DataKey ChildKey;
 
-  __declspec(property(get = get_ChildKeyConstraint))::System::Data::ForeignKeyConstraint* ChildKeyConstraint;
+  __declspec(property(get = get_ChildKeyConstraint)) ::System::Data::ForeignKeyConstraint* ChildKeyConstraint;
 
-  __declspec(property(get = get_ChildTable))::System::Data::DataTable* ChildTable;
+  __declspec(property(get = get_ChildTable)) ::System::Data::DataTable* ChildTable;
 
-  __declspec(property(get = get_DataSet))::System::Data::DataSet* DataSet;
+  __declspec(property(get = get_DataSet)) ::System::Data::DataSet* DataSet;
 
-  __declspec(property(get = get_ExtendedProperties))::System::Data::PropertyCollection* ExtendedProperties;
+  __declspec(property(get = get_ExtendedProperties)) ::System::Data::PropertyCollection* ExtendedProperties;
 
   __declspec(property(get = get_Nested, put = set_Nested)) bool Nested;
 
   __declspec(property(get = get_ObjectID)) int32_t ObjectID;
 
-  __declspec(property(get = get_ParentColumnNames))::ArrayW<::StringW, ::Array<::StringW>*> ParentColumnNames;
+  __declspec(property(get = get_ParentColumnNames)) ::ArrayW<::StringW, ::Array<::StringW>*> ParentColumnNames;
 
-  __declspec(property(get = get_ParentColumns))::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> ParentColumns;
+  __declspec(property(get = get_ParentColumns)) ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> ParentColumns;
 
-  __declspec(property(get = get_ParentColumnsReference))::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> ParentColumnsReference;
+  __declspec(property(get = get_ParentColumnsReference)) ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> ParentColumnsReference;
 
-  __declspec(property(get = get_ParentKey))::System::Data::DataKey ParentKey;
+  __declspec(property(get = get_ParentKey)) ::System::Data::DataKey ParentKey;
 
-  __declspec(property(get = get_ParentKeyConstraint))::System::Data::UniqueConstraint* ParentKeyConstraint;
+  __declspec(property(get = get_ParentKeyConstraint)) ::System::Data::UniqueConstraint* ParentKeyConstraint;
 
-  __declspec(property(get = get_ParentTable))::System::Data::DataTable* ParentTable;
+  __declspec(property(get = get_ParentTable)) ::System::Data::DataTable* ParentTable;
 
   /// @brief Field PropertyChanging, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_PropertyChanging, put = __cordl_internal_set_PropertyChanging))::System::ComponentModel::PropertyChangedEventHandler* PropertyChanging;
+  __declspec(property(get = __cordl_internal_get_PropertyChanging, put = __cordl_internal_set_PropertyChanging)) ::System::ComponentModel::PropertyChangedEventHandler* PropertyChanging;
 
-  __declspec(property(get = get_RelationName))::StringW RelationName;
+  __declspec(property(get = get_RelationName)) ::StringW RelationName;
 
   /// @brief Field _checkMultipleNested, offset 0x7a, size 0x1
   __declspec(property(get = __cordl_internal_get__checkMultipleNested, put = __cordl_internal_set__checkMultipleNested)) bool _checkMultipleNested;
 
   /// @brief Field _childColumnNames, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__childColumnNames, put = __cordl_internal_set__childColumnNames))::ArrayW<::StringW, ::Array<::StringW>*> _childColumnNames;
+  __declspec(property(get = __cordl_internal_get__childColumnNames, put = __cordl_internal_set__childColumnNames)) ::ArrayW<::StringW, ::Array<::StringW>*> _childColumnNames;
 
   /// @brief Field _childKey, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__childKey, put = __cordl_internal_set__childKey))::System::Data::DataKey _childKey;
+  __declspec(property(get = __cordl_internal_get__childKey, put = __cordl_internal_set__childKey)) ::System::Data::DataKey _childKey;
 
   /// @brief Field _childKeyConstraint, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__childKeyConstraint, put = __cordl_internal_set__childKeyConstraint))::System::Data::ForeignKeyConstraint* _childKeyConstraint;
+  __declspec(property(get = __cordl_internal_get__childKeyConstraint, put = __cordl_internal_set__childKeyConstraint)) ::System::Data::ForeignKeyConstraint* _childKeyConstraint;
 
   /// @brief Field _childTableName, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__childTableName, put = __cordl_internal_set__childTableName))::StringW _childTableName;
+  __declspec(property(get = __cordl_internal_get__childTableName, put = __cordl_internal_set__childTableName)) ::StringW _childTableName;
 
   /// @brief Field _childTableNamespace, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__childTableNamespace, put = __cordl_internal_set__childTableNamespace))::StringW _childTableNamespace;
+  __declspec(property(get = __cordl_internal_get__childTableNamespace, put = __cordl_internal_set__childTableNamespace)) ::StringW _childTableNamespace;
 
   /// @brief Field _createConstraints, offset 0x79, size 0x1
   __declspec(property(get = __cordl_internal_get__createConstraints, put = __cordl_internal_set__createConstraints)) bool _createConstraints;
 
   /// @brief Field _dataSet, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataSet, put = __cordl_internal_set__dataSet))::System::Data::DataSet* _dataSet;
+  __declspec(property(get = __cordl_internal_get__dataSet, put = __cordl_internal_set__dataSet)) ::System::Data::DataSet* _dataSet;
 
   /// @brief Field _extendedProperties, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__extendedProperties, put = __cordl_internal_set__extendedProperties))::System::Data::PropertyCollection* _extendedProperties;
+  __declspec(property(get = __cordl_internal_get__extendedProperties, put = __cordl_internal_set__extendedProperties)) ::System::Data::PropertyCollection* _extendedProperties;
 
   /// @brief Field _nested, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get__nested, put = __cordl_internal_set__nested)) bool _nested;
@@ -132,60 +132,60 @@ public:
   __declspec(property(get = __cordl_internal_get__objectID, put = __cordl_internal_set__objectID)) int32_t _objectID;
 
   /// @brief Field _parentColumnNames, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__parentColumnNames, put = __cordl_internal_set__parentColumnNames))::ArrayW<::StringW, ::Array<::StringW>*> _parentColumnNames;
+  __declspec(property(get = __cordl_internal_get__parentColumnNames, put = __cordl_internal_set__parentColumnNames)) ::ArrayW<::StringW, ::Array<::StringW>*> _parentColumnNames;
 
   /// @brief Field _parentKey, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__parentKey, put = __cordl_internal_set__parentKey))::System::Data::DataKey _parentKey;
+  __declspec(property(get = __cordl_internal_get__parentKey, put = __cordl_internal_set__parentKey)) ::System::Data::DataKey _parentKey;
 
   /// @brief Field _parentKeyConstraint, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__parentKeyConstraint, put = __cordl_internal_set__parentKeyConstraint))::System::Data::UniqueConstraint* _parentKeyConstraint;
+  __declspec(property(get = __cordl_internal_get__parentKeyConstraint, put = __cordl_internal_set__parentKeyConstraint)) ::System::Data::UniqueConstraint* _parentKeyConstraint;
 
   /// @brief Field _parentTableName, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__parentTableName, put = __cordl_internal_set__parentTableName))::StringW _parentTableName;
+  __declspec(property(get = __cordl_internal_get__parentTableName, put = __cordl_internal_set__parentTableName)) ::StringW _parentTableName;
 
   /// @brief Field _parentTableNamespace, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__parentTableNamespace, put = __cordl_internal_set__parentTableNamespace))::StringW _parentTableNamespace;
+  __declspec(property(get = __cordl_internal_get__parentTableNamespace, put = __cordl_internal_set__parentTableNamespace)) ::StringW _parentTableNamespace;
 
   /// @brief Field _relationName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__relationName, put = __cordl_internal_set__relationName))::StringW _relationName;
+  __declspec(property(get = __cordl_internal_get__relationName, put = __cordl_internal_set__relationName)) ::StringW _relationName;
 
   /// @brief Field s_objectTypeCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_objectTypeCount, put = setStaticF_s_objectTypeCount)) int32_t s_objectTypeCount;
 
-  /// @brief Method CheckNamespaceValidityForNestedRelations, addr 0x2cbcf9c, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method CheckNamespaceValidityForNestedRelations, addr 0x40e7068, size 0x3a4, virtual false, abstract: false, final false
   inline void CheckNamespaceValidityForNestedRelations(::StringW ns);
 
-  /// @brief Method CheckNestedRelations, addr 0x2cbd340, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method CheckNestedRelations, addr 0x40e740c, size 0x410, virtual false, abstract: false, final false
   inline void CheckNestedRelations();
 
-  /// @brief Method CheckState, addr 0x2cbedc4, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method CheckState, addr 0x40e8fb0, size 0x23c, virtual false, abstract: false, final false
   inline void CheckState();
 
-  /// @brief Method CheckStateForProperty, addr 0x2cbcae0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method CheckStateForProperty, addr 0x40e6acc, size 0xec, virtual false, abstract: false, final false
   inline void CheckStateForProperty();
 
-  /// @brief Method Clone, addr 0x2cbefe0, size 0x654, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x40e91ec, size 0x650, virtual false, abstract: false, final false
   inline ::System::Data::DataRelation* Clone(::System::Data::DataSet* destination);
 
-  /// @brief Method Create, addr 0x2cbc544, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40e6524, size 0x2fc, virtual false, abstract: false, final false
   inline void Create(::StringW relationName, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> parentColumns,
                      ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> childColumns, bool createConstraints);
 
-  /// @brief Method GetChildRows, addr 0x2cbccd4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetChildRows, addr 0x40e6cd4, size 0x98, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*> GetChildRows(::System::Data::DataKey parentKey, ::System::Data::DataKey childKey,
                                                                                                     ::System::Data::DataRow* parentRow, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GetParentRow, addr 0x2cbcde4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetParentRow, addr 0x40e6e28, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Data::DataRow* GetParentRow(::System::Data::DataKey parentKey, ::System::Data::DataKey childKey, ::System::Data::DataRow* childRow, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GetParentRows, addr 0x2cbcd60, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetParentRows, addr 0x40e6d90, size 0x98, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*> GetParentRows(::System::Data::DataKey parentKey, ::System::Data::DataKey childKey,
                                                                                                      ::System::Data::DataRow* childRow, ::System::Data::DataRowVersion version);
 
-  /// @brief Method IsAutoGenerated, addr 0x2cbf710, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method IsAutoGenerated, addr 0x40e9a20, size 0x1d4, virtual false, abstract: false, final false
   inline bool IsAutoGenerated(::System::Data::DataColumn* col);
 
-  /// @brief Method IsKeyNull, addr 0x2cbcc20, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method IsKeyNull, addr 0x40e6c10, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsKeyNull(::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
   static inline ::System::Data::DataRelation* New_ctor(::StringW relationName, ::System::Data::DataColumn* parentColumn, ::System::Data::DataColumn* childColumn, bool createConstraints);
@@ -202,25 +202,25 @@ public:
   static inline ::System::Data::DataRelation* New_ctor(::StringW relationName, ::StringW parentTableName, ::StringW parentTableNamespace, ::StringW childTableName, ::StringW childTableNamespace,
                                                        ::ArrayW<::StringW, ::Array<::StringW>*> parentColumnNames, ::ArrayW<::StringW, ::Array<::StringW>*> childColumnNames, bool nested);
 
-  /// @brief Method OnPropertyChanging, addr 0x2cbf634, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnPropertyChanging, addr 0x40e9944, size 0xd0, virtual false, abstract: false, final false
   inline void OnPropertyChanging(::System::ComponentModel::PropertyChangedEventArgs* pcevent);
 
-  /// @brief Method RaisePropertyChanging, addr 0x2cbec90, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RaisePropertyChanging, addr 0x40e8db0, size 0x6c, virtual false, abstract: false, final false
   inline void RaisePropertyChanging(::StringW name);
 
-  /// @brief Method SetChildKeyConstraint, addr 0x2cbedbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetChildKeyConstraint, addr 0x40e8fa8, size 0x8, virtual false, abstract: false, final false
   inline void SetChildKeyConstraint(::System::Data::ForeignKeyConstraint* value);
 
-  /// @brief Method SetDataSet, addr 0x2cbcf38, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetDataSet, addr 0x40e7004, size 0x14, virtual false, abstract: false, final false
   inline void SetDataSet(::System::Data::DataSet* dataSet);
 
-  /// @brief Method SetParentKeyConstraint, addr 0x2cbed1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetParentKeyConstraint, addr 0x40e8f10, size 0x8, virtual false, abstract: false, final false
   inline void SetParentKeyConstraint(::System::Data::UniqueConstraint* value);
 
-  /// @brief Method ToString, addr 0x2cbf704, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40e9a14, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ValidateMultipleNestedRelations, addr 0x2cbe7d4, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method ValidateMultipleNestedRelations, addr 0x40e88e0, size 0x4d0, virtual false, abstract: false, final false
   inline void ValidateMultipleNestedRelations();
 
   constexpr ::System::ComponentModel::PropertyChangedEventHandler*& __cordl_internal_get_PropertyChanging();
@@ -331,87 +331,87 @@ public:
 
   constexpr void __cordl_internal_set__relationName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2cbc34c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e632c, size 0x1f8, virtual false, abstract: false, final false
   inline void _ctor(::StringW relationName, ::System::Data::DataColumn* parentColumn, ::System::Data::DataColumn* childColumn, bool createConstraints);
 
-  /// @brief Method .ctor, addr 0x2cbc838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e6820, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW relationName, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> parentColumns,
                     ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> childColumns);
 
-  /// @brief Method .ctor, addr 0x2cbc840, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e6828, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::StringW relationName, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> parentColumns,
                     ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> childColumns, bool createConstraints);
 
-  /// @brief Method .ctor, addr 0x2cbc908, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e68f0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::StringW relationName, ::StringW parentTableName, ::StringW childTableName, ::ArrayW<::StringW, ::Array<::StringW>*> parentColumnNames,
                     ::ArrayW<::StringW, ::Array<::StringW>*> childColumnNames, bool nested);
 
-  /// @brief Method .ctor, addr 0x2cbc9dc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e69c8, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::StringW relationName, ::StringW parentTableName, ::StringW parentTableNamespace, ::StringW childTableName, ::StringW childTableNamespace,
                     ::ArrayW<::StringW, ::Array<::StringW>*> parentColumnNames, ::ArrayW<::StringW, ::Array<::StringW>*> childColumnNames, bool nested);
 
   static inline int32_t getStaticF_s_objectTypeCount();
 
-  /// @brief Method get_CheckMultipleNested, addr 0x2cbeda8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CheckMultipleNested, addr 0x40e8f94, size 0x8, virtual false, abstract: false, final false
   inline bool get_CheckMultipleNested();
 
-  /// @brief Method get_ChildColumnNames, addr 0x2cbcc18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChildColumnNames, addr 0x40e6c08, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_ChildColumnNames();
 
-  /// @brief Method get_ChildColumns, addr 0x2cbcac8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ChildColumns, addr 0x40e6ab4, size 0x18, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> get_ChildColumns();
 
-  /// @brief Method get_ChildColumnsReference, addr 0x2cbcbc8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ChildColumnsReference, addr 0x40e6bb8, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> get_ChildColumnsReference();
 
-  /// @brief Method get_ChildKey, addr 0x2cb27b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ChildKey, addr 0x40e43c8, size 0x18, virtual false, abstract: false, final false
   inline ::System::Data::DataKey get_ChildKey();
 
-  /// @brief Method get_ChildKeyConstraint, addr 0x2cbed24, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ChildKeyConstraint, addr 0x40e8f18, size 0x18, virtual true, abstract: false, final false
   inline ::System::Data::ForeignKeyConstraint* get_ChildKeyConstraint();
 
-  /// @brief Method get_ChildTable, addr 0x2cbcbe0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ChildTable, addr 0x40e6bd0, size 0x18, virtual true, abstract: false, final false
   inline ::System::Data::DataTable* get_ChildTable();
 
-  /// @brief Method get_DataSet, addr 0x2cbcbf8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_DataSet, addr 0x40e6be8, size 0x18, virtual true, abstract: false, final false
   inline ::System::Data::DataSet* get_DataSet();
 
-  /// @brief Method get_ExtendedProperties, addr 0x2cbed3c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ExtendedProperties, addr 0x40e8f30, size 0x64, virtual false, abstract: false, final false
   inline ::System::Data::PropertyCollection* get_ExtendedProperties();
 
-  /// @brief Method get_Nested, addr 0x2cbd750, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Nested, addr 0x40e781c, size 0x18, virtual true, abstract: false, final false
   inline bool get_Nested();
 
-  /// @brief Method get_ObjectID, addr 0x2cbf8e4, size 0x1008, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectID, addr 0x40e9bf4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ObjectID();
 
-  /// @brief Method get_ParentColumnNames, addr 0x2cbcc10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentColumnNames, addr 0x40e6c00, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_ParentColumnNames();
 
-  /// @brief Method get_ParentColumns, addr 0x2cbcf4c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ParentColumns, addr 0x40e7018, size 0x18, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> get_ParentColumns();
 
-  /// @brief Method get_ParentColumnsReference, addr 0x2cbcf64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentColumnsReference, addr 0x40e7030, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> get_ParentColumnsReference();
 
-  /// @brief Method get_ParentKey, addr 0x2cb282c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ParentKey, addr 0x40e43e0, size 0x18, virtual false, abstract: false, final false
   inline ::System::Data::DataKey get_ParentKey();
 
-  /// @brief Method get_ParentKeyConstraint, addr 0x2cbed04, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ParentKeyConstraint, addr 0x40e8ef8, size 0x18, virtual true, abstract: false, final false
   inline ::System::Data::UniqueConstraint* get_ParentKeyConstraint();
 
-  /// @brief Method get_ParentTable, addr 0x2cbcf6c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ParentTable, addr 0x40e7038, size 0x18, virtual true, abstract: false, final false
   inline ::System::Data::DataTable* get_ParentTable();
 
-  /// @brief Method get_RelationName, addr 0x2cbcf84, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_RelationName, addr 0x40e7050, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_RelationName();
 
   static inline void setStaticF_s_objectTypeCount(int32_t value);
 
-  /// @brief Method set_CheckMultipleNested, addr 0x2cbedb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CheckMultipleNested, addr 0x40e8f9c, size 0xc, virtual false, abstract: false, final false
   inline void set_CheckMultipleNested(bool value);
 
-  /// @brief Method set_Nested, addr 0x2cbd768, size 0x106c, virtual true, abstract: false, final false
+  /// @brief Method set_Nested, addr 0x40e7834, size 0x10ac, virtual true, abstract: false, final false
   inline void set_Nested(bool value);
 
 protected:
@@ -481,6 +481,9 @@ public:
 
   /// @brief Field PropertyChanging, offset: 0x80, size: 0x8, def value: None
   ::System::ComponentModel::PropertyChangedEventHandler* ___PropertyChanging;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11340 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

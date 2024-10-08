@@ -18,7 +18,7 @@ class DropdownMenuEventInfo;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownMenuEventInfo);
 // Type: UnityEngine.UIElements::DropdownMenuEventInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::DropdownMenuEventInfo*
@@ -29,17 +29,17 @@ public:
   __declspec(property(get = __cordl_internal_get__character_k__BackingField, put = __cordl_internal_set__character_k__BackingField)) char16_t _character_k__BackingField;
 
   /// @brief Field <keyCode>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__keyCode_k__BackingField, put = __cordl_internal_set__keyCode_k__BackingField))::UnityEngine::KeyCode _keyCode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__keyCode_k__BackingField, put = __cordl_internal_set__keyCode_k__BackingField)) ::UnityEngine::KeyCode _keyCode_k__BackingField;
 
   /// @brief Field <localMousePosition>k__BackingField, offset 0x1c, size 0x8
   __declspec(property(get = __cordl_internal_get__localMousePosition_k__BackingField,
-                      put = __cordl_internal_set__localMousePosition_k__BackingField))::UnityEngine::Vector2 _localMousePosition_k__BackingField;
+                      put = __cordl_internal_set__localMousePosition_k__BackingField)) ::UnityEngine::Vector2 _localMousePosition_k__BackingField;
 
   /// @brief Field <modifiers>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__modifiers_k__BackingField, put = __cordl_internal_set__modifiers_k__BackingField))::UnityEngine::EventModifiers _modifiers_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__modifiers_k__BackingField, put = __cordl_internal_set__modifiers_k__BackingField)) ::UnityEngine::EventModifiers _modifiers_k__BackingField;
 
   /// @brief Field <mousePosition>k__BackingField, offset 0x14, size 0x8
-  __declspec(property(get = __cordl_internal_get__mousePosition_k__BackingField, put = __cordl_internal_set__mousePosition_k__BackingField))::UnityEngine::Vector2 _mousePosition_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__mousePosition_k__BackingField, put = __cordl_internal_set__mousePosition_k__BackingField)) ::UnityEngine::Vector2 _mousePosition_k__BackingField;
 
   static inline ::UnityEngine::UIElements::DropdownMenuEventInfo* New_ctor(::UnityEngine::UIElements::EventBase* e);
 
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__mousePosition_k__BackingField(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x359e43c, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a5f1c, size 0x31c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventBase* e);
 
 protected:
@@ -104,6 +104,9 @@ public:
 
   /// @brief Field <keyCode>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::KeyCode ____keyCode_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5734 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

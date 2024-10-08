@@ -15,19 +15,19 @@ class PositionAsUV1;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::PositionAsUV1);
 // Type: UnityEngine.UI::PositionAsUV1
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
 // CS Name: ::UnityEngine.UI::PositionAsUV1*
 class CORDL_TYPE PositionAsUV1 : public ::UnityEngine::UI::BaseMeshEffect {
 public:
   // Declarations
-  /// @brief Method ModifyMesh, addr 0x35247b0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x4a57824, size 0xbc, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
   static inline ::UnityEngine::UI::PositionAsUV1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35247a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a5781c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,10 +44,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PositionAsUV1(PositionAsUV1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15115 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::PositionAsUV1, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::PositionAsUV1, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::PositionAsUV1);

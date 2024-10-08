@@ -21,7 +21,7 @@ class DataViewManagerListItemTypeDescriptor;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::DataViewManagerListItemTypeDescriptor);
 // Type: System.Data::DataViewManagerListItemTypeDescriptor
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::DataViewManagerListItemTypeDescriptor*
@@ -29,9 +29,9 @@ class CORDL_TYPE DataViewManagerListItemTypeDescriptor : public ::System::Object
 public:
   // Declarations
   /// @brief Field _dataViewManager, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataViewManager, put = __cordl_internal_set__dataViewManager))::System::Data::DataViewManager* _dataViewManager;
+  __declspec(property(get = __cordl_internal_get__dataViewManager, put = __cordl_internal_set__dataViewManager)) ::System::Data::DataViewManager* _dataViewManager;
 
-  /// @brief Method GetDataView, addr 0x2cf3d64, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetDataView, addr 0x40f2fe8, size 0x78, virtual false, abstract: false, final false
   inline ::System::Data::DataView* GetDataView(::System::Data::DataTable* table);
 
   constexpr ::System::Data::DataViewManager*& __cordl_internal_get__dataViewManager();
@@ -56,6 +56,9 @@ public:
 
   /// @brief Field _dataViewManager, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataViewManager* ____dataViewManager;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11370 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,22 +20,22 @@ class TweakableBlockCipherParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::TweakableBlockCipherParameters
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::TweakableBlockCipherParameters*
 class CORDL_TYPE TweakableBlockCipherParameters : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Key))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* Key;
+  __declspec(property(get = get_Key)) ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* Key;
 
-  __declspec(property(get = get_Tweak))::ArrayW<uint8_t, ::Array<uint8_t>*> Tweak;
+  __declspec(property(get = get_Tweak)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Tweak;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key;
 
   /// @brief Field tweak, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_tweak, put = __cordl_internal_set_tweak))::ArrayW<uint8_t, ::Array<uint8_t>*> tweak;
+  __declspec(property(get = __cordl_internal_get_tweak, put = __cordl_internal_set_tweak)) ::ArrayW<uint8_t, ::Array<uint8_t>*> tweak;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set_tweak(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x11acbec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2382d40, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, ::ArrayW<uint8_t, ::Array<uint8_t>*> tweak);
 
-  /// @brief Method get_Key, addr 0x11acc6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x2382dc0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
 
-  /// @brief Method get_Tweak, addr 0x11acc74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tweak, addr 0x2382dc8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Tweak();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field key, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* ___key;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1087 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

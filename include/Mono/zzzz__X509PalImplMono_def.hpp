@@ -29,26 +29,26 @@ class X509PalImplMono;
 // Write type traits
 MARK_REF_PTR_T(::Mono::X509PalImplMono);
 // Type: Mono::X509PalImplMono
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
 // CS Name: ::Mono::X509PalImplMono*
 class CORDL_TYPE X509PalImplMono : public ::Mono::X509PalImpl {
 public:
   // Declarations
-  /// @brief Method Import, addr 0x2c91650, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Import, addr 0x4092c2c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
-  /// @brief Method Import, addr 0x2c9164c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Import, addr 0x4092c28, size 0x4, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                           ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
-  /// @brief Method Import, addr 0x2c91648, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Import, addr 0x4092c24, size 0x4, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Mono::X509PalImplMono* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c90be8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40921f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,6 +64,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "X509PalImplMono", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   X509PalImplMono(X509PalImplMono const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9038 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

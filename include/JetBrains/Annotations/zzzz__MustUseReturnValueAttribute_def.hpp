@@ -13,17 +13,17 @@ class MustUseReturnValueAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::MustUseReturnValueAttribute);
 // Type: JetBrains.Annotations::MustUseReturnValueAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::MustUseReturnValueAttribute*
 class CORDL_TYPE MustUseReturnValueAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_Justification, put = set_Justification))::StringW Justification;
+  __declspec(property(get = get_Justification, put = set_Justification)) ::StringW Justification;
 
   /// @brief Field <Justification>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Justification_k__BackingField, put = __cordl_internal_set__Justification_k__BackingField))::StringW _Justification_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Justification_k__BackingField, put = __cordl_internal_set__Justification_k__BackingField)) ::StringW _Justification_k__BackingField;
 
   static inline ::JetBrains::Annotations::MustUseReturnValueAttribute* New_ctor();
 
@@ -35,16 +35,16 @@ public:
 
   constexpr void __cordl_internal_set__Justification_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3651318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77b98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3651320, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77ba0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW justification);
 
-  /// @brief Method get_Justification, addr 0x3651348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Justification, addr 0x4a77bc8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Justification();
 
-  /// @brief Method set_Justification, addr 0x3651350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Justification, addr 0x4a77bd0, size 0x8, virtual false, abstract: false, final false
   inline void set_Justification(::StringW value);
 
 protected:
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field <Justification>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Justification_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18344 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

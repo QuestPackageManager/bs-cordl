@@ -36,41 +36,41 @@ class Datatype_long;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_long);
 // Type: System.Xml.Schema::Datatype_long
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::Datatype_long*
 class CORDL_TYPE Datatype_long : public ::System::Xml::Schema::Datatype_integer {
 public:
   // Declarations
-  __declspec(property(get = get_FacetsChecker))::System::Xml::Schema::FacetsChecker* FacetsChecker;
+  __declspec(property(get = get_FacetsChecker)) ::System::Xml::Schema::FacetsChecker* FacetsChecker;
 
   __declspec(property(get = get_HasValueFacets)) bool HasValueFacets;
 
-  __declspec(property(get = get_ListValueType))::System::Type* ListValueType;
+  __declspec(property(get = get_ListValueType)) ::System::Type* ListValueType;
 
-  __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
+  __declspec(property(get = get_TypeCode)) ::System::Xml::Schema::XmlTypeCode TypeCode;
 
-  __declspec(property(get = get_ValueType))::System::Type* ValueType;
+  __declspec(property(get = get_ValueType)) ::System::Type* ValueType;
 
   /// @brief Field atomicValueType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType))::System::Type* atomicValueType;
+  static __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType)) ::System::Type* atomicValueType;
 
   /// @brief Field listValueType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType))::System::Type* listValueType;
+  static __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType)) ::System::Type* listValueType;
 
   /// @brief Field numeric10FacetsChecker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_numeric10FacetsChecker, put = setStaticF_numeric10FacetsChecker))::System::Xml::Schema::FacetsChecker* numeric10FacetsChecker;
+  static __declspec(property(get = getStaticF_numeric10FacetsChecker, put = setStaticF_numeric10FacetsChecker)) ::System::Xml::Schema::FacetsChecker* numeric10FacetsChecker;
 
-  /// @brief Method Compare, addr 0x2f3b00c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x4336f7c, size 0x94, virtual true, abstract: false, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
   static inline ::System::Xml::Schema::Datatype_long* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x2f3b150, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x43370c0, size 0x140, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x2f32718, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432e6b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Type* getStaticF_atomicValueType();
@@ -79,19 +79,19 @@ public:
 
   static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
 
-  /// @brief Method get_FacetsChecker, addr 0x2f3afa4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x4336f14, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_HasValueFacets, addr 0x2f3affc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasValueFacets, addr 0x4336f6c, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasValueFacets();
 
-  /// @brief Method get_ListValueType, addr 0x2f3b0f8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x4337068, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_TypeCode, addr 0x2f3b004, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x4336f74, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValueType, addr 0x2f3b0a0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x4337010, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   static inline void setStaticF_atomicValueType(::System::Type* value);
@@ -113,6 +113,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_long", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Datatype_long(Datatype_long const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7534 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,7 +24,7 @@ template <typename T> class DisappearingArrowControllerBase_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::DisappearingArrowControllerBase_1);
 // Type: ::DisappearingArrowControllerBase`1
-// SizeInfo { instance_size: 80, native_size: 78, calculated_instance_size: 80, calculated_native_size: 78, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: 86, calculated_instance_size: 88, calculated_native_size: 86, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -33,45 +33,47 @@ template <typename T>
 class CORDL_TYPE DisappearingArrowControllerBase_1 : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _arrowCutoutEffect, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__arrowCutoutEffect, put = __cordl_internal_set__arrowCutoutEffect))::UnityW<::GlobalNamespace::CutoutEffect> _arrowCutoutEffect;
+  /// @brief Field _arrowCutoutEffect, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__arrowCutoutEffect, put = __cordl_internal_set__arrowCutoutEffect)) ::UnityW<::GlobalNamespace::CutoutEffect> _arrowCutoutEffect;
 
   /// @brief Field _colorId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__colorId, put = setStaticF__colorId)) int32_t _colorId;
 
-  /// @brief Field _cubeMeshRenderer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__cubeMeshRenderer, put = __cordl_internal_set__cubeMeshRenderer))::UnityW<::UnityEngine::MeshRenderer> _cubeMeshRenderer;
+  /// @brief Field _cubeMeshRenderer, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__cubeMeshRenderer, put = __cordl_internal_set__cubeMeshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> _cubeMeshRenderer;
 
-  /// @brief Field _disappearingGhostEnd, offset 0x3c, size 0x4
+  /// @brief Field _disappearingGhostEnd, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__disappearingGhostEnd, put = __cordl_internal_set__disappearingGhostEnd)) float_t _disappearingGhostEnd;
 
-  /// @brief Field _disappearingGhostStart, offset 0x38, size 0x4
+  /// @brief Field _disappearingGhostStart, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__disappearingGhostStart, put = __cordl_internal_set__disappearingGhostStart)) float_t _disappearingGhostStart;
 
-  /// @brief Field _disappearingNormalEnd, offset 0x34, size 0x4
+  /// @brief Field _disappearingNormalEnd, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__disappearingNormalEnd, put = __cordl_internal_set__disappearingNormalEnd)) float_t _disappearingNormalEnd;
 
-  /// @brief Field _disappearingNormalStart, offset 0x30, size 0x4
+  /// @brief Field _disappearingNormalStart, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__disappearingNormalStart, put = __cordl_internal_set__disappearingNormalStart)) float_t _disappearingNormalStart;
 
-  /// @brief Field _fadeArrow, offset 0x4d, size 0x1
+  /// @brief Field _fadeArrow, offset 0x55, size 0x1
   __declspec(property(get = __cordl_internal_get__fadeArrow, put = __cordl_internal_set__fadeArrow)) bool _fadeArrow;
 
-  /// @brief Field _hideMesh, offset 0x4c, size 0x1
+  /// @brief Field _hideMesh, offset 0x54, size 0x1
   __declspec(property(get = __cordl_internal_get__hideMesh, put = __cordl_internal_set__hideMesh)) bool _hideMesh;
 
-  /// @brief Field _maxDistance, offset 0x48, size 0x4
+  /// @brief Field _maxDistance, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__maxDistance, put = __cordl_internal_set__maxDistance)) float_t _maxDistance;
 
-  /// @brief Field _minDistance, offset 0x44, size 0x4
+  /// @brief Field _minDistance, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__minDistance, put = __cordl_internal_set__minDistance)) float_t _minDistance;
 
-  /// @brief Field _prevArrowTransparency, offset 0x40, size 0x4
+  /// @brief Field _prevArrowTransparency, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__prevArrowTransparency, put = __cordl_internal_set__prevArrowTransparency)) float_t _prevArrowTransparency;
 
-  /// @brief Field _transparentObjectMaterialPropertyBlocks, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__transparentObjectMaterialPropertyBlocks, put = __cordl_internal_set__transparentObjectMaterialPropertyBlocks))::ArrayW<
-      ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> _transparentObjectMaterialPropertyBlocks;
+  /// @brief Field _transparentObjectMaterialPropertyBlocks, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__transparentObjectMaterialPropertyBlocks,
+                      put = __cordl_internal_set__transparentObjectMaterialPropertyBlocks)) ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>,
+                                                                                                     ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*>
+      _transparentObjectMaterialPropertyBlocks;
 
   __declspec(property(get = get_gameNoteController)) T gameNoteController;
 
@@ -194,41 +196,44 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DisappearingArrowControllerBase_1(DisappearingArrowControllerBase_1 const&) = delete;
 
-  /// @brief Field _transparentObjectMaterialPropertyBlocks, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _transparentObjectMaterialPropertyBlocks, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> ____transparentObjectMaterialPropertyBlocks;
 
-  /// @brief Field _cubeMeshRenderer, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _cubeMeshRenderer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____cubeMeshRenderer;
 
-  /// @brief Field _arrowCutoutEffect, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _arrowCutoutEffect, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CutoutEffect> ____arrowCutoutEffect;
 
-  /// @brief Field _disappearingNormalStart, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _disappearingNormalStart, offset: 0x38, size: 0x4, def value: None
   float_t ____disappearingNormalStart;
 
-  /// @brief Field _disappearingNormalEnd, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field _disappearingNormalEnd, offset: 0x3c, size: 0x4, def value: None
   float_t ____disappearingNormalEnd;
 
-  /// @brief Field _disappearingGhostStart, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _disappearingGhostStart, offset: 0x40, size: 0x4, def value: None
   float_t ____disappearingGhostStart;
 
-  /// @brief Field _disappearingGhostEnd, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field _disappearingGhostEnd, offset: 0x44, size: 0x4, def value: None
   float_t ____disappearingGhostEnd;
 
-  /// @brief Field _prevArrowTransparency, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _prevArrowTransparency, offset: 0x48, size: 0x4, def value: None
   float_t ____prevArrowTransparency;
 
-  /// @brief Field _minDistance, offset: 0x44, size: 0x4, def value: None
+  /// @brief Field _minDistance, offset: 0x4c, size: 0x4, def value: None
   float_t ____minDistance;
 
-  /// @brief Field _maxDistance, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field _maxDistance, offset: 0x50, size: 0x4, def value: None
   float_t ____maxDistance;
 
-  /// @brief Field _hideMesh, offset: 0x4c, size: 0x1, def value: None
+  /// @brief Field _hideMesh, offset: 0x54, size: 0x1, def value: None
   bool ____hideMesh;
 
-  /// @brief Field _fadeArrow, offset: 0x4d, size: 0x1, def value: None
+  /// @brief Field _fadeArrow, offset: 0x55, size: 0x1, def value: None
   bool ____fadeArrow;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

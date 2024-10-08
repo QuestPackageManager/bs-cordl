@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LoadGameLoaderAfterSplashScreen);
 MARK_REF_PTR_T(::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2);
 MARK_REF_PTR_T(::GlobalNamespace::__LoadGameLoaderAfterSplashScreen____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LoadGameLoaderAfterSplashScreen::<>c*
@@ -57,17 +57,17 @@ class CORDL_TYPE __LoadGameLoaderAfterSplashScreen____c : public ::System::Objec
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__LoadGameLoaderAfterSplashScreen____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__LoadGameLoaderAfterSplashScreen____c* __9;
 
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Func_1<bool>* __9__2_0;
+  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0)) ::System::Func_1<bool>* __9__2_0;
 
   static inline ::GlobalNamespace::__LoadGameLoaderAfterSplashScreen____c* New_ctor();
 
-  /// @brief Method <Start>b__2_0, addr 0x262b75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__2_0, addr 0x26d695c, size 0x8, virtual false, abstract: false, final false
   inline bool _Start_b__2_0();
 
-  /// @brief Method .ctor, addr 0x262b754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d6954, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__LoadGameLoaderAfterSplashScreen____c* getStaticF___9();
@@ -92,6 +92,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __LoadGameLoaderAfterSplashScreen____c(__LoadGameLoaderAfterSplashScreen____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17859 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -99,28 +102,28 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LoadGameLoade
 
 } // namespace GlobalNamespace
 // Type: ::<Start>d__2
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LoadGameLoaderAfterSplashScreen::<Start>d__2*
 class CORDL_TYPE __LoadGameLoaderAfterSplashScreen___Start_d__2 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::LoadGameLoaderAfterSplashScreen> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::LoadGameLoaderAfterSplashScreen> __4__this;
 
   /// @brief Field <sceneAsyncLoad>5__2, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneAsyncLoad_5__2, put = __cordl_internal_set__sceneAsyncLoad_5__2))::UnityEngine::AsyncOperation* _sceneAsyncLoad_5__2;
+  __declspec(property(get = __cordl_internal_get__sceneAsyncLoad_5__2, put = __cordl_internal_set__sceneAsyncLoad_5__2)) ::UnityEngine::AsyncOperation* _sceneAsyncLoad_5__2;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -131,21 +134,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x262b768, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d6968, size 0x1e4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___Start_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x262b954, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x26d6b4c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x262b95c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d6b54, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x262b99c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d6b8c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x262b764, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26d6964, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -172,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneAsyncLoad_5__2(::UnityEngine::AsyncOperation* value);
 
-  /// @brief Method .ctor, addr 0x262b6c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d68c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -210,6 +213,9 @@ public:
   /// @brief Field <sceneAsyncLoad>5__2, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::AsyncOperation* ____sceneAsyncLoad_5__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17860 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -225,7 +231,7 @@ static_assert(offsetof(::GlobalNamespace::__LoadGameLoaderAfterSplashScreen___St
 
 } // namespace GlobalNamespace
 // Type: ::LoadGameLoaderAfterSplashScreen
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LoadGameLoaderAfterSplashScreen*
@@ -236,12 +242,12 @@ public:
 
   using __c = ::GlobalNamespace::__LoadGameLoaderAfterSplashScreen____c;
 
-  /// @brief Field _camera, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
+  /// @brief Field _camera, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera)) ::UnityW<::UnityEngine::Camera> _camera;
 
   static inline ::GlobalNamespace::LoadGameLoaderAfterSplashScreen* New_ctor();
 
-  /// @brief Method Start, addr 0x262b658, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26d6868, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -250,7 +256,7 @@ public:
 
   constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
-  /// @brief Method .ctor, addr 0x262b6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d68f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -267,8 +273,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LoadGameLoaderAfterSplashScreen(LoadGameLoaderAfterSplashScreen const&) = delete;
 
-  /// @brief Field _camera, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17861 };
 
   /// @brief Field kGameLoaderSceneName offset 0xffffffff size 0x8
   static constexpr ::ConstString kGameLoaderSceneName{ u"GameLoader" };
@@ -276,9 +285,9 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LoadGameLoaderAfterSplashScreen, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LoadGameLoaderAfterSplashScreen, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LoadGameLoaderAfterSplashScreen, ____camera) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LoadGameLoaderAfterSplashScreen, ____camera) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LoadGameLoaderAfterSplashScreen);

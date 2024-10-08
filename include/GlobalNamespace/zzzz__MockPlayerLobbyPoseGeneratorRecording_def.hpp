@@ -15,22 +15,22 @@ class MockPlayerLobbyPoseGeneratorRecording;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording);
 // Type: ::MockPlayerLobbyPoseGeneratorRecording
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MockPlayerLobbyPoseGeneratorRecording*
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorRecording : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2731da0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3b51034, size 0x68, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Tick, addr 0x2731e08, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x3b5109c, size 0x68, virtual true, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method .ctor, addr 0x2731d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4eec8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGeneratorRecording", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MockPlayerLobbyPoseGeneratorRecording(MockPlayerLobbyPoseGeneratorRecording const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4527 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,7 +26,7 @@ template <typename T> class __SortExtensions____c__DisplayClass1_0_1;
 MARK_REF_PTR_T(::GlobalNamespace::SortExtensions);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__SortExtensions____c__DisplayClass1_0_1);
 // Type: ::<>c__DisplayClass1_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -36,7 +36,7 @@ class CORDL_TYPE __SortExtensions____c__DisplayClass1_0_1 : public ::System::Obj
 public:
   // Declarations
   /// @brief Field getSortIndex, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_getSortIndex, put = __cordl_internal_set_getSortIndex))::System::Func_2<T, int32_t>* getSortIndex;
+  __declspec(property(get = __cordl_internal_get_getSortIndex, put = __cordl_internal_set_getSortIndex)) ::System::Func_2<T, int32_t>* getSortIndex;
 
   static inline ::GlobalNamespace::__SortExtensions____c__DisplayClass1_0_1<T>* New_ctor();
 
@@ -69,12 +69,15 @@ public:
   /// @brief Field getSortIndex, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<T, int32_t>* ___getSortIndex;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14925 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::SortExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SortExtensions*
@@ -102,6 +105,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SortExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SortExtensions(SortExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14926 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

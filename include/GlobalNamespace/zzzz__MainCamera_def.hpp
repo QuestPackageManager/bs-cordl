@@ -24,28 +24,28 @@ class MainCamera;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MainCamera);
 // Type: ::MainCamera
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MainCamera*
 class CORDL_TYPE MainCamera : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _camera, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
+  /// @brief Field _camera, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera)) ::UnityW<::UnityEngine::Camera> _camera;
 
-  /// @brief Field _transform, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
+  /// @brief Field _transform, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  __declspec(property(get = get_camera))::UnityW<::UnityEngine::Camera> camera;
+  __declspec(property(get = get_camera)) ::UnityW<::UnityEngine::Camera> camera;
 
   __declspec(property(put = set_enableCamera)) bool enableCamera;
 
-  __declspec(property(get = get_position))::UnityEngine::Vector3 position;
+  __declspec(property(get = get_position)) ::UnityEngine::Vector3 position;
 
-  __declspec(property(get = get_rotation))::UnityEngine::Quaternion rotation;
+  __declspec(property(get = get_rotation)) ::UnityEngine::Quaternion rotation;
 
-  /// @brief Method Awake, addr 0x26b02ac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3aa62f8, size 0x60, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MainCamera* New_ctor();
@@ -62,19 +62,19 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x26b030c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa6358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_camera, addr 0x26b0244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_camera, addr 0x3aa6290, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_camera();
 
-  /// @brief Method get_position, addr 0x26b0274, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x3aa62c0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_rotation, addr 0x26b0290, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x3aa62dc, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method set_enableCamera, addr 0x26b024c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableCamera, addr 0x3aa6298, size 0x28, virtual false, abstract: false, final false
   inline void set_enableCamera(bool value);
 
 protected:
@@ -91,20 +91,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MainCamera(MainCamera const&) = delete;
 
-  /// @brief Field _camera, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
 
-  /// @brief Field _transform, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _transform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5055 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainCamera, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainCamera, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainCamera, ____camera) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainCamera, ____camera) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainCamera, ____transform) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainCamera, ____transform) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainCamera);

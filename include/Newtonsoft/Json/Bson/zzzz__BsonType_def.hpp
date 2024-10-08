@@ -13,7 +13,7 @@ struct BsonType;
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::Bson::BsonType);
 // Type: Newtonsoft.Json.Bson::BsonType
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: true
 // CS Name: ::Newtonsoft.Json.Bson::BsonType
@@ -125,6 +125,9 @@ public:
 
   /// @brief Field Undefined value: static_cast<int8_t>(0x6)
   static ::Newtonsoft::Json::Bson::BsonType const Undefined;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10486 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

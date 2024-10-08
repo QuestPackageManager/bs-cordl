@@ -37,43 +37,44 @@ class LightColorGroupEffectManager;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightColorGroupEffectManager);
 // Type: ::LightColorGroupEffectManager
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightColorGroupEffectManager*
 class CORDL_TYPE LightColorGroupEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _beatmapCallbacksController, offset 0x20, size 0x8
+  /// @brief Field _beatmapCallbacksController, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+                      put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _colorBoostBeatmapDataCallbackWrapper, offset 0x30, size 0x8
+  /// @brief Field _colorBoostBeatmapDataCallbackWrapper, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__colorBoostBeatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__colorBoostBeatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _colorBoostBeatmapDataCallbackWrapper;
+                      put = __cordl_internal_set__colorBoostBeatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _colorBoostBeatmapDataCallbackWrapper;
 
-  /// @brief Field _container, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  /// @brief Field _container, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
-  /// @brief Field _lightColorGroupEffects, offset 0x38, size 0x8
+  /// @brief Field _lightColorGroupEffects, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__lightColorGroupEffects,
-                      put = __cordl_internal_set__lightColorGroupEffects))::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupEffect*>* _lightColorGroupEffects;
+                      put = __cordl_internal_set__lightColorGroupEffects)) ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupEffect*>* _lightColorGroupEffects;
 
-  /// @brief Field _lightGroups, offset 0x18, size 0x8
+  /// @brief Field _lightGroups, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__lightGroups,
-                      put = __cordl_internal_set__lightGroups))::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> _lightGroups;
+                      put = __cordl_internal_set__lightGroups)) ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*>
+      _lightGroups;
 
-  __declspec(property(get = get_lightGroups))::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::LightGroup>>* lightGroups;
+  __declspec(property(get = get_lightGroups)) ::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::LightGroup>>* lightGroups;
 
-  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x26f5b2c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x3b16314, size 0x15c, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
   static inline ::GlobalNamespace::LightColorGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26f59d0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b161b8, size 0x15c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x26f5730, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b15f24, size 0x294, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -106,10 +107,10 @@ public:
 
   constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> value);
 
-  /// @brief Method .ctor, addr 0x26f5c88, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b16470, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightGroups, addr 0x26f5728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroups, addr 0x3b15f1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::UnityW<::GlobalNamespace::LightGroup>>* get_lightGroups();
 
 protected:
@@ -126,35 +127,38 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightColorGroupEffectManager(LightColorGroupEffectManager const&) = delete;
 
-  /// @brief Field _lightGroups, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _lightGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> ____lightGroups;
 
-  /// @brief Field _beatmapCallbacksController, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _beatmapCallbacksController, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-  /// @brief Field _container, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _container, offset: 0x30, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
-  /// @brief Field _colorBoostBeatmapDataCallbackWrapper, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _colorBoostBeatmapDataCallbackWrapper, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____colorBoostBeatmapDataCallbackWrapper;
 
-  /// @brief Field _lightColorGroupEffects, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _lightColorGroupEffects, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorGroupEffect*>* ____lightColorGroupEffects;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4274 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightColorGroupEffectManager, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightColorGroupEffectManager, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____lightGroups) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____lightGroups) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____beatmapCallbacksController) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____beatmapCallbacksController) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____container) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____container) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____colorBoostBeatmapDataCallbackWrapper) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____colorBoostBeatmapDataCallbackWrapper) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____lightColorGroupEffects) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightColorGroupEffectManager, ____lightColorGroupEffects) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightColorGroupEffectManager);

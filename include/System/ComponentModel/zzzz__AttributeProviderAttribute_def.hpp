@@ -13,22 +13,22 @@ class AttributeProviderAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::AttributeProviderAttribute);
 // Type: System.ComponentModel::AttributeProviderAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::AttributeProviderAttribute*
 class CORDL_TYPE AttributeProviderAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_PropertyName))::StringW PropertyName;
+  __declspec(property(get = get_PropertyName)) ::StringW PropertyName;
 
-  __declspec(property(get = get_TypeName))::StringW TypeName;
+  __declspec(property(get = get_TypeName)) ::StringW TypeName;
 
   /// @brief Field <PropertyName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__PropertyName_k__BackingField, put = __cordl_internal_set__PropertyName_k__BackingField))::StringW _PropertyName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__PropertyName_k__BackingField, put = __cordl_internal_set__PropertyName_k__BackingField)) ::StringW _PropertyName_k__BackingField;
 
   /// @brief Field <TypeName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__TypeName_k__BackingField, put = __cordl_internal_set__TypeName_k__BackingField))::StringW _TypeName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TypeName_k__BackingField, put = __cordl_internal_set__TypeName_k__BackingField)) ::StringW _TypeName_k__BackingField;
 
   constexpr ::StringW const& __cordl_internal_get__PropertyName_k__BackingField() const;
 
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__TypeName_k__BackingField(::StringW value);
 
-  /// @brief Method get_PropertyName, addr 0x2f61c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyName, addr 0x43d2494, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PropertyName();
 
-  /// @brief Method get_TypeName, addr 0x2f61c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x43d248c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field <PropertyName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____PropertyName_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9329 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

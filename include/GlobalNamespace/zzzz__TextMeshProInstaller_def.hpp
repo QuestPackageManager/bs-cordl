@@ -25,22 +25,22 @@ class TextMeshProInstaller;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TextMeshProInstaller);
 // Type: ::TextMeshProInstaller
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TextMeshProInstaller*
 class CORDL_TYPE TextMeshProInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::TMPro::TMP_FontAsset>> {
 public:
   // Declarations
-  /// @brief Field _fontAssets, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__fontAssets, put = __cordl_internal_set__fontAssets))::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* _fontAssets;
+  /// @brief Field _fontAssets, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__fontAssets, put = __cordl_internal_set__fontAssets)) ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* _fontAssets;
 
-  __declspec(property(get = get_assetLabelRuntimeKey))::StringW assetLabelRuntimeKey;
+  __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x2630aac, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26db928, size 0x140, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x2630a54, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x26db8d0, size 0x58, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::TMPro::TMP_FontAsset>>* fontAssets,
                                          ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
 
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set__fontAssets(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* value);
 
-  /// @brief Method .ctor, addr 0x2630bec, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dba68, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x2630a14, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x26db890, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -72,15 +72,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextMeshProInstaller(TextMeshProInstaller const&) = delete;
 
-  /// @brief Field _fontAssets, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _fontAssets, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* ____fontAssets;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17879 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextMeshProInstaller, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextMeshProInstaller, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextMeshProInstaller, ____fontAssets) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextMeshProInstaller, ____fontAssets) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextMeshProInstaller);

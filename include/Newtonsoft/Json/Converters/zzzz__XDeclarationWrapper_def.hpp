@@ -25,25 +25,26 @@ class XDeclarationWrapper;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XDeclarationWrapper);
 // Type: Newtonsoft.Json.Converters::XDeclarationWrapper
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Converters::XDeclarationWrapper*
 class CORDL_TYPE XDeclarationWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
 public:
   // Declarations
-  __declspec(property(get = get_Declaration))::System::Xml::Linq::XDeclaration* Declaration;
+  __declspec(property(get = get_Declaration)) ::System::Xml::Linq::XDeclaration* Declaration;
 
-  __declspec(property(get = get_Encoding, put = set_Encoding))::StringW Encoding;
+  __declspec(property(get = get_Encoding, put = set_Encoding)) ::StringW Encoding;
 
-  __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
+  __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
 
-  __declspec(property(get = get_Standalone, put = set_Standalone))::StringW Standalone;
+  __declspec(property(get = get_Standalone, put = set_Standalone)) ::StringW Standalone;
 
-  __declspec(property(get = get_Version))::StringW Version;
+  __declspec(property(get = get_Version)) ::StringW Version;
 
   /// @brief Field <Declaration>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Declaration_k__BackingField, put = __cordl_internal_set__Declaration_k__BackingField))::System::Xml::Linq::XDeclaration* _Declaration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Declaration_k__BackingField,
+                      put = __cordl_internal_set__Declaration_k__BackingField)) ::System::Xml::Linq::XDeclaration* _Declaration_k__BackingField;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlDeclaration"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlDeclaration*() noexcept;
@@ -59,22 +60,22 @@ public:
 
   constexpr void __cordl_internal_set__Declaration_k__BackingField(::System::Xml::Linq::XDeclaration* value);
 
-  /// @brief Method .ctor, addr 0x2ac0508, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eceb0c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDeclaration* declaration);
 
-  /// @brief Method get_Declaration, addr 0x2ac0500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Declaration, addr 0x3eceb04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XDeclaration* get_Declaration();
 
-  /// @brief Method get_Encoding, addr 0x2ac057c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Encoding, addr 0x3eceb80, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Encoding();
 
-  /// @brief Method get_NodeType, addr 0x2ac0558, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x3eceb5c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Standalone, addr 0x2ac05b4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Standalone, addr 0x3ecebb8, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Standalone();
 
-  /// @brief Method get_Version, addr 0x2ac0560, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Version, addr 0x3eceb64, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Version();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDeclaration"
@@ -83,10 +84,10 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  /// @brief Method set_Encoding, addr 0x2ac0598, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_Encoding, addr 0x3eceb9c, size 0x1c, virtual true, abstract: false, final true
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method set_Standalone, addr 0x2ac05d0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_Standalone, addr 0x3ecebd4, size 0x1c, virtual true, abstract: false, final true
   inline void set_Standalone(::StringW value);
 
 protected:
@@ -105,6 +106,9 @@ public:
 
   /// @brief Field <Declaration>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::Linq::XDeclaration* ____Declaration_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10459 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

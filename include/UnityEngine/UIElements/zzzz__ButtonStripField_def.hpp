@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ButtonStripField);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__ButtonStripField__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__ButtonStripField__UxmlTraits);
 // Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::ButtonStripField::UxmlFactory*
@@ -44,7 +44,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__ButtonStripField__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35cb21c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4912670, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,6 +61,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ButtonStripField__UxmlFactory(__ButtonStripField__UxmlFactory const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5500 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -68,7 +71,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Butto
 
 } // namespace UnityEngine::UIElements
 // Type: ::UxmlTraits
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::ButtonStripField::UxmlTraits*
@@ -77,7 +80,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__ButtonStripField__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35cb264, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49126b8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,6 +97,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ButtonStripField__UxmlTraits(__ButtonStripField__UxmlTraits const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5501 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -101,7 +107,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Butto
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::ButtonStripField
-// SizeInfo { instance_size: 1040, native_size: -1, calculated_instance_size: 1040, calculated_native_size: 1040, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1096, native_size: -1, calculated_instance_size: 1096, calculated_native_size: 1096, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::ButtonStripField*
@@ -112,17 +118,15 @@ public:
 
   using UxmlTraits = ::UnityEngine::UIElements::__ButtonStripField__UxmlTraits;
 
-  __declspec(property(get = get_buttons))::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* buttons;
-
-  /// @brief Field m_Buttons, offset 0x408, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Buttons, put = __cordl_internal_set_m_Buttons))::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* m_Buttons;
+  /// @brief Field m_Buttons, offset 0x440, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Buttons, put = __cordl_internal_set_m_Buttons)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* m_Buttons;
 
   static inline ::UnityEngine::UIElements::ButtonStripField* New_ctor();
 
-  /// @brief Method RefreshButtonsState, addr 0x35cb13c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RefreshButtonsState, addr 0x4912598, size 0xd8, virtual false, abstract: false, final false
   inline void RefreshButtonsState();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x35cb0b4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x4912514, size 0x84, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(int32_t newValue);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>*& __cordl_internal_get_m_Buttons();
@@ -131,11 +135,8 @@ public:
 
   constexpr void __cordl_internal_set_m_Buttons(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* value);
 
-  /// @brief Method .ctor, addr 0x35caff4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491245c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
-
-  /// @brief Method get_buttons, addr 0x35caf00, size 0xf4, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* get_buttons();
 
 protected:
   // Ctor Parameters []
@@ -151,15 +152,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ButtonStripField(ButtonStripField const&) = delete;
 
-  /// @brief Field m_Buttons, offset: 0x408, size: 0x8, def value: None
+  /// @brief Field m_Buttons, offset: 0x440, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* ___m_Buttons;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5502 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ButtonStripField, 0x410>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ButtonStripField, 0x448>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::ButtonStripField, ___m_Buttons) == 0x408, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ButtonStripField, ___m_Buttons) == 0x440, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ButtonStripField);

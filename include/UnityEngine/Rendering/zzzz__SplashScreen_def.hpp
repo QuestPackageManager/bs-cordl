@@ -12,14 +12,14 @@ class SplashScreen;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Rendering::SplashScreen);
 // Type: UnityEngine.Rendering::SplashScreen
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: ::UnityEngine.Rendering::SplashScreen*
 class CORDL_TYPE SplashScreen : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_isFinished, addr 0x3463ad4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x484e4c4, size 0x28, virtual false, abstract: false, final false
   static inline bool get_isFinished();
 
 protected:
@@ -35,6 +35,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SplashScreen", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SplashScreen(SplashScreen const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11175 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

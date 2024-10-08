@@ -13,7 +13,7 @@ struct ENetAddress;
 // Write type traits
 MARK_VAL_T(::ENet::ENetAddress);
 // Type: ENet::ENetAddress
-// SizeInfo { instance_size: 18, native_size: 18, calculated_instance_size: 18, calculated_native_size: 34, minimum_alignment: 1, natural_alignment: 2, packing: Some(1), specified_packing: Some(0) }
+// SizeInfo { instance_size: 18, native_size: 18, calculated_instance_size: 18, calculated_native_size: 34, minimum_alignment: 2, packing: None, specified_packing: Some(0) }
 namespace ENet {
 // Is value type: true
 // CS Name: ::ENet::ENetAddress
@@ -57,6 +57,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17678 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x12 };
 

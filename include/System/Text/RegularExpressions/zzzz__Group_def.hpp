@@ -18,7 +18,7 @@ class Group;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::RegularExpressions::Group);
 // Type: System.Text.RegularExpressions::Group
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
 // CS Name: ::System.Text.RegularExpressions::Group*
@@ -28,19 +28,19 @@ public:
   __declspec(property(get = get_Success)) bool Success;
 
   /// @brief Field <Name>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
   /// @brief Field _capcoll, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__capcoll, put = __cordl_internal_set__capcoll))::System::Text::RegularExpressions::CaptureCollection* _capcoll;
+  __declspec(property(get = __cordl_internal_get__capcoll, put = __cordl_internal_set__capcoll)) ::System::Text::RegularExpressions::CaptureCollection* _capcoll;
 
   /// @brief Field _capcount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__capcount, put = __cordl_internal_set__capcount)) int32_t _capcount;
 
   /// @brief Field _caps, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__caps, put = __cordl_internal_set__caps))::ArrayW<int32_t, ::Array<int32_t>*> _caps;
+  __declspec(property(get = __cordl_internal_get__caps, put = __cordl_internal_set__caps)) ::ArrayW<int32_t, ::Array<int32_t>*> _caps;
 
   /// @brief Field s_emptyGroup, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_emptyGroup, put = setStaticF_s_emptyGroup))::System::Text::RegularExpressions::Group* s_emptyGroup;
+  static __declspec(property(get = getStaticF_s_emptyGroup, put = setStaticF_s_emptyGroup)) ::System::Text::RegularExpressions::Group* s_emptyGroup;
 
   static inline ::System::Text::RegularExpressions::Group* New_ctor();
 
@@ -70,15 +70,15 @@ public:
 
   constexpr void __cordl_internal_set__caps(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2fae93c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4399a14, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2fae794, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4399864, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::ArrayW<int32_t, ::Array<int32_t>*> caps, int32_t capcount, ::StringW name);
 
   static inline ::System::Text::RegularExpressions::Group* getStaticF_s_emptyGroup();
 
-  /// @brief Method get_Success, addr 0x2fae830, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Success, addr 0x4399900, size 0x10, virtual false, abstract: false, final false
   inline bool get_Success();
 
   static inline void setStaticF_s_emptyGroup(::System::Text::RegularExpressions::Group* value);
@@ -108,6 +108,9 @@ public:
 
   /// @brief Field <Name>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9188 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

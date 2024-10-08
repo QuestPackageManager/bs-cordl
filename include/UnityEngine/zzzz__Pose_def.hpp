@@ -28,45 +28,45 @@ struct Pose;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Pose);
 // Type: UnityEngine::Pose
-// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::Pose
 struct CORDL_TYPE Pose {
 public:
   // Declarations
-  __declspec(property(get = get_forward))::UnityEngine::Vector3 forward;
+  __declspec(property(get = get_forward)) ::UnityEngine::Vector3 forward;
 
   /// @brief Field k_Identity, offset 0xffffffff, size 0x1c
-  static __declspec(property(get = getStaticF_k_Identity, put = setStaticF_k_Identity))::UnityEngine::Pose k_Identity;
+  static __declspec(property(get = getStaticF_k_Identity, put = setStaticF_k_Identity)) ::UnityEngine::Pose k_Identity;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Pose>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Pose>*();
 
-  /// @brief Method Equals, addr 0x3411854, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x483d818, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x34118e4, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x483d8d8, size 0xb0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Pose other);
 
-  /// @brief Method GetHashCode, addr 0x3411968, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x483d988, size 0xac, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTransformedBy, addr 0x3411698, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetTransformedBy, addr 0x483d650, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose GetTransformedBy(::UnityEngine::Pose lhs);
 
-  /// @brief Method ToString, addr 0x34115a4, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x483d54c, size 0x104, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3411590, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x483d538, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::Pose getStaticF_k_Identity();
 
-  /// @brief Method get_forward, addr 0x341177c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_forward, addr 0x483d744, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_forward();
 
-  /// @brief Method get_identity, addr 0x34117ec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x483d7b0, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose get_identity();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Pose>"
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field rotation, offset: 0xc, size: 0x10, def value: None
   ::UnityEngine::Quaternion rotation;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10906 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

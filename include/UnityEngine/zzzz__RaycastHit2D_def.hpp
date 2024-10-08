@@ -21,36 +21,36 @@ struct RaycastHit2D;
 // Write type traits
 MARK_VAL_T(::UnityEngine::RaycastHit2D);
 // Type: UnityEngine::RaycastHit2D
-// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::RaycastHit2D
 struct CORDL_TYPE RaycastHit2D {
 public:
   // Declarations
-  __declspec(property(get = get_collider))::UnityW<::UnityEngine::Collider2D> collider;
+  __declspec(property(get = get_collider)) ::UnityW<::UnityEngine::Collider2D> collider;
 
   __declspec(property(get = get_distance)) float_t distance;
 
   __declspec(property(get = get_fraction)) float_t fraction;
 
-  __declspec(property(get = get_normal))::UnityEngine::Vector2 normal;
+  __declspec(property(get = get_normal)) ::UnityEngine::Vector2 normal;
 
-  __declspec(property(get = get_point))::UnityEngine::Vector2 point;
+  __declspec(property(get = get_point)) ::UnityEngine::Vector2 point;
 
-  /// @brief Method get_collider, addr 0x349540c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_collider, addr 0x4879d98, size 0xac, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider2D> get_collider();
 
-  /// @brief Method get_distance, addr 0x34953fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x4879d88, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_fraction, addr 0x3495404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fraction, addr 0x4879d90, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fraction();
 
-  /// @brief Method get_normal, addr 0x34953f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x4879d80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_normal();
 
-  /// @brief Method get_point, addr 0x34953ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x4879d78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_point();
 
   // Ctor Parameters []
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field m_Collider, offset: 0x20, size: 0x4, def value: None
   int32_t m_Collider;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18532 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };

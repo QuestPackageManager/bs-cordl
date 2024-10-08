@@ -19,7 +19,7 @@ class DHParametersGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator);
 // Type: Org.BouncyCastle.Crypto.Generators::DHParametersGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::DHParametersGenerator*
@@ -30,15 +30,15 @@ public:
   __declspec(property(get = __cordl_internal_get_certainty, put = __cordl_internal_set_certainty)) int32_t certainty;
 
   /// @brief Field random, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Field size, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
 
-  /// @brief Method GenerateParameters, addr 0x1168c00, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method GenerateParameters, addr 0x2341a20, size 0x114, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* GenerateParameters();
 
-  /// @brief Method Init, addr 0x1168bf4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2341a14, size 0xc, virtual true, abstract: false, final false
   inline void Init(int32_t size, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator* New_ctor();
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11692e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23420e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field random, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Security::SecureRandom* ___random;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 895 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

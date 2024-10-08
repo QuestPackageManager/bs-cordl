@@ -16,7 +16,7 @@ class PlayerDataFileManagerSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerDataFileManagerSO);
 // Type: ::PlayerDataFileManagerSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerDataFileManagerSO*
@@ -24,20 +24,21 @@ class CORDL_TYPE PlayerDataFileManagerSO : public ::GlobalNamespace::PersistentS
 public:
   // Declarations
   /// @brief Field _allSongPackSerializedName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__allSongPackSerializedName, put = __cordl_internal_set__allSongPackSerializedName))::StringW _allSongPackSerializedName;
+  __declspec(property(get = __cordl_internal_get__allSongPackSerializedName, put = __cordl_internal_set__allSongPackSerializedName)) ::StringW _allSongPackSerializedName;
 
   /// @brief Field _buildInSongPackSerializedName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__buildInSongPackSerializedName, put = __cordl_internal_set__buildInSongPackSerializedName))::StringW _buildInSongPackSerializedName;
+  __declspec(property(get = __cordl_internal_get__buildInSongPackSerializedName, put = __cordl_internal_set__buildInSongPackSerializedName)) ::StringW _buildInSongPackSerializedName;
 
   /// @brief Field _defaultLastSelectedBeatmapCharacteristic, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultLastSelectedBeatmapCharacteristic,
-                      put = __cordl_internal_set__defaultLastSelectedBeatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _defaultLastSelectedBeatmapCharacteristic;
+                      put = __cordl_internal_set__defaultLastSelectedBeatmapCharacteristic)) ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>
+      _defaultLastSelectedBeatmapCharacteristic;
 
-  __declspec(property(get = get_allSongPackSerializedName))::StringW allSongPackSerializedName;
+  __declspec(property(get = get_allSongPackSerializedName)) ::StringW allSongPackSerializedName;
 
-  __declspec(property(get = get_buildInSongPackSerializedName))::StringW buildInSongPackSerializedName;
+  __declspec(property(get = get_buildInSongPackSerializedName)) ::StringW buildInSongPackSerializedName;
 
-  __declspec(property(get = get_defaultLastSelectedBeatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> defaultLastSelectedBeatmapCharacteristic;
+  __declspec(property(get = get_defaultLastSelectedBeatmapCharacteristic)) ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> defaultLastSelectedBeatmapCharacteristic;
 
   static inline ::GlobalNamespace::PlayerDataFileManagerSO* New_ctor();
 
@@ -59,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set__defaultLastSelectedBeatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  /// @brief Method .ctor, addr 0x14f69b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26af6dc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allSongPackSerializedName, addr 0x14f69a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allSongPackSerializedName, addr 0x26af6d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_allSongPackSerializedName();
 
-  /// @brief Method get_buildInSongPackSerializedName, addr 0x14f69a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildInSongPackSerializedName, addr 0x26af6cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_buildInSongPackSerializedName();
 
-  /// @brief Method get_defaultLastSelectedBeatmapCharacteristic, addr 0x14f6998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultLastSelectedBeatmapCharacteristic, addr 0x26af6c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_defaultLastSelectedBeatmapCharacteristic();
 
 protected:
@@ -93,6 +94,9 @@ public:
 
   /// @brief Field _allSongPackSerializedName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____allSongPackSerializedName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13179 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

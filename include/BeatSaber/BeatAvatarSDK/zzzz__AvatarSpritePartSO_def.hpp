@@ -15,21 +15,21 @@ class AvatarSpritePartSO;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO);
 // Type: BeatSaber.BeatAvatarSDK::AvatarSpritePartSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarSpritePartSO*
 class CORDL_TYPE AvatarSpritePartSO : public ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<::UnityW<::UnityEngine::Sprite>> {
 public:
   // Declarations
-  __declspec(property(get = get_sprite))::UnityW<::UnityEngine::Sprite> sprite;
+  __declspec(property(get = get_sprite)) ::UnityW<::UnityEngine::Sprite> sprite;
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x105e7ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2226234, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sprite, addr 0x105e770, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x22261f8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
 protected:
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarSpritePartSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarSpritePartSO(AvatarSpritePartSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18066 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

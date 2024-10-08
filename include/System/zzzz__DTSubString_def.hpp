@@ -21,7 +21,7 @@ struct DTSubString;
 // Write type traits
 MARK_VAL_T(::System::DTSubString);
 // Type: System::DTSubString
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
 // CS Name: ::System::DTSubString
@@ -30,7 +30,7 @@ public:
   // Declarations
   __declspec(property(get = get_Item)) char16_t Item[];
 
-  /// @brief Method get_Item, addr 0x295a260, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3d6e368, size 0x2c, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t relativeIndex);
 
   // Ctor Parameters []
@@ -56,6 +56,9 @@ public:
 
   /// @brief Field value, offset: 0x1c, size: 0x4, def value: None
   int32_t value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2396 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

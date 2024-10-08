@@ -49,7 +49,7 @@ class VectorImageManager;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::VectorImageManager);
 // Type: UnityEngine.UIElements.UIR::VectorImageManager
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.UIR::VectorImageManager*
@@ -59,58 +59,58 @@ public:
   /// @brief Field <disposed>k__BackingField, offset 0x39, size 0x1
   __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
-  __declspec(property(get = get_atlas))::UnityW<::UnityEngine::Texture2D> atlas;
+  __declspec(property(get = get_atlas)) ::UnityW<::UnityEngine::Texture2D> atlas;
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
   /// @brief Field instances, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_instances, put = setStaticF_instances))::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>* instances;
+  static __declspec(property(get = getStaticF_instances, put = setStaticF_instances)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>* instances;
 
   /// @brief Field m_Atlas, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Atlas, put = __cordl_internal_set_m_Atlas))::UnityEngine::UIElements::AtlasBase* m_Atlas;
+  __declspec(property(get = __cordl_internal_get_m_Atlas, put = __cordl_internal_set_m_Atlas)) ::UnityEngine::UIElements::AtlasBase* m_Atlas;
 
   /// @brief Field m_GradientRemapPool, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_GradientRemapPool, put = __cordl_internal_set_m_GradientRemapPool))::UnityEngine::UIElements::UIR::GradientRemapPool* m_GradientRemapPool;
+  __declspec(property(get = __cordl_internal_get_m_GradientRemapPool, put = __cordl_internal_set_m_GradientRemapPool)) ::UnityEngine::UIElements::UIR::GradientRemapPool* m_GradientRemapPool;
 
   /// @brief Field m_GradientSettingsAtlas, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_GradientSettingsAtlas,
-                      put = __cordl_internal_set_m_GradientSettingsAtlas))::UnityEngine::UIElements::UIR::GradientSettingsAtlas* m_GradientSettingsAtlas;
+                      put = __cordl_internal_set_m_GradientSettingsAtlas)) ::UnityEngine::UIElements::UIR::GradientSettingsAtlas* m_GradientSettingsAtlas;
 
   /// @brief Field m_LoggedExhaustedSettingsAtlas, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_m_LoggedExhaustedSettingsAtlas, put = __cordl_internal_set_m_LoggedExhaustedSettingsAtlas)) bool m_LoggedExhaustedSettingsAtlas;
 
   /// @brief Field m_Registered, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Registered,
-                      put = __cordl_internal_set_m_Registered))::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::UIElements::VectorImage>,
-                                                                                                            ::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* m_Registered;
+                      put = __cordl_internal_set_m_Registered)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::UIElements::VectorImage>,
+                                                                                                             ::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* m_Registered;
 
   /// @brief Field m_RenderInfoPool, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RenderInfoPool, put = __cordl_internal_set_m_RenderInfoPool))::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool* m_RenderInfoPool;
+  __declspec(property(get = __cordl_internal_get_m_RenderInfoPool, put = __cordl_internal_set_m_RenderInfoPool)) ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool* m_RenderInfoPool;
 
   /// @brief Field s_MarkerRegister, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerRegister, put = setStaticF_s_MarkerRegister))::Unity::Profiling::ProfilerMarker s_MarkerRegister;
+  static __declspec(property(get = getStaticF_s_MarkerRegister, put = setStaticF_s_MarkerRegister)) ::Unity::Profiling::ProfilerMarker s_MarkerRegister;
 
   /// @brief Field s_MarkerUnregister, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerUnregister, put = setStaticF_s_MarkerUnregister))::Unity::Profiling::ProfilerMarker s_MarkerUnregister;
+  static __declspec(property(get = getStaticF_s_MarkerUnregister, put = setStaticF_s_MarkerUnregister)) ::Unity::Profiling::ProfilerMarker s_MarkerUnregister;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddUser, addr 0x356277c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddUser, addr 0x4939668, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::GradientRemap* AddUser(::UnityEngine::UIElements::VectorImage* vi, ::UnityEngine::UIElements::VisualElement* context);
 
-  /// @brief Method Commit, addr 0x356274c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Commit, addr 0x4939638, size 0x30, virtual false, abstract: false, final false
   inline void Commit();
 
-  /// @brief Method Dispose, addr 0x35625c8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49394b4, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3562634, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4939520, size 0x118, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageManager* New_ctor(::UnityEngine::UIElements::AtlasBase* atlas);
 
-  /// @brief Method Register, addr 0x3562880, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x493976c, size 0x3c4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* Register(::UnityEngine::UIElements::VectorImage* vi, ::UnityEngine::UIElements::VisualElement* context);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -159,7 +159,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RenderInfoPool(::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool* value);
 
-  /// @brief Method .ctor, addr 0x35623f8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49392f0, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::AtlasBase* atlas);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>* getStaticF_instances();
@@ -168,10 +168,10 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerUnregister();
 
-  /// @brief Method get_atlas, addr 0x35623e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x49392dc, size 0x14, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_atlas();
 
-  /// @brief Method get_disposed, addr 0x35625b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x49394a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
@@ -183,7 +183,7 @@ public:
 
   static inline void setStaticF_s_MarkerUnregister(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_disposed, addr 0x35625bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x49394a8, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -220,6 +220,9 @@ public:
 
   /// @brief Field <disposed>k__BackingField, offset: 0x39, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

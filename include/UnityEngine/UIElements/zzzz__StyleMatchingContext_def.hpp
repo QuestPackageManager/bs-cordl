@@ -16,6 +16,9 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct MatchResultInfo;
 }
 namespace UnityEngine::UIElements {
+class AncestorFilter;
+}
+namespace UnityEngine::UIElements {
 class StyleSheet;
 }
 namespace UnityEngine::UIElements {
@@ -31,40 +34,47 @@ class StyleMatchingContext;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleMatchingContext);
 // Type: UnityEngine.UIElements::StyleMatchingContext
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::StyleMatchingContext*
 class CORDL_TYPE StyleMatchingContext : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field ancestorFilter, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_ancestorFilter, put = __cordl_internal_set_ancestorFilter)) ::UnityEngine::UIElements::AncestorFilter* ancestorFilter;
+
   /// @brief Field currentElement, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_currentElement, put = __cordl_internal_set_currentElement))::UnityEngine::UIElements::VisualElement* currentElement;
+  __declspec(property(get = __cordl_internal_get_currentElement, put = __cordl_internal_set_currentElement)) ::UnityEngine::UIElements::VisualElement* currentElement;
 
   /// @brief Field m_StyleSheetStack, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_StyleSheetStack,
-                      put = __cordl_internal_set_m_StyleSheetStack))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* m_StyleSheetStack;
+                      put = __cordl_internal_set_m_StyleSheetStack)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* m_StyleSheetStack;
 
   /// @brief Field processResult, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_processResult,
-                      put = __cordl_internal_set_processResult))::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult;
+                      put = __cordl_internal_set_processResult)) ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult;
 
   __declspec(property(get = get_styleSheetCount)) int32_t styleSheetCount;
 
   /// @brief Field variableContext, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_variableContext, put = __cordl_internal_set_variableContext))::UnityEngine::UIElements::StyleVariableContext* variableContext;
+  __declspec(property(get = __cordl_internal_get_variableContext, put = __cordl_internal_set_variableContext)) ::UnityEngine::UIElements::StyleVariableContext* variableContext;
 
-  /// @brief Method AddStyleSheet, addr 0x3556edc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddStyleSheet, addr 0x4927e64, size 0xe8, virtual false, abstract: false, final false
   inline void AddStyleSheet(::UnityEngine::UIElements::StyleSheet* sheet);
 
-  /// @brief Method GetStyleSheetAt, addr 0x3557030, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetStyleSheetAt, addr 0x4927fb4, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::StyleSheet> GetStyleSheetAt(int32_t index);
 
   static inline ::UnityEngine::UIElements::StyleMatchingContext*
   New_ctor(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
 
-  /// @brief Method RemoveStyleSheetRange, addr 0x3556fc8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RemoveStyleSheetRange, addr 0x4927f4c, size 0x68, virtual false, abstract: false, final false
   inline void RemoveStyleSheetRange(int32_t index, int32_t count);
+
+  constexpr ::UnityEngine::UIElements::AncestorFilter*& __cordl_internal_get_ancestorFilter();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::AncestorFilter*> const& __cordl_internal_get_ancestorFilter() const;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_currentElement();
 
@@ -83,6 +93,8 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleVariableContext*> const& __cordl_internal_get_variableContext() const;
 
+  constexpr void __cordl_internal_set_ancestorFilter(::UnityEngine::UIElements::AncestorFilter* value);
+
   constexpr void __cordl_internal_set_currentElement(::UnityEngine::UIElements::VisualElement* value);
 
   constexpr void __cordl_internal_set_m_StyleSheetStack(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* value);
@@ -91,10 +103,10 @@ public:
 
   constexpr void __cordl_internal_set_variableContext(::UnityEngine::UIElements::StyleVariableContext* value);
 
-  /// @brief Method .ctor, addr 0x3556e18, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4927d74, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
 
-  /// @brief Method get_styleSheetCount, addr 0x3556dd0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_styleSheetCount, addr 0x4927d2c, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_styleSheetCount();
 
 protected:
@@ -123,10 +135,16 @@ public:
   /// @brief Field processResult, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* ___processResult;
 
+  /// @brief Field ancestorFilter, offset: 0x30, size: 0x8, def value: None
+  ::UnityEngine::UIElements::AncestorFilter* ___ancestorFilter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6307 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleMatchingContext, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleMatchingContext, 0x38>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleMatchingContext, ___m_StyleSheetStack) == 0x10, "Offset mismatch!");
 
@@ -135,6 +153,8 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleMatchingContext, ___varia
 static_assert(offsetof(::UnityEngine::UIElements::StyleMatchingContext, ___currentElement) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleMatchingContext, ___processResult) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::StyleMatchingContext, ___ancestorFilter) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::StyleMatchingContext);

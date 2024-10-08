@@ -27,7 +27,7 @@ struct CustomAttributeNamedArgument;
 // Write type traits
 MARK_VAL_T(::System::Reflection::CustomAttributeNamedArgument);
 // Type: System.Reflection::CustomAttributeNamedArgument
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
 // CS Name: ::System.Reflection::CustomAttributeNamedArgument
@@ -36,46 +36,46 @@ public:
   // Declarations
   __declspec(property(get = get_IsField)) bool IsField;
 
-  __declspec(property(get = get_MemberInfo))::System::Reflection::MemberInfo* MemberInfo;
+  __declspec(property(get = get_MemberInfo)) ::System::Reflection::MemberInfo* MemberInfo;
 
-  __declspec(property(get = get_MemberName))::StringW MemberName;
+  __declspec(property(get = get_MemberName)) ::StringW MemberName;
 
-  __declspec(property(get = get_TypedValue))::System::Reflection::CustomAttributeTypedArgument TypedValue;
+  __declspec(property(get = get_TypedValue)) ::System::Reflection::CustomAttributeTypedArgument TypedValue;
 
-  /// @brief Method Equals, addr 0x289b0b8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3cb34a0, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x289b130, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3cb3518, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x289b2a0, size 0x38c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3cb3688, size 0x328, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x289ac0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb3048, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* attributeType, ::StringW memberName, bool isField, ::System::Reflection::CustomAttributeTypedArgument typedValue);
 
-  /// @brief Method .ctor, addr 0x289ae60, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb328c, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::System::Reflection::CustomAttributeTypedArgument typedArgument);
 
-  /// @brief Method .ctor, addr 0x289ac34, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb3070, size 0x21c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::System::Object* value);
 
-  /// @brief Method get_IsField, addr 0x289af90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsField, addr 0x3cb33b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsField();
 
-  /// @brief Method get_MemberInfo, addr 0x289afa0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method get_MemberInfo, addr 0x3cb33c8, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
-  /// @brief Method get_MemberName, addr 0x289af98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x3cb33c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
-  /// @brief Method get_TypedValue, addr 0x289af84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x3cb33ac, size 0xc, virtual false, abstract: false, final false
   inline ::System::Reflection::CustomAttributeTypedArgument get_TypedValue();
 
-  /// @brief Method op_Equality, addr 0x289b19c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3cb3584, size 0x80, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::CustomAttributeNamedArgument left, ::System::Reflection::CustomAttributeNamedArgument right);
 
-  /// @brief Method op_Inequality, addr 0x289b21c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3cb3604, size 0x84, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::CustomAttributeNamedArgument left, ::System::Reflection::CustomAttributeNamedArgument right);
 
   // Ctor Parameters []
@@ -102,6 +102,9 @@ public:
 
   /// @brief Field _lazyMemberInfo, offset: 0x28, size: 0x8, def value: None
   ::System::Reflection::MemberInfo* _lazyMemberInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3506 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

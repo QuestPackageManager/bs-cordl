@@ -40,7 +40,7 @@ class __ForDeviceEventObservable__ForDevice;
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice);
 // Type: ::ForDevice
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // CS Name: ::ForDeviceEventObservable::ForDevice*
@@ -48,13 +48,13 @@ class CORDL_TYPE __ForDeviceEventObservable__ForDevice : public ::System::Object
 public:
   // Declarations
   /// @brief Field m_Device, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Device, put = __cordl_internal_set_m_Device))::UnityEngine::InputSystem::InputDevice* m_Device;
+  __declspec(property(get = __cordl_internal_get_m_Device, put = __cordl_internal_set_m_Device)) ::UnityEngine::InputSystem::InputDevice* m_Device;
 
   /// @brief Field m_DeviceType, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DeviceType, put = __cordl_internal_set_m_DeviceType))::System::Type* m_DeviceType;
+  __declspec(property(get = __cordl_internal_get_m_DeviceType, put = __cordl_internal_set_m_DeviceType)) ::System::Type* m_DeviceType;
 
   /// @brief Field m_Observer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Observer, put = __cordl_internal_set_m_Observer))::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_Observer;
+  __declspec(property(get = __cordl_internal_get_m_Observer, put = __cordl_internal_set_m_Observer)) ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_Observer;
 
   /// @brief Convert operator to "::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*() noexcept;
@@ -62,13 +62,13 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice* New_ctor(::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device,
                                                                                                        ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
-  /// @brief Method OnCompleted, addr 0x31baf54, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x44f6f2c, size 0x4, virtual true, abstract: false, final true
   inline void OnCompleted();
 
-  /// @brief Method OnError, addr 0x31baf58, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method OnError, addr 0x44f6f30, size 0x58, virtual true, abstract: false, final true
   inline void OnError(::System::Exception* error);
 
-  /// @brief Method OnNext, addr 0x31bafb0, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method OnNext, addr 0x44f6f88, size 0x184, virtual true, abstract: false, final true
   inline void OnNext(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
 
   constexpr ::UnityEngine::InputSystem::InputDevice*& __cordl_internal_get_m_Device();
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Observer(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method .ctor, addr 0x31baf18, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44f6ef0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device, ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
   /// @brief Convert to "::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
@@ -118,6 +118,9 @@ public:
   /// @brief Field m_DeviceType, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___m_DeviceType;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7060 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -131,7 +134,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__ForDeviceEventOb
 
 } // namespace UnityEngine::InputSystem::Utilities
 // Type: UnityEngine.InputSystem.Utilities::ForDeviceEventObservable
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Utilities::ForDeviceEventObservable*
@@ -141,13 +144,13 @@ public:
   using ForDevice = ::UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice;
 
   /// @brief Field m_Device, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Device, put = __cordl_internal_set_m_Device))::UnityEngine::InputSystem::InputDevice* m_Device;
+  __declspec(property(get = __cordl_internal_get_m_Device, put = __cordl_internal_set_m_Device)) ::UnityEngine::InputSystem::InputDevice* m_Device;
 
   /// @brief Field m_DeviceType, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DeviceType, put = __cordl_internal_set_m_DeviceType))::System::Type* m_DeviceType;
+  __declspec(property(get = __cordl_internal_get_m_DeviceType, put = __cordl_internal_set_m_DeviceType)) ::System::Type* m_DeviceType;
 
   /// @brief Field m_Source, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source))::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_Source;
+  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source)) ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_Source;
 
   /// @brief Convert operator to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*() noexcept;
@@ -155,7 +158,7 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable* New_ctor(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
                                                                                           ::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Subscribe, addr 0x31bae28, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method Subscribe, addr 0x44f6e04, size 0xec, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
   constexpr ::UnityEngine::InputSystem::InputDevice*& __cordl_internal_get_m_Device();
@@ -176,7 +179,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Source(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method .ctor, addr 0x31badec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44f6dc8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source, ::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device);
 
   /// @brief Convert to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
@@ -204,6 +207,9 @@ public:
 
   /// @brief Field m_DeviceType, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___m_DeviceType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7061 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

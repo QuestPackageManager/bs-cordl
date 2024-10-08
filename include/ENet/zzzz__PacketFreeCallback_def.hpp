@@ -28,25 +28,25 @@ class PacketFreeCallback;
 // Write type traits
 MARK_REF_PTR_T(::ENet::PacketFreeCallback);
 // Type: ENet::PacketFreeCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
 // CS Name: ::ENet::PacketFreeCallback*
 class CORDL_TYPE PacketFreeCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x25ff26c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3a38d40, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ENet::Packet packet, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x25ff2f0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3a38dc4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x25ff258, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3a38d2c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ENet::Packet packet);
 
   static inline ::ENet::PacketFreeCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x25ff194, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a38ca0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -62,6 +62,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PacketFreeCallback", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PacketFreeCallback(PacketFreeCallback const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17685 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

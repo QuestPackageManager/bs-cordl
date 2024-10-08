@@ -17,16 +17,16 @@ class KdfDoublePipelineIterationParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::KdfDoublePipelineIterationParameters
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::KdfDoublePipelineIterationParameters*
 class CORDL_TYPE KdfDoublePipelineIterationParameters : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_FixedInputData))::ArrayW<uint8_t, ::Array<uint8_t>*> FixedInputData;
+  __declspec(property(get = get_FixedInputData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> FixedInputData;
 
-  __declspec(property(get = get_Ki))::ArrayW<uint8_t, ::Array<uint8_t>*> Ki;
+  __declspec(property(get = get_Ki)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Ki;
 
   __declspec(property(get = get_R)) int32_t R;
 
@@ -36,10 +36,10 @@ public:
   __declspec(property(get = get_UseCounter)) bool UseCounter;
 
   /// @brief Field fixedInputData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_fixedInputData, put = __cordl_internal_set_fixedInputData))::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData;
+  __declspec(property(get = __cordl_internal_get_fixedInputData, put = __cordl_internal_set_fixedInputData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData;
 
   /// @brief Field ki, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ki, put = __cordl_internal_set_ki))::ArrayW<uint8_t, ::Array<uint8_t>*> ki;
+  __declspec(property(get = __cordl_internal_get_ki, put = __cordl_internal_set_ki)) ::ArrayW<uint8_t, ::Array<uint8_t>*> ki;
 
   /// @brief Field r, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) int32_t r;
@@ -50,11 +50,11 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
 
-  /// @brief Method CreateWithCounter, addr 0x11a84f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateWithCounter, addr 0x237f6b8, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters* CreateWithCounter(::ArrayW<uint8_t, ::Array<uint8_t>*> ki,
                                                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r);
 
-  /// @brief Method CreateWithoutCounter, addr 0x11a8570, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateWithoutCounter, addr 0x237f72c, size 0x88, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters* CreateWithoutCounter(::ArrayW<uint8_t, ::Array<uint8_t>*> ki,
                                                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData);
 
@@ -85,21 +85,21 @@ public:
 
   constexpr void __cordl_internal_set_useCounter(bool value);
 
-  /// @brief Method .ctor, addr 0x11a8390, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237f55c, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r, bool useCounter);
 
   static inline int32_t getStaticF_UNUSED_R();
 
-  /// @brief Method get_FixedInputData, addr 0x11a866c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_FixedInputData, addr 0x237f820, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_FixedInputData();
 
-  /// @brief Method get_Ki, addr 0x11a8600, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Ki, addr 0x237f7b4, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Ki();
 
-  /// @brief Method get_R, addr 0x11a8664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_R, addr 0x237f818, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_R();
 
-  /// @brief Method get_UseCounter, addr 0x11a865c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseCounter, addr 0x237f810, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseCounter();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"
@@ -132,6 +132,9 @@ public:
 
   /// @brief Field fixedInputData, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___fixedInputData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1062 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

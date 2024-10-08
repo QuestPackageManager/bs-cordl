@@ -17,7 +17,7 @@ class RC2Transform;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::RC2Transform);
 // Type: System.Security.Cryptography::RC2Transform
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::RC2Transform*
@@ -25,7 +25,7 @@ class CORDL_TYPE RC2Transform : public ::Mono::Security::Cryptography::Symmetric
 public:
   // Declarations
   /// @brief Field K, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_K, put = __cordl_internal_set_K))::ArrayW<uint16_t, ::Array<uint16_t>*> K;
+  __declspec(property(get = __cordl_internal_get_K, put = __cordl_internal_set_K)) ::ArrayW<uint16_t, ::Array<uint16_t>*> K;
 
   /// @brief Field R0, offset 0x58, size 0x2
   __declspec(property(get = __cordl_internal_get_R0, put = __cordl_internal_set_R0)) uint16_t R0;
@@ -43,9 +43,9 @@ public:
   __declspec(property(get = __cordl_internal_get_j, put = __cordl_internal_set_j)) int32_t j;
 
   /// @brief Field pitable, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_pitable, put = setStaticF_pitable))::ArrayW<uint8_t, ::Array<uint8_t>*> pitable;
+  static __declspec(property(get = getStaticF_pitable, put = setStaticF_pitable)) ::ArrayW<uint8_t, ::Array<uint8_t>*> pitable;
 
-  /// @brief Method ECB, addr 0x281fc5c, size 0x930, virtual true, abstract: false, final false
+  /// @brief Method ECB, addr 0x3c3e7a0, size 0x970, virtual true, abstract: false, final false
   inline void ECB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
   static inline ::System::Security::Cryptography::RC2Transform* New_ctor(::System::Security::Cryptography::RC2* rc2Algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_j(int32_t value);
 
-  /// @brief Method .ctor, addr 0x281f714, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3e248, size 0x558, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::RC2* rc2Algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_pitable();
@@ -125,6 +125,9 @@ public:
 
   /// @brief Field j, offset: 0x68, size: 0x4, def value: None
   int32_t ___j;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2980 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

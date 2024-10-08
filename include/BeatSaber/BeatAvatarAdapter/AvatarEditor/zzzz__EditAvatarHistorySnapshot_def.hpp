@@ -19,14 +19,14 @@ struct EditAvatarHistorySnapshot;
 // Write type traits
 MARK_VAL_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot);
 // Type: BeatSaber.BeatAvatarAdapter.AvatarEditor::EditAvatarHistorySnapshot
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: true
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::EditAvatarHistorySnapshot
 struct CORDL_TYPE EditAvatarHistorySnapshot {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x1057cb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x221f6fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart);
 
   // Ctor Parameters []
@@ -42,6 +42,9 @@ public:
 
   /// @brief Field avatarData, offset: 0x8, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarData* avatarData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17664 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

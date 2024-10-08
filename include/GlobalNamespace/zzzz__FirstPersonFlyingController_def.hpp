@@ -36,66 +36,68 @@ class FirstPersonFlyingController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FirstPersonFlyingController);
 // Type: ::FirstPersonFlyingController
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FirstPersonFlyingController*
 class CORDL_TYPE FirstPersonFlyingController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _camera, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
+  /// @brief Field _camera, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera)) ::UnityW<::UnityEngine::Camera> _camera;
 
-  /// @brief Field _cameraFov, offset 0x30, size 0x4
+  /// @brief Field _cameraFov, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__cameraFov, put = __cordl_internal_set__cameraFov)) float_t _cameraFov;
 
-  /// @brief Field _cameraTransform, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__cameraTransform, put = __cordl_internal_set__cameraTransform))::UnityW<::UnityEngine::Transform> _cameraTransform;
+  /// @brief Field _cameraTransform, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__cameraTransform, put = __cordl_internal_set__cameraTransform)) ::UnityW<::UnityEngine::Transform> _cameraTransform;
 
-  /// @brief Field _centerAdjust, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__centerAdjust, put = __cordl_internal_set__centerAdjust))::UnityW<::GlobalNamespace::VRCenterAdjust> _centerAdjust;
+  /// @brief Field _centerAdjust, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__centerAdjust, put = __cordl_internal_set__centerAdjust)) ::UnityW<::GlobalNamespace::VRCenterAdjust> _centerAdjust;
 
-  /// @brief Field _controller0, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__controller0, put = __cordl_internal_set__controller0))::UnityW<::GlobalNamespace::VRController> _controller0;
+  /// @brief Field _controller0, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__controller0, put = __cordl_internal_set__controller0)) ::UnityW<::GlobalNamespace::VRController> _controller0;
 
-  /// @brief Field _controller1, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__controller1, put = __cordl_internal_set__controller1))::UnityW<::GlobalNamespace::VRController> _controller1;
+  /// @brief Field _controller1, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__controller1, put = __cordl_internal_set__controller1)) ::UnityW<::GlobalNamespace::VRController> _controller1;
 
-  /// @brief Field _controllerModels, offset 0x50, size 0x8
+  /// @brief Field _controllerModels, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__controllerModels,
-                      put = __cordl_internal_set__controllerModels))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> _controllerModels;
+                      put = __cordl_internal_set__controllerModels)) ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>
+      _controllerModels;
 
-  /// @brief Field _mouseLook, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__mouseLook, put = __cordl_internal_set__mouseLook))::GlobalNamespace::MouseLook* _mouseLook;
+  /// @brief Field _mouseLook, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__mouseLook, put = __cordl_internal_set__mouseLook)) ::GlobalNamespace::MouseLook* _mouseLook;
 
-  /// @brief Field _moveSensitivity, offset 0x18, size 0x4
+  /// @brief Field _moveSensitivity, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__moveSensitivity, put = __cordl_internal_set__moveSensitivity)) float_t _moveSensitivity;
 
-  /// @brief Field _originalCameraFov, offset 0x74, size 0x4
+  /// @brief Field _originalCameraFov, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get__originalCameraFov, put = __cordl_internal_set__originalCameraFov)) float_t _originalCameraFov;
 
-  /// @brief Field _originalStereoTargetEyeMask, offset 0x70, size 0x4
-  __declspec(property(get = __cordl_internal_get__originalStereoTargetEyeMask, put = __cordl_internal_set__originalStereoTargetEyeMask))::UnityEngine::StereoTargetEyeMask _originalStereoTargetEyeMask;
+  /// @brief Field _originalStereoTargetEyeMask, offset 0x78, size 0x4
+  __declspec(property(get = __cordl_internal_get__originalStereoTargetEyeMask,
+                      put = __cordl_internal_set__originalStereoTargetEyeMask)) ::UnityEngine::StereoTargetEyeMask _originalStereoTargetEyeMask;
 
-  /// @brief Field _trackedPoseDriver, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__trackedPoseDriver, put = __cordl_internal_set__trackedPoseDriver))::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver> _trackedPoseDriver;
+  /// @brief Field _trackedPoseDriver, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__trackedPoseDriver, put = __cordl_internal_set__trackedPoseDriver)) ::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver> _trackedPoseDriver;
 
-  /// @brief Field _transform, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
+  /// @brief Field _transform, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Inject, addr 0x26a5c5c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x3a9c08c, size 0xe4, virtual false, abstract: false, final false
   inline void Inject(::UnityEngine::Camera* camera, ::GlobalNamespace::VRCenterAdjust* centerAdjust, ::GlobalNamespace::VRController* controller0, ::GlobalNamespace::VRController* controller1,
                      ::UnityEngine::SpatialTracking::TrackedPoseDriver* trackedPoseDriver);
 
   static inline ::GlobalNamespace::FirstPersonFlyingController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x26a52fc, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3a9b754, size 0x24c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x26a4fec, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3a9b444, size 0x270, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x26a5558, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a9b9a0, size 0x394, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -176,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x26a5d84, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9c170, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -193,75 +195,78 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FirstPersonFlyingController(FirstPersonFlyingController const&) = delete;
 
-  /// @brief Field _moveSensitivity, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _moveSensitivity, offset: 0x20, size: 0x4, def value: None
   float_t ____moveSensitivity;
 
-  /// @brief Field _transform, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _transform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 
-  /// @brief Field _camera, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _camera, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
 
-  /// @brief Field _cameraFov, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _cameraFov, offset: 0x38, size: 0x4, def value: None
   float_t ____cameraFov;
 
-  /// @brief Field _centerAdjust, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _centerAdjust, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRCenterAdjust> ____centerAdjust;
 
-  /// @brief Field _controller0, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _controller0, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____controller0;
 
-  /// @brief Field _controller1, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _controller1, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____controller1;
 
-  /// @brief Field _controllerModels, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _controllerModels, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____controllerModels;
 
-  /// @brief Field _mouseLook, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _mouseLook, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::MouseLook* ____mouseLook;
 
-  /// @brief Field _trackedPoseDriver, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _trackedPoseDriver, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver> ____trackedPoseDriver;
 
-  /// @brief Field _cameraTransform, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _cameraTransform, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____cameraTransform;
 
-  /// @brief Field _originalStereoTargetEyeMask, offset: 0x70, size: 0x4, def value: None
+  /// @brief Field _originalStereoTargetEyeMask, offset: 0x78, size: 0x4, def value: None
   ::UnityEngine::StereoTargetEyeMask ____originalStereoTargetEyeMask;
 
-  /// @brief Field _originalCameraFov, offset: 0x74, size: 0x4, def value: None
+  /// @brief Field _originalCameraFov, offset: 0x7c, size: 0x4, def value: None
   float_t ____originalCameraFov;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5009 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FirstPersonFlyingController, 0x78>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FirstPersonFlyingController, 0x80>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____moveSensitivity) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____moveSensitivity) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____transform) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____transform) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____camera) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____camera) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____cameraFov) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____cameraFov) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____centerAdjust) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____centerAdjust) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____controller0) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____controller0) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____controller1) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____controller1) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____controllerModels) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____controllerModels) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____mouseLook) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____mouseLook) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____trackedPoseDriver) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____trackedPoseDriver) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____cameraTransform) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____cameraTransform) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____originalStereoTargetEyeMask) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____originalStereoTargetEyeMask) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____originalCameraFov) == 0x74, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____originalCameraFov) == 0x7c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FirstPersonFlyingController);

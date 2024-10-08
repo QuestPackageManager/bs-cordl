@@ -27,7 +27,7 @@ template <typename T> struct StyleEnum_1;
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::StyleEnum_1);
 // Type: UnityEngine.UIElements::StyleEnum`1
-// SizeInfo { instance_size: 16, native_size: 28, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 28, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -36,7 +36,7 @@ template <typename T>
 struct CORDL_TYPE StyleEnum_1 {
 public:
   // Declarations
-  __declspec(property(get = get_keyword))::UnityEngine::UIElements::StyleKeyword keyword;
+  __declspec(property(get = get_keyword)) ::UnityEngine::UIElements::StyleKeyword keyword;
 
   __declspec(property(get = get_value)) T value;
 
@@ -104,6 +104,9 @@ public:
 
   /// @brief Field m_Keyword, offset: 0x8, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleKeyword m_Keyword;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6065 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

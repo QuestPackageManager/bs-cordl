@@ -121,7 +121,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStat
 MARK_VAL_T(::GlobalNamespace::__PacketEncryptionLayer___AddEncryptedEndpointAsync_d__25);
 MARK_VAL_T(::GlobalNamespace::__PacketEncryptionLayer___AddPendingEncryptedEndpointAsync_d__27);
 // Type: ::EncryptionStatistics
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PacketEncryptionLayer::EncryptionStatistics*
@@ -168,28 +168,28 @@ public:
 
   __declspec(property(get = get_packetsSentRejected)) int64_t packetsSentRejected;
 
-  /// @brief Method AddDecryptionProcessingTime, addr 0x10bf82c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AddDecryptionProcessingTime, addr 0x229e080, size 0xc, virtual false, abstract: false, final false
   inline void AddDecryptionProcessingTime(int64_t time);
 
-  /// @brief Method AddEncryptionProcessingTime, addr 0x10bfbdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AddEncryptionProcessingTime, addr 0x229e428, size 0xc, virtual false, abstract: false, final false
   inline void AddEncryptionProcessingTime(int64_t time);
 
-  /// @brief Method IncrementPacketsReceivedEncrypted, addr 0x10bf820, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketsReceivedEncrypted, addr 0x229e074, size 0xc, virtual false, abstract: false, final false
   inline void IncrementPacketsReceivedEncrypted();
 
-  /// @brief Method IncrementPacketsReceivedPlaintext, addr 0x10bf838, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketsReceivedPlaintext, addr 0x229e08c, size 0xc, virtual false, abstract: false, final false
   inline void IncrementPacketsReceivedPlaintext();
 
-  /// @brief Method IncrementPacketsReceivedRejected, addr 0x10bf844, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketsReceivedRejected, addr 0x229e098, size 0xc, virtual false, abstract: false, final false
   inline void IncrementPacketsReceivedRejected();
 
-  /// @brief Method IncrementPacketsSentEncrypted, addr 0x10bfbd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketsSentEncrypted, addr 0x229e41c, size 0xc, virtual false, abstract: false, final false
   inline void IncrementPacketsSentEncrypted();
 
-  /// @brief Method IncrementPacketsSentPlaintext, addr 0x10bfbe8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketsSentPlaintext, addr 0x229e434, size 0xc, virtual false, abstract: false, final false
   inline void IncrementPacketsSentPlaintext();
 
-  /// @brief Method IncrementPacketsSentRejected, addr 0x10bfbf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IncrementPacketsSentRejected, addr 0x229e440, size 0xc, virtual false, abstract: false, final false
   inline void IncrementPacketsSentRejected();
 
   static inline ::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics* New_ctor();
@@ -242,31 +242,31 @@ public:
 
   constexpr void __cordl_internal_set__packetsSentRejected(int64_t value);
 
-  /// @brief Method .ctor, addr 0x10bf344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229db94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_decryptionProcessingTime, addr 0x10c14bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_decryptionProcessingTime, addr 0x229fc70, size 0x7c, virtual false, abstract: false, final false
   inline int64_t get_decryptionProcessingTime();
 
-  /// @brief Method get_encryptionProcessingTime, addr 0x10c1440, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_encryptionProcessingTime, addr 0x229fbf4, size 0x7c, virtual false, abstract: false, final false
   inline int64_t get_encryptionProcessingTime();
 
-  /// @brief Method get_packetsReceivedEncrypted, addr 0x10c1404, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_packetsReceivedEncrypted, addr 0x229fbb8, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_packetsReceivedEncrypted();
 
-  /// @brief Method get_packetsReceivedPlaintext, addr 0x10c13f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_packetsReceivedPlaintext, addr 0x229fbac, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_packetsReceivedPlaintext();
 
-  /// @brief Method get_packetsReceivedRejected, addr 0x10c1410, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_packetsReceivedRejected, addr 0x229fbc4, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_packetsReceivedRejected();
 
-  /// @brief Method get_packetsSentEncrypted, addr 0x10c1428, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_packetsSentEncrypted, addr 0x229fbdc, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_packetsSentEncrypted();
 
-  /// @brief Method get_packetsSentPlaintext, addr 0x10c141c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_packetsSentPlaintext, addr 0x229fbd0, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_packetsSentPlaintext();
 
-  /// @brief Method get_packetsSentRejected, addr 0x10c1434, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_packetsSentRejected, addr 0x229fbe8, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_packetsSentRejected();
 
 protected:
@@ -307,6 +307,9 @@ public:
   /// @brief Field _decryptionProcessingTime, offset: 0x48, size: 0x8, def value: None
   int64_t ____decryptionProcessingTime;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14870 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -329,58 +332,8 @@ static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer__EncryptionSta
 static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics, ____decryptionProcessingTime) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass4_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::PacketEncryptionLayer::PendingEncryptionStateList::<>c__DisplayClass4_0*
-class CORDL_TYPE __PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field port, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_port, put = __cordl_internal_set_port)) int32_t port;
-
-  static inline ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0* New_ctor();
-
-  /// @brief Method <GetSortedEncryptionStates>b__0, addr 0x10c1830, size 0x74, virtual false, abstract: false, final false
-  inline int32_t _GetSortedEncryptionStates_b__0(::System::Collections::Generic::KeyValuePair_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*> kvp);
-
-  constexpr int32_t const& __cordl_internal_get_port() const;
-
-  constexpr int32_t& __cordl_internal_get_port();
-
-  constexpr void __cordl_internal_set_port(int32_t value);
-
-  /// @brief Method .ctor, addr 0x10c173c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0(__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0(__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0 const&) = delete;
-
-  /// @brief Field port, offset: 0x10, size: 0x4, def value: None
-  int32_t ___port;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0, 0x18>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0, ___port) == 0x10, "Offset mismatch!");
-
-} // namespace GlobalNamespace
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PacketEncryptionLayer::PendingEncryptionStateList::<>c*
@@ -388,20 +341,20 @@ class CORDL_TYPE __PacketEncryptionLayer__PendingEncryptionStateList____c : publ
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c* __9;
 
   /// @brief Field <>9__4_1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__4_1,
-                             put = setStaticF___9__4_1))::System::Func_2<::System::Collections::Generic::KeyValuePair_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>,
-                                                                         ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* __9__4_1;
+                             put = setStaticF___9__4_1)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>,
+                                                                          ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* __9__4_1;
 
   static inline ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c* New_ctor();
 
-  /// @brief Method <GetSortedEncryptionStates>b__4_1, addr 0x10c1910, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <GetSortedEncryptionStates>b__4_1, addr 0x22a0038, size 0x3c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EncryptionUtility__IEncryptionState*
   _GetSortedEncryptionStates_b__4_1(::System::Collections::Generic::KeyValuePair_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*> kvp);
 
-  /// @brief Method .ctor, addr 0x10c1908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a0030, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c* getStaticF___9();
@@ -429,14 +382,70 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PacketEncryptionLayer__PendingEncryptionStateList____c(__PacketEncryptionLayer__PendingEncryptionStateList____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14871 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
+// Type: ::<>c__DisplayClass4_0
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::PacketEncryptionLayer::PendingEncryptionStateList::<>c__DisplayClass4_0*
+class CORDL_TYPE __PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field port, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_port, put = __cordl_internal_set_port)) int32_t port;
+
+  static inline ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0* New_ctor();
+
+  /// @brief Method <GetSortedEncryptionStates>b__0, addr 0x22a0074, size 0x74, virtual false, abstract: false, final false
+  inline int32_t _GetSortedEncryptionStates_b__0(::System::Collections::Generic::KeyValuePair_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*> kvp);
+
+  constexpr int32_t const& __cordl_internal_get_port() const;
+
+  constexpr int32_t& __cordl_internal_get_port();
+
+  constexpr void __cordl_internal_set_port(int32_t value);
+
+  /// @brief Method .ctor, addr 0x229fee0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0(__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0(__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0 const&) = delete;
+
+  /// @brief Field port, offset: 0x10, size: 0x4, def value: None
+  int32_t ___port;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14872 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass4_0, ___port) == 0x10, "Offset mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass8_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PacketEncryptionLayer::PendingEncryptionStateList::<>c__DisplayClass8_0*
@@ -444,11 +453,11 @@ class CORDL_TYPE __PacketEncryptionLayer__PendingEncryptionStateList____c__Displ
 public:
   // Declarations
   /// @brief Field encryptionState, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_encryptionState, put = __cordl_internal_set_encryptionState))::GlobalNamespace::__EncryptionUtility__IEncryptionState* encryptionState;
+  __declspec(property(get = __cordl_internal_get_encryptionState, put = __cordl_internal_set_encryptionState)) ::GlobalNamespace::__EncryptionUtility__IEncryptionState* encryptionState;
 
   static inline ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <Remove>b__0, addr 0x10c194c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <Remove>b__0, addr 0x22a00e8, size 0x48, virtual false, abstract: false, final false
   inline bool _Remove_b__0(::System::Collections::Generic::KeyValuePair_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*> kvp);
 
   constexpr ::GlobalNamespace::__EncryptionUtility__IEncryptionState*& __cordl_internal_get_encryptionState();
@@ -457,7 +466,7 @@ public:
 
   constexpr void __cordl_internal_set_encryptionState(::GlobalNamespace::__EncryptionUtility__IEncryptionState* value);
 
-  /// @brief Method .ctor, addr 0x10c17ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229ff50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -477,6 +486,9 @@ public:
   /// @brief Field encryptionState, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::__EncryptionUtility__IEncryptionState* ___encryptionState;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14873 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -486,7 +498,7 @@ static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer__PendingEncryp
 
 } // namespace GlobalNamespace
 // Type: ::PendingEncryptionStateList
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PacketEncryptionLayer::PendingEncryptionStateList*
@@ -500,33 +512,33 @@ public:
   using __c__DisplayClass8_0 = ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList____c__DisplayClass8_0;
 
   /// @brief Field _pendingStatesByPort, offset 0x10, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__pendingStatesByPort,
-               put = __cordl_internal_set__pendingStatesByPort))::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* _pendingStatesByPort;
+  __declspec(property(
+      get = __cordl_internal_get__pendingStatesByPort,
+      put = __cordl_internal_set__pendingStatesByPort)) ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* _pendingStatesByPort;
 
   __declspec(property(get = get_isEmpty)) bool isEmpty;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x10c1744, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x229fee8, size 0x68, virtual false, abstract: false, final false
   inline void Add(int32_t port, ::GlobalNamespace::__EncryptionUtility__IEncryptionState* encryptionState);
 
-  /// @brief Method Dispose, addr 0x10c1538, size 0x204, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x229fcec, size 0x1f4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetSortedEncryptionStates, addr 0x10c0c80, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetSortedEncryptionStates, addr 0x229f4b8, size 0x1c4, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__EncryptionUtility__IEncryptionState*, ::Array<::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*> GetSortedEncryptionStates(int32_t port);
 
   static inline ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList* New_ctor();
 
-  /// @brief Method Remove, addr 0x10c0198, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x229e9d4, size 0x58, virtual false, abstract: false, final false
   inline bool Remove(int32_t port);
 
-  /// @brief Method Remove, addr 0x10c10f4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x229f92c, size 0x170, virtual false, abstract: false, final false
   inline bool Remove(int32_t port, ::GlobalNamespace::__EncryptionUtility__IEncryptionState* encryptionState);
 
-  /// @brief Method TryGetEncryptionState, addr 0x10c0938, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method TryGetEncryptionState, addr 0x229f168, size 0x1f4, virtual false, abstract: false, final false
   inline bool TryGetEncryptionState(int32_t port, ByRef<::GlobalNamespace::__EncryptionUtility__IEncryptionState*> encryptionState);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*& __cordl_internal_get__pendingStatesByPort();
@@ -536,10 +548,10 @@ public:
 
   constexpr void __cordl_internal_set__pendingStatesByPort(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* value);
 
-  /// @brief Method .ctor, addr 0x10c17b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229ff58, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isEmpty, addr 0x10c01f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x229ea2c, size 0x5c, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
   /// @brief Convert to "::System::IDisposable"
@@ -562,6 +574,9 @@ public:
   /// @brief Field _pendingStatesByPort, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* ____pendingStatesByPort;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14874 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -571,7 +586,7 @@ static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer__PendingEncryp
 
 } // namespace GlobalNamespace
 // Type: ::<AddEncryptedEndpointAsync>d__25
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PacketEncryptionLayer::<AddEncryptedEndpointAsync>d__25
@@ -581,10 +596,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x10c1994, size 0x35c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22a0130, size 0x3b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x10c1cf0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22a04e0, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -634,6 +649,9 @@ public:
   /// @brief Field <>u__1, offset: 0x50, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__EncryptionUtility__IEncryptionState*> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14875 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
@@ -662,7 +680,7 @@ static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer___AddEncrypted
 
 } // namespace GlobalNamespace
 // Type: ::<AddPendingEncryptedEndpointAsync>d__27
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PacketEncryptionLayer::<AddPendingEncryptedEndpointAsync>d__27
@@ -672,10 +690,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x10c1d48, size 0x434, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22a055c, size 0x480, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x10c217c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22a09dc, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -723,6 +741,9 @@ public:
   /// @brief Field <>u__1, offset: 0x50, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__EncryptionUtility__IEncryptionState*> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14876 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
@@ -751,7 +772,7 @@ static_assert(offsetof(::GlobalNamespace::__PacketEncryptionLayer___AddPendingEn
 
 } // namespace GlobalNamespace
 // Type: ::PacketEncryptionLayer
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PacketEncryptionLayer*
@@ -772,94 +793,91 @@ public:
   /// @brief Field _encryptionStates, offset 0x28, size 0x8
   __declspec(property(
       get = __cordl_internal_get__encryptionStates,
-      put = __cordl_internal_set__encryptionStates))::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPEndPoint*, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* _encryptionStates;
+      put = __cordl_internal_set__encryptionStates)) ::GlobalNamespace::ExpiringDictionary_2<::System::Net::IPEndPoint*, ::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* _encryptionStates;
 
   /// @brief Field <filterUnencryptedTraffic>k__BackingField, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__filterUnencryptedTraffic_k__BackingField,
                       put = __cordl_internal_set__filterUnencryptedTraffic_k__BackingField)) bool _filterUnencryptedTraffic_k__BackingField;
 
   /// @brief Field _pendingEncryptionStates, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__pendingEncryptionStates, put = __cordl_internal_set__pendingEncryptionStates))::GlobalNamespace::ExpiringDictionary_2<
+  __declspec(property(get = __cordl_internal_get__pendingEncryptionStates, put = __cordl_internal_set__pendingEncryptionStates)) ::GlobalNamespace::ExpiringDictionary_2<
       ::System::Net::IPAddress*, ::GlobalNamespace::__PacketEncryptionLayer__PendingEncryptionStateList*>* _pendingEncryptionStates;
 
   /// @brief Field _stopwatch, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__stopwatch, put = setStaticF__stopwatch))::System::Diagnostics::Stopwatch* _stopwatch;
+  static __declspec(property(get = getStaticF__stopwatch, put = setStaticF__stopwatch)) ::System::Diagnostics::Stopwatch* _stopwatch;
 
   /// @brief Field _taskUtility, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__taskUtility, put = __cordl_internal_set__taskUtility))::BGNet::Core::ITaskUtility* _taskUtility;
+  __declspec(property(get = __cordl_internal_get__taskUtility, put = __cordl_internal_set__taskUtility)) ::BGNet::Core::ITaskUtility* _taskUtility;
 
   /// @brief Field _unencryptedTrafficFilter, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__unencryptedTrafficFilter, put = __cordl_internal_set__unencryptedTrafficFilter))::ArrayW<uint8_t, ::Array<uint8_t>*> _unencryptedTrafficFilter;
+  __declspec(property(get = __cordl_internal_get__unencryptedTrafficFilter, put = __cordl_internal_set__unencryptedTrafficFilter)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _unencryptedTrafficFilter;
 
   __declspec(property(get = get_enableStatistics, put = set_enableStatistics)) bool enableStatistics;
 
   __declspec(property(get = get_filterUnencryptedTraffic, put = set_filterUnencryptedTraffic)) bool filterUnencryptedTraffic;
 
   /// @brief Field statistics, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_statistics, put = __cordl_internal_set_statistics))::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics* statistics;
+  __declspec(property(get = __cordl_internal_get_statistics, put = __cordl_internal_set_statistics)) ::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics* statistics;
 
-  /// @brief Method AddEncryptedEndpoint, addr 0x10bfc08, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method AddEncryptedEndpoint, addr 0x229e454, size 0x164, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EncryptionUtility__IEncryptionState* AddEncryptedEndpoint(::System::Net::IPEndPoint* endPoint, ::ArrayW<uint8_t, ::Array<uint8_t>*> preMasterSecret,
                                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> serverRandom, ::ArrayW<uint8_t, ::Array<uint8_t>*> clientRandom,
                                                                                         bool isClient);
 
-  /// @brief Method AddEncryptedEndpointAsync, addr 0x10bfd70, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AddEncryptedEndpointAsync, addr 0x229e5b8, size 0x120, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__EncryptionUtility__IEncryptionState*>* AddEncryptedEndpointAsync(::System::Net::IPEndPoint* endPoint,
                                                                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> preMasterSecret,
                                                                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> serverRandom,
                                                                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> clientRandom, bool isClient);
 
-  /// @brief Method AddPendingEncryptedEndpointAsync, addr 0x10c024c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddPendingEncryptedEndpointAsync, addr 0x229ea88, size 0x108, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* AddPendingEncryptedEndpointAsync(::System::Net::IPEndPoint* endPoint, ::ArrayW<uint8_t, ::Array<uint8_t>*> preMasterSecret,
                                                                             ::ArrayW<uint8_t, ::Array<uint8_t>*> serverRandom, ::ArrayW<uint8_t, ::Array<uint8_t>*> clientRandom, bool isClient);
 
-  /// @brief Method Log, addr 0x10c12e0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x229fb20, size 0x8c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
-  /// @brief Method LogV, addr 0x10c136c, size 0x8c, virtual false, abstract: false, final false
-  static inline void LogV(::StringW message);
-
-  /// @brief Method MatchesFilter, addr 0x10c1268, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method MatchesFilter, addr 0x229fa9c, size 0x84, virtual false, abstract: false, final false
   inline bool MatchesFilter(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t length);
 
   static inline ::GlobalNamespace::PacketEncryptionLayer* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility);
 
-  /// @brief Method PollUpdate, addr 0x10c0358, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method PollUpdate, addr 0x229eb90, size 0x1b4, virtual false, abstract: false, final false
   inline void PollUpdate();
 
-  /// @brief Method ProcessInboundPacket, addr 0x10bf34c, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method ProcessInboundPacket, addr 0x229db9c, size 0x1b8, virtual true, abstract: false, final false
   inline void ProcessInboundPacket(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
-  /// @brief Method ProcessInboundPacketInternal, addr 0x10bf504, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method ProcessInboundPacketInternal, addr 0x229dd54, size 0x320, virtual false, abstract: false, final false
   inline bool ProcessInboundPacketInternal(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ByRef<int32_t> offset, ByRef<int32_t> length,
                                            ByRef<bool> encrypted);
 
-  /// @brief Method ProcessOutBoundPacket, addr 0x10bf850, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method ProcessOutBoundPacket, addr 0x229e0a4, size 0x190, virtual true, abstract: false, final false
   inline void ProcessOutBoundPacket(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
-  /// @brief Method ProcessOutBoundPacketInternal, addr 0x10bf9e8, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ProcessOutBoundPacketInternal, addr 0x229e234, size 0x1e8, virtual false, abstract: false, final false
   inline bool ProcessOutBoundPacketInternal(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ByRef<int32_t> offset, ByRef<int32_t> length,
                                             ByRef<bool> encrypted);
 
-  /// @brief Method PromotePendingEncryptionState, addr 0x10c0e44, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method PromotePendingEncryptionState, addr 0x229f67c, size 0x2b0, virtual false, abstract: false, final false
   inline void PromotePendingEncryptionState(::System::Net::IPEndPoint* endPoint, ::GlobalNamespace::__EncryptionUtility__IEncryptionState* state);
 
-  /// @brief Method RemoveAllEndpoints, addr 0x10c050c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method RemoveAllEndpoints, addr 0x229ed44, size 0x1b4, virtual false, abstract: false, final false
   inline void RemoveAllEndpoints();
 
-  /// @brief Method RemoveEncryptedEndpoint, addr 0x10bfe9c, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method RemoveEncryptedEndpoint, addr 0x229e6d8, size 0x2fc, virtual false, abstract: false, final false
   inline bool RemoveEncryptedEndpoint(::System::Net::IPEndPoint* endPoint, ::GlobalNamespace::__EncryptionUtility__IEncryptionState* encryptedState);
 
-  /// @brief Method SetUnencryptedTrafficFilter, addr 0x10bfc00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetUnencryptedTrafficFilter, addr 0x229e44c, size 0x8, virtual false, abstract: false, final false
   inline void SetUnencryptedTrafficFilter(::ArrayW<uint8_t, ::Array<uint8_t>*> unencryptedTrafficFilter);
 
-  /// @brief Method TryGetEncryptionState, addr 0x10c06c0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method TryGetEncryptionState, addr 0x229eef8, size 0x11c, virtual false, abstract: false, final false
   inline bool TryGetEncryptionState(::System::Net::IPEndPoint* endPoint, ByRef<::GlobalNamespace::__EncryptionUtility__IEncryptionState*> state);
 
-  /// @brief Method TryGetPendingEncryptionState, addr 0x10c07e0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method TryGetPendingEncryptionState, addr 0x229f014, size 0x154, virtual false, abstract: false, final false
   inline bool TryGetPendingEncryptionState(::System::Net::IPEndPoint* endPoint, ByRef<::GlobalNamespace::__EncryptionUtility__IEncryptionState*> state);
 
-  /// @brief Method TryGetPotentialPendingEncryptionStates, addr 0x10c0b24, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method TryGetPotentialPendingEncryptionStates, addr 0x229f35c, size 0x15c, virtual false, abstract: false, final false
   inline bool TryGetPotentialPendingEncryptionStates(
       ::System::Net::IPEndPoint* endPoint,
       ByRef<::ArrayW<::GlobalNamespace::__EncryptionUtility__IEncryptionState*, ::Array<::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*>> encryptionStates);
@@ -910,23 +928,23 @@ public:
 
   constexpr void __cordl_internal_set_statistics(::GlobalNamespace::__PacketEncryptionLayer__EncryptionStatistics* value);
 
-  /// @brief Method .ctor, addr 0x10bf224, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229da74, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility);
 
   static inline ::System::Diagnostics::Stopwatch* getStaticF__stopwatch();
 
-  /// @brief Method get_enableStatistics, addr 0x10bf210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableStatistics, addr 0x229da60, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableStatistics();
 
-  /// @brief Method get_filterUnencryptedTraffic, addr 0x10bf1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_filterUnencryptedTraffic, addr 0x229da4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_filterUnencryptedTraffic();
 
   static inline void setStaticF__stopwatch(::System::Diagnostics::Stopwatch* value);
 
-  /// @brief Method set_enableStatistics, addr 0x10bf218, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_enableStatistics, addr 0x229da68, size 0xc, virtual false, abstract: false, final false
   inline void set_enableStatistics(bool value);
 
-  /// @brief Method set_filterUnencryptedTraffic, addr 0x10bf204, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_filterUnencryptedTraffic, addr 0x229da54, size 0xc, virtual false, abstract: false, final false
   inline void set_filterUnencryptedTraffic(bool value);
 
 protected:
@@ -963,6 +981,9 @@ public:
 
   /// @brief Field <enableStatistics>k__BackingField, offset: 0x41, size: 0x1, def value: None
   bool ____enableStatistics_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14877 };
 
   /// @brief Field kEncryptedPacketType offset 0xffffffff size 0x1
   static constexpr uint8_t kEncryptedPacketType{ static_cast<uint8_t>(0x1u) };

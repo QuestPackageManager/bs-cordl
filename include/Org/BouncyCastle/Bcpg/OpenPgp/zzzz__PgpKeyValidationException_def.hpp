@@ -16,7 +16,7 @@ class PgpKeyValidationException;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyValidationException);
 // Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyValidationException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyValidationException*
@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyValidationException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x1323290, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ef3a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1323294, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ef3ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x1323298, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ef3b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:
@@ -51,6 +51,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PgpKeyValidationException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PgpKeyValidationException(PgpKeyValidationException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1649 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

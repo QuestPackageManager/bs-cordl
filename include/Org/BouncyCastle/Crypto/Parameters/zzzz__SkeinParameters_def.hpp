@@ -31,7 +31,7 @@ class __SkeinParameters__Builder;
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::SkeinParameters);
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder);
 // Type: ::Builder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::SkeinParameters::Builder*
@@ -39,9 +39,9 @@ class CORDL_TYPE __SkeinParameters__Builder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field parameters, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::System::Collections::IDictionary* parameters;
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::System::Collections::IDictionary* parameters;
 
-  /// @brief Method Build, addr 0x11ac7a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x2382914, size 0x60, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::SkeinParameters* Build();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* New_ctor();
@@ -50,25 +50,25 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* New_ctor(::System::Collections::IDictionary* paramsMap);
 
-  /// @brief Method Set, addr 0x11ac300, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x238245c, size 0x170, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* Set(int32_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method SetKey, addr 0x11ac478, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x23825cc, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method SetKeyIdentifier, addr 0x11ac788, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetKeyIdentifier, addr 0x23828fc, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* SetKeyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier);
 
-  /// @brief Method SetNonce, addr 0x11ac794, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetNonce, addr 0x2382908, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* SetNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method SetPersonalisation, addr 0x11ac490, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method SetPersonalisation, addr 0x23825e4, size 0x30c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* SetPersonalisation(::System::DateTime date, ::StringW emailAddress, ::StringW distinguisher);
 
-  /// @brief Method SetPersonalisation, addr 0x11ac484, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetPersonalisation, addr 0x23825d8, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* SetPersonalisation(::ArrayW<uint8_t, ::Array<uint8_t>*> personalisation);
 
-  /// @brief Method SetPublicKey, addr 0x11ac77c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetPublicKey, addr 0x23828f0, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder* SetPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get_parameters();
@@ -77,13 +77,13 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x11abb8c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2381ce8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x11abf70, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23820cc, size 0x390, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::SkeinParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x11abbf0, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2381d4c, size 0x380, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* paramsMap);
 
 protected:
@@ -103,6 +103,9 @@ public:
   /// @brief Field parameters, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IDictionary* ___parameters;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1082 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -112,7 +115,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::__SkeinParameter
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 // Type: Org.BouncyCastle.Crypto.Parameters::SkeinParameters
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::SkeinParameters*
@@ -122,27 +125,27 @@ public:
   using Builder = ::Org::BouncyCastle::Crypto::Parameters::__SkeinParameters__Builder;
 
   /// @brief Field parameters, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::System::Collections::IDictionary* parameters;
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::System::Collections::IDictionary* parameters;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetKey, addr 0x11ab62c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x2381788, size 0x110, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKey();
 
-  /// @brief Method GetKeyIdentifier, addr 0x11ab964, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetKeyIdentifier, addr 0x2381ac0, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKeyIdentifier();
 
-  /// @brief Method GetNonce, addr 0x11aba78, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetNonce, addr 0x2381bd4, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNonce();
 
-  /// @brief Method GetParameters, addr 0x11ab624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetParameters, addr 0x2381780, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* GetParameters();
 
-  /// @brief Method GetPersonalisation, addr 0x11ab73c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetPersonalisation, addr 0x2381898, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPersonalisation();
 
-  /// @brief Method GetPublicKey, addr 0x11ab850, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetPublicKey, addr 0x23819ac, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPublicKey();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::SkeinParameters* New_ctor();
@@ -155,10 +158,10 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x11ab590, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23816ec, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x11ab5fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2381758, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* parameters);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
@@ -204,6 +207,9 @@ public:
 
   /// @brief Field PARAM_TYPE_PUBLIC_KEY offset 0xffffffff size 0x4
   static constexpr int32_t PARAM_TYPE_PUBLIC_KEY{ static_cast<int32_t>(0xc) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1083 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

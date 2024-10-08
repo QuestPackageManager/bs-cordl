@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::Zenject::__GuiRenderableManager__RenderableInfo);
 MARK_REF_PTR_T(::Zenject::__GuiRenderableManager____c);
 MARK_REF_PTR_T(::Zenject::__GuiRenderableManager____c__DisplayClass1_0);
 // Type: ::RenderableInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::GuiRenderableManager::RenderableInfo*
@@ -67,7 +67,7 @@ public:
   __declspec(property(get = __cordl_internal_get_Priority, put = __cordl_internal_set_Priority)) int32_t Priority;
 
   /// @brief Field Renderable, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Renderable, put = __cordl_internal_set_Renderable))::Zenject::IGuiRenderable* Renderable;
+  __declspec(property(get = __cordl_internal_get_Renderable, put = __cordl_internal_set_Renderable)) ::Zenject::IGuiRenderable* Renderable;
 
   static inline ::Zenject::__GuiRenderableManager__RenderableInfo* New_ctor(::Zenject::IGuiRenderable* renderable, int32_t priority);
 
@@ -83,13 +83,13 @@ public:
 
   constexpr void __cordl_internal_set_Renderable(::Zenject::IGuiRenderable* value);
 
-  /// @brief Method __zenCreate, addr 0x36a9894, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4acccd4, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36a99a4, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4accde0, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x36a9118, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4acc584, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IGuiRenderable* renderable, int32_t priority);
 
 protected:
@@ -112,6 +112,9 @@ public:
   /// @brief Field Priority, offset: 0x18, size: 0x4, def value: None
   int32_t ___Priority;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12611 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -122,64 +125,8 @@ static_assert(offsetof(::Zenject::__GuiRenderableManager__RenderableInfo, ___Ren
 static_assert(offsetof(::Zenject::__GuiRenderableManager__RenderableInfo, ___Priority) == 0x18, "Offset mismatch!");
 
 } // namespace Zenject
-// Type: ::<>c__DisplayClass1_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace Zenject {
-// Is value type: false
-// CS Name: ::GuiRenderableManager::<>c__DisplayClass1_0*
-class CORDL_TYPE __GuiRenderableManager____c__DisplayClass1_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field renderable, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_renderable, put = __cordl_internal_set_renderable))::Zenject::IGuiRenderable* renderable;
-
-  static inline ::Zenject::__GuiRenderableManager____c__DisplayClass1_0* New_ctor();
-
-  constexpr ::Zenject::IGuiRenderable*& __cordl_internal_get_renderable();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IGuiRenderable*> const& __cordl_internal_get_renderable() const;
-
-  constexpr void __cordl_internal_set_renderable(::Zenject::IGuiRenderable* value);
-
-  /// @brief Method <.ctor>b__1, addr 0x36a9ca8, size 0x80, virtual false, abstract: false, final false
-  inline bool __ctor_b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
-
-  /// @brief Method __zenCreate, addr 0x36a9d28, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36a9d84, size 0x1c0, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
-
-  /// @brief Method .ctor, addr 0x36a9110, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GuiRenderableManager____c__DisplayClass1_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__GuiRenderableManager____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __GuiRenderableManager____c__DisplayClass1_0(__GuiRenderableManager____c__DisplayClass1_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__GuiRenderableManager____c__DisplayClass1_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __GuiRenderableManager____c__DisplayClass1_0(__GuiRenderableManager____c__DisplayClass1_0 const&) = delete;
-
-  /// @brief Field renderable, offset: 0x10, size: 0x8, def value: None
-  ::Zenject::IGuiRenderable* ___renderable;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::__GuiRenderableManager____c__DisplayClass1_0, 0x18>, "Size mismatch!");
-
-static_assert(offsetof(::Zenject::__GuiRenderableManager____c__DisplayClass1_0, ___renderable) == 0x10, "Offset mismatch!");
-
-} // namespace Zenject
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::GuiRenderableManager::<>c*
@@ -187,29 +134,29 @@ class CORDL_TYPE __GuiRenderableManager____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Zenject::__GuiRenderableManager____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Zenject::__GuiRenderableManager____c* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Func_2<::Zenject::__GuiRenderableManager__RenderableInfo*, int32_t>* __9__1_0;
+  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Func_2<::Zenject::__GuiRenderableManager__RenderableInfo*, int32_t>* __9__1_0;
 
   /// @brief Field <>9__1_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_2, put = setStaticF___9__1_2))::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>* __9__1_2;
+  static __declspec(property(get = getStaticF___9__1_2, put = setStaticF___9__1_2)) ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>* __9__1_2;
 
   static inline ::Zenject::__GuiRenderableManager____c* New_ctor();
 
-  /// @brief Method <.ctor>b__1_0, addr 0x36a9fc8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_0, addr 0x4acd154, size 0x18, virtual false, abstract: false, final false
   inline int32_t __ctor_b__1_0(::Zenject::__GuiRenderableManager__RenderableInfo* x);
 
-  /// @brief Method <.ctor>b__1_2, addr 0x36a9fb0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_2, addr 0x4acd13c, size 0x18, virtual false, abstract: false, final false
   inline int32_t __ctor_b__1_2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x36a9fe0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4acd16c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36aa03c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4acd1c0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x36a9fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4acd134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::__GuiRenderableManager____c* getStaticF___9();
@@ -238,14 +185,76 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GuiRenderableManager____c(__GuiRenderableManager____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12612 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__GuiRenderableManager____c, 0x10>, "Size mismatch!");
 
 } // namespace Zenject
+// Type: ::<>c__DisplayClass1_0
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace Zenject {
+// Is value type: false
+// CS Name: ::GuiRenderableManager::<>c__DisplayClass1_0*
+class CORDL_TYPE __GuiRenderableManager____c__DisplayClass1_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field renderable, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_renderable, put = __cordl_internal_set_renderable)) ::Zenject::IGuiRenderable* renderable;
+
+  static inline ::Zenject::__GuiRenderableManager____c__DisplayClass1_0* New_ctor();
+
+  constexpr ::Zenject::IGuiRenderable*& __cordl_internal_get_renderable();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IGuiRenderable*> const& __cordl_internal_get_renderable() const;
+
+  constexpr void __cordl_internal_set_renderable(::Zenject::IGuiRenderable* value);
+
+  /// @brief Method <.ctor>b__1, addr 0x4acd378, size 0x80, virtual false, abstract: false, final false
+  inline bool __ctor_b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
+
+  /// @brief Method __zenCreate, addr 0x4acd3f8, size 0x54, virtual false, abstract: false, final false
+  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4acd44c, size 0x1b8, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+
+  /// @brief Method .ctor, addr 0x4acc57c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __GuiRenderableManager____c__DisplayClass1_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__GuiRenderableManager____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __GuiRenderableManager____c__DisplayClass1_0(__GuiRenderableManager____c__DisplayClass1_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__GuiRenderableManager____c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __GuiRenderableManager____c__DisplayClass1_0(__GuiRenderableManager____c__DisplayClass1_0 const&) = delete;
+
+  /// @brief Field renderable, offset: 0x10, size: 0x8, def value: None
+  ::Zenject::IGuiRenderable* ___renderable;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12613 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Zenject::__GuiRenderableManager____c__DisplayClass1_0, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::__GuiRenderableManager____c__DisplayClass1_0, ___renderable) == 0x10, "Offset mismatch!");
+
+} // namespace Zenject
 // Type: Zenject::GuiRenderableManager
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::GuiRenderableManager*
@@ -260,12 +269,12 @@ public:
 
   /// @brief Field _renderables, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__renderables,
-                      put = __cordl_internal_set__renderables))::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>* _renderables;
+                      put = __cordl_internal_set__renderables)) ::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>* _renderables;
 
   static inline ::Zenject::GuiRenderableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
                                                           ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
-  /// @brief Method OnGui, addr 0x36a9148, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method OnGui, addr 0x4acc5b4, size 0x310, virtual false, abstract: false, final false
   inline void OnGui();
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>*& __cordl_internal_get__renderables();
@@ -274,13 +283,13 @@ public:
 
   constexpr void __cordl_internal_set__renderables(::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>* value);
 
-  /// @brief Method __zenCreate, addr 0x36a9474, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4acc8c4, size 0x118, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36a9590, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4acc9dc, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x36a8b70, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4acc024, size 0x558, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
                     ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
@@ -300,6 +309,9 @@ public:
 
   /// @brief Field _renderables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>* ____renderables;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12614 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

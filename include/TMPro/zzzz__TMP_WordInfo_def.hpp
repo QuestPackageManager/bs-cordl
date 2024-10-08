@@ -17,14 +17,14 @@ struct TMP_WordInfo;
 // Write type traits
 MARK_VAL_T(::TMPro::TMP_WordInfo);
 // Type: TMPro::TMP_WordInfo
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
 // CS Name: ::TMPro::TMP_WordInfo
 struct CORDL_TYPE TMP_WordInfo {
 public:
   // Declarations
-  /// @brief Method GetWord, addr 0x336d558, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetWord, addr 0x474e680, size 0x108, virtual false, abstract: false, final false
   inline ::StringW GetWord();
 
   // Ctor Parameters []
@@ -46,6 +46,9 @@ public:
 
   /// @brief Field characterCount, offset: 0x10, size: 0x4, def value: None
   int32_t characterCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14396 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -23,7 +23,7 @@ class ChameleonKey;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::ChameleonKey);
 // Type: System.Xml.Schema::ChameleonKey
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::ChameleonKey*
@@ -31,21 +31,21 @@ class CORDL_TYPE ChameleonKey : public ::System::Object {
 public:
   // Declarations
   /// @brief Field chameleonLocation, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_chameleonLocation, put = __cordl_internal_set_chameleonLocation))::System::Uri* chameleonLocation;
+  __declspec(property(get = __cordl_internal_get_chameleonLocation, put = __cordl_internal_set_chameleonLocation)) ::System::Uri* chameleonLocation;
 
   /// @brief Field hashCode, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_hashCode, put = __cordl_internal_set_hashCode)) int32_t hashCode;
 
   /// @brief Field originalSchema, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_originalSchema, put = __cordl_internal_set_originalSchema))::System::Xml::Schema::XmlSchema* originalSchema;
+  __declspec(property(get = __cordl_internal_get_originalSchema, put = __cordl_internal_set_originalSchema)) ::System::Xml::Schema::XmlSchema* originalSchema;
 
   /// @brief Field targetNS, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetNS, put = __cordl_internal_set_targetNS))::StringW targetNS;
+  __declspec(property(get = __cordl_internal_get_targetNS, put = __cordl_internal_set_targetNS)) ::StringW targetNS;
 
-  /// @brief Method Equals, addr 0x2f251c0, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4321504, size 0xdc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2f25140, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4321484, size 0x80, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Xml::Schema::ChameleonKey* New_ctor(::StringW ns, ::System::Xml::Schema::XmlSchema* originalSchema);
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_targetNS(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f250e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432142c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW ns, ::System::Xml::Schema::XmlSchema* originalSchema);
 
 protected:
@@ -102,6 +102,9 @@ public:
 
   /// @brief Field hashCode, offset: 0x28, size: 0x4, def value: None
   int32_t ___hashCode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

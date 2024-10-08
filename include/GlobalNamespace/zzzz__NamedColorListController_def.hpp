@@ -33,7 +33,7 @@ class __NamedColorListController__ColorValuePair;
 MARK_REF_PTR_T(::GlobalNamespace::NamedColorListController);
 MARK_REF_PTR_T(::GlobalNamespace::__NamedColorListController__ColorValuePair);
 // Type: ::ColorValuePair
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NamedColorListController::ColorValuePair*
@@ -41,7 +41,7 @@ class CORDL_TYPE __NamedColorListController__ColorValuePair : public ::System::O
 public:
   // Declarations
   /// @brief Field color, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
+  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color)) ::UnityEngine::Color color;
 
   /// @brief Field value, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) int32_t value;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x27906e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb252c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,6 +83,9 @@ public:
   /// @brief Field value, offset: 0x20, size: 0x4, def value: None
   int32_t ___value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18828 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -94,7 +97,7 @@ static_assert(offsetof(::GlobalNamespace::__NamedColorListController__ColorValue
 
 } // namespace GlobalNamespace
 // Type: ::NamedColorListController
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NamedColorListController*
@@ -103,35 +106,36 @@ public:
   // Declarations
   using ColorValuePair = ::GlobalNamespace::__NamedColorListController__ColorValuePair;
 
-  /// @brief Field _textValuePairs, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__textValuePairs,
-                      put = __cordl_internal_set__textValuePairs))::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*,
-                                                                           ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*> _textValuePairs;
+  /// @brief Field _textValuePairs, offset 0x30, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__textValuePairs,
+      put = __cordl_internal_set__textValuePairs)) ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*>
+      _textValuePairs;
 
-  /// @brief Field _value, offset 0x30, size 0x4
+  /// @brief Field _value, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) int32_t _value;
 
-  /// @brief Field valueChangedEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_valueChangedEvent, put = __cordl_internal_set_valueChangedEvent))::System::Action_1<int32_t>* valueChangedEvent;
+  /// @brief Field valueChangedEvent, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_valueChangedEvent, put = __cordl_internal_set_valueChangedEvent)) ::System::Action_1<int32_t>* valueChangedEvent;
 
   /// @brief Convert operator to "::HMUI::IValueChanger_1<int32_t>"
   constexpr operator ::HMUI::IValueChanger_1<int32_t>*() noexcept;
 
-  /// @brief Method ApplyValue, addr 0x279067c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x3bb24c8, size 0x20, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method ColorForValue, addr 0x279069c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ColorForValue, addr 0x3bb24e8, size 0x3c, virtual true, abstract: false, final false
   inline ::UnityEngine::Color ColorForValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x2790608, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x3bb2454, size 0x74, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method Init, addr 0x2790594, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3bb23e0, size 0x3c, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*> values, int32_t value);
 
   static inline ::GlobalNamespace::NamedColorListController* New_ctor();
 
-  /// @brief Method SetValue, addr 0x27905d0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3bb241c, size 0x38, virtual false, abstract: false, final false
   inline void SetValue(int32_t value);
 
   constexpr ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*> const&
@@ -154,16 +158,16 @@ public:
 
   constexpr void __cordl_internal_set_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x27906d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb2524, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueChangedEvent, addr 0x2790434, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_valueChangedEvent, addr 0x3bb2280, size 0xb0, virtual true, abstract: false, final true
   inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Convert to "::HMUI::IValueChanger_1<int32_t>"
   constexpr ::HMUI::IValueChanger_1<int32_t>* i___HMUI__IValueChanger_1_int32_t_() noexcept;
 
-  /// @brief Method remove_valueChangedEvent, addr 0x27904e4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_valueChangedEvent, addr 0x3bb2330, size 0xb0, virtual true, abstract: false, final true
   inline void remove_valueChangedEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -180,25 +184,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NamedColorListController(NamedColorListController const&) = delete;
 
-  /// @brief Field _textValuePairs, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _textValuePairs, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*> ____textValuePairs;
 
-  /// @brief Field _value, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _value, offset: 0x38, size: 0x4, def value: None
   int32_t ____value;
 
-  /// @brief Field valueChangedEvent, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field valueChangedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___valueChangedEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18829 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NamedColorListController, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NamedColorListController, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NamedColorListController, ____textValuePairs) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NamedColorListController, ____textValuePairs) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NamedColorListController, ____value) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NamedColorListController, ____value) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NamedColorListController, ___valueChangedEvent) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NamedColorListController, ___valueChangedEvent) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NamedColorListController);

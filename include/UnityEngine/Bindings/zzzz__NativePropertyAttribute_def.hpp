@@ -17,17 +17,17 @@ class NativePropertyAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Bindings::NativePropertyAttribute);
 // Type: UnityEngine.Bindings::NativePropertyAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
 // CS Name: ::UnityEngine.Bindings::NativePropertyAttribute*
 class CORDL_TYPE NativePropertyAttribute : public ::UnityEngine::Bindings::NativeMethodAttribute {
 public:
   // Declarations
-  __declspec(property(put = set_TargetType))::UnityEngine::Bindings::TargetType TargetType;
+  __declspec(property(put = set_TargetType)) ::UnityEngine::Bindings::TargetType TargetType;
 
   /// @brief Field <TargetType>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__TargetType_k__BackingField, put = __cordl_internal_set__TargetType_k__BackingField))::UnityEngine::Bindings::TargetType _TargetType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TargetType_k__BackingField, put = __cordl_internal_set__TargetType_k__BackingField)) ::UnityEngine::Bindings::TargetType _TargetType_k__BackingField;
 
   static inline ::UnityEngine::Bindings::NativePropertyAttribute* New_ctor();
 
@@ -43,19 +43,19 @@ public:
 
   constexpr void __cordl_internal_set__TargetType_k__BackingField(::UnityEngine::Bindings::TargetType value);
 
-  /// @brief Method .ctor, addr 0x34aaf38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489d9b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x34aaf40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489d9c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x34aaf44, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489d9c4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFree, ::UnityEngine::Bindings::TargetType targetType);
 
-  /// @brief Method .ctor, addr 0x34aaf74, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489d9f4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFree, ::UnityEngine::Bindings::TargetType targetType, bool isThreadSafe);
 
-  /// @brief Method set_TargetType, addr 0x34aaf30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TargetType, addr 0x489d9b0, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetType(::UnityEngine::Bindings::TargetType value);
 
 protected:
@@ -74,6 +74,9 @@ public:
 
   /// @brief Field <TargetType>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::Bindings::TargetType ____TargetType_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18585 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

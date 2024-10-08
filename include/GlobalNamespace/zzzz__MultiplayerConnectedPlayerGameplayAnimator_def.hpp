@@ -31,58 +31,58 @@ class MultiplayerConnectedPlayerGameplayAnimator;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator);
 // Type: ::MultiplayerConnectedPlayerGameplayAnimator
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerConnectedPlayerGameplayAnimator*
 class CORDL_TYPE MultiplayerConnectedPlayerGameplayAnimator : public ::GlobalNamespace::MultiplayerGameplayAnimator {
 public:
   // Declarations
-  /// @brief Field _avatarScaleAnimator, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarScaleAnimator, put = __cordl_internal_set__avatarScaleAnimator))::UnityW<::GlobalNamespace::ScaleAnimator> _avatarScaleAnimator;
+  /// @brief Field _avatarScaleAnimator, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__avatarScaleAnimator, put = __cordl_internal_set__avatarScaleAnimator)) ::UnityW<::GlobalNamespace::ScaleAnimator> _avatarScaleAnimator;
 
-  /// @brief Field _bigAvatarAnimator, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__bigAvatarAnimator, put = __cordl_internal_set__bigAvatarAnimator))::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator> _bigAvatarAnimator;
+  /// @brief Field _bigAvatarAnimator, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__bigAvatarAnimator, put = __cordl_internal_set__bigAvatarAnimator)) ::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator> _bigAvatarAnimator;
 
-  /// @brief Field _defaultLightsWidth, offset 0x78, size 0x4
+  /// @brief Field _defaultLightsWidth, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get__defaultLightsWidth, put = __cordl_internal_set__defaultLightsWidth)) float_t _defaultLightsWidth;
 
-  /// @brief Field _failController, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__failController,
-                      put = __cordl_internal_set__failController))::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController> _failController;
+  /// @brief Field _failController, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__failController, put = __cordl_internal_set__failController)) ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController>
+      _failController;
 
-  /// @brief Field _multiplayerLayoutProvider, offset 0x88, size 0x8
+  /// @brief Field _multiplayerLayoutProvider, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerLayoutProvider,
-                      put = __cordl_internal_set__multiplayerLayoutProvider))::GlobalNamespace::MultiplayerLayoutProvider* _multiplayerLayoutProvider;
+                      put = __cordl_internal_set__multiplayerLayoutProvider)) ::GlobalNamespace::MultiplayerLayoutProvider* _multiplayerLayoutProvider;
 
-  /// @brief Field _observedLightsWidth, offset 0x7c, size 0x4
+  /// @brief Field _observedLightsWidth, offset 0x84, size 0x4
   __declspec(property(get = __cordl_internal_get__observedLightsWidth, put = __cordl_internal_set__observedLightsWidth)) float_t _observedLightsWidth;
 
-  /// @brief Field _playerSpectatingSpot, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerSpectatingSpot,
-                      put = __cordl_internal_set__playerSpectatingSpot))::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot> _playerSpectatingSpot;
+  /// @brief Field _playerSpectatingSpot, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerSpectatingSpot, put = __cordl_internal_set__playerSpectatingSpot)) ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot>
+      _playerSpectatingSpot;
 
-  /// @brief Method AnimateNewLeaderSelected, addr 0x271dd6c, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method AnimateNewLeaderSelected, addr 0x3b3dd28, size 0x144, virtual true, abstract: false, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandleIsObservedChanged, addr 0x271e064, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleIsObservedChanged, addr 0x3b3e014, size 0x7c, virtual false, abstract: false, final false
   inline void HandleIsObservedChanged(bool isObserved);
 
-  /// @brief Method HandlePlayerDidFail, addr 0x271e060, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFail, addr 0x3b3e010, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDidFail();
 
-  /// @brief Method HandleStateChanged, addr 0x271deb4, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3b3de6c, size 0x108, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x271d96c, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b3d920, size 0x168, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x271d8c4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3b3d7d0, size 0xa8, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TransitionIntoFailedState, addr 0x271db78, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TransitionIntoFailedState, addr 0x3b3db24, size 0xf0, virtual false, abstract: false, final false
   inline void TransitionIntoFailedState();
 
   constexpr ::UnityW<::GlobalNamespace::ScaleAnimator> const& __cordl_internal_get__avatarScaleAnimator() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set__playerSpectatingSpot(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot> value);
 
-  /// @brief Method .ctor, addr 0x271e150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3e100, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -144,45 +144,48 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerGameplayAnimator(MultiplayerConnectedPlayerGameplayAnimator const&) = delete;
 
-  /// @brief Field _bigAvatarAnimator, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _bigAvatarAnimator, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator> ____bigAvatarAnimator;
 
-  /// @brief Field _avatarScaleAnimator, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _avatarScaleAnimator, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScaleAnimator> ____avatarScaleAnimator;
 
-  /// @brief Field _defaultLightsWidth, offset: 0x78, size: 0x4, def value: None
+  /// @brief Field _defaultLightsWidth, offset: 0x80, size: 0x4, def value: None
   float_t ____defaultLightsWidth;
 
-  /// @brief Field _observedLightsWidth, offset: 0x7c, size: 0x4, def value: None
+  /// @brief Field _observedLightsWidth, offset: 0x84, size: 0x4, def value: None
   float_t ____observedLightsWidth;
 
-  /// @brief Field _failController, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _failController, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController> ____failController;
 
-  /// @brief Field _multiplayerLayoutProvider, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _multiplayerLayoutProvider, offset: 0x90, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLayoutProvider* ____multiplayerLayoutProvider;
 
-  /// @brief Field _playerSpectatingSpot, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _playerSpectatingSpot, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot> ____playerSpectatingSpot;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4466 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, 0xa0>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, ____bigAvatarAnimator) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, ____bigAvatarAnimator) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, ____avatarScaleAnimator) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, ____avatarScaleAnimator) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, ____defaultLightsWidth) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, ____defaultLightsWidth) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, ____observedLightsWidth) == 0x7c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, ____observedLightsWidth) == 0x84, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, ____failController) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, ____failController) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, ____multiplayerLayoutProvider) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, ____multiplayerLayoutProvider) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, ____playerSpectatingSpot) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator, ____playerSpectatingSpot) == 0x98, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator);

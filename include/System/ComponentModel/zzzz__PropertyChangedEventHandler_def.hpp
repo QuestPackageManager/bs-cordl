@@ -22,19 +22,19 @@ class PropertyChangedEventHandler;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::PropertyChangedEventHandler);
 // Type: System.ComponentModel::PropertyChangedEventHandler
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::PropertyChangedEventHandler*
 class CORDL_TYPE PropertyChangedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2f76e50, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x43e5b7c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::PropertyChangedEventArgs* e);
 
   static inline ::System::ComponentModel::PropertyChangedEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2f76d20, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e5a78, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PropertyChangedEventHandler", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PropertyChangedEventHandler(PropertyChangedEventHandler const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9401 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

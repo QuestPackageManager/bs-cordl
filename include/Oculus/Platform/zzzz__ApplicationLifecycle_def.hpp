@@ -22,20 +22,20 @@ class ApplicationLifecycle;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::ApplicationLifecycle);
 // Type: Oculus.Platform::ApplicationLifecycle
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::ApplicationLifecycle*
 class CORDL_TYPE ApplicationLifecycle : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLaunchDetails, addr 0x2affd00, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetLaunchDetails, addr 0x3f0c9a0, size 0x88, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Models::LaunchDetails* GetLaunchDetails();
 
-  /// @brief Method LogDeeplinkResult, addr 0x2affd90, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method LogDeeplinkResult, addr 0x3f0ca28, size 0x64, virtual false, abstract: false, final false
   static inline void LogDeeplinkResult(::StringW trackingID, ::Oculus::Platform::LaunchResult result);
 
-  /// @brief Method SetLaunchIntentChangedNotificationCallback, addr 0x2affdf4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetLaunchIntentChangedNotificationCallback, addr 0x3f0ca8c, size 0x74, virtual false, abstract: false, final false
   static inline void SetLaunchIntentChangedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
 
 protected:
@@ -51,6 +51,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ApplicationLifecycle", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ApplicationLifecycle(ApplicationLifecycle const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15388 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

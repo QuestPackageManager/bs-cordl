@@ -24,7 +24,7 @@ template <typename TKey, typename TValue> class IIntervalTree_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::IntervalTree::IIntervalTree_2);
 // Type: IntervalTree::IIntervalTree`2
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -35,7 +35,7 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_Values))::System::Collections::Generic::IEnumerable_1<TValue>* Values;
+  __declspec(property(get = get_Values)) ::System::Collections::Generic::IEnumerable_1<TValue>* Values;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*() noexcept;
@@ -84,6 +84,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IIntervalTree_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IIntervalTree_2(IIntervalTree_2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18808 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ class SpriteSwapTransitionSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SpriteSwapTransitionSO);
 // Type: ::SpriteSwapTransitionSO
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SpriteSwapTransitionSO*
@@ -23,34 +23,35 @@ class CORDL_TYPE SpriteSwapTransitionSO : public ::GlobalNamespace::BaseTransiti
 public:
   // Declarations
   /// @brief Field _disabledSprite, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__disabledSprite, put = __cordl_internal_set__disabledSprite))::UnityW<::UnityEngine::Sprite> _disabledSprite;
+  __declspec(property(get = __cordl_internal_get__disabledSprite, put = __cordl_internal_set__disabledSprite)) ::UnityW<::UnityEngine::Sprite> _disabledSprite;
 
   /// @brief Field _highlightedSprite, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__highlightedSprite, put = __cordl_internal_set__highlightedSprite))::UnityW<::UnityEngine::Sprite> _highlightedSprite;
+  __declspec(property(get = __cordl_internal_get__highlightedSprite, put = __cordl_internal_set__highlightedSprite)) ::UnityW<::UnityEngine::Sprite> _highlightedSprite;
 
   /// @brief Field _normalSprite, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__normalSprite, put = __cordl_internal_set__normalSprite))::UnityW<::UnityEngine::Sprite> _normalSprite;
+  __declspec(property(get = __cordl_internal_get__normalSprite, put = __cordl_internal_set__normalSprite)) ::UnityW<::UnityEngine::Sprite> _normalSprite;
 
   /// @brief Field _pressedSprite, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__pressedSprite, put = __cordl_internal_set__pressedSprite))::UnityW<::UnityEngine::Sprite> _pressedSprite;
+  __declspec(property(get = __cordl_internal_get__pressedSprite, put = __cordl_internal_set__pressedSprite)) ::UnityW<::UnityEngine::Sprite> _pressedSprite;
 
   /// @brief Field _selectedAndHighlightedSprite, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedSprite, put = __cordl_internal_set__selectedAndHighlightedSprite))::UnityW<::UnityEngine::Sprite> _selectedAndHighlightedSprite;
+  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedSprite, put = __cordl_internal_set__selectedAndHighlightedSprite)) ::UnityW<::UnityEngine::Sprite>
+      _selectedAndHighlightedSprite;
 
   /// @brief Field _selectedSprite, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectedSprite, put = __cordl_internal_set__selectedSprite))::UnityW<::UnityEngine::Sprite> _selectedSprite;
+  __declspec(property(get = __cordl_internal_get__selectedSprite, put = __cordl_internal_set__selectedSprite)) ::UnityW<::UnityEngine::Sprite> _selectedSprite;
 
-  __declspec(property(get = get_disabledSprite))::UnityW<::UnityEngine::Sprite> disabledSprite;
+  __declspec(property(get = get_disabledSprite)) ::UnityW<::UnityEngine::Sprite> disabledSprite;
 
-  __declspec(property(get = get_highlightedSprite))::UnityW<::UnityEngine::Sprite> highlightedSprite;
+  __declspec(property(get = get_highlightedSprite)) ::UnityW<::UnityEngine::Sprite> highlightedSprite;
 
-  __declspec(property(get = get_normalSprite))::UnityW<::UnityEngine::Sprite> normalSprite;
+  __declspec(property(get = get_normalSprite)) ::UnityW<::UnityEngine::Sprite> normalSprite;
 
-  __declspec(property(get = get_pressedSprite))::UnityW<::UnityEngine::Sprite> pressedSprite;
+  __declspec(property(get = get_pressedSprite)) ::UnityW<::UnityEngine::Sprite> pressedSprite;
 
-  __declspec(property(get = get_selectedAndHighlightedSprite))::UnityW<::UnityEngine::Sprite> selectedAndHighlightedSprite;
+  __declspec(property(get = get_selectedAndHighlightedSprite)) ::UnityW<::UnityEngine::Sprite> selectedAndHighlightedSprite;
 
-  __declspec(property(get = get_selectedSprite))::UnityW<::UnityEngine::Sprite> selectedSprite;
+  __declspec(property(get = get_selectedSprite)) ::UnityW<::UnityEngine::Sprite> selectedSprite;
 
   static inline ::GlobalNamespace::SpriteSwapTransitionSO* New_ctor();
 
@@ -90,25 +91,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x276ac54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x446283c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledSprite, addr 0x276ac3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledSprite, addr 0x4462824, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_disabledSprite();
 
-  /// @brief Method get_highlightedSprite, addr 0x276ac2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedSprite, addr 0x4462814, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_highlightedSprite();
 
-  /// @brief Method get_normalSprite, addr 0x276ac24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalSprite, addr 0x446280c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_normalSprite();
 
-  /// @brief Method get_pressedSprite, addr 0x276ac34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedSprite, addr 0x446281c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_pressedSprite();
 
-  /// @brief Method get_selectedAndHighlightedSprite, addr 0x276ac4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedSprite, addr 0x4462834, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_selectedAndHighlightedSprite();
 
-  /// @brief Method get_selectedSprite, addr 0x276ac44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedSprite, addr 0x446282c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_selectedSprite();
 
 protected:
@@ -142,6 +143,9 @@ public:
 
   /// @brief Field _selectedAndHighlightedSprite, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____selectedAndHighlightedSprite;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18130 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

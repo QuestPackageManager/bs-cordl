@@ -48,7 +48,7 @@ class DtlsRecordLayer;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer);
 // Type: Org.BouncyCastle.Crypto.Tls::DtlsRecordLayer
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsRecordLayer*
@@ -59,16 +59,16 @@ public:
 
   __declspec(property(get = get_ReadEpoch)) int32_t ReadEpoch;
 
-  __declspec(property(get = get_ReadVersion, put = set_ReadVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ReadVersion;
+  __declspec(property(get = get_ReadVersion, put = set_ReadVersion)) ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ReadVersion;
 
   /// @brief Field mClosed, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_mClosed, put = __cordl_internal_set_mClosed)) bool mClosed;
 
   /// @brief Field mContext, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mContext, put = __cordl_internal_set_mContext))::Org::BouncyCastle::Crypto::Tls::TlsContext* mContext;
+  __declspec(property(get = __cordl_internal_get_mContext, put = __cordl_internal_set_mContext)) ::Org::BouncyCastle::Crypto::Tls::TlsContext* mContext;
 
   /// @brief Field mCurrentEpoch, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_mCurrentEpoch, put = __cordl_internal_set_mCurrentEpoch))::Org::BouncyCastle::Crypto::Tls::DtlsEpoch* mCurrentEpoch;
+  __declspec(property(get = __cordl_internal_get_mCurrentEpoch, put = __cordl_internal_set_mCurrentEpoch)) ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch* mCurrentEpoch;
 
   /// @brief Field mFailed, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get_mFailed, put = __cordl_internal_set_mFailed)) bool mFailed;
@@ -77,40 +77,40 @@ public:
   __declspec(property(get = __cordl_internal_get_mInHandshake, put = __cordl_internal_set_mInHandshake)) bool mInHandshake;
 
   /// @brief Field mPeer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPeer, put = __cordl_internal_set_mPeer))::Org::BouncyCastle::Crypto::Tls::TlsPeer* mPeer;
+  __declspec(property(get = __cordl_internal_get_mPeer, put = __cordl_internal_set_mPeer)) ::Org::BouncyCastle::Crypto::Tls::TlsPeer* mPeer;
 
   /// @brief Field mPendingEpoch, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPendingEpoch, put = __cordl_internal_set_mPendingEpoch))::Org::BouncyCastle::Crypto::Tls::DtlsEpoch* mPendingEpoch;
+  __declspec(property(get = __cordl_internal_get_mPendingEpoch, put = __cordl_internal_set_mPendingEpoch)) ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch* mPendingEpoch;
 
   /// @brief Field mPlaintextLimit, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_mPlaintextLimit, put = __cordl_internal_set_mPlaintextLimit)) int32_t mPlaintextLimit;
 
   /// @brief Field mReadEpoch, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_mReadEpoch, put = __cordl_internal_set_mReadEpoch))::Org::BouncyCastle::Crypto::Tls::DtlsEpoch* mReadEpoch;
+  __declspec(property(get = __cordl_internal_get_mReadEpoch, put = __cordl_internal_set_mReadEpoch)) ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch* mReadEpoch;
 
   /// @brief Field mReadVersion, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mReadVersion, put = __cordl_internal_set_mReadVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mReadVersion;
+  __declspec(property(get = __cordl_internal_get_mReadVersion, put = __cordl_internal_set_mReadVersion)) ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mReadVersion;
 
   /// @brief Field mRecordQueue, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mRecordQueue, put = __cordl_internal_set_mRecordQueue))::Org::BouncyCastle::Crypto::Tls::ByteQueue* mRecordQueue;
+  __declspec(property(get = __cordl_internal_get_mRecordQueue, put = __cordl_internal_set_mRecordQueue)) ::Org::BouncyCastle::Crypto::Tls::ByteQueue* mRecordQueue;
 
   /// @brief Field mRetransmit, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_mRetransmit, put = __cordl_internal_set_mRetransmit))::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit* mRetransmit;
+  __declspec(property(get = __cordl_internal_get_mRetransmit, put = __cordl_internal_set_mRetransmit)) ::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit* mRetransmit;
 
   /// @brief Field mRetransmitEpoch, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_mRetransmitEpoch, put = __cordl_internal_set_mRetransmitEpoch))::Org::BouncyCastle::Crypto::Tls::DtlsEpoch* mRetransmitEpoch;
+  __declspec(property(get = __cordl_internal_get_mRetransmitEpoch, put = __cordl_internal_set_mRetransmitEpoch)) ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch* mRetransmitEpoch;
 
   /// @brief Field mRetransmitTimeout, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_mRetransmitTimeout, put = __cordl_internal_set_mRetransmitTimeout))::Org::BouncyCastle::Crypto::Tls::Timeout* mRetransmitTimeout;
+  __declspec(property(get = __cordl_internal_get_mRetransmitTimeout, put = __cordl_internal_set_mRetransmitTimeout)) ::Org::BouncyCastle::Crypto::Tls::Timeout* mRetransmitTimeout;
 
   /// @brief Field mTransport, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mTransport, put = __cordl_internal_set_mTransport))::Org::BouncyCastle::Crypto::Tls::DatagramTransport* mTransport;
+  __declspec(property(get = __cordl_internal_get_mTransport, put = __cordl_internal_set_mTransport)) ::Org::BouncyCastle::Crypto::Tls::DatagramTransport* mTransport;
 
   /// @brief Field mWriteEpoch, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_mWriteEpoch, put = __cordl_internal_set_mWriteEpoch))::Org::BouncyCastle::Crypto::Tls::DtlsEpoch* mWriteEpoch;
+  __declspec(property(get = __cordl_internal_get_mWriteEpoch, put = __cordl_internal_set_mWriteEpoch)) ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch* mWriteEpoch;
 
   /// @brief Field mWriteVersion, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_mWriteVersion, put = __cordl_internal_set_mWriteVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mWriteVersion;
+  __declspec(property(get = __cordl_internal_get_mWriteVersion, put = __cordl_internal_set_mWriteVersion)) ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mWriteVersion;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::DatagramTransport"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::DatagramTransport*() noexcept;
@@ -118,70 +118,70 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCloseable*() noexcept;
 
-  /// @brief Method Close, addr 0x11df648, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x23b4cf0, size 0x84, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method CloseTransport, addr 0x11df6cc, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method CloseTransport, addr 0x23b4d74, size 0x15c, virtual false, abstract: false, final false
   inline void CloseTransport();
 
-  /// @brief Method Fail, addr 0x11df868, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Fail, addr 0x23b4f10, size 0xcc, virtual true, abstract: false, final false
   inline void Fail(uint8_t alertDescription);
 
-  /// @brief Method Failed, addr 0x11df828, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Failed, addr 0x23b4ed0, size 0x40, virtual true, abstract: false, final false
   inline void Failed();
 
-  /// @brief Method GetMacSequenceNumber, addr 0x11dfc4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMacSequenceNumber, addr 0x23b52e8, size 0x8, virtual false, abstract: false, final false
   static inline int64_t GetMacSequenceNumber(int32_t epoch, int64_t sequence_number);
 
-  /// @brief Method GetReceiveLimit, addr 0x11de678, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method GetReceiveLimit, addr 0x23b3d38, size 0x170, virtual true, abstract: false, final false
   inline int32_t GetReceiveLimit();
 
-  /// @brief Method GetSendLimit, addr 0x11de7e8, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method GetSendLimit, addr 0x23b3ea8, size 0x174, virtual true, abstract: false, final false
   inline int32_t GetSendLimit();
 
-  /// @brief Method HandshakeSuccessful, addr 0x11de588, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method HandshakeSuccessful, addr 0x23b3c58, size 0xcc, virtual true, abstract: false, final false
   inline void HandshakeSuccessful(::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit* retransmit);
 
-  /// @brief Method InitPendingEpoch, addr 0x11de4c8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method InitPendingEpoch, addr 0x23b3ba4, size 0xb4, virtual true, abstract: false, final false
   inline void InitPendingEpoch(::Org::BouncyCastle::Crypto::Tls::TlsCipher* pendingCipher);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* New_ctor(::Org::BouncyCastle::Crypto::Tls::DatagramTransport* transport, ::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
                                                                             ::Org::BouncyCastle::Crypto::Tls::TlsPeer* peer, uint8_t contentType);
 
-  /// @brief Method ProcessRecord, addr 0x11decf0, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method ProcessRecord, addr 0x23b43b8, size 0x550, virtual false, abstract: false, final false
   inline int32_t ProcessRecord(int32_t received, ::ArrayW<uint8_t, ::Array<uint8_t>*> record, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method RaiseAlert, addr 0x11df934, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method RaiseAlert, addr 0x23b4fdc, size 0x12c, virtual false, abstract: false, final false
   inline void RaiseAlert(uint8_t alertLevel, uint8_t alertDescription, ::StringW message, ::System::Exception* cause);
 
-  /// @brief Method Receive, addr 0x11de95c, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method Receive, addr 0x23b401c, size 0x1c4, virtual true, abstract: false, final false
   inline int32_t Receive(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t waitMillis);
 
-  /// @brief Method ReceiveDatagram, addr 0x11dfa74, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ReceiveDatagram, addr 0x23b511c, size 0x194, virtual false, abstract: false, final false
   inline int32_t ReceiveDatagram(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t waitMillis);
 
-  /// @brief Method ReceiveRecord, addr 0x11deb20, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method ReceiveRecord, addr 0x23b41e0, size 0x1d8, virtual false, abstract: false, final false
   inline int32_t ReceiveRecord(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t waitMillis);
 
-  /// @brief Method ResetWriteEpoch, addr 0x11de664, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ResetWriteEpoch, addr 0x23b3d24, size 0x14, virtual true, abstract: false, final false
   inline void ResetWriteEpoch();
 
-  /// @brief Method Send, addr 0x11df250, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method Send, addr 0x23b4908, size 0x170, virtual true, abstract: false, final false
   inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method SendDatagram, addr 0x11de350, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SendDatagram, addr 0x23b3a2c, size 0xc0, virtual false, abstract: false, final false
   static inline void SendDatagram(::Org::BouncyCastle::Crypto::Tls::DatagramTransport* sender, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method SendRecord, addr 0x11df3c8, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method SendRecord, addr 0x23b4a78, size 0x278, virtual false, abstract: false, final false
   inline void SendRecord(uint8_t contentType, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method SetPlaintextLimit, addr 0x11de428, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetPlaintextLimit, addr 0x23b3b04, size 0x24, virtual true, abstract: false, final false
   inline void SetPlaintextLimit(int32_t plaintextLimit);
 
-  /// @brief Method SetWriteVersion, addr 0x11de4a4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetWriteVersion, addr 0x23b3b80, size 0x24, virtual true, abstract: false, final false
   inline void SetWriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* writeVersion);
 
-  /// @brief Method Warn, addr 0x11dfa60, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Warn, addr 0x23b5108, size 0x14, virtual true, abstract: false, final false
   inline void Warn(uint8_t alertDescription, ::StringW message);
 
   constexpr bool const& __cordl_internal_get_mClosed() const;
@@ -286,17 +286,17 @@ public:
 
   constexpr void __cordl_internal_set_mWriteVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
 
-  /// @brief Method .ctor, addr 0x11d9944, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23af0fc, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::DatagramTransport* transport, ::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::TlsPeer* peer,
                     uint8_t contentType);
 
-  /// @brief Method get_IsClosed, addr 0x11de410, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsClosed, addr 0x23b3aec, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsClosed();
 
-  /// @brief Method get_ReadEpoch, addr 0x11de44c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_ReadEpoch, addr 0x23b3b28, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_ReadEpoch();
 
-  /// @brief Method get_ReadVersion, addr 0x11de468, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ReadVersion, addr 0x23b3b44, size 0x18, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ReadVersion();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::DatagramTransport"
@@ -305,7 +305,7 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCloseable* i___Org__BouncyCastle__Crypto__Tls__TlsCloseable() noexcept;
 
-  /// @brief Method set_ReadVersion, addr 0x11de480, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_ReadVersion, addr 0x23b3b5c, size 0x24, virtual true, abstract: false, final false
   inline void set_ReadVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
 
 protected:
@@ -384,6 +384,9 @@ public:
 
   /// @brief Field TCP_MSL offset 0xffffffff size 0x8
   static constexpr int64_t TCP_MSL{ static_cast<int64_t>(0x1d4c0) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1229 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

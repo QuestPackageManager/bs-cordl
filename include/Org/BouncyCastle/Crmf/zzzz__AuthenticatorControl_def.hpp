@@ -25,22 +25,22 @@ class AuthenticatorControl;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::AuthenticatorControl);
 // Type: Org.BouncyCastle.Crmf::AuthenticatorControl
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crmf::AuthenticatorControl*
 class CORDL_TYPE AuthenticatorControl : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Type))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Type;
+  __declspec(property(get = get_Type)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Type;
 
-  __declspec(property(get = get_Value))::Org::BouncyCastle::Asn1::Asn1Encodable* Value;
+  __declspec(property(get = get_Value)) ::Org::BouncyCastle::Asn1::Asn1Encodable* Value;
 
   /// @brief Field token, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_token, put = __cordl_internal_set_token))::Org::BouncyCastle::Asn1::DerUtf8String* token;
+  __declspec(property(get = __cordl_internal_get_token, put = __cordl_internal_set_token)) ::Org::BouncyCastle::Asn1::DerUtf8String* token;
 
   /// @brief Field type, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_type, put = setStaticF_type))::Org::BouncyCastle::Asn1::DerObjectIdentifier* type;
+  static __declspec(property(get = getStaticF_type, put = setStaticF_type)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* type;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crmf::IControl"
   constexpr operator ::Org::BouncyCastle::Crmf::IControl*() noexcept;
@@ -55,18 +55,18 @@ public:
 
   constexpr void __cordl_internal_set_token(::Org::BouncyCastle::Asn1::DerUtf8String* value);
 
-  /// @brief Method .ctor, addr 0x14810f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2641b5c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerUtf8String* token);
 
-  /// @brief Method .ctor, addr 0x1481120, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2641b84, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW token);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_type();
 
-  /// @brief Method get_Type, addr 0x148119c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x2641bf8, size 0x58, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
-  /// @brief Method get_Value, addr 0x14811f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x2641c50, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
   /// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field token, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerUtf8String* ___token;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 695 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

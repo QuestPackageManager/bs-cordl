@@ -4,12 +4,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SR)
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System {
 class Object;
 }
@@ -20,33 +16,24 @@ class SR;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SR);
 // Type: ::SR
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SR*
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x27bc090, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x40bebd4, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1);
 
-  /// @brief Method Format, addr 0x27bd0c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x40bec44, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2);
 
-  /// @brief Method Format, addr 0x27bd138, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x40becbc, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2, ::System::Object* p3);
 
-  /// @brief Method GetResourceString, addr 0x27bd1c0, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW GetResourceString(::StringW str);
-
-  /// @brief Method GetString, addr 0x27bd0b4, size 0x8, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::System::Globalization::CultureInfo* culture, ::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
-
-  /// @brief Method GetString, addr 0x27bd0bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x40bebd0, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW name);
-
-  /// @brief Method GetString, addr 0x27bd044, size 0x70, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:
   // Ctor Parameters []
@@ -61,6 +48,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SR", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SR(SR const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11291 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

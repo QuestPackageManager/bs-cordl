@@ -41,7 +41,7 @@ template <typename TValue> class __Observable____c__DisplayClass6_0_1;
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::Observable);
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1);
 // Type: ::<>c__DisplayClass6_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
@@ -51,7 +51,7 @@ class CORDL_TYPE __Observable____c__DisplayClass6_0_1 : public ::System::Object 
 public:
   // Declarations
   /// @brief Field subscription, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_subscription, put = __cordl_internal_set_subscription))::System::IDisposable* subscription;
+  __declspec(property(get = __cordl_internal_get_subscription, put = __cordl_internal_set_subscription)) ::System::IDisposable* subscription;
 
   static inline ::UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1<TValue>* New_ctor();
 
@@ -84,12 +84,15 @@ public:
   /// @brief Field subscription, offset: 0x10, size: 0x8, def value: None
   ::System::IDisposable* ___subscription;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7062 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
 // Type: UnityEngine.InputSystem.Utilities::Observable
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Utilities::Observable*
@@ -108,7 +111,7 @@ public:
   template <typename TDevice>
   static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source);
 
-  /// @brief Method ForDevice, addr 0x31bb134, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ForDevice, addr 0x44f710c, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
                                                                                                         ::UnityEngine::InputSystem::InputDevice* device);
 
@@ -138,6 +141,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Observable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Observable(Observable const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7063 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

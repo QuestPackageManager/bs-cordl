@@ -21,31 +21,31 @@ class ExternalCamerasManager;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ExternalCamerasManager);
 // Type: ::ExternalCamerasManager
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ExternalCamerasManager*
 class CORDL_TYPE ExternalCamerasManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _mrcBackgroundCameraPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__mrcBackgroundCameraPrefab, put = __cordl_internal_set__mrcBackgroundCameraPrefab))::UnityW<::UnityEngine::Camera> _mrcBackgroundCameraPrefab;
+  /// @brief Field _mrcBackgroundCameraPrefab, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__mrcBackgroundCameraPrefab, put = __cordl_internal_set__mrcBackgroundCameraPrefab)) ::UnityW<::UnityEngine::Camera> _mrcBackgroundCameraPrefab;
 
-  /// @brief Field _mrcForegroundCameraPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__mrcForegroundCameraPrefab, put = __cordl_internal_set__mrcForegroundCameraPrefab))::UnityW<::UnityEngine::Camera> _mrcForegroundCameraPrefab;
+  /// @brief Field _mrcForegroundCameraPrefab, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__mrcForegroundCameraPrefab, put = __cordl_internal_set__mrcForegroundCameraPrefab)) ::UnityW<::UnityEngine::Camera> _mrcForegroundCameraPrefab;
 
-  /// @brief Field _oculusMRCManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__oculusMRCManager, put = __cordl_internal_set__oculusMRCManager))::UnityW<::GlobalNamespace::OculusMRCManager> _oculusMRCManager;
+  /// @brief Field _oculusMRCManager, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__oculusMRCManager, put = __cordl_internal_set__oculusMRCManager)) ::UnityW<::GlobalNamespace::OculusMRCManager> _oculusMRCManager;
 
-  /// @brief Method InstantiateMixedRealityBackgroundCameraGameObject, addr 0x2c08954, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InstantiateMixedRealityBackgroundCameraGameObject, addr 0x400ac8c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiateMixedRealityBackgroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
 
-  /// @brief Method InstantiateMixedRealityForegroundCameraGameObject, addr 0x2c089d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method InstantiateMixedRealityForegroundCameraGameObject, addr 0x400ad0c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiateMixedRealityForegroundCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject);
 
   static inline ::GlobalNamespace::ExternalCamerasManager* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x2c08888, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x400abc8, size 0xc4, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__mrcBackgroundCameraPrefab() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__oculusMRCManager(::UnityW<::GlobalNamespace::OculusMRCManager> value);
 
-  /// @brief Method .ctor, addr 0x2c08a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400ad8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,25 +83,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ExternalCamerasManager(ExternalCamerasManager const&) = delete;
 
-  /// @brief Field _oculusMRCManager, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _oculusMRCManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OculusMRCManager> ____oculusMRCManager;
 
-  /// @brief Field _mrcBackgroundCameraPrefab, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _mrcBackgroundCameraPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____mrcBackgroundCameraPrefab;
 
-  /// @brief Field _mrcForegroundCameraPrefab, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _mrcForegroundCameraPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____mrcForegroundCameraPrefab;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17797 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ExternalCamerasManager, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ExternalCamerasManager, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ExternalCamerasManager, ____oculusMRCManager) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ExternalCamerasManager, ____oculusMRCManager) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ExternalCamerasManager, ____mrcBackgroundCameraPrefab) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ExternalCamerasManager, ____mrcBackgroundCameraPrefab) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ExternalCamerasManager, ____mrcForegroundCameraPrefab) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ExternalCamerasManager, ____mrcForegroundCameraPrefab) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ExternalCamerasManager);

@@ -24,36 +24,36 @@ struct Ray2D;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Ray2D);
 // Type: UnityEngine::Ray2D
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::Ray2D
 struct CORDL_TYPE Ray2D {
 public:
   // Declarations
-  __declspec(property(get = get_direction))::UnityEngine::Vector2 direction;
+  __declspec(property(get = get_direction)) ::UnityEngine::Vector2 direction;
 
-  __declspec(property(get = get_origin))::UnityEngine::Vector2 origin;
+  __declspec(property(get = get_origin)) ::UnityEngine::Vector2 origin;
 
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method GetPoint, addr 0x34414e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x47f9a9c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetPoint(float_t distance);
 
-  /// @brief Method ToString, addr 0x34414f4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47f9ab0, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x3441500, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x47f9ac0, size 0x188, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x3441408, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47f99c4, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction);
 
-  /// @brief Method get_direction, addr 0x34414d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x47f9a94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_direction();
 
-  /// @brief Method get_origin, addr 0x34414d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_origin, addr 0x47f9a8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_origin();
 
   /// @brief Convert to "::System::IFormattable"
@@ -72,6 +72,9 @@ public:
 
   /// @brief Field m_Direction, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::Vector2 m_Direction;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10663 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

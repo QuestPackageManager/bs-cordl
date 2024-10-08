@@ -14,7 +14,7 @@ class EraInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::EraInfo);
 // Type: System.Globalization::EraInfo
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::EraInfo*
@@ -22,16 +22,16 @@ class CORDL_TYPE EraInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field abbrevEraName, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_abbrevEraName, put = __cordl_internal_set_abbrevEraName))::StringW abbrevEraName;
+  __declspec(property(get = __cordl_internal_get_abbrevEraName, put = __cordl_internal_set_abbrevEraName)) ::StringW abbrevEraName;
 
   /// @brief Field englishEraName, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_englishEraName, put = __cordl_internal_set_englishEraName))::StringW englishEraName;
+  __declspec(property(get = __cordl_internal_get_englishEraName, put = __cordl_internal_set_englishEraName)) ::StringW englishEraName;
 
   /// @brief Field era, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_era, put = __cordl_internal_set_era)) int32_t era;
 
   /// @brief Field eraName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_eraName, put = __cordl_internal_set_eraName))::StringW eraName;
+  __declspec(property(get = __cordl_internal_get_eraName, put = __cordl_internal_set_eraName)) ::StringW eraName;
 
   /// @brief Field maxEraYear, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_maxEraYear, put = __cordl_internal_set_maxEraYear)) int32_t maxEraYear;
@@ -98,10 +98,10 @@ public:
 
   constexpr void __cordl_internal_set_yearOffset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2915774, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d29030, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear);
 
-  /// @brief Method .ctor, addr 0x2915810, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d29114, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear, ::StringW eraName, ::StringW abbrevEraName,
                     ::StringW englishEraName);
 
@@ -142,6 +142,9 @@ public:
 
   /// @brief Field englishEraName, offset: 0x40, size: 0x8, def value: None
   ::StringW ___englishEraName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3705 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

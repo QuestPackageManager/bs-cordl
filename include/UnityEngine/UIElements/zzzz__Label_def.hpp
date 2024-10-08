@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Label);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__Label__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__Label__UxmlTraits);
 // Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::Label::UxmlFactory*
@@ -37,7 +37,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Label__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35a853c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49772f8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,6 +54,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Label__UxmlFactory(__Label__UxmlFactory const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5588 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -61,7 +64,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Label
 
 } // namespace UnityEngine::UIElements
 // Type: ::UxmlTraits
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::Label::UxmlTraits*
@@ -70,7 +73,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Label__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35b4b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4977340, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,14 +90,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Label__UxmlTraits(__Label__UxmlTraits const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5589 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Label__UxmlTraits, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Label__UxmlTraits, 0x98>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::Label
-// SizeInfo { instance_size: 1144, native_size: -1, calculated_instance_size: 1144, calculated_native_size: 1140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1184, native_size: -1, calculated_instance_size: 1184, calculated_native_size: 1180, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::Label*
@@ -106,16 +112,16 @@ public:
   using UxmlTraits = ::UnityEngine::UIElements::__Label__UxmlTraits;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
+  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
   static inline ::UnityEngine::UIElements::Label* New_ctor();
 
   static inline ::UnityEngine::UIElements::Label* New_ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x35b4a64, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4977190, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x35aa7bc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49771e0, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
   static inline ::StringW getStaticF_ussClassName();
@@ -136,10 +142,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Label(Label const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5590 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Label, 0x478>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Label, 0x4a0>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Label);

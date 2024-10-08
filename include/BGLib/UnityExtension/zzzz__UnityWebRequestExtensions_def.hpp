@@ -72,8 +72,75 @@ struct __UnityWebRequestExtensions___SendWebRequestAsync_d__0;
 MARK_REF_PTR_T(::BGLib::UnityExtension::UnityWebRequestExtensions);
 MARK_REF_PTR_T(::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0);
 MARK_VAL_T(::BGLib::UnityExtension::__UnityWebRequestExtensions___SendWebRequestAsync_d__0);
+// Type: ::<>c__DisplayClass1_0
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace BGLib::UnityExtension {
+// Is value type: false
+// CS Name: ::UnityWebRequestExtensions::<>c__DisplayClass1_0*
+class CORDL_TYPE __UnityWebRequestExtensions____c__DisplayClass1_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field tcs, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs)) ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>* tcs;
+
+  /// @brief Field webRequestOperation, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_webRequestOperation, put = __cordl_internal_set_webRequestOperation)) ::UnityEngine::Networking::UnityWebRequestAsyncOperation* webRequestOperation;
+
+  static inline ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0* New_ctor();
+
+  /// @brief Method <GetAwaiter>g__SetResult|0, addr 0x2277100, size 0xd4, virtual false, abstract: false, final false
+  inline void _GetAwaiter_g__SetResult_0(::UnityEngine::AsyncOperation* _);
+
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>*& __cordl_internal_get_tcs();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>*> const& __cordl_internal_get_tcs() const;
+
+  constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& __cordl_internal_get_webRequestOperation();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequestAsyncOperation*> const& __cordl_internal_get_webRequestOperation() const;
+
+  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>* value);
+
+  constexpr void __cordl_internal_set_webRequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value);
+
+  /// @brief Method .ctor, addr 0x22770f8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __UnityWebRequestExtensions____c__DisplayClass1_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__UnityWebRequestExtensions____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __UnityWebRequestExtensions____c__DisplayClass1_0(__UnityWebRequestExtensions____c__DisplayClass1_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__UnityWebRequestExtensions____c__DisplayClass1_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __UnityWebRequestExtensions____c__DisplayClass1_0(__UnityWebRequestExtensions____c__DisplayClass1_0 const&) = delete;
+
+  /// @brief Field webRequestOperation, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::Networking::UnityWebRequestAsyncOperation* ___webRequestOperation;
+
+  /// @brief Field tcs, offset: 0x18, size: 0x8, def value: None
+  ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>* ___tcs;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17228 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0, 0x20>, "Size mismatch!");
+
+static_assert(offsetof(::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0, ___webRequestOperation) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0, ___tcs) == 0x18, "Offset mismatch!");
+
+} // namespace BGLib::UnityExtension
 // Type: ::<SendWebRequestAsync>d__0
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: true
 // CS Name: ::UnityWebRequestExtensions::<SendWebRequestAsync>d__0
@@ -83,10 +150,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x1099b7c, size 0x6b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22771d4, size 0x83c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x109a230, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2277a10, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -142,6 +209,9 @@ public:
   /// @brief Field <>u__2, offset: 0x60, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ValueTaskAwaiter __u__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17229 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
 
@@ -171,72 +241,8 @@ static_assert(offsetof(::BGLib::UnityExtension::__UnityWebRequestExtensions___Se
 static_assert(offsetof(::BGLib::UnityExtension::__UnityWebRequestExtensions___SendWebRequestAsync_d__0, __u__2) == 0x60, "Offset mismatch!");
 
 } // namespace BGLib::UnityExtension
-// Type: ::<>c__DisplayClass1_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace BGLib::UnityExtension {
-// Is value type: false
-// CS Name: ::UnityWebRequestExtensions::<>c__DisplayClass1_0*
-class CORDL_TYPE __UnityWebRequestExtensions____c__DisplayClass1_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field tcs, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>* tcs;
-
-  /// @brief Field webRequestOperation, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_webRequestOperation, put = __cordl_internal_set_webRequestOperation))::UnityEngine::Networking::UnityWebRequestAsyncOperation* webRequestOperation;
-
-  static inline ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0* New_ctor();
-
-  /// @brief Method <GetAwaiter>g__SetResult|0, addr 0x109a288, size 0xd0, virtual false, abstract: false, final false
-  inline void _GetAwaiter_g__SetResult_0(::UnityEngine::AsyncOperation* _);
-
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>*& __cordl_internal_get_tcs();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>*> const& __cordl_internal_get_tcs() const;
-
-  constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& __cordl_internal_get_webRequestOperation();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequestAsyncOperation*> const& __cordl_internal_get_webRequestOperation() const;
-
-  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>* value);
-
-  constexpr void __cordl_internal_set_webRequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value);
-
-  /// @brief Method .ctor, addr 0x1099b74, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UnityWebRequestExtensions____c__DisplayClass1_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__UnityWebRequestExtensions____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __UnityWebRequestExtensions____c__DisplayClass1_0(__UnityWebRequestExtensions____c__DisplayClass1_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__UnityWebRequestExtensions____c__DisplayClass1_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __UnityWebRequestExtensions____c__DisplayClass1_0(__UnityWebRequestExtensions____c__DisplayClass1_0 const&) = delete;
-
-  /// @brief Field webRequestOperation, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Networking::UnityWebRequestAsyncOperation* ___webRequestOperation;
-
-  /// @brief Field tcs, offset: 0x18, size: 0x8, def value: None
-  ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>* ___tcs;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0, 0x20>, "Size mismatch!");
-
-static_assert(offsetof(::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0, ___webRequestOperation) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0, ___tcs) == 0x18, "Offset mismatch!");
-
-} // namespace BGLib::UnityExtension
 // Type: BGLib.UnityExtension::UnityWebRequestExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: false
 // CS Name: ::BGLib.UnityExtension::UnityWebRequestExtensions*
@@ -247,11 +253,11 @@ public:
 
   using __c__DisplayClass1_0 = ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0;
 
-  /// @brief Method GetAwaiter, addr 0x109948c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x2276b80, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::__UnityWebRequest__Result>
   GetAwaiter(::UnityEngine::Networking::UnityWebRequestAsyncOperation* webRequestOperation);
 
-  /// @brief Method SendWebRequestAsync, addr 0x1099a74, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SendWebRequestAsync, addr 0x2277008, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityEngine::Networking::__UnityWebRequest__Result>* SendWebRequestAsync(::UnityEngine::Networking::UnityWebRequest* request,
                                                                                                                               ::System::Threading::CancellationToken cancellationToken);
 
@@ -268,6 +274,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UnityWebRequestExtensions(UnityWebRequestExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17230 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

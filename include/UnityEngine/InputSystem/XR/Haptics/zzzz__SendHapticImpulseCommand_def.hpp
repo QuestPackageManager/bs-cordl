@@ -24,7 +24,7 @@ struct SendHapticImpulseCommand;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::SendHapticImpulseCommand);
 // Type: UnityEngine.InputSystem.XR.Haptics::SendHapticImpulseCommand
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
+// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::SendHapticImpulseCommand
@@ -36,7 +36,7 @@ public:
   __declspec(property(get = __cordl_internal_get_amplitude, put = __cordl_internal_set_amplitude)) float_t amplitude;
 
   /// @brief Field baseCommand, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
+  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand)) ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
   /// @brief Field channel, offset 0x8, size 0x4
   __declspec(property(get = __cordl_internal_get_channel, put = __cordl_internal_set_channel)) int32_t channel;
@@ -44,12 +44,12 @@ public:
   /// @brief Field duration, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
-  __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
+  __declspec(property(get = get_typeStatic)) ::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x3169ef0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x456d8b0, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::Haptics::SendHapticImpulseCommand Create(int32_t motorChannel, float_t motorAmplitude, float_t motorDuration);
 
   constexpr float_t const& __cordl_internal_get_amplitude() const;
@@ -76,10 +76,10 @@ public:
 
   constexpr void __cordl_internal_set_duration(float_t value);
 
-  /// @brief Method get_Type, addr 0x316e374, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4571d08, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x316e3a4, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x4571d38, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -155,6 +155,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6723 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 

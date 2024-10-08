@@ -18,16 +18,16 @@ struct RuntimeRemoteClassHandle;
 // Write type traits
 MARK_VAL_T(::Mono::RuntimeRemoteClassHandle);
 // Type: Mono::RuntimeRemoteClassHandle
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
 // CS Name: ::Mono::RuntimeRemoteClassHandle
 struct CORDL_TYPE RuntimeRemoteClassHandle {
 public:
   // Declarations
-  __declspec(property(get = get_ProxyClass))::Mono::RuntimeClassHandle ProxyClass;
+  __declspec(property(get = get_ProxyClass)) ::Mono::RuntimeClassHandle ProxyClass;
 
-  /// @brief Method get_ProxyClass, addr 0x27bd914, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ProxyClass, addr 0x3bdf9f8, size 0x1c, virtual false, abstract: false, final false
   inline ::Mono::RuntimeClassHandle get_ProxyClass();
 
   // Ctor Parameters []
@@ -39,6 +39,9 @@ public:
 
   /// @brief Field value, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<::Mono::__RuntimeStructs__RemoteClass> value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2229 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

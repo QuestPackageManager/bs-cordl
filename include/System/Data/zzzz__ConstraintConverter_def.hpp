@@ -24,23 +24,23 @@ class ConstraintConverter;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::ConstraintConverter);
 // Type: System.Data::ConstraintConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::ConstraintConverter*
 class CORDL_TYPE ConstraintConverter : public ::System::ComponentModel::ExpandableObjectConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertTo, addr 0x2caaf98, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x40e1268, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertTo, addr 0x2cab060, size 0x964, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x40e1330, size 0x974, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::Data::ConstraintConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2caaf90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e1260, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,6 +56,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ConstraintConverter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ConstraintConverter(ConstraintConverter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11328 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

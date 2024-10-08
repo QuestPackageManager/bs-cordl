@@ -32,7 +32,7 @@ class TypeExtensions;
 // Write type traits
 MARK_REF_PTR_T(::System::Dynamic::Utils::TypeExtensions);
 // Type: System.Dynamic.Utils::TypeExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Dynamic::Utils {
 // Is value type: false
 // CS Name: ::System.Dynamic.Utils::TypeExtensions*
@@ -40,22 +40,22 @@ class CORDL_TYPE TypeExtensions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_paramInfoCache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_paramInfoCache, put = setStaticF_s_paramInfoCache))::System::Dynamic::Utils::CacheDict_2<
+  static __declspec(property(get = getStaticF_s_paramInfoCache, put = setStaticF_s_paramInfoCache)) ::System::Dynamic::Utils::CacheDict_2<
       ::System::Reflection::MethodBase*, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*>>* s_paramInfoCache;
 
-  /// @brief Method GetAnyStaticMethodValidated, addr 0x2c8aeec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetAnyStaticMethodValidated, addr 0x408ccd8, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetAnyStaticMethodValidated(::System::Type* type, ::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types);
 
-  /// @brief Method GetParametersCached, addr 0x2c8a620, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetParametersCached, addr 0x408c40c, size 0x10c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParametersCached(::System::Reflection::MethodBase* method);
 
-  /// @brief Method GetReturnType, addr 0x2c8b0d0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetReturnType, addr 0x408cec4, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Type* GetReturnType(::System::Reflection::MethodBase* mi);
 
-  /// @brief Method GetTypeCode, addr 0x2c8b174, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetTypeCode, addr 0x408cf68, size 0x58, virtual false, abstract: false, final false
   static inline ::System::TypeCode GetTypeCode(::System::Type* type);
 
-  /// @brief Method MatchesArgumentTypes, addr 0x2c8af90, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method MatchesArgumentTypes, addr 0x408cd7c, size 0x148, virtual false, abstract: false, final false
   static inline bool MatchesArgumentTypes(::System::Reflection::MethodInfo* mi, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes);
 
   static inline ::System::Dynamic::Utils::CacheDict_2<::System::Reflection::MethodBase*, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*>>*
@@ -77,6 +77,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TypeExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TypeExtensions(TypeExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14142 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

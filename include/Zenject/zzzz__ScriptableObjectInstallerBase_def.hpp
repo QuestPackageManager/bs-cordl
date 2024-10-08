@@ -25,29 +25,29 @@ class ScriptableObjectInstallerBase;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ScriptableObjectInstallerBase);
 // Type: Zenject::ScriptableObjectInstallerBase
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::ScriptableObjectInstallerBase*
 class CORDL_TYPE ScriptableObjectInstallerBase : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
+  __declspec(property(get = get_Container)) ::Zenject::DiContainer* Container;
 
   __declspec(property(get = Zenject_IInstaller_get_IsEnabled)) bool Zenject_IInstaller_IsEnabled;
 
   /// @brief Field _container, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
   /// @brief Convert operator to "::Zenject::IInstaller"
   constexpr operator ::Zenject::IInstaller*() noexcept;
 
-  /// @brief Method InstallBindings, addr 0x368c9c8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x4ab1388, size 0x38, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::ScriptableObjectInstallerBase* New_ctor();
 
-  /// @brief Method Zenject.IInstaller.get_IsEnabled, addr 0x368c9c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Zenject.IInstaller.get_IsEnabled, addr 0x4ab1380, size 0x8, virtual true, abstract: false, final true
   inline bool Zenject_IInstaller_get_IsEnabled();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
@@ -56,19 +56,19 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreate, addr 0x368ca08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ab13c0, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x368cb98, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ab1548, size 0x2ec, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenFieldSetter0, addr 0x368ca64, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter0, addr 0x4ab1414, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method .ctor, addr 0x368c794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ab1164, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Container, addr 0x368c9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x4ab1378, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
   /// @brief Convert to "::Zenject::IInstaller"
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field _container, offset: 0x18, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12453 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,7 @@ template <typename T> class ArrayPool_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Buffers::ArrayPool_1);
 // Type: System.Buffers::ArrayPool`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Buffers {
 // cpp template
 template <typename T>
@@ -24,7 +24,7 @@ class CORDL_TYPE ArrayPool_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Shared>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__Shared_k__BackingField, put = setStaticF__Shared_k__BackingField))::System::Buffers::ArrayPool_1<T>* _Shared_k__BackingField;
+  static __declspec(property(get = getStaticF__Shared_k__BackingField, put = setStaticF__Shared_k__BackingField)) ::System::Buffers::ArrayPool_1<T>* _Shared_k__BackingField;
 
   static inline ::System::Buffers::ArrayPool_1<T>* New_ctor();
 
@@ -57,6 +57,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ArrayPool_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ArrayPool_1(ArrayPool_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3895 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

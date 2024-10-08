@@ -20,7 +20,7 @@ class UIRUtility;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIRUtility);
 // Type: UnityEngine.UIElements::UIRUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::UIRUtility*
@@ -28,33 +28,33 @@ class CORDL_TYPE UIRUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Field k_DefaultShaderName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_DefaultShaderName, put = setStaticF_k_DefaultShaderName))::StringW k_DefaultShaderName;
+  static __declspec(property(get = getStaticF_k_DefaultShaderName, put = setStaticF_k_DefaultShaderName)) ::StringW k_DefaultShaderName;
 
   /// @brief Field k_DefaultWorldSpaceShaderName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_DefaultWorldSpaceShaderName, put = setStaticF_k_DefaultWorldSpaceShaderName))::StringW k_DefaultWorldSpaceShaderName;
+  static __declspec(property(get = getStaticF_k_DefaultWorldSpaceShaderName, put = setStaticF_k_DefaultWorldSpaceShaderName)) ::StringW k_DefaultWorldSpaceShaderName;
 
-  /// @brief Method Destroy, addr 0x360eaf4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x49ec974, size 0xcc, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Object* obj);
 
-  /// @brief Method GetNextPow2, addr 0x360ebd0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetNextPow2, addr 0x49eca74, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetNextPow2(int32_t n);
 
-  /// @brief Method GetNextPow2Exp, addr 0x360ebec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetNextPow2Exp, addr 0x49eca90, size 0x30, virtual false, abstract: false, final false
   static inline int32_t GetNextPow2Exp(int32_t n);
 
-  /// @brief Method GetPrevPow2, addr 0x360eb9c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetPrevPow2, addr 0x49eca40, size 0x34, virtual false, abstract: false, final false
   static inline int32_t GetPrevPow2(int32_t n);
 
-  /// @brief Method IsElementSelfHidden, addr 0x360ea34, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsElementSelfHidden, addr 0x49ec8c8, size 0xac, virtual false, abstract: false, final false
   static inline bool IsElementSelfHidden(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsRoundRect, addr 0x360e7a0, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method IsRoundRect, addr 0x49ec63c, size 0x1f0, virtual false, abstract: false, final false
   static inline bool IsRoundRect(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsVectorImageBackground, addr 0x360e9a4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsVectorImageBackground, addr 0x49ec830, size 0x88, virtual false, abstract: false, final false
   static inline bool IsVectorImageBackground(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ShapeWindingIsClockwise, addr 0x360e714, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ShapeWindingIsClockwise, addr 0x49ec5bc, size 0x80, virtual false, abstract: false, final false
   static inline bool ShapeWindingIsClockwise(int32_t maskDepth, int32_t stencilRef);
 
   static inline ::StringW getStaticF_k_DefaultShaderName();
@@ -78,6 +78,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UIRUtility", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UIRUtility(UIRUtility const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6010 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

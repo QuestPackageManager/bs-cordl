@@ -23,38 +23,38 @@ class MailAddress;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Mail::MailAddress);
 // Type: System.Net.Mail::MailAddress
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Mail {
 // Is value type: false
 // CS Name: ::System.Net.Mail::MailAddress*
 class CORDL_TYPE MailAddress : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Address))::StringW Address;
+  __declspec(property(get = get_Address)) ::StringW Address;
 
-  __declspec(property(get = get_DisplayName))::StringW DisplayName;
+  __declspec(property(get = get_DisplayName)) ::StringW DisplayName;
 
-  __declspec(property(get = get_SmtpAddress))::StringW SmtpAddress;
+  __declspec(property(get = get_SmtpAddress)) ::StringW SmtpAddress;
 
   /// @brief Field _displayName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__displayName, put = __cordl_internal_set__displayName))::StringW _displayName;
+  __declspec(property(get = __cordl_internal_get__displayName, put = __cordl_internal_set__displayName)) ::StringW _displayName;
 
   /// @brief Field _displayNameEncoding, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__displayNameEncoding, put = __cordl_internal_set__displayNameEncoding))::System::Text::Encoding* _displayNameEncoding;
+  __declspec(property(get = __cordl_internal_get__displayNameEncoding, put = __cordl_internal_set__displayNameEncoding)) ::System::Text::Encoding* _displayNameEncoding;
 
   /// @brief Field _host, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__host, put = __cordl_internal_set__host))::StringW _host;
+  __declspec(property(get = __cordl_internal_get__host, put = __cordl_internal_set__host)) ::StringW _host;
 
   /// @brief Field _userName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName))::StringW _userName;
+  __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName)) ::StringW _userName;
 
   /// @brief Field s_encoderFactory, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_encoderFactory, put = setStaticF_s_encoderFactory))::System::Net::Mime::EncodedStreamFactory* s_encoderFactory;
+  static __declspec(property(get = getStaticF_s_encoderFactory, put = setStaticF_s_encoderFactory)) ::System::Net::Mime::EncodedStreamFactory* s_encoderFactory;
 
-  /// @brief Method Equals, addr 0x2f5ea9c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x438e528, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x2f5eb00, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x438e58c, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Mail::MailAddress* New_ctor(::StringW address);
@@ -63,7 +63,7 @@ public:
 
   static inline ::System::Net::Mail::MailAddress* New_ctor(::StringW displayName, ::StringW userName, ::StringW domain);
 
-  /// @brief Method ToString, addr 0x2f5e9f8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x438e484, size 0xa4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__displayName() const;
@@ -90,24 +90,24 @@ public:
 
   constexpr void __cordl_internal_set__userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f5e6d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438e168, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW address);
 
-  /// @brief Method .ctor, addr 0x2f5e6e0, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438e174, size 0x244, virtual false, abstract: false, final false
   inline void _ctor(::StringW address, ::StringW displayName, ::System::Text::Encoding* displayNameEncoding);
 
-  /// @brief Method .ctor, addr 0x2f5ddc0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438d870, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW userName, ::StringW domain);
 
   static inline ::System::Net::Mime::EncodedStreamFactory* getStaticF_s_encoderFactory();
 
-  /// @brief Method get_Address, addr 0x2f5e934, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Address, addr 0x438e3c0, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW get_Address();
 
-  /// @brief Method get_DisplayName, addr 0x2f5e92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x438e3b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_SmtpAddress, addr 0x2f5e980, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_SmtpAddress, addr 0x438e40c, size 0x78, virtual false, abstract: false, final false
   inline ::StringW get_SmtpAddress();
 
   static inline void setStaticF_s_encoderFactory(::System::Net::Mime::EncodedStreamFactory* value);
@@ -137,6 +137,9 @@ public:
 
   /// @brief Field _host, offset: 0x28, size: 0x8, def value: None
   ::StringW ____host;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9855 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

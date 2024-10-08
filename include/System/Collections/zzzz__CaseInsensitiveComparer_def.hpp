@@ -25,7 +25,7 @@ class CaseInsensitiveComparer;
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::CaseInsensitiveComparer);
 // Type: System.Collections::CaseInsensitiveComparer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
 // CS Name: ::System.Collections::CaseInsensitiveComparer*
@@ -33,12 +33,12 @@ class CORDL_TYPE CaseInsensitiveComparer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _compareInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__compareInfo, put = __cordl_internal_set__compareInfo))::System::Globalization::CompareInfo* _compareInfo;
+  __declspec(property(get = __cordl_internal_get__compareInfo, put = __cordl_internal_set__compareInfo)) ::System::Globalization::CompareInfo* _compareInfo;
 
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x2931384, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x3d44af0, size 0xec, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
   static inline ::System::Collections::CaseInsensitiveComparer* New_ctor();
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
 
-  /// @brief Method .ctor, addr 0x2931280, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d449f0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x29312fc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d44a6c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
   /// @brief Convert to "::System::Collections::IComparer"
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field _compareInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Globalization::CompareInfo* ____compareInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3778 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

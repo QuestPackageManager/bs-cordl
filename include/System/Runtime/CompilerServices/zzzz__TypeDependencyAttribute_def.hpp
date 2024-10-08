@@ -13,7 +13,7 @@ class TypeDependencyAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::TypeDependencyAttribute);
 // Type: System.Runtime.CompilerServices::TypeDependencyAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::TypeDependencyAttribute*
@@ -21,7 +21,7 @@ class CORDL_TYPE TypeDependencyAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field typeName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName))::StringW typeName;
+  __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
   static inline ::System::Runtime::CompilerServices::TypeDependencyAttribute* New_ctor(::StringW typeName);
 
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x288c6c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca50f8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field typeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___typeName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3416 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

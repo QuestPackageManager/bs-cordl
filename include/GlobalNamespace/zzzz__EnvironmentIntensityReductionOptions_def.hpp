@@ -29,7 +29,7 @@ MARK_VAL_T(::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressEx
 MARK_VAL_T(::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType);
 MARK_REF_PTR_T(::GlobalNamespace::EnvironmentIntensityReductionOptions);
 // Type: ::CompressExpandReductionType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::EnvironmentIntensityReductionOptions::CompressExpandReductionType
@@ -70,6 +70,9 @@ public:
   /// @brief Field RemoveWithStrobeFilter value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType const RemoveWithStrobeFilter;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12789 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -82,7 +85,7 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentIntensityReductionOptions
 
 } // namespace GlobalNamespace
 // Type: ::RotateRingsReductionType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::EnvironmentIntensityReductionOptions::RotateRingsReductionType
@@ -123,6 +126,9 @@ public:
   /// @brief Field RemoveWithStrobeFilter value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType const RemoveWithStrobeFilter;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12790 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -135,7 +141,7 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentIntensityReductionOptions
 
 } // namespace GlobalNamespace
 // Type: ::EnvironmentIntensityReductionOptions
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::EnvironmentIntensityReductionOptions*
@@ -148,15 +154,15 @@ public:
 
   /// @brief Field _compressExpand, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__compressExpand,
-                      put = __cordl_internal_set__compressExpand))::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType _compressExpand;
+                      put = __cordl_internal_set__compressExpand)) ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType _compressExpand;
 
   /// @brief Field _rotateRings, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__rotateRings,
-                      put = __cordl_internal_set__rotateRings))::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType _rotateRings;
+                      put = __cordl_internal_set__rotateRings)) ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType _rotateRings;
 
-  __declspec(property(get = get_compressExpand))::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType compressExpand;
+  __declspec(property(get = get_compressExpand)) ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType compressExpand;
 
-  __declspec(property(get = get_rotateRings))::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType rotateRings;
+  __declspec(property(get = get_rotateRings)) ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType rotateRings;
 
   static inline ::GlobalNamespace::EnvironmentIntensityReductionOptions* New_ctor();
 
@@ -172,13 +178,13 @@ public:
 
   constexpr void __cordl_internal_set__rotateRings(::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType value);
 
-  /// @brief Method .ctor, addr 0x14ac6bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266d980, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_compressExpand, addr 0x14ac6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_compressExpand, addr 0x266d970, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType get_compressExpand();
 
-  /// @brief Method get_rotateRings, addr 0x14ac6b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotateRings, addr 0x266d978, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType get_rotateRings();
 
 protected:
@@ -200,6 +206,9 @@ public:
 
   /// @brief Field _rotateRings, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType ____rotateRings;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12791 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

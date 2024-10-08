@@ -22,7 +22,7 @@ class UxmlEnumeration;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlEnumeration);
 // Type: UnityEngine.UIElements::UxmlEnumeration
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::UxmlEnumeration*
@@ -30,11 +30,11 @@ class CORDL_TYPE UxmlEnumeration : public ::UnityEngine::UIElements::UxmlTypeRes
 public:
   // Declarations
   /// @brief Field m_Values, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Values, put = __cordl_internal_set_m_Values))::System::Collections::Generic::List_1<::StringW>* m_Values;
+  __declspec(property(get = __cordl_internal_get_m_Values, put = __cordl_internal_set_m_Values)) ::System::Collections::Generic::List_1<::StringW>* m_Values;
 
-  __declspec(property(get = get_values, put = set_values))::System::Collections::Generic::IEnumerable_1<::StringW>* values;
+  __declspec(property(get = get_values, put = set_values)) ::System::Collections::Generic::IEnumerable_1<::StringW>* values;
 
-  /// @brief Method Equals, addr 0x35a491c, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a2959c, size 0x134, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UxmlTypeRestriction* other);
 
   static inline ::UnityEngine::UIElements::UxmlEnumeration* New_ctor();
@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Values(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x35a4a68, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a296d0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_values, addr 0x35a48b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_values, addr 0x4a29538, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_values();
 
-  /// @brief Method set_values, addr 0x35a48c0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_values, addr 0x4a29540, size 0x5c, virtual false, abstract: false, final false
   inline void set_values(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
 protected:
@@ -70,6 +70,9 @@ public:
 
   /// @brief Field m_Values, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_Values;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6250 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

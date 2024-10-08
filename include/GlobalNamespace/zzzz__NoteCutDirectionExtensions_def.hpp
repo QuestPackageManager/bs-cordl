@@ -25,38 +25,38 @@ class NoteCutDirectionExtensions;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteCutDirectionExtensions);
 // Type: ::NoteCutDirectionExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoteCutDirectionExtensions*
 class CORDL_TYPE NoteCutDirectionExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Direction, addr 0x1047ccc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Direction, addr 0x220f410, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Direction(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method IsMainDirection, addr 0x1047d50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsMainDirection, addr 0x220f494, size 0xc, virtual false, abstract: false, final false
   static inline bool IsMainDirection(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method IsOnSamePlane, addr 0x1047e10, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsOnSamePlane, addr 0x220f55c, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsOnSamePlane(::GlobalNamespace::NoteCutDirection noteCutDirection1, ::GlobalNamespace::NoteCutDirection noteCutDirection2);
 
-  /// @brief Method MainNoteCutDirectionFromCutDirAngle, addr 0x1047d5c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method MainNoteCutDirectionFromCutDirAngle, addr 0x220f4a0, size 0x88, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutDirection MainNoteCutDirectionFromCutDirAngle(float_t angle);
 
-  /// @brief Method Mirrored, addr 0x1047ddc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Mirrored, addr 0x220f528, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutDirection Mirrored(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method NoteCutDirectionFromDirection, addr 0x1047ee0, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method NoteCutDirectionFromDirection, addr 0x220f634, size 0x218, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutDirection NoteCutDirectionFromDirection(::UnityEngine::Vector3 direction);
 
-  /// @brief Method Opposite, addr 0x1047df8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Opposite, addr 0x220f544, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutDirection Opposite(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method Rotation, addr 0x1047d18, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Rotation, addr 0x220f45c, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Rotation(::GlobalNamespace::NoteCutDirection cutDirection, float_t offset);
 
-  /// @brief Method RotationAngle, addr 0x1047cf8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RotationAngle, addr 0x220f43c, size 0x20, virtual false, abstract: false, final false
   static inline float_t RotationAngle(::GlobalNamespace::NoteCutDirection cutDirection);
 
 protected:
@@ -72,6 +72,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutDirectionExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NoteCutDirectionExtensions(NoteCutDirectionExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17023 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

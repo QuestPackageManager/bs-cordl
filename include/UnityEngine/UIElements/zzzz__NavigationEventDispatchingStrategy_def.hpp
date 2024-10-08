@@ -21,7 +21,7 @@ class NavigationEventDispatchingStrategy;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::NavigationEventDispatchingStrategy);
 // Type: UnityEngine.UIElements::NavigationEventDispatchingStrategy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::NavigationEventDispatchingStrategy*
@@ -31,15 +31,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
 
-  /// @brief Method CanDispatchEvent, addr 0x35e4c44, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x49b3f80, size 0x54, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x35e4c98, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method DispatchEvent, addr 0x49b3fd4, size 0x160, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::NavigationEventDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35e4ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a861c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
@@ -58,6 +58,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NavigationEventDispatchingStrategy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NavigationEventDispatchingStrategy(NavigationEventDispatchingStrategy const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5849 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

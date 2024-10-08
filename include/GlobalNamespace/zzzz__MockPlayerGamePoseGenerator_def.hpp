@@ -43,7 +43,7 @@ class MockPlayerGamePoseGenerator;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlayerGamePoseGenerator);
 // Type: ::MockPlayerGamePoseGenerator
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MockPlayerGamePoseGenerator*
@@ -51,29 +51,29 @@ class CORDL_TYPE MockPlayerGamePoseGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field gameplayRpcManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameplayRpcManager, put = __cordl_internal_set_gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
+  __declspec(property(get = __cordl_internal_get_gameplayRpcManager, put = __cordl_internal_set_gameplayRpcManager)) ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager;
 
   /// @brief Field leftHanded, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_leftHanded, put = __cordl_internal_set_leftHanded)) bool leftHanded;
 
   /// @brief Field mockNodePoseSyncStateSender, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_mockNodePoseSyncStateSender,
-                      put = __cordl_internal_set_mockNodePoseSyncStateSender))::GlobalNamespace::MockNodePoseSyncStateSender* mockNodePoseSyncStateSender;
+                      put = __cordl_internal_set_mockNodePoseSyncStateSender)) ::GlobalNamespace::MockNodePoseSyncStateSender* mockNodePoseSyncStateSender;
 
   /// @brief Field mockScoreSyncStateSender, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_mockScoreSyncStateSender, put = __cordl_internal_set_mockScoreSyncStateSender))::GlobalNamespace::MockScoreSyncStateSender* mockScoreSyncStateSender;
+  __declspec(property(get = __cordl_internal_get_mockScoreSyncStateSender, put = __cordl_internal_set_mockScoreSyncStateSender)) ::GlobalNamespace::MockScoreSyncStateSender* mockScoreSyncStateSender;
 
   /// @brief Field multiplayerSessionManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_multiplayerSessionManager,
-                      put = __cordl_internal_set_multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
+                      put = __cordl_internal_set_multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateEmptyLevelCompletionResults, addr 0x27927d4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CreateEmptyLevelCompletionResults, addr 0x3bb4f94, size 0x104, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults* CreateEmptyLevelCompletionResults(::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType);
 
-  /// @brief Method Dispose, addr 0x27925f0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3bb4dc0, size 0x2c, virtual true, abstract: false, final false
   inline void Dispose();
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -82,10 +82,10 @@ public:
   static inline ::GlobalNamespace::MockPlayerGamePoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                          ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
 
-  /// @brief Method SimulateFail, addr 0x27926e4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method SimulateFail, addr 0x3bb4ea8, size 0xec, virtual true, abstract: false, final false
   inline void SimulateFail();
 
-  /// @brief Method SimulateGiveUp, addr 0x27928e0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SimulateGiveUp, addr 0x3bb5098, size 0xec, virtual false, abstract: false, final false
   inline void SimulateGiveUp();
 
   /// @brief Method Tick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x27923b4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb4b98, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
 
   /// @brief Convert to "::System::IDisposable"
@@ -155,6 +155,9 @@ public:
 
   /// @brief Field mockScoreSyncStateSender, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::MockScoreSyncStateSender* ___mockScoreSyncStateSender;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18014 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

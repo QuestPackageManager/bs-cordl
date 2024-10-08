@@ -37,7 +37,7 @@ class __LegacyResourcesProvider__InternalOp;
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider);
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp);
 // Type: ::InternalOp
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // CS Name: ::LegacyResourcesProvider::InternalOp*
@@ -45,23 +45,23 @@ class CORDL_TYPE __LegacyResourcesProvider__InternalOp : public ::System::Object
 public:
   // Declarations
   /// @brief Field m_ProvideHandle, offset 0x18, size 0x18
-  __declspec(property(get = __cordl_internal_get_m_ProvideHandle, put = __cordl_internal_set_m_ProvideHandle))::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle;
+  __declspec(property(get = __cordl_internal_get_m_ProvideHandle, put = __cordl_internal_set_m_ProvideHandle)) ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle;
 
   /// @brief Field m_RequestOperation, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RequestOperation, put = __cordl_internal_set_m_RequestOperation))::UnityEngine::ResourceRequest* m_RequestOperation;
+  __declspec(property(get = __cordl_internal_get_m_RequestOperation, put = __cordl_internal_set_m_RequestOperation)) ::UnityEngine::ResourceRequest* m_RequestOperation;
 
-  /// @brief Method AsyncOperationCompleted, addr 0x334639c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method AsyncOperationCompleted, addr 0x4728160, size 0x180, virtual false, abstract: false, final false
   inline void AsyncOperationCompleted(::UnityEngine::AsyncOperation* op);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp* New_ctor();
 
-  /// @brief Method PercentComplete, addr 0x3346520, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method PercentComplete, addr 0x47282e0, size 0x18, virtual false, abstract: false, final false
   inline float_t PercentComplete();
 
-  /// @brief Method Start, addr 0x33460c8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4727d54, size 0x18c, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method WaitForCompletionHandler, addr 0x3346388, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x472800c, size 0x154, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __cordl_internal_get_m_ProvideHandle() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RequestOperation(::UnityEngine::ResourceRequest* value);
 
-  /// @brief Method .ctor, addr 0x33460c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4727d4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,6 +99,9 @@ public:
   /// @brief Field m_ProvideHandle, offset: 0x18, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle ___m_ProvideHandle;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15626 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -110,7 +113,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__L
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 // Type: UnityEngine.ResourceManagement.ResourceProviders::LegacyResourcesProvider
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::LegacyResourcesProvider*
@@ -121,13 +124,13 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x3345cd4, size 0x3ec, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x4727944, size 0x408, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle pi);
 
-  /// @brief Method Release, addr 0x3346258, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x4727ee0, size 0x124, virtual true, abstract: false, final false
   inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* asset);
 
-  /// @brief Method .ctor, addr 0x3346380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4728004, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -143,6 +146,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LegacyResourcesProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LegacyResourcesProvider(LegacyResourcesProvider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15627 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

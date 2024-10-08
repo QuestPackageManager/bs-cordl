@@ -15,22 +15,22 @@ class TMP_SelectionCaret;
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_SelectionCaret);
 // Type: TMPro::TMP_SelectionCaret
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::TMP_SelectionCaret*
 class CORDL_TYPE TMP_SelectionCaret : public ::UnityEngine::UI::MaskableGraphic {
 public:
   // Declarations
-  /// @brief Method Cull, addr 0x33ad078, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Cull, addr 0x4786e20, size 0xd0, virtual true, abstract: false, final false
   inline void Cull(::UnityEngine::Rect clipRect, bool validRect);
 
   static inline ::TMPro::TMP_SelectionCaret* New_ctor();
 
-  /// @brief Method UpdateGeometry, addr 0x33ad148, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateGeometry, addr 0x4786ef0, size 0x4, virtual true, abstract: false, final false
   inline void UpdateGeometry();
 
-  /// @brief Method .ctor, addr 0x33ad14c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4786ef4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,10 +47,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_SelectionCaret(TMP_SelectionCaret const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14489 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_SelectionCaret, 0xd0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_SelectionCaret, 0xd8>, "Size mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_SelectionCaret);

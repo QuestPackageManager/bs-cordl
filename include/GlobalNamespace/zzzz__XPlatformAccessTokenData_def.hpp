@@ -18,7 +18,7 @@ struct XPlatformAccessTokenData;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::XPlatformAccessTokenData);
 // Type: ::XPlatformAccessTokenData
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::XPlatformAccessTokenData
@@ -26,12 +26,12 @@ struct CORDL_TYPE XPlatformAccessTokenData {
 public:
   // Declarations
   /// @brief Field invalid, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_invalid, put = setStaticF_invalid))::GlobalNamespace::XPlatformAccessTokenData invalid;
+  static __declspec(property(get = getStaticF_invalid, put = setStaticF_invalid)) ::GlobalNamespace::XPlatformAccessTokenData invalid;
 
-  /// @brief Method IsValid, addr 0x10c3078, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x22a193c, size 0x40, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method .ctor, addr 0x10c306c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a1930, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment platformEnvironment);
 
   static inline ::GlobalNamespace::XPlatformAccessTokenData getStaticF_invalid();
@@ -51,6 +51,9 @@ public:
 
   /// @brief Field platformEnvironment, offset: 0x8, size: 0x1, def value: None
   ::GlobalNamespace::PlatformEnvironment platformEnvironment;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14888 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

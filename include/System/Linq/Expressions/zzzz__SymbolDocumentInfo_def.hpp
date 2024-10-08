@@ -14,7 +14,7 @@ class SymbolDocumentInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::SymbolDocumentInfo);
 // Type: System.Linq.Expressions::SymbolDocumentInfo
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions::SymbolDocumentInfo*
@@ -22,12 +22,12 @@ class CORDL_TYPE SymbolDocumentInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DocumentType_Text, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_DocumentType_Text, put = setStaticF_DocumentType_Text))::System::Guid DocumentType_Text;
+  static __declspec(property(get = getStaticF_DocumentType_Text, put = setStaticF_DocumentType_Text)) ::System::Guid DocumentType_Text;
 
-  __declspec(property(get = get_FileName))::StringW FileName;
+  __declspec(property(get = get_FileName)) ::StringW FileName;
 
   /// @brief Field <FileName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__FileName_k__BackingField, put = __cordl_internal_set__FileName_k__BackingField))::StringW _FileName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__FileName_k__BackingField, put = __cordl_internal_set__FileName_k__BackingField)) ::StringW _FileName_k__BackingField;
 
   constexpr ::StringW const& __cordl_internal_get__FileName_k__BackingField() const;
 
@@ -37,7 +37,7 @@ public:
 
   static inline ::System::Guid getStaticF_DocumentType_Text();
 
-  /// @brief Method get_FileName, addr 0x2c41948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x4045ce4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
   static inline void setStaticF_DocumentType_Text(::System::Guid value);
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field <FileName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____FileName_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13692 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

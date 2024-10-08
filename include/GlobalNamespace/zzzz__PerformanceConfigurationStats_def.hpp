@@ -47,17 +47,17 @@ MARK_GEN_VAL_T(::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1);
 MARK_VAL_T(::GlobalNamespace::__PerformanceConfigurationStats__FloatStats);
 MARK_VAL_T(::GlobalNamespace::__PerformanceConfigurationStats__IntStats);
 // Type: ::BoolStats
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PerformanceConfigurationStats::BoolStats
 struct CORDL_TYPE __PerformanceConfigurationStats__BoolStats {
 public:
   // Declarations
-  /// @brief Method CreateLogValue, addr 0x26b8030, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateLogValue, addr 0x3aadd94, size 0xa0, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
-  /// @brief Method Update, addr 0x26b7f6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3aadcd0, size 0x1c, virtual false, abstract: false, final false
   inline void Update(bool value);
 
   // Ctor Parameters []
@@ -73,6 +73,9 @@ public:
   /// @brief Field on, offset: 0x4, size: 0x4, def value: None
   int32_t on;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5094 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -87,7 +90,7 @@ static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationStats__BoolS
 
 } // namespace GlobalNamespace
 // Type: ::IntStats
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PerformanceConfigurationStats::IntStats
@@ -95,12 +98,12 @@ struct CORDL_TYPE __PerformanceConfigurationStats__IntStats {
 public:
   // Declarations
   /// @brief Field kInitial, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_kInitial, put = setStaticF_kInitial))::GlobalNamespace::__PerformanceConfigurationStats__IntStats kInitial;
+  static __declspec(property(get = getStaticF_kInitial, put = setStaticF_kInitial)) ::GlobalNamespace::__PerformanceConfigurationStats__IntStats kInitial;
 
-  /// @brief Method CreateLogValue, addr 0x26b80d4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateLogValue, addr 0x3aade34, size 0xc4, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
-  /// @brief Method Update, addr 0x26b7e54, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3aadbb8, size 0x8c, virtual false, abstract: false, final false
   inline void Update(int32_t value);
 
   static inline ::GlobalNamespace::__PerformanceConfigurationStats__IntStats getStaticF_kInitial();
@@ -120,6 +123,9 @@ public:
   /// @brief Field max, offset: 0x4, size: 0x4, def value: None
   int32_t max;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5095 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -134,7 +140,7 @@ static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationStats__IntSt
 
 } // namespace GlobalNamespace
 // Type: ::FloatStats
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PerformanceConfigurationStats::FloatStats
@@ -142,12 +148,12 @@ struct CORDL_TYPE __PerformanceConfigurationStats__FloatStats {
 public:
   // Declarations
   /// @brief Field kInitial, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_kInitial, put = setStaticF_kInitial))::GlobalNamespace::__PerformanceConfigurationStats__FloatStats kInitial;
+  static __declspec(property(get = getStaticF_kInitial, put = setStaticF_kInitial)) ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats kInitial;
 
-  /// @brief Method CreateLogValue, addr 0x26b81e4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateLogValue, addr 0x3aadf44, size 0xc4, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
-  /// @brief Method Update, addr 0x26b7ee0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3aadc44, size 0x8c, virtual false, abstract: false, final false
   inline void Update(float_t value);
 
   static inline ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats getStaticF_kInitial();
@@ -167,6 +173,9 @@ public:
   /// @brief Field max, offset: 0x4, size: 0x4, def value: None
   float_t max;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5096 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -181,7 +190,7 @@ static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationStats__Float
 
 } // namespace GlobalNamespace
 // Type: ::EnumStats`1
-// SizeInfo { instance_size: 4, native_size: 20, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 20, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -206,6 +215,9 @@ public:
   /// @brief Field flags, offset: 0x0, size: 0x4, def value: None
   int32_t flags;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5097 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -214,7 +226,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::PerformanceConfigurationStats
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PerformanceConfigurationStats*
@@ -230,27 +242,28 @@ public:
   using IntStats = ::GlobalNamespace::__PerformanceConfigurationStats__IntStats;
 
   /// @brief Field batteryLevel, offset 0x1c, size 0x8
-  __declspec(property(get = __cordl_internal_get_batteryLevel, put = __cordl_internal_set_batteryLevel))::GlobalNamespace::__PerformanceConfigurationStats__FloatStats batteryLevel;
+  __declspec(property(get = __cordl_internal_get_batteryLevel, put = __cordl_internal_set_batteryLevel)) ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats batteryLevel;
 
   /// @brief Field batteryStatus, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_batteryStatus,
-                      put = __cordl_internal_set_batteryStatus))::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::BatteryStatus> batteryStatus;
+  __declspec(property(get = __cordl_internal_get_batteryStatus, put = __cordl_internal_set_batteryStatus)) ::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::BatteryStatus>
+      batteryStatus;
 
   /// @brief Field boundaryVisible, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_boundaryVisible, put = __cordl_internal_set_boundaryVisible))::GlobalNamespace::__PerformanceConfigurationStats__BoolStats boundaryVisible;
+  __declspec(property(get = __cordl_internal_get_boundaryVisible, put = __cordl_internal_set_boundaryVisible)) ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats boundaryVisible;
 
   /// @brief Field gpuUtilLevel, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_gpuUtilLevel, put = __cordl_internal_set_gpuUtilLevel))::GlobalNamespace::__PerformanceConfigurationStats__FloatStats gpuUtilLevel;
+  __declspec(property(get = __cordl_internal_get_gpuUtilLevel, put = __cordl_internal_set_gpuUtilLevel)) ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats gpuUtilLevel;
 
   /// @brief Field internetReachability, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_internetReachability,
-                      put = __cordl_internal_set_internetReachability))::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::NetworkReachability> internetReachability;
+                      put = __cordl_internal_set_internetReachability)) ::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::NetworkReachability>
+      internetReachability;
 
   /// @brief Field powerSaving, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_powerSaving, put = __cordl_internal_set_powerSaving))::GlobalNamespace::__PerformanceConfigurationStats__BoolStats powerSaving;
+  __declspec(property(get = __cordl_internal_get_powerSaving, put = __cordl_internal_set_powerSaving)) ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats powerSaving;
 
   /// @brief Field processorFrequency, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_processorFrequency, put = __cordl_internal_set_processorFrequency))::GlobalNamespace::__PerformanceConfigurationStats__IntStats processorFrequency;
+  __declspec(property(get = __cordl_internal_get_processorFrequency, put = __cordl_internal_set_processorFrequency)) ::GlobalNamespace::__PerformanceConfigurationStats__IntStats processorFrequency;
 
   /// @brief Method ConvertEnumToFlag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t ConvertEnumToFlag(T value);
@@ -260,7 +273,7 @@ public:
 
   static inline ::GlobalNamespace::PerformanceConfigurationStats* New_ctor();
 
-  /// @brief Method Update, addr 0x26b7d14, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3aad9ec, size 0x1cc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats const& __cordl_internal_get_batteryLevel() const;
@@ -305,7 +318,7 @@ public:
 
   constexpr void __cordl_internal_set_processorFrequency(::GlobalNamespace::__PerformanceConfigurationStats__IntStats value);
 
-  /// @brief Method .ctor, addr 0x26b7f88, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aadcec, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -342,6 +355,9 @@ public:
 
   /// @brief Field boundaryVisible, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats ___boundaryVisible;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5098 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

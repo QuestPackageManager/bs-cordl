@@ -21,7 +21,7 @@ template <typename T0, typename T1> class MemoryPoolContainer_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::MemoryPoolContainer_2);
 // Type: ::MemoryPoolContainer`2
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T0, typename T1>
@@ -31,15 +31,21 @@ class CORDL_TYPE MemoryPoolContainer_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _activeItems, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__activeItems, put = __cordl_internal_set__activeItems))::GlobalNamespace::LazyCopyHashSet_1<T1>* _activeItems;
+  __declspec(property(get = __cordl_internal_get__activeItems, put = __cordl_internal_set__activeItems)) ::GlobalNamespace::LazyCopyHashSet_1<T1>* _activeItems;
 
   /// @brief Field _memoryPool, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__memoryPool, put = __cordl_internal_set__memoryPool))::Zenject::IMemoryPool_1<T0>* _memoryPool;
+  __declspec(property(get = __cordl_internal_get__memoryPool, put = __cordl_internal_set__memoryPool)) ::Zenject::IMemoryPool_1<T0>* _memoryPool;
 
-  __declspec(property(get = get_activeItems))::System::Collections::Generic::List_1<T1>* activeItems;
+  __declspec(property(get = get_activeItems)) ::System::Collections::Generic::List_1<T1>* activeItems;
 
   /// @brief Method Despawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Despawn(T0 item);
+
+  /// @brief Method DespawnAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void DespawnAll();
+
+  /// @brief Method DestroyAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void DestroyAll();
 
   static inline ::GlobalNamespace::MemoryPoolContainer_2<T0, T1>* New_ctor(::Zenject::IMemoryPool_1<T0>* memoryPool);
 
@@ -83,6 +89,9 @@ public:
 
   /// @brief Field _memoryPool, offset: 0x18, size: 0x8, def value: None
   ::Zenject::IMemoryPool_1<T0>* ____memoryPool;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16378 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

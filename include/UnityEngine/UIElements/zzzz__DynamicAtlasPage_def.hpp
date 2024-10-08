@@ -51,7 +51,7 @@ class DynamicAtlasPage;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::DynamicAtlasPage);
 // Type: UnityEngine.UIElements::DynamicAtlasPage
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::DynamicAtlasPage*
@@ -59,33 +59,33 @@ class CORDL_TYPE DynamicAtlasPage : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <atlas>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__atlas_k__BackingField, put = __cordl_internal_set__atlas_k__BackingField))::UnityW<::UnityEngine::RenderTexture> _atlas_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__atlas_k__BackingField, put = __cordl_internal_set__atlas_k__BackingField)) ::UnityW<::UnityEngine::RenderTexture> _atlas_k__BackingField;
 
   /// @brief Field <disposed>k__BackingField, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
   /// @brief Field <filterMode>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__filterMode_k__BackingField, put = __cordl_internal_set__filterMode_k__BackingField))::UnityEngine::FilterMode _filterMode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__filterMode_k__BackingField, put = __cordl_internal_set__filterMode_k__BackingField)) ::UnityEngine::FilterMode _filterMode_k__BackingField;
 
   /// @brief Field <format>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__format_k__BackingField, put = __cordl_internal_set__format_k__BackingField))::UnityEngine::RenderTextureFormat _format_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__format_k__BackingField, put = __cordl_internal_set__format_k__BackingField)) ::UnityEngine::RenderTextureFormat _format_k__BackingField;
 
   /// @brief Field <maxSize>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__maxSize_k__BackingField, put = __cordl_internal_set__maxSize_k__BackingField))::UnityEngine::Vector2Int _maxSize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__maxSize_k__BackingField, put = __cordl_internal_set__maxSize_k__BackingField)) ::UnityEngine::Vector2Int _maxSize_k__BackingField;
 
   /// @brief Field <minSize>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__minSize_k__BackingField, put = __cordl_internal_set__minSize_k__BackingField))::UnityEngine::Vector2Int _minSize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__minSize_k__BackingField, put = __cordl_internal_set__minSize_k__BackingField)) ::UnityEngine::Vector2Int _minSize_k__BackingField;
 
   /// @brief Field <textureId>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__textureId_k__BackingField, put = __cordl_internal_set__textureId_k__BackingField))::UnityEngine::UIElements::TextureId _textureId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__textureId_k__BackingField, put = __cordl_internal_set__textureId_k__BackingField)) ::UnityEngine::UIElements::TextureId _textureId_k__BackingField;
 
-  __declspec(property(get = get_atlas, put = set_atlas))::UnityW<::UnityEngine::RenderTexture> atlas;
+  __declspec(property(get = get_atlas, put = set_atlas)) ::UnityW<::UnityEngine::RenderTexture> atlas;
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
-  __declspec(property(get = get_filterMode))::UnityEngine::FilterMode filterMode;
+  __declspec(property(get = get_filterMode)) ::UnityEngine::FilterMode filterMode;
 
-  __declspec(property(get = get_format))::UnityEngine::RenderTextureFormat format;
+  __declspec(property(get = get_format)) ::UnityEngine::RenderTextureFormat format;
 
   /// @brief Field m_1Padding, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_m_1Padding, put = __cordl_internal_set_m_1Padding)) int32_t m_1Padding;
@@ -94,47 +94,47 @@ public:
   __declspec(property(get = __cordl_internal_get_m_2Padding, put = __cordl_internal_set_m_2Padding)) int32_t m_2Padding;
 
   /// @brief Field m_Allocator, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Allocator, put = __cordl_internal_set_m_Allocator))::UnityEngine::UIElements::UIR::Allocator2D* m_Allocator;
+  __declspec(property(get = __cordl_internal_get_m_Allocator, put = __cordl_internal_set_m_Allocator)) ::UnityEngine::UIElements::UIR::Allocator2D* m_Allocator;
 
   /// @brief Field m_Blitter, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Blitter, put = __cordl_internal_set_m_Blitter))::UnityEngine::UIElements::UIR::TextureBlitter* m_Blitter;
+  __declspec(property(get = __cordl_internal_get_m_Blitter, put = __cordl_internal_set_m_Blitter)) ::UnityEngine::UIElements::UIR::TextureBlitter* m_Blitter;
 
   /// @brief Field m_CurrentSize, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CurrentSize, put = __cordl_internal_set_m_CurrentSize))::UnityEngine::Vector2Int m_CurrentSize;
+  __declspec(property(get = __cordl_internal_get_m_CurrentSize, put = __cordl_internal_set_m_CurrentSize)) ::UnityEngine::Vector2Int m_CurrentSize;
 
   /// @brief Field s_TextureCounter, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_TextureCounter, put = setStaticF_s_TextureCounter)) int32_t s_TextureCounter;
 
-  __declspec(property(get = get_textureId, put = set_textureId))::UnityEngine::UIElements::TextureId textureId;
+  __declspec(property(get = get_textureId, put = set_textureId)) ::UnityEngine::UIElements::TextureId textureId;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Commit, addr 0x3613cec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Commit, addr 0x49cde64, size 0x44, virtual false, abstract: false, final false
   inline void Commit();
 
-  /// @brief Method CreateAtlasTexture, addr 0x3614198, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CreateAtlasTexture, addr 0x49ce214, size 0x130, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> CreateAtlasTexture();
 
-  /// @brief Method Dispose, addr 0x3613420, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49cd738, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x361348c, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49cd7a4, size 0x1dc, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::DynamicAtlasPage* New_ctor(::UnityEngine::RenderTextureFormat format, ::UnityEngine::FilterMode filterMode, ::UnityEngine::Vector2Int minSize,
                                                                       ::UnityEngine::Vector2Int maxSize);
 
-  /// @brief Method Remove, addr 0x3613bf0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x49cdd84, size 0xe0, virtual false, abstract: false, final false
   inline void Remove(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D alloc);
 
-  /// @brief Method TryAdd, addr 0x36136cc, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method TryAdd, addr 0x49cd980, size 0x2bc, virtual false, abstract: false, final false
   inline bool TryAdd(::UnityEngine::Texture2D* image, ByRef<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D> alloc, ByRef<::UnityEngine::RectInt> rect);
 
-  /// @brief Method Update, addr 0x36138b0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x49cdc3c, size 0x148, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Texture2D* image, ::UnityEngine::RectInt rect);
 
-  /// @brief Method UpdateAtlasTexture, addr 0x3613d2c, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method UpdateAtlasTexture, addr 0x49cdea8, size 0x36c, virtual false, abstract: false, final false
   inline void UpdateAtlasTexture();
 
   constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__atlas_k__BackingField() const;
@@ -209,24 +209,24 @@ public:
 
   constexpr void __cordl_internal_set_m_CurrentSize(::UnityEngine::Vector2Int value);
 
-  /// @brief Method .ctor, addr 0x3613204, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49cd5d8, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderTextureFormat format, ::UnityEngine::FilterMode filterMode, ::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize);
 
   static inline int32_t getStaticF_s_TextureCounter();
 
-  /// @brief Method get_atlas, addr 0x36131e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x49cd5b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_atlas();
 
-  /// @brief Method get_disposed, addr 0x361340c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x49cd724, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_filterMode, addr 0x36131fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_filterMode, addr 0x49cd5d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::FilterMode get_filterMode();
 
-  /// @brief Method get_format, addr 0x36131f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x49cd5c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureFormat get_format();
 
-  /// @brief Method get_textureId, addr 0x36131d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textureId, addr 0x49cd5a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId get_textureId();
 
   /// @brief Convert to "::System::IDisposable"
@@ -234,13 +234,13 @@ public:
 
   static inline void setStaticF_s_TextureCounter(int32_t value);
 
-  /// @brief Method set_atlas, addr 0x36131ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_atlas, addr 0x49cd5c0, size 0x8, virtual false, abstract: false, final false
   inline void set_atlas(::UnityEngine::RenderTexture* value);
 
-  /// @brief Method set_disposed, addr 0x3613414, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x49cd72c, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method set_textureId, addr 0x36131dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textureId, addr 0x49cd5b0, size 0x8, virtual false, abstract: false, final false
   inline void set_textureId(::UnityEngine::UIElements::TextureId value);
 
 protected:
@@ -292,6 +292,9 @@ public:
 
   /// @brief Field <disposed>k__BackingField, offset: 0x58, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5995 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

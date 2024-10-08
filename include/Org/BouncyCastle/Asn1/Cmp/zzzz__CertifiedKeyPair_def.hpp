@@ -30,29 +30,29 @@ class CertifiedKeyPair;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair);
 // Type: Org.BouncyCastle.Asn1.Cmp::CertifiedKeyPair
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::CertifiedKeyPair*
 class CORDL_TYPE CertifiedKeyPair : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_CertOrEncCert))::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* CertOrEncCert;
+  __declspec(property(get = get_CertOrEncCert)) ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* CertOrEncCert;
 
-  __declspec(property(get = get_PrivateKey))::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* PrivateKey;
+  __declspec(property(get = get_PrivateKey)) ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* PrivateKey;
 
-  __declspec(property(get = get_PublicationInfo))::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* PublicationInfo;
+  __declspec(property(get = get_PublicationInfo)) ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* PublicationInfo;
 
   /// @brief Field certOrEncCert, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_certOrEncCert, put = __cordl_internal_set_certOrEncCert))::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* certOrEncCert;
+  __declspec(property(get = __cordl_internal_get_certOrEncCert, put = __cordl_internal_set_certOrEncCert)) ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* certOrEncCert;
 
   /// @brief Field privateKey, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_privateKey, put = __cordl_internal_set_privateKey))::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* privateKey;
+  __declspec(property(get = __cordl_internal_get_privateKey, put = __cordl_internal_set_privateKey)) ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* privateKey;
 
   /// @brief Field publicationInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_publicationInfo, put = __cordl_internal_set_publicationInfo))::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* publicationInfo;
+  __declspec(property(get = __cordl_internal_get_publicationInfo, put = __cordl_internal_set_publicationInfo)) ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* publicationInfo;
 
-  /// @brief Method GetInstance, addr 0x10d5dc4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22b3984, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* New_ctor(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* certOrEncCert);
@@ -62,7 +62,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10d5ffc, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22b3bac, size 0x120, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert*& __cordl_internal_get_certOrEncCert();
@@ -83,23 +83,23 @@ public:
 
   constexpr void __cordl_internal_set_publicationInfo(::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* value);
 
-  /// @brief Method .ctor, addr 0x10d5f4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b3b00, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* certOrEncCert);
 
-  /// @brief Method .ctor, addr 0x10d5f58, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b3b0c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* certOrEncCert, ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* privateKey,
                     ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* publicationInfo);
 
-  /// @brief Method .ctor, addr 0x10d5b44, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b3710, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertOrEncCert, addr 0x10d5fe4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertOrEncCert, addr 0x22b3b94, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* get_CertOrEncCert();
 
-  /// @brief Method get_PrivateKey, addr 0x10d5fec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PrivateKey, addr 0x22b3b9c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* get_PrivateKey();
 
-  /// @brief Method get_PublicationInfo, addr 0x10d5ff4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PublicationInfo, addr 0x22b3ba4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* get_PublicationInfo();
 
 protected:
@@ -124,6 +124,9 @@ public:
 
   /// @brief Field publicationInfo, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* ___publicationInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

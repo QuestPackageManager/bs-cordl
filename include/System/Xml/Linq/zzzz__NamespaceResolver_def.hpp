@@ -25,7 +25,7 @@ struct NamespaceResolver;
 MARK_REF_PTR_T(::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration);
 MARK_VAL_T(::System::Xml::Linq::NamespaceResolver);
 // Type: ::NamespaceDeclaration
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
 // CS Name: ::NamespaceResolver::NamespaceDeclaration*
@@ -33,13 +33,13 @@ class CORDL_TYPE __NamespaceResolver__NamespaceDeclaration : public ::System::Ob
 public:
   // Declarations
   /// @brief Field ns, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns))::System::Xml::Linq::XNamespace* ns;
+  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::System::Xml::Linq::XNamespace* ns;
 
   /// @brief Field prefix, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix))::StringW prefix;
+  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix)) ::StringW prefix;
 
   /// @brief Field prev, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_prev, put = __cordl_internal_set_prev))::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* prev;
+  __declspec(property(get = __cordl_internal_get_prev, put = __cordl_internal_set_prev)) ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* prev;
 
   /// @brief Field scope, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_scope, put = __cordl_internal_set_scope)) int32_t scope;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_scope(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2dd1cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41d5be8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,6 +99,9 @@ public:
   /// @brief Field prev, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* ___prev;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17907 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -114,7 +117,7 @@ static_assert(offsetof(::System::Xml::Linq::__NamespaceResolver__NamespaceDeclar
 
 } // namespace System::Xml::Linq
 // Type: System.Xml.Linq::NamespaceResolver
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: true
 // CS Name: ::System.Xml.Linq::NamespaceResolver
@@ -123,19 +126,19 @@ public:
   // Declarations
   using NamespaceDeclaration = ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration;
 
-  /// @brief Method Add, addr 0x2dd1ba8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x41d5aec, size 0x9c, virtual false, abstract: false, final false
   inline void Add(::StringW prefix, ::System::Xml::Linq::XNamespace* ns);
 
-  /// @brief Method AddFirst, addr 0x2dd1a2c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AddFirst, addr 0x41d5970, size 0x98, virtual false, abstract: false, final false
   inline void AddFirst(::StringW prefix, ::System::Xml::Linq::XNamespace* ns);
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x2dd1950, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixOfNamespace, addr 0x41d5894, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns, bool allowDefaultNamespace);
 
-  /// @brief Method PopScope, addr 0x2dd1c44, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method PopScope, addr 0x41d5b88, size 0x60, virtual false, abstract: false, final false
   inline void PopScope();
 
-  /// @brief Method PushScope, addr 0x2dd1b98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PushScope, addr 0x41d5adc, size 0x10, virtual false, abstract: false, final false
   inline void PushScope();
 
   // Ctor Parameters []
@@ -156,6 +159,9 @@ public:
 
   /// @brief Field _rover, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* _rover;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17908 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

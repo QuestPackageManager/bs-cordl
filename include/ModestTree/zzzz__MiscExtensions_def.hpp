@@ -33,7 +33,7 @@ class MiscExtensions;
 // Write type traits
 MARK_REF_PTR_T(::ModestTree::MiscExtensions);
 // Type: ModestTree::MiscExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
 // CS Name: ::ModestTree::MiscExtensions*
@@ -43,7 +43,7 @@ public:
   /// @brief Method AllocFreeAddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AllocFreeAddRange(::System::Collections::Generic::IList_1<T>* list, ::System::Collections::Generic::IList_1<T>* items);
 
-  /// @brief Method Fmt, addr 0x36526d8, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Fmt, addr 0x4a79014, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW Fmt(::StringW s, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method GetValueAndRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -52,7 +52,7 @@ public:
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOf(::System::Collections::Generic::IList_1<T>* list, T item);
 
-  /// @brief Method Join, addr 0x36534dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x4a79e1c, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW Join(::System::Collections::Generic::IEnumerable_1<::StringW>* values, ::StringW separator);
 
   /// @brief Method RemoveWithConfirm, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -80,6 +80,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MiscExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MiscExtensions(MiscExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11914 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -29,6 +29,7 @@ module;
 #include "System/Runtime/CompilerServices/DateTimeConstantAttribute.hpp"
 #include "System/Runtime/CompilerServices/DecimalConstantAttribute.hpp"
 #include "System/Runtime/CompilerServices/DefaultDependencyAttribute.hpp"
+#include "System/Runtime/CompilerServices/DependencyAttribute.hpp"
 #include "System/Runtime/CompilerServices/Ephemeron.hpp"
 #include "System/Runtime/CompilerServices/ExtensionAttribute.hpp"
 #include "System/Runtime/CompilerServices/FixedBufferAttribute.hpp"

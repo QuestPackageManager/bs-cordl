@@ -30,7 +30,7 @@ class Rfc6637Utilities;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities);
 // Type: Org.BouncyCastle.Bcpg.OpenPgp::Rfc6637Utilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::Rfc6637Utilities*
@@ -38,30 +38,30 @@ class CORDL_TYPE Rfc6637Utilities : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ANONYMOUS_SENDER, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ANONYMOUS_SENDER, put = setStaticF_ANONYMOUS_SENDER))::ArrayW<uint8_t, ::Array<uint8_t>*> ANONYMOUS_SENDER;
+  static __declspec(property(get = getStaticF_ANONYMOUS_SENDER, put = setStaticF_ANONYMOUS_SENDER)) ::ArrayW<uint8_t, ::Array<uint8_t>*> ANONYMOUS_SENDER;
 
-  /// @brief Method CreateKey, addr 0x132cea0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CreateKey, addr 0x24f8e4c, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateKey(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyData, ::Org::BouncyCastle::Math::EC::ECPoint* s);
 
-  /// @brief Method CreateUserKeyingMaterial, addr 0x1342990, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method CreateUserKeyingMaterial, addr 0x250e598, size 0x268, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateUserKeyingMaterial(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyData);
 
-  /// @brief Method GetAgreementAlgorithm, addr 0x134265c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetAgreementAlgorithm, addr 0x250e26c, size 0x16c, virtual false, abstract: false, final false
   static inline ::StringW GetAgreementAlgorithm(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyData);
 
-  /// @brief Method GetKeyEncryptionOID, addr 0x13427d0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetKeyEncryptionOID, addr 0x250e3d8, size 0x130, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetKeyEncryptionOID(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algID);
 
-  /// @brief Method GetKeyLength, addr 0x13428f8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetKeyLength, addr 0x250e508, size 0x90, virtual false, abstract: false, final false
   static inline int32_t GetKeyLength(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algID);
 
-  /// @brief Method Kdf, addr 0x1342bf8, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method Kdf, addr 0x250e800, size 0x37c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Kdf(::Org::BouncyCastle::Bcpg::HashAlgorithmTag digestAlg, ::Org::BouncyCastle::Math::EC::ECPoint* s, int32_t keyLen,
                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> parameters);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1342654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250e264, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_ANONYMOUS_SENDER();
@@ -81,6 +81,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Rfc6637Utilities", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Rfc6637Utilities(Rfc6637Utilities const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1675 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

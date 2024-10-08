@@ -19,7 +19,7 @@ class SpecialEventsForKeyword;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword);
 // Type: BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*
@@ -27,15 +27,15 @@ class CORDL_TYPE SpecialEventsForKeyword : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _keyword, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__keyword, put = __cordl_internal_set__keyword))::StringW _keyword;
+  __declspec(property(get = __cordl_internal_get__keyword, put = __cordl_internal_set__keyword)) ::StringW _keyword;
 
   /// @brief Field _specialEvents, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__specialEvents,
-                      put = __cordl_internal_set__specialEvents))::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* _specialEvents;
+                      put = __cordl_internal_set__specialEvents)) ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* _specialEvents;
 
-  __declspec(property(get = get_keyword))::StringW keyword;
+  __declspec(property(get = get_keyword)) ::StringW keyword;
 
-  __declspec(property(get = get_specialEvents))::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* specialEvents;
+  __declspec(property(get = get_specialEvents)) ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* specialEvents;
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword* New_ctor(::StringW keyword,
                                                                                            ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* specialEvents);
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__specialEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* value);
 
-  /// @brief Method .ctor, addr 0x1505ae0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c98fc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW keyword, ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* specialEvents);
 
-  /// @brief Method get_keyword, addr 0x1505ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyword, addr 0x26c98ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_keyword();
 
-  /// @brief Method get_specialEvents, addr 0x1505ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_specialEvents, addr 0x26c98f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* get_specialEvents();
 
 protected:
@@ -80,6 +80,9 @@ public:
 
   /// @brief Field _specialEvents, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* ____specialEvents;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13397 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

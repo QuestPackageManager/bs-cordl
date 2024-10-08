@@ -37,7 +37,7 @@ class __EnvironmentTrackDefinitionsListModel____c;
 MARK_REF_PTR_T(::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel);
 MARK_REF_PTR_T(::BeatSaber::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionsListModel____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions::DataModels {
 // Is value type: false
 // CS Name: ::EnvironmentTrackDefinitionsListModel::<>c*
@@ -45,26 +45,26 @@ class CORDL_TYPE __EnvironmentTrackDefinitionsListModel____c : public ::System::
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::BeatSaber::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionsListModel____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::BeatSaber::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionsListModel____c* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF___9__1_0,
-               put = setStaticF___9__1_0))::System::Func_2<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* __9__1_0;
+  static __declspec(property(
+      get = getStaticF___9__1_0,
+      put = setStaticF___9__1_0)) ::System::Func_2<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* __9__1_0;
 
   /// @brief Field <>9__1_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_1, put = setStaticF___9__1_1))::System::Func_2<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>,
-                                                                                                    ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* __9__1_1;
+  static __declspec(property(get = getStaticF___9__1_1, put = setStaticF___9__1_1)) ::System::Func_2<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>,
+                                                                                                     ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* __9__1_1;
 
   static inline ::BeatSaber::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionsListModel____c* New_ctor();
 
-  /// @brief Method <.ctor>b__1_0, addr 0x1078484, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_0, addr 0x2245458, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> __ctor_b__1_0(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO* trackDefinition);
 
-  /// @brief Method <.ctor>b__1_1, addr 0x107849c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_1, addr 0x2245470, size 0x58, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* __ctor_b__1_1(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO* trackDefinition);
 
-  /// @brief Method .ctor, addr 0x107847c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2245450, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatSaber::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionsListModel____c* getStaticF___9();
@@ -95,6 +95,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __EnvironmentTrackDefinitionsListModel____c(__EnvironmentTrackDefinitionsListModel____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18519 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -102,7 +105,7 @@ static_assert(::cordl_internals::size_check_v<::BeatSaber::TrackDefinitions::Dat
 
 } // namespace BeatSaber::TrackDefinitions::DataModels
 // Type: BeatSaber.TrackDefinitions.DataModels::EnvironmentTrackDefinitionsListModel
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions::DataModels {
 // Is value type: false
 // CS Name: ::BeatSaber.TrackDefinitions.DataModels::EnvironmentTrackDefinitionsListModel*
@@ -111,10 +114,10 @@ public:
   // Declarations
   using __c = ::BeatSaber::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionsListModel____c;
 
-  __declspec(property(get = get_Item))::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* Item[];
+  __declspec(property(get = get_Item)) ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* Item[];
 
   /// @brief Field _environmentTracksTypeMap, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__environmentTracksTypeMap, put = __cordl_internal_set__environmentTracksTypeMap))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__environmentTracksTypeMap, put = __cordl_internal_set__environmentTracksTypeMap)) ::System::Collections::Generic::Dictionary_2<
       ::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* _environmentTracksTypeMap;
 
   static inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel*
@@ -130,10 +133,10 @@ public:
   constexpr void __cordl_internal_set__environmentTracksTypeMap(
       ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* value);
 
-  /// @brief Method .ctor, addr 0x1076634, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2243678, size 0x1a0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* environmentTrackDefinitions);
 
-  /// @brief Method get_Item, addr 0x10783a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2245384, size 0x70, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* get_Item(::GlobalNamespace::EnvironmentInfoSO* type);
 
 protected:
@@ -153,6 +156,9 @@ public:
   /// @brief Field _environmentTracksTypeMap, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>*
       ____environmentTracksTypeMap;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18520 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

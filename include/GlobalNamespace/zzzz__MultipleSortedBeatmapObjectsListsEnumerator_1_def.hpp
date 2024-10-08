@@ -54,7 +54,7 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerato
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4);
 // Type: ::BeatmapObjectListNode
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -64,7 +64,7 @@ class CORDL_TYPE __MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectL
 public:
   // Declarations
   /// @brief Field _dataList, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataList, put = __cordl_internal_set__dataList))::System::Collections::Generic::IReadOnlyList_1<T>* _dataList;
+  __declspec(property(get = __cordl_internal_get__dataList, put = __cordl_internal_set__dataList)) ::System::Collections::Generic::IReadOnlyList_1<T>* _dataList;
 
   /// @brief Field _idx, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__idx, put = __cordl_internal_set__idx)) int32_t _idx;
@@ -131,12 +131,15 @@ public:
   /// @brief Field _idx, offset: 0x2c, size: 0x4, def value: None
   int32_t ____idx;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12847 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<GetEnumerator>d__4
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -145,24 +148,23 @@ template <typename T>
 class CORDL_TYPE __MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(
-      get =
-          System_Collections_Generic_IEnumerator__Titem_System_Int32typeId___get_Current))::System::ValueTuple_2<T, int32_t> System_Collections_Generic_IEnumerator__Titem_System_Int32typeId___Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator__Titem_System_Int32typeId___get_Current)) ::System::ValueTuple_2<T, int32_t>
+      System_Collections_Generic_IEnumerator__Titem_System_Int32typeId___Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::ValueTuple_2<T, int32_t> __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::ValueTuple_2<T, int32_t> __2__current;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>* __4__this;
 
   /// @brief Field <node>5__2, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__node_5__2,
-                      put = __cordl_internal_set__node_5__2))::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>* _node_5__2;
+                      put = __cordl_internal_set__node_5__2)) ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>* _node_5__2;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T,int32_t>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T, int32_t>>*() noexcept;
@@ -252,12 +254,15 @@ public:
   /// @brief Field <node>5__2, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>* ____node_5__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12848 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::MultipleSortedBeatmapObjectsListsEnumerator`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -273,7 +278,8 @@ public:
   /// @brief Field _priorityQueue, offset 0x10, size 0x8
   __declspec(property(
       get = __cordl_internal_get__priorityQueue,
-      put = __cordl_internal_set__priorityQueue))::Priority_Queue::StablePriorityQueue_1<::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>*>* _priorityQueue;
+      put =
+          __cordl_internal_set__priorityQueue)) ::Priority_Queue::StablePriorityQueue_1<::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>*>* _priorityQueue;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -319,6 +325,9 @@ public:
 
   /// @brief Field _priorityQueue, offset: 0x10, size: 0x8, def value: None
   ::Priority_Queue::StablePriorityQueue_1<::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>*>* ____priorityQueue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12849 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

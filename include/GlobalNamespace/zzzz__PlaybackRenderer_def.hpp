@@ -65,7 +65,7 @@ MARK_VAL_T(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type);
 MARK_REF_PTR_T(::GlobalNamespace::PlaybackRenderer);
 MARK_REF_PTR_T(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot);
 // Type: ::Type
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PlaybackRenderer::PlaybackScreenshot::Type
@@ -106,6 +106,9 @@ public:
   /// @brief Field Foreground value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type const Foreground;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5066 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -118,7 +121,7 @@ static_assert(offsetof(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot
 
 } // namespace GlobalNamespace
 // Type: ::PlaybackScreenshot
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlaybackRenderer::PlaybackScreenshot*
@@ -128,36 +131,36 @@ public:
   using Type = ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type;
 
   /// @brief Field _backgroundColor, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get__backgroundColor, put = __cordl_internal_set__backgroundColor))::UnityEngine::Color _backgroundColor;
+  __declspec(property(get = __cordl_internal_get__backgroundColor, put = __cordl_internal_set__backgroundColor)) ::UnityEngine::Color _backgroundColor;
 
   /// @brief Field _layerMask, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__layerMask, put = __cordl_internal_set__layerMask))::UnityEngine::LayerMask _layerMask;
+  __declspec(property(get = __cordl_internal_get__layerMask, put = __cordl_internal_set__layerMask)) ::UnityEngine::LayerMask _layerMask;
 
   /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
   /// @brief Field _path, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__path, put = __cordl_internal_set__path))::StringW _path;
+  __declspec(property(get = __cordl_internal_get__path, put = __cordl_internal_set__path)) ::StringW _path;
 
   /// @brief Field _texture, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__texture, put = __cordl_internal_set__texture))::UnityW<::UnityEngine::RenderTexture> _texture;
+  __declspec(property(get = __cordl_internal_get__texture, put = __cordl_internal_set__texture)) ::UnityW<::UnityEngine::RenderTexture> _texture;
 
   /// @brief Field _type, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type _type;
 
-  __declspec(property(get = get_backgroundColor))::UnityEngine::Color backgroundColor;
+  __declspec(property(get = get_backgroundColor)) ::UnityEngine::Color backgroundColor;
 
-  __declspec(property(get = get_layerMask))::UnityEngine::LayerMask layerMask;
+  __declspec(property(get = get_layerMask)) ::UnityEngine::LayerMask layerMask;
 
-  __declspec(property(get = get_name))::StringW name;
+  __declspec(property(get = get_name)) ::StringW name;
 
-  __declspec(property(get = get_path, put = set_path))::StringW path;
+  __declspec(property(get = get_path, put = set_path)) ::StringW path;
 
-  __declspec(property(get = get_texture))::UnityW<::UnityEngine::RenderTexture> texture;
+  __declspec(property(get = get_texture)) ::UnityW<::UnityEngine::RenderTexture> texture;
 
-  __declspec(property(get = get_type))::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type type;
+  __declspec(property(get = get_type)) ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type type;
 
-  /// @brief Method CreateTexture, addr 0x26b205c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateTexture, addr 0x3aa8064, size 0xc4, virtual false, abstract: false, final false
   inline void CreateTexture(int32_t width, int32_t height);
 
   static inline ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot* New_ctor(::StringW name, ::UnityEngine::LayerMask layerMask,
@@ -199,28 +202,28 @@ public:
 
   constexpr void __cordl_internal_set__type(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type value);
 
-  /// @brief Method .ctor, addr 0x26b28c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa8970, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type type, ::UnityEngine::Color backgroundColor);
 
-  /// @brief Method get_backgroundColor, addr 0x26b28bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_backgroundColor, addr 0x3aa8964, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_backgroundColor();
 
-  /// @brief Method get_layerMask, addr 0x26b289c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layerMask, addr 0x3aa8944, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_layerMask();
 
-  /// @brief Method get_name, addr 0x26b288c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x3aa8934, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_path, addr 0x26b28ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_path, addr 0x3aa8954, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_path();
 
-  /// @brief Method get_texture, addr 0x26b2894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x3aa893c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_texture();
 
-  /// @brief Method get_type, addr 0x26b28a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x3aa894c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type get_type();
 
-  /// @brief Method set_path, addr 0x26b28b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_path, addr 0x3aa895c, size 0x8, virtual false, abstract: false, final false
   inline void set_path(::StringW value);
 
 protected:
@@ -255,6 +258,9 @@ public:
   /// @brief Field _backgroundColor, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Color ____backgroundColor;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5067 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -274,7 +280,7 @@ static_assert(offsetof(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot
 
 } // namespace GlobalNamespace
 // Type: ::PlaybackRenderer
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlaybackRenderer*
@@ -283,65 +289,66 @@ public:
   // Declarations
   using PlaybackScreenshot = ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot;
 
-  /// @brief Field _camera, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
+  /// @brief Field _camera, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera)) ::UnityW<::UnityEngine::Camera> _camera;
 
-  /// @brief Field _cameraCalibration, offset 0x40, size 0x8
+  /// @brief Field _cameraCalibration, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__cameraCalibration,
-                      put = __cordl_internal_set__cameraCalibration))::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* _cameraCalibration;
+                      put = __cordl_internal_set__cameraCalibration)) ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* _cameraCalibration;
 
-  /// @brief Field _clearBackgroundShader, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__clearBackgroundShader, put = __cordl_internal_set__clearBackgroundShader))::UnityW<::UnityEngine::Shader> _clearBackgroundShader;
+  /// @brief Field _clearBackgroundShader, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__clearBackgroundShader, put = __cordl_internal_set__clearBackgroundShader)) ::UnityW<::UnityEngine::Shader> _clearBackgroundShader;
 
-  /// @brief Field _clipMaterial, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__clipMaterial, put = __cordl_internal_set__clipMaterial))::UnityW<::UnityEngine::Material> _clipMaterial;
+  /// @brief Field _clipMaterial, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__clipMaterial, put = __cordl_internal_set__clipMaterial)) ::UnityW<::UnityEngine::Material> _clipMaterial;
 
-  /// @brief Field _clipQuad, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__clipQuad, put = __cordl_internal_set__clipQuad))::UnityW<::UnityEngine::GameObject> _clipQuad;
+  /// @brief Field _clipQuad, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__clipQuad, put = __cordl_internal_set__clipQuad)) ::UnityW<::UnityEngine::GameObject> _clipQuad;
 
-  /// @brief Field _hmd, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__hmd, put = __cordl_internal_set__hmd))::UnityW<::UnityEngine::Transform> _hmd;
+  /// @brief Field _hmd, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__hmd, put = __cordl_internal_set__hmd)) ::UnityW<::UnityEngine::Transform> _hmd;
 
-  /// @brief Field _isSetup, offset 0x28, size 0x1
+  /// @brief Field _isSetup, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__isSetup, put = __cordl_internal_set__isSetup)) bool _isSetup;
 
-  /// @brief Field _screenshots, offset 0x58, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__screenshots,
-      put = __cordl_internal_set__screenshots))::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> _screenshots;
+  /// @brief Field _screenshots, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__screenshots,
+                      put =
+                          __cordl_internal_set__screenshots)) ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>
+      _screenshots;
 
-  __declspec(property(get = get_screenshots))::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> screenshots;
+  __declspec(property(get = get_screenshots)) ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> screenshots;
 
-  /// @brief Field texturesReadyEvent, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_texturesReadyEvent, put = __cordl_internal_set_texturesReadyEvent))::System::Action* texturesReadyEvent;
+  /// @brief Field texturesReadyEvent, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_texturesReadyEvent, put = __cordl_internal_set_texturesReadyEvent)) ::System::Action* texturesReadyEvent;
 
-  /// @brief Method CreateClipQuad, addr 0x26b1d68, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method CreateClipQuad, addr 0x3aa7d74, size 0x27c, virtual false, abstract: false, final false
   inline void CreateClipQuad();
 
-  /// @brief Method CreateTextures, addr 0x26b1fe8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateTextures, addr 0x3aa7ff0, size 0x74, virtual false, abstract: false, final false
   inline void CreateTextures(int32_t width, int32_t height);
 
-  /// @brief Method GetDistanceToHMD, addr 0x26b2120, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method GetDistanceToHMD, addr 0x3aa8128, size 0x30c, virtual false, abstract: false, final false
   inline float_t GetDistanceToHMD();
 
-  /// @brief Method InitCamera, addr 0x26b1c58, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method InitCamera, addr 0x3aa7c8c, size 0xe8, virtual false, abstract: false, final false
   inline void InitCamera(::UnityEngine::Camera* camera, ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* cameraCalibration);
 
-  /// @brief Method LateUpdate, addr 0x26b27e0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3aa8888, size 0xa4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::PlaybackRenderer* New_ctor();
 
-  /// @brief Method OrientClipQuad, addr 0x26b238c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OrientClipQuad, addr 0x3aa8434, size 0x140, virtual false, abstract: false, final false
   inline void OrientClipQuad();
 
-  /// @brief Method RenderBackground, addr 0x26b268c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method RenderBackground, addr 0x3aa8734, size 0x154, virtual false, abstract: false, final false
   inline void RenderBackground(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot* screenshot);
 
-  /// @brief Method RenderForeground, addr 0x26b24cc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method RenderForeground, addr 0x3aa8574, size 0x1c0, virtual false, abstract: false, final false
   inline void RenderForeground(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot* screenshot);
 
-  /// @brief Method Setup, addr 0x26b11e0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3aa7220, size 0x88, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Camera* hmdCamera, ::UnityEngine::Camera* camera, ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* cameraCalibration, int32_t textureWidth,
                     int32_t textureHeight, ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> screenshots);
 
@@ -399,16 +406,16 @@ public:
 
   constexpr void __cordl_internal_set_texturesReadyEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x26b2884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa892c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_texturesReadyEvent, addr 0x26b1b18, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_texturesReadyEvent, addr 0x3aa7b4c, size 0x9c, virtual false, abstract: false, final false
   inline void add_texturesReadyEvent(::System::Action* value);
 
-  /// @brief Method get_screenshots, addr 0x26b1c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_screenshots, addr 0x3aa7c84, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> get_screenshots();
 
-  /// @brief Method remove_texturesReadyEvent, addr 0x26b1bb4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_texturesReadyEvent, addr 0x3aa7be8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_texturesReadyEvent(::System::Action* value);
 
 protected:
@@ -425,55 +432,58 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlaybackRenderer(PlaybackRenderer const&) = delete;
 
-  /// @brief Field texturesReadyEvent, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field texturesReadyEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___texturesReadyEvent;
 
-  /// @brief Field _clearBackgroundShader, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _clearBackgroundShader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____clearBackgroundShader;
 
-  /// @brief Field _isSetup, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field _isSetup, offset: 0x30, size: 0x1, def value: None
   bool ____isSetup;
 
-  /// @brief Field _hmd, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _hmd, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____hmd;
 
-  /// @brief Field _camera, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _camera, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
 
-  /// @brief Field _cameraCalibration, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _cameraCalibration, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* ____cameraCalibration;
 
-  /// @brief Field _clipQuad, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _clipQuad, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____clipQuad;
 
-  /// @brief Field _clipMaterial, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _clipMaterial, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____clipMaterial;
 
-  /// @brief Field _screenshots, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _screenshots, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> ____screenshots;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5068 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlaybackRenderer, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlaybackRenderer, 0x68>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ___texturesReadyEvent) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ___texturesReadyEvent) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____clearBackgroundShader) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____clearBackgroundShader) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____isSetup) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____isSetup) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____hmd) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____hmd) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____camera) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____camera) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____cameraCalibration) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____cameraCalibration) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____clipQuad) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____clipQuad) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____clipMaterial) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____clipMaterial) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____screenshots) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____screenshots) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type, "", "PlaybackRenderer/PlaybackScreenshot/Type");

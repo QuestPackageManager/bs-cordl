@@ -32,7 +32,7 @@ template <typename TStateTable, typename TType, typename TState> class LocalMult
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::LocalMultiplayerSyncState_3);
 // Type: ::LocalMultiplayerSyncState`3
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
@@ -44,14 +44,14 @@ public:
   __declspec(property(get = get_Item, put = set_Item)) TState Item[];
 
   /// @brief Field _player, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__player, put = __cordl_internal_set__player))::GlobalNamespace::IConnectedPlayer* _player;
+  __declspec(property(get = __cordl_internal_get__player, put = __cordl_internal_set__player)) ::GlobalNamespace::IConnectedPlayer* _player;
 
   /// @brief Field _stateBuffer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__stateBuffer, put = __cordl_internal_set__stateBuffer))::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>* _stateBuffer;
+  __declspec(property(get = __cordl_internal_get__stateBuffer, put = __cordl_internal_set__stateBuffer)) ::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>* _stateBuffer;
 
-  __declspec(property(get = get_player))::GlobalNamespace::IConnectedPlayer* player;
+  __declspec(property(get = get_player)) ::GlobalNamespace::IConnectedPlayer* player;
 
-  __declspec(property(get = get_stateBuffer))::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* stateBuffer;
+  __declspec(property(get = get_stateBuffer)) ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* stateBuffer;
 
   /// @brief Method GetState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TState GetState(TType type);
@@ -124,6 +124,9 @@ public:
 
   /// @brief Field _stateBuffer, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>* ____stateBuffer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17296 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

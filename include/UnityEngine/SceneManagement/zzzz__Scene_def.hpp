@@ -24,7 +24,7 @@ struct Scene;
 // Write type traits
 MARK_VAL_T(::UnityEngine::SceneManagement::Scene);
 // Type: UnityEngine.SceneManagement::Scene
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::SceneManagement {
 // Is value type: true
 // CS Name: ::UnityEngine.SceneManagement::Scene
@@ -35,53 +35,53 @@ public:
 
   __declspec(property(get = get_isLoaded)) bool isLoaded;
 
-  __declspec(property(get = get_name))::StringW name;
+  __declspec(property(get = get_name)) ::StringW name;
 
   __declspec(property(get = get_rootCount)) int32_t rootCount;
 
-  /// @brief Method Equals, addr 0x346c6dc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x484861c, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x346c6d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4848614, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetIsLoadedInternal, addr 0x346c1e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetIsLoadedInternal, addr 0x4848108, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetIsLoadedInternal(int32_t sceneHandle);
 
-  /// @brief Method GetNameInternal, addr 0x346c1a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetNameInternal, addr 0x48480cc, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetNameInternal(int32_t sceneHandle);
 
-  /// @brief Method GetRootCountInternal, addr 0x346c220, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRootCountInternal, addr 0x4848144, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetRootCountInternal(int32_t sceneHandle);
 
-  /// @brief Method GetRootGameObjects, addr 0x346c398, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x48482bc, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> GetRootGameObjects();
 
-  /// @brief Method GetRootGameObjects, addr 0x346c470, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x4848394, size 0x274, virtual false, abstract: false, final false
   inline void GetRootGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* rootGameObjects);
 
-  /// @brief Method GetRootGameObjectsInternal, addr 0x346c25c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjectsInternal, addr 0x4848180, size 0x44, virtual false, abstract: false, final false
   static inline void GetRootGameObjectsInternal(int32_t sceneHandle, ::System::Object* resultRootList);
 
-  /// @brief Method IsValid, addr 0x346c2a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x48481cc, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method IsValidInternal, addr 0x346c16c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValidInternal, addr 0x4848090, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsValidInternal(int32_t sceneHandle);
 
-  /// @brief Method get_handle, addr 0x346c2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handle, addr 0x48481c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_handle();
 
-  /// @brief Method get_isLoaded, addr 0x346c320, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isLoaded, addr 0x4848244, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isLoaded();
 
-  /// @brief Method get_name, addr 0x346c2e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x4848208, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_rootCount, addr 0x346c35c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rootCount, addr 0x4848280, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_rootCount();
 
-  /// @brief Method op_Equality, addr 0x346c6c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4848608, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::SceneManagement::Scene lhs, ::UnityEngine::SceneManagement::Scene rhs);
 
   // Ctor Parameters []
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field m_Handle, offset: 0x0, size: 0x4, def value: None
   int32_t m_Handle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10964 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -13,7 +13,7 @@ struct GradientMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::GradientMode);
 // Type: UnityEngine::GradientMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::GradientMode
@@ -26,6 +26,7 @@ public:
   enum struct __GradientMode_Unwrapped : int32_t {
     __E_Blend = static_cast<int32_t>(0x0),
     __E_Fixed = static_cast<int32_t>(0x1),
+    __E_PerceptualBlend = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -53,6 +54,12 @@ public:
 
   /// @brief Field Fixed value: static_cast<int32_t>(0x1)
   static ::UnityEngine::GradientMode const Fixed;
+
+  /// @brief Field PerceptualBlend value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::GradientMode const PerceptualBlend;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10775 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

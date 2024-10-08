@@ -36,7 +36,7 @@ MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__AotHelper____c__1_1);
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__AotHelper____c__2_1);
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__AotHelper____c__3_2);
 // Type: ::<>c__1`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -46,10 +46,10 @@ class CORDL_TYPE __AotHelper____c__1_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Action* __9__1_0;
+  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Action* __9__1_0;
 
   static inline ::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>* New_ctor();
 
@@ -81,12 +81,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AotHelper____c__1_1(__AotHelper____c__1_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10145 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__2`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -96,10 +99,10 @@ class CORDL_TYPE __AotHelper____c__2_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>* __9;
 
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Action* __9__2_0;
+  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0)) ::System::Action* __9__2_0;
 
   static inline ::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>* New_ctor();
 
@@ -131,12 +134,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AotHelper____c__2_1(__AotHelper____c__2_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10146 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__3`2
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
@@ -146,10 +152,10 @@ class CORDL_TYPE __AotHelper____c__3_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>* __9;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Action* __9__3_0;
+  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Action* __9__3_0;
 
   static inline ::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>* New_ctor();
 
@@ -181,12 +187,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AotHelper____c__3_2(__AotHelper____c__3_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10147 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: Newtonsoft.Json.Utilities::AotHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::AotHelper*
@@ -202,7 +211,7 @@ public:
   /// @brief Field s_alwaysFalse, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_s_alwaysFalse, put = setStaticF_s_alwaysFalse)) bool s_alwaysFalse;
 
-  /// @brief Method Ensure, addr 0x2a37068, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Ensure, addr 0x3e47be0, size 0x164, virtual false, abstract: false, final false
   static inline void Ensure(::System::Action* action);
 
   /// @brief Method EnsureDictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -214,7 +223,7 @@ public:
   /// @brief Method EnsureType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void EnsureType();
 
-  /// @brief Method IsFalse, addr 0x2a371d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsFalse, addr 0x3e47d44, size 0x58, virtual false, abstract: false, final false
   static inline bool IsFalse();
 
   static inline bool getStaticF_s_alwaysFalse();
@@ -234,6 +243,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AotHelper", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AotHelper(AotHelper const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10148 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

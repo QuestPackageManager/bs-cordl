@@ -15,17 +15,17 @@ class OVRMixedRealityCaptureConfigurationExtensions;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions);
 // Type: ::OVRMixedRealityCaptureConfigurationExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRMixedRealityCaptureConfigurationExtensions*
 class CORDL_TYPE OVRMixedRealityCaptureConfigurationExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApplyTo, addr 0x2bbb054, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x3fc2b44, size 0x4, virtual false, abstract: false, final false
   static inline void ApplyTo(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
 
-  /// @brief Method ReadFrom, addr 0x2bbb058, size 0x1428, virtual false, abstract: false, final false
+  /// @brief Method ReadFrom, addr 0x3fc2b48, size 0x1428, virtual false, abstract: false, final false
   static inline void ReadFrom(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
 
 protected:
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRMixedRealityCaptureConfigurationExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRMixedRealityCaptureConfigurationExtensions(OVRMixedRealityCaptureConfigurationExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8415 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

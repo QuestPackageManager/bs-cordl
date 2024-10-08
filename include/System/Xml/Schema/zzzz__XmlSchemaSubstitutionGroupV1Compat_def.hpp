@@ -15,17 +15,17 @@ class XmlSchemaSubstitutionGroupV1Compat;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat);
 // Type: System.Xml.Schema::XmlSchemaSubstitutionGroupV1Compat
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaSubstitutionGroupV1Compat*
 class CORDL_TYPE XmlSchemaSubstitutionGroupV1Compat : public ::System::Xml::Schema::XmlSchemaSubstitutionGroup {
 public:
   // Declarations
-  __declspec(property(get = get_Choice))::System::Xml::Schema::XmlSchemaChoice* Choice;
+  __declspec(property(get = get_Choice)) ::System::Xml::Schema::XmlSchemaChoice* Choice;
 
   /// @brief Field choice, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_choice, put = __cordl_internal_set_choice))::System::Xml::Schema::XmlSchemaChoice* choice;
+  __declspec(property(get = __cordl_internal_get_choice, put = __cordl_internal_set_choice)) ::System::Xml::Schema::XmlSchemaChoice* choice;
 
   static inline ::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat* New_ctor();
 
@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_choice(::System::Xml::Schema::XmlSchemaChoice* value);
 
-  /// @brief Method .ctor, addr 0x2e506f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4252e60, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Choice, addr 0x2e506e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Choice, addr 0x4252e58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaChoice* get_Choice();
 
 protected:
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field choice, offset: 0x48, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaChoice* ___choice;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7695 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

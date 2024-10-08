@@ -26,25 +26,25 @@ class ECPublicKeyParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::ECPublicKeyParameters
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ECPublicKeyParameters*
 class CORDL_TYPE ECPublicKeyParameters : public ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters {
 public:
   // Declarations
-  __declspec(property(get = get_Q))::Org::BouncyCastle::Math::EC::ECPoint* Q;
+  __declspec(property(get = get_Q)) ::Org::BouncyCastle::Math::EC::ECPoint* Q;
 
   /// @brief Field q, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Org::BouncyCastle::Math::EC::ECPoint* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q)) ::Org::BouncyCastle::Math::EC::ECPoint* q;
 
-  /// @brief Method Equals, addr 0x11a5214, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x237c494, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x11a52b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x237c530, size 0x5c, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x11a530c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x237c58c, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Math::EC::ECPoint* q,
@@ -64,19 +64,19 @@ public:
 
   constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method .ctor, addr 0x11a5030, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237c2b0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x11a5170, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237c3f0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method .ctor, addr 0x11a4fd0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237c250, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x11a50cc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237c34c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method get_Q, addr 0x11a520c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0x237c48c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Q();
 
 protected:
@@ -95,6 +95,9 @@ public:
 
   /// @brief Field q, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::EC::ECPoint* ___q;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1039 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

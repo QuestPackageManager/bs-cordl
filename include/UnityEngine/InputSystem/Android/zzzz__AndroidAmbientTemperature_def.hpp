@@ -12,7 +12,7 @@ class AndroidAmbientTemperature;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidAmbientTemperature);
 // Type: UnityEngine.InputSystem.Android::AndroidAmbientTemperature
-// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidAmbientTemperature*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidAmbientTemperature* New_ctor();
 
-  /// @brief Method .ctor, addr 0x318ba28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x458e9fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AndroidAmbientTemperature", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidAmbientTemperature(AndroidAmbientTemperature const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6817 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

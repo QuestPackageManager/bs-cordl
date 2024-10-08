@@ -41,28 +41,28 @@ class ProcessStartInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::ProcessStartInfo);
 // Type: System.Diagnostics::ProcessStartInfo
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
 // CS Name: ::System.Diagnostics::ProcessStartInfo*
 class CORDL_TYPE ProcessStartInfo : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_ArgumentList))::System::Collections::ObjectModel::Collection_1<::StringW>* ArgumentList;
+  __declspec(property(get = get_ArgumentList)) ::System::Collections::ObjectModel::Collection_1<::StringW>* ArgumentList;
 
-  __declspec(property(get = get_Arguments, put = set_Arguments))::StringW Arguments;
+  __declspec(property(get = get_Arguments, put = set_Arguments)) ::StringW Arguments;
 
-  __declspec(property(get = get_Domain))::StringW Domain;
+  __declspec(property(get = get_Domain)) ::StringW Domain;
 
-  __declspec(property(get = get_EnvironmentVariables))::System::Collections::Specialized::StringDictionary* EnvironmentVariables;
+  __declspec(property(get = get_EnvironmentVariables)) ::System::Collections::Specialized::StringDictionary* EnvironmentVariables;
 
-  __declspec(property(get = get_FileName, put = set_FileName))::StringW FileName;
+  __declspec(property(get = get_FileName, put = set_FileName)) ::StringW FileName;
 
   __declspec(property(get = get_HaveEnvVars)) bool HaveEnvVars;
 
   __declspec(property(get = get_LoadUserProfile)) bool LoadUserProfile;
 
-  __declspec(property(get = get_Password))::System::Security::SecureString* Password;
+  __declspec(property(get = get_Password)) ::System::Security::SecureString* Password;
 
   __declspec(property(get = get_RedirectStandardError, put = set_RedirectStandardError)) bool RedirectStandardError;
 
@@ -70,65 +70,65 @@ public:
 
   __declspec(property(get = get_RedirectStandardOutput, put = set_RedirectStandardOutput)) bool RedirectStandardOutput;
 
-  __declspec(property(get = get_StandardErrorEncoding))::System::Text::Encoding* StandardErrorEncoding;
+  __declspec(property(get = get_StandardErrorEncoding)) ::System::Text::Encoding* StandardErrorEncoding;
 
-  __declspec(property(get = get_StandardInputEncoding))::System::Text::Encoding* StandardInputEncoding;
+  __declspec(property(get = get_StandardInputEncoding)) ::System::Text::Encoding* StandardInputEncoding;
 
-  __declspec(property(get = get_StandardOutputEncoding))::System::Text::Encoding* StandardOutputEncoding;
+  __declspec(property(get = get_StandardOutputEncoding)) ::System::Text::Encoding* StandardOutputEncoding;
 
   __declspec(property(get = get_UseShellExecute, put = set_UseShellExecute)) bool UseShellExecute;
 
-  __declspec(property(get = get_UserName))::StringW UserName;
+  __declspec(property(get = get_UserName)) ::StringW UserName;
 
-  __declspec(property(put = set_WindowStyle))::System::Diagnostics::ProcessWindowStyle WindowStyle;
+  __declspec(property(put = set_WindowStyle)) ::System::Diagnostics::ProcessWindowStyle WindowStyle;
 
-  __declspec(property(get = get_WorkingDirectory))::StringW WorkingDirectory;
+  __declspec(property(get = get_WorkingDirectory)) ::StringW WorkingDirectory;
 
   /// @brief Field <StandardInputEncoding>k__BackingField, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__StandardInputEncoding_k__BackingField,
-                      put = __cordl_internal_set__StandardInputEncoding_k__BackingField))::System::Text::Encoding* _StandardInputEncoding_k__BackingField;
+                      put = __cordl_internal_set__StandardInputEncoding_k__BackingField)) ::System::Text::Encoding* _StandardInputEncoding_k__BackingField;
 
   /// @brief Field _argumentList, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__argumentList, put = __cordl_internal_set__argumentList))::System::Collections::ObjectModel::Collection_1<::StringW>* _argumentList;
+  __declspec(property(get = __cordl_internal_get__argumentList, put = __cordl_internal_set__argumentList)) ::System::Collections::ObjectModel::Collection_1<::StringW>* _argumentList;
 
   /// @brief Field arguments, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_arguments, put = __cordl_internal_set_arguments))::StringW arguments;
+  __declspec(property(get = __cordl_internal_get_arguments, put = __cordl_internal_set_arguments)) ::StringW arguments;
 
   /// @brief Field createNoWindow, offset 0x80, size 0x1
   __declspec(property(get = __cordl_internal_get_createNoWindow, put = __cordl_internal_set_createNoWindow)) bool createNoWindow;
 
   /// @brief Field directory, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_directory, put = __cordl_internal_set_directory))::StringW directory;
+  __declspec(property(get = __cordl_internal_get_directory, put = __cordl_internal_set_directory)) ::StringW directory;
 
   /// @brief Field domain, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_domain, put = __cordl_internal_set_domain))::StringW domain;
+  __declspec(property(get = __cordl_internal_get_domain, put = __cordl_internal_set_domain)) ::StringW domain;
 
   /// @brief Field empty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_empty, put = setStaticF_empty))::ArrayW<::StringW, ::Array<::StringW>*> empty;
+  static __declspec(property(get = getStaticF_empty, put = setStaticF_empty)) ::ArrayW<::StringW, ::Array<::StringW>*> empty;
 
   /// @brief Field environment, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_environment, put = __cordl_internal_set_environment))::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* environment;
+  __declspec(property(get = __cordl_internal_get_environment, put = __cordl_internal_set_environment)) ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* environment;
 
   /// @brief Field environmentVariables, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentVariables, put = __cordl_internal_set_environmentVariables))::System::Collections::Specialized::StringDictionary* environmentVariables;
+  __declspec(property(get = __cordl_internal_get_environmentVariables, put = __cordl_internal_set_environmentVariables)) ::System::Collections::Specialized::StringDictionary* environmentVariables;
 
   /// @brief Field errorDialog, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get_errorDialog, put = __cordl_internal_set_errorDialog)) bool errorDialog;
 
   /// @brief Field errorDialogParentHandle, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_errorDialogParentHandle, put = __cordl_internal_set_errorDialogParentHandle))::System::IntPtr errorDialogParentHandle;
+  __declspec(property(get = __cordl_internal_get_errorDialogParentHandle, put = __cordl_internal_set_errorDialogParentHandle)) ::System::IntPtr errorDialogParentHandle;
 
   /// @brief Field fileName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName))::StringW fileName;
+  __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName)) ::StringW fileName;
 
   /// @brief Field loadUserProfile, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_loadUserProfile, put = __cordl_internal_set_loadUserProfile)) bool loadUserProfile;
 
   /// @brief Field password, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password))::System::Security::SecureString* password;
+  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password)) ::System::Security::SecureString* password;
 
   /// @brief Field passwordInClearText, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_passwordInClearText, put = __cordl_internal_set_passwordInClearText))::StringW passwordInClearText;
+  __declspec(property(get = __cordl_internal_get_passwordInClearText, put = __cordl_internal_set_passwordInClearText)) ::StringW passwordInClearText;
 
   /// @brief Field redirectStandardError, offset 0x6b, size 0x1
   __declspec(property(get = __cordl_internal_get_redirectStandardError, put = __cordl_internal_set_redirectStandardError)) bool redirectStandardError;
@@ -140,25 +140,25 @@ public:
   __declspec(property(get = __cordl_internal_get_redirectStandardOutput, put = __cordl_internal_set_redirectStandardOutput)) bool redirectStandardOutput;
 
   /// @brief Field standardErrorEncoding, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_standardErrorEncoding, put = __cordl_internal_set_standardErrorEncoding))::System::Text::Encoding* standardErrorEncoding;
+  __declspec(property(get = __cordl_internal_get_standardErrorEncoding, put = __cordl_internal_set_standardErrorEncoding)) ::System::Text::Encoding* standardErrorEncoding;
 
   /// @brief Field standardOutputEncoding, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_standardOutputEncoding, put = __cordl_internal_set_standardOutputEncoding))::System::Text::Encoding* standardOutputEncoding;
+  __declspec(property(get = __cordl_internal_get_standardOutputEncoding, put = __cordl_internal_set_standardOutputEncoding)) ::System::Text::Encoding* standardOutputEncoding;
 
   /// @brief Field useShellExecute, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_useShellExecute, put = __cordl_internal_set_useShellExecute)) bool useShellExecute;
 
   /// @brief Field userName, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_userName, put = __cordl_internal_set_userName))::StringW userName;
+  __declspec(property(get = __cordl_internal_get_userName, put = __cordl_internal_set_userName)) ::StringW userName;
 
   /// @brief Field verb, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_verb, put = __cordl_internal_set_verb))::StringW verb;
+  __declspec(property(get = __cordl_internal_get_verb, put = __cordl_internal_set_verb)) ::StringW verb;
 
   /// @brief Field weakParentProcess, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_weakParentProcess, put = __cordl_internal_set_weakParentProcess))::System::WeakReference* weakParentProcess;
+  __declspec(property(get = __cordl_internal_get_weakParentProcess, put = __cordl_internal_set_weakParentProcess)) ::System::WeakReference* weakParentProcess;
 
   /// @brief Field windowStyle, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_windowStyle, put = __cordl_internal_set_windowStyle))::System::Diagnostics::ProcessWindowStyle windowStyle;
+  __declspec(property(get = __cordl_internal_get_windowStyle, put = __cordl_internal_set_windowStyle)) ::System::Diagnostics::ProcessWindowStyle windowStyle;
 
   static inline ::System::Diagnostics::ProcessStartInfo* New_ctor();
 
@@ -308,86 +308,86 @@ public:
 
   constexpr void __cordl_internal_set_windowStyle(::System::Diagnostics::ProcessWindowStyle value);
 
-  /// @brief Method .ctor, addr 0x2fd457c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43baf10, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2fd10f0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43b7df0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::Process* parent);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_empty();
 
-  /// @brief Method get_ArgumentList, addr 0x2fd4400, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_ArgumentList, addr 0x43bad9c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::Collection_1<::StringW>* get_ArgumentList();
 
-  /// @brief Method get_Arguments, addr 0x2fd4480, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Arguments, addr 0x43bae14, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Arguments();
 
-  /// @brief Method get_Domain, addr 0x2fd4528, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Domain, addr 0x43baebc, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Domain();
 
-  /// @brief Method get_EnvironmentVariables, addr 0x2fd3e90, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method get_EnvironmentVariables, addr 0x43ba880, size 0x51c, virtual false, abstract: false, final false
   inline ::System::Collections::Specialized::StringDictionary* get_EnvironmentVariables();
 
-  /// @brief Method get_FileName, addr 0x2fd1fac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x43b8c14, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method get_HaveEnvVars, addr 0x2fd3e80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HaveEnvVars, addr 0x43ba870, size 0x10, virtual false, abstract: false, final false
   inline bool get_HaveEnvVars();
 
-  /// @brief Method get_LoadUserProfile, addr 0x2fd45fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoadUserProfile, addr 0x43baf90, size 0x8, virtual false, abstract: false, final false
   inline bool get_LoadUserProfile();
 
-  /// @brief Method get_Password, addr 0x2fd45f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Password, addr 0x43baf88, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::SecureString* get_Password();
 
-  /// @brief Method get_RedirectStandardError, addr 0x2fd45bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RedirectStandardError, addr 0x43baf50, size 0x8, virtual false, abstract: false, final false
   inline bool get_RedirectStandardError();
 
-  /// @brief Method get_RedirectStandardInput, addr 0x2fd4594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RedirectStandardInput, addr 0x43baf28, size 0x8, virtual false, abstract: false, final false
   inline bool get_RedirectStandardInput();
 
-  /// @brief Method get_RedirectStandardOutput, addr 0x2fd45a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RedirectStandardOutput, addr 0x43baf3c, size 0x8, virtual false, abstract: false, final false
   inline bool get_RedirectStandardOutput();
 
-  /// @brief Method get_StandardErrorEncoding, addr 0x2fd45d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StandardErrorEncoding, addr 0x43baf64, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_StandardErrorEncoding();
 
-  /// @brief Method get_StandardInputEncoding, addr 0x2fd4784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StandardInputEncoding, addr 0x43bb114, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_StandardInputEncoding();
 
-  /// @brief Method get_StandardOutputEncoding, addr 0x2fd45d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StandardOutputEncoding, addr 0x43baf6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_StandardOutputEncoding();
 
-  /// @brief Method get_UseShellExecute, addr 0x2fd45e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseShellExecute, addr 0x43baf74, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseShellExecute();
 
-  /// @brief Method get_UserName, addr 0x2fd3b1c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_UserName, addr 0x43ba510, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_UserName();
 
-  /// @brief Method get_WorkingDirectory, addr 0x2fd44d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_WorkingDirectory, addr 0x43bae68, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_WorkingDirectory();
 
   static inline void setStaticF_empty(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_Arguments, addr 0x2fd458c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Arguments, addr 0x43baf20, size 0x8, virtual false, abstract: false, final false
   inline void set_Arguments(::StringW value);
 
-  /// @brief Method set_FileName, addr 0x2fd4604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FileName, addr 0x43baf98, size 0x8, virtual false, abstract: false, final false
   inline void set_FileName(::StringW value);
 
-  /// @brief Method set_RedirectStandardError, addr 0x2fd45c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RedirectStandardError, addr 0x43baf58, size 0xc, virtual false, abstract: false, final false
   inline void set_RedirectStandardError(bool value);
 
-  /// @brief Method set_RedirectStandardInput, addr 0x2fd459c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RedirectStandardInput, addr 0x43baf30, size 0xc, virtual false, abstract: false, final false
   inline void set_RedirectStandardInput(bool value);
 
-  /// @brief Method set_RedirectStandardOutput, addr 0x2fd45b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RedirectStandardOutput, addr 0x43baf44, size 0xc, virtual false, abstract: false, final false
   inline void set_RedirectStandardOutput(bool value);
 
-  /// @brief Method set_UseShellExecute, addr 0x2fd45e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseShellExecute, addr 0x43baf7c, size 0xc, virtual false, abstract: false, final false
   inline void set_UseShellExecute(bool value);
 
-  /// @brief Method set_WindowStyle, addr 0x2fd460c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method set_WindowStyle, addr 0x43bafa0, size 0x174, virtual false, abstract: false, final false
   inline void set_WindowStyle(::System::Diagnostics::ProcessWindowStyle value);
 
 protected:
@@ -475,6 +475,9 @@ public:
 
   /// @brief Field <StandardInputEncoding>k__BackingField, offset: 0xa8, size: 0x8, def value: None
   ::System::Text::Encoding* ____StandardInputEncoding_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9241 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

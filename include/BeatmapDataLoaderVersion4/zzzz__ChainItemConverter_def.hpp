@@ -28,7 +28,7 @@ class ChainItemConverter;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::ChainItemConverter);
 // Type: BeatmapDataLoaderVersion4::ChainItemConverter
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::ChainItemConverter*
@@ -36,13 +36,13 @@ class CORDL_TYPE ChainItemConverter : public ::GlobalNamespace::BeatToTimeConver
 public:
   // Declarations
   /// @brief Field _chains, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__chains, put = __cordl_internal_set__chains))::ArrayW<::BeatmapSaveDataVersion4::Chain, ::Array<::BeatmapSaveDataVersion4::Chain>*> _chains;
+  __declspec(property(get = __cordl_internal_get__chains, put = __cordl_internal_set__chains)) ::ArrayW<::BeatmapSaveDataVersion4::Chain, ::Array<::BeatmapSaveDataVersion4::Chain>*> _chains;
 
   /// @brief Field _colorNotes, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorNotes,
-                      put = __cordl_internal_set__colorNotes))::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> _colorNotes;
+  __declspec(property(get = __cordl_internal_get__colorNotes, put = __cordl_internal_set__colorNotes)) ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*>
+      _colorNotes;
 
-  /// @brief Method Convert, addr 0x1507cac, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x26cbe08, size 0x174, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::ChainBeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::ChainItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes,
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__colorNotes(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> value);
 
-  /// @brief Method .ctor, addr 0x15079d8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cbacc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes,
                     ::ArrayW<::BeatmapSaveDataVersion4::Chain, ::Array<::BeatmapSaveDataVersion4::Chain>*> chains, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field _chains, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::Chain, ::Array<::BeatmapSaveDataVersion4::Chain>*> ____chains;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

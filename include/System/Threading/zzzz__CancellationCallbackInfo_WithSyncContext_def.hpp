@@ -27,7 +27,7 @@ class __CancellationCallbackInfo__WithSyncContext;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::__CancellationCallbackInfo__WithSyncContext);
 // Type: ::WithSyncContext
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::CancellationCallbackInfo::WithSyncContext*
@@ -35,7 +35,7 @@ class CORDL_TYPE __CancellationCallbackInfo__WithSyncContext : public ::System::
 public:
   // Declarations
   /// @brief Field TargetSyncContext, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_TargetSyncContext, put = __cordl_internal_set_TargetSyncContext))::System::Threading::SynchronizationContext* TargetSyncContext;
+  __declspec(property(get = __cordl_internal_get_TargetSyncContext, put = __cordl_internal_set_TargetSyncContext)) ::System::Threading::SynchronizationContext* TargetSyncContext;
 
   static inline ::System::Threading::__CancellationCallbackInfo__WithSyncContext* New_ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback,
                                                                                            ::System::Threading::ExecutionContext* targetExecutionContext,
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetSyncContext(::System::Threading::SynchronizationContext* value);
 
-  /// @brief Method .ctor, addr 0x29cb8b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ddab08, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback, ::System::Threading::ExecutionContext* targetExecutionContext,
                     ::System::Threading::CancellationTokenSource* cancellationTokenSource, ::System::Threading::SynchronizationContext* targetSyncContext);
 
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field TargetSyncContext, offset: 0x30, size: 0x8, def value: None
   ::System::Threading::SynchronizationContext* ___TargetSyncContext;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2693 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

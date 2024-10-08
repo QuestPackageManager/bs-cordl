@@ -15,17 +15,17 @@ class RecordingToolSceneSetup;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RecordingToolSceneSetup);
 // Type: ::RecordingToolSceneSetup
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RecordingToolSceneSetup*
 class CORDL_TYPE RecordingToolSceneSetup : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Field _sceneSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::RecordingToolSceneSetupData* _sceneSetupData;
+  /// @brief Field _sceneSetupData, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::RecordingToolSceneSetupData* _sceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x26d0b84, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3ac4d60, size 0xc0, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::RecordingToolSceneSetup* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::RecordingToolSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x26d0c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac4e20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,15 +53,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RecordingToolSceneSetup(RecordingToolSceneSetup const&) = delete;
 
-  /// @brief Field _sceneSetupData, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _sceneSetupData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::RecordingToolSceneSetupData* ____sceneSetupData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5209 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingToolSceneSetup, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingToolSceneSetup, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RecordingToolSceneSetup, ____sceneSetupData) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RecordingToolSceneSetup, ____sceneSetupData) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RecordingToolSceneSetup);

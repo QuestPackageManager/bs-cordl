@@ -14,7 +14,7 @@ class Features;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::Features);
 // Type: Org.BouncyCastle.Bcpg.Sig::Features
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.Sig::Features*
@@ -26,28 +26,28 @@ public:
 
   __declspec(property(get = get_SupportsModificationDetection)) bool SupportsModificationDetection;
 
-  /// @brief Method FeatureToByteArray, addr 0x143a904, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method FeatureToByteArray, addr 0x25fde48, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FeatureToByteArray(uint8_t feature);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Features* New_ctor(bool critical, uint8_t feature);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Features* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method SetSupportsFeature, addr 0x143ab18, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method SetSupportsFeature, addr 0x25fe05c, size 0x1b0, virtual false, abstract: false, final false
   inline void SetSupportsFeature(uint8_t feature, bool support);
 
-  /// @brief Method SupportsFeature, addr 0x143aaa0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SupportsFeature, addr 0x25fdfe4, size 0x78, virtual false, abstract: false, final false
   inline bool SupportsFeature(uint8_t feature);
 
-  /// @brief Method .ctor, addr 0x143a9b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fdef4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(bool critical, uint8_t feature);
 
-  /// @brief Method .ctor, addr 0x143a968, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fdeac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline uint8_t getStaticF_FEATURE_MODIFICATION_DETECTION();
 
-  /// @brief Method get_SupportsModificationDetection, addr 0x143aa40, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_SupportsModificationDetection, addr 0x25fdf84, size 0x60, virtual false, abstract: false, final false
   inline bool get_SupportsModificationDetection();
 
   static inline void setStaticF_FEATURE_MODIFICATION_DETECTION(uint8_t value);
@@ -65,6 +65,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Features", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Features(Features const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 534 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

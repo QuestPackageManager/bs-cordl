@@ -17,7 +17,7 @@ class LivestreamingVideoStats;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::LivestreamingVideoStats);
 // Type: Oculus.Platform.Models::LivestreamingVideoStats
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::LivestreamingVideoStats*
@@ -31,7 +31,7 @@ public:
   __declspec(property(get = __cordl_internal_get_ReactionCount, put = __cordl_internal_set_ReactionCount)) int32_t ReactionCount;
 
   /// @brief Field TotalViews, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_TotalViews, put = __cordl_internal_set_TotalViews))::StringW TotalViews;
+  __declspec(property(get = __cordl_internal_get_TotalViews, put = __cordl_internal_set_TotalViews)) ::StringW TotalViews;
 
   static inline ::Oculus::Platform::Models::LivestreamingVideoStats* New_ctor(::System::IntPtr o);
 
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_TotalViews(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2b11620, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1c5cc, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field TotalViews, offset: 0x18, size: 0x8, def value: None
   ::StringW ___TotalViews;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15495 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

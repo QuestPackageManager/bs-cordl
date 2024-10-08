@@ -13,7 +13,7 @@ class AssemblyInfo;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AssemblyInfo);
 // Type: ::AssemblyInfo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AssemblyInfo*
@@ -21,16 +21,16 @@ class CORDL_TYPE AssemblyInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field version, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_version, put = setStaticF_version))::StringW version;
+  static __declspec(property(get = getStaticF_version, put = setStaticF_version)) ::StringW version;
 
   static inline ::GlobalNamespace::AssemblyInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13fa97c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c0ddc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_version();
 
-  /// @brief Method get_Version, addr 0x13fa808, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x25c0c68, size 0x12c, virtual false, abstract: false, final false
   static inline ::StringW get_Version();
 
   static inline void setStaticF_version(::StringW value);
@@ -48,6 +48,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AssemblyInfo(AssemblyInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1875 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

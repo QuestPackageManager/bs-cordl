@@ -32,7 +32,10 @@ namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
-struct __Camera__RenderRequest;
+class Object;
+}
+namespace UnityEngine {
+class ScriptableObject;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -41,56 +44,75 @@ class RenderPipelineManager;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Rendering::RenderPipelineManager);
 // Type: UnityEngine.Rendering::RenderPipelineManager
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: ::UnityEngine.Rendering::RenderPipelineManager*
 class CORDL_TYPE RenderPipelineManager : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field activeRenderPipelineAssetChanged, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_activeRenderPipelineAssetChanged,
+                             put = setStaticF_activeRenderPipelineAssetChanged)) ::System::Action_2<::UnityW<::UnityEngine::Rendering::RenderPipelineAsset>,
+                                                                                                    ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset>>* activeRenderPipelineAssetChanged;
+
+  /// @brief Field activeRenderPipelineCreated, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_activeRenderPipelineCreated, put = setStaticF_activeRenderPipelineCreated)) ::System::Action* activeRenderPipelineCreated;
+
+  /// @brief Field activeRenderPipelineDisposed, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_activeRenderPipelineDisposed, put = setStaticF_activeRenderPipelineDisposed)) ::System::Action* activeRenderPipelineDisposed;
+
   /// @brief Field activeRenderPipelineTypeChanged, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_activeRenderPipelineTypeChanged, put = setStaticF_activeRenderPipelineTypeChanged))::System::Action* activeRenderPipelineTypeChanged;
+  static __declspec(property(get = getStaticF_activeRenderPipelineTypeChanged, put = setStaticF_activeRenderPipelineTypeChanged)) ::System::Action* activeRenderPipelineTypeChanged;
 
   /// @brief Field beginCameraRendering, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_beginCameraRendering,
-                             put = setStaticF_beginCameraRendering))::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityW<::UnityEngine::Camera>>* beginCameraRendering;
+                             put = setStaticF_beginCameraRendering)) ::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityW<::UnityEngine::Camera>>* beginCameraRendering;
 
   /// @brief Field s_Cameras, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Cameras, put = setStaticF_s_Cameras))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* s_Cameras;
+  static __declspec(property(get = getStaticF_s_Cameras, put = setStaticF_s_Cameras)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* s_Cameras;
+
+  /// @brief Field s_CurrentPipeline, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_CurrentPipeline, put = setStaticF_s_CurrentPipeline)) ::UnityEngine::Rendering::RenderPipeline* s_CurrentPipeline;
 
   /// @brief Field s_CurrentPipelineAsset, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CurrentPipelineAsset, put = setStaticF_s_CurrentPipelineAsset))::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> s_CurrentPipelineAsset;
+  static __declspec(property(get = getStaticF_s_CurrentPipelineAsset, put = setStaticF_s_CurrentPipelineAsset)) ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> s_CurrentPipelineAsset;
 
-  /// @brief Field s_builtinPipelineName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_builtinPipelineName, put = setStaticF_s_builtinPipelineName))::StringW s_builtinPipelineName;
+  /// @brief Field s_CurrentPipelineType, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_CurrentPipelineType, put = setStaticF_s_CurrentPipelineType)) ::StringW s_CurrentPipelineType;
 
-  /// @brief Field s_currentPipeline, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_currentPipeline, put = setStaticF_s_currentPipeline))::UnityEngine::Rendering::RenderPipeline* s_currentPipeline;
-
-  /// @brief Field s_currentPipelineType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_currentPipelineType, put = setStaticF_s_currentPipelineType))::StringW s_currentPipelineType;
-
-  /// @brief Method CleanupRenderPipeline, addr 0x3463ee0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CleanupRenderPipeline, addr 0x48509b8, size 0x1b4, virtual false, abstract: false, final false
   static inline void CleanupRenderPipeline();
 
-  /// @brief Method DoRenderLoop_Internal, addr 0x3464224, size 0x1c8, virtual false, abstract: false, final false
-  static inline void DoRenderLoop_Internal(::UnityEngine::Rendering::RenderPipelineAsset* pipe, ::System::IntPtr loopPtr,
-                                           ::System::Collections::Generic::List_1<::UnityEngine::__Camera__RenderRequest>* renderRequests);
+  /// @brief Method DoRenderLoop_Internal, addr 0x485128c, size 0x288, virtual false, abstract: false, final false
+  static inline void DoRenderLoop_Internal(::UnityEngine::Rendering::RenderPipelineAsset* pipe, ::System::IntPtr loopPtr, ::UnityEngine::Object* renderRequest);
 
-  /// @brief Method GetCurrentPipelineAssetType, addr 0x34641cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentPipelineAssetType, addr 0x4851234, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW GetCurrentPipelineAssetType();
 
-  /// @brief Method HandleRenderPipelineChange, addr 0x3463e60, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleRenderPipelineChange, addr 0x48510d4, size 0x80, virtual false, abstract: false, final false
   static inline void HandleRenderPipelineChange(::UnityEngine::Rendering::RenderPipelineAsset* pipelineAsset);
 
-  /// @brief Method OnActiveRenderPipelineTypeChanged, addr 0x3463dec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsPipelineRequireCreation, addr 0x48515d4, size 0x14c, virtual false, abstract: false, final false
+  static inline bool IsPipelineRequireCreation();
+
+  /// @brief Method OnActiveRenderPipelineAssetChanged, addr 0x4850fc8, size 0x10c, virtual false, abstract: false, final false
+  static inline void OnActiveRenderPipelineAssetChanged(::UnityEngine::ScriptableObject* from, ::UnityEngine::ScriptableObject* to);
+
+  /// @brief Method OnActiveRenderPipelineTypeChanged, addr 0x4850f54, size 0x74, virtual false, abstract: false, final false
   static inline void OnActiveRenderPipelineTypeChanged();
 
-  /// @brief Method PrepareRenderPipeline, addr 0x34643ec, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method PrepareRenderPipeline, addr 0x4850b6c, size 0xb4, virtual false, abstract: false, final false
   static inline void PrepareRenderPipeline(::UnityEngine::Rendering::RenderPipelineAsset* pipelineAsset);
 
-  /// @brief Method add_beginCameraRendering, addr 0x3463c04, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_beginCameraRendering, addr 0x4850d6c, size 0xf4, virtual false, abstract: false, final false
   static inline void add_beginCameraRendering(::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityW<::UnityEngine::Camera>>* value);
+
+  static inline ::System::Action_2<::UnityW<::UnityEngine::Rendering::RenderPipelineAsset>, ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset>>* getStaticF_activeRenderPipelineAssetChanged();
+
+  static inline ::System::Action* getStaticF_activeRenderPipelineCreated();
+
+  static inline ::System::Action* getStaticF_activeRenderPipelineDisposed();
 
   static inline ::System::Action* getStaticF_activeRenderPipelineTypeChanged();
 
@@ -98,19 +120,24 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* getStaticF_s_Cameras();
 
+  static inline ::UnityEngine::Rendering::RenderPipeline* getStaticF_s_CurrentPipeline();
+
   static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> getStaticF_s_CurrentPipelineAsset();
 
-  static inline ::StringW getStaticF_s_builtinPipelineName();
+  static inline ::StringW getStaticF_s_CurrentPipelineType();
 
-  static inline ::UnityEngine::Rendering::RenderPipeline* getStaticF_s_currentPipeline();
-
-  static inline ::StringW getStaticF_s_currentPipelineType();
-
-  /// @brief Method get_currentPipeline, addr 0x3463afc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_currentPipeline, addr 0x4850c74, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderPipeline* get_currentPipeline();
 
-  /// @brief Method remove_beginCameraRendering, addr 0x3463cf8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_beginCameraRendering, addr 0x4850e60, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_beginCameraRendering(::System::Action_2<::UnityEngine::Rendering::ScriptableRenderContext, ::UnityW<::UnityEngine::Camera>>* value);
+
+  static inline void
+  setStaticF_activeRenderPipelineAssetChanged(::System::Action_2<::UnityW<::UnityEngine::Rendering::RenderPipelineAsset>, ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset>>* value);
+
+  static inline void setStaticF_activeRenderPipelineCreated(::System::Action* value);
+
+  static inline void setStaticF_activeRenderPipelineDisposed(::System::Action* value);
 
   static inline void setStaticF_activeRenderPipelineTypeChanged(::System::Action* value);
 
@@ -118,15 +145,13 @@ public:
 
   static inline void setStaticF_s_Cameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* value);
 
+  static inline void setStaticF_s_CurrentPipeline(::UnityEngine::Rendering::RenderPipeline* value);
+
   static inline void setStaticF_s_CurrentPipelineAsset(::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> value);
 
-  static inline void setStaticF_s_builtinPipelineName(::StringW value);
+  static inline void setStaticF_s_CurrentPipelineType(::StringW value);
 
-  static inline void setStaticF_s_currentPipeline(::UnityEngine::Rendering::RenderPipeline* value);
-
-  static inline void setStaticF_s_currentPipelineType(::StringW value);
-
-  /// @brief Method set_currentPipeline, addr 0x3463b54, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_currentPipeline, addr 0x4850ccc, size 0xa0, virtual false, abstract: false, final false
   static inline void set_currentPipeline(::UnityEngine::Rendering::RenderPipeline* value);
 
 protected:
@@ -142,6 +167,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RenderPipelineManager", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RenderPipelineManager(RenderPipelineManager const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

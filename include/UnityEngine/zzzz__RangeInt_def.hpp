@@ -13,7 +13,7 @@ struct RangeInt;
 // Write type traits
 MARK_VAL_T(::UnityEngine::RangeInt);
 // Type: UnityEngine::RangeInt
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::RangeInt
@@ -22,10 +22,10 @@ public:
   // Declarations
   __declspec(property(get = get_end)) int32_t end;
 
-  /// @brief Method .ctor, addr 0x3445334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4836d74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t length);
 
-  /// @brief Method get_end, addr 0x3445328, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_end, addr 0x4836d68, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_end();
 
   // Ctor Parameters []
@@ -40,6 +40,9 @@ public:
 
   /// @brief Field length, offset: 0x4, size: 0x4, def value: None
   int32_t length;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10857 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

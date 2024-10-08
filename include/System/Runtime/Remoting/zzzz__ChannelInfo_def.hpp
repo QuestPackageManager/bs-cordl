@@ -19,17 +19,17 @@ class ChannelInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::ChannelInfo);
 // Type: System.Runtime.Remoting::ChannelInfo
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting::ChannelInfo*
 class CORDL_TYPE ChannelInfo : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_ChannelData))::ArrayW<::System::Object*, ::Array<::System::Object*>*> ChannelData;
+  __declspec(property(get = get_ChannelData)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ChannelData;
 
   /// @brief Field channelData, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_channelData, put = __cordl_internal_set_channelData))::ArrayW<::System::Object*, ::Array<::System::Object*>*> channelData;
+  __declspec(property(get = __cordl_internal_get_channelData, put = __cordl_internal_set_channelData)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> channelData;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::IChannelInfo"
   constexpr operator ::System::Runtime::Remoting::IChannelInfo*() noexcept;
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set_channelData(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x2832a20, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c50fc0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2832a88, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c51028, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* remoteChannelData);
 
-  /// @brief Method get_ChannelData, addr 0x2832b30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ChannelData, addr 0x3c510d0, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ChannelData();
 
   /// @brief Convert to "::System::Runtime::Remoting::IChannelInfo"
@@ -72,6 +72,9 @@ public:
 
   /// @brief Field channelData, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___channelData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3051 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

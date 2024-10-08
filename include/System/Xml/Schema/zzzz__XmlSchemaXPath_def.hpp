@@ -13,17 +13,17 @@ class XmlSchemaXPath;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaXPath);
 // Type: System.Xml.Schema::XmlSchemaXPath
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaXPath*
 class CORDL_TYPE XmlSchemaXPath : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
-  __declspec(property(get = get_XPath, put = set_XPath))::StringW XPath;
+  __declspec(property(get = get_XPath, put = set_XPath)) ::StringW XPath;
 
   /// @brief Field xpath, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_xpath, put = __cordl_internal_set_xpath))::StringW xpath;
+  __declspec(property(get = __cordl_internal_get_xpath, put = __cordl_internal_set_xpath)) ::StringW xpath;
 
   static inline ::System::Xml::Schema::XmlSchemaXPath* New_ctor();
 
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set_xpath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e45650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4247edc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_XPath, addr 0x2e45640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XPath, addr 0x4247ecc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XPath();
 
-  /// @brief Method set_XPath, addr 0x2e45648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XPath, addr 0x4247ed4, size 0x8, virtual false, abstract: false, final false
   inline void set_XPath(::StringW value);
 
 protected:
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field xpath, offset: 0x50, size: 0x8, def value: None
   ::StringW ___xpath;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7663 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

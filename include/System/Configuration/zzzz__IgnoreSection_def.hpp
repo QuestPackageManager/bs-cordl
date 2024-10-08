@@ -25,36 +25,36 @@ class IgnoreSection;
 // Write type traits
 MARK_REF_PTR_T(::System::Configuration::IgnoreSection);
 // Type: System.Configuration::IgnoreSection
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Configuration {
 // Is value type: false
 // CS Name: ::System.Configuration::IgnoreSection*
 class CORDL_TYPE IgnoreSection : public ::System::Configuration::ConfigurationSection {
 public:
   // Declarations
-  __declspec(property(get = get_Properties))::System::Configuration::ConfigurationPropertyCollection* Properties;
+  __declspec(property(get = get_Properties)) ::System::Configuration::ConfigurationPropertyCollection* Properties;
 
-  /// @brief Method DeserializeSection, addr 0x2c0ed18, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DeserializeSection, addr 0x40145b0, size 0x38, virtual true, abstract: false, final false
   inline void DeserializeSection(::System::Xml::XmlReader* xmlReader);
 
-  /// @brief Method IsModified, addr 0x2c0ed50, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x40145e8, size 0x38, virtual true, abstract: false, final false
   inline bool IsModified();
 
   static inline ::System::Configuration::IgnoreSection* New_ctor();
 
-  /// @brief Method Reset, addr 0x2c0ed88, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x4014620, size 0x38, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentSection);
 
-  /// @brief Method ResetModified, addr 0x2c0edc0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x4014658, size 0x38, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method SerializeSection, addr 0x2c0edf8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SerializeSection, addr 0x4014690, size 0x38, virtual true, abstract: false, final false
   inline ::StringW SerializeSection(::System::Configuration::ConfigurationElement* parentSection, ::StringW name, ::System::Configuration::ConfigurationSaveMode saveMode);
 
-  /// @brief Method .ctor, addr 0x2c0eca8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4014540, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x2c0ece0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x4014578, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -70,6 +70,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IgnoreSection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IgnoreSection(IgnoreSection const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19177 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

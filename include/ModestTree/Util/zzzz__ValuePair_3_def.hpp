@@ -16,7 +16,7 @@ template <typename T1, typename T2, typename T3> class ValuePair_3;
 // Write type traits
 MARK_GEN_REF_PTR_T(::ModestTree::Util::ValuePair_3);
 // Type: ModestTree.Util::ValuePair`3
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree::Util {
 // cpp template
 template <typename T1, typename T2, typename T3>
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field Third, offset: 0x20, size: 0x8, def value: None
   T3 ___Third;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11926 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,14 +16,14 @@ class AnimationState;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AnimationState);
 // Type: UnityEngine::AnimationState
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::AnimationState*
 class CORDL_TYPE AnimationState : public ::UnityEngine::TrackedReference {
 public:
   // Declarations
-  __declspec(property(get = get_clip))::UnityW<::UnityEngine::AnimationClip> clip;
+  __declspec(property(get = get_clip)) ::UnityW<::UnityEngine::AnimationClip> clip;
 
   __declspec(property(put = set_normalizedTime)) float_t normalizedTime;
 
@@ -33,19 +33,19 @@ public:
 
   static inline ::UnityEngine::AnimationState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33fd5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d6530, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clip, addr 0x33fd168, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x47d609c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
 
-  /// @brief Method set_normalizedTime, addr 0x33fd564, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedTime, addr 0x47d6498, size 0x4c, virtual false, abstract: false, final false
   inline void set_normalizedTime(float_t value);
 
-  /// @brief Method set_speed, addr 0x33fd5b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_speed, addr 0x47d64e4, size 0x4c, virtual false, abstract: false, final false
   inline void set_speed(float_t value);
 
-  /// @brief Method set_time, addr 0x33fd518, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x47d644c, size 0x4c, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
 protected:
@@ -61,6 +61,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AnimationState", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AnimationState(AnimationState const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16805 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

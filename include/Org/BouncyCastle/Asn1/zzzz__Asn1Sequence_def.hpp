@@ -50,7 +50,7 @@ class __Asn1Sequence__Asn1SequenceParserImpl;
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1Sequence);
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::__Asn1Sequence__Asn1SequenceParserImpl);
 // Type: ::Asn1SequenceParserImpl
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Asn1Sequence::Asn1SequenceParserImpl*
@@ -64,7 +64,7 @@ public:
   __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) int32_t max;
 
   /// @brief Field outer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_outer, put = __cordl_internal_set_outer))::Org::BouncyCastle::Asn1::Asn1Sequence* outer;
+  __declspec(property(get = __cordl_internal_get_outer, put = __cordl_internal_set_outer)) ::Org::BouncyCastle::Asn1::Asn1Sequence* outer;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::Asn1SequenceParser"
   constexpr operator ::Org::BouncyCastle::Asn1::Asn1SequenceParser*() noexcept;
@@ -74,10 +74,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::__Asn1Sequence__Asn1SequenceParserImpl* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* outer);
 
-  /// @brief Method ReadObject, addr 0x142adec, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method ReadObject, addr 0x25ef6a4, size 0xf8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
-  /// @brief Method ToAsn1Object, addr 0x142af44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x25ef7f4, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr int32_t const& __cordl_internal_get_index() const;
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_outer(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x142aaec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ef3bc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* outer);
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1SequenceParser"
@@ -130,6 +130,9 @@ public:
   /// @brief Field index, offset: 0x1c, size: 0x4, def value: None
   int32_t ___index;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 460 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -143,7 +146,7 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::__Asn1Sequence__Asn1SequencePa
 
 } // namespace Org::BouncyCastle::Asn1
 // Type: Org.BouncyCastle.Asn1::Asn1Sequence
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1Sequence*
@@ -154,30 +157,31 @@ public:
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_Item))::Org::BouncyCastle::Asn1::Asn1Encodable* Item[];
+  __declspec(property(get = get_Item)) ::Org::BouncyCastle::Asn1::Asn1Encodable* Item[];
 
-  __declspec(property(get = get_Parser))::Org::BouncyCastle::Asn1::Asn1SequenceParser* Parser;
+  __declspec(property(get = get_Parser)) ::Org::BouncyCastle::Asn1::Asn1SequenceParser* Parser;
 
   /// @brief Field elements, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_elements,
-                      put = __cordl_internal_set_elements))::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements;
+                      put = __cordl_internal_set_elements)) ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*>
+      elements;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Asn1Equals, addr 0x142ac6c, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x25ef52c, size 0x16c, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x142abd8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x25ef4a8, size 0x84, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method GetEnumerator, addr 0x142aa70, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x25ef348, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetInstance, addr 0x142a4d8, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25eedc4, size 0x25c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x1423118, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25e7b78, size 0x38c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* New_ctor();
@@ -188,10 +192,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
 
-  /// @brief Method ToArray, addr 0x142ab80, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToArray, addr 0x25ef450, size 0x58, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> ToArray();
 
-  /// @brief Method ToString, addr 0x142ade0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25ef698, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> const& __cordl_internal_get_elements() const;
@@ -200,25 +204,25 @@ public:
 
   constexpr void __cordl_internal_set_elements(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> value);
 
-  /// @brief Method .ctor, addr 0x142a7a4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ef088, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x142a810, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ef0f4, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
 
-  /// @brief Method .ctor, addr 0x142a9f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ef2cc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
-  /// @brief Method .ctor, addr 0x142a8fc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ef1dc, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
 
-  /// @brief Method get_Count, addr 0x142ab64, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x25ef434, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x142ab34, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x25ef404, size 0x30, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int32_t index);
 
-  /// @brief Method get_Parser, addr 0x142aa8c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Parser, addr 0x25ef364, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SequenceParser* get_Parser();
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -240,6 +244,9 @@ public:
 
   /// @brief Field elements, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> ___elements;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

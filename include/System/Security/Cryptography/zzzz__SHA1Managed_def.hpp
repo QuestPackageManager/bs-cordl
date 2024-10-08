@@ -14,7 +14,7 @@ class SHA1Managed;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::SHA1Managed);
 // Type: System.Security.Cryptography::SHA1Managed
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::SHA1Managed*
@@ -22,41 +22,41 @@ class CORDL_TYPE SHA1Managed : public ::System::Security::Cryptography::SHA1 {
 public:
   // Declarations
   /// @brief Field _buffer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
 
   /// @brief Field _count, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int64_t _count;
 
   /// @brief Field _expandedBuffer, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__expandedBuffer, put = __cordl_internal_set__expandedBuffer))::ArrayW<uint32_t, ::Array<uint32_t>*> _expandedBuffer;
+  __declspec(property(get = __cordl_internal_get__expandedBuffer, put = __cordl_internal_set__expandedBuffer)) ::ArrayW<uint32_t, ::Array<uint32_t>*> _expandedBuffer;
 
   /// @brief Field _stateSHA1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__stateSHA1, put = __cordl_internal_set__stateSHA1))::ArrayW<uint32_t, ::Array<uint32_t>*> _stateSHA1;
+  __declspec(property(get = __cordl_internal_get__stateSHA1, put = __cordl_internal_set__stateSHA1)) ::ArrayW<uint32_t, ::Array<uint32_t>*> _stateSHA1;
 
-  /// @brief Method HashCore, addr 0x28149b8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x3c336c0, size 0x4, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x2814b38, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x3c33844, size 0x4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Initialize, addr 0x2814974, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3c3367c, size 0x44, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeState, addr 0x28148f0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InitializeState, addr 0x3c335f8, size 0x84, virtual false, abstract: false, final false
   inline void InitializeState();
 
   static inline ::System::Security::Cryptography::SHA1Managed* New_ctor();
 
-  /// @brief Method SHAExpand, addr 0x2815214, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SHAExpand, addr 0x3c33f24, size 0x3c, virtual false, abstract: false, final false
   static inline void SHAExpand(::cordl_internals::Ptr<uint32_t> x);
 
-  /// @brief Method SHATransform, addr 0x2814ce0, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method SHATransform, addr 0x3c339f0, size 0x3ec, virtual false, abstract: false, final false
   static inline void SHATransform(::cordl_internals::Ptr<uint32_t> expandedBuffer, ::cordl_internals::Ptr<uint32_t> state, ::cordl_internals::Ptr<uint8_t> block);
 
-  /// @brief Method _EndHash, addr 0x2814b3c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method _EndHash, addr 0x3c33848, size 0x1a8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _EndHash();
 
-  /// @brief Method _HashData, addr 0x28149bc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method _HashData, addr 0x3c336c4, size 0x180, virtual false, abstract: false, final false
   inline void _HashData(::ArrayW<uint8_t, ::Array<uint8_t>*> partIn, int32_t ibStart, int32_t cbSize);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__buffer() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__stateSHA1(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2814820, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c33528, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,6 +111,9 @@ public:
 
   /// @brief Field _expandedBuffer, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ____expandedBuffer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2958 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

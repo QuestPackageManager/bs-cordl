@@ -17,23 +17,20 @@ class TextUtilities;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextUtilities);
 // Type: UnityEngine.TextCore.Text::TextUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // CS Name: ::UnityEngine.TextCore.Text::TextUtilities*
 class CORDL_TYPE TextUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHashCodeCaseInSensitive, addr 0x34ca310, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeCaseInSensitive, addr 0x48d5668, size 0x70, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeCaseInSensitive(::StringW s);
 
-  /// @brief Method ToUpperASCIIFast, addr 0x34d5e70, size 0x74, virtual false, abstract: false, final false
-  static inline uint32_t ToUpperASCIIFast(uint32_t c);
-
-  /// @brief Method ToUpperFast, addr 0x34d5dfc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUpperFast, addr 0x48d76d8, size 0x74, virtual false, abstract: false, final false
   static inline char16_t ToUpperFast(char16_t c);
 
-  /// @brief Method UintToString, addr 0x34d079c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UintToString, addr 0x48d774c, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW UintToString(::System::Collections::Generic::List_1<uint32_t>* unicodes);
 
 protected:
@@ -49,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TextUtilities", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TextUtilities(TextUtilities const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15252 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

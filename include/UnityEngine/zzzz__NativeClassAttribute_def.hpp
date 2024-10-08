@@ -13,22 +13,22 @@ class NativeClassAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::NativeClassAttribute);
 // Type: UnityEngine::NativeClassAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::NativeClassAttribute*
 class CORDL_TYPE NativeClassAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(put = set_Declaration))::StringW Declaration;
+  __declspec(property(put = set_Declaration)) ::StringW Declaration;
 
-  __declspec(property(put = set_QualifiedNativeName))::StringW QualifiedNativeName;
+  __declspec(property(put = set_QualifiedNativeName)) ::StringW QualifiedNativeName;
 
   /// @brief Field <Declaration>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Declaration_k__BackingField, put = __cordl_internal_set__Declaration_k__BackingField))::StringW _Declaration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Declaration_k__BackingField, put = __cordl_internal_set__Declaration_k__BackingField)) ::StringW _Declaration_k__BackingField;
 
   /// @brief Field <QualifiedNativeName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__QualifiedNativeName_k__BackingField, put = __cordl_internal_set__QualifiedNativeName_k__BackingField))::StringW _QualifiedNativeName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__QualifiedNativeName_k__BackingField, put = __cordl_internal_set__QualifiedNativeName_k__BackingField)) ::StringW _QualifiedNativeName_k__BackingField;
 
   static inline ::UnityEngine::NativeClassAttribute* New_ctor(::StringW qualifiedCppName);
 
@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__QualifiedNativeName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x34aa94c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489d46c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName);
 
-  /// @brief Method .ctor, addr 0x34aa9bc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489d4dc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW qualifiedCppName, ::StringW declaration);
 
-  /// @brief Method set_Declaration, addr 0x34aa944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Declaration, addr 0x489d464, size 0x8, virtual false, abstract: false, final false
   inline void set_Declaration(::StringW value);
 
-  /// @brief Method set_QualifiedNativeName, addr 0x34aa93c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QualifiedNativeName, addr 0x489d45c, size 0x8, virtual false, abstract: false, final false
   inline void set_QualifiedNativeName(::StringW value);
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field <Declaration>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Declaration_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18576 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

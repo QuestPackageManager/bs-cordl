@@ -26,45 +26,46 @@ class MeshRendererSwitchEventEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MeshRendererSwitchEventEffect);
 // Type: ::MeshRendererSwitchEventEffect
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MeshRendererSwitchEventEffect*
 class CORDL_TYPE MeshRendererSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _activateOnBoostRenderers, offset 0x28, size 0x8
+  /// @brief Field _activateOnBoostRenderers, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__activateOnBoostRenderers,
-                      put = __cordl_internal_set__activateOnBoostRenderers))::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> _activateOnBoostRenderers;
+                      put = __cordl_internal_set__activateOnBoostRenderers)) ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*>
+      _activateOnBoostRenderers;
 
-  /// @brief Field _beatmapCallbacksController, offset 0x30, size 0x8
+  /// @brief Field _beatmapCallbacksController, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+                      put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset 0x38, size 0x8
+  /// @brief Field _beatmapDataCallbackWrapper, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
+                      put = __cordl_internal_set__beatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
-  /// @brief Field _beatmapEvent, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__beatmapEvent, put = __cordl_internal_set__beatmapEvent))::GlobalNamespace::BasicBeatmapEventType _beatmapEvent;
+  /// @brief Field _beatmapEvent, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__beatmapEvent, put = __cordl_internal_set__beatmapEvent)) ::GlobalNamespace::BasicBeatmapEventType _beatmapEvent;
 
-  /// @brief Field _deactivateOnBoostRenderers, offset 0x20, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__deactivateOnBoostRenderers,
-               put = __cordl_internal_set__deactivateOnBoostRenderers))::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> _deactivateOnBoostRenderers;
+  /// @brief Field _deactivateOnBoostRenderers, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__deactivateOnBoostRenderers,
+                      put = __cordl_internal_set__deactivateOnBoostRenderers)) ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*>
+      _deactivateOnBoostRenderers;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x26fb060, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b1b94c, size 0x20, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::MeshRendererSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26fb044, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b1b930, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x26faf20, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b1b808, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleObjects, addr 0x26fb080, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ToggleObjects, addr 0x3b1b96c, size 0xc4, virtual false, abstract: false, final false
   inline void ToggleObjects(bool isBoostOn);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const& __cordl_internal_get__activateOnBoostRenderers() const;
@@ -97,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__deactivateOnBoostRenderers(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> value);
 
-  /// @brief Method .ctor, addr 0x26fb144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1ba30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,35 +115,38 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MeshRendererSwitchEventEffect(MeshRendererSwitchEventEffect const&) = delete;
 
-  /// @brief Field _beatmapEvent, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _beatmapEvent, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEvent;
 
-  /// @brief Field _deactivateOnBoostRenderers, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _deactivateOnBoostRenderers, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> ____deactivateOnBoostRenderers;
 
-  /// @brief Field _activateOnBoostRenderers, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _activateOnBoostRenderers, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> ____activateOnBoostRenderers;
 
-  /// @brief Field _beatmapCallbacksController, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _beatmapCallbacksController, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4306 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MeshRendererSwitchEventEffect, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MeshRendererSwitchEventEffect, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MeshRendererSwitchEventEffect, ____beatmapEvent) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MeshRendererSwitchEventEffect, ____beatmapEvent) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MeshRendererSwitchEventEffect, ____deactivateOnBoostRenderers) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MeshRendererSwitchEventEffect, ____deactivateOnBoostRenderers) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MeshRendererSwitchEventEffect, ____activateOnBoostRenderers) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MeshRendererSwitchEventEffect, ____activateOnBoostRenderers) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MeshRendererSwitchEventEffect, ____beatmapCallbacksController) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MeshRendererSwitchEventEffect, ____beatmapCallbacksController) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MeshRendererSwitchEventEffect, ____beatmapDataCallbackWrapper) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MeshRendererSwitchEventEffect, ____beatmapDataCallbackWrapper) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MeshRendererSwitchEventEffect);

@@ -13,7 +13,7 @@ class AutomaticSFXVolumeParamsSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AutomaticSFXVolumeParamsSO);
 // Type: ::AutomaticSFXVolumeParamsSO
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AutomaticSFXVolumeParamsSO*
@@ -110,31 +110,31 @@ public:
 
   constexpr void __cordl_internal_set__volumeSmooth(float_t value);
 
-  /// @brief Method .ctor, addr 0x263298c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a64ac4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_attackTime, addr 0x2632964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attackTime, addr 0x3a64a9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_attackTime();
 
-  /// @brief Method get_impact, addr 0x263295c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_impact, addr 0x3a64a94, size 0x8, virtual false, abstract: false, final false
   inline float_t get_impact();
 
-  /// @brief Method get_maxVolume, addr 0x263297c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxVolume, addr 0x3a64ab4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxVolume();
 
-  /// @brief Method get_minVolume, addr 0x2632974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minVolume, addr 0x3a64aac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minVolume();
 
-  /// @brief Method get_musicVolumeMultiplier, addr 0x263294c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_musicVolumeMultiplier, addr 0x3a64a84, size 0x8, virtual false, abstract: false, final false
   inline float_t get_musicVolumeMultiplier();
 
-  /// @brief Method get_releaseTime, addr 0x263296c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_releaseTime, addr 0x3a64aa4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_releaseTime();
 
-  /// @brief Method get_threshold, addr 0x2632954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_threshold, addr 0x3a64a8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_threshold();
 
-  /// @brief Method get_volumeSmooth, addr 0x2632984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeSmooth, addr 0x3a64abc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volumeSmooth();
 
 protected:
@@ -174,6 +174,9 @@ public:
 
   /// @brief Field _volumeSmooth, offset: 0x34, size: 0x4, def value: None
   float_t ____volumeSmooth;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3994 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

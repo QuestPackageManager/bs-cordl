@@ -57,7 +57,7 @@ class __OculusAdvancedHapticFeedbackPlayer__HapticPlayerState;
 MARK_REF_PTR_T(::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer);
 MARK_REF_PTR_T(::GlobalNamespace::__OculusAdvancedHapticFeedbackPlayer__HapticPlayerState);
 // Type: ::HapticPlayerState
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OculusAdvancedHapticFeedbackPlayer::HapticPlayerState*
@@ -71,7 +71,7 @@ public:
   __declspec(property(get = __cordl_internal_get_lastFrameTriggered, put = __cordl_internal_set_lastFrameTriggered)) int32_t lastFrameTriggered;
 
   /// @brief Field player, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_player, put = __cordl_internal_set_player))::Oculus::Haptics::HapticClipPlayer* player;
+  __declspec(property(get = __cordl_internal_get_player, put = __cordl_internal_set_player)) ::Oculus::Haptics::HapticClipPlayer* player;
 
   static inline ::GlobalNamespace::__OculusAdvancedHapticFeedbackPlayer__HapticPlayerState* New_ctor();
 
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_player(::Oculus::Haptics::HapticClipPlayer* value);
 
-  /// @brief Method .ctor, addr 0x25074d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395f654, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,6 +119,9 @@ public:
   /// @brief Field isPlayingLoopingClip, offset: 0x1c, size: 0x1, def value: None
   bool ___isPlayingLoopingClip;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16420 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -132,7 +135,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusAdvancedHapticFeedbackPlayer__
 
 } // namespace GlobalNamespace
 // Type: ::OculusAdvancedHapticFeedbackPlayer
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OculusAdvancedHapticFeedbackPlayer*
@@ -142,24 +145,24 @@ public:
   using HapticPlayerState = ::GlobalNamespace::__OculusAdvancedHapticFeedbackPlayer__HapticPlayerState;
 
   /// @brief Field _hapticPlayerStatesDictionary, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__hapticPlayerStatesDictionary, put = __cordl_internal_set__hapticPlayerStatesDictionary))::System::Collections::Generic::Dictionary_2<
-      ::System::ValueTuple_2<::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>, ::UnityEngine::XR::XRNode>,
-      ::GlobalNamespace::__OculusAdvancedHapticFeedbackPlayer__HapticPlayerState*>* _hapticPlayerStatesDictionary;
+  __declspec(property(get = __cordl_internal_get__hapticPlayerStatesDictionary, put = __cordl_internal_set__hapticPlayerStatesDictionary)) ::System::Collections::Generic::Dictionary_2<
+      ::System::ValueTuple_2<::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>, ::UnityEngine::XR::XRNode>, ::GlobalNamespace::__OculusAdvancedHapticFeedbackPlayer__HapticPlayerState*>*
+      _hapticPlayerStatesDictionary;
 
   /// @brief Field _hasAtLeastOneLoopingClipPlaying, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__hasAtLeastOneLoopingClipPlaying, put = __cordl_internal_set__hasAtLeastOneLoopingClipPlaying)) bool _hasAtLeastOneLoopingClipPlaying;
 
   /// @brief Field _isLeftHandSupported, offset 0x29, size 0x2
-  __declspec(property(get = __cordl_internal_get__isLeftHandSupported, put = __cordl_internal_set__isLeftHandSupported))::System::Nullable_1<bool> _isLeftHandSupported;
+  __declspec(property(get = __cordl_internal_get__isLeftHandSupported, put = __cordl_internal_set__isLeftHandSupported)) ::System::Nullable_1<bool> _isLeftHandSupported;
 
   /// @brief Field _isRightHandSupported, offset 0x2b, size 0x2
-  __declspec(property(get = __cordl_internal_get__isRightHandSupported, put = __cordl_internal_set__isRightHandSupported))::System::Nullable_1<bool> _isRightHandSupported;
+  __declspec(property(get = __cordl_internal_get__isRightHandSupported, put = __cordl_internal_set__isRightHandSupported)) ::System::Nullable_1<bool> _isRightHandSupported;
 
   /// @brief Field _oculusVRHelper, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__oculusVRHelper, put = __cordl_internal_set__oculusVRHelper))::UnityW<::GlobalNamespace::OculusVRHelper> _oculusVRHelper;
+  __declspec(property(get = __cordl_internal_get__oculusVRHelper, put = __cordl_internal_set__oculusVRHelper)) ::UnityW<::GlobalNamespace::OculusVRHelper> _oculusVRHelper;
 
   /// @brief Field _vrPlatformHelper, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
   /// @brief Convert operator to "::GlobalNamespace::IHapticFeedbackPlayer"
   constexpr operator ::GlobalNamespace::IHapticFeedbackPlayer*() noexcept;
@@ -173,27 +176,27 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method CanPlayHapticPreset, addr 0x2507590, size 0x1e8, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x395f70c, size 0x1f0, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
-  /// @brief Method Dispose, addr 0x25078dc, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x395fa84, size 0x20c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetHapticClip, addr 0x25074e0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetHapticClip, addr 0x395f65c, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityW<::Oculus::Haptics::HapticClip> GetHapticClip(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method HandleApplicationQuitting, addr 0x2507d08, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleApplicationQuitting, addr 0x395fed0, size 0x68, virtual false, abstract: false, final false
   inline void HandleApplicationQuitting();
 
-  /// @brief Method Initialize, addr 0x250785c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x395f9e0, size 0xa4, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x250722c, size 0x2ac, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x395f3ac, size 0x2a8, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method Tick, addr 0x2507ac8, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x395fc90, size 0x1c4, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>, ::UnityEngine::XR::XRNode>,
@@ -238,7 +241,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x2507d70, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395ff38, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"
@@ -285,6 +288,9 @@ public:
 
   /// @brief Field _isRightHandSupported, offset: 0x2b, size: 0x2, def value: None
   ::System::Nullable_1<bool> ____isRightHandSupported;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16421 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

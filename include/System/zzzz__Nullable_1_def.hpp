@@ -17,7 +17,7 @@ template <typename T> struct Nullable_1;
 // Write type traits
 MARK_GEN_VAL_T(::System::Nullable_1);
 // Type: System::Nullable`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // cpp template
 template <typename T>
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field value, offset: 0x8, size: 0x8, def value: None
   T value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2447 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

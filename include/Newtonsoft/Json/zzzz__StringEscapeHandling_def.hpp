@@ -13,7 +13,7 @@ struct StringEscapeHandling;
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::StringEscapeHandling);
 // Type: Newtonsoft.Json::StringEscapeHandling
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: ::Newtonsoft.Json::StringEscapeHandling
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field EscapeNonAscii value: static_cast<int32_t>(0x1)
   static ::Newtonsoft::Json::StringEscapeHandling const EscapeNonAscii;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10141 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

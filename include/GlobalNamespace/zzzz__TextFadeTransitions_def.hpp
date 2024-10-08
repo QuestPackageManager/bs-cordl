@@ -30,7 +30,7 @@ class TextFadeTransitions;
 MARK_VAL_T(::GlobalNamespace::__TextFadeTransitions__State);
 MARK_REF_PTR_T(::GlobalNamespace::TextFadeTransitions);
 // Type: ::State
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::TextFadeTransitions::State
@@ -75,6 +75,9 @@ public:
   /// @brief Field NotInTransition value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__TextFadeTransitions__State const NotInTransition;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4681 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -87,7 +90,7 @@ static_assert(offsetof(::GlobalNamespace::__TextFadeTransitions__State, value__)
 
 } // namespace GlobalNamespace
 // Type: ::TextFadeTransitions
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TextFadeTransitions*
@@ -96,39 +99,39 @@ public:
   // Declarations
   using State = ::GlobalNamespace::__TextFadeTransitions__State;
 
-  /// @brief Field _canvasGroup, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup))::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
+  /// @brief Field _canvasGroup, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup)) ::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
 
-  /// @brief Field _fade, offset 0x38, size 0x4
+  /// @brief Field _fade, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__fade, put = __cordl_internal_set__fade)) float_t _fade;
 
-  /// @brief Field _fadeDuration, offset 0x28, size 0x4
+  /// @brief Field _fadeDuration, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__fadeDuration, put = __cordl_internal_set__fadeDuration)) float_t _fadeDuration;
 
-  /// @brief Field _nextText, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__nextText, put = __cordl_internal_set__nextText))::StringW _nextText;
+  /// @brief Field _nextText, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__nextText, put = __cordl_internal_set__nextText)) ::StringW _nextText;
 
-  /// @brief Field _state, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::GlobalNamespace::__TextFadeTransitions__State _state;
+  /// @brief Field _state, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) ::GlobalNamespace::__TextFadeTransitions__State _state;
 
-  /// @brief Field _textLabel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__textLabel, put = __cordl_internal_set__textLabel))::UnityW<::TMPro::TextMeshProUGUI> _textLabel;
+  /// @brief Field _textLabel, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__textLabel, put = __cordl_internal_set__textLabel)) ::UnityW<::TMPro::TextMeshProUGUI> _textLabel;
 
-  /// @brief Method Awake, addr 0x27589a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b755d8, size 0x7c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::TextFadeTransitions* New_ctor();
 
-  /// @brief Method RefreshState, addr 0x2758af0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method RefreshState, addr 0x3b75728, size 0x100, virtual false, abstract: false, final false
   inline void RefreshState();
 
-  /// @brief Method RefreshTextAlpha, addr 0x2758a1c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RefreshTextAlpha, addr 0x3b75654, size 0xd0, virtual false, abstract: false, final false
   inline void RefreshTextAlpha();
 
-  /// @brief Method ShowText, addr 0x274f954, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ShowText, addr 0x3b75828, size 0x74, virtual false, abstract: false, final false
   inline void ShowText(::StringW text);
 
-  /// @brief Method Update, addr 0x2758aec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b75724, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
@@ -167,7 +170,7 @@ public:
 
   constexpr void __cordl_internal_set__textLabel(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x2758bf0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7589c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -184,40 +187,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextFadeTransitions(TextFadeTransitions const&) = delete;
 
-  /// @brief Field _textLabel, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _textLabel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____textLabel;
 
-  /// @brief Field _canvasGroup, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _canvasGroup, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 
-  /// @brief Field _fadeDuration, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field _fadeDuration, offset: 0x30, size: 0x4, def value: None
   float_t ____fadeDuration;
 
-  /// @brief Field _state, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _state, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::__TextFadeTransitions__State ____state;
 
-  /// @brief Field _nextText, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _nextText, offset: 0x38, size: 0x8, def value: None
   ::StringW ____nextText;
 
-  /// @brief Field _fade, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _fade, offset: 0x40, size: 0x4, def value: None
   float_t ____fade;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4682 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextFadeTransitions, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextFadeTransitions, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextFadeTransitions, ____textLabel) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextFadeTransitions, ____textLabel) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextFadeTransitions, ____canvasGroup) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextFadeTransitions, ____canvasGroup) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextFadeTransitions, ____fadeDuration) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextFadeTransitions, ____fadeDuration) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextFadeTransitions, ____state) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextFadeTransitions, ____state) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextFadeTransitions, ____nextText) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextFadeTransitions, ____nextText) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextFadeTransitions, ____fade) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextFadeTransitions, ____fade) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__TextFadeTransitions__State, "", "TextFadeTransitions/State");

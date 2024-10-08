@@ -13,7 +13,7 @@ class FreeFunctionAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Bindings::FreeFunctionAttribute);
 // Type: UnityEngine.Bindings::FreeFunctionAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
 // CS Name: ::UnityEngine.Bindings::FreeFunctionAttribute*
@@ -26,13 +26,13 @@ public:
 
   static inline ::UnityEngine::Bindings::FreeFunctionAttribute* New_ctor(::StringW name, bool isThreadSafe);
 
-  /// @brief Method .ctor, addr 0x34ab18c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489dc04, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x34ab1ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489dc24, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x34ab1c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489dc40, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isThreadSafe);
 
 protected:
@@ -48,6 +48,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FreeFunctionAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FreeFunctionAttribute(FreeFunctionAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18591 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

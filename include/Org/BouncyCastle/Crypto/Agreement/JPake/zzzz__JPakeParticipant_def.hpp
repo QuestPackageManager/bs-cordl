@@ -36,7 +36,7 @@ class JPakeParticipant;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant);
 // Type: Org.BouncyCastle.Crypto.Agreement.JPake::JPakeParticipant
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.JPake::JPakeParticipant*
@@ -70,63 +70,63 @@ public:
   __declspec(property(get = get_State)) int32_t State;
 
   /// @brief Field b, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b))::Org::BouncyCastle::Math::BigInteger* b;
+  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) ::Org::BouncyCastle::Math::BigInteger* b;
 
   /// @brief Field digest, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest)) ::Org::BouncyCastle::Crypto::IDigest* digest;
 
   /// @brief Field g, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Org::BouncyCastle::Math::BigInteger* g;
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g)) ::Org::BouncyCastle::Math::BigInteger* g;
 
   /// @brief Field gx1, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_gx1, put = __cordl_internal_set_gx1))::Org::BouncyCastle::Math::BigInteger* gx1;
+  __declspec(property(get = __cordl_internal_get_gx1, put = __cordl_internal_set_gx1)) ::Org::BouncyCastle::Math::BigInteger* gx1;
 
   /// @brief Field gx2, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_gx2, put = __cordl_internal_set_gx2))::Org::BouncyCastle::Math::BigInteger* gx2;
+  __declspec(property(get = __cordl_internal_get_gx2, put = __cordl_internal_set_gx2)) ::Org::BouncyCastle::Math::BigInteger* gx2;
 
   /// @brief Field gx3, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_gx3, put = __cordl_internal_set_gx3))::Org::BouncyCastle::Math::BigInteger* gx3;
+  __declspec(property(get = __cordl_internal_get_gx3, put = __cordl_internal_set_gx3)) ::Org::BouncyCastle::Math::BigInteger* gx3;
 
   /// @brief Field gx4, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_gx4, put = __cordl_internal_set_gx4))::Org::BouncyCastle::Math::BigInteger* gx4;
+  __declspec(property(get = __cordl_internal_get_gx4, put = __cordl_internal_set_gx4)) ::Org::BouncyCastle::Math::BigInteger* gx4;
 
   /// @brief Field p, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Org::BouncyCastle::Math::BigInteger* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) ::Org::BouncyCastle::Math::BigInteger* p;
 
   /// @brief Field participantId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_participantId, put = __cordl_internal_set_participantId))::StringW participantId;
+  __declspec(property(get = __cordl_internal_get_participantId, put = __cordl_internal_set_participantId)) ::StringW participantId;
 
   /// @brief Field partnerParticipantId, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_partnerParticipantId, put = __cordl_internal_set_partnerParticipantId))::StringW partnerParticipantId;
+  __declspec(property(get = __cordl_internal_get_partnerParticipantId, put = __cordl_internal_set_partnerParticipantId)) ::StringW partnerParticipantId;
 
   /// @brief Field password, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password))::ArrayW<char16_t, ::Array<char16_t>*> password;
+  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password)) ::ArrayW<char16_t, ::Array<char16_t>*> password;
 
   /// @brief Field q, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Org::BouncyCastle::Math::BigInteger* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q)) ::Org::BouncyCastle::Math::BigInteger* q;
 
   /// @brief Field random, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Field state, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state)) int32_t state;
 
   /// @brief Field x1, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_x1, put = __cordl_internal_set_x1))::Org::BouncyCastle::Math::BigInteger* x1;
+  __declspec(property(get = __cordl_internal_get_x1, put = __cordl_internal_set_x1)) ::Org::BouncyCastle::Math::BigInteger* x1;
 
   /// @brief Field x2, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_x2, put = __cordl_internal_set_x2))::Org::BouncyCastle::Math::BigInteger* x2;
+  __declspec(property(get = __cordl_internal_get_x2, put = __cordl_internal_set_x2)) ::Org::BouncyCastle::Math::BigInteger* x2;
 
-  /// @brief Method CalculateKeyingMaterial, addr 0x1487db8, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method CalculateKeyingMaterial, addr 0x264863c, size 0x194, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateKeyingMaterial();
 
-  /// @brief Method CreateRound1PayloadToSend, addr 0x1486854, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method CreateRound1PayloadToSend, addr 0x2647188, size 0x21c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload* CreateRound1PayloadToSend();
 
-  /// @brief Method CreateRound2PayloadToSend, addr 0x14874b4, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method CreateRound2PayloadToSend, addr 0x2647dc4, size 0x218, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload* CreateRound2PayloadToSend();
 
-  /// @brief Method CreateRound3PayloadToSend, addr 0x1487ff0, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method CreateRound3PayloadToSend, addr 0x264886c, size 0x1dc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload* CreateRound3PayloadToSend(::Org::BouncyCastle::Math::BigInteger* keyingMaterial);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant* New_ctor(::StringW participantId, ::ArrayW<char16_t, ::Array<char16_t>*> password);
@@ -138,13 +138,13 @@ public:
                                                                                           ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* group,
                                                                                           ::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method ValidateRound1PayloadReceived, addr 0x1486f1c, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method ValidateRound1PayloadReceived, addr 0x2647844, size 0x234, virtual true, abstract: false, final false
   inline void ValidateRound1PayloadReceived(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload* round1PayloadReceived);
 
-  /// @brief Method ValidateRound2PayloadReceived, addr 0x148792c, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method ValidateRound2PayloadReceived, addr 0x264822c, size 0x228, virtual true, abstract: false, final false
   inline void ValidateRound2PayloadReceived(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload* round2PayloadReceived);
 
-  /// @brief Method ValidateRound3PayloadReceived, addr 0x148842c, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method ValidateRound3PayloadReceived, addr 0x2648c98, size 0x210, virtual true, abstract: false, final false
   inline void ValidateRound3PayloadReceived(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload* round3PayloadReceived, ::Org::BouncyCastle::Math::BigInteger* keyingMaterial);
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_b();
@@ -243,13 +243,13 @@ public:
 
   constexpr void __cordl_internal_set_x2(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x1486488, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2646dd4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method .ctor, addr 0x1486500, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2646e4c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* group);
 
-  /// @brief Method .ctor, addr 0x14865bc, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2646efc, size 0x238, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* group,
                     ::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Security::SecureRandom* random);
 
@@ -269,7 +269,7 @@ public:
 
   static inline int32_t getStaticF_STATE_ROUND_3_VALIDATED();
 
-  /// @brief Method get_State, addr 0x148684c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_State, addr 0x2647180, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_State();
 
   static inline void setStaticF_STATE_INITIALIZED(int32_t value);
@@ -349,6 +349,9 @@ public:
 
   /// @brief Field state, offset: 0x88, size: 0x4, def value: None
   int32_t ___state;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 714 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

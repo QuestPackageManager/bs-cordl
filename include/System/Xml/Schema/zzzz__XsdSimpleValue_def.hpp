@@ -18,22 +18,22 @@ class XsdSimpleValue;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XsdSimpleValue);
 // Type: System.Xml.Schema::XsdSimpleValue
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XsdSimpleValue*
 class CORDL_TYPE XsdSimpleValue : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_TypedValue))::System::Object* TypedValue;
+  __declspec(property(get = get_TypedValue)) ::System::Object* TypedValue;
 
-  __declspec(property(get = get_XmlType))::System::Xml::Schema::XmlSchemaSimpleType* XmlType;
+  __declspec(property(get = get_XmlType)) ::System::Xml::Schema::XmlSchemaSimpleType* XmlType;
 
   /// @brief Field typedValue, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_typedValue, put = __cordl_internal_set_typedValue))::System::Object* typedValue;
+  __declspec(property(get = __cordl_internal_get_typedValue, put = __cordl_internal_set_typedValue)) ::System::Object* typedValue;
 
   /// @brief Field xmlType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_xmlType, put = __cordl_internal_set_xmlType))::System::Xml::Schema::XmlSchemaSimpleType* xmlType;
+  __declspec(property(get = __cordl_internal_get_xmlType, put = __cordl_internal_set_xmlType)) ::System::Xml::Schema::XmlSchemaSimpleType* xmlType;
 
   static inline ::System::Xml::Schema::XsdSimpleValue* New_ctor(::System::Xml::Schema::XmlSchemaSimpleType* st, ::System::Object* value);
 
@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set_xmlType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method .ctor, addr 0x2f2e668, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432a85c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaSimpleType* st, ::System::Object* value);
 
-  /// @brief Method get_TypedValue, addr 0x2f2e69c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x432a890, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_XmlType, addr 0x2f2e694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x432a888, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field typedValue, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ___typedValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7483 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

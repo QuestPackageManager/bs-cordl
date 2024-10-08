@@ -24,7 +24,7 @@ class RsaOaepWrapperProvider;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider);
 // Type: Org.BouncyCastle.Crypto.Operators::RsaOaepWrapperProvider
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::RsaOaepWrapperProvider*
@@ -32,14 +32,14 @@ class CORDL_TYPE RsaOaepWrapperProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field digestOid, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_digestOid, put = __cordl_internal_set_digestOid))::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid;
+  __declspec(property(get = __cordl_internal_get_digestOid, put = __cordl_internal_set_digestOid)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Operators::WrapperProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Operators::WrapperProvider*() noexcept;
 
   static inline ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method Org.BouncyCastle.Crypto.Operators.WrapperProvider.CreateWrapper, addr 0x119ab00, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Org.BouncyCastle.Crypto.Operators.WrapperProvider.CreateWrapper, addr 0x2371f80, size 0x74, virtual true, abstract: false, final true
   inline ::System::Object* Org_BouncyCastle_Crypto_Operators_WrapperProvider_CreateWrapper(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_digestOid();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_digestOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x119a3e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2371878, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Operators::WrapperProvider"
@@ -70,6 +70,9 @@ public:
 
   /// @brief Field digestOid, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___digestOid;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 989 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

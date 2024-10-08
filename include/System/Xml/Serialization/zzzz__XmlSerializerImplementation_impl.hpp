@@ -8,10 +8,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializationWriter* (
     ::System::Xml::Serialization::XmlSerializerImplementation::*)()>(&::System::Xml::Serialization::XmlSerializerImplementation::get_Writer)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2f1b618;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x4317d94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializerImplementation*>::get(),

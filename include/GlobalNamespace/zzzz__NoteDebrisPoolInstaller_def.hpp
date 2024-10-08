@@ -18,7 +18,7 @@ class NoteDebrisPoolInstaller;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisPoolInstaller);
 // Type: ::NoteDebrisPoolInstaller
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoteDebrisPoolInstaller*
@@ -26,32 +26,32 @@ class CORDL_TYPE NoteDebrisPoolInstaller : public ::Zenject::ScriptableObjectIns
 public:
   // Declarations
   /// @brief Field _burstSliderElementNoteHDPrefab, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__burstSliderElementNoteHDPrefab,
-                      put = __cordl_internal_set__burstSliderElementNoteHDPrefab))::UnityW<::GlobalNamespace::NoteDebris> _burstSliderElementNoteHDPrefab;
+  __declspec(property(get = __cordl_internal_get__burstSliderElementNoteHDPrefab, put = __cordl_internal_set__burstSliderElementNoteHDPrefab)) ::UnityW<::GlobalNamespace::NoteDebris>
+      _burstSliderElementNoteHDPrefab;
 
   /// @brief Field _burstSliderElementNoteLWPrefab, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__burstSliderElementNoteLWPrefab,
-                      put = __cordl_internal_set__burstSliderElementNoteLWPrefab))::UnityW<::GlobalNamespace::NoteDebris> _burstSliderElementNoteLWPrefab;
+  __declspec(property(get = __cordl_internal_get__burstSliderElementNoteLWPrefab, put = __cordl_internal_set__burstSliderElementNoteLWPrefab)) ::UnityW<::GlobalNamespace::NoteDebris>
+      _burstSliderElementNoteLWPrefab;
 
   /// @brief Field _burstSliderHeadNoteDebrisHDPrefab, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__burstSliderHeadNoteDebrisHDPrefab,
-                      put = __cordl_internal_set__burstSliderHeadNoteDebrisHDPrefab))::UnityW<::GlobalNamespace::NoteDebris> _burstSliderHeadNoteDebrisHDPrefab;
+  __declspec(property(get = __cordl_internal_get__burstSliderHeadNoteDebrisHDPrefab, put = __cordl_internal_set__burstSliderHeadNoteDebrisHDPrefab)) ::UnityW<::GlobalNamespace::NoteDebris>
+      _burstSliderHeadNoteDebrisHDPrefab;
 
   /// @brief Field _burstSliderHeadNoteDebrisLWPrefab, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__burstSliderHeadNoteDebrisLWPrefab,
-                      put = __cordl_internal_set__burstSliderHeadNoteDebrisLWPrefab))::UnityW<::GlobalNamespace::NoteDebris> _burstSliderHeadNoteDebrisLWPrefab;
+  __declspec(property(get = __cordl_internal_get__burstSliderHeadNoteDebrisLWPrefab, put = __cordl_internal_set__burstSliderHeadNoteDebrisLWPrefab)) ::UnityW<::GlobalNamespace::NoteDebris>
+      _burstSliderHeadNoteDebrisLWPrefab;
 
   /// @brief Field _normalNoteDebrisHDPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__normalNoteDebrisHDPrefab, put = __cordl_internal_set__normalNoteDebrisHDPrefab))::UnityW<::GlobalNamespace::NoteDebris> _normalNoteDebrisHDPrefab;
+  __declspec(property(get = __cordl_internal_get__normalNoteDebrisHDPrefab, put = __cordl_internal_set__normalNoteDebrisHDPrefab)) ::UnityW<::GlobalNamespace::NoteDebris> _normalNoteDebrisHDPrefab;
 
   /// @brief Field _normalNoteDebrisLWPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__normalNoteDebrisLWPrefab, put = __cordl_internal_set__normalNoteDebrisLWPrefab))::UnityW<::GlobalNamespace::NoteDebris> _normalNoteDebrisLWPrefab;
+  __declspec(property(get = __cordl_internal_get__normalNoteDebrisLWPrefab, put = __cordl_internal_set__normalNoteDebrisLWPrefab)) ::UnityW<::GlobalNamespace::NoteDebris> _normalNoteDebrisLWPrefab;
 
   /// @brief Field _noteDebrisHDConditionVariable, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteDebrisHDConditionVariable,
-                      put = __cordl_internal_set__noteDebrisHDConditionVariable))::UnityW<::GlobalNamespace::BoolSO> _noteDebrisHDConditionVariable;
+  __declspec(property(get = __cordl_internal_get__noteDebrisHDConditionVariable, put = __cordl_internal_set__noteDebrisHDConditionVariable)) ::UnityW<::GlobalNamespace::BoolSO>
+      _noteDebrisHDConditionVariable;
 
-  /// @brief Method InstallBindings, addr 0x275e868, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b7b590, size 0x234, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::NoteDebrisPoolInstaller* New_ctor();
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__noteDebrisHDConditionVariable(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x275ea9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7b7c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -135,6 +135,9 @@ public:
 
   /// @brief Field _noteDebrisHDConditionVariable, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____noteDebrisHDConditionVariable;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4710 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

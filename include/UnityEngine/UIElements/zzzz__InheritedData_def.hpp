@@ -59,7 +59,7 @@ struct InheritedData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::InheritedData);
 // Type: UnityEngine.UIElements::InheritedData
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::InheritedData
@@ -72,19 +72,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>*();
 
-  /// @brief Method Copy, addr 0x3619730, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x4a06428, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::InheritedData Copy();
 
-  /// @brief Method CopyFrom, addr 0x361974c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x4a06444, size 0x14, virtual true, abstract: false, final true
   inline void CopyFrom(ByRef<::UnityEngine::UIElements::InheritedData> other);
 
-  /// @brief Method Equals, addr 0x36199ac, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a06714, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3619960, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a066c8, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::InheritedData other);
 
-  /// @brief Method GetHashCode, addr 0x3619a54, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a067bc, size 0x27c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
@@ -93,7 +93,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__InheritedData_();
 
-  /// @brief Method op_Equality, addr 0x3619760, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a06458, size 0x248, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::InheritedData lhs, ::UnityEngine::UIElements::InheritedData rhs);
 
   // Ctor Parameters []
@@ -155,6 +155,9 @@ public:
 
   /// @brief Field wordSpacing, offset: 0x84, size: 0x8, def value: None
   ::UnityEngine::UIElements::Length wordSpacing;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6048 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };

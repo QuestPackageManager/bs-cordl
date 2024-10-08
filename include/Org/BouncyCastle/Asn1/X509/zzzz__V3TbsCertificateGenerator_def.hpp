@@ -42,7 +42,7 @@ class V3TbsCertificateGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator);
 // Type: Org.BouncyCastle.Asn1.X509::V3TbsCertificateGenerator
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::V3TbsCertificateGenerator*
@@ -53,77 +53,77 @@ public:
   __declspec(property(get = __cordl_internal_get_altNamePresentAndCritical, put = __cordl_internal_set_altNamePresentAndCritical)) bool altNamePresentAndCritical;
 
   /// @brief Field endDate, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_endDate, put = __cordl_internal_set_endDate))::Org::BouncyCastle::Asn1::X509::Time* endDate;
+  __declspec(property(get = __cordl_internal_get_endDate, put = __cordl_internal_set_endDate)) ::Org::BouncyCastle::Asn1::X509::Time* endDate;
 
   /// @brief Field extensions, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions)) ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
 
   /// @brief Field issuer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_issuer, put = __cordl_internal_set_issuer))::Org::BouncyCastle::Asn1::X509::X509Name* issuer;
+  __declspec(property(get = __cordl_internal_get_issuer, put = __cordl_internal_set_issuer)) ::Org::BouncyCastle::Asn1::X509::X509Name* issuer;
 
   /// @brief Field issuerUniqueID, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_issuerUniqueID, put = __cordl_internal_set_issuerUniqueID))::Org::BouncyCastle::Asn1::DerBitString* issuerUniqueID;
+  __declspec(property(get = __cordl_internal_get_issuerUniqueID, put = __cordl_internal_set_issuerUniqueID)) ::Org::BouncyCastle::Asn1::DerBitString* issuerUniqueID;
 
   /// @brief Field serialNumber, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber))::Org::BouncyCastle::Asn1::DerInteger* serialNumber;
+  __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber)) ::Org::BouncyCastle::Asn1::DerInteger* serialNumber;
 
   /// @brief Field signature, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_signature, put = __cordl_internal_set_signature))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature;
+  __declspec(property(get = __cordl_internal_get_signature, put = __cordl_internal_set_signature)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature;
 
   /// @brief Field startDate, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_startDate, put = __cordl_internal_set_startDate))::Org::BouncyCastle::Asn1::X509::Time* startDate;
+  __declspec(property(get = __cordl_internal_get_startDate, put = __cordl_internal_set_startDate)) ::Org::BouncyCastle::Asn1::X509::Time* startDate;
 
   /// @brief Field subject, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_subject, put = __cordl_internal_set_subject))::Org::BouncyCastle::Asn1::X509::X509Name* subject;
+  __declspec(property(get = __cordl_internal_get_subject, put = __cordl_internal_set_subject)) ::Org::BouncyCastle::Asn1::X509::X509Name* subject;
 
   /// @brief Field subjectPublicKeyInfo, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_subjectPublicKeyInfo, put = __cordl_internal_set_subjectPublicKeyInfo))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* subjectPublicKeyInfo;
+  __declspec(property(get = __cordl_internal_get_subjectPublicKeyInfo, put = __cordl_internal_set_subjectPublicKeyInfo)) ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* subjectPublicKeyInfo;
 
   /// @brief Field subjectUniqueID, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_subjectUniqueID, put = __cordl_internal_set_subjectUniqueID))::Org::BouncyCastle::Asn1::DerBitString* subjectUniqueID;
+  __declspec(property(get = __cordl_internal_get_subjectUniqueID, put = __cordl_internal_set_subjectUniqueID)) ::Org::BouncyCastle::Asn1::DerBitString* subjectUniqueID;
 
   /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerTaggedObject* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerTaggedObject* version;
 
-  /// @brief Method GenerateTbsCertificate, addr 0x140f228, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method GenerateTbsCertificate, addr 0x25d50cc, size 0x3dc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* GenerateTbsCertificate();
 
   static inline ::Org::BouncyCastle::Asn1::X509::V3TbsCertificateGenerator* New_ctor();
 
-  /// @brief Method SetEndDate, addr 0x140f01c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetEndDate, addr 0x25d4ec8, size 0x64, virtual false, abstract: false, final false
   inline void SetEndDate(::Org::BouncyCastle::Asn1::DerUtcTime* endDate);
 
-  /// @brief Method SetEndDate, addr 0x140f088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEndDate, addr 0x25d4f2c, size 0x8, virtual false, abstract: false, final false
   inline void SetEndDate(::Org::BouncyCastle::Asn1::X509::Time* endDate);
 
-  /// @brief Method SetExtensions, addr 0x140f0b0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetExtensions, addr 0x25d4f54, size 0x84, virtual false, abstract: false, final false
   inline void SetExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method SetIssuer, addr 0x140efa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetIssuer, addr 0x25d4e54, size 0x8, virtual false, abstract: false, final false
   inline void SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method SetIssuerUniqueID, addr 0x140f098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetIssuerUniqueID, addr 0x25d4f3c, size 0x8, virtual false, abstract: false, final false
   inline void SetIssuerUniqueID(::Org::BouncyCastle::Asn1::DerBitString* uniqueID);
 
-  /// @brief Method SetSerialNumber, addr 0x140ef90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0x25d4e44, size 0x8, virtual false, abstract: false, final false
   inline void SetSerialNumber(::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 
-  /// @brief Method SetSignature, addr 0x140ef98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSignature, addr 0x25d4e4c, size 0x8, virtual false, abstract: false, final false
   inline void SetSignature(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature);
 
-  /// @brief Method SetStartDate, addr 0x140efa8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetStartDate, addr 0x25d4e5c, size 0x64, virtual false, abstract: false, final false
   inline void SetStartDate(::Org::BouncyCastle::Asn1::DerUtcTime* startDate);
 
-  /// @brief Method SetStartDate, addr 0x140f014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetStartDate, addr 0x25d4ec0, size 0x8, virtual false, abstract: false, final false
   inline void SetStartDate(::Org::BouncyCastle::Asn1::X509::Time* startDate);
 
-  /// @brief Method SetSubject, addr 0x140f090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSubject, addr 0x25d4f34, size 0x8, virtual false, abstract: false, final false
   inline void SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
 
-  /// @brief Method SetSubjectPublicKeyInfo, addr 0x140f0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSubjectPublicKeyInfo, addr 0x25d4f4c, size 0x8, virtual false, abstract: false, final false
   inline void SetSubjectPublicKeyInfo(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
 
-  /// @brief Method SetSubjectUniqueID, addr 0x140f0a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSubjectUniqueID, addr 0x25d4f44, size 0x8, virtual false, abstract: false, final false
   inline void SetSubjectUniqueID(::Org::BouncyCastle::Asn1::DerBitString* uniqueID);
 
   constexpr bool const& __cordl_internal_get_altNamePresentAndCritical() const;
@@ -198,7 +198,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerTaggedObject* value);
 
-  /// @brief Method .ctor, addr 0x140eef0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d4da8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -250,6 +250,9 @@ public:
 
   /// @brief Field subjectUniqueID, offset: 0x68, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerBitString* ___subjectUniqueID;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 400 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

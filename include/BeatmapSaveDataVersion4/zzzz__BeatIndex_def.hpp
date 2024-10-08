@@ -20,7 +20,7 @@ class BeatIndex;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion4::BeatIndex);
 // Type: BeatmapSaveDataVersion4::BeatIndex
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion4::BeatIndex*
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set_i(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1503104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c6e0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beat, addr 0x15030fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x26c6e04, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field i, offset: 0x14, size: 0x4, def value: None
   int32_t ___i;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13322 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

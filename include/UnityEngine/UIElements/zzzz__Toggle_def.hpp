@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Toggle);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__Toggle__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__Toggle__UxmlTraits);
 // Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::Toggle::UxmlFactory*
@@ -53,7 +53,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Toggle__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35caac4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4992e28, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,6 +70,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Toggle__UxmlFactory(__Toggle__UxmlFactory const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5672 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -77,7 +80,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Toggl
 
 } // namespace UnityEngine::UIElements
 // Type: ::UxmlTraits
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::Toggle::UxmlTraits*
@@ -85,9 +88,9 @@ class CORDL_TYPE __Toggle__UxmlTraits : public ::UnityEngine::UIElements::BaseFi
 public:
   // Declarations
   /// @brief Field m_Text, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
+  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x35cab0c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4992e70, size 0x11c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__Toggle__UxmlTraits* New_ctor();
@@ -98,7 +101,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x35cac24, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4992f8c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,6 +121,9 @@ public:
   /// @brief Field m_Text, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Text;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5673 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -127,7 +133,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__Toggle__UxmlTraits, ___m_Tex
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::Toggle
-// SizeInfo { instance_size: 1064, native_size: -1, calculated_instance_size: 1064, calculated_native_size: 1064, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1120, native_size: -1, calculated_instance_size: 1120, calculated_native_size: 1120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::Toggle*
@@ -139,34 +145,40 @@ public:
   using UxmlTraits = ::UnityEngine::UIElements::__Toggle__UxmlTraits;
 
   /// @brief Field checkmarkUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_checkmarkUssClassName, put = setStaticF_checkmarkUssClassName))::StringW checkmarkUssClassName;
+  static __declspec(property(get = getStaticF_checkmarkUssClassName, put = setStaticF_checkmarkUssClassName)) ::StringW checkmarkUssClassName;
 
   /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName))::StringW inputUssClassName;
+  static __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
 
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName))::StringW labelUssClassName;
+  static __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
+
+  /// @brief Field mixedValuesUssClassName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_mixedValuesUssClassName, put = setStaticF_mixedValuesUssClassName)) ::StringW mixedValuesUssClassName;
 
   /// @brief Field noTextVariantUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_noTextVariantUssClassName, put = setStaticF_noTextVariantUssClassName))::StringW noTextVariantUssClassName;
+  static __declspec(property(get = getStaticF_noTextVariantUssClassName, put = setStaticF_noTextVariantUssClassName)) ::StringW noTextVariantUssClassName;
 
   /// @brief Field textUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_textUssClassName, put = setStaticF_textUssClassName))::StringW textUssClassName;
+  static __declspec(property(get = getStaticF_textUssClassName, put = setStaticF_textUssClassName)) ::StringW textUssClassName;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
+  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method InitLabel, addr 0x35ca8dc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method InitLabel, addr 0x4992a60, size 0x7c, virtual true, abstract: false, final false
   inline void InitLabel();
 
   static inline ::UnityEngine::UIElements::Toggle* New_ctor();
 
   static inline ::UnityEngine::UIElements::Toggle* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x35c9efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x4992adc, size 0x1ac, virtual true, abstract: false, final false
+  inline void UpdateMixedValueContent();
+
+  /// @brief Method .ctor, addr 0x4992958, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x35ca7e0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4992960, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_checkmarkUssClassName();
@@ -174,6 +186,8 @@ public:
   static inline ::StringW getStaticF_inputUssClassName();
 
   static inline ::StringW getStaticF_labelUssClassName();
+
+  static inline ::StringW getStaticF_mixedValuesUssClassName();
 
   static inline ::StringW getStaticF_noTextVariantUssClassName();
 
@@ -186,6 +200,8 @@ public:
   static inline void setStaticF_inputUssClassName(::StringW value);
 
   static inline void setStaticF_labelUssClassName(::StringW value);
+
+  static inline void setStaticF_mixedValuesUssClassName(::StringW value);
 
   static inline void setStaticF_noTextVariantUssClassName(::StringW value);
 
@@ -207,10 +223,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Toggle(Toggle const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5674 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Toggle, 0x428>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Toggle, 0x460>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Toggle);

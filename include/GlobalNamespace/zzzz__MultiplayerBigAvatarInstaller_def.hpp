@@ -21,24 +21,24 @@ class MultiplayerBigAvatarInstaller;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBigAvatarInstaller);
 // Type: ::MultiplayerBigAvatarInstaller
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerBigAvatarInstaller*
 class CORDL_TYPE MultiplayerBigAvatarInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Field _connectedPlayer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  /// @brief Field _connectedPlayer, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
-  /// @brief Field _playerSpecificSettings, offset 0x30, size 0x8
+  /// @brief Field _playerSpecificSettings, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__playerSpecificSettings,
-                      put = __cordl_internal_set__playerSpecificSettings))::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playerSpecificSettings;
+                      put = __cordl_internal_set__playerSpecificSettings)) ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playerSpecificSettings;
 
-  /// @brief Field _saberManagerInitData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberManagerInitData, put = __cordl_internal_set__saberManagerInitData))::GlobalNamespace::__SaberManager__InitData* _saberManagerInitData;
+  /// @brief Field _saberManagerInitData, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberManagerInitData, put = __cordl_internal_set__saberManagerInitData)) ::GlobalNamespace::__SaberManager__InitData* _saberManagerInitData;
 
-  /// @brief Method InstallBindings, addr 0x2732bd0, size 0x414, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b51bc0, size 0x414, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerBigAvatarInstaller* New_ctor();
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__saberManagerInitData(::GlobalNamespace::__SaberManager__InitData* value);
 
-  /// @brief Method .ctor, addr 0x2732fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b51fd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,25 +78,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerBigAvatarInstaller(MultiplayerBigAvatarInstaller const&) = delete;
 
-  /// @brief Field _connectedPlayer, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _connectedPlayer, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 
-  /// @brief Field _saberManagerInitData, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _saberManagerInitData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::__SaberManager__InitData* ____saberManagerInitData;
 
-  /// @brief Field _playerSpecificSettings, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _playerSpecificSettings, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* ____playerSpecificSettings;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4536 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBigAvatarInstaller, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBigAvatarInstaller, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerBigAvatarInstaller, ____connectedPlayer) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerBigAvatarInstaller, ____connectedPlayer) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerBigAvatarInstaller, ____saberManagerInitData) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerBigAvatarInstaller, ____saberManagerInitData) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerBigAvatarInstaller, ____playerSpecificSettings) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerBigAvatarInstaller, ____playerSpecificSettings) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerBigAvatarInstaller);

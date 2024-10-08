@@ -13,7 +13,7 @@ struct EventKeywords;
 // Write type traits
 MARK_VAL_T(::System::Diagnostics::Tracing::EventKeywords);
 // Type: System.Diagnostics.Tracing::EventKeywords
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::Tracing {
 // Is value type: true
 // CS Name: ::System.Diagnostics.Tracing::EventKeywords
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field WdiDiagnostic value: static_cast<int64_t>(0x4000000000000)
   static ::System::Diagnostics::Tracing::EventKeywords const WdiDiagnostic;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3750 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

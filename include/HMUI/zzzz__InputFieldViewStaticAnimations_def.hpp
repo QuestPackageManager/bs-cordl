@@ -21,49 +21,49 @@ class InputFieldViewStaticAnimations;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::InputFieldViewStaticAnimations);
 // Type: HMUI::InputFieldViewStaticAnimations
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::InputFieldViewStaticAnimations*
 class CORDL_TYPE InputFieldViewStaticAnimations : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _didStart, offset 0x48, size 0x1
+  /// @brief Field _didStart, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get__didStart, put = __cordl_internal_set__didStart)) bool _didStart;
 
-  /// @brief Field _disabledClip, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__disabledClip, put = __cordl_internal_set__disabledClip))::UnityW<::UnityEngine::AnimationClip> _disabledClip;
+  /// @brief Field _disabledClip, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__disabledClip, put = __cordl_internal_set__disabledClip)) ::UnityW<::UnityEngine::AnimationClip> _disabledClip;
 
-  /// @brief Field _highlightedClip, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__highlightedClip, put = __cordl_internal_set__highlightedClip))::UnityW<::UnityEngine::AnimationClip> _highlightedClip;
+  /// @brief Field _highlightedClip, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__highlightedClip, put = __cordl_internal_set__highlightedClip)) ::UnityW<::UnityEngine::AnimationClip> _highlightedClip;
 
-  /// @brief Field _inputFieldView, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__inputFieldView, put = __cordl_internal_set__inputFieldView))::UnityW<::HMUI::InputFieldView> _inputFieldView;
+  /// @brief Field _inputFieldView, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__inputFieldView, put = __cordl_internal_set__inputFieldView)) ::UnityW<::HMUI::InputFieldView> _inputFieldView;
 
-  /// @brief Field _normalClip, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__normalClip, put = __cordl_internal_set__normalClip))::UnityW<::UnityEngine::AnimationClip> _normalClip;
+  /// @brief Field _normalClip, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__normalClip, put = __cordl_internal_set__normalClip)) ::UnityW<::UnityEngine::AnimationClip> _normalClip;
 
-  /// @brief Field _pressedClip, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__pressedClip, put = __cordl_internal_set__pressedClip))::UnityW<::UnityEngine::AnimationClip> _pressedClip;
+  /// @brief Field _pressedClip, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__pressedClip, put = __cordl_internal_set__pressedClip)) ::UnityW<::UnityEngine::AnimationClip> _pressedClip;
 
-  /// @brief Field _selectedClip, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectedClip, put = __cordl_internal_set__selectedClip))::UnityW<::UnityEngine::AnimationClip> _selectedClip;
+  /// @brief Field _selectedClip, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__selectedClip, put = __cordl_internal_set__selectedClip)) ::UnityW<::UnityEngine::AnimationClip> _selectedClip;
 
-  /// @brief Method Awake, addr 0x2551830, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x398fa9c, size 0x8c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleInputFieldViewSelectionStateDidChange, addr 0x25518dc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFieldViewSelectionStateDidChange, addr 0x398fb4c, size 0x104, virtual false, abstract: false, final false
   inline void HandleInputFieldViewSelectionStateDidChange(::HMUI::__InputFieldView__SelectionState state);
 
   static inline ::HMUI::InputFieldViewStaticAnimations* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25519f8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x398fc6c, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x25519dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x398fc50, size 0x1c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x25518b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x398fb28, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__didStart() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set__selectedClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  /// @brief Method .ctor, addr 0x2551ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398fd38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,45 +125,48 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputFieldViewStaticAnimations(InputFieldViewStaticAnimations const&) = delete;
 
-  /// @brief Field _inputFieldView, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _inputFieldView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::InputFieldView> ____inputFieldView;
 
-  /// @brief Field _normalClip, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _normalClip, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____normalClip;
 
-  /// @brief Field _highlightedClip, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _highlightedClip, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____highlightedClip;
 
-  /// @brief Field _pressedClip, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _pressedClip, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____pressedClip;
 
-  /// @brief Field _disabledClip, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _disabledClip, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____disabledClip;
 
-  /// @brief Field _selectedClip, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _selectedClip, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____selectedClip;
 
-  /// @brief Field _didStart, offset: 0x48, size: 0x1, def value: None
+  /// @brief Field _didStart, offset: 0x50, size: 0x1, def value: None
   bool ____didStart;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16036 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::InputFieldViewStaticAnimations, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::InputFieldViewStaticAnimations, 0x58>, "Size mismatch!");
 
-static_assert(offsetof(::HMUI::InputFieldViewStaticAnimations, ____inputFieldView) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::HMUI::InputFieldViewStaticAnimations, ____inputFieldView) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::InputFieldViewStaticAnimations, ____normalClip) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::HMUI::InputFieldViewStaticAnimations, ____normalClip) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::InputFieldViewStaticAnimations, ____highlightedClip) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::HMUI::InputFieldViewStaticAnimations, ____highlightedClip) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::InputFieldViewStaticAnimations, ____pressedClip) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::HMUI::InputFieldViewStaticAnimations, ____pressedClip) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::InputFieldViewStaticAnimations, ____disabledClip) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::HMUI::InputFieldViewStaticAnimations, ____disabledClip) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::InputFieldViewStaticAnimations, ____selectedClip) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::HMUI::InputFieldViewStaticAnimations, ____selectedClip) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::InputFieldViewStaticAnimations, ____didStart) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::HMUI::InputFieldViewStaticAnimations, ____didStart) == 0x50, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::InputFieldViewStaticAnimations);

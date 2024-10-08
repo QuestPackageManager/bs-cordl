@@ -20,13 +20,15 @@ class BurstSliderData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::BurstSliderData);
 // Type: BeatmapSaveDataVersion3::BurstSliderData
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion3::BurstSliderData*
 class CORDL_TYPE BurstSliderData : public ::BeatmapSaveDataVersion3::BaseSliderData {
 public:
   // Declarations
+  __declspec(property(get = get_cuttableSlicesCount)) int32_t cuttableSlicesCount;
+
   /// @brief Field s, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) float_t s;
 
@@ -53,14 +55,17 @@ public:
 
   constexpr void __cordl_internal_set_sc(int32_t value);
 
-  /// @brief Method .ctor, addr 0x150528c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c90d8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection,
                     float_t tailBeat, int32_t tailLine, int32_t tailLayer, int32_t sliceCount, float_t squishAmount);
 
-  /// @brief Method get_sliceCount, addr 0x150527c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableSlicesCount, addr 0x26c90c4, size 0xc, virtual false, abstract: false, final false
+  inline int32_t get_cuttableSlicesCount();
+
+  /// @brief Method get_sliceCount, addr 0x26c90bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sliceCount();
 
-  /// @brief Method get_squishAmount, addr 0x1505284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_squishAmount, addr 0x26c90d0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_squishAmount();
 
 protected:
@@ -82,6 +87,9 @@ public:
 
   /// @brief Field s, offset: 0x34, size: 0x4, def value: None
   float_t ___s;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13382 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

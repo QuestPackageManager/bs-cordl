@@ -14,14 +14,14 @@ class ComputeShader;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ComputeShader);
 // Type: UnityEngine::ComputeShader
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::ComputeShader*
 class CORDL_TYPE ComputeShader : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method FindKernel, addr 0x3454a7c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FindKernel, addr 0x483b2ec, size 0x44, virtual false, abstract: false, final false
   inline int32_t FindKernel(::StringW name);
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ComputeShader", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ComputeShader(ComputeShader const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10891 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,6 +16,15 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
 }
 namespace UnityEngine::UIElements {
+struct BackgroundPosition;
+}
+namespace UnityEngine::UIElements {
+struct BackgroundRepeat;
+}
+namespace UnityEngine::UIElements {
+struct BackgroundSize;
+}
+namespace UnityEngine::UIElements {
 struct Background;
 }
 namespace UnityEngine::UIElements {
@@ -52,7 +61,7 @@ class IStylePropertyAnimations;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IStylePropertyAnimations);
 // Type: UnityEngine.UIElements::IStylePropertyAnimations
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::IStylePropertyAnimations*
@@ -82,6 +91,18 @@ public:
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::Background from, ::UnityEngine::UIElements::Background to, int32_t durationMs,
+                    int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::BackgroundPosition from, ::UnityEngine::UIElements::BackgroundPosition to,
+                    int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::BackgroundRepeat from, ::UnityEngine::UIElements::BackgroundRepeat to, int32_t durationMs,
+                    int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
+
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::BackgroundSize from, ::UnityEngine::UIElements::BackgroundSize to, int32_t durationMs,
                     int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -143,6 +164,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IStylePropertyAnimations", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IStylePropertyAnimations(IStylePropertyAnimations const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6101 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

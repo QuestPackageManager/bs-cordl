@@ -16,21 +16,21 @@ class RuntimeAnimatorController;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::RuntimeAnimatorController);
 // Type: UnityEngine::RuntimeAnimatorController
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::RuntimeAnimatorController*
 class CORDL_TYPE RuntimeAnimatorController : public ::UnityEngine::Object {
 public:
   // Declarations
-  __declspec(property(get = get_animationClips))::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> animationClips;
+  __declspec(property(get = get_animationClips)) ::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> animationClips;
 
   static inline ::UnityEngine::RuntimeAnimatorController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33fb1d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47dc67c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClips, addr 0x33fc20c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_animationClips, addr 0x47dd4ac, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> get_animationClips();
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeAnimatorController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeAnimatorController(RuntimeAnimatorController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16834 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

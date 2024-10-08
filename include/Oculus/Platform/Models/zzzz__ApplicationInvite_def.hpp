@@ -23,7 +23,7 @@ class ApplicationInvite;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::ApplicationInvite);
 // Type: Oculus.Platform.Models::ApplicationInvite
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::ApplicationInvite*
@@ -31,25 +31,25 @@ class CORDL_TYPE ApplicationInvite : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Destination, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Destination, put = __cordl_internal_set_Destination))::Oculus::Platform::Models::Destination* Destination;
+  __declspec(property(get = __cordl_internal_get_Destination, put = __cordl_internal_set_Destination)) ::Oculus::Platform::Models::Destination* Destination;
 
   /// @brief Field DestinationOptional, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_DestinationOptional, put = __cordl_internal_set_DestinationOptional))::Oculus::Platform::Models::Destination* DestinationOptional;
+  __declspec(property(get = __cordl_internal_get_DestinationOptional, put = __cordl_internal_set_DestinationOptional)) ::Oculus::Platform::Models::Destination* DestinationOptional;
 
   /// @brief Field IsActive, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_IsActive, put = __cordl_internal_set_IsActive)) bool IsActive;
 
   /// @brief Field LobbySessionId, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_LobbySessionId, put = __cordl_internal_set_LobbySessionId))::StringW LobbySessionId;
+  __declspec(property(get = __cordl_internal_get_LobbySessionId, put = __cordl_internal_set_LobbySessionId)) ::StringW LobbySessionId;
 
   /// @brief Field MatchSessionId, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_MatchSessionId, put = __cordl_internal_set_MatchSessionId))::StringW MatchSessionId;
+  __declspec(property(get = __cordl_internal_get_MatchSessionId, put = __cordl_internal_set_MatchSessionId)) ::StringW MatchSessionId;
 
   /// @brief Field Recipient, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_Recipient, put = __cordl_internal_set_Recipient))::Oculus::Platform::Models::User* Recipient;
+  __declspec(property(get = __cordl_internal_get_Recipient, put = __cordl_internal_set_Recipient)) ::Oculus::Platform::Models::User* Recipient;
 
   /// @brief Field RecipientOptional, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_RecipientOptional, put = __cordl_internal_set_RecipientOptional))::Oculus::Platform::Models::User* RecipientOptional;
+  __declspec(property(get = __cordl_internal_get_RecipientOptional, put = __cordl_internal_set_RecipientOptional)) ::Oculus::Platform::Models::User* RecipientOptional;
 
   /// @brief Field ID, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2b0e14c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f195b4, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -144,6 +144,9 @@ public:
 
   /// @brief Field Recipient, offset: 0x48, size: 0x8, def value: None
   ::Oculus::Platform::Models::User* ___Recipient;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15453 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

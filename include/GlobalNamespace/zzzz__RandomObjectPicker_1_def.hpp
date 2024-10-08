@@ -14,7 +14,7 @@ template <typename T> class RandomObjectPicker_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::RandomObjectPicker_1);
 // Type: ::RandomObjectPicker`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -30,7 +30,7 @@ public:
   __declspec(property(get = __cordl_internal_get__minimumPickInterval, put = __cordl_internal_set__minimumPickInterval)) float_t _minimumPickInterval;
 
   /// @brief Field _objects, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__objects, put = __cordl_internal_set__objects))::ArrayW<T, ::Array<T>*> _objects;
+  __declspec(property(get = __cordl_internal_get__objects, put = __cordl_internal_set__objects)) ::ArrayW<T, ::Array<T>*> _objects;
 
   static inline ::GlobalNamespace::RandomObjectPicker_1<T>* New_ctor(T obj, float_t minimumPickInterval);
 
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field _minimumPickInterval, offset: 0x1c, size: 0x4, def value: None
   float_t ____minimumPickInterval;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16381 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

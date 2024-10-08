@@ -180,7 +180,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameplayRpcManager__SetPlayerDidConnectLateR
 MARK_REF_PTR_T(::GlobalNamespace::__GameplayRpcManager__SetSongStartTimeRpc);
 MARK_REF_PTR_T(::GlobalNamespace::__GameplayRpcManager__SliderSpawnedRpc);
 // Type: ::RpcType
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::GameplayRpcManager::RpcType
@@ -273,6 +273,9 @@ public:
   /// @brief Field SliderSpawned value: static_cast<uint8_t>(0xeu)
   static ::GlobalNamespace::__GameplayRpcManager__RpcType const SliderSpawned;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14703 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -285,7 +288,7 @@ static_assert(offsetof(::GlobalNamespace::__GameplayRpcManager__RpcType, value__
 
 } // namespace GlobalNamespace
 // Type: ::SetGameplaySceneSyncFinishedRpc
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::SetGameplaySceneSyncFinishedRpc*
@@ -294,7 +297,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__SetGameplaySceneSyncFinishedRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10acc3c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228acd4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -311,6 +314,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__SetGameplaySceneSyncFinishedRpc(__GameplayRpcManager__SetGameplaySceneSyncFinishedRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14704 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -318,7 +324,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::SetGameplaySceneReadyRpc
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::SetGameplaySceneReadyRpc*
@@ -327,7 +333,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__SetGameplaySceneReadyRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10acc84, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228ad1c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -344,6 +350,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__SetGameplaySceneReadyRpc(__GameplayRpcManager__SetGameplaySceneReadyRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14705 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -351,7 +360,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::GetGameplaySceneReadyRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::GetGameplaySceneReadyRpc*
@@ -360,7 +369,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__GetGameplaySceneReadyRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10acccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228ad64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -377,6 +386,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__GetGameplaySceneReadyRpc(__GameplayRpcManager__GetGameplaySceneReadyRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14706 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -384,7 +396,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::SetPlayerDidConnectLateRpc
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::SetPlayerDidConnectLateRpc*
@@ -394,7 +406,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__SetPlayerDidConnectLateRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10accd4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228ad6c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -411,6 +423,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__SetPlayerDidConnectLateRpc(__GameplayRpcManager__SetPlayerDidConnectLateRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14707 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -418,7 +433,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::SetGameplaySongReadyRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::SetGameplaySongReadyRpc*
@@ -427,7 +442,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__SetGameplaySongReadyRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10acd1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228adb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -444,6 +459,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__SetGameplaySongReadyRpc(__GameplayRpcManager__SetGameplaySongReadyRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14708 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -451,7 +469,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::GetGameplaySongReadyRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::GetGameplaySongReadyRpc*
@@ -460,7 +478,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__GetGameplaySongReadyRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10acd24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228adbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -477,6 +495,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__GetGameplaySongReadyRpc(__GameplayRpcManager__GetGameplaySongReadyRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14709 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -484,7 +505,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::SetSongStartTimeRpc
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::SetSongStartTimeRpc*
@@ -493,7 +514,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__SetSongStartTimeRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10acd2c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228adc4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -510,6 +531,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__SetSongStartTimeRpc(__GameplayRpcManager__SetSongStartTimeRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14710 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -517,7 +541,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::NoteSpawnedRpc
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::NoteSpawnedRpc*
@@ -526,7 +550,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__NoteSpawnedRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10acd74, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228ae0c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -543,6 +567,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__NoteSpawnedRpc(__GameplayRpcManager__NoteSpawnedRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14711 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -550,7 +577,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::ObstacleSpawnedRpc
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::ObstacleSpawnedRpc*
@@ -559,7 +586,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__ObstacleSpawnedRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10acdbc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228ae54, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -576,6 +603,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__ObstacleSpawnedRpc(__GameplayRpcManager__ObstacleSpawnedRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14712 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -583,7 +613,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::SliderSpawnedRpc
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::SliderSpawnedRpc*
@@ -592,7 +622,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__SliderSpawnedRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ace04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228ae9c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -609,6 +639,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__SliderSpawnedRpc(__GameplayRpcManager__SliderSpawnedRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14713 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -616,7 +649,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::NoteCutRpc
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::NoteCutRpc*
@@ -625,7 +658,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__NoteCutRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ace4c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228aee4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -642,6 +675,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__NoteCutRpc(__GameplayRpcManager__NoteCutRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14714 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -649,7 +685,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::NoteMissedRpc
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::NoteMissedRpc*
@@ -658,7 +694,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__NoteMissedRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10ace94, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228af2c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -675,6 +711,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__NoteMissedRpc(__GameplayRpcManager__NoteMissedRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14715 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -682,7 +721,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::LevelFinishedRpc
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::LevelFinishedRpc*
@@ -691,7 +730,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__LevelFinishedRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10acedc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228af74, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -708,6 +747,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__LevelFinishedRpc(__GameplayRpcManager__LevelFinishedRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14716 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -715,7 +757,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::ReturnToMenuRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::ReturnToMenuRpc*
@@ -724,7 +766,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__ReturnToMenuRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10acf24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228afbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -741,6 +783,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__ReturnToMenuRpc(__GameplayRpcManager__ReturnToMenuRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14717 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -748,7 +793,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::RequestReturnToMenuRpc
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager::RequestReturnToMenuRpc*
@@ -757,7 +802,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__GameplayRpcManager__RequestReturnToMenuRpc* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10acf2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228afc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -774,6 +819,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayRpcManager__RequestReturnToMenuRpc(__GameplayRpcManager__RequestReturnToMenuRpc const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14718 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -781,7 +829,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayRpcMa
 
 } // namespace GlobalNamespace
 // Type: ::GameplayRpcManager
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayRpcManager*
@@ -822,69 +870,69 @@ public:
 
   /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _rpcHandler, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__rpcHandler, put = __cordl_internal_set__rpcHandler))::GlobalNamespace::RpcHandler_1<::GlobalNamespace::__GameplayRpcManager__RpcType>* _rpcHandler;
+  __declspec(property(get = __cordl_internal_get__rpcHandler, put = __cordl_internal_set__rpcHandler)) ::GlobalNamespace::RpcHandler_1<::GlobalNamespace::__GameplayRpcManager__RpcType>* _rpcHandler;
 
   __declspec(property(get = get_enabled, put = set_enabled)) bool enabled;
 
   /// @brief Field getGameplaySceneReadyEvent, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_getGameplaySceneReadyEvent, put = __cordl_internal_set_getGameplaySceneReadyEvent))::System::Action_1<::StringW>* getGameplaySceneReadyEvent;
+  __declspec(property(get = __cordl_internal_get_getGameplaySceneReadyEvent, put = __cordl_internal_set_getGameplaySceneReadyEvent)) ::System::Action_1<::StringW>* getGameplaySceneReadyEvent;
 
   /// @brief Field getGameplaySongReadyEvent, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_getGameplaySongReadyEvent, put = __cordl_internal_set_getGameplaySongReadyEvent))::System::Action_1<::StringW>* getGameplaySongReadyEvent;
+  __declspec(property(get = __cordl_internal_get_getGameplaySongReadyEvent, put = __cordl_internal_set_getGameplaySongReadyEvent)) ::System::Action_1<::StringW>* getGameplaySongReadyEvent;
 
   /// @brief Field levelFinishedEvent, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_levelFinishedEvent,
-                      put = __cordl_internal_set_levelFinishedEvent))::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* levelFinishedEvent;
+                      put = __cordl_internal_set_levelFinishedEvent)) ::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* levelFinishedEvent;
 
   /// @brief Field noteWasCutEvent, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_noteWasCutEvent,
-                      put = __cordl_internal_set_noteWasCutEvent))::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>* noteWasCutEvent;
+                      put = __cordl_internal_set_noteWasCutEvent)) ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>* noteWasCutEvent;
 
   /// @brief Field noteWasMissedEvent, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_noteWasMissedEvent,
-                      put = __cordl_internal_set_noteWasMissedEvent))::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>* noteWasMissedEvent;
+                      put = __cordl_internal_set_noteWasMissedEvent)) ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>* noteWasMissedEvent;
 
   /// @brief Field noteWasSpawnedEvent, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_noteWasSpawnedEvent,
-                      put = __cordl_internal_set_noteWasSpawnedEvent))::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>* noteWasSpawnedEvent;
+                      put = __cordl_internal_set_noteWasSpawnedEvent)) ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>* noteWasSpawnedEvent;
 
   /// @brief Field obstacleWasSpawnedEvent, offset 0x60, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_obstacleWasSpawnedEvent,
-               put = __cordl_internal_set_obstacleWasSpawnedEvent))::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* obstacleWasSpawnedEvent;
+  __declspec(property(get = __cordl_internal_get_obstacleWasSpawnedEvent,
+                      put =
+                          __cordl_internal_set_obstacleWasSpawnedEvent)) ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* obstacleWasSpawnedEvent;
 
   /// @brief Field requestReturnToMenuEvent, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_requestReturnToMenuEvent, put = __cordl_internal_set_requestReturnToMenuEvent))::System::Action_1<::StringW>* requestReturnToMenuEvent;
+  __declspec(property(get = __cordl_internal_get_requestReturnToMenuEvent, put = __cordl_internal_set_requestReturnToMenuEvent)) ::System::Action_1<::StringW>* requestReturnToMenuEvent;
 
   /// @brief Field returnToMenuEvent, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_returnToMenuEvent, put = __cordl_internal_set_returnToMenuEvent))::System::Action_1<::StringW>* returnToMenuEvent;
+  __declspec(property(get = __cordl_internal_get_returnToMenuEvent, put = __cordl_internal_set_returnToMenuEvent)) ::System::Action_1<::StringW>* returnToMenuEvent;
 
   /// @brief Field setGameplaySceneReadyEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_setGameplaySceneReadyEvent,
-                      put = __cordl_internal_set_setGameplaySceneReadyEvent))::System::Action_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* setGameplaySceneReadyEvent;
+                      put = __cordl_internal_set_setGameplaySceneReadyEvent)) ::System::Action_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* setGameplaySceneReadyEvent;
 
   /// @brief Field setGameplaySceneSyncFinishedEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_setGameplaySceneSyncFinishedEvent,
-                      put = __cordl_internal_set_setGameplaySceneSyncFinishedEvent))::System::Action_3<::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*,
-                                                                                                       ::StringW>* setGameplaySceneSyncFinishedEvent;
+                      put = __cordl_internal_set_setGameplaySceneSyncFinishedEvent)) ::System::Action_3<::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>*
+      setGameplaySceneSyncFinishedEvent;
 
   /// @brief Field setGameplaySongReadyEvent, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_setGameplaySongReadyEvent, put = __cordl_internal_set_setGameplaySongReadyEvent))::System::Action_1<::StringW>* setGameplaySongReadyEvent;
+  __declspec(property(get = __cordl_internal_get_setGameplaySongReadyEvent, put = __cordl_internal_set_setGameplaySongReadyEvent)) ::System::Action_1<::StringW>* setGameplaySongReadyEvent;
 
   /// @brief Field setPlayerDidConnectLateEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_setPlayerDidConnectLateEvent,
-                      put = __cordl_internal_set_setPlayerDidConnectLateEvent))::System::Action_4<::StringW, ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*,
-                                                                                                  ::StringW>* setPlayerDidConnectLateEvent;
+                      put = __cordl_internal_set_setPlayerDidConnectLateEvent)) ::System::Action_4<::StringW, ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>*
+      setPlayerDidConnectLateEvent;
 
   /// @brief Field setSongStartTimeEvent, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_setSongStartTimeEvent, put = __cordl_internal_set_setSongStartTimeEvent))::System::Action_2<::StringW, int64_t>* setSongStartTimeEvent;
+  __declspec(property(get = __cordl_internal_get_setSongStartTimeEvent, put = __cordl_internal_set_setSongStartTimeEvent)) ::System::Action_2<::StringW, int64_t>* setSongStartTimeEvent;
 
   /// @brief Field sliderWasSpawnedEvent, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_sliderWasSpawnedEvent,
-                      put = __cordl_internal_set_sliderWasSpawnedEvent))::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* sliderWasSpawnedEvent;
+                      put = __cordl_internal_set_sliderWasSpawnedEvent)) ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* sliderWasSpawnedEvent;
 
   /// @brief Convert operator to "::GlobalNamespace::IGameplayRpcManager"
   constexpr operator ::GlobalNamespace::IGameplayRpcManager*() noexcept;
@@ -892,100 +940,100 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x10ab024, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x22890bc, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetGameplaySceneReady, addr 0x10ab598, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetGameplaySceneReady, addr 0x2289630, size 0x50, virtual true, abstract: false, final true
   inline void GetGameplaySceneReady();
 
-  /// @brief Method GetGameplaySongReady, addr 0x10abb1c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetGameplaySongReady, addr 0x2289bb4, size 0x50, virtual true, abstract: false, final true
   inline void GetGameplaySongReady();
 
-  /// @brief Method InvokeGetGameplayLevelReadyCallback, addr 0x10abb6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetGameplayLevelReadyCallback, addr 0x2289c04, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetGameplayLevelReadyCallback(::StringW userId);
 
-  /// @brief Method InvokeGetGameplaySceneReadyCallback, addr 0x10ab5e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetGameplaySceneReadyCallback, addr 0x2289680, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeGetGameplaySceneReadyCallback(::StringW userId);
 
-  /// @brief Method InvokeLevelFinishedCallback, addr 0x10ac888, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeLevelFinishedCallback, addr 0x228a920, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeLevelFinishedCallback(::StringW userId, ::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method InvokeNoteWasCutCallback, addr 0x10ac4d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeNoteWasCutCallback, addr 0x228a568, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeNoteWasCutCallback(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
 
-  /// @brief Method InvokeNoteWasMissedCallback, addr 0x10ac6b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeNoteWasMissedCallback, addr 0x228a74c, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeNoteWasMissedCallback(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo);
 
-  /// @brief Method InvokeNoteWasSpawnedCallback, addr 0x10abf24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeNoteWasSpawnedCallback, addr 0x2289fbc, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeNoteWasSpawnedCallback(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfo);
 
-  /// @brief Method InvokeObstacleWasSpawnedCallback, addr 0x10ac108, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeObstacleWasSpawnedCallback, addr 0x228a1a0, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeObstacleWasSpawnedCallback(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfo);
 
-  /// @brief Method InvokeRequestReturnToMenuCallback, addr 0x10acc20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeRequestReturnToMenuCallback, addr 0x228acb8, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeRequestReturnToMenuCallback(::StringW userId);
 
-  /// @brief Method InvokeReturnToMenuCallback, addr 0x10aca54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeReturnToMenuCallback, addr 0x228aaec, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeReturnToMenuCallback(::StringW userId);
 
-  /// @brief Method InvokeSetGameplaySceneReadyCallback, addr 0x10ab41c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetGameplaySceneReadyCallback, addr 0x22894b4, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetGameplaySceneReadyCallback(::StringW userId, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettingsNetSerializable);
 
-  /// @brief Method InvokeSetGameplaySceneSyncFinishCallback, addr 0x10ab248, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetGameplaySceneSyncFinishCallback, addr 0x22892e0, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetGameplaySceneSyncFinishCallback(::StringW userId, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::StringW sessionGameId);
 
-  /// @brief Method InvokeSetGameplaySongReadyCallback, addr 0x10ab9a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetGameplaySongReadyCallback, addr 0x2289a38, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetGameplaySongReadyCallback(::StringW userId);
 
-  /// @brief Method InvokeSetPlayerDidConnectLate, addr 0x10ab7d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetPlayerDidConnectLate, addr 0x228986c, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetPlayerDidConnectLate(::StringW userId, ::StringW failedUserId, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable,
                                             ::StringW sessionGameId);
 
-  /// @brief Method InvokeSetSongStartTimeCallback, addr 0x10abd40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSetSongStartTimeCallback, addr 0x2289dd8, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSetSongStartTimeCallback(::StringW userId, int64_t startTime);
 
-  /// @brief Method InvokeSliderWasSpawnedCallback, addr 0x10ac2ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeSliderWasSpawnedCallback, addr 0x228a384, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeSliderWasSpawnedCallback(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfo);
 
-  /// @brief Method LevelFinished, addr 0x10ac830, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method LevelFinished, addr 0x228a8c8, size 0x58, virtual true, abstract: false, final true
   inline void LevelFinished(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
   static inline ::GlobalNamespace::GameplayRpcManager* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method NoteCut, addr 0x10ac468, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method NoteCut, addr 0x228a500, size 0x68, virtual true, abstract: false, final true
   inline void NoteCut(float_t songTime, ::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfoNetSerializable);
 
-  /// @brief Method NoteMissed, addr 0x10ac64c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method NoteMissed, addr 0x228a6e4, size 0x68, virtual true, abstract: false, final true
   inline void NoteMissed(float_t songTime, ::GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfoNetSerializable);
 
-  /// @brief Method NoteSpawned, addr 0x10abebc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method NoteSpawned, addr 0x2289f54, size 0x68, virtual true, abstract: false, final true
   inline void NoteSpawned(float_t songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfoNetSerializable);
 
-  /// @brief Method ObstacleSpawned, addr 0x10ac0a0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method ObstacleSpawned, addr 0x228a138, size 0x68, virtual true, abstract: false, final true
   inline void ObstacleSpawned(float_t songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfoNetSerializable);
 
-  /// @brief Method RequestReturnToMenu, addr 0x10acbd0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method RequestReturnToMenu, addr 0x228ac68, size 0x50, virtual true, abstract: false, final true
   inline void RequestReturnToMenu();
 
-  /// @brief Method ReturnToMenu, addr 0x10aca04, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method ReturnToMenu, addr 0x228aa9c, size 0x50, virtual true, abstract: false, final true
   inline void ReturnToMenu();
 
-  /// @brief Method SetGameplaySceneReady, addr 0x10ab3c4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetGameplaySceneReady, addr 0x228945c, size 0x58, virtual true, abstract: false, final true
   inline void SetGameplaySceneReady(::GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettings);
 
-  /// @brief Method SetGameplaySceneSyncFinished, addr 0x10ab1e0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetGameplaySceneSyncFinished, addr 0x2289278, size 0x68, virtual true, abstract: false, final true
   inline void SetGameplaySceneSyncFinished(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable, ::StringW sessionGameId);
 
-  /// @brief Method SetGameplaySongReady, addr 0x10ab950, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method SetGameplaySongReady, addr 0x22899e8, size 0x50, virtual true, abstract: false, final true
   inline void SetGameplaySongReady();
 
-  /// @brief Method SetPlayerDidConnectLate, addr 0x10ab764, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method SetPlayerDidConnectLate, addr 0x22897fc, size 0x70, virtual true, abstract: false, final true
   inline void SetPlayerDidConnectLate(::StringW usedId, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable, ::StringW sessionGameId);
 
-  /// @brief Method SetSongStartTime, addr 0x10abce8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetSongStartTime, addr 0x2289d80, size 0x58, virtual true, abstract: false, final true
   inline void SetSongStartTime(int64_t startTime);
 
-  /// @brief Method SliderSpawned, addr 0x10ac284, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SliderSpawned, addr 0x228a31c, size 0x68, virtual true, abstract: false, final true
   inline void SliderSpawned(float_t songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfoNetSerializable);
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
@@ -1097,55 +1145,55 @@ public:
 
   constexpr void __cordl_internal_set_sliderWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
 
-  /// @brief Method .ctor, addr 0x10aa8d4, size 0x750, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22889a0, size 0x71c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method add_getGameplaySceneReadyEvent, addr 0x10ab438, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_getGameplaySceneReadyEvent, addr 0x22894d0, size 0xb0, virtual true, abstract: false, final true
   inline void add_getGameplaySceneReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_getGameplaySongReadyEvent, addr 0x10ab9bc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_getGameplaySongReadyEvent, addr 0x2289a54, size 0xb0, virtual true, abstract: false, final true
   inline void add_getGameplaySongReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_levelFinishedEvent, addr 0x10ac6d0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_levelFinishedEvent, addr 0x228a768, size 0xb0, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method add_noteWasCutEvent, addr 0x10ac308, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_noteWasCutEvent, addr 0x228a3a0, size 0xb0, virtual true, abstract: false, final true
   inline void add_noteWasCutEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
 
-  /// @brief Method add_noteWasMissedEvent, addr 0x10ac4ec, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_noteWasMissedEvent, addr 0x228a584, size 0xb0, virtual true, abstract: false, final true
   inline void add_noteWasMissedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
 
-  /// @brief Method add_noteWasSpawnedEvent, addr 0x10abd5c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_noteWasSpawnedEvent, addr 0x2289df4, size 0xb0, virtual true, abstract: false, final true
   inline void add_noteWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
 
-  /// @brief Method add_obstacleWasSpawnedEvent, addr 0x10abf40, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_obstacleWasSpawnedEvent, addr 0x2289fd8, size 0xb0, virtual true, abstract: false, final true
   inline void add_obstacleWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
 
-  /// @brief Method add_requestReturnToMenuEvent, addr 0x10aca70, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_requestReturnToMenuEvent, addr 0x228ab08, size 0xb0, virtual true, abstract: false, final true
   inline void add_requestReturnToMenuEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_returnToMenuEvent, addr 0x10ac8a4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_returnToMenuEvent, addr 0x228a93c, size 0xb0, virtual true, abstract: false, final true
   inline void add_returnToMenuEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_setGameplaySceneReadyEvent, addr 0x10ab264, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setGameplaySceneReadyEvent, addr 0x22892fc, size 0xb0, virtual true, abstract: false, final true
   inline void add_setGameplaySceneReadyEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
 
-  /// @brief Method add_setGameplaySceneSyncFinishedEvent, addr 0x10ab080, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setGameplaySceneSyncFinishedEvent, addr 0x2289118, size 0xb0, virtual true, abstract: false, final true
   inline void add_setGameplaySceneSyncFinishedEvent(::System::Action_3<::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>* value);
 
-  /// @brief Method add_setGameplaySongReadyEvent, addr 0x10ab7f0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setGameplaySongReadyEvent, addr 0x2289888, size 0xb0, virtual true, abstract: false, final true
   inline void add_setGameplaySongReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_setPlayerDidConnectLateEvent, addr 0x10ab604, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setPlayerDidConnectLateEvent, addr 0x228969c, size 0xb0, virtual true, abstract: false, final true
   inline void add_setPlayerDidConnectLateEvent(::System::Action_4<::StringW, ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>* value);
 
-  /// @brief Method add_setSongStartTimeEvent, addr 0x10abb88, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_setSongStartTimeEvent, addr 0x2289c20, size 0xb0, virtual true, abstract: false, final true
   inline void add_setSongStartTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
-  /// @brief Method add_sliderWasSpawnedEvent, addr 0x10ac124, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_sliderWasSpawnedEvent, addr 0x228a1bc, size 0xb0, virtual true, abstract: false, final true
   inline void add_sliderWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
 
-  /// @brief Method get_enabled, addr 0x10aa74c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method get_enabled, addr 0x2288818, size 0xc0, virtual true, abstract: false, final true
   inline bool get_enabled();
 
   /// @brief Convert to "::GlobalNamespace::IGameplayRpcManager"
@@ -1154,52 +1202,52 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_getGameplaySceneReadyEvent, addr 0x10ab4e8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_getGameplaySceneReadyEvent, addr 0x2289580, size 0xb0, virtual true, abstract: false, final true
   inline void remove_getGameplaySceneReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_getGameplaySongReadyEvent, addr 0x10aba6c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_getGameplaySongReadyEvent, addr 0x2289b04, size 0xb0, virtual true, abstract: false, final true
   inline void remove_getGameplaySongReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_levelFinishedEvent, addr 0x10ac780, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFinishedEvent, addr 0x228a818, size 0xb0, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_noteWasCutEvent, addr 0x10ac3b8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_noteWasCutEvent, addr 0x228a450, size 0xb0, virtual true, abstract: false, final true
   inline void remove_noteWasCutEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>* value);
 
-  /// @brief Method remove_noteWasMissedEvent, addr 0x10ac59c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_noteWasMissedEvent, addr 0x228a634, size 0xb0, virtual true, abstract: false, final true
   inline void remove_noteWasMissedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>* value);
 
-  /// @brief Method remove_noteWasSpawnedEvent, addr 0x10abe0c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_noteWasSpawnedEvent, addr 0x2289ea4, size 0xb0, virtual true, abstract: false, final true
   inline void remove_noteWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>* value);
 
-  /// @brief Method remove_obstacleWasSpawnedEvent, addr 0x10abff0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_obstacleWasSpawnedEvent, addr 0x228a088, size 0xb0, virtual true, abstract: false, final true
   inline void remove_obstacleWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>* value);
 
-  /// @brief Method remove_requestReturnToMenuEvent, addr 0x10acb20, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_requestReturnToMenuEvent, addr 0x228abb8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_requestReturnToMenuEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_returnToMenuEvent, addr 0x10ac954, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_returnToMenuEvent, addr 0x228a9ec, size 0xb0, virtual true, abstract: false, final true
   inline void remove_returnToMenuEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_setGameplaySceneReadyEvent, addr 0x10ab314, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setGameplaySceneReadyEvent, addr 0x22893ac, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setGameplaySceneReadyEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
 
-  /// @brief Method remove_setGameplaySceneSyncFinishedEvent, addr 0x10ab130, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setGameplaySceneSyncFinishedEvent, addr 0x22891c8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setGameplaySceneSyncFinishedEvent(::System::Action_3<::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>* value);
 
-  /// @brief Method remove_setGameplaySongReadyEvent, addr 0x10ab8a0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setGameplaySongReadyEvent, addr 0x2289938, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setGameplaySongReadyEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_setPlayerDidConnectLateEvent, addr 0x10ab6b4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setPlayerDidConnectLateEvent, addr 0x228974c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setPlayerDidConnectLateEvent(::System::Action_4<::StringW, ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>* value);
 
-  /// @brief Method remove_setSongStartTimeEvent, addr 0x10abc38, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_setSongStartTimeEvent, addr 0x2289cd0, size 0xb0, virtual true, abstract: false, final true
   inline void remove_setSongStartTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
-  /// @brief Method remove_sliderWasSpawnedEvent, addr 0x10ac1d4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_sliderWasSpawnedEvent, addr 0x228a26c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_sliderWasSpawnedEvent(::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>* value);
 
-  /// @brief Method set_enabled, addr 0x10aa80c, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method set_enabled, addr 0x22888d8, size 0xc8, virtual true, abstract: false, final true
   inline void set_enabled(bool value);
 
 protected:
@@ -1266,6 +1314,9 @@ public:
 
   /// @brief Field requestReturnToMenuEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___requestReturnToMenuEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14719 };
 
   /// @brief Field kGameplayState offset 0xffffffff size 0x8
   static constexpr ::ConstString kGameplayState{ u"in_gameplay" };

@@ -92,7 +92,7 @@ class NotEqualInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::NotEqualInstruction);
 // Type: System.Linq.Expressions.Interpreter::NotEqualInstruction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::NotEqualInstruction*
@@ -149,88 +149,88 @@ public:
 
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
   __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
   /// @brief Field s_Boolean, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Boolean, put = setStaticF_s_Boolean))::System::Linq::Expressions::Interpreter::Instruction* s_Boolean;
+  static __declspec(property(get = getStaticF_s_Boolean, put = setStaticF_s_Boolean)) ::System::Linq::Expressions::Interpreter::Instruction* s_Boolean;
 
   /// @brief Field s_Byte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Byte, put = setStaticF_s_Byte))::System::Linq::Expressions::Interpreter::Instruction* s_Byte;
+  static __declspec(property(get = getStaticF_s_Byte, put = setStaticF_s_Byte)) ::System::Linq::Expressions::Interpreter::Instruction* s_Byte;
 
   /// @brief Field s_ByteLiftedToNull, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ByteLiftedToNull, put = setStaticF_s_ByteLiftedToNull))::System::Linq::Expressions::Interpreter::Instruction* s_ByteLiftedToNull;
+  static __declspec(property(get = getStaticF_s_ByteLiftedToNull, put = setStaticF_s_ByteLiftedToNull)) ::System::Linq::Expressions::Interpreter::Instruction* s_ByteLiftedToNull;
 
   /// @brief Field s_Char, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Char, put = setStaticF_s_Char))::System::Linq::Expressions::Interpreter::Instruction* s_Char;
+  static __declspec(property(get = getStaticF_s_Char, put = setStaticF_s_Char)) ::System::Linq::Expressions::Interpreter::Instruction* s_Char;
 
   /// @brief Field s_CharLiftedToNull, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CharLiftedToNull, put = setStaticF_s_CharLiftedToNull))::System::Linq::Expressions::Interpreter::Instruction* s_CharLiftedToNull;
+  static __declspec(property(get = getStaticF_s_CharLiftedToNull, put = setStaticF_s_CharLiftedToNull)) ::System::Linq::Expressions::Interpreter::Instruction* s_CharLiftedToNull;
 
   /// @brief Field s_Double, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Double, put = setStaticF_s_Double))::System::Linq::Expressions::Interpreter::Instruction* s_Double;
+  static __declspec(property(get = getStaticF_s_Double, put = setStaticF_s_Double)) ::System::Linq::Expressions::Interpreter::Instruction* s_Double;
 
   /// @brief Field s_DoubleLiftedToNull, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DoubleLiftedToNull, put = setStaticF_s_DoubleLiftedToNull))::System::Linq::Expressions::Interpreter::Instruction* s_DoubleLiftedToNull;
+  static __declspec(property(get = getStaticF_s_DoubleLiftedToNull, put = setStaticF_s_DoubleLiftedToNull)) ::System::Linq::Expressions::Interpreter::Instruction* s_DoubleLiftedToNull;
 
   /// @brief Field s_Int16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16))::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
+  static __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
 
   /// @brief Field s_Int16LiftedToNull, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int16LiftedToNull, put = setStaticF_s_Int16LiftedToNull))::System::Linq::Expressions::Interpreter::Instruction* s_Int16LiftedToNull;
+  static __declspec(property(get = getStaticF_s_Int16LiftedToNull, put = setStaticF_s_Int16LiftedToNull)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16LiftedToNull;
 
   /// @brief Field s_Int32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32))::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
+  static __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
 
   /// @brief Field s_Int32LiftedToNull, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int32LiftedToNull, put = setStaticF_s_Int32LiftedToNull))::System::Linq::Expressions::Interpreter::Instruction* s_Int32LiftedToNull;
+  static __declspec(property(get = getStaticF_s_Int32LiftedToNull, put = setStaticF_s_Int32LiftedToNull)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32LiftedToNull;
 
   /// @brief Field s_Int64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64))::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
+  static __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
 
   /// @brief Field s_Int64LiftedToNull, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int64LiftedToNull, put = setStaticF_s_Int64LiftedToNull))::System::Linq::Expressions::Interpreter::Instruction* s_Int64LiftedToNull;
+  static __declspec(property(get = getStaticF_s_Int64LiftedToNull, put = setStaticF_s_Int64LiftedToNull)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64LiftedToNull;
 
   /// @brief Field s_SByte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SByte, put = setStaticF_s_SByte))::System::Linq::Expressions::Interpreter::Instruction* s_SByte;
+  static __declspec(property(get = getStaticF_s_SByte, put = setStaticF_s_SByte)) ::System::Linq::Expressions::Interpreter::Instruction* s_SByte;
 
   /// @brief Field s_SByteLiftedToNull, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SByteLiftedToNull, put = setStaticF_s_SByteLiftedToNull))::System::Linq::Expressions::Interpreter::Instruction* s_SByteLiftedToNull;
+  static __declspec(property(get = getStaticF_s_SByteLiftedToNull, put = setStaticF_s_SByteLiftedToNull)) ::System::Linq::Expressions::Interpreter::Instruction* s_SByteLiftedToNull;
 
   /// @brief Field s_Single, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Single, put = setStaticF_s_Single))::System::Linq::Expressions::Interpreter::Instruction* s_Single;
+  static __declspec(property(get = getStaticF_s_Single, put = setStaticF_s_Single)) ::System::Linq::Expressions::Interpreter::Instruction* s_Single;
 
   /// @brief Field s_SingleLiftedToNull, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SingleLiftedToNull, put = setStaticF_s_SingleLiftedToNull))::System::Linq::Expressions::Interpreter::Instruction* s_SingleLiftedToNull;
+  static __declspec(property(get = getStaticF_s_SingleLiftedToNull, put = setStaticF_s_SingleLiftedToNull)) ::System::Linq::Expressions::Interpreter::Instruction* s_SingleLiftedToNull;
 
   /// @brief Field s_UInt16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16))::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
+  static __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
 
   /// @brief Field s_UInt16LiftedToNull, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt16LiftedToNull, put = setStaticF_s_UInt16LiftedToNull))::System::Linq::Expressions::Interpreter::Instruction* s_UInt16LiftedToNull;
+  static __declspec(property(get = getStaticF_s_UInt16LiftedToNull, put = setStaticF_s_UInt16LiftedToNull)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16LiftedToNull;
 
   /// @brief Field s_UInt32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32))::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
+  static __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
 
   /// @brief Field s_UInt32LiftedToNull, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt32LiftedToNull, put = setStaticF_s_UInt32LiftedToNull))::System::Linq::Expressions::Interpreter::Instruction* s_UInt32LiftedToNull;
+  static __declspec(property(get = getStaticF_s_UInt32LiftedToNull, put = setStaticF_s_UInt32LiftedToNull)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32LiftedToNull;
 
   /// @brief Field s_UInt64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64))::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
+  static __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
 
   /// @brief Field s_UInt64LiftedToNull, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt64LiftedToNull, put = setStaticF_s_UInt64LiftedToNull))::System::Linq::Expressions::Interpreter::Instruction* s_UInt64LiftedToNull;
+  static __declspec(property(get = getStaticF_s_UInt64LiftedToNull, put = setStaticF_s_UInt64LiftedToNull)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64LiftedToNull;
 
   /// @brief Field s_reference, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_reference, put = setStaticF_s_reference))::System::Linq::Expressions::Interpreter::Instruction* s_reference;
+  static __declspec(property(get = getStaticF_s_reference, put = setStaticF_s_reference)) ::System::Linq::Expressions::Interpreter::Instruction* s_reference;
 
-  /// @brief Method Create, addr 0x2c75614, size 0x838, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40785bc, size 0x88c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type, bool liftedToNull);
 
   static inline ::System::Linq::Expressions::Interpreter::NotEqualInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c7560c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40785b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Boolean();
@@ -281,13 +281,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_reference();
 
-  /// @brief Method get_ConsumedStack, addr 0x2c755bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x4078564, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c755cc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x4078574, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c755c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x407856c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_Boolean(::System::Linq::Expressions::Interpreter::Instruction* value);
@@ -351,6 +351,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NotEqualInstruction(NotEqualInstruction const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14002 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

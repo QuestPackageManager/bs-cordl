@@ -35,7 +35,7 @@ class __AdaptiveSfxVolume__InitData;
 MARK_REF_PTR_T(::GlobalNamespace::AdaptiveSfxVolume);
 MARK_REF_PTR_T(::GlobalNamespace::__AdaptiveSfxVolume__InitData);
 // Type: ::InitData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AdaptiveSfxVolume::InitData*
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_userSettingsVolumeOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x263128c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a63188, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t userSettingsVolumeOffset, bool adaptiveSfx, int32_t frequency);
 
 protected:
@@ -97,6 +97,9 @@ public:
   /// @brief Field frequency, offset: 0x18, size: 0x4, def value: None
   int32_t ___frequency;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3982 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -110,7 +113,7 @@ static_assert(offsetof(::GlobalNamespace::__AdaptiveSfxVolume__InitData, ___freq
 
 } // namespace GlobalNamespace
 // Type: ::AdaptiveSfxVolume
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AdaptiveSfxVolume*
@@ -119,39 +122,39 @@ public:
   // Declarations
   using InitData = ::GlobalNamespace::__AdaptiveSfxVolume__InitData;
 
-  /// @brief Field _audioManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager))::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
+  /// @brief Field _audioManager, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager)) ::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
 
-  /// @brief Field _buffer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::GlobalNamespace::MomentaryLoudnessBuffer* _buffer;
+  /// @brief Field _buffer, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer)) ::GlobalNamespace::MomentaryLoudnessBuffer* _buffer;
 
-  /// @brief Field _initData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__AdaptiveSfxVolume__InitData* _initData;
+  /// @brief Field _initData, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__AdaptiveSfxVolume__InitData* _initData;
 
-  /// @brief Field _loudnessHistory, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__loudnessHistory, put = __cordl_internal_set__loudnessHistory))::GlobalNamespace::MomentaryLoudnessHistory* _loudnessHistory;
+  /// @brief Field _loudnessHistory, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__loudnessHistory, put = __cordl_internal_set__loudnessHistory)) ::GlobalNamespace::MomentaryLoudnessHistory* _loudnessHistory;
 
-  /// @brief Field _lufsMeter, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__lufsMeter, put = __cordl_internal_set__lufsMeter))::LufsMetering::LufsMeter* _lufsMeter;
+  /// @brief Field _lufsMeter, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__lufsMeter, put = __cordl_internal_set__lufsMeter)) ::LufsMetering::LufsMeter* _lufsMeter;
 
-  /// @brief Field _minThreshold, offset 0x28, size 0x4
+  /// @brief Field _minThreshold, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__minThreshold, put = __cordl_internal_set__minThreshold)) float_t _minThreshold;
 
-  /// @brief Method ApplyLoudness, addr 0x2631154, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ApplyLoudness, addr 0x3a63054, size 0x30, virtual false, abstract: false, final false
   inline void ApplyLoudness(float_t songLoudness);
 
   static inline ::GlobalNamespace::AdaptiveSfxVolume* New_ctor();
 
-  /// @brief Method OnAudioFilterRead, addr 0x2630dbc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method OnAudioFilterRead, addr 0x3a62cc0, size 0x174, virtual false, abstract: false, final false
   inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
 
-  /// @brief Method OnDisable, addr 0x2630cac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3a62c34, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Start, addr 0x2630c7c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3a62b60, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x26310a0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a62fa0, size 0x34, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
@@ -190,7 +193,7 @@ public:
 
   constexpr void __cordl_internal_set__minThreshold(float_t value);
 
-  /// @brief Method .ctor, addr 0x2631184, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a63084, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -207,23 +210,26 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AdaptiveSfxVolume(AdaptiveSfxVolume const&) = delete;
 
-  /// @brief Field _audioManager, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _audioManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioManagerSO> ____audioManager;
 
-  /// @brief Field _initData, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _initData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::__AdaptiveSfxVolume__InitData* ____initData;
 
-  /// @brief Field _minThreshold, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field _minThreshold, offset: 0x30, size: 0x4, def value: None
   float_t ____minThreshold;
 
-  /// @brief Field _buffer, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _buffer, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::MomentaryLoudnessBuffer* ____buffer;
 
-  /// @brief Field _lufsMeter, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _lufsMeter, offset: 0x40, size: 0x8, def value: None
   ::LufsMetering::LufsMeter* ____lufsMeter;
 
-  /// @brief Field _loudnessHistory, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _loudnessHistory, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::MomentaryLoudnessHistory* ____loudnessHistory;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3983 };
 
   /// @brief Field kAverageLoudnessFrames offset 0xffffffff size 0x4
   static constexpr int32_t kAverageLoudnessFrames{ static_cast<int32_t>(0xc) };
@@ -234,19 +240,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AdaptiveSfxVolume, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AdaptiveSfxVolume, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AdaptiveSfxVolume, ____audioManager) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AdaptiveSfxVolume, ____audioManager) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AdaptiveSfxVolume, ____initData) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AdaptiveSfxVolume, ____initData) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AdaptiveSfxVolume, ____minThreshold) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AdaptiveSfxVolume, ____minThreshold) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AdaptiveSfxVolume, ____buffer) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AdaptiveSfxVolume, ____buffer) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AdaptiveSfxVolume, ____lufsMeter) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AdaptiveSfxVolume, ____lufsMeter) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AdaptiveSfxVolume, ____loudnessHistory) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AdaptiveSfxVolume, ____loudnessHistory) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AdaptiveSfxVolume);

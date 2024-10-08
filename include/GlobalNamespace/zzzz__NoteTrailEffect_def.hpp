@@ -20,41 +20,41 @@ class NoteTrailEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteTrailEffect);
 // Type: ::NoteTrailEffect
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoteTrailEffect*
 class CORDL_TYPE NoteTrailEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _maxSpawnDistance, offset 0x1c, size 0x4
+  /// @brief Field _maxSpawnDistance, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__maxSpawnDistance, put = __cordl_internal_set__maxSpawnDistance)) float_t _maxSpawnDistance;
 
-  /// @brief Field _noteMovement, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteMovement, put = __cordl_internal_set__noteMovement))::UnityW<::GlobalNamespace::NoteMovement> _noteMovement;
+  /// @brief Field _noteMovement, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__noteMovement, put = __cordl_internal_set__noteMovement)) ::UnityW<::GlobalNamespace::NoteMovement> _noteMovement;
 
-  /// @brief Field _noteTrailParticleSystem, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteTrailParticleSystem,
-                      put = __cordl_internal_set__noteTrailParticleSystem))::UnityW<::GlobalNamespace::NoteTrailParticleSystem> _noteTrailParticleSystem;
+  /// @brief Field _noteTrailParticleSystem, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__noteTrailParticleSystem, put = __cordl_internal_set__noteTrailParticleSystem)) ::UnityW<::GlobalNamespace::NoteTrailParticleSystem>
+      _noteTrailParticleSystem;
 
-  /// @brief Field _particlesPerFrame, offset 0x18, size 0x4
+  /// @brief Field _particlesPerFrame, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__particlesPerFrame, put = __cordl_internal_set__particlesPerFrame)) int32_t _particlesPerFrame;
 
-  /// @brief Method Awake, addr 0x26fb2e8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b1bbd8, size 0xf8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteDidStartJump, addr 0x26fb584, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidStartJump, addr 0x3b1be64, size 0xc, virtual false, abstract: false, final false
   inline void HandleNoteDidStartJump();
 
-  /// @brief Method HandleNoteMovementDidInit, addr 0x26fb578, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteMovementDidInit, addr 0x3b1be58, size 0xc, virtual false, abstract: false, final false
   inline void HandleNoteMovementDidInit();
 
   static inline ::GlobalNamespace::NoteTrailEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26fb3e8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b1bcd0, size 0x124, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x26fb514, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b1bdf4, size 0x64, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__maxSpawnDistance() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__particlesPerFrame(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26fb590, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1be70, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,30 +98,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteTrailEffect(NoteTrailEffect const&) = delete;
 
-  /// @brief Field _particlesPerFrame, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _particlesPerFrame, offset: 0x20, size: 0x4, def value: None
   int32_t ____particlesPerFrame;
 
-  /// @brief Field _maxSpawnDistance, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field _maxSpawnDistance, offset: 0x24, size: 0x4, def value: None
   float_t ____maxSpawnDistance;
 
-  /// @brief Field _noteMovement, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _noteMovement, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteMovement> ____noteMovement;
 
-  /// @brief Field _noteTrailParticleSystem, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _noteTrailParticleSystem, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteTrailParticleSystem> ____noteTrailParticleSystem;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4308 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteTrailEffect, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteTrailEffect, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____particlesPerFrame) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____particlesPerFrame) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____maxSpawnDistance) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____maxSpawnDistance) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____noteMovement) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____noteMovement) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____noteTrailParticleSystem) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____noteTrailParticleSystem) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteTrailEffect);

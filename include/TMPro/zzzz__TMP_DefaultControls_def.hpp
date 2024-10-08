@@ -40,7 +40,7 @@ struct __TMP_DefaultControls__Resources;
 MARK_REF_PTR_T(::TMPro::TMP_DefaultControls);
 MARK_VAL_T(::TMPro::__TMP_DefaultControls__Resources);
 // Type: ::Resources
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
 // CS Name: ::TMP_DefaultControls::Resources
@@ -80,6 +80,9 @@ public:
   /// @brief Field mask, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> mask;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14421 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
@@ -104,7 +107,7 @@ static_assert(offsetof(::TMPro::__TMP_DefaultControls__Resources, mask) == 0x30,
 
 } // namespace TMPro
 // Type: TMPro::TMP_DefaultControls
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::TMP_DefaultControls*
@@ -114,51 +117,51 @@ public:
   using Resources = ::TMPro::__TMP_DefaultControls__Resources;
 
   /// @brief Field s_DefaultSelectableColor, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_s_DefaultSelectableColor, put = setStaticF_s_DefaultSelectableColor))::UnityEngine::Color s_DefaultSelectableColor;
+  static __declspec(property(get = getStaticF_s_DefaultSelectableColor, put = setStaticF_s_DefaultSelectableColor)) ::UnityEngine::Color s_DefaultSelectableColor;
 
   /// @brief Field s_TextColor, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_s_TextColor, put = setStaticF_s_TextColor))::UnityEngine::Color s_TextColor;
+  static __declspec(property(get = getStaticF_s_TextColor, put = setStaticF_s_TextColor)) ::UnityEngine::Color s_TextColor;
 
   /// @brief Field s_TextElementSize, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_TextElementSize, put = setStaticF_s_TextElementSize))::UnityEngine::Vector2 s_TextElementSize;
+  static __declspec(property(get = getStaticF_s_TextElementSize, put = setStaticF_s_TextElementSize)) ::UnityEngine::Vector2 s_TextElementSize;
 
   /// @brief Field s_ThickElementSize, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ThickElementSize, put = setStaticF_s_ThickElementSize))::UnityEngine::Vector2 s_ThickElementSize;
+  static __declspec(property(get = getStaticF_s_ThickElementSize, put = setStaticF_s_ThickElementSize)) ::UnityEngine::Vector2 s_ThickElementSize;
 
   /// @brief Field s_ThinElementSize, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ThinElementSize, put = setStaticF_s_ThinElementSize))::UnityEngine::Vector2 s_ThinElementSize;
+  static __declspec(property(get = getStaticF_s_ThinElementSize, put = setStaticF_s_ThinElementSize)) ::UnityEngine::Vector2 s_ThinElementSize;
 
-  /// @brief Method CreateButton, addr 0x336f0f0, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method CreateButton, addr 0x4750078, size 0x2c0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateButton(::TMPro::__TMP_DefaultControls__Resources resources);
 
-  /// @brief Method CreateDropdown, addr 0x336fc50, size 0xdf4, virtual false, abstract: false, final false
+  /// @brief Method CreateDropdown, addr 0x4750bdc, size 0xde0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateDropdown(::TMPro::__TMP_DefaultControls__Resources resources);
 
-  /// @brief Method CreateInputField, addr 0x336f450, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method CreateInputField, addr 0x47503d8, size 0x660, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateInputField(::TMPro::__TMP_DefaultControls__Resources resources);
 
-  /// @brief Method CreateScrollbar, addr 0x336ee2c, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method CreateScrollbar, addr 0x474fdac, size 0x2cc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateScrollbar(::TMPro::__TMP_DefaultControls__Resources resources);
 
-  /// @brief Method CreateText, addr 0x336f3b0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CreateText, addr 0x4750338, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateText(::TMPro::__TMP_DefaultControls__Resources resources);
 
-  /// @brief Method CreateUIElementRoot, addr 0x336ea48, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateUIElementRoot, addr 0x474f978, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size);
 
-  /// @brief Method CreateUIObject, addr 0x336eaf0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CreateUIObject, addr 0x474fa20, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> CreateUIObject(::StringW name, ::UnityEngine::GameObject* parent);
 
-  /// @brief Method SetDefaultColorTransitionValues, addr 0x336ed38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultColorTransitionValues, addr 0x474fc68, size 0x60, virtual false, abstract: false, final false
   static inline void SetDefaultColorTransitionValues(::UnityEngine::UI::Selectable* slider);
 
-  /// @brief Method SetDefaultTextValues, addr 0x336ecb0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultTextValues, addr 0x474fbe0, size 0x88, virtual false, abstract: false, final false
   static inline void SetDefaultTextValues(::TMPro::TMP_Text* lbl);
 
-  /// @brief Method SetLayerRecursively, addr 0x336ed48, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetLayerRecursively, addr 0x474fcc8, size 0xe4, virtual false, abstract: false, final false
   static inline void SetLayerRecursively(::UnityEngine::GameObject* go, int32_t layer);
 
-  /// @brief Method SetParentAndAlign, addr 0x336ebb0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SetParentAndAlign, addr 0x474fae0, size 0x100, virtual false, abstract: false, final false
   static inline void SetParentAndAlign(::UnityEngine::GameObject* child, ::UnityEngine::GameObject* parent);
 
   static inline ::UnityEngine::Color getStaticF_s_DefaultSelectableColor();
@@ -194,6 +197,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TMP_DefaultControls", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_DefaultControls(TMP_DefaultControls const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14422 };
 
   /// @brief Field kThickHeight offset 0xffffffff size 0x4
   static constexpr float_t kThickHeight{ 30.0 };

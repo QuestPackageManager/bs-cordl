@@ -15,6 +15,9 @@ class SceneSetupData;
 namespace System::Threading::Tasks {
 class Task;
 }
+namespace System {
+class Action;
+}
 namespace Zenject {
 class DiContainer;
 }
@@ -25,7 +28,7 @@ class ScenesTransitionSetupDataSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ScenesTransitionSetupDataSO);
 // Type: ::ScenesTransitionSetupDataSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ScenesTransitionSetupDataSO*
@@ -34,25 +37,36 @@ public:
   // Declarations
   /// @brief Field _sceneSetupDataArray, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupDataArray,
-                      put = __cordl_internal_set__sceneSetupDataArray))::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> _sceneSetupDataArray;
+                      put = __cordl_internal_set__sceneSetupDataArray)) ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*>
+      _sceneSetupDataArray;
 
   /// @brief Field <scenes>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__scenes_k__BackingField,
-                      put = __cordl_internal_set__scenes_k__BackingField))::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> _scenes_k__BackingField;
+                      put = __cordl_internal_set__scenes_k__BackingField)) ::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*>
+      _scenes_k__BackingField;
 
-  __declspec(property(get = get_scenes, put = set_scenes))::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> scenes;
+  /// @brief Field beforeScenesWillBeActivatedEvent, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_beforeScenesWillBeActivatedEvent, put = __cordl_internal_set_beforeScenesWillBeActivatedEvent)) ::System::Action* beforeScenesWillBeActivatedEvent;
 
-  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x107e7a8, size 0x88, virtual true, abstract: false, final false
+  __declspec(property(get = get_scenes, put = set_scenes)) ::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> scenes;
+
+  /// @brief Method BeforeScenesWillBeActivated, addr 0x225c4c8, size 0x1c, virtual true, abstract: false, final false
+  inline void BeforeScenesWillBeActivated();
+
+  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x225c4e4, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
 
-  /// @brief Method Init, addr 0x107e768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x225c33c, size 0x8, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> scenes,
                    ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> sceneSetupData);
 
-  /// @brief Method InstallBindings, addr 0x107c8dc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2259fe4, size 0x12c, virtual false, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::ScenesTransitionSetupDataSO* New_ctor();
+
+  /// @brief Method <BeforeScenesWillBeActivatedAsync>b__10_0, addr 0x225c588, size 0x1c, virtual false, abstract: false, final false
+  inline void _BeforeScenesWillBeActivatedAsync_b__10_0();
 
   constexpr ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> const& __cordl_internal_get__sceneSetupDataArray() const;
 
@@ -62,17 +76,29 @@ public:
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*>& __cordl_internal_get__scenes_k__BackingField();
 
+  constexpr ::System::Action*& __cordl_internal_get_beforeScenesWillBeActivatedEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_beforeScenesWillBeActivatedEvent() const;
+
   constexpr void __cordl_internal_set__sceneSetupDataArray(::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> value);
 
   constexpr void __cordl_internal_set__scenes_k__BackingField(::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> value);
 
-  /// @brief Method .ctor, addr 0x107e778, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_beforeScenesWillBeActivatedEvent(::System::Action* value);
+
+  /// @brief Method .ctor, addr 0x225c34c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_scenes, addr 0x107e798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method add_beforeScenesWillBeActivatedEvent, addr 0x225c390, size 0x9c, virtual false, abstract: false, final false
+  inline void add_beforeScenesWillBeActivatedEvent(::System::Action* value);
+
+  /// @brief Method get_scenes, addr 0x225c380, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> get_scenes();
 
-  /// @brief Method set_scenes, addr 0x107e7a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method remove_beforeScenesWillBeActivatedEvent, addr 0x225c42c, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_beforeScenesWillBeActivatedEvent(::System::Action* value);
+
+  /// @brief Method set_scenes, addr 0x225c388, size 0x8, virtual false, abstract: false, final false
   inline void set_scenes(::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> value);
 
 protected:
@@ -95,14 +121,22 @@ public:
   /// @brief Field _sceneSetupDataArray, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> ____sceneSetupDataArray;
 
+  /// @brief Field beforeScenesWillBeActivatedEvent, offset: 0x28, size: 0x8, def value: None
+  ::System::Action* ___beforeScenesWillBeActivatedEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17579 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScenesTransitionSetupDataSO, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScenesTransitionSetupDataSO, 0x30>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ScenesTransitionSetupDataSO, ____scenes_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ScenesTransitionSetupDataSO, ____sceneSetupDataArray) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScenesTransitionSetupDataSO, ___beforeScenesWillBeActivatedEvent) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ScenesTransitionSetupDataSO);

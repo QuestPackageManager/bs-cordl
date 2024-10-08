@@ -31,7 +31,7 @@ class PlayerSpecificSettings;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerSpecificSettings);
 // Type: ::PlayerSpecificSettings
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSpecificSettings*
@@ -48,7 +48,7 @@ public:
   __declspec(property(get = __cordl_internal_get__arcsHapticFeedback, put = __cordl_internal_set__arcsHapticFeedback)) bool _arcsHapticFeedback;
 
   /// @brief Field _arcsVisible, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__arcsVisible, put = __cordl_internal_set__arcsVisible))::GlobalNamespace::ArcVisibilityType _arcsVisible;
+  __declspec(property(get = __cordl_internal_get__arcsVisible, put = __cordl_internal_set__arcsVisible)) ::GlobalNamespace::ArcVisibilityType _arcsVisible;
 
   /// @brief Field _autoRestart, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get__autoRestart, put = __cordl_internal_set__autoRestart)) bool _autoRestart;
@@ -58,11 +58,11 @@ public:
 
   /// @brief Field _environmentEffectsFilterDefaultPreset, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__environmentEffectsFilterDefaultPreset,
-                      put = __cordl_internal_set__environmentEffectsFilterDefaultPreset))::GlobalNamespace::EnvironmentEffectsFilterPreset _environmentEffectsFilterDefaultPreset;
+                      put = __cordl_internal_set__environmentEffectsFilterDefaultPreset)) ::GlobalNamespace::EnvironmentEffectsFilterPreset _environmentEffectsFilterDefaultPreset;
 
   /// @brief Field _environmentEffectsFilterExpertPlusPreset, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__environmentEffectsFilterExpertPlusPreset,
-                      put = __cordl_internal_set__environmentEffectsFilterExpertPlusPreset))::GlobalNamespace::EnvironmentEffectsFilterPreset _environmentEffectsFilterExpertPlusPreset;
+                      put = __cordl_internal_set__environmentEffectsFilterExpertPlusPreset)) ::GlobalNamespace::EnvironmentEffectsFilterPreset _environmentEffectsFilterExpertPlusPreset;
 
   /// @brief Field _headsetHapticIntensity, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__headsetHapticIntensity, put = __cordl_internal_set__headsetHapticIntensity)) float_t _headsetHapticIntensity;
@@ -81,7 +81,7 @@ public:
 
   /// @brief Field _noteJumpDurationTypeSettings, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__noteJumpDurationTypeSettings,
-                      put = __cordl_internal_set__noteJumpDurationTypeSettings))::GlobalNamespace::NoteJumpDurationTypeSettings _noteJumpDurationTypeSettings;
+                      put = __cordl_internal_set__noteJumpDurationTypeSettings)) ::GlobalNamespace::NoteJumpDurationTypeSettings _noteJumpDurationTypeSettings;
 
   /// @brief Field _noteJumpFixedDuration, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__noteJumpFixedDuration, put = __cordl_internal_set__noteJumpFixedDuration)) float_t _noteJumpFixedDuration;
@@ -105,7 +105,7 @@ public:
 
   __declspec(property(get = get_advancedHud)) bool advancedHud;
 
-  __declspec(property(get = get_arcVisibility))::GlobalNamespace::ArcVisibilityType arcVisibility;
+  __declspec(property(get = get_arcVisibility)) ::GlobalNamespace::ArcVisibilityType arcVisibility;
 
   __declspec(property(get = get_arcsHapticFeedback)) bool arcsHapticFeedback;
 
@@ -113,9 +113,9 @@ public:
 
   __declspec(property(get = get_automaticPlayerHeight)) bool automaticPlayerHeight;
 
-  __declspec(property(get = get_environmentEffectsFilterDefaultPreset))::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset;
+  __declspec(property(get = get_environmentEffectsFilterDefaultPreset)) ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset;
 
-  __declspec(property(get = get_environmentEffectsFilterExpertPlusPreset))::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset;
+  __declspec(property(get = get_environmentEffectsFilterExpertPlusPreset)) ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset;
 
   __declspec(property(get = get_headsetHapticIntensity)) float_t headsetHapticIntensity;
 
@@ -127,7 +127,7 @@ public:
 
   __declspec(property(get = get_noTextsAndHuds)) bool noTextsAndHuds;
 
-  __declspec(property(get = get_noteJumpDurationTypeSettings))::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings;
+  __declspec(property(get = get_noteJumpDurationTypeSettings)) ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings;
 
   __declspec(property(get = get_noteJumpFixedDuration)) float_t noteJumpFixedDuration;
 
@@ -141,10 +141,10 @@ public:
 
   __declspec(property(get = get_sfxVolume)) float_t sfxVolume;
 
-  /// @brief Method AreValuesEqual, addr 0x14fb9d0, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method AreValuesEqual, addr 0x26b4594, size 0x318, virtual false, abstract: false, final false
   inline bool AreValuesEqual(::GlobalNamespace::PlayerSpecificSettings* other);
 
-  /// @brief Method CopyWith, addr 0x14fa36c, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method CopyWith, addr 0x26b2e10, size 0x3c4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings*
   CopyWith(::System::Nullable_1<bool> leftHanded, ::System::Nullable_1<float_t> playerHeight, ::System::Nullable_1<bool> automaticPlayerHeight, ::System::Nullable_1<float_t> sfxVolume,
            ::System::Nullable_1<bool> reduceDebris, ::System::Nullable_1<bool> noTextsAndHuds, ::System::Nullable_1<bool> noFailEffects, ::System::Nullable_1<bool> advancedHud,
@@ -154,7 +154,7 @@ public:
            ::System::Nullable_1<::GlobalNamespace::ArcVisibilityType> arcsVisible, ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterDefaultPreset,
            ::System::Nullable_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> environmentEffectsFilterExpertPlusPreset, ::System::Nullable_1<float_t> headsetHapticIntensity);
 
-  /// @brief Method GetEnvironmentEffectsFilterPreset, addr 0x14fb9b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentEffectsFilterPreset, addr 0x26b457c, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentEffectsFilterPreset GetEnvironmentEffectsFilterPreset(::GlobalNamespace::BeatmapDifficulty difficulty);
 
   static inline ::GlobalNamespace::PlayerSpecificSettings* New_ctor();
@@ -287,74 +287,74 @@ public:
 
   constexpr void __cordl_internal_set__sfxVolume(float_t value);
 
-  /// @brief Method .ctor, addr 0x14f5a10, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ae7cc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x14f9f74, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b2a08, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(bool leftHanded, float_t playerHeight, bool automaticPlayerHeight, float_t sfxVolume, bool reduceDebris, bool noTextsAndHuds, bool noFailEffects, bool advancedHud,
                     bool autoRestart, float_t saberTrailIntensity, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings, float_t noteJumpFixedDuration,
                     float_t noteJumpStartBeatOffset, bool hideNoteSpawnEffect, bool adaptiveSfx, bool arcsHapticFeedback, ::GlobalNamespace::ArcVisibilityType arcsVisible,
                     ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterDefaultPreset, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset,
                     float_t headsetHapticIntensity);
 
-  /// @brief Method get_adaptiveSfx, addr 0x14fb988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_adaptiveSfx, addr 0x26b454c, size 0x8, virtual false, abstract: false, final false
   inline bool get_adaptiveSfx();
 
-  /// @brief Method get_advancedHud, addr 0x14fb950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_advancedHud, addr 0x26b4514, size 0x8, virtual false, abstract: false, final false
   inline bool get_advancedHud();
 
-  /// @brief Method get_arcVisibility, addr 0x14fb998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arcVisibility, addr 0x26b455c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ArcVisibilityType get_arcVisibility();
 
-  /// @brief Method get_arcsHapticFeedback, addr 0x14fb990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arcsHapticFeedback, addr 0x26b4554, size 0x8, virtual false, abstract: false, final false
   inline bool get_arcsHapticFeedback();
 
-  /// @brief Method get_autoRestart, addr 0x14fb958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_autoRestart, addr 0x26b451c, size 0x8, virtual false, abstract: false, final false
   inline bool get_autoRestart();
 
-  /// @brief Method get_automaticPlayerHeight, addr 0x14fb928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_automaticPlayerHeight, addr 0x26b44ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_automaticPlayerHeight();
 
-  /// @brief Method get_environmentEffectsFilterDefaultPreset, addr 0x14fb9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentEffectsFilterDefaultPreset, addr 0x26b4564, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterDefaultPreset();
 
-  /// @brief Method get_environmentEffectsFilterExpertPlusPreset, addr 0x14fb9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentEffectsFilterExpertPlusPreset, addr 0x26b456c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentEffectsFilterPreset get_environmentEffectsFilterExpertPlusPreset();
 
-  /// @brief Method get_headsetHapticIntensity, addr 0x14fb9b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headsetHapticIntensity, addr 0x26b4574, size 0x8, virtual false, abstract: false, final false
   inline float_t get_headsetHapticIntensity();
 
-  /// @brief Method get_hideNoteSpawnEffect, addr 0x14fb980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hideNoteSpawnEffect, addr 0x26b4544, size 0x8, virtual false, abstract: false, final false
   inline bool get_hideNoteSpawnEffect();
 
-  /// @brief Method get_leftHanded, addr 0x14fb918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftHanded, addr 0x26b44dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_leftHanded();
 
-  /// @brief Method get_noFailEffects, addr 0x14fb948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noFailEffects, addr 0x26b450c, size 0x8, virtual false, abstract: false, final false
   inline bool get_noFailEffects();
 
-  /// @brief Method get_noTextsAndHuds, addr 0x14fb940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noTextsAndHuds, addr 0x26b4504, size 0x8, virtual false, abstract: false, final false
   inline bool get_noTextsAndHuds();
 
-  /// @brief Method get_noteJumpDurationTypeSettings, addr 0x14fb968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpDurationTypeSettings, addr 0x26b452c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteJumpDurationTypeSettings get_noteJumpDurationTypeSettings();
 
-  /// @brief Method get_noteJumpFixedDuration, addr 0x14fb970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpFixedDuration, addr 0x26b4534, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteJumpFixedDuration();
 
-  /// @brief Method get_noteJumpStartBeatOffset, addr 0x14fb978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpStartBeatOffset, addr 0x26b453c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteJumpStartBeatOffset();
 
-  /// @brief Method get_playerHeight, addr 0x14fb920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerHeight, addr 0x26b44e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_playerHeight();
 
-  /// @brief Method get_reduceDebris, addr 0x14fb938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reduceDebris, addr 0x26b44fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_reduceDebris();
 
-  /// @brief Method get_saberTrailIntensity, addr 0x14fb960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_saberTrailIntensity, addr 0x26b4524, size 0x8, virtual false, abstract: false, final false
   inline float_t get_saberTrailIntensity();
 
-  /// @brief Method get_sfxVolume, addr 0x14fb930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sfxVolume, addr 0x26b44f4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sfxVolume();
 
 protected:
@@ -430,6 +430,9 @@ public:
 
   /// @brief Field _headsetHapticIntensity, offset: 0x48, size: 0x4, def value: None
   float_t ____headsetHapticIntensity;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13188 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

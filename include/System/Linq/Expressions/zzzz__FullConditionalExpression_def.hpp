@@ -15,7 +15,7 @@ class FullConditionalExpression;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::FullConditionalExpression);
 // Type: System.Linq.Expressions::FullConditionalExpression
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions::FullConditionalExpression*
@@ -23,9 +23,9 @@ class CORDL_TYPE FullConditionalExpression : public ::System::Linq::Expressions:
 public:
   // Declarations
   /// @brief Field _false, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__false, put = __cordl_internal_set__false))::System::Linq::Expressions::Expression* _false;
+  __declspec(property(get = __cordl_internal_get__false, put = __cordl_internal_set__false)) ::System::Linq::Expressions::Expression* _false;
 
-  /// @brief Method GetFalse, addr 0x2c336ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFalse, addr 0x4037eec, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetFalse();
 
   static inline ::System::Linq::Expressions::FullConditionalExpression* New_ctor(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue,
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__false(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x2c334f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4037d30, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue, ::System::Linq::Expressions::Expression* ifFalse);
 
 protected:
@@ -56,6 +56,9 @@ public:
 
   /// @brief Field _false, offset: 0x20, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____false;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13618 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

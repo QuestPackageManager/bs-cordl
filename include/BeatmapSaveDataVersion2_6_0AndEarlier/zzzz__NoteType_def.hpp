@@ -13,7 +13,7 @@ struct NoteType;
 // Write type traits
 MARK_VAL_T(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType);
 // Type: BeatmapSaveDataVersion2_6_0AndEarlier::NoteType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: true
 // CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field NoteB value: static_cast<int32_t>(0x1)
   static ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType const NoteB;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13387 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

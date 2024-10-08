@@ -138,7 +138,7 @@ MARK_VAL_T(::System::Net::__WebConnection___Connect_d__16);
 MARK_VAL_T(::System::Net::__WebConnection___CreateStream_d__18);
 MARK_VAL_T(::System::Net::__WebConnection___InitConnection_d__19);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::WebConnection::<>c*
@@ -146,24 +146,24 @@ class CORDL_TYPE __WebConnection____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Net::__WebConnection____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Net::__WebConnection____c* __9;
 
   /// @brief Field <>9__16_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__16_0,
-                             put = setStaticF___9__16_0))::System::Func_4<::System::Net::IPEndPoint*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* __9__16_0;
+                             put = setStaticF___9__16_0)) ::System::Func_4<::System::Net::IPEndPoint*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* __9__16_0;
 
   /// @brief Field <>9__16_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__16_1, put = setStaticF___9__16_1))::System::Action_1<::System::IAsyncResult*>* __9__16_1;
+  static __declspec(property(get = getStaticF___9__16_1, put = setStaticF___9__16_1)) ::System::Action_1<::System::IAsyncResult*>* __9__16_1;
 
   static inline ::System::Net::__WebConnection____c* New_ctor();
 
-  /// @brief Method <Connect>b__16_0, addr 0x303ffc0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__16_0, addr 0x4363df8, size 0xa0, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* _Connect_b__16_0(::System::Net::IPEndPoint* targetEndPoint, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method <Connect>b__16_1, addr 0x3040060, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method <Connect>b__16_1, addr 0x4363e98, size 0xf4, virtual false, abstract: false, final false
   inline void _Connect_b__16_1(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method .ctor, addr 0x303ffb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4363df0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::__WebConnection____c* getStaticF___9();
@@ -192,6 +192,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __WebConnection____c(__WebConnection____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9701 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -199,7 +202,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__WebConnection____
 
 } // namespace System::Net
 // Type: ::<Connect>d__16
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebConnection::<Connect>d__16
@@ -209,10 +212,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3040154, size 0x8c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4363f8c, size 0x9a0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3040a58, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x436492c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -260,6 +263,9 @@ public:
   /// @brief Field <>u__1, offset: 0x50, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9702 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
@@ -288,7 +294,7 @@ static_assert(offsetof(::System::Net::__WebConnection___Connect_d__16, __u__1) =
 
 } // namespace System::Net
 // Type: ::<CreateStream>d__18
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebConnection::<CreateStream>d__18
@@ -298,10 +304,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3040a64, size 0x66c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4364994, size 0x6f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x30411e0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x436508c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -350,6 +356,9 @@ public:
   /// @brief Field <>u__2, offset: 0x58, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*> __u__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9703 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
 
@@ -378,7 +387,7 @@ static_assert(offsetof(::System::Net::__WebConnection___CreateStream_d__18, __u_
 
 } // namespace System::Net
 // Type: ::<InitConnection>d__19
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebConnection::<InitConnection>d__19
@@ -388,10 +397,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3041238, size 0x4cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4365108, size 0x550, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x30418b0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x4365848, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -436,6 +445,9 @@ public:
   /// @brief Field <>u__2, offset: 0x50, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9704 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
@@ -462,7 +474,7 @@ static_assert(offsetof(::System::Net::__WebConnection___InitConnection_d__19, __
 
 } // namespace System::Net
 // Type: System.Net::WebConnection
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::WebConnection*
@@ -479,45 +491,45 @@ public:
 
   __declspec(property(get = get_Closed)) bool Closed;
 
-  __declspec(property(get = get_IdleSince))::System::DateTime IdleSince;
+  __declspec(property(get = get_IdleSince)) ::System::DateTime IdleSince;
 
   __declspec(property(get = get_NtlmAuthenticated, put = set_NtlmAuthenticated)) bool NtlmAuthenticated;
 
-  __declspec(property(get = get_NtlmCredential, put = set_NtlmCredential))::System::Net::NetworkCredential* NtlmCredential;
+  __declspec(property(get = get_NtlmCredential, put = set_NtlmCredential)) ::System::Net::NetworkCredential* NtlmCredential;
 
-  __declspec(property(get = get_ServicePoint))::System::Net::ServicePoint* ServicePoint;
+  __declspec(property(get = get_ServicePoint)) ::System::Net::ServicePoint* ServicePoint;
 
   __declspec(property(get = get_UnsafeAuthenticatedConnectionSharing, put = set_UnsafeAuthenticatedConnectionSharing)) bool UnsafeAuthenticatedConnectionSharing;
 
   /// @brief Field <ServicePoint>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__ServicePoint_k__BackingField, put = __cordl_internal_set__ServicePoint_k__BackingField))::System::Net::ServicePoint* _ServicePoint_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ServicePoint_k__BackingField, put = __cordl_internal_set__ServicePoint_k__BackingField)) ::System::Net::ServicePoint* _ServicePoint_k__BackingField;
 
   /// @brief Field currentOperation, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_currentOperation, put = __cordl_internal_set_currentOperation))::System::Net::WebOperation* currentOperation;
+  __declspec(property(get = __cordl_internal_get_currentOperation, put = __cordl_internal_set_currentOperation)) ::System::Net::WebOperation* currentOperation;
 
   /// @brief Field disposed, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) int32_t disposed;
 
   /// @brief Field idleSince, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_idleSince, put = __cordl_internal_set_idleSince))::System::DateTime idleSince;
+  __declspec(property(get = __cordl_internal_get_idleSince, put = __cordl_internal_set_idleSince)) ::System::DateTime idleSince;
 
   /// @brief Field monoTlsStream, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_monoTlsStream, put = __cordl_internal_set_monoTlsStream))::Mono::Net::Security::MonoTlsStream* monoTlsStream;
+  __declspec(property(get = __cordl_internal_get_monoTlsStream, put = __cordl_internal_set_monoTlsStream)) ::Mono::Net::Security::MonoTlsStream* monoTlsStream;
 
   /// @brief Field networkStream, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_networkStream, put = __cordl_internal_set_networkStream))::System::IO::Stream* networkStream;
+  __declspec(property(get = __cordl_internal_get_networkStream, put = __cordl_internal_set_networkStream)) ::System::IO::Stream* networkStream;
 
   /// @brief Field ntlm_authenticated, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_ntlm_authenticated, put = __cordl_internal_set_ntlm_authenticated)) bool ntlm_authenticated;
 
   /// @brief Field ntlm_credentials, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ntlm_credentials, put = __cordl_internal_set_ntlm_credentials))::System::Net::NetworkCredential* ntlm_credentials;
+  __declspec(property(get = __cordl_internal_get_ntlm_credentials, put = __cordl_internal_set_ntlm_credentials)) ::System::Net::NetworkCredential* ntlm_credentials;
 
   /// @brief Field socket, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_socket, put = __cordl_internal_set_socket))::System::Net::Sockets::Socket* socket;
+  __declspec(property(get = __cordl_internal_get_socket, put = __cordl_internal_set_socket)) ::System::Net::Sockets::Socket* socket;
 
   /// @brief Field tunnel, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_tunnel, put = __cordl_internal_set_tunnel))::System::Net::WebConnectionTunnel* tunnel;
+  __declspec(property(get = __cordl_internal_get_tunnel, put = __cordl_internal_set_tunnel)) ::System::Net::WebConnectionTunnel* tunnel;
 
   /// @brief Field unsafe_sharing, offset 0x19, size 0x1
   __declspec(property(get = __cordl_internal_get_unsafe_sharing, put = __cordl_internal_set_unsafe_sharing)) bool unsafe_sharing;
@@ -525,57 +537,57 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CanReuse, addr 0x303ed9c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CanReuse, addr 0x4362f14, size 0x30, virtual false, abstract: false, final false
   inline bool CanReuse();
 
-  /// @brief Method CanReuseConnection, addr 0x303d600, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method CanReuseConnection, addr 0x436169c, size 0x42c, virtual false, abstract: false, final false
   inline bool CanReuseConnection(::System::Net::WebOperation* operation);
 
-  /// @brief Method CheckReusable, addr 0x303edcc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CheckReusable, addr 0x4362f44, size 0x9c, virtual false, abstract: false, final false
   inline bool CheckReusable();
 
-  /// @brief Method Close, addr 0x303f8c0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x43639f8, size 0xc8, virtual false, abstract: false, final false
   inline void Close(bool reset);
 
-  /// @brief Method CloseSocket, addr 0x303f988, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method CloseSocket, addr 0x4363ac0, size 0x25c, virtual false, abstract: false, final false
   inline void CloseSocket();
 
-  /// @brief Method Connect, addr 0x303ee68, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x4362fe0, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* Connect(::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Continue, addr 0x303c3e8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Continue, addr 0x436054c, size 0x168, virtual false, abstract: false, final false
   inline bool Continue(::System::Net::WebOperation* next);
 
-  /// @brief Method CreateStream, addr 0x303ef4c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CreateStream, addr 0x43630bc, size 0x11c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CreateStream(::System::Net::WebOperation* operation, bool reused, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x303d244, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4361368, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x303fee4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4363d24, size 0x38, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetException, addr 0x303f170, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetException, addr 0x43632cc, size 0x180, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* GetException(::System::Net::WebExceptionStatus status, ::System::Exception* error);
 
-  /// @brief Method InitConnection, addr 0x303f06c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method InitConnection, addr 0x43631d8, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::WebRequestStream*>* InitConnection(::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::Net::WebConnection* New_ctor(::System::Net::ServicePoint* sPoint);
 
-  /// @brief Method PrepareSharingNtlm, addr 0x303f4e0, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method PrepareSharingNtlm, addr 0x4363618, size 0x31c, virtual false, abstract: false, final false
   inline bool PrepareSharingNtlm(::System::Net::WebOperation* operation);
 
-  /// @brief Method ReadLine, addr 0x303f2f8, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x436344c, size 0x1cc, virtual false, abstract: false, final false
   static inline bool ReadLine(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> start, int32_t max, ByRef<::StringW> output);
 
-  /// @brief Method Reset, addr 0x303f7fc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4363934, size 0xb8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ResetNtlm, addr 0x303f8b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ResetNtlm, addr 0x43639ec, size 0xc, virtual false, abstract: false, final false
   inline void ResetNtlm();
 
-  /// @brief Method StartOperation, addr 0x303da2c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method StartOperation, addr 0x4361ac8, size 0x1fc, virtual false, abstract: false, final false
   inline bool StartOperation(::System::Net::WebOperation* operation, bool reused);
 
   constexpr ::System::Net::ServicePoint*& __cordl_internal_get__ServicePoint_k__BackingField();
@@ -644,37 +656,37 @@ public:
 
   constexpr void __cordl_internal_set_unsafe_sharing(bool value);
 
-  /// @brief Method .ctor, addr 0x303dc20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4361cc4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::ServicePoint* sPoint);
 
-  /// @brief Method get_Closed, addr 0x303d24c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Closed, addr 0x4361370, size 0x10, virtual false, abstract: false, final false
   inline bool get_Closed();
 
-  /// @brief Method get_IdleSince, addr 0x303fbf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IdleSince, addr 0x4363d1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_IdleSince();
 
-  /// @brief Method get_NtlmAuthenticated, addr 0x303ff1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NtlmAuthenticated, addr 0x4363d5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_NtlmAuthenticated();
 
-  /// @brief Method get_NtlmCredential, addr 0x303ff30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NtlmCredential, addr 0x4363d70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::NetworkCredential* get_NtlmCredential();
 
-  /// @brief Method get_ServicePoint, addr 0x303ed94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServicePoint, addr 0x4362f0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePoint* get_ServicePoint();
 
-  /// @brief Method get_UnsafeAuthenticatedConnectionSharing, addr 0x303ff40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnsafeAuthenticatedConnectionSharing, addr 0x4363d80, size 0x8, virtual false, abstract: false, final false
   inline bool get_UnsafeAuthenticatedConnectionSharing();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_NtlmAuthenticated, addr 0x303ff24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_NtlmAuthenticated, addr 0x4363d64, size 0xc, virtual false, abstract: false, final false
   inline void set_NtlmAuthenticated(bool value);
 
-  /// @brief Method set_NtlmCredential, addr 0x303ff38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NtlmCredential, addr 0x4363d78, size 0x8, virtual false, abstract: false, final false
   inline void set_NtlmCredential(::System::Net::NetworkCredential* value);
 
-  /// @brief Method set_UnsafeAuthenticatedConnectionSharing, addr 0x303ff48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UnsafeAuthenticatedConnectionSharing, addr 0x4363d88, size 0xc, virtual false, abstract: false, final false
   inline void set_UnsafeAuthenticatedConnectionSharing(bool value);
 
 protected:
@@ -723,6 +735,9 @@ public:
 
   /// @brief Field currentOperation, offset: 0x58, size: 0x8, def value: None
   ::System::Net::WebOperation* ___currentOperation;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9705 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

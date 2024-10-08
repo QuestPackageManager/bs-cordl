@@ -14,17 +14,17 @@ struct SDKResolution;
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::SDKResolution);
 // Type: LIV.SDK.Unity::SDKResolution
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
 // CS Name: ::LIV.SDK.Unity::SDKResolution
 struct CORDL_TYPE SDKResolution {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2624ee8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3a5c864, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_zero, addr 0x2620c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x3a58780, size 0x8, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKResolution get_zero();
 
   // Ctor Parameters []
@@ -39,6 +39,9 @@ public:
 
   /// @brief Field height, offset: 0x4, size: 0x4, def value: None
   int32_t height;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17265 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

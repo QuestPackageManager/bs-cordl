@@ -21,7 +21,7 @@ class MockPlayerLobbyPoseGenerator;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGenerator);
 // Type: ::MockPlayerLobbyPoseGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MockPlayerLobbyPoseGenerator*
@@ -30,16 +30,16 @@ public:
   // Declarations
   /// @brief Field mockNodePoseSyncStateSender, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mockNodePoseSyncStateSender,
-                      put = __cordl_internal_set_mockNodePoseSyncStateSender))::GlobalNamespace::MockNodePoseSyncStateSender* mockNodePoseSyncStateSender;
+                      put = __cordl_internal_set_mockNodePoseSyncStateSender)) ::GlobalNamespace::MockNodePoseSyncStateSender* mockNodePoseSyncStateSender;
 
   /// @brief Field multiplayerSessionManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_multiplayerSessionManager,
-                      put = __cordl_internal_set_multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
+                      put = __cordl_internal_set_multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2797114, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3bb9a54, size 0x10, virtual true, abstract: false, final false
   inline void Dispose();
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x2797098, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb99e0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
   /// @brief Convert to "::System::IDisposable"
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field mockNodePoseSyncStateSender, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::MockNodePoseSyncStateSender* ___mockNodePoseSyncStateSender;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18021 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -29,33 +29,33 @@ class NameOrPseudonym;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym);
 // Type: Org.BouncyCastle.Asn1.X509.SigI::NameOrPseudonym
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509::SigI {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509.SigI::NameOrPseudonym*
 class CORDL_TYPE NameOrPseudonym : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_Pseudonym))::Org::BouncyCastle::Asn1::X500::DirectoryString* Pseudonym;
+  __declspec(property(get = get_Pseudonym)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* Pseudonym;
 
-  __declspec(property(get = get_Surname))::Org::BouncyCastle::Asn1::X500::DirectoryString* Surname;
+  __declspec(property(get = get_Surname)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* Surname;
 
   /// @brief Field givenName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_givenName, put = __cordl_internal_set_givenName))::Org::BouncyCastle::Asn1::Asn1Sequence* givenName;
+  __declspec(property(get = __cordl_internal_get_givenName, put = __cordl_internal_set_givenName)) ::Org::BouncyCastle::Asn1::Asn1Sequence* givenName;
 
   /// @brief Field pseudonym, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_pseudonym, put = __cordl_internal_set_pseudonym))::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym;
+  __declspec(property(get = __cordl_internal_get_pseudonym, put = __cordl_internal_set_pseudonym)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym;
 
   /// @brief Field surname, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_surname, put = __cordl_internal_set_surname))::Org::BouncyCastle::Asn1::X500::DirectoryString* surname;
+  __declspec(property(get = __cordl_internal_get_surname, put = __cordl_internal_set_surname)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* surname;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetGivenName, addr 0x12f5c20, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method GetGivenName, addr 0x24c37bc, size 0x318, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*> GetGivenName();
 
-  /// @brief Method GetInstance, addr 0x12f57b4, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24c3370, size 0x1d8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym);
@@ -66,7 +66,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* surname, ::Org::BouncyCastle::Asn1::Asn1Sequence* givenName);
 
-  /// @brief Method ToAsn1Object, addr 0x12f5f38, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24c3ad4, size 0x108, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_givenName();
@@ -87,22 +87,22 @@ public:
 
   constexpr void __cordl_internal_set_surname(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  /// @brief Method .ctor, addr 0x12f599c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c3548, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym);
 
-  /// @brief Method .ctor, addr 0x12f5b6c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c3710, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW pseudonym);
 
-  /// @brief Method .ctor, addr 0x12f59c4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c3570, size 0x1a0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x12f5be4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c3780, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* surname, ::Org::BouncyCastle::Asn1::Asn1Sequence* givenName);
 
-  /// @brief Method get_Pseudonym, addr 0x12f5c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pseudonym, addr 0x24c37ac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Pseudonym();
 
-  /// @brief Method get_Surname, addr 0x12f5c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Surname, addr 0x24c37b4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Surname();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -130,6 +130,9 @@ public:
 
   /// @brief Field givenName, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___givenName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 335 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

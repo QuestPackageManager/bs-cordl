@@ -2,7 +2,6 @@
 // IWYU pragma private; include "GlobalNamespace/SonyOnGoingToBackgroundSaveHandler.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyOnGoingToBackgroundSaveHandler_def.hpp"
-#include "BGLib/SaveDataCore/zzzz__SaveDataFlushingService_def.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardsModel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__SonyBackgroundExecutionHelper_def.hpp"
@@ -11,10 +10,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::*)()>(
     &::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::Initialize)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x14f04fc;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x26a89c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler*>::get(),
                                                                                "Initialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -25,10 +24,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::*)()>(
     &::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::OnDestroy)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x14f05b4;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x26a8a80;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler*>::get(),
                                                                                "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -39,10 +38,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::*)()>(
     &::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x14f0648;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x26a8b0c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler*>::get(),
                                     "HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -55,9 +54,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::*)()>(
     &::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14f075c;
+  constexpr static std::size_t addrs = 0x26a8bd0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -74,19 +73,6 @@ constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& GlobalNamespace::S
 constexpr void GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::__cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::BGLib::SaveDataCore::SaveDataFlushingService*& GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::__cordl_internal_get__flushingService() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____flushingService;
-}
-constexpr ::cordl_internals::to_const_pointer<::BGLib::SaveDataCore::SaveDataFlushingService*> const&
-GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::__cordl_internal_get__flushingService() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____flushingService;
-}
-constexpr void GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::__cordl_internal_set__flushingService(::BGLib::SaveDataCore::SaveDataFlushingService* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____flushingService)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SonyBackgroundExecutionHelper*& GlobalNamespace::SonyOnGoingToBackgroundSaveHandler::__cordl_internal_get__sonyBackgroundExecutionHelper() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

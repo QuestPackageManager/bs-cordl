@@ -35,28 +35,28 @@ class OperatingSystem;
 // Write type traits
 MARK_REF_PTR_T(::System::OperatingSystem);
 // Type: System::OperatingSystem
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::OperatingSystem*
 class CORDL_TYPE OperatingSystem : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Platform))::System::PlatformID Platform;
+  __declspec(property(get = get_Platform)) ::System::PlatformID Platform;
 
-  __declspec(property(get = get_VersionString))::StringW VersionString;
+  __declspec(property(get = get_VersionString)) ::StringW VersionString;
 
   /// @brief Field _platform, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__platform, put = __cordl_internal_set__platform))::System::PlatformID _platform;
+  __declspec(property(get = __cordl_internal_get__platform, put = __cordl_internal_set__platform)) ::System::PlatformID _platform;
 
   /// @brief Field _servicePack, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__servicePack, put = __cordl_internal_set__servicePack))::StringW _servicePack;
+  __declspec(property(get = __cordl_internal_get__servicePack, put = __cordl_internal_set__servicePack)) ::StringW _servicePack;
 
   /// @brief Field _version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::System::Version* _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) ::System::Version* _version;
 
   /// @brief Field _versionString, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__versionString, put = __cordl_internal_set__versionString))::StringW _versionString;
+  __declspec(property(get = __cordl_internal_get__versionString, put = __cordl_internal_set__versionString)) ::StringW _versionString;
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
@@ -64,17 +64,17 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Clone, addr 0x29864a0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3d975d8, size 0x74, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method GetObjectData, addr 0x298645c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x3d9759c, size 0x34, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::OperatingSystem* New_ctor(::System::PlatformID platform, ::System::Version* version);
 
   static inline ::System::OperatingSystem* New_ctor(::System::PlatformID platform, ::System::Version* version, ::StringW servicePack);
 
-  /// @brief Method ToString, addr 0x298651c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d9764c, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::PlatformID const& __cordl_internal_get__platform() const;
@@ -101,16 +101,16 @@ public:
 
   constexpr void __cordl_internal_set__versionString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2986314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d9745c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::PlatformID platform, ::System::Version* version);
 
-  /// @brief Method .ctor, addr 0x298631c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d97464, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::PlatformID platform, ::System::Version* version, ::StringW servicePack);
 
-  /// @brief Method get_Platform, addr 0x2986498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Platform, addr 0x3d975d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::PlatformID get_Platform();
 
-  /// @brief Method get_VersionString, addr 0x2986520, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method get_VersionString, addr 0x3d97650, size 0x1cc, virtual false, abstract: false, final false
   inline ::StringW get_VersionString();
 
   /// @brief Convert to "::System::ICloneable"
@@ -144,6 +144,9 @@ public:
 
   /// @brief Field _versionString, offset: 0x28, size: 0x8, def value: None
   ::StringW ____versionString;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2525 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

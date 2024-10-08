@@ -62,7 +62,7 @@ MARK_GEN_REF_PTR_T(::System::Collections::Concurrent::ConcurrentBag_1);
 MARK_GEN_REF_PTR_T(::System::Collections::Concurrent::__ConcurrentBag_1__Enumerator);
 MARK_GEN_REF_PTR_T(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue);
 // Type: ::WorkStealingQueue
-// SizeInfo { instance_size: 72, native_size: 68, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 68, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
@@ -77,7 +77,7 @@ public:
   __declspec(property(get = __cordl_internal_get__addTakeCount, put = __cordl_internal_set__addTakeCount)) int32_t _addTakeCount;
 
   /// @brief Field _array, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<T, ::Array<T>*> _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array)) ::ArrayW<T, ::Array<T>*> _array;
 
   /// @brief Field _currentOp, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__currentOp, put = __cordl_internal_set__currentOp)) int32_t _currentOp;
@@ -92,7 +92,7 @@ public:
   __declspec(property(get = __cordl_internal_get__mask, put = __cordl_internal_set__mask)) int32_t _mask;
 
   /// @brief Field _nextQueue, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__nextQueue, put = __cordl_internal_set__nextQueue))::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* _nextQueue;
+  __declspec(property(get = __cordl_internal_get__nextQueue, put = __cordl_internal_set__nextQueue)) ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* _nextQueue;
 
   /// @brief Field _ownerThreadId, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__ownerThreadId, put = __cordl_internal_set__ownerThreadId)) int32_t _ownerThreadId;
@@ -236,12 +236,15 @@ public:
   /// @brief Field StartIndex offset 0xffffffff size 0x4
   static constexpr int32_t StartIndex{ static_cast<int32_t>(0x0) };
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9475 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
 // Type: ::Enumerator
-// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
@@ -252,10 +255,10 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field _array, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<T, ::Array<T>*> _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array)) ::ArrayW<T, ::Array<T>*> _array;
 
   /// @brief Field _current, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) T _current;
@@ -342,12 +345,15 @@ public:
   /// @brief Field _index, offset: 0x20, size: 0x4, def value: None
   int32_t ____index;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9476 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
 // Type: System.Collections.Concurrent::ConcurrentBag`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
@@ -364,22 +370,22 @@ public:
 
   __declspec(property(get = get_DangerousCount)) int32_t DangerousCount;
 
-  __declspec(property(get = get_GlobalQueuesLock))::System::Object* GlobalQueuesLock;
+  __declspec(property(get = get_GlobalQueuesLock)) ::System::Object* GlobalQueuesLock;
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   /// @brief Field _emptyToNonEmptyListTransitionCount, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__emptyToNonEmptyListTransitionCount, put = __cordl_internal_set__emptyToNonEmptyListTransitionCount)) int64_t _emptyToNonEmptyListTransitionCount;
 
   /// @brief Field _locals, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__locals,
-                      put = __cordl_internal_set__locals))::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>* _locals;
+                      put = __cordl_internal_set__locals)) ::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>* _locals;
 
   /// @brief Field _workStealingQueues, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__workStealingQueues,
-                      put = __cordl_internal_set__workStealingQueues))::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* _workStealingQueues;
+                      put = __cordl_internal_set__workStealingQueues)) ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* _workStealingQueues;
 
   /// @brief Convert operator to "::System::Collections::Concurrent::IProducerConsumerCollection_1<T>"
   constexpr operator ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*() noexcept;
@@ -524,6 +530,9 @@ public:
 
   /// @brief Field _emptyToNonEmptyListTransitionCount, offset: 0x20, size: 0x8, def value: None
   int64_t ____emptyToNonEmptyListTransitionCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9477 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

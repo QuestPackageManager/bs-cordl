@@ -19,36 +19,36 @@ class INetworkConfig;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::INetworkConfig);
 // Type: ::INetworkConfig
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::INetworkConfig*
 class CORDL_TYPE INetworkConfig {
 public:
   // Declarations
-  __declspec(property(get = get_appId))::StringW appId;
+  __declspec(property(get = get_appId)) ::StringW appId;
 
   __declspec(property(get = get_discoveryPort)) int32_t discoveryPort;
 
   __declspec(property(get = get_forceGameLift)) bool forceGameLift;
 
-  __declspec(property(get = get_graphAccessToken))::StringW graphAccessToken;
+  __declspec(property(get = get_graphAccessToken)) ::StringW graphAccessToken;
 
-  __declspec(property(get = get_graphUrl))::StringW graphUrl;
+  __declspec(property(get = get_graphUrl)) ::StringW graphUrl;
 
-  __declspec(property(get = get_masterServerEndPoint))::GlobalNamespace::DnsEndPoint* masterServerEndPoint;
+  __declspec(property(get = get_masterServerEndPoint)) ::GlobalNamespace::DnsEndPoint* masterServerEndPoint;
 
   __declspec(property(get = get_maxPartySize)) int32_t maxPartySize;
 
   __declspec(property(get = get_multiplayerPort)) int32_t multiplayerPort;
 
-  __declspec(property(get = get_multiplayerStatusUrl))::StringW multiplayerStatusUrl;
+  __declspec(property(get = get_multiplayerStatusUrl)) ::StringW multiplayerStatusUrl;
 
   __declspec(property(get = get_partyPort)) int32_t partyPort;
 
-  __declspec(property(get = get_quickPlaySetupUrl))::StringW quickPlaySetupUrl;
+  __declspec(property(get = get_quickPlaySetupUrl)) ::StringW quickPlaySetupUrl;
 
-  __declspec(property(get = get_serviceEnvironment))::GlobalNamespace::ServiceEnvironment serviceEnvironment;
+  __declspec(property(get = get_serviceEnvironment)) ::GlobalNamespace::ServiceEnvironment serviceEnvironment;
 
   /// @brief Method get_appId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_appId();
@@ -93,6 +93,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "INetworkConfig", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   INetworkConfig(INetworkConfig const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14759 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

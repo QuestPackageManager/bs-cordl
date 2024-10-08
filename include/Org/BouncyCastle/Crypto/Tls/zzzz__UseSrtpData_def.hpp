@@ -14,22 +14,22 @@ class UseSrtpData;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::UseSrtpData);
 // Type: Org.BouncyCastle.Crypto.Tls::UseSrtpData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::UseSrtpData*
 class CORDL_TYPE UseSrtpData : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Mki))::ArrayW<uint8_t, ::Array<uint8_t>*> Mki;
+  __declspec(property(get = get_Mki)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Mki;
 
-  __declspec(property(get = get_ProtectionProfiles))::ArrayW<int32_t, ::Array<int32_t>*> ProtectionProfiles;
+  __declspec(property(get = get_ProtectionProfiles)) ::ArrayW<int32_t, ::Array<int32_t>*> ProtectionProfiles;
 
   /// @brief Field mMki, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mMki, put = __cordl_internal_set_mMki))::ArrayW<uint8_t, ::Array<uint8_t>*> mMki;
+  __declspec(property(get = __cordl_internal_get_mMki, put = __cordl_internal_set_mMki)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mMki;
 
   /// @brief Field mProtectionProfiles, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mProtectionProfiles, put = __cordl_internal_set_mProtectionProfiles))::ArrayW<int32_t, ::Array<int32_t>*> mProtectionProfiles;
+  __declspec(property(get = __cordl_internal_get_mProtectionProfiles, put = __cordl_internal_set_mProtectionProfiles)) ::ArrayW<int32_t, ::Array<int32_t>*> mProtectionProfiles;
 
   static inline ::Org::BouncyCastle::Crypto::Tls::UseSrtpData* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> protectionProfiles, ::ArrayW<uint8_t, ::Array<uint8_t>*> mki);
 
@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_mProtectionProfiles(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x122a600, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fd6fc, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> protectionProfiles, ::ArrayW<uint8_t, ::Array<uint8_t>*> mki);
 
-  /// @brief Method get_Mki, addr 0x1231474, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Mki, addr 0x24043cc, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Mki();
 
-  /// @brief Method get_ProtectionProfiles, addr 0x123146c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProtectionProfiles, addr 0x24043c4, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_ProtectionProfiles();
 
 protected:
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field mMki, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mMki;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1335 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

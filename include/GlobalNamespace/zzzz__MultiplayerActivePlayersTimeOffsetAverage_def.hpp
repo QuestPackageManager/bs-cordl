@@ -19,7 +19,7 @@ class MultiplayerActivePlayersTimeOffsetAverage;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage);
 // Type: ::MultiplayerActivePlayersTimeOffsetAverage
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerActivePlayersTimeOffsetAverage*
@@ -31,7 +31,7 @@ public:
 
   /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _timeOfLastValidReturnedTime, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__timeOfLastValidReturnedTime, put = __cordl_internal_set__timeOfLastValidReturnedTime)) int64_t _timeOfLastValidReturnedTime;
@@ -63,13 +63,13 @@ public:
 
   constexpr void __cordl_internal_set__timeOfLastValidReturnedTime(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2732544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b517c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isFailed, addr 0x27323fc, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method get_isFailed, addr 0x3b5167c, size 0x148, virtual true, abstract: false, final true
   inline bool get_isFailed();
 
-  /// @brief Method get_offsetSyncTime, addr 0x27321a8, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0x3b51428, size 0x254, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerObservable"
@@ -97,6 +97,9 @@ public:
 
   /// @brief Field _timeOfLastValidReturnedTime, offset: 0x20, size: 0x8, def value: None
   int64_t ____timeOfLastValidReturnedTime;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4534 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

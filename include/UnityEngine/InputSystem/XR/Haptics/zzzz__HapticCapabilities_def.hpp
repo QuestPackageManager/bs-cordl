@@ -13,7 +13,7 @@ struct HapticCapabilities;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities);
 // Type: UnityEngine.InputSystem.XR.Haptics::HapticCapabilities
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::HapticCapabilities
@@ -26,25 +26,25 @@ public:
 
   __declspec(property(get = get_numChannels, put = set_numChannels)) uint32_t numChannels;
 
-  /// @brief Method .ctor, addr 0x316e278, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4571c0c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t numChannels, uint32_t frequencyHz, uint32_t maxBufferSize);
 
-  /// @brief Method get_frequencyHz, addr 0x316e294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frequencyHz, addr 0x4571c28, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_frequencyHz();
 
-  /// @brief Method get_maxBufferSize, addr 0x316e2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxBufferSize, addr 0x4571c38, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_maxBufferSize();
 
-  /// @brief Method get_numChannels, addr 0x316e284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numChannels, addr 0x4571c18, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_numChannels();
 
-  /// @brief Method set_frequencyHz, addr 0x316e29c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_frequencyHz, addr 0x4571c30, size 0x8, virtual false, abstract: false, final false
   inline void set_frequencyHz(uint32_t value);
 
-  /// @brief Method set_maxBufferSize, addr 0x316e2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxBufferSize, addr 0x4571c40, size 0x8, virtual false, abstract: false, final false
   inline void set_maxBufferSize(uint32_t value);
 
-  /// @brief Method set_numChannels, addr 0x316e28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_numChannels, addr 0x4571c20, size 0x8, virtual false, abstract: false, final false
   inline void set_numChannels(uint32_t value);
 
   // Ctor Parameters []
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field <maxBufferSize>k__BackingField, offset: 0x8, size: 0x4, def value: None
   uint32_t _maxBufferSize_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6719 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

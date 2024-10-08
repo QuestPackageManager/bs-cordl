@@ -13,7 +13,7 @@ struct Compositor_CumulativeStats;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::Compositor_CumulativeStats);
 // Type: OVR.OpenVR::Compositor_CumulativeStats
-// SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::Compositor_CumulativeStats
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field m_nNumReprojectedFramesTimedOut, offset: 0x38, size: 0x4, def value: None
   uint32_t m_nNumReprojectedFramesTimedOut;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8988 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };

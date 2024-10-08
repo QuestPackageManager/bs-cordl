@@ -12,6 +12,9 @@ struct BMPAlloc;
 namespace UnityEngine::UIElements::UIR {
 class RenderChain;
 }
+namespace UnityEngine::UIElements {
+struct __MeshBuilderNative__NativeColorPage;
+}
 namespace UnityEngine {
 struct Color32;
 }
@@ -22,15 +25,18 @@ struct ColorPage;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::ColorPage);
 // Type: UnityEngine.UIElements::ColorPage
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::ColorPage
 struct CORDL_TYPE ColorPage {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x360fc94, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x49cf4c8, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ColorPage Init(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+
+  /// @brief Method ToNativeColorPage, addr 0x49cf594, size 0x14, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::__MeshBuilderNative__NativeColorPage ToNativeColorPage();
 
   // Ctor Parameters []
   // @brief default ctor
@@ -44,6 +50,9 @@ public:
 
   /// @brief Field pageAndID, offset: 0x4, size: 0x4, def value: None
   ::UnityEngine::Color32 pageAndID;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5999 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

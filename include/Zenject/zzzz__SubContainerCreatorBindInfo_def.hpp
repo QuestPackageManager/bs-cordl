@@ -16,7 +16,7 @@ class SubContainerCreatorBindInfo;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SubContainerCreatorBindInfo);
 // Type: Zenject::SubContainerCreatorBindInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::SubContainerCreatorBindInfo*
@@ -25,18 +25,18 @@ public:
   // Declarations
   __declspec(property(get = get_CreateKernel, put = set_CreateKernel)) bool CreateKernel;
 
-  __declspec(property(get = get_DefaultParentName, put = set_DefaultParentName))::StringW DefaultParentName;
+  __declspec(property(get = get_DefaultParentName, put = set_DefaultParentName)) ::StringW DefaultParentName;
 
-  __declspec(property(get = get_KernelType, put = set_KernelType))::System::Type* KernelType;
+  __declspec(property(get = get_KernelType, put = set_KernelType)) ::System::Type* KernelType;
 
   /// @brief Field <CreateKernel>k__BackingField, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__CreateKernel_k__BackingField, put = __cordl_internal_set__CreateKernel_k__BackingField)) bool _CreateKernel_k__BackingField;
 
   /// @brief Field <DefaultParentName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__DefaultParentName_k__BackingField, put = __cordl_internal_set__DefaultParentName_k__BackingField))::StringW _DefaultParentName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DefaultParentName_k__BackingField, put = __cordl_internal_set__DefaultParentName_k__BackingField)) ::StringW _DefaultParentName_k__BackingField;
 
   /// @brief Field <KernelType>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__KernelType_k__BackingField, put = __cordl_internal_set__KernelType_k__BackingField))::System::Type* _KernelType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__KernelType_k__BackingField, put = __cordl_internal_set__KernelType_k__BackingField)) ::System::Type* _KernelType_k__BackingField;
 
   static inline ::Zenject::SubContainerCreatorBindInfo* New_ctor();
 
@@ -58,25 +58,25 @@ public:
 
   constexpr void __cordl_internal_set__KernelType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x36a225c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac5928, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CreateKernel, addr 0x36a2238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateKernel, addr 0x4ac5904, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateKernel();
 
-  /// @brief Method get_DefaultParentName, addr 0x36a2228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultParentName, addr 0x4ac58f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DefaultParentName();
 
-  /// @brief Method get_KernelType, addr 0x36a224c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KernelType, addr 0x4ac5918, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_KernelType();
 
-  /// @brief Method set_CreateKernel, addr 0x36a2240, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CreateKernel, addr 0x4ac590c, size 0xc, virtual false, abstract: false, final false
   inline void set_CreateKernel(bool value);
 
-  /// @brief Method set_DefaultParentName, addr 0x36a2230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultParentName, addr 0x4ac58fc, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultParentName(::StringW value);
 
-  /// @brief Method set_KernelType, addr 0x36a2254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KernelType, addr 0x4ac5920, size 0x8, virtual false, abstract: false, final false
   inline void set_KernelType(::System::Type* value);
 
 protected:
@@ -101,6 +101,9 @@ public:
 
   /// @brief Field <KernelType>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ____KernelType_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12541 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

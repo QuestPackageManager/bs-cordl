@@ -27,7 +27,7 @@ class __ConnectionErrorDialogViewController____c__DisplayClass0_0;
 MARK_REF_PTR_T(::GlobalNamespace::ConnectionErrorDialogViewController);
 MARK_REF_PTR_T(::GlobalNamespace::__ConnectionErrorDialogViewController____c__DisplayClass0_0);
 // Type: ::<>c__DisplayClass0_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ConnectionErrorDialogViewController::<>c__DisplayClass0_0*
@@ -35,11 +35,11 @@ class CORDL_TYPE __ConnectionErrorDialogViewController____c__DisplayClass0_0 : p
 public:
   // Declarations
   /// @brief Field buttonAction, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_buttonAction, put = __cordl_internal_set_buttonAction))::System::Action* buttonAction;
+  __declspec(property(get = __cordl_internal_get_buttonAction, put = __cordl_internal_set_buttonAction)) ::System::Action* buttonAction;
 
   static inline ::GlobalNamespace::__ConnectionErrorDialogViewController____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <Init>b__0, addr 0x2663260, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__0, addr 0x3b9909c, size 0x1c, virtual false, abstract: false, final false
   inline void _Init_b__0(int32_t btnIdx);
 
   constexpr ::System::Action*& __cordl_internal_get_buttonAction();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_buttonAction(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2663250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9908c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,6 +68,9 @@ public:
   /// @brief Field buttonAction, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___buttonAction;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4849 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -77,7 +80,7 @@ static_assert(offsetof(::GlobalNamespace::__ConnectionErrorDialogViewController_
 
 } // namespace GlobalNamespace
 // Type: ::ConnectionErrorDialogViewController
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ConnectionErrorDialogViewController*
@@ -86,12 +89,12 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::__ConnectionErrorDialogViewController____c__DisplayClass0_0;
 
-  /// @brief Method Init, addr 0x26630b8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b98ef0, size 0x19c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::DisconnectedReason reason, ::System::Action* buttonAction);
 
   static inline ::GlobalNamespace::ConnectionErrorDialogViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2663258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b99094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,10 +111,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConnectionErrorDialogViewController(ConnectionErrorDialogViewController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4850 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ConnectionErrorDialogViewController, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ConnectionErrorDialogViewController, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ConnectionErrorDialogViewController);

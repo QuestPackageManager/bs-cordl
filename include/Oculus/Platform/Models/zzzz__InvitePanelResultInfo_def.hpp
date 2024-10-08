@@ -16,7 +16,7 @@ class InvitePanelResultInfo;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::InvitePanelResultInfo);
 // Type: Oculus.Platform.Models::InvitePanelResultInfo
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::InvitePanelResultInfo*
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_InvitesSent(bool value);
 
-  /// @brief Method .ctor, addr 0x2b105dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1b6d0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -53,6 +53,9 @@ public:
 
   /// @brief Field InvitesSent, offset: 0x10, size: 0x1, def value: None
   bool ___InvitesSent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15478 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

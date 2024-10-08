@@ -14,17 +14,17 @@ struct Keyframe;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Keyframe);
 // Type: UnityEngine::Keyframe
-// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::Keyframe
 struct CORDL_TYPE Keyframe {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x340e6d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e99f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value);
 
-  /// @brief Method .ctor, addr 0x340e6e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e9a04, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value, float_t inTangent, float_t outTangent);
 
   // Ctor Parameters []
@@ -56,6 +56,9 @@ public:
 
   /// @brief Field m_OutWeight, offset: 0x18, size: 0x4, def value: None
   float_t m_OutWeight;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10603 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

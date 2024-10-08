@@ -15,7 +15,7 @@ class DecoderFallbackBuffer;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::DecoderFallbackBuffer);
 // Type: System.Text::DecoderFallbackBuffer
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
 // CS Name: ::System.Text::DecoderFallbackBuffer*
@@ -25,10 +25,10 @@ public:
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
   /// @brief Field byteStart, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_byteStart, put = __cordl_internal_set_byteStart))::cordl_internals::Ptr<uint8_t> byteStart;
+  __declspec(property(get = __cordl_internal_get_byteStart, put = __cordl_internal_set_byteStart)) ::cordl_internals::Ptr<uint8_t> byteStart;
 
   /// @brief Field charEnd, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_charEnd, put = __cordl_internal_set_charEnd))::cordl_internals::Ptr<char16_t> charEnd;
+  __declspec(property(get = __cordl_internal_get_charEnd, put = __cordl_internal_set_charEnd)) ::cordl_internals::Ptr<char16_t> charEnd;
 
   /// @brief Method Fallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
@@ -36,24 +36,24 @@ public:
   /// @brief Method GetNextChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method InternalFallback, addr 0x29eae30, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x3df9578, size 0x18c, virtual true, abstract: false, final false
   inline bool InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes, ByRef<::cordl_internals::Ptr<char16_t>> chars);
 
-  /// @brief Method InternalFallback, addr 0x29eafc0, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x3df9704, size 0x16c, virtual true, abstract: false, final false
   inline int32_t InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes);
 
-  /// @brief Method InternalInitialize, addr 0x29e939c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalInitialize, addr 0x3df7b28, size 0x8, virtual false, abstract: false, final false
   inline void InternalInitialize(::cordl_internals::Ptr<uint8_t> byteStart, ::cordl_internals::Ptr<char16_t> charEnd);
 
-  /// @brief Method InternalReset, addr 0x29e962c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InternalReset, addr 0x3df7db8, size 0x10, virtual false, abstract: false, final false
   inline void InternalReset();
 
   static inline ::System::Text::DecoderFallbackBuffer* New_ctor();
 
-  /// @brief Method Reset, addr 0x29eae08, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3df9550, size 0x28, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ThrowLastBytesRecursive, addr 0x29eb130, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ThrowLastBytesRecursive, addr 0x3df9870, size 0x1f8, virtual false, abstract: false, final false
   inline void ThrowLastBytesRecursive(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown);
 
   constexpr ::cordl_internals::Ptr<uint8_t> const& __cordl_internal_get_byteStart() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_charEnd(::cordl_internals::Ptr<char16_t> value);
 
-  /// @brief Method .ctor, addr 0x29ea7d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df8f38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Remaining, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field charEnd, offset: 0x18, size: 0x8, def value: None
   ::cordl_internals::Ptr<char16_t> ___charEnd;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

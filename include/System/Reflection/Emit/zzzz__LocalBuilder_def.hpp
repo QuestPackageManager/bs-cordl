@@ -17,7 +17,7 @@ class LocalBuilder;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::Emit::LocalBuilder);
 // Type: System.Reflection.Emit::LocalBuilder
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection::Emit {
 // Is value type: false
 // CS Name: ::System.Reflection.Emit::LocalBuilder*
@@ -28,10 +28,10 @@ public:
   __declspec(property(get = __cordl_internal_get_endOffset, put = __cordl_internal_set_endOffset)) int32_t endOffset;
 
   /// @brief Field ilgen, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_ilgen, put = __cordl_internal_set_ilgen))::System::Reflection::Emit::ILGenerator* ilgen;
+  __declspec(property(get = __cordl_internal_get_ilgen, put = __cordl_internal_set_ilgen)) ::System::Reflection::Emit::ILGenerator* ilgen;
 
   /// @brief Field name, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   /// @brief Field startOffset, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_startOffset, put = __cordl_internal_set_startOffset)) int32_t startOffset;
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field endOffset, offset: 0x34, size: 0x4, def value: None
   int32_t ___endOffset;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3545 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

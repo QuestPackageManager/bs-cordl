@@ -17,7 +17,7 @@ class DESTransform;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::DESTransform);
 // Type: System.Security.Cryptography::DESTransform
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::DESTransform*
@@ -37,54 +37,54 @@ public:
   static __declspec(property(get = getStaticF_KEY_BYTE_SIZE, put = setStaticF_KEY_BYTE_SIZE)) int32_t KEY_BYTE_SIZE;
 
   /// @brief Field PC1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PC1, put = setStaticF_PC1))::ArrayW<uint8_t, ::Array<uint8_t>*> PC1;
+  static __declspec(property(get = getStaticF_PC1, put = setStaticF_PC1)) ::ArrayW<uint8_t, ::Array<uint8_t>*> PC1;
 
   /// @brief Field PC2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PC2, put = setStaticF_PC2))::ArrayW<uint8_t, ::Array<uint8_t>*> PC2;
+  static __declspec(property(get = getStaticF_PC2, put = setStaticF_PC2)) ::ArrayW<uint8_t, ::Array<uint8_t>*> PC2;
 
   /// @brief Field byteBuff, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_byteBuff, put = __cordl_internal_set_byteBuff))::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuff;
+  __declspec(property(get = __cordl_internal_get_byteBuff, put = __cordl_internal_set_byteBuff)) ::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuff;
 
   /// @brief Field dwordBuff, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_dwordBuff, put = __cordl_internal_set_dwordBuff))::ArrayW<uint32_t, ::Array<uint32_t>*> dwordBuff;
+  __declspec(property(get = __cordl_internal_get_dwordBuff, put = __cordl_internal_set_dwordBuff)) ::ArrayW<uint32_t, ::Array<uint32_t>*> dwordBuff;
 
   /// @brief Field fpTab, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_fpTab, put = setStaticF_fpTab))::ArrayW<uint32_t, ::Array<uint32_t>*> fpTab;
+  static __declspec(property(get = getStaticF_fpTab, put = setStaticF_fpTab)) ::ArrayW<uint32_t, ::Array<uint32_t>*> fpTab;
 
   /// @brief Field ipTab, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ipTab, put = setStaticF_ipTab))::ArrayW<uint32_t, ::Array<uint32_t>*> ipTab;
+  static __declspec(property(get = getStaticF_ipTab, put = setStaticF_ipTab)) ::ArrayW<uint32_t, ::Array<uint32_t>*> ipTab;
 
   /// @brief Field keySchedule, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_keySchedule, put = __cordl_internal_set_keySchedule))::ArrayW<uint8_t, ::Array<uint8_t>*> keySchedule;
+  __declspec(property(get = __cordl_internal_get_keySchedule, put = __cordl_internal_set_keySchedule)) ::ArrayW<uint8_t, ::Array<uint8_t>*> keySchedule;
 
   /// @brief Field leftRotTotal, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_leftRotTotal, put = setStaticF_leftRotTotal))::ArrayW<uint8_t, ::Array<uint8_t>*> leftRotTotal;
+  static __declspec(property(get = getStaticF_leftRotTotal, put = setStaticF_leftRotTotal)) ::ArrayW<uint8_t, ::Array<uint8_t>*> leftRotTotal;
 
   /// @brief Field spBoxes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_spBoxes, put = setStaticF_spBoxes))::ArrayW<uint32_t, ::Array<uint32_t>*> spBoxes;
+  static __declspec(property(get = getStaticF_spBoxes, put = setStaticF_spBoxes)) ::ArrayW<uint32_t, ::Array<uint32_t>*> spBoxes;
 
-  /// @brief Method BSwap, addr 0x281d834, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BSwap, addr 0x3c3c39c, size 0x78, virtual false, abstract: false, final false
   static inline void BSwap(::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuff);
 
-  /// @brief Method CipherFunct, addr 0x281d2e0, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method CipherFunct, addr 0x3c3be94, size 0x230, virtual false, abstract: false, final false
   inline uint32_t CipherFunct(uint32_t r, int32_t n);
 
-  /// @brief Method ECB, addr 0x281dc34, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ECB, addr 0x3c3c79c, size 0xa4, virtual true, abstract: false, final false
   inline void ECB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method GetStrongKey, addr 0x281ce7c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetStrongKey, addr 0x3c3ba3c, size 0xd8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetStrongKey();
 
   static inline ::System::Security::Cryptography::DESTransform* New_ctor(::System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method Permutation, addr 0x281d510, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method Permutation, addr 0x3c3c0c4, size 0x2d8, virtual false, abstract: false, final false
   static inline void Permutation(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint32_t, ::Array<uint32_t>*> permTab, bool preSwap);
 
-  /// @brief Method ProcessBlock, addr 0x281d8ac, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x3c3c414, size 0x388, virtual false, abstract: false, final false
   inline void ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method SetKey, addr 0x281cf54, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x3c3bb14, size 0x380, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_byteBuff() const;
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_keySchedule(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x281cc54, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3b81c, size 0x220, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
   static inline int32_t getStaticF_BLOCK_BIT_SIZE();
@@ -170,6 +170,9 @@ public:
 
   /// @brief Field dwordBuff, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ___dwordBuff;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2977 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

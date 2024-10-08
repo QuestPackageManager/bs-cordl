@@ -34,7 +34,7 @@ class LocalizationImporter;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::Polyglot::LocalizationImporter);
 // Type: BGLib.Polyglot::LocalizationImporter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
 // CS Name: ::BGLib.Polyglot::LocalizationImporter*
@@ -42,49 +42,49 @@ class CORDL_TYPE LocalizationImporter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field EmptyList, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EmptyList, put = setStaticF_EmptyList))::System::Collections::Generic::List_1<::StringW>* EmptyList;
+  static __declspec(property(get = getStaticF_EmptyList, put = setStaticF_EmptyList)) ::System::Collections::Generic::List_1<::StringW>* EmptyList;
 
   /// @brief Field InputFiles, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InputFiles, put = setStaticF_InputFiles))::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* InputFiles;
+  static __declspec(property(get = getStaticF_InputFiles, put = setStaticF_InputFiles)) ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* InputFiles;
 
   /// @brief Field languageStrings, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_languageStrings,
-                             put = setStaticF_languageStrings))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* languageStrings;
+                             put = setStaticF_languageStrings)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* languageStrings;
 
-  /// @brief Method GetKeys, addr 0x108fdc4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetKeys, addr 0x226f09c, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetKeys();
 
-  /// @brief Method GetLanguages, addr 0x1090f30, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetLanguages, addr 0x22701d4, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetLanguages(::StringW key);
 
-  /// @brief Method GetLanguages, addr 0x1090fe0, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method GetLanguages, addr 0x2270294, size 0x444, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetLanguages(::StringW key, ::System::Collections::Generic::IReadOnlyList_1<::BGLib::Polyglot::Language>* supportedLanguages);
 
-  /// @brief Method GetLanguagesContains, addr 0x10916e0, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method GetLanguagesContains, addr 0x22709a0, size 0x2c8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* GetLanguagesContains(::StringW key);
 
-  /// @brief Method GetLanguagesStartsWith, addr 0x1091420, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method GetLanguagesStartsWith, addr 0x22706d8, size 0x2c8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* GetLanguagesStartsWith(::StringW key);
 
-  /// @brief Method Import, addr 0x1090584, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x226f844, size 0x64, virtual false, abstract: false, final false
   static inline void Import(::StringW text, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
 
-  /// @brief Method ImportFromFiles, addr 0x10904bc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ImportFromFiles, addr 0x226f77c, size 0xc8, virtual false, abstract: false, final false
   static inline void ImportFromFiles(::BGLib::Polyglot::LocalizationModel* settings);
 
-  /// @brief Method ImportInputFiles, addr 0x1090c88, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ImportInputFiles, addr 0x226ff2c, size 0x218, virtual false, abstract: false, final false
   static inline void ImportInputFiles();
 
-  /// @brief Method ImportTextFile, addr 0x10905e8, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method ImportTextFile, addr 0x226f8a8, size 0x684, virtual false, abstract: false, final false
   static inline void ImportTextFile(::StringW text, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
 
-  /// @brief Method Initialize, addr 0x1090438, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x226f6f8, size 0x84, virtual false, abstract: false, final false
   static inline void Initialize(::BGLib::Polyglot::LocalizationModel* settings);
 
-  /// @brief Method IsLineBreak, addr 0x1090ea0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsLineBreak, addr 0x2270144, size 0x90, virtual false, abstract: false, final false
   static inline bool IsLineBreak(::StringW currentString);
 
-  /// @brief Method NoDomainReloadInit, addr 0x1090350, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x226f614, size 0xe4, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
   static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_EmptyList();
@@ -112,6 +112,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LocalizationImporter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LocalizationImporter(LocalizationImporter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17992 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

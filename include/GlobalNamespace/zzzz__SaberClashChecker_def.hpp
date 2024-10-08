@@ -25,7 +25,7 @@ class SaberClashChecker;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SaberClashChecker);
 // Type: ::SaberClashChecker
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SaberClashChecker*
@@ -33,29 +33,29 @@ class CORDL_TYPE SaberClashChecker : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _clashingPoint, offset 0x14, size 0xc
-  __declspec(property(get = __cordl_internal_get__clashingPoint, put = __cordl_internal_set__clashingPoint))::UnityEngine::Vector3 _clashingPoint;
+  __declspec(property(get = __cordl_internal_get__clashingPoint, put = __cordl_internal_set__clashingPoint)) ::UnityEngine::Vector3 _clashingPoint;
 
   /// @brief Field _leftSaber, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__leftSaber, put = __cordl_internal_set__leftSaber))::UnityW<::GlobalNamespace::Saber> _leftSaber;
+  __declspec(property(get = __cordl_internal_get__leftSaber, put = __cordl_internal_set__leftSaber)) ::UnityW<::GlobalNamespace::Saber> _leftSaber;
 
   /// @brief Field _prevGetFrameNum, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__prevGetFrameNum, put = __cordl_internal_set__prevGetFrameNum)) int32_t _prevGetFrameNum;
 
   /// @brief Field _rightSaber, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__rightSaber, put = __cordl_internal_set__rightSaber))::UnityW<::GlobalNamespace::Saber> _rightSaber;
+  __declspec(property(get = __cordl_internal_get__rightSaber, put = __cordl_internal_set__rightSaber)) ::UnityW<::GlobalNamespace::Saber> _rightSaber;
 
   /// @brief Field _sabersAreClashing, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__sabersAreClashing, put = __cordl_internal_set__sabersAreClashing)) bool _sabersAreClashing;
 
-  /// @brief Method AreSabersClashing, addr 0x274e5d4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AreSabersClashing, addr 0x3b6fd94, size 0x164, virtual false, abstract: false, final false
   inline bool AreSabersClashing(ByRef<::UnityEngine::Vector3> clashingPoint);
 
-  /// @brief Method Init, addr 0x2752bf8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b6fd78, size 0x1c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SaberManager* saberManager);
 
   static inline ::GlobalNamespace::SaberClashChecker* New_ctor();
 
-  /// @brief Method SegmentToSegmentDist, addr 0x2752c14, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method SegmentToSegmentDist, addr 0x3b6fef8, size 0x268, virtual false, abstract: false, final false
   inline float_t SegmentToSegmentDist(::UnityEngine::Vector3 fromA, ::UnityEngine::Vector3 toA, ::UnityEngine::Vector3 fromB, ::UnityEngine::Vector3 toB, ByRef<::UnityEngine::Vector3> inbetweenPoint);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__clashingPoint() const;
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__sabersAreClashing(bool value);
 
-  /// @brief Method .ctor, addr 0x2752e7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b70160, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,6 +119,9 @@ public:
 
   /// @brief Field _prevGetFrameNum, offset: 0x30, size: 0x4, def value: None
   int32_t ____prevGetFrameNum;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4639 };
 
   /// @brief Field kIgnoredTime offset 0xffffffff size 0x4
   static constexpr float_t kIgnoredTime{ 0.1 };

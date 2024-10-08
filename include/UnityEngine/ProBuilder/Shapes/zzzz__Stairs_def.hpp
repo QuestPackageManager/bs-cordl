@@ -30,7 +30,7 @@ class Stairs;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Stairs);
 // Type: UnityEngine.ProBuilder.Shapes::Stairs
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Stairs*
@@ -50,7 +50,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Sides, put = __cordl_internal_set_m_Sides)) bool m_Sides;
 
   /// @brief Field m_StepGenerationType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_StepGenerationType, put = __cordl_internal_set_m_StepGenerationType))::UnityEngine::ProBuilder::Shapes::StepGenerationType m_StepGenerationType;
+  __declspec(property(get = __cordl_internal_get_m_StepGenerationType, put = __cordl_internal_set_m_StepGenerationType)) ::UnityEngine::ProBuilder::Shapes::StepGenerationType m_StepGenerationType;
 
   /// @brief Field m_StepsCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_StepsCount, put = __cordl_internal_set_m_StepsCount)) int32_t m_StepsCount;
@@ -60,21 +60,21 @@ public:
 
   __declspec(property(get = get_sides, put = set_sides)) bool sides;
 
-  /// @brief Method BuildCurvedStairs, addr 0x32ff848, size 0x1174, virtual false, abstract: false, final false
+  /// @brief Method BuildCurvedStairs, addr 0x46dd724, size 0x1094, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds BuildCurvedStairs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method BuildStairs, addr 0x33009bc, size 0xf28, virtual false, abstract: false, final false
+  /// @brief Method BuildStairs, addr 0x46de7b8, size 0xeb0, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds BuildStairs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method CopyShape, addr 0x32ff74c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x46dd62c, size 0xac, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Stairs* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x32ff7e8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x46dd6d8, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds, addr 0x33018e4, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x46df668, size 0x150, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   constexpr float_t const& __cordl_internal_get_m_Circumference() const;
@@ -119,13 +119,13 @@ public:
 
   constexpr void __cordl_internal_set_m_StepsHeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x3301a48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46df7b8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sides, addr 0x32ff738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sides, addr 0x46dd618, size 0x8, virtual false, abstract: false, final false
   inline bool get_sides();
 
-  /// @brief Method set_sides, addr 0x32ff740, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_sides, addr 0x46dd620, size 0xc, virtual false, abstract: false, final false
   inline void set_sides(bool value);
 
 protected:
@@ -162,6 +162,9 @@ public:
 
   /// @brief Field m_InnerRadius, offset: 0x28, size: 0x4, def value: None
   float_t ___m_InnerRadius;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14310 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

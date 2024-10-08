@@ -70,7 +70,7 @@ class SDKRender;
 // Write type traits
 MARK_REF_PTR_T(::LIV::SDK::Unity::SDKRender);
 // Type: LIV.SDK.Unity::SDKRender
-// SizeInfo { instance_size: 832, native_size: -1, calculated_instance_size: 832, calculated_native_size: 828, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 832, native_size: -1, calculated_instance_size: 832, calculated_native_size: 828, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: false
 // CS Name: ::LIV.SDK.Unity::SDKRender*
@@ -78,96 +78,98 @@ class CORDL_TYPE SDKRender : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _applyTextureCommandBuffer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__applyTextureCommandBuffer, put = __cordl_internal_set__applyTextureCommandBuffer))::UnityEngine::Rendering::CommandBuffer* _applyTextureCommandBuffer;
+  __declspec(property(get = __cordl_internal_get__applyTextureCommandBuffer,
+                      put = __cordl_internal_set__applyTextureCommandBuffer)) ::UnityEngine::Rendering::CommandBuffer* _applyTextureCommandBuffer;
 
   /// @brief Field _backgroundRenderTexture, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__backgroundRenderTexture, put = __cordl_internal_set__backgroundRenderTexture))::UnityW<::UnityEngine::RenderTexture> _backgroundRenderTexture;
+  __declspec(property(get = __cordl_internal_get__backgroundRenderTexture, put = __cordl_internal_set__backgroundRenderTexture)) ::UnityW<::UnityEngine::RenderTexture> _backgroundRenderTexture;
 
   /// @brief Field _cameraInstance, offset 0x2c0, size 0x8
-  __declspec(property(get = __cordl_internal_get__cameraInstance, put = __cordl_internal_set__cameraInstance))::UnityW<::UnityEngine::Camera> _cameraInstance;
+  __declspec(property(get = __cordl_internal_get__cameraInstance, put = __cordl_internal_set__cameraInstance)) ::UnityW<::UnityEngine::Camera> _cameraInstance;
 
   /// @brief Field _captureTextureCommandBuffer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__captureTextureCommandBuffer,
-                      put = __cordl_internal_set__captureTextureCommandBuffer))::UnityEngine::Rendering::CommandBuffer* _captureTextureCommandBuffer;
+                      put = __cordl_internal_set__captureTextureCommandBuffer)) ::UnityEngine::Rendering::CommandBuffer* _captureTextureCommandBuffer;
 
   /// @brief Field _clipPlaneCameraEvent, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__clipPlaneCameraEvent, put = __cordl_internal_set__clipPlaneCameraEvent))::UnityEngine::Rendering::CameraEvent _clipPlaneCameraEvent;
+  __declspec(property(get = __cordl_internal_get__clipPlaneCameraEvent, put = __cordl_internal_set__clipPlaneCameraEvent)) ::UnityEngine::Rendering::CameraEvent _clipPlaneCameraEvent;
 
   /// @brief Field _clipPlaneCommandBuffer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__clipPlaneCommandBuffer, put = __cordl_internal_set__clipPlaneCommandBuffer))::UnityEngine::Rendering::CommandBuffer* _clipPlaneCommandBuffer;
+  __declspec(property(get = __cordl_internal_get__clipPlaneCommandBuffer, put = __cordl_internal_set__clipPlaneCommandBuffer)) ::UnityEngine::Rendering::CommandBuffer* _clipPlaneCommandBuffer;
 
   /// @brief Field _clipPlaneComplexDebugMaterial, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__clipPlaneComplexDebugMaterial,
-                      put = __cordl_internal_set__clipPlaneComplexDebugMaterial))::UnityW<::UnityEngine::Material> _clipPlaneComplexDebugMaterial;
+  __declspec(property(get = __cordl_internal_get__clipPlaneComplexDebugMaterial, put = __cordl_internal_set__clipPlaneComplexDebugMaterial)) ::UnityW<::UnityEngine::Material>
+      _clipPlaneComplexDebugMaterial;
 
   /// @brief Field _clipPlaneComplexMaterial, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__clipPlaneComplexMaterial, put = __cordl_internal_set__clipPlaneComplexMaterial))::UnityW<::UnityEngine::Material> _clipPlaneComplexMaterial;
+  __declspec(property(get = __cordl_internal_get__clipPlaneComplexMaterial, put = __cordl_internal_set__clipPlaneComplexMaterial)) ::UnityW<::UnityEngine::Material> _clipPlaneComplexMaterial;
 
   /// @brief Field _clipPlaneMesh, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__clipPlaneMesh, put = __cordl_internal_set__clipPlaneMesh))::UnityW<::UnityEngine::Mesh> _clipPlaneMesh;
+  __declspec(property(get = __cordl_internal_get__clipPlaneMesh, put = __cordl_internal_set__clipPlaneMesh)) ::UnityW<::UnityEngine::Mesh> _clipPlaneMesh;
 
   /// @brief Field _clipPlaneSimpleDebugMaterial, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__clipPlaneSimpleDebugMaterial,
-                      put = __cordl_internal_set__clipPlaneSimpleDebugMaterial))::UnityW<::UnityEngine::Material> _clipPlaneSimpleDebugMaterial;
+  __declspec(property(get = __cordl_internal_get__clipPlaneSimpleDebugMaterial, put = __cordl_internal_set__clipPlaneSimpleDebugMaterial)) ::UnityW<::UnityEngine::Material>
+      _clipPlaneSimpleDebugMaterial;
 
   /// @brief Field _clipPlaneSimpleMaterial, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__clipPlaneSimpleMaterial, put = __cordl_internal_set__clipPlaneSimpleMaterial))::UnityW<::UnityEngine::Material> _clipPlaneSimpleMaterial;
+  __declspec(property(get = __cordl_internal_get__clipPlaneSimpleMaterial, put = __cordl_internal_set__clipPlaneSimpleMaterial)) ::UnityW<::UnityEngine::Material> _clipPlaneSimpleMaterial;
 
   /// @brief Field _combineAlphaCommandBuffer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__combineAlphaCommandBuffer, put = __cordl_internal_set__combineAlphaCommandBuffer))::UnityEngine::Rendering::CommandBuffer* _combineAlphaCommandBuffer;
+  __declspec(property(get = __cordl_internal_get__combineAlphaCommandBuffer,
+                      put = __cordl_internal_set__combineAlphaCommandBuffer)) ::UnityEngine::Rendering::CommandBuffer* _combineAlphaCommandBuffer;
 
   /// @brief Field _combineAlphaMaterial, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__combineAlphaMaterial, put = __cordl_internal_set__combineAlphaMaterial))::UnityW<::UnityEngine::Material> _combineAlphaMaterial;
+  __declspec(property(get = __cordl_internal_get__combineAlphaMaterial, put = __cordl_internal_set__combineAlphaMaterial)) ::UnityW<::UnityEngine::Material> _combineAlphaMaterial;
 
   /// @brief Field _complexClipPlaneRenderTexture, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__complexClipPlaneRenderTexture,
-                      put = __cordl_internal_set__complexClipPlaneRenderTexture))::UnityW<::UnityEngine::RenderTexture> _complexClipPlaneRenderTexture;
+  __declspec(property(get = __cordl_internal_get__complexClipPlaneRenderTexture, put = __cordl_internal_set__complexClipPlaneRenderTexture)) ::UnityW<::UnityEngine::RenderTexture>
+      _complexClipPlaneRenderTexture;
 
   /// @brief Field _forceForwardRenderingMaterial, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__forceForwardRenderingMaterial,
-                      put = __cordl_internal_set__forceForwardRenderingMaterial))::UnityW<::UnityEngine::Material> _forceForwardRenderingMaterial;
+  __declspec(property(get = __cordl_internal_get__forceForwardRenderingMaterial, put = __cordl_internal_set__forceForwardRenderingMaterial)) ::UnityW<::UnityEngine::Material>
+      _forceForwardRenderingMaterial;
 
   /// @brief Field _foregroundRenderTexture, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__foregroundRenderTexture, put = __cordl_internal_set__foregroundRenderTexture))::UnityW<::UnityEngine::RenderTexture> _foregroundRenderTexture;
+  __declspec(property(get = __cordl_internal_get__foregroundRenderTexture, put = __cordl_internal_set__foregroundRenderTexture)) ::UnityW<::UnityEngine::RenderTexture> _foregroundRenderTexture;
 
   /// @brief Field _inputFrame, offset 0x160, size 0x158
-  __declspec(property(get = __cordl_internal_get__inputFrame, put = __cordl_internal_set__inputFrame))::LIV::SDK::Unity::SDKInputFrame _inputFrame;
+  __declspec(property(get = __cordl_internal_get__inputFrame, put = __cordl_internal_set__inputFrame)) ::LIV::SDK::Unity::SDKInputFrame _inputFrame;
 
   /// @brief Field _liv, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__liv, put = __cordl_internal_set__liv))::UnityW<::LIV::SDK::Unity::LIV> _liv;
+  __declspec(property(get = __cordl_internal_get__liv, put = __cordl_internal_set__liv)) ::UnityW<::LIV::SDK::Unity::LIV> _liv;
 
   /// @brief Field _optimizedRenderTexture, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__optimizedRenderTexture, put = __cordl_internal_set__optimizedRenderTexture))::UnityW<::UnityEngine::RenderTexture> _optimizedRenderTexture;
+  __declspec(property(get = __cordl_internal_get__optimizedRenderTexture, put = __cordl_internal_set__optimizedRenderTexture)) ::UnityW<::UnityEngine::RenderTexture> _optimizedRenderTexture;
 
   /// @brief Field _optimizedRenderingCameraEvent, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__optimizedRenderingCameraEvent,
-                      put = __cordl_internal_set__optimizedRenderingCameraEvent))::UnityEngine::Rendering::CameraEvent _optimizedRenderingCameraEvent;
+                      put = __cordl_internal_set__optimizedRenderingCameraEvent)) ::UnityEngine::Rendering::CameraEvent _optimizedRenderingCameraEvent;
 
   /// @brief Field _optimizedRenderingCommandBuffer, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__optimizedRenderingCommandBuffer,
-                      put = __cordl_internal_set__optimizedRenderingCommandBuffer))::UnityEngine::Rendering::CommandBuffer* _optimizedRenderingCommandBuffer;
+                      put = __cordl_internal_set__optimizedRenderingCommandBuffer)) ::UnityEngine::Rendering::CommandBuffer* _optimizedRenderingCommandBuffer;
 
   /// @brief Field _outputFrame, offset 0xb0, size 0xac
-  __declspec(property(get = __cordl_internal_get__outputFrame, put = __cordl_internal_set__outputFrame))::LIV::SDK::Unity::SDKOutputFrame _outputFrame;
+  __declspec(property(get = __cordl_internal_get__outputFrame, put = __cordl_internal_set__outputFrame)) ::LIV::SDK::Unity::SDKOutputFrame _outputFrame;
 
   /// @brief Field _requestedPose, offset 0x2c8, size 0x70
-  __declspec(property(get = __cordl_internal_get__requestedPose, put = __cordl_internal_set__requestedPose))::LIV::SDK::Unity::SDKPose _requestedPose;
+  __declspec(property(get = __cordl_internal_get__requestedPose, put = __cordl_internal_set__requestedPose)) ::LIV::SDK::Unity::SDKPose _requestedPose;
 
   /// @brief Field _requestedPoseFrameIndex, offset 0x338, size 0x4
   __declspec(property(get = __cordl_internal_get__requestedPoseFrameIndex, put = __cordl_internal_set__requestedPoseFrameIndex)) int32_t _requestedPoseFrameIndex;
 
   /// @brief Field _resolution, offset 0x2b8, size 0x8
-  __declspec(property(get = __cordl_internal_get__resolution, put = __cordl_internal_set__resolution))::LIV::SDK::Unity::SDKResolution _resolution;
+  __declspec(property(get = __cordl_internal_get__resolution, put = __cordl_internal_set__resolution)) ::LIV::SDK::Unity::SDKResolution _resolution;
 
   /// @brief Field _writeMaterial, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__writeMaterial, put = __cordl_internal_set__writeMaterial))::UnityW<::UnityEngine::Material> _writeMaterial;
+  __declspec(property(get = __cordl_internal_get__writeMaterial, put = __cordl_internal_set__writeMaterial)) ::UnityW<::UnityEngine::Material> _writeMaterial;
 
   /// @brief Field _writeOpaqueToAlphaMaterial, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__writeOpaqueToAlphaMaterial, put = __cordl_internal_set__writeOpaqueToAlphaMaterial))::UnityW<::UnityEngine::Material> _writeOpaqueToAlphaMaterial;
+  __declspec(property(get = __cordl_internal_get__writeOpaqueToAlphaMaterial, put = __cordl_internal_set__writeOpaqueToAlphaMaterial)) ::UnityW<::UnityEngine::Material> _writeOpaqueToAlphaMaterial;
 
-  __declspec(property(get = get_cameraInstance))::UnityW<::UnityEngine::Camera> cameraInstance;
+  __declspec(property(get = get_cameraInstance)) ::UnityW<::UnityEngine::Camera> cameraInstance;
 
-  __declspec(property(get = get_cameraReference))::UnityW<::UnityEngine::Camera> cameraReference;
+  __declspec(property(get = get_cameraReference)) ::UnityW<::UnityEngine::Camera> cameraReference;
 
   __declspec(property(get = get_canRenderBackground)) bool canRenderBackground;
 
@@ -179,120 +181,120 @@ public:
 
   __declspec(property(get = get_disableStandardAssets)) bool disableStandardAssets;
 
-  __declspec(property(get = get_hmdCamera))::UnityW<::UnityEngine::Camera> hmdCamera;
+  __declspec(property(get = get_hmdCamera)) ::UnityW<::UnityEngine::Camera> hmdCamera;
 
-  __declspec(property(get = get_inputFrame))::LIV::SDK::Unity::SDKInputFrame inputFrame;
+  __declspec(property(get = get_inputFrame)) ::LIV::SDK::Unity::SDKInputFrame inputFrame;
 
   __declspec(property(get = get_interlacedRendering)) bool interlacedRendering;
 
-  __declspec(property(get = get_liv))::UnityW<::LIV::SDK::Unity::LIV> liv;
+  __declspec(property(get = get_liv)) ::UnityW<::LIV::SDK::Unity::LIV> liv;
 
-  __declspec(property(get = get_localToWorldMatrix))::UnityEngine::Matrix4x4 localToWorldMatrix;
+  __declspec(property(get = get_localToWorldMatrix)) ::UnityEngine::Matrix4x4 localToWorldMatrix;
 
-  __declspec(property(get = get_outputFrame))::LIV::SDK::Unity::SDKOutputFrame outputFrame;
+  __declspec(property(get = get_outputFrame)) ::LIV::SDK::Unity::SDKOutputFrame outputFrame;
 
-  __declspec(property(get = get_resolution))::LIV::SDK::Unity::SDKResolution resolution;
+  __declspec(property(get = get_resolution)) ::LIV::SDK::Unity::SDKResolution resolution;
 
   __declspec(property(get = get_spectatorLayerMask)) int32_t spectatorLayerMask;
 
-  __declspec(property(get = get_stage))::UnityW<::UnityEngine::Transform> stage;
+  __declspec(property(get = get_stage)) ::UnityW<::UnityEngine::Transform> stage;
 
-  __declspec(property(get = get_stageLocalToWorldMatrix))::UnityEngine::Matrix4x4 stageLocalToWorldMatrix;
+  __declspec(property(get = get_stageLocalToWorldMatrix)) ::UnityEngine::Matrix4x4 stageLocalToWorldMatrix;
 
-  __declspec(property(get = get_stageTransform))::UnityW<::UnityEngine::Transform> stageTransform;
+  __declspec(property(get = get_stageTransform)) ::UnityW<::UnityEngine::Transform> stageTransform;
 
   __declspec(property(get = get_useDeferredRendering)) bool useDeferredRendering;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateAssets, addr 0x2621118, size 0x70c, virtual false, abstract: false, final false
+  /// @brief Method CreateAssets, addr 0x3a58bdc, size 0x6d0, virtual false, abstract: false, final false
   inline void CreateAssets();
 
-  /// @brief Method CreateBackgroundTexture, addr 0x2624970, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateBackgroundTexture, addr 0x3a5c2ec, size 0x94, virtual false, abstract: false, final false
   inline void CreateBackgroundTexture();
 
-  /// @brief Method CreateComplexClipPlaneTexture, addr 0x2624c9c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateComplexClipPlaneTexture, addr 0x3a5c618, size 0x94, virtual false, abstract: false, final false
   inline void CreateComplexClipPlaneTexture();
 
-  /// @brief Method CreateForegroundTexture, addr 0x2624b74, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateForegroundTexture, addr 0x3a5c4f0, size 0x94, virtual false, abstract: false, final false
   inline void CreateForegroundTexture();
 
-  /// @brief Method CreateOptimizedTexture, addr 0x2624c08, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateOptimizedTexture, addr 0x3a5c584, size 0x94, virtual false, abstract: false, final false
   inline void CreateOptimizedTexture();
 
-  /// @brief Method DestroyAssets, addr 0x2623ce0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method DestroyAssets, addr 0x3a5b6e0, size 0x184, virtual false, abstract: false, final false
   inline void DestroyAssets();
 
-  /// @brief Method Dispose, addr 0x261f5b4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3a573b8, size 0x38, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetClipPlaneMaterial, addr 0x2620ca0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetClipPlaneMaterial, addr 0x3a58788, size 0x104, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetClipPlaneMaterial(bool debugClipPlane, bool complexClipPlane, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
 
-  /// @brief Method GetGroundClipPlaneMaterial, addr 0x2620da4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetGroundClipPlaneMaterial, addr 0x3a5888c, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetGroundClipPlaneMaterial(bool debugClipPlane, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
 
-  /// @brief Method InvokePostRenderBackground, addr 0x2623004, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InvokePostRenderBackground, addr 0x3a5aa00, size 0x38, virtual false, abstract: false, final false
   inline void InvokePostRenderBackground();
 
-  /// @brief Method InvokePostRenderForeground, addr 0x2623310, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InvokePostRenderForeground, addr 0x3a5ad10, size 0x38, virtual false, abstract: false, final false
   inline void InvokePostRenderForeground();
 
-  /// @brief Method InvokePreRender, addr 0x2622158, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InvokePreRender, addr 0x3a59bbc, size 0x38, virtual false, abstract: false, final false
   inline void InvokePreRender();
 
-  /// @brief Method InvokePreRenderBackground, addr 0x2622eb0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InvokePreRenderBackground, addr 0x3a5a8d4, size 0x38, virtual false, abstract: false, final false
   inline void InvokePreRenderBackground();
 
-  /// @brief Method InvokePreRenderForeground, addr 0x26232d8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InvokePreRenderForeground, addr 0x3a5acd8, size 0x38, virtual false, abstract: false, final false
   inline void InvokePreRenderForeground();
 
-  /// @brief Method IvokePostRender, addr 0x2622c68, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method IvokePostRender, addr 0x3a5a6ac, size 0x38, virtual false, abstract: false, final false
   inline void IvokePostRender();
 
   static inline ::LIV::SDK::Unity::SDKRender* New_ctor(::LIV::SDK::Unity::LIV* liv);
 
-  /// @brief Method ReleaseBridgePoseControl, addr 0x2623e64, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReleaseBridgePoseControl, addr 0x3a5b864, size 0x60, virtual false, abstract: false, final false
   inline void ReleaseBridgePoseControl();
 
-  /// @brief Method Render, addr 0x261fafc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x3a57868, size 0xc4, virtual false, abstract: false, final false
   inline void Render();
 
-  /// @brief Method RenderBackground, addr 0x2622190, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method RenderBackground, addr 0x3a59bf4, size 0x118, virtual false, abstract: false, final false
   inline void RenderBackground();
 
-  /// @brief Method RenderForeground, addr 0x26222a8, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method RenderForeground, addr 0x3a59d0c, size 0x4b0, virtual false, abstract: false, final false
   inline void RenderForeground();
 
-  /// @brief Method RenderOptimized, addr 0x2622768, size 0x500, virtual false, abstract: false, final false
+  /// @brief Method RenderOptimized, addr 0x3a5a1bc, size 0x4f0, virtual false, abstract: false, final false
   inline void RenderOptimized();
 
-  /// @brief Method SendTextureToBridge, addr 0x2622ee8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SendTextureToBridge, addr 0x3a5a90c, size 0xf4, virtual false, abstract: false, final false
   inline void SendTextureToBridge(::UnityEngine::RenderTexture* texture, ::LIV::SDK::Unity::TEXTURE_ID id);
 
-  /// @brief Method SetGroundPlane, addr 0x26245a0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method SetGroundPlane, addr 0x3a5bf80, size 0x18c, virtual false, abstract: false, final false
   inline void SetGroundPlane(float_t distance, ::UnityEngine::Vector3 normal, bool useLocalSpace);
 
-  /// @brief Method SetGroundPlane, addr 0x2624734, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetGroundPlane, addr 0x3a5c10c, size 0x1c, virtual false, abstract: false, final false
   inline void SetGroundPlane(::UnityEngine::Plane plane, bool useLocalSpace);
 
-  /// @brief Method SetGroundPlane, addr 0x26247ac, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method SetGroundPlane, addr 0x3a5c128, size 0x1a0, virtual false, abstract: false, final false
   inline void SetGroundPlane(::UnityEngine::Transform* transform, bool useLocalSpace);
 
-  /// @brief Method SetPose, addr 0x26240fc, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method SetPose, addr 0x3a5baf0, size 0x2e0, virtual false, abstract: false, final false
   inline bool SetPose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t verticalFieldOfView, bool useLocalSpace);
 
-  /// @brief Method UpdateBridgeInputFrame, addr 0x26218a8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method UpdateBridgeInputFrame, addr 0x3a59330, size 0x1b0, virtual false, abstract: false, final false
   inline void UpdateBridgeInputFrame();
 
-  /// @brief Method UpdateBridgeResolution, addr 0x2621d90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method UpdateBridgeResolution, addr 0x3a597f8, size 0x54, virtual false, abstract: false, final false
   inline void UpdateBridgeResolution();
 
-  /// @brief Method UpdateCameraSettings, addr 0x2621824, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UpdateCameraSettings, addr 0x3a592ac, size 0x84, virtual false, abstract: false, final false
   inline void UpdateCameraSettings();
 
-  /// @brief Method UpdateTextures, addr 0x2621ed8, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method UpdateTextures, addr 0x3a5993c, size 0x280, virtual false, abstract: false, final false
   inline void UpdateTextures();
 
   constexpr ::UnityEngine::Rendering::CommandBuffer*& __cordl_internal_get__applyTextureCommandBuffer();
@@ -457,64 +459,64 @@ public:
 
   constexpr void __cordl_internal_set__writeOpaqueToAlphaMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x261f438, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a57250, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::LIV::SDK::Unity::LIV* liv);
 
-  /// @brief Method get_cameraInstance, addr 0x2623f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cameraInstance, addr 0x3a5b988, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_cameraInstance();
 
-  /// @brief Method get_cameraReference, addr 0x2623414, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_cameraReference, addr 0x3a5ae14, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_cameraReference();
 
-  /// @brief Method get_canRenderBackground, addr 0x2620ea4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_canRenderBackground, addr 0x3a58968, size 0x8c, virtual false, abstract: false, final false
   inline bool get_canRenderBackground();
 
-  /// @brief Method get_canRenderForeground, addr 0x2620f30, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_canRenderForeground, addr 0x3a589f4, size 0xa0, virtual false, abstract: false, final false
   inline bool get_canRenderForeground();
 
-  /// @brief Method get_canRenderOptimized, addr 0x2620fd0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_canRenderOptimized, addr 0x3a58a94, size 0x78, virtual false, abstract: false, final false
   inline bool get_canRenderOptimized();
 
-  /// @brief Method get_canSetPose, addr 0x26240dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_canSetPose, addr 0x3a5bad0, size 0x20, virtual false, abstract: false, final false
   inline bool get_canSetPose();
 
-  /// @brief Method get_disableStandardAssets, addr 0x26230c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_disableStandardAssets, addr 0x3a5aac0, size 0x1c, virtual false, abstract: false, final false
   inline bool get_disableStandardAssets();
 
-  /// @brief Method get_hmdCamera, addr 0x2623f94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_hmdCamera, addr 0x3a5b990, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_hmdCamera();
 
-  /// @brief Method get_inputFrame, addr 0x2623f74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_inputFrame, addr 0x3a5b970, size 0x10, virtual false, abstract: false, final false
   inline ::LIV::SDK::Unity::SDKInputFrame get_inputFrame();
 
-  /// @brief Method get_interlacedRendering, addr 0x2620e8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_interlacedRendering, addr 0x3a58950, size 0xc, virtual false, abstract: false, final false
   inline bool get_interlacedRendering();
 
-  /// @brief Method get_liv, addr 0x2623f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_liv, addr 0x3a5b958, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::LIV::SDK::Unity::LIV> get_liv();
 
-  /// @brief Method get_localToWorldMatrix, addr 0x2621a60, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_localToWorldMatrix, addr 0x3a594e0, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_localToWorldMatrix();
 
-  /// @brief Method get_outputFrame, addr 0x2623f64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_outputFrame, addr 0x3a5b960, size 0x10, virtual false, abstract: false, final false
   inline ::LIV::SDK::Unity::SDKOutputFrame get_outputFrame();
 
-  /// @brief Method get_resolution, addr 0x2623f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resolution, addr 0x3a5b980, size 0x8, virtual false, abstract: false, final false
   inline ::LIV::SDK::Unity::SDKResolution get_resolution();
 
-  /// @brief Method get_spectatorLayerMask, addr 0x2621b24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_spectatorLayerMask, addr 0x3a5959c, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_spectatorLayerMask();
 
-  /// @brief Method get_stage, addr 0x2623fb0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_stage, addr 0x3a5b9ac, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_stage();
 
-  /// @brief Method get_stageLocalToWorldMatrix, addr 0x2623fe4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_stageLocalToWorldMatrix, addr 0x3a5b9e0, size 0xf0, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_stageLocalToWorldMatrix();
 
-  /// @brief Method get_stageTransform, addr 0x2623fc8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_stageTransform, addr 0x3a5b9c4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_stageTransform();
 
-  /// @brief Method get_useDeferredRendering, addr 0x2620e40, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_useDeferredRendering, addr 0x3a58928, size 0x28, virtual false, abstract: false, final false
   inline bool get_useDeferredRendering();
 
   /// @brief Convert to "::System::IDisposable"
@@ -614,6 +616,9 @@ public:
 
   /// @brief Field _requestedPoseFrameIndex, offset: 0x338, size: 0x4, def value: None
   int32_t ____requestedPoseFrameIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17254 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

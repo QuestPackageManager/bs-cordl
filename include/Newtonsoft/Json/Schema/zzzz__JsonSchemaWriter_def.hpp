@@ -41,7 +41,7 @@ class __JsonSchemaWriter____c;
 MARK_REF_PTR_T(::Newtonsoft::Json::Schema::JsonSchemaWriter);
 MARK_REF_PTR_T(::Newtonsoft::Json::Schema::__JsonSchemaWriter____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
 // CS Name: ::JsonSchemaWriter::<>c*
@@ -49,17 +49,17 @@ class CORDL_TYPE __JsonSchemaWriter____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Newtonsoft::Json::Schema::__JsonSchemaWriter____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Schema::__JsonSchemaWriter____c* __9;
 
   /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0))::System::Func_2<::Newtonsoft::Json::Schema::JsonSchemaType, bool>* __9__7_0;
+  static __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0)) ::System::Func_2<::Newtonsoft::Json::Schema::JsonSchemaType, bool>* __9__7_0;
 
   static inline ::Newtonsoft::Json::Schema::__JsonSchemaWriter____c* New_ctor();
 
-  /// @brief Method <WriteType>b__7_0, addr 0x2a87b5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <WriteType>b__7_0, addr 0x3e96c50, size 0xc, virtual false, abstract: false, final false
   inline bool _WriteType_b__7_0(::Newtonsoft::Json::Schema::JsonSchemaType v);
 
-  /// @brief Method .ctor, addr 0x2a87b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e96c48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Schema::__JsonSchemaWriter____c* getStaticF___9();
@@ -84,6 +84,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __JsonSchemaWriter____c(__JsonSchemaWriter____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10338 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -91,7 +94,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Schema::__Json
 
 } // namespace Newtonsoft::Json::Schema
 // Type: Newtonsoft.Json.Schema::JsonSchemaWriter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Schema::JsonSchemaWriter*
@@ -101,30 +104,30 @@ public:
   using __c = ::Newtonsoft::Json::Schema::__JsonSchemaWriter____c;
 
   /// @brief Field _resolver, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__resolver, put = __cordl_internal_set__resolver))::Newtonsoft::Json::Schema::JsonSchemaResolver* _resolver;
+  __declspec(property(get = __cordl_internal_get__resolver, put = __cordl_internal_set__resolver)) ::Newtonsoft::Json::Schema::JsonSchemaResolver* _resolver;
 
   /// @brief Field _writer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer))::Newtonsoft::Json::JsonWriter* _writer;
+  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer)) ::Newtonsoft::Json::JsonWriter* _writer;
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaWriter* New_ctor(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
 
-  /// @brief Method ReferenceOrWriteSchema, addr 0x2a86c28, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReferenceOrWriteSchema, addr 0x3e95d18, size 0xe4, virtual false, abstract: false, final false
   inline void ReferenceOrWriteSchema(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method WriteItems, addr 0x2a8763c, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method WriteItems, addr 0x3e96734, size 0x4b8, virtual false, abstract: false, final false
   inline void WriteItems(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method WritePropertyIfNotNull, addr 0x2a86d0c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WritePropertyIfNotNull, addr 0x3e95dfc, size 0x64, virtual false, abstract: false, final false
   inline void WritePropertyIfNotNull(::Newtonsoft::Json::JsonWriter* writer, ::StringW propertyName, ::System::Object* value);
 
-  /// @brief Method WriteSchema, addr 0x2a7d38c, size 0x101c, virtual false, abstract: false, final false
+  /// @brief Method WriteSchema, addr 0x3e8c454, size 0x1050, virtual false, abstract: false, final false
   inline void WriteSchema(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method WriteSchemaDictionaryIfNotNull, addr 0x2a872b0, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method WriteSchemaDictionaryIfNotNull, addr 0x3e963a4, size 0x390, virtual false, abstract: false, final false
   inline void WriteSchemaDictionaryIfNotNull(::Newtonsoft::Json::JsonWriter* writer, ::StringW propertyName,
                                              ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* properties);
 
-  /// @brief Method WriteType, addr 0x2a86d70, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method WriteType, addr 0x3e95e60, size 0x544, virtual false, abstract: false, final false
   inline void WriteType(::StringW propertyName, ::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Schema::JsonSchemaType type);
 
   constexpr ::Newtonsoft::Json::Schema::JsonSchemaResolver*& __cordl_internal_get__resolver();
@@ -139,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set__writer(::Newtonsoft::Json::JsonWriter* value);
 
-  /// @brief Method .ctor, addr 0x2a7d31c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e8c3e4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
 
 protected:
@@ -161,6 +164,9 @@ public:
 
   /// @brief Field _resolver, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Schema::JsonSchemaResolver* ____resolver;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10339 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

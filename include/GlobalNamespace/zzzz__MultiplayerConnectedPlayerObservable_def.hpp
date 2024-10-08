@@ -19,7 +19,7 @@ class MultiplayerConnectedPlayerObservable;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerObservable);
 // Type: ::MultiplayerConnectedPlayerObservable
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerConnectedPlayerObservable*
@@ -27,7 +27,7 @@ class CORDL_TYPE MultiplayerConnectedPlayerObservable : public ::System::Object 
 public:
   // Declarations
   /// @brief Field _connectedPlayer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
   __declspec(property(get = get_isFailed)) bool isFailed;
 
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x2733e80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b52b80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method get_isFailed, addr 0x2733f4c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_isFailed, addr 0x3b52c4c, size 0xc, virtual true, abstract: false, final true
   inline bool get_isFailed();
 
-  /// @brief Method get_offsetSyncTime, addr 0x2733ea8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0x3b52ba8, size 0xa4, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerObservable"
@@ -72,6 +72,9 @@ public:
 
   /// @brief Field _connectedPlayer, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4541 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

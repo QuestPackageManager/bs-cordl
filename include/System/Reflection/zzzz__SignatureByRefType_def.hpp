@@ -17,7 +17,7 @@ class SignatureByRefType;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::SignatureByRefType);
 // Type: System.Reflection::SignatureByRefType
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::SignatureByRefType*
@@ -28,32 +28,32 @@ public:
 
   __declspec(property(get = get_IsVariableBoundArray)) bool IsVariableBoundArray;
 
-  __declspec(property(get = get_Suffix))::StringW Suffix;
+  __declspec(property(get = get_Suffix)) ::StringW Suffix;
 
-  /// @brief Method GetArrayRank, addr 0x2897d58, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetArrayRank, addr 0x3cb0204, size 0x4c, virtual true, abstract: false, final true
   inline int32_t GetArrayRank();
 
-  /// @brief Method IsArrayImpl, addr 0x2897d30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsArrayImpl, addr 0x3cb01dc, size 0x8, virtual true, abstract: false, final true
   inline bool IsArrayImpl();
 
-  /// @brief Method IsByRefImpl, addr 0x2897d38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsByRefImpl, addr 0x3cb01e4, size 0x8, virtual true, abstract: false, final true
   inline bool IsByRefImpl();
 
-  /// @brief Method IsPointerImpl, addr 0x2897d40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsPointerImpl, addr 0x3cb01ec, size 0x8, virtual true, abstract: false, final true
   inline bool IsPointerImpl();
 
   static inline ::System::Reflection::SignatureByRefType* New_ctor(::System::Reflection::SignatureType* elementType);
 
-  /// @brief Method .ctor, addr 0x2897d0c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb01b8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::SignatureType* elementType);
 
-  /// @brief Method get_IsSZArray, addr 0x2897d48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSZArray, addr 0x3cb01f4, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSZArray();
 
-  /// @brief Method get_IsVariableBoundArray, addr 0x2897d50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsVariableBoundArray, addr 0x3cb01fc, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsVariableBoundArray();
 
-  /// @brief Method get_Suffix, addr 0x2897da8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Suffix, addr 0x3cb0250, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_Suffix();
 
 protected:
@@ -69,6 +69,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SignatureByRefType", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SignatureByRefType(SignatureByRefType const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3493 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

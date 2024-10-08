@@ -25,7 +25,7 @@ class XPathScanner;
 MARK_VAL_T(::MS::Internal::Xml::XPath::__XPathScanner__LexKind);
 MARK_REF_PTR_T(::MS::Internal::Xml::XPath::XPathScanner);
 // Type: ::LexKind
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::XPath {
 // Is value type: true
 // CS Name: ::XPathScanner::LexKind
@@ -182,6 +182,9 @@ public:
   /// @brief Field Union value: static_cast<int32_t>(0x7c)
   static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Union;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7752 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -194,7 +197,7 @@ static_assert(offsetof(::MS::Internal::Xml::XPath::__XPathScanner__LexKind, valu
 
 } // namespace MS::Internal::Xml::XPath
 // Type: MS.Internal.Xml.XPath::XPathScanner
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::XPath {
 // Is value type: false
 // CS Name: ::MS.Internal.Xml.XPath::XPathScanner*
@@ -207,17 +210,17 @@ public:
 
   __declspec(property(get = get_CurrentChar)) char16_t CurrentChar;
 
-  __declspec(property(get = get_Kind))::MS::Internal::Xml::XPath::__XPathScanner__LexKind Kind;
+  __declspec(property(get = get_Kind)) ::MS::Internal::Xml::XPath::__XPathScanner__LexKind Kind;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
   __declspec(property(get = get_NumberValue)) double_t NumberValue;
 
-  __declspec(property(get = get_Prefix))::StringW Prefix;
+  __declspec(property(get = get_Prefix)) ::StringW Prefix;
 
-  __declspec(property(get = get_SourceText))::StringW SourceText;
+  __declspec(property(get = get_SourceText)) ::StringW SourceText;
 
-  __declspec(property(get = get_StringValue))::StringW StringValue;
+  __declspec(property(get = get_StringValue)) ::StringW StringValue;
 
   /// @brief Field _canBeFunction, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get__canBeFunction, put = __cordl_internal_set__canBeFunction)) bool _canBeFunction;
@@ -226,50 +229,50 @@ public:
   __declspec(property(get = __cordl_internal_get__currentChar, put = __cordl_internal_set__currentChar)) char16_t _currentChar;
 
   /// @brief Field _kind, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__kind, put = __cordl_internal_set__kind))::MS::Internal::Xml::XPath::__XPathScanner__LexKind _kind;
+  __declspec(property(get = __cordl_internal_get__kind, put = __cordl_internal_set__kind)) ::MS::Internal::Xml::XPath::__XPathScanner__LexKind _kind;
 
   /// @brief Field _name, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
   /// @brief Field _numberValue, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__numberValue, put = __cordl_internal_set__numberValue)) double_t _numberValue;
 
   /// @brief Field _prefix, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__prefix, put = __cordl_internal_set__prefix))::StringW _prefix;
+  __declspec(property(get = __cordl_internal_get__prefix, put = __cordl_internal_set__prefix)) ::StringW _prefix;
 
   /// @brief Field _stringValue, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__stringValue, put = __cordl_internal_set__stringValue))::StringW _stringValue;
+  __declspec(property(get = __cordl_internal_get__stringValue, put = __cordl_internal_set__stringValue)) ::StringW _stringValue;
 
   /// @brief Field _xmlCharType, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__xmlCharType, put = __cordl_internal_set__xmlCharType))::System::Xml::XmlCharType _xmlCharType;
+  __declspec(property(get = __cordl_internal_get__xmlCharType, put = __cordl_internal_set__xmlCharType)) ::System::Xml::XmlCharType _xmlCharType;
 
   /// @brief Field _xpathExpr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__xpathExpr, put = __cordl_internal_set__xpathExpr))::StringW _xpathExpr;
+  __declspec(property(get = __cordl_internal_get__xpathExpr, put = __cordl_internal_set__xpathExpr)) ::StringW _xpathExpr;
 
   /// @brief Field _xpathExprIndex, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__xpathExprIndex, put = __cordl_internal_set__xpathExprIndex)) int32_t _xpathExprIndex;
 
   static inline ::MS::Internal::Xml::XPath::XPathScanner* New_ctor(::StringW xpathExpr);
 
-  /// @brief Method NextChar, addr 0x2e92b60, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method NextChar, addr 0x4292d70, size 0x60, virtual false, abstract: false, final false
   inline bool NextChar();
 
-  /// @brief Method NextLex, addr 0x2e9172c, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method NextLex, addr 0x42919b4, size 0x3bc, virtual false, abstract: false, final false
   inline bool NextLex();
 
-  /// @brief Method ScanFraction, addr 0x2e92c30, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ScanFraction, addr 0x4292e4c, size 0xb0, virtual false, abstract: false, final false
   inline double_t ScanFraction();
 
-  /// @brief Method ScanName, addr 0x2e92e68, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ScanName, addr 0x4293084, size 0x78, virtual false, abstract: false, final false
   inline ::StringW ScanName();
 
-  /// @brief Method ScanNumber, addr 0x2e92d90, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ScanNumber, addr 0x4292fac, size 0xd8, virtual false, abstract: false, final false
   inline double_t ScanNumber();
 
-  /// @brief Method ScanString, addr 0x2e92ce0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ScanString, addr 0x4292efc, size 0xb0, virtual false, abstract: false, final false
   inline ::StringW ScanString();
 
-  /// @brief Method SkipSpace, addr 0x2e92bf4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SkipSpace, addr 0x4292e10, size 0x3c, virtual false, abstract: false, final false
   inline void SkipSpace();
 
   constexpr bool const& __cordl_internal_get__canBeFunction() const;
@@ -332,31 +335,31 @@ public:
 
   constexpr void __cordl_internal_set__xpathExprIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2e8fa08, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x428fcf8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW xpathExpr);
 
-  /// @brief Method get_CanBeFunction, addr 0x2e92bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CanBeFunction, addr 0x4292e08, size 0x8, virtual false, abstract: false, final false
   inline bool get_CanBeFunction();
 
-  /// @brief Method get_CurrentChar, addr 0x2e92bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentChar, addr 0x4292dd8, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_CurrentChar();
 
-  /// @brief Method get_Kind, addr 0x2e92bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Kind, addr 0x4292de0, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::__XPathScanner__LexKind get_Kind();
 
-  /// @brief Method get_Name, addr 0x2e92bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4292de8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NumberValue, addr 0x2e92be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NumberValue, addr 0x4292e00, size 0x8, virtual false, abstract: false, final false
   inline double_t get_NumberValue();
 
-  /// @brief Method get_Prefix, addr 0x2e92bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x4292df0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_SourceText, addr 0x2e92bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceText, addr 0x4292dd0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SourceText();
 
-  /// @brief Method get_StringValue, addr 0x2e92bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StringValue, addr 0x4292df8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_StringValue();
 
 protected:
@@ -402,6 +405,9 @@ public:
 
   /// @brief Field _xmlCharType, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::XmlCharType ____xmlCharType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7753 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

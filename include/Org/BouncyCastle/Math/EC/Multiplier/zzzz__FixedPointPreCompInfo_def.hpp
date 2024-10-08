@@ -22,24 +22,24 @@ class FixedPointPreCompInfo;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo);
 // Type: Org.BouncyCastle.Math.EC.Multiplier::FixedPointPreCompInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::FixedPointPreCompInfo*
 class CORDL_TYPE FixedPointPreCompInfo : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_LookupTable, put = set_LookupTable))::Org::BouncyCastle::Math::EC::ECLookupTable* LookupTable;
+  __declspec(property(get = get_LookupTable, put = set_LookupTable)) ::Org::BouncyCastle::Math::EC::ECLookupTable* LookupTable;
 
-  __declspec(property(get = get_Offset, put = set_Offset))::Org::BouncyCastle::Math::EC::ECPoint* Offset;
+  __declspec(property(get = get_Offset, put = set_Offset)) ::Org::BouncyCastle::Math::EC::ECPoint* Offset;
 
   __declspec(property(get = get_Width, put = set_Width)) int32_t Width;
 
   /// @brief Field m_lookupTable, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_lookupTable, put = __cordl_internal_set_m_lookupTable))::Org::BouncyCastle::Math::EC::ECLookupTable* m_lookupTable;
+  __declspec(property(get = __cordl_internal_get_m_lookupTable, put = __cordl_internal_set_m_lookupTable)) ::Org::BouncyCastle::Math::EC::ECLookupTable* m_lookupTable;
 
   /// @brief Field m_offset, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_offset, put = __cordl_internal_set_m_offset))::Org::BouncyCastle::Math::EC::ECPoint* m_offset;
+  __declspec(property(get = __cordl_internal_get_m_offset, put = __cordl_internal_set_m_offset)) ::Org::BouncyCastle::Math::EC::ECPoint* m_offset;
 
   /// @brief Field m_width, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_width, put = __cordl_internal_set_m_width)) int32_t m_width;
@@ -67,28 +67,28 @@ public:
 
   constexpr void __cordl_internal_set_m_width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x12a9614, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2477ce0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LookupTable, addr 0x12a95e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LookupTable, addr 0x2477cb0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable();
 
-  /// @brief Method get_Offset, addr 0x12a95f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Offset, addr 0x2477cc0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Offset();
 
-  /// @brief Method get_Width, addr 0x12a9604, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Width, addr 0x2477cd0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Width();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
 
-  /// @brief Method set_LookupTable, addr 0x12a95ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_LookupTable, addr 0x2477cb8, size 0x8, virtual true, abstract: false, final false
   inline void set_LookupTable(::Org::BouncyCastle::Math::EC::ECLookupTable* value);
 
-  /// @brief Method set_Offset, addr 0x12a95fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Offset, addr 0x2477cc8, size 0x8, virtual true, abstract: false, final false
   inline void set_Offset(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method set_Width, addr 0x12a960c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Width, addr 0x2477cd8, size 0x8, virtual true, abstract: false, final false
   inline void set_Width(int32_t value);
 
 protected:
@@ -113,6 +113,9 @@ public:
 
   /// @brief Field m_width, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_width;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1530 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ class StackLayoutGroup;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::StackLayoutGroup);
 // Type: HMUI::StackLayoutGroup
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 90, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 98, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::StackLayoutGroup*
@@ -24,30 +24,30 @@ public:
 
   __declspec(property(get = get_childForceExpandWidth, put = set_childForceExpandWidth)) bool childForceExpandWidth;
 
-  /// @brief Field m_ChildForceExpandHeight, offset 0x59, size 0x1
+  /// @brief Field m_ChildForceExpandHeight, offset 0x61, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ChildForceExpandHeight, put = __cordl_internal_set_m_ChildForceExpandHeight)) bool m_ChildForceExpandHeight;
 
-  /// @brief Field m_ChildForceExpandWidth, offset 0x58, size 0x1
+  /// @brief Field m_ChildForceExpandWidth, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ChildForceExpandWidth, put = __cordl_internal_set_m_ChildForceExpandWidth)) bool m_ChildForceExpandWidth;
 
-  /// @brief Method CalcAlongAxis, addr 0x2534574, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CalcAlongAxis, addr 0x39895f4, size 0x174, virtual false, abstract: false, final false
   inline void CalcAlongAxis(int32_t axis);
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x2534554, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x39895d4, size 0x20, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x25346e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x3989768, size 0x8, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
   static inline ::HMUI::StackLayoutGroup* New_ctor();
 
-  /// @brief Method SetChildrenAlongAxis, addr 0x25346f8, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method SetChildrenAlongAxis, addr 0x3989778, size 0x1e4, virtual false, abstract: false, final false
   inline void SetChildrenAlongAxis(int32_t axis);
 
-  /// @brief Method SetLayoutHorizontal, addr 0x25346f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x3989770, size 0x8, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x2534900, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x398995c, size 0x8, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
   constexpr bool const& __cordl_internal_get_m_ChildForceExpandHeight() const;
@@ -62,19 +62,19 @@ public:
 
   constexpr void __cordl_internal_set_m_ChildForceExpandWidth(bool value);
 
-  /// @brief Method .ctor, addr 0x2534544, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39895c4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childForceExpandHeight, addr 0x25344e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childForceExpandHeight, addr 0x3989560, size 0x8, virtual false, abstract: false, final false
   inline bool get_childForceExpandHeight();
 
-  /// @brief Method get_childForceExpandWidth, addr 0x253447c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childForceExpandWidth, addr 0x39894fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_childForceExpandWidth();
 
-  /// @brief Method set_childForceExpandHeight, addr 0x25344e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_childForceExpandHeight, addr 0x3989568, size 0x5c, virtual false, abstract: false, final false
   inline void set_childForceExpandHeight(bool value);
 
-  /// @brief Method set_childForceExpandWidth, addr 0x2534484, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_childForceExpandWidth, addr 0x3989504, size 0x5c, virtual false, abstract: false, final false
   inline void set_childForceExpandWidth(bool value);
 
 protected:
@@ -91,20 +91,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StackLayoutGroup(StackLayoutGroup const&) = delete;
 
-  /// @brief Field m_ChildForceExpandWidth, offset: 0x58, size: 0x1, def value: None
+  /// @brief Field m_ChildForceExpandWidth, offset: 0x60, size: 0x1, def value: None
   bool ___m_ChildForceExpandWidth;
 
-  /// @brief Field m_ChildForceExpandHeight, offset: 0x59, size: 0x1, def value: None
+  /// @brief Field m_ChildForceExpandHeight, offset: 0x61, size: 0x1, def value: None
   bool ___m_ChildForceExpandHeight;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16012 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::StackLayoutGroup, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::StackLayoutGroup, 0x68>, "Size mismatch!");
 
-static_assert(offsetof(::HMUI::StackLayoutGroup, ___m_ChildForceExpandWidth) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::HMUI::StackLayoutGroup, ___m_ChildForceExpandWidth) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::StackLayoutGroup, ___m_ChildForceExpandHeight) == 0x59, "Offset mismatch!");
+static_assert(offsetof(::HMUI::StackLayoutGroup, ___m_ChildForceExpandHeight) == 0x61, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::StackLayoutGroup);

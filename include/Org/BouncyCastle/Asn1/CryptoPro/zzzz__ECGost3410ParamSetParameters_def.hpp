@@ -31,41 +31,41 @@ class ECGost3410ParamSetParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters);
 // Type: Org.BouncyCastle.Asn1.CryptoPro::ECGost3410ParamSetParameters
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::CryptoPro {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.CryptoPro::ECGost3410ParamSetParameters*
 class CORDL_TYPE ECGost3410ParamSetParameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_A))::Org::BouncyCastle::Math::BigInteger* A;
+  __declspec(property(get = get_A)) ::Org::BouncyCastle::Math::BigInteger* A;
 
-  __declspec(property(get = get_P))::Org::BouncyCastle::Math::BigInteger* P;
+  __declspec(property(get = get_P)) ::Org::BouncyCastle::Math::BigInteger* P;
 
-  __declspec(property(get = get_Q))::Org::BouncyCastle::Math::BigInteger* Q;
+  __declspec(property(get = get_Q)) ::Org::BouncyCastle::Math::BigInteger* Q;
 
   /// @brief Field a, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a))::Org::BouncyCastle::Asn1::DerInteger* a;
+  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) ::Org::BouncyCastle::Asn1::DerInteger* a;
 
   /// @brief Field b, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b))::Org::BouncyCastle::Asn1::DerInteger* b;
+  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) ::Org::BouncyCastle::Asn1::DerInteger* b;
 
   /// @brief Field p, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Org::BouncyCastle::Asn1::DerInteger* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) ::Org::BouncyCastle::Asn1::DerInteger* p;
 
   /// @brief Field q, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Org::BouncyCastle::Asn1::DerInteger* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q)) ::Org::BouncyCastle::Asn1::DerInteger* q;
 
   /// @brief Field x, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::Org::BouncyCastle::Asn1::DerInteger* x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) ::Org::BouncyCastle::Asn1::DerInteger* x;
 
   /// @brief Field y, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y))::Org::BouncyCastle::Asn1::DerInteger* y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) ::Org::BouncyCastle::Asn1::DerInteger* y;
 
-  /// @brief Method GetInstance, addr 0x10fc6e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22d9864, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x10fc6fc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22d987c, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b,
@@ -74,7 +74,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10fcb34, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22d9c84, size 0x19c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_a();
@@ -113,20 +113,20 @@ public:
 
   constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x10fc9c4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d9b30, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b, ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, int32_t x,
                     ::Org::BouncyCastle::Math::BigInteger* y);
 
-  /// @brief Method .ctor, addr 0x10fc874, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d99e4, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_A, addr 0x10fcb1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_A, addr 0x22d9c6c, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_A();
 
-  /// @brief Method get_P, addr 0x10fcaec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0x22d9c3c, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q, addr 0x10fcb04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0x22d9c54, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
 protected:
@@ -160,6 +160,9 @@ public:
 
   /// @brief Field y, offset: 0x38, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___y;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 127 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

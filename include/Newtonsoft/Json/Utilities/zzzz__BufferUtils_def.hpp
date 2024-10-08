@@ -17,20 +17,20 @@ class BufferUtils;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::BufferUtils);
 // Type: Newtonsoft.Json.Utilities::BufferUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::BufferUtils*
 class CORDL_TYPE BufferUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnsureBufferSize, addr 0x2a465cc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method EnsureBufferSize, addr 0x3e57998, size 0x13c, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> EnsureBufferSize(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t size, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
-  /// @brief Method RentBuffer, addr 0x2a46454, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method RentBuffer, addr 0x3e57820, size 0xc8, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> RentBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t minSize);
 
-  /// @brief Method ReturnBuffer, addr 0x2a4651c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ReturnBuffer, addr 0x3e578e8, size 0xb0, virtual false, abstract: false, final false
   static inline void ReturnBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BufferUtils", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BufferUtils(BufferUtils const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10209 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

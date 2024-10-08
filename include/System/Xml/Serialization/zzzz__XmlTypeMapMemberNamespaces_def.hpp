@@ -12,7 +12,7 @@ class XmlTypeMapMemberNamespaces;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlTypeMapMemberNamespaces);
 // Type: System.Xml.Serialization::XmlTypeMapMemberNamespaces
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlTypeMapMemberNamespaces*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Serialization::XmlTypeMapMemberNamespaces* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f1cc3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43192e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlTypeMapMemberNamespaces", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlTypeMapMemberNamespaces(XmlTypeMapMemberNamespaces const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

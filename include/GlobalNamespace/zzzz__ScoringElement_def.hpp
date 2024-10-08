@@ -31,7 +31,7 @@ template <typename T> class __ScoringElement__Pool_1;
 MARK_REF_PTR_T(::GlobalNamespace::ScoringElement);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__ScoringElement__Pool_1);
 // Type: ::Pool`1
-// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -62,12 +62,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ScoringElement__Pool_1(__ScoringElement__Pool_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4665 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::ScoringElement
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ScoringElement*
@@ -86,7 +89,7 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplier_k__BackingField, put = __cordl_internal_set__multiplier_k__BackingField)) int32_t _multiplier_k__BackingField;
 
   /// @brief Field <noteData>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteData_k__BackingField, put = __cordl_internal_set__noteData_k__BackingField))::GlobalNamespace::NoteData* _noteData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__noteData_k__BackingField, put = __cordl_internal_set__noteData_k__BackingField)) ::GlobalNamespace::NoteData* _noteData_k__BackingField;
 
   __declspec(property(get = get_cutScore)) int32_t cutScore;
 
@@ -100,26 +103,26 @@ public:
 
   __declspec(property(get = get_multiplier, put = set_multiplier)) int32_t multiplier;
 
-  __declspec(property(get = get_multiplierEventType))::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType multiplierEventType;
+  __declspec(property(get = get_multiplierEventType)) ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType multiplierEventType;
 
-  __declspec(property(get = get_noteData, put = set_noteData))::GlobalNamespace::NoteData* noteData;
+  __declspec(property(get = get_noteData, put = set_noteData)) ::GlobalNamespace::NoteData* noteData;
 
   __declspec(property(get = get_time)) float_t time;
 
-  __declspec(property(get = get_wouldBeCorrectCutBestPossibleMultiplierEventType))::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType wouldBeCorrectCutBestPossibleMultiplierEventType;
+  __declspec(property(get = get_wouldBeCorrectCutBestPossibleMultiplierEventType)) ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType wouldBeCorrectCutBestPossibleMultiplierEventType;
 
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::ScoringElement*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::ScoringElement*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x2756d2c, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x3b73fc4, size 0x88, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::ScoringElement* other);
 
   static inline ::GlobalNamespace::ScoringElement* New_ctor();
 
-  /// @brief Method Reinitialize, addr 0x2756db4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reinitialize, addr 0x3b7404c, size 0x4, virtual true, abstract: false, final false
   inline void Reinitialize();
 
-  /// @brief Method SetMultipliers, addr 0x27564f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMultipliers, addr 0x3b737a8, size 0x8, virtual false, abstract: false, final false
   inline void SetMultipliers(int32_t multiplier, int32_t maxMultiplier);
 
   constexpr bool const& __cordl_internal_get__isFinished_k__BackingField() const;
@@ -146,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set__noteData_k__BackingField(::GlobalNamespace::NoteData* value);
 
-  /// @brief Method .ctor, addr 0x2756db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b74050, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_cutScore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -155,25 +158,25 @@ public:
   /// @brief Method get_executionOrder, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_isFinished, addr 0x2756d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x3b73fb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFinished();
 
-  /// @brief Method get_maxMultiplier, addr 0x2756d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxMultiplier, addr 0x3b73fa0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxMultiplier();
 
-  /// @brief Method get_maxPossibleCutScore, addr 0x27564fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_maxPossibleCutScore, addr 0x3b737b0, size 0x74, virtual false, abstract: false, final false
   inline int32_t get_maxPossibleCutScore();
 
-  /// @brief Method get_multiplier, addr 0x2756cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplier, addr 0x3b73f90, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multiplier();
 
   /// @brief Method get_multiplierEventType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_multiplierEventType();
 
-  /// @brief Method get_noteData, addr 0x2756ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteData, addr 0x3b73f80, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteData* get_noteData();
 
-  /// @brief Method get_time, addr 0x27564d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x3b7378c, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_time();
 
   /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -182,16 +185,16 @@ public:
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::ScoringElement*>"
   constexpr ::System::IComparable_1<::GlobalNamespace::ScoringElement*>* i___System__IComparable_1___GlobalNamespace__ScoringElement__() noexcept;
 
-  /// @brief Method set_isFinished, addr 0x2756d20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isFinished, addr 0x3b73fb8, size 0xc, virtual false, abstract: false, final false
   inline void set_isFinished(bool value);
 
-  /// @brief Method set_maxMultiplier, addr 0x2756d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxMultiplier, addr 0x3b73fa8, size 0x8, virtual false, abstract: false, final false
   inline void set_maxMultiplier(int32_t value);
 
-  /// @brief Method set_multiplier, addr 0x2756d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_multiplier, addr 0x3b73f98, size 0x8, virtual false, abstract: false, final false
   inline void set_multiplier(int32_t value);
 
-  /// @brief Method set_noteData, addr 0x2756cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noteData, addr 0x3b73f88, size 0x8, virtual false, abstract: false, final false
   inline void set_noteData(::GlobalNamespace::NoteData* value);
 
 protected:
@@ -219,6 +222,9 @@ public:
 
   /// @brief Field <isFinished>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____isFinished_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4666 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

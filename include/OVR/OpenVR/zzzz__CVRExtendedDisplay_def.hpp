@@ -21,7 +21,7 @@ class CVRExtendedDisplay;
 // Write type traits
 MARK_REF_PTR_T(::OVR::OpenVR::CVRExtendedDisplay);
 // Type: OVR.OpenVR::CVRExtendedDisplay
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::OVR.OpenVR::CVRExtendedDisplay*
@@ -29,15 +29,15 @@ class CORDL_TYPE CVRExtendedDisplay : public ::System::Object {
 public:
   // Declarations
   /// @brief Field FnTable, offset 0x10, size 0x18
-  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRExtendedDisplay FnTable;
+  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRExtendedDisplay FnTable;
 
-  /// @brief Method GetDXGIOutputInfo, addr 0x2bfafcc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetDXGIOutputInfo, addr 0x3ffc940, size 0x2c, virtual false, abstract: false, final false
   inline void GetDXGIOutputInfo(ByRef<int32_t> pnAdapterIndex, ByRef<int32_t> pnAdapterOutputIndex);
 
-  /// @brief Method GetEyeOutputViewport, addr 0x2bfaf98, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetEyeOutputViewport, addr 0x3ffc90c, size 0x34, virtual false, abstract: false, final false
   inline void GetEyeOutputViewport(::OVR::OpenVR::EVREye eEye, ByRef<uint32_t> pnX, ByRef<uint32_t> pnY, ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight);
 
-  /// @brief Method GetWindowBounds, addr 0x2bfaf64, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetWindowBounds, addr 0x3ffc8d8, size 0x34, virtual false, abstract: false, final false
   inline void GetWindowBounds(ByRef<int32_t> pnX, ByRef<int32_t> pnY, ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight);
 
   static inline ::OVR::OpenVR::CVRExtendedDisplay* New_ctor(::System::IntPtr pInterface);
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRExtendedDisplay value);
 
-  /// @brief Method .ctor, addr 0x2bfae50, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ffc7c4, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field FnTable, offset: 0x10, size: 0x18, def value: None
   ::OVR::OpenVR::IVRExtendedDisplay ___FnTable;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8842 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

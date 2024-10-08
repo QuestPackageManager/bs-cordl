@@ -12,7 +12,7 @@ class GameCoreSceneSetupData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameCoreSceneSetupData);
 // Type: ::GameCoreSceneSetupData
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameCoreSceneSetupData*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GameCoreSceneSetupData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26d0d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac4ee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GameCoreSceneSetupData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GameCoreSceneSetupData(GameCoreSceneSetupData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5213 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,17 +16,17 @@ class UnityWebRequestTexture;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Networking::UnityWebRequestTexture);
 // Type: UnityEngine.Networking::UnityWebRequestTexture
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
 // CS Name: ::UnityEngine.Networking::UnityWebRequestTexture*
 class CORDL_TYPE UnityWebRequestTexture : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTexture, addr 0x3645eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x4a6c174, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri);
 
-  /// @brief Method GetTexture, addr 0x3645ec0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x4a6c17c, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri, bool nonReadable);
 
 protected:
@@ -42,6 +42,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestTexture", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UnityWebRequestTexture(UnityWebRequestTexture const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18939 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

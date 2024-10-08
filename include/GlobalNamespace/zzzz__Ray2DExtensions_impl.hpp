@@ -9,10 +9,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::Ray2D, ::UnityEngine::Vector2, float_t, ::ArrayW<float_t, ::Array<float_t>*>)>(
     &::GlobalNamespace::Ray2DExtensions::CircleIntersections)> {
-  constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x1097f34;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x2275458;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Ray2DExtensions*>::get(), "CircleIntersections", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Ray2D>::get(),

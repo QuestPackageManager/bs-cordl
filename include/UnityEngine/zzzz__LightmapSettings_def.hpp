@@ -28,7 +28,7 @@ class LightmapSettings;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::LightmapSettings);
 // Type: UnityEngine::LightmapSettings
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::LightmapSettings*
@@ -37,40 +37,40 @@ public:
   // Declarations
   static inline ::UnityEngine::LightmapSettings* New_ctor();
 
-  /// @brief Method Reset, addr 0x3429330, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x47fe918, size 0x28, virtual false, abstract: false, final false
   static inline void Reset();
 
-  /// @brief Method .ctor, addr 0x34291ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fe794, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakedColorSpace, addr 0x3429180, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_bakedColorSpace, addr 0x47fe94c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorSpace get_bakedColorSpace();
 
-  /// @brief Method get_lightProbes, addr 0x34292cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_lightProbes, addr 0x47fe8b4, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::LightProbes> get_lightProbes();
 
-  /// @brief Method get_lightmaps, addr 0x3429204, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_lightmaps, addr 0x47fe7ec, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::LightmapData*, ::Array<::UnityEngine::LightmapData*>*> get_lightmaps();
 
-  /// @brief Method get_lightmapsMode, addr 0x3429268, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapsMode, addr 0x47fe850, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::LightmapsMode get_lightmapsMode();
 
-  /// @brief Method get_lightmapsModeLegacy, addr 0x3429174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapsModeLegacy, addr 0x47fe940, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::LightmapsModeLegacy get_lightmapsModeLegacy();
 
-  /// @brief Method set_bakedColorSpace, addr 0x34291a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_bakedColorSpace, addr 0x47fe99c, size 0x4, virtual false, abstract: false, final false
   static inline void set_bakedColorSpace(::UnityEngine::ColorSpace value);
 
-  /// @brief Method set_lightProbes, addr 0x34292f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_lightProbes, addr 0x47fe8dc, size 0x3c, virtual false, abstract: false, final false
   static inline void set_lightProbes(::UnityEngine::LightProbes* value);
 
-  /// @brief Method set_lightmaps, addr 0x342922c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_lightmaps, addr 0x47fe814, size 0x3c, virtual false, abstract: false, final false
   static inline void set_lightmaps(::ArrayW<::UnityEngine::LightmapData*, ::Array<::UnityEngine::LightmapData*>*> value);
 
-  /// @brief Method set_lightmapsMode, addr 0x3429290, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_lightmapsMode, addr 0x47fe878, size 0x3c, virtual false, abstract: false, final false
   static inline void set_lightmapsMode(::UnityEngine::LightmapsMode value);
 
-  /// @brief Method set_lightmapsModeLegacy, addr 0x342917c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_lightmapsModeLegacy, addr 0x47fe948, size 0x4, virtual false, abstract: false, final false
   static inline void set_lightmapsModeLegacy(::UnityEngine::LightmapsModeLegacy value);
 
 protected:
@@ -86,6 +86,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LightmapSettings", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LightmapSettings(LightmapSettings const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10683 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

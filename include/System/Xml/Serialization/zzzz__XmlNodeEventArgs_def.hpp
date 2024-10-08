@@ -19,7 +19,7 @@ class XmlNodeEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlNodeEventArgs);
 // Type: System.Xml.Serialization::XmlNodeEventArgs
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlNodeEventArgs*
@@ -33,10 +33,10 @@ public:
   __declspec(property(get = __cordl_internal_get_linePosition, put = __cordl_internal_set_linePosition)) int32_t linePosition;
 
   /// @brief Field o, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_o, put = __cordl_internal_set_o))::System::Object* o;
+  __declspec(property(get = __cordl_internal_get_o, put = __cordl_internal_set_o)) ::System::Object* o;
 
   /// @brief Field xmlNode, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_xmlNode, put = __cordl_internal_set_xmlNode))::System::Xml::XmlNode* xmlNode;
+  __declspec(property(get = __cordl_internal_get_xmlNode, put = __cordl_internal_set_xmlNode)) ::System::Xml::XmlNode* xmlNode;
 
   static inline ::System::Xml::Serialization::XmlNodeEventArgs* New_ctor(::System::Xml::XmlNode* xmlNode, int32_t lineNumber, int32_t linePosition, ::System::Object* o);
 
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_xmlNode(::System::Xml::XmlNode* value);
 
-  /// @brief Method .ctor, addr 0x2ef30f4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42f09e4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* xmlNode, int32_t lineNumber, int32_t linePosition, ::System::Object* o);
 
 protected:
@@ -92,6 +92,9 @@ public:
 
   /// @brief Field linePosition, offset: 0x24, size: 0x4, def value: None
   int32_t ___linePosition;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7357 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

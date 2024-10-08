@@ -20,7 +20,7 @@ class DefaultPKMacResult;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::DefaultPKMacResult);
 // Type: Org.BouncyCastle.Crmf::DefaultPKMacResult
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crmf::DefaultPKMacResult*
@@ -28,15 +28,15 @@ class CORDL_TYPE DefaultPKMacResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mac, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::Org::BouncyCastle::Crypto::IMac* mac;
+  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac)) ::Org::BouncyCastle::Crypto::IMac* mac;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockResult"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockResult*() noexcept;
 
-  /// @brief Method Collect, addr 0x14855dc, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0x2645f64, size 0x148, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
 
-  /// @brief Method Collect, addr 0x1485724, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0x26460ac, size 0x40, virtual true, abstract: false, final true
   inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
   static inline ::Org::BouncyCastle::Crmf::DefaultPKMacResult* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_mac(::Org::BouncyCastle::Crypto::IMac* value);
 
-  /// @brief Method .ctor, addr 0x1485328, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2645cc0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"
@@ -69,6 +69,9 @@ public:
 
   /// @brief Field mac, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IMac* ___mac;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 710 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,7 +12,7 @@ class EmbeddedAttribute;
 // Write type traits
 MARK_REF_PTR_T(::Microsoft::CodeAnalysis::EmbeddedAttribute);
 // Type: Microsoft.CodeAnalysis::EmbeddedAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Microsoft::CodeAnalysis {
 // Is value type: false
 // CS Name: ::Microsoft.CodeAnalysis::EmbeddedAttribute*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Microsoft::CodeAnalysis::EmbeddedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x14a0fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2235fa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "EmbeddedAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   EmbeddedAttribute(EmbeddedAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18647 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -30,23 +30,23 @@ struct __ReliableChannel__PendingPacket;
 MARK_REF_PTR_T(::LiteNetLib::ReliableChannel);
 MARK_VAL_T(::LiteNetLib::__ReliableChannel__PendingPacket);
 // Type: ::PendingPacket
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: true
 // CS Name: ::ReliableChannel::PendingPacket
 struct CORDL_TYPE __ReliableChannel__PendingPacket {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x261724c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3a50680, size 0x40, virtual false, abstract: false, final false
   inline bool Clear(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method Init, addr 0x26176f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a50b28, size 0xc, virtual false, abstract: false, final false
   inline void Init(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method ToString, addr 0x2617c74, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3a51088, size 0x70, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TrySend, addr 0x2617700, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TrySend, addr 0x3a50b34, size 0x78, virtual false, abstract: false, final false
   inline void TrySend(int64_t currentTime, ::LiteNetLib::NetPeer* peer);
 
   // Ctor Parameters []
@@ -66,6 +66,9 @@ public:
   /// @brief Field _isSent, offset: 0x10, size: 0x1, def value: None
   bool _isSent;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16515 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -82,7 +85,7 @@ static_assert(offsetof(::LiteNetLib::__ReliableChannel__PendingPacket, _isSent) 
 
 } // namespace LiteNetLib
 // Type: LiteNetLib::ReliableChannel
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
 // CS Name: ::LiteNetLib::ReliableChannel*
@@ -92,10 +95,10 @@ public:
   using PendingPacket = ::LiteNetLib::__ReliableChannel__PendingPacket;
 
   /// @brief Field _deliveryMethod, offset 0x59, size 0x1
-  __declspec(property(get = __cordl_internal_get__deliveryMethod, put = __cordl_internal_set__deliveryMethod))::LiteNetLib::DeliveryMethod _deliveryMethod;
+  __declspec(property(get = __cordl_internal_get__deliveryMethod, put = __cordl_internal_set__deliveryMethod)) ::LiteNetLib::DeliveryMethod _deliveryMethod;
 
   /// @brief Field _earlyReceived, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__earlyReceived, put = __cordl_internal_set__earlyReceived))::ArrayW<bool, ::Array<bool>*> _earlyReceived;
+  __declspec(property(get = __cordl_internal_get__earlyReceived, put = __cordl_internal_set__earlyReceived)) ::ArrayW<bool, ::Array<bool>*> _earlyReceived;
 
   /// @brief Field _id, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) uint8_t _id;
@@ -113,14 +116,16 @@ public:
   __declspec(property(get = __cordl_internal_get__ordered, put = __cordl_internal_set__ordered)) bool _ordered;
 
   /// @brief Field _outgoingAcks, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__outgoingAcks, put = __cordl_internal_set__outgoingAcks))::LiteNetLib::NetPacket* _outgoingAcks;
+  __declspec(property(get = __cordl_internal_get__outgoingAcks, put = __cordl_internal_set__outgoingAcks)) ::LiteNetLib::NetPacket* _outgoingAcks;
 
   /// @brief Field _pendingPackets, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__pendingPackets,
-                      put = __cordl_internal_set__pendingPackets))::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> _pendingPackets;
+                      put = __cordl_internal_set__pendingPackets)) ::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*>
+      _pendingPackets;
 
   /// @brief Field _receivedPackets, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__receivedPackets, put = __cordl_internal_set__receivedPackets))::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> _receivedPackets;
+  __declspec(property(get = __cordl_internal_get__receivedPackets, put = __cordl_internal_set__receivedPackets)) ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*>
+      _receivedPackets;
 
   /// @brief Field _remoteSequence, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__remoteSequence, put = __cordl_internal_set__remoteSequence)) int32_t _remoteSequence;
@@ -133,13 +138,13 @@ public:
 
   static inline ::LiteNetLib::ReliableChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id);
 
-  /// @brief Method ProcessAck, addr 0x2616efc, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method ProcessAck, addr 0x3a5033c, size 0x344, virtual false, abstract: false, final false
   inline void ProcessAck(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method ProcessPacket, addr 0x2617778, size 0x4fc, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x3a50bac, size 0x4dc, virtual true, abstract: false, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendNextPackets, addr 0x2617288, size 0x46c, virtual true, abstract: false, final false
+  /// @brief Method SendNextPackets, addr 0x3a506c0, size 0x468, virtual true, abstract: false, final false
   inline void SendNextPackets();
 
   constexpr ::LiteNetLib::DeliveryMethod const& __cordl_internal_get__deliveryMethod() const;
@@ -220,7 +225,7 @@ public:
 
   constexpr void __cordl_internal_set__windowSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26137d0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a4cc74, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id);
 
 protected:
@@ -278,6 +283,9 @@ public:
 
   /// @brief Field BitsInByte offset 0xffffffff size 0x4
   static constexpr int32_t BitsInByte{ static_cast<int32_t>(0x8) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16516 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

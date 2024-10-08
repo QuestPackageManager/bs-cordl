@@ -15,7 +15,7 @@ class HttpVersion;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HttpVersion);
 // Type: System.Net::HttpVersion
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::HttpVersion*
@@ -23,16 +23,16 @@ class CORDL_TYPE HttpVersion : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Unknown, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Unknown, put = setStaticF_Unknown))::System::Version* Unknown;
+  static __declspec(property(get = getStaticF_Unknown, put = setStaticF_Unknown)) ::System::Version* Unknown;
 
   /// @brief Field Version10, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Version10, put = setStaticF_Version10))::System::Version* Version10;
+  static __declspec(property(get = getStaticF_Version10, put = setStaticF_Version10)) ::System::Version* Version10;
 
   /// @brief Field Version11, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Version11, put = setStaticF_Version11))::System::Version* Version11;
+  static __declspec(property(get = getStaticF_Version11, put = setStaticF_Version11)) ::System::Version* Version11;
 
   /// @brief Field Version20, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Version20, put = setStaticF_Version20))::System::Version* Version20;
+  static __declspec(property(get = getStaticF_Version20, put = setStaticF_Version20)) ::System::Version* Version20;
 
   static inline ::System::Version* getStaticF_Unknown();
 
@@ -63,6 +63,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpVersion", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HttpVersion(HttpVersion const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9514 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

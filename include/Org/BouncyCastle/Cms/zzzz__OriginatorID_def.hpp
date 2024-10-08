@@ -16,22 +16,22 @@ class OriginatorID;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::OriginatorID);
 // Type: Org.BouncyCastle.Cms::OriginatorID
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::OriginatorID*
 class CORDL_TYPE OriginatorID : public ::Org::BouncyCastle::X509::Store::X509CertStoreSelector {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x1479b70, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x263b768, size 0x12c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x1479acc, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x263b6c4, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Cms::OriginatorID* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1477444, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2639054, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,6 +47,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OriginatorID", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OriginatorID(OriginatorID const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 679 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

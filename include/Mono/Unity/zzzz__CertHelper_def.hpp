@@ -24,19 +24,19 @@ class CertHelper;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Unity::CertHelper);
 // Type: Mono.Unity::CertHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
 // CS Name: ::Mono.Unity::CertHelper*
 class CORDL_TYPE CertHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddCertificateToNativeChain, addr 0x2c91f28, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method AddCertificateToNativeChain, addr 0x40934f8, size 0x1b0, virtual false, abstract: false, final false
   static inline void AddCertificateToNativeChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> nativeCertificateChain,
                                                  ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate,
                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
-  /// @brief Method AddCertificatesToNativeChain, addr 0x2c91d50, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method AddCertificatesToNativeChain, addr 0x4093320, size 0x1d8, virtual false, abstract: false, final false
   static inline void AddCertificatesToNativeChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> nativeCertificateChain,
                                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates,
                                                   ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CertHelper", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CertHelper(CertHelper const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9041 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

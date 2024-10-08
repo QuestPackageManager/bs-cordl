@@ -13,7 +13,7 @@ class EncryptionAlgorithm;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::EncryptionAlgorithm);
 // Type: Org.BouncyCastle.Crypto.Tls::EncryptionAlgorithm
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::EncryptionAlgorithm*
@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::EncryptionAlgorithm* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1202704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d6424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,6 +104,9 @@ public:
 
   /// @brief Field SEED_CBC offset 0xffffffff size 0x4
   static constexpr int32_t SEED_CBC{ static_cast<int32_t>(0xe) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1241 };
 
   /// @brief Field NULL offset 0xffffffff size 0x4
   static constexpr int32_t _cordl_NULL{ static_cast<int32_t>(0x0) };

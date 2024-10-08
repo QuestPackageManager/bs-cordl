@@ -39,7 +39,7 @@ MARK_VAL_T(::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeAndroid);
 MARK_VAL_T(::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop);
 MARK_REF_PTR_T(::Unity::XR::Oculus::OculusSettings);
 // Type: ::StereoRenderingModeDesktop
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: true
 // CS Name: ::OculusSettings::StereoRenderingModeDesktop
@@ -80,6 +80,9 @@ public:
   /// @brief Field SinglePassInstanced value: static_cast<int32_t>(0x1)
   static ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop const SinglePassInstanced;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17356 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -92,7 +95,7 @@ static_assert(offsetof(::Unity::XR::Oculus::__OculusSettings__StereoRenderingMod
 
 } // namespace Unity::XR::Oculus
 // Type: ::StereoRenderingModeAndroid
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: true
 // CS Name: ::OculusSettings::StereoRenderingModeAndroid
@@ -133,6 +136,9 @@ public:
   /// @brief Field Multiview value: static_cast<int32_t>(0x2)
   static ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeAndroid const Multiview;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17357 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -145,7 +151,7 @@ static_assert(offsetof(::Unity::XR::Oculus::__OculusSettings__StereoRenderingMod
 
 } // namespace Unity::XR::Oculus
 // Type: ::FoveationMethod
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: true
 // CS Name: ::OculusSettings::FoveationMethod
@@ -186,6 +192,9 @@ public:
   /// @brief Field FixedFoveatedRendering value: static_cast<int32_t>(0x0)
   static ::Unity::XR::Oculus::__OculusSettings__FoveationMethod const FixedFoveatedRendering;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17358 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -198,7 +207,7 @@ static_assert(offsetof(::Unity::XR::Oculus::__OculusSettings__FoveationMethod, v
 
 } // namespace Unity::XR::Oculus
 // Type: Unity.XR.Oculus::OculusSettings
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
 // CS Name: ::Unity.XR.Oculus::OculusSettings*
@@ -222,7 +231,7 @@ public:
 
   /// @brief Field FoveatedRenderingMethod, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_FoveatedRenderingMethod,
-                      put = __cordl_internal_set_FoveatedRenderingMethod))::Unity::XR::Oculus::__OculusSettings__FoveationMethod FoveatedRenderingMethod;
+                      put = __cordl_internal_set_FoveatedRenderingMethod)) ::Unity::XR::Oculus::__OculusSettings__FoveationMethod FoveatedRenderingMethod;
 
   /// @brief Field LateLatching, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get_LateLatching, put = __cordl_internal_set_LateLatching)) bool LateLatching;
@@ -252,7 +261,7 @@ public:
   __declspec(property(get = __cordl_internal_get_SymmetricProjection, put = __cordl_internal_set_SymmetricProjection)) bool SymmetricProjection;
 
   /// @brief Field SystemSplashScreen, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_SystemSplashScreen, put = __cordl_internal_set_SystemSplashScreen))::UnityW<::UnityEngine::Texture2D> SystemSplashScreen;
+  __declspec(property(get = __cordl_internal_get_SystemSplashScreen, put = __cordl_internal_set_SystemSplashScreen)) ::UnityW<::UnityEngine::Texture2D> SystemSplashScreen;
 
   /// @brief Field TargetQuest, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_TargetQuest, put = __cordl_internal_set_TargetQuest)) bool TargetQuest;
@@ -265,19 +274,19 @@ public:
 
   /// @brief Field m_StereoRenderingModeAndroid, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_StereoRenderingModeAndroid,
-                      put = __cordl_internal_set_m_StereoRenderingModeAndroid))::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeAndroid m_StereoRenderingModeAndroid;
+                      put = __cordl_internal_set_m_StereoRenderingModeAndroid)) ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeAndroid m_StereoRenderingModeAndroid;
 
   /// @brief Field m_StereoRenderingModeDesktop, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_StereoRenderingModeDesktop,
-                      put = __cordl_internal_set_m_StereoRenderingModeDesktop))::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop m_StereoRenderingModeDesktop;
+                      put = __cordl_internal_set_m_StereoRenderingModeDesktop)) ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop m_StereoRenderingModeDesktop;
 
   /// @brief Field s_Settings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Settings, put = setStaticF_s_Settings))::UnityW<::Unity::XR::Oculus::OculusSettings> s_Settings;
+  static __declspec(property(get = getStaticF_s_Settings, put = setStaticF_s_Settings)) ::UnityW<::Unity::XR::Oculus::OculusSettings> s_Settings;
 
-  /// @brief Method Awake, addr 0x33e8328, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x47c064c, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetStereoRenderingMode, addr 0x33e4b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetStereoRenderingMode, addr 0x47bcdf4, size 0x8, virtual false, abstract: false, final false
   inline uint16_t GetStereoRenderingMode();
 
   static inline ::Unity::XR::Oculus::OculusSettings* New_ctor();
@@ -396,7 +405,7 @@ public:
 
   constexpr void __cordl_internal_set_m_StereoRenderingModeDesktop(::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop value);
 
-  /// @brief Method .ctor, addr 0x33e8374, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c0698, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::Unity::XR::Oculus::OculusSettings> getStaticF_s_Settings();
@@ -473,6 +482,9 @@ public:
 
   /// @brief Field SystemSplashScreen, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___SystemSplashScreen;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17359 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

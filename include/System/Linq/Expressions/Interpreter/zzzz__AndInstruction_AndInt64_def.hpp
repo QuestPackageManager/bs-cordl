@@ -16,7 +16,7 @@ class __AndInstruction__AndInt64;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__AndInstruction__AndInt64);
 // Type: ::AndInt64
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::AndInstruction::AndInt64*
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__AndInstruction__AndInt64* New_ctor();
 
-  /// @brief Method Run, addr 0x2c45a6c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4049dfc, size 0x100, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c45760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4049af0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "__AndInstruction__AndInt64", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   __AndInstruction__AndInt64(__AndInstruction__AndInt64 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13716 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,25 +25,25 @@ class DHPrivateKeyParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::DHPrivateKeyParameters
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::DHPrivateKeyParameters*
 class CORDL_TYPE DHPrivateKeyParameters : public ::Org::BouncyCastle::Crypto::Parameters::DHKeyParameters {
 public:
   // Declarations
-  __declspec(property(get = get_X))::Org::BouncyCastle::Math::BigInteger* X;
+  __declspec(property(get = get_X)) ::Org::BouncyCastle::Math::BigInteger* X;
 
   /// @brief Field x, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::Org::BouncyCastle::Math::BigInteger* x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) ::Org::BouncyCastle::Math::BigInteger* x;
 
-  /// @brief Method Equals, addr 0x11a21f4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x23795c8, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x11a2290, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2379664, size 0x58, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x11a22e8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x23796bc, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x11a2180, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2379554, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x11a21a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237957c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid);
 
-  /// @brief Method get_X, addr 0x11a21ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X, addr 0x23795c0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_X();
 
 protected:
@@ -82,6 +82,9 @@ public:
 
   /// @brief Field x, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___x;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1023 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

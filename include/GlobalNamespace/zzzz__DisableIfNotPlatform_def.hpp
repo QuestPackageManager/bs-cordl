@@ -16,18 +16,19 @@ class DisableIfNotPlatform;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DisableIfNotPlatform);
 // Type: ::DisableIfNotPlatform
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::DisableIfNotPlatform*
 class CORDL_TYPE DisableIfNotPlatform : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _whitelistPlatforms, offset 0x18, size 0x8
+  /// @brief Field _whitelistPlatforms, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__whitelistPlatforms,
-                      put = __cordl_internal_set__whitelistPlatforms))::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> _whitelistPlatforms;
+                      put = __cordl_internal_set__whitelistPlatforms)) ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*>
+      _whitelistPlatforms;
 
-  /// @brief Method Awake, addr 0x24fdfb4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3955228, size 0xd0, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DisableIfNotPlatform* New_ctor();
@@ -38,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__whitelistPlatforms(::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> value);
 
-  /// @brief Method .ctor, addr 0x24fe04c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39552f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,15 +56,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DisableIfNotPlatform(DisableIfNotPlatform const&) = delete;
 
-  /// @brief Field _whitelistPlatforms, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _whitelistPlatforms, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> ____whitelistPlatforms;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18732 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisableIfNotPlatform, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisableIfNotPlatform, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DisableIfNotPlatform, ____whitelistPlatforms) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DisableIfNotPlatform, ____whitelistPlatforms) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DisableIfNotPlatform);

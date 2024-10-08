@@ -12,7 +12,7 @@ class SupportedPlatforms;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::MetaRemoteAssets::Platform::SupportedPlatforms);
 // Type: BGLib.MetaRemoteAssets.Platform::SupportedPlatforms
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::MetaRemoteAssets::Platform {
 // Is value type: false
 // CS Name: ::BGLib.MetaRemoteAssets.Platform::SupportedPlatforms*
@@ -41,6 +41,9 @@ public:
 
   /// @brief Field Windows offset 0xffffffff size 0x8
   static constexpr ::ConstString Windows{ u"WIN_64" };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18271 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

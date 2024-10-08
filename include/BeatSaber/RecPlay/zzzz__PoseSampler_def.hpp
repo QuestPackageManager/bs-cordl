@@ -25,20 +25,20 @@ class PoseSampler;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::RecPlay::PoseSampler);
 // Type: BeatSaber.RecPlay::PoseSampler
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::RecPlay {
 // Is value type: false
 // CS Name: ::BeatSaber.RecPlay::PoseSampler*
 class CORDL_TYPE PoseSampler : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindPoseSample, addr 0x1075e60, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method FindPoseSample, addr 0x223d1f8, size 0x15c, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::FrameSample FindPoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames, float_t time, int32_t nearest);
 
-  /// @brief Method InterpolatePoseSample, addr 0x1075fb8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InterpolatePoseSample, addr 0x223d354, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InterpolatePoseSample(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames, ByRef<::BeatSaber::RecPlay::FrameSample> sample);
 
-  /// @brief Method SamplePose, addr 0x1075c50, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SamplePose, addr 0x223cf94, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose SamplePose(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames, float_t time, ByRef<int32_t> nearest);
 
 protected:
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PoseSampler", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PoseSampler(PoseSampler const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18993 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

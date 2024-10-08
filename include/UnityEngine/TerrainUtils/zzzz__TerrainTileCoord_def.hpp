@@ -13,14 +13,14 @@ struct TerrainTileCoord;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TerrainUtils::TerrainTileCoord);
 // Type: UnityEngine.TerrainUtils::TerrainTileCoord
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: true
 // CS Name: ::UnityEngine.TerrainUtils::TerrainTileCoord
 struct CORDL_TYPE TerrainTileCoord {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x34b1158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a3b28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t tileX, int32_t tileZ);
 
   // Ctor Parameters []
@@ -35,6 +35,9 @@ public:
 
   /// @brief Field tileZ, offset: 0x4, size: 0x4, def value: None
   int32_t tileZ;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18042 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -24,72 +24,72 @@ class ISO9796d1Encoding;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding);
 // Type: Org.BouncyCastle.Crypto.Encodings::ISO9796d1Encoding
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Encodings {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Encodings::ISO9796d1Encoding*
 class CORDL_TYPE ISO9796d1Encoding : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field Six, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Six, put = setStaticF_Six))::Org::BouncyCastle::Math::BigInteger* Six;
+  static __declspec(property(get = getStaticF_Six, put = setStaticF_Six)) ::Org::BouncyCastle::Math::BigInteger* Six;
 
   /// @brief Field Sixteen, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Sixteen, put = setStaticF_Sixteen))::Org::BouncyCastle::Math::BigInteger* Sixteen;
+  static __declspec(property(get = getStaticF_Sixteen, put = setStaticF_Sixteen)) ::Org::BouncyCastle::Math::BigInteger* Sixteen;
 
   /// @brief Field bitSize, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_bitSize, put = __cordl_internal_set_bitSize)) int32_t bitSize;
 
   /// @brief Field engine, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine;
+  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine)) ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine;
 
   /// @brief Field forEncryption, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field inverse, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_inverse, put = setStaticF_inverse))::ArrayW<uint8_t, ::Array<uint8_t>*> inverse;
+  static __declspec(property(get = getStaticF_inverse, put = setStaticF_inverse)) ::ArrayW<uint8_t, ::Array<uint8_t>*> inverse;
 
   /// @brief Field modulus, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_modulus, put = __cordl_internal_set_modulus))::Org::BouncyCastle::Math::BigInteger* modulus;
+  __declspec(property(get = __cordl_internal_get_modulus, put = __cordl_internal_set_modulus)) ::Org::BouncyCastle::Math::BigInteger* modulus;
 
   /// @brief Field padBits, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_padBits, put = __cordl_internal_set_padBits)) int32_t padBits;
 
   /// @brief Field shadows, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_shadows, put = setStaticF_shadows))::ArrayW<uint8_t, ::Array<uint8_t>*> shadows;
+  static __declspec(property(get = getStaticF_shadows, put = setStaticF_shadows)) ::ArrayW<uint8_t, ::Array<uint8_t>*> shadows;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
 
-  /// @brief Method DecodeBlock, addr 0x1122b78, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method DecodeBlock, addr 0x22ff2cc, size 0x4d0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method EncodeBlock, addr 0x112282c, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method EncodeBlock, addr 0x22fef88, size 0x344, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method GetInputBlockSize, addr 0x1122628, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method GetInputBlockSize, addr 0x22fed88, size 0xc4, virtual true, abstract: false, final true
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize, addr 0x11226ec, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method GetOutputBlockSize, addr 0x22fee4c, size 0xc4, virtual true, abstract: false, final true
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method GetPadBits, addr 0x1122814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPadBits, addr 0x22fef70, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetPadBits();
 
-  /// @brief Method GetUnderlyingCipher, addr 0x1122474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetUnderlyingCipher, addr 0x22febd4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method Init, addr 0x112247c, size 0x1ac, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x22febdc, size 0x1ac, virtual true, abstract: false, final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 
-  /// @brief Method ProcessBlock, addr 0x112281c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ProcessBlock, addr 0x22fef78, size 0x10, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method SetPadBits, addr 0x11227b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetPadBits, addr 0x22fef10, size 0x60, virtual false, abstract: false, final false
   inline void SetPadBits(int32_t padBits);
 
   constexpr int32_t const& __cordl_internal_get_bitSize() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_padBits(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1122388, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22feae8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Six();
@@ -133,7 +133,7 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_shadows();
 
-  /// @brief Method get_AlgorithmName, addr 0x11223b4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x22feb14, size 0xc0, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
@@ -175,6 +175,9 @@ public:
 
   /// @brief Field modulus, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___modulus;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 819 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -28,55 +28,55 @@ class BurstFireEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BurstFireEffect);
 // Type: ::BurstFireEffect
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BurstFireEffect*
 class CORDL_TYPE BurstFireEffect : public ::GlobalNamespace::FireEffect {
 public:
   // Declarations
-  /// @brief Field _audioTimeSource, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  /// @brief Field _audioTimeSource, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource)) ::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
-  /// @brief Field _bloomFadeOutCurve, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomFadeOutCurve, put = __cordl_internal_set__bloomFadeOutCurve))::UnityEngine::AnimationCurve* _bloomFadeOutCurve;
+  /// @brief Field _bloomFadeOutCurve, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__bloomFadeOutCurve, put = __cordl_internal_set__bloomFadeOutCurve)) ::UnityEngine::AnimationCurve* _bloomFadeOutCurve;
 
-  /// @brief Field _fadeOutDuration, offset 0x80, size 0x4
+  /// @brief Field _fadeOutDuration, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get__fadeOutDuration, put = __cordl_internal_set__fadeOutDuration)) float_t _fadeOutDuration;
 
-  /// @brief Field _fadeOutTween, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__fadeOutTween, put = __cordl_internal_set__fadeOutTween))::Tweening::FloatTween* _fadeOutTween;
+  /// @brief Field _fadeOutTween, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get__fadeOutTween, put = __cordl_internal_set__fadeOutTween)) ::Tweening::FloatTween* _fadeOutTween;
 
-  /// @brief Field _flipbookFadeOutCurve, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__flipbookFadeOutCurve, put = __cordl_internal_set__flipbookFadeOutCurve))::UnityEngine::AnimationCurve* _flipbookFadeOutCurve;
+  /// @brief Field _flipbookFadeOutCurve, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__flipbookFadeOutCurve, put = __cordl_internal_set__flipbookFadeOutCurve)) ::UnityEngine::AnimationCurve* _flipbookFadeOutCurve;
 
-  /// @brief Field _songTimeTweeningManager, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
+  /// @brief Field _songTimeTweeningManager, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
 
-  /// @brief Method Awake, addr 0x106b008, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2234e00, size 0x124, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method EndEffect, addr 0x106b504, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method EndEffect, addr 0x22352f8, size 0x2c, virtual false, abstract: false, final false
   inline void EndEffect();
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x106b3d0, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x22351c4, size 0x134, virtual true, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
 
   static inline ::GlobalNamespace::BurstFireEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x106b314, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2235108, size 0x90, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetInitialValues, addr 0x106b264, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetInitialValues, addr 0x2235058, size 0xb0, virtual false, abstract: false, final false
   inline void SetInitialValues();
 
-  /// @brief Method Start, addr 0x106b12c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x2234f24, size 0x18, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffect, addr 0x106b530, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x2235324, size 0xd8, virtual false, abstract: false, final false
   inline void StartEffect(float_t time);
 
-  /// @brief Method UpdateFadeOutProgress, addr 0x106b694, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method UpdateFadeOutProgress, addr 0x2235488, size 0x194, virtual false, abstract: false, final false
   inline void UpdateFadeOutProgress(float_t fadeOutProgress);
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set__songTimeTweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x106b8e8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22356dc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,40 +132,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BurstFireEffect(BurstFireEffect const&) = delete;
 
-  /// @brief Field _fadeOutDuration, offset: 0x80, size: 0x4, def value: None
+  /// @brief Field _fadeOutDuration, offset: 0x88, size: 0x4, def value: None
   float_t ____fadeOutDuration;
 
-  /// @brief Field _flipbookFadeOutCurve, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _flipbookFadeOutCurve, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____flipbookFadeOutCurve;
 
-  /// @brief Field _bloomFadeOutCurve, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _bloomFadeOutCurve, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____bloomFadeOutCurve;
 
-  /// @brief Field _audioTimeSource, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _audioTimeSource, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
-  /// @brief Field _songTimeTweeningManager, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _songTimeTweeningManager, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____songTimeTweeningManager;
 
-  /// @brief Field _fadeOutTween, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field _fadeOutTween, offset: 0xb0, size: 0x8, def value: None
   ::Tweening::FloatTween* ____fadeOutTween;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18870 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BurstFireEffect, 0xb0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BurstFireEffect, 0xb8>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BurstFireEffect, ____fadeOutDuration) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BurstFireEffect, ____fadeOutDuration) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BurstFireEffect, ____flipbookFadeOutCurve) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BurstFireEffect, ____flipbookFadeOutCurve) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BurstFireEffect, ____bloomFadeOutCurve) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BurstFireEffect, ____bloomFadeOutCurve) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BurstFireEffect, ____audioTimeSource) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BurstFireEffect, ____audioTimeSource) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BurstFireEffect, ____songTimeTweeningManager) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BurstFireEffect, ____songTimeTweeningManager) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BurstFireEffect, ____fadeOutTween) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BurstFireEffect, ____fadeOutTween) == 0xb0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BurstFireEffect);

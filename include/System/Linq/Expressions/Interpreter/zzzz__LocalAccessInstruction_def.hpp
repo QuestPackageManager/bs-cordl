@@ -23,7 +23,7 @@ class LocalAccessInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::LocalAccessInstruction);
 // Type: System.Linq.Expressions.Interpreter::LocalAccessInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::LocalAccessInstruction*
@@ -35,7 +35,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LocalAccessInstruction* New_ctor(int32_t index);
 
-  /// @brief Method ToDebugString, addr 0x2c6ee84, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x4071fa4, size 0x180, virtual true, abstract: false, final false
   inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
                                  ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
 
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c6ee5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4071f7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
 protected:
@@ -64,6 +64,9 @@ public:
 
   /// @brief Field _index, offset: 0x10, size: 0x4, def value: None
   int32_t ____index;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13916 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

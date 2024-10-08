@@ -36,7 +36,7 @@ MARK_VAL_T(::UnityEngine::Playables::__FrameData__EvaluationType);
 MARK_VAL_T(::UnityEngine::Playables::__FrameData__Flags);
 MARK_VAL_T(::UnityEngine::Playables::FrameData);
 // Type: ::Flags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
 // CS Name: ::FrameData::Flags
@@ -93,6 +93,9 @@ public:
   /// @brief Field SeekOccured value: static_cast<int32_t>(0x2)
   static ::UnityEngine::Playables::__FrameData__Flags const SeekOccured;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11222 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -105,7 +108,7 @@ static_assert(offsetof(::UnityEngine::Playables::__FrameData__Flags, value__) ==
 
 } // namespace UnityEngine::Playables
 // Type: ::EvaluationType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
 // CS Name: ::FrameData::EvaluationType
@@ -146,6 +149,9 @@ public:
   /// @brief Field Playback value: static_cast<int32_t>(0x1)
   static ::UnityEngine::Playables::__FrameData__EvaluationType const Playback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11223 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -158,7 +164,7 @@ static_assert(offsetof(::UnityEngine::Playables::__FrameData__EvaluationType, va
 
 } // namespace UnityEngine::Playables
 // Type: UnityEngine.Playables::FrameData
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
 // CS Name: ::UnityEngine.Playables::FrameData
@@ -171,13 +177,13 @@ public:
 
   __declspec(property(get = get_deltaTime)) float_t deltaTime;
 
-  __declspec(property(get = get_effectivePlayState))::UnityEngine::Playables::PlayState effectivePlayState;
+  __declspec(property(get = get_effectivePlayState)) ::UnityEngine::Playables::PlayState effectivePlayState;
 
   __declspec(property(get = get_effectiveSpeed)) float_t effectiveSpeed;
 
-  __declspec(property(get = get_evaluationType))::UnityEngine::Playables::__FrameData__EvaluationType evaluationType;
+  __declspec(property(get = get_evaluationType)) ::UnityEngine::Playables::__FrameData__EvaluationType evaluationType;
 
-  __declspec(property(get = get_output))::UnityEngine::Playables::PlayableOutput output;
+  __declspec(property(get = get_output)) ::UnityEngine::Playables::PlayableOutput output;
 
   __declspec(property(get = get_seekOccurred)) bool seekOccurred;
 
@@ -185,31 +191,31 @@ public:
 
   __declspec(property(get = get_timeLooped)) bool timeLooped;
 
-  /// @brief Method HasFlags, addr 0x346fe64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasFlags, addr 0x4853350, size 0x10, virtual false, abstract: false, final false
   inline bool HasFlags(::UnityEngine::Playables::__FrameData__Flags flag);
 
-  /// @brief Method get_deltaTime, addr 0x346fe74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x4853360, size 0xc, virtual false, abstract: false, final false
   inline float_t get_deltaTime();
 
-  /// @brief Method get_effectivePlayState, addr 0x346fec8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_effectivePlayState, addr 0x48533b4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayState get_effectivePlayState();
 
-  /// @brief Method get_effectiveSpeed, addr 0x346fe80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_effectiveSpeed, addr 0x485336c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_effectiveSpeed();
 
-  /// @brief Method get_evaluationType, addr 0x346fe88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_evaluationType, addr 0x4853374, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::__FrameData__EvaluationType get_evaluationType();
 
-  /// @brief Method get_output, addr 0x346febc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_output, addr 0x48533a8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableOutput get_output();
 
-  /// @brief Method get_seekOccurred, addr 0x346fe98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_seekOccurred, addr 0x4853384, size 0xc, virtual false, abstract: false, final false
   inline bool get_seekOccurred();
 
-  /// @brief Method get_timeHeld, addr 0x346feb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_timeHeld, addr 0x485339c, size 0xc, virtual false, abstract: false, final false
   inline bool get_timeHeld();
 
-  /// @brief Method get_timeLooped, addr 0x346fea4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_timeLooped, addr 0x4853390, size 0xc, virtual false, abstract: false, final false
   inline bool get_timeLooped();
 
   // Ctor Parameters []
@@ -250,6 +256,9 @@ public:
 
   /// @brief Field m_Output, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Playables::PlayableOutput m_Output;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11224 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

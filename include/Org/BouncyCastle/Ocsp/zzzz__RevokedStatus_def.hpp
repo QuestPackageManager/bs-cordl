@@ -19,7 +19,7 @@ class RevokedStatus;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::RevokedStatus);
 // Type: Org.BouncyCastle.Ocsp::RevokedStatus
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Ocsp::RevokedStatus*
@@ -30,10 +30,10 @@ public:
 
   __declspec(property(get = get_RevocationReason)) int32_t RevocationReason;
 
-  __declspec(property(get = get_RevocationTime))::System::DateTime RevocationTime;
+  __declspec(property(get = get_RevocationTime)) ::System::DateTime RevocationTime;
 
   /// @brief Field info, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info;
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info)) ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info;
 
   static inline ::Org::BouncyCastle::Ocsp::RevokedStatus* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
 
@@ -45,19 +45,19 @@ public:
 
   constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* value);
 
-  /// @brief Method .ctor, addr 0x1318230, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e4590, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
 
-  /// @brief Method .ctor, addr 0x131829c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e45fc, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime revocationDate, int32_t reason);
 
-  /// @brief Method get_HasRevocationReason, addr 0x13120a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_HasRevocationReason, addr 0x24de528, size 0x24, virtual false, abstract: false, final false
   inline bool get_HasRevocationReason();
 
-  /// @brief Method get_RevocationReason, addr 0x13120c8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationReason, addr 0x24de54c, size 0x6c, virtual false, abstract: false, final false
   inline int32_t get_RevocationReason();
 
-  /// @brief Method get_RevocationTime, addr 0x1312138, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationTime, addr 0x24de5b8, size 0x24, virtual false, abstract: false, final false
   inline ::System::DateTime get_RevocationTime();
 
 protected:
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field info, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* ___info;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1624 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

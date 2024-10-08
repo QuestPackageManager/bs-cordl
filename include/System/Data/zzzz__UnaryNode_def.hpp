@@ -35,7 +35,7 @@ class UnaryNode;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::UnaryNode);
 // Type: System.Data::UnaryNode
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::UnaryNode*
@@ -46,41 +46,41 @@ public:
   __declspec(property(get = __cordl_internal_get__op, put = __cordl_internal_set__op)) int32_t _op;
 
   /// @brief Field _right, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__right, put = __cordl_internal_set__right))::System::Data::ExpressionNode* _right;
+  __declspec(property(get = __cordl_internal_get__right, put = __cordl_internal_set__right)) ::System::Data::ExpressionNode* _right;
 
-  /// @brief Method Bind, addr 0x2d07b0c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x4106604, size 0x28, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method DependsOn, addr 0x2d083f8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x4106f24, size 0x24, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Eval, addr 0x2d07b34, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x410662c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x2d08358, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x4106e84, size 0x20, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
 
-  /// @brief Method Eval, addr 0x2d07b48, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x4106640, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method EvalUnaryOp, addr 0x2d07b88, size 0x7d0, virtual false, abstract: false, final false
+  /// @brief Method EvalUnaryOp, addr 0x4106680, size 0x804, virtual false, abstract: false, final false
   inline ::System::Object* EvalUnaryOp(int32_t op, ::System::Object* vl);
 
-  /// @brief Method HasLocalAggregate, addr 0x2d083b8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x4106ee4, size 0x20, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x2d083d8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x4106f04, size 0x20, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x2d08378, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x4106ea4, size 0x20, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsTableConstant, addr 0x2d08398, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x4106ec4, size 0x20, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::UnaryNode* New_ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* right);
 
-  /// @brief Method Optimize, addr 0x2d0841c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x4106f48, size 0xb8, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
   constexpr int32_t const& __cordl_internal_get__op() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__right(::System::Data::ExpressionNode* value);
 
-  /// @brief Method .ctor, addr 0x2d07adc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41065d4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* right);
 
 protected:
@@ -117,6 +117,9 @@ public:
 
   /// @brief Field _right, offset: 0x20, size: 0x8, def value: None
   ::System::Data::ExpressionNode* ____right;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11397 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

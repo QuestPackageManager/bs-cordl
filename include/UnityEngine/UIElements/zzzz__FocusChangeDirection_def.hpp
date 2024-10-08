@@ -22,7 +22,7 @@ class FocusChangeDirection;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::FocusChangeDirection);
 // Type: UnityEngine.UIElements::FocusChangeDirection
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::FocusChangeDirection*
@@ -30,14 +30,14 @@ class CORDL_TYPE FocusChangeDirection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <lastValue>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__lastValue_k__BackingField, put = setStaticF__lastValue_k__BackingField))::UnityEngine::UIElements::FocusChangeDirection* _lastValue_k__BackingField;
+  static __declspec(property(get = getStaticF__lastValue_k__BackingField, put = setStaticF__lastValue_k__BackingField)) ::UnityEngine::UIElements::FocusChangeDirection* _lastValue_k__BackingField;
 
   /// @brief Field <none>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__none_k__BackingField, put = setStaticF__none_k__BackingField))::UnityEngine::UIElements::FocusChangeDirection* _none_k__BackingField;
+  static __declspec(property(get = getStaticF__none_k__BackingField, put = setStaticF__none_k__BackingField)) ::UnityEngine::UIElements::FocusChangeDirection* _none_k__BackingField;
 
   /// @brief Field <unspecified>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__unspecified_k__BackingField,
-                             put = setStaticF__unspecified_k__BackingField))::UnityEngine::UIElements::FocusChangeDirection* _unspecified_k__BackingField;
+  static
+      __declspec(property(get = getStaticF__unspecified_k__BackingField, put = setStaticF__unspecified_k__BackingField)) ::UnityEngine::UIElements::FocusChangeDirection* _unspecified_k__BackingField;
 
   /// @brief Field m_Value, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) int32_t m_Value;
@@ -45,15 +45,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ApplyTo, addr 0x3590774, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x49baff0, size 0x28, virtual true, abstract: false, final false
   inline void ApplyTo(::UnityEngine::UIElements::FocusController* focusController, ::UnityEngine::UIElements::Focusable* f);
 
-  /// @brief Method Dispose, addr 0x3590770, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49bafec, size 0x4, virtual true, abstract: false, final false
   inline void Dispose();
 
   static inline ::UnityEngine::UIElements::FocusChangeDirection* New_ctor(int32_t value);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3590764, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x49bafe0, size 0xc, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get_m_Value() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3590730, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bafac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
   static inline ::UnityEngine::UIElements::FocusChangeDirection* getStaticF__lastValue_k__BackingField();
@@ -71,19 +71,19 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusChangeDirection* getStaticF__unspecified_k__BackingField();
 
-  /// @brief Method get_lastValue, addr 0x35906d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_lastValue, addr 0x49baf54, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_lastValue();
 
-  /// @brief Method get_none, addr 0x3590680, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_none, addr 0x49baefc, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_none();
 
-  /// @brief Method get_unspecified, addr 0x3590628, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_unspecified, addr 0x49baea4, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_unspecified();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method op_Implicit, addr 0x3590758, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x49bafd4, size 0xc, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::UIElements::FocusChangeDirection* fcd);
 
   static inline void setStaticF__lastValue_k__BackingField(::UnityEngine::UIElements::FocusChangeDirection* value);
@@ -108,6 +108,9 @@ public:
 
   /// @brief Field m_Value, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5918 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

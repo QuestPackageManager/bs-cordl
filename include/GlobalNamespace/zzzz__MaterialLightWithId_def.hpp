@@ -25,58 +25,58 @@ class MaterialLightWithId;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MaterialLightWithId);
 // Type: ::MaterialLightWithId
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MaterialLightWithId*
 class CORDL_TYPE MaterialLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _alpha, offset 0x64, size 0x4
+  /// @brief Field _alpha, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get__alpha, put = __cordl_internal_set__alpha)) float_t _alpha;
 
-  /// @brief Field _alphaIntensity, offset 0x48, size 0x4
+  /// @brief Field _alphaIntensity, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__alphaIntensity, put = __cordl_internal_set__alphaIntensity)) float_t _alphaIntensity;
 
-  /// @brief Field _alphaIntoColor, offset 0x39, size 0x1
+  /// @brief Field _alphaIntoColor, offset 0x41, size 0x1
   __declspec(property(get = __cordl_internal_get__alphaIntoColor, put = __cordl_internal_set__alphaIntoColor)) bool _alphaIntoColor;
 
-  /// @brief Field _color, offset 0x54, size 0x10
-  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
+  /// @brief Field _color, offset 0x5c, size 0x10
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color)) ::UnityEngine::Color _color;
 
-  /// @brief Field _colorMultiplier, offset 0x50, size 0x4
+  /// @brief Field _colorMultiplier, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__colorMultiplier, put = __cordl_internal_set__colorMultiplier)) float_t _colorMultiplier;
 
-  /// @brief Field _colorProperty, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorProperty, put = __cordl_internal_set__colorProperty))::StringW _colorProperty;
+  /// @brief Field _colorProperty, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorProperty, put = __cordl_internal_set__colorProperty)) ::StringW _colorProperty;
 
   /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
+  static __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
 
-  /// @brief Field _meshRenderer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer))::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
+  /// @brief Field _meshRenderer, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
 
-  /// @brief Field _multiplyColor, offset 0x4d, size 0x1
+  /// @brief Field _multiplyColor, offset 0x55, size 0x1
   __declspec(property(get = __cordl_internal_get__multiplyColor, put = __cordl_internal_set__multiplyColor)) bool _multiplyColor;
 
-  /// @brief Field _multiplyColorWithAlpha, offset 0x4c, size 0x1
+  /// @brief Field _multiplyColorWithAlpha, offset 0x54, size 0x1
   __declspec(property(get = __cordl_internal_get__multiplyColorWithAlpha, put = __cordl_internal_set__multiplyColorWithAlpha)) bool _multiplyColorWithAlpha;
 
-  /// @brief Field _propertyId, offset 0x68, size 0x4
+  /// @brief Field _propertyId, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get__propertyId, put = __cordl_internal_set__propertyId)) int32_t _propertyId;
 
-  /// @brief Field _setAlphaOnly, offset 0x38, size 0x1
+  /// @brief Field _setAlphaOnly, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__setAlphaOnly, put = __cordl_internal_set__setAlphaOnly)) bool _setAlphaOnly;
 
-  /// @brief Field _setColorOnly, offset 0x3a, size 0x1
+  /// @brief Field _setColorOnly, offset 0x42, size 0x1
   __declspec(property(get = __cordl_internal_get__setColorOnly, put = __cordl_internal_set__setColorOnly)) bool _setColorOnly;
 
-  __declspec(property(get = get_color))::UnityEngine::Color color;
+  __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method Awake, addr 0x25228e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x397a50c, size 0x80, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ColorWasSet, addr 0x2522968, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x397a58c, size 0x188, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::MaterialLightWithId* New_ctor();
@@ -153,12 +153,12 @@ public:
 
   constexpr void __cordl_internal_set__setColorOnly(bool value);
 
-  /// @brief Method .ctor, addr 0x2522af0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397a714, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
-  /// @brief Method get_color, addr 0x25228dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x397a500, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
@@ -177,70 +177,73 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialLightWithId(MaterialLightWithId const&) = delete;
 
-  /// @brief Field _meshRenderer, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _meshRenderer, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
-  /// @brief Field _setAlphaOnly, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field _setAlphaOnly, offset: 0x40, size: 0x1, def value: None
   bool ____setAlphaOnly;
 
-  /// @brief Field _alphaIntoColor, offset: 0x39, size: 0x1, def value: None
+  /// @brief Field _alphaIntoColor, offset: 0x41, size: 0x1, def value: None
   bool ____alphaIntoColor;
 
-  /// @brief Field _setColorOnly, offset: 0x3a, size: 0x1, def value: None
+  /// @brief Field _setColorOnly, offset: 0x42, size: 0x1, def value: None
   bool ____setColorOnly;
 
-  /// @brief Field _colorProperty, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _colorProperty, offset: 0x48, size: 0x8, def value: None
   ::StringW ____colorProperty;
 
-  /// @brief Field _alphaIntensity, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field _alphaIntensity, offset: 0x50, size: 0x4, def value: None
   float_t ____alphaIntensity;
 
-  /// @brief Field _multiplyColorWithAlpha, offset: 0x4c, size: 0x1, def value: None
+  /// @brief Field _multiplyColorWithAlpha, offset: 0x54, size: 0x1, def value: None
   bool ____multiplyColorWithAlpha;
 
-  /// @brief Field _multiplyColor, offset: 0x4d, size: 0x1, def value: None
+  /// @brief Field _multiplyColor, offset: 0x55, size: 0x1, def value: None
   bool ____multiplyColor;
 
-  /// @brief Field _colorMultiplier, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field _colorMultiplier, offset: 0x58, size: 0x4, def value: None
   float_t ____colorMultiplier;
 
-  /// @brief Field _color, offset: 0x54, size: 0x10, def value: None
+  /// @brief Field _color, offset: 0x5c, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 
-  /// @brief Field _alpha, offset: 0x64, size: 0x4, def value: None
+  /// @brief Field _alpha, offset: 0x6c, size: 0x4, def value: None
   float_t ____alpha;
 
-  /// @brief Field _propertyId, offset: 0x68, size: 0x4, def value: None
+  /// @brief Field _propertyId, offset: 0x70, size: 0x4, def value: None
   int32_t ____propertyId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16283 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialLightWithId, 0x70>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialLightWithId, 0x78>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____meshRenderer) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____meshRenderer) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____setAlphaOnly) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____setAlphaOnly) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____alphaIntoColor) == 0x39, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____alphaIntoColor) == 0x41, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____setColorOnly) == 0x3a, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____setColorOnly) == 0x42, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____colorProperty) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____colorProperty) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____alphaIntensity) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____alphaIntensity) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____multiplyColorWithAlpha) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____multiplyColorWithAlpha) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____multiplyColor) == 0x4d, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____multiplyColor) == 0x55, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____colorMultiplier) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____colorMultiplier) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____color) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____color) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____alpha) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____alpha) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____propertyId) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____propertyId) == 0x70, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialLightWithId);

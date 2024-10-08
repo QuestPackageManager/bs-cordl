@@ -18,19 +18,19 @@ class ReflectionProbeBakingEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ReflectionProbeBakingEffect);
 // Type: ::ReflectionProbeBakingEffect
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ReflectionProbeBakingEffect*
 class CORDL_TYPE ReflectionProbeBakingEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _material, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
+  /// @brief Field _material, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material)) ::UnityW<::UnityEngine::Material> _material;
 
   static inline ::GlobalNamespace::ReflectionProbeBakingEffect* New_ctor();
 
-  /// @brief Method OnRenderImage, addr 0x251d200, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnRenderImage, addr 0x3974d24, size 0x74, virtual false, abstract: false, final false
   inline void OnRenderImage(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x251d274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3974d98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,15 +56,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ReflectionProbeBakingEffect(ReflectionProbeBakingEffect const&) = delete;
 
-  /// @brief Field _material, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16238 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ReflectionProbeBakingEffect, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ReflectionProbeBakingEffect, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingEffect, ____material) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingEffect, ____material) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ReflectionProbeBakingEffect);

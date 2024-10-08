@@ -31,7 +31,7 @@ class RevRepContent;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::RevRepContent);
 // Type: Org.BouncyCastle.Asn1.Cmp::RevRepContent
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::RevRepContent*
@@ -39,29 +39,29 @@ class CORDL_TYPE RevRepContent : public ::Org::BouncyCastle::Asn1::Asn1Encodable
 public:
   // Declarations
   /// @brief Field crls, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_crls, put = __cordl_internal_set_crls))::Org::BouncyCastle::Asn1::Asn1Sequence* crls;
+  __declspec(property(get = __cordl_internal_get_crls, put = __cordl_internal_set_crls)) ::Org::BouncyCastle::Asn1::Asn1Sequence* crls;
 
   /// @brief Field revCerts, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_revCerts, put = __cordl_internal_set_revCerts))::Org::BouncyCastle::Asn1::Asn1Sequence* revCerts;
+  __declspec(property(get = __cordl_internal_get_revCerts, put = __cordl_internal_set_revCerts)) ::Org::BouncyCastle::Asn1::Asn1Sequence* revCerts;
 
   /// @brief Field status, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::Org::BouncyCastle::Asn1::Asn1Sequence* status;
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status)) ::Org::BouncyCastle::Asn1::Asn1Sequence* status;
 
-  /// @brief Method GetCrls, addr 0x10e029c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetCrls, addr 0x22bdad4, size 0x100, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> GetCrls();
 
-  /// @brief Method GetInstance, addr 0x10dac2c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22b8624, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContent* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetRevCerts, addr 0x10e019c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetRevCerts, addr 0x22bd9d4, size 0x100, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Crmf::CertId*, ::Array<::Org::BouncyCastle::Asn1::Crmf::CertId*>*> GetRevCerts();
 
-  /// @brief Method GetStatus, addr 0x10e00a8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetStatus, addr 0x22bd8e0, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*, ::Array<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*>*> GetStatus();
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10e039c, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22bdbd4, size 0x120, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_crls();
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_status(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x10dffc8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bd800, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:
@@ -107,6 +107,9 @@ public:
 
   /// @brief Field crls, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___crls;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 51 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

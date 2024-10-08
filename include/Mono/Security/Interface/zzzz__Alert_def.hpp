@@ -21,26 +21,26 @@ class Alert;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Interface::Alert);
 // Type: Mono.Security.Interface::Alert
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
 // CS Name: ::Mono.Security.Interface::Alert*
 class CORDL_TYPE Alert : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Description))::Mono::Security::Interface::AlertDescription Description;
+  __declspec(property(get = get_Description)) ::Mono::Security::Interface::AlertDescription Description;
 
-  __declspec(property(get = get_Level))::Mono::Security::Interface::AlertLevel Level;
+  __declspec(property(get = get_Level)) ::Mono::Security::Interface::AlertLevel Level;
 
   /// @brief Field description, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description))::Mono::Security::Interface::AlertDescription description;
+  __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description)) ::Mono::Security::Interface::AlertDescription description;
 
   /// @brief Field level, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_level, put = __cordl_internal_set_level))::Mono::Security::Interface::AlertLevel level;
+  __declspec(property(get = __cordl_internal_get_level, put = __cordl_internal_set_level)) ::Mono::Security::Interface::AlertLevel level;
 
   static inline ::Mono::Security::Interface::Alert* New_ctor(::Mono::Security::Interface::AlertDescription description);
 
-  /// @brief Method ToString, addr 0x27adc64, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3bd011c, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Mono::Security::Interface::AlertDescription const& __cordl_internal_get_description() const;
@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_level(::Mono::Security::Interface::AlertLevel value);
 
-  /// @brief Method .ctor, addr 0x27adbb8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd0070, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description);
 
-  /// @brief Method get_Description, addr 0x27adbb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x3bd0068, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::AlertDescription get_Description();
 
-  /// @brief Method get_Level, addr 0x27adba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x3bd0060, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::AlertLevel get_Level();
 
-  /// @brief Method inferAlertLevel, addr 0x27adc24, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method inferAlertLevel, addr 0x3bd00dc, size 0x40, virtual false, abstract: false, final false
   inline void inferAlertLevel();
 
 protected:
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field description, offset: 0x11, size: 0x1, def value: None
   ::Mono::Security::Interface::AlertDescription ___description;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15902 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

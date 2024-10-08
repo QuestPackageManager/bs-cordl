@@ -14,7 +14,7 @@ class ByteStack;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::ByteStack);
 // Type: System.Xml::ByteStack
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::ByteStack*
@@ -28,17 +28,17 @@ public:
   __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
 
   /// @brief Field stack, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_stack, put = __cordl_internal_set_stack))::ArrayW<uint8_t, ::Array<uint8_t>*> stack;
+  __declspec(property(get = __cordl_internal_get_stack, put = __cordl_internal_set_stack)) ::ArrayW<uint8_t, ::Array<uint8_t>*> stack;
 
   /// @brief Field top, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_top, put = __cordl_internal_set_top)) int32_t top;
 
   static inline ::System::Xml::ByteStack* New_ctor(int32_t growthRate);
 
-  /// @brief Method Pop, addr 0x2dc5dd4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x41caeec, size 0x48, virtual false, abstract: false, final false
   inline uint8_t Pop();
 
-  /// @brief Method Push, addr 0x2dc5d04, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x41cae1c, size 0xd0, virtual false, abstract: false, final false
   inline void Push(uint8_t data);
 
   constexpr int32_t const& __cordl_internal_get_growthRate() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_top(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2dc5c94, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41cadac, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int32_t growthRate);
 
 protected:
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field size, offset: 0x20, size: 0x4, def value: None
   int32_t ___size;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7138 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

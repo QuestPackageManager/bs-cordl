@@ -10,6 +10,9 @@ namespace UnityEngine::UIElements {
 struct DisplayStyle;
 }
 namespace UnityEngine::UIElements {
+struct FlexDirection;
+}
+namespace UnityEngine::UIElements {
 struct Scale;
 }
 namespace UnityEngine::UIElements {
@@ -17,9 +20,6 @@ struct StyleFloat;
 }
 namespace UnityEngine::UIElements {
 struct Visibility;
-}
-namespace UnityEngine::UIElements {
-struct WhiteSpace;
 }
 namespace UnityEngine {
 struct Color;
@@ -34,16 +34,16 @@ class IResolvedStyle;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IResolvedStyle);
 // Type: UnityEngine.UIElements::IResolvedStyle
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::IResolvedStyle*
 class CORDL_TYPE IResolvedStyle {
 public:
   // Declarations
-  __declspec(property(get = get_backgroundColor))::UnityEngine::Color backgroundColor;
+  __declspec(property(get = get_backgroundColor)) ::UnityEngine::Color backgroundColor;
 
-  __declspec(property(get = get_borderBottomColor))::UnityEngine::Color borderBottomColor;
+  __declspec(property(get = get_borderBottomColor)) ::UnityEngine::Color borderBottomColor;
 
   __declspec(property(get = get_borderBottomLeftRadius)) float_t borderBottomLeftRadius;
 
@@ -51,15 +51,15 @@ public:
 
   __declspec(property(get = get_borderBottomWidth)) float_t borderBottomWidth;
 
-  __declspec(property(get = get_borderLeftColor))::UnityEngine::Color borderLeftColor;
+  __declspec(property(get = get_borderLeftColor)) ::UnityEngine::Color borderLeftColor;
 
   __declspec(property(get = get_borderLeftWidth)) float_t borderLeftWidth;
 
-  __declspec(property(get = get_borderRightColor))::UnityEngine::Color borderRightColor;
+  __declspec(property(get = get_borderRightColor)) ::UnityEngine::Color borderRightColor;
 
   __declspec(property(get = get_borderRightWidth)) float_t borderRightWidth;
 
-  __declspec(property(get = get_borderTopColor))::UnityEngine::Color borderTopColor;
+  __declspec(property(get = get_borderTopColor)) ::UnityEngine::Color borderTopColor;
 
   __declspec(property(get = get_borderTopLeftRadius)) float_t borderTopLeftRadius;
 
@@ -69,9 +69,11 @@ public:
 
   __declspec(property(get = get_bottom)) float_t bottom;
 
-  __declspec(property(get = get_color))::UnityEngine::Color color;
+  __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  __declspec(property(get = get_display))::UnityEngine::UIElements::DisplayStyle display;
+  __declspec(property(get = get_display)) ::UnityEngine::UIElements::DisplayStyle display;
+
+  __declspec(property(get = get_flexDirection)) ::UnityEngine::UIElements::FlexDirection flexDirection;
 
   __declspec(property(get = get_flexGrow)) float_t flexGrow;
 
@@ -89,9 +91,9 @@ public:
 
   __declspec(property(get = get_marginTop)) float_t marginTop;
 
-  __declspec(property(get = get_minHeight))::UnityEngine::UIElements::StyleFloat minHeight;
+  __declspec(property(get = get_minHeight)) ::UnityEngine::UIElements::StyleFloat minHeight;
 
-  __declspec(property(get = get_minWidth))::UnityEngine::UIElements::StyleFloat minWidth;
+  __declspec(property(get = get_minWidth)) ::UnityEngine::UIElements::StyleFloat minWidth;
 
   __declspec(property(get = get_opacity)) float_t opacity;
 
@@ -105,27 +107,27 @@ public:
 
   __declspec(property(get = get_right)) float_t right;
 
-  __declspec(property(get = get_scale))::UnityEngine::UIElements::Scale scale;
+  __declspec(property(get = get_scale)) ::UnityEngine::UIElements::Scale scale;
 
   __declspec(property(get = get_top)) float_t top;
 
-  __declspec(property(get = get_transformOrigin))::UnityEngine::Vector3 transformOrigin;
+  __declspec(property(get = get_transformOrigin)) ::UnityEngine::Vector3 transformOrigin;
 
-  __declspec(property(get = get_translate))::UnityEngine::Vector3 translate;
+  __declspec(property(get = get_translate)) ::UnityEngine::Vector3 translate;
 
-  __declspec(property(get = get_unityBackgroundImageTintColor))::UnityEngine::Color unityBackgroundImageTintColor;
+  __declspec(property(get = get_unityBackgroundImageTintColor)) ::UnityEngine::Color unityBackgroundImageTintColor;
 
   __declspec(property(get = get_unitySliceLeft)) int32_t unitySliceLeft;
 
   __declspec(property(get = get_unitySliceRight)) int32_t unitySliceRight;
 
-  __declspec(property(get = get_unityTextOutlineColor))::UnityEngine::Color unityTextOutlineColor;
+  __declspec(property(get = get_unitySliceScale)) float_t unitySliceScale;
+
+  __declspec(property(get = get_unityTextOutlineColor)) ::UnityEngine::Color unityTextOutlineColor;
 
   __declspec(property(get = get_unityTextOutlineWidth)) float_t unityTextOutlineWidth;
 
-  __declspec(property(get = get_visibility))::UnityEngine::UIElements::Visibility visibility;
-
-  __declspec(property(get = get_whiteSpace))::UnityEngine::UIElements::WhiteSpace whiteSpace;
+  __declspec(property(get = get_visibility)) ::UnityEngine::UIElements::Visibility visibility;
 
   __declspec(property(get = get_width)) float_t width;
 
@@ -176,6 +178,9 @@ public:
 
   /// @brief Method get_display, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::DisplayStyle get_display();
+
+  /// @brief Method get_flexDirection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::FlexDirection get_flexDirection();
 
   /// @brief Method get_flexGrow, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_flexGrow();
@@ -246,6 +251,9 @@ public:
   /// @brief Method get_unitySliceRight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_unitySliceRight();
 
+  /// @brief Method get_unitySliceScale, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline float_t get_unitySliceScale();
+
   /// @brief Method get_unityTextOutlineColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Color get_unityTextOutlineColor();
 
@@ -254,9 +262,6 @@ public:
 
   /// @brief Method get_visibility, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::Visibility get_visibility();
-
-  /// @brief Method get_whiteSpace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::WhiteSpace get_whiteSpace();
 
   /// @brief Method get_width, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_width();
@@ -268,6 +273,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IResolvedStyle", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IResolvedStyle(IResolvedStyle const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6030 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

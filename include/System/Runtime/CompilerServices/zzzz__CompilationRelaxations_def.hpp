@@ -13,7 +13,7 @@ struct CompilationRelaxations;
 // Write type traits
 MARK_VAL_T(::System::Runtime::CompilerServices::CompilationRelaxations);
 // Type: System.Runtime.CompilerServices::CompilationRelaxations
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // CS Name: ::System.Runtime.CompilerServices::CompilationRelaxations
@@ -49,6 +49,9 @@ public:
 
   /// @brief Field NoStringInterning value: static_cast<int32_t>(0x8)
   static ::System::Runtime::CompilerServices::CompilationRelaxations const NoStringInterning;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3412 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

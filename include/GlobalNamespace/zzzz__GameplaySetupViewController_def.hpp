@@ -56,9 +56,6 @@ class TextSegmentedControl;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class Action;
-}
 namespace UnityEngine {
 class GameObject;
 }
@@ -73,7 +70,7 @@ class __GameplaySetupViewController__Panel;
 MARK_REF_PTR_T(::GlobalNamespace::GameplaySetupViewController);
 MARK_REF_PTR_T(::GlobalNamespace::__GameplaySetupViewController__Panel);
 // Type: ::Panel
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplaySetupViewController::Panel*
@@ -81,13 +78,13 @@ class CORDL_TYPE __GameplaySetupViewController__Panel : public ::System::Object 
 public:
   // Declarations
   /// @brief Field gameObject, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameObject, put = __cordl_internal_set_gameObject))::UnityW<::UnityEngine::GameObject> gameObject;
+  __declspec(property(get = __cordl_internal_get_gameObject, put = __cordl_internal_set_gameObject)) ::UnityW<::UnityEngine::GameObject> gameObject;
 
   /// @brief Field refreshable, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_refreshable, put = __cordl_internal_set_refreshable))::GlobalNamespace::IRefreshable* refreshable;
+  __declspec(property(get = __cordl_internal_get_refreshable, put = __cordl_internal_set_refreshable)) ::GlobalNamespace::IRefreshable* refreshable;
 
   /// @brief Field title, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::StringW title;
+  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title)) ::StringW title;
 
   static inline ::GlobalNamespace::__GameplaySetupViewController__Panel* New_ctor(::StringW title, ::GlobalNamespace::IRefreshable* refreshable, ::UnityEngine::GameObject* gameObject);
 
@@ -109,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2667370, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9c6cc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::GlobalNamespace::IRefreshable* refreshable, ::UnityEngine::GameObject* gameObject);
 
 protected:
@@ -135,6 +132,9 @@ public:
   /// @brief Field gameObject, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___gameObject;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4868 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -148,7 +148,7 @@ static_assert(offsetof(::GlobalNamespace::__GameplaySetupViewController__Panel, 
 
 } // namespace GlobalNamespace
 // Type: ::GameplaySetupViewController
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 194, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 194, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplaySetupViewController*
@@ -160,38 +160,42 @@ public:
   /// @brief Field _activePanelIdx, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get__activePanelIdx, put = __cordl_internal_set__activePanelIdx)) int32_t _activePanelIdx;
 
-  /// @brief Field _colorsOverrideSettingsPanelController, offset 0x90, size 0x8
+  /// @brief Field _colorsOverrideSettingsPanelController, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__colorsOverrideSettingsPanelController,
-                      put = __cordl_internal_set__colorsOverrideSettingsPanelController))::UnityW<::GlobalNamespace::ColorsOverrideSettingsPanelController> _colorsOverrideSettingsPanelController;
+                      put = __cordl_internal_set__colorsOverrideSettingsPanelController)) ::UnityW<::GlobalNamespace::ColorsOverrideSettingsPanelController>
+      _colorsOverrideSettingsPanelController;
 
-  /// @brief Field _environmentOverrideSettingsPanelController, offset 0x88, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__environmentOverrideSettingsPanelController,
-      put = __cordl_internal_set__environmentOverrideSettingsPanelController))::UnityW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController> _environmentOverrideSettingsPanelController;
+  /// @brief Field _environmentOverrideSettingsPanelController, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__environmentOverrideSettingsPanelController,
+                      put = __cordl_internal_set__environmentOverrideSettingsPanelController)) ::UnityW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController>
+      _environmentOverrideSettingsPanelController;
 
-  /// @brief Field _gameplayModifiersPanelController, offset 0x80, size 0x8
+  /// @brief Field _gameplayModifiersPanelController, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplayModifiersPanelController,
-                      put = __cordl_internal_set__gameplayModifiersPanelController))::UnityW<::GlobalNamespace::GameplayModifiersPanelController> _gameplayModifiersPanelController;
+                      put = __cordl_internal_set__gameplayModifiersPanelController)) ::UnityW<::GlobalNamespace::GameplayModifiersPanelController>
+      _gameplayModifiersPanelController;
 
   /// @brief Field _isInitialized, offset 0xc1, size 0x1
   __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
 
-  /// @brief Field _multiplayerSettingsPanelController, offset 0x98, size 0x8
+  /// @brief Field _multiplayerSettingsPanelController, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSettingsPanelController,
-                      put = __cordl_internal_set__multiplayerSettingsPanelController))::UnityW<::GlobalNamespace::MultiplayerSettingsPanelController> _multiplayerSettingsPanelController;
+                      put = __cordl_internal_set__multiplayerSettingsPanelController)) ::UnityW<::GlobalNamespace::MultiplayerSettingsPanelController>
+      _multiplayerSettingsPanelController;
 
   /// @brief Field _panels, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__panels, put = __cordl_internal_set__panels))::System::Collections::Generic::List_1<::GlobalNamespace::__GameplaySetupViewController__Panel*>* _panels;
+  __declspec(property(get = __cordl_internal_get__panels,
+                      put = __cordl_internal_set__panels)) ::System::Collections::Generic::List_1<::GlobalNamespace::__GameplaySetupViewController__Panel*>* _panels;
 
-  /// @brief Field _playerDataModel, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
+  /// @brief Field _playerDataModel, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Field _playerSettingsPanelController, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerSettingsPanelController,
-                      put = __cordl_internal_set__playerSettingsPanelController))::UnityW<::GlobalNamespace::PlayerSettingsPanelController> _playerSettingsPanelController;
+  /// @brief Field _playerSettingsPanelController, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerSettingsPanelController, put = __cordl_internal_set__playerSettingsPanelController)) ::UnityW<::GlobalNamespace::PlayerSettingsPanelController>
+      _playerSettingsPanelController;
 
-  /// @brief Field _selectionSegmentedControl, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectionSegmentedControl, put = __cordl_internal_set__selectionSegmentedControl))::UnityW<::HMUI::TextSegmentedControl> _selectionSegmentedControl;
+  /// @brief Field _selectionSegmentedControl, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__selectionSegmentedControl, put = __cordl_internal_set__selectionSegmentedControl)) ::UnityW<::HMUI::TextSegmentedControl> _selectionSegmentedControl;
 
   /// @brief Field _shouldRefreshContent, offset 0xc0, size 0x1
   __declspec(property(get = __cordl_internal_get__shouldRefreshContent, put = __cordl_internal_set__shouldRefreshContent)) bool _shouldRefreshContent;
@@ -208,47 +212,47 @@ public:
   /// @brief Field _showMultiplayer, offset 0xbf, size 0x1
   __declspec(property(get = __cordl_internal_get__showMultiplayer, put = __cordl_internal_set__showMultiplayer)) bool _showMultiplayer;
 
-  __declspec(property(get = get_colorSchemesSettings))::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings;
+  __declspec(property(get = get_colorSchemesSettings)) ::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings;
 
-  /// @brief Field didChangeGameplayModifiersEvent, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_didChangeGameplayModifiersEvent, put = __cordl_internal_set_didChangeGameplayModifiersEvent))::System::Action* didChangeGameplayModifiersEvent;
+  __declspec(property(get = get_environmentOverrideSettings)) ::GlobalNamespace::OverrideEnvironmentSettings* environmentOverrideSettings;
 
-  __declspec(property(get = get_environmentOverrideSettings))::GlobalNamespace::OverrideEnvironmentSettings* environmentOverrideSettings;
+  __declspec(property(get = get_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  __declspec(property(get = get_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
+  __declspec(property(get = get_playerSettings)) ::GlobalNamespace::PlayerSpecificSettings* playerSettings;
 
-  __declspec(property(get = get_playerSettings))::GlobalNamespace::PlayerSpecificSettings* playerSettings;
-
-  /// @brief Method DidActivate, addr 0x2666e28, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b9c1b4, size 0x16c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers, addr 0x2667244, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers, addr 0x3b9c5c4, size 0x30, virtual false, abstract: false, final false
   inline void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers();
 
-  /// @brief Method HandlePlayerSettingsPanelControllerDidChangePlayerSettings, addr 0x266720c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerSettingsPanelControllerDidChangePlayerSettings, addr 0x3b9c58c, size 0x38, virtual false, abstract: false, final false
   inline void HandlePlayerSettingsPanelControllerDidChangePlayerSettings();
 
-  /// @brief Method HandleSelectionSegmentedControlDidSelectCell, addr 0x2667154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectionSegmentedControlDidSelectCell, addr 0x3b9c4d4, size 0x8, virtual false, abstract: false, final false
   inline void HandleSelectionSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
-  /// @brief Method Init, addr 0x2666624, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b9b950, size 0x90, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::GameplaySetupViewController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2667038, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b9c3bc, size 0x118, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RefreshActivePanel, addr 0x2667298, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method RefreshActivePanel, addr 0x3b9c5f4, size 0xd8, virtual false, abstract: false, final false
   inline void RefreshActivePanel();
 
-  /// @brief Method RefreshContent, addr 0x26666d8, size 0x72c, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x3b9ba04, size 0x70c, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method SetActivePanel, addr 0x266715c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetActivePanel, addr 0x3b9c4dc, size 0xb0, virtual false, abstract: false, final false
   inline void SetActivePanel(int32_t panelIdx);
 
-  /// @brief Method Setup, addr 0x2666598, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetIsInteractable, addr 0x3b9c110, size 0x80, virtual false, abstract: false, final false
+  inline void SetIsInteractable(bool interactable);
+
+  /// @brief Method Setup, addr 0x3b9b8bc, size 0x94, virtual false, abstract: false, final false
   inline void Setup(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings, bool showMultiplayer,
                     ::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout playerSettingsPanelLayout);
 
@@ -312,10 +316,6 @@ public:
 
   constexpr bool& __cordl_internal_get__showMultiplayer();
 
-  constexpr ::System::Action*& __cordl_internal_get_didChangeGameplayModifiersEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didChangeGameplayModifiersEvent() const;
-
   constexpr void __cordl_internal_set__activePanelIdx(int32_t value);
 
   constexpr void __cordl_internal_set__colorsOverrideSettingsPanelController(::UnityW<::GlobalNamespace::ColorsOverrideSettingsPanelController> value);
@@ -346,28 +346,20 @@ public:
 
   constexpr void __cordl_internal_set__showMultiplayer(bool value);
 
-  constexpr void __cordl_internal_set_didChangeGameplayModifiersEvent(::System::Action* value);
-
-  /// @brief Method .ctor, addr 0x26673ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9c708, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeGameplayModifiersEvent, addr 0x266602c, size 0x9c, virtual false, abstract: false, final false
-  inline void add_didChangeGameplayModifiersEvent(::System::Action* value);
-
-  /// @brief Method get_colorSchemesSettings, addr 0x2666574, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_colorSchemesSettings, addr 0x3b9b898, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
 
-  /// @brief Method get_environmentOverrideSettings, addr 0x2666550, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_environmentOverrideSettings, addr 0x3b9b874, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OverrideEnvironmentSettings* get_environmentOverrideSettings();
 
-  /// @brief Method get_gameplayModifiers, addr 0x2666534, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x3b9b858, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_playerSettings, addr 0x2666164, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_playerSettings, addr 0x3b9b488, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
-
-  /// @brief Method remove_didChangeGameplayModifiersEvent, addr 0x26660c8, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_didChangeGameplayModifiersEvent(::System::Action* value);
 
 protected:
   // Ctor Parameters []
@@ -383,29 +375,26 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameplaySetupViewController(GameplaySetupViewController const&) = delete;
 
-  /// @brief Field _selectionSegmentedControl, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _selectionSegmentedControl, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControl> ____selectionSegmentedControl;
 
-  /// @brief Field _playerSettingsPanelController, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _playerSettingsPanelController, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerSettingsPanelController> ____playerSettingsPanelController;
 
-  /// @brief Field _gameplayModifiersPanelController, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _gameplayModifiersPanelController, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> ____gameplayModifiersPanelController;
 
-  /// @brief Field _environmentOverrideSettingsPanelController, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _environmentOverrideSettingsPanelController, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController> ____environmentOverrideSettingsPanelController;
 
-  /// @brief Field _colorsOverrideSettingsPanelController, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _colorsOverrideSettingsPanelController, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorsOverrideSettingsPanelController> ____colorsOverrideSettingsPanelController;
 
-  /// @brief Field _multiplayerSettingsPanelController, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _multiplayerSettingsPanelController, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerSettingsPanelController> ____multiplayerSettingsPanelController;
 
-  /// @brief Field _playerDataModel, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
-
-  /// @brief Field didChangeGameplayModifiersEvent, offset: 0xa8, size: 0x8, def value: None
-  ::System::Action* ___didChangeGameplayModifiersEvent;
 
   /// @brief Field _panels, offset: 0xb0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__GameplaySetupViewController__Panel*>* ____panels;
@@ -431,26 +420,27 @@ public:
   /// @brief Field _isInitialized, offset: 0xc1, size: 0x1, def value: None
   bool ____isInitialized;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4869 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplaySetupViewController, 0xc8>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____selectionSegmentedControl) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____selectionSegmentedControl) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____playerSettingsPanelController) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____playerSettingsPanelController) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____gameplayModifiersPanelController) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____gameplayModifiersPanelController) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____environmentOverrideSettingsPanelController) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____environmentOverrideSettingsPanelController) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____colorsOverrideSettingsPanelController) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____colorsOverrideSettingsPanelController) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____multiplayerSettingsPanelController) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____multiplayerSettingsPanelController) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____playerDataModel) == 0xa0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ___didChangeGameplayModifiersEvent) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____playerDataModel) == 0xa8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameplaySetupViewController, ____panels) == 0xb0, "Offset mismatch!");
 

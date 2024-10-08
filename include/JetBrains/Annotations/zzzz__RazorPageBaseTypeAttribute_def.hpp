@@ -13,22 +13,22 @@ class RazorPageBaseTypeAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::RazorPageBaseTypeAttribute);
 // Type: JetBrains.Annotations::RazorPageBaseTypeAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::RazorPageBaseTypeAttribute*
 class CORDL_TYPE RazorPageBaseTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_BaseType, put = set_BaseType))::StringW BaseType;
+  __declspec(property(get = get_BaseType, put = set_BaseType)) ::StringW BaseType;
 
-  __declspec(property(get = get_PageName, put = set_PageName))::StringW PageName;
+  __declspec(property(get = get_PageName, put = set_PageName)) ::StringW PageName;
 
   /// @brief Field <BaseType>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__BaseType_k__BackingField, put = __cordl_internal_set__BaseType_k__BackingField))::StringW _BaseType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BaseType_k__BackingField, put = __cordl_internal_set__BaseType_k__BackingField)) ::StringW _BaseType_k__BackingField;
 
   /// @brief Field <PageName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__PageName_k__BackingField, put = __cordl_internal_set__PageName_k__BackingField))::StringW _PageName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__PageName_k__BackingField, put = __cordl_internal_set__PageName_k__BackingField)) ::StringW _PageName_k__BackingField;
 
   static inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* New_ctor(::StringW baseType);
 
@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set__PageName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3651910, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a78190, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType);
 
-  /// @brief Method .ctor, addr 0x3651938, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a781b8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType, ::StringW pageName);
 
-  /// @brief Method get_BaseType, addr 0x3651964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x4a781e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BaseType();
 
-  /// @brief Method get_PageName, addr 0x3651974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageName, addr 0x4a781f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PageName();
 
-  /// @brief Method set_BaseType, addr 0x365196c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x4a781ec, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::StringW value);
 
-  /// @brief Method set_PageName, addr 0x365197c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PageName, addr 0x4a781fc, size 0x8, virtual false, abstract: false, final false
   inline void set_PageName(::StringW value);
 
 protected:
@@ -83,6 +83,9 @@ public:
 
   /// @brief Field <PageName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____PageName_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18393 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

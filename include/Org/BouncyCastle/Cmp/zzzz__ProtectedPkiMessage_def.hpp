@@ -40,39 +40,39 @@ class ProtectedPkiMessage;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::ProtectedPkiMessage);
 // Type: Org.BouncyCastle.Cmp::ProtectedPkiMessage
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cmp::ProtectedPkiMessage*
 class CORDL_TYPE ProtectedPkiMessage : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Body))::Org::BouncyCastle::Asn1::Cmp::PkiBody* Body;
+  __declspec(property(get = get_Body)) ::Org::BouncyCastle::Asn1::Cmp::PkiBody* Body;
 
   __declspec(property(get = get_HasPasswordBasedMacProtected)) bool HasPasswordBasedMacProtected;
 
-  __declspec(property(get = get_Header))::Org::BouncyCastle::Asn1::Cmp::PkiHeader* Header;
+  __declspec(property(get = get_Header)) ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* Header;
 
   /// @brief Field pkiMessage, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_pkiMessage, put = __cordl_internal_set_pkiMessage))::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage;
+  __declspec(property(get = __cordl_internal_get_pkiMessage, put = __cordl_internal_set_pkiMessage)) ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage;
 
-  /// @brief Method GetCertificates, addr 0x14496a8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetCertificates, addr 0x260c90c, size 0x168, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*> GetCertificates();
 
   static inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage);
 
   static inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* New_ctor(::Org::BouncyCastle::Cmp::GeneralPkiMessage* pkiMessage);
 
-  /// @brief Method Process, addr 0x1449990, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x260cbf4, size 0x2d8, virtual false, abstract: false, final false
   inline ::System::Object* Process(::Org::BouncyCastle::Crypto::IStreamCalculator* streamCalculator);
 
-  /// @brief Method ToAsn1Message, addr 0x14495f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Message, addr 0x260c85c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ToAsn1Message();
 
-  /// @brief Method Verify, addr 0x1449c68, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x260cecc, size 0x2e4, virtual false, abstract: false, final false
   inline bool Verify(::Org::BouncyCastle::Crmf::PKMacBuilder* pkMacBuilder, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method Verify, addr 0x1449810, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x260ca74, size 0x180, virtual false, abstract: false, final false
   inline bool Verify(::Org::BouncyCastle::Crypto::IVerifierFactory* verifierFactory);
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiMessage*& __cordl_internal_get_pkiMessage();
@@ -81,19 +81,19 @@ public:
 
   constexpr void __cordl_internal_set_pkiMessage(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* value);
 
-  /// @brief Method .ctor, addr 0x1449518, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260c780, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage);
 
-  /// @brief Method .ctor, addr 0x1449480, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260c6ec, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cmp::GeneralPkiMessage* pkiMessage);
 
-  /// @brief Method get_Body, addr 0x14495d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x260c83c, size 0x20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* get_Body();
 
-  /// @brief Method get_HasPasswordBasedMacProtected, addr 0x1449600, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_HasPasswordBasedMacProtected, addr 0x260c864, size 0xa8, virtual false, abstract: false, final false
   inline bool get_HasPasswordBasedMacProtected();
 
-  /// @brief Method get_Header, addr 0x14495b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Header, addr 0x260c81c, size 0x20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* get_Header();
 
 protected:
@@ -112,6 +112,9 @@ public:
 
   /// @brief Field pkiMessage, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ___pkiMessage;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 606 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

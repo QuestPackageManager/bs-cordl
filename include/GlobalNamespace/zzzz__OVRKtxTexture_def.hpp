@@ -18,19 +18,19 @@ class OVRKtxTexture;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRKtxTexture);
 // Type: ::OVRKtxTexture
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRKtxTexture*
 class CORDL_TYPE OVRKtxTexture : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Load, addr 0x2b41e74, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x3f4d9b4, size 0x254, virtual false, abstract: false, final false
   static inline bool Load(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<::GlobalNamespace::OVRTextureData> ktxData);
 
   static inline ::GlobalNamespace::OVRKtxTexture* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b420c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f4dc08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,6 +52,9 @@ public:
 
   /// @brief Field KTX_TTF_BC7_RGBA offset 0xffffffff size 0x4
   static constexpr uint32_t KTX_TTF_BC7_RGBA{ static_cast<uint32_t>(0x400a06u) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7907 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

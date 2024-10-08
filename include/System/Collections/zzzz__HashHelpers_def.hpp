@@ -23,7 +23,7 @@ class HashHelpers;
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::HashHelpers);
 // Type: System.Collections::HashHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
 // CS Name: ::System.Collections::HashHelpers*
@@ -31,26 +31,26 @@ class CORDL_TYPE HashHelpers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field primes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_primes, put = setStaticF_primes))::ArrayW<int32_t, ::Array<int32_t>*> primes;
+  static __declspec(property(get = getStaticF_primes, put = setStaticF_primes)) ::ArrayW<int32_t, ::Array<int32_t>*> primes;
 
   /// @brief Field s_serializationInfoTable, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_serializationInfoTable, put = setStaticF_s_serializationInfoTable))::System::Runtime::CompilerServices::ConditionalWeakTable_2<
+  static __declspec(property(get = getStaticF_s_serializationInfoTable, put = setStaticF_s_serializationInfoTable)) ::System::Runtime::CompilerServices::ConditionalWeakTable_2<
       ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* s_serializationInfoTable;
 
-  /// @brief Method ExpandPrime, addr 0x292fc2c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ExpandPrime, addr 0x3d43444, size 0x84, virtual false, abstract: false, final false
   static inline int32_t ExpandPrime(int32_t oldSize);
 
-  /// @brief Method GetPrime, addr 0x292fa9c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetPrime, addr 0x3d432bc, size 0x188, virtual false, abstract: false, final false
   static inline int32_t GetPrime(int32_t min);
 
-  /// @brief Method IsPrime, addr 0x292f9ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IsPrime, addr 0x3d43204, size 0xb8, virtual false, abstract: false, final false
   static inline bool IsPrime(int32_t candidate);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_primes();
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* getStaticF_s_serializationInfoTable();
 
-  /// @brief Method get_SerializationInfoTable, addr 0x292fcb0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_SerializationInfoTable, addr 0x3d434c8, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* get_SerializationInfoTable();
 
   static inline void setStaticF_primes(::ArrayW<int32_t, ::Array<int32_t>*> value);
@@ -70,6 +70,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HashHelpers(HashHelpers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3761 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

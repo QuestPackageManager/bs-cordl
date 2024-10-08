@@ -19,19 +19,19 @@ class NamedValueChecker;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NamedValueChecker);
 // Type: ::NamedValueChecker
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NamedValueChecker*
 class CORDL_TYPE NamedValueChecker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Check, addr 0x26b0474, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Check, addr 0x3aa64bc, size 0xb0, virtual false, abstract: false, final false
   static inline bool Check(::StringW fieldName, ::System::Object* value, ::System::Object* expectedValue, ::System::Text::StringBuilder* assertMessageSb);
 
   static inline ::GlobalNamespace::NamedValueChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26b0524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa656c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,6 +47,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NamedValueChecker", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NamedValueChecker(NamedValueChecker const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5057 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

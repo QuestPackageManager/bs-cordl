@@ -23,7 +23,7 @@ template <typename TItem, typename TPriority> class PriorityQueue_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::PriorityQueue_2);
 // Type: UnityEngine.ProBuilder.KdTree::PriorityQueue`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TItem, typename TPriority>
@@ -41,11 +41,13 @@ public:
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field priorityMath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_priorityMath, put = __cordl_internal_set_priorityMath))::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* priorityMath;
+  __declspec(property(get = __cordl_internal_get_priorityMath, put = __cordl_internal_set_priorityMath)) ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* priorityMath;
 
   /// @brief Field queue, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_queue, put = __cordl_internal_set_queue))::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>,
-                                                                                                   ::Array<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>>*> queue;
+  __declspec(property(
+      get = __cordl_internal_get_queue,
+      put = __cordl_internal_set_queue)) ::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>, ::Array<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>>*>
+      queue;
 
   /// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>"
   constexpr operator ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*() noexcept;
@@ -130,6 +132,9 @@ public:
 
   /// @brief Field count, offset: 0x24, size: 0x4, def value: None
   int32_t ___count;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

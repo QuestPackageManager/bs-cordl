@@ -137,7 +137,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__UIRenderDevice__DeviceToFree);
 MARK_VAL_T(::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics);
 MARK_VAL_T(::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState);
 // Type: ::AllocToUpdate
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 89, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: ::UIRenderDevice::AllocToUpdate
@@ -176,6 +176,9 @@ public:
   /// @brief Field copyBackIndices, offset: 0x48, size: 0x1, def value: None
   bool copyBackIndices;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6382 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
@@ -200,7 +203,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocTo
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: ::AllocToFree
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: ::UIRenderDevice::AllocToFree
@@ -224,6 +227,9 @@ public:
   /// @brief Field vertices, offset: 0x20, size: 0x1, def value: None
   bool vertices;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6383 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -240,14 +246,14 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocTo
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: ::DeviceToFree
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: ::UIRenderDevice::DeviceToFree
 struct CORDL_TYPE __UIRenderDevice__DeviceToFree {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x35648f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x493acc4, size 0x2c, virtual false, abstract: false, final false
   inline void Dispose();
 
   // Ctor Parameters []
@@ -264,6 +270,9 @@ public:
   /// @brief Field page, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::Page* page;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6384 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -278,7 +287,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__DeviceT
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: ::EvaluationState
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: ::UIRenderDevice::EvaluationState
@@ -304,31 +313,34 @@ public:
   /// @brief Field defaultMat, offset: 0x8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> defaultMat;
 
-  /// @brief Field curState, offset: 0x10, size: 0x20, def value: None
+  /// @brief Field curState, offset: 0x10, size: 0x18, def value: None
   ::UnityEngine::UIElements::UIR::State curState;
 
-  /// @brief Field curPage, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field curPage, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::Page* curPage;
 
-  /// @brief Field mustApplyMaterial, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field mustApplyMaterial, offset: 0x30, size: 0x1, def value: None
   bool mustApplyMaterial;
 
-  /// @brief Field mustApplyCommonBlock, offset: 0x39, size: 0x1, def value: None
+  /// @brief Field mustApplyCommonBlock, offset: 0x31, size: 0x1, def value: None
   bool mustApplyCommonBlock;
 
-  /// @brief Field mustApplyStateBlock, offset: 0x3a, size: 0x1, def value: None
+  /// @brief Field mustApplyStateBlock, offset: 0x32, size: 0x1, def value: None
   bool mustApplyStateBlock;
 
-  /// @brief Field mustApplyStencil, offset: 0x3b, size: 0x1, def value: None
+  /// @brief Field mustApplyStencil, offset: 0x33, size: 0x1, def value: None
   bool mustApplyStencil;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6385 };
+
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState, 0x38>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState, stateMatProps) == 0x0, "Offset mismatch!");
 
@@ -336,19 +348,19 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__Evaluat
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState, curState) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState, curPage) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState, curPage) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState, mustApplyMaterial) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState, mustApplyMaterial) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState, mustApplyCommonBlock) == 0x39, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState, mustApplyCommonBlock) == 0x31, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState, mustApplyStateBlock) == 0x3a, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState, mustApplyStateBlock) == 0x32, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState, mustApplyStencil) == 0x3b, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState, mustApplyStencil) == 0x33, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: ::DrawStatistics
-// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: ::UIRenderDevice::DrawStatistics
@@ -394,6 +406,9 @@ public:
   /// @brief Field stencilRefChanges, offset: 0x20, size: 0x4, def value: None
   uint32_t stencilRefChanges;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6386 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
 
@@ -422,7 +437,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawSta
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::UIRenderDevice::<>c*
@@ -430,36 +445,36 @@ class CORDL_TYPE __UIRenderDevice____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::UIElements::UIR::__UIRenderDevice____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::UIR::__UIRenderDevice____c* __9;
 
-  /// @brief Field <>9__53_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__53_0, put = setStaticF___9__53_0))::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle*>* __9__53_0;
+  /// @brief Field <>9__50_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__50_0, put = setStaticF___9__50_0)) ::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle*>* __9__50_0;
 
-  /// @brief Field <>9__53_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__53_1, put = setStaticF___9__53_1))::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle*>* __9__53_1;
+  /// @brief Field <>9__50_1, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__50_1, put = setStaticF___9__50_1)) ::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle*>* __9__50_1;
 
   static inline ::UnityEngine::UIElements::UIR::__UIRenderDevice____c* New_ctor();
 
-  /// @brief Method <.ctor>b__53_0, addr 0x356a084, size 0x58, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::MeshHandle* __ctor_b__53_0();
+  /// @brief Method <.ctor>b__50_0, addr 0x493fc78, size 0x50, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::MeshHandle* __ctor_b__50_0();
 
-  /// @brief Method <.ctor>b__53_1, addr 0x356a0dc, size 0x4, virtual false, abstract: false, final false
-  inline void __ctor_b__53_1(::UnityEngine::UIElements::UIR::MeshHandle* mh);
+  /// @brief Method <.ctor>b__50_1, addr 0x493fcc8, size 0x4, virtual false, abstract: false, final false
+  inline void __ctor_b__50_1(::UnityEngine::UIElements::UIR::MeshHandle* mh);
 
-  /// @brief Method .ctor, addr 0x356a07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x493fc70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::__UIRenderDevice____c* getStaticF___9();
 
-  static inline ::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle*>* getStaticF___9__53_0();
+  static inline ::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle*>* getStaticF___9__50_0();
 
-  static inline ::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle*>* getStaticF___9__53_1();
+  static inline ::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle*>* getStaticF___9__50_1();
 
   static inline void setStaticF___9(::UnityEngine::UIElements::UIR::__UIRenderDevice____c* value);
 
-  static inline void setStaticF___9__53_0(::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value);
+  static inline void setStaticF___9__50_0(::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value);
 
-  static inline void setStaticF___9__53_1(::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value);
+  static inline void setStaticF___9__50_1(::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value);
 
 protected:
   // Ctor Parameters []
@@ -475,6 +490,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UIRenderDevice____c(__UIRenderDevice____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6387 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -482,7 +500,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: UnityEngine.UIElements.UIR::UIRenderDevice
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 174, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 174, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.UIR::UIRenderDevice*
@@ -520,27 +538,27 @@ public:
   static __declspec(property(get = getStaticF_m_ActiveDeviceCount, put = setStaticF_m_ActiveDeviceCount)) int32_t m_ActiveDeviceCount;
 
   /// @brief Field m_DefaultStencilState, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DefaultStencilState, put = __cordl_internal_set_m_DefaultStencilState))::System::IntPtr m_DefaultStencilState;
+  __declspec(property(get = __cordl_internal_get_m_DefaultStencilState, put = __cordl_internal_set_m_DefaultStencilState)) ::System::IntPtr m_DefaultStencilState;
 
   /// @brief Field m_DeferredFrees, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DeferredFrees, put = __cordl_internal_set_m_DeferredFrees))::System::Collections::Generic::List_1<
+  __declspec(property(get = __cordl_internal_get_m_DeferredFrees, put = __cordl_internal_set_m_DeferredFrees)) ::System::Collections::Generic::List_1<
       ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToFree>*>* m_DeferredFrees;
 
   /// @brief Field m_DeviceFreeQueue, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_DeviceFreeQueue,
-                             put = setStaticF_m_DeviceFreeQueue))::System::Collections::Generic::LinkedList_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__DeviceToFree>* m_DeviceFreeQueue;
+                             put = setStaticF_m_DeviceFreeQueue)) ::System::Collections::Generic::LinkedList_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__DeviceToFree>* m_DeviceFreeQueue;
 
   /// @brief Field m_DrawParams, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DrawParams, put = __cordl_internal_set_m_DrawParams))::UnityEngine::UIElements::UIR::DrawParams* m_DrawParams;
+  __declspec(property(get = __cordl_internal_get_m_DrawParams, put = __cordl_internal_set_m_DrawParams)) ::UnityEngine::UIElements::UIR::DrawParams* m_DrawParams;
 
   /// @brief Field m_DrawStats, offset 0x68, size 0x24
-  __declspec(property(get = __cordl_internal_get_m_DrawStats, put = __cordl_internal_set_m_DrawStats))::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics m_DrawStats;
+  __declspec(property(get = __cordl_internal_get_m_DrawStats, put = __cordl_internal_set_m_DrawStats)) ::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics m_DrawStats;
 
   /// @brief Field m_Fences, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Fences, put = __cordl_internal_set_m_Fences))::ArrayW<uint32_t, ::Array<uint32_t>*> m_Fences;
+  __declspec(property(get = __cordl_internal_get_m_Fences, put = __cordl_internal_set_m_Fences)) ::ArrayW<uint32_t, ::Array<uint32_t>*> m_Fences;
 
   /// @brief Field m_FirstPage, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_FirstPage, put = __cordl_internal_set_m_FirstPage))::UnityEngine::UIElements::UIR::Page* m_FirstPage;
+  __declspec(property(get = __cordl_internal_get_m_FirstPage, put = __cordl_internal_set_m_FirstPage)) ::UnityEngine::UIElements::UIR::Page* m_FirstPage;
 
   /// @brief Field m_FrameIndex, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_m_FrameIndex, put = __cordl_internal_set_m_FrameIndex)) uint32_t m_FrameIndex;
@@ -553,7 +571,7 @@ public:
 
   /// @brief Field m_MeshHandles, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MeshHandles,
-                      put = __cordl_internal_set_m_MeshHandles))::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>* m_MeshHandles;
+                      put = __cordl_internal_set_m_MeshHandles)) ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>* m_MeshHandles;
 
   /// @brief Field m_MockDevice, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_m_MockDevice, put = __cordl_internal_set_m_MockDevice)) bool m_MockDevice;
@@ -565,7 +583,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_NextUpdateID, put = __cordl_internal_set_m_NextUpdateID)) uint32_t m_NextUpdateID;
 
   /// @brief Field m_StandardMatProps, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_StandardMatProps, put = __cordl_internal_set_m_StandardMatProps))::UnityEngine::MaterialPropertyBlock* m_StandardMatProps;
+  __declspec(property(get = __cordl_internal_get_m_StandardMatProps, put = __cordl_internal_set_m_StandardMatProps)) ::UnityEngine::MaterialPropertyBlock* m_StandardMatProps;
 
   /// @brief Field m_SubscribedToNotifications, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_m_SubscribedToNotifications, put = setStaticF_m_SubscribedToNotifications)) bool m_SubscribedToNotifications;
@@ -574,94 +592,89 @@ public:
   static __declspec(property(get = getStaticF_m_SynchronousFree, put = setStaticF_m_SynchronousFree)) bool m_SynchronousFree;
 
   /// @brief Field m_TextureSlotManager, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TextureSlotManager, put = __cordl_internal_set_m_TextureSlotManager))::UnityEngine::UIElements::UIR::TextureSlotManager* m_TextureSlotManager;
+  __declspec(property(get = __cordl_internal_get_m_TextureSlotManager, put = __cordl_internal_set_m_TextureSlotManager)) ::UnityEngine::UIElements::UIR::TextureSlotManager* m_TextureSlotManager;
 
   /// @brief Field m_Updates, offset 0x48, size 0x8
   __declspec(property(
       get = __cordl_internal_get_m_Updates,
-      put = __cordl_internal_set_m_Updates))::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate>*>* m_Updates;
+      put =
+          __cordl_internal_set_m_Updates)) ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate>*>* m_Updates;
 
   /// @brief Field m_VertexDecl, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_VertexDecl, put = __cordl_internal_set_m_VertexDecl))::System::IntPtr m_VertexDecl;
+  __declspec(property(get = __cordl_internal_get_m_VertexDecl, put = __cordl_internal_set_m_VertexDecl)) ::System::IntPtr m_VertexDecl;
 
   __declspec(property(get = get_maxVerticesPerPage)) uint32_t maxVerticesPerPage;
 
   /// @brief Field s_ClipRectsPropID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_ClipRectsPropID, put = setStaticF_s_ClipRectsPropID)) int32_t s_ClipRectsPropID;
 
-  /// @brief Field s_ClipSpaceParamsID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_ClipSpaceParamsID, put = setStaticF_s_ClipSpaceParamsID)) int32_t s_ClipSpaceParamsID;
-
   /// @brief Field s_DefaultShaderInfoTexARGB8, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultShaderInfoTexARGB8, put = setStaticF_s_DefaultShaderInfoTexARGB8))::UnityW<::UnityEngine::Texture2D> s_DefaultShaderInfoTexARGB8;
+  static __declspec(property(get = getStaticF_s_DefaultShaderInfoTexARGB8, put = setStaticF_s_DefaultShaderInfoTexARGB8)) ::UnityW<::UnityEngine::Texture2D> s_DefaultShaderInfoTexARGB8;
 
   /// @brief Field s_DefaultShaderInfoTexFloat, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultShaderInfoTexFloat, put = setStaticF_s_DefaultShaderInfoTexFloat))::UnityW<::UnityEngine::Texture2D> s_DefaultShaderInfoTexFloat;
-
-  /// @brief Field s_FontTexPropID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_FontTexPropID, put = setStaticF_s_FontTexPropID)) int32_t s_FontTexPropID;
-
-  /// @brief Field s_FontTexSDFScaleID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_FontTexSDFScaleID, put = setStaticF_s_FontTexSDFScaleID)) int32_t s_FontTexSDFScaleID;
+  static __declspec(property(get = getStaticF_s_DefaultShaderInfoTexFloat, put = setStaticF_s_DefaultShaderInfoTexFloat)) ::UnityW<::UnityEngine::Texture2D> s_DefaultShaderInfoTexFloat;
 
   /// @brief Field s_GradientSettingsTexID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_GradientSettingsTexID, put = setStaticF_s_GradientSettingsTexID)) int32_t s_GradientSettingsTexID;
 
   /// @brief Field s_MarkerAdvanceFrame, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerAdvanceFrame, put = setStaticF_s_MarkerAdvanceFrame))::Unity::Profiling::ProfilerMarker s_MarkerAdvanceFrame;
+  static __declspec(property(get = getStaticF_s_MarkerAdvanceFrame, put = setStaticF_s_MarkerAdvanceFrame)) ::Unity::Profiling::ProfilerMarker s_MarkerAdvanceFrame;
 
   /// @brief Field s_MarkerAllocate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerAllocate, put = setStaticF_s_MarkerAllocate))::Unity::Profiling::ProfilerMarker s_MarkerAllocate;
+  static __declspec(property(get = getStaticF_s_MarkerAllocate, put = setStaticF_s_MarkerAllocate)) ::Unity::Profiling::ProfilerMarker s_MarkerAllocate;
 
   /// @brief Field s_MarkerBeforeDraw, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerBeforeDraw, put = setStaticF_s_MarkerBeforeDraw))::Unity::Profiling::ProfilerMarker s_MarkerBeforeDraw;
+  static __declspec(property(get = getStaticF_s_MarkerBeforeDraw, put = setStaticF_s_MarkerBeforeDraw)) ::Unity::Profiling::ProfilerMarker s_MarkerBeforeDraw;
 
   /// @brief Field s_MarkerFence, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerFence, put = setStaticF_s_MarkerFence))::Unity::Profiling::ProfilerMarker s_MarkerFence;
+  static __declspec(property(get = getStaticF_s_MarkerFence, put = setStaticF_s_MarkerFence)) ::Unity::Profiling::ProfilerMarker s_MarkerFence;
 
   /// @brief Field s_MarkerFree, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerFree, put = setStaticF_s_MarkerFree))::Unity::Profiling::ProfilerMarker s_MarkerFree;
+  static __declspec(property(get = getStaticF_s_MarkerFree, put = setStaticF_s_MarkerFree)) ::Unity::Profiling::ProfilerMarker s_MarkerFree;
 
   /// @brief Field s_ShaderInfoTexID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_ShaderInfoTexID, put = setStaticF_s_ShaderInfoTexID)) int32_t s_ShaderInfoTexID;
 
   /// @brief Field s_ShaderModelIs35, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_s_ShaderModelIs35, put = setStaticF_s_ShaderModelIs35))::System::Nullable_1<bool> s_ShaderModelIs35;
+  static __declspec(property(get = getStaticF_s_ShaderModelIs35, put = setStaticF_s_ShaderModelIs35)) ::System::Nullable_1<bool> s_ShaderModelIs35;
 
   /// @brief Field s_TransformsPropID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_TransformsPropID, put = setStaticF_s_TransformsPropID)) int32_t s_TransformsPropID;
 
   /// @brief Field s_VertexTexturingIsAvailable, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_s_VertexTexturingIsAvailable, put = setStaticF_s_VertexTexturingIsAvailable))::System::Nullable_1<bool> s_VertexTexturingIsAvailable;
+  static __declspec(property(get = getStaticF_s_VertexTexturingIsAvailable, put = setStaticF_s_VertexTexturingIsAvailable)) ::System::Nullable_1<bool> s_VertexTexturingIsAvailable;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AdvanceFrame, addr 0x3566c18, size 0x9b4, virtual false, abstract: false, final false
+  /// @brief Method ActiveUpdatesForMeshHandle, addr 0x493c2c0, size 0x74, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate>* ActiveUpdatesForMeshHandle(::UnityEngine::UIElements::UIR::MeshHandle* mesh);
+
+  /// @brief Method AdvanceFrame, addr 0x493d030, size 0x9a4, virtual false, abstract: false, final false
   inline void AdvanceFrame();
 
-  /// @brief Method Allocate, addr 0x3564cc0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x493b094, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::MeshHandle* Allocate(uint32_t vertexCount, uint32_t indexCount, ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData,
                                                               ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indexData, ByRef<uint16_t> indexOffset);
 
-  /// @brief Method Allocate, addr 0x3564d80, size 0x634, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x493b154, size 0x620, virtual false, abstract: false, final false
   inline void Allocate(::UnityEngine::UIElements::UIR::MeshHandle* meshHandle, uint32_t vertexCount, uint32_t indexCount,
                        ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData, ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indexData, bool shortLived);
 
-  /// @brief Method ApplyBatchState, addr 0x35677f0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ApplyBatchState, addr 0x493db68, size 0x190, virtual false, abstract: false, final false
   inline void ApplyBatchState(ByRef<::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState> st, bool allowMaterialChange);
 
-  /// @brief Method ApplyDrawCommandState, addr 0x35675cc, size 0x224, virtual false, abstract: false, final false
-  inline void ApplyDrawCommandState(::UnityEngine::UIElements::UIR::RenderChainCommand* cmd, int32_t textureSlot, ::UnityEngine::Material* newMat, bool newMatDiffers, bool newFontDiffers,
+  /// @brief Method ApplyDrawCommandState, addr 0x493d9d4, size 0x194, virtual false, abstract: false, final false
+  inline void ApplyDrawCommandState(::UnityEngine::UIElements::UIR::RenderChainCommand* cmd, int32_t textureSlot, ::UnityEngine::Material* newMat, bool newMatDiffers,
                                     ByRef<::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState> st);
 
-  /// @brief Method CompleteCreation, addr 0x3564578, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method CompleteCreation, addr 0x493a954, size 0x194, virtual false, abstract: false, final false
   inline void CompleteCreation();
 
-  /// @brief Method Dispose, addr 0x3564740, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x493ab0c, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x35647ac, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x493ab78, size 0x14c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method DrawRanges, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -669,28 +682,25 @@ public:
   inline void DrawRanges(::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<I>* ib, ::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>* vb,
                          ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::DrawBufferRange> ranges);
 
-  /// @brief Method EvaluateChain, addr 0x3567974, size 0x1118, virtual false, abstract: false, final false
+  /// @brief Method EvaluateChain, addr 0x493dcf8, size 0xa94, virtual false, abstract: false, final false
   inline void EvaluateChain(::UnityEngine::UIElements::UIR::RenderChainCommand* head, ::UnityEngine::Material* initialMat, ::UnityEngine::Material* defaultMat,
                             ::UnityEngine::Texture* gradientSettings, ::UnityEngine::Texture* shaderInfo, float_t pixelsPerPoint,
                             ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::Transform3x4> transforms, ::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4> clipRects,
                             ::UnityEngine::MaterialPropertyBlock* stateMatProps, bool allowMaterialChange, ByRef<::System::Exception*> immediateException);
 
-  /// @brief Method FlushAllPendingDeviceDisposes, addr 0x3569ee0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method FlushAllPendingDeviceDisposes, addr 0x493fadc, size 0x78, virtual false, abstract: false, final false
   static inline void FlushAllPendingDeviceDisposes();
 
-  /// @brief Method Free, addr 0x3566260, size 0x84c, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x493c780, size 0x80c, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::MeshHandle* mesh);
 
-  /// @brief Method GatherDrawStatistics, addr 0x3569f58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GatherDrawStatistics, addr 0x493fb54, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics GatherDrawStatistics();
 
-  /// @brief Method GetClipSpaceParams, addr 0x3566aac, size 0xc8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector4 GetClipSpaceParams();
-
-  /// @brief Method InitVertexDeclaration, addr 0x3564310, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method InitVertexDeclaration, addr 0x493a6b8, size 0x29c, virtual false, abstract: false, final false
   inline void InitVertexDeclaration();
 
-  /// @brief Method KickRanges, addr 0x3568c58, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method KickRanges, addr 0x493e954, size 0x248, virtual false, abstract: false, final false
   inline void KickRanges(::cordl_internals::Ptr<::UnityEngine::UIElements::UIR::DrawBufferRange> ranges, ByRef<int32_t> rangesReady, ByRef<int32_t> rangesStart, int32_t rangesCount,
                          ::UnityEngine::UIElements::UIR::Page* curPage);
 
@@ -698,51 +708,54 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::UIRenderDevice* New_ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool mockDevice);
 
-  /// @brief Method OnEngineUpdateGlobal, addr 0x3569f70, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OnEngineUpdateGlobal, addr 0x493fb6c, size 0x4c, virtual false, abstract: false, final false
   static inline void OnEngineUpdateGlobal();
 
-  /// @brief Method OnFlushPendingResources, addr 0x3569fbc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnFlushPendingResources, addr 0x493fbb8, size 0x5c, virtual false, abstract: false, final false
   static inline void OnFlushPendingResources();
 
-  /// @brief Method OnFrameRenderingBegin, addr 0x3566b74, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnFrameRenderingBegin, addr 0x493cf8c, size 0xa4, virtual false, abstract: false, final false
   inline void OnFrameRenderingBegin();
 
-  /// @brief Method PrepareForGfxDeviceRecreate, addr 0x3569cf8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method PrepareForGfxDeviceRecreate, addr 0x493f8f4, size 0x188, virtual false, abstract: false, final false
   static inline void PrepareForGfxDeviceRecreate();
 
-  /// @brief Method ProcessDeviceFreeQueue, addr 0x3564924, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method ProcessDeviceFreeQueue, addr 0x493acf0, size 0x3a4, virtual false, abstract: false, final false
   static inline void ProcessDeviceFreeQueue();
 
-  /// @brief Method PruneUnusedPages, addr 0x3569bb0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method PruneUnusedPages, addr 0x493f7ac, size 0xdc, virtual false, abstract: false, final false
   inline void PruneUnusedPages();
 
   /// @brief Method PtrToSlice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Collections::NativeSlice_1<T> PtrToSlice(::cordl_internals::Ptr<void> p, int32_t count);
 
-  /// @brief Method TryAllocFromPage, addr 0x3565e08, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method TryAllocFromPage, addr 0x493c334, size 0x104, virtual false, abstract: false, final false
   inline bool TryAllocFromPage(::UnityEngine::UIElements::UIR::Page* page, uint32_t vertexCount, uint32_t indexCount, ByRef<::UnityEngine::UIElements::UIR::Alloc> va,
                                ByRef<::UnityEngine::UIElements::UIR::Alloc> ia, bool shortLived);
 
-  /// @brief Method Update, addr 0x3565c80, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x493c024, size 0x198, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::UIElements::UIR::MeshHandle* mesh, uint32_t vertexCount, uint32_t indexCount,
                      ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData, ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indexData,
                      ByRef<uint16_t> indexOffset);
 
-  /// @brief Method Update, addr 0x35653b4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x493b774, size 0x1c8, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::UIElements::UIR::MeshHandle* mesh, uint32_t vertexCount, ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData);
 
-  /// @brief Method UpdateAfterGPUUsedData, addr 0x356557c, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method UpdateAfterGPUUsedData, addr 0x493b93c, size 0x6e8, virtual false, abstract: false, final false
   inline void UpdateAfterGPUUsedData(::UnityEngine::UIElements::UIR::MeshHandle* mesh, uint32_t vertexCount, uint32_t indexCount,
                                      ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData, ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indexData,
                                      ByRef<uint16_t> indexOffset, ByRef<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate> allocToUpdate, bool copyBackIndices);
 
-  /// @brief Method UpdateFenceValue, addr 0x3569a5c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method UpdateCopyBackIndices, addr 0x493c1bc, size 0x104, virtual false, abstract: false, final false
+  inline void UpdateCopyBackIndices(::UnityEngine::UIElements::UIR::MeshHandle* mesh, bool copyBackIndices);
+
+  /// @brief Method UpdateFenceValue, addr 0x493f65c, size 0xc8, virtual false, abstract: false, final false
   inline void UpdateFenceValue();
 
-  /// @brief Method WaitOnCpuFence, addr 0x3569b28, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method WaitOnCpuFence, addr 0x493f724, size 0x88, virtual false, abstract: false, final false
   inline void WaitOnCpuFence(uint32_t fence);
 
-  /// @brief Method WrapUpGfxDeviceRecreate, addr 0x3569e80, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method WrapUpGfxDeviceRecreate, addr 0x493fa7c, size 0x60, virtual false, abstract: false, final false
   static inline void WrapUpGfxDeviceRecreate();
 
   constexpr bool const& __cordl_internal_get__breakBatches_k__BackingField() const;
@@ -870,10 +883,10 @@ public:
 
   constexpr void __cordl_internal_set_m_VertexDecl(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x35631d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4939fc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity);
 
-  /// @brief Method .ctor, addr 0x35631e0, size 0x5b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4939fc8, size 0x58c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool mockDevice);
 
   static inline int32_t getStaticF_m_ActiveDeviceCount();
@@ -886,15 +899,9 @@ public:
 
   static inline int32_t getStaticF_s_ClipRectsPropID();
 
-  static inline int32_t getStaticF_s_ClipSpaceParamsID();
-
   static inline ::UnityW<::UnityEngine::Texture2D> getStaticF_s_DefaultShaderInfoTexARGB8();
 
   static inline ::UnityW<::UnityEngine::Texture2D> getStaticF_s_DefaultShaderInfoTexFloat();
-
-  static inline int32_t getStaticF_s_FontTexPropID();
-
-  static inline int32_t getStaticF_s_FontTexSDFScaleID();
 
   static inline int32_t getStaticF_s_GradientSettingsTexID();
 
@@ -916,28 +923,28 @@ public:
 
   static inline ::System::Nullable_1<bool> getStaticF_s_VertexTexturingIsAvailable();
 
-  /// @brief Method get_breakBatches, addr 0x3562e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_breakBatches, addr 0x4939c88, size 0x8, virtual false, abstract: false, final false
   inline bool get_breakBatches();
 
-  /// @brief Method get_defaultShaderInfoTexARGB8, addr 0x3563c7c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method get_defaultShaderInfoTexARGB8, addr 0x49367b8, size 0x2cc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> get_defaultShaderInfoTexARGB8();
 
-  /// @brief Method get_defaultShaderInfoTexFloat, addr 0x35638e8, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method get_defaultShaderInfoTexFloat, addr 0x4936a84, size 0x394, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> get_defaultShaderInfoTexFloat();
 
-  /// @brief Method get_disposed, addr 0x356472c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x493aaf8, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_fullyCreated, addr 0x356471c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_fullyCreated, addr 0x493aae8, size 0x10, virtual false, abstract: false, final false
   inline bool get_fullyCreated();
 
-  /// @brief Method get_maxVerticesPerPage, addr 0x3562e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxVerticesPerPage, addr 0x4939c80, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_maxVerticesPerPage();
 
-  /// @brief Method get_shaderModelIs35, addr 0x356412c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method get_shaderModelIs35, addr 0x4934f60, size 0x1dc, virtual false, abstract: false, final false
   static inline bool get_shaderModelIs35();
 
-  /// @brief Method get_vertexTexturingIsAvailable, addr 0x3563f48, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method get_vertexTexturingIsAvailable, addr 0x4937090, size 0x1dc, virtual false, abstract: false, final false
   static inline bool get_vertexTexturingIsAvailable();
 
   /// @brief Convert to "::System::IDisposable"
@@ -953,15 +960,9 @@ public:
 
   static inline void setStaticF_s_ClipRectsPropID(int32_t value);
 
-  static inline void setStaticF_s_ClipSpaceParamsID(int32_t value);
-
   static inline void setStaticF_s_DefaultShaderInfoTexARGB8(::UnityW<::UnityEngine::Texture2D> value);
 
   static inline void setStaticF_s_DefaultShaderInfoTexFloat(::UnityW<::UnityEngine::Texture2D> value);
-
-  static inline void setStaticF_s_FontTexPropID(int32_t value);
-
-  static inline void setStaticF_s_FontTexSDFScaleID(int32_t value);
 
   static inline void setStaticF_s_GradientSettingsTexID(int32_t value);
 
@@ -983,10 +984,10 @@ public:
 
   static inline void setStaticF_s_VertexTexturingIsAvailable(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_breakBatches, addr 0x3562e14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_breakBatches, addr 0x4939c90, size 0xc, virtual false, abstract: false, final false
   inline void set_breakBatches(bool value);
 
-  /// @brief Method set_disposed, addr 0x3564734, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x493ab00, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -1062,6 +1063,9 @@ public:
 
   /// @brief Field <disposed>k__BackingField, offset: 0xad, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6388 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

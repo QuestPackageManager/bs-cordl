@@ -29,43 +29,43 @@ class HkdfBytesGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator);
 // Type: Org.BouncyCastle.Crypto.Generators::HkdfBytesGenerator
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::HkdfBytesGenerator*
 class CORDL_TYPE HkdfBytesGenerator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Digest))::Org::BouncyCastle::Crypto::IDigest* Digest;
+  __declspec(property(get = get_Digest)) ::Org::BouncyCastle::Crypto::IDigest* Digest;
 
   /// @brief Field currentT, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_currentT, put = __cordl_internal_set_currentT))::ArrayW<uint8_t, ::Array<uint8_t>*> currentT;
+  __declspec(property(get = __cordl_internal_get_currentT, put = __cordl_internal_set_currentT)) ::ArrayW<uint8_t, ::Array<uint8_t>*> currentT;
 
   /// @brief Field generatedBytes, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_generatedBytes, put = __cordl_internal_set_generatedBytes)) int32_t generatedBytes;
 
   /// @brief Field hMacHash, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_hMacHash, put = __cordl_internal_set_hMacHash))::Org::BouncyCastle::Crypto::Macs::HMac* hMacHash;
+  __declspec(property(get = __cordl_internal_get_hMacHash, put = __cordl_internal_set_hMacHash)) ::Org::BouncyCastle::Crypto::Macs::HMac* hMacHash;
 
   /// @brief Field hashLen, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_hashLen, put = __cordl_internal_set_hashLen)) int32_t hashLen;
 
   /// @brief Field info, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::ArrayW<uint8_t, ::Array<uint8_t>*> info;
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info)) ::ArrayW<uint8_t, ::Array<uint8_t>*> info;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
 
-  /// @brief Method ExpandNext, addr 0x116e37c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ExpandNext, addr 0x234700c, size 0x100, virtual false, abstract: false, final false
   inline void ExpandNext();
 
-  /// @brief Method Extract, addr 0x116e20c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x2346ea8, size 0x164, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* Extract(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::ArrayW<uint8_t, ::Array<uint8_t>*> ikm);
 
-  /// @brief Method GenerateBytes, addr 0x116e4a0, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method GenerateBytes, addr 0x234712c, size 0x1b8, virtual true, abstract: false, final false
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t len);
 
-  /// @brief Method Init, addr 0x116e034, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2346cd8, size 0x1d0, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* hash);
@@ -100,10 +100,10 @@ public:
 
   constexpr void __cordl_internal_set_info(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x116df40, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2346be8, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* hash);
 
-  /// @brief Method get_Digest, addr 0x116e480, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0x234710c, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
@@ -137,6 +137,9 @@ public:
 
   /// @brief Field generatedBytes, offset: 0x30, size: 0x4, def value: None
   int32_t ___generatedBytes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 906 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

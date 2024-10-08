@@ -25,7 +25,7 @@ template <typename T> class __TMP_ListPool_1____c;
 MARK_GEN_REF_PTR_T(::TMPro::TMP_ListPool_1);
 MARK_GEN_REF_PTR_T(::TMPro::__TMP_ListPool_1____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // cpp template
 template <typename T>
@@ -35,7 +35,7 @@ class CORDL_TYPE __TMP_ListPool_1____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::TMPro::__TMP_ListPool_1____c<T>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::TMPro::__TMP_ListPool_1____c<T>* __9;
 
   static inline ::TMPro::__TMP_ListPool_1____c<T>* New_ctor();
 
@@ -63,12 +63,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TMP_ListPool_1____c(__TMP_ListPool_1____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14471 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace TMPro
 // Type: TMPro::TMP_ListPool`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // cpp template
 template <typename T>
@@ -80,7 +83,7 @@ public:
   using __c = ::TMPro::__TMP_ListPool_1____c<T>;
 
   /// @brief Field s_ListPool, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ListPool, put = setStaticF_s_ListPool))::TMPro::TMP_ObjectPool_1<::System::Collections::Generic::List_1<T>*>* s_ListPool;
+  static __declspec(property(get = getStaticF_s_ListPool, put = setStaticF_s_ListPool)) ::TMPro::TMP_ObjectPool_1<::System::Collections::Generic::List_1<T>*>* s_ListPool;
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<T>* Get();
@@ -105,6 +108,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TMP_ListPool_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_ListPool_1(TMP_ListPool_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

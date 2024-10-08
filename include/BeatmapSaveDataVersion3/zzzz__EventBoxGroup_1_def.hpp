@@ -23,7 +23,7 @@ template <typename T> class EventBoxGroup_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::BeatmapSaveDataVersion3::EventBoxGroup_1);
 // Type: BeatmapSaveDataVersion3::EventBoxGroup`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // cpp template
 template <typename T>
@@ -32,12 +32,12 @@ template <typename T>
 class CORDL_TYPE EventBoxGroup_1 : public ::BeatmapSaveDataVersion3::EventBoxGroup {
 public:
   // Declarations
-  __declspec(property(get = get_baseEventBoxes))::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::EventBox*>* baseEventBoxes;
+  __declspec(property(get = get_baseEventBoxes)) ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::EventBox*>* baseEventBoxes;
 
   /// @brief Field e, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e))::System::Collections::Generic::List_1<T>* e;
+  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e)) ::System::Collections::Generic::List_1<T>* e;
 
-  __declspec(property(get = get_eventBoxes))::System::Collections::Generic::IReadOnlyList_1<T>* eventBoxes;
+  __declspec(property(get = get_eventBoxes)) ::System::Collections::Generic::IReadOnlyList_1<T>* eventBoxes;
 
   static inline ::BeatmapSaveDataVersion3::EventBoxGroup_1<T>* New_ctor(float_t beat, int32_t groupId, ::System::Collections::Generic::List_1<T>* eventBoxes);
 
@@ -72,6 +72,9 @@ public:
 
   /// @brief Field e, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ___e;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13353 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

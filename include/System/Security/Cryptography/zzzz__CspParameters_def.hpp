@@ -17,23 +17,23 @@ class CspParameters;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::CspParameters);
 // Type: System.Security.Cryptography::CspParameters
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::CspParameters*
 class CORDL_TYPE CspParameters : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Flags, put = set_Flags))::System::Security::Cryptography::CspProviderFlags Flags;
+  __declspec(property(get = get_Flags, put = set_Flags)) ::System::Security::Cryptography::CspProviderFlags Flags;
 
   /// @brief Field KeyContainerName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_KeyContainerName, put = __cordl_internal_set_KeyContainerName))::StringW KeyContainerName;
+  __declspec(property(get = __cordl_internal_get_KeyContainerName, put = __cordl_internal_set_KeyContainerName)) ::StringW KeyContainerName;
 
   /// @brief Field KeyNumber, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_KeyNumber, put = __cordl_internal_set_KeyNumber)) int32_t KeyNumber;
 
   /// @brief Field ProviderName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ProviderName, put = __cordl_internal_set_ProviderName))::StringW ProviderName;
+  __declspec(property(get = __cordl_internal_get_ProviderName, put = __cordl_internal_set_ProviderName)) ::StringW ProviderName;
 
   /// @brief Field ProviderType, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_ProviderType, put = __cordl_internal_set_ProviderType)) int32_t ProviderType;
@@ -80,22 +80,22 @@ public:
 
   constexpr void __cordl_internal_set_m_flags(int32_t value);
 
-  /// @brief Method .ctor, addr 0x280a1a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c291a4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x280a218, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c29214, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwTypeIn);
 
-  /// @brief Method .ctor, addr 0x280a1d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c291d0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwTypeIn, ::StringW strProviderNameIn, ::StringW strContainerNameIn);
 
-  /// @brief Method .ctor, addr 0x280a24c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c29248, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(int32_t providerType, ::StringW providerName, ::StringW keyContainerName, ::System::Security::Cryptography::CspProviderFlags flags);
 
-  /// @brief Method get_Flags, addr 0x280a0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x3c290b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::CspProviderFlags get_Flags();
 
-  /// @brief Method set_Flags, addr 0x280a0c0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method set_Flags, addr 0x3c290c0, size 0xe4, virtual false, abstract: false, final false
   inline void set_Flags(::System::Security::Cryptography::CspProviderFlags value);
 
 protected:
@@ -126,6 +126,9 @@ public:
 
   /// @brief Field m_flags, offset: 0x2c, size: 0x4, def value: None
   int32_t ___m_flags;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2926 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

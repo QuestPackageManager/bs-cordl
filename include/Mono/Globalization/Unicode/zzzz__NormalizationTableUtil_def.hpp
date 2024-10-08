@@ -16,7 +16,7 @@ class NormalizationTableUtil;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Globalization::Unicode::NormalizationTableUtil);
 // Type: Mono.Globalization.Unicode::NormalizationTableUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
 // CS Name: ::Mono.Globalization.Unicode::NormalizationTableUtil*
@@ -24,24 +24,24 @@ class CORDL_TYPE NormalizationTableUtil : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Combining, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Combining, put = setStaticF_Combining))::Mono::Globalization::Unicode::CodePointIndexer* Combining;
+  static __declspec(property(get = getStaticF_Combining, put = setStaticF_Combining)) ::Mono::Globalization::Unicode::CodePointIndexer* Combining;
 
   /// @brief Field Composite, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Composite, put = setStaticF_Composite))::Mono::Globalization::Unicode::CodePointIndexer* Composite;
+  static __declspec(property(get = getStaticF_Composite, put = setStaticF_Composite)) ::Mono::Globalization::Unicode::CodePointIndexer* Composite;
 
   /// @brief Field Helper, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper))::Mono::Globalization::Unicode::CodePointIndexer* Helper;
+  static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper)) ::Mono::Globalization::Unicode::CodePointIndexer* Helper;
 
   /// @brief Field Map, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Map, put = setStaticF_Map))::Mono::Globalization::Unicode::CodePointIndexer* Map;
+  static __declspec(property(get = getStaticF_Map, put = setStaticF_Map)) ::Mono::Globalization::Unicode::CodePointIndexer* Map;
 
   /// @brief Field Prop, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Prop, put = setStaticF_Prop))::Mono::Globalization::Unicode::CodePointIndexer* Prop;
+  static __declspec(property(get = getStaticF_Prop, put = setStaticF_Prop)) ::Mono::Globalization::Unicode::CodePointIndexer* Prop;
 
-  /// @brief Method MapIdx, addr 0x27c303c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MapIdx, addr 0x3be4e3c, size 0x68, virtual false, abstract: false, final false
   static inline int32_t MapIdx(int32_t cp);
 
-  /// @brief Method PropIdx, addr 0x27c2fd4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method PropIdx, addr 0x3be4dd4, size 0x68, virtual false, abstract: false, final false
   static inline int32_t PropIdx(int32_t cp);
 
   static inline ::Mono::Globalization::Unicode::CodePointIndexer* getStaticF_Combining();
@@ -77,6 +77,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NormalizationTableUtil", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NormalizationTableUtil(NormalizationTableUtil const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2266 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

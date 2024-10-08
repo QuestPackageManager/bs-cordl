@@ -22,7 +22,7 @@ class Development;
 MARK_VAL_T(::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache);
 MARK_REF_PTR_T(::Unity::XR::Oculus::Development);
 // Type: ::UserDeveloperModeSettingCache
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: true
 // CS Name: ::Development::UserDeveloperModeSettingCache
@@ -67,6 +67,9 @@ public:
   /// @brief Field UserSettingTrue value: static_cast<int32_t>(0x2)
   static ::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache const UserSettingTrue;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17338 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -79,7 +82,7 @@ static_assert(offsetof(::Unity::XR::Oculus::__Development__UserDeveloperModeSett
 
 } // namespace Unity::XR::Oculus
 // Type: Unity.XR.Oculus::Development
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
 // CS Name: ::Unity.XR.Oculus::Development*
@@ -89,15 +92,15 @@ public:
   using UserDeveloperModeSettingCache = ::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache;
 
   /// @brief Field s_CachedMode, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_CachedMode, put = setStaticF_s_CachedMode))::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache s_CachedMode;
+  static __declspec(property(get = getStaticF_s_CachedMode, put = setStaticF_s_CachedMode)) ::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache s_CachedMode;
 
-  /// @brief Method OverrideDeveloperModeStart, addr 0x33e3de4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OverrideDeveloperModeStart, addr 0x47bc130, size 0xd4, virtual false, abstract: false, final false
   static inline void OverrideDeveloperModeStart();
 
-  /// @brief Method OverrideDeveloperModeStop, addr 0x33e3eb8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OverrideDeveloperModeStop, addr 0x47bc20c, size 0x74, virtual false, abstract: false, final false
   static inline void OverrideDeveloperModeStop();
 
-  /// @brief Method TrySetDeveloperMode, addr 0x33e3d8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method TrySetDeveloperMode, addr 0x47bc0d8, size 0x58, virtual false, abstract: false, final false
   static inline void TrySetDeveloperMode(bool active);
 
   static inline ::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache getStaticF_s_CachedMode();
@@ -117,6 +120,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Development", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Development(Development const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17339 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

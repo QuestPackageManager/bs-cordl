@@ -14,7 +14,7 @@ class HMACSHA384;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::HMACSHA384);
 // Type: System.Security.Cryptography::HMACSHA384
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 98, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 98, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::HMACSHA384*
@@ -36,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set_m_useLegacyBlockSize(bool value);
 
-  /// @brief Method .ctor, addr 0x280cc5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2bb58, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x280cc80, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2bb7c, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method get_BlockSize, addr 0x280cd70, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_BlockSize, addr 0x3c2bc5c, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_BlockSize();
 
 protected:
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field m_useLegacyBlockSize, offset: 0x61, size: 0x1, def value: None
   bool ___m_useLegacyBlockSize;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2938 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

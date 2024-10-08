@@ -24,7 +24,7 @@ template <typename T> class ValueChangedBinder_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::HMUI::ValueChangedBinder_1);
 // Type: HMUI::ValueChangedBinder`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // cpp template
 template <typename T>
@@ -35,7 +35,7 @@ public:
   // Declarations
   /// @brief Field _bindings, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__bindings,
-                      put = __cordl_internal_set__bindings))::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* _bindings;
+                      put = __cordl_internal_set__bindings)) ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* _bindings;
 
   /// @brief Method AddBinding, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddBinding(::HMUI::IValueChanger_1<T>* valueChanger, ::System::Action_1<T>* action);
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field _bindings, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* ____bindings;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15983 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

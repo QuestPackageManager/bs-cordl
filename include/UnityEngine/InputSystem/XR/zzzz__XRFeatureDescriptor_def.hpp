@@ -24,7 +24,7 @@ struct XRFeatureDescriptor;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::XR::XRFeatureDescriptor);
 // Type: UnityEngine.InputSystem.XR::XRFeatureDescriptor
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.XR::XRFeatureDescriptor
@@ -52,6 +52,9 @@ public:
 
   /// @brief Field customSize, offset: 0x14, size: 0x4, def value: None
   uint32_t customSize;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6709 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

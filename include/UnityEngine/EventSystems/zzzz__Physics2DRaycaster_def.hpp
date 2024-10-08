@@ -25,19 +25,19 @@ class Physics2DRaycaster;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::Physics2DRaycaster);
 // Type: UnityEngine.EventSystems::Physics2DRaycaster
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: ::UnityEngine.EventSystems::Physics2DRaycaster*
 class CORDL_TYPE Physics2DRaycaster : public ::UnityEngine::EventSystems::PhysicsRaycaster {
 public:
   // Declarations
-  /// @brief Field m_Hits, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Hits, put = __cordl_internal_set_m_Hits))::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> m_Hits;
+  /// @brief Field m_Hits, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Hits, put = __cordl_internal_set_m_Hits)) ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> m_Hits;
 
   static inline ::UnityEngine::EventSystems::Physics2DRaycaster* New_ctor();
 
-  /// @brief Method Raycast, addr 0x3533694, size 0x5c0, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x4a66738, size 0x6ec, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
   constexpr ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> const& __cordl_internal_get_m_Hits() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Hits(::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> value);
 
-  /// @brief Method .ctor, addr 0x3533644, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a666e8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,15 +63,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Physics2DRaycaster(Physics2DRaycaster const&) = delete;
 
-  /// @brief Field m_Hits, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field m_Hits, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> ___m_Hits;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15177 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::Physics2DRaycaster, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::Physics2DRaycaster, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::Physics2DRaycaster, ___m_Hits) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::Physics2DRaycaster, ___m_Hits) == 0x48, "Offset mismatch!");
 
 } // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::Physics2DRaycaster);

@@ -21,7 +21,7 @@ class __CancellationTokenSource__LinkedNCancellationTokenSource;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::__CancellationTokenSource__LinkedNCancellationTokenSource);
 // Type: ::LinkedNCancellationTokenSource
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::CancellationTokenSource::LinkedNCancellationTokenSource*
@@ -31,7 +31,7 @@ public:
   using __c = ::GlobalNamespace::__CancellationTokenSource__LinkedNCancellationTokenSource____c;
 
   /// @brief Field s_linkedTokenCancelDelegate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_linkedTokenCancelDelegate, put = setStaticF_s_linkedTokenCancelDelegate))::System::Action_1<::System::Object*>* s_linkedTokenCancelDelegate;
+  static __declspec(property(get = getStaticF_s_linkedTokenCancelDelegate, put = setStaticF_s_linkedTokenCancelDelegate)) ::System::Action_1<::System::Object*>* s_linkedTokenCancelDelegate;
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_linkedTokenCancelDelegate();
 
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "__CancellationTokenSource__LinkedNCancellationTokenSource", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   __CancellationTokenSource__LinkedNCancellationTokenSource(__CancellationTokenSource__LinkedNCancellationTokenSource const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2690 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ struct VREvent_Controller_t;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::VREvent_Controller_t);
 // Type: OVR.OpenVR::VREvent_Controller_t
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::VREvent_Controller_t
@@ -29,6 +29,9 @@ public:
 
   /// @brief Field button, offset: 0x0, size: 0x4, def value: None
   uint32_t button;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8949 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

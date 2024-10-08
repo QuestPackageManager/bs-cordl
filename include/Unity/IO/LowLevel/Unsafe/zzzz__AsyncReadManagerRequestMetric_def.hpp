@@ -31,7 +31,7 @@ struct AsyncReadManagerRequestMetric;
 // Write type traits
 MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric);
 // Type: Unity.IO.LowLevel.Unsafe::AsyncReadManagerRequestMetric
-// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
 // CS Name: ::Unity.IO.LowLevel.Unsafe::AsyncReadManagerRequestMetric
@@ -102,6 +102,9 @@ public:
 
   /// @brief Field <TotalTimeMicroseconds>k__BackingField, offset: 0x58, size: 0x8, def value: None
   double_t _TotalTimeMicroseconds_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10543 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

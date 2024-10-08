@@ -31,7 +31,7 @@ class RemotingSurrogateSelector;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector);
 // Type: System.Runtime.Remoting.Messaging::RemotingSurrogateSelector
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::RemotingSurrogateSelector*
@@ -39,21 +39,21 @@ class CORDL_TYPE RemotingSurrogateSelector : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _next, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next))::System::Runtime::Serialization::ISurrogateSelector* _next;
+  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next)) ::System::Runtime::Serialization::ISurrogateSelector* _next;
 
   /// @brief Field _objRefSurrogate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__objRefSurrogate, put = setStaticF__objRefSurrogate))::System::Runtime::Remoting::Messaging::ObjRefSurrogate* _objRefSurrogate;
+  static __declspec(property(get = getStaticF__objRefSurrogate, put = setStaticF__objRefSurrogate)) ::System::Runtime::Remoting::Messaging::ObjRefSurrogate* _objRefSurrogate;
 
   /// @brief Field _objRemotingSurrogate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__objRemotingSurrogate, put = setStaticF__objRemotingSurrogate))::System::Runtime::Remoting::Messaging::RemotingSurrogate* _objRemotingSurrogate;
+  static __declspec(property(get = getStaticF__objRemotingSurrogate, put = setStaticF__objRemotingSurrogate)) ::System::Runtime::Remoting::Messaging::RemotingSurrogate* _objRemotingSurrogate;
 
   /// @brief Field s_cachedTypeObjRef, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_cachedTypeObjRef, put = setStaticF_s_cachedTypeObjRef))::System::Type* s_cachedTypeObjRef;
+  static __declspec(property(get = getStaticF_s_cachedTypeObjRef, put = setStaticF_s_cachedTypeObjRef)) ::System::Type* s_cachedTypeObjRef;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISurrogateSelector"
   constexpr operator ::System::Runtime::Serialization::ISurrogateSelector*() noexcept;
 
-  /// @brief Method GetSurrogate, addr 0x286088c, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method GetSurrogate, addr 0x3c7bfa4, size 0x19c, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context,
                                                                                  ByRef<::System::Runtime::Serialization::ISurrogateSelector*> ssout);
 
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__next(::System::Runtime::Serialization::ISurrogateSelector* value);
 
-  /// @brief Method .ctor, addr 0x2860884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c7bf9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Remoting::Messaging::ObjRefSurrogate* getStaticF__objRefSurrogate();
@@ -99,6 +99,9 @@ public:
 
   /// @brief Field _next, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::ISurrogateSelector* ____next;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3184 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

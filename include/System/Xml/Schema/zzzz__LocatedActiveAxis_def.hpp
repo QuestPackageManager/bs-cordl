@@ -19,7 +19,7 @@ class LocatedActiveAxis;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::LocatedActiveAxis);
 // Type: System.Xml.Schema::LocatedActiveAxis
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::LocatedActiveAxis*
@@ -29,7 +29,7 @@ public:
   __declspec(property(get = get_Column)) int32_t Column;
 
   /// @brief Field Ks, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_Ks, put = __cordl_internal_set_Ks))::System::Xml::Schema::KeySequence* Ks;
+  __declspec(property(get = __cordl_internal_get_Ks, put = __cordl_internal_set_Ks)) ::System::Xml::Schema::KeySequence* Ks;
 
   /// @brief Field column, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_column, put = __cordl_internal_set_column)) int32_t column;
@@ -39,7 +39,7 @@ public:
 
   static inline ::System::Xml::Schema::LocatedActiveAxis* New_ctor(::System::Xml::Schema::Asttree* astfield, ::System::Xml::Schema::KeySequence* ks, int32_t column);
 
-  /// @brief Method Reactivate, addr 0x2f25a08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reactivate, addr 0x4321d04, size 0x18, virtual false, abstract: false, final false
   inline void Reactivate(::System::Xml::Schema::KeySequence* ks);
 
   constexpr ::System::Xml::Schema::KeySequence*& __cordl_internal_get_Ks();
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set_isMatched(bool value);
 
-  /// @brief Method .ctor, addr 0x2f259d8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4321cd4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::Asttree* astfield, ::System::Xml::Schema::KeySequence* ks, int32_t column);
 
-  /// @brief Method get_Column, addr 0x2f259d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Column, addr 0x4321ccc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Column();
 
 protected:
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field Ks, offset: 0x30, size: 0x8, def value: None
   ::System::Xml::Schema::KeySequence* ___Ks;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7454 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

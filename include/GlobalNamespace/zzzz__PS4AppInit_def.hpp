@@ -53,7 +53,7 @@ struct __PS4AppInit___PreloadAsync_d__7;
 MARK_REF_PTR_T(::GlobalNamespace::PS4AppInit);
 MARK_VAL_T(::GlobalNamespace::__PS4AppInit___PreloadAsync_d__7);
 // Type: ::<PreloadAsync>d__7
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PS4AppInit::<PreloadAsync>d__7
@@ -63,10 +63,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x262fd44, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26da9a4, size 0x1ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x262fefc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26dab90, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -94,6 +94,9 @@ public:
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17873 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
@@ -112,7 +115,7 @@ static_assert(offsetof(::GlobalNamespace::__PS4AppInit___PreloadAsync_d__7, __u_
 
 } // namespace GlobalNamespace
 // Type: ::PS4AppInit
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PS4AppInit*
@@ -121,47 +124,49 @@ public:
   // Declarations
   using _PreloadAsync_d__7 = ::GlobalNamespace::__PS4AppInit___PreloadAsync_d__7;
 
-  /// @brief Field _activePublisherSKUSettingsSO, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__activePublisherSKUSettingsSO,
-                      put = __cordl_internal_set__activePublisherSKUSettingsSO))::UnityW<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO> _activePublisherSKUSettingsSO;
+  /// @brief Field _activePublisherSKUSettingsSO, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__activePublisherSKUSettingsSO, put = __cordl_internal_set__activePublisherSKUSettingsSO)) ::UnityW<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO>
+      _activePublisherSKUSettingsSO;
 
-  /// @brief Field _appInitScenesTransitionSetupDataContainer, offset 0x78, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__appInitScenesTransitionSetupDataContainer,
-      put = __cordl_internal_set__appInitScenesTransitionSetupDataContainer))::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> _appInitScenesTransitionSetupDataContainer;
+  /// @brief Field _appInitScenesTransitionSetupDataContainer, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__appInitScenesTransitionSetupDataContainer,
+                      put = __cordl_internal_set__appInitScenesTransitionSetupDataContainer)) ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO>
+      _appInitScenesTransitionSetupDataContainer;
 
-  /// @brief Field _defaultScenesTransitionsFromInit, offset 0x70, size 0x8
+  /// @brief Field _defaultScenesTransitionsFromInit, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultScenesTransitionsFromInit,
-                      put = __cordl_internal_set__defaultScenesTransitionsFromInit))::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> _defaultScenesTransitionsFromInit;
+                      put = __cordl_internal_set__defaultScenesTransitionsFromInit)) ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit>
+      _defaultScenesTransitionsFromInit;
 
-  /// @brief Field _mainSystemInit, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainSystemInit, put = __cordl_internal_set__mainSystemInit))::UnityW<::GlobalNamespace::MainSystemInit> _mainSystemInit;
+  /// @brief Field _mainSystemInit, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainSystemInit, put = __cordl_internal_set__mainSystemInit)) ::UnityW<::GlobalNamespace::MainSystemInit> _mainSystemInit;
 
-  /// @brief Field _settingsApplicator, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__settingsApplicator, put = __cordl_internal_set__settingsApplicator))::UnityW<::GlobalNamespace::SettingsApplicatorSO> _settingsApplicator;
+  /// @brief Field _settingsApplicator, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__settingsApplicator, put = __cordl_internal_set__settingsApplicator)) ::UnityW<::GlobalNamespace::SettingsApplicatorSO> _settingsApplicator;
 
-  /// @brief Field _sonyOnGoingToBackgroundSaveHandler, offset 0x88, size 0x8
+  /// @brief Field _sonyOnGoingToBackgroundSaveHandler, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__sonyOnGoingToBackgroundSaveHandler,
-                      put = __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler))::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> _sonyOnGoingToBackgroundSaveHandler;
+                      put = __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler)) ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler>
+      _sonyOnGoingToBackgroundSaveHandler;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x262f990, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x26da560, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method InitializeModules, addr 0x262f860, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InitializeModules, addr 0x26da438, size 0x68, virtual false, abstract: false, final false
   static inline int32_t InitializeModules();
 
-  /// @brief Method InstallBindings, addr 0x262facc, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26da730, size 0x214, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PS4AppInit* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x262f8c8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x26da4a0, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x262f9f8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x26da5c8, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x262fa98, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x26da668, size 0xc8, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
   constexpr ::UnityW<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO> const& __cordl_internal_get__activePublisherSKUSettingsSO() const;
@@ -200,10 +205,10 @@ public:
 
   constexpr void __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler(::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> value);
 
-  /// @brief Method <>n__0, addr 0x262fd3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x26da99c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0();
 
-  /// @brief Method .ctor, addr 0x262fce4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26da944, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -220,40 +225,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PS4AppInit(PS4AppInit const&) = delete;
 
-  /// @brief Field _mainSystemInit, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _mainSystemInit, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSystemInit> ____mainSystemInit;
 
-  /// @brief Field _settingsApplicator, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _settingsApplicator, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SettingsApplicatorSO> ____settingsApplicator;
 
-  /// @brief Field _defaultScenesTransitionsFromInit, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _defaultScenesTransitionsFromInit, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> ____defaultScenesTransitionsFromInit;
 
-  /// @brief Field _appInitScenesTransitionSetupDataContainer, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _appInitScenesTransitionSetupDataContainer, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> ____appInitScenesTransitionSetupDataContainer;
 
-  /// @brief Field _activePublisherSKUSettingsSO, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _activePublisherSKUSettingsSO, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO> ____activePublisherSKUSettingsSO;
 
-  /// @brief Field _sonyOnGoingToBackgroundSaveHandler, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _sonyOnGoingToBackgroundSaveHandler, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> ____sonyOnGoingToBackgroundSaveHandler;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17874 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PS4AppInit, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PS4AppInit, 0x98>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____mainSystemInit) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____mainSystemInit) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____settingsApplicator) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____settingsApplicator) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____defaultScenesTransitionsFromInit) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____defaultScenesTransitionsFromInit) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____appInitScenesTransitionSetupDataContainer) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____appInitScenesTransitionSetupDataContainer) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____activePublisherSKUSettingsSO) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____activePublisherSKUSettingsSO) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____sonyOnGoingToBackgroundSaveHandler) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____sonyOnGoingToBackgroundSaveHandler) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PS4AppInit);

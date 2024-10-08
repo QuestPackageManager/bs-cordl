@@ -14,7 +14,7 @@ class Record;
 // Write type traits
 MARK_REF_PTR_T(::Assets::OVR::Scripts::Record);
 // Type: Assets.OVR.Scripts::Record
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Assets::OVR::Scripts {
 // Is value type: false
 // CS Name: ::Assets.OVR.Scripts::Record*
@@ -22,10 +22,10 @@ class CORDL_TYPE Record : public ::System::Object {
 public:
   // Declarations
   /// @brief Field category, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_category, put = __cordl_internal_set_category))::StringW category;
+  __declspec(property(get = __cordl_internal_get_category, put = __cordl_internal_set_category)) ::StringW category;
 
   /// @brief Field message, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message))::StringW message;
+  __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message)) ::StringW message;
 
   /// @brief Field sortOrder, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_sortOrder, put = __cordl_internal_set_sortOrder)) int32_t sortOrder;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_sortOrder(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c01510, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4002c90, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg);
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field message, offset: 0x20, size: 0x8, def value: None
   ::StringW ___message;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9017 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

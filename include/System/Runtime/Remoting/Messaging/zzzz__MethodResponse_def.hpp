@@ -66,7 +66,7 @@ class MethodResponse;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::MethodResponse);
 // Type: System.Runtime.Remoting.Messaging::MethodResponse
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::MethodResponse*
@@ -75,79 +75,79 @@ public:
   // Declarations
   __declspec(property(get = get_ArgCount)) int32_t ArgCount;
 
-  __declspec(property(get = get_Args))::ArrayW<::System::Object*, ::Array<::System::Object*>*> Args;
+  __declspec(property(get = get_Args)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> Args;
 
-  __declspec(property(get = get_Exception))::System::Exception* Exception;
+  __declspec(property(get = get_Exception)) ::System::Exception* Exception;
 
   /// @brief Field ExternalProperties, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_ExternalProperties, put = __cordl_internal_set_ExternalProperties))::System::Collections::IDictionary* ExternalProperties;
+  __declspec(property(get = __cordl_internal_get_ExternalProperties, put = __cordl_internal_set_ExternalProperties)) ::System::Collections::IDictionary* ExternalProperties;
 
   /// @brief Field InternalProperties, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_InternalProperties, put = __cordl_internal_set_InternalProperties))::System::Collections::IDictionary* InternalProperties;
+  __declspec(property(get = __cordl_internal_get_InternalProperties, put = __cordl_internal_set_InternalProperties)) ::System::Collections::IDictionary* InternalProperties;
 
-  __declspec(property(get = get_LogicalCallContext))::System::Runtime::Remoting::Messaging::LogicalCallContext* LogicalCallContext;
+  __declspec(property(get = get_LogicalCallContext)) ::System::Runtime::Remoting::Messaging::LogicalCallContext* LogicalCallContext;
 
-  __declspec(property(get = get_MethodBase))::System::Reflection::MethodBase* MethodBase;
+  __declspec(property(get = get_MethodBase)) ::System::Reflection::MethodBase* MethodBase;
 
-  __declspec(property(get = get_MethodName))::StringW MethodName;
+  __declspec(property(get = get_MethodName)) ::StringW MethodName;
 
-  __declspec(property(get = get_MethodSignature))::System::Object* MethodSignature;
+  __declspec(property(get = get_MethodSignature)) ::System::Object* MethodSignature;
 
-  __declspec(property(get = get_OutArgs))::ArrayW<::System::Object*, ::Array<::System::Object*>*> OutArgs;
+  __declspec(property(get = get_OutArgs)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> OutArgs;
 
-  __declspec(property(get = get_Properties))::System::Collections::IDictionary* Properties;
+  __declspec(property(get = get_Properties)) ::System::Collections::IDictionary* Properties;
 
-  __declspec(property(get = get_ReturnValue))::System::Object* ReturnValue;
+  __declspec(property(get = get_ReturnValue)) ::System::Object* ReturnValue;
 
-  __declspec(
-      property(get = System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity,
-               put = System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity))::System::Runtime::Remoting::Identity* System_Runtime_Remoting_Messaging_IInternalMessage_TargetIdentity;
+  __declspec(property(
+      get = System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity,
+      put = System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity)) ::System::Runtime::Remoting::Identity* System_Runtime_Remoting_Messaging_IInternalMessage_TargetIdentity;
 
   __declspec(property(get = System_Runtime_Remoting_Messaging_IInternalMessage_get_Uri,
-                      put = System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri))::StringW System_Runtime_Remoting_Messaging_IInternalMessage_Uri;
+                      put = System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri)) ::StringW System_Runtime_Remoting_Messaging_IInternalMessage_Uri;
 
-  __declspec(property(get = get_TypeName))::StringW TypeName;
+  __declspec(property(get = get_TypeName)) ::StringW TypeName;
 
-  __declspec(property(get = get_Uri, put = set_Uri))::StringW Uri;
+  __declspec(property(get = get_Uri, put = set_Uri)) ::StringW Uri;
 
   /// @brief Field _args, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__args, put = __cordl_internal_set__args))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _args;
+  __declspec(property(get = __cordl_internal_get__args, put = __cordl_internal_set__args)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> _args;
 
   /// @brief Field _callContext, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__callContext, put = __cordl_internal_set__callContext))::System::Runtime::Remoting::Messaging::LogicalCallContext* _callContext;
+  __declspec(property(get = __cordl_internal_get__callContext, put = __cordl_internal_set__callContext)) ::System::Runtime::Remoting::Messaging::LogicalCallContext* _callContext;
 
   /// @brief Field _callMsg, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__callMsg, put = __cordl_internal_set__callMsg))::System::Runtime::Remoting::Messaging::IMethodCallMessage* _callMsg;
+  __declspec(property(get = __cordl_internal_get__callMsg, put = __cordl_internal_set__callMsg)) ::System::Runtime::Remoting::Messaging::IMethodCallMessage* _callMsg;
 
   /// @brief Field _exception, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__exception, put = __cordl_internal_set__exception))::System::Exception* _exception;
+  __declspec(property(get = __cordl_internal_get__exception, put = __cordl_internal_set__exception)) ::System::Exception* _exception;
 
   /// @brief Field _inArgInfo, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__inArgInfo, put = __cordl_internal_set__inArgInfo))::System::Runtime::Remoting::Messaging::ArgInfo* _inArgInfo;
+  __declspec(property(get = __cordl_internal_get__inArgInfo, put = __cordl_internal_set__inArgInfo)) ::System::Runtime::Remoting::Messaging::ArgInfo* _inArgInfo;
 
   /// @brief Field _methodBase, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__methodBase, put = __cordl_internal_set__methodBase))::System::Reflection::MethodBase* _methodBase;
+  __declspec(property(get = __cordl_internal_get__methodBase, put = __cordl_internal_set__methodBase)) ::System::Reflection::MethodBase* _methodBase;
 
   /// @brief Field _methodName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__methodName, put = __cordl_internal_set__methodName))::StringW _methodName;
+  __declspec(property(get = __cordl_internal_get__methodName, put = __cordl_internal_set__methodName)) ::StringW _methodName;
 
   /// @brief Field _methodSignature, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__methodSignature, put = __cordl_internal_set__methodSignature))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _methodSignature;
+  __declspec(property(get = __cordl_internal_get__methodSignature, put = __cordl_internal_set__methodSignature)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> _methodSignature;
 
   /// @brief Field _outArgs, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__outArgs, put = __cordl_internal_set__outArgs))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _outArgs;
+  __declspec(property(get = __cordl_internal_get__outArgs, put = __cordl_internal_set__outArgs)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> _outArgs;
 
   /// @brief Field _returnValue, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__returnValue, put = __cordl_internal_set__returnValue))::System::Object* _returnValue;
+  __declspec(property(get = __cordl_internal_get__returnValue, put = __cordl_internal_set__returnValue)) ::System::Object* _returnValue;
 
   /// @brief Field _targetIdentity, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__targetIdentity, put = __cordl_internal_set__targetIdentity))::System::Runtime::Remoting::Identity* _targetIdentity;
+  __declspec(property(get = __cordl_internal_get__targetIdentity, put = __cordl_internal_set__targetIdentity)) ::System::Runtime::Remoting::Identity* _targetIdentity;
 
   /// @brief Field _typeName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__typeName, put = __cordl_internal_set__typeName))::StringW _typeName;
+  __declspec(property(get = __cordl_internal_get__typeName, put = __cordl_internal_set__typeName)) ::StringW _typeName;
 
   /// @brief Field _uri, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__uri, put = __cordl_internal_set__uri))::StringW _uri;
+  __declspec(property(get = __cordl_internal_get__uri, put = __cordl_internal_set__uri)) ::StringW _uri;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IInternalMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IInternalMessage*() noexcept;
@@ -164,13 +164,13 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetArg, addr 0x285f150, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method GetArg, addr 0x3c7a9b8, size 0x34, virtual true, abstract: false, final true
   inline ::System::Object* GetArg(int32_t argNum);
 
-  /// @brief Method GetObjectData, addr 0x285f184, size 0x490, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3c7a9ec, size 0x488, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InitMethodProperty, addr 0x285e55c, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method InitMethodProperty, addr 0x3c79db0, size 0x4bc, virtual false, abstract: false, final false
   inline void InitMethodProperty(::StringW key, ::System::Object* value);
 
   static inline ::System::Runtime::Remoting::Messaging::MethodResponse* New_ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
@@ -184,16 +184,16 @@ public:
                                                                                  ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx,
                                                                                  ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity, addr 0x285f6cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity, addr 0x3c7af2c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Identity* System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity();
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri, addr 0x285f144, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri, addr 0x3c7a9ac, size 0x4, virtual true, abstract: false, final true
   inline ::StringW System_Runtime_Remoting_Messaging_IInternalMessage_get_Uri();
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity, addr 0x285f6d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity, addr 0x3c7af34, size 0x8, virtual true, abstract: false, final true
   inline void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(::System::Runtime::Remoting::Identity* value);
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri, addr 0x285f148, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri, addr 0x3c7a9b0, size 0x8, virtual true, abstract: false, final true
   inline void System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri(::StringW value);
 
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get_ExternalProperties();
@@ -286,53 +286,53 @@ public:
 
   constexpr void __cordl_internal_set__uri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x285df34, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c79794, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method .ctor, addr 0x285e378, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c79bd0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x285e11c, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c79978, size 0x258, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg, ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* retmsg);
 
-  /// @brief Method .ctor, addr 0x285e048, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c798a4, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* returnValue, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> outArgs, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx,
                     ::System::Runtime::Remoting::Messaging::IMethodCallMessage* msg);
 
-  /// @brief Method get_ArgCount, addr 0x285ea30, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_ArgCount, addr 0x3c7a2a0, size 0x18, virtual true, abstract: false, final true
   inline int32_t get_ArgCount();
 
-  /// @brief Method get_Args, addr 0x285ea48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Args, addr 0x3c7a2b8, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_Args();
 
-  /// @brief Method get_Exception, addr 0x285ea50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Exception, addr 0x3c7a2c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Exception* get_Exception();
 
-  /// @brief Method get_LogicalCallContext, addr 0x285ea58, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_LogicalCallContext, addr 0x3c7a2c8, size 0x64, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
 
-  /// @brief Method get_MethodBase, addr 0x285eac4, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method get_MethodBase, addr 0x3c7a32c, size 0x10c, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodBase* get_MethodBase();
 
-  /// @brief Method get_MethodName, addr 0x285ebd0, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method get_MethodName, addr 0x3c7a438, size 0xb8, virtual true, abstract: false, final true
   inline ::StringW get_MethodName();
 
-  /// @brief Method get_MethodSignature, addr 0x285ed40, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method get_MethodSignature, addr 0x3c7a5a8, size 0x114, virtual true, abstract: false, final true
   inline ::System::Object* get_MethodSignature();
 
-  /// @brief Method get_OutArgs, addr 0x285ee54, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method get_OutArgs, addr 0x3c7a6bc, size 0xac, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_OutArgs();
 
-  /// @brief Method get_Properties, addr 0x285ef00, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x3c7a768, size 0x80, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
-  /// @brief Method get_ReturnValue, addr 0x285f07c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ReturnValue, addr 0x3c7a8e4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_ReturnValue();
 
-  /// @brief Method get_TypeName, addr 0x285ec88, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeName, addr 0x3c7a4f0, size 0xb8, virtual true, abstract: false, final true
   inline ::StringW get_TypeName();
 
-  /// @brief Method get_Uri, addr 0x285f084, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method get_Uri, addr 0x3c7a8ec, size 0xb8, virtual true, abstract: false, final true
   inline ::StringW get_Uri();
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IInternalMessage"
@@ -350,7 +350,7 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method set_Uri, addr 0x285f13c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Uri, addr 0x3c7a9a4, size 0x8, virtual false, abstract: false, final false
   inline void set_Uri(::StringW value);
 
 protected:
@@ -411,6 +411,9 @@ public:
 
   /// @brief Field InternalProperties, offset: 0x80, size: 0x8, def value: None
   ::System::Collections::IDictionary* ___InternalProperties;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3177 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

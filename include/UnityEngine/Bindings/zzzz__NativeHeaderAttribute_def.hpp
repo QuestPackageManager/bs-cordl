@@ -13,17 +13,17 @@ class NativeHeaderAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Bindings::NativeHeaderAttribute);
 // Type: UnityEngine.Bindings::NativeHeaderAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
 // CS Name: ::UnityEngine.Bindings::NativeHeaderAttribute*
 class CORDL_TYPE NativeHeaderAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(put = set_Header))::StringW Header;
+  __declspec(property(put = set_Header)) ::StringW Header;
 
   /// @brief Field <Header>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Header_k__BackingField, put = __cordl_internal_set__Header_k__BackingField))::StringW _Header_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Header_k__BackingField, put = __cordl_internal_set__Header_k__BackingField)) ::StringW _Header_k__BackingField;
 
   static inline ::UnityEngine::Bindings::NativeHeaderAttribute* New_ctor(::StringW header);
 
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__Header_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x34aab54, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489d5ec, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
-  /// @brief Method set_Header, addr 0x34aab4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Header, addr 0x489d5e4, size 0x8, virtual true, abstract: false, final true
   inline void set_Header(::StringW value);
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field <Header>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Header_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18580 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

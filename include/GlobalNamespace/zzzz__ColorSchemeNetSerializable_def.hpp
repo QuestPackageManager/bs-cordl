@@ -28,7 +28,7 @@ struct ColorSchemeNetSerializable;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::ColorSchemeNetSerializable);
 // Type: ::ColorSchemeNetSerializable
-// SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ColorSchemeNetSerializable
@@ -38,13 +38,13 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Method Deserialize, addr 0x109bdb8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x227a60c, size 0x80, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize, addr 0x109bd38, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x227a58c, size 0x80, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method .ctor, addr 0x109bbb8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227a40c, size 0x180, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0,
                     ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field environmentColor1Boost, offset: 0x60, size: 0x10, def value: None
   ::GlobalNamespace::ColorNoAlphaSerializable environmentColor1Boost;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14652 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };

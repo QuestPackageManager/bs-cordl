@@ -19,7 +19,7 @@ class Test_HAPI_TransformEuler;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_TransformEuler);
 // Type: HoudiniEngineUnity::Test_HAPI_TransformEuler
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_TransformEuler*
@@ -27,12 +27,12 @@ class CORDL_TYPE Test_HAPI_TransformEuler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field self, offset 0x10, size 0x28
-  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self))::HoudiniEngineUnity::HAPI_TransformEuler self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self)) ::HoudiniEngineUnity::HAPI_TransformEuler self;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_TransformEuler*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_TransformEuler*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x25f37fc, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a2d5d0, size 0x254, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_TransformEuler* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_TransformEuler* New_ctor(::HoudiniEngineUnity::HAPI_TransformEuler self);
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_TransformEuler value);
 
-  /// @brief Method .ctor, addr 0x25f37c8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a2d59c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_TransformEuler self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_TransformEuler*>"
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field self, offset: 0x10, size: 0x28, def value: None
   ::HoudiniEngineUnity::HAPI_TransformEuler ___self;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11844 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

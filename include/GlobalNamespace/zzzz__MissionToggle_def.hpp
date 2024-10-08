@@ -50,58 +50,58 @@ class MissionToggle;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionToggle);
 // Type: ::MissionToggle
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 164, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MissionToggle*
 class CORDL_TYPE MissionToggle : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
-  /// @brief Field _bgImage, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage))::UnityW<::UnityEngine::UI::Image> _bgImage;
+  /// @brief Field _bgImage, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage)) ::UnityW<::UnityEngine::UI::Image> _bgImage;
 
-  /// @brief Field _clearedImage, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__clearedImage, put = __cordl_internal_set__clearedImage))::UnityW<::UnityEngine::UI::Image> _clearedImage;
+  /// @brief Field _clearedImage, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__clearedImage, put = __cordl_internal_set__clearedImage)) ::UnityW<::UnityEngine::UI::Image> _clearedImage;
 
-  /// @brief Field _disabledColor, offset 0x50, size 0x10
-  __declspec(property(get = __cordl_internal_get__disabledColor, put = __cordl_internal_set__disabledColor))::UnityEngine::Color _disabledColor;
+  /// @brief Field _disabledColor, offset 0x58, size 0x10
+  __declspec(property(get = __cordl_internal_get__disabledColor, put = __cordl_internal_set__disabledColor)) ::UnityEngine::Color _disabledColor;
 
-  /// @brief Field _highlightColor, offset 0x80, size 0x10
-  __declspec(property(get = __cordl_internal_get__highlightColor, put = __cordl_internal_set__highlightColor))::UnityEngine::Color _highlightColor;
+  /// @brief Field _highlightColor, offset 0x88, size 0x10
+  __declspec(property(get = __cordl_internal_get__highlightColor, put = __cordl_internal_set__highlightColor)) ::UnityEngine::Color _highlightColor;
 
-  /// @brief Field _highlighted, offset 0x99, size 0x1
+  /// @brief Field _highlighted, offset 0xa1, size 0x1
   __declspec(property(get = __cordl_internal_get__highlighted, put = __cordl_internal_set__highlighted)) bool _highlighted;
 
-  /// @brief Field _interactable, offset 0x9a, size 0x1
+  /// @brief Field _interactable, offset 0xa2, size 0x1
   __declspec(property(get = __cordl_internal_get__interactable, put = __cordl_internal_set__interactable)) bool _interactable;
 
-  /// @brief Field _invertColor, offset 0x70, size 0x10
-  __declspec(property(get = __cordl_internal_get__invertColor, put = __cordl_internal_set__invertColor))::UnityEngine::Color _invertColor;
+  /// @brief Field _invertColor, offset 0x78, size 0x10
+  __declspec(property(get = __cordl_internal_get__invertColor, put = __cordl_internal_set__invertColor)) ::UnityEngine::Color _invertColor;
 
-  /// @brief Field _lockedImage, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__lockedImage, put = __cordl_internal_set__lockedImage))::UnityW<::UnityEngine::UI::Image> _lockedImage;
+  /// @brief Field _lockedImage, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__lockedImage, put = __cordl_internal_set__lockedImage)) ::UnityW<::UnityEngine::UI::Image> _lockedImage;
 
-  /// @brief Field _missionCleared, offset 0x9b, size 0x1
+  /// @brief Field _missionCleared, offset 0xa3, size 0x1
   __declspec(property(get = __cordl_internal_get__missionCleared, put = __cordl_internal_set__missionCleared)) bool _missionCleared;
 
-  /// @brief Field _missionToggleWasPressedSignal, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__missionToggleWasPressedSignal,
-                      put = __cordl_internal_set__missionToggleWasPressedSignal))::UnityW<::GlobalNamespace::Signal> _missionToggleWasPressedSignal;
+  /// @brief Field _missionToggleWasPressedSignal, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__missionToggleWasPressedSignal, put = __cordl_internal_set__missionToggleWasPressedSignal)) ::UnityW<::GlobalNamespace::Signal>
+      _missionToggleWasPressedSignal;
 
-  /// @brief Field _normalColor, offset 0x60, size 0x10
-  __declspec(property(get = __cordl_internal_get__normalColor, put = __cordl_internal_set__normalColor))::UnityEngine::Color _normalColor;
+  /// @brief Field _normalColor, offset 0x68, size 0x10
+  __declspec(property(get = __cordl_internal_get__normalColor, put = __cordl_internal_set__normalColor)) ::UnityEngine::Color _normalColor;
 
-  /// @brief Field _selected, offset 0x98, size 0x1
+  /// @brief Field _selected, offset 0xa0, size 0x1
   __declspec(property(get = __cordl_internal_get__selected, put = __cordl_internal_set__selected)) bool _selected;
 
-  /// @brief Field _strokeImage, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__strokeImage, put = __cordl_internal_set__strokeImage))::UnityW<::UnityEngine::UI::Image> _strokeImage;
+  /// @brief Field _strokeImage, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__strokeImage, put = __cordl_internal_set__strokeImage)) ::UnityW<::UnityEngine::UI::Image> _strokeImage;
 
-  /// @brief Field _text, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
+  /// @brief Field _text, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
 
-  /// @brief Field _vrInteractable, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrInteractable, put = __cordl_internal_set__vrInteractable))::UnityW<::HMUI::Interactable> _vrInteractable;
+  /// @brief Field _vrInteractable, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__vrInteractable, put = __cordl_internal_set__vrInteractable)) ::UnityW<::HMUI::Interactable> _vrInteractable;
 
   __declspec(property(get = get_highlighted)) bool highlighted;
 
@@ -111,9 +111,9 @@ public:
 
   __declspec(property(get = get_selected, put = set_selected)) bool selected;
 
-  /// @brief Field selectionDidChangeEvent, offset 0x90, size 0x8
+  /// @brief Field selectionDidChangeEvent, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_selectionDidChangeEvent,
-                      put = __cordl_internal_set_selectionDidChangeEvent))::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* selectionDidChangeEvent;
+                      put = __cordl_internal_set_selectionDidChangeEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* selectionDidChangeEvent;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
@@ -130,36 +130,36 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept;
 
-  /// @brief Method ChangeHighlight, addr 0x265750c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ChangeHighlight, addr 0x3ae07ec, size 0x20, virtual false, abstract: false, final false
   inline void ChangeHighlight(bool value, bool ignoreCurrentValue);
 
-  /// @brief Method ChangeSelection, addr 0x2656e40, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ChangeSelection, addr 0x3ae04a8, size 0x64, virtual false, abstract: false, final false
   inline void ChangeSelection(bool value, bool callSelectionDidChange, bool ignoreCurrentValue);
 
-  /// @brief Method InternalToggle, addr 0x265752c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InternalToggle, addr 0x3ae0830, size 0x30, virtual false, abstract: false, final false
   inline void InternalToggle();
 
   static inline ::GlobalNamespace::MissionToggle* New_ctor();
 
-  /// @brief Method OnPointerClick, addr 0x265755c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x3ae0860, size 0xa8, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerEnter, addr 0x265769c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnPointerEnter, addr 0x3ae09a0, size 0x24, virtual true, abstract: false, final false
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x26576c0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnPointerExit, addr 0x3ae09c4, size 0x1c, virtual true, abstract: false, final false
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSubmit, addr 0x2657604, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnSubmit, addr 0x3ae0908, size 0x98, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method RefreshUI, addr 0x2657240, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x3ae0520, size 0x2a8, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  /// @brief Method SetText, addr 0x2656dbc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x3ae080c, size 0x24, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
-  /// @brief Method Start, addr 0x26574f0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3ae07d0, size 0x1c, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
@@ -258,19 +258,19 @@ public:
 
   constexpr void __cordl_internal_set_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
-  /// @brief Method .ctor, addr 0x26576dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae09e0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_selectionDidChangeEvent, addr 0x2656b24, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectionDidChangeEvent, addr 0x3ae0324, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
-  /// @brief Method get_highlighted, addr 0x26574e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlighted, addr 0x3ae07c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_highlighted();
 
-  /// @brief Method get_interactable, addr 0x2657238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x3ae050c, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method get_selected, addr 0x2657230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selected, addr 0x3ae0490, size 0x8, virtual false, abstract: false, final false
   inline bool get_selected();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -288,16 +288,16 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
 
-  /// @brief Method remove_selectionDidChangeEvent, addr 0x2656d0c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionDidChangeEvent, addr 0x3ae03d4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
-  /// @brief Method set_interactable, addr 0x2656bd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x3ae0514, size 0xc, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
-  /// @brief Method set_missionCleared, addr 0x2657224, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_missionCleared, addr 0x3ae0484, size 0xc, virtual false, abstract: false, final false
   inline void set_missionCleared(bool value);
 
-  /// @brief Method set_selected, addr 0x2656a58, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_selected, addr 0x3ae0498, size 0x10, virtual false, abstract: false, final false
   inline void set_selected(bool value);
 
 protected:
@@ -314,90 +314,93 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionToggle(MissionToggle const&) = delete;
 
-  /// @brief Field _missionToggleWasPressedSignal, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _missionToggleWasPressedSignal, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____missionToggleWasPressedSignal;
 
-  /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _text, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
-  /// @brief Field _lockedImage, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _lockedImage, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____lockedImage;
 
-  /// @brief Field _clearedImage, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _clearedImage, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____clearedImage;
 
-  /// @brief Field _bgImage, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _bgImage, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____bgImage;
 
-  /// @brief Field _strokeImage, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _strokeImage, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____strokeImage;
 
-  /// @brief Field _vrInteractable, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _vrInteractable, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::HMUI::Interactable> ____vrInteractable;
 
-  /// @brief Field _disabledColor, offset: 0x50, size: 0x10, def value: None
+  /// @brief Field _disabledColor, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Color ____disabledColor;
 
-  /// @brief Field _normalColor, offset: 0x60, size: 0x10, def value: None
+  /// @brief Field _normalColor, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Color ____normalColor;
 
-  /// @brief Field _invertColor, offset: 0x70, size: 0x10, def value: None
+  /// @brief Field _invertColor, offset: 0x78, size: 0x10, def value: None
   ::UnityEngine::Color ____invertColor;
 
-  /// @brief Field _highlightColor, offset: 0x80, size: 0x10, def value: None
+  /// @brief Field _highlightColor, offset: 0x88, size: 0x10, def value: None
   ::UnityEngine::Color ____highlightColor;
 
-  /// @brief Field selectionDidChangeEvent, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field selectionDidChangeEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* ___selectionDidChangeEvent;
 
-  /// @brief Field _selected, offset: 0x98, size: 0x1, def value: None
+  /// @brief Field _selected, offset: 0xa0, size: 0x1, def value: None
   bool ____selected;
 
-  /// @brief Field _highlighted, offset: 0x99, size: 0x1, def value: None
+  /// @brief Field _highlighted, offset: 0xa1, size: 0x1, def value: None
   bool ____highlighted;
 
-  /// @brief Field _interactable, offset: 0x9a, size: 0x1, def value: None
+  /// @brief Field _interactable, offset: 0xa2, size: 0x1, def value: None
   bool ____interactable;
 
-  /// @brief Field _missionCleared, offset: 0x9b, size: 0x1, def value: None
+  /// @brief Field _missionCleared, offset: 0xa3, size: 0x1, def value: None
   bool ____missionCleared;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5285 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionToggle, 0xa0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionToggle, 0xa8>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____missionToggleWasPressedSignal) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____missionToggleWasPressedSignal) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____text) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____text) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____lockedImage) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____lockedImage) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____clearedImage) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____clearedImage) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____bgImage) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____bgImage) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____strokeImage) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____strokeImage) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____vrInteractable) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____vrInteractable) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____disabledColor) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____disabledColor) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____normalColor) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____normalColor) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____invertColor) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____invertColor) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____highlightColor) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____highlightColor) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ___selectionDidChangeEvent) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ___selectionDidChangeEvent) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____selected) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____selected) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____highlighted) == 0x99, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____highlighted) == 0xa1, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____interactable) == 0x9a, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____interactable) == 0xa2, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionToggle, ____missionCleared) == 0x9b, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionToggle, ____missionCleared) == 0xa3, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionToggle);

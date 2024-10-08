@@ -14,7 +14,7 @@ class HMACSHA1;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::HMACSHA1);
 // Type: System.Security.Cryptography::HMACSHA1
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::HMACSHA1*
@@ -27,13 +27,13 @@ public:
 
   static inline ::System::Security::Cryptography::HMACSHA1* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, bool useManagedSha1);
 
-  /// @brief Method .ctor, addr 0x280c3e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2b30c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x280caa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2b9b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x280caa8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2b9bc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, bool useManagedSha1);
 
 protected:
@@ -49,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HMACSHA1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HMACSHA1(HMACSHA1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2936 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

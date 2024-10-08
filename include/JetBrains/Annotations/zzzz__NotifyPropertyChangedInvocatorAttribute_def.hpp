@@ -13,17 +13,17 @@ class NotifyPropertyChangedInvocatorAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute);
 // Type: JetBrains.Annotations::NotifyPropertyChangedInvocatorAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::NotifyPropertyChangedInvocatorAttribute*
 class CORDL_TYPE NotifyPropertyChangedInvocatorAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_ParameterName, put = set_ParameterName))::StringW ParameterName;
+  __declspec(property(get = get_ParameterName, put = set_ParameterName)) ::StringW ParameterName;
 
   /// @brief Field <ParameterName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ParameterName_k__BackingField, put = __cordl_internal_set__ParameterName_k__BackingField))::StringW _ParameterName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ParameterName_k__BackingField, put = __cordl_internal_set__ParameterName_k__BackingField)) ::StringW _ParameterName_k__BackingField;
 
   static inline ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute* New_ctor();
 
@@ -35,16 +35,16 @@ public:
 
   constexpr void __cordl_internal_set__ParameterName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3650fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77854, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3650fdc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a7785c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW parameterName);
 
-  /// @brief Method get_ParameterName, addr 0x3651004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterName, addr 0x4a77884, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ParameterName();
 
-  /// @brief Method set_ParameterName, addr 0x365100c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParameterName, addr 0x4a7788c, size 0x8, virtual false, abstract: false, final false
   inline void set_ParameterName(::StringW value);
 
 protected:
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field <ParameterName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____ParameterName_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18332 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

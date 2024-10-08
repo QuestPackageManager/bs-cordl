@@ -20,27 +20,27 @@ class OVRBone;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRBone);
 // Type: ::OVRBone
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRBone*
 class CORDL_TYPE OVRBone : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Id, put = set_Id))::GlobalNamespace::__OVRSkeleton__BoneId Id;
+  __declspec(property(get = get_Id, put = set_Id)) ::GlobalNamespace::__OVRSkeleton__BoneId Id;
 
   __declspec(property(get = get_ParentBoneIndex, put = set_ParentBoneIndex)) int16_t ParentBoneIndex;
 
-  __declspec(property(get = get_Transform, put = set_Transform))::UnityW<::UnityEngine::Transform> Transform;
+  __declspec(property(get = get_Transform, put = set_Transform)) ::UnityW<::UnityEngine::Transform> Transform;
 
   /// @brief Field <Id>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__Id_k__BackingField, put = __cordl_internal_set__Id_k__BackingField))::GlobalNamespace::__OVRSkeleton__BoneId _Id_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Id_k__BackingField, put = __cordl_internal_set__Id_k__BackingField)) ::GlobalNamespace::__OVRSkeleton__BoneId _Id_k__BackingField;
 
   /// @brief Field <ParentBoneIndex>k__BackingField, offset 0x14, size 0x2
   __declspec(property(get = __cordl_internal_get__ParentBoneIndex_k__BackingField, put = __cordl_internal_set__ParentBoneIndex_k__BackingField)) int16_t _ParentBoneIndex_k__BackingField;
 
   /// @brief Field <Transform>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Transform_k__BackingField, put = __cordl_internal_set__Transform_k__BackingField))::UnityW<::UnityEngine::Transform> _Transform_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Transform_k__BackingField, put = __cordl_internal_set__Transform_k__BackingField)) ::UnityW<::UnityEngine::Transform> _Transform_k__BackingField;
 
   static inline ::GlobalNamespace::OVRBone* New_ctor();
 
@@ -64,28 +64,28 @@ public:
 
   constexpr void __cordl_internal_set__Transform_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x2bc7338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fcf094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2bc80b4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fcfe08, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__OVRSkeleton__BoneId id, int16_t parentBoneIndex, ::UnityEngine::Transform* trans);
 
-  /// @brief Method get_Id, addr 0x2bc8084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x3fcfdd8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRSkeleton__BoneId get_Id();
 
-  /// @brief Method get_ParentBoneIndex, addr 0x2bc8094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentBoneIndex, addr 0x3fcfde8, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_ParentBoneIndex();
 
-  /// @brief Method get_Transform, addr 0x2bc80a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Transform, addr 0x3fcfdf8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Transform();
 
-  /// @brief Method set_Id, addr 0x2bc808c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x3fcfde0, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::GlobalNamespace::__OVRSkeleton__BoneId value);
 
-  /// @brief Method set_ParentBoneIndex, addr 0x2bc809c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParentBoneIndex, addr 0x3fcfdf0, size 0x8, virtual false, abstract: false, final false
   inline void set_ParentBoneIndex(int16_t value);
 
-  /// @brief Method set_Transform, addr 0x2bc80ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Transform, addr 0x3fcfe00, size 0x8, virtual false, abstract: false, final false
   inline void set_Transform(::UnityEngine::Transform* value);
 
 protected:
@@ -110,6 +110,9 @@ public:
 
   /// @brief Field <Transform>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____Transform_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

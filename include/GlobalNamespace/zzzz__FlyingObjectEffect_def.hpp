@@ -33,56 +33,56 @@ class FlyingObjectEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FlyingObjectEffect);
 // Type: ::FlyingObjectEffect
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FlyingObjectEffect*
 class CORDL_TYPE FlyingObjectEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _didFinishEvent, offset 0x78, size 0x8
+  /// @brief Field _didFinishEvent, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__didFinishEvent,
-                      put = __cordl_internal_set__didFinishEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* _didFinishEvent;
+                      put = __cordl_internal_set__didFinishEvent)) ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* _didFinishEvent;
 
-  /// @brief Field _duration, offset 0x70, size 0x4
+  /// @brief Field _duration, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
-  /// @brief Field _elapsedTime, offset 0x54, size 0x4
+  /// @brief Field _elapsedTime, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get__elapsedTime, put = __cordl_internal_set__elapsedTime)) float_t _elapsedTime;
 
-  /// @brief Field _initialized, offset 0x30, size 0x1
+  /// @brief Field _initialized, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
-  /// @brief Field _moveAnimationCurve, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__moveAnimationCurve, put = __cordl_internal_set__moveAnimationCurve))::UnityEngine::AnimationCurve* _moveAnimationCurve;
+  /// @brief Field _moveAnimationCurve, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__moveAnimationCurve, put = __cordl_internal_set__moveAnimationCurve)) ::UnityEngine::AnimationCurve* _moveAnimationCurve;
 
-  /// @brief Field _rotation, offset 0x44, size 0x10
-  __declspec(property(get = __cordl_internal_get__rotation, put = __cordl_internal_set__rotation))::UnityEngine::Quaternion _rotation;
+  /// @brief Field _rotation, offset 0x4c, size 0x10
+  __declspec(property(get = __cordl_internal_get__rotation, put = __cordl_internal_set__rotation)) ::UnityEngine::Quaternion _rotation;
 
-  /// @brief Field _shake, offset 0x74, size 0x1
+  /// @brief Field _shake, offset 0x7c, size 0x1
   __declspec(property(get = __cordl_internal_get__shake, put = __cordl_internal_set__shake)) bool _shake;
 
-  /// @brief Field _shakeFrequency, offset 0x20, size 0x4
+  /// @brief Field _shakeFrequency, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__shakeFrequency, put = __cordl_internal_set__shakeFrequency)) float_t _shakeFrequency;
 
-  /// @brief Field _shakeRotation, offset 0x34, size 0x10
-  __declspec(property(get = __cordl_internal_get__shakeRotation, put = __cordl_internal_set__shakeRotation))::UnityEngine::Quaternion _shakeRotation;
+  /// @brief Field _shakeRotation, offset 0x3c, size 0x10
+  __declspec(property(get = __cordl_internal_get__shakeRotation, put = __cordl_internal_set__shakeRotation)) ::UnityEngine::Quaternion _shakeRotation;
 
-  /// @brief Field _shakeStrength, offset 0x24, size 0x4
+  /// @brief Field _shakeStrength, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__shakeStrength, put = __cordl_internal_set__shakeStrength)) float_t _shakeStrength;
 
-  /// @brief Field _shakeStrengthAnimationCurve, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__shakeStrengthAnimationCurve, put = __cordl_internal_set__shakeStrengthAnimationCurve))::UnityEngine::AnimationCurve* _shakeStrengthAnimationCurve;
+  /// @brief Field _shakeStrengthAnimationCurve, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__shakeStrengthAnimationCurve, put = __cordl_internal_set__shakeStrengthAnimationCurve)) ::UnityEngine::AnimationCurve* _shakeStrengthAnimationCurve;
 
-  /// @brief Field _startPos, offset 0x58, size 0xc
-  __declspec(property(get = __cordl_internal_get__startPos, put = __cordl_internal_set__startPos))::UnityEngine::Vector3 _startPos;
+  /// @brief Field _startPos, offset 0x60, size 0xc
+  __declspec(property(get = __cordl_internal_get__startPos, put = __cordl_internal_set__startPos)) ::UnityEngine::Vector3 _startPos;
 
-  /// @brief Field _targetPos, offset 0x64, size 0xc
-  __declspec(property(get = __cordl_internal_get__targetPos, put = __cordl_internal_set__targetPos))::UnityEngine::Vector3 _targetPos;
+  /// @brief Field _targetPos, offset 0x6c, size 0xc
+  __declspec(property(get = __cordl_internal_get__targetPos, put = __cordl_internal_set__targetPos)) ::UnityEngine::Vector3 _targetPos;
 
-  __declspec(property(get = get_didFinishEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* didFinishEvent;
+  __declspec(property(get = get_didFinishEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* didFinishEvent;
 
-  /// @brief Method InitAndPresent, addr 0x26e4e84, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x3b07a3c, size 0xe8, virtual false, abstract: false, final false
   inline void InitAndPresent(float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, bool shake);
 
   /// @brief Method ManualUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -90,7 +90,7 @@ public:
 
   static inline ::GlobalNamespace::FlyingObjectEffect* New_ctor();
 
-  /// @brief Method Update, addr 0x26e4f6c, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b07b24, size 0x3c8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>*& __cordl_internal_get__didFinishEvent();
@@ -171,10 +171,10 @@ public:
 
   constexpr void __cordl_internal_set__targetPos(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x26e5324, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b07eec, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_didFinishEvent, addr 0x26e4e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x3b07a34, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* get_didFinishEvent();
 
 protected:
@@ -191,75 +191,78 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FlyingObjectEffect(FlyingObjectEffect const&) = delete;
 
-  /// @brief Field _moveAnimationCurve, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _moveAnimationCurve, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____moveAnimationCurve;
 
-  /// @brief Field _shakeFrequency, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field _shakeFrequency, offset: 0x28, size: 0x4, def value: None
   float_t ____shakeFrequency;
 
-  /// @brief Field _shakeStrength, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field _shakeStrength, offset: 0x2c, size: 0x4, def value: None
   float_t ____shakeStrength;
 
-  /// @brief Field _shakeStrengthAnimationCurve, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _shakeStrengthAnimationCurve, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____shakeStrengthAnimationCurve;
 
-  /// @brief Field _initialized, offset: 0x30, size: 0x1, def value: None
+  /// @brief Field _initialized, offset: 0x38, size: 0x1, def value: None
   bool ____initialized;
 
-  /// @brief Field _shakeRotation, offset: 0x34, size: 0x10, def value: None
+  /// @brief Field _shakeRotation, offset: 0x3c, size: 0x10, def value: None
   ::UnityEngine::Quaternion ____shakeRotation;
 
-  /// @brief Field _rotation, offset: 0x44, size: 0x10, def value: None
+  /// @brief Field _rotation, offset: 0x4c, size: 0x10, def value: None
   ::UnityEngine::Quaternion ____rotation;
 
-  /// @brief Field _elapsedTime, offset: 0x54, size: 0x4, def value: None
+  /// @brief Field _elapsedTime, offset: 0x5c, size: 0x4, def value: None
   float_t ____elapsedTime;
 
-  /// @brief Field _startPos, offset: 0x58, size: 0xc, def value: None
+  /// @brief Field _startPos, offset: 0x60, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____startPos;
 
-  /// @brief Field _targetPos, offset: 0x64, size: 0xc, def value: None
+  /// @brief Field _targetPos, offset: 0x6c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____targetPos;
 
-  /// @brief Field _duration, offset: 0x70, size: 0x4, def value: None
+  /// @brief Field _duration, offset: 0x78, size: 0x4, def value: None
   float_t ____duration;
 
-  /// @brief Field _shake, offset: 0x74, size: 0x1, def value: None
+  /// @brief Field _shake, offset: 0x7c, size: 0x1, def value: None
   bool ____shake;
 
-  /// @brief Field _didFinishEvent, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _didFinishEvent, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>* ____didFinishEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4197 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingObjectEffect, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingObjectEffect, 0x88>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____moveAnimationCurve) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____moveAnimationCurve) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shakeFrequency) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shakeFrequency) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shakeStrength) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shakeStrength) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shakeStrengthAnimationCurve) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shakeStrengthAnimationCurve) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____initialized) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____initialized) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shakeRotation) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shakeRotation) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____rotation) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____rotation) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____elapsedTime) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____elapsedTime) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____startPos) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____startPos) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____targetPos) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____targetPos) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____duration) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____duration) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shake) == 0x74, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____shake) == 0x7c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____didFinishEvent) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingObjectEffect, ____didFinishEvent) == 0x80, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FlyingObjectEffect);

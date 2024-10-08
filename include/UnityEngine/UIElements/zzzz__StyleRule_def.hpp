@@ -17,7 +17,7 @@ class StyleRule;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleRule);
 // Type: UnityEngine.UIElements::StyleRule
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::StyleRule*
@@ -32,9 +32,10 @@ public:
 
   /// @brief Field m_Properties, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Properties,
-                      put = __cordl_internal_set_m_Properties))::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> m_Properties;
+                      put = __cordl_internal_set_m_Properties)) ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*>
+      m_Properties;
 
-  __declspec(property(get = get_properties))::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> properties;
+  __declspec(property(get = get_properties)) ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> properties;
 
   static inline ::UnityEngine::UIElements::StyleRule* New_ctor();
 
@@ -56,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Properties(::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> value);
 
-  /// @brief Method .ctor, addr 0x3601750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a11e78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_properties, addr 0x3601748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_properties, addr 0x4a11e70, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> get_properties();
 
 protected:
@@ -84,6 +85,9 @@ public:
 
   /// @brief Field customPropertiesCount, offset: 0x1c, size: 0x4, def value: None
   int32_t ___customPropertiesCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6139 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

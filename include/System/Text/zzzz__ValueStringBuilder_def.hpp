@@ -20,7 +20,7 @@ struct ValueStringBuilder;
 // Write type traits
 MARK_VAL_T(::System::Text::ValueStringBuilder);
 // Type: System.Text::ValueStringBuilder
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: true
 // CS Name: ::System.Text::ValueStringBuilder
@@ -31,46 +31,46 @@ public:
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method Append, addr 0x27f6870, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x3c16678, size 0x7c, virtual false, abstract: false, final false
   inline void Append(char16_t c);
 
-  /// @brief Method Append, addr 0x27f6d8c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x3c16b90, size 0x128, virtual false, abstract: false, final false
   inline void Append(char16_t c, int32_t count);
 
-  /// @brief Method Append, addr 0x27f696c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x3c16774, size 0xac, virtual false, abstract: false, final false
   inline void Append(::StringW s);
 
-  /// @brief Method Append, addr 0x27f6e68, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x3c16cb8, size 0xe0, virtual false, abstract: false, final false
   inline void Append(::cordl_internals::Ptr<char16_t> value, int32_t length);
 
-  /// @brief Method AppendSlow, addr 0x27f6a18, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AppendSlow, addr 0x3c16820, size 0x12c, virtual false, abstract: false, final false
   inline void AppendSlow(::StringW s);
 
-  /// @brief Method AppendSpan, addr 0x27f6f48, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AppendSpan, addr 0x3c16d98, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Span_1<char16_t> AppendSpan(int32_t length);
 
-  /// @brief Method Dispose, addr 0x27f7008, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c16e54, size 0xf8, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Grow, addr 0x27f6b48, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x3c1694c, size 0x244, virtual false, abstract: false, final false
   inline void Grow(int32_t requiredAdditionalCapacity);
 
-  /// @brief Method GrowAndAppend, addr 0x27f68ec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GrowAndAppend, addr 0x3c166f4, size 0x80, virtual false, abstract: false, final false
   inline void GrowAndAppend(char16_t c);
 
-  /// @brief Method ToString, addr 0x27f644c, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c164c4, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryCopyTo, addr 0x27f65e4, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method TryCopyTo, addr 0x3c16590, size 0xe8, virtual false, abstract: false, final false
   inline bool TryCopyTo(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten);
 
-  /// @brief Method .ctor, addr 0x27f6410, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c16488, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Span_1<char16_t> initialBuffer);
 
-  /// @brief Method get_Item, addr 0x27f6428, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3c164a0, size 0x24, virtual false, abstract: false, final false
   inline ByRef<char16_t> get_Item(int32_t index);
 
-  /// @brief Method get_Length, addr 0x27f6420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3c16498, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   // Ctor Parameters []
@@ -89,6 +89,9 @@ public:
 
   /// @brief Field _pos, offset: 0x18, size: 0x4, def value: None
   int32_t _pos;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2871 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

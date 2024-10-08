@@ -19,23 +19,23 @@ class MemberBinding;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::MemberBinding);
 // Type: System.Linq.Expressions::MemberBinding
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions::MemberBinding*
 class CORDL_TYPE MemberBinding : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_BindingType))::System::Linq::Expressions::MemberBindingType BindingType;
+  __declspec(property(get = get_BindingType)) ::System::Linq::Expressions::MemberBindingType BindingType;
 
-  __declspec(property(get = get_Member))::System::Reflection::MemberInfo* Member;
+  __declspec(property(get = get_Member)) ::System::Reflection::MemberInfo* Member;
 
   /// @brief Field <BindingType>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__BindingType_k__BackingField,
-                      put = __cordl_internal_set__BindingType_k__BackingField))::System::Linq::Expressions::MemberBindingType _BindingType_k__BackingField;
+                      put = __cordl_internal_set__BindingType_k__BackingField)) ::System::Linq::Expressions::MemberBindingType _BindingType_k__BackingField;
 
   /// @brief Field <Member>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Member_k__BackingField, put = __cordl_internal_set__Member_k__BackingField))::System::Reflection::MemberInfo* _Member_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Member_k__BackingField, put = __cordl_internal_set__Member_k__BackingField)) ::System::Reflection::MemberInfo* _Member_k__BackingField;
 
   constexpr ::System::Linq::Expressions::MemberBindingType const& __cordl_internal_get__BindingType_k__BackingField() const;
 
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__Member_k__BackingField(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method get_BindingType, addr 0x2c3eee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindingType, addr 0x404331c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::MemberBindingType get_BindingType();
 
-  /// @brief Method get_Member, addr 0x2c3eeec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x4043324, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_Member();
 
 protected:
@@ -74,6 +74,9 @@ public:
 
   /// @brief Field <Member>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::MemberInfo* ____Member_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13657 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

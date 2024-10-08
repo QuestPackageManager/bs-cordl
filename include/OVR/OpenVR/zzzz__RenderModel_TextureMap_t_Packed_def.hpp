@@ -21,7 +21,7 @@ struct RenderModel_TextureMap_t_Packed;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::RenderModel_TextureMap_t_Packed);
 // Type: OVR.OpenVR::RenderModel_TextureMap_t_Packed
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 8, packing: Some(4), specified_packing: Some(4) }
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: Some(4), specified_packing: Some(4) }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::RenderModel_TextureMap_t_Packed
@@ -29,10 +29,10 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE RenderModel_TextureMap_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x2bff810, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x400111c, size 0x1c, virtual false, abstract: false, final false
   inline void Unpack(ByRef<::OVR::OpenVR::RenderModel_TextureMap_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x2bff7fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4001108, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::RenderModel_TextureMap_t unpacked);
 
   // Ctor Parameters []
@@ -51,6 +51,9 @@ public:
 
   /// @brief Field rubTextureMapData, offset: 0x4, size: 0x8, def value: None
   ::System::IntPtr rubTextureMapData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8997 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

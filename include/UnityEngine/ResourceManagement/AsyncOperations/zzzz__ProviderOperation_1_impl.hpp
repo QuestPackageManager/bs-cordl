@@ -140,6 +140,18 @@ constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperati
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_WaitForCompletionCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+template <typename TObject> constexpr bool& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_ProviderCompletedCalled() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ProviderCompletedCalled;
+}
+template <typename TObject> constexpr bool const& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_ProviderCompletedCalled() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ProviderCompletedCalled;
+}
+template <typename TObject> constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_set_m_ProviderCompletedCalled(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ProviderCompletedCalled = value;
+}
 template <typename TObject>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_DownloadStatus() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

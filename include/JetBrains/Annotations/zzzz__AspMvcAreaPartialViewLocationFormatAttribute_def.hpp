@@ -13,17 +13,17 @@ class AspMvcAreaPartialViewLocationFormatAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute);
 // Type: JetBrains.Annotations::AspMvcAreaPartialViewLocationFormatAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::AspMvcAreaPartialViewLocationFormatAttribute*
 class CORDL_TYPE AspMvcAreaPartialViewLocationFormatAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_Format, put = set_Format))::StringW Format;
+  __declspec(property(get = get_Format, put = set_Format)) ::StringW Format;
 
   /// @brief Field <Format>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Format_k__BackingField, put = __cordl_internal_set__Format_k__BackingField))::StringW _Format_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Format_k__BackingField, put = __cordl_internal_set__Format_k__BackingField)) ::StringW _Format_k__BackingField;
 
   static inline ::JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute* New_ctor(::StringW format);
 
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__Format_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3651418, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77c98, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW format);
 
-  /// @brief Method get_Format, addr 0x3651440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x4a77cc0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Format();
 
-  /// @brief Method set_Format, addr 0x3651448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Format, addr 0x4a77cc8, size 0x8, virtual false, abstract: false, final false
   inline void set_Format(::StringW value);
 
 protected:
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field <Format>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Format_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18350 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

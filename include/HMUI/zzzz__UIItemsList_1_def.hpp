@@ -45,7 +45,7 @@ template <typename T> class __UIItemsList_1__DataCallback;
 MARK_GEN_REF_PTR_T(::HMUI::UIItemsList_1);
 MARK_GEN_REF_PTR_T(::HMUI::__UIItemsList_1__DataCallback);
 // Type: ::DataCallback
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // cpp template
 template <typename T>
@@ -82,12 +82,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UIItemsList_1__DataCallback(__UIItemsList_1__DataCallback const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16077 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace HMUI
 // Type: HMUI::UIItemsList`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // cpp template
 template <typename T>
@@ -98,22 +101,22 @@ public:
   // Declarations
   using DataCallback = ::HMUI::__UIItemsList_1__DataCallback<T>;
 
-  /// @brief Field _container, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  /// @brief Field _container, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
-  /// @brief Field _insertInTheBeginning, offset 0x28, size 0x1
+  /// @brief Field _insertInTheBeginning, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__insertInTheBeginning, put = __cordl_internal_set__insertInTheBeginning)) bool _insertInTheBeginning;
 
   /// @brief Field _items, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::System::Collections::Generic::List_1<T>* _items;
+  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items)) ::System::Collections::Generic::List_1<T>* _items;
 
-  /// @brief Field _itemsContainer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__itemsContainer, put = __cordl_internal_set__itemsContainer))::UnityW<::UnityEngine::Transform> _itemsContainer;
+  /// @brief Field _itemsContainer, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__itemsContainer, put = __cordl_internal_set__itemsContainer)) ::UnityW<::UnityEngine::Transform> _itemsContainer;
 
-  /// @brief Field _prefab, offset 0x18, size 0x8
+  /// @brief Field _prefab, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__prefab, put = __cordl_internal_set__prefab)) T _prefab;
 
-  __declspec(property(get = get_items))::System::Collections::Generic::IEnumerable_1<T>* items;
+  __declspec(property(get = get_items)) ::System::Collections::Generic::IEnumerable_1<T>* items;
 
   static inline ::HMUI::UIItemsList_1<T>* New_ctor();
 
@@ -170,20 +173,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UIItemsList_1(UIItemsList_1 const&) = delete;
 
-  /// @brief Field _prefab, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _prefab, offset: 0x20, size: 0x8, def value: None
   T ____prefab;
 
-  /// @brief Field _itemsContainer, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _itemsContainer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____itemsContainer;
 
-  /// @brief Field _insertInTheBeginning, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field _insertInTheBeginning, offset: 0x30, size: 0x1, def value: None
   bool ____insertInTheBeginning;
-
-  /// @brief Field _container, offset: 0x30, size: 0x8, def value: None
-  ::Zenject::DiContainer* ____container;
 
   /// @brief Field _items, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ____items;
+
+  /// @brief Field _container, offset: 0x40, size: 0x8, def value: None
+  ::Zenject::DiContainer* ____container;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16078 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,25 +22,25 @@ class AppDomainLevelActivator;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::AppDomainLevelActivator);
 // Type: System.Runtime.Remoting.Activation::AppDomainLevelActivator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Activation::AppDomainLevelActivator*
 class CORDL_TYPE AppDomainLevelActivator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_NextActivator))::System::Runtime::Remoting::Activation::IActivator* NextActivator;
+  __declspec(property(get = get_NextActivator)) ::System::Runtime::Remoting::Activation::IActivator* NextActivator;
 
   /// @brief Field _activationUrl, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__activationUrl, put = __cordl_internal_set__activationUrl))::StringW _activationUrl;
+  __declspec(property(get = __cordl_internal_get__activationUrl, put = __cordl_internal_set__activationUrl)) ::StringW _activationUrl;
 
   /// @brief Field _next, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next))::System::Runtime::Remoting::Activation::IActivator* _next;
+  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next)) ::System::Runtime::Remoting::Activation::IActivator* _next;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-  /// @brief Method Activate, addr 0x2851ee8, size 0x4cc, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x3c6ead0, size 0x4c4, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
 
   static inline ::System::Runtime::Remoting::Activation::AppDomainLevelActivator* New_ctor(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator* next);
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set__next(::System::Runtime::Remoting::Activation::IActivator* value);
 
-  /// @brief Method .ctor, addr 0x285194c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c6e538, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator* next);
 
-  /// @brief Method get_NextActivator, addr 0x2851ee0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NextActivator, addr 0x3c6eac8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field _next, offset: 0x18, size: 0x8, def value: None
   ::System::Runtime::Remoting::Activation::IActivator* ____next;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3129 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

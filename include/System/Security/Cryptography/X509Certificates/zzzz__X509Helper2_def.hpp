@@ -24,26 +24,26 @@ class X509Helper2;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Helper2);
 // Type: System.Security.Cryptography.X509Certificates::X509Helper2
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Helper2*
 class CORDL_TYPE X509Helper2 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateChainImpl, addr 0x2fe6594, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateChainImpl, addr 0x43ccd64, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainImpl* CreateChainImpl(bool useMachineContext);
 
-  /// @brief Method GetInvalidChainContextException, addr 0x2fe664c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetInvalidChainContextException, addr 0x43cce14, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Exception* GetInvalidChainContextException();
 
-  /// @brief Method GetMonoCertificate, addr 0x2fe64c0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetMonoCertificate, addr 0x43ccc94, size 0xd0, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Certificate* GetMonoCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method IsValid, addr 0x2fe65f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x43ccdc0, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValid(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
 
-  /// @brief Method ThrowIfContextInvalid, addr 0x2fe660c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfContextInvalid, addr 0x43ccdd4, size 0x40, virtual false, abstract: false, final false
   static inline void ThrowIfContextInvalid(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
 
 protected:
@@ -59,6 +59,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "X509Helper2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   X509Helper2(X509Helper2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9300 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

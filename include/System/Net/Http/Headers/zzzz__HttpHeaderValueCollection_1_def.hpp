@@ -42,7 +42,7 @@ template <typename T> class HttpHeaderValueCollection_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Net::Http::Headers::HttpHeaderValueCollection_1);
 // Type: System.Net.Http.Headers::HttpHeaderValueCollection`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // cpp template
 template <typename T>
@@ -53,21 +53,21 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_InvalidValues))::System::Collections::Generic::List_1<::StringW>* InvalidValues;
+  __declspec(property(get = get_InvalidValues)) ::System::Collections::Generic::List_1<::StringW>* InvalidValues;
 
   __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
   /// @brief Field headerInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_headerInfo, put = __cordl_internal_set_headerInfo))::System::Net::Http::Headers::HeaderInfo* headerInfo;
+  __declspec(property(get = __cordl_internal_get_headerInfo, put = __cordl_internal_set_headerInfo)) ::System::Net::Http::Headers::HeaderInfo* headerInfo;
 
   /// @brief Field headers, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::System::Net::Http::Headers::HttpHeaders* headers;
+  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers)) ::System::Net::Http::Headers::HttpHeaders* headers;
 
   /// @brief Field invalidValues, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_invalidValues, put = __cordl_internal_set_invalidValues))::System::Collections::Generic::List_1<::StringW>* invalidValues;
+  __declspec(property(get = __cordl_internal_get_invalidValues, put = __cordl_internal_set_invalidValues)) ::System::Collections::Generic::List_1<::StringW>* invalidValues;
 
   /// @brief Field list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::Generic::List_1<T>* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list)) ::System::Collections::Generic::List_1<T>* list;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
   constexpr operator ::System::Collections::Generic::ICollection_1<T>*() noexcept;
@@ -183,6 +183,9 @@ public:
 
   /// @brief Field invalidValues, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___invalidValues;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16663 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

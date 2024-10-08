@@ -23,7 +23,7 @@ class ArgInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ArgInfo);
 // Type: System.Runtime.Remoting.Messaging::ArgInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::ArgInfo*
@@ -34,12 +34,12 @@ public:
   __declspec(property(get = __cordl_internal_get__inoutArgCount, put = __cordl_internal_set__inoutArgCount)) int32_t _inoutArgCount;
 
   /// @brief Field _method, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method))::System::Reflection::MethodBase* _method;
+  __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method)) ::System::Reflection::MethodBase* _method;
 
   /// @brief Field _paramMap, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__paramMap, put = __cordl_internal_set__paramMap))::ArrayW<int32_t, ::Array<int32_t>*> _paramMap;
+  __declspec(property(get = __cordl_internal_get__paramMap, put = __cordl_internal_set__paramMap)) ::ArrayW<int32_t, ::Array<int32_t>*> _paramMap;
 
-  /// @brief Method GetInOutArgs, addr 0x28549b4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetInOutArgs, addr 0x3c715a8, size 0x100, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetInOutArgs(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::System::Runtime::Remoting::Messaging::ArgInfo* New_ctor(::System::Reflection::MethodBase* method, ::System::Runtime::Remoting::Messaging::ArgInfoType type);
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__paramMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2854800, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c713f4, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodBase* method, ::System::Runtime::Remoting::Messaging::ArgInfoType type);
 
 protected:
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field _method, offset: 0x20, size: 0x8, def value: None
   ::System::Reflection::MethodBase* ____method;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3149 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

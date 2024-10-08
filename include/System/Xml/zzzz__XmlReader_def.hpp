@@ -63,7 +63,7 @@ class XmlReader;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlReader);
 // Type: System.Xml::XmlReader
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::XmlReader*
@@ -72,7 +72,7 @@ public:
   // Declarations
   __declspec(property(get = get_AttributeCount)) int32_t AttributeCount;
 
-  __declspec(property(get = get_BaseURI))::StringW BaseURI;
+  __declspec(property(get = get_BaseURI)) ::StringW BaseURI;
 
   /// @brief Field CanReadContentAsBitmap, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_CanReadContentAsBitmap, put = setStaticF_CanReadContentAsBitmap)) uint32_t CanReadContentAsBitmap;
@@ -83,7 +83,7 @@ public:
 
   __declspec(property(get = get_Depth)) int32_t Depth;
 
-  __declspec(property(get = get_DtdInfo))::System::Xml::IDtdInfo* DtdInfo;
+  __declspec(property(get = get_DtdInfo)) ::System::Xml::IDtdInfo* DtdInfo;
 
   __declspec(property(get = get_HasAttributes)) bool HasAttributes;
 
@@ -99,63 +99,63 @@ public:
   /// @brief Field IsTextualNodeBitmap, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_IsTextualNodeBitmap, put = setStaticF_IsTextualNodeBitmap)) uint32_t IsTextualNodeBitmap;
 
-  __declspec(property(get = get_LocalName))::StringW LocalName;
+  __declspec(property(get = get_LocalName)) ::StringW LocalName;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_NameTable))::System::Xml::XmlNameTable* NameTable;
+  __declspec(property(get = get_NameTable)) ::System::Xml::XmlNameTable* NameTable;
 
-  __declspec(property(get = get_NamespaceManager))::System::Xml::XmlNamespaceManager* NamespaceManager;
+  __declspec(property(get = get_NamespaceManager)) ::System::Xml::XmlNamespaceManager* NamespaceManager;
 
-  __declspec(property(get = get_NamespaceURI))::StringW NamespaceURI;
+  __declspec(property(get = get_NamespaceURI)) ::StringW NamespaceURI;
 
-  __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
+  __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
 
-  __declspec(property(get = get_Prefix))::StringW Prefix;
+  __declspec(property(get = get_Prefix)) ::StringW Prefix;
 
   __declspec(property(get = get_QuoteChar)) char16_t QuoteChar;
 
-  __declspec(property(get = get_ReadState))::System::Xml::ReadState ReadState;
+  __declspec(property(get = get_ReadState)) ::System::Xml::ReadState ReadState;
 
-  __declspec(property(get = get_SchemaInfo))::System::Xml::Schema::IXmlSchemaInfo* SchemaInfo;
+  __declspec(property(get = get_SchemaInfo)) ::System::Xml::Schema::IXmlSchemaInfo* SchemaInfo;
 
-  __declspec(property(get = get_Settings))::System::Xml::XmlReaderSettings* Settings;
+  __declspec(property(get = get_Settings)) ::System::Xml::XmlReaderSettings* Settings;
 
-  __declspec(property(get = get_Value))::StringW Value;
+  __declspec(property(get = get_Value)) ::StringW Value;
 
-  __declspec(property(get = get_ValueType))::System::Type* ValueType;
+  __declspec(property(get = get_ValueType)) ::System::Type* ValueType;
 
-  __declspec(property(get = get_XmlLang))::StringW XmlLang;
+  __declspec(property(get = get_XmlLang)) ::StringW XmlLang;
 
-  __declspec(property(get = get_XmlSpace))::System::Xml::XmlSpace XmlSpace;
+  __declspec(property(get = get_XmlSpace)) ::System::Xml::XmlSpace XmlSpace;
 
   __declspec(property(get = get_EOF)) bool _cordl_EOF;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CalcBufferSize, addr 0x2e9fe7c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CalcBufferSize, addr 0x429fe48, size 0x84, virtual false, abstract: false, final false
   static inline int32_t CalcBufferSize(::System::IO::Stream* input);
 
-  /// @brief Method Close, addr 0x2e9e2bc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x429e328, size 0x4, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Create, addr 0x2e9f744, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x429f74c, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlReader* Create(::System::IO::Stream* input, ::System::Xml::XmlReaderSettings* settings, ::StringW baseUri);
 
-  /// @brief Method Create, addr 0x2e9f98c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x429f984, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlReader* Create(::System::IO::TextReader* input, ::System::Xml::XmlReaderSettings* settings, ::StringW baseUri);
 
-  /// @brief Method CreateSqlReader, addr 0x2e9fb44, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method CreateSqlReader, addr 0x429fb30, size 0x318, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlReader* CreateSqlReader(::System::IO::Stream* input, ::System::Xml::XmlReaderSettings* settings, ::System::Xml::XmlParserContext* inputContext);
 
-  /// @brief Method CreateWriterForInnerOuterXml, addr 0x2e9eed8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateWriterForInnerOuterXml, addr 0x429eef8, size 0x74, virtual false, abstract: false, final false
   inline ::System::Xml::XmlWriter* CreateWriterForInnerOuterXml(::System::IO::StringWriter* sw);
 
-  /// @brief Method Dispose, addr 0x2e96f3c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x429708c, size 0x14, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2e9f5a0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x429f5b4, size 0x44, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -167,13 +167,13 @@ public:
   /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetAttribute(::StringW name, ::StringW namespaceURI);
 
-  /// @brief Method HasValueInternal, addr 0x2e9f5ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HasValueInternal, addr 0x429f600, size 0x64, virtual false, abstract: false, final false
   static inline bool HasValueInternal(::System::Xml::XmlNodeType nodeType);
 
-  /// @brief Method IsStartElement, addr 0x2e9eb98, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method IsStartElement, addr 0x429ebbc, size 0x84, virtual true, abstract: false, final false
   inline bool IsStartElement(::StringW localname, ::StringW ns);
 
-  /// @brief Method IsTextualNode, addr 0x2e9e60c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsTextualNode, addr 0x429e670, size 0x64, virtual false, abstract: false, final false
   static inline bool IsTextualNode(::System::Xml::XmlNodeType nodeType);
 
   /// @brief Method LookupNamespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -182,10 +182,10 @@ public:
   /// @brief Method MoveToAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MoveToAttribute(::StringW name);
 
-  /// @brief Method MoveToAttribute, addr 0x2e9e1ec, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method MoveToAttribute, addr 0x429e25c, size 0xcc, virtual true, abstract: false, final false
   inline void MoveToAttribute(int32_t i);
 
-  /// @brief Method MoveToContent, addr 0x2e9e67c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method MoveToContent, addr 0x429e6d4, size 0x84, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType MoveToContent();
 
   /// @brief Method MoveToElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -205,43 +205,43 @@ public:
   /// @brief Method ReadAttributeValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ReadAttributeValue();
 
-  /// @brief Method ReadElementString, addr 0x2e9e7f8, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method ReadElementString, addr 0x429e84c, size 0x27c, virtual true, abstract: false, final false
   inline ::StringW ReadElementString();
 
-  /// @brief Method ReadEndElement, addr 0x2e9eaa0, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ReadEndElement, addr 0x429eac8, size 0xf4, virtual true, abstract: false, final false
   inline void ReadEndElement();
 
-  /// @brief Method ReadInnerXml, addr 0x2e9ec1c, size 0x2bc, virtual true, abstract: false, final false
+  /// @brief Method ReadInnerXml, addr 0x429ec40, size 0x2b8, virtual true, abstract: false, final false
   inline ::StringW ReadInnerXml();
 
-  /// @brief Method ReadStartElement, addr 0x2e9e700, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ReadStartElement, addr 0x429e758, size 0xf4, virtual true, abstract: false, final false
   inline void ReadStartElement();
 
-  /// @brief Method ReadString, addr 0x2e9e438, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method ReadString, addr 0x429e49c, size 0x1d4, virtual true, abstract: false, final false
   inline ::StringW ReadString();
 
-  /// @brief Method ReadValueChunk, addr 0x2e9e3d8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ReadValueChunk, addr 0x429e444, size 0x58, virtual true, abstract: false, final false
   inline int32_t ReadValueChunk(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
   /// @brief Method ResolveEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResolveEntity();
 
-  /// @brief Method SetNamespacesFlag, addr 0x2e9f470, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetNamespacesFlag, addr 0x429f488, size 0xec, virtual false, abstract: false, final false
   inline void SetNamespacesFlag(::System::Xml::XmlTextWriter* xtw);
 
-  /// @brief Method Skip, addr 0x2e9e2c0, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Skip, addr 0x429e32c, size 0x34, virtual true, abstract: false, final false
   inline void Skip();
 
-  /// @brief Method SkipSubtree, addr 0x2e9e2f4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SkipSubtree, addr 0x429e360, size 0xd4, virtual false, abstract: false, final false
   inline bool SkipSubtree();
 
-  /// @brief Method WriteAttributeValue, addr 0x2e9ef54, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method WriteAttributeValue, addr 0x429ef6c, size 0xd4, virtual false, abstract: false, final false
   inline void WriteAttributeValue(::System::Xml::XmlWriter* xtw);
 
-  /// @brief Method WriteNode, addr 0x2e9f028, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method WriteNode, addr 0x429f040, size 0x448, virtual false, abstract: false, final false
   inline void WriteNode(::System::Xml::XmlWriter* xtw, bool defattr);
 
-  /// @brief Method .ctor, addr 0x2e964d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4296630, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint32_t getStaticF_CanReadContentAsBitmap();
@@ -256,28 +256,28 @@ public:
   /// @brief Method get_BaseURI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_BaseURI();
 
-  /// @brief Method get_CanReadValueChunk, addr 0x2e9e3d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanReadValueChunk, addr 0x429e43c, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanReadValueChunk();
 
-  /// @brief Method get_CanResolveEntity, addr 0x2e9e3c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanResolveEntity, addr 0x429e434, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanResolveEntity();
 
   /// @brief Method get_Depth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_DtdInfo, addr 0x2e9f73c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DtdInfo, addr 0x429f744, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::IDtdInfo* get_DtdInfo();
 
   /// @brief Method get_EOF, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_EOF();
 
-  /// @brief Method get_HasAttributes, addr 0x2e9f57c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_HasAttributes, addr 0x429f590, size 0x24, virtual true, abstract: false, final false
   inline bool get_HasAttributes();
 
-  /// @brief Method get_IsDefault, addr 0x2e9e0d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDefault, addr 0x429e148, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDefault();
 
-  /// @brief Method get_IsDefaultInternal, addr 0x2e9f65c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_IsDefaultInternal, addr 0x429f664, size 0xe0, virtual false, abstract: false, final false
   inline bool get_IsDefaultInternal();
 
   /// @brief Method get_IsEmptyElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -286,13 +286,13 @@ public:
   /// @brief Method get_LocalName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x2e9dff4, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x429e064, size 0xe4, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
   /// @brief Method get_NameTable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method get_NamespaceManager, addr 0x2e9f5e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NamespaceManager, addr 0x429f5f8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNamespaceManager* get_NamespaceManager();
 
   /// @brief Method get_NamespaceURI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -304,28 +304,28 @@ public:
   /// @brief Method get_Prefix, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_QuoteChar, addr 0x2e9e0e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_QuoteChar, addr 0x429e150, size 0x8, virtual true, abstract: false, final false
   inline char16_t get_QuoteChar();
 
   /// @brief Method get_ReadState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::ReadState get_ReadState();
 
-  /// @brief Method get_SchemaInfo, addr 0x2e9e138, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_SchemaInfo, addr 0x429e1a8, size 0x48, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::IXmlSchemaInfo* get_SchemaInfo();
 
-  /// @brief Method get_Settings, addr 0x2e9dfec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Settings, addr 0x429e05c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlReaderSettings* get_Settings();
 
   /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_ValueType, addr 0x2e9e180, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x429e1f0, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_XmlLang, addr 0x2e9e0f0, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_XmlLang, addr 0x429e160, size 0x48, virtual true, abstract: false, final false
   inline ::StringW get_XmlLang();
 
-  /// @brief Method get_XmlSpace, addr 0x2e9e0e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XmlSpace, addr 0x429e158, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlSpace get_XmlSpace();
 
   /// @brief Convert to "::System::IDisposable"
@@ -350,6 +350,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlReader", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlReader(XmlReader const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7192 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

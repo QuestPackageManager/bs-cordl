@@ -39,7 +39,7 @@ class __FloorLightTile__Pool;
 MARK_REF_PTR_T(::Ice::FloorLightTile);
 MARK_REF_PTR_T(::Ice::__FloorLightTile__Pool);
 // Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
 // CS Name: ::FloorLightTile::Pool*
@@ -48,7 +48,7 @@ public:
   // Declarations
   static inline ::Ice::__FloorLightTile__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1069e88, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2233bd4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,6 +65,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FloorLightTile__Pool(__FloorLightTile__Pool const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18796 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -72,7 +75,7 @@ static_assert(::cordl_internals::size_check_v<::Ice::__FloorLightTile__Pool, 0x4
 
 } // namespace Ice
 // Type: Ice::FloorLightTile
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
 // CS Name: ::Ice::FloorLightTile*
@@ -81,42 +84,42 @@ public:
   // Declarations
   using Pool = ::Ice::__FloorLightTile__Pool;
 
-  /// @brief Field _colorSetter, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorSetter, put = __cordl_internal_set__colorSetter))::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> _colorSetter;
+  /// @brief Field _colorSetter, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorSetter, put = __cordl_internal_set__colorSetter)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> _colorSetter;
 
-  /// @brief Field _fadeInTween, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__fadeInTween, put = __cordl_internal_set__fadeInTween))::Tweening::ColorTween* _fadeInTween;
+  /// @brief Field _fadeInTween, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__fadeInTween, put = __cordl_internal_set__fadeInTween)) ::Tweening::ColorTween* _fadeInTween;
 
-  /// @brief Field _fadeOutTween, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__fadeOutTween, put = __cordl_internal_set__fadeOutTween))::Tweening::ColorTween* _fadeOutTween;
+  /// @brief Field _fadeOutTween, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__fadeOutTween, put = __cordl_internal_set__fadeOutTween)) ::Tweening::ColorTween* _fadeOutTween;
 
-  /// @brief Field _songTimeTweeningManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
+  /// @brief Field _songTimeTweeningManager, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
 
-  /// @brief Field _tubeBloomPrePassLight, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__tubeBloomPrePassLight, put = __cordl_internal_set__tubeBloomPrePassLight))::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _tubeBloomPrePassLight;
+  /// @brief Field _tubeBloomPrePassLight, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__tubeBloomPrePassLight, put = __cordl_internal_set__tubeBloomPrePassLight)) ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _tubeBloomPrePassLight;
 
-  /// @brief Field didFinish, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinish, put = __cordl_internal_set_didFinish))::System::Action_1<::UnityW<::Ice::FloorLightTile>>* didFinish;
+  /// @brief Field didFinish, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_didFinish, put = __cordl_internal_set_didFinish)) ::System::Action_1<::UnityW<::Ice::FloorLightTile>>* didFinish;
 
-  /// @brief Method Awake, addr 0x1069a7c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22337d8, size 0x1e0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleFadeInTweenOnCompleted, addr 0x1069dd8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleFadeInTweenOnCompleted, addr 0x2233b24, size 0x28, virtual false, abstract: false, final false
   inline void HandleFadeInTweenOnCompleted();
 
-  /// @brief Method HandleFadeOutTweenOnCompleted, addr 0x1069e00, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleFadeOutTweenOnCompleted, addr 0x2233b4c, size 0x20, virtual false, abstract: false, final false
   inline void HandleFadeOutTweenOnCompleted();
 
-  /// @brief Method HighlightWithColor, addr 0x1069d0c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HighlightWithColor, addr 0x2233a58, size 0xcc, virtual false, abstract: false, final false
   inline void HighlightWithColor(::UnityEngine::Color color, float_t fadeInDuration, float_t fadeOutDuration);
 
   static inline ::Ice::FloorLightTile* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x1069c6c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22339b8, size 0xa0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColor, addr 0x1069e20, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x2233b6c, size 0x60, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& __cordl_internal_get__colorSetter() const;
@@ -155,7 +158,7 @@ public:
 
   constexpr void __cordl_internal_set_didFinish(::System::Action_1<::UnityW<::Ice::FloorLightTile>>* value);
 
-  /// @brief Method .ctor, addr 0x1069e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2233bcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -172,40 +175,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FloorLightTile(FloorLightTile const&) = delete;
 
-  /// @brief Field _colorSetter, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _colorSetter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> ____colorSetter;
 
-  /// @brief Field _tubeBloomPrePassLight, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _tubeBloomPrePassLight, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;
 
-  /// @brief Field _songTimeTweeningManager, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _songTimeTweeningManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____songTimeTweeningManager;
 
-  /// @brief Field didFinish, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field didFinish, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::Ice::FloorLightTile>>* ___didFinish;
 
-  /// @brief Field _fadeInTween, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _fadeInTween, offset: 0x40, size: 0x8, def value: None
   ::Tweening::ColorTween* ____fadeInTween;
 
-  /// @brief Field _fadeOutTween, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _fadeOutTween, offset: 0x48, size: 0x8, def value: None
   ::Tweening::ColorTween* ____fadeOutTween;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18797 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Ice::FloorLightTile, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Ice::FloorLightTile, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::Ice::FloorLightTile, ____colorSetter) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Ice::FloorLightTile, ____colorSetter) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Ice::FloorLightTile, ____tubeBloomPrePassLight) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Ice::FloorLightTile, ____tubeBloomPrePassLight) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Ice::FloorLightTile, ____songTimeTweeningManager) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Ice::FloorLightTile, ____songTimeTweeningManager) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Ice::FloorLightTile, ___didFinish) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::Ice::FloorLightTile, ___didFinish) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::Ice::FloorLightTile, ____fadeInTween) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::Ice::FloorLightTile, ____fadeInTween) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::Ice::FloorLightTile, ____fadeOutTween) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::Ice::FloorLightTile, ____fadeOutTween) == 0x48, "Offset mismatch!");
 
 } // namespace Ice
 NEED_NO_BOX(::Ice::FloorLightTile);

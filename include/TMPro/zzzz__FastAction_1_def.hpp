@@ -24,7 +24,7 @@ template <typename A> class FastAction_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::TMPro::FastAction_1);
 // Type: TMPro::FastAction`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // cpp template
 template <typename A>
@@ -34,12 +34,12 @@ class CORDL_TYPE FastAction_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field delegates, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_delegates, put = __cordl_internal_set_delegates))::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>* delegates;
+  __declspec(property(get = __cordl_internal_get_delegates, put = __cordl_internal_set_delegates)) ::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>* delegates;
 
   /// @brief Field lookup, offset 0x18, size 0x8
   __declspec(property(
       get = __cordl_internal_get_lookup,
-      put = __cordl_internal_set_lookup))::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>* lookup;
+      put = __cordl_internal_set_lookup)) ::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>* lookup;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(::System::Action_1<A>* rhs);
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field lookup, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>* ___lookup;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14374 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

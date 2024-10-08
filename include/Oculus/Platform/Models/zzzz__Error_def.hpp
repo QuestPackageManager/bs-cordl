@@ -14,7 +14,7 @@ class Error;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::Error);
 // Type: Oculus.Platform.Models::Error
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::Error*
@@ -28,7 +28,7 @@ public:
   __declspec(property(get = __cordl_internal_get_HttpCode, put = __cordl_internal_set_HttpCode)) int32_t HttpCode;
 
   /// @brief Field Message, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Message, put = __cordl_internal_set_Message))::StringW Message;
+  __declspec(property(get = __cordl_internal_get_Message, put = __cordl_internal_set_Message)) ::StringW Message;
 
   static inline ::Oculus::Platform::Models::Error* New_ctor(int32_t code, ::StringW message, int32_t httpCode);
 
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_Message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2b10014, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1b184, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t code, ::StringW message, int32_t httpCode);
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field Message, offset: 0x18, size: 0x8, def value: None
   ::StringW ___Message;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,22 +14,22 @@ class Nat512;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::Raw::Nat512);
 // Type: Org.BouncyCastle.Math.Raw::Nat512
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::Raw {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Math.Raw::Nat512*
 class CORDL_TYPE Nat512 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Mul, addr 0x13020dc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Mul, addr 0x24ceb74, size 0x144, virtual false, abstract: false, final false
   static inline void Mul(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
 
   static inline ::Org::BouncyCastle::Math::Raw::Nat512* New_ctor();
 
-  /// @brief Method Square, addr 0x130221c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Square, addr 0x24cecb8, size 0xf0, virtual false, abstract: false, final false
   static inline void Square(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
 
-  /// @brief Method .ctor, addr 0x130230c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ceda8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Nat512", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Nat512(Nat512 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1599 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

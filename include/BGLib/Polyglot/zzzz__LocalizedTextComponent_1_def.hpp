@@ -28,7 +28,7 @@ template <typename T> class LocalizedTextComponent_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::BGLib::Polyglot::LocalizedTextComponent_1);
 // Type: BGLib.Polyglot::LocalizedTextComponent`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // cpp template
 template <typename T>
@@ -37,23 +37,23 @@ template <typename T>
 class CORDL_TYPE LocalizedTextComponent_1 : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  __declspec(property(get = get_Key, put = set_Key))::StringW Key;
+  __declspec(property(get = get_Key, put = set_Key)) ::StringW Key;
 
   __declspec(property(get = get_MaintainTextAlignment)) bool MaintainTextAlignment;
 
-  __declspec(property(get = get_Parameters))::System::Collections::Generic::List_1<::System::Object*>* Parameters;
+  __declspec(property(get = get_Parameters)) ::System::Collections::Generic::List_1<::System::Object*>* Parameters;
 
-  /// @brief Field key, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::StringW key;
+  /// @brief Field key, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::StringW key;
 
-  /// @brief Field localizedComponent, offset 0x18, size 0x8
+  /// @brief Field localizedComponent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_localizedComponent, put = __cordl_internal_set_localizedComponent)) T localizedComponent;
 
-  /// @brief Field maintainTextAlignment, offset 0x20, size 0x1
+  /// @brief Field maintainTextAlignment, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_maintainTextAlignment, put = __cordl_internal_set_maintainTextAlignment)) bool maintainTextAlignment;
 
-  /// @brief Field parameters, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::System::Collections::Generic::List_1<::System::Object*>* parameters;
+  /// @brief Field parameters, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::System::Collections::Generic::List_1<::System::Object*>* parameters;
 
   /// @brief Convert operator to "::BGLib::Polyglot::ILocalize"
   constexpr operator ::BGLib::Polyglot::ILocalize*() noexcept;
@@ -131,17 +131,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalizedTextComponent_1(LocalizedTextComponent_1 const&) = delete;
 
-  /// @brief Field localizedComponent, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field localizedComponent, offset: 0x20, size: 0x8, def value: None
   T ___localizedComponent;
 
-  /// @brief Field maintainTextAlignment, offset: 0x20, size: 0x1, def value: None
+  /// @brief Field maintainTextAlignment, offset: 0x28, size: 0x1, def value: None
   bool ___maintainTextAlignment;
 
-  /// @brief Field key, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field key, offset: 0x30, size: 0x8, def value: None
   ::StringW ___key;
 
-  /// @brief Field parameters, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field parameters, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Object*>* ___parameters;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

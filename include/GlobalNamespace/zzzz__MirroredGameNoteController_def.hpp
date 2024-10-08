@@ -48,7 +48,7 @@ class __MirroredGameNoteController__Pool;
 MARK_REF_PTR_T(::GlobalNamespace::MirroredGameNoteController);
 MARK_REF_PTR_T(::GlobalNamespace::__MirroredGameNoteController__Pool);
 // Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MirroredGameNoteController::Pool*
@@ -57,7 +57,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MirroredGameNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x264a7e0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7b674, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,6 +74,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MirroredGameNoteController__Pool(__MirroredGameNoteController__Pool const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4092 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -81,7 +84,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MirroredGameN
 
 } // namespace GlobalNamespace
 // Type: ::MirroredGameNoteController
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MirroredGameNoteController*
@@ -93,20 +96,21 @@ public:
   /// @brief Field _colorId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__colorId, put = setStaticF__colorId)) int32_t _colorId;
 
-  /// @brief Field _colorManager, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  /// @brief Field _colorManager, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager)) ::GlobalNamespace::ColorManager* _colorManager;
 
-  /// @brief Field _materialPropertyBlockController, offset 0x48, size 0x8
+  /// @brief Field _materialPropertyBlockController, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
-                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
+                      put = __cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
+      _materialPropertyBlockController;
 
-  /// @brief Field cubeNoteControllerDidInitEvent, offset 0x58, size 0x8
+  /// @brief Field cubeNoteControllerDidInitEvent, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_cubeNoteControllerDidInitEvent,
-                      put = __cordl_internal_set_cubeNoteControllerDidInitEvent))::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* cubeNoteControllerDidInitEvent;
+                      put = __cordl_internal_set_cubeNoteControllerDidInitEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* cubeNoteControllerDidInitEvent;
 
-  __declspec(property(get = get_noteMovement))::UnityW<::GlobalNamespace::NoteMovement> noteMovement;
+  __declspec(property(get = get_noteMovement)) ::UnityW<::GlobalNamespace::NoteMovement> noteMovement;
 
-  __declspec(property(get = get_noteVisualModifierType))::GlobalNamespace::NoteVisualModifierType noteVisualModifierType;
+  __declspec(property(get = get_noteVisualModifierType)) ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType;
 
   /// @brief Convert operator to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>"
   constexpr operator ::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*() noexcept;
@@ -117,7 +121,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteVisualModifierTypeProvider"
   constexpr operator ::GlobalNamespace::INoteVisualModifierTypeProvider*() noexcept;
 
-  /// @brief Method Mirror, addr 0x264a5e0, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Mirror, addr 0x3a7b474, size 0x150, virtual true, abstract: false, final false
   inline void Mirror(::GlobalNamespace::IGameNoteMirrorable* noteController);
 
   static inline ::GlobalNamespace::MirroredGameNoteController* New_ctor();
@@ -140,18 +144,18 @@ public:
 
   constexpr void __cordl_internal_set_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
 
-  /// @brief Method .ctor, addr 0x264a730, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7b5c4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x264a330, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x3a7b1c4, size 0xb0, virtual true, abstract: false, final true
   inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
 
   static inline int32_t getStaticF__colorId();
 
-  /// @brief Method get_noteMovement, addr 0x264a490, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method get_noteMovement, addr 0x3a7b324, size 0xac, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::NoteMovement> get_noteMovement();
 
-  /// @brief Method get_noteVisualModifierType, addr 0x264a53c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_noteVisualModifierType, addr 0x3a7b3d0, size 0xa4, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
   /// @brief Convert to "::GlobalNamespace::ICubeNoteControllerInitializable_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>"
@@ -164,7 +168,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::INoteVisualModifierTypeProvider"
   constexpr ::GlobalNamespace::INoteVisualModifierTypeProvider* i___GlobalNamespace__INoteVisualModifierTypeProvider() noexcept;
 
-  /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x264a3e0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x3a7b274, size 0xb0, virtual true, abstract: false, final true
   inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* value);
 
   static inline void setStaticF__colorId(int32_t value);
@@ -183,25 +187,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MirroredGameNoteController(MirroredGameNoteController const&) = delete;
 
-  /// @brief Field _materialPropertyBlockController, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _materialPropertyBlockController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
-  /// @brief Field _colorManager, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _colorManager, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
-  /// @brief Field cubeNoteControllerDidInitEvent, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field cubeNoteControllerDidInitEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>* ___cubeNoteControllerDidInitEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4093 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirroredGameNoteController, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirroredGameNoteController, 0x68>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredGameNoteController, ____materialPropertyBlockController) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredGameNoteController, ____materialPropertyBlockController) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredGameNoteController, ____colorManager) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredGameNoteController, ____colorManager) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredGameNoteController, ___cubeNoteControllerDidInitEvent) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredGameNoteController, ___cubeNoteControllerDidInitEvent) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MirroredGameNoteController);

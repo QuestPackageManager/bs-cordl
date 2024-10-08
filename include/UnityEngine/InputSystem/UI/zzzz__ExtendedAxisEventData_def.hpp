@@ -16,7 +16,7 @@ class ExtendedAxisEventData;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::UI::ExtendedAxisEventData);
 // Type: UnityEngine.InputSystem.UI::ExtendedAxisEventData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.UI::ExtendedAxisEventData*
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::UI::ExtendedAxisEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method ToString, addr 0x31730e4, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4576a14, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x31730dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4576a0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ExtendedAxisEventData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ExtendedAxisEventData(ExtendedAxisEventData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6744 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

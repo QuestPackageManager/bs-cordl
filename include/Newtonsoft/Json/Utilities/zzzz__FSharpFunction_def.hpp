@@ -19,7 +19,7 @@ class FSharpFunction;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::FSharpFunction);
 // Type: Newtonsoft.Json.Utilities::FSharpFunction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::FSharpFunction*
@@ -27,12 +27,12 @@ class CORDL_TYPE FSharpFunction : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _instance, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__instance, put = __cordl_internal_set__instance))::System::Object* _instance;
+  __declspec(property(get = __cordl_internal_get__instance, put = __cordl_internal_set__instance)) ::System::Object* _instance;
 
   /// @brief Field _invoker, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__invoker, put = __cordl_internal_set__invoker))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _invoker;
+  __declspec(property(get = __cordl_internal_get__invoker, put = __cordl_internal_set__invoker)) ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _invoker;
 
-  /// @brief Method Invoke, addr 0x2a441a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3e5561c, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Object* Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::Newtonsoft::Json::Utilities::FSharpFunction* New_ctor(::System::Object* instance, ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* invoker);
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__invoker(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x2a44174, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e555f0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* instance, ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* invoker);
 
 protected:
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field _invoker, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* ____invoker;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10199 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

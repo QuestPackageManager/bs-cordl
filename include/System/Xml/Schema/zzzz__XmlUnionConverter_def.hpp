@@ -28,7 +28,7 @@ class XmlUnionConverter;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlUnionConverter);
 // Type: System.Xml.Schema::XmlUnionConverter
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlUnionConverter*
@@ -37,7 +37,8 @@ public:
   // Declarations
   /// @brief Field converters, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_converters,
-                      put = __cordl_internal_set_converters))::ArrayW<::System::Xml::Schema::XmlValueConverter*, ::Array<::System::Xml::Schema::XmlValueConverter*>*> converters;
+                      put = __cordl_internal_set_converters)) ::ArrayW<::System::Xml::Schema::XmlValueConverter*, ::Array<::System::Xml::Schema::XmlValueConverter*>*>
+      converters;
 
   /// @brief Field hasAtomicMember, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_hasAtomicMember, put = __cordl_internal_set_hasAtomicMember)) bool hasAtomicMember;
@@ -45,10 +46,10 @@ public:
   /// @brief Field hasListMember, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get_hasListMember, put = __cordl_internal_set_hasListMember)) bool hasListMember;
 
-  /// @brief Method ChangeType, addr 0x2e79cd8, size 0x420, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x427a9a0, size 0x414, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method Create, addr 0x2e79c78, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x427a948, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlUnionConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
@@ -71,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_hasListMember(bool value);
 
-  /// @brief Method .ctor, addr 0x2e79a30, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x427a704, size 0x244, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:
@@ -96,6 +97,9 @@ public:
 
   /// @brief Field hasListMember, offset: 0x31, size: 0x1, def value: None
   bool ___hasListMember;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7719 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

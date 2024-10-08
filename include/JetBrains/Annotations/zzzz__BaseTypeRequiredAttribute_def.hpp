@@ -15,17 +15,17 @@ class BaseTypeRequiredAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::BaseTypeRequiredAttribute);
 // Type: JetBrains.Annotations::BaseTypeRequiredAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::BaseTypeRequiredAttribute*
 class CORDL_TYPE BaseTypeRequiredAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_BaseType, put = set_BaseType))::System::Type* BaseType;
+  __declspec(property(get = get_BaseType, put = set_BaseType)) ::System::Type* BaseType;
 
   /// @brief Field <BaseType>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__BaseType_k__BackingField, put = __cordl_internal_set__BaseType_k__BackingField))::System::Type* _BaseType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BaseType_k__BackingField, put = __cordl_internal_set__BaseType_k__BackingField)) ::System::Type* _BaseType_k__BackingField;
 
   static inline ::JetBrains::Annotations::BaseTypeRequiredAttribute* New_ctor(::System::Type* baseType);
 
@@ -35,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set__BaseType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3651100, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77980, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* baseType);
 
-  /// @brief Method get_BaseType, addr 0x3651128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x4a779a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_BaseType();
 
-  /// @brief Method set_BaseType, addr 0x3651130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x4a779b0, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::System::Type* value);
 
 protected:
@@ -60,6 +60,9 @@ public:
 
   /// @brief Field <BaseType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____BaseType_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18336 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

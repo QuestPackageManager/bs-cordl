@@ -18,7 +18,7 @@ class EventBinder;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EventBinder);
 // Type: ::EventBinder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::EventBinder*
@@ -26,12 +26,12 @@ class CORDL_TYPE EventBinder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _unsubscribes, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__unsubscribes, put = __cordl_internal_set__unsubscribes))::System::Collections::Generic::List_1<::System::Action*>* _unsubscribes;
+  __declspec(property(get = __cordl_internal_get__unsubscribes, put = __cordl_internal_set__unsubscribes)) ::System::Collections::Generic::List_1<::System::Action*>* _unsubscribes;
 
-  /// @brief Method Bind, addr 0x2502e94, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x395a260, size 0xc8, virtual false, abstract: false, final false
   inline void Bind(::System::Action* subscribe, ::System::Action* unsubscribe);
 
-  /// @brief Method ClearAllBindings, addr 0x2502f60, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ClearAllBindings, addr 0x395a328, size 0x18c, virtual false, abstract: false, final false
   inline void ClearAllBindings();
 
   static inline ::GlobalNamespace::EventBinder* New_ctor();
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__unsubscribes(::System::Collections::Generic::List_1<::System::Action*>* value);
 
-  /// @brief Method .ctor, addr 0x25030ec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395a4b4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field _unsubscribes, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Action*>* ____unsubscribes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

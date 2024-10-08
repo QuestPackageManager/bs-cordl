@@ -18,7 +18,7 @@ struct Compositor_FrameTiming;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::Compositor_FrameTiming);
 // Type: OVR.OpenVR::Compositor_FrameTiming
-// SizeInfo { instance_size: 176, native_size: 176, calculated_instance_size: 176, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 176, native_size: 176, calculated_instance_size: 176, calculated_native_size: 192, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::Compositor_FrameTiming
@@ -118,6 +118,9 @@ public:
 
   /// @brief Field m_HmdPose, offset: 0x60, size: 0x50, def value: None
   ::OVR::OpenVR::TrackedDevicePose_t m_HmdPose;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8987 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb0 };

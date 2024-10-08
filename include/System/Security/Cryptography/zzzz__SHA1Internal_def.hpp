@@ -14,7 +14,7 @@ class SHA1Internal;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::SHA1Internal);
 // Type: System.Security.Cryptography::SHA1Internal
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::SHA1Internal*
@@ -22,44 +22,44 @@ class CORDL_TYPE SHA1Internal : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _H, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__H, put = __cordl_internal_set__H))::ArrayW<uint32_t, ::Array<uint32_t>*> _H;
+  __declspec(property(get = __cordl_internal_get__H, put = __cordl_internal_set__H)) ::ArrayW<uint32_t, ::Array<uint32_t>*> _H;
 
   /// @brief Field _ProcessingBuffer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__ProcessingBuffer, put = __cordl_internal_set__ProcessingBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _ProcessingBuffer;
+  __declspec(property(get = __cordl_internal_get__ProcessingBuffer, put = __cordl_internal_set__ProcessingBuffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _ProcessingBuffer;
 
   /// @brief Field _ProcessingBufferCount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__ProcessingBufferCount, put = __cordl_internal_set__ProcessingBufferCount)) int32_t _ProcessingBufferCount;
 
   /// @brief Field buff, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_buff, put = __cordl_internal_set_buff))::ArrayW<uint32_t, ::Array<uint32_t>*> buff;
+  __declspec(property(get = __cordl_internal_get_buff, put = __cordl_internal_set_buff)) ::ArrayW<uint32_t, ::Array<uint32_t>*> buff;
 
   /// @brief Field count, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) uint64_t count;
 
-  /// @brief Method AddLength, addr 0x28220d0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddLength, addr 0x3c40af0, size 0xf0, virtual false, abstract: false, final false
   inline void AddLength(uint64_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t position);
 
-  /// @brief Method FillBuff, addr 0x2821e9c, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method FillBuff, addr 0x3c4096c, size 0x184, virtual false, abstract: false, final false
   static inline void FillBuff(::ArrayW<uint32_t, ::Array<uint32_t>*> buff);
 
-  /// @brief Method HashCore, addr 0x2820f50, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method HashCore, addr 0x3c3fa24, size 0x100, virtual false, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x2821568, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x3c40038, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method InitialiseBuff, addr 0x28217fc, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method InitialiseBuff, addr 0x3c402cc, size 0x6a0, virtual false, abstract: false, final false
   static inline void InitialiseBuff(::ArrayW<uint32_t, ::Array<uint32_t>*> buff, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, uint32_t inputOffset);
 
-  /// @brief Method Initialize, addr 0x2820ec8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3c3f99c, size 0x88, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::System::Security::Cryptography::SHA1Internal* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x2821050, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x3c3fb24, size 0x514, virtual false, abstract: false, final false
   inline void ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, uint32_t inputOffset);
 
-  /// @brief Method ProcessFinalBlock, addr 0x2821640, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ProcessFinalBlock, addr 0x3c40110, size 0x1bc, virtual false, abstract: false, final false
   inline void ProcessFinalBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__H() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_count(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2820e2c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3f900, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,6 +123,9 @@ public:
 
   /// @brief Field buff, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ___buff;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2984 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

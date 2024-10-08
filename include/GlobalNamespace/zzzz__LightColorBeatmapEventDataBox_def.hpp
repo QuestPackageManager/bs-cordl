@@ -17,6 +17,9 @@ namespace GlobalNamespace {
 class IBeatToTimeConverter;
 }
 namespace GlobalNamespace {
+class IBeatmapLightEventConverter;
+}
+namespace GlobalNamespace {
 class IndexFilter;
 }
 namespace GlobalNamespace {
@@ -38,7 +41,7 @@ class LightColorBeatmapEventDataBox;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightColorBeatmapEventDataBox);
 // Type: ::LightColorBeatmapEventDataBox
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightColorBeatmapEventDataBox*
@@ -57,7 +60,7 @@ public:
 
   /// @brief Field _lightColorBaseDataList, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__lightColorBaseDataList,
-                      put = __cordl_internal_set__lightColorBaseDataList))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* _lightColorBaseDataList;
+                      put = __cordl_internal_set__lightColorBaseDataList)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* _lightColorBaseDataList;
 
   __declspec(property(get = get_beatStep)) float_t beatStep;
 
@@ -68,9 +71,10 @@ public:
            float_t brightnessDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType brightnessDistributionParamType, bool brightnessDistributionShouldAffectFirstBaseEvent,
            ::GlobalNamespace::EaseType brightnessDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList);
 
-  /// @brief Method Unpack, addr 0x14c37ec, size 0x4fc, virtual true, abstract: false, final false
+  /// @brief Method Unpack, addr 0x267c260, size 0x518, virtual true, abstract: false, final false
   inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
-                     ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
+                     ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter,
+                     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 
   constexpr float_t const& __cordl_internal_get__beatStep() const;
 
@@ -96,16 +100,16 @@ public:
 
   constexpr void __cordl_internal_set__lightColorBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* value);
 
-  /// @brief Method .ctor, addr 0x14c35e4, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267c058, size 0x208, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType,
                     float_t brightnessDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType brightnessDistributionParamType,
                     bool brightnessDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType brightnessDistributionEaseType,
                     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList);
 
-  /// @brief Method get_beatStep, addr 0x14c35dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_beatStep, addr 0x267c050, size 0x8, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_subtypeIdentifier, addr 0x14c35d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeIdentifier, addr 0x267c048, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
 protected:
@@ -133,6 +137,9 @@ public:
 
   /// @brief Field _brightnessDistributionShouldAffectFirstBaseEvent, offset: 0x48, size: 0x1, def value: None
   bool ____brightnessDistributionShouldAffectFirstBaseEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12868 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

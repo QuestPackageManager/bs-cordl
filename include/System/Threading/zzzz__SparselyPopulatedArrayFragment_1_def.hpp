@@ -14,7 +14,7 @@ template <typename T> class SparselyPopulatedArrayFragment_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::SparselyPopulatedArrayFragment_1);
 // Type: System.Threading::SparselyPopulatedArrayFragment`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // cpp template
 template <typename T>
@@ -27,19 +27,19 @@ public:
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  __declspec(property(get = get_Prev))::System::Threading::SparselyPopulatedArrayFragment_1<T>* Prev;
+  __declspec(property(get = get_Prev)) ::System::Threading::SparselyPopulatedArrayFragment_1<T>* Prev;
 
   /// @brief Field _elements, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__elements, put = __cordl_internal_set__elements))::ArrayW<T, ::Array<T>*> _elements;
+  __declspec(property(get = __cordl_internal_get__elements, put = __cordl_internal_set__elements)) ::ArrayW<T, ::Array<T>*> _elements;
 
   /// @brief Field _freeCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__freeCount, put = __cordl_internal_set__freeCount)) int32_t _freeCount;
 
   /// @brief Field _next, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next))::System::Threading::SparselyPopulatedArrayFragment_1<T>* _next;
+  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next)) ::System::Threading::SparselyPopulatedArrayFragment_1<T>* _next;
 
   /// @brief Field _prev, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__prev, put = __cordl_internal_set__prev))::System::Threading::SparselyPopulatedArrayFragment_1<T>* _prev;
+  __declspec(property(get = __cordl_internal_get__prev, put = __cordl_internal_set__prev)) ::System::Threading::SparselyPopulatedArrayFragment_1<T>* _prev;
 
   static inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* New_ctor(int32_t size);
 
@@ -112,6 +112,9 @@ public:
 
   /// @brief Field _prev, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::SparselyPopulatedArrayFragment_1<T>* ____prev;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2697 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

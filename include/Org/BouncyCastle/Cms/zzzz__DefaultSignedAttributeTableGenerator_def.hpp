@@ -24,7 +24,7 @@ class DefaultSignedAttributeTableGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator);
 // Type: Org.BouncyCastle.Cms::DefaultSignedAttributeTableGenerator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::DefaultSignedAttributeTableGenerator*
@@ -32,15 +32,15 @@ class CORDL_TYPE DefaultSignedAttributeTableGenerator : public ::System::Object 
 public:
   // Declarations
   /// @brief Field table, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table))::System::Collections::IDictionary* table;
+  __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table)) ::System::Collections::IDictionary* table;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*() noexcept;
 
-  /// @brief Method DoCreateStandardAttributeTable, addr 0x1473d28, size 0x710, virtual false, abstract: false, final false
+  /// @brief Method DoCreateStandardAttributeTable, addr 0x2635a04, size 0x714, virtual false, abstract: false, final false
   inline void DoCreateStandardAttributeTable(::System::Collections::IDictionary* parameters, ::System::Collections::IDictionary* std);
 
-  /// @brief Method GetAttributes, addr 0x1474438, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x2636118, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
 
   static inline ::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator* New_ctor();
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x145d5ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261f47c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x145da94, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261f94c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
 
-  /// @brief Method createStandardAttributeTable, addr 0x1473ca8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method createStandardAttributeTable, addr 0x263598c, size 0x78, virtual true, abstract: false, final false
   inline ::System::Collections::Hashtable* createStandardAttributeTable(::System::Collections::IDictionary* parameters);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field table, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IDictionary* ___table;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 667 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

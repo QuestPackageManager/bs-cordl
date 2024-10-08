@@ -21,22 +21,22 @@ class RemoteActivator;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::RemoteActivator);
 // Type: System.Runtime.Remoting.Activation::RemoteActivator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Activation::RemoteActivator*
 class CORDL_TYPE RemoteActivator : public ::System::MarshalByRefObject {
 public:
   // Declarations
-  __declspec(property(get = get_NextActivator))::System::Runtime::Remoting::Activation::IActivator* NextActivator;
+  __declspec(property(get = get_NextActivator)) ::System::Runtime::Remoting::Activation::IActivator* NextActivator;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-  /// @brief Method Activate, addr 0x2852c00, size 0x374, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x3c6f7e0, size 0x360, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
-  /// @brief Method get_NextActivator, addr 0x2852f74, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_NextActivator, addr 0x3c6fb40, size 0x38, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
@@ -55,6 +55,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RemoteActivator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RemoteActivator(RemoteActivator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3136 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

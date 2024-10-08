@@ -41,94 +41,94 @@ class JsonSchema;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Schema::JsonSchema);
 // Type: Newtonsoft.Json.Schema::JsonSchema
-// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 289, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 289, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Schema::JsonSchema*
 class CORDL_TYPE JsonSchema : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AdditionalItems, put = set_AdditionalItems))::Newtonsoft::Json::Schema::JsonSchema* AdditionalItems;
+  __declspec(property(get = get_AdditionalItems, put = set_AdditionalItems)) ::Newtonsoft::Json::Schema::JsonSchema* AdditionalItems;
 
-  __declspec(property(get = get_AdditionalProperties, put = set_AdditionalProperties))::Newtonsoft::Json::Schema::JsonSchema* AdditionalProperties;
+  __declspec(property(get = get_AdditionalProperties, put = set_AdditionalProperties)) ::Newtonsoft::Json::Schema::JsonSchema* AdditionalProperties;
 
   __declspec(property(get = get_AllowAdditionalItems, put = set_AllowAdditionalItems)) bool AllowAdditionalItems;
 
   __declspec(property(get = get_AllowAdditionalProperties, put = set_AllowAdditionalProperties)) bool AllowAdditionalProperties;
 
-  __declspec(property(get = get_Default, put = set_Default))::Newtonsoft::Json::Linq::JToken* Default;
+  __declspec(property(get = get_Default, put = set_Default)) ::Newtonsoft::Json::Linq::JToken* Default;
 
-  __declspec(property(get = get_DeferredReference, put = set_DeferredReference))::StringW DeferredReference;
+  __declspec(property(get = get_DeferredReference, put = set_DeferredReference)) ::StringW DeferredReference;
 
-  __declspec(property(get = get_Description, put = set_Description))::StringW Description;
+  __declspec(property(get = get_Description, put = set_Description)) ::StringW Description;
 
-  __declspec(property(get = get_Disallow, put = set_Disallow))::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> Disallow;
+  __declspec(property(get = get_Disallow, put = set_Disallow)) ::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> Disallow;
 
-  __declspec(property(get = get_DivisibleBy, put = set_DivisibleBy))::System::Nullable_1<double_t> DivisibleBy;
+  __declspec(property(get = get_DivisibleBy, put = set_DivisibleBy)) ::System::Nullable_1<double_t> DivisibleBy;
 
-  __declspec(property(get = get_Enum, put = set_Enum))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* Enum;
+  __declspec(property(get = get_Enum, put = set_Enum)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* Enum;
 
-  __declspec(property(get = get_ExclusiveMaximum, put = set_ExclusiveMaximum))::System::Nullable_1<bool> ExclusiveMaximum;
+  __declspec(property(get = get_ExclusiveMaximum, put = set_ExclusiveMaximum)) ::System::Nullable_1<bool> ExclusiveMaximum;
 
-  __declspec(property(get = get_ExclusiveMinimum, put = set_ExclusiveMinimum))::System::Nullable_1<bool> ExclusiveMinimum;
+  __declspec(property(get = get_ExclusiveMinimum, put = set_ExclusiveMinimum)) ::System::Nullable_1<bool> ExclusiveMinimum;
 
-  __declspec(property(get = get_Extends, put = set_Extends))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* Extends;
+  __declspec(property(get = get_Extends, put = set_Extends)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* Extends;
 
-  __declspec(property(get = get_Format, put = set_Format))::StringW Format;
+  __declspec(property(get = get_Format, put = set_Format)) ::StringW Format;
 
-  __declspec(property(get = get_Hidden, put = set_Hidden))::System::Nullable_1<bool> Hidden;
+  __declspec(property(get = get_Hidden, put = set_Hidden)) ::System::Nullable_1<bool> Hidden;
 
-  __declspec(property(get = get_Id, put = set_Id))::StringW Id;
+  __declspec(property(get = get_Id, put = set_Id)) ::StringW Id;
 
-  __declspec(property(get = get_InternalId))::StringW InternalId;
+  __declspec(property(get = get_InternalId)) ::StringW InternalId;
 
-  __declspec(property(get = get_Items, put = set_Items))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* Items;
+  __declspec(property(get = get_Items, put = set_Items)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* Items;
 
-  __declspec(property(get = get_Location, put = set_Location))::StringW Location;
+  __declspec(property(get = get_Location, put = set_Location)) ::StringW Location;
 
-  __declspec(property(get = get_Maximum, put = set_Maximum))::System::Nullable_1<double_t> Maximum;
+  __declspec(property(get = get_Maximum, put = set_Maximum)) ::System::Nullable_1<double_t> Maximum;
 
-  __declspec(property(get = get_MaximumItems, put = set_MaximumItems))::System::Nullable_1<int32_t> MaximumItems;
+  __declspec(property(get = get_MaximumItems, put = set_MaximumItems)) ::System::Nullable_1<int32_t> MaximumItems;
 
-  __declspec(property(get = get_MaximumLength, put = set_MaximumLength))::System::Nullable_1<int32_t> MaximumLength;
+  __declspec(property(get = get_MaximumLength, put = set_MaximumLength)) ::System::Nullable_1<int32_t> MaximumLength;
 
-  __declspec(property(get = get_Minimum, put = set_Minimum))::System::Nullable_1<double_t> Minimum;
+  __declspec(property(get = get_Minimum, put = set_Minimum)) ::System::Nullable_1<double_t> Minimum;
 
-  __declspec(property(get = get_MinimumItems, put = set_MinimumItems))::System::Nullable_1<int32_t> MinimumItems;
+  __declspec(property(get = get_MinimumItems, put = set_MinimumItems)) ::System::Nullable_1<int32_t> MinimumItems;
 
-  __declspec(property(get = get_MinimumLength, put = set_MinimumLength))::System::Nullable_1<int32_t> MinimumLength;
+  __declspec(property(get = get_MinimumLength, put = set_MinimumLength)) ::System::Nullable_1<int32_t> MinimumLength;
 
-  __declspec(property(get = get_Pattern, put = set_Pattern))::StringW Pattern;
+  __declspec(property(get = get_Pattern, put = set_Pattern)) ::StringW Pattern;
 
-  __declspec(property(get = get_PatternProperties, put = set_PatternProperties))::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* PatternProperties;
+  __declspec(property(get = get_PatternProperties, put = set_PatternProperties)) ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* PatternProperties;
 
   __declspec(property(get = get_PositionalItemsValidation, put = set_PositionalItemsValidation)) bool PositionalItemsValidation;
 
-  __declspec(property(get = get_Properties, put = set_Properties))::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* Properties;
+  __declspec(property(get = get_Properties, put = set_Properties)) ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* Properties;
 
-  __declspec(property(get = get_ReadOnly, put = set_ReadOnly))::System::Nullable_1<bool> ReadOnly;
+  __declspec(property(get = get_ReadOnly, put = set_ReadOnly)) ::System::Nullable_1<bool> ReadOnly;
 
   __declspec(property(get = get_ReferencesResolved, put = set_ReferencesResolved)) bool ReferencesResolved;
 
-  __declspec(property(get = get_Required, put = set_Required))::System::Nullable_1<bool> Required;
+  __declspec(property(get = get_Required, put = set_Required)) ::System::Nullable_1<bool> Required;
 
-  __declspec(property(get = get_Requires, put = set_Requires))::StringW Requires;
+  __declspec(property(get = get_Requires, put = set_Requires)) ::StringW Requires;
 
-  __declspec(property(get = get_Title, put = set_Title))::StringW Title;
+  __declspec(property(get = get_Title, put = set_Title)) ::StringW Title;
 
-  __declspec(property(get = get_Transient, put = set_Transient))::System::Nullable_1<bool> Transient;
+  __declspec(property(get = get_Transient, put = set_Transient)) ::System::Nullable_1<bool> Transient;
 
-  __declspec(property(get = get_Type, put = set_Type))::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> Type;
+  __declspec(property(get = get_Type, put = set_Type)) ::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> Type;
 
   __declspec(property(get = get_UniqueItems, put = set_UniqueItems)) bool UniqueItems;
 
   /// @brief Field <AdditionalItems>k__BackingField, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__AdditionalItems_k__BackingField,
-                      put = __cordl_internal_set__AdditionalItems_k__BackingField))::Newtonsoft::Json::Schema::JsonSchema* _AdditionalItems_k__BackingField;
+                      put = __cordl_internal_set__AdditionalItems_k__BackingField)) ::Newtonsoft::Json::Schema::JsonSchema* _AdditionalItems_k__BackingField;
 
   /// @brief Field <AdditionalProperties>k__BackingField, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__AdditionalProperties_k__BackingField,
-                      put = __cordl_internal_set__AdditionalProperties_k__BackingField))::Newtonsoft::Json::Schema::JsonSchema* _AdditionalProperties_k__BackingField;
+                      put = __cordl_internal_set__AdditionalProperties_k__BackingField)) ::Newtonsoft::Json::Schema::JsonSchema* _AdditionalProperties_k__BackingField;
 
   /// @brief Field <AllowAdditionalItems>k__BackingField, offset 0xb0, size 0x1
   __declspec(property(get = __cordl_internal_get__AllowAdditionalItems_k__BackingField, put = __cordl_internal_set__AllowAdditionalItems_k__BackingField)) bool _AllowAdditionalItems_k__BackingField;
@@ -138,138 +138,139 @@ public:
                       put = __cordl_internal_set__AllowAdditionalProperties_k__BackingField)) bool _AllowAdditionalProperties_k__BackingField;
 
   /// @brief Field <Default>k__BackingField, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get__Default_k__BackingField, put = __cordl_internal_set__Default_k__BackingField))::Newtonsoft::Json::Linq::JToken* _Default_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Default_k__BackingField, put = __cordl_internal_set__Default_k__BackingField)) ::Newtonsoft::Json::Linq::JToken* _Default_k__BackingField;
 
   /// @brief Field <DeferredReference>k__BackingField, offset 0x118, size 0x8
-  __declspec(property(get = __cordl_internal_get__DeferredReference_k__BackingField, put = __cordl_internal_set__DeferredReference_k__BackingField))::StringW _DeferredReference_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DeferredReference_k__BackingField, put = __cordl_internal_set__DeferredReference_k__BackingField)) ::StringW _DeferredReference_k__BackingField;
 
   /// @brief Field <Description>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__Description_k__BackingField, put = __cordl_internal_set__Description_k__BackingField))::StringW _Description_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Description_k__BackingField, put = __cordl_internal_set__Description_k__BackingField)) ::StringW _Description_k__BackingField;
 
   /// @brief Field <Disallow>k__BackingField, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get__Disallow_k__BackingField,
-                      put = __cordl_internal_set__Disallow_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> _Disallow_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Disallow_k__BackingField, put = __cordl_internal_set__Disallow_k__BackingField)) ::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType>
+      _Disallow_k__BackingField;
 
   /// @brief Field <DivisibleBy>k__BackingField, offset 0x50, size 0x10
-  __declspec(property(get = __cordl_internal_get__DivisibleBy_k__BackingField, put = __cordl_internal_set__DivisibleBy_k__BackingField))::System::Nullable_1<double_t> _DivisibleBy_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DivisibleBy_k__BackingField, put = __cordl_internal_set__DivisibleBy_k__BackingField)) ::System::Nullable_1<double_t> _DivisibleBy_k__BackingField;
 
   /// @brief Field <Enum>k__BackingField, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__Enum_k__BackingField,
-                      put = __cordl_internal_set__Enum_k__BackingField))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* _Enum_k__BackingField;
+                      put = __cordl_internal_set__Enum_k__BackingField)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* _Enum_k__BackingField;
 
   /// @brief Field <ExclusiveMaximum>k__BackingField, offset 0x82, size 0x2
-  __declspec(property(get = __cordl_internal_get__ExclusiveMaximum_k__BackingField,
-                      put = __cordl_internal_set__ExclusiveMaximum_k__BackingField))::System::Nullable_1<bool> _ExclusiveMaximum_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ExclusiveMaximum_k__BackingField, put = __cordl_internal_set__ExclusiveMaximum_k__BackingField)) ::System::Nullable_1<bool>
+      _ExclusiveMaximum_k__BackingField;
 
   /// @brief Field <ExclusiveMinimum>k__BackingField, offset 0x80, size 0x2
-  __declspec(property(get = __cordl_internal_get__ExclusiveMinimum_k__BackingField,
-                      put = __cordl_internal_set__ExclusiveMinimum_k__BackingField))::System::Nullable_1<bool> _ExclusiveMinimum_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ExclusiveMinimum_k__BackingField, put = __cordl_internal_set__ExclusiveMinimum_k__BackingField)) ::System::Nullable_1<bool>
+      _ExclusiveMinimum_k__BackingField;
 
   /// @brief Field <Extends>k__BackingField, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__Extends_k__BackingField,
-                      put = __cordl_internal_set__Extends_k__BackingField))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* _Extends_k__BackingField;
+                      put = __cordl_internal_set__Extends_k__BackingField)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* _Extends_k__BackingField;
 
   /// @brief Field <Format>k__BackingField, offset 0x100, size 0x8
-  __declspec(property(get = __cordl_internal_get__Format_k__BackingField, put = __cordl_internal_set__Format_k__BackingField))::StringW _Format_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Format_k__BackingField, put = __cordl_internal_set__Format_k__BackingField)) ::StringW _Format_k__BackingField;
 
   /// @brief Field <Hidden>k__BackingField, offset 0x24, size 0x2
-  __declspec(property(get = __cordl_internal_get__Hidden_k__BackingField, put = __cordl_internal_set__Hidden_k__BackingField))::System::Nullable_1<bool> _Hidden_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Hidden_k__BackingField, put = __cordl_internal_set__Hidden_k__BackingField)) ::System::Nullable_1<bool> _Hidden_k__BackingField;
 
   /// @brief Field <Id>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Id_k__BackingField, put = __cordl_internal_set__Id_k__BackingField))::StringW _Id_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Id_k__BackingField, put = __cordl_internal_set__Id_k__BackingField)) ::StringW _Id_k__BackingField;
 
   /// @brief Field <Items>k__BackingField, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__Items_k__BackingField,
-                      put = __cordl_internal_set__Items_k__BackingField))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* _Items_k__BackingField;
+                      put = __cordl_internal_set__Items_k__BackingField)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* _Items_k__BackingField;
 
   /// @brief Field <Location>k__BackingField, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get__Location_k__BackingField, put = __cordl_internal_set__Location_k__BackingField))::StringW _Location_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Location_k__BackingField, put = __cordl_internal_set__Location_k__BackingField)) ::StringW _Location_k__BackingField;
 
   /// @brief Field <MaximumItems>k__BackingField, offset 0x8c, size 0x8
-  __declspec(property(get = __cordl_internal_get__MaximumItems_k__BackingField, put = __cordl_internal_set__MaximumItems_k__BackingField))::System::Nullable_1<int32_t> _MaximumItems_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MaximumItems_k__BackingField, put = __cordl_internal_set__MaximumItems_k__BackingField)) ::System::Nullable_1<int32_t> _MaximumItems_k__BackingField;
 
   /// @brief Field <MaximumLength>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__MaximumLength_k__BackingField,
-                      put = __cordl_internal_set__MaximumLength_k__BackingField))::System::Nullable_1<int32_t> _MaximumLength_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MaximumLength_k__BackingField, put = __cordl_internal_set__MaximumLength_k__BackingField)) ::System::Nullable_1<int32_t>
+      _MaximumLength_k__BackingField;
 
   /// @brief Field <Maximum>k__BackingField, offset 0x70, size 0x10
-  __declspec(property(get = __cordl_internal_get__Maximum_k__BackingField, put = __cordl_internal_set__Maximum_k__BackingField))::System::Nullable_1<double_t> _Maximum_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Maximum_k__BackingField, put = __cordl_internal_set__Maximum_k__BackingField)) ::System::Nullable_1<double_t> _Maximum_k__BackingField;
 
   /// @brief Field <MinimumItems>k__BackingField, offset 0x84, size 0x8
-  __declspec(property(get = __cordl_internal_get__MinimumItems_k__BackingField, put = __cordl_internal_set__MinimumItems_k__BackingField))::System::Nullable_1<int32_t> _MinimumItems_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MinimumItems_k__BackingField, put = __cordl_internal_set__MinimumItems_k__BackingField)) ::System::Nullable_1<int32_t> _MinimumItems_k__BackingField;
 
   /// @brief Field <MinimumLength>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__MinimumLength_k__BackingField,
-                      put = __cordl_internal_set__MinimumLength_k__BackingField))::System::Nullable_1<int32_t> _MinimumLength_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MinimumLength_k__BackingField, put = __cordl_internal_set__MinimumLength_k__BackingField)) ::System::Nullable_1<int32_t>
+      _MinimumLength_k__BackingField;
 
   /// @brief Field <Minimum>k__BackingField, offset 0x60, size 0x10
-  __declspec(property(get = __cordl_internal_get__Minimum_k__BackingField, put = __cordl_internal_set__Minimum_k__BackingField))::System::Nullable_1<double_t> _Minimum_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Minimum_k__BackingField, put = __cordl_internal_set__Minimum_k__BackingField)) ::System::Nullable_1<double_t> _Minimum_k__BackingField;
 
   /// @brief Field <PatternProperties>k__BackingField, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__PatternProperties_k__BackingField, put = __cordl_internal_set__PatternProperties_k__BackingField))::System::Collections::Generic::IDictionary_2<
-      ::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* _PatternProperties_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__PatternProperties_k__BackingField,
+                      put = __cordl_internal_set__PatternProperties_k__BackingField)) ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>*
+      _PatternProperties_k__BackingField;
 
   /// @brief Field <Pattern>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__Pattern_k__BackingField, put = __cordl_internal_set__Pattern_k__BackingField))::StringW _Pattern_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Pattern_k__BackingField, put = __cordl_internal_set__Pattern_k__BackingField)) ::StringW _Pattern_k__BackingField;
 
   /// @brief Field <PositionalItemsValidation>k__BackingField, offset 0xa0, size 0x1
   __declspec(property(get = __cordl_internal_get__PositionalItemsValidation_k__BackingField,
                       put = __cordl_internal_set__PositionalItemsValidation_k__BackingField)) bool _PositionalItemsValidation_k__BackingField;
 
   /// @brief Field <Properties>k__BackingField, offset 0xb8, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__Properties_k__BackingField,
-               put = __cordl_internal_set__Properties_k__BackingField))::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* _Properties_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__Properties_k__BackingField,
+      put = __cordl_internal_set__Properties_k__BackingField)) ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* _Properties_k__BackingField;
 
   /// @brief Field <ReadOnly>k__BackingField, offset 0x22, size 0x2
-  __declspec(property(get = __cordl_internal_get__ReadOnly_k__BackingField, put = __cordl_internal_set__ReadOnly_k__BackingField))::System::Nullable_1<bool> _ReadOnly_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ReadOnly_k__BackingField, put = __cordl_internal_set__ReadOnly_k__BackingField)) ::System::Nullable_1<bool> _ReadOnly_k__BackingField;
 
   /// @brief Field <ReferencesResolved>k__BackingField, offset 0x120, size 0x1
   __declspec(property(get = __cordl_internal_get__ReferencesResolved_k__BackingField, put = __cordl_internal_set__ReferencesResolved_k__BackingField)) bool _ReferencesResolved_k__BackingField;
 
   /// @brief Field <Required>k__BackingField, offset 0x20, size 0x2
-  __declspec(property(get = __cordl_internal_get__Required_k__BackingField, put = __cordl_internal_set__Required_k__BackingField))::System::Nullable_1<bool> _Required_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Required_k__BackingField, put = __cordl_internal_set__Required_k__BackingField)) ::System::Nullable_1<bool> _Required_k__BackingField;
 
   /// @brief Field <Requires>k__BackingField, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get__Requires_k__BackingField, put = __cordl_internal_set__Requires_k__BackingField))::StringW _Requires_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Requires_k__BackingField, put = __cordl_internal_set__Requires_k__BackingField)) ::StringW _Requires_k__BackingField;
 
   /// @brief Field <Title>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Title_k__BackingField, put = __cordl_internal_set__Title_k__BackingField))::StringW _Title_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Title_k__BackingField, put = __cordl_internal_set__Title_k__BackingField)) ::StringW _Title_k__BackingField;
 
   /// @brief Field <Transient>k__BackingField, offset 0x26, size 0x2
-  __declspec(property(get = __cordl_internal_get__Transient_k__BackingField, put = __cordl_internal_set__Transient_k__BackingField))::System::Nullable_1<bool> _Transient_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Transient_k__BackingField, put = __cordl_internal_set__Transient_k__BackingField)) ::System::Nullable_1<bool> _Transient_k__BackingField;
 
   /// @brief Field <Type>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__Type_k__BackingField,
-                      put = __cordl_internal_set__Type_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> _Type_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField)) ::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType>
+      _Type_k__BackingField;
 
   /// @brief Field <UniqueItems>k__BackingField, offset 0xb1, size 0x1
   __declspec(property(get = __cordl_internal_get__UniqueItems_k__BackingField, put = __cordl_internal_set__UniqueItems_k__BackingField)) bool _UniqueItems_k__BackingField;
 
   /// @brief Field _internalId, offset 0x110, size 0x8
-  __declspec(property(get = __cordl_internal_get__internalId, put = __cordl_internal_set__internalId))::StringW _internalId;
+  __declspec(property(get = __cordl_internal_get__internalId, put = __cordl_internal_set__internalId)) ::StringW _internalId;
 
   static inline ::Newtonsoft::Json::Schema::JsonSchema* New_ctor();
 
-  /// @brief Method Parse, addr 0x2a7cf94, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3e8c064, size 0x58, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Schema::JsonSchema* Parse(::StringW json);
 
-  /// @brief Method Parse, addr 0x2a7cff4, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3e8c0bc, size 0x1f8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Schema::JsonSchema* Parse(::StringW json, ::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
 
-  /// @brief Method Read, addr 0x2a7cc4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x3e8bd28, size 0x58, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Schema::JsonSchema* Read(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method Read, addr 0x2a7cd2c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x3e8be00, size 0xc0, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Schema::JsonSchema* Read(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
 
-  /// @brief Method ToString, addr 0x2a7e3a8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3e8d4a4, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method WriteTo, addr 0x2a7d1e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x3e8c2b4, size 0x68, virtual false, abstract: false, final false
   inline void WriteTo(::Newtonsoft::Json::JsonWriter* writer);
 
-  /// @brief Method WriteTo, addr 0x2a7d254, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x3e8c31c, size 0xc8, virtual false, abstract: false, final false
   inline void WriteTo(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
 
   constexpr ::Newtonsoft::Json::Schema::JsonSchema*& __cordl_internal_get__AdditionalItems_k__BackingField();
@@ -496,226 +497,226 @@ public:
 
   constexpr void __cordl_internal_set__internalId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a7cbc8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e8bca4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AdditionalItems, addr 0x2a7cab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AdditionalItems, addr 0x3e8bb8c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* get_AdditionalItems();
 
-  /// @brief Method get_AdditionalProperties, addr 0x2a7caf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AdditionalProperties, addr 0x3e8bbd4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* get_AdditionalProperties();
 
-  /// @brief Method get_AllowAdditionalItems, addr 0x2a7cac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowAdditionalItems, addr 0x3e8bb9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowAdditionalItems();
 
-  /// @brief Method get_AllowAdditionalProperties, addr 0x2a7cb18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowAdditionalProperties, addr 0x3e8bbf4, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowAdditionalProperties();
 
-  /// @brief Method get_Default, addr 0x2a7cb5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x3e8bc38, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* get_Default();
 
-  /// @brief Method get_DeferredReference, addr 0x2a7cba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DeferredReference, addr 0x3e8bc80, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DeferredReference();
 
-  /// @brief Method get_Description, addr 0x2a7c9c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x3e8ba9c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Description();
 
-  /// @brief Method get_Disallow, addr 0x2a7cb4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Disallow, addr 0x3e8bc28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> get_Disallow();
 
-  /// @brief Method get_DivisibleBy, addr 0x2a7ca10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_DivisibleBy, addr 0x3e8baec, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<double_t> get_DivisibleBy();
 
-  /// @brief Method get_Enum, addr 0x2a7cb3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Enum, addr 0x3e8bc18, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* get_Enum();
 
-  /// @brief Method get_ExclusiveMaximum, addr 0x2a7ca5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExclusiveMaximum, addr 0x3e8bb38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ExclusiveMaximum();
 
-  /// @brief Method get_ExclusiveMinimum, addr 0x2a7ca4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExclusiveMinimum, addr 0x3e8bb28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ExclusiveMinimum();
 
-  /// @brief Method get_Extends, addr 0x2a7cb6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extends, addr 0x3e8bc48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* get_Extends();
 
-  /// @brief Method get_Format, addr 0x2a7cb7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x3e8bc58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Format();
 
-  /// @brief Method get_Hidden, addr 0x2a7c9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hidden, addr 0x3e8ba7c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_Hidden();
 
-  /// @brief Method get_Id, addr 0x2a7c960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x3e8ba3c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_InternalId, addr 0x2a7cb9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalId, addr 0x3e8bc78, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_Items, addr 0x2a7ca8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Items, addr 0x3e8bb68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* get_Items();
 
-  /// @brief Method get_Location, addr 0x2a7cb8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x3e8bc68, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Location();
 
-  /// @brief Method get_Maximum, addr 0x2a7ca38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Maximum, addr 0x3e8bb14, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<double_t> get_Maximum();
 
-  /// @brief Method get_MaximumItems, addr 0x2a7ca7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaximumItems, addr 0x3e8bb58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_MaximumItems();
 
-  /// @brief Method get_MaximumLength, addr 0x2a7ca00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaximumLength, addr 0x3e8badc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_MaximumLength();
 
-  /// @brief Method get_Minimum, addr 0x2a7ca24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Minimum, addr 0x3e8bb00, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<double_t> get_Minimum();
 
-  /// @brief Method get_MinimumItems, addr 0x2a7ca6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinimumItems, addr 0x3e8bb48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_MinimumItems();
 
-  /// @brief Method get_MinimumLength, addr 0x2a7c9f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinimumLength, addr 0x3e8bacc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_MinimumLength();
 
-  /// @brief Method get_Pattern, addr 0x2a7c9e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pattern, addr 0x3e8babc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pattern();
 
-  /// @brief Method get_PatternProperties, addr 0x2a7cb08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PatternProperties, addr 0x3e8bbe4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* get_PatternProperties();
 
-  /// @brief Method get_PositionalItemsValidation, addr 0x2a7ca9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PositionalItemsValidation, addr 0x3e8bb78, size 0x8, virtual false, abstract: false, final false
   inline bool get_PositionalItemsValidation();
 
-  /// @brief Method get_Properties, addr 0x2a7cae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x3e8bbc4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* get_Properties();
 
-  /// @brief Method get_ReadOnly, addr 0x2a7c990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadOnly, addr 0x3e8ba6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ReadOnly();
 
-  /// @brief Method get_ReferencesResolved, addr 0x2a7cbb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReferencesResolved, addr 0x3e8bc90, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReferencesResolved();
 
-  /// @brief Method get_Required, addr 0x2a7c980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Required, addr 0x3e8ba5c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_Required();
 
-  /// @brief Method get_Requires, addr 0x2a7cb2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Requires, addr 0x3e8bc08, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Requires();
 
-  /// @brief Method get_Title, addr 0x2a7c970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Title, addr 0x3e8ba4c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Title();
 
-  /// @brief Method get_Transient, addr 0x2a7c9b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Transient, addr 0x3e8ba8c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_Transient();
 
-  /// @brief Method get_Type, addr 0x2a7c9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3e8baac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> get_Type();
 
-  /// @brief Method get_UniqueItems, addr 0x2a7cad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UniqueItems, addr 0x3e8bbb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_UniqueItems();
 
-  /// @brief Method set_AdditionalItems, addr 0x2a7cab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AdditionalItems, addr 0x3e8bb94, size 0x8, virtual false, abstract: false, final false
   inline void set_AdditionalItems(::Newtonsoft::Json::Schema::JsonSchema* value);
 
-  /// @brief Method set_AdditionalProperties, addr 0x2a7cb00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AdditionalProperties, addr 0x3e8bbdc, size 0x8, virtual false, abstract: false, final false
   inline void set_AdditionalProperties(::Newtonsoft::Json::Schema::JsonSchema* value);
 
-  /// @brief Method set_AllowAdditionalItems, addr 0x2a7cac8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllowAdditionalItems, addr 0x3e8bba4, size 0xc, virtual false, abstract: false, final false
   inline void set_AllowAdditionalItems(bool value);
 
-  /// @brief Method set_AllowAdditionalProperties, addr 0x2a7cb20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllowAdditionalProperties, addr 0x3e8bbfc, size 0xc, virtual false, abstract: false, final false
   inline void set_AllowAdditionalProperties(bool value);
 
-  /// @brief Method set_Default, addr 0x2a7cb64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Default, addr 0x3e8bc40, size 0x8, virtual false, abstract: false, final false
   inline void set_Default(::Newtonsoft::Json::Linq::JToken* value);
 
-  /// @brief Method set_DeferredReference, addr 0x2a7cbac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DeferredReference, addr 0x3e8bc88, size 0x8, virtual false, abstract: false, final false
   inline void set_DeferredReference(::StringW value);
 
-  /// @brief Method set_Description, addr 0x2a7c9c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Description, addr 0x3e8baa4, size 0x8, virtual false, abstract: false, final false
   inline void set_Description(::StringW value);
 
-  /// @brief Method set_Disallow, addr 0x2a7cb54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Disallow, addr 0x3e8bc30, size 0x8, virtual false, abstract: false, final false
   inline void set_Disallow(::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> value);
 
-  /// @brief Method set_DivisibleBy, addr 0x2a7ca1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DivisibleBy, addr 0x3e8baf8, size 0x8, virtual false, abstract: false, final false
   inline void set_DivisibleBy(::System::Nullable_1<double_t> value);
 
-  /// @brief Method set_Enum, addr 0x2a7cb44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Enum, addr 0x3e8bc20, size 0x8, virtual false, abstract: false, final false
   inline void set_Enum(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* value);
 
-  /// @brief Method set_ExclusiveMaximum, addr 0x2a7ca64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExclusiveMaximum, addr 0x3e8bb40, size 0x8, virtual false, abstract: false, final false
   inline void set_ExclusiveMaximum(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_ExclusiveMinimum, addr 0x2a7ca54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ExclusiveMinimum, addr 0x3e8bb30, size 0x8, virtual false, abstract: false, final false
   inline void set_ExclusiveMinimum(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_Extends, addr 0x2a7cb74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Extends, addr 0x3e8bc50, size 0x8, virtual false, abstract: false, final false
   inline void set_Extends(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* value);
 
-  /// @brief Method set_Format, addr 0x2a7cb84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Format, addr 0x3e8bc60, size 0x8, virtual false, abstract: false, final false
   inline void set_Format(::StringW value);
 
-  /// @brief Method set_Hidden, addr 0x2a7c9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Hidden, addr 0x3e8ba84, size 0x8, virtual false, abstract: false, final false
   inline void set_Hidden(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_Id, addr 0x2a7c968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x3e8ba44, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
-  /// @brief Method set_Items, addr 0x2a7ca94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Items, addr 0x3e8bb70, size 0x8, virtual false, abstract: false, final false
   inline void set_Items(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* value);
 
-  /// @brief Method set_Location, addr 0x2a7cb94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Location, addr 0x3e8bc70, size 0x8, virtual false, abstract: false, final false
   inline void set_Location(::StringW value);
 
-  /// @brief Method set_Maximum, addr 0x2a7ca44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Maximum, addr 0x3e8bb20, size 0x8, virtual false, abstract: false, final false
   inline void set_Maximum(::System::Nullable_1<double_t> value);
 
-  /// @brief Method set_MaximumItems, addr 0x2a7ca84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaximumItems, addr 0x3e8bb60, size 0x8, virtual false, abstract: false, final false
   inline void set_MaximumItems(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_MaximumLength, addr 0x2a7ca08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaximumLength, addr 0x3e8bae4, size 0x8, virtual false, abstract: false, final false
   inline void set_MaximumLength(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_Minimum, addr 0x2a7ca30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Minimum, addr 0x3e8bb0c, size 0x8, virtual false, abstract: false, final false
   inline void set_Minimum(::System::Nullable_1<double_t> value);
 
-  /// @brief Method set_MinimumItems, addr 0x2a7ca74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MinimumItems, addr 0x3e8bb50, size 0x8, virtual false, abstract: false, final false
   inline void set_MinimumItems(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_MinimumLength, addr 0x2a7c9f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MinimumLength, addr 0x3e8bad4, size 0x8, virtual false, abstract: false, final false
   inline void set_MinimumLength(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_Pattern, addr 0x2a7c9e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Pattern, addr 0x3e8bac4, size 0x8, virtual false, abstract: false, final false
   inline void set_Pattern(::StringW value);
 
-  /// @brief Method set_PatternProperties, addr 0x2a7cb10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PatternProperties, addr 0x3e8bbec, size 0x8, virtual false, abstract: false, final false
   inline void set_PatternProperties(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* value);
 
-  /// @brief Method set_PositionalItemsValidation, addr 0x2a7caa4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PositionalItemsValidation, addr 0x3e8bb80, size 0xc, virtual false, abstract: false, final false
   inline void set_PositionalItemsValidation(bool value);
 
-  /// @brief Method set_Properties, addr 0x2a7caf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Properties, addr 0x3e8bbcc, size 0x8, virtual false, abstract: false, final false
   inline void set_Properties(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* value);
 
-  /// @brief Method set_ReadOnly, addr 0x2a7c998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReadOnly, addr 0x3e8ba74, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadOnly(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_ReferencesResolved, addr 0x2a7cbbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ReferencesResolved, addr 0x3e8bc98, size 0xc, virtual false, abstract: false, final false
   inline void set_ReferencesResolved(bool value);
 
-  /// @brief Method set_Required, addr 0x2a7c988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Required, addr 0x3e8ba64, size 0x8, virtual false, abstract: false, final false
   inline void set_Required(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_Requires, addr 0x2a7cb34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Requires, addr 0x3e8bc10, size 0x8, virtual false, abstract: false, final false
   inline void set_Requires(::StringW value);
 
-  /// @brief Method set_Title, addr 0x2a7c978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Title, addr 0x3e8ba54, size 0x8, virtual false, abstract: false, final false
   inline void set_Title(::StringW value);
 
-  /// @brief Method set_Transient, addr 0x2a7c9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Transient, addr 0x3e8ba94, size 0x8, virtual false, abstract: false, final false
   inline void set_Transient(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_Type, addr 0x2a7c9d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x3e8bab4, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> value);
 
-  /// @brief Method set_UniqueItems, addr 0x2a7cadc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UniqueItems, addr 0x3e8bbb8, size 0xc, virtual false, abstract: false, final false
   inline void set_UniqueItems(bool value);
 
 protected:
@@ -842,6 +843,9 @@ public:
 
   /// @brief Field <ReferencesResolved>k__BackingField, offset: 0x120, size: 0x1, def value: None
   bool ____ReferencesResolved_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10322 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

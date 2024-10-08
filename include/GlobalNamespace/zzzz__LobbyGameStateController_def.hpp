@@ -141,8 +141,62 @@ class __LobbyGameStateController____c__DisplayClass98_0;
 MARK_REF_PTR_T(::GlobalNamespace::LobbyGameStateController);
 MARK_REF_PTR_T(::GlobalNamespace::__LobbyGameStateController____c);
 MARK_REF_PTR_T(::GlobalNamespace::__LobbyGameStateController____c__DisplayClass98_0);
+// Type: ::<>c
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::LobbyGameStateController::<>c*
+class CORDL_TYPE __LobbyGameStateController____c : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__LobbyGameStateController____c* __9;
+
+  /// @brief Field <>9__99_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__99_0,
+                             put = setStaticF___9__99_0)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>, bool>* __9__99_0;
+
+  static inline ::GlobalNamespace::__LobbyGameStateController____c* New_ctor();
+
+  /// @brief Method <PredictCountdownEndTime>b__99_0, addr 0x3b453bc, size 0x118, virtual false, abstract: false, final false
+  inline bool _PredictCountdownEndTime_b__99_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> pair);
+
+  /// @brief Method .ctor, addr 0x3b453b4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::GlobalNamespace::__LobbyGameStateController____c* getStaticF___9();
+
+  static inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>, bool>* getStaticF___9__99_0();
+
+  static inline void setStaticF___9(::GlobalNamespace::__LobbyGameStateController____c* value);
+
+  static inline void setStaticF___9__99_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>, bool>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LobbyGameStateController____c();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__LobbyGameStateController____c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __LobbyGameStateController____c(__LobbyGameStateController____c&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__LobbyGameStateController____c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __LobbyGameStateController____c(__LobbyGameStateController____c const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4490 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LobbyGameStateController____c, 0x10>, "Size mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass98_0
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LobbyGameStateController::<>c__DisplayClass98_0*
@@ -150,24 +204,24 @@ class CORDL_TYPE __LobbyGameStateController____c__DisplayClass98_0 : public ::Sy
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::LobbyGameStateController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::GlobalNamespace::LobbyGameStateController* __4__this;
 
   /// @brief Field getGameStateAsyncTcs, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_getGameStateAsyncTcs, put = __cordl_internal_set_getGameStateAsyncTcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* getGameStateAsyncTcs;
+  __declspec(property(get = __cordl_internal_get_getGameStateAsyncTcs, put = __cordl_internal_set_getGameStateAsyncTcs)) ::System::Threading::Tasks::TaskCompletionSource_1<bool>* getGameStateAsyncTcs;
 
   /// @brief Field getPlayerPermissionAsyncTcs, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_getPlayerPermissionAsyncTcs,
-                      put = __cordl_internal_set_getPlayerPermissionAsyncTcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* getPlayerPermissionAsyncTcs;
+                      put = __cordl_internal_set_getPlayerPermissionAsyncTcs)) ::System::Threading::Tasks::TaskCompletionSource_1<bool>* getPlayerPermissionAsyncTcs;
 
   static inline ::GlobalNamespace::__LobbyGameStateController____c__DisplayClass98_0* New_ctor();
 
-  /// @brief Method <GetGameStateAndConfigurationAsync>b__2, addr 0x272573c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <GetGameStateAndConfigurationAsync>b__2, addr 0x3b45910, size 0xc8, virtual false, abstract: false, final false
   inline bool _GetGameStateAndConfigurationAsync_b__2(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* p);
 
-  /// @brief Method <GetGameStateAndConfigurationAsync>g__HandleSetMultiplayerGameState|0, addr 0x27252f4, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method <GetGameStateAndConfigurationAsync>g__HandleSetMultiplayerGameState|0, addr 0x3b454d4, size 0x260, virtual false, abstract: false, final false
   inline void _GetGameStateAndConfigurationAsync_g__HandleSetMultiplayerGameState_0(::StringW userId, ::GlobalNamespace::MultiplayerGameState newMultiplayerGameState);
 
-  /// @brief Method <GetGameStateAndConfigurationAsync>g__HandleSetPlayerPermissionConfiguration|1, addr 0x2725558, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method <GetGameStateAndConfigurationAsync>g__HandleSetPlayerPermissionConfiguration|1, addr 0x3b45734, size 0x1dc, virtual false, abstract: false, final false
   inline void
   _GetGameStateAndConfigurationAsync_g__HandleSetPlayerPermissionConfiguration_1(::StringW userId,
                                                                                  ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
@@ -190,7 +244,7 @@ public:
 
   constexpr void __cordl_internal_set_getPlayerPermissionAsyncTcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x2723a5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b43af8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -216,6 +270,9 @@ public:
   /// @brief Field getPlayerPermissionAsyncTcs, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<bool>* ___getPlayerPermissionAsyncTcs;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4491 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -228,59 +285,8 @@ static_assert(offsetof(::GlobalNamespace::__LobbyGameStateController____c__Displ
 static_assert(offsetof(::GlobalNamespace::__LobbyGameStateController____c__DisplayClass98_0, ___getPlayerPermissionAsyncTcs) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::LobbyGameStateController::<>c*
-class CORDL_TYPE __LobbyGameStateController____c : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__LobbyGameStateController____c* __9;
-
-  /// @brief Field <>9__99_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__99_0,
-                             put = setStaticF___9__99_0))::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>, bool>* __9__99_0;
-
-  static inline ::GlobalNamespace::__LobbyGameStateController____c* New_ctor();
-
-  /// @brief Method <PredictCountdownEndTime>b__99_0, addr 0x2725870, size 0x118, virtual false, abstract: false, final false
-  inline bool _PredictCountdownEndTime_b__99_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> pair);
-
-  /// @brief Method .ctor, addr 0x2725868, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::GlobalNamespace::__LobbyGameStateController____c* getStaticF___9();
-
-  static inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>, bool>* getStaticF___9__99_0();
-
-  static inline void setStaticF___9(::GlobalNamespace::__LobbyGameStateController____c* value);
-
-  static inline void setStaticF___9__99_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>, bool>* value);
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LobbyGameStateController____c();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LobbyGameStateController____c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __LobbyGameStateController____c(__LobbyGameStateController____c&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__LobbyGameStateController____c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __LobbyGameStateController____c(__LobbyGameStateController____c const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LobbyGameStateController____c, 0x10>, "Size mismatch!");
-
-} // namespace GlobalNamespace
 // Type: ::LobbyGameStateController
-// SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LobbyGameStateController*
@@ -293,13 +299,13 @@ public:
 
   /// @brief Field _beatmapCharacteristicCollection, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCharacteristicCollection,
-                      put = __cordl_internal_set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
+                      put = __cordl_internal_set__beatmapCharacteristicCollection)) ::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
 
   /// @brief Field _beatmapLevelsModel, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel)) ::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
 
   /// @brief Field _cannotStartGameReason, offset 0x100, size 0x4
-  __declspec(property(get = __cordl_internal_get__cannotStartGameReason, put = __cordl_internal_set__cannotStartGameReason))::GlobalNamespace::CannotStartGameReason _cannotStartGameReason;
+  __declspec(property(get = __cordl_internal_get__cannotStartGameReason, put = __cordl_internal_set__cannotStartGameReason)) ::GlobalNamespace::CannotStartGameReason _cannotStartGameReason;
 
   /// @brief Field <countdownEndTime>k__BackingField, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__countdownEndTime_k__BackingField, put = __cordl_internal_set__countdownEndTime_k__BackingField)) int64_t _countdownEndTime_k__BackingField;
@@ -309,7 +315,7 @@ public:
 
   /// @brief Field <disconnectedReason>k__BackingField, offset 0xe4, size 0x4
   __declspec(property(get = __cordl_internal_get__disconnectedReason_k__BackingField,
-                      put = __cordl_internal_set__disconnectedReason_k__BackingField))::GlobalNamespace::DisconnectedReason _disconnectedReason_k__BackingField;
+                      put = __cordl_internal_set__disconnectedReason_k__BackingField)) ::GlobalNamespace::DisconnectedReason _disconnectedReason_k__BackingField;
 
   /// @brief Field <isDisconnected>k__BackingField, offset 0xe0, size 0x1
   __declspec(property(get = __cordl_internal_get__isDisconnected_k__BackingField, put = __cordl_internal_set__isDisconnected_k__BackingField)) bool _isDisconnected_k__BackingField;
@@ -321,114 +327,114 @@ public:
   __declspec(property(get = __cordl_internal_get__levelStartedOnTime, put = __cordl_internal_set__levelStartedOnTime)) bool _levelStartedOnTime;
 
   /// @brief Field _lobbyGameStateModel, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__lobbyGameStateModel, put = __cordl_internal_set__lobbyGameStateModel))::GlobalNamespace::LobbyGameStateModel* _lobbyGameStateModel;
+  __declspec(property(get = __cordl_internal_get__lobbyGameStateModel, put = __cordl_internal_set__lobbyGameStateModel)) ::GlobalNamespace::LobbyGameStateModel* _lobbyGameStateModel;
 
   /// @brief Field _lobbyPlayerPermissionsModel, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__lobbyPlayerPermissionsModel,
-                      put = __cordl_internal_set__lobbyPlayerPermissionsModel))::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
+                      put = __cordl_internal_set__lobbyPlayerPermissionsModel)) ::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
 
   /// @brief Field _lobbyPlayersDataModel, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__lobbyPlayersDataModel, put = __cordl_internal_set__lobbyPlayersDataModel))::GlobalNamespace::ILobbyPlayersDataModel* _lobbyPlayersDataModel;
+  __declspec(property(get = __cordl_internal_get__lobbyPlayersDataModel, put = __cordl_internal_set__lobbyPlayersDataModel)) ::GlobalNamespace::ILobbyPlayersDataModel* _lobbyPlayersDataModel;
 
   /// @brief Field _menuRpcManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuRpcManager, put = __cordl_internal_set__menuRpcManager))::GlobalNamespace::IMenuRpcManager* _menuRpcManager;
+  __declspec(property(get = __cordl_internal_get__menuRpcManager, put = __cordl_internal_set__menuRpcManager)) ::GlobalNamespace::IMenuRpcManager* _menuRpcManager;
 
   /// @brief Field _menuTransitionsHelper, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper))::UnityW<::GlobalNamespace::MenuTransitionsHelper> _menuTransitionsHelper;
+  __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper)) ::UnityW<::GlobalNamespace::MenuTransitionsHelper> _menuTransitionsHelper;
 
   /// @brief Field _multiplayerLevelLoader, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerLevelLoader, put = __cordl_internal_set__multiplayerLevelLoader))::GlobalNamespace::MultiplayerLevelLoader* _multiplayerLevelLoader;
+  __declspec(property(get = __cordl_internal_get__multiplayerLevelLoader, put = __cordl_internal_set__multiplayerLevelLoader)) ::GlobalNamespace::MultiplayerLevelLoader* _multiplayerLevelLoader;
 
   /// @brief Field _multiplayerSessionManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _playerDataModel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _predictedStartTime, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__predictedStartTime, put = __cordl_internal_set__predictedStartTime)) int64_t _predictedStartTime;
 
   /// @brief Field _selectedLevelGameplaySetupData, offset 0x108, size 0x8
   __declspec(property(get = __cordl_internal_get__selectedLevelGameplaySetupData,
-                      put = __cordl_internal_set__selectedLevelGameplaySetupData))::GlobalNamespace::LevelGameplaySetupData* _selectedLevelGameplaySetupData;
+                      put = __cordl_internal_set__selectedLevelGameplaySetupData)) ::GlobalNamespace::LevelGameplaySetupData* _selectedLevelGameplaySetupData;
 
   /// @brief Field _startTime, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__startTime, put = __cordl_internal_set__startTime)) int64_t _startTime;
 
   /// @brief Field _state, offset 0xfc, size 0x4
-  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::GlobalNamespace::MultiplayerLobbyState _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) ::GlobalNamespace::MultiplayerLobbyState _state;
 
   /// @brief Field beforeSceneSwitchCallbackEvent, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_beforeSceneSwitchCallbackEvent, put = __cordl_internal_set_beforeSceneSwitchCallbackEvent))::System::Action* beforeSceneSwitchCallbackEvent;
+  __declspec(property(get = __cordl_internal_get_beforeSceneSwitchCallbackEvent, put = __cordl_internal_set_beforeSceneSwitchCallbackEvent)) ::System::Action* beforeSceneSwitchCallbackEvent;
 
-  __declspec(property(get = get_cannotStartGameReason))::GlobalNamespace::CannotStartGameReason cannotStartGameReason;
+  __declspec(property(get = get_cannotStartGameReason)) ::GlobalNamespace::CannotStartGameReason cannotStartGameReason;
 
   /// @brief Field countdownCancelledEvent, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_countdownCancelledEvent, put = __cordl_internal_set_countdownCancelledEvent))::System::Action* countdownCancelledEvent;
+  __declspec(property(get = __cordl_internal_get_countdownCancelledEvent, put = __cordl_internal_set_countdownCancelledEvent)) ::System::Action* countdownCancelledEvent;
 
   __declspec(property(get = get_countdownEndTime, put = set_countdownEndTime)) int64_t countdownEndTime;
 
   __declspec(property(get = get_countdownStarted, put = set_countdownStarted)) bool countdownStarted;
 
   /// @brief Field countdownStartedEvent, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_countdownStartedEvent, put = __cordl_internal_set_countdownStartedEvent))::System::Action* countdownStartedEvent;
+  __declspec(property(get = __cordl_internal_get_countdownStartedEvent, put = __cordl_internal_set_countdownStartedEvent)) ::System::Action* countdownStartedEvent;
 
-  __declspec(property(get = get_disconnectedReason, put = set_disconnectedReason))::GlobalNamespace::DisconnectedReason disconnectedReason;
+  __declspec(property(get = get_disconnectedReason, put = set_disconnectedReason)) ::GlobalNamespace::DisconnectedReason disconnectedReason;
 
   /// @brief Field gameStartCancelledEvent, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameStartCancelledEvent, put = __cordl_internal_set_gameStartCancelledEvent))::System::Action* gameStartCancelledEvent;
+  __declspec(property(get = __cordl_internal_get_gameStartCancelledEvent, put = __cordl_internal_set_gameStartCancelledEvent)) ::System::Action* gameStartCancelledEvent;
 
   /// @brief Field gameStartedEvent, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameStartedEvent, put = __cordl_internal_set_gameStartedEvent))::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* gameStartedEvent;
+  __declspec(property(get = __cordl_internal_get_gameStartedEvent, put = __cordl_internal_set_gameStartedEvent)) ::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* gameStartedEvent;
 
   __declspec(property(get = get_isDisconnected, put = set_isDisconnected)) bool isDisconnected;
 
   /// @brief Field levelDidGetDisconnectedEvent, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_levelDidGetDisconnectedEvent,
-                      put = __cordl_internal_set_levelDidGetDisconnectedEvent))::System::Action_1<::GlobalNamespace::DisconnectedReason>* levelDidGetDisconnectedEvent;
+                      put = __cordl_internal_set_levelDidGetDisconnectedEvent)) ::System::Action_1<::GlobalNamespace::DisconnectedReason>* levelDidGetDisconnectedEvent;
 
   /// @brief Field levelFinishedEvent, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_levelFinishedEvent,
-                      put = __cordl_internal_set_levelFinishedEvent))::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>,
-                                                                                        ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedEvent;
+                      put = __cordl_internal_set_levelFinishedEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>,
+                                                                                         ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedEvent;
 
   __declspec(property(get = get_levelStartInitiated, put = set_levelStartInitiated)) bool levelStartInitiated;
 
   /// @brief Field lobbyDisconnectedEvent, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_lobbyDisconnectedEvent, put = __cordl_internal_set_lobbyDisconnectedEvent))::System::Action* lobbyDisconnectedEvent;
+  __declspec(property(get = __cordl_internal_get_lobbyDisconnectedEvent, put = __cordl_internal_set_lobbyDisconnectedEvent)) ::System::Action* lobbyDisconnectedEvent;
 
   /// @brief Field lobbyStateChangedEvent, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_lobbyStateChangedEvent,
-                      put = __cordl_internal_set_lobbyStateChangedEvent))::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>* lobbyStateChangedEvent;
+                      put = __cordl_internal_set_lobbyStateChangedEvent)) ::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>* lobbyStateChangedEvent;
 
   /// @brief Field playerMissingEntitlementsChangedEvent, offset 0xc8, size 0x8
   __declspec(property(
       get = __cordl_internal_get_playerMissingEntitlementsChangedEvent,
-      put = __cordl_internal_set_playerMissingEntitlementsChangedEvent))::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* playerMissingEntitlementsChangedEvent;
+      put = __cordl_internal_set_playerMissingEntitlementsChangedEvent)) ::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* playerMissingEntitlementsChangedEvent;
 
   __declspec(property(get = get_predictedCountdownEndTime)) int64_t predictedCountdownEndTime;
 
-  __declspec(property(get = get_selectedLevelGameplaySetupData))::GlobalNamespace::ILevelGameplaySetupData* selectedLevelGameplaySetupData;
+  __declspec(property(get = get_selectedLevelGameplaySetupData)) ::GlobalNamespace::ILevelGameplaySetupData* selectedLevelGameplaySetupData;
 
   /// @brief Field selectedLevelGameplaySetupDataChangedEvent, offset 0x60, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_selectedLevelGameplaySetupDataChangedEvent,
-               put = __cordl_internal_set_selectedLevelGameplaySetupDataChangedEvent))::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* selectedLevelGameplaySetupDataChangedEvent;
+  __declspec(property(get = __cordl_internal_get_selectedLevelGameplaySetupDataChangedEvent,
+                      put =
+                          __cordl_internal_set_selectedLevelGameplaySetupDataChangedEvent)) ::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* selectedLevelGameplaySetupDataChangedEvent;
 
   /// @brief Field songStillDownloadingEvent, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_songStillDownloadingEvent, put = __cordl_internal_set_songStillDownloadingEvent))::System::Action* songStillDownloadingEvent;
+  __declspec(property(get = __cordl_internal_get_songStillDownloadingEvent, put = __cordl_internal_set_songStillDownloadingEvent)) ::System::Action* songStillDownloadingEvent;
 
   /// @brief Field startButtonEnabledEvent, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_startButtonEnabledEvent,
-                      put = __cordl_internal_set_startButtonEnabledEvent))::System::Action_1<::GlobalNamespace::CannotStartGameReason>* startButtonEnabledEvent;
+                      put = __cordl_internal_set_startButtonEnabledEvent)) ::System::Action_1<::GlobalNamespace::CannotStartGameReason>* startButtonEnabledEvent;
 
   __declspec(property(get = get_startTime, put = set_startTime)) int64_t startTime;
 
   /// @brief Field startTimeChangedEvent, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_startTimeChangedEvent, put = __cordl_internal_set_startTimeChangedEvent))::System::Action* startTimeChangedEvent;
+  __declspec(property(get = __cordl_internal_get_startTimeChangedEvent, put = __cordl_internal_set_startTimeChangedEvent)) ::System::Action* startTimeChangedEvent;
 
-  __declspec(property(get = get_state, put = set_state))::GlobalNamespace::MultiplayerLobbyState state;
+  __declspec(property(get = get_state, put = set_state)) ::GlobalNamespace::MultiplayerLobbyState state;
 
   /// @brief Convert operator to "::GlobalNamespace::ILobbyGameStateController"
   constexpr operator ::GlobalNamespace::ILobbyGameStateController*() noexcept;
@@ -439,98 +445,98 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Activate, addr 0x2721cf4, size 0x898, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x3b41e18, size 0x874, virtual true, abstract: false, final true
   inline void Activate();
 
-  /// @brief Method ClearDisconnectedState, addr 0x2722ec0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ClearDisconnectedState, addr 0x3b42f8c, size 0x10, virtual true, abstract: false, final true
   inline void ClearDisconnectedState();
 
-  /// @brief Method Deactivate, addr 0x272258c, size 0x934, virtual true, abstract: false, final true
+  /// @brief Method Deactivate, addr 0x3b4268c, size 0x900, virtual true, abstract: false, final true
   inline void Deactivate();
 
-  /// @brief Method Dispose, addr 0x2722ed0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3b42f9c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetCurrentLevelIfGameStarted, addr 0x27235a0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method GetCurrentLevelIfGameStarted, addr 0x3b43644, size 0xa4, virtual true, abstract: false, final true
   inline void GetCurrentLevelIfGameStarted();
 
-  /// @brief Method GetGameStateAndConfigurationAsync, addr 0x2723644, size 0x418, virtual true, abstract: false, final true
+  /// @brief Method GetGameStateAndConfigurationAsync, addr 0x3b436e8, size 0x410, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* GetGameStateAndConfigurationAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method HandleMenuRpcManagerCancelCountdown, addr 0x27246ac, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerCancelCountdown, addr 0x3b44718, size 0x22c, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerCancelCountdown(::StringW userId);
 
-  /// @brief Method HandleMenuRpcManagerCancelledLevelStart, addr 0x27242e8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerCancelledLevelStart, addr 0x3b44370, size 0x88, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerCancelledLevelStart(::StringW userId);
 
-  /// @brief Method HandleMenuRpcManagerClearSelectedBeatmap, addr 0x2724a70, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerClearSelectedBeatmap, addr 0x3b44ae0, size 0x54, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerClearSelectedBeatmap(::StringW userId);
 
-  /// @brief Method HandleMenuRpcManagerClearSelectedGameplayModifiers, addr 0x2724ac4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerClearSelectedGameplayModifiers, addr 0x3b44b34, size 0x48, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerClearSelectedGameplayModifiers(::StringW userId);
 
-  /// @brief Method HandleMenuRpcManagerSetCountdownEndTime, addr 0x2724474, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerSetCountdownEndTime, addr 0x3b444f4, size 0x224, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerSetCountdownEndTime(::StringW userId, int64_t countdownTime);
 
-  /// @brief Method HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel, addr 0x2724944, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel, addr 0x3b449b4, size 0x24, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerSetPlayersMissingEntitlementsToLevel(::StringW userId, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* playersMissingEntitlements);
 
-  /// @brief Method HandleMenuRpcManagerSetSelectedBeatmap, addr 0x27249a4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerSetSelectedBeatmap, addr 0x3b44a14, size 0x84, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerSetSelectedBeatmap(::StringW userId, ::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable);
 
-  /// @brief Method HandleMenuRpcManagerSetSelectedGameplayModifiers, addr 0x2724a28, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerSetSelectedGameplayModifiers, addr 0x3b44a98, size 0x48, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerSetSelectedGameplayModifiers(::StringW userId, ::GlobalNamespace::GameplayModifiers* modifiers);
 
-  /// @brief Method HandleMenuRpcManagerSetStartGameTime, addr 0x27248d4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerSetStartGameTime, addr 0x3b44944, size 0x48, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerSetStartGameTime(::StringW userId, int64_t startTime);
 
-  /// @brief Method HandleMenuRpcManagerStartedLevel, addr 0x2724050, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerStartedLevel, addr 0x3b440ec, size 0x284, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerStartedLevel(::StringW userId, ::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeyNetSerializable, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                                int64_t startTime);
 
-  /// @brief Method HandleMultiplayerLevelDidDisconnect, addr 0x27251f0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLevelDidDisconnect, addr 0x3b4525c, size 0x8c, virtual false, abstract: false, final false
   inline void HandleMultiplayerLevelDidDisconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method HandleMultiplayerLevelDidFinish, addr 0x272515c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLevelDidFinish, addr 0x3b451c8, size 0x94, virtual false, abstract: false, final false
   inline void HandleMultiplayerLevelDidFinish(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData,
                                               ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
 
-  /// @brief Method HandleMultiplayerLevelLoaderCountdownFinished, addr 0x2724b0c, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLevelLoaderCountdownFinished, addr 0x3b44b7c, size 0x33c, virtual false, abstract: false, final false
   inline void HandleMultiplayerLevelLoaderCountdownFinished(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
-  /// @brief Method HandleMultiplayerLevelLoaderStillDownloadingSong, addr 0x2724988, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLevelLoaderStillDownloadingSong, addr 0x3b449f8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMultiplayerLevelLoaderStillDownloadingSong();
 
-  /// @brief Method HandleMultiplayerSessionManagerConnectionOwnerStateChanged, addr 0x2723cec, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerSessionManagerConnectionOwnerStateChanged, addr 0x3b43d8c, size 0xf8, virtual false, abstract: false, final false
   inline void HandleMultiplayerSessionManagerConnectionOwnerStateChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method HandleMultiplayerSessionManagerDisconnected, addr 0x2723cc4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerSessionManagerDisconnected, addr 0x3b43d64, size 0x28, virtual false, abstract: false, final false
   inline void HandleMultiplayerSessionManagerDisconnected(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method HandleSetIsStartButtonEnabled, addr 0x272491c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleSetIsStartButtonEnabled, addr 0x3b4498c, size 0x28, virtual false, abstract: false, final false
   inline void HandleSetIsStartButtonEnabled(::StringW userId, ::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
-  /// @brief Method HandleStartTimeChanged, addr 0x2724968, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleStartTimeChanged, addr 0x3b449d8, size 0x20, virtual false, abstract: false, final false
   inline void HandleStartTimeChanged();
 
-  /// @brief Method IsCloseToStartGame, addr 0x2723bfc, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method IsCloseToStartGame, addr 0x3b43c9c, size 0xc8, virtual true, abstract: false, final true
   inline bool IsCloseToStartGame();
 
   static inline ::GlobalNamespace::LobbyGameStateController* New_ctor();
 
-  /// @brief Method PredictCountdownEndTime, addr 0x2723a64, size 0x198, virtual true, abstract: false, final true
+  /// @brief Method PredictCountdownEndTime, addr 0x3b43b00, size 0x19c, virtual true, abstract: false, final true
   inline void PredictCountdownEndTime();
 
-  /// @brief Method StartListeningToGameStart, addr 0x2722ed4, size 0x6cc, virtual true, abstract: false, final true
+  /// @brief Method StartListeningToGameStart, addr 0x3b42fa0, size 0x6a4, virtual true, abstract: false, final true
   inline void StartListeningToGameStart();
 
-  /// @brief Method StartMultiplayerLevel, addr 0x2724e48, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method StartMultiplayerLevel, addr 0x3b44eb8, size 0x310, virtual false, abstract: false, final false
   inline void StartMultiplayerLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::System::Action* beforeSceneSwitchCallback);
 
-  /// @brief Method StopListeningToGameStart, addr 0x2723de4, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method StopListeningToGameStart, addr 0x3b43e84, size 0x268, virtual false, abstract: false, final false
   inline void StopListeningToGameStart();
 
-  /// @brief Method StopLoading, addr 0x2724370, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method StopLoading, addr 0x3b443f8, size 0xfc, virtual false, abstract: false, final false
   inline void StopLoading();
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristicCollection();
@@ -746,79 +752,79 @@ public:
 
   constexpr void __cordl_internal_set_startTimeChangedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x272527c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b452e8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_beforeSceneSwitchCallbackEvent, addr 0x27216cc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_beforeSceneSwitchCallbackEvent, addr 0x3b417f0, size 0x9c, virtual true, abstract: false, final true
   inline void add_beforeSceneSwitchCallbackEvent(::System::Action* value);
 
-  /// @brief Method add_countdownCancelledEvent, addr 0x2720f2c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_countdownCancelledEvent, addr 0x3b41050, size 0x9c, virtual true, abstract: false, final true
   inline void add_countdownCancelledEvent(::System::Action* value);
 
-  /// @brief Method add_countdownStartedEvent, addr 0x2720df4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_countdownStartedEvent, addr 0x3b40f18, size 0x9c, virtual true, abstract: false, final true
   inline void add_countdownStartedEvent(::System::Action* value);
 
-  /// @brief Method add_gameStartCancelledEvent, addr 0x2720cbc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_gameStartCancelledEvent, addr 0x3b40de0, size 0x9c, virtual true, abstract: false, final true
   inline void add_gameStartCancelledEvent(::System::Action* value);
 
-  /// @brief Method add_gameStartedEvent, addr 0x2720b5c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_gameStartedEvent, addr 0x3b40c80, size 0xb0, virtual true, abstract: false, final true
   inline void add_gameStartedEvent(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* value);
 
-  /// @brief Method add_levelDidGetDisconnectedEvent, addr 0x2721434, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_levelDidGetDisconnectedEvent, addr 0x3b41558, size 0xb0, virtual true, abstract: false, final true
   inline void add_levelDidGetDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_levelFinishedEvent, addr 0x27212d4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_levelFinishedEvent, addr 0x3b413f8, size 0xb0, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
-  /// @brief Method add_lobbyDisconnectedEvent, addr 0x2721594, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_lobbyDisconnectedEvent, addr 0x3b416b8, size 0x9c, virtual true, abstract: false, final true
   inline void add_lobbyDisconnectedEvent(::System::Action* value);
 
-  /// @brief Method add_lobbyStateChangedEvent, addr 0x2721804, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_lobbyStateChangedEvent, addr 0x3b41928, size 0xb0, virtual true, abstract: false, final true
   inline void add_lobbyStateChangedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>* value);
 
-  /// @brief Method add_playerMissingEntitlementsChangedEvent, addr 0x2721ac4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_playerMissingEntitlementsChangedEvent, addr 0x3b41be8, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerMissingEntitlementsChangedEvent(::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
 
-  /// @brief Method add_selectedLevelGameplaySetupDataChangedEvent, addr 0x27209fc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_selectedLevelGameplaySetupDataChangedEvent, addr 0x3b40b20, size 0xb0, virtual true, abstract: false, final true
   inline void add_selectedLevelGameplaySetupDataChangedEvent(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* value);
 
-  /// @brief Method add_songStillDownloadingEvent, addr 0x2721064, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_songStillDownloadingEvent, addr 0x3b41188, size 0x9c, virtual true, abstract: false, final true
   inline void add_songStillDownloadingEvent(::System::Action* value);
 
-  /// @brief Method add_startButtonEnabledEvent, addr 0x2721964, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_startButtonEnabledEvent, addr 0x3b41a88, size 0xb0, virtual true, abstract: false, final true
   inline void add_startButtonEnabledEvent(::System::Action_1<::GlobalNamespace::CannotStartGameReason>* value);
 
-  /// @brief Method add_startTimeChangedEvent, addr 0x272119c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_startTimeChangedEvent, addr 0x3b412c0, size 0x9c, virtual true, abstract: false, final true
   inline void add_startTimeChangedEvent(::System::Action* value);
 
-  /// @brief Method get_cannotStartGameReason, addr 0x2721cc8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_cannotStartGameReason, addr 0x3b41dec, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::CannotStartGameReason get_cannotStartGameReason();
 
-  /// @brief Method get_countdownEndTime, addr 0x2721c84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_countdownEndTime, addr 0x3b41da8, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_countdownEndTime();
 
-  /// @brief Method get_countdownStarted, addr 0x2721c70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_countdownStarted, addr 0x3b41d94, size 0x8, virtual true, abstract: false, final true
   inline bool get_countdownStarted();
 
-  /// @brief Method get_disconnectedReason, addr 0x2721ce4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_disconnectedReason, addr 0x3b41e08, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
 
-  /// @brief Method get_isDisconnected, addr 0x2721cd0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isDisconnected, addr 0x3b41df4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isDisconnected();
 
-  /// @brief Method get_levelStartInitiated, addr 0x2721c54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelStartInitiated, addr 0x3b41d78, size 0x8, virtual true, abstract: false, final true
   inline bool get_levelStartInitiated();
 
-  /// @brief Method get_predictedCountdownEndTime, addr 0x2721c24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_predictedCountdownEndTime, addr 0x3b41d48, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_predictedCountdownEndTime();
 
-  /// @brief Method get_selectedLevelGameplaySetupData, addr 0x2721c68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectedLevelGameplaySetupData, addr 0x3b41d8c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ILevelGameplaySetupData* get_selectedLevelGameplaySetupData();
 
-  /// @brief Method get_startTime, addr 0x2721c2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_startTime, addr 0x3b41d50, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_startTime();
 
-  /// @brief Method get_state, addr 0x2721c94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_state, addr 0x3b41db8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerLobbyState get_state();
 
   /// @brief Convert to "::GlobalNamespace::ILobbyGameStateController"
@@ -830,67 +836,67 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_beforeSceneSwitchCallbackEvent, addr 0x2721768, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_beforeSceneSwitchCallbackEvent, addr 0x3b4188c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_beforeSceneSwitchCallbackEvent(::System::Action* value);
 
-  /// @brief Method remove_countdownCancelledEvent, addr 0x2720fc8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_countdownCancelledEvent, addr 0x3b410ec, size 0x9c, virtual true, abstract: false, final true
   inline void remove_countdownCancelledEvent(::System::Action* value);
 
-  /// @brief Method remove_countdownStartedEvent, addr 0x2720e90, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_countdownStartedEvent, addr 0x3b40fb4, size 0x9c, virtual true, abstract: false, final true
   inline void remove_countdownStartedEvent(::System::Action* value);
 
-  /// @brief Method remove_gameStartCancelledEvent, addr 0x2720d58, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_gameStartCancelledEvent, addr 0x3b40e7c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_gameStartCancelledEvent(::System::Action* value);
 
-  /// @brief Method remove_gameStartedEvent, addr 0x2720c0c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_gameStartedEvent, addr 0x3b40d30, size 0xb0, virtual true, abstract: false, final true
   inline void remove_gameStartedEvent(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* value);
 
-  /// @brief Method remove_levelDidGetDisconnectedEvent, addr 0x27214e4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_levelDidGetDisconnectedEvent, addr 0x3b41608, size 0xb0, virtual true, abstract: false, final true
   inline void remove_levelDidGetDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_levelFinishedEvent, addr 0x2721384, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFinishedEvent, addr 0x3b414a8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
-  /// @brief Method remove_lobbyDisconnectedEvent, addr 0x2721630, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_lobbyDisconnectedEvent, addr 0x3b41754, size 0x9c, virtual true, abstract: false, final true
   inline void remove_lobbyDisconnectedEvent(::System::Action* value);
 
-  /// @brief Method remove_lobbyStateChangedEvent, addr 0x27218b4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_lobbyStateChangedEvent, addr 0x3b419d8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_lobbyStateChangedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>* value);
 
-  /// @brief Method remove_playerMissingEntitlementsChangedEvent, addr 0x2721b74, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerMissingEntitlementsChangedEvent, addr 0x3b41c98, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerMissingEntitlementsChangedEvent(::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
 
-  /// @brief Method remove_selectedLevelGameplaySetupDataChangedEvent, addr 0x2720aac, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_selectedLevelGameplaySetupDataChangedEvent, addr 0x3b40bd0, size 0xb0, virtual true, abstract: false, final true
   inline void remove_selectedLevelGameplaySetupDataChangedEvent(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* value);
 
-  /// @brief Method remove_songStillDownloadingEvent, addr 0x2721100, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_songStillDownloadingEvent, addr 0x3b41224, size 0x9c, virtual true, abstract: false, final true
   inline void remove_songStillDownloadingEvent(::System::Action* value);
 
-  /// @brief Method remove_startButtonEnabledEvent, addr 0x2721a14, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_startButtonEnabledEvent, addr 0x3b41b38, size 0xb0, virtual true, abstract: false, final true
   inline void remove_startButtonEnabledEvent(::System::Action_1<::GlobalNamespace::CannotStartGameReason>* value);
 
-  /// @brief Method remove_startTimeChangedEvent, addr 0x2721238, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_startTimeChangedEvent, addr 0x3b4135c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_startTimeChangedEvent(::System::Action* value);
 
-  /// @brief Method set_countdownEndTime, addr 0x2721c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_countdownEndTime, addr 0x3b41db0, size 0x8, virtual false, abstract: false, final false
   inline void set_countdownEndTime(int64_t value);
 
-  /// @brief Method set_countdownStarted, addr 0x2721c78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_countdownStarted, addr 0x3b41d9c, size 0xc, virtual false, abstract: false, final false
   inline void set_countdownStarted(bool value);
 
-  /// @brief Method set_disconnectedReason, addr 0x2721cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disconnectedReason, addr 0x3b41e10, size 0x8, virtual false, abstract: false, final false
   inline void set_disconnectedReason(::GlobalNamespace::DisconnectedReason value);
 
-  /// @brief Method set_isDisconnected, addr 0x2721cd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isDisconnected, addr 0x3b41dfc, size 0xc, virtual false, abstract: false, final false
   inline void set_isDisconnected(bool value);
 
-  /// @brief Method set_levelStartInitiated, addr 0x2721c5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_levelStartInitiated, addr 0x3b41d80, size 0xc, virtual false, abstract: false, final false
   inline void set_levelStartInitiated(bool value);
 
-  /// @brief Method set_startTime, addr 0x2721c34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_startTime, addr 0x3b41d58, size 0x20, virtual false, abstract: false, final false
   inline void set_startTime(int64_t value);
 
-  /// @brief Method set_state, addr 0x2721c9c, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method set_state, addr 0x3b41dc0, size 0x2c, virtual true, abstract: false, final true
   inline void set_state(::GlobalNamespace::MultiplayerLobbyState value);
 
 protected:
@@ -1011,6 +1017,9 @@ public:
 
   /// @brief Field _selectedLevelGameplaySetupData, offset: 0x108, size: 0x8, def value: None
   ::GlobalNamespace::LevelGameplaySetupData* ____selectedLevelGameplaySetupData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4492 };
 
   /// @brief Field kLongTimerMs offset 0xffffffff size 0x8
   static constexpr int64_t kLongTimerMs{ static_cast<int64_t>(0xea60) };

@@ -25,7 +25,7 @@ class XRLoaderHelper;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::XR::Management::XRLoaderHelper);
 // Type: UnityEngine.XR.Management::XRLoaderHelper
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
 // CS Name: ::UnityEngine.XR.Management::XRLoaderHelper*
@@ -34,7 +34,7 @@ public:
   // Declarations
   /// @brief Field m_SubsystemInstanceMap, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SubsystemInstanceMap,
-                      put = __cordl_internal_set_m_SubsystemInstanceMap))::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* m_SubsystemInstanceMap;
+                      put = __cordl_internal_set_m_SubsystemInstanceMap)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* m_SubsystemInstanceMap;
 
   /// @brief Method CreateIntegratedSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDescriptor, typename TSubsystem> inline void CreateIntegratedSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
@@ -45,7 +45,7 @@ public:
   /// @brief Method CreateSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDescriptor, typename TSubsystem> inline void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
-  /// @brief Method Deinitialize, addr 0x33e2a98, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x47ba9d8, size 0x58, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
   /// @brief Method DestroySubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SubsystemInstanceMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* value);
 
-  /// @brief Method .ctor, addr 0x33e2af0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47baa30, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field m_SubsystemInstanceMap, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* ___m_SubsystemInstanceMap;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18563 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,7 +12,7 @@ template <typename TKey, typename TValue> class DictionaryValueCollectionDebugVi
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::DictionaryValueCollectionDebugView_2);
 // Type: System.Collections.Generic::DictionaryValueCollectionDebugView`2
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -34,6 +34,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DictionaryValueCollectionDebugView_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DictionaryValueCollectionDebugView_2(DictionaryValueCollectionDebugView_2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3845 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

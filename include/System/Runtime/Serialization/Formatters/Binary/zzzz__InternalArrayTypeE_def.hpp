@@ -13,7 +13,7 @@ struct InternalArrayTypeE;
 // Write type traits
 MARK_VAL_T(::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE);
 // Type: System.Runtime.Serialization.Formatters.Binary::InternalArrayTypeE
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: true
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::InternalArrayTypeE
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field Single value: static_cast<int32_t>(0x1)
   static ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE const Single;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3250 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

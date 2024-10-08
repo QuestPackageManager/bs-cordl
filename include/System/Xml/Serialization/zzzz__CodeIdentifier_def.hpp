@@ -16,7 +16,7 @@ class CodeIdentifier;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::CodeIdentifier);
 // Type: System.Xml.Serialization::CodeIdentifier
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::CodeIdentifier*
@@ -24,18 +24,18 @@ class CORDL_TYPE CodeIdentifier : public ::System::Object {
 public:
   // Declarations
   /// @brief Field csharp, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_csharp, put = setStaticF_csharp))::Microsoft::CSharp::CodeDomProvider* csharp;
+  static __declspec(property(get = getStaticF_csharp, put = setStaticF_csharp)) ::Microsoft::CSharp::CodeDomProvider* csharp;
 
-  /// @brief Method IsValid, addr 0x2ef23dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x42efd60, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsValid(char16_t c);
 
-  /// @brief Method IsValidStart, addr 0x2ef2458, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsValidStart, addr 0x42efddc, size 0x64, virtual false, abstract: false, final false
   static inline bool IsValidStart(char16_t c);
 
-  /// @brief Method MakePascal, addr 0x2ef20b4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method MakePascal, addr 0x42efa2c, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW MakePascal(::StringW identifier);
 
-  /// @brief Method MakeValid, addr 0x2ef225c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method MakeValid, addr 0x42efbdc, size 0x184, virtual false, abstract: false, final false
   static inline ::StringW MakeValid(::StringW identifier);
 
   static inline ::Microsoft::CSharp::CodeDomProvider* getStaticF_csharp();
@@ -55,6 +55,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CodeIdentifier", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CodeIdentifier(CodeIdentifier const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7350 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

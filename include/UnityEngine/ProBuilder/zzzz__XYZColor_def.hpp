@@ -17,7 +17,7 @@ class XYZColor;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::XYZColor);
 // Type: UnityEngine.ProBuilder::XYZColor
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::XYZColor*
@@ -33,15 +33,15 @@ public:
   /// @brief Field z, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z)) float_t z;
 
-  /// @brief Method FromRGB, addr 0x32aecfc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FromRGB, addr 0x468ef08, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::XYZColor* FromRGB(float_t R, float_t G, float_t B);
 
-  /// @brief Method FromRGB, addr 0x32aec0c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FromRGB, addr 0x468ee18, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::XYZColor* FromRGB(::UnityEngine::Color col);
 
   static inline ::UnityEngine::ProBuilder::XYZColor* New_ctor(float_t x, float_t y, float_t z);
 
-  /// @brief Method ToString, addr 0x32aef0c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x468f128, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_x() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_z(float_t value);
 
-  /// @brief Method .ctor, addr 0x32aebd0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x468eddc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y, float_t z);
 
 protected:
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field z, offset: 0x18, size: 0x4, def value: None
   float_t ___z;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14186 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

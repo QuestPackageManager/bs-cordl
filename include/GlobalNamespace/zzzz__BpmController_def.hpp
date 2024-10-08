@@ -35,7 +35,7 @@ class __BpmController__InitData;
 MARK_REF_PTR_T(::GlobalNamespace::BpmController);
 MARK_REF_PTR_T(::GlobalNamespace::__BpmController__InitData);
 // Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BpmController::InitData*
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_startBpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x26e0d90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b030c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t startBpm);
 
 protected:
@@ -73,6 +73,9 @@ public:
   /// @brief Field startBpm, offset: 0x10, size: 0x4, def value: None
   float_t ___startBpm;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4170 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -82,7 +85,7 @@ static_assert(offsetof(::GlobalNamespace::__BpmController__InitData, ___startBpm
 
 } // namespace GlobalNamespace
 // Type: ::BpmController
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BpmController*
@@ -93,10 +96,10 @@ public:
 
   /// @brief Field _beatmapCallbacksController, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+                      put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
   /// @brief Field _beatmapDataCallback, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapDataCallback, put = __cordl_internal_set__beatmapDataCallback))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallback;
+  __declspec(property(get = __cordl_internal_get__beatmapDataCallback, put = __cordl_internal_set__beatmapDataCallback)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallback;
 
   /// @brief Field _currentBpm, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__currentBpm, put = __cordl_internal_set__currentBpm)) float_t _currentBpm;
@@ -111,10 +114,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x26e0d58, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3b03090, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleBpmChangeBeatmapEvent, addr 0x26e0d74, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleBpmChangeBeatmapEvent, addr 0x3b030ac, size 0x1c, virtual false, abstract: false, final false
   inline void HandleBpmChangeBeatmapEvent(::GlobalNamespace::BPMChangeBeatmapEventData* bpmChangeBeatmapEventData);
 
   static inline ::GlobalNamespace::BpmController* New_ctor(::GlobalNamespace::__BpmController__InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
@@ -137,13 +140,13 @@ public:
 
   constexpr void __cordl_internal_set__currentBpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x26e0c88, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b02fbc, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__BpmController__InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method get_currentBpm, addr 0x26e0c60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_currentBpm, addr 0x3b02f94, size 0x8, virtual true, abstract: false, final true
   inline float_t get_currentBpm();
 
-  /// @brief Method get_oneBeatDuration, addr 0x26e0c68, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_oneBeatDuration, addr 0x3b02f9c, size 0x20, virtual true, abstract: false, final true
   inline float_t get_oneBeatDuration();
 
   /// @brief Convert to "::GlobalNamespace::IBpmController"
@@ -174,6 +177,9 @@ public:
 
   /// @brief Field _currentBpm, offset: 0x20, size: 0x4, def value: None
   float_t ____currentBpm;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4171 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

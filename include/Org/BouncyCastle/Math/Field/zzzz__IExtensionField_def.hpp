@@ -15,7 +15,7 @@ class IExtensionField;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::Field::IExtensionField);
 // Type: Org.BouncyCastle.Math.Field::IExtensionField
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::Field {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Math.Field::IExtensionField*
@@ -24,7 +24,7 @@ public:
   // Declarations
   __declspec(property(get = get_Degree)) int32_t Degree;
 
-  __declspec(property(get = get_Subfield))::Org::BouncyCastle::Math::Field::IFiniteField* Subfield;
+  __declspec(property(get = get_Subfield)) ::Org::BouncyCastle::Math::Field::IFiniteField* Subfield;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IFiniteField"
   constexpr operator ::Org::BouncyCastle::Math::Field::IFiniteField*() noexcept;
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IExtensionField", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IExtensionField(IExtensionField const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1582 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

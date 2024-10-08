@@ -13,7 +13,7 @@ class DefaultNamingStrategy;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::DefaultNamingStrategy);
 // Type: Newtonsoft.Json.Serialization::DefaultNamingStrategy
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Serialization::DefaultNamingStrategy*
@@ -22,10 +22,10 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::Serialization::DefaultNamingStrategy* New_ctor();
 
-  /// @brief Method ResolvePropertyName, addr 0x2a5d9b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x3e6dcb8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2a5d9c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6dcc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultNamingStrategy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultNamingStrategy(DefaultNamingStrategy const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10264 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

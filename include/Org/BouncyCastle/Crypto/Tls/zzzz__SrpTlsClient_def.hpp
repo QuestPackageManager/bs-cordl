@@ -29,7 +29,7 @@ class SrpTlsClient;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SrpTlsClient);
 // Type: Org.BouncyCastle.Crypto.Tls::SrpTlsClient
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SrpTlsClient*
@@ -39,27 +39,27 @@ public:
   __declspec(property(get = get_RequireSrpServerExtension)) bool RequireSrpServerExtension;
 
   /// @brief Field mGroupVerifier, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_mGroupVerifier, put = __cordl_internal_set_mGroupVerifier))::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* mGroupVerifier;
+  __declspec(property(get = __cordl_internal_get_mGroupVerifier, put = __cordl_internal_set_mGroupVerifier)) ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* mGroupVerifier;
 
   /// @brief Field mIdentity, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_mIdentity, put = __cordl_internal_set_mIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mIdentity;
+  __declspec(property(get = __cordl_internal_get_mIdentity, put = __cordl_internal_set_mIdentity)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mIdentity;
 
   /// @brief Field mPassword, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPassword, put = __cordl_internal_set_mPassword))::ArrayW<uint8_t, ::Array<uint8_t>*> mPassword;
+  __declspec(property(get = __cordl_internal_get_mPassword, put = __cordl_internal_set_mPassword)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mPassword;
 
-  /// @brief Method CreateSrpKeyExchange, addr 0x1208b10, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method CreateSrpKeyExchange, addr 0x23dc668, size 0x8c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreateSrpKeyExchange(int32_t keyExchange);
 
-  /// @brief Method GetAuthentication, addr 0x1208acc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetAuthentication, addr 0x23dc62c, size 0x3c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication* GetAuthentication();
 
-  /// @brief Method GetCipherSuites, addr 0x120889c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetCipherSuites, addr 0x23dc40c, size 0x64, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetCipherSuites();
 
-  /// @brief Method GetClientExtensions, addr 0x1208900, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetClientExtensions, addr 0x23dc470, size 0x34, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* GetClientExtensions();
 
-  /// @brief Method GetKeyExchange, addr 0x1208a0c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GetKeyExchange, addr 0x23dc574, size 0xb8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SrpTlsClient* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory,
@@ -71,7 +71,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SrpTlsClient* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method ProcessServerExtensions, addr 0x1208934, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerExtensions, addr 0x23dc4a4, size 0xd0, virtual true, abstract: false, final false
   inline void ProcessServerExtensions(::System::Collections::IDictionary* serverExtensions);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*& __cordl_internal_get_mGroupVerifier();
@@ -92,17 +92,17 @@ public:
 
   constexpr void __cordl_internal_set_mPassword(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1208764, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dc2dc, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* groupVerifier,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method .ctor, addr 0x1208808, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dc380, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method .ctor, addr 0x12086b8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dc234, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method get_RequireSrpServerExtension, addr 0x1208894, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequireSrpServerExtension, addr 0x23dc404, size 0x8, virtual true, abstract: false, final false
   inline bool get_RequireSrpServerExtension();
 
 protected:
@@ -127,6 +127,9 @@ public:
 
   /// @brief Field mPassword, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mPassword;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1280 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,7 +21,7 @@ struct RenderModel_t_Packed;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::RenderModel_t_Packed);
 // Type: OVR.OpenVR::RenderModel_t_Packed
-// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 8, packing: Some(4), specified_packing: Some(4) }
+// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, packing: Some(4), specified_packing: Some(4) }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::RenderModel_t_Packed
@@ -29,10 +29,10 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE RenderModel_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x2bff858, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x4001164, size 0x24, virtual false, abstract: false, final false
   inline void Unpack(ByRef<::OVR::OpenVR::RenderModel_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x2bff82c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4001138, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::RenderModel_t unpacked);
 
   // Ctor Parameters []
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field diffuseTextureId, offset: 0x18, size: 0x4, def value: None
   int32_t diffuseTextureId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8999 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

@@ -12,7 +12,7 @@ class AspDataFieldAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::AspDataFieldAttribute);
 // Type: JetBrains.Annotations::AspDataFieldAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::AspDataFieldAttribute*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::AspDataFieldAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x36517c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a78044, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AspDataFieldAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AspDataFieldAttribute(AspDataFieldAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18385 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

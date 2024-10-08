@@ -22,31 +22,31 @@ class ReportingCallbackSample;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ReportingCallbackSample);
 // Type: ::ReportingCallbackSample
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ReportingCallbackSample*
 class CORDL_TYPE ReportingCallbackSample : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field DestinationsConsole, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_DestinationsConsole, put = __cordl_internal_set_DestinationsConsole))::UnityW<::UnityEngine::UI::Text> DestinationsConsole;
+  /// @brief Field DestinationsConsole, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_DestinationsConsole, put = __cordl_internal_set_DestinationsConsole)) ::UnityW<::UnityEngine::UI::Text> DestinationsConsole;
 
-  /// @brief Field InVRConsole, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_InVRConsole, put = __cordl_internal_set_InVRConsole))::UnityW<::UnityEngine::UI::Text> InVRConsole;
+  /// @brief Field InVRConsole, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_InVRConsole, put = __cordl_internal_set_InVRConsole)) ::UnityW<::UnityEngine::UI::Text> InVRConsole;
 
   static inline ::GlobalNamespace::ReportingCallbackSample* New_ctor();
 
-  /// @brief Method OnReportButtonIntentNotif, addr 0x2ad7254, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnReportButtonIntentNotif, addr 0x3ee457c, size 0xa0, virtual false, abstract: false, final false
   inline void OnReportButtonIntentNotif(::Oculus::Platform::Message_1<::StringW>* message);
 
-  /// @brief Method Start, addr 0x2ad70b0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ee43dc, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateConsole, addr 0x2ad71a8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UpdateConsole, addr 0x3ee44d0, size 0xac, virtual false, abstract: false, final false
   inline void UpdateConsole(::StringW value);
 
-  /// @brief Method <Start>b__2_0, addr 0x2ad7448, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__2_0, addr 0x3ee4768, size 0xe4, virtual false, abstract: false, final false
   inline void _Start_b__2_0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>* message);
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_DestinationsConsole() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_InVRConsole(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x2ad7440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee4760, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,20 +78,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ReportingCallbackSample(ReportingCallbackSample const&) = delete;
 
-  /// @brief Field InVRConsole, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field InVRConsole, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___InVRConsole;
 
-  /// @brief Field DestinationsConsole, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field DestinationsConsole, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___DestinationsConsole;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15256 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ReportingCallbackSample, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ReportingCallbackSample, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ReportingCallbackSample, ___InVRConsole) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ReportingCallbackSample, ___InVRConsole) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ReportingCallbackSample, ___DestinationsConsole) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ReportingCallbackSample, ___DestinationsConsole) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ReportingCallbackSample);

@@ -30,7 +30,7 @@ class EntityTagHeaderValue;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::Headers::EntityTagHeaderValue);
 // Type: System.Net.Http.Headers::EntityTagHeaderValue
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::System.Net.Http.Headers::EntityTagHeaderValue*
@@ -39,41 +39,41 @@ public:
   // Declarations
   __declspec(property(get = get_IsWeak, put = set_IsWeak)) bool IsWeak;
 
-  __declspec(property(get = get_Tag, put = set_Tag))::StringW Tag;
+  __declspec(property(get = get_Tag, put = set_Tag)) ::StringW Tag;
 
   /// @brief Field <IsWeak>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__IsWeak_k__BackingField, put = __cordl_internal_set__IsWeak_k__BackingField)) bool _IsWeak_k__BackingField;
 
   /// @brief Field <Tag>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Tag_k__BackingField, put = __cordl_internal_set__Tag_k__BackingField))::StringW _Tag_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Tag_k__BackingField, put = __cordl_internal_set__Tag_k__BackingField)) ::StringW _Tag_k__BackingField;
 
   /// @brief Field any, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_any, put = setStaticF_any))::System::Net::Http::Headers::EntityTagHeaderValue* any;
+  static __declspec(property(get = getStaticF_any, put = setStaticF_any)) ::System::Net::Http::Headers::EntityTagHeaderValue* any;
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x2da1ccc, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x41a7fb4, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2da1d80, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x41a8068, size 0x90, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::EntityTagHeaderValue* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2da1cc4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x41a7fac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x2da21a8, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x41a84cc, size 0x64, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x2da20f8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41a841c, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::EntityTagHeaderValue*>*> result);
 
-  /// @brief Method TryParse, addr 0x2da1dd0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41a80f8, size 0xec, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue);
 
-  /// @brief Method TryParseElement, addr 0x2da1ec4, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x41a81e4, size 0x1e8, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::EntityTagHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
 
   constexpr bool const& __cordl_internal_get__IsWeak_k__BackingField() const;
@@ -88,15 +88,15 @@ public:
 
   constexpr void __cordl_internal_set__Tag_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2da1c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41a7f80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::Headers::EntityTagHeaderValue* getStaticF_any();
 
-  /// @brief Method get_IsWeak, addr 0x2da1ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsWeak, addr 0x41a7f88, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsWeak();
 
-  /// @brief Method get_Tag, addr 0x2da1cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x41a7f9c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Tag();
 
   /// @brief Convert to "::System::ICloneable"
@@ -104,10 +104,10 @@ public:
 
   static inline void setStaticF_any(::System::Net::Http::Headers::EntityTagHeaderValue* value);
 
-  /// @brief Method set_IsWeak, addr 0x2da1ca8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsWeak, addr 0x41a7f90, size 0xc, virtual false, abstract: false, final false
   inline void set_IsWeak(bool value);
 
-  /// @brief Method set_Tag, addr 0x2da1cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Tag, addr 0x41a7fa4, size 0x8, virtual false, abstract: false, final false
   inline void set_Tag(::StringW value);
 
 protected:
@@ -129,6 +129,9 @@ public:
 
   /// @brief Field <Tag>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Tag_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16654 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

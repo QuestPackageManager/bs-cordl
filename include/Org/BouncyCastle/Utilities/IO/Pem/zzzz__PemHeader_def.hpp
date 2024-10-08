@@ -17,30 +17,30 @@ class PemHeader;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader);
 // Type: Org.BouncyCastle.Utilities.IO.Pem::PemHeader
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemHeader*
 class CORDL_TYPE PemHeader : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_Value))::StringW Value;
+  __declspec(property(get = get_Value)) ::StringW Value;
 
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   /// @brief Field val, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_val, put = __cordl_internal_set_val))::StringW val;
+  __declspec(property(get = __cordl_internal_get_val, put = __cordl_internal_set_val)) ::StringW val;
 
-  /// @brief Method Equals, addr 0x13d1d1c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2599750, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x13d1cac, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25996e0, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode, addr 0x13d1d04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2599738, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetHashCode(::StringW s);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemHeader* New_ctor(::StringW name, ::StringW val);
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set_val(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13d1c70, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25996a4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW val);
 
-  /// @brief Method get_Name, addr 0x13d1c9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x25996d0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Value, addr 0x13d1ca4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x25996d8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
 protected:
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field val, offset: 0x18, size: 0x8, def value: None
   ::StringW ___val;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1805 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

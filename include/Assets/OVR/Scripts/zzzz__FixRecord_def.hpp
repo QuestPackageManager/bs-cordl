@@ -21,7 +21,7 @@ class FixRecord;
 // Write type traits
 MARK_REF_PTR_T(::Assets::OVR::Scripts::FixRecord);
 // Type: Assets.OVR.Scripts::FixRecord
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Assets::OVR::Scripts {
 // Is value type: false
 // CS Name: ::Assets.OVR.Scripts::FixRecord*
@@ -29,7 +29,7 @@ class CORDL_TYPE FixRecord : public ::Assets::OVR::Scripts::Record {
 public:
   // Declarations
   /// @brief Field buttonNames, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_buttonNames, put = __cordl_internal_set_buttonNames))::ArrayW<::StringW, ::Array<::StringW>*> buttonNames;
+  __declspec(property(get = __cordl_internal_get_buttonNames, put = __cordl_internal_set_buttonNames)) ::ArrayW<::StringW, ::Array<::StringW>*> buttonNames;
 
   /// @brief Field complete, offset 0x41, size 0x1
   __declspec(property(get = __cordl_internal_get_complete, put = __cordl_internal_set_complete)) bool complete;
@@ -38,10 +38,10 @@ public:
   __declspec(property(get = __cordl_internal_get_editModeRequired, put = __cordl_internal_set_editModeRequired)) bool editModeRequired;
 
   /// @brief Field fixMethod, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_fixMethod, put = __cordl_internal_set_fixMethod))::Assets::OVR::Scripts::FixMethodDelegate* fixMethod;
+  __declspec(property(get = __cordl_internal_get_fixMethod, put = __cordl_internal_set_fixMethod)) ::Assets::OVR::Scripts::FixMethodDelegate* fixMethod;
 
   /// @brief Field targetObject, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetObject, put = __cordl_internal_set_targetObject))::UnityW<::UnityEngine::Object> targetObject;
+  __declspec(property(get = __cordl_internal_get_targetObject, put = __cordl_internal_set_targetObject)) ::UnityW<::UnityEngine::Object> targetObject;
 
   static inline ::Assets::OVR::Scripts::FixRecord* New_ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix, ::UnityEngine::Object* target,
                                                             bool editRequired, ::ArrayW<::StringW, ::Array<::StringW>*> buttons);
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_targetObject(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method .ctor, addr 0x2c017c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4002f18, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix, ::UnityEngine::Object* target, bool editRequired,
                     ::ArrayW<::StringW, ::Array<::StringW>*> buttons);
 
@@ -108,6 +108,9 @@ public:
 
   /// @brief Field complete, offset: 0x41, size: 0x1, def value: None
   bool ___complete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9020 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

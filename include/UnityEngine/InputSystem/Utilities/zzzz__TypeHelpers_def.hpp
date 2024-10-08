@@ -26,7 +26,7 @@ class TypeHelpers;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::TypeHelpers);
 // Type: UnityEngine.InputSystem.Utilities::TypeHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Utilities::TypeHelpers*
@@ -36,16 +36,16 @@ public:
   /// @brief Method As, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> static inline TObject As(::System::Object* obj);
 
-  /// @brief Method GetGenericTypeArgumentFromHierarchy, addr 0x30fba3c, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method GetGenericTypeArgumentFromHierarchy, addr 0x44fb37c, size 0x3c8, virtual false, abstract: false, final false
   static inline ::System::Type* GetGenericTypeArgumentFromHierarchy(::System::Type* type, ::System::Type* genericTypeDefinition, int32_t argumentIndex);
 
-  /// @brief Method GetNiceTypeName, addr 0x30fb5ac, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method GetNiceTypeName, addr 0x44faeec, size 0x490, virtual false, abstract: false, final false
   static inline ::StringW GetNiceTypeName(::System::Type* type);
 
-  /// @brief Method GetValueType, addr 0x30fb40c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x44fad20, size 0x1cc, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueType(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method IsInt, addr 0x30fb3fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInt, addr 0x44fad10, size 0x10, virtual false, abstract: false, final false
   static inline bool IsInt(::System::TypeCode type);
 
 protected:
@@ -61,6 +61,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TypeHelpers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TypeHelpers(TypeHelpers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7086 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

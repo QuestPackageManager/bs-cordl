@@ -49,7 +49,7 @@ class __BeatEffect__Pool;
 MARK_REF_PTR_T(::GlobalNamespace::BeatEffect);
 MARK_REF_PTR_T(::GlobalNamespace::__BeatEffect__Pool);
 // Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatEffect::Pool*
@@ -58,7 +58,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__BeatEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26e3114, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b05c58, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,6 +75,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatEffect__Pool(__BeatEffect__Pool const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4181 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -82,7 +85,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatEffect__P
 
 } // namespace GlobalNamespace
 // Type: ::BeatEffect
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatEffect*
@@ -91,46 +94,46 @@ public:
   // Declarations
   using Pool = ::GlobalNamespace::__BeatEffect__Pool;
 
-  /// @brief Field _animationDuration, offset 0x58, size 0x4
+  /// @brief Field _animationDuration, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__animationDuration, put = __cordl_internal_set__animationDuration)) float_t _animationDuration;
 
-  /// @brief Field _color, offset 0x60, size 0x10
-  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
+  /// @brief Field _color, offset 0x68, size 0x10
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color)) ::UnityEngine::Color _color;
 
-  /// @brief Field _didFinishEvent, offset 0x50, size 0x8
+  /// @brief Field _didFinishEvent, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__didFinishEvent,
-                      put = __cordl_internal_set__didFinishEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* _didFinishEvent;
+                      put = __cordl_internal_set__didFinishEvent)) ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* _didFinishEvent;
 
-  /// @brief Field _elapsedTime, offset 0x5c, size 0x4
+  /// @brief Field _elapsedTime, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get__elapsedTime, put = __cordl_internal_set__elapsedTime)) float_t _elapsedTime;
 
-  /// @brief Field _lightIntensityCurve, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightIntensityCurve, put = __cordl_internal_set__lightIntensityCurve))::UnityEngine::AnimationCurve* _lightIntensityCurve;
+  /// @brief Field _lightIntensityCurve, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightIntensityCurve, put = __cordl_internal_set__lightIntensityCurve)) ::UnityEngine::AnimationCurve* _lightIntensityCurve;
 
-  /// @brief Field _spriteRenderer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer))::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
+  /// @brief Field _spriteRenderer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer)) ::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
 
-  /// @brief Field _spriteTransform, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__spriteTransform, put = __cordl_internal_set__spriteTransform))::UnityW<::UnityEngine::Transform> _spriteTransform;
+  /// @brief Field _spriteTransform, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__spriteTransform, put = __cordl_internal_set__spriteTransform)) ::UnityW<::UnityEngine::Transform> _spriteTransform;
 
-  /// @brief Field _spriteXScaleCurve, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__spriteXScaleCurve, put = __cordl_internal_set__spriteXScaleCurve))::UnityEngine::AnimationCurve* _spriteXScaleCurve;
+  /// @brief Field _spriteXScaleCurve, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__spriteXScaleCurve, put = __cordl_internal_set__spriteXScaleCurve)) ::UnityEngine::AnimationCurve* _spriteXScaleCurve;
 
-  /// @brief Field _spriteYScaleCurve, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__spriteYScaleCurve, put = __cordl_internal_set__spriteYScaleCurve))::UnityEngine::AnimationCurve* _spriteYScaleCurve;
+  /// @brief Field _spriteYScaleCurve, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__spriteYScaleCurve, put = __cordl_internal_set__spriteYScaleCurve)) ::UnityEngine::AnimationCurve* _spriteYScaleCurve;
 
-  /// @brief Field _transparencyCurve, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__transparencyCurve, put = __cordl_internal_set__transparencyCurve))::UnityEngine::AnimationCurve* _transparencyCurve;
+  /// @brief Field _transparencyCurve, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__transparencyCurve, put = __cordl_internal_set__transparencyCurve)) ::UnityEngine::AnimationCurve* _transparencyCurve;
 
-  /// @brief Field _tubeBloomPrePassLight, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__tubeBloomPrePassLight, put = __cordl_internal_set__tubeBloomPrePassLight))::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _tubeBloomPrePassLight;
+  /// @brief Field _tubeBloomPrePassLight, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__tubeBloomPrePassLight, put = __cordl_internal_set__tubeBloomPrePassLight)) ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _tubeBloomPrePassLight;
 
-  __declspec(property(get = get_didFinishEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* didFinishEvent;
+  __declspec(property(get = get_didFinishEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* didFinishEvent;
 
-  /// @brief Method Init, addr 0x26e2d04, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b0582c, size 0xc4, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Color color, float_t animationDuration, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method ManualUpdate, addr 0x26e2dbc, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3b058f0, size 0x2ec, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t deltaTime);
 
   static inline ::GlobalNamespace::BeatEffect* New_ctor();
@@ -201,10 +204,10 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x26e3098, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b05bdc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_didFinishEvent, addr 0x26e2cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x3b05824, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
 
 protected:
@@ -221,65 +224,68 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatEffect(BeatEffect const&) = delete;
 
-  /// @brief Field _spriteRenderer, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _spriteRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 
-  /// @brief Field _spriteTransform, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _spriteTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____spriteTransform;
 
-  /// @brief Field _tubeBloomPrePassLight, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _tubeBloomPrePassLight, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;
 
-  /// @brief Field _lightIntensityCurve, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _lightIntensityCurve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____lightIntensityCurve;
 
-  /// @brief Field _spriteXScaleCurve, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _spriteXScaleCurve, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____spriteXScaleCurve;
 
-  /// @brief Field _spriteYScaleCurve, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _spriteYScaleCurve, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____spriteYScaleCurve;
 
-  /// @brief Field _transparencyCurve, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _transparencyCurve, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____transparencyCurve;
 
-  /// @brief Field _didFinishEvent, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _didFinishEvent, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* ____didFinishEvent;
 
-  /// @brief Field _animationDuration, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field _animationDuration, offset: 0x60, size: 0x4, def value: None
   float_t ____animationDuration;
 
-  /// @brief Field _elapsedTime, offset: 0x5c, size: 0x4, def value: None
+  /// @brief Field _elapsedTime, offset: 0x64, size: 0x4, def value: None
   float_t ____elapsedTime;
 
-  /// @brief Field _color, offset: 0x60, size: 0x10, def value: None
+  /// @brief Field _color, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4182 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatEffect, 0x70>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatEffect, 0x78>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatEffect, ____spriteRenderer) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____spriteRenderer) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatEffect, ____spriteTransform) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____spriteTransform) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatEffect, ____tubeBloomPrePassLight) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____tubeBloomPrePassLight) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatEffect, ____lightIntensityCurve) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____lightIntensityCurve) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatEffect, ____spriteXScaleCurve) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____spriteXScaleCurve) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatEffect, ____spriteYScaleCurve) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____spriteYScaleCurve) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatEffect, ____transparencyCurve) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____transparencyCurve) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatEffect, ____didFinishEvent) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____didFinishEvent) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatEffect, ____animationDuration) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____animationDuration) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatEffect, ____elapsedTime) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____elapsedTime) == 0x64, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatEffect, ____color) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatEffect, ____color) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatEffect);

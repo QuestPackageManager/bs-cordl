@@ -19,14 +19,14 @@ class ObjectHolderListEnumerator;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::ObjectHolderListEnumerator);
 // Type: System.Runtime.Serialization::ObjectHolderListEnumerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization::ObjectHolderListEnumerator*
 class CORDL_TYPE ObjectHolderListEnumerator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Current))::System::Runtime::Serialization::ObjectHolder* Current;
+  __declspec(property(get = get_Current)) ::System::Runtime::Serialization::ObjectHolder* Current;
 
   /// @brief Field m_currPos, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_m_currPos, put = __cordl_internal_set_m_currPos)) int32_t m_currPos;
@@ -35,12 +35,12 @@ public:
   __declspec(property(get = __cordl_internal_get_m_isFixupEnumerator, put = __cordl_internal_set_m_isFixupEnumerator)) bool m_isFixupEnumerator;
 
   /// @brief Field m_list, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_list, put = __cordl_internal_set_m_list))::System::Runtime::Serialization::ObjectHolderList* m_list;
+  __declspec(property(get = __cordl_internal_get_m_list, put = __cordl_internal_set_m_list)) ::System::Runtime::Serialization::ObjectHolderList* m_list;
 
   /// @brief Field m_startingVersion, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_startingVersion, put = __cordl_internal_set_m_startingVersion)) int32_t m_startingVersion;
 
-  /// @brief Method MoveNext, addr 0x28699dc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x3c84de4, size 0xbc, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Runtime::Serialization::ObjectHolderListEnumerator* New_ctor(::System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator);
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_m_startingVersion(int32_t value);
 
-  /// @brief Method .ctor, addr 0x286aaf8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c85e7c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator);
 
-  /// @brief Method get_Current, addr 0x2869984, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x3c84d8c, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ObjectHolder* get_Current();
 
 protected:
@@ -100,6 +100,9 @@ public:
 
   /// @brief Field m_currPos, offset: 0x24, size: 0x4, def value: None
   int32_t ___m_currPos;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3223 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

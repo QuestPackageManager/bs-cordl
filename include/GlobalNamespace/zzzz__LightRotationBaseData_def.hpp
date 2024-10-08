@@ -22,7 +22,7 @@ class LightRotationBaseData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightRotationBaseData);
 // Type: ::LightRotationBaseData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightRotationBaseData*
@@ -33,7 +33,7 @@ public:
   __declspec(property(get = __cordl_internal_get_beat, put = __cordl_internal_set_beat)) float_t beat;
 
   /// @brief Field easeType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
+  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType)) ::GlobalNamespace::EaseType easeType;
 
   /// @brief Field loopsCount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_loopsCount, put = __cordl_internal_set_loopsCount)) int32_t loopsCount;
@@ -42,7 +42,7 @@ public:
   __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation)) float_t rotation;
 
   /// @brief Field rotationDirection, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_rotationDirection, put = __cordl_internal_set_rotationDirection))::GlobalNamespace::LightRotationDirection rotationDirection;
+  __declspec(property(get = __cordl_internal_get_rotationDirection, put = __cordl_internal_set_rotationDirection)) ::GlobalNamespace::LightRotationDirection rotationDirection;
 
   /// @brief Field usePreviousEventRotationValue, offset 0x14, size 0x1
   __declspec(property(get = __cordl_internal_get_usePreviousEventRotationValue, put = __cordl_internal_set_usePreviousEventRotationValue)) bool usePreviousEventRotationValue;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousEventRotationValue(bool value);
 
-  /// @brief Method .ctor, addr 0x14c4528, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267d3a4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventRotationValue, ::GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount,
                     ::GlobalNamespace::LightRotationDirection rotationDirection);
 
@@ -121,6 +121,9 @@ public:
 
   /// @brief Field rotationDirection, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::LightRotationDirection ___rotationDirection;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12871 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

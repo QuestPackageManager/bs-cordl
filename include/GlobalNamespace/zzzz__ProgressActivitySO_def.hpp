@@ -16,7 +16,7 @@ class ProgressActivitySO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ProgressActivitySO);
 // Type: ::ProgressActivitySO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ProgressActivitySO*
@@ -25,7 +25,8 @@ public:
   // Declarations
   /// @brief Field subtasks, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_subtasks,
-                      put = __cordl_internal_set_subtasks))::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> subtasks;
+                      put = __cordl_internal_set_subtasks)) ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*>
+      subtasks;
 
   static inline ::GlobalNamespace::ProgressActivitySO* New_ctor();
 
@@ -35,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_subtasks(::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x14ed494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a69e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,6 +55,9 @@ public:
 
   /// @brief Field subtasks, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> ___subtasks;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13116 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

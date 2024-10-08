@@ -17,7 +17,7 @@ class AndroidJavaClass;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AndroidJavaClass);
 // Type: UnityEngine::AndroidJavaClass
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::AndroidJavaClass*
@@ -28,13 +28,13 @@ public:
 
   static inline ::UnityEngine::AndroidJavaClass* New_ctor(::System::IntPtr jclass);
 
-  /// @brief Method _AndroidJavaClass, addr 0x33f489c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method _AndroidJavaClass, addr 0x47d2504, size 0xbc, virtual false, abstract: false, final false
   inline void _AndroidJavaClass(::StringW className);
 
-  /// @brief Method .ctor, addr 0x33f1248, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47ceb64, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW className);
 
-  /// @brief Method .ctor, addr 0x33f40b0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d1f94, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr jclass);
 
 protected:
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaClass", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidJavaClass(AndroidJavaClass const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16715 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

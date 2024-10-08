@@ -13,7 +13,7 @@ struct MatchCasing;
 // Write type traits
 MARK_VAL_T(::System::IO::MatchCasing);
 // Type: System.IO::MatchCasing
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
 // CS Name: ::System.IO::MatchCasing
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field PlatformDefault value: static_cast<int32_t>(0x0)
   static ::System::IO::MatchCasing const PlatformDefault;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3603 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

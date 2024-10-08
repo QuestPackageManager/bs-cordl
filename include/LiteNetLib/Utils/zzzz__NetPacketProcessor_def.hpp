@@ -130,7 +130,7 @@ MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass3
 MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2);
 MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1);
 // Type: ::HashCache`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -167,30 +167,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetPacketProcessor__HashCache_1(__NetPacketProcessor__HashCache_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16527 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::SubscribeDelegate
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
 // CS Name: ::NetPacketProcessor::SubscribeDelegate*
 class CORDL_TYPE __NetPacketProcessor__SubscribeDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x261bd84, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3a54b3c, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x261bdac, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3a54b64, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x261bd70, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3a54b28, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x261bc40, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a54a24, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -207,6 +210,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetPacketProcessor__SubscribeDelegate(__NetPacketProcessor__SubscribeDelegate const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16528 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -214,7 +220,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::__NetPacketPr
 
 } // namespace LiteNetLib::Utils
 // Type: ::<>c__DisplayClass25_0`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -224,13 +230,13 @@ class CORDL_TYPE __NetPacketProcessor____c__DisplayClass25_0_1 : public ::System
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::LiteNetLib::Utils::NetPacketProcessor* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::LiteNetLib::Utils::NetPacketProcessor* __4__this;
 
   /// @brief Field onReceive, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_1<T>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive)) ::System::Action_1<T>* onReceive;
 
   /// @brief Field packetConstructor, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor))::System::Func_1<T>* packetConstructor;
+  __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor)) ::System::Func_1<T>* packetConstructor;
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>* New_ctor();
 
@@ -281,12 +287,15 @@ public:
   /// @brief Field onReceive, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<T>* ___onReceive;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16529 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::<>c__DisplayClass26_0`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
@@ -296,13 +305,13 @@ class CORDL_TYPE __NetPacketProcessor____c__DisplayClass26_0_2 : public ::System
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::LiteNetLib::Utils::NetPacketProcessor* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::LiteNetLib::Utils::NetPacketProcessor* __4__this;
 
   /// @brief Field onReceive, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_2<T, TUserData>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive)) ::System::Action_2<T, TUserData>* onReceive;
 
   /// @brief Field packetConstructor, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor))::System::Func_1<T>* packetConstructor;
+  __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor)) ::System::Func_1<T>* packetConstructor;
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>* New_ctor();
 
@@ -353,12 +362,15 @@ public:
   /// @brief Field onReceive, offset: 0x20, size: 0x8, def value: None
   ::System::Action_2<T, TUserData>* ___onReceive;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16530 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::<>c__DisplayClass27_0`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -368,10 +380,10 @@ class CORDL_TYPE __NetPacketProcessor____c__DisplayClass27_0_1 : public ::System
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::LiteNetLib::Utils::NetPacketProcessor* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::LiteNetLib::Utils::NetPacketProcessor* __4__this;
 
   /// @brief Field onReceive, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_1<T>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive)) ::System::Action_1<T>* onReceive;
 
   /// @brief Field reference, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_reference, put = __cordl_internal_set_reference)) T reference;
@@ -425,12 +437,15 @@ public:
   /// @brief Field onReceive, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<T>* ___onReceive;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16531 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::<>c__DisplayClass28_0`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
@@ -440,10 +455,10 @@ class CORDL_TYPE __NetPacketProcessor____c__DisplayClass28_0_2 : public ::System
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::LiteNetLib::Utils::NetPacketProcessor* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::LiteNetLib::Utils::NetPacketProcessor* __4__this;
 
   /// @brief Field onReceive, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_2<T, TUserData>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive)) ::System::Action_2<T, TUserData>* onReceive;
 
   /// @brief Field reference, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_reference, put = __cordl_internal_set_reference)) T reference;
@@ -497,12 +512,15 @@ public:
   /// @brief Field onReceive, offset: 0x20, size: 0x8, def value: None
   ::System::Action_2<T, TUserData>* ___onReceive;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16532 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::<>c__DisplayClass29_0`2
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
@@ -512,10 +530,10 @@ class CORDL_TYPE __NetPacketProcessor____c__DisplayClass29_0_2 : public ::System
 public:
   // Declarations
   /// @brief Field onReceive, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_2<T, TUserData>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive)) ::System::Action_2<T, TUserData>* onReceive;
 
   /// @brief Field packetConstructor, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor))::System::Func_1<T>* packetConstructor;
+  __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor)) ::System::Func_1<T>* packetConstructor;
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>* New_ctor();
 
@@ -557,12 +575,15 @@ public:
   /// @brief Field onReceive, offset: 0x18, size: 0x8, def value: None
   ::System::Action_2<T, TUserData>* ___onReceive;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16533 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::<>c__DisplayClass30_0`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -572,10 +593,10 @@ class CORDL_TYPE __NetPacketProcessor____c__DisplayClass30_0_1 : public ::System
 public:
   // Declarations
   /// @brief Field onReceive, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_1<T>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive)) ::System::Action_1<T>* onReceive;
 
   /// @brief Field packetConstructor, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor))::System::Func_1<T>* packetConstructor;
+  __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor)) ::System::Func_1<T>* packetConstructor;
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>* New_ctor();
 
@@ -617,12 +638,15 @@ public:
   /// @brief Field onReceive, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<T>* ___onReceive;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16534 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::<>c__DisplayClass31_0`2
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
@@ -632,7 +656,7 @@ class CORDL_TYPE __NetPacketProcessor____c__DisplayClass31_0_2 : public ::System
 public:
   // Declarations
   /// @brief Field onReceive, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_2<T, TUserData>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive)) ::System::Action_2<T, TUserData>* onReceive;
 
   /// @brief Field reference, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_reference, put = __cordl_internal_set_reference)) T reference;
@@ -677,12 +701,15 @@ public:
   /// @brief Field onReceive, offset: 0x18, size: 0x8, def value: None
   ::System::Action_2<T, TUserData>* ___onReceive;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16535 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::<>c__DisplayClass32_0`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -692,7 +719,7 @@ class CORDL_TYPE __NetPacketProcessor____c__DisplayClass32_0_1 : public ::System
 public:
   // Declarations
   /// @brief Field onReceive, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_1<T>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive)) ::System::Action_1<T>* onReceive;
 
   /// @brief Field reference, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_reference, put = __cordl_internal_set_reference)) T reference;
@@ -737,12 +764,15 @@ public:
   /// @brief Field onReceive, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<T>* ___onReceive;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16536 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: LiteNetLib.Utils::NetPacketProcessor
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
 // CS Name: ::LiteNetLib.Utils::NetPacketProcessor*
@@ -771,15 +801,15 @@ public:
 
   /// @brief Field _callbacks, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__callbacks,
-                      put = __cordl_internal_set__callbacks))::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>* _callbacks;
+                      put = __cordl_internal_set__callbacks)) ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>* _callbacks;
 
   /// @brief Field _netDataWriter, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__netDataWriter, put = __cordl_internal_set__netDataWriter))::LiteNetLib::Utils::NetDataWriter* _netDataWriter;
+  __declspec(property(get = __cordl_internal_get__netDataWriter, put = __cordl_internal_set__netDataWriter)) ::LiteNetLib::Utils::NetDataWriter* _netDataWriter;
 
   /// @brief Field _netSerializer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__netSerializer, put = __cordl_internal_set__netSerializer))::LiteNetLib::Utils::NetSerializer* _netSerializer;
+  __declspec(property(get = __cordl_internal_get__netSerializer, put = __cordl_internal_set__netSerializer)) ::LiteNetLib::Utils::NetSerializer* _netSerializer;
 
-  /// @brief Method GetCallbackFromData, addr 0x261ba1c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetCallbackFromData, addr 0x3a547e4, size 0xcc, virtual true, abstract: false, final false
   inline ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate* GetCallbackFromData(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Method GetHash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -789,16 +819,16 @@ public:
 
   static inline ::LiteNetLib::Utils::NetPacketProcessor* New_ctor(int32_t maxStringLength);
 
-  /// @brief Method ReadAllPackets, addr 0x261bb54, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ReadAllPackets, addr 0x3a54918, size 0x5c, virtual false, abstract: false, final false
   inline void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method ReadAllPackets, addr 0x261bba8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadAllPackets, addr 0x3a5497c, size 0x60, virtual false, abstract: false, final false
   inline void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
-  /// @brief Method ReadPacket, addr 0x261bba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x3a54974, size 0x8, virtual false, abstract: false, final false
   inline void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method ReadPacket, addr 0x261bbf8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x3a549dc, size 0x48, virtual false, abstract: false, final false
   inline void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -884,10 +914,10 @@ public:
 
   constexpr void __cordl_internal_set__netSerializer(::LiteNetLib::Utils::NetSerializer* value);
 
-  /// @brief Method .ctor, addr 0x261b7b8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a54590, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x261b8a0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a54678, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxStringLength);
 
 protected:
@@ -912,6 +942,9 @@ public:
 
   /// @brief Field _netDataWriter, offset: 0x20, size: 0x8, def value: None
   ::LiteNetLib::Utils::NetDataWriter* ____netDataWriter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16537 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,24 +17,24 @@ class DigestSink;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IO::DigestSink);
 // Type: Org.BouncyCastle.Crypto.IO::DigestSink
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::IO {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.IO::DigestSink*
 class CORDL_TYPE DigestSink : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
   // Declarations
-  __declspec(property(get = get_Digest))::Org::BouncyCastle::Crypto::IDigest* Digest;
+  __declspec(property(get = get_Digest)) ::Org::BouncyCastle::Crypto::IDigest* Digest;
 
   /// @brief Field mDigest, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_mDigest, put = __cordl_internal_set_mDigest))::Org::BouncyCastle::Crypto::IDigest* mDigest;
+  __declspec(property(get = __cordl_internal_get_mDigest, put = __cordl_internal_set_mDigest)) ::Org::BouncyCastle::Crypto::IDigest* mDigest;
 
   static inline ::Org::BouncyCastle::Crypto::IO::DigestSink* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Write, addr 0x1178f58, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x23519a4, size 0xdc, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x1178eac, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x23518f8, size 0xac, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mDigest();
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_mDigest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  /// @brief Method .ctor, addr 0x1178e7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23518c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_Digest, addr 0x1178ea4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0x23518f0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
 protected:
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field mDigest, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IDigest* ___mDigest;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

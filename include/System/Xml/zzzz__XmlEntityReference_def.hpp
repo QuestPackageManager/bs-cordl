@@ -28,58 +28,58 @@ class XmlEntityReference;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlEntityReference);
 // Type: System.Xml::XmlEntityReference
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::XmlEntityReference*
 class CORDL_TYPE XmlEntityReference : public ::System::Xml::XmlLinkedNode {
 public:
   // Declarations
-  __declspec(property(get = get_BaseURI))::StringW BaseURI;
+  __declspec(property(get = get_BaseURI)) ::StringW BaseURI;
 
-  __declspec(property(get = get_ChildBaseURI))::StringW ChildBaseURI;
+  __declspec(property(get = get_ChildBaseURI)) ::StringW ChildBaseURI;
 
   __declspec(property(get = get_IsContainer)) bool IsContainer;
 
   __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
-  __declspec(property(get = get_LastNode, put = set_LastNode))::System::Xml::XmlLinkedNode* LastNode;
+  __declspec(property(get = get_LastNode, put = set_LastNode)) ::System::Xml::XmlLinkedNode* LastNode;
 
-  __declspec(property(get = get_LocalName))::StringW LocalName;
+  __declspec(property(get = get_LocalName)) ::StringW LocalName;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
+  __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
 
-  __declspec(property(get = get_Value, put = set_Value))::StringW Value;
+  __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
 
   /// @brief Field lastChild, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_lastChild, put = __cordl_internal_set_lastChild))::System::Xml::XmlLinkedNode* lastChild;
+  __declspec(property(get = __cordl_internal_get_lastChild, put = __cordl_internal_set_lastChild)) ::System::Xml::XmlLinkedNode* lastChild;
 
   /// @brief Field name, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
-  /// @brief Method CloneNode, addr 0x2ec7648, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x42c597c, size 0x38, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method ConstructBaseURI, addr 0x2ec811c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ConstructBaseURI, addr 0x42c63f0, size 0xd4, virtual false, abstract: false, final false
   inline ::StringW ConstructBaseURI(::StringW baseURI, ::StringW systemId);
 
-  /// @brief Method IsValidChildType, addr 0x2ec7da0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method IsValidChildType, addr 0x42c60a0, size 0x24, virtual true, abstract: false, final false
   inline bool IsValidChildType(::System::Xml::XmlNodeType type);
 
   static inline ::System::Xml::XmlEntityReference* New_ctor(::StringW name, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method SetParent, addr 0x2ec7690, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method SetParent, addr 0x42c59c4, size 0xbc, virtual true, abstract: false, final false
   inline void SetParent(::System::Xml::XmlNode* node);
 
-  /// @brief Method SetParentForLoad, addr 0x2ec7d80, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method SetParentForLoad, addr 0x42c6080, size 0x10, virtual true, abstract: false, final false
   inline void SetParentForLoad(::System::Xml::XmlNode* node);
 
-  /// @brief Method WriteContentTo, addr 0x2ec7df0, size 0x2fc, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x42c60f0, size 0x2d0, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x2ec7dc4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x42c60c4, size 0x2c, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
   constexpr ::System::Xml::XmlLinkedNode*& __cordl_internal_get_lastChild();
@@ -94,40 +94,40 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ec2fd8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42c1498, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_BaseURI, addr 0x2ec80ec, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_BaseURI, addr 0x42c63c0, size 0x30, virtual true, abstract: false, final false
   inline ::StringW get_BaseURI();
 
-  /// @brief Method get_ChildBaseURI, addr 0x2ec81f0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_ChildBaseURI, addr 0x42c64c4, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW get_ChildBaseURI();
 
-  /// @brief Method get_IsContainer, addr 0x2ec7688, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsContainer, addr 0x42c59bc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsContainer();
 
-  /// @brief Method get_IsReadOnly, addr 0x2ec7680, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x42c59b4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_LastNode, addr 0x2ec7d90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LastNode, addr 0x42c6090, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlLinkedNode* get_LastNode();
 
-  /// @brief Method get_LocalName, addr 0x2ec75d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x42c590c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x2ec75c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x42c5904, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x2ec7640, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x42c5974, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Value, addr 0x2ec75d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x42c5914, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_LastNode, addr 0x2ec7d98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_LastNode, addr 0x42c6098, size 0x8, virtual true, abstract: false, final false
   inline void set_LastNode(::System::Xml::XmlLinkedNode* value);
 
-  /// @brief Method set_Value, addr 0x2ec75e0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x42c591c, size 0x58, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -149,6 +149,9 @@ public:
 
   /// @brief Field lastChild, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlLinkedNode* ___lastChild;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7265 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -47,7 +47,7 @@ template <typename T> struct __NativeSlice_1__Enumerator;
 MARK_GEN_VAL_T(::Unity::Collections::NativeSlice_1);
 MARK_GEN_VAL_T(::Unity::Collections::__NativeSlice_1__Enumerator);
 // Type: Unity.Collections::NativeSlice`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // cpp template
 template <typename T>
@@ -127,9 +127,6 @@ public:
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeSlice_1<T> op_Implicit___Unity__Collections__NativeSlice_1_T_(::Unity::Collections::NativeArray_1<T> array);
 
-  /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::Unity::Collections::NativeSlice_1<T> left, ::Unity::Collections::NativeSlice_1<T> right);
-
   /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, T value);
 
@@ -150,6 +147,9 @@ public:
   /// @brief Field m_Length, offset: 0xc, size: 0x4, def value: None
   int32_t m_Length;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10568 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -158,7 +158,7 @@ public:
 // Non member Declarations
 } // namespace Unity::Collections
 // Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 36, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 36, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // cpp template
 template <typename T>
@@ -169,7 +169,7 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
@@ -220,6 +220,9 @@ public:
 
   /// @brief Field m_Index, offset: 0x10, size: 0x4, def value: None
   int32_t m_Index;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10567 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

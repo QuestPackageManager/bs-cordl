@@ -17,29 +17,29 @@ struct PredictiveParser;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::Utilities::PredictiveParser);
 // Type: UnityEngine.InputSystem.Utilities::PredictiveParser
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.Utilities::PredictiveParser
 struct CORDL_TYPE PredictiveParser {
 public:
   // Declarations
-  /// @brief Method AcceptInt, addr 0x31bb7c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AcceptInt, addr 0x44f7770, size 0x5c, virtual false, abstract: false, final false
   inline void AcceptInt(::System::ReadOnlySpan_1<char16_t> str);
 
-  /// @brief Method AcceptSingleChar, addr 0x31bb658, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AcceptSingleChar, addr 0x44f7608, size 0x38, virtual false, abstract: false, final false
   inline bool AcceptSingleChar(::System::ReadOnlySpan_1<char16_t> str, char16_t c);
 
-  /// @brief Method AcceptString, addr 0x31bb694, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AcceptString, addr 0x44f7640, size 0x130, virtual false, abstract: false, final false
   inline bool AcceptString(::System::ReadOnlySpan_1<char16_t> input, ByRef<::System::ReadOnlySpan_1<char16_t>> output);
 
-  /// @brief Method ExpectInt, addr 0x31bb2f8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ExpectInt, addr 0x44f72bc, size 0x124, virtual false, abstract: false, final false
   inline int32_t ExpectInt(::System::ReadOnlySpan_1<char16_t> str);
 
-  /// @brief Method ExpectSingleChar, addr 0x31bb1f0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ExpectSingleChar, addr 0x44f71bc, size 0x100, virtual false, abstract: false, final false
   inline void ExpectSingleChar(::System::ReadOnlySpan_1<char16_t> str, char16_t c);
 
-  /// @brief Method ExpectString, addr 0x31bb424, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ExpectString, addr 0x44f73e0, size 0x228, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> ExpectString(::System::ReadOnlySpan_1<char16_t> str);
 
   // Ctor Parameters []
@@ -51,6 +51,9 @@ public:
 
   /// @brief Field m_Position, offset: 0x0, size: 0x4, def value: None
   int32_t m_Position;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7073 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -19,7 +19,7 @@ class NullConsoleDriver;
 // Write type traits
 MARK_REF_PTR_T(::System::NullConsoleDriver);
 // Type: System::NullConsoleDriver
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::NullConsoleDriver*
@@ -27,17 +27,17 @@ class CORDL_TYPE NullConsoleDriver : public ::System::Object {
 public:
   // Declarations
   /// @brief Field EmptyConsoleKeyInfo, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_EmptyConsoleKeyInfo, put = setStaticF_EmptyConsoleKeyInfo))::System::ConsoleKeyInfo EmptyConsoleKeyInfo;
+  static __declspec(property(get = getStaticF_EmptyConsoleKeyInfo, put = setStaticF_EmptyConsoleKeyInfo)) ::System::ConsoleKeyInfo EmptyConsoleKeyInfo;
 
   /// @brief Convert operator to "::System::IConsoleDriver"
   constexpr operator ::System::IConsoleDriver*() noexcept;
 
   static inline ::System::NullConsoleDriver* New_ctor();
 
-  /// @brief Method ReadKey, addr 0x29b4bd4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method ReadKey, addr 0x3dc5690, size 0x5c, virtual true, abstract: false, final true
   inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  /// @brief Method .ctor, addr 0x29ad7f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dbe1e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ConsoleKeyInfo getStaticF_EmptyConsoleKeyInfo();
@@ -60,6 +60,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NullConsoleDriver", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NullConsoleDriver(NullConsoleDriver const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2614 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

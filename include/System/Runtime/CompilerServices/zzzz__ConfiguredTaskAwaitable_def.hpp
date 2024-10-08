@@ -32,7 +32,7 @@ struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 MARK_VAL_T(::System::Runtime::CompilerServices::ConfiguredTaskAwaitable);
 MARK_VAL_T(::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter);
 // Type: ::ConfiguredTaskAwaiter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // CS Name: ::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter
@@ -47,19 +47,19 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
-  /// @brief Method GetResult, addr 0x288b2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x3ca3d20, size 0x8, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted, addr 0x2889c78, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x3ca286c, size 0x14, virtual true, abstract: false, final true
   inline void OnCompleted(::System::Action* continuation);
 
-  /// @brief Method UnsafeOnCompleted, addr 0x2889e38, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x3ca2a2c, size 0x14, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method .ctor, addr 0x288b27c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca3ce8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task, bool continueOnCapturedContext);
 
-  /// @brief Method get_IsCompleted, addr 0x288b298, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x3ca3d04, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
@@ -82,6 +82,9 @@ public:
   /// @brief Field m_continueOnCapturedContext, offset: 0x8, size: 0x1, def value: None
   bool m_continueOnCapturedContext;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3395 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -96,7 +99,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__ConfiguredTaskAwai
 
 } // namespace System::Runtime::CompilerServices
 // Type: System.Runtime.CompilerServices::ConfiguredTaskAwaitable
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // CS Name: ::System.Runtime.CompilerServices::ConfiguredTaskAwaitable
@@ -105,10 +108,10 @@ public:
   // Declarations
   using ConfiguredTaskAwaiter = ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 
-  /// @brief Method GetAwaiter, addr 0x288b28c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x3ca3cf8, size 0xc, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter GetAwaiter();
 
-  /// @brief Method .ctor, addr 0x288b264, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca3cd0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task, bool continueOnCapturedContext);
 
   // Ctor Parameters []
@@ -120,6 +123,9 @@ public:
 
   /// @brief Field m_configuredTaskAwaiter, offset: 0x0, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter m_configuredTaskAwaiter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3396 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

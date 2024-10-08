@@ -25,27 +25,27 @@ class CmsAuthenticatedDataGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator);
 // Type: Org.BouncyCastle.Cms::CmsAuthenticatedDataGenerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::CmsAuthenticatedDataGenerator*
 class CORDL_TYPE CmsAuthenticatedDataGenerator : public ::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator {
 public:
   // Declarations
-  /// @brief Method Generate, addr 0x144d708, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x2610918, size 0x1a4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW encryptionOid);
 
-  /// @brief Method Generate, addr 0x144cbc8, size 0xb40, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x260fd80, size 0xb98, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Generate(::Org::BouncyCastle::Cms::CmsProcessable* content, ::StringW macOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator* New_ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x144cbc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260fd78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x144cbc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260fd7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
 protected:
@@ -61,6 +61,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedDataGenerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CmsAuthenticatedDataGenerator(CmsAuthenticatedDataGenerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 619 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

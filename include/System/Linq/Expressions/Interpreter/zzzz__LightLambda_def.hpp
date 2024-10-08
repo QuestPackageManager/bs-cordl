@@ -66,7 +66,7 @@ MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::LightLambda);
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__LightLambda__DebugViewPrinter);
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__LightLambda____c__DisplayClass74_0);
 // Type: ::DebugViewPrinter
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::LightLambda::DebugViewPrinter*
@@ -74,41 +74,41 @@ class CORDL_TYPE __LightLambda__DebugViewPrinter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _handlerEnter, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__handlerEnter, put = __cordl_internal_set__handlerEnter))::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>* _handlerEnter;
+  __declspec(property(get = __cordl_internal_get__handlerEnter, put = __cordl_internal_set__handlerEnter)) ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>* _handlerEnter;
 
   /// @brief Field _handlerExit, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__handlerExit, put = __cordl_internal_set__handlerExit))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* _handlerExit;
+  __declspec(property(get = __cordl_internal_get__handlerExit, put = __cordl_internal_set__handlerExit)) ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* _handlerExit;
 
   /// @brief Field _indent, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__indent, put = __cordl_internal_set__indent))::StringW _indent;
+  __declspec(property(get = __cordl_internal_get__indent, put = __cordl_internal_set__indent)) ::StringW _indent;
 
   /// @brief Field _interpreter, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__interpreter, put = __cordl_internal_set__interpreter))::System::Linq::Expressions::Interpreter::Interpreter* _interpreter;
+  __declspec(property(get = __cordl_internal_get__interpreter, put = __cordl_internal_set__interpreter)) ::System::Linq::Expressions::Interpreter::Interpreter* _interpreter;
 
   /// @brief Field _tryStart, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__tryStart, put = __cordl_internal_set__tryStart))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* _tryStart;
+  __declspec(property(get = __cordl_internal_get__tryStart, put = __cordl_internal_set__tryStart)) ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* _tryStart;
 
-  /// @brief Method AddHandlerExit, addr 0x2c6e76c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddHandlerExit, addr 0x4071888, size 0xa4, virtual false, abstract: false, final false
   inline void AddHandlerExit(int32_t index);
 
-  /// @brief Method AddTryStart, addr 0x2c6e698, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddTryStart, addr 0x40717b4, size 0xd4, virtual false, abstract: false, final false
   inline void AddTryStart(int32_t index);
 
-  /// @brief Method Analyze, addr 0x2c6e40c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Analyze, addr 0x4071528, size 0x28c, virtual false, abstract: false, final false
   inline void Analyze();
 
-  /// @brief Method Dedent, addr 0x2c6e848, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Dedent, addr 0x4071964, size 0x38, virtual false, abstract: false, final false
   inline void Dedent();
 
-  /// @brief Method EmitExits, addr 0x2c6ed58, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method EmitExits, addr 0x4071e78, size 0xd4, virtual false, abstract: false, final false
   inline void EmitExits(::System::Text::StringBuilder* sb, int32_t index);
 
-  /// @brief Method Indent, addr 0x2c6e810, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Indent, addr 0x407192c, size 0x38, virtual false, abstract: false, final false
   inline void Indent();
 
   static inline ::System::Linq::Expressions::Interpreter::__LightLambda__DebugViewPrinter* New_ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter);
 
-  /// @brief Method ToString, addr 0x2c6e880, size 0x4d8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x407199c, size 0x4dc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*& __cordl_internal_get__handlerEnter();
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set__tryStart(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x2c6c644, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406f75c, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter);
 
 protected:
@@ -173,6 +173,9 @@ public:
   /// @brief Field _indent, offset: 0x30, size: 0x8, def value: None
   ::StringW ____indent;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13912 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -190,7 +193,7 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::__LightLambda__
 
 } // namespace System::Linq::Expressions::Interpreter
 // Type: ::<>c__DisplayClass74_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::LightLambda::<>c__DisplayClass74_0*
@@ -198,14 +201,14 @@ class CORDL_TYPE __LightLambda____c__DisplayClass74_0 : public ::System::Object 
 public:
   // Declarations
   /// @brief Field delegateType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_delegateType, put = __cordl_internal_set_delegateType))::System::Type* delegateType;
+  __declspec(property(get = __cordl_internal_get_delegateType, put = __cordl_internal_set_delegateType)) ::System::Type* delegateType;
 
   /// @brief Field targetMethod, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetMethod, put = __cordl_internal_set_targetMethod))::System::Reflection::MethodInfo* targetMethod;
+  __declspec(property(get = __cordl_internal_get_targetMethod, put = __cordl_internal_set_targetMethod)) ::System::Reflection::MethodInfo* targetMethod;
 
   static inline ::System::Linq::Expressions::Interpreter::__LightLambda____c__DisplayClass74_0* New_ctor();
 
-  /// @brief Method <MakeRunDelegateCtor>b__0, addr 0x2c6ee2c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <MakeRunDelegateCtor>b__0, addr 0x4071f4c, size 0x30, virtual false, abstract: false, final false
   inline ::System::Delegate* _MakeRunDelegateCtor_b__0(::System::Linq::Expressions::Interpreter::LightLambda* lambda);
 
   constexpr ::System::Type*& __cordl_internal_get_delegateType();
@@ -220,7 +223,7 @@ public:
 
   constexpr void __cordl_internal_set_targetMethod(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method .ctor, addr 0x2c6d118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4070250, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -243,6 +246,9 @@ public:
   /// @brief Field delegateType, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ___delegateType;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13913 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -254,7 +260,7 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::__LightLambda__
 
 } // namespace System::Linq::Expressions::Interpreter
 // Type: System.Linq.Expressions.Interpreter::LightLambda
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::LightLambda*
@@ -265,33 +271,34 @@ public:
 
   using __c__DisplayClass74_0 = ::System::Linq::Expressions::Interpreter::__LightLambda____c__DisplayClass74_0;
 
-  __declspec(property(get = get_DebugView))::StringW DebugView;
+  __declspec(property(get = get_DebugView)) ::StringW DebugView;
 
   /// @brief Field _closure, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__closure,
-                      put = __cordl_internal_set__closure))::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> _closure;
+                      put = __cordl_internal_set__closure)) ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*>
+      _closure;
 
   /// @brief Field _delegateCreator, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__delegateCreator, put = __cordl_internal_set__delegateCreator))::System::Linq::Expressions::Interpreter::LightDelegateCreator* _delegateCreator;
+  __declspec(property(get = __cordl_internal_get__delegateCreator, put = __cordl_internal_set__delegateCreator)) ::System::Linq::Expressions::Interpreter::LightDelegateCreator* _delegateCreator;
 
   /// @brief Field _interpreter, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__interpreter, put = __cordl_internal_set__interpreter))::System::Linq::Expressions::Interpreter::Interpreter* _interpreter;
+  __declspec(property(get = __cordl_internal_get__interpreter, put = __cordl_internal_set__interpreter)) ::System::Linq::Expressions::Interpreter::Interpreter* _interpreter;
 
   /// @brief Field _runCache, offset 0xffffffff, size 0x8
   static __declspec(property(
       get = getStaticF__runCache,
-      put = setStaticF__runCache))::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>*>* _runCache;
+      put = setStaticF__runCache)) ::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>*>* _runCache;
 
-  /// @brief Method CreateCustomDelegate, addr 0x2c6d788, size 0x940, virtual false, abstract: false, final false
+  /// @brief Method CreateCustomDelegate, addr 0x40708c8, size 0x91c, virtual false, abstract: false, final false
   inline ::System::Delegate* CreateCustomDelegate(::System::Type* delegateType);
 
-  /// @brief Method GetRunDelegateCtor, addr 0x2c6c758, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetRunDelegateCtor, addr 0x406f868, size 0x180, virtual false, abstract: false, final false
   static inline ::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>* GetRunDelegateCtor(::System::Type* delegateType);
 
-  /// @brief Method MakeDelegate, addr 0x2c6c388, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MakeDelegate, addr 0x406f4a8, size 0x88, virtual false, abstract: false, final false
   inline ::System::Delegate* MakeDelegate(::System::Type* delegateType);
 
-  /// @brief Method MakeFrame, addr 0x2c6c4f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method MakeFrame, addr 0x406f610, size 0x64, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::InterpretedFrame* MakeFrame();
 
   /// @brief Method MakeRun0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -354,10 +361,10 @@ public:
   template <typename T0, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename TRet>
   static inline ::System::Delegate* MakeRun9(::System::Linq::Expressions::Interpreter::LightLambda* lambda);
 
-  /// @brief Method MakeRunDelegateCtor, addr 0x2c6c8dc, size 0x83c, virtual false, abstract: false, final false
+  /// @brief Method MakeRunDelegateCtor, addr 0x406f9e8, size 0x868, virtual false, abstract: false, final false
   static inline ::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>* MakeRunDelegateCtor(::System::Type* delegateType);
 
-  /// @brief Method MakeRunVoid0, addr 0x2c6c55c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MakeRunVoid0, addr 0x406f674, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Delegate* MakeRunVoid0(::System::Linq::Expressions::Interpreter::LightLambda* lambda);
 
   /// @brief Method MakeRunVoid1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -419,7 +426,7 @@ public:
   New_ctor(::System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator,
            ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> closure);
 
-  /// @brief Method Run, addr 0x2c6e0c8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x40711e4, size 0x160, virtual false, abstract: false, final false
   inline ::System::Object* Run(::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
   /// @brief Method Run0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -480,10 +487,10 @@ public:
   template <typename T0, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename TRet>
   inline TRet Run9(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8);
 
-  /// @brief Method RunVoid, addr 0x2c6e228, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method RunVoid, addr 0x4071344, size 0x154, virtual false, abstract: false, final false
   inline ::System::Object* RunVoid(::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
-  /// @brief Method RunVoid0, addr 0x2c6c410, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RunVoid0, addr 0x406f530, size 0xe0, virtual false, abstract: false, final false
   inline void RunVoid0();
 
   /// @brief Method RunVoid1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -561,13 +568,13 @@ public:
 
   constexpr void __cordl_internal_set__interpreter(::System::Linq::Expressions::Interpreter::Interpreter* value);
 
-  /// @brief Method .ctor, addr 0x2c6c348, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406f468, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator,
                     ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> closure);
 
   static inline ::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>*>* getStaticF__runCache();
 
-  /// @brief Method get_DebugView, addr 0x2c6c5d8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_DebugView, addr 0x406f6f0, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW get_DebugView();
 
   static inline void
@@ -595,6 +602,9 @@ public:
 
   /// @brief Field _delegateCreator, offset: 0x20, size: 0x8, def value: None
   ::System::Linq::Expressions::Interpreter::LightDelegateCreator* ____delegateCreator;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13914 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

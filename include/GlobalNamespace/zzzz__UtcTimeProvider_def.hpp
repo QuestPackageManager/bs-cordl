@@ -17,7 +17,7 @@ class UtcTimeProvider;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::UtcTimeProvider);
 // Type: ::UtcTimeProvider
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UtcTimeProvider*
@@ -25,23 +25,23 @@ class CORDL_TYPE UtcTimeProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _epoch, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__epoch, put = setStaticF__epoch))::System::DateTime _epoch;
+  static __declspec(property(get = getStaticF__epoch, put = setStaticF__epoch)) ::System::DateTime _epoch;
 
   /// @brief Field instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_instance, put = setStaticF_instance))::GlobalNamespace::UtcTimeProvider* instance;
+  static __declspec(property(get = getStaticF_instance, put = setStaticF_instance)) ::GlobalNamespace::UtcTimeProvider* instance;
 
   /// @brief Convert operator to "::BGNet::Core::ITimeProvider"
   constexpr operator ::BGNet::Core::ITimeProvider*() noexcept;
 
-  /// @brief Method GetTicks, addr 0x10bac00, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method GetTicks, addr 0x22994ac, size 0xb0, virtual true, abstract: false, final true
   inline int64_t GetTicks();
 
-  /// @brief Method GetTimeMs, addr 0x10cc0ac, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method GetTimeMs, addr 0x22aaa50, size 0x2c, virtual true, abstract: false, final true
   inline int64_t GetTimeMs();
 
   static inline ::GlobalNamespace::UtcTimeProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10cc0d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22aaa7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::DateTime getStaticF__epoch();
@@ -68,6 +68,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UtcTimeProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UtcTimeProvider(UtcTimeProvider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14954 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

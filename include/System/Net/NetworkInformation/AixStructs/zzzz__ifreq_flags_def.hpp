@@ -21,7 +21,7 @@ struct ifreq_flags;
 MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::__ifreq_flags___ifr_name_e__FixedBuffer);
 MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::ifreq_flags);
 // Type: ::<ifr_name>e__FixedBuffer
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
 // CS Name: ::ifreq_flags::<ifr_name>e__FixedBuffer
@@ -42,6 +42,9 @@ public:
   /// @brief Size padding 0x10 - 0x1 = 0xf, packed as 0xf
   uint8_t _cordl_size_padding[0xf];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9789 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -55,7 +58,7 @@ static_assert(offsetof(::System::Net::NetworkInformation::AixStructs::__ifreq_fl
 
 } // namespace System::Net::NetworkInformation::AixStructs
 // Type: System.Net.NetworkInformation.AixStructs::ifreq_flags
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
+// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
 // CS Name: ::System.Net.NetworkInformation.AixStructs::ifreq_flags
@@ -66,7 +69,7 @@ public:
   using _ifr_name_e__FixedBuffer = ::System::Net::NetworkInformation::AixStructs::__ifreq_flags___ifr_name_e__FixedBuffer;
 
   /// @brief Field ifr_name, offset 0x0, size 0x10
-  __declspec(property(get = __cordl_internal_get_ifr_name, put = __cordl_internal_set_ifr_name))::System::Net::NetworkInformation::AixStructs::__ifreq_flags___ifr_name_e__FixedBuffer ifr_name;
+  __declspec(property(get = __cordl_internal_get_ifr_name, put = __cordl_internal_set_ifr_name)) ::System::Net::NetworkInformation::AixStructs::__ifreq_flags___ifr_name_e__FixedBuffer ifr_name;
 
   /// @brief Field ifru_flags, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_ifru_flags, put = __cordl_internal_set_ifru_flags)) uint32_t ifru_flags;
@@ -125,6 +128,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9790 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 

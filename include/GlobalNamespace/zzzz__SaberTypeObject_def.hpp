@@ -16,17 +16,17 @@ class SaberTypeObject;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SaberTypeObject);
 // Type: ::SaberTypeObject
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SaberTypeObject*
 class CORDL_TYPE SaberTypeObject : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _saberType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__saberType, put = __cordl_internal_set__saberType))::GlobalNamespace::SaberType _saberType;
+  /// @brief Field _saberType, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__saberType, put = __cordl_internal_set__saberType)) ::GlobalNamespace::SaberType _saberType;
 
-  __declspec(property(get = get_saberType))::GlobalNamespace::SaberType saberType;
+  __declspec(property(get = get_saberType)) ::GlobalNamespace::SaberType saberType;
 
   static inline ::GlobalNamespace::SaberTypeObject* New_ctor();
 
@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method .ctor, addr 0x2753794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b70a90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_saberType, addr 0x275378c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_saberType, addr 0x3b70a88, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SaberType get_saberType();
 
 protected:
@@ -56,15 +56,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SaberTypeObject(SaberTypeObject const&) = delete;
 
-  /// @brief Field _saberType, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _saberType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::SaberType ____saberType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4646 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberTypeObject, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberTypeObject, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberTypeObject, ____saberType) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTypeObject, ____saberType) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberTypeObject);

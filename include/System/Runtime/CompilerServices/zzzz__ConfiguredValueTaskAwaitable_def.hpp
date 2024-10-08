@@ -32,7 +32,7 @@ struct __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
 MARK_VAL_T(::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable);
 MARK_VAL_T(::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter);
 // Type: ::ConfiguredValueTaskAwaiter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // CS Name: ::ConfiguredValueTaskAwaitable::ConfiguredValueTaskAwaiter
@@ -47,19 +47,19 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
-  /// @brief Method GetResult, addr 0x28899c8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x3ca2664, size 0x58, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted, addr 0x2889ac8, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x3ca26bc, size 0x1b0, virtual true, abstract: false, final true
   inline void OnCompleted(::System::Action* continuation);
 
-  /// @brief Method UnsafeOnCompleted, addr 0x2889c8c, size 0x1ac, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x3ca2880, size 0x1ac, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method .ctor, addr 0x28898b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca2604, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
-  /// @brief Method get_IsCompleted, addr 0x28898c0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x3ca260c, size 0x58, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
@@ -78,6 +78,9 @@ public:
   /// @brief Field _value, offset: 0x0, size: 0x10, def value: None
   ::System::Threading::Tasks::ValueTask _value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3361 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -90,7 +93,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__ConfiguredValueTas
 
 } // namespace System::Runtime::CompilerServices
 // Type: System.Runtime.CompilerServices::ConfiguredValueTaskAwaitable
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // CS Name: ::System.Runtime.CompilerServices::ConfiguredValueTaskAwaitable
@@ -99,10 +102,10 @@ public:
   // Declarations
   using ConfiguredValueTaskAwaiter = ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
 
-  /// @brief Method GetAwaiter, addr 0x28898ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x3ca25f8, size 0xc, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter GetAwaiter();
 
-  /// @brief Method .ctor, addr 0x28898a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca25f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
   // Ctor Parameters []
@@ -114,6 +117,9 @@ public:
 
   /// @brief Field _value, offset: 0x0, size: 0x10, def value: None
   ::System::Threading::Tasks::ValueTask _value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3362 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

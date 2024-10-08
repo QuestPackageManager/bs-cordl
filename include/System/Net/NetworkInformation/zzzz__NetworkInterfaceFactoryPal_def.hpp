@@ -15,14 +15,14 @@ class NetworkInterfaceFactoryPal;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::NetworkInterfaceFactoryPal);
 // Type: System.Net.NetworkInformation::NetworkInterfaceFactoryPal
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // CS Name: ::System.Net.NetworkInformation::NetworkInterfaceFactoryPal*
 class CORDL_TYPE NetworkInterfaceFactoryPal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x30534f4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4377158, size 0x48, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
 
 protected:
@@ -38,6 +38,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NetworkInterfaceFactoryPal", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NetworkInterfaceFactoryPal(NetworkInterfaceFactoryPal const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9770 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

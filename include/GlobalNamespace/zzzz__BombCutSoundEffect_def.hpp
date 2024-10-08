@@ -33,7 +33,7 @@ class __BombCutSoundEffect__Pool;
 MARK_REF_PTR_T(::GlobalNamespace::BombCutSoundEffect);
 MARK_REF_PTR_T(::GlobalNamespace::__BombCutSoundEffect__Pool);
 // Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BombCutSoundEffect::Pool*
@@ -42,7 +42,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__BombCutSoundEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2632c68, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a64da0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,6 +59,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BombCutSoundEffect__Pool(__BombCutSoundEffect__Pool const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3995 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -66,7 +69,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BombCutSoundE
 
 } // namespace GlobalNamespace
 // Type: ::BombCutSoundEffect
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BombCutSoundEffect*
@@ -75,24 +78,24 @@ public:
   // Declarations
   using Pool = ::GlobalNamespace::__BombCutSoundEffect__Pool;
 
-  /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
+  /// @brief Field _audioSource, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource)) ::UnityW<::UnityEngine::AudioSource> _audioSource;
 
-  /// @brief Field _saber, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber))::UnityW<::GlobalNamespace::Saber> _saber;
+  /// @brief Field _saber, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber)) ::UnityW<::GlobalNamespace::Saber> _saber;
 
-  /// @brief Field didFinishEvent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* didFinishEvent;
+  /// @brief Field didFinishEvent, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* didFinishEvent;
 
-  /// @brief Method Init, addr 0x2632b0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a64c44, size 0x74, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::Saber* saber, float_t volume);
 
-  /// @brief Method LateUpdate, addr 0x2632b80, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3a64cb8, size 0x90, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BombCutSoundEffect* New_ctor();
 
-  /// @brief Method StopPlayingAndFinish, addr 0x2632c10, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method StopPlayingAndFinish, addr 0x3a64d48, size 0x50, virtual false, abstract: false, final false
   inline void StopPlayingAndFinish();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -113,13 +116,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
-  /// @brief Method .ctor, addr 0x2632c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a64d98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x26329ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3a64ae4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x2632a5c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3a64b94, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
 protected:
@@ -136,25 +139,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BombCutSoundEffect(BombCutSoundEffect const&) = delete;
 
-  /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
-  /// @brief Field didFinishEvent, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* ___didFinishEvent;
 
-  /// @brief Field _saber, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _saber, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Saber> ____saber;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BombCutSoundEffect, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BombCutSoundEffect, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombCutSoundEffect, ____audioSource) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffect, ____audioSource) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombCutSoundEffect, ___didFinishEvent) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffect, ___didFinishEvent) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombCutSoundEffect, ____saber) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffect, ____saber) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BombCutSoundEffect);

@@ -24,7 +24,7 @@ class ZStream;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::ZStream);
 // Type: Org.BouncyCastle.Utilities.Zlib::ZStream
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::ZStream*
@@ -32,7 +32,7 @@ class CORDL_TYPE ZStream : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _adler, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__adler, put = __cordl_internal_set__adler))::Org::BouncyCastle::Utilities::Zlib::Adler32* _adler;
+  __declspec(property(get = __cordl_internal_get__adler, put = __cordl_internal_set__adler)) ::Org::BouncyCastle::Utilities::Zlib::Adler32* _adler;
 
   /// @brief Field adler, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_adler, put = __cordl_internal_set_adler)) int64_t adler;
@@ -47,22 +47,22 @@ public:
   __declspec(property(get = __cordl_internal_get_data_type, put = __cordl_internal_set_data_type)) int32_t data_type;
 
   /// @brief Field dstate, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_dstate, put = __cordl_internal_set_dstate))::Org::BouncyCastle::Utilities::Zlib::Deflate* dstate;
+  __declspec(property(get = __cordl_internal_get_dstate, put = __cordl_internal_set_dstate)) ::Org::BouncyCastle::Utilities::Zlib::Deflate* dstate;
 
   /// @brief Field istate, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_istate, put = __cordl_internal_set_istate))::Org::BouncyCastle::Utilities::Zlib::Inflate* istate;
+  __declspec(property(get = __cordl_internal_get_istate, put = __cordl_internal_set_istate)) ::Org::BouncyCastle::Utilities::Zlib::Inflate* istate;
 
   /// @brief Field msg, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_msg, put = __cordl_internal_set_msg))::StringW msg;
+  __declspec(property(get = __cordl_internal_get_msg, put = __cordl_internal_set_msg)) ::StringW msg;
 
   /// @brief Field next_in, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_next_in, put = __cordl_internal_set_next_in))::ArrayW<uint8_t, ::Array<uint8_t>*> next_in;
+  __declspec(property(get = __cordl_internal_get_next_in, put = __cordl_internal_set_next_in)) ::ArrayW<uint8_t, ::Array<uint8_t>*> next_in;
 
   /// @brief Field next_in_index, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_next_in_index, put = __cordl_internal_set_next_in_index)) int32_t next_in_index;
 
   /// @brief Field next_out, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_next_out, put = __cordl_internal_set_next_out))::ArrayW<uint8_t, ::Array<uint8_t>*> next_out;
+  __declspec(property(get = __cordl_internal_get_next_out, put = __cordl_internal_set_next_out)) ::ArrayW<uint8_t, ::Array<uint8_t>*> next_out;
 
   /// @brief Field next_out_index, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_next_out_index, put = __cordl_internal_set_next_out_index)) int32_t next_out_index;
@@ -159,64 +159,64 @@ public:
 
   constexpr void __cordl_internal_set_total_out(int64_t value);
 
-  /// @brief Method .ctor, addr 0x13dbb48, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a33b8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method deflate, addr 0x13dbd20, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method deflate, addr 0x25a3580, size 0x24, virtual false, abstract: false, final false
   inline int32_t deflate(int32_t flush);
 
-  /// @brief Method deflateEnd, addr 0x13dbf48, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method deflateEnd, addr 0x25a37a0, size 0x30, virtual false, abstract: false, final false
   inline int32_t deflateEnd();
 
-  /// @brief Method deflateInit, addr 0x13dce34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x25a45f4, size 0xc, virtual false, abstract: false, final false
   inline int32_t deflateInit(int32_t level);
 
-  /// @brief Method deflateInit, addr 0x13dce40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x25a4600, size 0x8, virtual false, abstract: false, final false
   inline int32_t deflateInit(int32_t level, int32_t bits);
 
-  /// @brief Method deflateInit, addr 0x13dce48, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x25a4608, size 0x94, virtual false, abstract: false, final false
   inline int32_t deflateInit(int32_t level, int32_t bits, bool nowrap);
 
-  /// @brief Method deflateInit, addr 0x13dbbb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method deflateInit, addr 0x25a3418, size 0xc, virtual false, abstract: false, final false
   inline int32_t deflateInit(int32_t level, bool nowrap);
 
-  /// @brief Method deflateParams, addr 0x13dcedc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method deflateParams, addr 0x25a469c, size 0x28, virtual false, abstract: false, final false
   inline int32_t deflateParams(int32_t level, int32_t strategy);
 
-  /// @brief Method deflateSetDictionary, addr 0x13dcf04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method deflateSetDictionary, addr 0x25a46c4, size 0x28, virtual false, abstract: false, final false
   inline int32_t deflateSetDictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> dictionary, int32_t dictLength);
 
-  /// @brief Method flush_pending, addr 0x13dcf2c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method flush_pending, addr 0x25a46ec, size 0xbc, virtual false, abstract: false, final false
   inline void flush_pending();
 
-  /// @brief Method free, addr 0x13dbf78, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method free, addr 0x25a37d0, size 0x14, virtual false, abstract: false, final false
   inline void free();
 
-  /// @brief Method inflate, addr 0x13dc41c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method inflate, addr 0x25a3c3c, size 0x1c, virtual false, abstract: false, final false
   inline int32_t inflate(int32_t f);
 
-  /// @brief Method inflateEnd, addr 0x13dcdac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method inflateEnd, addr 0x25a456c, size 0x50, virtual false, abstract: false, final false
   inline int32_t inflateEnd();
 
-  /// @brief Method inflateInit, addr 0x13dc73c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x25a3f5c, size 0xc, virtual false, abstract: false, final false
   inline int32_t inflateInit();
 
-  /// @brief Method inflateInit, addr 0x13dc238, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x25a3a88, size 0xc, virtual false, abstract: false, final false
   inline int32_t inflateInit(bool nowrap);
 
-  /// @brief Method inflateInit, addr 0x13dcd28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x25a44e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t inflateInit(int32_t w);
 
-  /// @brief Method inflateInit, addr 0x13dcd30, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x25a44f0, size 0x7c, virtual false, abstract: false, final false
   inline int32_t inflateInit(int32_t w, bool nowrap);
 
-  /// @brief Method inflateSetDictionary, addr 0x13dce14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method inflateSetDictionary, addr 0x25a45d4, size 0x20, virtual false, abstract: false, final false
   inline int32_t inflateSetDictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> dictionary, int32_t dictLength);
 
-  /// @brief Method inflateSync, addr 0x13dcdfc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method inflateSync, addr 0x25a45bc, size 0x18, virtual false, abstract: false, final false
   inline int32_t inflateSync();
 
-  /// @brief Method read_buf, addr 0x13dcfe8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method read_buf, addr 0x25a47a8, size 0xb0, virtual false, abstract: false, final false
   inline int32_t read_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t start, int32_t size);
 
 protected:
@@ -325,6 +325,9 @@ public:
 
   /// @brief Field Z_VERSION_ERROR offset 0xffffffff size 0x4
   static constexpr int32_t Z_VERSION_ERROR{ static_cast<int32_t>(0xfffffffa) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1830 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,33 +24,33 @@ struct InputFeatureUsage;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::InputFeatureUsage);
 // Type: UnityEngine.XR::InputFeatureUsage
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
 // CS Name: ::UnityEngine.XR::InputFeatureUsage
 struct CORDL_TYPE InputFeatureUsage {
 public:
   // Declarations
-  __declspec(property(get = get_internalType))::UnityEngine::XR::InputFeatureType internalType;
+  __declspec(property(get = get_internalType)) ::UnityEngine::XR::InputFeatureType internalType;
 
-  __declspec(property(get = get_name))::StringW name;
+  __declspec(property(get = get_name)) ::StringW name;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>*();
 
-  /// @brief Method Equals, addr 0x3649028, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a6f770, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x36490b0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a6f7f8, size 0x40, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::InputFeatureUsage other);
 
-  /// @brief Method GetHashCode, addr 0x36490f0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a6f838, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_internalType, addr 0x3649020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_internalType, addr 0x4a6f768, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::InputFeatureType get_internalType();
 
-  /// @brief Method get_name, addr 0x3649018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x4a6f760, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage>"
@@ -69,6 +69,9 @@ public:
 
   /// @brief Field m_InternalType, offset: 0x8, size: 0x4, def value: None
   ::UnityEngine::XR::InputFeatureType m_InternalType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18180 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

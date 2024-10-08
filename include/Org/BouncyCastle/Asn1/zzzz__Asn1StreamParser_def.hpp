@@ -26,7 +26,7 @@ class Asn1StreamParser;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1StreamParser);
 // Type: Org.BouncyCastle.Asn1::Asn1StreamParser
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1StreamParser*
@@ -34,14 +34,14 @@ class CORDL_TYPE Asn1StreamParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _in, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__in, put = __cordl_internal_set__in))::System::IO::Stream* _in;
+  __declspec(property(get = __cordl_internal_get__in, put = __cordl_internal_set__in)) ::System::IO::Stream* _in;
 
   /// @brief Field _limit, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__limit, put = __cordl_internal_set__limit)) int32_t _limit;
 
   /// @brief Field tmpBuffers, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_tmpBuffers,
-                      put = __cordl_internal_set_tmpBuffers))::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> tmpBuffers;
+  __declspec(property(get = __cordl_internal_get_tmpBuffers, put = __cordl_internal_set_tmpBuffers)) ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*>
+      tmpBuffers;
 
   static inline ::Org::BouncyCastle::Asn1::Asn1StreamParser* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
@@ -49,22 +49,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1StreamParser* New_ctor(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method ReadImplicit, addr 0x142c454, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ReadImplicit, addr 0x25f0c94, size 0x2ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadImplicit(bool constructed, int32_t tag);
 
-  /// @brief Method ReadIndef, addr 0x142c2c8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ReadIndef, addr 0x25f0b1c, size 0x178, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadIndef(int32_t tagValue);
 
-  /// @brief Method ReadObject, addr 0x142c950, size 0x5dc, virtual true, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x25f1170, size 0x60c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
-  /// @brief Method ReadTaggedObject, addr 0x1426f74, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ReadTaggedObject, addr 0x25eb948, size 0x23c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ReadTaggedObject(bool constructed, int32_t tag);
 
-  /// @brief Method ReadVector, addr 0x142c794, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ReadVector, addr 0x25f0fb8, size 0x128, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ReadVector();
 
-  /// @brief Method Set00Check, addr 0x142cf2c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Set00Check, addr 0x25f177c, size 0x90, virtual false, abstract: false, final false
   inline void Set00Check(bool enabled);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get__in();
@@ -85,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set_tmpBuffers(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value);
 
-  /// @brief Method .ctor, addr 0x142c248, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f0aa0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor, addr 0x1426f44, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25eb918, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream);
 
-  /// @brief Method .ctor, addr 0x14286a0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ecff8, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, int32_t limit);
 
 protected:
@@ -116,6 +116,9 @@ public:
 
   /// @brief Field tmpBuffers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> ___tmpBuffers;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 467 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

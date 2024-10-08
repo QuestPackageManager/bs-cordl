@@ -32,14 +32,14 @@ class TypeNameParser;
 // Write type traits
 MARK_REF_PTR_T(::System::TypeNameParser);
 // Type: System::TypeNameParser
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::TypeNameParser*
 class CORDL_TYPE TypeNameParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetType, addr 0x29ac204, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetType, addr 0x3dbcb1c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Type* GetType(::StringW typeName, ::System::Func_2<::System::Reflection::AssemblyName*, ::System::Reflection::Assembly*>* assemblyResolver,
                                         ::System::Func_4<::System::Reflection::Assembly*, ::StringW, bool, ::System::Type*>* typeResolver, bool throwOnError, bool ignoreCase,
                                         ByRef<::System::Threading::StackCrawlMark> stackMark);
@@ -57,6 +57,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TypeNameParser", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TypeNameParser(TypeNameParser const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2583 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

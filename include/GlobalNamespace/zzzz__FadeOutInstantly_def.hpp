@@ -15,19 +15,19 @@ class FadeOutInstantly;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FadeOutInstantly);
 // Type: ::FadeOutInstantly
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FadeOutInstantly*
 class CORDL_TYPE FadeOutInstantly : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _fadeInOut, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__fadeInOut, put = __cordl_internal_set__fadeInOut))::UnityW<::GlobalNamespace::FadeInOutController> _fadeInOut;
+  /// @brief Field _fadeInOut, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__fadeInOut, put = __cordl_internal_set__fadeInOut)) ::UnityW<::GlobalNamespace::FadeInOutController> _fadeInOut;
 
   static inline ::GlobalNamespace::FadeOutInstantly* New_ctor();
 
-  /// @brief Method Start, addr 0x2c08c30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x400af5c, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOut() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__fadeInOut(::UnityW<::GlobalNamespace::FadeInOutController> value);
 
-  /// @brief Method .ctor, addr 0x2c08c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400af78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,15 +53,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FadeOutInstantly(FadeOutInstantly const&) = delete;
 
-  /// @brief Field _fadeInOut, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _fadeInOut, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOut;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17800 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FadeOutInstantly, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FadeOutInstantly, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FadeOutInstantly, ____fadeInOut) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FadeOutInstantly, ____fadeInOut) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FadeOutInstantly);

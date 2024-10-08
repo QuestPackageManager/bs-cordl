@@ -17,19 +17,19 @@ struct StyleValueHandle;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleValueHandle);
 // Type: UnityEngine.UIElements::StyleValueHandle
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::StyleValueHandle
 struct CORDL_TYPE StyleValueHandle {
 public:
   // Declarations
-  __declspec(property(get = get_valueType, put = set_valueType))::UnityEngine::UIElements::StyleValueType valueType;
+  __declspec(property(get = get_valueType, put = set_valueType)) ::UnityEngine::UIElements::StyleValueType valueType;
 
-  /// @brief Method get_valueType, addr 0x3600b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_valueType, addr 0x4a05d1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueType get_valueType();
 
-  /// @brief Method set_valueType, addr 0x3601758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_valueType, addr 0x4a1357c, size 0x8, virtual false, abstract: false, final false
   inline void set_valueType(::UnityEngine::UIElements::StyleValueType value);
 
   // Ctor Parameters []
@@ -45,6 +45,9 @@ public:
 
   /// @brief Field valueIndex, offset: 0x4, size: 0x4, def value: None
   int32_t valueIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6149 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

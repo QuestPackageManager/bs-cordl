@@ -16,7 +16,7 @@ class MatchTargetFieldConstants;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::MatchTargetFieldConstants);
 // Type: UnityEngine.Timeline::MatchTargetFieldConstants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::MatchTargetFieldConstants*
@@ -24,21 +24,21 @@ class CORDL_TYPE MatchTargetFieldConstants : public ::System::Object {
 public:
   // Declarations
   /// @brief Field All, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_All, put = setStaticF_All))::UnityEngine::Timeline::MatchTargetFields All;
+  static __declspec(property(get = getStaticF_All, put = setStaticF_All)) ::UnityEngine::Timeline::MatchTargetFields All;
 
   /// @brief Field None, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_None, put = setStaticF_None))::UnityEngine::Timeline::MatchTargetFields None;
+  static __declspec(property(get = getStaticF_None, put = setStaticF_None)) ::UnityEngine::Timeline::MatchTargetFields None;
 
   /// @brief Field Position, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_Position, put = setStaticF_Position))::UnityEngine::Timeline::MatchTargetFields Position;
+  static __declspec(property(get = getStaticF_Position, put = setStaticF_Position)) ::UnityEngine::Timeline::MatchTargetFields Position;
 
   /// @brief Field Rotation, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_Rotation, put = setStaticF_Rotation))::UnityEngine::Timeline::MatchTargetFields Rotation;
+  static __declspec(property(get = getStaticF_Rotation, put = setStaticF_Rotation)) ::UnityEngine::Timeline::MatchTargetFields Rotation;
 
-  /// @brief Method HasAny, addr 0x33be25c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HasAny, addr 0x4797194, size 0x74, virtual false, abstract: false, final false
   static inline bool HasAny(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields fields);
 
-  /// @brief Method Toggle, addr 0x33be2d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Toggle, addr 0x4797208, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::MatchTargetFields Toggle(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields flag);
 
   static inline ::UnityEngine::Timeline::MatchTargetFields getStaticF_All();
@@ -70,6 +70,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MatchTargetFieldConstants", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MatchTargetFieldConstants(MatchTargetFieldConstants const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15755 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

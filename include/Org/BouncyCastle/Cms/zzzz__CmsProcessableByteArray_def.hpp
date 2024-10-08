@@ -29,20 +29,20 @@ class CmsProcessableByteArray;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsProcessableByteArray);
 // Type: Org.BouncyCastle.Cms::CmsProcessableByteArray
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::CmsProcessableByteArray*
 class CORDL_TYPE CmsProcessableByteArray : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Type))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Type;
+  __declspec(property(get = get_Type)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Type;
 
   /// @brief Field bytes, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_bytes, put = __cordl_internal_set_bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> bytes;
+  __declspec(property(get = __cordl_internal_get_bytes, put = __cordl_internal_set_bytes)) ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes;
 
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::Org::BouncyCastle::Asn1::DerObjectIdentifier* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* type;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsProcessable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsProcessable*() noexcept;
@@ -50,17 +50,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
 
-  /// @brief Method GetContent, addr 0x14584e8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetContent, addr 0x261a498, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
-  /// @brief Method GetInputStream, addr 0x1458444, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x261a3fc, size 0x64, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableByteArray* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableByteArray* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* type, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method Write, addr 0x14584b0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x261a460, size 0x38, virtual true, abstract: false, final false
   inline void Write(::System::IO::Stream* zOut);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_bytes() const;
@@ -75,13 +75,13 @@ public:
 
   constexpr void __cordl_internal_set_type(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x1458398, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261a350, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor, addr 0x1458410, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261a3c8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* type, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method get_Type, addr 0x145843c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x261a3f4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"
@@ -109,6 +109,9 @@ public:
 
   /// @brief Field bytes, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___bytes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 645 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

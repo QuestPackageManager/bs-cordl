@@ -19,23 +19,23 @@ class WebRequestPrefixElement;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::WebRequestPrefixElement);
 // Type: System.Net::WebRequestPrefixElement
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::WebRequestPrefixElement*
 class CORDL_TYPE WebRequestPrefixElement : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Creator, put = set_Creator))::System::Net::IWebRequestCreate* Creator;
+  __declspec(property(get = get_Creator, put = set_Creator)) ::System::Net::IWebRequestCreate* Creator;
 
   /// @brief Field Prefix, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Prefix, put = __cordl_internal_set_Prefix))::StringW Prefix;
+  __declspec(property(get = __cordl_internal_get_Prefix, put = __cordl_internal_set_Prefix)) ::StringW Prefix;
 
   /// @brief Field creator, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_creator, put = __cordl_internal_set_creator))::System::Net::IWebRequestCreate* creator;
+  __declspec(property(get = __cordl_internal_get_creator, put = __cordl_internal_set_creator)) ::System::Net::IWebRequestCreate* creator;
 
   /// @brief Field creatorType, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_creatorType, put = __cordl_internal_set_creatorType))::System::Type* creatorType;
+  __declspec(property(get = __cordl_internal_get_creatorType, put = __cordl_internal_set_creatorType)) ::System::Type* creatorType;
 
   static inline ::System::Net::WebRequestPrefixElement* New_ctor(::StringW P, ::System::Net::IWebRequestCreate* C);
 
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set_creatorType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x300071c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442a544, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW P, ::System::Net::IWebRequestCreate* C);
 
-  /// @brief Method get_Creator, addr 0x3000518, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method get_Creator, addr 0x442a344, size 0x1f8, virtual false, abstract: false, final false
   inline ::System::Net::IWebRequestCreate* get_Creator();
 
-  /// @brief Method set_Creator, addr 0x3000714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Creator, addr 0x442a53c, size 0x8, virtual false, abstract: false, final false
   inline void set_Creator(::System::Net::IWebRequestCreate* value);
 
 protected:
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field creatorType, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___creatorType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9563 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

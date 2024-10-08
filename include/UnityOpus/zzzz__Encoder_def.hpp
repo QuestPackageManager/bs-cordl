@@ -33,7 +33,7 @@ class Encoder;
 // Write type traits
 MARK_REF_PTR_T(::UnityOpus::Encoder);
 // Type: UnityOpus::Encoder
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityOpus {
 // Is value type: false
 // CS Name: ::UnityOpus::Encoder*
@@ -44,13 +44,13 @@ public:
 
   __declspec(property(get = get_Complexity, put = set_Complexity)) int32_t Complexity;
 
-  __declspec(property(get = get_Signal, put = set_Signal))::UnityOpus::OpusSignal Signal;
+  __declspec(property(get = get_Signal, put = set_Signal)) ::UnityOpus::OpusSignal Signal;
 
   /// @brief Field bitrate, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_bitrate, put = __cordl_internal_set_bitrate)) int32_t bitrate;
 
   /// @brief Field channels, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_channels, put = __cordl_internal_set_channels))::UnityOpus::NumChannels channels;
+  __declspec(property(get = __cordl_internal_get_channels, put = __cordl_internal_set_channels)) ::UnityOpus::NumChannels channels;
 
   /// @brief Field complexity, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_complexity, put = __cordl_internal_set_complexity)) int32_t complexity;
@@ -59,24 +59,24 @@ public:
   __declspec(property(get = __cordl_internal_get_disposedValue, put = __cordl_internal_set_disposedValue)) bool disposedValue;
 
   /// @brief Field encoder, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_encoder, put = __cordl_internal_set_encoder))::System::IntPtr encoder;
+  __declspec(property(get = __cordl_internal_get_encoder, put = __cordl_internal_set_encoder)) ::System::IntPtr encoder;
 
   /// @brief Field signal, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_signal, put = __cordl_internal_set_signal))::UnityOpus::OpusSignal signal;
+  __declspec(property(get = __cordl_internal_get_signal, put = __cordl_internal_set_signal)) ::UnityOpus::OpusSignal signal;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2607ef8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3a417dc, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2607d58, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3a41680, size 0x40, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Encode, addr 0x2607bec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x3a41550, size 0x74, virtual false, abstract: false, final false
   inline int32_t Encode(::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t count, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method Finalize, addr 0x2607e58, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3a4173c, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityOpus::Encoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ::UnityOpus::OpusApplication application);
@@ -117,28 +117,28 @@ public:
 
   constexpr void __cordl_internal_set_signal(::UnityOpus::OpusSignal value);
 
-  /// @brief Method .ctor, addr 0x2607a20, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a413a4, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels, ::UnityOpus::OpusApplication application);
 
-  /// @brief Method get_Bitrate, addr 0x2607804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bitrate, addr 0x3a41188, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Bitrate();
 
-  /// @brief Method get_Complexity, addr 0x26078b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Complexity, addr 0x3a4123c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Complexity();
 
-  /// @brief Method get_Signal, addr 0x260796c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signal, addr 0x3a412f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityOpus::OpusSignal get_Signal();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_Bitrate, addr 0x260780c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Bitrate, addr 0x3a41190, size 0x28, virtual false, abstract: false, final false
   inline void set_Bitrate(int32_t value);
 
-  /// @brief Method set_Complexity, addr 0x26078c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Complexity, addr 0x3a41244, size 0x28, virtual false, abstract: false, final false
   inline void set_Complexity(int32_t value);
 
-  /// @brief Method set_Signal, addr 0x2607974, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Signal, addr 0x3a412f8, size 0x28, virtual false, abstract: false, final false
   inline void set_Signal(::UnityOpus::OpusSignal value);
 
 protected:
@@ -172,6 +172,9 @@ public:
 
   /// @brief Field disposedValue, offset: 0x2c, size: 0x1, def value: None
   bool ___disposedValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18966 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

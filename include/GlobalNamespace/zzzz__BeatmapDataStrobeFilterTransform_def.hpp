@@ -34,7 +34,7 @@ class __BeatmapDataStrobeFilterTransform__StrobeStreakData;
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataStrobeFilterTransform);
 MARK_REF_PTR_T(::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData);
 // Type: ::StrobeStreakData
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapDataStrobeFilterTransform::StrobeStreakData*
@@ -48,7 +48,7 @@ public:
   __declspec(property(get = __cordl_internal_get_isActive, put = __cordl_internal_set_isActive)) bool isActive;
 
   /// @brief Field lastColorType, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_lastColorType, put = __cordl_internal_set_lastColorType))::GlobalNamespace::EnvironmentColorType lastColorType;
+  __declspec(property(get = __cordl_internal_get_lastColorType, put = __cordl_internal_set_lastColorType)) ::GlobalNamespace::EnvironmentColorType lastColorType;
 
   /// @brief Field lastIsOn, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get_lastIsOn, put = __cordl_internal_set_lastIsOn)) bool lastIsOn;
@@ -58,20 +58,20 @@ public:
 
   /// @brief Field originalBasicBeatmapEventData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_originalBasicBeatmapEventData,
-                      put = __cordl_internal_set_originalBasicBeatmapEventData))::GlobalNamespace::BasicBeatmapEventData* originalBasicBeatmapEventData;
+                      put = __cordl_internal_set_originalBasicBeatmapEventData)) ::GlobalNamespace::BasicBeatmapEventData* originalBasicBeatmapEventData;
 
   /// @brief Field startColorType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_startColorType, put = __cordl_internal_set_startColorType))::GlobalNamespace::EnvironmentColorType startColorType;
+  __declspec(property(get = __cordl_internal_get_startColorType, put = __cordl_internal_set_startColorType)) ::GlobalNamespace::EnvironmentColorType startColorType;
 
   /// @brief Field strobeStartTime, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_strobeStartTime, put = __cordl_internal_set_strobeStartTime)) float_t strobeStartTime;
 
-  /// @brief Method AddStrobeData, addr 0x14aaf8c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddStrobeData, addr 0x266c47c, size 0x78, virtual false, abstract: false, final false
   inline void AddStrobeData(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData* New_ctor();
 
-  /// @brief Method StartPotentialStrobe, addr 0x14ab064, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method StartPotentialStrobe, addr 0x266c538, size 0x80, virtual false, abstract: false, final false
   inline void StartPotentialStrobe(::GlobalNamespace::BasicBeatmapEventData* startBasicBeatmapEventData);
 
   constexpr bool const& __cordl_internal_get__foundFirstColoredEventData() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_strobeStartTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x14aaf84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266c3f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -163,6 +163,9 @@ public:
   /// @brief Field _foundFirstColoredEventData, offset: 0x30, size: 0x1, def value: None
   bool ____foundFirstColoredEventData;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12754 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -186,7 +189,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataStrobeFilterTransform__St
 
 } // namespace GlobalNamespace
 // Type: ::BeatmapDataStrobeFilterTransform
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapDataStrobeFilterTransform*
@@ -195,14 +198,14 @@ public:
   // Declarations
   using StrobeStreakData = ::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData;
 
-  /// @brief Method CreateTransformedData, addr 0x14aa35c, size 0xc28, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x266b7ac, size 0xc44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
                                                                                ::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions);
 
-  /// @brief Method GetFlashAndFadeToBlackEventDataValue, addr 0x14ab044, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetFlashAndFadeToBlackEventDataValue, addr 0x266c518, size 0x20, virtual false, abstract: false, final false
   static inline int32_t GetFlashAndFadeToBlackEventDataValue(::GlobalNamespace::EnvironmentColorType lightColorType);
 
-  /// @brief Method GetOnEventDataValue, addr 0x14ab020, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOnEventDataValue, addr 0x266c4f4, size 0x24, virtual false, abstract: false, final false
   static inline int32_t GetOnEventDataValue(::GlobalNamespace::EnvironmentColorType lightColorType);
 
 protected:
@@ -218,6 +221,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataStrobeFilterTransform", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDataStrobeFilterTransform(BeatmapDataStrobeFilterTransform const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12755 };
 
   /// @brief Field kMaxSecondsToConsiderStrobe offset 0xffffffff size 0x4
   static constexpr float_t kMaxSecondsToConsiderStrobe{ 0.1 };

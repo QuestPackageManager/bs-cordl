@@ -17,7 +17,7 @@ struct Extents;
 // Write type traits
 MARK_VAL_T(::TMPro::Extents);
 // Type: TMPro::Extents
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
 // CS Name: ::TMPro::Extents
@@ -25,15 +25,15 @@ struct CORDL_TYPE Extents {
 public:
   // Declarations
   /// @brief Field uninitialized, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_uninitialized, put = setStaticF_uninitialized))::TMPro::Extents uninitialized;
+  static __declspec(property(get = getStaticF_uninitialized, put = setStaticF_uninitialized)) ::TMPro::Extents uninitialized;
 
   /// @brief Field zero, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_zero, put = setStaticF_zero))::TMPro::Extents zero;
+  static __declspec(property(get = getStaticF_zero, put = setStaticF_zero)) ::TMPro::Extents zero;
 
-  /// @brief Method ToString, addr 0x336d640, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x474e794, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x336d634, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474e788, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
 
   static inline ::TMPro::Extents getStaticF_uninitialized();
@@ -56,6 +56,9 @@ public:
 
   /// @brief Field max, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::Vector2 max;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14398 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

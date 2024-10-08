@@ -22,31 +22,31 @@ class LocalizedTextMeshProUGUI;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::Polyglot::LocalizedTextMeshProUGUI);
 // Type: BGLib.Polyglot::LocalizedTextMeshProUGUI
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
 // CS Name: ::BGLib.Polyglot::LocalizedTextMeshProUGUI*
 class CORDL_TYPE LocalizedTextMeshProUGUI : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::TMPro::TextMeshProUGUI>> {
 public:
   // Declarations
-  /// @brief Method IsAlignmentLeft, addr 0x1092fe4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentLeft, addr 0x2272214, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentLeft(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsAlignmentRight, addr 0x1092fbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentRight, addr 0x22721ec, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentRight(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsOppositeDirection, addr 0x1092f60, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsOppositeDirection, addr 0x2272198, size 0x54, virtual false, abstract: false, final false
   static inline bool IsOppositeDirection(::TMPro::TextAlignmentOptions alignment, ::BGLib::Polyglot::LanguageDirection direction);
 
   static inline ::BGLib::Polyglot::LocalizedTextMeshProUGUI* New_ctor();
 
-  /// @brief Method SetText, addr 0x1092e2c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method SetText, addr 0x2272098, size 0x2c, virtual true, abstract: false, final false
   inline void SetText(::TMPro::TextMeshProUGUI* text, ::StringW value);
 
-  /// @brief Method UpdateAlignment, addr 0x1092e58, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method UpdateAlignment, addr 0x22720c4, size 0xd4, virtual true, abstract: false, final false
   inline void UpdateAlignment(::TMPro::TextMeshProUGUI* text, ::BGLib::Polyglot::LanguageDirection direction);
 
-  /// @brief Method .ctor, addr 0x109300c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227223c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,10 +63,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalizedTextMeshProUGUI(LocalizedTextMeshProUGUI const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17999 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizedTextMeshProUGUI, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizedTextMeshProUGUI, 0x40>, "Size mismatch!");
 
 } // namespace BGLib::Polyglot
 NEED_NO_BOX(::BGLib::Polyglot::LocalizedTextMeshProUGUI);

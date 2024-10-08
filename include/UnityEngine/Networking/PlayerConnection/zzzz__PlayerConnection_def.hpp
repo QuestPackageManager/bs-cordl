@@ -65,7 +65,7 @@ MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::__PlayerConnection__
 MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass13_0);
 MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass20_0);
 // Type: ::<>c__DisplayClass12_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: ::PlayerConnection::<>c__DisplayClass12_0*
@@ -73,11 +73,11 @@ class CORDL_TYPE __PlayerConnection____c__DisplayClass12_0 : public ::System::Ob
 public:
   // Declarations
   /// @brief Field messageId, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId))::System::Guid messageId;
+  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId)) ::System::Guid messageId;
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <Register>b__0, addr 0x345fdd4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <Register>b__0, addr 0x484b6c0, size 0x48, virtual false, abstract: false, final false
   inline bool _Register_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x345f0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484a104, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,6 +106,9 @@ public:
   /// @brief Field messageId, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___messageId;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11121 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -115,7 +118,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerConn
 
 } // namespace UnityEngine::Networking::PlayerConnection
 // Type: ::<>c__DisplayClass13_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: ::PlayerConnection::<>c__DisplayClass13_0*
@@ -123,11 +126,11 @@ class CORDL_TYPE __PlayerConnection____c__DisplayClass13_0 : public ::System::Ob
 public:
   // Declarations
   /// @brief Field messageId, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId))::System::Guid messageId;
+  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId)) ::System::Guid messageId;
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <Unregister>b__0, addr 0x345fe1c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <Unregister>b__0, addr 0x484b734, size 0x48, virtual false, abstract: false, final false
   inline bool _Unregister_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
@@ -136,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x345f280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484a484, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -156,6 +159,9 @@ public:
   /// @brief Field messageId, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___messageId;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11122 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -165,7 +171,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerConn
 
 } // namespace UnityEngine::Networking::PlayerConnection
 // Type: ::<>c__DisplayClass20_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: ::PlayerConnection::<>c__DisplayClass20_0*
@@ -177,7 +183,7 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass20_0* New_ctor();
 
-  /// @brief Method <BlockUntilRecvMsg>b__0, addr 0x345fe64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <BlockUntilRecvMsg>b__0, addr 0x484b77c, size 0xc, virtual false, abstract: false, final false
   inline void _BlockUntilRecvMsg_b__0(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
   constexpr bool const& __cordl_internal_get_msgReceived() const;
@@ -186,7 +192,7 @@ public:
 
   constexpr void __cordl_internal_set_msgReceived(bool value);
 
-  /// @brief Method .ctor, addr 0x345fa00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484ad98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -206,6 +212,9 @@ public:
   /// @brief Field msgReceived, offset: 0x10, size: 0x1, def value: None
   bool ___msgReceived;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11123 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -215,7 +224,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerConn
 
 } // namespace UnityEngine::Networking::PlayerConnection
 // Type: UnityEngine.Networking.PlayerConnection::PlayerConnection
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: ::UnityEngine.Networking.PlayerConnection::PlayerConnection*
@@ -229,7 +238,7 @@ public:
   using __c__DisplayClass20_0 = ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass20_0;
 
   /// @brief Field connectionNative, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_connectionNative, put = setStaticF_connectionNative))::UnityEngine::IPlayerEditorConnectionNative* connectionNative;
+  static __declspec(property(get = getStaticF_connectionNative, put = setStaticF_connectionNative)) ::UnityEngine::IPlayerEditorConnectionNative* connectionNative;
 
   __declspec(property(get = get_isConnected)) bool isConnected;
 
@@ -238,65 +247,65 @@ public:
 
   /// @brief Field m_PlayerEditorConnectionEvents, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PlayerEditorConnectionEvents,
-                      put = __cordl_internal_set_m_PlayerEditorConnectionEvents))::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* m_PlayerEditorConnectionEvents;
+                      put = __cordl_internal_set_m_PlayerEditorConnectionEvents)) ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* m_PlayerEditorConnectionEvents;
 
   /// @brief Field m_connectedPlayers, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_connectedPlayers, put = __cordl_internal_set_m_connectedPlayers))::System::Collections::Generic::List_1<int32_t>* m_connectedPlayers;
+  __declspec(property(get = __cordl_internal_get_m_connectedPlayers, put = __cordl_internal_set_m_connectedPlayers)) ::System::Collections::Generic::List_1<int32_t>* m_connectedPlayers;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> s_Instance;
+  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> s_Instance;
 
   /// @brief Convert operator to "::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection"
   constexpr operator ::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*() noexcept;
 
-  /// @brief Method BlockUntilRecvMsg, addr 0x345f800, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method BlockUntilRecvMsg, addr 0x484ab64, size 0x234, virtual false, abstract: false, final false
   inline bool BlockUntilRecvMsg(::System::Guid messageId, int32_t timeout);
 
-  /// @brief Method ConnectedCallbackInternal, addr 0x345fbbc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ConnectedCallbackInternal, addr 0x484b3f8, size 0xd8, virtual false, abstract: false, final false
   static inline void ConnectedCallbackInternal(int32_t playerId);
 
-  /// @brief Method CreateInstance, addr 0x345ec2c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x4849c70, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> CreateInstance();
 
-  /// @brief Method DisconnectAll, addr 0x345fa08, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method DisconnectAll, addr 0x484ada0, size 0x9c, virtual true, abstract: false, final true
   inline void DisconnectAll();
 
-  /// @brief Method DisconnectedCallback, addr 0x345fc98, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method DisconnectedCallback, addr 0x484b4d0, size 0x94, virtual false, abstract: false, final false
   static inline void DisconnectedCallback(int32_t playerId);
 
-  /// @brief Method GetConnectionNativeApi, addr 0x345ed4c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetConnectionNativeApi, addr 0x4849d90, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::IPlayerEditorConnectionNative* GetConnectionNativeApi();
 
-  /// @brief Method MessageCallbackInternal, addr 0x345faa4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method MessageCallbackInternal, addr 0x484ae3c, size 0x118, virtual false, abstract: false, final false
   static inline void MessageCallbackInternal(::System::IntPtr data, uint64_t size, uint64_t guid, ::StringW messageId);
 
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x345edcc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4849e08, size 0xc0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Register, addr 0x345ee8c, size 0x244, virtual true, abstract: false, final true
+  /// @brief Method Register, addr 0x4849ec8, size 0x23c, virtual true, abstract: false, final true
   inline void Register(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
-  /// @brief Method RegisterConnection, addr 0x345f288, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method RegisterConnection, addr 0x484a5f4, size 0x1a0, virtual true, abstract: false, final true
   inline void RegisterConnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
-  /// @brief Method RegisterDisconnection, addr 0x345f428, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method RegisterDisconnection, addr 0x484a794, size 0x60, virtual true, abstract: false, final true
   inline void RegisterDisconnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
-  /// @brief Method Send, addr 0x345f548, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method Send, addr 0x484a8b4, size 0x158, virtual true, abstract: false, final true
   inline void Send(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method TrySend, addr 0x345f6a4, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method TrySend, addr 0x484aa0c, size 0x158, virtual true, abstract: false, final true
   inline bool TrySend(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Unregister, addr 0x345f0d8, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method Unregister, addr 0x484a2e0, size 0x1a4, virtual true, abstract: false, final true
   inline void Unregister(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
-  /// @brief Method UnregisterConnection, addr 0x345f488, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnregisterConnection, addr 0x484a7f4, size 0x60, virtual true, abstract: false, final true
   inline void UnregisterConnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
-  /// @brief Method UnregisterDisconnection, addr 0x345f4e8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDisconnection, addr 0x484a854, size 0x60, virtual true, abstract: false, final true
   inline void UnregisterDisconnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
   constexpr bool const& __cordl_internal_get_m_IsInitilized() const;
@@ -317,17 +326,17 @@ public:
 
   constexpr void __cordl_internal_set_m_connectedPlayers(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x345fd2c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484b564, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::IPlayerEditorConnectionNative* getStaticF_connectionNative();
 
   static inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x345eb94, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x4849bd8, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> get_instance();
 
-  /// @brief Method get_isConnected, addr 0x345ecb0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_isConnected, addr 0x4849cf4, size 0x9c, virtual false, abstract: false, final false
   inline bool get_isConnected();
 
   /// @brief Convert to "::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection"
@@ -359,6 +368,9 @@ public:
 
   /// @brief Field m_IsInitilized, offset: 0x28, size: 0x1, def value: None
   bool ___m_IsInitilized;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11124 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

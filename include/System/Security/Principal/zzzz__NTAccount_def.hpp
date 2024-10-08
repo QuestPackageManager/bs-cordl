@@ -23,30 +23,30 @@ class NTAccount;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Principal::NTAccount);
 // Type: System.Security.Principal::NTAccount
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
 // CS Name: ::System.Security.Principal::NTAccount*
 class CORDL_TYPE NTAccount : public ::System::Security::Principal::IdentityReference {
 public:
   // Declarations
-  __declspec(property(get = get_Value))::StringW Value;
+  __declspec(property(get = get_Value)) ::StringW Value;
 
   /// @brief Field _value, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::StringW _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::StringW _value;
 
-  /// @brief Method Equals, addr 0x2824d28, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3c436ac, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x2824e28, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3c437ac, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Security::Principal::NTAccount* New_ctor(::StringW name);
 
-  /// @brief Method ToString, addr 0x2824e50, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c437d4, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Translate, addr 0x2824e5c, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method Translate, addr 0x3c437e0, size 0x218, virtual true, abstract: false, final false
   inline ::System::Security::Principal::IdentityReference* Translate(::System::Type* targetType);
 
   constexpr ::StringW const& __cordl_internal_get__value() const;
@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2824c38, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c435c4, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Value, addr 0x2824d20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3c436a4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method op_Equality, addr 0x2824dc0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3c43744, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Security::Principal::NTAccount* left, ::System::Security::Principal::NTAccount* right);
 
 protected:
@@ -80,6 +80,9 @@ public:
 
   /// @brief Field _value, offset: 0x10, size: 0x8, def value: None
   ::StringW ____value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3000 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -35,7 +35,7 @@ class GenericAcl;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::GenericAcl);
 // Type: System.Security.AccessControl::GenericAcl
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
 // CS Name: ::System.Security.AccessControl::GenericAcl*
@@ -52,12 +52,12 @@ public:
 
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
-  __declspec(property(get = get_Item, put = set_Item))::System::Security::AccessControl::GenericAce* Item[];
+  __declspec(property(get = get_Item, put = set_Item)) ::System::Security::AccessControl::GenericAce* Item[];
 
   /// @brief Field MaxBinaryLength, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_MaxBinaryLength, put = setStaticF_MaxBinaryLength)) int32_t MaxBinaryLength;
 
-  __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
+  __declspec(property(get = get_SyncRoot)) ::System::Object* SyncRoot;
 
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
@@ -65,21 +65,21 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x2831a60, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3c50084, size 0x184, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<::System::Security::AccessControl::GenericAce*, ::Array<::System::Security::AccessControl::GenericAce*>*> array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x282f8e0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3c4e010, size 0x64, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AceEnumerator* GetEnumerator();
 
   static inline ::System::Security::AccessControl::GenericAcl* New_ctor();
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2831bec, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x3c50208, size 0x84, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2831c70, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3c5028c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method .ctor, addr 0x282eff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c4d738, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint8_t getStaticF_AclRevision();
@@ -91,13 +91,13 @@ public:
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x2831a54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x3c50078, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::AccessControl::GenericAce* get_Item(int32_t index);
 
-  /// @brief Method get_SyncRoot, addr 0x2831a5c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x3c50080, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -128,6 +128,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GenericAcl", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GenericAcl(GenericAcl const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3035 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

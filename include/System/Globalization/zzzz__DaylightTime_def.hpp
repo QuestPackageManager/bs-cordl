@@ -20,27 +20,27 @@ class DaylightTime;
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::DaylightTime);
 // Type: System.Globalization::DaylightTime
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::DaylightTime*
 class CORDL_TYPE DaylightTime : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Delta))::System::TimeSpan Delta;
+  __declspec(property(get = get_Delta)) ::System::TimeSpan Delta;
 
-  __declspec(property(get = get_End))::System::DateTime End;
+  __declspec(property(get = get_End)) ::System::DateTime End;
 
-  __declspec(property(get = get_Start))::System::DateTime Start;
+  __declspec(property(get = get_Start)) ::System::DateTime Start;
 
   /// @brief Field _delta, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__delta, put = __cordl_internal_set__delta))::System::TimeSpan _delta;
+  __declspec(property(get = __cordl_internal_get__delta, put = __cordl_internal_set__delta)) ::System::TimeSpan _delta;
 
   /// @brief Field _end, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__end, put = __cordl_internal_set__end))::System::DateTime _end;
+  __declspec(property(get = __cordl_internal_get__end, put = __cordl_internal_set__end)) ::System::DateTime _end;
 
   /// @brief Field _start, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__start, put = __cordl_internal_set__start))::System::DateTime _start;
+  __declspec(property(get = __cordl_internal_get__start, put = __cordl_internal_set__start)) ::System::DateTime _start;
 
   static inline ::System::Globalization::DaylightTime* New_ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 
@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set__start(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x2906c9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1d2ec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 
-  /// @brief Method get_Delta, addr 0x2906ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Delta, addr 0x3d1d338, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_Delta();
 
-  /// @brief Method get_End, addr 0x2906ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_End, addr 0x3d1d330, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_End();
 
-  /// @brief Method get_Start, addr 0x2906cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Start, addr 0x3d1d328, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_Start();
 
 protected:
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field _delta, offset: 0x20, size: 0x8, def value: None
   ::System::TimeSpan ____delta;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3677 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

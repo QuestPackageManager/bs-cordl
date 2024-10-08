@@ -13,7 +13,7 @@ class RequestCache;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Cache::RequestCache);
 // Type: System.Net.Cache::RequestCache
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Cache {
 // Is value type: false
 // CS Name: ::System.Net.Cache::RequestCache*
@@ -21,7 +21,7 @@ class CORDL_TYPE RequestCache : public ::System::Object {
 public:
   // Declarations
   /// @brief Field LineSplits, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_LineSplits, put = setStaticF_LineSplits))::ArrayW<char16_t, ::Array<char16_t>*> LineSplits;
+  static __declspec(property(get = getStaticF_LineSplits, put = setStaticF_LineSplits)) ::ArrayW<char16_t, ::Array<char16_t>*> LineSplits;
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_LineSplits();
 
@@ -40,6 +40,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RequestCache", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RequestCache(RequestCache const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9802 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

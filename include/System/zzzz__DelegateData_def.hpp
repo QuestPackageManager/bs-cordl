@@ -16,7 +16,7 @@ class DelegateData;
 // Write type traits
 MARK_REF_PTR_T(::System::DelegateData);
 // Type: System::DelegateData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::DelegateData*
@@ -27,10 +27,10 @@ public:
   __declspec(property(get = __cordl_internal_get_curried_first_arg, put = __cordl_internal_set_curried_first_arg)) bool curried_first_arg;
 
   /// @brief Field method_name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_method_name, put = __cordl_internal_set_method_name))::StringW method_name;
+  __declspec(property(get = __cordl_internal_get_method_name, put = __cordl_internal_set_method_name)) ::StringW method_name;
 
   /// @brief Field target_type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_target_type, put = __cordl_internal_set_target_type))::System::Type* target_type;
+  __declspec(property(get = __cordl_internal_get_target_type, put = __cordl_internal_set_target_type)) ::System::Type* target_type;
 
   static inline ::System::DelegateData* New_ctor();
 
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_target_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x29adb58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dbe53c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field curried_first_arg, offset: 0x20, size: 0x1, def value: None
   bool ___curried_first_arg;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2590 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

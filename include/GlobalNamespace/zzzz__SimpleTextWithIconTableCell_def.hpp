@@ -19,22 +19,22 @@ class SimpleTextWithIconTableCell;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SimpleTextWithIconTableCell);
 // Type: ::SimpleTextWithIconTableCell
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SimpleTextWithIconTableCell*
 class CORDL_TYPE SimpleTextWithIconTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
-  /// @brief Field _icon, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon))::UnityW<::UnityEngine::UI::Image> _icon;
+  /// @brief Field _icon, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon)) ::UnityW<::UnityEngine::UI::Image> _icon;
 
-  /// @brief Field _text, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
+  /// @brief Field _text, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
 
-  __declspec(property(get = get_icon, put = set_icon))::UnityW<::UnityEngine::UI::Image> icon;
+  __declspec(property(get = get_icon, put = set_icon)) ::UnityW<::UnityEngine::UI::Image> icon;
 
-  __declspec(property(get = get_text, put = set_text))::StringW text;
+  __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
   static inline ::GlobalNamespace::SimpleTextWithIconTableCell* New_ctor();
 
@@ -50,19 +50,19 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x252633c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397da90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_icon, addr 0x25262ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x397da40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Image> get_icon();
 
-  /// @brief Method get_text, addr 0x2526318, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x397da6c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_icon, addr 0x25262e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_icon, addr 0x397da38, size 0x8, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::UI::Image* value);
 
-  /// @brief Method set_text, addr 0x25262f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x397da48, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -79,20 +79,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SimpleTextWithIconTableCell(SimpleTextWithIconTableCell const&) = delete;
 
-  /// @brief Field _text, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _text, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
-  /// @brief Field _icon, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _icon, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____icon;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15958 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleTextWithIconTableCell, 0x68>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleTextWithIconTableCell, 0x78>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleTextWithIconTableCell, ____text) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleTextWithIconTableCell, ____text) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleTextWithIconTableCell, ____icon) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleTextWithIconTableCell, ____icon) == 0x70, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleTextWithIconTableCell);

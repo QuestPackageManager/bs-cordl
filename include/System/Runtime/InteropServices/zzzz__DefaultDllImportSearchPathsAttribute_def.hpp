@@ -16,7 +16,7 @@ class DefaultDllImportSearchPathsAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute);
 // Type: System.Runtime.InteropServices::DefaultDllImportSearchPathsAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // CS Name: ::System.Runtime.InteropServices::DefaultDllImportSearchPathsAttribute*
@@ -24,7 +24,7 @@ class CORDL_TYPE DefaultDllImportSearchPathsAttribute : public ::System::Attribu
 public:
   // Declarations
   /// @brief Field _paths, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__paths, put = __cordl_internal_set__paths))::System::Runtime::InteropServices::DllImportSearchPath _paths;
+  __declspec(property(get = __cordl_internal_get__paths, put = __cordl_internal_set__paths)) ::System::Runtime::InteropServices::DllImportSearchPath _paths;
 
   static inline ::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute* New_ctor(::System::Runtime::InteropServices::DllImportSearchPath paths);
 
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set__paths(::System::Runtime::InteropServices::DllImportSearchPath value);
 
-  /// @brief Method .ctor, addr 0x2884eec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9ed18, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::DllImportSearchPath paths);
 
 protected:
@@ -53,6 +53,9 @@ public:
 
   /// @brief Field _paths, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::InteropServices::DllImportSearchPath ____paths;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3329 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

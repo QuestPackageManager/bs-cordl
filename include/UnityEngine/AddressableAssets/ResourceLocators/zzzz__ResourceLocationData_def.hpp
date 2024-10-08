@@ -22,45 +22,45 @@ class ResourceLocationData;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData);
 // Type: UnityEngine.AddressableAssets.ResourceLocators::ResourceLocationData
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ResourceLocationData*
 class CORDL_TYPE ResourceLocationData : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Data, put = set_Data))::System::Object* Data;
+  __declspec(property(get = get_Data, put = set_Data)) ::System::Object* Data;
 
-  __declspec(property(get = get_Dependencies))::ArrayW<::StringW, ::Array<::StringW>*> Dependencies;
+  __declspec(property(get = get_Dependencies)) ::ArrayW<::StringW, ::Array<::StringW>*> Dependencies;
 
-  __declspec(property(get = get_InternalId))::StringW InternalId;
+  __declspec(property(get = get_InternalId)) ::StringW InternalId;
 
-  __declspec(property(get = get_Keys))::ArrayW<::StringW, ::Array<::StringW>*> Keys;
+  __declspec(property(get = get_Keys)) ::ArrayW<::StringW, ::Array<::StringW>*> Keys;
 
-  __declspec(property(get = get_Provider))::StringW Provider;
+  __declspec(property(get = get_Provider)) ::StringW Provider;
 
-  __declspec(property(get = get_ResourceType))::System::Type* ResourceType;
+  __declspec(property(get = get_ResourceType)) ::System::Type* ResourceType;
 
   /// @brief Field SerializedData, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_SerializedData, put = __cordl_internal_set_SerializedData))::ArrayW<uint8_t, ::Array<uint8_t>*> SerializedData;
+  __declspec(property(get = __cordl_internal_get_SerializedData, put = __cordl_internal_set_SerializedData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> SerializedData;
 
   /// @brief Field _Data, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__Data, put = __cordl_internal_set__Data))::System::Object* _Data;
+  __declspec(property(get = __cordl_internal_get__Data, put = __cordl_internal_set__Data)) ::System::Object* _Data;
 
   /// @brief Field m_Dependencies, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Dependencies, put = __cordl_internal_set_m_Dependencies))::ArrayW<::StringW, ::Array<::StringW>*> m_Dependencies;
+  __declspec(property(get = __cordl_internal_get_m_Dependencies, put = __cordl_internal_set_m_Dependencies)) ::ArrayW<::StringW, ::Array<::StringW>*> m_Dependencies;
 
   /// @brief Field m_InternalId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_InternalId, put = __cordl_internal_set_m_InternalId))::StringW m_InternalId;
+  __declspec(property(get = __cordl_internal_get_m_InternalId, put = __cordl_internal_set_m_InternalId)) ::StringW m_InternalId;
 
   /// @brief Field m_Keys, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Keys, put = __cordl_internal_set_m_Keys))::ArrayW<::StringW, ::Array<::StringW>*> m_Keys;
+  __declspec(property(get = __cordl_internal_get_m_Keys, put = __cordl_internal_set_m_Keys)) ::ArrayW<::StringW, ::Array<::StringW>*> m_Keys;
 
   /// @brief Field m_Provider, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Provider, put = __cordl_internal_set_m_Provider))::StringW m_Provider;
+  __declspec(property(get = __cordl_internal_get_m_Provider, put = __cordl_internal_set_m_Provider)) ::StringW m_Provider;
 
   /// @brief Field m_ResourceType, offset 0x30, size 0x20
-  __declspec(property(get = __cordl_internal_get_m_ResourceType, put = __cordl_internal_set_m_ResourceType))::UnityEngine::ResourceManagement::Util::SerializedType m_ResourceType;
+  __declspec(property(get = __cordl_internal_get_m_ResourceType, put = __cordl_internal_set_m_ResourceType)) ::UnityEngine::ResourceManagement::Util::SerializedType m_ResourceType;
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> keys, ::StringW id, ::System::Type* provider,
                                                                                                    ::System::Type* t, ::ArrayW<::StringW, ::Array<::StringW>*> dependencies);
@@ -107,28 +107,28 @@ public:
 
   constexpr void __cordl_internal_set_m_ResourceType(::UnityEngine::ResourceManagement::Util::SerializedType value);
 
-  /// @brief Method .ctor, addr 0x30912c0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4486fa0, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> keys, ::StringW id, ::System::Type* provider, ::System::Type* t, ::ArrayW<::StringW, ::Array<::StringW>*> dependencies);
 
-  /// @brief Method get_Data, addr 0x30911d4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x4486eb4, size 0x40, virtual false, abstract: false, final false
   inline ::System::Object* get_Data();
 
-  /// @brief Method get_Dependencies, addr 0x30911c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dependencies, addr 0x4486ea0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Dependencies();
 
-  /// @brief Method get_InternalId, addr 0x30911b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalId, addr 0x4486e90, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_Keys, addr 0x30911a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x4486e88, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Keys();
 
-  /// @brief Method get_Provider, addr 0x30911b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Provider, addr 0x4486e98, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Provider();
 
-  /// @brief Method get_ResourceType, addr 0x30911c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceType, addr 0x4486ea8, size 0xc, virtual false, abstract: false, final false
   inline ::System::Type* get_ResourceType();
 
-  /// @brief Method set_Data, addr 0x3091214, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x4486ef4, size 0xac, virtual false, abstract: false, final false
   inline void set_Data(::System::Object* value);
 
 protected:
@@ -165,6 +165,9 @@ public:
 
   /// @brief Field _Data, offset: 0x58, size: 0x8, def value: None
   ::System::Object* ____Data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16165 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

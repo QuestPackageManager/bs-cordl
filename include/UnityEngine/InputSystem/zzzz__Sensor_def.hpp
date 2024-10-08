@@ -13,7 +13,7 @@ class Sensor;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Sensor);
 // Type: UnityEngine.InputSystem::Sensor
-// SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem::Sensor*
@@ -24,13 +24,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::Sensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x314b88c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x455020c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_samplingFrequency, addr 0x314b6f8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_samplingFrequency, addr 0x4550080, size 0xec, virtual false, abstract: false, final false
   inline float_t get_samplingFrequency();
 
-  /// @brief Method set_samplingFrequency, addr 0x314b7ec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_samplingFrequency, addr 0x455016c, size 0xa0, virtual false, abstract: false, final false
   inline void set_samplingFrequency(float_t value);
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Sensor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Sensor(Sensor const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6647 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

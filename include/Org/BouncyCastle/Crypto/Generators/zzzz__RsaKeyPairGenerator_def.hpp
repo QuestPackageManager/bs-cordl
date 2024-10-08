@@ -29,7 +29,7 @@ class RsaKeyPairGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator);
 // Type: Org.BouncyCastle.Crypto.Generators::RsaKeyPairGenerator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::RsaKeyPairGenerator*
@@ -37,10 +37,10 @@ class CORDL_TYPE RsaKeyPairGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DefaultPublicExponent, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DefaultPublicExponent, put = setStaticF_DefaultPublicExponent))::Org::BouncyCastle::Math::BigInteger* DefaultPublicExponent;
+  static __declspec(property(get = getStaticF_DefaultPublicExponent, put = setStaticF_DefaultPublicExponent)) ::Org::BouncyCastle::Math::BigInteger* DefaultPublicExponent;
 
   /// @brief Field One, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_One, put = setStaticF_One))::Org::BouncyCastle::Math::BigInteger* One;
+  static __declspec(property(get = getStaticF_One, put = setStaticF_One)) ::Org::BouncyCastle::Math::BigInteger* One;
 
   /// @brief Field SPECIAL_E_BITS, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_SPECIAL_E_BITS, put = setStaticF_SPECIAL_E_BITS)) int32_t SPECIAL_E_BITS;
@@ -49,21 +49,21 @@ public:
   static __declspec(property(get = getStaticF_SPECIAL_E_HIGHEST, put = setStaticF_SPECIAL_E_HIGHEST)) int32_t SPECIAL_E_HIGHEST;
 
   /// @brief Field SPECIAL_E_VALUES, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SPECIAL_E_VALUES, put = setStaticF_SPECIAL_E_VALUES))::ArrayW<int32_t, ::Array<int32_t>*> SPECIAL_E_VALUES;
+  static __declspec(property(get = getStaticF_SPECIAL_E_VALUES, put = setStaticF_SPECIAL_E_VALUES)) ::ArrayW<int32_t, ::Array<int32_t>*> SPECIAL_E_VALUES;
 
   /// @brief Field parameters, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* parameters;
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* parameters;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method ChooseRandomPrime, addr 0x1177320, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method ChooseRandomPrime, addr 0x234fdcc, size 0x228, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ChooseRandomPrime(int32_t bitlength, ::Org::BouncyCastle::Math::BigInteger* e);
 
-  /// @brief Method GenerateKeyPair, addr 0x1176fb4, size 0x36c, virtual true, abstract: false, final false
+  /// @brief Method GenerateKeyPair, addr 0x234fa6c, size 0x360, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method Init, addr 0x1176ea0, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x234f95c, size 0x110, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator* New_ctor();
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* value);
 
-  /// @brief Method .ctor, addr 0x1177688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235012c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_DefaultPublicExponent();
@@ -119,6 +119,9 @@ public:
 
   /// @brief Field DefaultTests offset 0xffffffff size 0x4
   static constexpr int32_t DefaultTests{ static_cast<int32_t>(0x64) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 923 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

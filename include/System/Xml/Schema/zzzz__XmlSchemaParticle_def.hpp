@@ -33,7 +33,7 @@ class XmlSchemaParticle;
 MARK_VAL_T(::System::Xml::Schema::__XmlSchemaParticle__Occurs);
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaParticle);
 // Type: ::Occurs
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
 // CS Name: ::XmlSchemaParticle::Occurs
@@ -78,6 +78,9 @@ public:
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::System::Xml::Schema::__XmlSchemaParticle__Occurs const None;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7680 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -90,7 +93,7 @@ static_assert(offsetof(::System::Xml::Schema::__XmlSchemaParticle__Occurs, value
 
 } // namespace System::Xml::Schema
 // Type: System.Xml.Schema::XmlSchemaParticle
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaParticle*
@@ -102,30 +105,30 @@ public:
   using Occurs = ::System::Xml::Schema::__XmlSchemaParticle__Occurs;
 
   /// @brief Field Empty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::System::Xml::Schema::XmlSchemaParticle* Empty;
+  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::System::Xml::Schema::XmlSchemaParticle* Empty;
 
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
-  __declspec(property(get = get_MaxOccurs, put = set_MaxOccurs))::System::Decimal MaxOccurs;
+  __declspec(property(get = get_MaxOccurs, put = set_MaxOccurs)) ::System::Decimal MaxOccurs;
 
-  __declspec(property(get = get_MaxOccursString, put = set_MaxOccursString))::StringW MaxOccursString;
+  __declspec(property(get = get_MaxOccursString, put = set_MaxOccursString)) ::StringW MaxOccursString;
 
-  __declspec(property(get = get_MinOccurs, put = set_MinOccurs))::System::Decimal MinOccurs;
+  __declspec(property(get = get_MinOccurs, put = set_MinOccurs)) ::System::Decimal MinOccurs;
 
-  __declspec(property(get = get_MinOccursString, put = set_MinOccursString))::StringW MinOccursString;
+  __declspec(property(get = get_MinOccursString, put = set_MinOccursString)) ::StringW MinOccursString;
 
-  __declspec(property(get = get_NameString))::StringW NameString;
+  __declspec(property(get = get_NameString)) ::StringW NameString;
 
   /// @brief Field flags, offset 0x70, size 0x4
-  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags))::System::Xml::Schema::__XmlSchemaParticle__Occurs flags;
+  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags)) ::System::Xml::Schema::__XmlSchemaParticle__Occurs flags;
 
   /// @brief Field maxOccurs, offset 0x60, size 0x10
-  __declspec(property(get = __cordl_internal_get_maxOccurs, put = __cordl_internal_set_maxOccurs))::System::Decimal maxOccurs;
+  __declspec(property(get = __cordl_internal_get_maxOccurs, put = __cordl_internal_set_maxOccurs)) ::System::Decimal maxOccurs;
 
   /// @brief Field minOccurs, offset 0x50, size 0x10
-  __declspec(property(get = __cordl_internal_get_minOccurs, put = __cordl_internal_set_minOccurs))::System::Decimal minOccurs;
+  __declspec(property(get = __cordl_internal_get_minOccurs, put = __cordl_internal_set_minOccurs)) ::System::Decimal minOccurs;
 
-  /// @brief Method GetQualifiedName, addr 0x2e47db8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetQualifiedName, addr 0x424a608, size 0x180, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* GetQualifiedName();
 
   static inline ::System::Xml::Schema::XmlSchemaParticle* New_ctor();
@@ -148,41 +151,41 @@ public:
 
   constexpr void __cordl_internal_set_minOccurs(::System::Decimal value);
 
-  /// @brief Method .ctor, addr 0x2e47f44, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x424a788, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::XmlSchemaParticle* getStaticF_Empty();
 
-  /// @brief Method get_IsEmpty, addr 0x2e47d04, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x424a554, size 0x6c, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_MaxOccurs, addr 0x2e47b90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MaxOccurs, addr 0x424a3e4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_MaxOccurs();
 
-  /// @brief Method get_MaxOccursString, addr 0x2e47718, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_MaxOccursString, addr 0x4249f6c, size 0x124, virtual false, abstract: false, final false
   inline ::StringW get_MaxOccursString();
 
-  /// @brief Method get_MinOccurs, addr 0x2e47a54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MinOccurs, addr 0x424a2ac, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_MinOccurs();
 
-  /// @brief Method get_MinOccursString, addr 0x2e47548, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_MinOccursString, addr 0x4249da0, size 0x78, virtual false, abstract: false, final false
   inline ::StringW get_MinOccursString();
 
-  /// @brief Method get_NameString, addr 0x2e47d70, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_NameString, addr 0x424a5c0, size 0x48, virtual true, abstract: false, final false
   inline ::StringW get_NameString();
 
   static inline void setStaticF_Empty(::System::Xml::Schema::XmlSchemaParticle* value);
 
-  /// @brief Method set_MaxOccurs, addr 0x2e47b9c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method set_MaxOccurs, addr 0x424a3f0, size 0x164, virtual false, abstract: false, final false
   inline void set_MaxOccurs(::System::Decimal value);
 
-  /// @brief Method set_MaxOccursString, addr 0x2e4783c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method set_MaxOccursString, addr 0x424a090, size 0x21c, virtual false, abstract: false, final false
   inline void set_MaxOccursString(::StringW value);
 
-  /// @brief Method set_MinOccurs, addr 0x2e47a60, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method set_MinOccurs, addr 0x424a2b8, size 0x12c, virtual false, abstract: false, final false
   inline void set_MinOccurs(::System::Decimal value);
 
-  /// @brief Method set_MinOccursString, addr 0x2e475c0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method set_MinOccursString, addr 0x4249e18, size 0x154, virtual false, abstract: false, final false
   inline void set_MinOccursString(::StringW value);
 
 protected:
@@ -207,6 +210,9 @@ public:
 
   /// @brief Field flags, offset: 0x70, size: 0x4, def value: None
   ::System::Xml::Schema::__XmlSchemaParticle__Occurs ___flags;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7682 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,25 +19,25 @@ class DsaKeyParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::DsaKeyParameters
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::DsaKeyParameters*
 class CORDL_TYPE DsaKeyParameters : public ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter {
 public:
   // Declarations
-  __declspec(property(get = get_Parameters))::Org::BouncyCastle::Crypto::Parameters::DsaParameters* Parameters;
+  __declspec(property(get = get_Parameters)) ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* Parameters;
 
   /// @brief Field parameters, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters;
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters;
 
-  /// @brief Method Equals, addr 0x11a2cb4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x237a074, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x11a2d50, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x237a110, size 0x50, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x11a2da0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x237a160, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::DsaParameters* value);
 
-  /// @brief Method .ctor, addr 0x11a2c7c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237a03c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
 
-  /// @brief Method get_Parameters, addr 0x11a2cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x237a06c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* get_Parameters();
 
 protected:
@@ -70,6 +70,9 @@ public:
 
   /// @brief Field parameters, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* ___parameters;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1027 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

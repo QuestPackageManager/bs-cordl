@@ -57,7 +57,7 @@ template <typename TContract> class __ConcreteBinderGeneric_1____c__DisplayClass
 MARK_GEN_REF_PTR_T(::Zenject::ConcreteBinderGeneric_1);
 MARK_GEN_REF_PTR_T(::Zenject::__ConcreteBinderGeneric_1____c__DisplayClass5_0);
 // Type: ::<>c__DisplayClass5_0
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -67,7 +67,7 @@ class CORDL_TYPE __ConcreteBinderGeneric_1____c__DisplayClass5_0 : public ::Syst
 public:
   // Declarations
   /// @brief Field concreteType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_concreteType, put = __cordl_internal_set_concreteType))::System::Type* concreteType;
+  __declspec(property(get = __cordl_internal_get_concreteType, put = __cordl_internal_set_concreteType)) ::System::Type* concreteType;
 
   static inline ::Zenject::__ConcreteBinderGeneric_1____c__DisplayClass5_0<TContract>* New_ctor();
 
@@ -106,12 +106,15 @@ public:
   /// @brief Field concreteType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___concreteType;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11969 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: Zenject::ConcreteBinderGeneric`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -161,6 +164,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderGeneric_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ConcreteBinderGeneric_1(ConcreteBinderGeneric_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11970 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

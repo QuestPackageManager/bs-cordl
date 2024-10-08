@@ -18,41 +18,41 @@ class Sha512Digest;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Sha512Digest);
 // Type: Org.BouncyCastle.Crypto.Digests::Sha512Digest
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::Sha512Digest*
 class CORDL_TYPE Sha512Digest : public ::Org::BouncyCastle::Crypto::Digests::LongDigest {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
-  /// @brief Method Copy, addr 0x1114ec0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x22f18e0, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method DoFinal, addr 0x1114d98, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x22f17b8, size 0xe0, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetDigestSize, addr 0x1114d90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x22f17b0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha512Digest* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha512Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Sha512Digest* t);
 
-  /// @brief Method Reset, addr 0x1114e78, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x22f1898, size 0x48, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x1114f20, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x22f1938, size 0x88, virtual true, abstract: false, final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method .ctor, addr 0x1114c90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f16b0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1114ce8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f1708, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Sha512Digest* t);
 
-  /// @brief Method get_AlgorithmName, addr 0x1114d50, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x22f1770, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field DigestLength offset 0xffffffff size 0x4
   static constexpr int32_t DigestLength{ static_cast<int32_t>(0x40) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 771 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

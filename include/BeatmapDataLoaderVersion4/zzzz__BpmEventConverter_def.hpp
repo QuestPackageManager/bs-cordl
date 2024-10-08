@@ -22,7 +22,7 @@ class BpmEventConverter;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::BpmEventConverter);
 // Type: BeatmapDataLoaderVersion4::BpmEventConverter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::BpmEventConverter*
@@ -32,7 +32,7 @@ public:
   /// @brief Field _songFrequency, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__songFrequency, put = __cordl_internal_set__songFrequency)) int32_t _songFrequency;
 
-  /// @brief Method Convert, addr 0x150788c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x26cb994, size 0xb4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapLevelSaveDataVersion4::BpmData* bpmData);
 
   static inline ::BeatmapDataLoaderVersion4::BpmEventConverter* New_ctor(int32_t songFrequency, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__songFrequency(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1507860, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cb968, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t songFrequency, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field _songFrequency, offset: 0x18, size: 0x4, def value: None
   int32_t ____songFrequency;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13438 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

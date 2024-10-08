@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TemplateContainer);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__TemplateContainer__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__TemplateContainer__UxmlTraits);
 // Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::TemplateContainer::UxmlFactory*
@@ -51,19 +51,19 @@ class CORDL_TYPE __TemplateContainer__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TemplateContainer*, ::UnityEngine::UIElements::__TemplateContainer__UxmlTraits*> {
 public:
   // Declarations
-  __declspec(property(get = get_uxmlName))::StringW uxmlName;
+  __declspec(property(get = get_uxmlName)) ::StringW uxmlName;
 
-  __declspec(property(get = get_uxmlQualifiedName))::StringW uxmlQualifiedName;
+  __declspec(property(get = get_uxmlQualifiedName)) ::StringW uxmlQualifiedName;
 
   static inline ::UnityEngine::UIElements::__TemplateContainer__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x354e3a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a14e2c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_uxmlName, addr 0x354e2f4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlName, addr 0x4a14d78, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_uxmlName();
 
-  /// @brief Method get_uxmlQualifiedName, addr 0x354e334, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlQualifiedName, addr 0x4a14db8, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_uxmlQualifiedName();
 
 protected:
@@ -80,6 +80,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TemplateContainer__UxmlFactory(__TemplateContainer__UxmlFactory const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6160 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -87,7 +90,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Templ
 
 } // namespace UnityEngine::UIElements
 // Type: ::UxmlTraits
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::TemplateContainer::UxmlTraits*
@@ -95,9 +98,9 @@ class CORDL_TYPE __TemplateContainer__UxmlTraits : public ::UnityEngine::UIEleme
 public:
   // Declarations
   /// @brief Field m_Template, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Template, put = __cordl_internal_set_m_Template))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Template;
+  __declspec(property(get = __cordl_internal_get_m_Template, put = __cordl_internal_set_m_Template)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Template;
 
-  /// @brief Method Init, addr 0x354e3f0, size 0x39c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a14e74, size 0x3dc, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__TemplateContainer__UxmlTraits* New_ctor();
@@ -108,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Template(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x354e8c0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a15be0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -128,6 +131,9 @@ public:
   /// @brief Field m_Template, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Template;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6161 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -137,7 +143,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__TemplateContainer__UxmlTrait
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::TemplateContainer
-// SizeInfo { instance_size: 984, native_size: -1, calculated_instance_size: 984, calculated_native_size: 984, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1008, native_size: -1, calculated_instance_size: 1008, calculated_native_size: 1008, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::TemplateContainer*
@@ -148,26 +154,26 @@ public:
 
   using UxmlTraits = ::UnityEngine::UIElements::__TemplateContainer__UxmlTraits;
 
-  /// @brief Field <templateId>k__BackingField, offset 0x3c0, size 0x8
-  __declspec(property(get = __cordl_internal_get__templateId_k__BackingField, put = __cordl_internal_set__templateId_k__BackingField))::StringW _templateId_k__BackingField;
+  /// @brief Field <templateId>k__BackingField, offset 0x3d8, size 0x8
+  __declspec(property(get = __cordl_internal_get__templateId_k__BackingField, put = __cordl_internal_set__templateId_k__BackingField)) ::StringW _templateId_k__BackingField;
 
-  __declspec(property(get = get_contentContainer))::UnityEngine::UIElements::VisualElement* contentContainer;
+  __declspec(property(get = get_contentContainer)) ::UnityEngine::UIElements::VisualElement* contentContainer;
 
-  /// @brief Field m_ContentContainer, offset 0x3c8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ContentContainer, put = __cordl_internal_set_m_ContentContainer))::UnityEngine::UIElements::VisualElement* m_ContentContainer;
+  /// @brief Field m_ContentContainer, offset 0x3e0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ContentContainer, put = __cordl_internal_set_m_ContentContainer)) ::UnityEngine::UIElements::VisualElement* m_ContentContainer;
 
-  /// @brief Field m_TemplateSource, offset 0x3d0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TemplateSource, put = __cordl_internal_set_m_TemplateSource))::UnityW<::UnityEngine::UIElements::VisualTreeAsset> m_TemplateSource;
+  /// @brief Field m_TemplateSource, offset 0x3e8, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_TemplateSource, put = __cordl_internal_set_m_TemplateSource)) ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> m_TemplateSource;
 
-  __declspec(property(get = get_templateId, put = set_templateId))::StringW templateId;
+  __declspec(property(get = get_templateId, put = set_templateId)) ::StringW templateId;
 
-  __declspec(property(put = set_templateSource))::UnityW<::UnityEngine::UIElements::VisualTreeAsset> templateSource;
+  __declspec(property(put = set_templateSource)) ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> templateSource;
 
   static inline ::UnityEngine::UIElements::TemplateContainer* New_ctor();
 
   static inline ::UnityEngine::UIElements::TemplateContainer* New_ctor(::StringW templateId);
 
-  /// @brief Method SetContentContainer, addr 0x354e2ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContentContainer, addr 0x4a14d70, size 0x8, virtual false, abstract: false, final false
   inline void SetContentContainer(::UnityEngine::UIElements::VisualElement* content);
 
   constexpr ::StringW const& __cordl_internal_get__templateId_k__BackingField() const;
@@ -188,22 +194,22 @@ public:
 
   constexpr void __cordl_internal_set_m_TemplateSource(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
 
-  /// @brief Method .ctor, addr 0x354e248, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a14d1c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x354e264, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a14d3c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW templateId);
 
-  /// @brief Method get_contentContainer, addr 0x354e2e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x4a14d68, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_templateId, addr 0x354e230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_templateId, addr 0x4a14d04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_templateId();
 
-  /// @brief Method set_templateId, addr 0x354e238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_templateId, addr 0x4a14d0c, size 0x8, virtual false, abstract: false, final false
   inline void set_templateId(::StringW value);
 
-  /// @brief Method set_templateSource, addr 0x354e240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_templateSource, addr 0x4a14d14, size 0x8, virtual false, abstract: false, final false
   inline void set_templateSource(::UnityEngine::UIElements::VisualTreeAsset* value);
 
 protected:
@@ -220,25 +226,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TemplateContainer(TemplateContainer const&) = delete;
 
-  /// @brief Field <templateId>k__BackingField, offset: 0x3c0, size: 0x8, def value: None
+  /// @brief Field <templateId>k__BackingField, offset: 0x3d8, size: 0x8, def value: None
   ::StringW ____templateId_k__BackingField;
 
-  /// @brief Field m_ContentContainer, offset: 0x3c8, size: 0x8, def value: None
+  /// @brief Field m_ContentContainer, offset: 0x3e0, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_ContentContainer;
 
-  /// @brief Field m_TemplateSource, offset: 0x3d0, size: 0x8, def value: None
+  /// @brief Field m_TemplateSource, offset: 0x3e8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> ___m_TemplateSource;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6162 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TemplateContainer, 0x3d8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TemplateContainer, 0x3f0>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TemplateContainer, ____templateId_k__BackingField) == 0x3c0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TemplateContainer, ____templateId_k__BackingField) == 0x3d8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TemplateContainer, ___m_ContentContainer) == 0x3c8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TemplateContainer, ___m_ContentContainer) == 0x3e0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TemplateContainer, ___m_TemplateSource) == 0x3d0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TemplateContainer, ___m_TemplateSource) == 0x3e8, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TemplateContainer);

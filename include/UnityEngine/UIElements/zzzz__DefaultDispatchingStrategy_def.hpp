@@ -21,7 +21,7 @@ class DefaultDispatchingStrategy;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::DefaultDispatchingStrategy);
 // Type: UnityEngine.UIElements::DefaultDispatchingStrategy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::DefaultDispatchingStrategy*
@@ -31,15 +31,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
 
-  /// @brief Method CanDispatchEvent, addr 0x35e2f78, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x49a9c7c, size 0x78, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x35e2ff0, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method DispatchEvent, addr 0x49a9cf4, size 0x204, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::DefaultDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35e31fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a8634, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
@@ -58,6 +58,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultDispatchingStrategy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultDispatchingStrategy(DefaultDispatchingStrategy const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5768 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

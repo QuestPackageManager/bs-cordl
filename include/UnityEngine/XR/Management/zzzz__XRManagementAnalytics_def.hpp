@@ -23,7 +23,7 @@ struct __XRManagementAnalytics__BuildEvent;
 MARK_REF_PTR_T(::UnityEngine::XR::Management::XRManagementAnalytics);
 MARK_VAL_T(::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent);
 // Type: ::BuildEvent
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: true
 // CS Name: ::XRManagementAnalytics::BuildEvent
@@ -50,6 +50,9 @@ public:
   /// @brief Field assigned_loaders, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> assigned_loaders;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18564 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
@@ -68,7 +71,7 @@ static_assert(offsetof(::UnityEngine::XR::Management::__XRManagementAnalytics__B
 
 } // namespace UnityEngine::XR::Management
 // Type: UnityEngine.XR.Management::XRManagementAnalytics
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
 // CS Name: ::UnityEngine.XR.Management::XRManagementAnalytics*
@@ -77,7 +80,7 @@ public:
   // Declarations
   using BuildEvent = ::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent;
 
-  /// @brief Method Initialize, addr 0x33e2b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x47baaac, size 0x8, virtual false, abstract: false, final false
   static inline bool Initialize();
 
 protected:
@@ -93,6 +96,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XRManagementAnalytics", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XRManagementAnalytics(XRManagementAnalytics const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18565 };
 
   /// @brief Field kEventBuild offset 0xffffffff size 0x8
   static constexpr ::ConstString kEventBuild{ u"xrmanagment_build" };

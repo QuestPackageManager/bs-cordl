@@ -15,7 +15,7 @@ class CmsObjectIdentifiers;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::CmsObjectIdentifiers);
 // Type: Org.BouncyCastle.Asn1.Cms::CmsObjectIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::CmsObjectIdentifiers*
@@ -23,47 +23,47 @@ class CORDL_TYPE CmsObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field AuthEnvelopedData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_AuthEnvelopedData, put = setStaticF_AuthEnvelopedData))::Org::BouncyCastle::Asn1::DerObjectIdentifier* AuthEnvelopedData;
+  static __declspec(property(get = getStaticF_AuthEnvelopedData, put = setStaticF_AuthEnvelopedData)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* AuthEnvelopedData;
 
   /// @brief Field AuthenticatedData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_AuthenticatedData, put = setStaticF_AuthenticatedData))::Org::BouncyCastle::Asn1::DerObjectIdentifier* AuthenticatedData;
+  static __declspec(property(get = getStaticF_AuthenticatedData, put = setStaticF_AuthenticatedData)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* AuthenticatedData;
 
   /// @brief Field CompressedData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CompressedData, put = setStaticF_CompressedData))::Org::BouncyCastle::Asn1::DerObjectIdentifier* CompressedData;
+  static __declspec(property(get = getStaticF_CompressedData, put = setStaticF_CompressedData)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CompressedData;
 
   /// @brief Field Data, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Data, put = setStaticF_Data))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Data;
+  static __declspec(property(get = getStaticF_Data, put = setStaticF_Data)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Data;
 
   /// @brief Field DigestedData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DigestedData, put = setStaticF_DigestedData))::Org::BouncyCastle::Asn1::DerObjectIdentifier* DigestedData;
+  static __declspec(property(get = getStaticF_DigestedData, put = setStaticF_DigestedData)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DigestedData;
 
   /// @brief Field EncryptedData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EncryptedData, put = setStaticF_EncryptedData))::Org::BouncyCastle::Asn1::DerObjectIdentifier* EncryptedData;
+  static __declspec(property(get = getStaticF_EncryptedData, put = setStaticF_EncryptedData)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* EncryptedData;
 
   /// @brief Field EnvelopedData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EnvelopedData, put = setStaticF_EnvelopedData))::Org::BouncyCastle::Asn1::DerObjectIdentifier* EnvelopedData;
+  static __declspec(property(get = getStaticF_EnvelopedData, put = setStaticF_EnvelopedData)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* EnvelopedData;
 
   /// @brief Field SignedAndEnvelopedData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SignedAndEnvelopedData, put = setStaticF_SignedAndEnvelopedData))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SignedAndEnvelopedData;
+  static __declspec(property(get = getStaticF_SignedAndEnvelopedData, put = setStaticF_SignedAndEnvelopedData)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SignedAndEnvelopedData;
 
   /// @brief Field SignedData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SignedData, put = setStaticF_SignedData))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SignedData;
+  static __declspec(property(get = getStaticF_SignedData, put = setStaticF_SignedData)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SignedData;
 
   /// @brief Field id_ri, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_ri, put = setStaticF_id_ri))::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_ri;
+  static __declspec(property(get = getStaticF_id_ri, put = setStaticF_id_ri)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_ri;
 
   /// @brief Field id_ri_ocsp_response, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_ri_ocsp_response, put = setStaticF_id_ri_ocsp_response))::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_ri_ocsp_response;
+  static __declspec(property(get = getStaticF_id_ri_ocsp_response, put = setStaticF_id_ri_ocsp_response)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_ri_ocsp_response;
 
   /// @brief Field id_ri_scvp, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_id_ri_scvp, put = setStaticF_id_ri_scvp))::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_ri_scvp;
+  static __declspec(property(get = getStaticF_id_ri_scvp, put = setStaticF_id_ri_scvp)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* id_ri_scvp;
 
   /// @brief Field timestampedData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_timestampedData, put = setStaticF_timestampedData))::Org::BouncyCastle::Asn1::DerObjectIdentifier* timestampedData;
+  static __declspec(property(get = getStaticF_timestampedData, put = setStaticF_timestampedData)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* timestampedData;
 
   static inline ::Org::BouncyCastle::Asn1::Cms::CmsObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10e6a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c41b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_AuthEnvelopedData();
@@ -131,6 +131,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsObjectIdentifiers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CmsObjectIdentifiers(CmsObjectIdentifiers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 63 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

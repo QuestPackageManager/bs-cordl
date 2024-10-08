@@ -25,7 +25,7 @@ class ConsoleDriver;
 // Write type traits
 MARK_REF_PTR_T(::System::ConsoleDriver);
 // Type: System::ConsoleDriver
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::ConsoleDriver*
@@ -36,33 +36,33 @@ public:
   static __declspec(property(get = getStaticF_called_isatty, put = setStaticF_called_isatty)) bool called_isatty;
 
   /// @brief Field driver, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_driver, put = setStaticF_driver))::System::IConsoleDriver* driver;
+  static __declspec(property(get = getStaticF_driver, put = setStaticF_driver)) ::System::IConsoleDriver* driver;
 
   /// @brief Field is_console, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_is_console, put = setStaticF_is_console)) bool is_console;
 
-  /// @brief Method CreateNullConsoleDriver, addr 0x29ad6f0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CreateNullConsoleDriver, addr 0x3dbe0f8, size 0x40, virtual false, abstract: false, final false
   static inline ::System::IConsoleDriver* CreateNullConsoleDriver();
 
-  /// @brief Method CreateTermInfoDriver, addr 0x29ad798, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateTermInfoDriver, addr 0x3dbe18c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::IConsoleDriver* CreateTermInfoDriver(::StringW term);
 
-  /// @brief Method CreateWindowsConsoleDriver, addr 0x29ad73c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateWindowsConsoleDriver, addr 0x3dbe138, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IConsoleDriver* CreateWindowsConsoleDriver();
 
-  /// @brief Method InternalKeyAvailable, addr 0x29adb48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalKeyAvailable, addr 0x3dbe52c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t InternalKeyAvailable(int32_t ms_timeout);
 
-  /// @brief Method Isatty, addr 0x29adb44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Isatty, addr 0x3dbe528, size 0x4, virtual false, abstract: false, final false
   static inline bool Isatty(::System::IntPtr handle);
 
-  /// @brief Method ReadKey, addr 0x29ad0b4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadKey, addr 0x3dbdaf4, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  /// @brief Method SetEcho, addr 0x29adb50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEcho, addr 0x3dbe534, size 0x8, virtual false, abstract: false, final false
   static inline bool SetEcho(bool wantEcho);
 
-  /// @brief Method TtySetup, addr 0x29adb4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TtySetup, addr 0x3dbe530, size 0x4, virtual false, abstract: false, final false
   static inline bool TtySetup(::StringW keypadXmit, ::StringW teardown, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> control_characters, ByRef<::cordl_internals::Ptr<int32_t>> address);
 
   static inline bool getStaticF_called_isatty();
@@ -71,7 +71,7 @@ public:
 
   static inline bool getStaticF_is_console();
 
-  /// @brief Method get_IsConsole, addr 0x29ac904, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method get_IsConsole, addr 0x3dbd26c, size 0x140, virtual false, abstract: false, final false
   static inline bool get_IsConsole();
 
   static inline void setStaticF_called_isatty(bool value);
@@ -93,6 +93,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ConsoleDriver", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ConsoleDriver(ConsoleDriver const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2589 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

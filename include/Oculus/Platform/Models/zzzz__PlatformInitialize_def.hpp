@@ -17,7 +17,7 @@ class PlatformInitialize;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::PlatformInitialize);
 // Type: Oculus.Platform.Models::PlatformInitialize
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::PlatformInitialize*
@@ -25,7 +25,7 @@ class CORDL_TYPE PlatformInitialize : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Result, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_Result, put = __cordl_internal_set_Result))::Oculus::Platform::PlatformInitializeResult Result;
+  __declspec(property(get = __cordl_internal_get_Result, put = __cordl_internal_set_Result)) ::Oculus::Platform::PlatformInitializeResult Result;
 
   static inline ::Oculus::Platform::Models::PlatformInitialize* New_ctor(::System::IntPtr o);
 
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_Result(::Oculus::Platform::PlatformInitializeResult value);
 
-  /// @brief Method .ctor, addr 0x2b12684, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1d4f4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -54,6 +54,9 @@ public:
 
   /// @brief Field Result, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::PlatformInitializeResult ___Result;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15511 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

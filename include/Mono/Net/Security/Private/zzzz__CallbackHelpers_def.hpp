@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::Mono::Net::Security::Private::CallbackHelpers);
 MARK_REF_PTR_T(::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0);
 MARK_REF_PTR_T(::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0);
 // Type: ::<>c__DisplayClass0_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security::Private {
 // Is value type: false
 // CS Name: ::CallbackHelpers::<>c__DisplayClass0_0*
@@ -60,11 +60,11 @@ class CORDL_TYPE __CallbackHelpers____c__DisplayClass0_0 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Net::Security::RemoteCertificateValidationCallback* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Net::Security::RemoteCertificateValidationCallback* callback;
 
   static inline ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <PublicToMono>b__0, addr 0x2ca05fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <PublicToMono>b__0, addr 0x40a160c, size 0x24, virtual false, abstract: false, final false
   inline bool _PublicToMono_b__0(::StringW h, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch,
                                  ::Mono::Security::Interface::MonoSslPolicyErrors e);
 
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_callback(::System::Net::Security::RemoteCertificateValidationCallback* value);
 
-  /// @brief Method .ctor, addr 0x2ca05ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a15fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,6 +94,9 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Security::RemoteCertificateValidationCallback* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9132 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -103,7 +106,7 @@ static_assert(offsetof(::Mono::Net::Security::Private::__CallbackHelpers____c__D
 
 } // namespace Mono::Net::Security::Private
 // Type: ::<>c__DisplayClass6_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security::Private {
 // Is value type: false
 // CS Name: ::CallbackHelpers::<>c__DisplayClass6_0*
@@ -111,11 +114,11 @@ class CORDL_TYPE __CallbackHelpers____c__DisplayClass6_0 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback;
 
   static inline ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <MonoToInternal>b__0, addr 0x2ca0620, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <MonoToInternal>b__0, addr 0x40a1630, size 0x24, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* _MonoToInternal_b__0(::StringW t, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc,
                                                                                                    ::System::Security::Cryptography::X509Certificates::X509Certificate* rc,
                                                                                                    ::ArrayW<::StringW, ::Array<::StringW>*> ai);
@@ -126,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set_callback(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value);
 
-  /// @brief Method .ctor, addr 0x2ca05f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a1604, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -146,6 +149,9 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9133 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -155,7 +161,7 @@ static_assert(offsetof(::Mono::Net::Security::Private::__CallbackHelpers____c__D
 
 } // namespace Mono::Net::Security::Private
 // Type: Mono.Net.Security.Private::CallbackHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security::Private {
 // Is value type: false
 // CS Name: ::Mono.Net.Security.Private::CallbackHelpers*
@@ -166,10 +172,10 @@ public:
 
   using __c__DisplayClass6_0 = ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0;
 
-  /// @brief Method MonoToInternal, addr 0x2c9ac7c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method MonoToInternal, addr 0x409badc, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Net::Security::LocalCertSelectionCallback* MonoToInternal(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback);
 
-  /// @brief Method PublicToMono, addr 0x2ca053c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method PublicToMono, addr 0x40a0b60, size 0xb4, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* PublicToMono(::System::Net::Security::RemoteCertificateValidationCallback* callback);
 
 protected:
@@ -185,6 +191,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CallbackHelpers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CallbackHelpers(CallbackHelpers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9134 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

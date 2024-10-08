@@ -21,33 +21,33 @@ class Pkcs7Padding;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding);
 // Type: Org.BouncyCastle.Crypto.Paddings::Pkcs7Padding
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Paddings {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Paddings::Pkcs7Padding*
 class CORDL_TYPE Pkcs7Padding : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_PaddingName))::StringW PaddingName;
+  __declspec(property(get = get_PaddingName)) ::StringW PaddingName;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
   constexpr operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() noexcept;
 
-  /// @brief Method AddPadding, addr 0x11a046c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method AddPadding, addr 0x2377848, size 0x4c, virtual true, abstract: false, final true
   inline int32_t AddPadding(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method Init, addr 0x11a0428, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x2377804, size 0x4, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding* New_ctor();
 
-  /// @brief Method PadCount, addr 0x11a04b8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method PadCount, addr 0x2377894, size 0xc0, virtual true, abstract: false, final true
   inline int32_t PadCount(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method .ctor, addr 0x119f938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2376d28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_PaddingName, addr 0x11a042c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_PaddingName, addr 0x2377808, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_PaddingName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
@@ -66,6 +66,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs7Padding", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Pkcs7Padding(Pkcs7Padding const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1009 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

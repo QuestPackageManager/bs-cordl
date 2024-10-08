@@ -23,20 +23,20 @@ class LightTranslationEventBoxGroup;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup);
 // Type: BeatmapSaveDataVersion3::LightTranslationEventBoxGroup
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*
 class CORDL_TYPE LightTranslationEventBoxGroup : public ::BeatmapSaveDataVersion3::EventBoxGroup_1<::BeatmapSaveDataVersion3::LightTranslationEventBox*> {
 public:
   // Declarations
-  /// @brief Method CopyWith, addr 0x1504530, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CopyWith, addr 0x26c83cc, size 0xd8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup* CopyWith(::System::Nullable_1<float_t> newBeat, ::System::Nullable_1<int32_t> newGroupId);
 
   static inline ::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup* New_ctor(float_t beat, int32_t groupId,
                                                                                    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBox*>* eventBoxes);
 
-  /// @brief Method .ctor, addr 0x15044c0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c835c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t groupId, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBox*>* eventBoxes);
 
 protected:
@@ -52,6 +52,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LightTranslationEventBoxGroup", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LightTranslationEventBoxGroup(LightTranslationEventBoxGroup const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13358 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,7 +36,7 @@ class BigIntegerStorage;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::Common::BigIntegerStorage);
 // Type: System.Data.Common::BigIntegerStorage
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data::Common {
 // Is value type: false
 // CS Name: ::System.Data.Common::BigIntegerStorage*
@@ -44,53 +44,53 @@ class CORDL_TYPE BigIntegerStorage : public ::System::Data::Common::DataStorage 
 public:
   // Declarations
   /// @brief Field _values, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values))::ArrayW<::System::Numerics::BigInteger, ::Array<::System::Numerics::BigInteger>*> _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::ArrayW<::System::Numerics::BigInteger, ::Array<::System::Numerics::BigInteger>*> _values;
 
-  /// @brief Method Aggregate, addr 0x2d600b8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Aggregate, addr 0x416475c, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method Compare, addr 0x2d600e8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x416478c, size 0x118, virtual true, abstract: false, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareValueTo, addr 0x2d6019c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x4164914, size 0x128, virtual true, abstract: false, final false
   inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
 
-  /// @brief Method ConvertFromBigInteger, addr 0x2d60a3c, size 0x788, virtual false, abstract: false, final false
+  /// @brief Method ConvertFromBigInteger, addr 0x4165238, size 0x794, virtual false, abstract: false, final false
   static inline ::System::Object* ConvertFromBigInteger(::System::Numerics::BigInteger value, ::System::Type* type, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method ConvertObjectToXml, addr 0x2d615e8, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x4165f48, size 0xf0, virtual true, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertToBigInteger, addr 0x2d602a8, size 0x794, virtual false, abstract: false, final false
+  /// @brief Method ConvertToBigInteger, addr 0x4164a64, size 0x7d4, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger ConvertToBigInteger(::System::Object* value, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method ConvertValue, addr 0x2d611c4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x41659cc, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
-  /// @brief Method ConvertXmlToObject, addr 0x2d61538, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x4165e98, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method Copy, addr 0x2d6125c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x4165a88, size 0x54, virtual true, abstract: false, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CopyValue, addr 0x2d61708, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method CopyValue, addr 0x4166080, size 0x104, virtual true, abstract: false, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method Get, addr 0x2d612b8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x4165b1c, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Object* Get(int32_t record);
 
-  /// @brief Method GetEmptyStorage, addr 0x2d616c0, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetEmptyStorage, addr 0x4166038, size 0x48, virtual true, abstract: false, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
   static inline ::System::Data::Common::BigIntegerStorage* New_ctor(::System::Data::DataColumn* column);
 
-  /// @brief Method Set, addr 0x2d61368, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x4165c10, size 0x12c, virtual true, abstract: false, final false
   inline void Set(int32_t record, ::System::Object* value);
 
-  /// @brief Method SetCapacity, addr 0x2d61474, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x4165d5c, size 0xc0, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetStorage, addr 0x2d61810, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x4166184, size 0x94, virtual true, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
   constexpr ::ArrayW<::System::Numerics::BigInteger, ::Array<::System::Numerics::BigInteger>*> const& __cordl_internal_get__values() const;
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__values(::ArrayW<::System::Numerics::BigInteger, ::Array<::System::Numerics::BigInteger>*> value);
 
-  /// @brief Method .ctor, addr 0x2d5ff74, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4164588, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column);
 
 protected:
@@ -118,6 +118,9 @@ public:
 
   /// @brief Field _values, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::System::Numerics::BigInteger, ::Array<::System::Numerics::BigInteger>*> ____values;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11482 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -32,7 +32,7 @@ class RegexCode;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexCode);
 // Type: System.Text.RegularExpressions::RegexCode
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
 // CS Name: ::System.Text.RegularExpressions::RegexCode*
@@ -43,25 +43,25 @@ public:
   __declspec(property(get = __cordl_internal_get_Anchors, put = __cordl_internal_set_Anchors)) int32_t Anchors;
 
   /// @brief Field BMPrefix, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_BMPrefix, put = __cordl_internal_set_BMPrefix))::System::Text::RegularExpressions::RegexBoyerMoore* BMPrefix;
+  __declspec(property(get = __cordl_internal_get_BMPrefix, put = __cordl_internal_set_BMPrefix)) ::System::Text::RegularExpressions::RegexBoyerMoore* BMPrefix;
 
   /// @brief Field CapSize, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_CapSize, put = __cordl_internal_set_CapSize)) int32_t CapSize;
 
   /// @brief Field Caps, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Caps, put = __cordl_internal_set_Caps))::System::Collections::Hashtable* Caps;
+  __declspec(property(get = __cordl_internal_get_Caps, put = __cordl_internal_set_Caps)) ::System::Collections::Hashtable* Caps;
 
   /// @brief Field Codes, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Codes, put = __cordl_internal_set_Codes))::ArrayW<int32_t, ::Array<int32_t>*> Codes;
+  __declspec(property(get = __cordl_internal_get_Codes, put = __cordl_internal_set_Codes)) ::ArrayW<int32_t, ::Array<int32_t>*> Codes;
 
   /// @brief Field FCPrefix, offset 0x38, size 0x18
-  __declspec(property(get = __cordl_internal_get_FCPrefix, put = __cordl_internal_set_FCPrefix))::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> FCPrefix;
+  __declspec(property(get = __cordl_internal_get_FCPrefix, put = __cordl_internal_set_FCPrefix)) ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> FCPrefix;
 
   /// @brief Field RightToLeft, offset 0x5c, size 0x1
   __declspec(property(get = __cordl_internal_get_RightToLeft, put = __cordl_internal_set_RightToLeft)) bool RightToLeft;
 
   /// @brief Field Strings, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Strings, put = __cordl_internal_set_Strings))::ArrayW<::StringW, ::Array<::StringW>*> Strings;
+  __declspec(property(get = __cordl_internal_get_Strings, put = __cordl_internal_set_Strings)) ::ArrayW<::StringW, ::Array<::StringW>*> Strings;
 
   /// @brief Field TrackCount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_TrackCount, put = __cordl_internal_set_TrackCount)) int32_t TrackCount;
@@ -70,7 +70,7 @@ public:
                                                                         ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix,
                                                                         ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft);
 
-  /// @brief Method OpcodeBacktracks, addr 0x2fbef98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OpcodeBacktracks, addr 0x43a6d40, size 0x30, virtual false, abstract: false, final false
   static inline bool OpcodeBacktracks(int32_t Op);
 
   constexpr int32_t const& __cordl_internal_get_Anchors() const;
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set_TrackCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2fbeec8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a6c70, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> codes, ::System::Collections::Generic::List_1<::StringW>* stringlist, int32_t trackcount, ::System::Collections::Hashtable* caps,
                     int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix, ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors,
                     bool rightToLeft);
@@ -316,6 +316,9 @@ public:
 
   /// @brief Field Testref offset 0xffffffff size 0x4
   static constexpr int32_t Testref{ static_cast<int32_t>(0x25) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9204 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

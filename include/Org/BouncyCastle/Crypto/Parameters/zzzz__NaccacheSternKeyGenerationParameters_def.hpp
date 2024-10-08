@@ -16,7 +16,7 @@ class NaccacheSternKeyGenerationParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::NaccacheSternKeyGenerationParameters
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::NaccacheSternKeyGenerationParameters*
@@ -53,19 +53,19 @@ public:
 
   constexpr void __cordl_internal_set_countSmallPrimes(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11a9fe8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2380164, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty, int32_t countSmallPrimes);
 
-  /// @brief Method .ctor, addr 0x11aa0a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2380218, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty, int32_t countSmallPrimes, bool debug);
 
-  /// @brief Method get_Certainty, addr 0x11aa0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certainty, addr 0x238021c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Certainty();
 
-  /// @brief Method get_CountSmallPrimes, addr 0x11aa0b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CountSmallPrimes, addr 0x2380224, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CountSmallPrimes();
 
-  /// @brief Method get_IsDebug, addr 0x11aa0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDebug, addr 0x238022c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDebug();
 
 protected:
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field countSmallPrimes, offset: 0x20, size: 0x4, def value: None
   int32_t ___countSmallPrimes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1068 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,17 +13,17 @@ class AspMvcAreaAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcAreaAttribute);
 // Type: JetBrains.Annotations::AspMvcAreaAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::AspMvcAreaAttribute*
 class CORDL_TYPE AspMvcAreaAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_AnonymousProperty, put = set_AnonymousProperty))::StringW AnonymousProperty;
+  __declspec(property(get = get_AnonymousProperty, put = set_AnonymousProperty)) ::StringW AnonymousProperty;
 
   /// @brief Field <AnonymousProperty>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__AnonymousProperty_k__BackingField, put = __cordl_internal_set__AnonymousProperty_k__BackingField))::StringW _AnonymousProperty_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__AnonymousProperty_k__BackingField, put = __cordl_internal_set__AnonymousProperty_k__BackingField)) ::StringW _AnonymousProperty_k__BackingField;
 
   static inline ::JetBrains::Annotations::AspMvcAreaAttribute* New_ctor();
 
@@ -35,16 +35,16 @@ public:
 
   constexpr void __cordl_internal_set__AnonymousProperty_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3651570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77df0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3651578, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77df8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW anonymousProperty);
 
-  /// @brief Method get_AnonymousProperty, addr 0x36515a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnonymousProperty, addr 0x4a77e20, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AnonymousProperty();
 
-  /// @brief Method set_AnonymousProperty, addr 0x36515a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnonymousProperty, addr 0x4a77e28, size 0x8, virtual false, abstract: false, final false
   inline void set_AnonymousProperty(::StringW value);
 
 protected:
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field <AnonymousProperty>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____AnonymousProperty_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18356 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::System::Security::Util::__Tokenizer__ITokenReader);
 MARK_REF_PTR_T(::System::Security::Util::__Tokenizer__StreamTokenReader);
 MARK_REF_PTR_T(::System::Security::Util::__Tokenizer__StringMaker);
 // Type: ::TokenSource
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: true
 // CS Name: ::Tokenizer::TokenSource
@@ -118,6 +118,9 @@ public:
   /// @brief Field UnicodeByteArray value: static_cast<int32_t>(0x0)
   static ::System::Security::Util::__Tokenizer__TokenSource const UnicodeByteArray;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2895 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -130,7 +133,7 @@ static_assert(offsetof(::System::Security::Util::__Tokenizer__TokenSource, value
 
 } // namespace System::Security::Util
 // Type: ::StringMaker
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: false
 // CS Name: ::Tokenizer::StringMaker*
@@ -138,16 +141,16 @@ class CORDL_TYPE __Tokenizer__StringMaker : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _outChars, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__outChars, put = __cordl_internal_set__outChars))::ArrayW<char16_t, ::Array<char16_t>*> _outChars;
+  __declspec(property(get = __cordl_internal_get__outChars, put = __cordl_internal_set__outChars)) ::ArrayW<char16_t, ::Array<char16_t>*> _outChars;
 
   /// @brief Field _outIndex, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__outIndex, put = __cordl_internal_set__outIndex)) int32_t _outIndex;
 
   /// @brief Field _outStringBuilder, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__outStringBuilder, put = __cordl_internal_set__outStringBuilder))::System::Text::StringBuilder* _outStringBuilder;
+  __declspec(property(get = __cordl_internal_get__outStringBuilder, put = __cordl_internal_set__outStringBuilder)) ::System::Text::StringBuilder* _outStringBuilder;
 
   /// @brief Field aStrings, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_aStrings, put = __cordl_internal_set_aStrings))::ArrayW<::StringW, ::Array<::StringW>*> aStrings;
+  __declspec(property(get = __cordl_internal_get_aStrings, put = __cordl_internal_set_aStrings)) ::ArrayW<::StringW, ::Array<::StringW>*> aStrings;
 
   /// @brief Field cStringsMax, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_cStringsMax, put = __cordl_internal_set_cStringsMax)) uint32_t cStringsMax;
@@ -155,16 +158,16 @@ public:
   /// @brief Field cStringsUsed, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_cStringsUsed, put = __cordl_internal_set_cStringsUsed)) uint32_t cStringsUsed;
 
-  /// @brief Method CompareStringAndChars, addr 0x2803788, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CompareStringAndChars, addr 0x3c23370, size 0xa0, virtual false, abstract: false, final false
   inline bool CompareStringAndChars(::StringW str, ::ArrayW<char16_t, ::Array<char16_t>*> a, int32_t l);
 
-  /// @brief Method HashCharArray, addr 0x2803698, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HashCharArray, addr 0x3c23280, size 0x5c, virtual false, abstract: false, final false
   static inline uint32_t HashCharArray(::ArrayW<char16_t, ::Array<char16_t>*> a, int32_t l);
 
-  /// @brief Method HashString, addr 0x280362c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HashString, addr 0x3c23214, size 0x6c, virtual false, abstract: false, final false
   static inline uint32_t HashString(::StringW str);
 
-  /// @brief Method MakeString, addr 0x27fdf08, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method MakeString, addr 0x3c1dc54, size 0x21c, virtual false, abstract: false, final false
   inline ::StringW MakeString();
 
   static inline ::System::Security::Util::__Tokenizer__StringMaker* New_ctor();
@@ -205,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set_cStringsUsed(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x28036f4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c232dc, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -240,6 +243,9 @@ public:
   /// @brief Field _outIndex, offset: 0x30, size: 0x4, def value: None
   int32_t ____outIndex;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2896 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -259,7 +265,7 @@ static_assert(offsetof(::System::Security::Util::__Tokenizer__StringMaker, ____o
 
 } // namespace System::Security::Util
 // Type: ::ITokenReader
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: false
 // CS Name: ::Tokenizer::ITokenReader*
@@ -277,12 +283,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Tokenizer__ITokenReader(__Tokenizer__ITokenReader const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2897 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Security::Util
 // Type: ::StreamTokenReader
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: false
 // CS Name: ::Tokenizer::StreamTokenReader*
@@ -292,7 +301,7 @@ public:
   __declspec(property(get = get_NumCharEncountered)) int32_t NumCharEncountered;
 
   /// @brief Field _in, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__in, put = __cordl_internal_set__in))::System::IO::StreamReader* _in;
+  __declspec(property(get = __cordl_internal_get__in, put = __cordl_internal_set__in)) ::System::IO::StreamReader* _in;
 
   /// @brief Field _numCharRead, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__numCharRead, put = __cordl_internal_set__numCharRead)) int32_t _numCharRead;
@@ -302,7 +311,7 @@ public:
 
   static inline ::System::Security::Util::__Tokenizer__StreamTokenReader* New_ctor(::System::IO::StreamReader* input);
 
-  /// @brief Method Read, addr 0x280381c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3c23410, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Read();
 
   constexpr ::System::IO::StreamReader*& __cordl_internal_get__in();
@@ -317,10 +326,10 @@ public:
 
   constexpr void __cordl_internal_set__numCharRead(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2803410, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c23024, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::StreamReader* input);
 
-  /// @brief Method get_NumCharEncountered, addr 0x2803858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NumCharEncountered, addr 0x3c2344c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NumCharEncountered();
 
   /// @brief Convert to "::System::Security::Util::__Tokenizer__ITokenReader"
@@ -346,6 +355,9 @@ public:
   /// @brief Field _numCharRead, offset: 0x18, size: 0x4, def value: None
   int32_t ____numCharRead;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2898 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -357,7 +369,7 @@ static_assert(offsetof(::System::Security::Util::__Tokenizer__StreamTokenReader,
 
 } // namespace System::Security::Util
 // Type: System.Security.Util::Tokenizer
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: false
 // CS Name: ::System.Security.Util::Tokenizer*
@@ -376,10 +388,10 @@ public:
   __declspec(property(get = __cordl_internal_get_LineNo, put = __cordl_internal_set_LineNo)) int32_t LineNo;
 
   /// @brief Field _inBytes, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__inBytes, put = __cordl_internal_set__inBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> _inBytes;
+  __declspec(property(get = __cordl_internal_get__inBytes, put = __cordl_internal_set__inBytes)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _inBytes;
 
   /// @brief Field _inChars, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__inChars, put = __cordl_internal_set__inChars))::ArrayW<char16_t, ::Array<char16_t>*> _inChars;
+  __declspec(property(get = __cordl_internal_get__inChars, put = __cordl_internal_set__inChars)) ::ArrayW<char16_t, ::Array<char16_t>*> _inChars;
 
   /// @brief Field _inIndex, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__inIndex, put = __cordl_internal_set__inIndex)) int32_t _inIndex;
@@ -391,7 +403,7 @@ public:
   __declspec(property(get = __cordl_internal_get__inNestedSize, put = __cordl_internal_set__inNestedSize)) int32_t _inNestedSize;
 
   /// @brief Field _inNestedString, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__inNestedString, put = __cordl_internal_set__inNestedString))::StringW _inNestedString;
+  __declspec(property(get = __cordl_internal_get__inNestedString, put = __cordl_internal_set__inNestedString)) ::StringW _inNestedString;
 
   /// @brief Field _inProcessingTag, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__inProcessingTag, put = __cordl_internal_set__inProcessingTag)) int32_t _inProcessingTag;
@@ -403,38 +415,38 @@ public:
   __declspec(property(get = __cordl_internal_get__inSize, put = __cordl_internal_set__inSize)) int32_t _inSize;
 
   /// @brief Field _inString, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__inString, put = __cordl_internal_set__inString))::StringW _inString;
+  __declspec(property(get = __cordl_internal_get__inString, put = __cordl_internal_set__inString)) ::StringW _inString;
 
   /// @brief Field _inTokenReader, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__inTokenReader, put = __cordl_internal_set__inTokenReader))::System::Security::Util::__Tokenizer__ITokenReader* _inTokenReader;
+  __declspec(property(get = __cordl_internal_get__inTokenReader, put = __cordl_internal_set__inTokenReader)) ::System::Security::Util::__Tokenizer__ITokenReader* _inTokenReader;
 
   /// @brief Field _inTokenSource, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__inTokenSource, put = __cordl_internal_set__inTokenSource))::System::Security::Util::__Tokenizer__TokenSource _inTokenSource;
+  __declspec(property(get = __cordl_internal_get__inTokenSource, put = __cordl_internal_set__inTokenSource)) ::System::Security::Util::__Tokenizer__TokenSource _inTokenSource;
 
   /// @brief Field _maker, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__maker, put = __cordl_internal_set__maker))::System::Security::Util::__Tokenizer__StringMaker* _maker;
+  __declspec(property(get = __cordl_internal_get__maker, put = __cordl_internal_set__maker)) ::System::Security::Util::__Tokenizer__StringMaker* _maker;
 
   /// @brief Field _replaceStrings, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__replaceStrings, put = __cordl_internal_set__replaceStrings))::ArrayW<::StringW, ::Array<::StringW>*> _replaceStrings;
+  __declspec(property(get = __cordl_internal_get__replaceStrings, put = __cordl_internal_set__replaceStrings)) ::ArrayW<::StringW, ::Array<::StringW>*> _replaceStrings;
 
   /// @brief Field _searchStrings, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__searchStrings, put = __cordl_internal_set__searchStrings))::ArrayW<::StringW, ::Array<::StringW>*> _searchStrings;
+  __declspec(property(get = __cordl_internal_get__searchStrings, put = __cordl_internal_set__searchStrings)) ::ArrayW<::StringW, ::Array<::StringW>*> _searchStrings;
 
-  /// @brief Method BasicInitialization, addr 0x280333c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BasicInitialization, addr 0x3c22f54, size 0x78, virtual false, abstract: false, final false
   inline void BasicInitialization();
 
-  /// @brief Method ChangeFormat, addr 0x2802b80, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ChangeFormat, addr 0x3c227b8, size 0x220, virtual false, abstract: false, final false
   inline void ChangeFormat(::System::Text::Encoding* encoding);
 
-  /// @brief Method GetStringToken, addr 0x2803524, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetStringToken, addr 0x3c23134, size 0x18, virtual false, abstract: false, final false
   inline ::StringW GetStringToken();
 
-  /// @brief Method GetTokens, addr 0x2802340, size 0x7e0, virtual false, abstract: false, final false
+  /// @brief Method GetTokens, addr 0x3c21f84, size 0x7d4, virtual false, abstract: false, final false
   inline void GetTokens(::System::Security::Util::TokenizerStream* stream, int32_t maxNum, bool endAfterKet);
 
   static inline ::System::Security::Util::Tokenizer* New_ctor(::StringW input);
 
-  /// @brief Method Recycle, addr 0x28033b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Recycle, addr 0x3c22fcc, size 0x58, virtual false, abstract: false, final false
   inline void Recycle();
 
   constexpr int32_t const& __cordl_internal_get_LineNo() const;
@@ -533,7 +545,7 @@ public:
 
   constexpr void __cordl_internal_set__searchStrings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x28032f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c22f0c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::StringW input);
 
 protected:
@@ -597,6 +609,9 @@ public:
 
   /// @brief Field _inNestedString, offset: 0x68, size: 0x8, def value: None
   ::StringW ____inNestedString;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2899 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

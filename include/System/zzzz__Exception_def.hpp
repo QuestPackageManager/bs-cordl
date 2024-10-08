@@ -53,7 +53,7 @@ class Exception;
 MARK_VAL_T(::System::__Exception__ExceptionMessageKind);
 MARK_REF_PTR_T(::System::Exception);
 // Type: ::ExceptionMessageKind
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
 // CS Name: ::Exception::ExceptionMessageKind
@@ -98,6 +98,9 @@ public:
   /// @brief Field ThreadInterrupted value: static_cast<int32_t>(0x2)
   static ::System::__Exception__ExceptionMessageKind const ThreadInterrupted;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2561 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -110,7 +113,7 @@ static_assert(offsetof(::System::__Exception__ExceptionMessageKind, value__) == 
 
 } // namespace System
 // Type: System::Exception
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::Exception*
@@ -119,93 +122,94 @@ public:
   // Declarations
   using ExceptionMessageKind = ::System::__Exception__ExceptionMessageKind;
 
-  __declspec(property(get = get_Data))::System::Collections::IDictionary* Data;
+  __declspec(property(get = get_Data)) ::System::Collections::IDictionary* Data;
 
   __declspec(property(get = get_HResult, put = set_HResult)) int32_t HResult;
 
-  __declspec(property(get = get_InnerException))::System::Exception* InnerException;
+  __declspec(property(get = get_InnerException)) ::System::Exception* InnerException;
 
-  __declspec(property(get = get_Message))::StringW Message;
+  __declspec(property(get = get_Message)) ::StringW Message;
 
-  __declspec(property(get = get_Source))::StringW Source;
+  __declspec(property(get = get_Source)) ::StringW Source;
 
-  __declspec(property(get = get_StackTrace))::StringW StackTrace;
+  __declspec(property(get = get_StackTrace)) ::StringW StackTrace;
 
   /// @brief Field _HResult, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__HResult, put = __cordl_internal_set__HResult)) int32_t _HResult;
 
   /// @brief Field _className, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__className, put = __cordl_internal_set__className))::StringW _className;
+  __declspec(property(get = __cordl_internal_get__className, put = __cordl_internal_set__className)) ::StringW _className;
 
   /// @brief Field _data, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::System::Collections::IDictionary* _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data)) ::System::Collections::IDictionary* _data;
 
   /// @brief Field _dynamicMethods, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__dynamicMethods, put = __cordl_internal_set__dynamicMethods))::System::Object* _dynamicMethods;
+  __declspec(property(get = __cordl_internal_get__dynamicMethods, put = __cordl_internal_set__dynamicMethods)) ::System::Object* _dynamicMethods;
 
   /// @brief Field _helpURL, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__helpURL, put = __cordl_internal_set__helpURL))::StringW _helpURL;
+  __declspec(property(get = __cordl_internal_get__helpURL, put = __cordl_internal_set__helpURL)) ::StringW _helpURL;
 
   /// @brief Field _innerException, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__innerException, put = __cordl_internal_set__innerException))::System::Exception* _innerException;
+  __declspec(property(get = __cordl_internal_get__innerException, put = __cordl_internal_set__innerException)) ::System::Exception* _innerException;
 
   /// @brief Field _message, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__message, put = __cordl_internal_set__message))::StringW _message;
+  __declspec(property(get = __cordl_internal_get__message, put = __cordl_internal_set__message)) ::StringW _message;
 
   /// @brief Field _remoteStackIndex, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__remoteStackIndex, put = __cordl_internal_set__remoteStackIndex)) int32_t _remoteStackIndex;
 
   /// @brief Field _remoteStackTraceString, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__remoteStackTraceString, put = __cordl_internal_set__remoteStackTraceString))::StringW _remoteStackTraceString;
+  __declspec(property(get = __cordl_internal_get__remoteStackTraceString, put = __cordl_internal_set__remoteStackTraceString)) ::StringW _remoteStackTraceString;
 
   /// @brief Field _safeSerializationManager, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__safeSerializationManager,
-                      put = __cordl_internal_set__safeSerializationManager))::System::Runtime::Serialization::SafeSerializationManager* _safeSerializationManager;
+                      put = __cordl_internal_set__safeSerializationManager)) ::System::Runtime::Serialization::SafeSerializationManager* _safeSerializationManager;
 
   /// @brief Field _source, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__source, put = __cordl_internal_set__source))::StringW _source;
+  __declspec(property(get = __cordl_internal_get__source, put = __cordl_internal_set__source)) ::StringW _source;
 
   /// @brief Field _stackTrace, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__stackTrace, put = __cordl_internal_set__stackTrace))::System::Object* _stackTrace;
+  __declspec(property(get = __cordl_internal_get__stackTrace, put = __cordl_internal_set__stackTrace)) ::System::Object* _stackTrace;
 
   /// @brief Field _stackTraceString, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__stackTraceString, put = __cordl_internal_set__stackTraceString))::StringW _stackTraceString;
+  __declspec(property(get = __cordl_internal_get__stackTraceString, put = __cordl_internal_set__stackTraceString)) ::StringW _stackTraceString;
 
   /// @brief Field captured_traces, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_captured_traces,
-                      put = __cordl_internal_set_captured_traces))::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> captured_traces;
+                      put = __cordl_internal_set_captured_traces)) ::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*>
+      captured_traces;
 
   /// @brief Field caught_in_unmanaged, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get_caught_in_unmanaged, put = __cordl_internal_set_caught_in_unmanaged)) int32_t caught_in_unmanaged;
 
   /// @brief Field native_trace_ips, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_native_trace_ips, put = __cordl_internal_set_native_trace_ips))::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> native_trace_ips;
+  __declspec(property(get = __cordl_internal_get_native_trace_ips, put = __cordl_internal_set_native_trace_ips)) ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> native_trace_ips;
 
   /// @brief Field s_EDILock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_EDILock, put = setStaticF_s_EDILock))::System::Object* s_EDILock;
+  static __declspec(property(get = getStaticF_s_EDILock, put = setStaticF_s_EDILock)) ::System::Object* s_EDILock;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method FixRemotingException, addr 0x299ca0c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FixRemotingException, addr 0x3dae0f0, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Exception* FixRemotingException();
 
-  /// @brief Method GetClassName, addr 0x299bed8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetClassName, addr 0x3dad68c, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW GetClassName();
 
-  /// @brief Method GetMessageFromNativeResources, addr 0x299c988, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetMessageFromNativeResources, addr 0x3dae06c, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW GetMessageFromNativeResources(::System::__Exception__ExceptionMessageKind kind);
 
-  /// @brief Method GetObjectData, addr 0x299c3b0, size 0x4ac, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3dadaa0, size 0x4a8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetStackTrace, addr 0x299bf98, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetStackTrace, addr 0x3dad744, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW GetStackTrace(bool needFileInfo);
 
-  /// @brief Method GetType, addr 0x299bf80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetType, addr 0x3dad72c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetType();
 
-  /// @brief Method Init, addr 0x299b89c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3dad064, size 0x70, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Exception* New_ctor();
@@ -216,25 +220,25 @@ public:
 
   static inline ::System::Exception* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method OnDeserialized, addr 0x299c85c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x3dadf48, size 0x78, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ReportUnhandledException, addr 0x299caf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReportUnhandledException, addr 0x3dae1d8, size 0x4, virtual false, abstract: false, final false
   static inline void ReportUnhandledException(::System::Exception* exception);
 
-  /// @brief Method RestoreExceptionDispatchInfo, addr 0x299c8dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RestoreExceptionDispatchInfo, addr 0x3dadfc0, size 0x9c, virtual false, abstract: false, final false
   inline void RestoreExceptionDispatchInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* exceptionDispatchInfo);
 
-  /// @brief Method SetErrorCode, addr 0x299bfec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetErrorCode, addr 0x3dad798, size 0x8, virtual false, abstract: false, final false
   inline void SetErrorCode(int32_t hr);
 
-  /// @brief Method StripFileInfo, addr 0x299bfe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method StripFileInfo, addr 0x3dad790, size 0x8, virtual false, abstract: false, final false
   inline ::StringW StripFileInfo(::StringW stackTrace, bool isRemoteStackTrace);
 
-  /// @brief Method ToString, addr 0x299c100, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3dad8ac, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x299c10c, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3dad8b8, size 0x1e8, virtual false, abstract: false, final false
   inline ::StringW ToString(bool needFileLineInfo, bool needMessage);
 
   constexpr int32_t const& __cordl_internal_get__HResult() const;
@@ -333,36 +337,36 @@ public:
 
   constexpr void __cordl_internal_set_native_trace_ips(::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> value);
 
-  /// @brief Method .ctor, addr 0x299b914, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dad0d4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x299b998, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dad158, size 0x45c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x299b930, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dad0f0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x299b960, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dad120, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::Object* getStaticF_s_EDILock();
 
-  /// @brief Method get_Data, addr 0x299bf14, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_Data, addr 0x3dad6c8, size 0x64, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Data();
 
-  /// @brief Method get_HResult, addr 0x299c978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HResult, addr 0x3dae05c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_HResult();
 
-  /// @brief Method get_InnerException, addr 0x299bf88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_InnerException, addr 0x3dad734, size 0x8, virtual true, abstract: false, final true
   inline ::System::Exception* get_InnerException();
 
-  /// @brief Method get_Message, addr 0x299be00, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3dad5b4, size 0xd8, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_Source, addr 0x299bff4, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method get_Source, addr 0x3dad7a0, size 0x10c, virtual true, abstract: false, final false
   inline ::StringW get_Source();
 
-  /// @brief Method get_StackTrace, addr 0x299bf90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StackTrace, addr 0x3dad73c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_StackTrace();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -370,7 +374,7 @@ public:
 
   static inline void setStaticF_s_EDILock(::System::Object* value);
 
-  /// @brief Method set_HResult, addr 0x299c980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HResult, addr 0x3dae064, size 0x8, virtual false, abstract: false, final false
   inline void set_HResult(int32_t value);
 
 protected:
@@ -437,6 +441,9 @@ public:
 
   /// @brief Field _COMPlusExceptionCode offset 0xffffffff size 0x4
   static constexpr int32_t _COMPlusExceptionCode{ static_cast<int32_t>(0xe0434352) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2562 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

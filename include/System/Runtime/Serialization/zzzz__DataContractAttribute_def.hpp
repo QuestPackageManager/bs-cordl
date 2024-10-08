@@ -12,7 +12,7 @@ class DataContractAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::DataContractAttribute);
 // Type: System.Runtime.Serialization::DataContractAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization::DataContractAttribute*
@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_isReference(bool value);
 
-  /// @brief Method get_IsReference, addr 0x2db98e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReference, addr 0x41be744, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReference();
 
 protected:
@@ -49,6 +49,9 @@ public:
 
   /// @brief Field isReference, offset: 0x10, size: 0x1, def value: None
   bool ___isReference;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19132 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ class COMException;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::COMException);
 // Type: System.Runtime.InteropServices::COMException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // CS Name: ::System.Runtime.InteropServices::COMException*
@@ -30,13 +30,13 @@ public:
 
   static inline ::System::Runtime::InteropServices::COMException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x2884be8, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c9ea18, size 0x1e0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2884bdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9ea0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2884be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9ea10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:
@@ -52,6 +52,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "COMException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   COMException(COMException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3310 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

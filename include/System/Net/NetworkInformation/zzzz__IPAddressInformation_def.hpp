@@ -15,18 +15,18 @@ class IPAddressInformation;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::IPAddressInformation);
 // Type: System.Net.NetworkInformation::IPAddressInformation
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // CS Name: ::System.Net.NetworkInformation::IPAddressInformation*
 class CORDL_TYPE IPAddressInformation : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Address))::System::Net::IPAddress* Address;
+  __declspec(property(get = get_Address)) ::System::Net::IPAddress* Address;
 
   static inline ::System::Net::NetworkInformation::IPAddressInformation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x304e904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x437267c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Address, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IPAddressInformation", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IPAddressInformation(IPAddressInformation const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9734 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

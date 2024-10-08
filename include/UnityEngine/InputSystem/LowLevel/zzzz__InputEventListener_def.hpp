@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::__InputEventListener__Dispo
 MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::__InputEventListener__ObserverState);
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputEventListener);
 // Type: ::ObserverState
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // CS Name: ::InputEventListener::ObserverState*
@@ -54,13 +54,13 @@ class CORDL_TYPE __InputEventListener__ObserverState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field observers, offset 0x10, size 0x18
-  __declspec(
-      property(get = __cordl_internal_get_observers,
-               put = __cordl_internal_set_observers))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> observers;
+  __declspec(property(get = __cordl_internal_get_observers,
+                      put = __cordl_internal_set_observers)) ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*>
+      observers;
 
   /// @brief Field onEventDelegate, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_onEventDelegate,
-                      put = __cordl_internal_set_onEventDelegate))::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* onEventDelegate;
+                      put = __cordl_internal_set_onEventDelegate)) ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* onEventDelegate;
 
   static inline ::UnityEngine::InputSystem::LowLevel::__InputEventListener__ObserverState* New_ctor();
 
@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_onEventDelegate(::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* value);
 
-  /// @brief Method <.ctor>b__2_0, addr 0x319133c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_0, addr 0x45942b4, size 0xf4, virtual false, abstract: false, final false
   inline void __ctor_b__2_0(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method .ctor, addr 0x31912ac, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4594224, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,6 +103,9 @@ public:
   /// @brief Field onEventDelegate, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* ___onEventDelegate;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6908 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -114,7 +117,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputEventListene
 
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: ::DisposableObserver
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // CS Name: ::InputEventListener::DisposableObserver*
@@ -122,12 +125,12 @@ class CORDL_TYPE __InputEventListener__DisposableObserver : public ::System::Obj
 public:
   // Declarations
   /// @brief Field observer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_observer, put = __cordl_internal_set_observer))::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer;
+  __declspec(property(get = __cordl_internal_get_observer, put = __cordl_internal_set_observer)) ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3191430, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x45943a8, size 0x138, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::InputSystem::LowLevel::__InputEventListener__DisposableObserver* New_ctor();
@@ -138,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_observer(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method .ctor, addr 0x3191334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45942ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -161,6 +164,9 @@ public:
   /// @brief Field observer, offset: 0x10, size: 0x8, def value: None
   ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ___observer;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6909 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -170,7 +176,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputEventListene
 
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: UnityEngine.InputSystem.LowLevel::InputEventListener
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputEventListener
@@ -183,12 +189,12 @@ public:
   using ObserverState = ::UnityEngine::InputSystem::LowLevel::__InputEventListener__ObserverState;
 
   /// @brief Field s_ObserverState, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ObserverState, put = setStaticF_s_ObserverState))::UnityEngine::InputSystem::LowLevel::__InputEventListener__ObserverState* s_ObserverState;
+  static __declspec(property(get = getStaticF_s_ObserverState, put = setStaticF_s_ObserverState)) ::UnityEngine::InputSystem::LowLevel::__InputEventListener__ObserverState* s_ObserverState;
 
   /// @brief Convert operator to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*();
 
-  /// @brief Method Subscribe, addr 0x3191150, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method Subscribe, addr 0x45940cc, size 0x158, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
   static inline ::UnityEngine::InputSystem::LowLevel::__InputEventListener__ObserverState* getStaticF_s_ObserverState();
@@ -196,11 +202,11 @@ public:
   /// @brief Convert to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* i___System__IObservable_1___UnityEngine__InputSystem__LowLevel__InputEventPtr_();
 
-  /// @brief Method op_Addition, addr 0x318b09c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x458e078, size 0x178, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventListener
   op_Addition(::UnityEngine::InputSystem::LowLevel::InputEventListener _, ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* callback);
 
-  /// @brief Method op_Subtraction, addr 0x318b380, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x458e354, size 0x178, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventListener
   op_Subtraction(::UnityEngine::InputSystem::LowLevel::InputEventListener _,
                  ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* callback);
@@ -211,8 +217,8 @@ public:
   // @brief default ctor
   constexpr InputEventListener();
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6910 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

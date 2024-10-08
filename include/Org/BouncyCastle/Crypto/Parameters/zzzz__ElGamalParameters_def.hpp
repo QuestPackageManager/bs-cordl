@@ -22,38 +22,38 @@ class ElGamalParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::ElGamalParameters
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ElGamalParameters*
 class CORDL_TYPE ElGamalParameters : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_G))::Org::BouncyCastle::Math::BigInteger* G;
+  __declspec(property(get = get_G)) ::Org::BouncyCastle::Math::BigInteger* G;
 
   __declspec(property(get = get_L)) int32_t L;
 
-  __declspec(property(get = get_P))::Org::BouncyCastle::Math::BigInteger* P;
+  __declspec(property(get = get_P)) ::Org::BouncyCastle::Math::BigInteger* P;
 
   /// @brief Field g, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Org::BouncyCastle::Math::BigInteger* g;
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g)) ::Org::BouncyCastle::Math::BigInteger* g;
 
   /// @brief Field l, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_l, put = __cordl_internal_set_l)) int32_t l;
 
   /// @brief Field p, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Org::BouncyCastle::Math::BigInteger* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) ::Org::BouncyCastle::Math::BigInteger* p;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method Equals, addr 0x11a6c10, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x237de34, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x11a6cac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x237ded0, size 0x74, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x11a6d20, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x237df44, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g);
@@ -78,19 +78,19 @@ public:
 
   constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x11a6b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237dd68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor, addr 0x11a6b44, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237dd70, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, int32_t l);
 
-  /// @brief Method get_G, addr 0x11a6c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x237de24, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_L, addr 0x11a6c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_L, addr 0x237de2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_L();
 
-  /// @brief Method get_P, addr 0x11a6bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0x237de1c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
@@ -118,6 +118,9 @@ public:
 
   /// @brief Field l, offset: 0x20, size: 0x4, def value: None
   int32_t ___l;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1048 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,24 +19,24 @@ class CreateServerFormController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CreateServerFormController);
 // Type: ::CreateServerFormController
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CreateServerFormController*
 class CORDL_TYPE CreateServerFormController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _maxPlayersList, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__maxPlayersList, put = __cordl_internal_set__maxPlayersList))::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _maxPlayersList;
+  /// @brief Field _maxPlayersList, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__maxPlayersList, put = __cordl_internal_set__maxPlayersList)) ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _maxPlayersList;
 
-  /// @brief Field _netDiscoverable, offset 0x20, size 0x1
+  /// @brief Field _netDiscoverable, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__netDiscoverable, put = __cordl_internal_set__netDiscoverable)) bool _netDiscoverable;
 
-  __declspec(property(get = get_formData))::GlobalNamespace::CreateServerFormData formData;
+  __declspec(property(get = get_formData)) ::GlobalNamespace::CreateServerFormData formData;
 
   static inline ::GlobalNamespace::CreateServerFormController* New_ctor();
 
-  /// @brief Method Setup, addr 0x265883c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3ae0fe0, size 0x3c, virtual false, abstract: false, final false
   inline void Setup(int32_t selectedNumberOfPlayers, bool netDiscoverable);
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__maxPlayersList() const;
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__netDiscoverable(bool value);
 
-  /// @brief Method .ctor, addr 0x265889c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae101c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_formData, addr 0x265874c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_formData, addr 0x3ae0ef4, size 0xec, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CreateServerFormData get_formData();
 
 protected:
@@ -71,11 +71,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CreateServerFormController(CreateServerFormController const&) = delete;
 
-  /// @brief Field _maxPlayersList, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _maxPlayersList, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____maxPlayersList;
 
-  /// @brief Field _netDiscoverable, offset: 0x20, size: 0x1, def value: None
+  /// @brief Field _netDiscoverable, offset: 0x28, size: 0x1, def value: None
   bool ____netDiscoverable;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5288 };
 
   /// @brief Field kMaxPlayers offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPlayers{ static_cast<int32_t>(0x5) };
@@ -86,11 +89,11 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreateServerFormController, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreateServerFormController, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CreateServerFormController, ____maxPlayersList) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreateServerFormController, ____maxPlayersList) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CreateServerFormController, ____netDiscoverable) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreateServerFormController, ____netDiscoverable) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CreateServerFormController);

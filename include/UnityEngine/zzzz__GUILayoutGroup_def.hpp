@@ -28,7 +28,7 @@ class GUILayoutGroup;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::GUILayoutGroup);
 // Type: UnityEngine::GUILayoutGroup
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::GUILayoutGroup*
@@ -36,7 +36,7 @@ class CORDL_TYPE GUILayoutGroup : public ::UnityEngine::GUILayoutEntry {
 public:
   // Declarations
   /// @brief Field entries, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_entries, put = __cordl_internal_set_entries))::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>* entries;
+  __declspec(property(get = __cordl_internal_get_entries, put = __cordl_internal_set_entries)) ::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>* entries;
 
   /// @brief Field isVertical, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_isVertical, put = __cordl_internal_set_isVertical)) bool isVertical;
@@ -92,7 +92,7 @@ public:
   __declspec(property(get = get_marginTop)) int32_t marginTop;
 
   /// @brief Field none, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_none, put = setStaticF_none))::UnityEngine::GUILayoutEntry* none;
+  static __declspec(property(get = getStaticF_none, put = setStaticF_none)) ::UnityEngine::GUILayoutEntry* none;
 
   /// @brief Field resetCoords, offset 0x51, size 0x1
   __declspec(property(get = __cordl_internal_get_resetCoords, put = __cordl_internal_set_resetCoords)) bool resetCoords;
@@ -106,30 +106,30 @@ public:
   /// @brief Field windowID, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_windowID, put = __cordl_internal_set_windowID)) int32_t windowID;
 
-  /// @brief Method ApplyOptions, addr 0x34857fc, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ApplyOptions, addr 0x4867860, size 0x120, virtual true, abstract: false, final false
   inline void ApplyOptions(::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method ApplyStyleSettings, addr 0x348591c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ApplyStyleSettings, addr 0x4867980, size 0x74, virtual true, abstract: false, final false
   inline void ApplyStyleSettings(::UnityEngine::GUIStyle* style);
 
-  /// @brief Method CalcHeight, addr 0x34867d8, size 0x580, virtual true, abstract: false, final false
+  /// @brief Method CalcHeight, addr 0x48688dc, size 0x5fc, virtual true, abstract: false, final false
   inline void CalcHeight();
 
-  /// @brief Method CalcWidth, addr 0x3485994, size 0x630, virtual true, abstract: false, final false
+  /// @brief Method CalcWidth, addr 0x48679f4, size 0x6ac, virtual true, abstract: false, final false
   inline void CalcWidth();
 
   static inline ::UnityEngine::GUILayoutGroup* New_ctor();
 
-  /// @brief Method ResetCursor, addr 0x347ecf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetCursor, addr 0x4862be4, size 0x8, virtual false, abstract: false, final false
   inline void ResetCursor();
 
-  /// @brief Method SetHorizontal, addr 0x3485fc4, size 0x814, virtual true, abstract: false, final false
+  /// @brief Method SetHorizontal, addr 0x48680a0, size 0x83c, virtual true, abstract: false, final false
   inline void SetHorizontal(float_t x, float_t width);
 
-  /// @brief Method SetVertical, addr 0x3486d58, size 0x820, virtual true, abstract: false, final false
+  /// @brief Method SetVertical, addr 0x4868ed8, size 0x848, virtual true, abstract: false, final false
   inline void SetVertical(float_t y, float_t height);
 
-  /// @brief Method ToString, addr 0x3487578, size 0x420, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4869720, size 0x38c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>*& __cordl_internal_get_entries();
@@ -252,21 +252,21 @@ public:
 
   constexpr void __cordl_internal_set_windowID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x347e358, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4862278, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::GUILayoutEntry* getStaticF_none();
 
-  /// @brief Method get_marginBottom, addr 0x34857f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_marginBottom, addr 0x4867858, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginBottom();
 
-  /// @brief Method get_marginLeft, addr 0x34857dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_marginLeft, addr 0x4867840, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginLeft();
 
-  /// @brief Method get_marginRight, addr 0x34857e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_marginRight, addr 0x4867848, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginRight();
 
-  /// @brief Method get_marginTop, addr 0x34857ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_marginTop, addr 0x4867850, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginTop();
 
   static inline void setStaticF_none(::UnityEngine::GUILayoutEntry* value);
@@ -344,6 +344,9 @@ public:
 
   /// @brief Field m_MarginBottom, offset: 0x8c, size: 0x4, def value: None
   int32_t ___m_MarginBottom;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16606 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

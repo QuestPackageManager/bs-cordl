@@ -24,7 +24,7 @@ class TransferCodingWithQualityHeaderValue;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue);
 // Type: System.Net.Http.Headers::TransferCodingWithQualityHeaderValue
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::System.Net.Http.Headers::TransferCodingWithQualityHeaderValue*
@@ -33,14 +33,14 @@ public:
   // Declarations
   static inline ::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue* New_ctor();
 
-  /// @brief Method TryParse, addr 0x2dab738, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41b193c, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x2dab7e8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x41b19ec, size 0x144, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*> parsedValue,
                                      ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method .ctor, addr 0x2dab730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41b1934, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,6 +56,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TransferCodingWithQualityHeaderValue", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TransferCodingWithQualityHeaderValue(TransferCodingWithQualityHeaderValue const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16698 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

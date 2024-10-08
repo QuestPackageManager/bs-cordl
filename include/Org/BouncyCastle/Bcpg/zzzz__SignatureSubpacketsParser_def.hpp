@@ -21,7 +21,7 @@ class SignatureSubpacketsParser;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser);
 // Type: Org.BouncyCastle.Bcpg::SignatureSubpacketsParser
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::SignatureSubpacketsParser*
@@ -29,14 +29,14 @@ class CORDL_TYPE SignatureSubpacketsParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field input, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_input, put = __cordl_internal_set_input))::System::IO::Stream* input;
+  __declspec(property(get = __cordl_internal_get_input, put = __cordl_internal_set_input)) ::System::IO::Stream* input;
 
-  /// @brief Method CheckData, addr 0x1447e8c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CheckData, addr 0x260b144, size 0xe8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CheckData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t expected, int32_t bytesRead, ::StringW name);
 
   static inline ::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method ReadPacket, addr 0x1446c70, size 0x650, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x2609f80, size 0x610, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::SignatureSubpacket* ReadPacket();
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_input();
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_input(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x1446c48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2609f58, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
 protected:
@@ -64,6 +64,9 @@ public:
 
   /// @brief Field input, offset: 0x10, size: 0x8, def value: None
   ::System::IO::Stream* ___input;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 590 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

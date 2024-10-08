@@ -20,7 +20,7 @@ class FilterStream;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::FilterStream);
 // Type: Org.BouncyCastle.Utilities.IO::FilterStream
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.IO::FilterStream*
@@ -38,32 +38,32 @@ public:
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
   /// @brief Field s, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s))::System::IO::Stream* s;
+  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) ::System::IO::Stream* s;
 
-  /// @brief Method Close, addr 0x142624c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x25eac58, size 0x68, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Flush, addr 0x14262b4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x25eacc0, size 0x24, virtual true, abstract: false, final false
   inline void Flush();
 
   static inline ::Org::BouncyCastle::Utilities::IO::FilterStream* New_ctor(::System::IO::Stream* s);
 
-  /// @brief Method Read, addr 0x1426320, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x25ead2c, size 0x24, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x1426344, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x25ead50, size 0x24, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Seek, addr 0x14262d8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x25eace4, size 0x24, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x14262fc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x25ead08, size 0x24, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write, addr 0x1426368, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x25ead74, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x142638c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x25ead98, size 0x24, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_s();
@@ -72,25 +72,25 @@ public:
 
   constexpr void __cordl_internal_set_s(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x1426118, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25eab24, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* s);
 
-  /// @brief Method get_CanRead, addr 0x1426184, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x25eab90, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x14261a4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x25eabb0, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x14261c4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x25eabd0, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x14261e4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x25eabf0, size 0x20, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x1426204, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x25eac10, size 0x24, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x1426228, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x25eac34, size 0x24, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:
@@ -109,6 +109,9 @@ public:
 
   /// @brief Field s, offset: 0x28, size: 0x8, def value: None
   ::System::IO::Stream* ___s;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

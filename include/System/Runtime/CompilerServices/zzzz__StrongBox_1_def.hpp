@@ -18,7 +18,7 @@ template <typename T> class StrongBox_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::StrongBox_1);
 // Type: System.Runtime.CompilerServices::StrongBox`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
@@ -28,7 +28,7 @@ class CORDL_TYPE StrongBox_1 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Runtime_CompilerServices_IStrongBox_get_Value,
-                      put = System_Runtime_CompilerServices_IStrongBox_set_Value))::System::Object* System_Runtime_CompilerServices_IStrongBox_Value;
+                      put = System_Runtime_CompilerServices_IStrongBox_set_Value)) ::System::Object* System_Runtime_CompilerServices_IStrongBox_Value;
 
   /// @brief Field Value, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value)) T Value;
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field Value, offset: 0x10, size: 0x8, def value: None
   T ___Value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14097 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

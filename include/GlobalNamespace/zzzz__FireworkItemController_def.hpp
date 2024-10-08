@@ -78,7 +78,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__FireworkItemController__FireworkItemParticle
 MARK_REF_PTR_T(::GlobalNamespace::__FireworkItemController__Pool);
 MARK_REF_PTR_T(::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29);
 // Type: ::FireworkItemParticleSystem
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FireworkItemController::FireworkItemParticleSystem*
@@ -89,10 +89,10 @@ public:
   __declspec(property(get = __cordl_internal_get__isSubemitter, put = __cordl_internal_set__isSubemitter)) bool _isSubemitter;
 
   /// @brief Field _particleColorGradient, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__particleColorGradient, put = __cordl_internal_set__particleColorGradient))::UnityEngine::Gradient* _particleColorGradient;
+  __declspec(property(get = __cordl_internal_get__particleColorGradient, put = __cordl_internal_set__particleColorGradient)) ::UnityEngine::Gradient* _particleColorGradient;
 
   /// @brief Field _particleSystem, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem))::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
+  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
   /// @brief Field _randomizeSpeed, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__randomizeSpeed, put = __cordl_internal_set__randomizeSpeed)) bool _randomizeSpeed;
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set__useOwnGradient(bool value);
 
-  /// @brief Method .ctor, addr 0x26e40b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b06c98, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -176,6 +176,9 @@ public:
   /// @brief Field _randomizeSpeed, offset: 0x28, size: 0x1, def value: None
   bool ____randomizeSpeed;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4188 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -195,7 +198,7 @@ static_assert(offsetof(::GlobalNamespace::__FireworkItemController__FireworkItem
 
 } // namespace GlobalNamespace
 // Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FireworkItemController::Pool*
@@ -204,7 +207,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__FireworkItemController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26e40c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b06ca8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -221,6 +224,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FireworkItemController__Pool(__FireworkItemController__Pool const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4189 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -228,25 +234,25 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FireworkItemC
 
 } // namespace GlobalNamespace
 // Type: ::<FireCoroutine>d__29
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FireworkItemController::<FireCoroutine>d__29*
 class CORDL_TYPE __FireworkItemController___FireCoroutine_d__29 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::FireworkItemController> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::FireworkItemController> __4__this;
 
   /// @brief Field <elapsedTime>5__3, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__elapsedTime_5__3, put = __cordl_internal_set__elapsedTime_5__3)) float_t _elapsedTime_5__3;
@@ -266,21 +272,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26e410c, size 0x230, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b06cf4, size 0x22c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x26e433c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b06f20, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26e4344, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b06f28, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26e4384, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b06f60, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26e4108, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b06cf0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -319,7 +325,7 @@ public:
 
   constexpr void __cordl_internal_set__soundTimeToCenter_5__2(float_t value);
 
-  /// @brief Method .ctor, addr 0x26e3c78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b06868, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -363,6 +369,9 @@ public:
   /// @brief Field <explosionSoundFired>5__4, offset: 0x30, size: 0x1, def value: None
   bool ____explosionSoundFired_5__4;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4190 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -382,7 +391,7 @@ static_assert(offsetof(::GlobalNamespace::__FireworkItemController___FireCorouti
 
 } // namespace GlobalNamespace
 // Type: ::FireworkItemController
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FireworkItemController*
@@ -395,90 +404,93 @@ public:
 
   using _FireCoroutine_d__29 = ::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29;
 
-  /// @brief Field _audioSource, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
+  /// @brief Field _audioSource, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource)) ::UnityW<::UnityEngine::AudioSource> _audioSource;
 
-  /// @brief Field _directionalLight, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__directionalLight, put = __cordl_internal_set__directionalLight))::UnityW<::GlobalNamespace::DirectionalLight> _directionalLight;
+  /// @brief Field _directionalLight, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__directionalLight, put = __cordl_internal_set__directionalLight)) ::UnityW<::GlobalNamespace::DirectionalLight> _directionalLight;
 
-  /// @brief Field _directionalLightIntensity, offset 0x88, size 0x4
+  /// @brief Field _directionalLightIntensity, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get__directionalLightIntensity, put = __cordl_internal_set__directionalLightIntensity)) float_t _directionalLightIntensity;
 
-  /// @brief Field _explosionClips, offset 0x70, size 0x8
+  /// @brief Field _explosionClips, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__explosionClips,
-                      put = __cordl_internal_set__explosionClips))::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> _explosionClips;
+                      put = __cordl_internal_set__explosionClips)) ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>
+      _explosionClips;
 
-  /// @brief Field _initialized, offset 0x8c, size 0x1
+  /// @brief Field _initialized, offset 0x94, size 0x1
   __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
-  /// @brief Field _lightFlashDuration, offset 0x30, size 0x4
+  /// @brief Field _lightFlashDuration, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__lightFlashDuration, put = __cordl_internal_set__lightFlashDuration)) float_t _lightFlashDuration;
 
-  /// @brief Field _lightIntensityCurve, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightIntensityCurve, put = __cordl_internal_set__lightIntensityCurve))::UnityEngine::AnimationCurve* _lightIntensityCurve;
+  /// @brief Field _lightIntensityCurve, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightIntensityCurve, put = __cordl_internal_set__lightIntensityCurve)) ::UnityEngine::AnimationCurve* _lightIntensityCurve;
 
-  /// @brief Field _lightIntensityMultiplier, offset 0x40, size 0x4
+  /// @brief Field _lightIntensityMultiplier, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__lightIntensityMultiplier, put = __cordl_internal_set__lightIntensityMultiplier)) float_t _lightIntensityMultiplier;
 
-  /// @brief Field _lights, offset 0x20, size 0x8
+  /// @brief Field _lights, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__lights,
-                      put = __cordl_internal_set__lights))::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> _lights;
+                      put = __cordl_internal_set__lights)) ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>
+      _lights;
 
-  /// @brief Field _lightsColor, offset 0x48, size 0x10
-  __declspec(property(get = __cordl_internal_get__lightsColor, put = __cordl_internal_set__lightsColor))::UnityEngine::Color _lightsColor;
+  /// @brief Field _lightsColor, offset 0x50, size 0x10
+  __declspec(property(get = __cordl_internal_get__lightsColor, put = __cordl_internal_set__lightsColor)) ::UnityEngine::Color _lightsColor;
 
-  /// @brief Field _lightsColorGradient, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightsColorGradient, put = __cordl_internal_set__lightsColorGradient))::UnityEngine::Gradient* _lightsColorGradient;
+  /// @brief Field _lightsColorGradient, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightsColorGradient, put = __cordl_internal_set__lightsColorGradient)) ::UnityEngine::Gradient* _lightsColorGradient;
 
-  /// @brief Field _maxSpeedMultiplier, offset 0x68, size 0x4
+  /// @brief Field _maxSpeedMultiplier, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get__maxSpeedMultiplier, put = __cordl_internal_set__maxSpeedMultiplier)) float_t _maxSpeedMultiplier;
 
-  /// @brief Field _minSpeedMultiplier, offset 0x64, size 0x4
+  /// @brief Field _minSpeedMultiplier, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get__minSpeedMultiplier, put = __cordl_internal_set__minSpeedMultiplier)) float_t _minSpeedMultiplier;
 
-  /// @brief Field _particleSystems, offset 0x18, size 0x8
+  /// @brief Field _particleSystems, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__particleSystems,
-                      put = __cordl_internal_set__particleSystems))::ArrayW<::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem*,
-                                                                            ::Array<::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem*>*> _particleSystems;
+                      put = __cordl_internal_set__particleSystems)) ::ArrayW<::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem*,
+                                                                             ::Array<::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem*>*>
+      _particleSystems;
 
-  /// @brief Field _randomAudioPicker, offset 0x78, size 0x8
+  /// @brief Field _randomAudioPicker, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__randomAudioPicker,
-                      put = __cordl_internal_set__randomAudioPicker))::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* _randomAudioPicker;
+                      put = __cordl_internal_set__randomAudioPicker)) ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* _randomAudioPicker;
 
-  /// @brief Field _randomizeColor, offset 0x44, size 0x1
+  /// @brief Field _randomizeColor, offset 0x4c, size 0x1
   __declspec(property(get = __cordl_internal_get__randomizeColor, put = __cordl_internal_set__randomizeColor)) bool _randomizeColor;
 
-  /// @brief Field _randomizeSpeed, offset 0x60, size 0x1
+  /// @brief Field _randomizeSpeed, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get__randomizeSpeed, put = __cordl_internal_set__randomizeSpeed)) bool _randomizeSpeed;
 
-  /// @brief Field didFinishEvent, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* didFinishEvent;
+  /// @brief Field didFinishEvent, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* didFinishEvent;
 
-  __declspec(property(put = set_directionalLight))::UnityW<::GlobalNamespace::DirectionalLight> directionalLight;
+  __declspec(property(put = set_directionalLight)) ::UnityW<::GlobalNamespace::DirectionalLight> directionalLight;
 
   __declspec(property(put = set_directionalLightIntensity)) float_t directionalLightIntensity;
 
-  /// @brief Method Awake, addr 0x26e3a04, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b065fc, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Fire, addr 0x26e3bf0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Fire, addr 0x3b067e8, size 0x20, virtual false, abstract: false, final false
   inline void Fire();
 
-  /// @brief Method FireCoroutine, addr 0x26e3c10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FireCoroutine, addr 0x3b06808, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FireCoroutine();
 
-  /// @brief Method InitializeParticleSystem, addr 0x26e3d7c, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method InitializeParticleSystem, addr 0x3b0696c, size 0x30c, virtual false, abstract: false, final false
   inline void InitializeParticleSystem();
 
   static inline ::GlobalNamespace::FireworkItemController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x26e3a88, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b06680, size 0x68, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method PlayExplosionSound, addr 0x26e3ca0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method PlayExplosionSound, addr 0x3b06890, size 0xdc, virtual false, abstract: false, final false
   inline void PlayExplosionSound();
 
-  /// @brief Method SetLightsColor, addr 0x26e3af0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SetLightsColor, addr 0x3b066e8, size 0x100, virtual false, abstract: false, final false
   inline void SetLightsColor(float_t intensity);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -592,19 +604,19 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
-  /// @brief Method .ctor, addr 0x26e4090, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b06c78, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x26e38a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b0649c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x26e3954, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b0654c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value);
 
-  /// @brief Method set_directionalLight, addr 0x26e3894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_directionalLight, addr 0x3b0648c, size 0x8, virtual false, abstract: false, final false
   inline void set_directionalLight(::GlobalNamespace::DirectionalLight* value);
 
-  /// @brief Method set_directionalLightIntensity, addr 0x26e389c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_directionalLightIntensity, addr 0x3b06494, size 0x8, virtual false, abstract: false, final false
   inline void set_directionalLightIntensity(float_t value);
 
 protected:
@@ -621,100 +633,103 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FireworkItemController(FireworkItemController const&) = delete;
 
-  /// @brief Field _particleSystems, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _particleSystems, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem*, ::Array<::GlobalNamespace::__FireworkItemController__FireworkItemParticleSystem*>*> ____particleSystems;
 
-  /// @brief Field _lights, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _lights, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> ____lights;
 
-  /// @brief Field _audioSource, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _audioSource, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
-  /// @brief Field _lightFlashDuration, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _lightFlashDuration, offset: 0x38, size: 0x4, def value: None
   float_t ____lightFlashDuration;
 
-  /// @brief Field _lightIntensityCurve, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _lightIntensityCurve, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____lightIntensityCurve;
 
-  /// @brief Field _lightIntensityMultiplier, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _lightIntensityMultiplier, offset: 0x48, size: 0x4, def value: None
   float_t ____lightIntensityMultiplier;
 
-  /// @brief Field _randomizeColor, offset: 0x44, size: 0x1, def value: None
+  /// @brief Field _randomizeColor, offset: 0x4c, size: 0x1, def value: None
   bool ____randomizeColor;
 
-  /// @brief Field _lightsColor, offset: 0x48, size: 0x10, def value: None
+  /// @brief Field _lightsColor, offset: 0x50, size: 0x10, def value: None
   ::UnityEngine::Color ____lightsColor;
 
-  /// @brief Field _lightsColorGradient, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _lightsColorGradient, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Gradient* ____lightsColorGradient;
 
-  /// @brief Field _randomizeSpeed, offset: 0x60, size: 0x1, def value: None
+  /// @brief Field _randomizeSpeed, offset: 0x68, size: 0x1, def value: None
   bool ____randomizeSpeed;
 
-  /// @brief Field _minSpeedMultiplier, offset: 0x64, size: 0x4, def value: None
+  /// @brief Field _minSpeedMultiplier, offset: 0x6c, size: 0x4, def value: None
   float_t ____minSpeedMultiplier;
 
-  /// @brief Field _maxSpeedMultiplier, offset: 0x68, size: 0x4, def value: None
+  /// @brief Field _maxSpeedMultiplier, offset: 0x70, size: 0x4, def value: None
   float_t ____maxSpeedMultiplier;
 
-  /// @brief Field _explosionClips, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _explosionClips, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> ____explosionClips;
 
-  /// @brief Field _randomAudioPicker, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _randomAudioPicker, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* ____randomAudioPicker;
 
-  /// @brief Field _directionalLight, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _directionalLight, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DirectionalLight> ____directionalLight;
 
-  /// @brief Field _directionalLightIntensity, offset: 0x88, size: 0x4, def value: None
+  /// @brief Field _directionalLightIntensity, offset: 0x90, size: 0x4, def value: None
   float_t ____directionalLightIntensity;
 
-  /// @brief Field _initialized, offset: 0x8c, size: 0x1, def value: None
+  /// @brief Field _initialized, offset: 0x94, size: 0x1, def value: None
   bool ____initialized;
 
-  /// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::GlobalNamespace::FireworkItemController>>* ___didFinishEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FireworkItemController, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FireworkItemController, 0xa0>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____particleSystems) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____particleSystems) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lights) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lights) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____audioSource) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____audioSource) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightFlashDuration) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightFlashDuration) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightIntensityCurve) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightIntensityCurve) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightIntensityMultiplier) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightIntensityMultiplier) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____randomizeColor) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____randomizeColor) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightsColor) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightsColor) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightsColorGradient) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____lightsColorGradient) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____randomizeSpeed) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____randomizeSpeed) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____minSpeedMultiplier) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____minSpeedMultiplier) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____maxSpeedMultiplier) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____maxSpeedMultiplier) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____explosionClips) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____explosionClips) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____randomAudioPicker) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____randomAudioPicker) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____directionalLight) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____directionalLight) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____directionalLightIntensity) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____directionalLightIntensity) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____initialized) == 0x8c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ____initialized) == 0x94, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworkItemController, ___didFinishEvent) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworkItemController, ___didFinishEvent) == 0x98, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FireworkItemController);

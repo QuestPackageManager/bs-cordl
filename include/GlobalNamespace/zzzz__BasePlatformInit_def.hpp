@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BasePlatformInit);
 MARK_VAL_T(::GlobalNamespace::__BasePlatformInit___InitializeAsync_d__7);
 MARK_VAL_T(::GlobalNamespace::__BasePlatformInit___Initialize_d__5);
 // Type: ::<Initialize>d__5
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::BasePlatformInit::<Initialize>d__5
@@ -62,10 +62,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2c0592c, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x40079f4, size 0x280, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2c05bb0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x4007c74, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -93,6 +93,9 @@ public:
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18620 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
@@ -111,7 +114,7 @@ static_assert(offsetof(::GlobalNamespace::__BasePlatformInit___Initialize_d__5, 
 
 } // namespace GlobalNamespace
 // Type: ::<InitializeAsync>d__7
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::BasePlatformInit::<InitializeAsync>d__7
@@ -121,10 +124,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2c05bbc, size 0x220, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4007c80, size 0x274, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2c05ddc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x4007ef4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -152,6 +155,9 @@ public:
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18621 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
@@ -170,7 +176,7 @@ static_assert(offsetof(::GlobalNamespace::__BasePlatformInit___InitializeAsync_d
 
 } // namespace GlobalNamespace
 // Type: ::BasePlatformInit
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BasePlatformInit*
@@ -187,7 +193,7 @@ public:
   __declspec(property(get = __cordl_internal_get__IsInitialized_k__BackingField, put = __cordl_internal_set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
 
   /// @brief Field _initializationTask, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__initializationTask, put = __cordl_internal_set__initializationTask))::System::Threading::Tasks::Task_1<bool>* _initializationTask;
+  __declspec(property(get = __cordl_internal_get__initializationTask, put = __cordl_internal_set__initializationTask)) ::System::Threading::Tasks::Task_1<bool>* _initializationTask;
 
   /// @brief Convert operator to "::GlobalNamespace::IPlatformInit"
   constexpr operator ::GlobalNamespace::IPlatformInit*() noexcept;
@@ -195,10 +201,10 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Initialize, addr 0x2c05798, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x400786c, size 0x90, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method InitializeAsync, addr 0x2c0582c, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method InitializeAsync, addr 0x40078fc, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeAsync();
 
   /// @brief Method InitializeInternalAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -218,10 +224,10 @@ public:
 
   constexpr void __cordl_internal_set__initializationTask(::System::Threading::Tasks::Task_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x2c05924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40079ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInitialized, addr 0x2c05784, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsInitialized, addr 0x4007858, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsInitialized();
 
   /// @brief Convert to "::GlobalNamespace::IPlatformInit"
@@ -230,7 +236,7 @@ public:
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
-  /// @brief Method set_IsInitialized, addr 0x2c0578c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x4007860, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
 protected:
@@ -252,6 +258,9 @@ public:
 
   /// @brief Field _initializationTask, offset: 0x18, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<bool>* ____initializationTask;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18622 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -18,7 +18,7 @@ class SubsystemWithProvider;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider);
 // Type: UnityEngine.SubsystemsImplementation::SubsystemWithProvider
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::SubsystemsImplementation {
 // Is value type: false
 // CS Name: ::UnityEngine.SubsystemsImplementation::SubsystemWithProvider*
@@ -27,19 +27,19 @@ public:
   // Declarations
   /// @brief Field <providerBase>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__providerBase_k__BackingField,
-                      put = __cordl_internal_set__providerBase_k__BackingField))::UnityEngine::SubsystemsImplementation::SubsystemProvider* _providerBase_k__BackingField;
+                      put = __cordl_internal_set__providerBase_k__BackingField)) ::UnityEngine::SubsystemsImplementation::SubsystemProvider* _providerBase_k__BackingField;
 
   /// @brief Field <running>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__running_k__BackingField, put = __cordl_internal_set__running_k__BackingField)) bool _running_k__BackingField;
 
-  __declspec(property(get = get_providerBase))::UnityEngine::SubsystemsImplementation::SubsystemProvider* providerBase;
+  __declspec(property(get = get_providerBase)) ::UnityEngine::SubsystemsImplementation::SubsystemProvider* providerBase;
 
   __declspec(property(get = get_running, put = set_running)) bool running;
 
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Method Destroy, addr 0x34ade04, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x48a0978, size 0x7c, virtual true, abstract: false, final true
   inline void Destroy();
 
   static inline ::UnityEngine::SubsystemsImplementation::SubsystemWithProvider* New_ctor();
@@ -53,10 +53,10 @@ public:
   /// @brief Method OnStop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnStop();
 
-  /// @brief Method Start, addr 0x34add90, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Start, addr 0x48a0904, size 0x3c, virtual true, abstract: false, final true
   inline void Start();
 
-  /// @brief Method Stop, addr 0x34addcc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x48a0940, size 0x38, virtual true, abstract: false, final true
   inline void Stop();
 
   constexpr ::UnityEngine::SubsystemsImplementation::SubsystemProvider*& __cordl_internal_get__providerBase_k__BackingField();
@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set__running_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x34ade9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a0a10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_providerBase, addr 0x34ade94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_providerBase, addr 0x48a0a08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SubsystemsImplementation::SubsystemProvider* get_providerBase();
 
-  /// @brief Method get_running, addr 0x34ade80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_running, addr 0x48a09f4, size 0x8, virtual true, abstract: false, final true
   inline bool get_running();
 
   /// @brief Convert to "::UnityEngine::ISubsystem"
   constexpr ::UnityEngine::ISubsystem* i___UnityEngine__ISubsystem() noexcept;
 
-  /// @brief Method set_running, addr 0x34ade88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_running, addr 0x48a09fc, size 0xc, virtual false, abstract: false, final false
   inline void set_running(bool value);
 
 protected:
@@ -105,6 +105,9 @@ public:
 
   /// @brief Field <providerBase>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::SubsystemsImplementation::SubsystemProvider* ____providerBase_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18617 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

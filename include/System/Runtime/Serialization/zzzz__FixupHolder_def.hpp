@@ -16,7 +16,7 @@ class FixupHolder;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::FixupHolder);
 // Type: System.Runtime.Serialization::FixupHolder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization::FixupHolder*
@@ -24,7 +24,7 @@ class CORDL_TYPE FixupHolder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_fixupInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_fixupInfo, put = __cordl_internal_set_m_fixupInfo))::System::Object* m_fixupInfo;
+  __declspec(property(get = __cordl_internal_get_m_fixupInfo, put = __cordl_internal_set_m_fixupInfo)) ::System::Object* m_fixupInfo;
 
   /// @brief Field m_fixupType, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_fixupType, put = __cordl_internal_set_m_fixupType)) int32_t m_fixupType;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_m_id(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2869f48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c8532c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int64_t id, ::System::Object* fixupInfo, int32_t fixupType);
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field m_fixupType, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_fixupType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3219 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

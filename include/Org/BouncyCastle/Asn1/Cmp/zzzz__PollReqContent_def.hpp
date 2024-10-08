@@ -25,7 +25,7 @@ class PollReqContent;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::PollReqContent);
 // Type: Org.BouncyCastle.Asn1.Cmp::PollReqContent
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::PollReqContent*
@@ -33,22 +33,22 @@ class CORDL_TYPE PollReqContent : public ::Org::BouncyCastle::Asn1::Asn1Encodabl
 public:
   // Declarations
   /// @brief Field content, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::Org::BouncyCastle::Asn1::Asn1Sequence* content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content)) ::Org::BouncyCastle::Asn1::Asn1Sequence* content;
 
-  /// @brief Method GetCertReqIDs, addr 0x10df08c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method GetCertReqIDs, addr 0x22bc8e8, size 0x13c, virtual true, abstract: false, final false
   inline ::ArrayW<::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*>,
                   ::Array<::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*>>*>
   GetCertReqIDs();
 
-  /// @brief Method GetInstance, addr 0x10db218, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22b8be0, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollReqContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollReqContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method SequenceToDerIntegerArray, addr 0x10df1c8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SequenceToDerIntegerArray, addr 0x22bca24, size 0xf4, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*> SequenceToDerIntegerArray(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10df2bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22bcb18, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_content();
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x10df064, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bc8c0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field content, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___content;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 45 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

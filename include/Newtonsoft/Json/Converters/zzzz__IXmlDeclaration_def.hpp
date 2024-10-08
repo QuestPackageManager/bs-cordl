@@ -15,18 +15,18 @@ class IXmlDeclaration;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::IXmlDeclaration);
 // Type: Newtonsoft.Json.Converters::IXmlDeclaration
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Converters::IXmlDeclaration*
 class CORDL_TYPE IXmlDeclaration {
 public:
   // Declarations
-  __declspec(property(get = get_Encoding, put = set_Encoding))::StringW Encoding;
+  __declspec(property(get = get_Encoding, put = set_Encoding)) ::StringW Encoding;
 
-  __declspec(property(get = get_Standalone, put = set_Standalone))::StringW Standalone;
+  __declspec(property(get = get_Standalone, put = set_Standalone)) ::StringW Standalone;
 
-  __declspec(property(get = get_Version))::StringW Version;
+  __declspec(property(get = get_Version)) ::StringW Version;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
@@ -56,6 +56,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IXmlDeclaration", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IXmlDeclaration(IXmlDeclaration const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10455 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

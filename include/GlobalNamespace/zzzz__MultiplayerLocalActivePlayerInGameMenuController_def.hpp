@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLocalActivePlayerInGameMenuController)
 namespace GlobalNamespace {
 class BeatmapObjectManager;
@@ -30,12 +30,6 @@ class SaberManager;
 namespace GlobalNamespace {
 struct __MultiplayerController__State;
 }
-namespace GlobalNamespace {
-class __MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace System {
 class Action;
 }
@@ -43,143 +37,88 @@ class Action;
 namespace GlobalNamespace {
 class MultiplayerLocalActivePlayerInGameMenuController;
 }
-namespace GlobalNamespace {
-class __MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0;
-}
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController);
-MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0);
-// Type: ::<>c__DisplayClass19_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::MultiplayerLocalActivePlayerInGameMenuController::<>c__DisplayClass19_0*
-class CORDL_TYPE __MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field value, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) bool value;
-
-  static inline ::GlobalNamespace::__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0* New_ctor();
-
-  constexpr bool const& __cordl_internal_get_value() const;
-
-  constexpr bool& __cordl_internal_get_value();
-
-  constexpr void __cordl_internal_set_value(bool value);
-
-  /// @brief Method .ctor, addr 0x270fcb4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <get_canShowInGameMenu>b__0, addr 0x2710bc4, size 0x10, virtual false, abstract: false, final false
-  inline void _get_canShowInGameMenu_b__0(bool newValue);
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0(__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0(__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0 const&) = delete;
-
-  /// @brief Field value, offset: 0x10, size: 0x1, def value: None
-  bool ___value;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0, 0x18>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0, ___value) == 0x10, "Offset mismatch!");
-
-} // namespace GlobalNamespace
 // Type: ::MultiplayerLocalActivePlayerInGameMenuController
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerLocalActivePlayerInGameMenuController*
 class CORDL_TYPE MultiplayerLocalActivePlayerInGameMenuController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using __c__DisplayClass19_0 = ::GlobalNamespace::__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0;
-
-  /// @brief Field _beatmapObjectManager, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  /// @brief Field _beatmapObjectManager, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
   /// @brief Field _gameMenuIsShown, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get__gameMenuIsShown, put = __cordl_internal_set__gameMenuIsShown)) bool _gameMenuIsShown;
 
-  /// @brief Field _gamePause, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__gamePause, put = __cordl_internal_set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
+  /// @brief Field _gamePause, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__gamePause, put = __cordl_internal_set__gamePause)) ::GlobalNamespace::IGamePause* _gamePause;
 
-  /// @brief Field _inGameMenuViewController, offset 0x18, size 0x8
+  /// @brief Field _inGameMenuViewController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__inGameMenuViewController,
-                      put = __cordl_internal_set__inGameMenuViewController))::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController> _inGameMenuViewController;
+                      put = __cordl_internal_set__inGameMenuViewController)) ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController>
+      _inGameMenuViewController;
 
-  /// @brief Field _menuButtonTrigger, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuButtonTrigger, put = __cordl_internal_set__menuButtonTrigger))::GlobalNamespace::IMenuButtonTrigger* _menuButtonTrigger;
+  /// @brief Field _menuButtonTrigger, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__menuButtonTrigger, put = __cordl_internal_set__menuButtonTrigger)) ::GlobalNamespace::IMenuButtonTrigger* _menuButtonTrigger;
 
-  /// @brief Field _multiplayerController, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController))::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
+  /// @brief Field _menuChangedStateTime, offset 0x6c, size 0x4
+  __declspec(property(get = __cordl_internal_get__menuChangedStateTime, put = __cordl_internal_set__menuChangedStateTime)) float_t _menuChangedStateTime;
 
-  /// @brief Field _saberManager, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
+  /// @brief Field _multiplayerController, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController)) ::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
 
-  /// @brief Field _vrPlatformHelper, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  /// @brief Field _saberManager, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager)) ::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
-  __declspec(property(get = get_canShowInGameMenu)) bool canShowInGameMenu;
+  /// @brief Field _vrPlatformHelper, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Field canShowInGameMenuEvent, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_canShowInGameMenuEvent, put = __cordl_internal_set_canShowInGameMenuEvent))::System::Action_1<::System::Action_1<bool>*>* canShowInGameMenuEvent;
+  __declspec(property(get = get_canChangeMenuState)) bool canChangeMenuState;
 
-  /// @brief Field didGiveUpEvent, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_didGiveUpEvent, put = __cordl_internal_set_didGiveUpEvent))::System::Action* didGiveUpEvent;
+  /// @brief Field didGiveUpEvent, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_didGiveUpEvent, put = __cordl_internal_set_didGiveUpEvent)) ::System::Action* didGiveUpEvent;
 
   __declspec(property(get = get_gameMenuIsShown)) bool gameMenuIsShown;
 
   /// @brief Field requestsDisconnectEvent, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_requestsDisconnectEvent, put = __cordl_internal_set_requestsDisconnectEvent))::System::Action* requestsDisconnectEvent;
+  __declspec(property(get = __cordl_internal_get_requestsDisconnectEvent, put = __cordl_internal_set_requestsDisconnectEvent)) ::System::Action* requestsDisconnectEvent;
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressDisconnectButton, addr 0x27109d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressDisconnectButton, addr 0x3b31e38, size 0x1c, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressDisconnectButton();
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressGiveUpButton, addr 0x2710994, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressGiveUpButton, addr 0x3b31dfc, size 0x3c, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressGiveUpButton();
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressResumeButton, addr 0x2710990, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressResumeButton, addr 0x3b31df8, size 0x4, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressResumeButton();
 
-  /// @brief Method HandleInputFocusWasCaptured, addr 0x271098c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusWasCaptured, addr 0x3b31df4, size 0x4, virtual false, abstract: false, final false
   inline void HandleInputFocusWasCaptured();
 
-  /// @brief Method HandleMenuButtonTriggered, addr 0x2710988, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButtonTriggered, addr 0x3b31df0, size 0x4, virtual false, abstract: false, final false
   inline void HandleMenuButtonTriggered();
 
-  /// @brief Method HandleStateChanged, addr 0x27109ec, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3b31e54, size 0x1c8, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
-  /// @brief Method HideInGameMenu, addr 0x270ff9c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method HideInGameMenu, addr 0x3b313b4, size 0x184, virtual false, abstract: false, final false
   inline void HideInGameMenu();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x27107e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x3b31c28, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnDestroy, addr 0x27102c0, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b3170c, size 0x348, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ShowInGameMenu, addr 0x27107f4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ShowInGameMenu, addr 0x3b31c34, size 0x128, virtual false, abstract: false, final false
   inline void ShowInGameMenu();
 
-  /// @brief Method Start, addr 0x270fcbc, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b310ec, size 0x2c8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -202,6 +141,10 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuButtonTrigger*> const& __cordl_internal_get__menuButtonTrigger() const;
 
+  constexpr float_t const& __cordl_internal_get__menuChangedStateTime() const;
+
+  constexpr float_t& __cordl_internal_get__menuChangedStateTime();
+
   constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
@@ -213,10 +156,6 @@ public:
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
-
-  constexpr ::System::Action_1<::System::Action_1<bool>*>*& __cordl_internal_get_canShowInGameMenuEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Action_1<bool>*>*> const& __cordl_internal_get_canShowInGameMenuEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_didGiveUpEvent();
 
@@ -236,43 +175,37 @@ public:
 
   constexpr void __cordl_internal_set__menuButtonTrigger(::GlobalNamespace::IMenuButtonTrigger* value);
 
+  constexpr void __cordl_internal_set__menuChangedStateTime(float_t value);
+
   constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
 
   constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  constexpr void __cordl_internal_set_canShowInGameMenuEvent(::System::Action_1<::System::Action_1<bool>*>* value);
-
   constexpr void __cordl_internal_set_didGiveUpEvent(::System::Action* value);
 
   constexpr void __cordl_internal_set_requestsDisconnectEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2710bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3201c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_canShowInGameMenuEvent, addr 0x270f928, size 0xb0, virtual false, abstract: false, final false
-  inline void add_canShowInGameMenuEvent(::System::Action_1<::System::Action_1<bool>*>* value);
-
-  /// @brief Method add_didGiveUpEvent, addr 0x270f7f0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didGiveUpEvent, addr 0x3b30e44, size 0x9c, virtual false, abstract: false, final false
   inline void add_didGiveUpEvent(::System::Action* value);
 
-  /// @brief Method add_requestsDisconnectEvent, addr 0x270fa88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_requestsDisconnectEvent, addr 0x3b30f7c, size 0x9c, virtual false, abstract: false, final false
   inline void add_requestsDisconnectEvent(::System::Action* value);
 
-  /// @brief Method get_canShowInGameMenu, addr 0x270fbc8, size 0xec, virtual false, abstract: false, final false
-  inline bool get_canShowInGameMenu();
+  /// @brief Method get_canChangeMenuState, addr 0x3b310bc, size 0x30, virtual false, abstract: false, final false
+  inline bool get_canChangeMenuState();
 
-  /// @brief Method get_gameMenuIsShown, addr 0x270fbc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameMenuIsShown, addr 0x3b310b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_gameMenuIsShown();
 
-  /// @brief Method remove_canShowInGameMenuEvent, addr 0x270f9d8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_canShowInGameMenuEvent(::System::Action_1<::System::Action_1<bool>*>* value);
-
-  /// @brief Method remove_didGiveUpEvent, addr 0x270f88c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didGiveUpEvent, addr 0x3b30ee0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didGiveUpEvent(::System::Action* value);
 
-  /// @brief Method remove_requestsDisconnectEvent, addr 0x270fb24, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_requestsDisconnectEvent, addr 0x3b31018, size 0x9c, virtual false, abstract: false, final false
   inline void remove_requestsDisconnectEvent(::System::Action* value);
 
 protected:
@@ -289,32 +222,29 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalActivePlayerInGameMenuController(MultiplayerLocalActivePlayerInGameMenuController const&) = delete;
 
-  /// @brief Field _inGameMenuViewController, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _inGameMenuViewController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController> ____inGameMenuViewController;
 
-  /// @brief Field _menuButtonTrigger, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _menuButtonTrigger, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IMenuButtonTrigger* ____menuButtonTrigger;
 
-  /// @brief Field _vrPlatformHelper, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _vrPlatformHelper, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
-  /// @brief Field _gamePause, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _gamePause, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;
 
-  /// @brief Field _multiplayerController, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _multiplayerController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
 
-  /// @brief Field _saberManager, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _saberManager, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
-  /// @brief Field _beatmapObjectManager, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _beatmapObjectManager, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
-  /// @brief Field didGiveUpEvent, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field didGiveUpEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___didGiveUpEvent;
-
-  /// @brief Field canShowInGameMenuEvent, offset: 0x58, size: 0x8, def value: None
-  ::System::Action_1<::System::Action_1<bool>*>* ___canShowInGameMenuEvent;
 
   /// @brief Field requestsDisconnectEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___requestsDisconnectEvent;
@@ -322,35 +252,42 @@ public:
   /// @brief Field _gameMenuIsShown, offset: 0x68, size: 0x1, def value: None
   bool ____gameMenuIsShown;
 
+  /// @brief Field _menuChangedStateTime, offset: 0x6c, size: 0x4, def value: None
+  float_t ____menuChangedStateTime;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4415 };
+
+  /// @brief Field kChangeStateDelay offset 0xffffffff size 0x4
+  static constexpr float_t kChangeStateDelay{ 0.05 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, 0x70>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____inGameMenuViewController) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____inGameMenuViewController) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____menuButtonTrigger) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____menuButtonTrigger) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____vrPlatformHelper) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____vrPlatformHelper) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____gamePause) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____gamePause) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____multiplayerController) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____multiplayerController) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____saberManager) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____saberManager) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____beatmapObjectManager) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____beatmapObjectManager) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ___didGiveUpEvent) == 0x50, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ___canShowInGameMenuEvent) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ___didGiveUpEvent) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ___requestsDisconnectEvent) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____gameMenuIsShown) == 0x68, "Offset mismatch!");
 
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController, ____menuChangedStateTime) == 0x6c, "Offset mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController*, "", "MultiplayerLocalActivePlayerInGameMenuController");
-NEED_NO_BOX(::GlobalNamespace::__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerLocalActivePlayerInGameMenuController____c__DisplayClass19_0*, "", "MultiplayerLocalActivePlayerInGameMenuController/<>c__DisplayClass19_0");

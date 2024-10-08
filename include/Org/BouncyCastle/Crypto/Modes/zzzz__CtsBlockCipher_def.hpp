@@ -17,7 +17,7 @@ class CtsBlockCipher;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher);
 // Type: Org.BouncyCastle.Crypto.Modes::CtsBlockCipher
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::CtsBlockCipher*
@@ -27,21 +27,21 @@ public:
   /// @brief Field blockSize, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_blockSize, put = __cordl_internal_set_blockSize)) int32_t blockSize;
 
-  /// @brief Method DoFinal, addr 0x118cb48, size 0x5a8, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x23650e8, size 0x59c, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetOutputSize, addr 0x118c6b0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0x2364c64, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t length);
 
-  /// @brief Method GetUpdateOutputSize, addr 0x118c678, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0x2364c2c, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t length);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::CtsBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method ProcessByte, addr 0x118c6bc, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x2364c70, size 0x14c, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x118c808, size 0x340, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x2364dbc, size 0x32c, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
   constexpr int32_t const& __cordl_internal_get_blockSize() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_blockSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x118c4cc, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2364a84, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
 protected:
@@ -69,6 +69,9 @@ public:
 
   /// @brief Field blockSize, offset: 0x28, size: 0x4, def value: None
   int32_t ___blockSize;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 967 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

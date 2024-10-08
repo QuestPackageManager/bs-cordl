@@ -31,7 +31,7 @@ class OculusDeeplinkManager;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OculusDeeplinkManager);
 // Type: ::OculusDeeplinkManager
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OculusDeeplinkManager*
@@ -39,37 +39,38 @@ class CORDL_TYPE OculusDeeplinkManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _currentDeeplink, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentDeeplink, put = __cordl_internal_set__currentDeeplink))::GlobalNamespace::Deeplink* _currentDeeplink;
+  __declspec(property(get = __cordl_internal_get__currentDeeplink, put = __cordl_internal_set__currentDeeplink)) ::GlobalNamespace::Deeplink* _currentDeeplink;
 
   /// @brief Field _oculusPlatformWasInitialized, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__oculusPlatformWasInitialized, put = __cordl_internal_set__oculusPlatformWasInitialized)) bool _oculusPlatformWasInitialized;
 
-  __declspec(property(get = get_currentDeeplink))::GlobalNamespace::Deeplink* currentDeeplink;
+  __declspec(property(get = get_currentDeeplink)) ::GlobalNamespace::Deeplink* currentDeeplink;
 
   /// @brief Field didReceiveDeeplinkEvent, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_didReceiveDeeplinkEvent, put = __cordl_internal_set_didReceiveDeeplinkEvent))::System::Action_1<::GlobalNamespace::Deeplink*>* didReceiveDeeplinkEvent;
+  __declspec(property(get = __cordl_internal_get_didReceiveDeeplinkEvent,
+                      put = __cordl_internal_set_didReceiveDeeplinkEvent)) ::System::Action_1<::GlobalNamespace::Deeplink*>* didReceiveDeeplinkEvent;
 
   /// @brief Convert operator to "::GlobalNamespace::IDeeplinkManager"
   constexpr operator ::GlobalNamespace::IDeeplinkManager*() noexcept;
 
-  /// @brief Method Init, addr 0x14ac07c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x266d340, size 0x80, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method IsAtLeastOneFieldPopulated, addr 0x14ac438, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsAtLeastOneFieldPopulated, addr 0x266d6fc, size 0x74, virtual false, abstract: false, final false
   inline bool IsAtLeastOneFieldPopulated(::GlobalNamespace::Deeplink* deeplink);
 
-  /// @brief Method Log, addr 0x14ac1c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x266d484, size 0x58, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
   static inline ::GlobalNamespace::OculusDeeplinkManager* New_ctor();
 
-  /// @brief Method OculusPlatformWasInitialized, addr 0x14ac0fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OculusPlatformWasInitialized, addr 0x266d3c0, size 0x18, virtual false, abstract: false, final false
   inline void OculusPlatformWasInitialized();
 
-  /// @brief Method SetJoinIntentReceivedNotificationCallback, addr 0x14ac114, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetJoinIntentReceivedNotificationCallback, addr 0x266d3d8, size 0xac, virtual false, abstract: false, final false
   inline void SetJoinIntentReceivedNotificationCallback(::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*>* message);
 
-  /// @brief Method UpdateDeeplinkMessage, addr 0x14ac218, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method UpdateDeeplinkMessage, addr 0x266d4dc, size 0x220, virtual false, abstract: false, final false
   inline void UpdateDeeplinkMessage(::Oculus::Platform::Models::GroupPresenceJoinIntent* joinIntent, ::Oculus::Platform::Models::LaunchDetails* launchDetails);
 
   constexpr ::GlobalNamespace::Deeplink*& __cordl_internal_get__currentDeeplink();
@@ -90,19 +91,19 @@ public:
 
   constexpr void __cordl_internal_set_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
 
-  /// @brief Method .ctor, addr 0x14ac4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266d770, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didReceiveDeeplinkEvent, addr 0x14abf14, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_didReceiveDeeplinkEvent, addr 0x266d1d8, size 0xb0, virtual true, abstract: false, final true
   inline void add_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
 
-  /// @brief Method get_currentDeeplink, addr 0x14ac074, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_currentDeeplink, addr 0x266d338, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::Deeplink* get_currentDeeplink();
 
   /// @brief Convert to "::GlobalNamespace::IDeeplinkManager"
   constexpr ::GlobalNamespace::IDeeplinkManager* i___GlobalNamespace__IDeeplinkManager() noexcept;
 
-  /// @brief Method remove_didReceiveDeeplinkEvent, addr 0x14abfc4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_didReceiveDeeplinkEvent, addr 0x266d288, size 0xb0, virtual true, abstract: false, final true
   inline void remove_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
 
 protected:
@@ -127,6 +128,9 @@ public:
 
   /// @brief Field _oculusPlatformWasInitialized, offset: 0x20, size: 0x1, def value: None
   bool ____oculusPlatformWasInitialized;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12781 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

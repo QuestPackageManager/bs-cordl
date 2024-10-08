@@ -39,7 +39,7 @@ MARK_VAL_T(::System::Threading::__Volatile__VolatileBoolean);
 MARK_VAL_T(::System::Threading::__Volatile__VolatileInt32);
 MARK_VAL_T(::System::Threading::__Volatile__VolatileObject);
 // Type: ::VolatileBoolean
-// SizeInfo { instance_size: 1, native_size: 4, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1, native_size: 4, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
 // CS Name: ::Volatile::VolatileBoolean
@@ -56,6 +56,9 @@ public:
   /// @brief Field Value, offset: 0x0, size: 0x1, def value: None
   bool Value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2755 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -68,7 +71,7 @@ static_assert(offsetof(::System::Threading::__Volatile__VolatileBoolean, Value) 
 
 } // namespace System::Threading
 // Type: ::VolatileInt32
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
 // CS Name: ::Volatile::VolatileInt32
@@ -85,6 +88,9 @@ public:
   /// @brief Field Value, offset: 0x0, size: 0x4, def value: None
   int32_t Value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2756 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -97,7 +103,7 @@ static_assert(offsetof(::System::Threading::__Volatile__VolatileInt32, Value) ==
 
 } // namespace System::Threading
 // Type: ::VolatileObject
-// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
 // CS Name: ::Volatile::VolatileObject
@@ -114,6 +120,9 @@ public:
   /// @brief Field Value, offset: 0x0, size: 0x8, def value: None
   ::System::Object* Value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2757 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -126,7 +135,7 @@ static_assert(offsetof(::System::Threading::__Volatile__VolatileObject, Value) =
 
 } // namespace System::Threading
 // Type: System.Threading::Volatile
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::System.Threading::Volatile*
@@ -142,19 +151,19 @@ public:
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Read(ByRef<T> location);
 
-  /// @brief Method Read, addr 0x29da67c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x3de8eb8, size 0x18, virtual false, abstract: false, final false
   static inline bool Read(ByRef<bool> location);
 
-  /// @brief Method Read, addr 0x29da6b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x3de8ef4, size 0x18, virtual false, abstract: false, final false
   static inline int32_t Read(ByRef<int32_t> location);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Write(ByRef<T> location, T value);
 
-  /// @brief Method Write, addr 0x29da694, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x3de8ed0, size 0x24, virtual false, abstract: false, final false
   static inline void Write(ByRef<bool> location, bool value);
 
-  /// @brief Method Write, addr 0x29da6d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x3de8f0c, size 0x24, virtual false, abstract: false, final false
   static inline void Write(ByRef<int32_t> location, int32_t value);
 
 protected:
@@ -170,6 +179,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Volatile(Volatile const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2758 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

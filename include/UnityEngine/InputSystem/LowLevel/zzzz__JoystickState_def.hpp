@@ -30,7 +30,7 @@ struct JoystickState;
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__JoystickState__Button);
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::JoystickState);
 // Type: ::Button
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::JoystickState::Button
@@ -83,6 +83,9 @@ public:
   /// @brief Field Trigger value: static_cast<int32_t>(0x4)
   static ::UnityEngine::InputSystem::LowLevel::__JoystickState__Button const Trigger;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6875 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -95,7 +98,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__JoystickState__Bu
 
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: UnityEngine.InputSystem.LowLevel::JoystickState
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::JoystickState
@@ -104,15 +107,15 @@ public:
   // Declarations
   using Button = ::UnityEngine::InputSystem::LowLevel::__JoystickState__Button;
 
-  __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
+  __declspec(property(get = get_format)) ::UnityEngine::InputSystem::Utilities::FourCC format;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method get_format, addr 0x318e890, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x4591824, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method get_kFormat, addr 0x318e860, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_kFormat, addr 0x45917f4, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -130,6 +133,9 @@ public:
 
   /// @brief Field stick, offset: 0x4, size: 0x8, def value: None
   ::UnityEngine::Vector2 stick;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6876 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

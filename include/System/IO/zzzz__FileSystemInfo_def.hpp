@@ -37,71 +37,71 @@ class FileSystemInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::IO::FileSystemInfo);
 // Type: System.IO::FileSystemInfo
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
 // CS Name: ::System.IO::FileSystemInfo*
 class CORDL_TYPE FileSystemInfo : public ::System::MarshalByRefObject {
 public:
   // Declarations
-  __declspec(property(get = get_Attributes))::System::IO::FileAttributes Attributes;
+  __declspec(property(get = get_Attributes)) ::System::IO::FileAttributes Attributes;
 
   __declspec(property(get = get_Exists)) bool Exists;
 
   __declspec(property(get = get_ExistsCore)) bool ExistsCore;
 
-  __declspec(property(get = get_FullName))::StringW FullName;
+  __declspec(property(get = get_FullName)) ::StringW FullName;
 
   /// @brief Field FullPath, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_FullPath, put = __cordl_internal_set_FullPath))::StringW FullPath;
+  __declspec(property(get = __cordl_internal_get_FullPath, put = __cordl_internal_set_FullPath)) ::StringW FullPath;
 
-  __declspec(property(get = get_LastWriteTime))::System::DateTime LastWriteTime;
+  __declspec(property(get = get_LastWriteTime)) ::System::DateTime LastWriteTime;
 
-  __declspec(property(get = get_LastWriteTimeCore))::System::DateTimeOffset LastWriteTimeCore;
+  __declspec(property(get = get_LastWriteTimeCore)) ::System::DateTimeOffset LastWriteTimeCore;
 
-  __declspec(property(get = get_LastWriteTimeUtc))::System::DateTime LastWriteTimeUtc;
+  __declspec(property(get = get_LastWriteTimeUtc)) ::System::DateTime LastWriteTimeUtc;
 
   __declspec(property(get = get_LengthCore)) int64_t LengthCore;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_NormalizedPath))::StringW NormalizedPath;
+  __declspec(property(get = get_NormalizedPath)) ::StringW NormalizedPath;
 
   /// @brief Field OriginalPath, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_OriginalPath, put = __cordl_internal_set_OriginalPath))::StringW OriginalPath;
+  __declspec(property(get = __cordl_internal_get_OriginalPath, put = __cordl_internal_set_OriginalPath)) ::StringW OriginalPath;
 
   /// @brief Field _fileStatus, offset 0x18, size 0x78
-  __declspec(property(get = __cordl_internal_get__fileStatus, put = __cordl_internal_set__fileStatus))::System::IO::FileStatus _fileStatus;
+  __declspec(property(get = __cordl_internal_get__fileStatus, put = __cordl_internal_set__fileStatus)) ::System::IO::FileStatus _fileStatus;
 
   /// @brief Field _name, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Create, addr 0x28de0b0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3cf5410, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::IO::FileSystemInfo* Create(::StringW fullPath, ::StringW fileName, ByRef<::System::IO::FileStatus> fileStatus);
 
   /// @brief Method Delete, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Delete();
 
-  /// @brief Method GetObjectData, addr 0x28de37c, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3cf56d0, size 0x148, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Init, addr 0x28de18c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3cf54e0, size 0x7c, virtual false, abstract: false, final false
   inline void Init(ByRef<::System::IO::FileStatus> fileStatus);
 
   static inline ::System::IO::FileSystemInfo* New_ctor();
 
   static inline ::System::IO::FileSystemInfo* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Refresh, addr 0x28de30c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3cf5660, size 0x68, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method ThrowNotFound, addr 0x28de018, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ThrowNotFound, addr 0x3cf5378, size 0x98, virtual false, abstract: false, final false
   static inline void ThrowNotFound(::StringW path);
 
-  /// @brief Method ToString, addr 0x28de5bc, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3cf5998, size 0x54, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_FullPath() const;
@@ -128,40 +128,40 @@ public:
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28d9388, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf0534, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x28d9a70, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf0c14, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Attributes, addr 0x28dc7cc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x3cf3b28, size 0xcc, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes get_Attributes();
 
-  /// @brief Method get_Exists, addr 0x28de4d4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_Exists, addr 0x3cf5828, size 0x88, virtual true, abstract: false, final false
   inline bool get_Exists();
 
-  /// @brief Method get_ExistsCore, addr 0x28de208, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_ExistsCore, addr 0x3cf555c, size 0x98, virtual false, abstract: false, final false
   inline bool get_ExistsCore();
 
-  /// @brief Method get_FullName, addr 0x28de4c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FullName, addr 0x3cf5818, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_FullName();
 
-  /// @brief Method get_LastWriteTime, addr 0x28de55c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTime, addr 0x3cf58b0, size 0x74, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastWriteTime();
 
-  /// @brief Method get_LastWriteTimeCore, addr 0x28de2a0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTimeCore, addr 0x3cf55f4, size 0x6c, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset get_LastWriteTimeCore();
 
-  /// @brief Method get_LastWriteTimeUtc, addr 0x28de594, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTimeUtc, addr 0x3cf5924, size 0x74, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastWriteTimeUtc();
 
-  /// @brief Method get_LengthCore, addr 0x28dc89c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_LengthCore, addr 0x3cf3bf4, size 0x74, virtual false, abstract: false, final false
   inline int64_t get_LengthCore();
 
-  /// @brief Method get_Name, addr 0x28de4cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3cf5820, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NormalizedPath, addr 0x28de374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NormalizedPath, addr 0x3cf56c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NormalizedPath();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -192,6 +192,9 @@ public:
 
   /// @brief Field _name, offset: 0xa0, size: 0x8, def value: None
   ::StringW ____name;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3602 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

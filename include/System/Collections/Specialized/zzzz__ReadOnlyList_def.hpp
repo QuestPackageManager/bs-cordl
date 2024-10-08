@@ -31,7 +31,7 @@ class ReadOnlyList;
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Specialized::ReadOnlyList);
 // Type: System.Collections.Specialized::ReadOnlyList
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
 // CS Name: ::System.Collections.Specialized::ReadOnlyList*
@@ -46,12 +46,12 @@ public:
 
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
-  __declspec(property(get = get_Item, put = set_Item))::System::Object* Item[];
+  __declspec(property(get = get_Item, put = set_Item)) ::System::Object* Item[];
 
-  __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
+  __declspec(property(get = get_SyncRoot)) ::System::Object* SyncRoot;
 
   /// @brief Field _list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::IList* _list;
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list)) ::System::Collections::IList* _list;
 
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
@@ -62,33 +62,33 @@ public:
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
-  /// @brief Method Add, addr 0x2f9fae4, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x440dd8c, size 0x4c, virtual true, abstract: false, final true
   inline int32_t Add(::System::Object* value);
 
-  /// @brief Method Clear, addr 0x2f9fb34, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x440ddd8, size 0x4c, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x2f9fb84, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x440de24, size 0xac, virtual true, abstract: false, final true
   inline bool Contains(::System::Object* value);
 
-  /// @brief Method CopyTo, addr 0x2f9fc30, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x440ded0, size 0xb8, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x2f9fce8, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x440df88, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method IndexOf, addr 0x2f9fd88, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method IndexOf, addr 0x440e028, size 0xac, virtual true, abstract: false, final true
   inline int32_t IndexOf(::System::Object* value);
 
-  /// @brief Method Insert, addr 0x2f9fe34, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Insert, addr 0x440e0d4, size 0x4c, virtual true, abstract: false, final true
   inline void Insert(int32_t index, ::System::Object* value);
 
   static inline ::System::Collections::Specialized::ReadOnlyList* New_ctor(::System::Collections::IList* list);
 
-  /// @brief Method Remove, addr 0x2f9fe84, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x440e120, size 0x4c, virtual true, abstract: false, final true
   inline void Remove(::System::Object* value);
 
-  /// @brief Method RemoveAt, addr 0x2f9fed4, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method RemoveAt, addr 0x440e16c, size 0x4c, virtual true, abstract: false, final true
   inline void RemoveAt(int32_t index);
 
   constexpr ::System::Collections::IList*& __cordl_internal_get__list();
@@ -97,25 +97,25 @@ public:
 
   constexpr void __cordl_internal_set__list(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x2f9f684, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440d95c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* list);
 
-  /// @brief Method get_Count, addr 0x2f9f7f0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x440da9c, size 0xa4, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsFixedSize, addr 0x2f9f89c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsFixedSize, addr 0x440db48, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x2f9f894, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x440db40, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x2f9f8a4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x440db50, size 0xa4, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x2f9f948, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x440dbf4, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method get_SyncRoot, addr 0x2f9fa40, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x440dce8, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -127,7 +127,7 @@ public:
   /// @brief Convert to "::System::Collections::IList"
   constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
 
-  /// @brief Method set_Item, addr 0x2f9f9f0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x440dc9c, size 0x4c, virtual true, abstract: false, final true
   inline void set_Item(int32_t index, ::System::Object* value);
 
 protected:
@@ -146,6 +146,9 @@ public:
 
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ____list;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9466 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

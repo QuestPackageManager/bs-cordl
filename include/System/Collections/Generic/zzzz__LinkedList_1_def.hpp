@@ -67,7 +67,7 @@ template <typename T> struct __LinkedList_1__Enumerator;
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::LinkedList_1);
 MARK_GEN_VAL_T(::System::Collections::Generic::__LinkedList_1__Enumerator);
 // Type: ::Enumerator
-// SizeInfo { instance_size: 40, native_size: 52, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 52, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -78,7 +78,7 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
@@ -162,6 +162,9 @@ public:
   /// @brief Field _index, offset: 0x20, size: 0x4, def value: None
   int32_t _index;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9481 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -170,7 +173,7 @@ public:
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: System.Collections.Generic::LinkedList`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -183,27 +186,27 @@ public:
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_First))::System::Collections::Generic::LinkedListNode_1<T>* First;
+  __declspec(property(get = get_First)) ::System::Collections::Generic::LinkedListNode_1<T>* First;
 
-  __declspec(property(get = get_Last))::System::Collections::Generic::LinkedListNode_1<T>* Last;
+  __declspec(property(get = get_Last)) ::System::Collections::Generic::LinkedListNode_1<T>* Last;
 
   __declspec(property(get = System_Collections_Generic_ICollection_T__get_IsReadOnly)) bool System_Collections_Generic_ICollection_T__IsReadOnly;
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   /// @brief Field _siInfo, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__siInfo, put = __cordl_internal_set__siInfo))::System::Runtime::Serialization::SerializationInfo* _siInfo;
+  __declspec(property(get = __cordl_internal_get__siInfo, put = __cordl_internal_set__siInfo)) ::System::Runtime::Serialization::SerializationInfo* _siInfo;
 
   /// @brief Field _syncRoot, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot)) ::System::Object* _syncRoot;
 
   /// @brief Field count, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field head, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_head, put = __cordl_internal_set_head))::System::Collections::Generic::LinkedListNode_1<T>* head;
+  __declspec(property(get = __cordl_internal_get_head, put = __cordl_internal_set_head)) ::System::Collections::Generic::LinkedListNode_1<T>* head;
 
   /// @brief Field version, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
@@ -292,6 +295,9 @@ public:
 
   /// @brief Method RemoveFirst, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveFirst();
+
+  /// @brief Method RemoveLast, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void RemoveLast();
 
   /// @brief Method System.Collections.Generic.ICollection<T>.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_T__Add(T value);
@@ -423,6 +429,9 @@ public:
 
   /// @brief Field VersionName offset 0xffffffff size 0x8
   static constexpr ::ConstString VersionName{ u"Version" };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9482 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

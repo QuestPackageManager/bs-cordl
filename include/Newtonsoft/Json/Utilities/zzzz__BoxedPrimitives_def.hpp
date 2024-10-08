@@ -20,7 +20,7 @@ class BoxedPrimitives;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::BoxedPrimitives);
 // Type: Newtonsoft.Json.Utilities::BoxedPrimitives
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::BoxedPrimitives*
@@ -28,99 +28,99 @@ class CORDL_TYPE BoxedPrimitives : public ::System::Object {
 public:
   // Declarations
   /// @brief Field BooleanFalse, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_BooleanFalse, put = setStaticF_BooleanFalse))::System::Object* BooleanFalse;
+  static __declspec(property(get = getStaticF_BooleanFalse, put = setStaticF_BooleanFalse)) ::System::Object* BooleanFalse;
 
   /// @brief Field BooleanTrue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_BooleanTrue, put = setStaticF_BooleanTrue))::System::Object* BooleanTrue;
+  static __declspec(property(get = getStaticF_BooleanTrue, put = setStaticF_BooleanTrue)) ::System::Object* BooleanTrue;
 
   /// @brief Field DecimalZero, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DecimalZero, put = setStaticF_DecimalZero))::System::Object* DecimalZero;
+  static __declspec(property(get = getStaticF_DecimalZero, put = setStaticF_DecimalZero)) ::System::Object* DecimalZero;
 
   /// @brief Field DoubleNaN, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DoubleNaN, put = setStaticF_DoubleNaN))::System::Object* DoubleNaN;
+  static __declspec(property(get = getStaticF_DoubleNaN, put = setStaticF_DoubleNaN)) ::System::Object* DoubleNaN;
 
   /// @brief Field DoubleNegativeInfinity, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DoubleNegativeInfinity, put = setStaticF_DoubleNegativeInfinity))::System::Object* DoubleNegativeInfinity;
+  static __declspec(property(get = getStaticF_DoubleNegativeInfinity, put = setStaticF_DoubleNegativeInfinity)) ::System::Object* DoubleNegativeInfinity;
 
   /// @brief Field DoublePositiveInfinity, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DoublePositiveInfinity, put = setStaticF_DoublePositiveInfinity))::System::Object* DoublePositiveInfinity;
+  static __declspec(property(get = getStaticF_DoublePositiveInfinity, put = setStaticF_DoublePositiveInfinity)) ::System::Object* DoublePositiveInfinity;
 
   /// @brief Field DoubleZero, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DoubleZero, put = setStaticF_DoubleZero))::System::Object* DoubleZero;
+  static __declspec(property(get = getStaticF_DoubleZero, put = setStaticF_DoubleZero)) ::System::Object* DoubleZero;
 
   /// @brief Field Int32_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int32_0, put = setStaticF_Int32_0))::System::Object* Int32_0;
+  static __declspec(property(get = getStaticF_Int32_0, put = setStaticF_Int32_0)) ::System::Object* Int32_0;
 
   /// @brief Field Int32_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int32_1, put = setStaticF_Int32_1))::System::Object* Int32_1;
+  static __declspec(property(get = getStaticF_Int32_1, put = setStaticF_Int32_1)) ::System::Object* Int32_1;
 
   /// @brief Field Int32_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int32_2, put = setStaticF_Int32_2))::System::Object* Int32_2;
+  static __declspec(property(get = getStaticF_Int32_2, put = setStaticF_Int32_2)) ::System::Object* Int32_2;
 
   /// @brief Field Int32_3, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int32_3, put = setStaticF_Int32_3))::System::Object* Int32_3;
+  static __declspec(property(get = getStaticF_Int32_3, put = setStaticF_Int32_3)) ::System::Object* Int32_3;
 
   /// @brief Field Int32_4, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int32_4, put = setStaticF_Int32_4))::System::Object* Int32_4;
+  static __declspec(property(get = getStaticF_Int32_4, put = setStaticF_Int32_4)) ::System::Object* Int32_4;
 
   /// @brief Field Int32_5, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int32_5, put = setStaticF_Int32_5))::System::Object* Int32_5;
+  static __declspec(property(get = getStaticF_Int32_5, put = setStaticF_Int32_5)) ::System::Object* Int32_5;
 
   /// @brief Field Int32_6, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int32_6, put = setStaticF_Int32_6))::System::Object* Int32_6;
+  static __declspec(property(get = getStaticF_Int32_6, put = setStaticF_Int32_6)) ::System::Object* Int32_6;
 
   /// @brief Field Int32_7, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int32_7, put = setStaticF_Int32_7))::System::Object* Int32_7;
+  static __declspec(property(get = getStaticF_Int32_7, put = setStaticF_Int32_7)) ::System::Object* Int32_7;
 
   /// @brief Field Int32_8, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int32_8, put = setStaticF_Int32_8))::System::Object* Int32_8;
+  static __declspec(property(get = getStaticF_Int32_8, put = setStaticF_Int32_8)) ::System::Object* Int32_8;
 
   /// @brief Field Int32_M1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int32_M1, put = setStaticF_Int32_M1))::System::Object* Int32_M1;
+  static __declspec(property(get = getStaticF_Int32_M1, put = setStaticF_Int32_M1)) ::System::Object* Int32_M1;
 
   /// @brief Field Int64_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int64_0, put = setStaticF_Int64_0))::System::Object* Int64_0;
+  static __declspec(property(get = getStaticF_Int64_0, put = setStaticF_Int64_0)) ::System::Object* Int64_0;
 
   /// @brief Field Int64_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int64_1, put = setStaticF_Int64_1))::System::Object* Int64_1;
+  static __declspec(property(get = getStaticF_Int64_1, put = setStaticF_Int64_1)) ::System::Object* Int64_1;
 
   /// @brief Field Int64_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int64_2, put = setStaticF_Int64_2))::System::Object* Int64_2;
+  static __declspec(property(get = getStaticF_Int64_2, put = setStaticF_Int64_2)) ::System::Object* Int64_2;
 
   /// @brief Field Int64_3, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int64_3, put = setStaticF_Int64_3))::System::Object* Int64_3;
+  static __declspec(property(get = getStaticF_Int64_3, put = setStaticF_Int64_3)) ::System::Object* Int64_3;
 
   /// @brief Field Int64_4, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int64_4, put = setStaticF_Int64_4))::System::Object* Int64_4;
+  static __declspec(property(get = getStaticF_Int64_4, put = setStaticF_Int64_4)) ::System::Object* Int64_4;
 
   /// @brief Field Int64_5, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int64_5, put = setStaticF_Int64_5))::System::Object* Int64_5;
+  static __declspec(property(get = getStaticF_Int64_5, put = setStaticF_Int64_5)) ::System::Object* Int64_5;
 
   /// @brief Field Int64_6, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int64_6, put = setStaticF_Int64_6))::System::Object* Int64_6;
+  static __declspec(property(get = getStaticF_Int64_6, put = setStaticF_Int64_6)) ::System::Object* Int64_6;
 
   /// @brief Field Int64_7, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int64_7, put = setStaticF_Int64_7))::System::Object* Int64_7;
+  static __declspec(property(get = getStaticF_Int64_7, put = setStaticF_Int64_7)) ::System::Object* Int64_7;
 
   /// @brief Field Int64_8, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int64_8, put = setStaticF_Int64_8))::System::Object* Int64_8;
+  static __declspec(property(get = getStaticF_Int64_8, put = setStaticF_Int64_8)) ::System::Object* Int64_8;
 
   /// @brief Field Int64_M1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int64_M1, put = setStaticF_Int64_M1))::System::Object* Int64_M1;
+  static __declspec(property(get = getStaticF_Int64_M1, put = setStaticF_Int64_M1)) ::System::Object* Int64_M1;
 
-  /// @brief Method Get, addr 0x2a38874, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3e495f0, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Object* Get(::System::Decimal value);
 
-  /// @brief Method Get, addr 0x2a38470, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3e4915c, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Object* Get(bool value);
 
-  /// @brief Method Get, addr 0x2a3895c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3e496d8, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Object* Get(double_t value);
 
-  /// @brief Method Get, addr 0x2a384d8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3e491c4, size 0x210, virtual false, abstract: false, final false
   static inline ::System::Object* Get(int32_t value);
 
-  /// @brief Method Get, addr 0x2a386a0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3e493d4, size 0x21c, virtual false, abstract: false, final false
   static inline ::System::Object* Get(int64_t value);
 
   static inline ::System::Object* getStaticF_BooleanFalse();
@@ -244,6 +244,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BoxedPrimitives", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BoxedPrimitives(BoxedPrimitives const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10155 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

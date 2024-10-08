@@ -14,7 +14,7 @@ class TokenizerStringBlock;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Util::TokenizerStringBlock);
 // Type: System.Security.Util::TokenizerStringBlock
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: false
 // CS Name: ::System.Security.Util::TokenizerStringBlock*
@@ -22,10 +22,10 @@ class CORDL_TYPE TokenizerStringBlock : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_block, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_block, put = __cordl_internal_set_m_block))::ArrayW<::StringW, ::Array<::StringW>*> m_block;
+  __declspec(property(get = __cordl_internal_get_m_block, put = __cordl_internal_set_m_block)) ::ArrayW<::StringW, ::Array<::StringW>*> m_block;
 
   /// @brief Field m_next, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_next, put = __cordl_internal_set_m_next))::System::Security::Util::TokenizerStringBlock* m_next;
+  __declspec(property(get = __cordl_internal_get_m_next, put = __cordl_internal_set_m_next)) ::System::Security::Util::TokenizerStringBlock* m_next;
 
   static inline ::System::Security::Util::TokenizerStringBlock* New_ctor();
 
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_m_next(::System::Security::Util::TokenizerStringBlock* value);
 
-  /// @brief Method .ctor, addr 0x28038b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c234ac, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field m_next, offset: 0x18, size: 0x8, def value: None
   ::System::Security::Util::TokenizerStringBlock* ___m_next;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2901 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

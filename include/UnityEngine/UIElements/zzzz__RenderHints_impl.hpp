@@ -18,4 +18,5 @@ constexpr ::UnityEngine::UIElements::RenderHints UnityEngine::UIElements::Render
 constexpr ::UnityEngine::UIElements::RenderHints UnityEngine::UIElements::RenderHints::DirtyBoneTransform{ static_cast<int32_t>(0x40) };
 constexpr ::UnityEngine::UIElements::RenderHints UnityEngine::UIElements::RenderHints::DirtyClipWithScissors{ static_cast<int32_t>(0x80) };
 constexpr ::UnityEngine::UIElements::RenderHints UnityEngine::UIElements::RenderHints::DirtyMaskContainer{ static_cast<int32_t>(0x100) };
-constexpr ::UnityEngine::UIElements::RenderHints UnityEngine::UIElements::RenderHints::DirtyAll{ static_cast<int32_t>(0x1e0) };
+constexpr ::UnityEngine::UIElements::RenderHints UnityEngine::UIElements::RenderHints::DirtyDynamicColor{ static_cast<int32_t>(0x200) };
+constexpr ::UnityEngine::UIElements::RenderHints UnityEngine::UIElements::RenderHints::DirtyAll{ static_cast<int32_t>(0x3e0) };

@@ -7,6 +7,8 @@ constexpr ::UnityEngine::PlayerLoop::__PreUpdate__PhysicsUpdate::__PreUpdate__Ph
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__PreUpdate__Physics2DUpdate::__PreUpdate__Physics2DUpdate() {}
 // Ctor Parameters []
+constexpr ::UnityEngine::PlayerLoop::__PreUpdate__PhysicsClothUpdate::__PreUpdate__PhysicsClothUpdate() {}
+// Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__PreUpdate__CheckTexFieldInput::__PreUpdate__CheckTexFieldInput() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__PreUpdate__IMGUISendQueuedEvents::__PreUpdate__IMGUISendQueuedEvents() {}

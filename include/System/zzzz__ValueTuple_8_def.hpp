@@ -44,7 +44,7 @@ template <typename T1, typename T2, typename T3, typename T4, typename T5, typen
 // Write type traits
 MARK_GEN_VAL_T(::System::ValueTuple_8);
 // Type: System::ValueTuple`8
-// SizeInfo { instance_size: 64, native_size: 80, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 80, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
@@ -171,6 +171,9 @@ public:
 
   /// @brief Field Rest, offset: 0x38, size: 0x8, def value: None
   TRest Rest;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2510 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

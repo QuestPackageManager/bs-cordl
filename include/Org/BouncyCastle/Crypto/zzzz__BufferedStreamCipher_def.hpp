@@ -21,51 +21,51 @@ class BufferedStreamCipher;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::BufferedStreamCipher);
 // Type: Org.BouncyCastle.Crypto::BufferedStreamCipher
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto::BufferedStreamCipher*
 class CORDL_TYPE BufferedStreamCipher : public ::Org::BouncyCastle::Crypto::BufferedCipherBase {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field cipher, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IStreamCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher)) ::Org::BouncyCastle::Crypto::IStreamCipher* cipher;
 
-  /// @brief Method DoFinal, addr 0x12368cc, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x240976c, size 0x70, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal();
 
-  /// @brief Method DoFinal, addr 0x123693c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x24097dc, size 0xb8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method GetBlockSize, addr 0x123648c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x2409330, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetOutputSize, addr 0x1236494, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0x2409338, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t inputLen);
 
-  /// @brief Method GetUpdateOutputSize, addr 0x123649c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0x2409340, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t inputLen);
 
-  /// @brief Method Init, addr 0x1236388, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x240922c, size 0x104, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::BufferedStreamCipher* New_ctor(::Org::BouncyCastle::Crypto::IStreamCipher* cipher);
 
-  /// @brief Method ProcessByte, addr 0x12364a4, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x2409348, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessByte(uint8_t input);
 
-  /// @brief Method ProcessByte, addr 0x1236598, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x240943c, size 0x134, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x12366d0, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x2409570, size 0x108, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method ProcessBytes, addr 0x12367d8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x2409678, size 0xf4, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x12369f4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2409894, size 0xa4, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::Org::BouncyCastle::Crypto::IStreamCipher*& __cordl_internal_get_cipher();
@@ -74,10 +74,10 @@ public:
 
   constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::IStreamCipher* value);
 
-  /// @brief Method .ctor, addr 0x123622c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24090d4, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IStreamCipher* cipher);
 
-  /// @brief Method get_AlgorithmName, addr 0x12362e8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x240918c, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field cipher, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IStreamCipher* ___cipher;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1345 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

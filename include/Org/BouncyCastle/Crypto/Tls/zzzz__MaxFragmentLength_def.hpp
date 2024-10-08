@@ -13,19 +13,19 @@ class MaxFragmentLength;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::MaxFragmentLength);
 // Type: Org.BouncyCastle.Crypto.Tls::MaxFragmentLength
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::MaxFragmentLength*
 class CORDL_TYPE MaxFragmentLength : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x1203228, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x23d6f14, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t maxFragmentLength);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::MaxFragmentLength* New_ctor();
 
-  /// @brief Method .ctor, addr 0x120323c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d6f28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MaxFragmentLength", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MaxFragmentLength(MaxFragmentLength const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1254 };
 
   /// @brief Field pow2_10 offset 0xffffffff size 0x1
   static constexpr uint8_t pow2_10{ static_cast<uint8_t>(0x2u) };

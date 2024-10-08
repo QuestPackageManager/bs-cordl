@@ -26,7 +26,7 @@ class InvocationExpression1;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::InvocationExpression1);
 // Type: System.Linq.Expressions::InvocationExpression1
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions::InvocationExpression1*
@@ -36,15 +36,15 @@ public:
   __declspec(property(get = get_ArgumentCount)) int32_t ArgumentCount;
 
   /// @brief Field _arg0, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__arg0, put = __cordl_internal_set__arg0))::System::Object* _arg0;
+  __declspec(property(get = __cordl_internal_get__arg0, put = __cordl_internal_set__arg0)) ::System::Object* _arg0;
 
-  /// @brief Method GetArgument, addr 0x2c3e104, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x4042550, size 0x98, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InvocationExpression1* New_ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType,
                                                                              ::System::Linq::Expressions::Expression* arg0);
 
-  /// @brief Method Rewrite, addr 0x2c3e1a8, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x40425f0, size 0xb8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression* lambda,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set__arg0(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2c3e0e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x404252c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType, ::System::Linq::Expressions::Expression* arg0);
 
-  /// @brief Method get_ArgumentCount, addr 0x2c3e1a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x40425e8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
 protected:
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field _arg0, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____arg0;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13637 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,22 +16,22 @@ class XmlSchemaImport;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaImport);
 // Type: System.Xml.Schema::XmlSchemaImport
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaImport*
 class CORDL_TYPE XmlSchemaImport : public ::System::Xml::Schema::XmlSchemaExternal {
 public:
   // Declarations
-  __declspec(property(get = get_Namespace, put = set_Namespace))::StringW Namespace;
+  __declspec(property(get = get_Namespace, put = set_Namespace)) ::StringW Namespace;
 
   /// @brief Field annotation, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_annotation, put = __cordl_internal_set_annotation))::System::Xml::Schema::XmlSchemaAnnotation* annotation;
+  __declspec(property(get = __cordl_internal_get_annotation, put = __cordl_internal_set_annotation)) ::System::Xml::Schema::XmlSchemaAnnotation* annotation;
 
   /// @brief Field ns, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns))::StringW ns;
+  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::StringW ns;
 
-  /// @brief Method AddAnnotation, addr 0x2e45794, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x4248020, size 0x8, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaImport* New_ctor();
@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set_ns(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e45764, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4247ff0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Namespace, addr 0x2e45784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x4248010, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method set_Namespace, addr 0x2e4578c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x4248018, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
 protected:
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field annotation, offset: 0x70, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaAnnotation* ___annotation;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7667 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -28,7 +28,7 @@ template <typename TStateTable, typename TType, typename TState> class LocalStat
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::LocalStateBuffer_3);
 // Type: ::LocalStateBuffer`3
-// SizeInfo { instance_size: 120, native_size: 113, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: 113, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
@@ -38,7 +38,7 @@ class CORDL_TYPE LocalStateBuffer_3 : public ::GlobalNamespace::StateBuffer_3<TS
 public:
   // Declarations
   /// @brief Field _current, offset 0x30, size 0x18
-  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState> _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState> _current;
 
   /// @brief Field _deltaUpdateFrequency, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__deltaUpdateFrequency, put = __cordl_internal_set__deltaUpdateFrequency)) int64_t _deltaUpdateFrequency;
@@ -47,23 +47,25 @@ public:
   __declspec(property(get = __cordl_internal_get__fullStateUpdateFrequency, put = __cordl_internal_set__fullStateUpdateFrequency)) int64_t _fullStateUpdateFrequency;
 
   /// @brief Field _lastSentSyncStateId, offset 0x70, size 0x1
-  __declspec(property(get = __cordl_internal_get__lastSentSyncStateId, put = __cordl_internal_set__lastSentSyncStateId))::GlobalNamespace::SyncStateId _lastSentSyncStateId;
+  __declspec(property(get = __cordl_internal_get__lastSentSyncStateId, put = __cordl_internal_set__lastSentSyncStateId)) ::GlobalNamespace::SyncStateId _lastSentSyncStateId;
 
   /// @brief Field _sentDeltaIndex, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get__sentDeltaIndex, put = __cordl_internal_set__sentDeltaIndex)) int32_t _sentDeltaIndex;
 
   /// @brief Field _sentDeltas, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__sentDeltas,
-                      put = __cordl_internal_set__sentDeltas))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                                                                       ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _sentDeltas;
+                      put = __cordl_internal_set__sentDeltas)) ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
+                                                                        ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
+      _sentDeltas;
 
   /// @brief Field _sentStateIndex, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__sentStateIndex, put = __cordl_internal_set__sentStateIndex)) int32_t _sentStateIndex;
 
   /// @brief Field _sentStates, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__sentStates,
-                      put = __cordl_internal_set__sentStates))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                                                                       ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _sentStates;
+                      put = __cordl_internal_set__sentStates)) ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
+                                                                        ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
+      _sentStates;
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Clear();
@@ -193,6 +195,9 @@ public:
 
   /// @brief Field _lastSentSyncStateId, offset: 0x70, size: 0x1, def value: None
   ::GlobalNamespace::SyncStateId ____lastSentSyncStateId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14950 };
 
   /// @brief Field kMaxSentDeltas offset 0xffffffff size 0x4
   static constexpr int32_t kMaxSentDeltas{ static_cast<int32_t>(0x4) };

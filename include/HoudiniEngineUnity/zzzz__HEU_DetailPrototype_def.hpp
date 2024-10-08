@@ -19,7 +19,7 @@ class HEU_DetailPrototype;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_DetailPrototype);
 // Type: HoudiniEngineUnity::HEU_DetailPrototype
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_DetailPrototype*
@@ -30,10 +30,10 @@ public:
   __declspec(property(get = __cordl_internal_get__bendFactor, put = __cordl_internal_set__bendFactor)) float_t _bendFactor;
 
   /// @brief Field _dryColor, offset 0x24, size 0x10
-  __declspec(property(get = __cordl_internal_get__dryColor, put = __cordl_internal_set__dryColor))::UnityEngine::Color _dryColor;
+  __declspec(property(get = __cordl_internal_get__dryColor, put = __cordl_internal_set__dryColor)) ::UnityEngine::Color _dryColor;
 
   /// @brief Field _healthyColor, offset 0x34, size 0x10
-  __declspec(property(get = __cordl_internal_get__healthyColor, put = __cordl_internal_set__healthyColor))::UnityEngine::Color _healthyColor;
+  __declspec(property(get = __cordl_internal_get__healthyColor, put = __cordl_internal_set__healthyColor)) ::UnityEngine::Color _healthyColor;
 
   /// @brief Field _maxHeight, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__maxHeight, put = __cordl_internal_set__maxHeight)) float_t _maxHeight;
@@ -51,10 +51,10 @@ public:
   __declspec(property(get = __cordl_internal_get__noiseSpread, put = __cordl_internal_set__noiseSpread)) float_t _noiseSpread;
 
   /// @brief Field _prototypePrefab, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__prototypePrefab, put = __cordl_internal_set__prototypePrefab))::StringW _prototypePrefab;
+  __declspec(property(get = __cordl_internal_get__prototypePrefab, put = __cordl_internal_set__prototypePrefab)) ::StringW _prototypePrefab;
 
   /// @brief Field _prototypeTexture, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__prototypeTexture, put = __cordl_internal_set__prototypeTexture))::StringW _prototypeTexture;
+  __declspec(property(get = __cordl_internal_get__prototypeTexture, put = __cordl_internal_set__prototypeTexture)) ::StringW _prototypeTexture;
 
   /// @brief Field _renderMode, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__renderMode, put = __cordl_internal_set__renderMode)) int32_t _renderMode;
@@ -62,7 +62,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x25faa04, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a34564, size 0xec, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailPrototype* other);
 
   static inline ::HoudiniEngineUnity::HEU_DetailPrototype* New_ctor();
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set__renderMode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25fa908, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a34468, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailPrototype*>"
@@ -185,6 +185,9 @@ public:
 
   /// @brief Field _renderMode, offset: 0x58, size: 0x4, def value: None
   int32_t ____renderMode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11900 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

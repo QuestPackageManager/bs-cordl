@@ -17,19 +17,19 @@ class FixedUpdateVector3SmoothValue;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FixedUpdateVector3SmoothValue);
 // Type: ::FixedUpdateVector3SmoothValue
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FixedUpdateVector3SmoothValue*
 class CORDL_TYPE FixedUpdateVector3SmoothValue : public ::GlobalNamespace::FixedUpdateSmoothValue_1<::UnityEngine::Vector3> {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x24ffbbc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x3956f4c, size 0x28, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 value0, ::UnityEngine::Vector3 value1, float_t t);
 
   static inline ::GlobalNamespace::FixedUpdateVector3SmoothValue* New_ctor(float_t smooth);
 
-  /// @brief Method .ctor, addr 0x24ffb64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3956ef4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(float_t smooth);
 
 protected:
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FixedUpdateVector3SmoothValue", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValue const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16342 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

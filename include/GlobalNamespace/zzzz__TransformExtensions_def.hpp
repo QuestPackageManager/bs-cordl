@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TransformExtensions)
 namespace UnityEngine {
 struct Quaternion;
@@ -18,14 +19,17 @@ class TransformExtensions;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TransformExtensions);
 // Type: ::TransformExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TransformExtensions*
 class CORDL_TYPE TransformExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InverseTransformRotation, addr 0x1098160, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FindChildRecursively, addr 0x227562c, size 0xf8, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Transform> FindChildRecursively(::UnityEngine::Transform* parent, ::StringW name);
+
+  /// @brief Method InverseTransformRotation, addr 0x2275578, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion InverseTransformRotation(::UnityEngine::Transform* trans, ::UnityEngine::Quaternion worldRotation);
 
 protected:
@@ -41,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TransformExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TransformExtensions(TransformExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17188 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

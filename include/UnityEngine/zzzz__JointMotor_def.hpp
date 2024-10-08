@@ -14,7 +14,7 @@ struct JointMotor;
 // Write type traits
 MARK_VAL_T(::UnityEngine::JointMotor);
 // Type: UnityEngine::JointMotor
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::JointMotor
@@ -27,22 +27,22 @@ public:
 
   __declspec(property(get = get_targetVelocity, put = set_targetVelocity)) float_t targetVelocity;
 
-  /// @brief Method get_force, addr 0x34aa6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_force, addr 0x4879f74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_force();
 
-  /// @brief Method get_freeSpin, addr 0x34aa708, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_freeSpin, addr 0x4879f84, size 0x10, virtual false, abstract: false, final false
   inline bool get_freeSpin();
 
-  /// @brief Method get_targetVelocity, addr 0x34aa6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetVelocity, addr 0x4879f64, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetVelocity();
 
-  /// @brief Method set_force, addr 0x34aa700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_force, addr 0x4879f7c, size 0x8, virtual false, abstract: false, final false
   inline void set_force(float_t value);
 
-  /// @brief Method set_freeSpin, addr 0x34aa718, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_freeSpin, addr 0x4879f94, size 0xc, virtual false, abstract: false, final false
   inline void set_freeSpin(bool value);
 
-  /// @brief Method set_targetVelocity, addr 0x34aa6f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetVelocity, addr 0x4879f6c, size 0x8, virtual false, abstract: false, final false
   inline void set_targetVelocity(float_t value);
 
   // Ctor Parameters []
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field m_FreeSpin, offset: 0x8, size: 0x4, def value: None
   int32_t m_FreeSpin;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15673 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

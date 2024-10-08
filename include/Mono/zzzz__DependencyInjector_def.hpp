@@ -18,7 +18,7 @@ class DependencyInjector;
 // Write type traits
 MARK_REF_PTR_T(::Mono::DependencyInjector);
 // Type: Mono::DependencyInjector
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
 // CS Name: ::Mono::DependencyInjector*
@@ -26,22 +26,22 @@ class CORDL_TYPE DependencyInjector : public ::System::Object {
 public:
   // Declarations
   /// @brief Field locker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_locker, put = setStaticF_locker))::System::Object* locker;
+  static __declspec(property(get = getStaticF_locker, put = setStaticF_locker)) ::System::Object* locker;
 
   /// @brief Field systemDependency, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_systemDependency, put = setStaticF_systemDependency))::Mono::ISystemDependencyProvider* systemDependency;
+  static __declspec(property(get = getStaticF_systemDependency, put = setStaticF_systemDependency)) ::Mono::ISystemDependencyProvider* systemDependency;
 
-  /// @brief Method ReflectionLoad, addr 0x27bd3c8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReflectionLoad, addr 0x3bdf4cc, size 0x14c, virtual false, abstract: false, final false
   static inline ::Mono::ISystemDependencyProvider* ReflectionLoad();
 
-  /// @brief Method Register, addr 0x27bd514, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x3bdf618, size 0x198, virtual false, abstract: false, final false
   static inline void Register(::Mono::ISystemDependencyProvider* provider);
 
   static inline ::System::Object* getStaticF_locker();
 
   static inline ::Mono::ISystemDependencyProvider* getStaticF_systemDependency();
 
-  /// @brief Method get_SystemProvider, addr 0x27bd1c4, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method get_SystemProvider, addr 0x3bdf2d4, size 0x1f8, virtual false, abstract: false, final false
   static inline ::Mono::ISystemDependencyProvider* get_SystemProvider();
 
   static inline void setStaticF_locker(::System::Object* value);
@@ -61,6 +61,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DependencyInjector", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DependencyInjector(DependencyInjector const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2224 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

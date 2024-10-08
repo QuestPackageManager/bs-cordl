@@ -70,7 +70,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentOverrideSettingsPanelController);
 MARK_REF_PTR_T(::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements);
 MARK_REF_PTR_T(::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c);
 // Type: ::Elements
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::EnvironmentOverrideSettingsPanelController::Elements*
@@ -78,23 +78,23 @@ class CORDL_TYPE __EnvironmentOverrideSettingsPanelController__Elements : public
 public:
   // Declarations
   /// @brief Field <environmentInfos>k__BackingField, offset 0x30, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__environmentInfos_k__BackingField,
-               put = __cordl_internal_set__environmentInfos_k__BackingField))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* _environmentInfos_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__environmentInfos_k__BackingField,
+      put = __cordl_internal_set__environmentInfos_k__BackingField)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* _environmentInfos_k__BackingField;
 
-  __declspec(property(get = get_environmentInfos, put = set_environmentInfos))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* environmentInfos;
+  __declspec(property(get = get_environmentInfos, put = set_environmentInfos)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* environmentInfos;
 
   /// @brief Field environmentType, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_environmentType, put = __cordl_internal_set_environmentType))::GlobalNamespace::EnvironmentType environmentType;
+  __declspec(property(get = __cordl_internal_get_environmentType, put = __cordl_internal_set_environmentType)) ::GlobalNamespace::EnvironmentType environmentType;
 
   /// @brief Field label, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_label, put = __cordl_internal_set_label))::UnityW<::TMPro::TextMeshProUGUI> label;
+  __declspec(property(get = __cordl_internal_get_label, put = __cordl_internal_set_label)) ::UnityW<::TMPro::TextMeshProUGUI> label;
 
   /// @brief Field localizationKey, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_localizationKey, put = __cordl_internal_set_localizationKey))::StringW localizationKey;
+  __declspec(property(get = __cordl_internal_get_localizationKey, put = __cordl_internal_set_localizationKey)) ::StringW localizationKey;
 
   /// @brief Field simpleTextDropdown, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_simpleTextDropdown, put = __cordl_internal_set_simpleTextDropdown))::UnityW<::HMUI::SimpleTextDropdown> simpleTextDropdown;
+  __declspec(property(get = __cordl_internal_get_simpleTextDropdown, put = __cordl_internal_set_simpleTextDropdown)) ::UnityW<::HMUI::SimpleTextDropdown> simpleTextDropdown;
 
   static inline ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements* New_ctor();
 
@@ -129,13 +129,13 @@ public:
 
   constexpr void __cordl_internal_set_simpleTextDropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
 
-  /// @brief Method .ctor, addr 0x277040c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8779c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_environmentInfos, addr 0x27703fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentInfos, addr 0x3b8778c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* get_environmentInfos();
 
-  /// @brief Method set_environmentInfos, addr 0x2770404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_environmentInfos, addr 0x3b87794, size 0x8, virtual false, abstract: false, final false
   inline void set_environmentInfos(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
 
 protected:
@@ -167,6 +167,9 @@ public:
   /// @brief Field <environmentInfos>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* ____environmentInfos_k__BackingField;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4755 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -184,7 +187,7 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentOverrideSettingsPanelCont
 
 } // namespace GlobalNamespace
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::EnvironmentOverrideSettingsPanelController::<>c*
@@ -192,26 +195,26 @@ class CORDL_TYPE __EnvironmentOverrideSettingsPanelController____c : public ::Sy
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c* __9;
 
-  /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0))::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* __9__12_0;
+  /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0)) ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* __9__10_0;
 
   static inline ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c* New_ctor();
 
-  /// @brief Method <SetData>b__12_0, addr 0x2770480, size 0x18, virtual false, abstract: false, final false
-  inline ::StringW _SetData_b__12_0(::GlobalNamespace::EnvironmentInfoSO* x);
+  /// @brief Method <SetData>b__10_0, addr 0x3b87808, size 0x18, virtual false, abstract: false, final false
+  inline ::StringW _SetData_b__10_0(::GlobalNamespace::EnvironmentInfoSO* x);
 
-  /// @brief Method .ctor, addr 0x2770478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b87800, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c* getStaticF___9();
 
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* getStaticF___9__12_0();
+  static inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* getStaticF___9__10_0();
 
   static inline void setStaticF___9(::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c* value);
 
-  static inline void setStaticF___9__12_0(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* value);
+  static inline void setStaticF___9__10_0(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* value);
 
 protected:
   // Ctor Parameters []
@@ -227,6 +230,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __EnvironmentOverrideSettingsPanelController____c(__EnvironmentOverrideSettingsPanelController____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4756 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -234,7 +240,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EnvironmentOv
 
 } // namespace GlobalNamespace
 // Type: ::EnvironmentOverrideSettingsPanelController
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::EnvironmentOverrideSettingsPanelController*
@@ -245,60 +251,58 @@ public:
 
   using __c = ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c;
 
-  /// @brief Field _analyticsModel, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
+  /// @brief Field _analyticsModel, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel)) ::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
-  /// @brief Field _dismissPanelAnimation, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__dismissPanelAnimation, put = __cordl_internal_set__dismissPanelAnimation))::UnityW<::HMUI::PanelAnimationSO> _dismissPanelAnimation;
+  /// @brief Field _dismissPanelAnimation, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__dismissPanelAnimation, put = __cordl_internal_set__dismissPanelAnimation)) ::UnityW<::HMUI::PanelAnimationSO> _dismissPanelAnimation;
 
-  /// @brief Field _elements, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__elements,
-                      put = __cordl_internal_set__elements))::ArrayW<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*,
-                                                                     ::Array<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>*> _elements;
+  /// @brief Field _elements, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__elements, put = __cordl_internal_set__elements)) ::ArrayW<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*,
+                                                                                                            ::Array<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>*>
+      _elements;
 
-  /// @brief Field _elementsGO, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__elementsGO, put = __cordl_internal_set__elementsGO))::UnityW<::UnityEngine::GameObject> _elementsGO;
+  /// @brief Field _elementsGO, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__elementsGO, put = __cordl_internal_set__elementsGO)) ::UnityW<::UnityEngine::GameObject> _elementsGO;
 
-  /// @brief Field _environmentListModel, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__environmentListModel, put = __cordl_internal_set__environmentListModel))::GlobalNamespace::EnvironmentsListModel* _environmentListModel;
+  /// @brief Field _environmentListModel, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__environmentListModel, put = __cordl_internal_set__environmentListModel)) ::GlobalNamespace::EnvironmentsListModel* _environmentListModel;
 
-  /// @brief Field _initialized, offset 0x58, size 0x1
+  /// @brief Field _initialized, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
-  /// @brief Field _overrideEnvironmentSettings, offset 0x50, size 0x8
+  /// @brief Field _overrideEnvironmentSettings, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__overrideEnvironmentSettings,
-                      put = __cordl_internal_set__overrideEnvironmentSettings))::GlobalNamespace::OverrideEnvironmentSettings* _overrideEnvironmentSettings;
+                      put = __cordl_internal_set__overrideEnvironmentSettings)) ::GlobalNamespace::OverrideEnvironmentSettings* _overrideEnvironmentSettings;
 
-  /// @brief Field _overrideEnvironmentsToggle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__overrideEnvironmentsToggle, put = __cordl_internal_set__overrideEnvironmentsToggle))::UnityW<::UnityEngine::UI::Toggle> _overrideEnvironmentsToggle;
+  /// @brief Field _overrideEnvironmentsToggle, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__overrideEnvironmentsToggle, put = __cordl_internal_set__overrideEnvironmentsToggle)) ::UnityW<::UnityEngine::UI::Toggle> _overrideEnvironmentsToggle;
 
-  /// @brief Field _presentPanelAnimation, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__presentPanelAnimation, put = __cordl_internal_set__presentPanelAnimation))::UnityW<::HMUI::PanelAnimationSO> _presentPanelAnimation;
-
-  __declspec(property(get = get_overrideEnvironmentSettings))::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings;
+  /// @brief Field _presentPanelAnimation, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__presentPanelAnimation, put = __cordl_internal_set__presentPanelAnimation)) ::UnityW<::HMUI::PanelAnimationSO> _presentPanelAnimation;
 
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
 
-  /// @brief Method HandleDropDownDidSelectCellWithIdx, addr 0x276ff20, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method HandleDropDownDidSelectCellWithIdx, addr 0x3b8728c, size 0x27c, virtual false, abstract: false, final false
   inline void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int32_t idx);
 
-  /// @brief Method HandleOverrideEnvironmentsToggleValueChanged, addr 0x27701a8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method HandleOverrideEnvironmentsToggleValueChanged, addr 0x3b87508, size 0x25c, virtual false, abstract: false, final false
   inline void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
 
   static inline ::GlobalNamespace::EnvironmentOverrideSettingsPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x276fc2c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b86fa0, size 0x194, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Refresh, addr 0x276fdc8, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method Refresh, addr 0x3b87134, size 0x158, virtual true, abstract: false, final true
   inline void Refresh();
 
-  /// @brief Method SetData, addr 0x276f97c, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b86cfc, size 0x2a4, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
 
-  /// @brief Method <HandleOverrideEnvironmentsToggleValueChanged>b__16_0, addr 0x27703dc, size 0x20, virtual false, abstract: false, final false
-  inline void _HandleOverrideEnvironmentsToggleValueChanged_b__16_0();
+  /// @brief Method <HandleOverrideEnvironmentsToggleValueChanged>b__14_0, addr 0x3b8776c, size 0x20, virtual false, abstract: false, final false
+  inline void _HandleOverrideEnvironmentsToggleValueChanged_b__14_0();
 
   constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
 
@@ -357,11 +361,8 @@ public:
 
   constexpr void __cordl_internal_set__presentPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
 
-  /// @brief Method .ctor, addr 0x27703d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b87764, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
-
-  /// @brief Method get_overrideEnvironmentSettings, addr 0x276f974, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
 
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
   constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
@@ -380,55 +381,58 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvironmentOverrideSettingsPanelController(EnvironmentOverrideSettingsPanelController const&) = delete;
 
-  /// @brief Field _overrideEnvironmentsToggle, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _overrideEnvironmentsToggle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____overrideEnvironmentsToggle;
 
-  /// @brief Field _elementsGO, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _elementsGO, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____elementsGO;
 
-  /// @brief Field _elements, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _elements, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*, ::Array<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>*> ____elements;
 
-  /// @brief Field _presentPanelAnimation, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _presentPanelAnimation, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::HMUI::PanelAnimationSO> ____presentPanelAnimation;
 
-  /// @brief Field _dismissPanelAnimation, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _dismissPanelAnimation, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::HMUI::PanelAnimationSO> ____dismissPanelAnimation;
 
-  /// @brief Field _environmentListModel, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _environmentListModel, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentsListModel* ____environmentListModel;
 
-  /// @brief Field _analyticsModel, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _analyticsModel, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
-  /// @brief Field _overrideEnvironmentSettings, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _overrideEnvironmentSettings, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::OverrideEnvironmentSettings* ____overrideEnvironmentSettings;
 
-  /// @brief Field _initialized, offset: 0x58, size: 0x1, def value: None
+  /// @brief Field _initialized, offset: 0x60, size: 0x1, def value: None
   bool ____initialized;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4757 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentOverrideSettingsPanelController, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentOverrideSettingsPanelController, 0x68>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____overrideEnvironmentsToggle) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____overrideEnvironmentsToggle) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____elementsGO) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____elementsGO) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____elements) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____elements) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____presentPanelAnimation) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____presentPanelAnimation) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____dismissPanelAnimation) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____dismissPanelAnimation) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____environmentListModel) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____environmentListModel) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____analyticsModel) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____analyticsModel) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____overrideEnvironmentSettings) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____overrideEnvironmentSettings) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____initialized) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentOverrideSettingsPanelController, ____initialized) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentOverrideSettingsPanelController);

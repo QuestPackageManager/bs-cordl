@@ -21,7 +21,7 @@ class X509CollectionStore;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::X509CollectionStore);
 // Type: Org.BouncyCastle.X509.Store::X509CollectionStore
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.X509.Store::X509CollectionStore*
@@ -29,12 +29,12 @@ class CORDL_TYPE X509CollectionStore : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _local, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__local, put = __cordl_internal_set__local))::System::Collections::ICollection* _local;
+  __declspec(property(get = __cordl_internal_get__local, put = __cordl_internal_set__local)) ::System::Collections::ICollection* _local;
 
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Store"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509Store*() noexcept;
 
-  /// @brief Method GetMatches, addr 0x13e3a38, size 0x448, virtual true, abstract: false, final true
+  /// @brief Method GetMatches, addr 0x25ab104, size 0x448, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* GetMatches(::Org::BouncyCastle::X509::Store::IX509Selector* selector);
 
   static inline ::Org::BouncyCastle::X509::Store::X509CollectionStore* New_ctor(::System::Collections::ICollection* collection);
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__local(::System::Collections::ICollection* value);
 
-  /// @brief Method .ctor, addr 0x13e39c4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ab090, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* collection);
 
   /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Store"
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field _local, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ICollection* ____local;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1848 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

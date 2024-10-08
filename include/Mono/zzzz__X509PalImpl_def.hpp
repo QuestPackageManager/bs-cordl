@@ -33,7 +33,7 @@ class X509PalImpl;
 // Write type traits
 MARK_REF_PTR_T(::Mono::X509PalImpl);
 // Type: Mono::X509PalImpl
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
 // CS Name: ::Mono::X509PalImpl*
@@ -43,12 +43,12 @@ public:
   __declspec(property(get = get_SupportsLegacyBasicConstraintsExtension)) bool SupportsLegacyBasicConstraintsExtension;
 
   /// @brief Field signedData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_signedData, put = setStaticF_signedData))::ArrayW<uint8_t, ::Array<uint8_t>*> signedData;
+  static __declspec(property(get = getStaticF_signedData, put = setStaticF_signedData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> signedData;
 
-  /// @brief Method ConvertData, addr 0x2c91794, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ConvertData, addr 0x4092d70, size 0x10c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method GetCertContentType, addr 0x2c918a8, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method GetCertContentType, addr 0x4092e84, size 0x400, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ContentType GetCertContentType(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
   /// @brief Method Import, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -61,25 +61,25 @@ public:
   /// @brief Method Import, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method ImportFallback, addr 0x2c90e5c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ImportFallback, addr 0x4092468, size 0x1f4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* ImportFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method ImportFallback, addr 0x2c910ec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ImportFallback, addr 0x40926f0, size 0x74, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* ImportFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> data,
                                                                                                   ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                                   ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
   static inline ::Mono::X509PalImpl* New_ctor();
 
-  /// @brief Method PEM, addr 0x2c91660, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method PEM, addr 0x4092c3c, size 0x134, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PEM(::StringW type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x2c91658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4092c34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_signedData();
 
-  /// @brief Method get_SupportsLegacyBasicConstraintsExtension, addr 0x2c918a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SupportsLegacyBasicConstraintsExtension, addr 0x4092e7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_SupportsLegacyBasicConstraintsExtension();
 
   static inline void setStaticF_signedData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
@@ -97,6 +97,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "X509PalImpl", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   X509PalImpl(X509PalImpl const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9039 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

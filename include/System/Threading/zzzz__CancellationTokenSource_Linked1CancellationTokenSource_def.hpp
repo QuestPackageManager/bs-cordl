@@ -16,7 +16,7 @@ class __CancellationTokenSource__Linked1CancellationTokenSource;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::__CancellationTokenSource__Linked1CancellationTokenSource);
 // Type: ::Linked1CancellationTokenSource
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::CancellationTokenSource::Linked1CancellationTokenSource*
@@ -24,9 +24,9 @@ class CORDL_TYPE __CancellationTokenSource__Linked1CancellationTokenSource : pub
 public:
   // Declarations
   /// @brief Field _reg1, offset 0x40, size 0x18
-  __declspec(property(get = __cordl_internal_get__reg1, put = __cordl_internal_set__reg1))::System::Threading::CancellationTokenRegistration _reg1;
+  __declspec(property(get = __cordl_internal_get__reg1, put = __cordl_internal_set__reg1)) ::System::Threading::CancellationTokenRegistration _reg1;
 
-  /// @brief Method Dispose, addr 0x29cc4f8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3ddb7b8, size 0x34, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Threading::__CancellationTokenSource__Linked1CancellationTokenSource* New_ctor(::System::Threading::CancellationToken token1);
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__reg1(::System::Threading::CancellationTokenRegistration value);
 
-  /// @brief Method .ctor, addr 0x29cc0e4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ddb358, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationToken token1);
 
 protected:
@@ -56,6 +56,9 @@ public:
 
   /// @brief Field _reg1, offset: 0x40, size: 0x18, def value: None
   ::System::Threading::CancellationTokenRegistration ____reg1;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2687 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -27,7 +27,7 @@ class NoteExecutionRating;
 MARK_VAL_T(::GlobalNamespace::__NoteExecutionRating__Rating);
 MARK_REF_PTR_T(::GlobalNamespace::NoteExecutionRating);
 // Type: ::Rating
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::NoteExecutionRating::Rating
@@ -72,6 +72,9 @@ public:
   /// @brief Field Miss value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__NoteExecutionRating__Rating const Miss;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13075 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -84,7 +87,7 @@ static_assert(offsetof(::GlobalNamespace::__NoteExecutionRating__Rating, value__
 
 } // namespace GlobalNamespace
 // Type: ::NoteExecutionRating
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoteExecutionRating*
@@ -106,10 +109,10 @@ public:
   __declspec(property(get = __cordl_internal_get_cutScore, put = __cordl_internal_set_cutScore)) int32_t cutScore;
 
   /// @brief Field rating, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_rating, put = __cordl_internal_set_rating))::GlobalNamespace::__NoteExecutionRating__Rating rating;
+  __declspec(property(get = __cordl_internal_get_rating, put = __cordl_internal_set_rating)) ::GlobalNamespace::__NoteExecutionRating__Rating rating;
 
   /// @brief Field scoringType, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_scoringType, put = __cordl_internal_set_scoringType))::GlobalNamespace::__NoteData__ScoringType scoringType;
+  __declspec(property(get = __cordl_internal_get_scoringType, put = __cordl_internal_set_scoringType)) ::GlobalNamespace::__NoteData__ScoringType scoringType;
 
   static inline ::GlobalNamespace::NoteExecutionRating* New_ctor(float_t time, ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::__NoteExecutionRating__Rating rating,
                                                                  int32_t cutScore, int32_t beforeCutScore, int32_t centerDistanceCutScore, int32_t afterCutScore);
@@ -150,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set_scoringType(::GlobalNamespace::__NoteData__ScoringType value);
 
-  /// @brief Method .ctor, addr 0x14e7f34, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a1678, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::__NoteExecutionRating__Rating rating, int32_t cutScore, int32_t beforeCutScore,
                     int32_t centerDistanceCutScore, int32_t afterCutScore);
 
@@ -185,6 +188,9 @@ public:
 
   /// @brief Field scoringType, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::__NoteData__ScoringType ___scoringType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13076 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

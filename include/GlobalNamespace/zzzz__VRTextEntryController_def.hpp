@@ -47,28 +47,28 @@ class __VRTextEntryController___BlinkCursor_d__23;
 MARK_REF_PTR_T(::GlobalNamespace::VRTextEntryController);
 MARK_REF_PTR_T(::GlobalNamespace::__VRTextEntryController___BlinkCursor_d__23);
 // Type: ::<BlinkCursor>d__23
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::VRTextEntryController::<BlinkCursor>d__23*
 class CORDL_TYPE __VRTextEntryController___BlinkCursor_d__23 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::VRTextEntryController> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::VRTextEntryController> __4__this;
 
   /// @brief Field <cursorColor>5__2, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get__cursorColor_5__2, put = __cordl_internal_set__cursorColor_5__2))::UnityEngine::Color _cursorColor_5__2;
+  __declspec(property(get = __cordl_internal_get__cursorColor_5__2, put = __cordl_internal_set__cursorColor_5__2)) ::UnityEngine::Color _cursorColor_5__2;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -79,21 +79,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x276d3ac, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b868d0, size 0x160, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__VRTextEntryController___BlinkCursor_d__23* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x276d50c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b86a30, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x276d514, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b86a38, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x276d554, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b86a70, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x276d3a8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b868cc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set__cursorColor_5__2(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x276d108, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b865f0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -158,6 +158,9 @@ public:
   /// @brief Field <cursorColor>5__2, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Color ____cursorColor_5__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4752 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -173,7 +176,7 @@ static_assert(offsetof(::GlobalNamespace::__VRTextEntryController___BlinkCursor_
 
 } // namespace GlobalNamespace
 // Type: ::VRTextEntryController
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::VRTextEntryController*
@@ -182,61 +185,61 @@ public:
   // Declarations
   using _BlinkCursor_d__23 = ::GlobalNamespace::__VRTextEntryController___BlinkCursor_d__23;
 
-  /// @brief Field _allowBlank, offset 0x34, size 0x1
+  /// @brief Field _allowBlank, offset 0x3c, size 0x1
   __declspec(property(get = __cordl_internal_get__allowBlank, put = __cordl_internal_set__allowBlank)) bool _allowBlank;
 
-  /// @brief Field _cursorText, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__cursorText, put = __cordl_internal_set__cursorText))::UnityW<::TMPro::TextMeshProUGUI> _cursorText;
+  /// @brief Field _cursorText, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__cursorText, put = __cordl_internal_set__cursorText)) ::UnityW<::TMPro::TextMeshProUGUI> _cursorText;
 
-  /// @brief Field _maxLength, offset 0x30, size 0x4
+  /// @brief Field _maxLength, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__maxLength, put = __cordl_internal_set__maxLength)) int32_t _maxLength;
 
-  /// @brief Field _stopBlinkingCursor, offset 0x50, size 0x1
+  /// @brief Field _stopBlinkingCursor, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__stopBlinkingCursor, put = __cordl_internal_set__stopBlinkingCursor)) bool _stopBlinkingCursor;
 
-  /// @brief Field _text, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
+  /// @brief Field _text, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
 
-  /// @brief Field _uiKeyboard, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__uiKeyboard, put = __cordl_internal_set__uiKeyboard))::UnityW<::GlobalNamespace::UIKeyboard> _uiKeyboard;
+  /// @brief Field _uiKeyboard, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__uiKeyboard, put = __cordl_internal_set__uiKeyboard)) ::UnityW<::GlobalNamespace::UIKeyboard> _uiKeyboard;
 
-  /// @brief Field cancelButtonWasPressedEvent, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_cancelButtonWasPressedEvent, put = __cordl_internal_set_cancelButtonWasPressedEvent))::System::Action* cancelButtonWasPressedEvent;
+  /// @brief Field cancelButtonWasPressedEvent, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_cancelButtonWasPressedEvent, put = __cordl_internal_set_cancelButtonWasPressedEvent)) ::System::Action* cancelButtonWasPressedEvent;
 
   __declspec(property(put = set_hideCancelButton)) bool hideCancelButton;
 
-  /// @brief Field okButtonWasPressedEvent, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_okButtonWasPressedEvent, put = __cordl_internal_set_okButtonWasPressedEvent))::System::Action* okButtonWasPressedEvent;
+  /// @brief Field okButtonWasPressedEvent, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_okButtonWasPressedEvent, put = __cordl_internal_set_okButtonWasPressedEvent)) ::System::Action* okButtonWasPressedEvent;
 
-  __declspec(property(get = get_text, put = set_text))::StringW text;
+  __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Field textDidChangeEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_textDidChangeEvent, put = __cordl_internal_set_textDidChangeEvent))::System::Action_1<::StringW>* textDidChangeEvent;
+  /// @brief Field textDidChangeEvent, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_textDidChangeEvent, put = __cordl_internal_set_textDidChangeEvent)) ::System::Action_1<::StringW>* textDidChangeEvent;
 
-  /// @brief Method Awake, addr 0x276cee4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b863e4, size 0x17c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BlinkCursor, addr 0x276d094, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BlinkCursor, addr 0x3b86584, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* BlinkCursor();
 
-  /// @brief Method HandleUIKeyboardDeleteButtonWasPressed, addr 0x276d22c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method HandleUIKeyboardDeleteButtonWasPressed, addr 0x3b86750, size 0x134, virtual false, abstract: false, final false
   inline void HandleUIKeyboardDeleteButtonWasPressed();
 
-  /// @brief Method HandleUIKeyboardTextKeyWasPressed, addr 0x276d130, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HandleUIKeyboardTextKeyWasPressed, addr 0x3b86618, size 0x138, virtual false, abstract: false, final false
   inline void HandleUIKeyboardTextKeyWasPressed(char16_t key);
 
   static inline ::GlobalNamespace::VRTextEntryController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x276d0fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b865e4, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x276d070, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b86560, size 0x24, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method <Awake>b__20_0, addr 0x276d370, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__20_0, addr 0x3b86894, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__20_0();
 
-  /// @brief Method <Awake>b__20_1, addr 0x276d38c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__20_1, addr 0x3b868b0, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__20_1();
 
   constexpr bool const& __cordl_internal_get__allowBlank() const;
@@ -293,34 +296,34 @@ public:
 
   constexpr void __cordl_internal_set_textDidChangeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x276d360, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b86884, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_cancelButtonWasPressedEvent, addr 0x276ccb8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_cancelButtonWasPressedEvent, addr 0x3b861b8, size 0x9c, virtual false, abstract: false, final false
   inline void add_cancelButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_okButtonWasPressedEvent, addr 0x276cb80, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_okButtonWasPressedEvent, addr 0x3b86080, size 0x9c, virtual false, abstract: false, final false
   inline void add_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_textDidChangeEvent, addr 0x276ca20, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_textDidChangeEvent, addr 0x3b85f20, size 0xb0, virtual false, abstract: false, final false
   inline void add_textDidChangeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method get_text, addr 0x276ce0c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3b8630c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method remove_cancelButtonWasPressedEvent, addr 0x276cd54, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_cancelButtonWasPressedEvent, addr 0x3b86254, size 0x9c, virtual false, abstract: false, final false
   inline void remove_cancelButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_okButtonWasPressedEvent, addr 0x276cc1c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_okButtonWasPressedEvent, addr 0x3b8611c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_textDidChangeEvent, addr 0x276cad0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_textDidChangeEvent, addr 0x3b85fd0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_textDidChangeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method set_hideCancelButton, addr 0x276cdf0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_hideCancelButton, addr 0x3b862f0, size 0x1c, virtual false, abstract: false, final false
   inline void set_hideCancelButton(bool value);
 
-  /// @brief Method set_text, addr 0x276ce30, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3b86330, size 0xb4, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -337,55 +340,58 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VRTextEntryController(VRTextEntryController const&) = delete;
 
-  /// @brief Field _uiKeyboard, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _uiKeyboard, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::UIKeyboard> ____uiKeyboard;
 
-  /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _text, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
-  /// @brief Field _cursorText, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _cursorText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____cursorText;
 
-  /// @brief Field _maxLength, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _maxLength, offset: 0x38, size: 0x4, def value: None
   int32_t ____maxLength;
 
-  /// @brief Field _allowBlank, offset: 0x34, size: 0x1, def value: None
+  /// @brief Field _allowBlank, offset: 0x3c, size: 0x1, def value: None
   bool ____allowBlank;
 
-  /// @brief Field textDidChangeEvent, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field textDidChangeEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___textDidChangeEvent;
 
-  /// @brief Field okButtonWasPressedEvent, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field okButtonWasPressedEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___okButtonWasPressedEvent;
 
-  /// @brief Field cancelButtonWasPressedEvent, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field cancelButtonWasPressedEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___cancelButtonWasPressedEvent;
 
-  /// @brief Field _stopBlinkingCursor, offset: 0x50, size: 0x1, def value: None
+  /// @brief Field _stopBlinkingCursor, offset: 0x58, size: 0x1, def value: None
   bool ____stopBlinkingCursor;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4753 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VRTextEntryController, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VRTextEntryController, 0x60>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ____uiKeyboard) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ____uiKeyboard) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ____text) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ____text) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ____cursorText) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ____cursorText) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ____maxLength) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ____maxLength) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ____allowBlank) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ____allowBlank) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ___textDidChangeEvent) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ___textDidChangeEvent) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ___okButtonWasPressedEvent) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ___okButtonWasPressedEvent) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ___cancelButtonWasPressedEvent) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ___cancelButtonWasPressedEvent) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ____stopBlinkingCursor) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::VRTextEntryController, ____stopBlinkingCursor) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::VRTextEntryController);

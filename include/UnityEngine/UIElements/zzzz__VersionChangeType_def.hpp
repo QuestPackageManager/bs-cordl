@@ -13,7 +13,7 @@ struct VersionChangeType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::VersionChangeType);
 // Type: UnityEngine.UIElements::VersionChangeType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::VersionChangeType
@@ -40,6 +40,8 @@ public:
     __E_Color = static_cast<int32_t>(0x2000),
     __E_RenderHints = static_cast<int32_t>(0x4000),
     __E_TransitionProperty = static_cast<int32_t>(0x8000),
+    __E_EventCallbackCategories = static_cast<int32_t>(0x10000),
+    __E_Picking = static_cast<int32_t>(0x100000),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -74,6 +76,9 @@ public:
   /// @brief Field Color value: static_cast<int32_t>(0x2000)
   static ::UnityEngine::UIElements::VersionChangeType const Color;
 
+  /// @brief Field EventCallbackCategories value: static_cast<int32_t>(0x10000)
+  static ::UnityEngine::UIElements::VersionChangeType const EventCallbackCategories;
+
   /// @brief Field Hierarchy value: static_cast<int32_t>(0x4)
   static ::UnityEngine::UIElements::VersionChangeType const Hierarchy;
 
@@ -85,6 +90,9 @@ public:
 
   /// @brief Field Overflow value: static_cast<int32_t>(0x40)
   static ::UnityEngine::UIElements::VersionChangeType const Overflow;
+
+  /// @brief Field Picking value: static_cast<int32_t>(0x100000)
+  static ::UnityEngine::UIElements::VersionChangeType const Picking;
 
   /// @brief Field RenderHints value: static_cast<int32_t>(0x4000)
   static ::UnityEngine::UIElements::VersionChangeType const RenderHints;
@@ -109,6 +117,9 @@ public:
 
   /// @brief Field ViewData value: static_cast<int32_t>(0x2)
   static ::UnityEngine::UIElements::VersionChangeType const ViewData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5969 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

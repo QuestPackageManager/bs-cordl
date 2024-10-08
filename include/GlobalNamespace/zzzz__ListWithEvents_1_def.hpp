@@ -38,7 +38,7 @@ template <typename T> class ListWithEvents_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ListWithEvents_1);
 // Type: ::ListWithEvents`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -54,13 +54,13 @@ public:
   __declspec(property(get = get_Item, put = set_Item)) T Item[];
 
   /// @brief Field OnElementAdded, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_OnElementAdded, put = __cordl_internal_set_OnElementAdded))::System::Action_1<T>* OnElementAdded;
+  __declspec(property(get = __cordl_internal_get_OnElementAdded, put = __cordl_internal_set_OnElementAdded)) ::System::Action_1<T>* OnElementAdded;
 
   /// @brief Field OnElementRemoved, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_OnElementRemoved, put = __cordl_internal_set_OnElementRemoved))::System::Action_1<T>* OnElementRemoved;
+  __declspec(property(get = __cordl_internal_get_OnElementRemoved, put = __cordl_internal_set_OnElementRemoved)) ::System::Action_1<T>* OnElementRemoved;
 
   /// @brief Field m_List, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List))::System::Collections::Generic::List_1<T>* m_List;
+  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List)) ::System::Collections::Generic::List_1<T>* m_List;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
   constexpr operator ::System::Collections::Generic::ICollection_1<T>*() noexcept;
@@ -191,6 +191,9 @@ public:
 
   /// @brief Field OnElementRemoved, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<T>* ___OnElementRemoved;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15540 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

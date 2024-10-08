@@ -17,29 +17,29 @@ class XmlAnyElementAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlAnyElementAttribute);
 // Type: System.Xml.Serialization::XmlAnyElementAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlAnyElementAttribute*
 class CORDL_TYPE XmlAnyElementAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_Namespace))::StringW Namespace;
+  __declspec(property(get = get_Namespace)) ::StringW Namespace;
 
   __declspec(property(get = get_Order)) int32_t Order;
 
   /// @brief Field elementName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_elementName, put = __cordl_internal_set_elementName))::StringW elementName;
+  __declspec(property(get = __cordl_internal_get_elementName, put = __cordl_internal_set_elementName)) ::StringW elementName;
 
   /// @brief Field ns, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns))::StringW ns;
+  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::StringW ns;
 
   /// @brief Field order, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order)) int32_t order;
 
-  /// @brief Method AddKeyHash, addr 0x2efa098, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x42f6f60, size 0x90, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlAnyElementAttribute* New_ctor();
@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2efa024, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42f6eec, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x2efa034, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x42f6efc, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Namespace, addr 0x2efa088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x42f6f50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_Order, addr 0x2efa090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x42f6f58, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field order, offset: 0x20, size: 0x4, def value: None
   int32_t ___order;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7372 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

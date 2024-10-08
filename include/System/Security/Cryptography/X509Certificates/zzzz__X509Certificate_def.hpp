@@ -43,50 +43,50 @@ class X509Certificate;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certificate);
 // Type: System.Security.Cryptography.X509Certificates::X509Certificate
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Certificate*
 class CORDL_TYPE X509Certificate : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Impl))::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Impl;
+  __declspec(property(get = get_Impl)) ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Impl;
 
   __declspec(property(get = get_IsValid)) bool IsValid;
 
-  __declspec(property(get = get_Issuer))::StringW Issuer;
+  __declspec(property(get = get_Issuer)) ::StringW Issuer;
 
-  __declspec(property(get = get_Subject))::StringW Subject;
+  __declspec(property(get = get_Subject)) ::StringW Subject;
 
   /// @brief Field impl, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_impl, put = __cordl_internal_set_impl))::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl;
+  __declspec(property(get = __cordl_internal_get_impl, put = __cordl_internal_set_impl)) ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl;
 
   /// @brief Field lazyCertHash, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_lazyCertHash, put = __cordl_internal_set_lazyCertHash))::ArrayW<uint8_t, ::Array<uint8_t>*> lazyCertHash;
+  __declspec(property(get = __cordl_internal_get_lazyCertHash, put = __cordl_internal_set_lazyCertHash)) ::ArrayW<uint8_t, ::Array<uint8_t>*> lazyCertHash;
 
   /// @brief Field lazyIssuer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_lazyIssuer, put = __cordl_internal_set_lazyIssuer))::StringW lazyIssuer;
+  __declspec(property(get = __cordl_internal_get_lazyIssuer, put = __cordl_internal_set_lazyIssuer)) ::StringW lazyIssuer;
 
   /// @brief Field lazyKeyAlgorithm, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_lazyKeyAlgorithm, put = __cordl_internal_set_lazyKeyAlgorithm))::StringW lazyKeyAlgorithm;
+  __declspec(property(get = __cordl_internal_get_lazyKeyAlgorithm, put = __cordl_internal_set_lazyKeyAlgorithm)) ::StringW lazyKeyAlgorithm;
 
   /// @brief Field lazyKeyAlgorithmParameters, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_lazyKeyAlgorithmParameters, put = __cordl_internal_set_lazyKeyAlgorithmParameters))::ArrayW<uint8_t, ::Array<uint8_t>*> lazyKeyAlgorithmParameters;
+  __declspec(property(get = __cordl_internal_get_lazyKeyAlgorithmParameters, put = __cordl_internal_set_lazyKeyAlgorithmParameters)) ::ArrayW<uint8_t, ::Array<uint8_t>*> lazyKeyAlgorithmParameters;
 
   /// @brief Field lazyNotAfter, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_lazyNotAfter, put = __cordl_internal_set_lazyNotAfter))::System::DateTime lazyNotAfter;
+  __declspec(property(get = __cordl_internal_get_lazyNotAfter, put = __cordl_internal_set_lazyNotAfter)) ::System::DateTime lazyNotAfter;
 
   /// @brief Field lazyNotBefore, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_lazyNotBefore, put = __cordl_internal_set_lazyNotBefore))::System::DateTime lazyNotBefore;
+  __declspec(property(get = __cordl_internal_get_lazyNotBefore, put = __cordl_internal_set_lazyNotBefore)) ::System::DateTime lazyNotBefore;
 
   /// @brief Field lazyPublicKey, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_lazyPublicKey, put = __cordl_internal_set_lazyPublicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> lazyPublicKey;
+  __declspec(property(get = __cordl_internal_get_lazyPublicKey, put = __cordl_internal_set_lazyPublicKey)) ::ArrayW<uint8_t, ::Array<uint8_t>*> lazyPublicKey;
 
   /// @brief Field lazySerialNumber, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_lazySerialNumber, put = __cordl_internal_set_lazySerialNumber))::ArrayW<uint8_t, ::Array<uint8_t>*> lazySerialNumber;
+  __declspec(property(get = __cordl_internal_get_lazySerialNumber, put = __cordl_internal_set_lazySerialNumber)) ::ArrayW<uint8_t, ::Array<uint8_t>*> lazySerialNumber;
 
   /// @brief Field lazySubject, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_lazySubject, put = __cordl_internal_set_lazySubject))::StringW lazySubject;
+  __declspec(property(get = __cordl_internal_get_lazySubject, put = __cordl_internal_set_lazySubject)) ::StringW lazySubject;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -97,61 +97,61 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x282338c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3c41d5c, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x282339c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c41d6c, size 0x14, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Equals, addr 0x28233b0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3c41d80, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2823444, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3c41e14, size 0xf8, virtual true, abstract: false, final false
   inline bool Equals(::System::Security::Cryptography::X509Certificates::X509Certificate* other);
 
-  /// @brief Method FormatDate, addr 0x2823c64, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method FormatDate, addr 0x3c42614, size 0x148, virtual false, abstract: false, final false
   static inline ::StringW FormatDate(::System::DateTime date);
 
-  /// @brief Method GetCertHash, addr 0x2823580, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetCertHash, addr 0x3c41f5c, size 0x24, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetCertHash();
 
-  /// @brief Method GetCertHashString, addr 0x28235f0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetCertHashString, addr 0x3c41fcc, size 0x24, virtual true, abstract: false, final false
   inline ::StringW GetCertHashString();
 
-  /// @brief Method GetHashCode, addr 0x2823648, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3c42024, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetKeyAlgorithm, addr 0x28236c0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetKeyAlgorithm, addr 0x3c42094, size 0x58, virtual true, abstract: false, final false
   inline ::StringW GetKeyAlgorithm();
 
-  /// @brief Method GetKeyAlgorithmParameters, addr 0x2823718, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetKeyAlgorithmParameters, addr 0x3c420ec, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKeyAlgorithmParameters();
 
-  /// @brief Method GetNotAfter, addr 0x2823d74, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetNotAfter, addr 0x3c4275c, size 0x9c, virtual false, abstract: false, final false
   inline ::System::DateTime GetNotAfter();
 
-  /// @brief Method GetNotBefore, addr 0x2823bc8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetNotBefore, addr 0x3c42578, size 0x9c, virtual false, abstract: false, final false
   inline ::System::DateTime GetNotBefore();
 
-  /// @brief Method GetPublicKey, addr 0x2823774, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetPublicKey, addr 0x3c42148, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPublicKey();
 
-  /// @brief Method GetRawCertData, addr 0x2823614, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetRawCertData, addr 0x3c41ff0, size 0x34, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawCertData();
 
-  /// @brief Method GetRawCertHash, addr 0x28235a4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetRawCertHash, addr 0x3c41f80, size 0x4c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawCertHash();
 
-  /// @brief Method GetRawSerialNumber, addr 0x2823530, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetRawSerialNumber, addr 0x3c41f0c, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawSerialNumber();
 
-  /// @brief Method GetSerialNumber, addr 0x28237d0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetSerialNumber, addr 0x3c421a4, size 0x68, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSerialNumber();
 
-  /// @brief Method GetSerialNumberString, addr 0x2823838, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetSerialNumberString, addr 0x3c4220c, size 0x24, virtual true, abstract: false, final false
   inline ::StringW GetSerialNumberString();
 
-  /// @brief Method ImportHandle, addr 0x2823e10, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ImportHandle, addr 0x3c427f8, size 0x30, virtual false, abstract: false, final false
   inline void ImportHandle(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate* New_ctor();
@@ -170,25 +170,25 @@ public:
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                               ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Reset, addr 0x28228a8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3c412a0, size 0xb4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x282329c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x3c41c74, size 0x38, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x282325c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x3c41c3c, size 0x38, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ThrowIfInvalid, addr 0x2823330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfInvalid, addr 0x3c41d00, size 0x8, virtual false, abstract: false, final false
   inline void ThrowIfInvalid();
 
-  /// @brief Method ToString, addr 0x282385c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c42230, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x2823870, size 0x344, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c42244, size 0x320, virtual true, abstract: false, final false
   inline ::StringW ToString(bool fVerbose);
 
-  /// @brief Method ValidateKeyStorageFlags, addr 0x2822eac, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ValidateKeyStorageFlags, addr 0x3c418a0, size 0x10c, virtual false, abstract: false, final false
   static inline void ValidateKeyStorageFlags(::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateImpl*& __cordl_internal_get_impl();
@@ -251,37 +251,37 @@ public:
 
   constexpr void __cordl_internal_set_lazySubject(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28229cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c413c4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2823088, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c41a74, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
-  /// @brief Method .ctor, addr 0x2822a40, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c41438, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x2822c40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c41638, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW fileName);
 
-  /// @brief Method .ctor, addr 0x2822c4c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c41644, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(::StringW fileName, ::StringW password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
-  /// @brief Method .ctor, addr 0x2822b88, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c41580, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
 
-  /// @brief Method .ctor, addr 0x2823218, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c41c00, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Impl, addr 0x2823e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Impl, addr 0x3c42828, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* get_Impl();
 
-  /// @brief Method get_IsValid, addr 0x2823e48, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x3c42830, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
-  /// @brief Method get_Issuer, addr 0x28232dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x3c41cac, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Issuer();
 
-  /// @brief Method get_Subject, addr 0x2823338, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x3c41d08, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Subject();
 
   /// @brief Convert to "::System::IDisposable"
@@ -336,6 +336,9 @@ public:
 
   /// @brief Field lazyNotAfter, offset: 0x58, size: 0x8, def value: None
   ::System::DateTime ___lazyNotAfter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2990 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

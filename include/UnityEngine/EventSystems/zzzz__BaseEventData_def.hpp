@@ -21,19 +21,19 @@ class BaseEventData;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::BaseEventData);
 // Type: UnityEngine.EventSystems::BaseEventData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: ::UnityEngine.EventSystems::BaseEventData*
 class CORDL_TYPE BaseEventData : public ::UnityEngine::EventSystems::AbstractEventData {
 public:
   // Declarations
-  __declspec(property(get = get_currentInputModule))::UnityW<::UnityEngine::EventSystems::BaseInputModule> currentInputModule;
+  __declspec(property(get = get_currentInputModule)) ::UnityW<::UnityEngine::EventSystems::BaseInputModule> currentInputModule;
 
   /// @brief Field m_EventSystem, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_EventSystem, put = __cordl_internal_set_m_EventSystem))::UnityW<::UnityEngine::EventSystems::EventSystem> m_EventSystem;
+  __declspec(property(get = __cordl_internal_get_m_EventSystem, put = __cordl_internal_set_m_EventSystem)) ::UnityW<::UnityEngine::EventSystems::EventSystem> m_EventSystem;
 
-  __declspec(property(get = get_selectedObject, put = set_selectedObject))::UnityW<::UnityEngine::GameObject> selectedObject;
+  __declspec(property(get = get_selectedObject, put = set_selectedObject)) ::UnityW<::UnityEngine::GameObject> selectedObject;
 
   static inline ::UnityEngine::EventSystems::BaseEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
@@ -43,16 +43,16 @@ public:
 
   constexpr void __cordl_internal_set_m_EventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
 
-  /// @brief Method .ctor, addr 0x352861c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a5b7c4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_currentInputModule, addr 0x3528668, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_currentInputModule, addr 0x4a5b810, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseInputModule> get_currentInputModule();
 
-  /// @brief Method get_selectedObject, addr 0x3528684, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedObject, addr 0x4a5b82c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_selectedObject();
 
-  /// @brief Method set_selectedObject, addr 0x35286a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_selectedObject, addr 0x4a5b848, size 0x1c, virtual false, abstract: false, final false
   inline void set_selectedObject(::UnityEngine::GameObject* value);
 
 protected:
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field m_EventSystem, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::EventSystems::EventSystem> ___m_EventSystem;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15132 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

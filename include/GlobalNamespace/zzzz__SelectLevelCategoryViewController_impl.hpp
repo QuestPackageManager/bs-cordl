@@ -28,9 +28,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo::*)()>(
     &::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2675e38;
+  constexpr static std::size_t addrs = 0x3af1c68;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -86,79 +86,15 @@ inline void GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryI
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo::__SelectLevelCategoryViewController__LevelCategoryInfo() {}
-//  Writing Method size for method: ::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::*)()>(
-    &::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2675acc;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0._Setup_b__0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::*)(
-    ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*)>(&::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::_Setup_b__0)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2675e40;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0*>::get(), "<Setup>b__0",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*>&
-GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::__cordl_internal_get_enabledLevelCategories() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enabledLevelCategories;
-}
-constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> const&
-GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::__cordl_internal_get_enabledLevelCategories() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enabledLevelCategories;
-}
-constexpr void GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::__cordl_internal_set_enabledLevelCategories(
-    ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enabledLevelCategories)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0* GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0*>());
-}
-inline void GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::_Setup_b__0(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo* data) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0*>::get(), "<Setup>b__0",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, data);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::__SelectLevelCategoryViewController____c__DisplayClass12_0() {}
 //  Writing Method size for method: ::GlobalNamespace::__SelectLevelCategoryViewController____c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SelectLevelCategoryViewController____c::*)()>(
     &::GlobalNamespace::__SelectLevelCategoryViewController____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2675efc;
+  constexpr static std::size_t addrs = 0x3af1ccc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SelectLevelCategoryViewController____c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -172,9 +108,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::HMUI::__IconSegmentedControl__DataItem* (::GlobalNamespace::__SelectLevelCategoryViewController____c::*)(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*)>(
         &::GlobalNamespace::__SelectLevelCategoryViewController____c::_Setup_b__12_1)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2675f04;
+  constexpr static std::size_t addrs = 0x3af1cd4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SelectLevelCategoryViewController____c*>::get(), "<Setup>b__12_1", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>::get() })));
@@ -188,9 +124,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__SelectLevelCategoryViewController____c::*)(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*)>(
     &::GlobalNamespace::__SelectLevelCategoryViewController____c::_Setup_b__12_2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2675f84;
+  constexpr static std::size_t addrs = 0x3af1d54;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SelectLevelCategoryViewController____c*>::get(), "<Setup>b__12_2", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>::get() })));
@@ -255,6 +191,70 @@ GlobalNamespace::__SelectLevelCategoryViewController____c::_Setup_b__12_2(::Glob
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__SelectLevelCategoryViewController____c::__SelectLevelCategoryViewController____c() {}
+//  Writing Method size for method: ::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::*)()>(
+    &::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3af1904;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0._Setup_b__0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::*)(
+    ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*)>(&::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::_Setup_b__0)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x3af1d6c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0*>::get(), "<Setup>b__0",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>::get() })));
+    return ___internal_method;
+  }
+};
+constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*>&
+GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::__cordl_internal_get_enabledLevelCategories() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___enabledLevelCategories;
+}
+constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> const&
+GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::__cordl_internal_get_enabledLevelCategories() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___enabledLevelCategories;
+}
+constexpr void GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::__cordl_internal_set_enabledLevelCategories(
+    ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enabledLevelCategories)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline ::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0* GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0*>());
+}
+inline void GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::_Setup_b__0(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo* data) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0*>::get(), "<Setup>b__0",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, data);
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0::__SelectLevelCategoryViewController____c__DisplayClass12_0() {}
 //  Writing Method size for method: ::GlobalNamespace::SelectLevelCategoryViewController.add_didSelectLevelCategoryEvent
 template <>
 
@@ -262,9 +262,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*)>(
     &::GlobalNamespace::SelectLevelCategoryViewController::add_didSelectLevelCategoryEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2671088;
+  constexpr static std::size_t addrs = 0x3aecef0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(), "add_didSelectLevelCategoryEvent",
         std::span<Il2CppClass const* const, 0>(),
@@ -280,9 +280,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*)>(
     &::GlobalNamespace::SelectLevelCategoryViewController::remove_didSelectLevelCategoryEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2671774;
+  constexpr static std::size_t addrs = 0x3aed5b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(), "remove_didSelectLevelCategoryEvent",
         std::span<Il2CppClass const* const, 0>(),
@@ -297,9 +297,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory (
     ::GlobalNamespace::SelectLevelCategoryViewController::*)()>(&::GlobalNamespace::SelectLevelCategoryViewController::get_selectedLevelCategory)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26704c4;
+  constexpr static std::size_t addrs = 0x3aec374;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(),
                                                                                "get_selectedLevelCategory", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -312,10 +312,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory,
     ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*>)>(
     &::GlobalNamespace::SelectLevelCategoryViewController::Setup)> {
-  constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x2670994;
+  constexpr static std::size_t size = 0x30c;
+  constexpr static std::size_t addrs = 0x3aec828;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(), "Setup", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{
@@ -330,10 +330,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLevelCategoryViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::SelectLevelCategoryViewController::DidActivate)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2675ad4;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x3af190c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(),
@@ -346,10 +346,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLevelCategoryViewController::*)(bool, bool)>(
     &::GlobalNamespace::SelectLevelCategoryViewController::DidDeactivate)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2675b74;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x3af19a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(),
@@ -363,9 +363,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLevelCategoryViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::SelectLevelCategoryViewController::LevelFilterCategoryIconSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x2675c14;
+  constexpr static std::size_t addrs = 0x3af1a44;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(),
                                                  "LevelFilterCategoryIconSegmentedControlDidSelectCell", std::span<Il2CppClass const* const, 0>(),
@@ -380,9 +380,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLevelCategoryViewController::*)()>(
     &::GlobalNamespace::SelectLevelCategoryViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2675e30;
+  constexpr static std::size_t addrs = 0x3af1c60;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLevelCategoryViewController*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;

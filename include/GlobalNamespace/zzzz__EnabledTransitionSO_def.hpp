@@ -12,7 +12,7 @@ class EnabledTransitionSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EnabledTransitionSO);
 // Type: ::EnabledTransitionSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 38, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 38, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::EnabledTransitionSO*
@@ -87,25 +87,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedState(bool value);
 
-  /// @brief Method .ctor, addr 0x2768a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x446278c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledState, addr 0x2768a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x4462774, size 0x8, virtual false, abstract: false, final false
   inline bool get_disabledState();
 
-  /// @brief Method get_highlightedState, addr 0x2768a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x4462764, size 0x8, virtual false, abstract: false, final false
   inline bool get_highlightedState();
 
-  /// @brief Method get_normalState, addr 0x2768a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x446275c, size 0x8, virtual false, abstract: false, final false
   inline bool get_normalState();
 
-  /// @brief Method get_pressedState, addr 0x2768a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x446276c, size 0x8, virtual false, abstract: false, final false
   inline bool get_pressedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x2768a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x4462784, size 0x8, virtual false, abstract: false, final false
   inline bool get_selectedAndHighlightedState();
 
-  /// @brief Method get_selectedState, addr 0x2768a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x446277c, size 0x8, virtual false, abstract: false, final false
   inline bool get_selectedState();
 
 protected:
@@ -139,6 +139,9 @@ public:
 
   /// @brief Field _selectedAndHighlightedState, offset: 0x25, size: 0x1, def value: None
   bool ____selectedAndHighlightedState;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18126 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

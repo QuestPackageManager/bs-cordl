@@ -15,7 +15,7 @@ class FaceInfo_Legacy;
 // Write type traits
 MARK_REF_PTR_T(::TMPro::FaceInfo_Legacy);
 // Type: TMPro::FaceInfo_Legacy
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::FaceInfo_Legacy*
@@ -50,7 +50,7 @@ public:
   __declspec(property(get = __cordl_internal_get_LineHeight, put = __cordl_internal_set_LineHeight)) float_t LineHeight;
 
   /// @brief Field Name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::StringW Name;
 
   /// @brief Field Padding, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_Padding, put = __cordl_internal_set_Padding)) float_t Padding;
@@ -213,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set_strikethroughThickness(float_t value);
 
-  /// @brief Method .ctor, addr 0x337c70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x475d244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -292,6 +292,9 @@ public:
 
   /// @brief Field AtlasHeight, offset: 0x64, size: 0x4, def value: None
   float_t ___AtlasHeight;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

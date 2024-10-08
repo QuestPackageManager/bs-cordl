@@ -18,7 +18,7 @@ class AndroidCompensateRotationProcessor;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor);
 // Type: UnityEngine.InputSystem.Android.LowLevel::AndroidCompensateRotationProcessor
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidCompensateRotationProcessor*
@@ -27,10 +27,10 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x318cf74, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x458ffa0, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method .ctor, addr 0x318cfa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x458ffd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateRotationProcessor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidCompensateRotationProcessor(AndroidCompensateRotationProcessor const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6834 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

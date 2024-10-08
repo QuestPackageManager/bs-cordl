@@ -18,7 +18,7 @@ class SafeBuffer;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::SafeBuffer);
 // Type: System.Runtime.InteropServices::SafeBuffer
-// SizeInfo { instance_size: 40, native_size: 8, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 8, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // CS Name: ::System.Runtime.InteropServices::SafeBuffer*
@@ -26,18 +26,18 @@ class CORDL_TYPE SafeBuffer : public ::Microsoft::Win32::SafeHandles::SafeHandle
 public:
   // Declarations
   /// @brief Field Uninitialized, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Uninitialized, put = setStaticF_Uninitialized))::System::UIntPtr Uninitialized;
+  static __declspec(property(get = getStaticF_Uninitialized, put = setStaticF_Uninitialized)) ::System::UIntPtr Uninitialized;
 
   /// @brief Field _numBytes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__numBytes, put = __cordl_internal_set__numBytes))::System::UIntPtr _numBytes;
+  __declspec(property(get = __cordl_internal_get__numBytes, put = __cordl_internal_set__numBytes)) ::System::UIntPtr _numBytes;
 
-  /// @brief Method AcquirePointer, addr 0x28847fc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AcquirePointer, addr 0x3c9e6f0, size 0xd0, virtual false, abstract: false, final false
   inline void AcquirePointer(ByRef<::cordl_internals::Ptr<uint8_t>> pointer);
 
-  /// @brief Method NotInitialized, addr 0x2884904, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NotInitialized, addr 0x3c9e7c0, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::InvalidOperationException* NotInitialized();
 
-  /// @brief Method ReleasePointer, addr 0x2884a48, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x3c9e8f0, size 0xa8, virtual false, abstract: false, final false
   inline void ReleasePointer();
 
   constexpr ::System::UIntPtr const& __cordl_internal_get__numBytes() const;
@@ -66,6 +66,9 @@ public:
 
   /// @brief Field _numBytes, offset: 0x20, size: 0x8, def value: None
   ::System::UIntPtr ____numBytes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3309 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

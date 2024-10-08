@@ -21,7 +21,7 @@ class AsyncReadOrWriteRequest;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::AsyncReadOrWriteRequest);
 // Type: Mono.Net.Security::AsyncReadOrWriteRequest
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
 // CS Name: ::Mono.Net.Security::AsyncReadOrWriteRequest*
@@ -30,19 +30,19 @@ public:
   // Declarations
   __declspec(property(get = get_CurrentSize, put = set_CurrentSize)) int32_t CurrentSize;
 
-  __declspec(property(get = get_UserBuffer))::Mono::Net::Security::BufferOffsetSize* UserBuffer;
+  __declspec(property(get = get_UserBuffer)) ::Mono::Net::Security::BufferOffsetSize* UserBuffer;
 
   /// @brief Field <CurrentSize>k__BackingField, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__CurrentSize_k__BackingField, put = __cordl_internal_set__CurrentSize_k__BackingField)) int32_t _CurrentSize_k__BackingField;
 
   /// @brief Field <UserBuffer>k__BackingField, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__UserBuffer_k__BackingField,
-                      put = __cordl_internal_set__UserBuffer_k__BackingField))::Mono::Net::Security::BufferOffsetSize* _UserBuffer_k__BackingField;
+                      put = __cordl_internal_set__UserBuffer_k__BackingField)) ::Mono::Net::Security::BufferOffsetSize* _UserBuffer_k__BackingField;
 
   static inline ::Mono::Net::Security::AsyncReadOrWriteRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer,
                                                                          int32_t offset, int32_t size);
 
-  /// @brief Method ToString, addr 0x2c9a284, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x409b100, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__CurrentSize_k__BackingField() const;
@@ -57,16 +57,16 @@ public:
 
   constexpr void __cordl_internal_set__UserBuffer_k__BackingField(::Mono::Net::Security::BufferOffsetSize* value);
 
-  /// @brief Method .ctor, addr 0x2c9a1e0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x409b064, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method get_CurrentSize, addr 0x2c9a1d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentSize, addr 0x409b054, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CurrentSize();
 
-  /// @brief Method get_UserBuffer, addr 0x2c9a1c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserBuffer, addr 0x409b04c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::BufferOffsetSize* get_UserBuffer();
 
-  /// @brief Method set_CurrentSize, addr 0x2c9a1d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentSize, addr 0x409b05c, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentSize(int32_t value);
 
 protected:
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field <CurrentSize>k__BackingField, offset: 0x40, size: 0x4, def value: None
   int32_t ____CurrentSize_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9109 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

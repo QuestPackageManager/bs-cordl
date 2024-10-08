@@ -29,7 +29,7 @@ class CodeAccessPermission;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::CodeAccessPermission);
 // Type: System.Security::CodeAccessPermission
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
 // CS Name: ::System.Security::CodeAccessPermission*
@@ -42,16 +42,16 @@ public:
   /// @brief Convert operator to "::System::Security::ISecurityEncodable"
   constexpr operator ::System::Security::ISecurityEncodable*() noexcept;
 
-  /// @brief Method CheckPermissionState, addr 0x27fe8e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CheckPermissionState, addr 0x3c1e5bc, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Security::Permissions::PermissionState CheckPermissionState(::System::Security::Permissions::PermissionState state, bool allowUnrestricted);
 
-  /// @brief Method Demand, addr 0x27fe69c, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Demand, addr 0x3c1e370, size 0x2c, virtual true, abstract: false, final true
   inline void Demand();
 
-  /// @brief Method Equals, addr 0x27fe794, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3c1e468, size 0x124, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x27fe8b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3c1e58c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Method IsSubsetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -59,16 +59,16 @@ public:
 
   static inline ::System::Security::CodeAccessPermission* New_ctor();
 
-  /// @brief Method System.Security.IPermission.Demand, addr 0x27fe998, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Security.IPermission.Demand, addr 0x3c1e668, size 0x4, virtual true, abstract: false, final true
   inline void System_Security_IPermission_Demand();
 
-  /// @brief Method ToString, addr 0x27fe8c0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c1e594, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method ToXml, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::SecurityElement* ToXml();
 
-  /// @brief Method .ctor, addr 0x27fe694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1e368, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Security::IPermission"
@@ -90,6 +90,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CodeAccessPermission", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CodeAccessPermission(CodeAccessPermission const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2885 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

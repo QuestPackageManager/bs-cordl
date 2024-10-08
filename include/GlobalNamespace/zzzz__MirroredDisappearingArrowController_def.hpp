@@ -15,18 +15,18 @@ class MirroredDisappearingArrowController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MirroredDisappearingArrowController);
 // Type: ::MirroredDisappearingArrowController
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MirroredDisappearingArrowController*
 class CORDL_TYPE MirroredDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>> {
 public:
   // Declarations
-  /// @brief Field _mirroredGameNoteController, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__mirroredGameNoteController,
-                      put = __cordl_internal_set__mirroredGameNoteController))::UnityW<::GlobalNamespace::MirroredGameNoteController> _mirroredGameNoteController;
+  /// @brief Field _mirroredGameNoteController, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__mirroredGameNoteController, put = __cordl_internal_set__mirroredGameNoteController)) ::UnityW<::GlobalNamespace::MirroredGameNoteController>
+      _mirroredGameNoteController;
 
-  __declspec(property(get = get_gameNoteController))::UnityW<::GlobalNamespace::MirroredGameNoteController> gameNoteController;
+  __declspec(property(get = get_gameNoteController)) ::UnityW<::GlobalNamespace::MirroredGameNoteController> gameNoteController;
 
   static inline ::GlobalNamespace::MirroredDisappearingArrowController* New_ctor();
 
@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__mirroredGameNoteController(::UnityW<::GlobalNamespace::MirroredGameNoteController> value);
 
-  /// @brief Method .ctor, addr 0x264a2c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7b158, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameNoteController, addr 0x264a2bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_gameNoteController, addr 0x3a7b150, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MirroredGameNoteController> get_gameNoteController();
 
 protected:
@@ -56,15 +56,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MirroredDisappearingArrowController(MirroredDisappearingArrowController const&) = delete;
 
-  /// @brief Field _mirroredGameNoteController, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _mirroredGameNoteController, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirroredGameNoteController> ____mirroredGameNoteController;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4091 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirroredDisappearingArrowController, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirroredDisappearingArrowController, 0x60>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredDisappearingArrowController, ____mirroredGameNoteController) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredDisappearingArrowController, ____mirroredGameNoteController) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MirroredDisappearingArrowController);

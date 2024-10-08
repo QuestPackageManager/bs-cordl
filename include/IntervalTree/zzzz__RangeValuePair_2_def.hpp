@@ -20,7 +20,7 @@ template <typename TKey, typename TValue> struct RangeValuePair_2;
 // Write type traits
 MARK_GEN_VAL_T(::IntervalTree::RangeValuePair_2);
 // Type: IntervalTree::RangeValuePair`2
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
   TValue _Value_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18817 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

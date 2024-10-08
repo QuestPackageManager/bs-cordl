@@ -19,7 +19,7 @@ class IConnectedPlayer;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IConnectedPlayer);
 // Type: ::IConnectedPlayer
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IConnectedPlayer*
@@ -28,7 +28,7 @@ public:
   // Declarations
   __declspec(property(get = get_currentLatency)) int64_t currentLatency;
 
-  __declspec(property(get = get_disconnectedReason))::GlobalNamespace::DisconnectedReason disconnectedReason;
+  __declspec(property(get = get_disconnectedReason)) ::GlobalNamespace::DisconnectedReason disconnectedReason;
 
   __declspec(property(get = get_hasValidLatency)) bool hasValidLatency;
 
@@ -40,15 +40,15 @@ public:
 
   __declspec(property(get = get_isMe)) bool isMe;
 
-  __declspec(property(get = get_multiplayerAvatarsData))::GlobalNamespace::MultiplayerAvatarsData multiplayerAvatarsData;
+  __declspec(property(get = get_multiplayerAvatarsData)) ::GlobalNamespace::MultiplayerAvatarsData multiplayerAvatarsData;
 
   __declspec(property(get = get_offsetSyncTime)) int64_t offsetSyncTime;
 
   __declspec(property(get = get_sortIndex)) int32_t sortIndex;
 
-  __declspec(property(get = get_userId))::StringW userId;
+  __declspec(property(get = get_userId)) ::StringW userId;
 
-  __declspec(property(get = get_userName))::StringW userName;
+  __declspec(property(get = get_userName)) ::StringW userName;
 
   /// @brief Method HasState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool HasState(::StringW state);
@@ -96,6 +96,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IConnectedPlayer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IConnectedPlayer(IConnectedPlayer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14737 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

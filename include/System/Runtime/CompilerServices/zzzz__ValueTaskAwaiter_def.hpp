@@ -39,7 +39,7 @@ struct ValueTaskAwaiter;
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::__ValueTaskAwaiter____c);
 MARK_VAL_T(::System::Runtime::CompilerServices::ValueTaskAwaiter);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::ValueTaskAwaiter::<>c*
@@ -47,14 +47,14 @@ class CORDL_TYPE __ValueTaskAwaiter____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Runtime::CompilerServices::__ValueTaskAwaiter____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Runtime::CompilerServices::__ValueTaskAwaiter____c* __9;
 
   static inline ::System::Runtime::CompilerServices::__ValueTaskAwaiter____c* New_ctor();
 
-  /// @brief Method <.cctor>b__9_0, addr 0x288abb8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__9_0, addr 0x3ca3634, size 0x74, virtual false, abstract: false, final false
   inline void __cctor_b__9_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x288abb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca362c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::CompilerServices::__ValueTaskAwaiter____c* getStaticF___9();
@@ -75,6 +75,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ValueTaskAwaiter____c(__ValueTaskAwaiter____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3389 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -82,7 +85,7 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerService
 
 } // namespace System::Runtime::CompilerServices
 // Type: System.Runtime.CompilerServices::ValueTaskAwaiter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // CS Name: ::System.Runtime.CompilerServices::ValueTaskAwaiter
@@ -94,7 +97,7 @@ public:
   __declspec(property(get = get_IsCompleted)) bool IsCompleted;
 
   /// @brief Field s_invokeActionDelegate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_invokeActionDelegate, put = setStaticF_s_invokeActionDelegate))::System::Action_1<::System::Object*>* s_invokeActionDelegate;
+  static __declspec(property(get = getStaticF_s_invokeActionDelegate, put = setStaticF_s_invokeActionDelegate)) ::System::Action_1<::System::Object*>* s_invokeActionDelegate;
 
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
@@ -102,21 +105,21 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
-  /// @brief Method GetResult, addr 0x288a650, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x3ca317c, size 0x58, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted, addr 0x288a750, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x3ca31d4, size 0x18c, virtual true, abstract: false, final true
   inline void OnCompleted(::System::Action* continuation);
 
-  /// @brief Method UnsafeOnCompleted, addr 0x288a8ec, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x3ca3370, size 0x18c, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method .ctor, addr 0x288a540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca311c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_invokeActionDelegate();
 
-  /// @brief Method get_IsCompleted, addr 0x288a548, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x3ca3124, size 0x58, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
@@ -136,6 +139,9 @@ public:
 
   /// @brief Field _value, offset: 0x0, size: 0x10, def value: None
   ::System::Threading::Tasks::ValueTask _value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3390 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

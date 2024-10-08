@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRHaptics__OVRHapticsChannel);
 MARK_REF_PTR_T(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput);
 MARK_REF_PTR_T(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker);
 // Type: ::Config
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRHaptics::Config*
@@ -60,19 +60,19 @@ class CORDL_TYPE __OVRHaptics__Config : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <MaximumBufferSamplesCount>k__BackingField, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__MaximumBufferSamplesCount_k__BackingField,
-                             put = setStaticF__MaximumBufferSamplesCount_k__BackingField)) int32_t _MaximumBufferSamplesCount_k__BackingField;
+  static
+      __declspec(property(get = getStaticF__MaximumBufferSamplesCount_k__BackingField, put = setStaticF__MaximumBufferSamplesCount_k__BackingField)) int32_t _MaximumBufferSamplesCount_k__BackingField;
 
   /// @brief Field <MinimumBufferSamplesCount>k__BackingField, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__MinimumBufferSamplesCount_k__BackingField,
-                             put = setStaticF__MinimumBufferSamplesCount_k__BackingField)) int32_t _MinimumBufferSamplesCount_k__BackingField;
+  static
+      __declspec(property(get = getStaticF__MinimumBufferSamplesCount_k__BackingField, put = setStaticF__MinimumBufferSamplesCount_k__BackingField)) int32_t _MinimumBufferSamplesCount_k__BackingField;
 
   /// @brief Field <MinimumSafeSamplesQueued>k__BackingField, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__MinimumSafeSamplesQueued_k__BackingField, put = setStaticF__MinimumSafeSamplesQueued_k__BackingField)) int32_t _MinimumSafeSamplesQueued_k__BackingField;
 
   /// @brief Field <OptimalBufferSamplesCount>k__BackingField, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__OptimalBufferSamplesCount_k__BackingField,
-                             put = setStaticF__OptimalBufferSamplesCount_k__BackingField)) int32_t _OptimalBufferSamplesCount_k__BackingField;
+  static
+      __declspec(property(get = getStaticF__OptimalBufferSamplesCount_k__BackingField, put = setStaticF__OptimalBufferSamplesCount_k__BackingField)) int32_t _OptimalBufferSamplesCount_k__BackingField;
 
   /// @brief Field <SampleRateHz>k__BackingField, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__SampleRateHz_k__BackingField, put = setStaticF__SampleRateHz_k__BackingField)) int32_t _SampleRateHz_k__BackingField;
@@ -80,7 +80,7 @@ public:
   /// @brief Field <SampleSizeInBytes>k__BackingField, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__SampleSizeInBytes_k__BackingField, put = setStaticF__SampleSizeInBytes_k__BackingField)) int32_t _SampleSizeInBytes_k__BackingField;
 
-  /// @brief Method Load, addr 0x2b31c08, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x3f3d760, size 0x200, virtual false, abstract: false, final false
   static inline void Load();
 
   static inline int32_t getStaticF__MaximumBufferSamplesCount_k__BackingField();
@@ -95,22 +95,22 @@ public:
 
   static inline int32_t getStaticF__SampleSizeInBytes_k__BackingField();
 
-  /// @brief Method get_MaximumBufferSamplesCount, addr 0x2b32d2c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_MaximumBufferSamplesCount, addr 0x3f3e880, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_MaximumBufferSamplesCount();
 
-  /// @brief Method get_MinimumBufferSamplesCount, addr 0x2b32bc4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_MinimumBufferSamplesCount, addr 0x3f3e718, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_MinimumBufferSamplesCount();
 
-  /// @brief Method get_MinimumSafeSamplesQueued, addr 0x2b32b10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_MinimumSafeSamplesQueued, addr 0x3f3e664, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_MinimumSafeSamplesQueued();
 
-  /// @brief Method get_OptimalBufferSamplesCount, addr 0x2b32c78, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_OptimalBufferSamplesCount, addr 0x3f3e7cc, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_OptimalBufferSamplesCount();
 
-  /// @brief Method get_SampleRateHz, addr 0x2b329a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_SampleRateHz, addr 0x3f3e4fc, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_SampleRateHz();
 
-  /// @brief Method get_SampleSizeInBytes, addr 0x2b32a5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_SampleSizeInBytes, addr 0x3f3e5b0, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_SampleSizeInBytes();
 
   static inline void setStaticF__MaximumBufferSamplesCount_k__BackingField(int32_t value);
@@ -125,22 +125,22 @@ public:
 
   static inline void setStaticF__SampleSizeInBytes_k__BackingField(int32_t value);
 
-  /// @brief Method set_MaximumBufferSamplesCount, addr 0x2b32d84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_MaximumBufferSamplesCount, addr 0x3f3e8d8, size 0x5c, virtual false, abstract: false, final false
   static inline void set_MaximumBufferSamplesCount(int32_t value);
 
-  /// @brief Method set_MinimumBufferSamplesCount, addr 0x2b32c1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_MinimumBufferSamplesCount, addr 0x3f3e770, size 0x5c, virtual false, abstract: false, final false
   static inline void set_MinimumBufferSamplesCount(int32_t value);
 
-  /// @brief Method set_MinimumSafeSamplesQueued, addr 0x2b32b68, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_MinimumSafeSamplesQueued, addr 0x3f3e6bc, size 0x5c, virtual false, abstract: false, final false
   static inline void set_MinimumSafeSamplesQueued(int32_t value);
 
-  /// @brief Method set_OptimalBufferSamplesCount, addr 0x2b32cd0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_OptimalBufferSamplesCount, addr 0x3f3e824, size 0x5c, virtual false, abstract: false, final false
   static inline void set_OptimalBufferSamplesCount(int32_t value);
 
-  /// @brief Method set_SampleRateHz, addr 0x2b32a00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_SampleRateHz, addr 0x3f3e554, size 0x5c, virtual false, abstract: false, final false
   static inline void set_SampleRateHz(int32_t value);
 
-  /// @brief Method set_SampleSizeInBytes, addr 0x2b32ab4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_SampleSizeInBytes, addr 0x3f3e608, size 0x5c, virtual false, abstract: false, final false
   static inline void set_SampleSizeInBytes(int32_t value);
 
 protected:
@@ -157,6 +157,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRHaptics__Config(__OVRHaptics__Config const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7853 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -164,7 +167,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHaptics__C
 
 } // namespace GlobalNamespace
 // Type: ::OVRHapticsChannel
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRHaptics::OVRHapticsChannel*
@@ -172,20 +175,20 @@ class CORDL_TYPE __OVRHaptics__OVRHapticsChannel : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_output, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_output, put = __cordl_internal_set_m_output))::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* m_output;
+  __declspec(property(get = __cordl_internal_get_m_output, put = __cordl_internal_set_m_output)) ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* m_output;
 
-  /// @brief Method Clear, addr 0x2b334ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3f3f01c, size 0x18, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Mix, addr 0x2b3301c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Mix, addr 0x3f3eb60, size 0x18, virtual false, abstract: false, final false
   inline void Mix(::GlobalNamespace::OVRHapticsClip* clip);
 
   static inline ::GlobalNamespace::__OVRHaptics__OVRHapticsChannel* New_ctor(uint32_t outputIndex);
 
-  /// @brief Method Preempt, addr 0x2b32de4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Preempt, addr 0x3f3e938, size 0x18, virtual false, abstract: false, final false
   inline void Preempt(::GlobalNamespace::OVRHapticsClip* clip);
 
-  /// @brief Method Queue, addr 0x2b32f1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Queue, addr 0x3f3ea68, size 0x18, virtual false, abstract: false, final false
   inline void Queue(::GlobalNamespace::OVRHapticsClip* clip);
 
   constexpr ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*& __cordl_internal_get_m_output();
@@ -194,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set_m_output(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* value);
 
-  /// @brief Method .ctor, addr 0x2b31f7c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f3dac8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(uint32_t outputIndex);
 
 protected:
@@ -214,6 +217,9 @@ public:
   /// @brief Field m_output, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* ___m_output;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7854 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -223,19 +229,19 @@ static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsChannel, ___m_
 
 } // namespace GlobalNamespace
 // Type: ::ClipPlaybackTracker
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*
 class CORDL_TYPE __OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Clip, put = set_Clip))::GlobalNamespace::OVRHapticsClip* Clip;
+  __declspec(property(get = get_Clip, put = set_Clip)) ::GlobalNamespace::OVRHapticsClip* Clip;
 
   __declspec(property(get = get_ReadCount, put = set_ReadCount)) int32_t ReadCount;
 
   /// @brief Field <Clip>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Clip_k__BackingField, put = __cordl_internal_set__Clip_k__BackingField))::GlobalNamespace::OVRHapticsClip* _Clip_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Clip_k__BackingField, put = __cordl_internal_set__Clip_k__BackingField)) ::GlobalNamespace::OVRHapticsClip* _Clip_k__BackingField;
 
   /// @brief Field <ReadCount>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__ReadCount_k__BackingField, put = __cordl_internal_set__ReadCount_k__BackingField)) int32_t _ReadCount_k__BackingField;
@@ -254,19 +260,19 @@ public:
 
   constexpr void __cordl_internal_set__ReadCount_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2b33574, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f3f0a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRHapticsClip* clip);
 
-  /// @brief Method get_Clip, addr 0x2b337b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Clip, addr 0x3f3f2e4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRHapticsClip* get_Clip();
 
-  /// @brief Method get_ReadCount, addr 0x2b337a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadCount, addr 0x3f3f2d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ReadCount();
 
-  /// @brief Method set_Clip, addr 0x2b337bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Clip, addr 0x3f3f2ec, size 0x8, virtual false, abstract: false, final false
   inline void set_Clip(::GlobalNamespace::OVRHapticsClip* value);
 
-  /// @brief Method set_ReadCount, addr 0x2b337ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReadCount, addr 0x3f3f2dc, size 0x8, virtual false, abstract: false, final false
   inline void set_ReadCount(int32_t value);
 
 protected:
@@ -289,6 +295,9 @@ public:
   /// @brief Field <Clip>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::OVRHapticsClip* ____Clip_k__BackingField;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7855 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -300,7 +309,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPl
 
 } // namespace GlobalNamespace
 // Type: ::OVRHapticsOutput
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRHaptics::OVRHapticsOutput*
@@ -319,7 +328,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_lowLatencyMode, put = __cordl_internal_set_m_lowLatencyMode)) bool m_lowLatencyMode;
 
   /// @brief Field m_nativeBuffer, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_nativeBuffer, put = __cordl_internal_set_m_nativeBuffer))::GlobalNamespace::OVRNativeBuffer* m_nativeBuffer;
+  __declspec(property(get = __cordl_internal_get_m_nativeBuffer, put = __cordl_internal_set_m_nativeBuffer)) ::GlobalNamespace::OVRNativeBuffer* m_nativeBuffer;
 
   /// @brief Field m_numPredictionHits, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_numPredictionHits, put = __cordl_internal_set_m_numPredictionHits)) int32_t m_numPredictionHits;
@@ -332,7 +341,7 @@ public:
 
   /// @brief Field m_pendingClips, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_pendingClips,
-                      put = __cordl_internal_set_m_pendingClips))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker*>* m_pendingClips;
+                      put = __cordl_internal_set_m_pendingClips)) ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput__ClipPlaybackTracker*>* m_pendingClips;
 
   /// @brief Field m_prevSamplesQueued, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_prevSamplesQueued, put = __cordl_internal_set_m_prevSamplesQueued)) int32_t m_prevSamplesQueued;
@@ -340,21 +349,21 @@ public:
   /// @brief Field m_prevSamplesQueuedTime, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_prevSamplesQueuedTime, put = __cordl_internal_set_m_prevSamplesQueuedTime)) float_t m_prevSamplesQueuedTime;
 
-  /// @brief Method Clear, addr 0x2b33504, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3f3f034, size 0x70, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Mix, addr 0x2b33034, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method Mix, addr 0x3f3eb78, size 0x4a4, virtual false, abstract: false, final false
   inline void Mix(::GlobalNamespace::OVRHapticsClip* clip);
 
   static inline ::GlobalNamespace::__OVRHaptics__OVRHapticsOutput* New_ctor(uint32_t controller);
 
-  /// @brief Method Preempt, addr 0x2b32dfc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Preempt, addr 0x3f3e950, size 0x118, virtual false, abstract: false, final false
   inline void Preempt(::GlobalNamespace::OVRHapticsClip* clip);
 
-  /// @brief Method Process, addr 0x2b320f0, size 0x8b8, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x3f3dc3c, size 0x8c0, virtual false, abstract: false, final false
   inline void Process();
 
-  /// @brief Method Queue, addr 0x2b32f34, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Queue, addr 0x3f3ea80, size 0xe0, virtual false, abstract: false, final false
   inline void Queue(::GlobalNamespace::OVRHapticsClip* clip);
 
   constexpr int32_t const& __cordl_internal_get_PrevSampleRateHz() const;
@@ -418,7 +427,7 @@ public:
 
   constexpr void __cordl_internal_set_m_prevSamplesQueuedTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x2b31e08, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f3d960, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(uint32_t controller);
 
 protected:
@@ -465,6 +474,9 @@ public:
   /// @brief Field PrevSampleRateHz, offset: 0x40, size: 0x4, def value: None
   int32_t ___PrevSampleRateHz;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7856 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -492,7 +504,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRHaptics__OVRHapticsOutput, ___Pre
 
 } // namespace GlobalNamespace
 // Type: ::OVRHaptics
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRHaptics*
@@ -507,19 +519,21 @@ public:
 
   /// @brief Field Channels, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Channels,
-                             put = setStaticF_Channels))::ArrayW<::GlobalNamespace::__OVRHaptics__OVRHapticsChannel*, ::Array<::GlobalNamespace::__OVRHaptics__OVRHapticsChannel*>*> Channels;
+                             put = setStaticF_Channels)) ::ArrayW<::GlobalNamespace::__OVRHaptics__OVRHapticsChannel*, ::Array<::GlobalNamespace::__OVRHaptics__OVRHapticsChannel*>*>
+      Channels;
 
   /// @brief Field LeftChannel, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_LeftChannel, put = setStaticF_LeftChannel))::GlobalNamespace::__OVRHaptics__OVRHapticsChannel* LeftChannel;
+  static __declspec(property(get = getStaticF_LeftChannel, put = setStaticF_LeftChannel)) ::GlobalNamespace::__OVRHaptics__OVRHapticsChannel* LeftChannel;
 
   /// @brief Field RightChannel, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RightChannel, put = setStaticF_RightChannel))::GlobalNamespace::__OVRHaptics__OVRHapticsChannel* RightChannel;
+  static __declspec(property(get = getStaticF_RightChannel, put = setStaticF_RightChannel)) ::GlobalNamespace::__OVRHaptics__OVRHapticsChannel* RightChannel;
 
   /// @brief Field m_outputs, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_outputs,
-                             put = setStaticF_m_outputs))::ArrayW<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*, ::Array<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*>*> m_outputs;
+                             put = setStaticF_m_outputs)) ::ArrayW<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*, ::Array<::GlobalNamespace::__OVRHaptics__OVRHapticsOutput*>*>
+      m_outputs;
 
-  /// @brief Method Process, addr 0x2b32014, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x3f3db60, size 0xdc, virtual false, abstract: false, final false
   static inline void Process();
 
   static inline ::ArrayW<::GlobalNamespace::__OVRHaptics__OVRHapticsChannel*, ::Array<::GlobalNamespace::__OVRHaptics__OVRHapticsChannel*>*> getStaticF_Channels();
@@ -551,6 +565,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRHaptics", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRHaptics(OVRHaptics const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7857 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

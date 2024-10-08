@@ -16,7 +16,7 @@ class __AddOvfInstruction__AddOvfUInt16;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__AddOvfInstruction__AddOvfUInt16);
 // Type: ::AddOvfUInt16
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::AddOvfInstruction::AddOvfUInt16*
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__AddOvfInstruction__AddOvfUInt16* New_ctor();
 
-  /// @brief Method Run, addr 0x2c44d6c, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40490e8, size 0x24c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c446d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4048a84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "__AddOvfInstruction__AddOvfUInt16", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   __AddOvfInstruction__AddOvfUInt16(__AddOvfInstruction__AddOvfUInt16 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

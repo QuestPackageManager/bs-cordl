@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__Allocator2D__Area);
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__Allocator2D__Row);
 MARK_VAL_T(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D);
 // Type: ::Area
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::Allocator2D::Area*
@@ -67,10 +67,10 @@ class CORDL_TYPE __Allocator2D__Area : public ::System::Object {
 public:
   // Declarations
   /// @brief Field allocator, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_allocator, put = __cordl_internal_set_allocator))::UnityEngine::UIElements::UIR::BestFitAllocator* allocator;
+  __declspec(property(get = __cordl_internal_get_allocator, put = __cordl_internal_set_allocator)) ::UnityEngine::UIElements::UIR::BestFitAllocator* allocator;
 
   /// @brief Field rect, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_rect, put = __cordl_internal_set_rect))::UnityEngine::RectInt rect;
+  __declspec(property(get = __cordl_internal_get_rect, put = __cordl_internal_set_rect)) ::UnityEngine::RectInt rect;
 
   static inline ::UnityEngine::UIElements::UIR::__Allocator2D__Area* New_ctor(::UnityEngine::RectInt rect);
 
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_rect(::UnityEngine::RectInt value);
 
-  /// @brief Method .ctor, addr 0x35616c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492c89c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RectInt rect);
 
 protected:
@@ -109,6 +109,9 @@ public:
   /// @brief Field allocator, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::BestFitAllocator* ___allocator;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6322 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -120,7 +123,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Area, ___a
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: ::Row
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::Allocator2D::Row*
@@ -128,29 +131,29 @@ class CORDL_TYPE __Allocator2D__Row : public ::UnityEngine::UIElements::UIR::Lin
 public:
   // Declarations
   /// @brief Field alloc, offset 0x38, size 0x18
-  __declspec(property(get = __cordl_internal_get_alloc, put = __cordl_internal_set_alloc))::UnityEngine::UIElements::UIR::Alloc alloc;
+  __declspec(property(get = __cordl_internal_get_alloc, put = __cordl_internal_set_alloc)) ::UnityEngine::UIElements::UIR::Alloc alloc;
 
   /// @brief Field allocator, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_allocator, put = __cordl_internal_set_allocator))::UnityEngine::UIElements::UIR::BestFitAllocator* allocator;
+  __declspec(property(get = __cordl_internal_get_allocator, put = __cordl_internal_set_allocator)) ::UnityEngine::UIElements::UIR::BestFitAllocator* allocator;
 
   /// @brief Field area, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_area, put = __cordl_internal_set_area))::UnityEngine::UIElements::UIR::__Allocator2D__Area* area;
+  __declspec(property(get = __cordl_internal_get_area, put = __cordl_internal_set_area)) ::UnityEngine::UIElements::UIR::__Allocator2D__Area* area;
 
   /// @brief Field next, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::UnityEngine::UIElements::UIR::__Allocator2D__Row* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::UnityEngine::UIElements::UIR::__Allocator2D__Row* next;
 
   /// @brief Field pool, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_pool, put = setStaticF_pool))::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>* pool;
+  static __declspec(property(get = getStaticF_pool, put = setStaticF_pool)) ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>* pool;
 
   /// @brief Field rect, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_rect, put = __cordl_internal_set_rect))::UnityEngine::RectInt rect;
+  __declspec(property(get = __cordl_internal_get_rect, put = __cordl_internal_set_rect)) ::UnityEngine::RectInt rect;
 
-  /// @brief Method Create, addr 0x356175c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x492c91c, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::__Allocator2D__Row* Create();
 
   static inline ::UnityEngine::UIElements::UIR::__Allocator2D__Row* New_ctor();
 
-  /// @brief Method Reset, addr 0x35617fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x492c9b4, size 0x28, virtual false, abstract: false, final false
   static inline void Reset(::UnityEngine::UIElements::UIR::__Allocator2D__Row* row);
 
   constexpr ::UnityEngine::UIElements::UIR::Alloc const& __cordl_internal_get_alloc() const;
@@ -183,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set_rect(::UnityEngine::RectInt value);
 
-  /// @brief Method .ctor, addr 0x35617b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492c96c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>* getStaticF_pool();
@@ -219,6 +222,9 @@ public:
   /// @brief Field next, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::__Allocator2D__Row* ___next;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6323 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -236,14 +242,14 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Row, ___ne
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: ::Alloc2D
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: ::Allocator2D::Alloc2D
 struct CORDL_TYPE __Allocator2D__Alloc2D {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3561108, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492c598, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::UIR::__Allocator2D__Row* row, ::UnityEngine::UIElements::UIR::Alloc alloc, int32_t width, int32_t height);
 
   // Ctor Parameters []
@@ -263,6 +269,9 @@ public:
   /// @brief Field alloc, offset: 0x18, size: 0x18, def value: None
   ::UnityEngine::UIElements::UIR::Alloc alloc;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6324 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
@@ -279,7 +288,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D, a
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: UnityEngine.UIElements.UIR::Allocator2D
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.UIR::Allocator2D*
@@ -293,40 +302,41 @@ public:
   using Row = ::UnityEngine::UIElements::UIR::__Allocator2D__Row;
 
   /// @brief Field m_Areas, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Areas, put = __cordl_internal_set_m_Areas))::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>* m_Areas;
+  __declspec(property(get = __cordl_internal_get_m_Areas, put = __cordl_internal_set_m_Areas)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>* m_Areas;
 
   /// @brief Field m_MaxAllocSize, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MaxAllocSize, put = __cordl_internal_set_m_MaxAllocSize))::UnityEngine::Vector2Int m_MaxAllocSize;
+  __declspec(property(get = __cordl_internal_get_m_MaxAllocSize, put = __cordl_internal_set_m_MaxAllocSize)) ::UnityEngine::Vector2Int m_MaxAllocSize;
 
   /// @brief Field m_MaxSize, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MaxSize, put = __cordl_internal_set_m_MaxSize))::UnityEngine::Vector2Int m_MaxSize;
+  __declspec(property(get = __cordl_internal_get_m_MaxSize, put = __cordl_internal_set_m_MaxSize)) ::UnityEngine::Vector2Int m_MaxSize;
 
   /// @brief Field m_MinSize, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MinSize, put = __cordl_internal_set_m_MinSize))::UnityEngine::Vector2Int m_MinSize;
+  __declspec(property(get = __cordl_internal_get_m_MinSize, put = __cordl_internal_set_m_MinSize)) ::UnityEngine::Vector2Int m_MinSize;
 
   /// @brief Field m_RowHeightBias, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_m_RowHeightBias, put = __cordl_internal_set_m_RowHeightBias)) int32_t m_RowHeightBias;
 
   /// @brief Field m_Rows, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Rows,
-                      put = __cordl_internal_set_m_Rows))::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*> m_Rows;
+                      put = __cordl_internal_set_m_Rows)) ::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*>
+      m_Rows;
 
-  /// @brief Method BuildAreas, addr 0x35606c8, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method BuildAreas, addr 0x492bd2c, size 0x22c, virtual false, abstract: false, final false
   static inline void BuildAreas(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>* areas, ::UnityEngine::Vector2Int minSize,
                                 ::UnityEngine::Vector2Int maxSize);
 
-  /// @brief Method BuildRowArray, addr 0x3560a54, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method BuildRowArray, addr 0x492c05c, size 0x88, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*> BuildRowArray(int32_t maxRowHeight, int32_t rowHeightBias);
 
-  /// @brief Method ComputeMaxAllocSize, addr 0x3560938, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ComputeMaxAllocSize, addr 0x492bf58, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2Int ComputeMaxAllocSize(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>* areas, int32_t rowHeightBias);
 
-  /// @brief Method Free, addr 0x3561254, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x492c6a0, size 0x1fc, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D alloc2D);
 
   static inline ::UnityEngine::UIElements::UIR::Allocator2D* New_ctor(::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize, int32_t rowHeightBias);
 
-  /// @brief Method TryAllocate, addr 0x3560adc, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method TryAllocate, addr 0x492c0e4, size 0x4b4, virtual false, abstract: false, final false
   inline bool TryAllocate(int32_t width, int32_t height, ByRef<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D> alloc2D);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>*& __cordl_internal_get_m_Areas();
@@ -365,7 +375,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Rows(::ArrayW<::UnityEngine::UIElements::UIR::__Allocator2D__Row*, ::Array<::UnityEngine::UIElements::UIR::__Allocator2D__Row*>*> value);
 
-  /// @brief Method .ctor, addr 0x35604b0, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492bb14, size 0x218, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize, int32_t rowHeightBias);
 
 protected:
@@ -399,6 +409,9 @@ public:
 
   /// @brief Field m_Areas, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__Allocator2D__Area*>* ___m_Areas;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6325 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

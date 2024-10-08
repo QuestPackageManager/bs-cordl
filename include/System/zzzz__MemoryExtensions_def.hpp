@@ -25,20 +25,20 @@ class MemoryExtensions;
 // Write type traits
 MARK_REF_PTR_T(::System::MemoryExtensions);
 // Type: System::MemoryExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::MemoryExtensions*
 class CORDL_TYPE MemoryExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AsSpan, addr 0x2964514, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AsSpan, addr 0x3d77cbc, size 0x58, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> AsSpan(::StringW text);
 
-  /// @brief Method AsSpan, addr 0x296456c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AsSpan, addr 0x3d77d14, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> AsSpan(::StringW text, int32_t start);
 
-  /// @brief Method AsSpan, addr 0x29645f8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method AsSpan, addr 0x3d77da0, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> AsSpan(::StringW text, int32_t start, int32_t length);
 
   /// @brief Method AsSpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -47,7 +47,7 @@ public:
   /// @brief Method AsSpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Span_1<T> AsSpan(::ArrayW<T, ::Array<T>*> array, int32_t start, int32_t length);
 
-  /// @brief Method Contains, addr 0x2964014, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3d7785c, size 0x94, virtual false, abstract: false, final false
   static inline bool Contains(::System::ReadOnlySpan_1<char16_t> source, char16_t value);
 
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -56,13 +56,13 @@ public:
   /// @brief Method EndsWith, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool EndsWith(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> value);
 
-  /// @brief Method EndsWith, addr 0x29641e4, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x3d77a48, size 0x274, virtual false, abstract: false, final false
   static inline bool EndsWith(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::StringComparison comparisonType);
 
-  /// @brief Method EqualsOrdinal, addr 0x2963e34, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method EqualsOrdinal, addr 0x3d77714, size 0x9c, virtual false, abstract: false, final false
   static inline bool EqualsOrdinal(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value);
 
-  /// @brief Method EqualsOrdinalIgnoreCase, addr 0x2963f68, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method EqualsOrdinalIgnoreCase, addr 0x3d777b0, size 0xac, virtual false, abstract: false, final false
   static inline bool EqualsOrdinalIgnoreCase(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -80,16 +80,16 @@ public:
   /// @brief Method StartsWith, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool StartsWith(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> value);
 
-  /// @brief Method ToUpperInvariant, addr 0x296408c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ToUpperInvariant, addr 0x3d778f0, size 0x158, virtual false, abstract: false, final false
   static inline int32_t ToUpperInvariant(::System::ReadOnlySpan_1<char16_t> source, ::System::Span_1<char16_t> destination);
 
-  /// @brief Method Trim, addr 0x295b0a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x3d6f178, size 0x10, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> Trim(::System::ReadOnlySpan_1<char16_t> span);
 
-  /// @brief Method TrimEnd, addr 0x296478c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TrimEnd, addr 0x3d77f34, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> TrimEnd(::System::ReadOnlySpan_1<char16_t> span);
 
-  /// @brief Method TrimStart, addr 0x2964698, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TrimStart, addr 0x3d77e40, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> TrimStart(::System::ReadOnlySpan_1<char16_t> span);
 
 protected:
@@ -105,6 +105,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MemoryExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MemoryExtensions(MemoryExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2438 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

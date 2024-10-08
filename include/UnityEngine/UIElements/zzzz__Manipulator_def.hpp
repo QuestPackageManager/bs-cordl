@@ -18,7 +18,7 @@ class Manipulator;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::Manipulator);
 // Type: UnityEngine.UIElements::Manipulator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::Manipulator*
@@ -26,9 +26,9 @@ class CORDL_TYPE Manipulator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Target, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Target, put = __cordl_internal_set_m_Target))::UnityEngine::UIElements::VisualElement* m_Target;
+  __declspec(property(get = __cordl_internal_get_m_Target, put = __cordl_internal_set_m_Target)) ::UnityEngine::UIElements::VisualElement* m_Target;
 
-  __declspec(property(get = get_target, put = set_target))::UnityEngine::UIElements::VisualElement* target;
+  __declspec(property(get = get_target, put = set_target)) ::UnityEngine::UIElements::VisualElement* target;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IManipulator"
   constexpr operator ::UnityEngine::UIElements::IManipulator*() noexcept;
@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x3595198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c55d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_target, addr 0x359513c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_target, addr 0x49c57e4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::VisualElement* get_target();
 
   /// @brief Convert to "::UnityEngine::UIElements::IManipulator"
   constexpr ::UnityEngine::UIElements::IManipulator* i___UnityEngine__UIElements__IManipulator() noexcept;
 
-  /// @brief Method set_target, addr 0x3595144, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method set_target, addr 0x49c6470, size 0x54, virtual true, abstract: false, final true
   inline void set_target(::UnityEngine::UIElements::VisualElement* value);
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field m_Target, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Target;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5955 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -28,7 +28,7 @@ class __CastInstruction__CastInstructionNoT;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__CastInstruction__CastInstructionNoT);
 // Type: ::CastInstructionNoT
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::CastInstruction::CastInstructionNoT*
@@ -40,17 +40,17 @@ public:
   using Value = ::GlobalNamespace::__CastInstruction__CastInstructionNoT__Value;
 
   /// @brief Field _t, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__t, put = __cordl_internal_set__t))::System::Type* _t;
+  __declspec(property(get = __cordl_internal_get__t, put = __cordl_internal_set__t)) ::System::Type* _t;
 
   /// @brief Method ConvertNull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ConvertNull(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method Create, addr 0x2c7f378, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4082254, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::CastInstruction* Create(::System::Type* t);
 
   static inline ::System::Linq::Expressions::Interpreter::__CastInstruction__CastInstructionNoT* New_ctor(::System::Type* t);
 
-  /// @brief Method Run, addr 0x2c7f4c0, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4082394, size 0x150, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type*& __cordl_internal_get__t();
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__t(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2c7f448, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408231c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field _t, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____t;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14073 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

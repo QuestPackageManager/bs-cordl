@@ -58,14 +58,14 @@ MARK_VAL_T(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta);
 MARK_VAL_T(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteFrame);
 MARK_VAL_T(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteSize);
 // Type: ::SpriteFrame
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
 // CS Name: ::TexturePacker_JsonArray::SpriteFrame
 struct CORDL_TYPE __TexturePacker_JsonArray__SpriteFrame {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x33bbbd0, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4794ab8, size 0x188, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -88,6 +88,9 @@ public:
   /// @brief Field h, offset: 0xc, size: 0x4, def value: None
   float_t h;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14537 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -106,14 +109,14 @@ static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray_
 
 } // namespace TMPro::SpriteAssetUtilities
 // Type: ::SpriteSize
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
 // CS Name: ::TexturePacker_JsonArray::SpriteSize
 struct CORDL_TYPE __TexturePacker_JsonArray__SpriteSize {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x33bbe48, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4794c40, size 0xac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -129,6 +132,9 @@ public:
   /// @brief Field h, offset: 0x4, size: 0x4, def value: None
   float_t h;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14538 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -143,7 +149,7 @@ static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray_
 
 } // namespace TMPro::SpriteAssetUtilities
 // Type: ::Frame
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
 // CS Name: ::TexturePacker_JsonArray::Frame
@@ -184,6 +190,9 @@ public:
   /// @brief Field pivot, offset: 0x34, size: 0x8, def value: None
   ::UnityEngine::Vector2 pivot;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14539 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
@@ -208,7 +217,7 @@ static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray_
 
 } // namespace TMPro::SpriteAssetUtilities
 // Type: ::Meta
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: true
 // CS Name: ::TexturePacker_JsonArray::Meta
@@ -247,6 +256,9 @@ public:
   /// @brief Field smartupdate, offset: 0x30, size: 0x8, def value: None
   ::StringW smartupdate;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14540 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
@@ -271,7 +283,7 @@ static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray_
 
 } // namespace TMPro::SpriteAssetUtilities
 // Type: ::SpriteDataObject
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: false
 // CS Name: ::TexturePacker_JsonArray::SpriteDataObject*
@@ -280,10 +292,10 @@ public:
   // Declarations
   /// @brief Field frames, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_frames,
-                      put = __cordl_internal_set_frames))::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>* frames;
+                      put = __cordl_internal_set_frames)) ::System::Collections::Generic::List_1<::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Frame>* frames;
 
   /// @brief Field meta, offset 0x18, size 0x38
-  __declspec(property(get = __cordl_internal_get_meta, put = __cordl_internal_set_meta))::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta meta;
+  __declspec(property(get = __cordl_internal_get_meta, put = __cordl_internal_set_meta)) ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta meta;
 
   static inline ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__SpriteDataObject* New_ctor();
 
@@ -299,7 +311,7 @@ public:
 
   constexpr void __cordl_internal_set_meta(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta value);
 
-  /// @brief Method .ctor, addr 0x33bbef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4794cec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -322,6 +334,9 @@ public:
   /// @brief Field meta, offset: 0x18, size: 0x38, def value: None
   ::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta ___meta;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14541 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -333,7 +348,7 @@ static_assert(offsetof(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray_
 
 } // namespace TMPro::SpriteAssetUtilities
 // Type: TMPro.SpriteAssetUtilities::TexturePacker_JsonArray
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro::SpriteAssetUtilities {
 // Is value type: false
 // CS Name: ::TMPro.SpriteAssetUtilities::TexturePacker_JsonArray*
@@ -352,7 +367,7 @@ public:
 
   static inline ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33bbbc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4794ab0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -368,6 +383,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TexturePacker_JsonArray", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TexturePacker_JsonArray(TexturePacker_JsonArray const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

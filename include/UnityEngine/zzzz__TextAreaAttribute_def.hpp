@@ -13,7 +13,7 @@ class TextAreaAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextAreaAttribute);
 // Type: UnityEngine::TextAreaAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::TextAreaAttribute*
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_minLines(int32_t value);
 
-  /// @brief Method .ctor, addr 0x34425f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482f178, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3442618, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482f198, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t minLines, int32_t maxLines);
 
 protected:
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field maxLines, offset: 0x14, size: 0x4, def value: None
   int32_t ___maxLines;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10803 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

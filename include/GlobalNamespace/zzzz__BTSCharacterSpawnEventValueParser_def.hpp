@@ -13,23 +13,23 @@ class BTSCharacterSpawnEventValueParser;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BTSCharacterSpawnEventValueParser);
 // Type: ::BTSCharacterSpawnEventValueParser
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BTSCharacterSpawnEventValueParser*
 class CORDL_TYPE BTSCharacterSpawnEventValueParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAnimationId, addr 0x1064a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAnimationId, addr 0x222e610, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetAnimationId(int32_t value);
 
-  /// @brief Method GetIsAlternativeMaterial, addr 0x1064ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIsAlternativeMaterial, addr 0x222ea50, size 0x8, virtual false, abstract: false, final false
   static inline bool GetIsAlternativeMaterial(int32_t value);
 
-  /// @brief Method GetPrefabId, addr 0x1064a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPrefabId, addr 0x222e608, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetPrefabId(int32_t value);
 
-  /// @brief Method MergeValuesIntoOneInt, addr 0x1065000, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method MergeValuesIntoOneInt, addr 0x222eb84, size 0x18, virtual false, abstract: false, final false
   static inline int32_t MergeValuesIntoOneInt(int32_t prefabId, int32_t animationId, bool isAlternativeMaterial);
 
 protected:
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnEventValueParser", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BTSCharacterSpawnEventValueParser(BTSCharacterSpawnEventValueParser const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17622 };
 
   /// @brief Field kAlternativeMaterialMask offset 0xffffffff size 0x4
   static constexpr int32_t kAlternativeMaterialMask{ static_cast<int32_t>(0x10000) };

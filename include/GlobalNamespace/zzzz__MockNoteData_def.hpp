@@ -30,7 +30,7 @@ class MockNoteData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockNoteData);
 // Type: ::MockNoteData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MockNoteData*
@@ -38,44 +38,44 @@ class CORDL_TYPE MockNoteData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <colorType>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__colorType_k__BackingField, put = __cordl_internal_set__colorType_k__BackingField))::GlobalNamespace::ColorType _colorType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__colorType_k__BackingField, put = __cordl_internal_set__colorType_k__BackingField)) ::GlobalNamespace::ColorType _colorType_k__BackingField;
 
   /// @brief Field <cutDirection>k__BackingField, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__cutDirection_k__BackingField,
-                      put = __cordl_internal_set__cutDirection_k__BackingField))::GlobalNamespace::NoteCutDirection _cutDirection_k__BackingField;
+                      put = __cordl_internal_set__cutDirection_k__BackingField)) ::GlobalNamespace::NoteCutDirection _cutDirection_k__BackingField;
 
   /// @brief Field <duration>k__BackingField, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__duration_k__BackingField, put = __cordl_internal_set__duration_k__BackingField)) float_t _duration_k__BackingField;
 
   /// @brief Field <gameplayType>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__gameplayType_k__BackingField,
-                      put = __cordl_internal_set__gameplayType_k__BackingField))::GlobalNamespace::__NoteData__GameplayType _gameplayType_k__BackingField;
+                      put = __cordl_internal_set__gameplayType_k__BackingField)) ::GlobalNamespace::__NoteData__GameplayType _gameplayType_k__BackingField;
 
   /// @brief Field <lineIndex>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__lineIndex_k__BackingField, put = __cordl_internal_set__lineIndex_k__BackingField)) int32_t _lineIndex_k__BackingField;
 
   /// @brief Field <noteLineLayer>k__BackingField, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__noteLineLayer_k__BackingField,
-                      put = __cordl_internal_set__noteLineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _noteLineLayer_k__BackingField;
+                      put = __cordl_internal_set__noteLineLayer_k__BackingField)) ::GlobalNamespace::NoteLineLayer _noteLineLayer_k__BackingField;
 
   /// @brief Field <time>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__time_k__BackingField, put = __cordl_internal_set__time_k__BackingField)) float_t _time_k__BackingField;
 
-  __declspec(property(get = get_colorType, put = set_colorType))::GlobalNamespace::ColorType colorType;
+  __declspec(property(get = get_colorType, put = set_colorType)) ::GlobalNamespace::ColorType colorType;
 
-  __declspec(property(get = get_cutDirection, put = set_cutDirection))::GlobalNamespace::NoteCutDirection cutDirection;
+  __declspec(property(get = get_cutDirection, put = set_cutDirection)) ::GlobalNamespace::NoteCutDirection cutDirection;
 
   __declspec(property(get = get_duration, put = set_duration)) float_t duration;
 
-  __declspec(property(get = get_gameplayType, put = set_gameplayType))::GlobalNamespace::__NoteData__GameplayType gameplayType;
+  __declspec(property(get = get_gameplayType, put = set_gameplayType)) ::GlobalNamespace::__NoteData__GameplayType gameplayType;
 
   __declspec(property(get = get_lineIndex, put = set_lineIndex)) int32_t lineIndex;
 
-  __declspec(property(get = get_noteLineLayer, put = set_noteLineLayer))::GlobalNamespace::NoteLineLayer noteLineLayer;
+  __declspec(property(get = get_noteLineLayer, put = set_noteLineLayer)) ::GlobalNamespace::NoteLineLayer noteLineLayer;
 
   __declspec(property(get = get_time, put = set_time)) float_t time;
 
-  /// @brief Method Mirror, addr 0x2792048, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Mirror, addr 0x3bb4808, size 0x58, virtual true, abstract: false, final false
   inline void Mirror(int32_t lineCount);
 
   static inline ::GlobalNamespace::MockNoteData* New_ctor();
@@ -122,49 +122,49 @@ public:
 
   constexpr void __cordl_internal_set__time_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x27920a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb4860, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorType, addr 0x2792008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x3bb47c8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
-  /// @brief Method get_cutDirection, addr 0x2792018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutDirection, addr 0x3bb47d8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutDirection get_cutDirection();
 
-  /// @brief Method get_duration, addr 0x2792038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x3bb47f8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_gameplayType, addr 0x2791ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayType, addr 0x3bb47b8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__NoteData__GameplayType get_gameplayType();
 
-  /// @brief Method get_lineIndex, addr 0x2791fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x3bb47a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_noteLineLayer, addr 0x2792028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteLineLayer, addr 0x3bb47e8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
 
-  /// @brief Method get_time, addr 0x2791fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x3bb4798, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method set_colorType, addr 0x2792010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorType, addr 0x3bb47d0, size 0x8, virtual false, abstract: false, final false
   inline void set_colorType(::GlobalNamespace::ColorType value);
 
-  /// @brief Method set_cutDirection, addr 0x2792020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cutDirection, addr 0x3bb47e0, size 0x8, virtual false, abstract: false, final false
   inline void set_cutDirection(::GlobalNamespace::NoteCutDirection value);
 
-  /// @brief Method set_duration, addr 0x2792040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x3bb4800, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_gameplayType, addr 0x2792000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayType, addr 0x3bb47c0, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayType(::GlobalNamespace::__NoteData__GameplayType value);
 
-  /// @brief Method set_lineIndex, addr 0x2791ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineIndex, addr 0x3bb47b0, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
-  /// @brief Method set_noteLineLayer, addr 0x2792030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noteLineLayer, addr 0x3bb47f0, size 0x8, virtual false, abstract: false, final false
   inline void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method set_time, addr 0x2791fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x3bb47a0, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
 protected:
@@ -201,6 +201,9 @@ public:
 
   /// @brief Field <duration>k__BackingField, offset: 0x28, size: 0x4, def value: None
   float_t ____duration_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18010 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

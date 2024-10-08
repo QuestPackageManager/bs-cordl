@@ -13,7 +13,7 @@ class SceneInfo;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SceneInfo);
 // Type: ::SceneInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SceneInfo*
@@ -24,11 +24,11 @@ public:
   __declspec(property(get = __cordl_internal_get__disabledRootObjects, put = __cordl_internal_set__disabledRootObjects)) bool _disabledRootObjects;
 
   /// @brief Field _sceneName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneName, put = __cordl_internal_set__sceneName))::StringW _sceneName;
+  __declspec(property(get = __cordl_internal_get__sceneName, put = __cordl_internal_set__sceneName)) ::StringW _sceneName;
 
   __declspec(property(get = get_disabledRootObjects)) bool disabledRootObjects;
 
-  __declspec(property(get = get_sceneName))::StringW sceneName;
+  __declspec(property(get = get_sceneName)) ::StringW sceneName;
 
   static inline ::GlobalNamespace::SceneInfo* New_ctor();
 
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__sceneName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x107e4f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225c0e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledRootObjects, addr 0x107e4ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledRootObjects, addr 0x225c0dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_disabledRootObjects();
 
-  /// @brief Method get_sceneName, addr 0x107e4e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneName, addr 0x225c0d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_sceneName();
 
 protected:
@@ -72,6 +72,9 @@ public:
 
   /// @brief Field _disabledRootObjects, offset: 0x20, size: 0x1, def value: None
   bool ____disabledRootObjects;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17570 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

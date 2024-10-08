@@ -3,6 +3,7 @@ module;
 #endif
 
 #pragma once
+#include "Unity/Burst/BurstAuthorizedExternalMethodAttribute.hpp"
 #include "Unity/Burst/BurstCompileAttribute.hpp"
 #include "Unity/Burst/BurstCompiler.hpp"
 #include "Unity/Burst/BurstCompilerOptions.hpp"

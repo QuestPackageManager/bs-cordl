@@ -19,7 +19,7 @@ class __LessThanOrEqualInstruction__LessThanOrEqualChar;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualChar);
 // Type: ::LessThanOrEqualChar
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::LessThanOrEqualInstruction::LessThanOrEqualChar*
@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualChar* New_ctor(::System::Object* nullValue);
 
-  /// @brief Method Run, addr 0x2c5c004, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x406001c, size 0xdc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c5bce4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405fcfc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* nullValue);
 
 protected:
@@ -47,6 +47,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "__LessThanOrEqualInstruction__LessThanOrEqualChar", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   __LessThanOrEqualInstruction__LessThanOrEqualChar(__LessThanOrEqualInstruction__LessThanOrEqualChar const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13884 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,23 +20,23 @@ class ManagedStreamHelpers;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ManagedStreamHelpers);
 // Type: UnityEngine::ManagedStreamHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::ManagedStreamHelpers*
 class CORDL_TYPE ManagedStreamHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ManagedStreamLength, addr 0x3449e5c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ManagedStreamLength, addr 0x4836070, size 0xc0, virtual false, abstract: false, final false
   static inline void ManagedStreamLength(::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
-  /// @brief Method ManagedStreamRead, addr 0x3449c24, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ManagedStreamRead, addr 0x4835eb0, size 0xe4, virtual false, abstract: false, final false
   static inline void ManagedStreamRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
-  /// @brief Method ManagedStreamSeek, addr 0x3449d44, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ManagedStreamSeek, addr 0x4835f94, size 0xdc, virtual false, abstract: false, final false
   static inline void ManagedStreamSeek(int64_t offset, uint32_t origin, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
-  /// @brief Method ValidateLoadFromStream, addr 0x3449b14, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ValidateLoadFromStream, addr 0x4835dac, size 0x104, virtual false, abstract: false, final false
   static inline void ValidateLoadFromStream(::System::IO::Stream* stream);
 
 protected:
@@ -52,6 +52,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ManagedStreamHelpers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ManagedStreamHelpers(ManagedStreamHelpers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10854 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

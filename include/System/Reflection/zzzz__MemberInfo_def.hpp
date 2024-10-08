@@ -30,29 +30,29 @@ class MemberInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::MemberInfo);
 // Type: System.Reflection::MemberInfo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::MemberInfo*
 class CORDL_TYPE MemberInfo : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_DeclaringType))::System::Type* DeclaringType;
+  __declspec(property(get = get_DeclaringType)) ::System::Type* DeclaringType;
 
-  __declspec(property(get = get_MemberType))::System::Reflection::MemberTypes MemberType;
+  __declspec(property(get = get_MemberType)) ::System::Reflection::MemberTypes MemberType;
 
   __declspec(property(get = get_MetadataToken)) int32_t MetadataToken;
 
-  __declspec(property(get = get_Module))::System::Reflection::Module* Module;
+  __declspec(property(get = get_Module)) ::System::Reflection::Module* Module;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_ReflectedType))::System::Type* ReflectedType;
+  __declspec(property(get = get_ReflectedType)) ::System::Type* ReflectedType;
 
   /// @brief Convert operator to "::System::Reflection::ICustomAttributeProvider"
   constexpr operator ::System::Reflection::ICustomAttributeProvider*() noexcept;
 
-  /// @brief Method Equals, addr 0x2893f28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3cac61c, size 0x8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// @brief Method GetCustomAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -61,7 +61,7 @@ public:
   /// @brief Method GetCustomAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetHashCode, addr 0x2893f38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3cac62c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Method IsDefined, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -69,7 +69,7 @@ public:
 
   static inline ::System::Reflection::MemberInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2893dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cac4b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_DeclaringType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -78,10 +78,10 @@ public:
   /// @brief Method get_MemberType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MemberTypes get_MemberType();
 
-  /// @brief Method get_MetadataToken, addr 0x28956dc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_MetadataToken, addr 0x3cadc88, size 0x38, virtual true, abstract: false, final false
   inline int32_t get_MetadataToken();
 
-  /// @brief Method get_Module, addr 0x2895608, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_Module, addr 0x3cadbb4, size 0xd4, virtual true, abstract: false, final false
   inline ::System::Reflection::Module* get_Module();
 
   /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -93,10 +93,10 @@ public:
   /// @brief Convert to "::System::Reflection::ICustomAttributeProvider"
   constexpr ::System::Reflection::ICustomAttributeProvider* i___System__Reflection__ICustomAttributeProvider() noexcept;
 
-  /// @brief Method op_Equality, addr 0x289571c, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3cadcc0, size 0x35c, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::MemberInfo* left, ::System::Reflection::MemberInfo* right);
 
-  /// @brief Method op_Inequality, addr 0x2895cac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3cae250, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::MemberInfo* left, ::System::Reflection::MemberInfo* right);
 
 protected:
@@ -112,6 +112,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MemberInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MemberInfo(MemberInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3476 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -18,7 +18,7 @@ class ConstraintTable;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::ConstraintTable);
 // Type: System.Data::ConstraintTable
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::ConstraintTable*
@@ -26,10 +26,10 @@ class CORDL_TYPE ConstraintTable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field constraint, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_constraint, put = __cordl_internal_set_constraint))::System::Xml::Schema::XmlSchemaIdentityConstraint* constraint;
+  __declspec(property(get = __cordl_internal_get_constraint, put = __cordl_internal_set_constraint)) ::System::Xml::Schema::XmlSchemaIdentityConstraint* constraint;
 
   /// @brief Field table, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table))::System::Data::DataTable* table;
+  __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table)) ::System::Data::DataTable* table;
 
   static inline ::System::Data::ConstraintTable* New_ctor(::System::Data::DataTable* t, ::System::Xml::Schema::XmlSchemaIdentityConstraint* c);
 
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x2d1c834, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x411b050, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* t, ::System::Xml::Schema::XmlSchemaIdentityConstraint* c);
 
 protected:
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field constraint, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaIdentityConstraint* ___constraint;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11435 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

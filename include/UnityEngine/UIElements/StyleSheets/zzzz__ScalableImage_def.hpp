@@ -16,14 +16,14 @@ struct ScalableImage;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::ScalableImage);
 // Type: UnityEngine.UIElements.StyleSheets::ScalableImage
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements.StyleSheets::ScalableImage
 struct CORDL_TYPE ScalableImage {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x357c040, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x495a4d0, size 0x164, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -39,6 +39,9 @@ public:
 
   /// @brief Field highResolutionImage, offset: 0x8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> highResolutionImage;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6417 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

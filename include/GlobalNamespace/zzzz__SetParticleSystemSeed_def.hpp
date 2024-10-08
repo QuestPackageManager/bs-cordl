@@ -16,23 +16,23 @@ class SetParticleSystemSeed;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SetParticleSystemSeed);
 // Type: ::SetParticleSystemSeed
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SetParticleSystemSeed*
 class CORDL_TYPE SetParticleSystemSeed : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _particleSystem, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem))::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
+  /// @brief Field _particleSystem, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
-  /// @brief Field _seed, offset 0x24, size 0x4
+  /// @brief Field _seed, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__seed, put = __cordl_internal_set__seed)) uint32_t _seed;
 
-  /// @brief Field _useRandom, offset 0x20, size 0x1
+  /// @brief Field _useRandom, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__useRandom, put = __cordl_internal_set__useRandom)) bool _useRandom;
 
-  /// @brief Method Awake, addr 0x26eca1c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b0d7e8, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::SetParticleSystemSeed* New_ctor();
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__useRandom(bool value);
 
-  /// @brief Method .ctor, addr 0x26eca68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0d834, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,25 +72,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SetParticleSystemSeed(SetParticleSystemSeed const&) = delete;
 
-  /// @brief Field _particleSystem, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _particleSystem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 
-  /// @brief Field _useRandom, offset: 0x20, size: 0x1, def value: None
+  /// @brief Field _useRandom, offset: 0x28, size: 0x1, def value: None
   bool ____useRandom;
 
-  /// @brief Field _seed, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field _seed, offset: 0x2c, size: 0x4, def value: None
   uint32_t ____seed;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4221 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetParticleSystemSeed, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetParticleSystemSeed, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetParticleSystemSeed, ____particleSystem) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetParticleSystemSeed, ____particleSystem) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetParticleSystemSeed, ____useRandom) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetParticleSystemSeed, ____useRandom) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetParticleSystemSeed, ____seed) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetParticleSystemSeed, ____seed) == 0x2c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SetParticleSystemSeed);

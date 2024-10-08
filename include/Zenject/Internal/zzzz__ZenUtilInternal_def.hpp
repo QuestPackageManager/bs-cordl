@@ -81,7 +81,7 @@ MARK_REF_PTR_T(::Zenject::Internal::__ZenUtilInternal___GetAllSceneContexts_d__3
 MARK_REF_PTR_T(::Zenject::Internal::__ZenUtilInternal____c);
 MARK_REF_PTR_T(::Zenject::Internal::__ZenUtilInternal____c__DisplayClass10_0);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
 // CS Name: ::ZenUtilInternal::<>c*
@@ -89,31 +89,31 @@ class CORDL_TYPE __ZenUtilInternal____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Zenject::Internal::__ZenUtilInternal____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Zenject::Internal::__ZenUtilInternal____c* __9;
 
   /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0))::System::Func_2<::UnityW<::UnityEngine::GameObject>, bool>* __9__10_0;
+  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0)) ::System::Func_2<::UnityW<::UnityEngine::GameObject>, bool>* __9__10_0;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF___9__3_0,
-               put = setStaticF___9__3_0))::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>*>* __9__3_0;
+  static __declspec(property(
+      get = getStaticF___9__3_0,
+      put = setStaticF___9__3_0)) ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>*>* __9__3_0;
 
   static inline ::Zenject::Internal::__ZenUtilInternal____c* New_ctor();
 
-  /// @brief Method <GetAllSceneContexts>b__3_0, addr 0x36c0018, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <GetAllSceneContexts>b__3_0, addr 0x4ae2044, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* _GetAllSceneContexts_b__3_0(::UnityEngine::GameObject* root);
 
-  /// @brief Method <GetRootGameObjects>b__10_0, addr 0x36c0068, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <GetRootGameObjects>b__10_0, addr 0x4ae2094, size 0x8c, virtual false, abstract: false, final false
   inline bool _GetRootGameObjects_b__10_0(::UnityEngine::GameObject* x);
 
-  /// @brief Method __zenCreate, addr 0x36c00f4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ae2120, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36c0150, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ae2174, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x36c0010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae203c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::Internal::__ZenUtilInternal____c* getStaticF___9();
@@ -142,33 +142,89 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ZenUtilInternal____c(__ZenUtilInternal____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12694 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::Internal::__ZenUtilInternal____c, 0x10>, "Size mismatch!");
 
 } // namespace Zenject::Internal
+// Type: ::<>c__DisplayClass10_0
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace Zenject::Internal {
+// Is value type: false
+// CS Name: ::ZenUtilInternal::<>c__DisplayClass10_0*
+class CORDL_TYPE __ZenUtilInternal____c__DisplayClass10_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field scene, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_scene, put = __cordl_internal_set_scene)) ::UnityEngine::SceneManagement::Scene scene;
+
+  static inline ::Zenject::Internal::__ZenUtilInternal____c__DisplayClass10_0* New_ctor();
+
+  /// @brief Method <GetRootGameObjects>b__1, addr 0x4ae232c, size 0x110, virtual false, abstract: false, final false
+  inline bool _GetRootGameObjects_b__1(::UnityEngine::GameObject* x);
+
+  constexpr ::UnityEngine::SceneManagement::Scene const& __cordl_internal_get_scene() const;
+
+  constexpr ::UnityEngine::SceneManagement::Scene& __cordl_internal_get_scene();
+
+  constexpr void __cordl_internal_set_scene(::UnityEngine::SceneManagement::Scene value);
+
+  /// @brief Method .ctor, addr 0x4ae1fd8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ZenUtilInternal____c__DisplayClass10_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__ZenUtilInternal____c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __ZenUtilInternal____c__DisplayClass10_0(__ZenUtilInternal____c__DisplayClass10_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__ZenUtilInternal____c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __ZenUtilInternal____c__DisplayClass10_0(__ZenUtilInternal____c__DisplayClass10_0 const&) = delete;
+
+  /// @brief Field scene, offset: 0x10, size: 0x4, def value: None
+  ::UnityEngine::SceneManagement::Scene ___scene;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12695 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::Zenject::Internal::__ZenUtilInternal____c__DisplayClass10_0, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::Zenject::Internal::__ZenUtilInternal____c__DisplayClass10_0, ___scene) == 0x10, "Offset mismatch!");
+
+} // namespace Zenject::Internal
 // Type: ::<GetAllSceneContexts>d__3
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
 // CS Name: ::ZenUtilInternal::<GetAllSceneContexts>d__3*
 class CORDL_TYPE __ZenUtilInternal___GetAllSceneContexts_d__3 : public ::System::Object {
 public:
   // Declarations
-  __declspec(
-      property(get = System_Collections_Generic_IEnumerator_Zenject_SceneContext__get_Current))::UnityW<::Zenject::SceneContext> System_Collections_Generic_IEnumerator_Zenject_SceneContext__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_Zenject_SceneContext__get_Current)) ::UnityW<::Zenject::SceneContext>
+      System_Collections_Generic_IEnumerator_Zenject_SceneContext__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityW<::Zenject::SceneContext> __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::UnityW<::Zenject::SceneContext> __2__current;
 
   /// @brief Field <>7__wrap1, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>* __7__wrap1;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
@@ -188,27 +244,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x36c032c, size 0x484, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4ae2458, size 0x474, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Zenject::Internal::__ZenUtilInternal___GetAllSceneContexts_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Zenject.SceneContext>.GetEnumerator, addr 0x36c08b0, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Zenject.SceneContext>.GetEnumerator, addr 0x4ae29c4, size 0x90, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>* System_Collections_Generic_IEnumerable_Zenject_SceneContext__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Zenject.SceneContext>.get_Current, addr 0x36c0860, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Zenject.SceneContext>.get_Current, addr 0x4ae297c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::Zenject::SceneContext> System_Collections_Generic_IEnumerator_Zenject_SceneContext__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x36c0948, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4ae2a54, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x36c0868, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4ae2984, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x36c08a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4ae29bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x36c0310, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4ae243c, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -235,10 +291,10 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x36c07b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4ae28cc, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x36bf1cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae1210, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>"
@@ -282,6 +338,9 @@ public:
   /// @brief Field <>7__wrap1, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>* _____7__wrap1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12696 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -296,58 +355,8 @@ static_assert(offsetof(::Zenject::Internal::__ZenUtilInternal___GetAllSceneConte
 static_assert(offsetof(::Zenject::Internal::__ZenUtilInternal___GetAllSceneContexts_d__3, _____7__wrap1) == 0x28, "Offset mismatch!");
 
 } // namespace Zenject::Internal
-// Type: ::<>c__DisplayClass10_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
-namespace Zenject::Internal {
-// Is value type: false
-// CS Name: ::ZenUtilInternal::<>c__DisplayClass10_0*
-class CORDL_TYPE __ZenUtilInternal____c__DisplayClass10_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field scene, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_scene, put = __cordl_internal_set_scene))::UnityEngine::SceneManagement::Scene scene;
-
-  static inline ::Zenject::Internal::__ZenUtilInternal____c__DisplayClass10_0* New_ctor();
-
-  /// @brief Method <GetRootGameObjects>b__1, addr 0x36c094c, size 0x110, virtual false, abstract: false, final false
-  inline bool _GetRootGameObjects_b__1(::UnityEngine::GameObject* x);
-
-  constexpr ::UnityEngine::SceneManagement::Scene const& __cordl_internal_get_scene() const;
-
-  constexpr ::UnityEngine::SceneManagement::Scene& __cordl_internal_get_scene();
-
-  constexpr void __cordl_internal_set_scene(::UnityEngine::SceneManagement::Scene value);
-
-  /// @brief Method .ctor, addr 0x36bffa4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ZenUtilInternal____c__DisplayClass10_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ZenUtilInternal____c__DisplayClass10_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __ZenUtilInternal____c__DisplayClass10_0(__ZenUtilInternal____c__DisplayClass10_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__ZenUtilInternal____c__DisplayClass10_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __ZenUtilInternal____c__DisplayClass10_0(__ZenUtilInternal____c__DisplayClass10_0 const&) = delete;
-
-  /// @brief Field scene, offset: 0x10, size: 0x4, def value: None
-  ::UnityEngine::SceneManagement::Scene ___scene;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::Internal::__ZenUtilInternal____c__DisplayClass10_0, 0x18>, "Size mismatch!");
-
-static_assert(offsetof(::Zenject::Internal::__ZenUtilInternal____c__DisplayClass10_0, ___scene) == 0x10, "Offset mismatch!");
-
-} // namespace Zenject::Internal
 // Type: Zenject.Internal::ZenUtilInternal
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
 // CS Name: ::Zenject.Internal::ZenUtilInternal*
@@ -360,39 +369,39 @@ public:
 
   using __c__DisplayClass10_0 = ::Zenject::Internal::__ZenUtilInternal____c__DisplayClass10_0;
 
-  /// @brief Method AddStateMachineBehaviourAutoInjectersInScene, addr 0x36bf200, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method AddStateMachineBehaviourAutoInjectersInScene, addr 0x4ae1244, size 0x31c, virtual false, abstract: false, final false
   static inline void AddStateMachineBehaviourAutoInjectersInScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method AddStateMachineBehaviourAutoInjectersUnderGameObject, addr 0x36bf6e4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method AddStateMachineBehaviourAutoInjectersUnderGameObject, addr 0x4ae1720, size 0x140, virtual false, abstract: false, final false
   static inline void AddStateMachineBehaviourAutoInjectersUnderGameObject(::UnityEngine::GameObject* root);
 
-  /// @brief Method AreFunctionsEqual, addr 0x36bef98, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AreFunctionsEqual, addr 0x4ae0fe4, size 0xa8, virtual false, abstract: false, final false
   static inline bool AreFunctionsEqual(::System::Delegate* left, ::System::Delegate* right);
 
-  /// @brief Method GetAllSceneContexts, addr 0x36bf15c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetAllSceneContexts, addr 0x4ae11a8, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* GetAllSceneContexts();
 
-  /// @brief Method GetInheritanceDelta, addr 0x36bf040, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetInheritanceDelta, addr 0x4ae108c, size 0x11c, virtual false, abstract: false, final false
   static inline int32_t GetInheritanceDelta(::System::Type* derived, ::System::Type* parent);
 
-  /// @brief Method GetInjectableMonoBehavioursInScene, addr 0x36bf824, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehavioursInScene, addr 0x4ae1860, size 0x32c, virtual false, abstract: false, final false
   static inline void GetInjectableMonoBehavioursInScene(::UnityEngine::SceneManagement::Scene scene, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
-  /// @brief Method GetInjectableMonoBehavioursUnderGameObject, addr 0x36bfeb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehavioursUnderGameObject, addr 0x4ae1eec, size 0x4, virtual false, abstract: false, final false
   static inline void GetInjectableMonoBehavioursUnderGameObject(::UnityEngine::GameObject* gameObject,
                                                                 ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableComponents);
 
-  /// @brief Method GetInjectableMonoBehavioursUnderGameObjectInternal, addr 0x36bfb54, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehavioursUnderGameObjectInternal, addr 0x4ae1b8c, size 0x360, virtual false, abstract: false, final false
   static inline void GetInjectableMonoBehavioursUnderGameObjectInternal(::UnityEngine::GameObject* gameObject,
                                                                         ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableComponents);
 
-  /// @brief Method GetRootGameObjects, addr 0x36bf520, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x4ae1560, size 0x1c0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method IsInjectableMonoBehaviourType, addr 0x36bfebc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsInjectableMonoBehaviourType, addr 0x4ae1ef0, size 0xe8, virtual false, abstract: false, final false
   static inline bool IsInjectableMonoBehaviourType(::System::Type* type);
 
-  /// @brief Method IsNull, addr 0x36bef7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x4ae0fc8, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsNull(::System::Object* obj);
 
 protected:
@@ -408,6 +417,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ZenUtilInternal", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ZenUtilInternal(ZenUtilInternal const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12697 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

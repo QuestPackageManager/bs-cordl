@@ -15,21 +15,21 @@ class ReflectionOnlyType;
 // Write type traits
 MARK_REF_PTR_T(::System::ReflectionOnlyType);
 // Type: System::ReflectionOnlyType
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::ReflectionOnlyType*
 class CORDL_TYPE ReflectionOnlyType : public ::System::RuntimeType {
 public:
   // Declarations
-  __declspec(property(get = get_TypeHandle))::System::RuntimeTypeHandle TypeHandle;
+  __declspec(property(get = get_TypeHandle)) ::System::RuntimeTypeHandle TypeHandle;
 
   static inline ::System::ReflectionOnlyType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29a77b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db8008, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeHandle, addr 0x29a780c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_TypeHandle, addr 0x3db8060, size 0x50, virtual true, abstract: false, final false
   inline ::System::RuntimeTypeHandle get_TypeHandle();
 
 protected:
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionOnlyType", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ReflectionOnlyType(ReflectionOnlyType const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2569 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

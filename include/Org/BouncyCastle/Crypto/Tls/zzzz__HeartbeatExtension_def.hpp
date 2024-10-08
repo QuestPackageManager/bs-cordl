@@ -16,7 +16,7 @@ class HeartbeatExtension;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension);
 // Type: Org.BouncyCastle.Crypto.Tls::HeartbeatExtension
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::HeartbeatExtension*
@@ -28,12 +28,12 @@ public:
   /// @brief Field mMode, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_mMode, put = __cordl_internal_set_mMode)) uint8_t mMode;
 
-  /// @brief Method Encode, addr 0x1202b00, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x23d681c, size 0x6c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension* New_ctor(uint8_t mode);
 
-  /// @brief Method Parse, addr 0x1202b6c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x23d6888, size 0xd4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension* Parse(::System::IO::Stream* input);
 
   constexpr uint8_t const& __cordl_internal_get_mMode() const;
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_mMode(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x1202a4c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d676c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(uint8_t mode);
 
-  /// @brief Method get_Mode, addr 0x1202af8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Mode, addr 0x23d6814, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_Mode();
 
 protected:
@@ -64,6 +64,9 @@ public:
 
   /// @brief Field mMode, offset: 0x10, size: 0x1, def value: None
   uint8_t ___mMode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1247 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

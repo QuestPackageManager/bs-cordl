@@ -14,15 +14,21 @@ class AssertExtensions;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AssertExtensions);
 // Type: ::AssertExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AssertExtensions*
 class CORDL_TYPE AssertExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LessThan, addr 0x10953d8, size 0x4, virtual false, abstract: false, final false
-  static inline void LessThan(float_t expected, float_t value, ::StringW message);
+  /// @brief Method GetMessage, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::StringW GetMessage(::StringW pattern, T value, T other, ::StringW message);
+
+  /// @brief Method GreaterOrEqual, addr 0x2272428, size 0x4, virtual false, abstract: false, final false
+  static inline void GreaterOrEqual(float_t value, float_t expectedLessValue, ::StringW message);
+
+  /// @brief Method LessThan, addr 0x2272424, size 0x4, virtual false, abstract: false, final false
+  static inline void LessThan(float_t value, float_t expectedGreaterValue, ::StringW message);
 
 protected:
   // Ctor Parameters []
@@ -37,6 +43,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AssertExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AssertExtensions(AssertExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17162 };
 
   /// @brief Field kUnityAssertions offset 0xffffffff size 0x8
   static constexpr ::ConstString kUnityAssertions{ u"UNITY_ASSERTIONS" };

@@ -29,7 +29,7 @@ class HMacDsaKCalculator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator);
 // Type: Org.BouncyCastle.Crypto.Signers::HMacDsaKCalculator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::HMacDsaKCalculator*
@@ -39,32 +39,32 @@ public:
   __declspec(property(get = get_IsDeterministic)) bool IsDeterministic;
 
   /// @brief Field K, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_K, put = __cordl_internal_set_K))::ArrayW<uint8_t, ::Array<uint8_t>*> K;
+  __declspec(property(get = __cordl_internal_get_K, put = __cordl_internal_set_K)) ::ArrayW<uint8_t, ::Array<uint8_t>*> K;
 
   /// @brief Field V, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_V, put = __cordl_internal_set_V))::ArrayW<uint8_t, ::Array<uint8_t>*> V;
+  __declspec(property(get = __cordl_internal_get_V, put = __cordl_internal_set_V)) ::ArrayW<uint8_t, ::Array<uint8_t>*> V;
 
   /// @brief Field hMac, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_hMac, put = __cordl_internal_set_hMac))::Org::BouncyCastle::Crypto::Macs::HMac* hMac;
+  __declspec(property(get = __cordl_internal_get_hMac, put = __cordl_internal_set_hMac)) ::Org::BouncyCastle::Crypto::Macs::HMac* hMac;
 
   /// @brief Field n, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n))::Org::BouncyCastle::Math::BigInteger* n;
+  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n)) ::Org::BouncyCastle::Math::BigInteger* n;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*() noexcept;
 
-  /// @brief Method BitsToInt, addr 0x11bfd84, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method BitsToInt, addr 0x2395a68, size 0xc8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* BitsToInt(::ArrayW<uint8_t, ::Array<uint8_t>*> t);
 
-  /// @brief Method Init, addr 0x11bf960, size 0x424, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x2395650, size 0x418, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method Init, addr 0x11bf910, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2395604, size 0x4c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method NextK, addr 0x11bfe4c, size 0x27c, virtual true, abstract: false, final false
+  /// @brief Method NextK, addr 0x2395b30, size 0x278, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* NextK();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_K() const;
@@ -91,10 +91,10 @@ public:
 
   constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x11bf820, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2395514, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_IsDeterministic, addr 0x11bf908, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDeterministic, addr 0x23955fc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDeterministic();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
@@ -125,6 +125,9 @@ public:
 
   /// @brief Field n, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___n;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1143 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

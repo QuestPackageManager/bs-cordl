@@ -15,19 +15,19 @@ class UnhandledExceptionEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::System::UnhandledExceptionEventArgs);
 // Type: System::UnhandledExceptionEventArgs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::UnhandledExceptionEventArgs*
 class CORDL_TYPE UnhandledExceptionEventArgs : public ::System::EventArgs {
 public:
   // Declarations
-  __declspec(property(get = get_ExceptionObject))::System::Object* ExceptionObject;
+  __declspec(property(get = get_ExceptionObject)) ::System::Object* ExceptionObject;
 
   __declspec(property(get = get_IsTerminating)) bool IsTerminating;
 
   /// @brief Field _exception, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__exception, put = __cordl_internal_set__exception))::System::Object* _exception;
+  __declspec(property(get = __cordl_internal_get__exception, put = __cordl_internal_set__exception)) ::System::Object* _exception;
 
   /// @brief Field _isTerminating, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__isTerminating, put = __cordl_internal_set__isTerminating)) bool _isTerminating;
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__isTerminating(bool value);
 
-  /// @brief Method .ctor, addr 0x2982e6c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d941b0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* exception, bool isTerminating);
 
-  /// @brief Method get_ExceptionObject, addr 0x2982ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionObject, addr 0x3d94228, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ExceptionObject();
 
-  /// @brief Method get_IsTerminating, addr 0x2982ee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsTerminating, addr 0x3d94230, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsTerminating();
 
 protected:
@@ -74,6 +74,9 @@ public:
 
   /// @brief Field _isTerminating, offset: 0x18, size: 0x1, def value: None
   bool ____isTerminating;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2501 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,14 +12,14 @@ class Constant;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::CompilerServices::Constant);
 // Type: Unity.Burst.CompilerServices::Constant
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst::CompilerServices {
 // Is value type: false
 // CS Name: ::Unity.Burst.CompilerServices::Constant*
 class CORDL_TYPE Constant : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsConstantExpression, addr 0x30d49cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsConstantExpression, addr 0x44c4574, size 0x8, virtual false, abstract: false, final false
   static inline bool IsConstantExpression(::cordl_internals::Ptr<void> t);
 
   /// @brief Method IsConstantExpression, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -38,6 +38,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Constant", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Constant(Constant const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14627 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

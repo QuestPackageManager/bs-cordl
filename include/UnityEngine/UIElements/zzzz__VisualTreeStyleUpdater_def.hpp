@@ -30,16 +30,21 @@ class VisualTreeStyleUpdater;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeStyleUpdater);
 // Type: UnityEngine.UIElements::VisualTreeStyleUpdater
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::VisualTreeStyleUpdater*
 class CORDL_TYPE VisualTreeStyleUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
   // Declarations
+  /// @brief Field <disposed>k__BackingField, offset 0x48, size 0x1
+  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+
+  __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
+
   /// @brief Field m_ApplyStyleUpdateList, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ApplyStyleUpdateList,
-                      put = __cordl_internal_set_m_ApplyStyleUpdateList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ApplyStyleUpdateList;
+                      put = __cordl_internal_set_m_ApplyStyleUpdateList)) ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ApplyStyleUpdateList;
 
   /// @brief Field m_IsApplyingStyles, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsApplyingStyles, put = __cordl_internal_set_m_IsApplyingStyles)) bool m_IsApplyingStyles;
@@ -49,33 +54,40 @@ public:
 
   /// @brief Field m_StyleContextHierarchyTraversal, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_StyleContextHierarchyTraversal,
-                      put = __cordl_internal_set_m_StyleContextHierarchyTraversal))::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* m_StyleContextHierarchyTraversal;
+                      put = __cordl_internal_set_m_StyleContextHierarchyTraversal)) ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* m_StyleContextHierarchyTraversal;
 
   /// @brief Field m_TransitionPropertyUpdateList, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TransitionPropertyUpdateList,
-                      put = __cordl_internal_set_m_TransitionPropertyUpdateList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_TransitionPropertyUpdateList;
+                      put = __cordl_internal_set_m_TransitionPropertyUpdateList)) ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_TransitionPropertyUpdateList;
 
   /// @brief Field m_Version, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version)) uint32_t m_Version;
 
-  __declspec(property(get = get_profilerMarker))::Unity::Profiling::ProfilerMarker profilerMarker;
+  __declspec(property(get = get_profilerMarker)) ::Unity::Profiling::ProfilerMarker profilerMarker;
 
   /// @brief Field s_Description, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Description, put = setStaticF_s_Description))::StringW s_Description;
+  static __declspec(property(get = getStaticF_s_Description, put = setStaticF_s_Description)) ::StringW s_Description;
 
   /// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker))::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
+  static __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
 
-  /// @brief Method ApplyStyles, addr 0x3556604, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ApplyStyles, addr 0x4927514, size 0xec, virtual false, abstract: false, final false
   inline void ApplyStyles();
+
+  /// @brief Method Dispose, addr 0x4927980, size 0x34, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::VisualTreeStyleUpdater* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x35561b0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x4927098, size 0xd0, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x35562f8, size 0x30c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x49271e8, size 0x32c, virtual true, abstract: false, final false
   inline void Update();
+
+  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ApplyStyleUpdateList();
 
@@ -102,6 +114,8 @@ public:
 
   constexpr uint32_t& __cordl_internal_get_m_Version();
 
+  constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
+
   constexpr void __cordl_internal_set_m_ApplyStyleUpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
   constexpr void __cordl_internal_set_m_IsApplyingStyles(bool value);
@@ -114,19 +128,25 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x3556a68, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49279e0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_Description();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_profilerMarker, addr 0x3556158, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x492796c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_disposed();
+
+  /// @brief Method get_profilerMarker, addr 0x4927040, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
   static inline void setStaticF_s_Description(::StringW value);
 
   static inline void setStaticF_s_ProfilerMarker(::Unity::Profiling::ProfilerMarker value);
+
+  /// @brief Method set_disposed, addr 0x4927974, size 0xc, virtual false, abstract: false, final false
+  inline void set_disposed(bool value);
 
 protected:
   // Ctor Parameters []
@@ -160,10 +180,16 @@ public:
   /// @brief Field m_StyleContextHierarchyTraversal, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* ___m_StyleContextHierarchyTraversal;
 
+  /// @brief Field <disposed>k__BackingField, offset: 0x48, size: 0x1, def value: None
+  bool ____disposed_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6306 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualTreeStyleUpdater, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualTreeStyleUpdater, 0x50>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdater, ___m_ApplyStyleUpdateList) == 0x20, "Offset mismatch!");
 
@@ -176,6 +202,8 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdater, ___m_V
 static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdater, ___m_LastVersion) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdater, ___m_StyleContextHierarchyTraversal) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VisualTreeStyleUpdater, ____disposed_k__BackingField) == 0x48, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualTreeStyleUpdater);

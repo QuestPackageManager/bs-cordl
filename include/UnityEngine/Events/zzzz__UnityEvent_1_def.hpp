@@ -29,7 +29,7 @@ template <typename T0> class UnityEvent_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::Events::UnityEvent_1);
 // Type: UnityEngine.Events::UnityEvent`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // cpp template
 template <typename T0>
@@ -39,7 +39,7 @@ class CORDL_TYPE UnityEvent_1 : public ::UnityEngine::Events::UnityEventBase {
 public:
   // Declarations
   /// @brief Field m_InvokeArray, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_InvokeArray, put = __cordl_internal_set_m_InvokeArray))::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_InvokeArray;
+  __declspec(property(get = __cordl_internal_get_m_InvokeArray, put = __cordl_internal_set_m_InvokeArray)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_InvokeArray;
 
   /// @brief Method AddListener, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddListener(::UnityEngine::Events::UnityAction_1<T0>* call);
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field m_InvokeArray, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___m_InvokeArray;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10950 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

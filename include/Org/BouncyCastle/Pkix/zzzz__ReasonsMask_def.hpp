@@ -16,7 +16,7 @@ class ReasonsMask;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::ReasonsMask);
 // Type: Org.BouncyCastle.Pkix::ReasonsMask
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkix::ReasonsMask*
@@ -24,22 +24,22 @@ class CORDL_TYPE ReasonsMask : public ::System::Object {
 public:
   // Declarations
   /// @brief Field AllReasons, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_AllReasons, put = setStaticF_AllReasons))::Org::BouncyCastle::Pkix::ReasonsMask* AllReasons;
+  static __declspec(property(get = getStaticF_AllReasons, put = setStaticF_AllReasons)) ::Org::BouncyCastle::Pkix::ReasonsMask* AllReasons;
 
   __declspec(property(get = get_IsAllReasons)) bool IsAllReasons;
 
-  __declspec(property(get = get_Reasons))::Org::BouncyCastle::Asn1::X509::ReasonFlags* Reasons;
+  __declspec(property(get = get_Reasons)) ::Org::BouncyCastle::Asn1::X509::ReasonFlags* Reasons;
 
   /// @brief Field _reasons, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__reasons, put = __cordl_internal_set__reasons)) int32_t _reasons;
 
-  /// @brief Method AddReasons, addr 0x1385708, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AddReasons, addr 0x255097c, size 0x48, virtual false, abstract: false, final false
   inline void AddReasons(::Org::BouncyCastle::Pkix::ReasonsMask* mask);
 
-  /// @brief Method HasNewReasons, addr 0x13858f4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HasNewReasons, addr 0x2550b58, size 0x54, virtual false, abstract: false, final false
   inline bool HasNewReasons(::Org::BouncyCastle::Pkix::ReasonsMask* mask);
 
-  /// @brief Method Intersect, addr 0x138582c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Intersect, addr 0x2550a98, size 0xc0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::ReasonsMask* Intersect(::Org::BouncyCastle::Pkix::ReasonsMask* mask);
 
   static inline ::Org::BouncyCastle::Pkix::ReasonsMask* New_ctor();
@@ -52,18 +52,18 @@ public:
 
   constexpr void __cordl_internal_set__reasons(int32_t value);
 
-  /// @brief Method .ctor, addr 0x13856ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2550960, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x13856c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2550938, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t reasons);
 
   static inline ::Org::BouncyCastle::Pkix::ReasonsMask* getStaticF_AllReasons();
 
-  /// @brief Method get_IsAllReasons, addr 0x13857b8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_IsAllReasons, addr 0x2550a24, size 0x74, virtual false, abstract: false, final false
   inline bool get_IsAllReasons();
 
-  /// @brief Method get_Reasons, addr 0x1385750, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Reasons, addr 0x25509c4, size 0x60, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* get_Reasons();
 
   static inline void setStaticF_AllReasons(::Org::BouncyCastle::Pkix::ReasonsMask* value);
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field _reasons, offset: 0x10, size: 0x4, def value: None
   int32_t ____reasons;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1729 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

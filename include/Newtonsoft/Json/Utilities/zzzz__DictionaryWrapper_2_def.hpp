@@ -78,7 +78,7 @@ MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::DictionaryWrapper_2);
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c);
 MARK_GEN_VAL_T(::Newtonsoft::Json::Utilities::__DictionaryWrapper_2__DictionaryEnumerator_2);
 // Type: ::DictionaryEnumerator`2
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue>
@@ -87,13 +87,13 @@ template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnu
 struct CORDL_TYPE __DictionaryWrapper_2__DictionaryEnumerator_2 {
 public:
   // Declarations
-  __declspec(property(get = get_Current))::System::Object* Current;
+  __declspec(property(get = get_Current)) ::System::Object* Current;
 
-  __declspec(property(get = get_Entry))::System::Collections::DictionaryEntry Entry;
+  __declspec(property(get = get_Entry)) ::System::Collections::DictionaryEntry Entry;
 
-  __declspec(property(get = get_Key))::System::Object* Key;
+  __declspec(property(get = get_Key)) ::System::Object* Key;
 
-  __declspec(property(get = get_Value))::System::Object* Value;
+  __declspec(property(get = get_Value)) ::System::Object* Value;
 
   /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
   constexpr operator ::System::Collections::IDictionaryEnumerator*();
@@ -139,6 +139,9 @@ public:
   /// @brief Field _e, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* _e;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10170 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -147,7 +150,7 @@ public:
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
@@ -157,11 +160,11 @@ class CORDL_TYPE __DictionaryWrapper_2____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>* __9;
 
   /// @brief Field <>9__29_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__29_0,
-                             put = setStaticF___9__29_0))::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* __9__29_0;
+                             put = setStaticF___9__29_0)) ::System::Func_2<::System::Collections::DictionaryEntry, ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* __9__29_0;
 
   static inline ::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>* New_ctor();
 
@@ -193,12 +196,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DictionaryWrapper_2____c(__DictionaryWrapper_2____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10171 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: Newtonsoft.Json.Utilities::DictionaryWrapper`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
@@ -214,42 +220,42 @@ public:
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_GenericDictionary))::System::Collections::Generic::IDictionary_2<TKey, TValue>* GenericDictionary;
+  __declspec(property(get = get_GenericDictionary)) ::System::Collections::Generic::IDictionary_2<TKey, TValue>* GenericDictionary;
 
   __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
   __declspec(property(get = get_Item, put = set_Item)) TValue Item[];
 
-  __declspec(property(get = get_Keys))::System::Collections::Generic::ICollection_1<TKey>* Keys;
+  __declspec(property(get = get_Keys)) ::System::Collections::Generic::ICollection_1<TKey>* Keys;
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   __declspec(property(get = System_Collections_IDictionary_get_IsFixedSize)) bool System_Collections_IDictionary_IsFixedSize;
 
-  __declspec(property(get = System_Collections_IDictionary_get_Item, put = System_Collections_IDictionary_set_Item))::System::Object* System_Collections_IDictionary_Item[];
+  __declspec(property(get = System_Collections_IDictionary_get_Item, put = System_Collections_IDictionary_set_Item)) ::System::Object* System_Collections_IDictionary_Item[];
 
-  __declspec(property(get = System_Collections_IDictionary_get_Keys))::System::Collections::ICollection* System_Collections_IDictionary_Keys;
+  __declspec(property(get = System_Collections_IDictionary_get_Keys)) ::System::Collections::ICollection* System_Collections_IDictionary_Keys;
 
-  __declspec(property(get = System_Collections_IDictionary_get_Values))::System::Collections::ICollection* System_Collections_IDictionary_Values;
+  __declspec(property(get = System_Collections_IDictionary_get_Values)) ::System::Collections::ICollection* System_Collections_IDictionary_Values;
 
-  __declspec(property(get = get_UnderlyingDictionary))::System::Object* UnderlyingDictionary;
+  __declspec(property(get = get_UnderlyingDictionary)) ::System::Object* UnderlyingDictionary;
 
-  __declspec(property(get = get_Values))::System::Collections::Generic::ICollection_1<TValue>* Values;
+  __declspec(property(get = get_Values)) ::System::Collections::Generic::ICollection_1<TValue>* Values;
 
   /// @brief Field _dictionary, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__dictionary, put = __cordl_internal_set__dictionary))::System::Collections::IDictionary* _dictionary;
+  __declspec(property(get = __cordl_internal_get__dictionary, put = __cordl_internal_set__dictionary)) ::System::Collections::IDictionary* _dictionary;
 
   /// @brief Field _genericDictionary, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__genericDictionary, put = __cordl_internal_set__genericDictionary))::System::Collections::Generic::IDictionary_2<TKey, TValue>* _genericDictionary;
+  __declspec(property(get = __cordl_internal_get__genericDictionary, put = __cordl_internal_set__genericDictionary)) ::System::Collections::Generic::IDictionary_2<TKey, TValue>* _genericDictionary;
 
   /// @brief Field _readOnlyDictionary, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__readOnlyDictionary,
-                      put = __cordl_internal_set__readOnlyDictionary))::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* _readOnlyDictionary;
+                      put = __cordl_internal_set__readOnlyDictionary)) ::System::Collections::Generic::IReadOnlyDictionary_2<TKey, TValue>* _readOnlyDictionary;
 
   /// @brief Field _syncRoot, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot)) ::System::Object* _syncRoot;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Utilities::IWrappedDictionary"
   constexpr operator ::Newtonsoft::Json::Utilities::IWrappedDictionary*() noexcept;
@@ -452,6 +458,9 @@ public:
 
   /// @brief Field _syncRoot, offset: 0x28, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10172 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

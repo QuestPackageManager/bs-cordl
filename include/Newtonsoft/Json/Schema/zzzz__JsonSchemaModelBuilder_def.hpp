@@ -32,7 +32,7 @@ class JsonSchemaModelBuilder;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Schema::JsonSchemaModelBuilder);
 // Type: Newtonsoft.Json.Schema::JsonSchemaModelBuilder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Schema::JsonSchemaModelBuilder*
@@ -40,40 +40,40 @@ class CORDL_TYPE JsonSchemaModelBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _node, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__node, put = __cordl_internal_set__node))::Newtonsoft::Json::Schema::JsonSchemaNode* _node;
+  __declspec(property(get = __cordl_internal_get__node, put = __cordl_internal_set__node)) ::Newtonsoft::Json::Schema::JsonSchemaNode* _node;
 
   /// @brief Field _nodeModels, offset 0x18, size 0x8
   __declspec(property(
       get = __cordl_internal_get__nodeModels,
-      put = __cordl_internal_set__nodeModels))::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Schema::JsonSchemaNode*, ::Newtonsoft::Json::Schema::JsonSchemaModel*>* _nodeModels;
+      put = __cordl_internal_set__nodeModels)) ::System::Collections::Generic::Dictionary_2<::Newtonsoft::Json::Schema::JsonSchemaNode*, ::Newtonsoft::Json::Schema::JsonSchemaModel*>* _nodeModels;
 
   /// @brief Field _nodes, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__nodes, put = __cordl_internal_set__nodes))::Newtonsoft::Json::Schema::JsonSchemaNodeCollection* _nodes;
+  __declspec(property(get = __cordl_internal_get__nodes, put = __cordl_internal_set__nodes)) ::Newtonsoft::Json::Schema::JsonSchemaNodeCollection* _nodes;
 
-  /// @brief Method AddAdditionalItems, addr 0x2a86548, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddAdditionalItems, addr 0x3e9564c, size 0x24, virtual false, abstract: false, final false
   inline void AddAdditionalItems(::Newtonsoft::Json::Schema::JsonSchemaNode* parentNode, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method AddAdditionalProperties, addr 0x2a8656c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddAdditionalProperties, addr 0x3e95670, size 0x24, virtual false, abstract: false, final false
   inline void AddAdditionalProperties(::Newtonsoft::Json::Schema::JsonSchemaNode* parentNode, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method AddItem, addr 0x2a863ec, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method AddItem, addr 0x3e954f4, size 0x158, virtual false, abstract: false, final false
   inline void AddItem(::Newtonsoft::Json::Schema::JsonSchemaNode* parentNode, int32_t index, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method AddProperties, addr 0x2a860f0, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method AddProperties, addr 0x3e951fc, size 0x2f8, virtual false, abstract: false, final false
   inline void AddProperties(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* source,
                             ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>* target);
 
-  /// @brief Method AddProperty, addr 0x2a86590, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method AddProperty, addr 0x3e95694, size 0x144, virtual false, abstract: false, final false
   inline void AddProperty(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaNode*>* target, ::StringW propertyName,
                           ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method AddSchema, addr 0x2a84f6c, size 0x638, virtual false, abstract: false, final false
+  /// @brief Method AddSchema, addr 0x3e940bc, size 0x648, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaNode* AddSchema(::Newtonsoft::Json::Schema::JsonSchemaNode* existingNode, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method Build, addr 0x2a84e5c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x3e93fb0, size 0xc4, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaModel* Build(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method BuildNodeModel, addr 0x2a855a4, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method BuildNodeModel, addr 0x3e94704, size 0x6bc, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaModel* BuildNodeModel(::Newtonsoft::Json::Schema::JsonSchemaNode* node);
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaModelBuilder* New_ctor();
@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set__nodes(::Newtonsoft::Json::Schema::JsonSchemaNodeCollection* value);
 
-  /// @brief Method .ctor, addr 0x2a866d4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e957d8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,6 +122,9 @@ public:
 
   /// @brief Field _node, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::Schema::JsonSchemaNode* ____node;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10331 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

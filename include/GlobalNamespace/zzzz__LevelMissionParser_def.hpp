@@ -39,25 +39,25 @@ class __LevelMissionParser__ParserFunction;
 MARK_REF_PTR_T(::GlobalNamespace::LevelMissionParser);
 MARK_REF_PTR_T(::GlobalNamespace::__LevelMissionParser__ParserFunction);
 // Type: ::ParserFunction
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LevelMissionParser::ParserFunction*
 class CORDL_TYPE __LevelMissionParser__ParserFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x14bae84, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2673b18, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<float_t, ::Array<float_t>*> functionParams, int32_t paramCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x14baf18, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2673bac, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x14bae70, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2673b04, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::ArrayW<float_t, ::Array<float_t>*> functionParams, int32_t paramCount);
 
   static inline ::GlobalNamespace::__LevelMissionParser__ParserFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x14bad98, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2673a64, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -74,6 +74,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __LevelMissionParser__ParserFunction(__LevelMissionParser__ParserFunction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12822 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -81,7 +84,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelMissionP
 
 } // namespace GlobalNamespace
 // Type: ::LevelMissionParser
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LevelMissionParser*
@@ -92,20 +95,20 @@ public:
 
   /// @brief Field _functions, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__functions,
-                      put = __cordl_internal_set__functions))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__LevelMissionParser__ParserFunction*>* _functions;
+                      put = __cordl_internal_set__functions)) ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__LevelMissionParser__ParserFunction*>* _functions;
 
-  /// @brief Method AddFunction, addr 0x14ba758, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddFunction, addr 0x2673470, size 0x68, virtual false, abstract: false, final false
   inline void AddFunction(::StringW name, ::GlobalNamespace::__LevelMissionParser__ParserFunction* function);
 
   static inline ::GlobalNamespace::LevelMissionParser* New_ctor();
 
-  /// @brief Method Parse, addr 0x14ba7c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x26734d8, size 0x1c, virtual false, abstract: false, final false
   inline bool Parse(::StringW s);
 
-  /// @brief Method Parse, addr 0x14ba7dc, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x26734f4, size 0x27c, virtual false, abstract: false, final false
   inline bool Parse(::StringW s, int32_t start, int32_t length);
 
-  /// @brief Method ParseFunction, addr 0x14baaa4, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method ParseFunction, addr 0x2673770, size 0x2f4, virtual false, abstract: false, final false
   inline bool ParseFunction(::StringW s, int32_t start, int32_t length);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__LevelMissionParser__ParserFunction*>*& __cordl_internal_get__functions();
@@ -115,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set__functions(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__LevelMissionParser__ParserFunction*>* value);
 
-  /// @brief Method .ctor, addr 0x14ba6d4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26733ec, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -134,6 +137,9 @@ public:
 
   /// @brief Field _functions, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__LevelMissionParser__ParserFunction*>* ____functions;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12823 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

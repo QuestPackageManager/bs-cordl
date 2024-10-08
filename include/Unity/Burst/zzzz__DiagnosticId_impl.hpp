@@ -92,6 +92,7 @@ constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_CalliNonC
 constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_StringLiteralTooBig{ static_cast<int32_t>(0x44c) };
 constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_LdftnNonCCallingConventionNotSupported{ static_cast<int32_t>(0x44d) };
 constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_UnableToCallMethodOnInterfaceObject{ static_cast<int32_t>(0x44e) };
+constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_UnsupportedCpuDependentBranch{ static_cast<int32_t>(0x4af) };
 constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_InstructionTargetCpuFeatureNotAllowedInThisBlock{ static_cast<int32_t>(0x4b0) };
 constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_AssumeRangeTypeMustBeInteger{ static_cast<int32_t>(0x4b1) };
 constexpr ::Unity::Burst::DiagnosticId Unity::Burst::DiagnosticId::ERR_AssumeRangeTypeMustBeSameSign{ static_cast<int32_t>(0x4b2) };

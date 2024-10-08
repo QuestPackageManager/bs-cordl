@@ -49,7 +49,7 @@ class PermissionSet;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::PermissionSet);
 // Type: System.Security::PermissionSet
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
 // CS Name: ::System.Security::PermissionSet*
@@ -60,25 +60,25 @@ public:
 
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
-  __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
+  __declspec(property(get = get_SyncRoot)) ::System::Object* SyncRoot;
 
   /// @brief Field _declsec, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__declsec, put = __cordl_internal_set__declsec)) bool _declsec;
 
   /// @brief Field _ignored, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__ignored, put = __cordl_internal_set__ignored))::ArrayW<bool, ::Array<bool>*> _ignored;
+  __declspec(property(get = __cordl_internal_get__ignored, put = __cordl_internal_set__ignored)) ::ArrayW<bool, ::Array<bool>*> _ignored;
 
   /// @brief Field action, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_action, put = setStaticF_action))::ArrayW<::System::Object*, ::Array<::System::Object*>*> action;
+  static __declspec(property(get = getStaticF_action, put = setStaticF_action)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> action;
 
   /// @brief Field list, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::ArrayList* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list)) ::System::Collections::ArrayList* list;
 
   /// @brief Field psUnrestricted, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_psUnrestricted, put = setStaticF_psUnrestricted))::ArrayW<::System::Object*, ::Array<::System::Object*>*> psUnrestricted;
+  static __declspec(property(get = getStaticF_psUnrestricted, put = setStaticF_psUnrestricted)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> psUnrestricted;
 
   /// @brief Field state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Security::Permissions::PermissionState state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state)) ::System::Security::Permissions::PermissionState state;
 
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
@@ -92,28 +92,28 @@ public:
   /// @brief Convert operator to "::System::Security::ISecurityEncodable"
   constexpr operator ::System::Security::ISecurityEncodable*() noexcept;
 
-  /// @brief Method CasOnlyDemand, addr 0x27fe71c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CasOnlyDemand, addr 0x3c1e3f0, size 0x78, virtual false, abstract: false, final false
   inline void CasOnlyDemand(int32_t skip);
 
-  /// @brief Method CopyTo, addr 0x27ff378, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3c1f034, size 0x168, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method Demand, addr 0x27ff4f0, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method Demand, addr 0x3c1f19c, size 0x228, virtual true, abstract: false, final true
   inline void Demand();
 
-  /// @brief Method Equals, addr 0x27ff160, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3c1ee1c, size 0x19c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEnumerator, addr 0x27ffac8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x3c1f770, size 0x24, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x27ff334, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3c1eff0, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsEmpty, addr 0x27ff718, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x3c1f3c4, size 0x39c, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method IsUnrestricted, addr 0x27ffab8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsUnrestricted, addr 0x3c1f760, size 0x10, virtual false, abstract: false, final false
   inline bool IsUnrestricted();
 
   static inline ::System::Security::PermissionSet* New_ctor();
@@ -122,13 +122,13 @@ public:
 
   static inline ::System::Security::PermissionSet* New_ctor(::System::Security::Permissions::PermissionState state);
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x27ffb64, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x3c1f80c, size 0x4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method ToString, addr 0x27ffaec, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c1f794, size 0x2c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToXml, addr 0x27fec74, size 0x45c, virtual true, abstract: false, final false
+  /// @brief Method ToXml, addr 0x3c1e934, size 0x458, virtual true, abstract: false, final false
   inline ::System::Security::SecurityElement* ToXml();
 
   constexpr bool const& __cordl_internal_get__declsec() const;
@@ -155,26 +155,26 @@ public:
 
   constexpr void __cordl_internal_set_state(::System::Security::Permissions::PermissionState value);
 
-  /// @brief Method .ctor, addr 0x27fe9f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1e6c0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x27fe6d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1e3a4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::IPermission* perm);
 
-  /// @brief Method .ctor, addr 0x27feadc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1e7a4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Permissions::PermissionState state);
 
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> getStaticF_action();
 
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> getStaticF_psUnrestricted();
 
-  /// @brief Method get_Count, addr 0x27ffb18, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3c1f7c0, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x27ffb3c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x3c1f7e4, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x27ffb60, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x3c1f808, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -218,6 +218,9 @@ public:
 
   /// @brief Field _ignored, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<bool, ::Array<bool>*> ____ignored;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2887 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

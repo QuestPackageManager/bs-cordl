@@ -19,7 +19,7 @@ template <typename TX, typename TY, typename TZ> class LightTransformGroup_3;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::LightTransformGroup_3);
 // Type: ::LightTransformGroup`3
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TX, typename TY, typename TZ>
@@ -28,23 +28,23 @@ template <typename TX, typename TY, typename TZ>
 class CORDL_TYPE LightTransformGroup_3 : public ::GlobalNamespace::LightGroupSubsystem {
 public:
   // Declarations
-  /// @brief Field _mirrorX, offset 0x20, size 0x1
+  /// @brief Field _mirrorX, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__mirrorX, put = __cordl_internal_set__mirrorX)) bool _mirrorX;
 
-  /// @brief Field _mirrorY, offset 0x21, size 0x1
+  /// @brief Field _mirrorY, offset 0x29, size 0x1
   __declspec(property(get = __cordl_internal_get__mirrorY, put = __cordl_internal_set__mirrorY)) bool _mirrorY;
 
-  /// @brief Field _mirrorZ, offset 0x22, size 0x1
+  /// @brief Field _mirrorZ, offset 0x2a, size 0x1
   __declspec(property(get = __cordl_internal_get__mirrorZ, put = __cordl_internal_set__mirrorZ)) bool _mirrorZ;
 
-  /// @brief Field _xTransforms, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__xTransforms, put = __cordl_internal_set__xTransforms))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _xTransforms;
+  /// @brief Field _xTransforms, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__xTransforms, put = __cordl_internal_set__xTransforms)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _xTransforms;
 
-  /// @brief Field _yTransforms, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__yTransforms, put = __cordl_internal_set__yTransforms))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _yTransforms;
+  /// @brief Field _yTransforms, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__yTransforms, put = __cordl_internal_set__yTransforms)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _yTransforms;
 
-  /// @brief Field _zTransforms, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__zTransforms, put = __cordl_internal_set__zTransforms))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _zTransforms;
+  /// @brief Field _zTransforms, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__zTransforms, put = __cordl_internal_set__zTransforms)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _zTransforms;
 
   __declspec(property(get = get_count)) int32_t count;
 
@@ -54,11 +54,11 @@ public:
 
   __declspec(property(get = get_mirrorZ)) bool mirrorZ;
 
-  __declspec(property(get = get_xTransforms))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* xTransforms;
+  __declspec(property(get = get_xTransforms)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* xTransforms;
 
-  __declspec(property(get = get_yTransforms))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* yTransforms;
+  __declspec(property(get = get_yTransforms)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* yTransforms;
 
-  __declspec(property(get = get_zTransforms))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* zTransforms;
+  __declspec(property(get = get_zTransforms)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* zTransforms;
 
   static inline ::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>* New_ctor();
 
@@ -136,23 +136,26 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightTransformGroup_3(LightTransformGroup_3 const&) = delete;
 
-  /// @brief Field _mirrorX, offset: 0x20, size: 0x1, def value: None
+  /// @brief Field _mirrorX, offset: 0x28, size: 0x1, def value: None
   bool ____mirrorX;
 
-  /// @brief Field _mirrorY, offset: 0x21, size: 0x1, def value: None
+  /// @brief Field _mirrorY, offset: 0x29, size: 0x1, def value: None
   bool ____mirrorY;
 
-  /// @brief Field _mirrorZ, offset: 0x22, size: 0x1, def value: None
+  /// @brief Field _mirrorZ, offset: 0x2a, size: 0x1, def value: None
   bool ____mirrorZ;
 
-  /// @brief Field _xTransforms, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _xTransforms, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* ____xTransforms;
 
-  /// @brief Field _yTransforms, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _yTransforms, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* ____yTransforms;
 
-  /// @brief Field _zTransforms, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _zTransforms, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* ____zTransforms;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4294 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

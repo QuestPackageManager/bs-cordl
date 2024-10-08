@@ -15,7 +15,7 @@ class DTSweepEdgeEvent;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent);
 // Type: UnityEngine.ProBuilder.Poly2Tri::DTSweepEdgeEvent
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DTSweepEdgeEvent*
@@ -23,7 +23,7 @@ class CORDL_TYPE DTSweepEdgeEvent : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ConstrainedEdge, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ConstrainedEdge, put = __cordl_internal_set_ConstrainedEdge))::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* ConstrainedEdge;
+  __declspec(property(get = __cordl_internal_get_ConstrainedEdge, put = __cordl_internal_set_ConstrainedEdge)) ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* ConstrainedEdge;
 
   /// @brief Field Right, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_Right, put = __cordl_internal_set_Right)) bool Right;
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_Right(bool value);
 
-  /// @brief Method .ctor, addr 0x32a5a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4686134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,6 +64,9 @@ public:
 
   /// @brief Field Right, offset: 0x18, size: 0x1, def value: None
   bool ___Right;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17733 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

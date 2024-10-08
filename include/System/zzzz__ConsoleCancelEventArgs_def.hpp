@@ -16,7 +16,7 @@ class ConsoleCancelEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::System::ConsoleCancelEventArgs);
 // Type: System::ConsoleCancelEventArgs
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::ConsoleCancelEventArgs*
@@ -29,7 +29,7 @@ public:
   __declspec(property(get = __cordl_internal_get__Cancel_k__BackingField, put = __cordl_internal_set__Cancel_k__BackingField)) bool _Cancel_k__BackingField;
 
   /// @brief Field _type, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::System::ConsoleSpecialKey _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::ConsoleSpecialKey _type;
 
   static inline ::System::ConsoleCancelEventArgs* New_ctor();
 
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::ConsoleSpecialKey value);
 
-  /// @brief Method .ctor, addr 0x2984c88, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d95ea4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2984c14, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d95e30, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::ConsoleSpecialKey type);
 
-  /// @brief Method get_Cancel, addr 0x2984c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cancel, addr 0x3d95e9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Cancel();
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field <Cancel>k__BackingField, offset: 0x14, size: 0x1, def value: None
   bool ____Cancel_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2516 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

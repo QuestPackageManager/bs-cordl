@@ -28,7 +28,7 @@ template <typename T> class PoolWrapperFactory_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PoolWrapperFactory_1);
 // Type: Zenject::PoolWrapperFactory`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename T>
@@ -38,7 +38,7 @@ class CORDL_TYPE PoolWrapperFactory_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _pool, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__pool, put = __cordl_internal_set__pool))::Zenject::IMemoryPool_1<T>* _pool;
+  __declspec(property(get = __cordl_internal_get__pool, put = __cordl_internal_set__pool)) ::Zenject::IMemoryPool_1<T>* _pool;
 
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field _pool, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IMemoryPool_1<T>* ____pool;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12373 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

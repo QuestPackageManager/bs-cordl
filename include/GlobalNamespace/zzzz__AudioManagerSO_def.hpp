@@ -16,7 +16,7 @@ class AudioManagerSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AudioManagerSO);
 // Type: ::AudioManagerSO
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AudioManagerSO*
@@ -24,7 +24,7 @@ class CORDL_TYPE AudioManagerSO : public ::GlobalNamespace::PersistentScriptable
 public:
   // Declarations
   /// @brief Field _audioMixer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioMixer, put = __cordl_internal_set__audioMixer))::UnityW<::UnityEngine::Audio::AudioMixer> _audioMixer;
+  __declspec(property(get = __cordl_internal_get__audioMixer, put = __cordl_internal_set__audioMixer)) ::UnityW<::UnityEngine::Audio::AudioMixer> _audioMixer;
 
   /// @brief Field _musicVolumeOffset, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__musicVolumeOffset, put = __cordl_internal_set__musicVolumeOffset)) float_t _musicVolumeOffset;
@@ -58,7 +58,7 @@ public:
 
   __declspec(property(get = get_sfxVolume, put = set_sfxVolume)) float_t sfxVolume;
 
-  /// @brief Method Init, addr 0x262c5b0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a636a0, size 0xa4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::AudioManagerSO* New_ctor();
@@ -105,34 +105,34 @@ public:
 
   constexpr void __cordl_internal_set__spatializerSfxVolumeOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x2631a18, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a639b4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sfxEnabled, addr 0x263188c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sfxEnabled, addr 0x3a63828, size 0x8, virtual false, abstract: false, final false
   inline bool get_sfxEnabled();
 
-  /// @brief Method get_sfxLatency, addr 0x2631748, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_sfxLatency, addr 0x3a63640, size 0x60, virtual false, abstract: false, final false
   inline float_t get_sfxLatency();
 
-  /// @brief Method get_sfxVolume, addr 0x2631874, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_sfxVolume, addr 0x3a63810, size 0x18, virtual false, abstract: false, final false
   inline float_t get_sfxVolume();
 
-  /// @brief Method set_mainVolume, addr 0x26317a8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_mainVolume, addr 0x3a63744, size 0x64, virtual false, abstract: false, final false
   inline void set_mainVolume(float_t value);
 
-  /// @brief Method set_musicPitch, addr 0x26318b4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_musicPitch, addr 0x3a63850, size 0x100, virtual false, abstract: false, final false
   inline void set_musicPitch(float_t value);
 
-  /// @brief Method set_musicSpeed, addr 0x26319b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_musicSpeed, addr 0x3a63950, size 0x64, virtual false, abstract: false, final false
   inline void set_musicSpeed(float_t value);
 
-  /// @brief Method set_musicVolume, addr 0x263180c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_musicVolume, addr 0x3a637a8, size 0x68, virtual false, abstract: false, final false
   inline void set_musicVolume(float_t value);
 
-  /// @brief Method set_sfxEnabled, addr 0x2631894, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_sfxEnabled, addr 0x3a63830, size 0x20, virtual false, abstract: false, final false
   inline void set_sfxEnabled(bool value);
 
-  /// @brief Method set_sfxVolume, addr 0x2630d38, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_sfxVolume, addr 0x3a62bb0, size 0x84, virtual false, abstract: false, final false
   inline void set_sfxVolume(float_t value);
 
 protected:
@@ -169,6 +169,9 @@ public:
 
   /// @brief Field _sfxEnabled, offset: 0x34, size: 0x1, def value: None
   bool ____sfxEnabled;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3987 };
 
   /// @brief Field kDefaultMusicVolume offset 0xffffffff size 0x4
   static constexpr float_t kDefaultMusicVolume{ -4.0 };

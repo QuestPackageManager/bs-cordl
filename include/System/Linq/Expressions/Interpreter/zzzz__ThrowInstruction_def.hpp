@@ -23,7 +23,7 @@ class ThrowInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::ThrowInstruction);
 // Type: System.Linq.Expressions.Interpreter::ThrowInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::ThrowInstruction*
@@ -32,21 +32,21 @@ public:
   // Declarations
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
   __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
   /// @brief Field Rethrow, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Rethrow, put = setStaticF_Rethrow))::System::Linq::Expressions::Interpreter::ThrowInstruction* Rethrow;
+  static __declspec(property(get = getStaticF_Rethrow, put = setStaticF_Rethrow)) ::System::Linq::Expressions::Interpreter::ThrowInstruction* Rethrow;
 
   /// @brief Field Throw, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Throw, put = setStaticF_Throw))::System::Linq::Expressions::Interpreter::ThrowInstruction* Throw;
+  static __declspec(property(get = getStaticF_Throw, put = setStaticF_Throw)) ::System::Linq::Expressions::Interpreter::ThrowInstruction* Throw;
 
   /// @brief Field VoidRethrow, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_VoidRethrow, put = setStaticF_VoidRethrow))::System::Linq::Expressions::Interpreter::ThrowInstruction* VoidRethrow;
+  static __declspec(property(get = getStaticF_VoidRethrow, put = setStaticF_VoidRethrow)) ::System::Linq::Expressions::Interpreter::ThrowInstruction* VoidRethrow;
 
   /// @brief Field VoidThrow, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_VoidThrow, put = setStaticF_VoidThrow))::System::Linq::Expressions::Interpreter::ThrowInstruction* VoidThrow;
+  static __declspec(property(get = getStaticF_VoidThrow, put = setStaticF_VoidThrow)) ::System::Linq::Expressions::Interpreter::ThrowInstruction* VoidThrow;
 
   /// @brief Field _hasResult, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__hasResult, put = __cordl_internal_set__hasResult)) bool _hasResult;
@@ -56,10 +56,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* New_ctor(bool hasResult, bool isRethrow);
 
-  /// @brief Method Run, addr 0x2c4a4ac, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x404e77c, size 0x88, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method WrapThrownObject, addr 0x2c4a53c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method WrapThrownObject, addr 0x404e804, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Exception* WrapThrownObject(::System::Object* thrown);
 
   constexpr bool const& __cordl_internal_get__hasResult() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__rethrow(bool value);
 
-  /// @brief Method .ctor, addr 0x2c4a42c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x404e6fc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool hasResult, bool isRethrow);
 
   static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* getStaticF_Rethrow();
@@ -85,13 +85,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* getStaticF_VoidThrow();
 
-  /// @brief Method get_ConsumedStack, addr 0x2c4a4a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x404e774, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c4a45c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x404e72c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c4a49c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x404e76c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_Rethrow(::System::Linq::Expressions::Interpreter::ThrowInstruction* value);
@@ -121,6 +121,9 @@ public:
 
   /// @brief Field _rethrow, offset: 0x11, size: 0x1, def value: None
   bool ____rethrow;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

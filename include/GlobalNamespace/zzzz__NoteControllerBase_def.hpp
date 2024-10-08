@@ -27,25 +27,25 @@ class NoteControllerBase;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteControllerBase);
 // Type: ::NoteControllerBase
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoteControllerBase*
 class CORDL_TYPE NoteControllerBase : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  __declspec(property(get = get_didInitEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* didInitEvent;
+  __declspec(property(get = get_didInitEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* didInitEvent;
 
-  __declspec(property(get = get_noteData))::GlobalNamespace::NoteData* noteData;
+  __declspec(property(get = get_noteData)) ::GlobalNamespace::NoteData* noteData;
 
   __declspec(property(
-      get = get_noteDidPassJumpThreeQuartersEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* noteDidPassJumpThreeQuartersEvent;
+      get = get_noteDidPassJumpThreeQuartersEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* noteDidPassJumpThreeQuartersEvent;
 
-  __declspec(property(get = get_noteDidStartDissolvingEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* noteDidStartDissolvingEvent;
+  __declspec(property(get = get_noteDidStartDissolvingEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* noteDidStartDissolvingEvent;
 
   static inline ::GlobalNamespace::NoteControllerBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x264bf2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7ce1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_didInitEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -74,10 +74,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteControllerBase(NoteControllerBase const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4108 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteControllerBase, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteControllerBase, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteControllerBase);

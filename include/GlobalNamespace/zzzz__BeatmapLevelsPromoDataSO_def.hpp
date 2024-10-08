@@ -27,7 +27,7 @@ class __BeatmapLevelsPromoDataSO__BeatmapLevelsPromo;
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelsPromoDataSO);
 MARK_REF_PTR_T(::GlobalNamespace::__BeatmapLevelsPromoDataSO__BeatmapLevelsPromo);
 // Type: ::BeatmapLevelsPromo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapLevelsPromoDataSO::BeatmapLevelsPromo*
@@ -36,25 +36,25 @@ public:
   // Declarations
   /// @brief Field _promotedBeatmapLevelPacks, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__promotedBeatmapLevelPacks,
-                      put = __cordl_internal_set__promotedBeatmapLevelPacks))::System::Collections::Generic::List_1<::StringW>* _promotedBeatmapLevelPacks;
+                      put = __cordl_internal_set__promotedBeatmapLevelPacks)) ::System::Collections::Generic::List_1<::StringW>* _promotedBeatmapLevelPacks;
 
   /// @brief Field _promotedBeatmapLevels, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__promotedBeatmapLevels, put = __cordl_internal_set__promotedBeatmapLevels))::System::Collections::Generic::List_1<::StringW>* _promotedBeatmapLevels;
+  __declspec(property(get = __cordl_internal_get__promotedBeatmapLevels, put = __cordl_internal_set__promotedBeatmapLevels)) ::System::Collections::Generic::List_1<::StringW>* _promotedBeatmapLevels;
 
   /// @brief Field _updatedBeatmapLevelPacks, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__updatedBeatmapLevelPacks,
-                      put = __cordl_internal_set__updatedBeatmapLevelPacks))::System::Collections::Generic::List_1<::StringW>* _updatedBeatmapLevelPacks;
+                      put = __cordl_internal_set__updatedBeatmapLevelPacks)) ::System::Collections::Generic::List_1<::StringW>* _updatedBeatmapLevelPacks;
 
   /// @brief Field _updatedBeatmapLevels, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__updatedBeatmapLevels, put = __cordl_internal_set__updatedBeatmapLevels))::System::Collections::Generic::List_1<::StringW>* _updatedBeatmapLevels;
+  __declspec(property(get = __cordl_internal_get__updatedBeatmapLevels, put = __cordl_internal_set__updatedBeatmapLevels)) ::System::Collections::Generic::List_1<::StringW>* _updatedBeatmapLevels;
 
-  __declspec(property(get = get_promotedBeatmapLevelPacks))::System::Collections::Generic::IEnumerable_1<::StringW>* promotedBeatmapLevelPacks;
+  __declspec(property(get = get_promotedBeatmapLevelPacks)) ::System::Collections::Generic::IEnumerable_1<::StringW>* promotedBeatmapLevelPacks;
 
-  __declspec(property(get = get_promotedBeatmapLevels))::System::Collections::Generic::IEnumerable_1<::StringW>* promotedBeatmapLevels;
+  __declspec(property(get = get_promotedBeatmapLevels)) ::System::Collections::Generic::IEnumerable_1<::StringW>* promotedBeatmapLevels;
 
-  __declspec(property(get = get_updatedBeatmapLevelPacks))::System::Collections::Generic::IEnumerable_1<::StringW>* updatedBeatmapLevelPacks;
+  __declspec(property(get = get_updatedBeatmapLevelPacks)) ::System::Collections::Generic::IEnumerable_1<::StringW>* updatedBeatmapLevelPacks;
 
-  __declspec(property(get = get_updatedBeatmapLevels))::System::Collections::Generic::IEnumerable_1<::StringW>* updatedBeatmapLevels;
+  __declspec(property(get = get_updatedBeatmapLevels)) ::System::Collections::Generic::IEnumerable_1<::StringW>* updatedBeatmapLevels;
 
   static inline ::GlobalNamespace::__BeatmapLevelsPromoDataSO__BeatmapLevelsPromo* New_ctor();
 
@@ -82,19 +82,19 @@ public:
 
   constexpr void __cordl_internal_set__updatedBeatmapLevels(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x14fbe20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b49dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_promotedBeatmapLevelPacks, addr 0x14fbe00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promotedBeatmapLevelPacks, addr 0x26b49bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_promotedBeatmapLevelPacks();
 
-  /// @brief Method get_promotedBeatmapLevels, addr 0x14fbe10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promotedBeatmapLevels, addr 0x26b49cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_promotedBeatmapLevels();
 
-  /// @brief Method get_updatedBeatmapLevelPacks, addr 0x14fbe08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updatedBeatmapLevelPacks, addr 0x26b49c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_updatedBeatmapLevelPacks();
 
-  /// @brief Method get_updatedBeatmapLevels, addr 0x14fbe18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updatedBeatmapLevels, addr 0x26b49d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_updatedBeatmapLevels();
 
 protected:
@@ -123,6 +123,9 @@ public:
   /// @brief Field _updatedBeatmapLevels, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____updatedBeatmapLevels;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13191 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -138,7 +141,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelsPromoDataSO__BeatmapLev
 
 } // namespace GlobalNamespace
 // Type: ::BeatmapLevelsPromoDataSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapLevelsPromoDataSO*
@@ -148,9 +151,9 @@ public:
   using BeatmapLevelsPromo = ::GlobalNamespace::__BeatmapLevelsPromoDataSO__BeatmapLevelsPromo;
 
   /// @brief Field _promo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__promo, put = __cordl_internal_set__promo))::GlobalNamespace::__BeatmapLevelsPromoDataSO__BeatmapLevelsPromo* _promo;
+  __declspec(property(get = __cordl_internal_get__promo, put = __cordl_internal_set__promo)) ::GlobalNamespace::__BeatmapLevelsPromoDataSO__BeatmapLevelsPromo* _promo;
 
-  __declspec(property(get = get_promo, put = set_promo))::GlobalNamespace::__BeatmapLevelsPromoDataSO__BeatmapLevelsPromo* promo;
+  __declspec(property(get = get_promo, put = set_promo)) ::GlobalNamespace::__BeatmapLevelsPromoDataSO__BeatmapLevelsPromo* promo;
 
   static inline ::GlobalNamespace::BeatmapLevelsPromoDataSO* New_ctor();
 
@@ -160,13 +163,13 @@ public:
 
   constexpr void __cordl_internal_set__promo(::GlobalNamespace::__BeatmapLevelsPromoDataSO__BeatmapLevelsPromo* value);
 
-  /// @brief Method .ctor, addr 0x14fbdf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b49b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_promo, addr 0x14fbde8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promo, addr 0x26b49a4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BeatmapLevelsPromoDataSO__BeatmapLevelsPromo* get_promo();
 
-  /// @brief Method set_promo, addr 0x14fbdf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_promo, addr 0x26b49ac, size 0x8, virtual false, abstract: false, final false
   inline void set_promo(::GlobalNamespace::__BeatmapLevelsPromoDataSO__BeatmapLevelsPromo* value);
 
 protected:
@@ -185,6 +188,9 @@ public:
 
   /// @brief Field _promo, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::__BeatmapLevelsPromoDataSO__BeatmapLevelsPromo* ____promo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13192 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

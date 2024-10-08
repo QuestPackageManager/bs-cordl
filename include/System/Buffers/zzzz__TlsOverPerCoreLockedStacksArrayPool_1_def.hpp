@@ -43,7 +43,7 @@ MARK_GEN_REF_PTR_T(::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1);
 MARK_GEN_REF_PTR_T(::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack);
 MARK_GEN_REF_PTR_T(::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks);
 // Type: ::MemoryPressure
-// SizeInfo { instance_size: 4, native_size: 20, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 20, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Buffers {
 // cpp template
 template <typename T>
@@ -90,6 +90,9 @@ public:
   /// @brief Field Medium value: static_cast<int32_t>(0x1)
   static ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> const Medium;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3901 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -98,7 +101,7 @@ public:
 // Non member Declarations
 } // namespace System::Buffers
 // Type: ::PerCoreLockedStacks
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Buffers {
 // cpp template
 template <typename T>
@@ -109,8 +112,9 @@ public:
   // Declarations
   /// @brief Field _perCoreStacks, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__perCoreStacks,
-                      put = __cordl_internal_set__perCoreStacks))::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*,
-                                                                          ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> _perCoreStacks;
+                      put = __cordl_internal_set__perCoreStacks)) ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*,
+                                                                           ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*>
+      _perCoreStacks;
 
   static inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>* New_ctor();
 
@@ -152,12 +156,15 @@ public:
   /// @brief Field _perCoreStacks, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> ____perCoreStacks;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3902 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Buffers
 // Type: ::LockedStack
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Buffers {
 // cpp template
 template <typename T>
@@ -167,7 +174,7 @@ class CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__LockedStack : public :
 public:
   // Declarations
   /// @brief Field _arrays, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__arrays, put = __cordl_internal_set__arrays))::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> _arrays;
+  __declspec(property(get = __cordl_internal_get__arrays, put = __cordl_internal_set__arrays)) ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> _arrays;
 
   /// @brief Field _count, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
@@ -230,12 +237,15 @@ public:
   /// @brief Field _firstStackItemMS, offset: 0x1c, size: 0x4, def value: None
   uint32_t ____firstStackItemMS;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3903 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Buffers
 // Type: System.Buffers::TlsOverPerCoreLockedStacksArrayPool`1
-// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Buffers {
 // cpp template
 template <typename T>
@@ -253,26 +263,26 @@ public:
   __declspec(property(get = get_Id)) int32_t Id;
 
   /// @brief Field _bucketArraySizes, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__bucketArraySizes, put = __cordl_internal_set__bucketArraySizes))::ArrayW<int32_t, ::Array<int32_t>*> _bucketArraySizes;
+  __declspec(property(get = __cordl_internal_get__bucketArraySizes, put = __cordl_internal_set__bucketArraySizes)) ::ArrayW<int32_t, ::Array<int32_t>*> _bucketArraySizes;
 
   /// @brief Field _buckets, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__buckets,
-                      put = __cordl_internal_set__buckets))::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*,
-                                                                    ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*> _buckets;
+  __declspec(property(get = __cordl_internal_get__buckets, put = __cordl_internal_set__buckets)) ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*,
+                                                                                                          ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*>
+      _buckets;
 
   /// @brief Field _callbackCreated, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__callbackCreated, put = __cordl_internal_set__callbackCreated)) int32_t _callbackCreated;
 
   /// @brief Field s_allTlsBuckets, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_allTlsBuckets,
-                             put = setStaticF_s_allTlsBuckets))::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>,
-                                                                                                                           ::System::Object*>* s_allTlsBuckets;
+                             put = setStaticF_s_allTlsBuckets)) ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>,
+                                                                                                                            ::System::Object*>* s_allTlsBuckets;
 
   /// @brief Field s_trimBuffers, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_s_trimBuffers, put = setStaticF_s_trimBuffers)) bool s_trimBuffers;
 
   /// @brief Field t_tlsBuckets, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_t_tlsBuckets, put = setStaticF_t_tlsBuckets))::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> t_tlsBuckets;
+  static __declspec(property(get = getStaticF_t_tlsBuckets, put = setStaticF_t_tlsBuckets)) ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> t_tlsBuckets;
 
   /// @brief Method CreatePerCoreLockedStacks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>* CreatePerCoreLockedStacks(int32_t bucketIndex);
@@ -363,6 +373,9 @@ public:
 
   /// @brief Field _callbackCreated, offset: 0x20, size: 0x4, def value: None
   int32_t ____callbackCreated;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3904 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

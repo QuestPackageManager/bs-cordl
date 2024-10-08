@@ -42,7 +42,7 @@ class __LocalVariables__VariableScope;
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::LocalVariables);
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope);
 // Type: ::VariableScope
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::LocalVariables::VariableScope*
@@ -51,10 +51,10 @@ public:
   // Declarations
   /// @brief Field ChildScopes, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_ChildScopes,
-                      put = __cordl_internal_set_ChildScopes))::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>* ChildScopes;
+                      put = __cordl_internal_set_ChildScopes)) ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>* ChildScopes;
 
   /// @brief Field Parent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Parent, put = __cordl_internal_set_Parent))::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope* Parent;
+  __declspec(property(get = __cordl_internal_get_Parent, put = __cordl_internal_set_Parent)) ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope* Parent;
 
   /// @brief Field Start, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_Start, put = __cordl_internal_set_Start)) int32_t Start;
@@ -63,7 +63,7 @@ public:
   __declspec(property(get = __cordl_internal_get_Stop, put = __cordl_internal_set_Stop)) int32_t Stop;
 
   /// @brief Field Variable, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Variable, put = __cordl_internal_set_Variable))::System::Linq::Expressions::Interpreter::LocalVariable* Variable;
+  __declspec(property(get = __cordl_internal_get_Variable, put = __cordl_internal_set_Variable)) ::System::Linq::Expressions::Interpreter::LocalVariable* Variable;
 
   static inline ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope* New_ctor(::System::Linq::Expressions::Interpreter::LocalVariable* variable, int32_t start,
                                                                                                     ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope* parent);
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set_Variable(::System::Linq::Expressions::Interpreter::LocalVariable* value);
 
-  /// @brief Method .ctor, addr 0x2c71110, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4074124, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LocalVariable* variable, int32_t start, ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope* parent);
 
 protected:
@@ -131,6 +131,9 @@ public:
   /// @brief Field ChildScopes, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>* ___ChildScopes;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13939 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -148,7 +151,7 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::__LocalVariable
 
 } // namespace System::Linq::Expressions::Interpreter
 // Type: System.Linq.Expressions.Interpreter::LocalVariables
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::LocalVariables*
@@ -157,15 +160,15 @@ public:
   // Declarations
   using VariableScope = ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope;
 
-  __declspec(property(get = get_ClosureVariables))::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*,
-                                                                                               ::System::Linq::Expressions::Interpreter::LocalVariable*>* ClosureVariables;
+  __declspec(property(get = get_ClosureVariables)) ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*,
+                                                                                                ::System::Linq::Expressions::Interpreter::LocalVariable*>* ClosureVariables;
 
   __declspec(property(get = get_LocalCount)) int32_t LocalCount;
 
   /// @brief Field _closureVariables, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__closureVariables,
-                      put = __cordl_internal_set__closureVariables))::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*,
-                                                                                                                 ::System::Linq::Expressions::Interpreter::LocalVariable*>* _closureVariables;
+                      put = __cordl_internal_set__closureVariables)) ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*,
+                                                                                                                  ::System::Linq::Expressions::Interpreter::LocalVariable*>* _closureVariables;
 
   /// @brief Field _localCount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__localCount, put = __cordl_internal_set__localCount)) int32_t _localCount;
@@ -174,24 +177,24 @@ public:
   __declspec(property(get = __cordl_internal_get__maxLocalCount, put = __cordl_internal_set__maxLocalCount)) int32_t _maxLocalCount;
 
   /// @brief Field _variables, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__variables, put = __cordl_internal_set__variables))::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<
+  __declspec(property(get = __cordl_internal_get__variables, put = __cordl_internal_set__variables)) ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<
       ::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>* _variables;
 
-  /// @brief Method AddClosureVariable, addr 0x2c71380, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddClosureVariable, addr 0x4074394, size 0x110, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LocalVariable* AddClosureVariable(::System::Linq::Expressions::ParameterExpression* variable);
 
-  /// @brief Method Box, addr 0x2c71154, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x4074168, size 0x154, virtual false, abstract: false, final false
   inline void Box(::System::Linq::Expressions::ParameterExpression* variable, ::System::Linq::Expressions::Interpreter::InstructionList* instructions);
 
-  /// @brief Method DefineLocal, addr 0x2c70eac, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method DefineLocal, addr 0x4073ecc, size 0x258, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LocalDefinition DefineLocal(::System::Linq::Expressions::ParameterExpression* variable, int32_t start);
 
   static inline ::System::Linq::Expressions::Interpreter::LocalVariables* New_ctor();
 
-  /// @brief Method TryGetLocalOrClosure, addr 0x2c712b0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method TryGetLocalOrClosure, addr 0x40742c4, size 0xc8, virtual false, abstract: false, final false
   inline bool TryGetLocalOrClosure(::System::Linq::Expressions::ParameterExpression* var, ByRef<::System::Linq::Expressions::Interpreter::LocalVariable*> local);
 
-  /// @brief Method UndefineLocal, addr 0x2c6ba48, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UndefineLocal, addr 0x406eb68, size 0xd4, virtual false, abstract: false, final false
   inline void UndefineLocal(::System::Linq::Expressions::Interpreter::LocalDefinition definition, int32_t end);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*&
@@ -228,13 +231,13 @@ public:
   __cordl_internal_set__variables(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::ParameterExpression*,
                                                                                                         ::System::Linq::Expressions::Interpreter::__LocalVariables__VariableScope*>* value);
 
-  /// @brief Method .ctor, addr 0x2c71494, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40744a4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ClosureVariables, addr 0x2c71378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClosureVariables, addr 0x407438c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* get_ClosureVariables();
 
-  /// @brief Method get_LocalCount, addr 0x2c712a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalCount, addr 0x40742bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LocalCount();
 
 protected:
@@ -263,6 +266,9 @@ public:
 
   /// @brief Field _maxLocalCount, offset: 0x24, size: 0x4, def value: None
   int32_t ____maxLocalCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13940 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,7 @@ class BZip2Constants;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Apache::Bzip2::BZip2Constants);
 // Type: Org.BouncyCastle.Apache.Bzip2::BZip2Constants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Apache::Bzip2 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Apache.Bzip2::BZip2Constants*
@@ -22,11 +22,11 @@ class CORDL_TYPE BZip2Constants : public ::System::Object {
 public:
   // Declarations
   /// @brief Field rNums, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rNums, put = setStaticF_rNums))::ArrayW<int32_t, ::Array<int32_t>*> rNums;
+  static __declspec(property(get = getStaticF_rNums, put = setStaticF_rNums)) ::ArrayW<int32_t, ::Array<int32_t>*> rNums;
 
   static inline ::Org::BouncyCastle::Apache::Bzip2::BZip2Constants* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13faa18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c0e78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_rNums();
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field RUNB offset 0xffffffff size 0x4
   static constexpr int32_t RUNB{ static_cast<int32_t>(0x1) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1876 };
 
   /// @brief Field baseBlockSize offset 0xffffffff size 0x4
   static constexpr int32_t baseBlockSize{ static_cast<int32_t>(0x186a0) };

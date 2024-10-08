@@ -33,32 +33,32 @@ class CertResponse;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::CertResponse);
 // Type: Org.BouncyCastle.Asn1.Cmp::CertResponse
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::CertResponse*
 class CORDL_TYPE CertResponse : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_CertReqID))::Org::BouncyCastle::Asn1::DerInteger* CertReqID;
+  __declspec(property(get = get_CertReqID)) ::Org::BouncyCastle::Asn1::DerInteger* CertReqID;
 
-  __declspec(property(get = get_CertifiedKeyPair))::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* CertifiedKeyPair;
+  __declspec(property(get = get_CertifiedKeyPair)) ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* CertifiedKeyPair;
 
-  __declspec(property(get = get_Status))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* Status;
+  __declspec(property(get = get_Status)) ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* Status;
 
   /// @brief Field certReqId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_certReqId, put = __cordl_internal_set_certReqId))::Org::BouncyCastle::Asn1::DerInteger* certReqId;
+  __declspec(property(get = __cordl_internal_get_certReqId, put = __cordl_internal_set_certReqId)) ::Org::BouncyCastle::Asn1::DerInteger* certReqId;
 
   /// @brief Field certifiedKeyPair, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_certifiedKeyPair, put = __cordl_internal_set_certifiedKeyPair))::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* certifiedKeyPair;
+  __declspec(property(get = __cordl_internal_get_certifiedKeyPair, put = __cordl_internal_set_certifiedKeyPair)) ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* certifiedKeyPair;
 
   /// @brief Field rspInfo, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_rspInfo, put = __cordl_internal_set_rspInfo))::Org::BouncyCastle::Asn1::Asn1OctetString* rspInfo;
+  __declspec(property(get = __cordl_internal_get_rspInfo, put = __cordl_internal_set_rspInfo)) ::Org::BouncyCastle::Asn1::Asn1OctetString* rspInfo;
 
   /// @brief Field status, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status;
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status)) ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status;
 
-  /// @brief Method GetInstance, addr 0x10d6914, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22b4484, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertResponse* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertResponse* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status);
@@ -68,7 +68,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertResponse* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10d6f00, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22b4a4c, size 0x19c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_certReqId();
@@ -95,23 +95,23 @@ public:
 
   constexpr void __cordl_internal_set_status(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* value);
 
-  /// @brief Method .ctor, addr 0x10d6e24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b4978, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status);
 
-  /// @brief Method .ctor, addr 0x10d6e30, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b4984, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status, ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* certifiedKeyPair,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* rspInfo);
 
-  /// @brief Method .ctor, addr 0x10d6b54, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b46b4, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertReqID, addr 0x10d6ee8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertReqID, addr 0x22b4a34, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CertReqID();
 
-  /// @brief Method get_CertifiedKeyPair, addr 0x10d6ef8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertifiedKeyPair, addr 0x22b4a44, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* get_CertifiedKeyPair();
 
-  /// @brief Method get_Status, addr 0x10d6ef0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Status, addr 0x22b4a3c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_Status();
 
 protected:
@@ -139,6 +139,9 @@ public:
 
   /// @brief Field rspInfo, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1OctetString* ___rspInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

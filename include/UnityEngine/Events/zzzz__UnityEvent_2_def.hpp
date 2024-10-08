@@ -26,7 +26,7 @@ template <typename T0, typename T1> class UnityEvent_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::Events::UnityEvent_2);
 // Type: UnityEngine.Events::UnityEvent`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // cpp template
 template <typename T0, typename T1>
@@ -36,7 +36,7 @@ class CORDL_TYPE UnityEvent_2 : public ::UnityEngine::Events::UnityEventBase {
 public:
   // Declarations
   /// @brief Field m_InvokeArray, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_InvokeArray, put = __cordl_internal_set_m_InvokeArray))::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_InvokeArray;
+  __declspec(property(get = __cordl_internal_get_m_InvokeArray, put = __cordl_internal_set_m_InvokeArray)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_InvokeArray;
 
   /// @brief Method FindMethod_Impl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* FindMethod_Impl(::StringW name, ::System::Type* targetObjType);
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field m_InvokeArray, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___m_InvokeArray;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10952 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

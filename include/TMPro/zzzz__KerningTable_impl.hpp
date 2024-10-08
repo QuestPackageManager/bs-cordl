@@ -7,218 +7,14 @@
 #include "TMPro/zzzz__GlyphValueRecord_Legacy_def.hpp"
 #include "TMPro/zzzz__KerningPair_def.hpp"
 #include "TMPro/zzzz__KerningTable_def.hpp"
-//  Writing Method size for method: ::TMPro::__KerningTable____c__DisplayClass3_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__KerningTable____c__DisplayClass3_0::*)()>(&::TMPro::__KerningTable____c__DisplayClass3_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x337ce24;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass3_0*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::__KerningTable____c__DisplayClass3_0._AddKerningPair_b__0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::__KerningTable____c__DisplayClass3_0::*)(::TMPro::KerningPair*)>(
-    &::TMPro::__KerningTable____c__DisplayClass3_0::_AddKerningPair_b__0)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x337d398;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass3_0*>::get(), "<AddKerningPair>b__0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::KerningPair*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr uint32_t& TMPro::__KerningTable____c__DisplayClass3_0::__cordl_internal_get_first() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___first;
-}
-constexpr uint32_t const& TMPro::__KerningTable____c__DisplayClass3_0::__cordl_internal_get_first() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___first;
-}
-constexpr void TMPro::__KerningTable____c__DisplayClass3_0::__cordl_internal_set_first(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___first = value;
-}
-constexpr uint32_t& TMPro::__KerningTable____c__DisplayClass3_0::__cordl_internal_get_second() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___second;
-}
-constexpr uint32_t const& TMPro::__KerningTable____c__DisplayClass3_0::__cordl_internal_get_second() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___second;
-}
-constexpr void TMPro::__KerningTable____c__DisplayClass3_0::__cordl_internal_set_second(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___second = value;
-}
-inline ::TMPro::__KerningTable____c__DisplayClass3_0* TMPro::__KerningTable____c__DisplayClass3_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__KerningTable____c__DisplayClass3_0*>());
-}
-inline void TMPro::__KerningTable____c__DisplayClass3_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass3_0*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool TMPro::__KerningTable____c__DisplayClass3_0::_AddKerningPair_b__0(::TMPro::KerningPair* item) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass3_0*>::get(), "<AddKerningPair>b__0",
-                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::KerningPair*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
-}
-// Ctor Parameters []
-constexpr ::TMPro::__KerningTable____c__DisplayClass3_0::__KerningTable____c__DisplayClass3_0() {}
-//  Writing Method size for method: ::TMPro::__KerningTable____c__DisplayClass4_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__KerningTable____c__DisplayClass4_0::*)()>(&::TMPro::__KerningTable____c__DisplayClass4_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x337d024;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass4_0*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::__KerningTable____c__DisplayClass4_0._AddGlyphPairAdjustmentRecord_b__0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::__KerningTable____c__DisplayClass4_0::*)(::TMPro::KerningPair*)>(
-    &::TMPro::__KerningTable____c__DisplayClass4_0::_AddGlyphPairAdjustmentRecord_b__0)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x337d3d4;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass4_0*>::get(), "<AddGlyphPairAdjustmentRecord>b__0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::KerningPair*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr uint32_t& TMPro::__KerningTable____c__DisplayClass4_0::__cordl_internal_get_first() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___first;
-}
-constexpr uint32_t const& TMPro::__KerningTable____c__DisplayClass4_0::__cordl_internal_get_first() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___first;
-}
-constexpr void TMPro::__KerningTable____c__DisplayClass4_0::__cordl_internal_set_first(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___first = value;
-}
-constexpr uint32_t& TMPro::__KerningTable____c__DisplayClass4_0::__cordl_internal_get_second() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___second;
-}
-constexpr uint32_t const& TMPro::__KerningTable____c__DisplayClass4_0::__cordl_internal_get_second() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___second;
-}
-constexpr void TMPro::__KerningTable____c__DisplayClass4_0::__cordl_internal_set_second(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___second = value;
-}
-inline ::TMPro::__KerningTable____c__DisplayClass4_0* TMPro::__KerningTable____c__DisplayClass4_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__KerningTable____c__DisplayClass4_0*>());
-}
-inline void TMPro::__KerningTable____c__DisplayClass4_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass4_0*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool TMPro::__KerningTable____c__DisplayClass4_0::_AddGlyphPairAdjustmentRecord_b__0(::TMPro::KerningPair* item) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass4_0*>::get(), "<AddGlyphPairAdjustmentRecord>b__0",
-                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::KerningPair*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
-}
-// Ctor Parameters []
-constexpr ::TMPro::__KerningTable____c__DisplayClass4_0::__KerningTable____c__DisplayClass4_0() {}
-//  Writing Method size for method: ::TMPro::__KerningTable____c__DisplayClass5_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__KerningTable____c__DisplayClass5_0::*)()>(&::TMPro::__KerningTable____c__DisplayClass5_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x337d14c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass5_0*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::__KerningTable____c__DisplayClass5_0._RemoveKerningPair_b__0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::__KerningTable____c__DisplayClass5_0::*)(::TMPro::KerningPair*)>(
-    &::TMPro::__KerningTable____c__DisplayClass5_0::_RemoveKerningPair_b__0)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x337d410;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass5_0*>::get(), "<RemoveKerningPair>b__0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::KerningPair*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr int32_t& TMPro::__KerningTable____c__DisplayClass5_0::__cordl_internal_get_left() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___left;
-}
-constexpr int32_t const& TMPro::__KerningTable____c__DisplayClass5_0::__cordl_internal_get_left() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___left;
-}
-constexpr void TMPro::__KerningTable____c__DisplayClass5_0::__cordl_internal_set_left(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___left = value;
-}
-constexpr int32_t& TMPro::__KerningTable____c__DisplayClass5_0::__cordl_internal_get_right() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___right;
-}
-constexpr int32_t const& TMPro::__KerningTable____c__DisplayClass5_0::__cordl_internal_get_right() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___right;
-}
-constexpr void TMPro::__KerningTable____c__DisplayClass5_0::__cordl_internal_set_right(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___right = value;
-}
-inline ::TMPro::__KerningTable____c__DisplayClass5_0* TMPro::__KerningTable____c__DisplayClass5_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__KerningTable____c__DisplayClass5_0*>());
-}
-inline void TMPro::__KerningTable____c__DisplayClass5_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass5_0*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool TMPro::__KerningTable____c__DisplayClass5_0::_RemoveKerningPair_b__0(::TMPro::KerningPair* item) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass5_0*>::get(), "<RemoveKerningPair>b__0",
-                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::KerningPair*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
-}
-// Ctor Parameters []
-constexpr ::TMPro::__KerningTable____c__DisplayClass5_0::__KerningTable____c__DisplayClass5_0() {}
 //  Writing Method size for method: ::TMPro::__KerningTable____c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__KerningTable____c::*)()>(&::TMPro::__KerningTable____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x337d4b0;
+  constexpr static std::size_t addrs = 0x475df08;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -230,9 +26,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::__KerningTable____c::*)(::TMPro::KerningPair*)>(
     &::TMPro::__KerningTable____c::_SortKerningPairs_b__7_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x337d4b8;
+  constexpr static std::size_t addrs = 0x475df10;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c*>::get(), "<SortKerningPairs>b__7_0", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::KerningPair*>::get() })));
@@ -245,9 +41,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::__KerningTable____c::*)(::TMPro::KerningPair*)>(
     &::TMPro::__KerningTable____c::_SortKerningPairs_b__7_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x337d4d0;
+  constexpr static std::size_t addrs = 0x475df28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c*>::get(), "<SortKerningPairs>b__7_1", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::KerningPair*>::get() })));
@@ -299,14 +95,218 @@ inline uint32_t TMPro::__KerningTable____c::_SortKerningPairs_b__7_1(::TMPro::Ke
 }
 // Ctor Parameters []
 constexpr ::TMPro::__KerningTable____c::__KerningTable____c() {}
+//  Writing Method size for method: ::TMPro::__KerningTable____c__DisplayClass3_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__KerningTable____c__DisplayClass3_0::*)()>(&::TMPro::__KerningTable____c__DisplayClass3_0::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x475d948;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass3_0*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::__KerningTable____c__DisplayClass3_0._AddKerningPair_b__0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::__KerningTable____c__DisplayClass3_0::*)(::TMPro::KerningPair*)>(
+    &::TMPro::__KerningTable____c__DisplayClass3_0::_AddKerningPair_b__0)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x475df40;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass3_0*>::get(), "<AddKerningPair>b__0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::KerningPair*>::get() })));
+    return ___internal_method;
+  }
+};
+constexpr uint32_t& TMPro::__KerningTable____c__DisplayClass3_0::__cordl_internal_get_first() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___first;
+}
+constexpr uint32_t const& TMPro::__KerningTable____c__DisplayClass3_0::__cordl_internal_get_first() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___first;
+}
+constexpr void TMPro::__KerningTable____c__DisplayClass3_0::__cordl_internal_set_first(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___first = value;
+}
+constexpr uint32_t& TMPro::__KerningTable____c__DisplayClass3_0::__cordl_internal_get_second() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___second;
+}
+constexpr uint32_t const& TMPro::__KerningTable____c__DisplayClass3_0::__cordl_internal_get_second() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___second;
+}
+constexpr void TMPro::__KerningTable____c__DisplayClass3_0::__cordl_internal_set_second(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___second = value;
+}
+inline ::TMPro::__KerningTable____c__DisplayClass3_0* TMPro::__KerningTable____c__DisplayClass3_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__KerningTable____c__DisplayClass3_0*>());
+}
+inline void TMPro::__KerningTable____c__DisplayClass3_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass3_0*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool TMPro::__KerningTable____c__DisplayClass3_0::_AddKerningPair_b__0(::TMPro::KerningPair* item) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass3_0*>::get(), "<AddKerningPair>b__0",
+                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::KerningPair*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+}
+// Ctor Parameters []
+constexpr ::TMPro::__KerningTable____c__DisplayClass3_0::__KerningTable____c__DisplayClass3_0() {}
+//  Writing Method size for method: ::TMPro::__KerningTable____c__DisplayClass4_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__KerningTable____c__DisplayClass4_0::*)()>(&::TMPro::__KerningTable____c__DisplayClass4_0::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x475db3c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass4_0*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::__KerningTable____c__DisplayClass4_0._AddGlyphPairAdjustmentRecord_b__0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::__KerningTable____c__DisplayClass4_0::*)(::TMPro::KerningPair*)>(
+    &::TMPro::__KerningTable____c__DisplayClass4_0::_AddGlyphPairAdjustmentRecord_b__0)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x475df7c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass4_0*>::get(), "<AddGlyphPairAdjustmentRecord>b__0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::KerningPair*>::get() })));
+    return ___internal_method;
+  }
+};
+constexpr uint32_t& TMPro::__KerningTable____c__DisplayClass4_0::__cordl_internal_get_first() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___first;
+}
+constexpr uint32_t const& TMPro::__KerningTable____c__DisplayClass4_0::__cordl_internal_get_first() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___first;
+}
+constexpr void TMPro::__KerningTable____c__DisplayClass4_0::__cordl_internal_set_first(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___first = value;
+}
+constexpr uint32_t& TMPro::__KerningTable____c__DisplayClass4_0::__cordl_internal_get_second() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___second;
+}
+constexpr uint32_t const& TMPro::__KerningTable____c__DisplayClass4_0::__cordl_internal_get_second() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___second;
+}
+constexpr void TMPro::__KerningTable____c__DisplayClass4_0::__cordl_internal_set_second(uint32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___second = value;
+}
+inline ::TMPro::__KerningTable____c__DisplayClass4_0* TMPro::__KerningTable____c__DisplayClass4_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__KerningTable____c__DisplayClass4_0*>());
+}
+inline void TMPro::__KerningTable____c__DisplayClass4_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass4_0*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool TMPro::__KerningTable____c__DisplayClass4_0::_AddGlyphPairAdjustmentRecord_b__0(::TMPro::KerningPair* item) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass4_0*>::get(), "<AddGlyphPairAdjustmentRecord>b__0",
+                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::KerningPair*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+}
+// Ctor Parameters []
+constexpr ::TMPro::__KerningTable____c__DisplayClass4_0::__KerningTable____c__DisplayClass4_0() {}
+//  Writing Method size for method: ::TMPro::__KerningTable____c__DisplayClass5_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::__KerningTable____c__DisplayClass5_0::*)()>(&::TMPro::__KerningTable____c__DisplayClass5_0::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x475dc60;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass5_0*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::__KerningTable____c__DisplayClass5_0._RemoveKerningPair_b__0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::__KerningTable____c__DisplayClass5_0::*)(::TMPro::KerningPair*)>(
+    &::TMPro::__KerningTable____c__DisplayClass5_0::_RemoveKerningPair_b__0)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x475dfb8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass5_0*>::get(), "<RemoveKerningPair>b__0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::KerningPair*>::get() })));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& TMPro::__KerningTable____c__DisplayClass5_0::__cordl_internal_get_left() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___left;
+}
+constexpr int32_t const& TMPro::__KerningTable____c__DisplayClass5_0::__cordl_internal_get_left() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___left;
+}
+constexpr void TMPro::__KerningTable____c__DisplayClass5_0::__cordl_internal_set_left(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___left = value;
+}
+constexpr int32_t& TMPro::__KerningTable____c__DisplayClass5_0::__cordl_internal_get_right() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___right;
+}
+constexpr int32_t const& TMPro::__KerningTable____c__DisplayClass5_0::__cordl_internal_get_right() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___right;
+}
+constexpr void TMPro::__KerningTable____c__DisplayClass5_0::__cordl_internal_set_right(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___right = value;
+}
+inline ::TMPro::__KerningTable____c__DisplayClass5_0* TMPro::__KerningTable____c__DisplayClass5_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::__KerningTable____c__DisplayClass5_0*>());
+}
+inline void TMPro::__KerningTable____c__DisplayClass5_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass5_0*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool TMPro::__KerningTable____c__DisplayClass5_0::_RemoveKerningPair_b__0(::TMPro::KerningPair* item) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::__KerningTable____c__DisplayClass5_0*>::get(), "<RemoveKerningPair>b__0",
+                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::KerningPair*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+}
+// Ctor Parameters []
+constexpr ::TMPro::__KerningTable____c__DisplayClass5_0::__KerningTable____c__DisplayClass5_0() {}
 //  Writing Method size for method: ::TMPro::KerningTable._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::KerningTable::*)()>(&::TMPro::KerningTable::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x337c310;
+  constexpr static std::size_t addrs = 0x475ce60;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningTable*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -317,9 +317,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::KerningTable::*)()>(&::TMPro::KerningTable::AddKerningPair)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x337ca98;
+  constexpr static std::size_t addrs = 0x475d5c8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningTable*>::get(), "AddKerningPair",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -329,10 +329,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::KerningTable::*)(uint32_t, uint32_t, float_t)>(&::TMPro::KerningTable::AddKerningPair)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x337cc6c;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x475d79c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningTable*>::get(), "AddKerningPair", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
@@ -345,10 +345,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::TMPro::KerningTable::*)(uint32_t, ::TMPro::GlyphValueRecord_Legacy, uint32_t, ::TMPro::GlyphValueRecord_Legacy)>(&::TMPro::KerningTable::AddGlyphPairAdjustmentRecord)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x337ce2c;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x475d950;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningTable*>::get(), "AddGlyphPairAdjustmentRecord", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{
@@ -361,10 +361,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::KerningTable::*)(int32_t, int32_t)>(&::TMPro::KerningTable::RemoveKerningPair)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x337d02c;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x475db44;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningTable*>::get(), "RemoveKerningPair", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -376,9 +376,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::KerningTable::*)(int32_t)>(&::TMPro::KerningTable::RemoveKerningPair)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x337d154;
+  constexpr static std::size_t addrs = 0x475dc68;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningTable*>::get(), "RemoveKerningPair", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -390,9 +390,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::KerningTable::*)()>(&::TMPro::KerningTable::SortKerningPairs)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x337d1ac;
+  constexpr static std::size_t addrs = 0x475dcc0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningTable*>::get(), "SortKerningPairs",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;

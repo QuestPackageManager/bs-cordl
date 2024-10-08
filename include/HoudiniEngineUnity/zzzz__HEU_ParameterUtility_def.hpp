@@ -32,82 +32,82 @@ class HEU_ParameterUtility;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ParameterUtility);
 // Type: HoudiniEngineUnity::HEU_ParameterUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_ParameterUtility*
 class CORDL_TYPE HEU_ParameterUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindTextureParamByNameOrTag, addr 0x25a9164, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method FindTextureParamByNameOrTag, addr 0x39e5b3c, size 0x1c0, virtual false, abstract: false, final false
   static inline int32_t FindTextureParamByNameOrTag(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID,
                                                     ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmInfo>*> parameters, ::StringW parameterName,
                                                     ::StringW useTextureParmName);
 
-  /// @brief Method GetChoice, addr 0x25a88e4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetChoice, addr 0x39e52c0, size 0x168, virtual false, abstract: false, final false
   static inline bool GetChoice(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<int32_t> outValue);
 
-  /// @brief Method GetColor, addr 0x25a8da0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetColor, addr 0x39e577c, size 0x12c, virtual false, abstract: false, final false
   static inline bool GetColor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<::UnityEngine::Color> getValue);
 
-  /// @brief Method GetFloat, addr 0x25a8008, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetFloat, addr 0x39e49fc, size 0x138, virtual false, abstract: false, final false
   static inline bool GetFloat(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<float_t> outValue);
 
-  /// @brief Method GetFloats, addr 0x25a8140, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetFloats, addr 0x39e4b34, size 0x148, virtual false, abstract: false, final false
   static inline bool GetFloats(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<::ArrayW<float_t, ::Array<float_t>*>> outValues);
 
-  /// @brief Method GetInputNode, addr 0x25a8bfc, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetInputNode, addr 0x39e55d8, size 0x1a4, virtual false, abstract: false, final false
   static inline bool GetInputNode(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, int32_t index, ByRef<::UnityEngine::GameObject*> obj);
 
-  /// @brief Method GetInt, addr 0x25a7da8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetInt, addr 0x39e479c, size 0x134, virtual false, abstract: false, final false
   static inline bool GetInt(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<int32_t> outValue);
 
-  /// @brief Method GetParameterColor3Value, addr 0x25a9430, size 0x117c, virtual false, abstract: false, final false
+  /// @brief Method GetParameterColor3Value, addr 0x39e5e04, size 0x170, virtual false, abstract: false, final false
   static inline bool GetParameterColor3Value(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID,
                                              ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmInfo>*> parameters, ::StringW parameterName,
                                              ::UnityEngine::Color defaultValue, ByRef<::UnityEngine::Color> outputColor);
 
-  /// @brief Method GetParameterFloatValue, addr 0x25a9324, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetParameterFloatValue, addr 0x39e5cfc, size 0x108, virtual false, abstract: false, final false
   static inline bool GetParameterFloatValue(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID,
                                             ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmInfo>*> parameters, ::StringW parameterName, float_t defaultValue,
                                             ByRef<float_t> returnValue);
 
-  /// @brief Method GetParameterIndexFromName, addr 0x25a9004, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetParameterIndexFromName, addr 0x39e59e0, size 0xf0, virtual false, abstract: false, final false
   static inline int32_t GetParameterIndexFromName(::HoudiniEngineUnity::HEU_SessionBase* session,
                                                   ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmInfo>*> parameters, ::StringW parameterName);
 
-  /// @brief Method GetParameterIndexFromNameOrTag, addr 0x25a90f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetParameterIndexFromNameOrTag, addr 0x39e5ad0, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetParameterIndexFromNameOrTag(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID,
                                                        ::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmInfo>*> parameters, ::StringW parameterName);
 
-  /// @brief Method GetString, addr 0x25a84d8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x39e4ecc, size 0x13c, virtual false, abstract: false, final false
   static inline bool GetString(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<::StringW> outValue);
 
-  /// @brief Method GetToggle, addr 0x25a7b5c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetToggle, addr 0x39e4550, size 0x128, virtual false, abstract: false, final false
   static inline bool GetToggle(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ByRef<bool> outValue);
 
-  /// @brief Method SetChoice, addr 0x25a8760, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method SetChoice, addr 0x39e513c, size 0x184, virtual false, abstract: false, final false
   static inline bool SetChoice(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, int32_t setValue);
 
-  /// @brief Method SetColor, addr 0x25a8ecc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x39e58a8, size 0x138, virtual false, abstract: false, final false
   static inline bool SetColor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ::UnityEngine::Color setValue);
 
-  /// @brief Method SetFloat, addr 0x25a8288, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x39e4c7c, size 0x130, virtual false, abstract: false, final false
   static inline bool SetFloat(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, float_t setValue);
 
-  /// @brief Method SetFloats, addr 0x25a83b8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method SetFloats, addr 0x39e4dac, size 0x120, virtual false, abstract: false, final false
   static inline bool SetFloats(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ::ArrayW<float_t, ::Array<float_t>*> setValues);
 
-  /// @brief Method SetInputNode, addr 0x25a8a4c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method SetInputNode, addr 0x39e5428, size 0x1b0, virtual false, abstract: false, final false
   static inline bool SetInputNode(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ::UnityEngine::GameObject* obj, int32_t index);
 
-  /// @brief Method SetInt, addr 0x25a7edc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SetInt, addr 0x39e48d0, size 0x12c, virtual false, abstract: false, final false
   static inline bool SetInt(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, int32_t setValue);
 
-  /// @brief Method SetString, addr 0x25a8614, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SetString, addr 0x39e5008, size 0x134, virtual false, abstract: false, final false
   static inline bool SetString(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, ::StringW setValue);
 
-  /// @brief Method SetToggle, addr 0x25a7c84, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetToggle, addr 0x39e4678, size 0x124, virtual false, abstract: false, final false
   static inline bool SetToggle(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW paramName, bool setValue);
 
 protected:
@@ -123,6 +123,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ParameterUtility", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ParameterUtility(HEU_ParameterUtility const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

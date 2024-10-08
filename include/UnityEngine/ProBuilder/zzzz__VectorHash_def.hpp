@@ -23,23 +23,23 @@ class VectorHash;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::VectorHash);
 // Type: UnityEngine.ProBuilder::VectorHash
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::VectorHash*
 class CORDL_TYPE VectorHash : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x32efa40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x46cec94, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector2 v);
 
-  /// @brief Method GetHashCode, addr 0x32da36c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x46ba15c, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector3 v);
 
-  /// @brief Method GetHashCode, addr 0x32efabc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x46ced10, size 0xe0, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector4 v);
 
-  /// @brief Method HashFloat, addr 0x32efa00, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HashFloat, addr 0x46cec54, size 0x40, virtual false, abstract: false, final false
   static inline int32_t HashFloat(float_t f);
 
 protected:
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field FltCompareResolution offset 0xffffffff size 0x4
   static constexpr float_t FltCompareResolution{ 1000.0 };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14287 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

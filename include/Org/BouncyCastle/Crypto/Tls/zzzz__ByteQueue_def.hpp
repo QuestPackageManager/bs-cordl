@@ -20,7 +20,7 @@ class ByteQueue;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ByteQueue);
 // Type: Org.BouncyCastle.Crypto.Tls::ByteQueue
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ByteQueue*
@@ -33,7 +33,7 @@ public:
   __declspec(property(get = __cordl_internal_get_available, put = __cordl_internal_set_available)) int32_t available;
 
   /// @brief Field databuf, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_databuf, put = __cordl_internal_set_databuf))::ArrayW<uint8_t, ::Array<uint8_t>*> databuf;
+  __declspec(property(get = __cordl_internal_get_databuf, put = __cordl_internal_set_databuf)) ::ArrayW<uint8_t, ::Array<uint8_t>*> databuf;
 
   /// @brief Field readOnlyBuf, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_readOnlyBuf, put = __cordl_internal_set_readOnlyBuf)) bool readOnlyBuf;
@@ -41,10 +41,10 @@ public:
   /// @brief Field skipped, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_skipped, put = __cordl_internal_set_skipped)) int32_t skipped;
 
-  /// @brief Method AddData, addr 0x11cd7e4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method AddData, addr 0x23a331c, size 0x168, virtual false, abstract: false, final false
   inline void AddData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t len);
 
-  /// @brief Method CopyTo, addr 0x11cd958, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x23a348c, size 0x1b4, virtual false, abstract: false, final false
   inline void CopyTo(::System::IO::Stream* output, int32_t length);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ByteQueue* New_ctor();
@@ -53,25 +53,25 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ByteQueue* New_ctor(int32_t capacity);
 
-  /// @brief Method NextTwoPow, addr 0x11cd6d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NextTwoPow, addr 0x23a320c, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t NextTwoPow(int32_t i);
 
-  /// @brief Method Read, addr 0x11cdb14, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x23a3640, size 0x250, virtual false, abstract: false, final false
   inline void Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t offset, int32_t len, int32_t skip);
 
-  /// @brief Method ReadFrom, addr 0x11cdd70, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method ReadFrom, addr 0x23a3890, size 0x1ec, virtual false, abstract: false, final false
   inline ::System::IO::MemoryStream* ReadFrom(int32_t length);
 
-  /// @brief Method RemoveData, addr 0x11ce140, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RemoveData, addr 0x23a3c40, size 0x88, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> RemoveData(int32_t len, int32_t skip);
 
-  /// @brief Method RemoveData, addr 0x11ce114, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method RemoveData, addr 0x23a3c14, size 0x2c, virtual false, abstract: false, final false
   inline void RemoveData(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t skip);
 
-  /// @brief Method RemoveData, addr 0x11cdf70, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method RemoveData, addr 0x23a3a7c, size 0x198, virtual false, abstract: false, final false
   inline void RemoveData(int32_t i);
 
-  /// @brief Method Shrink, addr 0x11ce1c8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Shrink, addr 0x23a3cc8, size 0xe8, virtual false, abstract: false, final false
   inline void Shrink();
 
   constexpr int32_t const& __cordl_internal_get_available() const;
@@ -98,16 +98,16 @@ public:
 
   constexpr void __cordl_internal_set_skipped(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11cd6f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a3228, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x11cd798, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a32d0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method .ctor, addr 0x11cd6f8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a3230, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method get_Available, addr 0x11cd950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Available, addr 0x23a3484, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Available();
 
 protected:
@@ -138,6 +138,9 @@ public:
 
   /// @brief Field DefaultCapacity offset 0xffffffff size 0x4
   static constexpr int32_t DefaultCapacity{ static_cast<int32_t>(0x400) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1183 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

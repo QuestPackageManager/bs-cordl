@@ -20,7 +20,7 @@ class Unsafe;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::Unsafe);
 // Type: Unity.Burst::Unsafe
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: false
 // CS Name: ::Unity.Burst::Unsafe*
@@ -66,28 +66,28 @@ public:
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Copy(ByRef<T> destination, ::cordl_internals::Ptr<void> source);
 
-  /// @brief Method CopyBlock, addr 0x30bfa5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlock, addr 0x44b0814, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlock(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, uint32_t byteCount);
 
-  /// @brief Method CopyBlock, addr 0x30bfa64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlock, addr 0x44b081c, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlock(ByRef<uint8_t> destination, ByRef<uint8_t> source, uint32_t byteCount);
 
-  /// @brief Method CopyBlockUnaligned, addr 0x30bfa6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlockUnaligned, addr 0x44b0824, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlockUnaligned(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, uint32_t byteCount);
 
-  /// @brief Method CopyBlockUnaligned, addr 0x30bfa74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlockUnaligned, addr 0x44b082c, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlockUnaligned(ByRef<uint8_t> destination, ByRef<uint8_t> source, uint32_t byteCount);
 
-  /// @brief Method InitBlock, addr 0x30bfa7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlock, addr 0x44b0834, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlock(::cordl_internals::Ptr<void> startAddress, uint8_t value, uint32_t byteCount);
 
-  /// @brief Method InitBlock, addr 0x30bfa84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlock, addr 0x44b083c, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlock(ByRef<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
-  /// @brief Method InitBlockUnaligned, addr 0x30bfa8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlockUnaligned, addr 0x44b0844, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlockUnaligned(::cordl_internals::Ptr<void> startAddress, uint8_t value, uint32_t byteCount);
 
-  /// @brief Method InitBlockUnaligned, addr 0x30bfa94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlockUnaligned, addr 0x44b084c, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlockUnaligned(ByRef<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
   /// @brief Method IsAddressGreaterThan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -145,6 +145,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Unsafe", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Unsafe(Unsafe const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19137 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

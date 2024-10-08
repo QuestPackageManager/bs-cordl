@@ -35,7 +35,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRMesh__MeshType);
 MARK_REF_PTR_T(::GlobalNamespace::OVRMesh);
 MARK_REF_PTR_T(::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider);
 // Type: ::IOVRMeshDataProvider
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRMesh::IOVRMeshDataProvider*
@@ -53,12 +53,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRMesh__IOVRMeshDataProvider(__OVRMesh__IOVRMeshDataProvider const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8402 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::MeshType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRMesh::MeshType
@@ -103,6 +106,9 @@ public:
   /// @brief Field None value: static_cast<int32_t>(0xffffffff)
   static ::GlobalNamespace::__OVRMesh__MeshType const None;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8403 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -115,7 +121,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRMesh__MeshType, value__) == 0x0, 
 
 } // namespace GlobalNamespace
 // Type: ::OVRMesh
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRMesh*
@@ -128,35 +134,35 @@ public:
 
   __declspec(property(get = get_IsInitialized, put = set_IsInitialized)) bool IsInitialized;
 
-  __declspec(property(get = get_Mesh))::UnityW<::UnityEngine::Mesh> Mesh;
+  __declspec(property(get = get_Mesh)) ::UnityW<::UnityEngine::Mesh> Mesh;
 
-  /// @brief Field <IsInitialized>k__BackingField, offset 0x30, size 0x1
+  /// @brief Field <IsInitialized>k__BackingField, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__IsInitialized_k__BackingField, put = __cordl_internal_set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
 
-  /// @brief Field _dataProvider, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataProvider, put = __cordl_internal_set__dataProvider))::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider* _dataProvider;
+  /// @brief Field _dataProvider, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__dataProvider, put = __cordl_internal_set__dataProvider)) ::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider* _dataProvider;
 
-  /// @brief Field _mesh, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
+  /// @brief Field _mesh, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh)) ::UnityW<::UnityEngine::Mesh> _mesh;
 
-  /// @brief Field _meshType, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__meshType, put = __cordl_internal_set__meshType))::GlobalNamespace::__OVRMesh__MeshType _meshType;
+  /// @brief Field _meshType, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__meshType, put = __cordl_internal_set__meshType)) ::GlobalNamespace::__OVRMesh__MeshType _meshType;
 
-  /// @brief Method Awake, addr 0x2bb97ac, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3fc12f4, size 0xf4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Initialize, addr 0x2bb98c0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3fc1408, size 0xb4, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::__OVRMesh__MeshType meshType);
 
   static inline ::GlobalNamespace::OVRMesh* New_ctor();
 
-  /// @brief Method SetMeshType, addr 0x2bb97a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMeshType, addr 0x3fc12ec, size 0x8, virtual false, abstract: false, final false
   inline void SetMeshType(::GlobalNamespace::__OVRMesh__MeshType type);
 
-  /// @brief Method ShouldInitialize, addr 0x2bb98a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ShouldInitialize, addr 0x3fc13e8, size 0x20, virtual false, abstract: false, final false
   inline bool ShouldInitialize();
 
-  /// @brief Method TransformOvrpMesh, addr 0x2bb997c, size 0xab4, virtual false, abstract: false, final false
+  /// @brief Method TransformOvrpMesh, addr 0x3fc14bc, size 0xa78, virtual false, abstract: false, final false
   inline void TransformOvrpMesh(::GlobalNamespace::__OVRPlugin__Mesh* ovrpMesh, ::UnityEngine::Mesh* mesh);
 
   constexpr bool const& __cordl_internal_get__IsInitialized_k__BackingField() const;
@@ -183,16 +189,16 @@ public:
 
   constexpr void __cordl_internal_set__meshType(::GlobalNamespace::__OVRMesh__MeshType value);
 
-  /// @brief Method .ctor, addr 0x2bba430, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc1f34, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsInitialized, addr 0x2bb9788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInitialized, addr 0x3fc12d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
-  /// @brief Method get_Mesh, addr 0x2bb979c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mesh, addr 0x3fc12e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_Mesh();
 
-  /// @brief Method set_IsInitialized, addr 0x2bb9790, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x3fc12d8, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
 protected:
@@ -209,30 +215,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRMesh(OVRMesh const&) = delete;
 
-  /// @brief Field _dataProvider, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _dataProvider, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider* ____dataProvider;
 
-  /// @brief Field _meshType, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field _meshType, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::__OVRMesh__MeshType ____meshType;
 
-  /// @brief Field _mesh, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _mesh, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____mesh;
 
-  /// @brief Field <IsInitialized>k__BackingField, offset: 0x30, size: 0x1, def value: None
+  /// @brief Field <IsInitialized>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____IsInitialized_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8404 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRMesh, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRMesh, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRMesh, ____dataProvider) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRMesh, ____dataProvider) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRMesh, ____meshType) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRMesh, ____meshType) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRMesh, ____mesh) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRMesh, ____mesh) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRMesh, ____IsInitialized_k__BackingField) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRMesh, ____IsInitialized_k__BackingField) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRMesh__MeshType, "", "OVRMesh/MeshType");

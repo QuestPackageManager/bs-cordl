@@ -16,40 +16,40 @@ struct SerializedType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ResourceManagement::Util::SerializedType);
 // Type: UnityEngine.ResourceManagement.Util::SerializedType
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: true
 // CS Name: ::UnityEngine.ResourceManagement.Util::SerializedType
 struct CORDL_TYPE SerializedType {
 public:
   // Declarations
-  __declspec(property(get = get_AssemblyName))::StringW AssemblyName;
+  __declspec(property(get = get_AssemblyName)) ::StringW AssemblyName;
 
-  __declspec(property(get = get_ClassName))::StringW ClassName;
+  __declspec(property(get = get_ClassName)) ::StringW ClassName;
 
-  __declspec(property(get = get_Value, put = set_Value))::System::Type* Value;
+  __declspec(property(get = get_Value, put = set_Value)) ::System::Type* Value;
 
   __declspec(property(get = get_ValueChanged, put = set_ValueChanged)) bool ValueChanged;
 
-  /// @brief Method ToString, addr 0x33409ec, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4720e48, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_AssemblyName, addr 0x33409dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyName, addr 0x4720e38, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyName();
 
-  /// @brief Method get_ClassName, addr 0x33409e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClassName, addr 0x4720e40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ClassName();
 
-  /// @brief Method get_Value, addr 0x3340a9c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x4720ef8, size 0x1f4, virtual false, abstract: false, final false
   inline ::System::Type* get_Value();
 
-  /// @brief Method get_ValueChanged, addr 0x3340d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValueChanged, addr 0x47211ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_ValueChanged();
 
-  /// @brief Method set_Value, addr 0x3340c90, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x47210ec, size 0xc0, virtual false, abstract: false, final false
   inline void set_Value(::System::Type* value);
 
-  /// @brief Method set_ValueChanged, addr 0x3340d58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ValueChanged, addr 0x47211b4, size 0xc, virtual false, abstract: false, final false
   inline void set_ValueChanged(bool value);
 
   // Ctor Parameters []
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field <ValueChanged>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool _ValueChanged_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15595 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

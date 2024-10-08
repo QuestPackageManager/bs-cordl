@@ -27,7 +27,7 @@ template <typename TElement, typename TKey> class OrderedEnumerable_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::OrderedEnumerable_2);
 // Type: System.Linq::OrderedEnumerable`2
-// SizeInfo { instance_size: 56, native_size: 49, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 49, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TElement, typename TKey>
@@ -37,16 +37,16 @@ class CORDL_TYPE OrderedEnumerable_2 : public ::System::Linq::OrderedEnumerable_
 public:
   // Declarations
   /// @brief Field comparer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IComparer_1<TKey>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer)) ::System::Collections::Generic::IComparer_1<TKey>* comparer;
 
   /// @brief Field descending, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_descending, put = __cordl_internal_set_descending)) bool descending;
 
   /// @brief Field keySelector, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_keySelector, put = __cordl_internal_set_keySelector))::System::Func_2<TElement, TKey>* keySelector;
+  __declspec(property(get = __cordl_internal_get_keySelector, put = __cordl_internal_set_keySelector)) ::System::Func_2<TElement, TKey>* keySelector;
 
   /// @brief Field parent, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::System::Linq::OrderedEnumerable_1<TElement>* parent;
+  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent)) ::System::Linq::OrderedEnumerable_1<TElement>* parent;
 
   /// @brief Method GetEnumerableSorter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Linq::EnumerableSorter_1<TElement>* GetEnumerableSorter(::System::Linq::EnumerableSorter_1<TElement>* next);
@@ -107,6 +107,9 @@ public:
 
   /// @brief Field descending, offset: 0x30, size: 0x1, def value: None
   bool ___descending;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13561 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,7 +20,7 @@ class PointerDispatchState;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::PointerDispatchState);
 // Type: UnityEngine.UIElements::PointerDispatchState
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::PointerDispatchState*
@@ -28,48 +28,49 @@ class CORDL_TYPE PointerDispatchState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_PendingPointerCapture, offset 0x10, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_m_PendingPointerCapture,
-               put = __cordl_internal_set_m_PendingPointerCapture))::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> m_PendingPointerCapture;
+  __declspec(property(get = __cordl_internal_get_m_PendingPointerCapture,
+                      put = __cordl_internal_set_m_PendingPointerCapture)) ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*>
+      m_PendingPointerCapture;
 
   /// @brief Field m_PointerCapture, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PointerCapture,
-                      put = __cordl_internal_set_m_PointerCapture))::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> m_PointerCapture;
+                      put = __cordl_internal_set_m_PointerCapture)) ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*>
+      m_PointerCapture;
 
   /// @brief Field m_ShouldSendCompatibilityMouseEvents, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ShouldSendCompatibilityMouseEvents,
-                      put = __cordl_internal_set_m_ShouldSendCompatibilityMouseEvents))::ArrayW<bool, ::Array<bool>*> m_ShouldSendCompatibilityMouseEvents;
+  __declspec(property(get = __cordl_internal_get_m_ShouldSendCompatibilityMouseEvents, put = __cordl_internal_set_m_ShouldSendCompatibilityMouseEvents)) ::ArrayW<bool, ::Array<bool>*>
+      m_ShouldSendCompatibilityMouseEvents;
 
-  /// @brief Method ActivateCompatibilityMouseEvents, addr 0x354d32c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ActivateCompatibilityMouseEvents, addr 0x49cb1c8, size 0x34, virtual false, abstract: false, final false
   inline void ActivateCompatibilityMouseEvents(int32_t pointerId);
 
-  /// @brief Method CapturePointer, addr 0x354cecc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CapturePointer, addr 0x49cade0, size 0x12c, virtual false, abstract: false, final false
   inline void CapturePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
-  /// @brief Method GetCapturingElement, addr 0x354d144, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetCapturingElement, addr 0x49c4a68, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IEventHandler* GetCapturingElement(int32_t pointerId);
 
-  /// @brief Method HasPointerCapture, addr 0x354ce5c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HasPointerCapture, addr 0x49cada8, size 0x38, virtual false, abstract: false, final false
   inline bool HasPointerCapture(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
   static inline ::UnityEngine::UIElements::PointerDispatchState* New_ctor();
 
-  /// @brief Method PreventCompatibilityMouseEvents, addr 0x354d424, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method PreventCompatibilityMouseEvents, addr 0x49cb2c0, size 0x30, virtual false, abstract: false, final false
   inline void PreventCompatibilityMouseEvents(int32_t pointerId);
 
-  /// @brief Method ProcessPointerCapture, addr 0x354d770, size 0x958, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerCapture, addr 0x49cb548, size 0x998, virtual false, abstract: false, final false
   inline void ProcessPointerCapture(int32_t pointerId);
 
-  /// @brief Method ReleasePointer, addr 0x354d040, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x49caf0c, size 0x3c, virtual false, abstract: false, final false
   inline void ReleasePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
-  /// @brief Method ReleasePointer, addr 0x354d238, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x49cb0d4, size 0x30, virtual false, abstract: false, final false
   inline void ReleasePointer(int32_t pointerId);
 
-  /// @brief Method Reset, addr 0x354e1a0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49cbfb8, size 0x90, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x354d578, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x49cb414, size 0x134, virtual false, abstract: false, final false
   inline bool ShouldSendCompatibilityMouseEvents(::UnityEngine::UIElements::IPointerEvent* evt);
 
   constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> const& __cordl_internal_get_m_PendingPointerCapture() const;
@@ -90,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShouldSendCompatibilityMouseEvents(::ArrayW<bool, ::Array<bool>*> value);
 
-  /// @brief Method .ctor, addr 0x354e0c8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49cbee0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,6 +116,9 @@ public:
 
   /// @brief Field m_ShouldSendCompatibilityMouseEvents, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<bool, ::Array<bool>*> ___m_ShouldSendCompatibilityMouseEvents;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5986 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

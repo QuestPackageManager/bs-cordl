@@ -19,7 +19,7 @@ class NameInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::NameInfo);
 // Type: System.Runtime.Serialization.Formatters.Binary::NameInfo
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::NameInfo*
@@ -29,10 +29,10 @@ public:
   __declspec(property(get = get_IsSealed)) bool IsSealed;
 
   /// @brief Field NIFullName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_NIFullName, put = __cordl_internal_set_NIFullName))::StringW NIFullName;
+  __declspec(property(get = __cordl_internal_get_NIFullName, put = __cordl_internal_set_NIFullName)) ::StringW NIFullName;
 
   /// @brief Field NIarrayEnum, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_NIarrayEnum, put = __cordl_internal_set_NIarrayEnum))::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE NIarrayEnum;
+  __declspec(property(get = __cordl_internal_get_NIarrayEnum, put = __cordl_internal_set_NIarrayEnum)) ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE NIarrayEnum;
 
   /// @brief Field NIassemId, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_NIassemId, put = __cordl_internal_set_NIassemId)) int64_t NIassemId;
@@ -49,14 +49,14 @@ public:
   /// @brief Field NIisSealed, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_NIisSealed, put = __cordl_internal_set_NIisSealed)) bool NIisSealed;
 
-  __declspec(property(get = get_NIname, put = set_NIname))::StringW NIname;
+  __declspec(property(get = get_NIname, put = set_NIname)) ::StringW NIname;
 
   /// @brief Field NIobjectId, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_NIobjectId, put = __cordl_internal_set_NIobjectId)) int64_t NIobjectId;
 
   /// @brief Field NIprimitiveTypeEnum, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_NIprimitiveTypeEnum,
-                      put = __cordl_internal_set_NIprimitiveTypeEnum))::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE NIprimitiveTypeEnum;
+                      put = __cordl_internal_set_NIprimitiveTypeEnum)) ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE NIprimitiveTypeEnum;
 
   /// @brief Field NIsealedStatusChecked, offset 0x44, size 0x1
   __declspec(property(get = __cordl_internal_get_NIsealedStatusChecked, put = __cordl_internal_set_NIsealedStatusChecked)) bool NIsealedStatusChecked;
@@ -68,9 +68,9 @@ public:
   __declspec(property(get = __cordl_internal_get_NItransmitTypeOnObject, put = __cordl_internal_set_NItransmitTypeOnObject)) bool NItransmitTypeOnObject;
 
   /// @brief Field NItype, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_NItype, put = __cordl_internal_set_NItype))::System::Type* NItype;
+  __declspec(property(get = __cordl_internal_get_NItype, put = __cordl_internal_set_NItype)) ::System::Type* NItype;
 
-  /// @brief Method Init, addr 0x287fa24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c999cc, size 0x20, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* New_ctor();
@@ -153,16 +153,16 @@ public:
 
   constexpr void __cordl_internal_set_NItype(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x287fa44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c999ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsSealed, addr 0x287f784, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_IsSealed, addr 0x3c99730, size 0x4c, virtual false, abstract: false, final false
   inline bool get_IsSealed();
 
-  /// @brief Method get_NIname, addr 0x2883d84, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_NIname, addr 0x3c9dba0, size 0x38, virtual false, abstract: false, final false
   inline ::StringW get_NIname();
 
-  /// @brief Method set_NIname, addr 0x2883dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NIname, addr 0x3c9dbd8, size 0x8, virtual false, abstract: false, final false
   inline void set_NIname(::StringW value);
 
 protected:
@@ -217,6 +217,9 @@ public:
 
   /// @brief Field NIsealedStatusChecked, offset: 0x44, size: 0x1, def value: None
   bool ___NIsealedStatusChecked;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3298 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

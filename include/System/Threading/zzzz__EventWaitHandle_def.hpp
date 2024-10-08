@@ -16,7 +16,7 @@ class EventWaitHandle;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::EventWaitHandle);
 // Type: System.Threading::EventWaitHandle
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::System.Threading::EventWaitHandle*
@@ -27,16 +27,16 @@ public:
 
   static inline ::System::Threading::EventWaitHandle* New_ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
-  /// @brief Method Reset, addr 0x29cd51c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3ddc844, size 0x5c, virtual false, abstract: false, final false
   inline bool Reset();
 
-  /// @brief Method Set, addr 0x29c9d94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x3dd8e0c, size 0x5c, virtual false, abstract: false, final false
   inline bool Set();
 
-  /// @brief Method .ctor, addr 0x29c8468, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd7354, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode);
 
-  /// @brief Method .ctor, addr 0x29cf1d8, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dde76c, size 0x2ac, virtual false, abstract: false, final false
   inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
 protected:
@@ -52,6 +52,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "EventWaitHandle", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   EventWaitHandle(EventWaitHandle const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2711 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ struct TransformOriginOffset;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::TransformOriginOffset);
 // Type: UnityEngine.UIElements::TransformOriginOffset
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::TransformOriginOffset
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field Top value: static_cast<int32_t>(0x3)
   static ::UnityEngine::UIElements::TransformOriginOffset const Top;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6093 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

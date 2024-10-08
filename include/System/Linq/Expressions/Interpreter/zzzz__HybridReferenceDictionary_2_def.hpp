@@ -41,7 +41,7 @@ template <typename TKey, typename TValue> class __HybridReferenceDictionary_2___
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2);
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::Interpreter::__HybridReferenceDictionary_2___GetEnumeratorWorker_d__7);
 // Type: ::<GetEnumeratorWorker>d__7
-// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // cpp template
 template <typename TKey, typename TValue>
@@ -50,19 +50,19 @@ template <typename TKey, typename TValue>
 class CORDL_TYPE __HybridReferenceDictionary_2___GetEnumeratorWorker_d__7 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_TKey_TValue___get_Current))::System::Collections::Generic::KeyValuePair_2<
-      TKey, TValue> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_TKey_TValue___Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_TKey_TValue___get_Current)) ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>
+      System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_TKey_TValue___Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Collections::Generic::KeyValuePair_2<TKey, TValue> __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> __2__current;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<TKey, TValue>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<TKey, TValue>* __4__this;
 
   /// @brief Field <i>5__2, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
@@ -157,12 +157,15 @@ public:
   /// @brief Field <i>5__2, offset: 0x30, size: 0x4, def value: None
   int32_t ____i_5__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14083 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq::Expressions::Interpreter
 // Type: System.Linq.Expressions.Interpreter::HybridReferenceDictionary`2
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // cpp template
 template <typename TKey, typename TValue>
@@ -176,12 +179,13 @@ public:
   __declspec(property(get = get_Item, put = set_Item)) TValue Item[];
 
   /// @brief Field _dict, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__dict, put = __cordl_internal_set__dict))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dict;
+  __declspec(property(get = __cordl_internal_get__dict, put = __cordl_internal_set__dict)) ::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dict;
 
   /// @brief Field _keysAndValues, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__keysAndValues,
-                      put = __cordl_internal_set__keysAndValues))::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>,
-                                                                          ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> _keysAndValues;
+  __declspec(property(
+      get = __cordl_internal_get__keysAndValues,
+      put = __cordl_internal_set__keysAndValues)) ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>
+      _keysAndValues;
 
   /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool ContainsKey(TKey key);
@@ -242,6 +246,9 @@ public:
 
   /// @brief Field _dict, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* ____dict;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14084 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

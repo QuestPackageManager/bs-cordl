@@ -13,7 +13,7 @@ struct Allocator;
 // Write type traits
 MARK_VAL_T(::Unity::Collections::Allocator);
 // Type: Unity.Collections::Allocator
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // Is value type: true
 // CS Name: ::Unity.Collections::Allocator
@@ -30,6 +30,7 @@ public:
     __E_TempJob = static_cast<int32_t>(0x3),
     __E_Persistent = static_cast<int32_t>(0x4),
     __E_AudioKernel = static_cast<int32_t>(0x5),
+    __E_FirstUserIndex = static_cast<int32_t>(0x40),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -55,6 +56,9 @@ public:
   /// @brief Field AudioKernel value: static_cast<int32_t>(0x5)
   static ::Unity::Collections::Allocator const AudioKernel;
 
+  /// @brief Field FirstUserIndex value: static_cast<int32_t>(0x40)
+  static ::Unity::Collections::Allocator const FirstUserIndex;
+
   /// @brief Field Invalid value: static_cast<int32_t>(0x0)
   static ::Unity::Collections::Allocator const Invalid;
 
@@ -69,6 +73,9 @@ public:
 
   /// @brief Field TempJob value: static_cast<int32_t>(0x3)
   static ::Unity::Collections::Allocator const TempJob;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10555 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

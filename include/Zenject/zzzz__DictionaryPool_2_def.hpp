@@ -15,7 +15,7 @@ template <typename TKey, typename TValue> class DictionaryPool_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::DictionaryPool_2);
 // Type: Zenject::DictionaryPool`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TKey, typename TValue>
@@ -25,7 +25,7 @@ class CORDL_TYPE DictionaryPool_2 : public ::Zenject::StaticMemoryPool_1<::Syste
 public:
   // Declarations
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::Zenject::DictionaryPool_2<TKey, TValue>* _instance;
+  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::Zenject::DictionaryPool_2<TKey, TValue>* _instance;
 
   static inline ::Zenject::DictionaryPool_2<TKey, TValue>* New_ctor();
 
@@ -58,6 +58,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DictionaryPool_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DictionaryPool_2(DictionaryPool_2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12394 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

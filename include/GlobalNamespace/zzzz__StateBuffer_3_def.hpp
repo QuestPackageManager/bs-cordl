@@ -58,7 +58,7 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::__StateBuffer_3__InterpolationDelegate);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__StateBuffer_3__SmoothingDelegate);
 MARK_GEN_VAL_T(::GlobalNamespace::__StateBuffer_3__TimestampedStateTable);
 // Type: ::TimestampedStateTable
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
@@ -107,6 +107,9 @@ public:
   /// @brief Field state, offset: 0x10, size: 0x8, def value: None
   TStateTable state;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14946 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -115,7 +118,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::InterpolationDelegate
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
@@ -152,12 +155,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __StateBuffer_3__InterpolationDelegate(__StateBuffer_3__InterpolationDelegate const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14947 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::SmoothingDelegate
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
@@ -194,12 +200,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __StateBuffer_3__SmoothingDelegate(__StateBuffer_3__SmoothingDelegate const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14948 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::StateBuffer`3
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
@@ -215,19 +224,19 @@ public:
   using TimestampedStateTable = ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>;
 
   /// @brief Field _buffer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__buffer,
-                      put = __cordl_internal_set__buffer))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                                                                   ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer)) ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
+                                                                                                        ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
+      _buffer;
 
   /// @brief Field _currentIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__currentIndex, put = __cordl_internal_set__currentIndex)) int32_t _currentIndex;
 
   /// @brief Field _interpolator, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__interpolator,
-                      put = __cordl_internal_set__interpolator))::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* _interpolator;
+                      put = __cordl_internal_set__interpolator)) ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* _interpolator;
 
   /// @brief Field _smoother, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__smoother, put = __cordl_internal_set__smoother))::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* _smoother;
+  __declspec(property(get = __cordl_internal_get__smoother, put = __cordl_internal_set__smoother)) ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* _smoother;
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Clear();
@@ -311,6 +320,9 @@ public:
 
   /// @brief Field _smoother, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* ____smoother;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14949 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,7 +36,7 @@ class BeatmapLightshowSaveData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::BeatmapLightshowSaveData);
 // Type: BeatmapSaveDataVersion3::BeatmapLightshowSaveData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*
@@ -44,35 +44,35 @@ class CORDL_TYPE BeatmapLightshowSaveData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _fxEventsCollection, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__fxEventsCollection, put = __cordl_internal_set__fxEventsCollection))::BeatmapSaveDataVersion3::FxEventsCollection* _fxEventsCollection;
+  __declspec(property(get = __cordl_internal_get__fxEventsCollection, put = __cordl_internal_set__fxEventsCollection)) ::BeatmapSaveDataVersion3::FxEventsCollection* _fxEventsCollection;
 
   /// @brief Field basicBeatmapEvents, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_basicBeatmapEvents,
-                      put = __cordl_internal_set_basicBeatmapEvents))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BasicEventData*>* basicBeatmapEvents;
+                      put = __cordl_internal_set_basicBeatmapEvents)) ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BasicEventData*>* basicBeatmapEvents;
 
   /// @brief Field colorBoostBeatmapEvents, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_colorBoostBeatmapEvents,
-                      put = __cordl_internal_set_colorBoostBeatmapEvents))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorBoostEventData*>* colorBoostBeatmapEvents;
+                      put = __cordl_internal_set_colorBoostBeatmapEvents)) ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorBoostEventData*>* colorBoostBeatmapEvents;
 
   __declspec(property(get = get_isEmpty)) bool isEmpty;
 
   /// @brief Field lightColorEventBoxGroups, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_lightColorEventBoxGroups,
-                      put = __cordl_internal_set_lightColorEventBoxGroups))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBoxGroup*>* lightColorEventBoxGroups;
+                      put = __cordl_internal_set_lightColorEventBoxGroups)) ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBoxGroup*>* lightColorEventBoxGroups;
 
   /// @brief Field lightRotationEventBoxGroups, offset 0x28, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_lightRotationEventBoxGroups,
-               put = __cordl_internal_set_lightRotationEventBoxGroups))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBoxGroup*>* lightRotationEventBoxGroups;
+  __declspec(property(
+      get = __cordl_internal_get_lightRotationEventBoxGroups,
+      put = __cordl_internal_set_lightRotationEventBoxGroups)) ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBoxGroup*>* lightRotationEventBoxGroups;
 
   /// @brief Field lightTranslationEventBoxGroups, offset 0x30, size 0x8
   __declspec(property(
       get = __cordl_internal_get_lightTranslationEventBoxGroups,
-      put = __cordl_internal_set_lightTranslationEventBoxGroups))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*>* lightTranslationEventBoxGroups;
+      put = __cordl_internal_set_lightTranslationEventBoxGroups)) ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*>* lightTranslationEventBoxGroups;
 
   /// @brief Field vfxEventBoxGroups, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_vfxEventBoxGroups,
-                      put = __cordl_internal_set_vfxEventBoxGroups))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>* vfxEventBoxGroups;
+                      put = __cordl_internal_set_vfxEventBoxGroups)) ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>* vfxEventBoxGroups;
 
   static inline ::BeatmapSaveDataVersion3::BeatmapLightshowSaveData* New_ctor();
 
@@ -121,10 +121,10 @@ public:
 
   constexpr void __cordl_internal_set_vfxEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>* value);
 
-  /// @brief Method .ctor, addr 0x1503ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c7ba4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isEmpty, addr 0x1503c00, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x26c7abc, size 0xe8, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
 protected:
@@ -161,6 +161,9 @@ public:
 
   /// @brief Field _fxEventsCollection, offset: 0x40, size: 0x8, def value: None
   ::BeatmapSaveDataVersion3::FxEventsCollection* ____fxEventsCollection;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13349 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

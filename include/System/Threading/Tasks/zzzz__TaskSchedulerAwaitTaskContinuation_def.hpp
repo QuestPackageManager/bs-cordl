@@ -35,7 +35,7 @@ class __TaskSchedulerAwaitTaskContinuation____c;
 MARK_REF_PTR_T(::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation);
 MARK_REF_PTR_T(::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
 // CS Name: ::TaskSchedulerAwaitTaskContinuation::<>c*
@@ -43,17 +43,17 @@ class CORDL_TYPE __TaskSchedulerAwaitTaskContinuation____c : public ::System::Ob
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation____c* __9;
 
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Action_1<::System::Object*>* __9__2_0;
+  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0)) ::System::Action_1<::System::Object*>* __9__2_0;
 
   static inline ::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation____c* New_ctor();
 
-  /// @brief Method <Run>b__2_0, addr 0x29e5e00, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <Run>b__2_0, addr 0x3df4664, size 0xf0, virtual false, abstract: false, final false
   inline void _Run_b__2_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x29e5df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df465c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation____c* getStaticF___9();
@@ -78,6 +78,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TaskSchedulerAwaitTaskContinuation____c(__TaskSchedulerAwaitTaskContinuation____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2808 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -85,7 +88,7 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__Task
 
 } // namespace System::Threading::Tasks
 // Type: System.Threading.Tasks::TaskSchedulerAwaitTaskContinuation
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
 // CS Name: ::System.Threading.Tasks::TaskSchedulerAwaitTaskContinuation*
@@ -95,11 +98,11 @@ public:
   using __c = ::System::Threading::Tasks::__TaskSchedulerAwaitTaskContinuation____c;
 
   /// @brief Field m_scheduler, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_scheduler, put = __cordl_internal_set_m_scheduler))::System::Threading::Tasks::TaskScheduler* m_scheduler;
+  __declspec(property(get = __cordl_internal_get_m_scheduler, put = __cordl_internal_set_m_scheduler)) ::System::Threading::Tasks::TaskScheduler* m_scheduler;
 
   static inline ::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation* New_ctor(::System::Threading::Tasks::TaskScheduler* scheduler, ::System::Action* action, bool flowExecutionContext);
 
-  /// @brief Method Run, addr 0x29e59a4, size 0x244, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x3df4228, size 0x23c, virtual true, abstract: false, final true
   inline void Run(::System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);
 
   constexpr ::System::Threading::Tasks::TaskScheduler*& __cordl_internal_get_m_scheduler();
@@ -108,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set_m_scheduler(::System::Threading::Tasks::TaskScheduler* value);
 
-  /// @brief Method .ctor, addr 0x29e0494, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3deee0c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::TaskScheduler* scheduler, ::System::Action* action, bool flowExecutionContext);
 
 protected:
@@ -127,6 +130,9 @@ public:
 
   /// @brief Field m_scheduler, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskScheduler* ___m_scheduler;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2809 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ class SettingsSectionInternal;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Configuration::SettingsSectionInternal);
 // Type: System.Net.Configuration::SettingsSectionInternal
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
 // CS Name: ::System.Net.Configuration::SettingsSectionInternal*
@@ -24,12 +24,12 @@ public:
   __declspec(property(get = __cordl_internal_get_HttpListenerUnescapeRequestUrl, put = __cordl_internal_set_HttpListenerUnescapeRequestUrl)) bool HttpListenerUnescapeRequestUrl;
 
   /// @brief Field IPProtectionLevel, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_IPProtectionLevel, put = __cordl_internal_set_IPProtectionLevel))::System::Net::Sockets::IPProtectionLevel IPProtectionLevel;
+  __declspec(property(get = __cordl_internal_get_IPProtectionLevel, put = __cordl_internal_set_IPProtectionLevel)) ::System::Net::Sockets::IPProtectionLevel IPProtectionLevel;
 
   __declspec(property(get = get_Ipv6Enabled)) bool Ipv6Enabled;
 
   /// @brief Field instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_instance, put = setStaticF_instance))::System::Net::Configuration::SettingsSectionInternal* instance;
+  static __declspec(property(get = getStaticF_instance, put = setStaticF_instance)) ::System::Net::Configuration::SettingsSectionInternal* instance;
 
   static inline ::System::Net::Configuration::SettingsSectionInternal* New_ctor();
 
@@ -45,15 +45,15 @@ public:
 
   constexpr void __cordl_internal_set_IPProtectionLevel(::System::Net::Sockets::IPProtectionLevel value);
 
-  /// @brief Method .ctor, addr 0x3054070, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4377cb8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Configuration::SettingsSectionInternal* getStaticF_instance();
 
-  /// @brief Method get_Ipv6Enabled, addr 0x3054068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ipv6Enabled, addr 0x4377cb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_Ipv6Enabled();
 
-  /// @brief Method get_Section, addr 0x3054010, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Section, addr 0x4377c58, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::Configuration::SettingsSectionInternal* get_Section();
 
   static inline void setStaticF_instance(::System::Net::Configuration::SettingsSectionInternal* value);
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field IPProtectionLevel, offset: 0x14, size: 0x4, def value: None
   ::System::Net::Sockets::IPProtectionLevel ___IPProtectionLevel;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9801 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

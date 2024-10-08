@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader);
 MARK_REF_PTR_T(::BGLib::MetaRemoteAssets::__MetaRemoteAssetsPreloader____c);
 MARK_VAL_T(::BGLib::MetaRemoteAssets::__MetaRemoteAssetsPreloader___PreloadAsync_d__0);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::MetaRemoteAssets {
 // Is value type: false
 // CS Name: ::MetaRemoteAssetsPreloader::<>c*
@@ -57,17 +57,17 @@ class CORDL_TYPE __MetaRemoteAssetsPreloader____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::BGLib::MetaRemoteAssets::__MetaRemoteAssetsPreloader____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsPreloader____c* __9;
 
   /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0))::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, bool>* __9__0_0;
+  static __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0)) ::System::Func_2<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, bool>* __9__0_0;
 
   static inline ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsPreloader____c* New_ctor();
 
-  /// @brief Method <PreloadAsync>b__0_0, addr 0x108c724, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method <PreloadAsync>b__0_0, addr 0x226afb4, size 0xd8, virtual false, abstract: false, final false
   inline bool _PreloadAsync_b__0_0(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* locator);
 
-  /// @brief Method .ctor, addr 0x108c71c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226afac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsPreloader____c* getStaticF___9();
@@ -92,6 +92,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MetaRemoteAssetsPreloader____c(__MetaRemoteAssetsPreloader____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18264 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -99,7 +102,7 @@ static_assert(::cordl_internals::size_check_v<::BGLib::MetaRemoteAssets::__MetaR
 
 } // namespace BGLib::MetaRemoteAssets
 // Type: ::<PreloadAsync>d__0
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::MetaRemoteAssets {
 // Is value type: true
 // CS Name: ::MetaRemoteAssetsPreloader::<PreloadAsync>d__0
@@ -109,10 +112,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x108c7fc, size 0x418, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x226b08c, size 0x458, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x108cc14, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x226b4e4, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -137,6 +140,9 @@ public:
   /// @brief Field <>u__1, offset: 0x20, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18265 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -153,7 +159,7 @@ static_assert(offsetof(::BGLib::MetaRemoteAssets::__MetaRemoteAssetsPreloader___
 
 } // namespace BGLib::MetaRemoteAssets
 // Type: BGLib.MetaRemoteAssets::MetaRemoteAssetsPreloader
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::MetaRemoteAssets {
 // Is value type: false
 // CS Name: ::BGLib.MetaRemoteAssets::MetaRemoteAssetsPreloader*
@@ -166,10 +172,10 @@ public:
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x108c5ec, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x226ae8c, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method .ctor, addr 0x108c6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226af48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -186,10 +192,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MetaRemoteAssetsPreloader(MetaRemoteAssetsPreloader const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18266 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader, 0x28>, "Size mismatch!");
 
 } // namespace BGLib::MetaRemoteAssets
 NEED_NO_BOX(::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader);

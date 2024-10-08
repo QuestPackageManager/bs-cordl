@@ -23,25 +23,25 @@ class NamedPermissionSet;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::NamedPermissionSet);
 // Type: System.Security::NamedPermissionSet
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
 // CS Name: ::System.Security::NamedPermissionSet*
 class CORDL_TYPE NamedPermissionSet : public ::System::Security::PermissionSet {
 public:
   // Declarations
-  __declspec(property(get = get_Name, put = set_Name))::StringW Name;
+  __declspec(property(get = get_Name, put = set_Name)) ::StringW Name;
 
   /// @brief Field description, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description))::StringW description;
+  __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description)) ::StringW description;
 
   /// @brief Field name, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
-  /// @brief Method Equals, addr 0x27ff0d0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3c1ed8c, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x27ff2fc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3c1efb8, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Security::NamedPermissionSet* New_ctor();
@@ -50,7 +50,7 @@ public:
 
   static inline ::System::Security::NamedPermissionSet* New_ctor(::StringW name, ::System::Security::Permissions::PermissionState state);
 
-  /// @brief Method ToXml, addr 0x27febdc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToXml, addr 0x3c1e89c, size 0x98, virtual true, abstract: false, final false
   inline ::System::Security::SecurityElement* ToXml();
 
   constexpr ::StringW const& __cordl_internal_get_description() const;
@@ -65,19 +65,19 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x27fe99c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1e66c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x27febcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1e88c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x27fea5c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1e724, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Security::Permissions::PermissionState state);
 
-  /// @brief Method get_Name, addr 0x27febd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3c1e894, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x27feb0c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x3c1e7d4, size 0xb8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:
@@ -99,6 +99,9 @@ public:
 
   /// @brief Field description, offset: 0x38, size: 0x8, def value: None
   ::StringW ___description;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2886 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

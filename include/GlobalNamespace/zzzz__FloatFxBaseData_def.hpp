@@ -17,7 +17,7 @@ class FloatFxBaseData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FloatFxBaseData);
 // Type: ::FloatFxBaseData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FloatFxBaseData*
@@ -25,7 +25,7 @@ class CORDL_TYPE FloatFxBaseData : public ::GlobalNamespace::FxBaseData {
 public:
   // Declarations
   /// @brief Field easeType, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
+  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType)) ::GlobalNamespace::EaseType easeType;
 
   /// @brief Field value, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) float_t value;
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x14c2a9c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267b554, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
 protected:
@@ -66,6 +66,9 @@ public:
 
   /// @brief Field easeType, offset: 0x1c, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ___easeType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12862 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

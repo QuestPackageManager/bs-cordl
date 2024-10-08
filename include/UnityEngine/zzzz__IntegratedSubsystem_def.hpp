@@ -20,7 +20,7 @@ class IntegratedSubsystem;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::IntegratedSubsystem);
 // Type: UnityEngine::IntegratedSubsystem
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::IntegratedSubsystem*
@@ -28,10 +28,10 @@ class CORDL_TYPE IntegratedSubsystem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
   /// @brief Field m_SubsystemDescriptor, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SubsystemDescriptor, put = __cordl_internal_set_m_SubsystemDescriptor))::UnityEngine::ISubsystemDescriptor* m_SubsystemDescriptor;
+  __declspec(property(get = __cordl_internal_get_m_SubsystemDescriptor, put = __cordl_internal_set_m_SubsystemDescriptor)) ::UnityEngine::ISubsystemDescriptor* m_SubsystemDescriptor;
 
   __declspec(property(get = get_running)) bool running;
 
@@ -40,21 +40,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Method Destroy, addr 0x34acc54, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x489f6ec, size 0x88, virtual true, abstract: false, final true
   inline void Destroy();
 
-  /// @brief Method IsRunning, addr 0x34acf6c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsRunning, addr 0x489f978, size 0x3c, virtual false, abstract: false, final false
   inline bool IsRunning();
 
   static inline ::UnityEngine::IntegratedSubsystem* New_ctor();
 
-  /// @brief Method SetHandle, addr 0x34acb98, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetHandle, addr 0x489f630, size 0x44, virtual false, abstract: false, final false
   inline void SetHandle(::UnityEngine::IntegratedSubsystem* subsystem);
 
-  /// @brief Method Start, addr 0x34acbdc, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Start, addr 0x489f674, size 0x3c, virtual true, abstract: false, final true
   inline void Start();
 
-  /// @brief Method Stop, addr 0x34acc18, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x489f6b0, size 0x3c, virtual true, abstract: false, final true
   inline void Stop();
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -69,13 +69,13 @@ public:
 
   constexpr void __cordl_internal_set_m_SubsystemDescriptor(::UnityEngine::ISubsystemDescriptor* value);
 
-  /// @brief Method .ctor, addr 0x34acfa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489f9b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_running, addr 0x34acec4, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_running, addr 0x489f908, size 0x60, virtual true, abstract: false, final true
   inline bool get_running();
 
-  /// @brief Method get_valid, addr 0x34acf18, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x489f968, size 0x10, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::UnityEngine::ISubsystem"
@@ -100,6 +100,9 @@ public:
 
   /// @brief Field m_SubsystemDescriptor, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::ISubsystemDescriptor* ___m_SubsystemDescriptor;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18604 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

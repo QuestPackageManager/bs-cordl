@@ -17,29 +17,29 @@ class MathUtils;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::MathUtils);
 // Type: Newtonsoft.Json.Utilities::MathUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::MathUtils*
 class CORDL_TYPE MathUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApproxEquals, addr 0x2a4a1ac, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ApproxEquals, addr 0x3e5b7e0, size 0xa0, virtual false, abstract: false, final false
   static inline bool ApproxEquals(double_t d1, double_t d2);
 
-  /// @brief Method IntLength, addr 0x2a49d14, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method IntLength, addr 0x3e5b348, size 0x1c4, virtual false, abstract: false, final false
   static inline int32_t IntLength(uint64_t i);
 
-  /// @brief Method IntToHex, addr 0x2a49ed8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IntToHex, addr 0x3e5b50c, size 0x18, virtual false, abstract: false, final false
   static inline char16_t IntToHex(int32_t n);
 
-  /// @brief Method Max, addr 0x2a4a0b0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x3e5b6e4, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<double_t> Max(::System::Nullable_1<double_t> val1, ::System::Nullable_1<double_t> val2);
 
-  /// @brief Method Max, addr 0x2a49fd0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x3e5b604, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<int32_t> Max(::System::Nullable_1<int32_t> val1, ::System::Nullable_1<int32_t> val2);
 
-  /// @brief Method Min, addr 0x2a49ef0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x3e5b524, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<int32_t> Min(::System::Nullable_1<int32_t> val1, ::System::Nullable_1<int32_t> val2);
 
 protected:
@@ -55,6 +55,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MathUtils", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MathUtils(MathUtils const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10223 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

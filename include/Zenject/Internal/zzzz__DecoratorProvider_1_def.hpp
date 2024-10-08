@@ -39,7 +39,7 @@ template <typename TContract> class DecoratorProvider_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::Internal::DecoratorProvider_1);
 // Type: Zenject.Internal::DecoratorProvider`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // cpp template
 template <typename TContract>
@@ -51,17 +51,17 @@ public:
   /// @brief Field _cachedInstances, offset 0x10, size 0x8
   __declspec(property(
       get = __cordl_internal_get__cachedInstances,
-      put = __cordl_internal_set__cachedInstances))::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>* _cachedInstances;
+      put = __cordl_internal_set__cachedInstances)) ::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>* _cachedInstances;
 
   /// @brief Field _container, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
   /// @brief Field _decoratorFactories, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__decoratorFactories,
-                      put = __cordl_internal_set__decoratorFactories))::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>* _decoratorFactories;
+                      put = __cordl_internal_set__decoratorFactories)) ::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>* _decoratorFactories;
 
   /// @brief Field _factoryBindIds, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__factoryBindIds, put = __cordl_internal_set__factoryBindIds))::System::Collections::Generic::List_1<::System::Guid>* _factoryBindIds;
+  __declspec(property(get = __cordl_internal_get__factoryBindIds, put = __cordl_internal_set__factoryBindIds)) ::System::Collections::Generic::List_1<::System::Guid>* _factoryBindIds;
 
   /// @brief Convert operator to "::Zenject::Internal::IDecoratorProvider"
   constexpr operator ::Zenject::Internal::IDecoratorProvider*() noexcept;
@@ -139,6 +139,9 @@ public:
 
   /// @brief Field _decoratorFactories, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>* ____decoratorFactories;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12669 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

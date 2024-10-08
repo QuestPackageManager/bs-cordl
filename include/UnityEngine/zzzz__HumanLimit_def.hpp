@@ -18,7 +18,7 @@ struct HumanLimit;
 // Write type traits
 MARK_VAL_T(::UnityEngine::HumanLimit);
 // Type: UnityEngine::HumanLimit
-// SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::HumanLimit
@@ -48,6 +48,9 @@ public:
 
   /// @brief Field m_UseDefaultValues, offset: 0x28, size: 0x4, def value: None
   int32_t m_UseDefaultValues;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16827 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c };

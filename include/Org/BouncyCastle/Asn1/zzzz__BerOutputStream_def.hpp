@@ -18,7 +18,7 @@ class BerOutputStream;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerOutputStream);
 // Type: Org.BouncyCastle.Asn1::BerOutputStream
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::BerOutputStream*
@@ -27,10 +27,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerOutputStream* New_ctor(::System::IO::Stream* os);
 
-  /// @brief Method WriteObject, addr 0x142fc18, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x25f4404, size 0x158, virtual true, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x142e2a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f2ae4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* os);
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BerOutputStream", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BerOutputStream(BerOutputStream const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 486 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

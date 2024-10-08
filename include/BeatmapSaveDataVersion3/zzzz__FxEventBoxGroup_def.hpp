@@ -24,7 +24,7 @@ class FxEventBoxGroup;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::FxEventBoxGroup);
 // Type: BeatmapSaveDataVersion3::FxEventBoxGroup
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion3::FxEventBoxGroup*
@@ -32,9 +32,9 @@ class CORDL_TYPE FxEventBoxGroup : public ::BeatmapSaveDataVersion3::EventBoxGro
 public:
   // Declarations
   /// @brief Field t, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::BeatmapSaveDataVersion3::FxEventType t;
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t)) ::BeatmapSaveDataVersion3::FxEventType t;
 
-  __declspec(property(get = get_type))::BeatmapSaveDataVersion3::FxEventType type;
+  __declspec(property(get = get_type)) ::BeatmapSaveDataVersion3::FxEventType type;
 
   static inline ::BeatmapSaveDataVersion3::FxEventBoxGroup* New_ctor(float_t beat, int32_t groupId, ::BeatmapSaveDataVersion3::FxEventType type,
                                                                      ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBox*>* eventBoxes);
@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set_t(::BeatmapSaveDataVersion3::FxEventType value);
 
-  /// @brief Method .ctor, addr 0x1503e74, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c7d20, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t groupId, ::BeatmapSaveDataVersion3::FxEventType type, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBox*>* eventBoxes);
 
-  /// @brief Method get_type, addr 0x1503e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x26c7d18, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion3::FxEventType get_type();
 
 protected:
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field t, offset: 0x20, size: 0x4, def value: None
   ::BeatmapSaveDataVersion3::FxEventType ___t;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13354 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

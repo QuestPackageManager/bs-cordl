@@ -21,7 +21,7 @@ class __Box__UxmlFactory;
 MARK_REF_PTR_T(::UnityEngine::UIElements::Box);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__Box__UxmlFactory);
 // Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::Box::UxmlFactory*
@@ -30,7 +30,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Box__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35c24e0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4912028, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,6 +47,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Box__UxmlFactory(__Box__UxmlFactory const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5495 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -54,7 +57,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Box__
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::Box
-// SizeInfo { instance_size: 944, native_size: -1, calculated_instance_size: 944, calculated_native_size: 944, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 968, native_size: -1, calculated_instance_size: 968, calculated_native_size: 968, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::Box*
@@ -64,11 +67,11 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__Box__UxmlFactory;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
+  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
   static inline ::UnityEngine::UIElements::Box* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35c23ec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4911f34, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();
@@ -89,10 +92,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Box(Box const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5496 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Box, 0x3b0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Box, 0x3c8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Box);

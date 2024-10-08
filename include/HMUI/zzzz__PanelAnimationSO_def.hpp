@@ -25,7 +25,7 @@ class PanelAnimationSO;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::PanelAnimationSO);
 // Type: HMUI::PanelAnimationSO
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::PanelAnimationSO*
@@ -33,30 +33,30 @@ class CORDL_TYPE PanelAnimationSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _alphaAnimationCurve, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__alphaAnimationCurve, put = __cordl_internal_set__alphaAnimationCurve))::UnityEngine::AnimationCurve* _alphaAnimationCurve;
+  __declspec(property(get = __cordl_internal_get__alphaAnimationCurve, put = __cordl_internal_set__alphaAnimationCurve)) ::UnityEngine::AnimationCurve* _alphaAnimationCurve;
 
   /// @brief Field _duration, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
   /// @brief Field _parentAlphaAnimationCurve, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__parentAlphaAnimationCurve, put = __cordl_internal_set__parentAlphaAnimationCurve))::UnityEngine::AnimationCurve* _parentAlphaAnimationCurve;
+  __declspec(property(get = __cordl_internal_get__parentAlphaAnimationCurve, put = __cordl_internal_set__parentAlphaAnimationCurve)) ::UnityEngine::AnimationCurve* _parentAlphaAnimationCurve;
 
   /// @brief Field _scaleXAnimationCurve, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__scaleXAnimationCurve, put = __cordl_internal_set__scaleXAnimationCurve))::UnityEngine::AnimationCurve* _scaleXAnimationCurve;
+  __declspec(property(get = __cordl_internal_get__scaleXAnimationCurve, put = __cordl_internal_set__scaleXAnimationCurve)) ::UnityEngine::AnimationCurve* _scaleXAnimationCurve;
 
   /// @brief Field _scaleYAnimationCurve, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__scaleYAnimationCurve, put = __cordl_internal_set__scaleYAnimationCurve))::UnityEngine::AnimationCurve* _scaleYAnimationCurve;
+  __declspec(property(get = __cordl_internal_get__scaleYAnimationCurve, put = __cordl_internal_set__scaleYAnimationCurve)) ::UnityEngine::AnimationCurve* _scaleYAnimationCurve;
 
-  /// @brief Method ExecuteAnimation, addr 0x25282d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x397faf4, size 0x10, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go);
 
-  /// @brief Method ExecuteAnimation, addr 0x25283ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x397fbd0, size 0x10, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::System::Action* finishedCallback);
 
-  /// @brief Method ExecuteAnimation, addr 0x25283bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x397fbe0, size 0xc, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, ::System::Action* finishedCallback);
 
-  /// @brief Method ExecuteAnimation, addr 0x25282e0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x397fb04, size 0xcc, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, bool instant, ::System::Action* finishedCallback);
 
   static inline ::HMUI::PanelAnimationSO* New_ctor();
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__scaleYAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x25283c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397fbec, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,6 +122,9 @@ public:
 
   /// @brief Field _parentAlphaAnimationCurve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____parentAlphaAnimationCurve;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15969 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

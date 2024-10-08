@@ -20,7 +20,7 @@ class ObjectHolderList;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::ObjectHolderList);
 // Type: System.Runtime.Serialization::ObjectHolderList
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization::ObjectHolderList*
@@ -36,15 +36,16 @@ public:
 
   /// @brief Field m_values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_values,
-                      put = __cordl_internal_set_m_values))::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*> m_values;
+                      put = __cordl_internal_set_m_values)) ::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*>
+      m_values;
 
-  /// @brief Method Add, addr 0x286a9c8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x3c85d80, size 0x74, virtual true, abstract: false, final false
   inline void Add(::System::Runtime::Serialization::ObjectHolder* value);
 
-  /// @brief Method EnlargeArray, addr 0x286aa70, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EnlargeArray, addr 0x3c85df4, size 0x88, virtual false, abstract: false, final false
   inline void EnlargeArray();
 
-  /// @brief Method GetFixupEnumerator, addr 0x2869920, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetFixupEnumerator, addr 0x3c84d30, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ObjectHolderListEnumerator* GetFixupEnumerator();
 
   static inline ::System::Runtime::Serialization::ObjectHolderList* New_ctor();
@@ -63,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set_m_values(::ArrayW<::System::Runtime::Serialization::ObjectHolder*, ::Array<::System::Runtime::Serialization::ObjectHolder*>*> value);
 
-  /// @brief Method .ctor, addr 0x2866b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c81ffc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x286a95c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c85d14, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t startingSize);
 
-  /// @brief Method get_Count, addr 0x286ab48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3c85ecc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Version, addr 0x286ab40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x3c85ec4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
 protected:
@@ -94,6 +95,9 @@ public:
 
   /// @brief Field m_count, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_count;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

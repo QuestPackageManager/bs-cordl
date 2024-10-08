@@ -42,7 +42,7 @@ class __InjectUtil____c;
 MARK_REF_PTR_T(::Zenject::InjectUtil);
 MARK_REF_PTR_T(::Zenject::__InjectUtil____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::InjectUtil::<>c*
@@ -50,23 +50,23 @@ class CORDL_TYPE __InjectUtil____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Zenject::__InjectUtil____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Zenject::__InjectUtil____c* __9;
 
   /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0))::System::Func_2<::System::Object*, ::Zenject::TypeValuePair>* __9__0_0;
+  static __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0)) ::System::Func_2<::System::Object*, ::Zenject::TypeValuePair>* __9__0_0;
 
   static inline ::Zenject::__InjectUtil____c* New_ctor();
 
-  /// @brief Method <CreateArgList>b__0_0, addr 0x3682b30, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <CreateArgList>b__0_0, addr 0x4aa7724, size 0x28, virtual false, abstract: false, final false
   inline ::Zenject::TypeValuePair _CreateArgList_b__0_0(::System::Object* x);
 
-  /// @brief Method __zenCreate, addr 0x3682b58, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4aa774c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3682bb4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4aa77a0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3682b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa771c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::__InjectUtil____c* getStaticF___9();
@@ -91,6 +91,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InjectUtil____c(__InjectUtil____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12414 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -98,7 +101,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__InjectUtil____c, 0x10
 
 } // namespace Zenject
 // Type: Zenject::InjectUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::InjectUtil*
@@ -107,7 +110,7 @@ public:
   // Declarations
   using __c = ::Zenject::__InjectUtil____c;
 
-  /// @brief Method CreateArgList, addr 0x3682828, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CreateArgList, addr 0x4aa7420, size 0x160, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateArgList(::System::Collections::Generic::IEnumerable_1<::System::Object*>* args);
 
   /// @brief Method CreateArgListExplicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -135,7 +138,7 @@ public:
   /// @brief Method CreateTypePair, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Zenject::TypeValuePair CreateTypePair(T param);
 
-  /// @brief Method PopValueWithType, addr 0x3682988, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method PopValueWithType, addr 0x4aa7580, size 0x140, virtual false, abstract: false, final false
   static inline bool PopValueWithType(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgMap, ::System::Type* injectedFieldType, ByRef<::System::Object*> value);
 
 protected:
@@ -151,6 +154,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InjectUtil", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InjectUtil(InjectUtil const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12415 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,7 +20,7 @@ template <typename TFirst, typename TSecond> class BidirectionalDictionary_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::BidirectionalDictionary_2);
 // Type: Newtonsoft.Json.Utilities::BidirectionalDictionary`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TFirst, typename TSecond>
@@ -30,16 +30,16 @@ class CORDL_TYPE BidirectionalDictionary_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _duplicateFirstErrorMessage, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__duplicateFirstErrorMessage, put = __cordl_internal_set__duplicateFirstErrorMessage))::StringW _duplicateFirstErrorMessage;
+  __declspec(property(get = __cordl_internal_get__duplicateFirstErrorMessage, put = __cordl_internal_set__duplicateFirstErrorMessage)) ::StringW _duplicateFirstErrorMessage;
 
   /// @brief Field _duplicateSecondErrorMessage, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__duplicateSecondErrorMessage, put = __cordl_internal_set__duplicateSecondErrorMessage))::StringW _duplicateSecondErrorMessage;
+  __declspec(property(get = __cordl_internal_get__duplicateSecondErrorMessage, put = __cordl_internal_set__duplicateSecondErrorMessage)) ::StringW _duplicateSecondErrorMessage;
 
   /// @brief Field _firstToSecond, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__firstToSecond, put = __cordl_internal_set__firstToSecond))::System::Collections::Generic::IDictionary_2<TFirst, TSecond>* _firstToSecond;
+  __declspec(property(get = __cordl_internal_get__firstToSecond, put = __cordl_internal_set__firstToSecond)) ::System::Collections::Generic::IDictionary_2<TFirst, TSecond>* _firstToSecond;
 
   /// @brief Field _secondToFirst, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__secondToFirst, put = __cordl_internal_set__secondToFirst))::System::Collections::Generic::IDictionary_2<TSecond, TFirst>* _secondToFirst;
+  __declspec(property(get = __cordl_internal_get__secondToFirst, put = __cordl_internal_set__secondToFirst)) ::System::Collections::Generic::IDictionary_2<TSecond, TFirst>* _secondToFirst;
 
   static inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>* New_ctor();
 
@@ -118,6 +118,9 @@ public:
 
   /// @brief Field _duplicateSecondErrorMessage, offset: 0x28, size: 0x8, def value: None
   ::StringW ____duplicateSecondErrorMessage;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10154 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -46,7 +46,7 @@ struct __IgnoranceClient__ThreadParamInfo;
 MARK_REF_PTR_T(::IgnoranceCore::IgnoranceClient);
 MARK_VAL_T(::IgnoranceCore::__IgnoranceClient__ThreadParamInfo);
 // Type: ::ThreadParamInfo
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace IgnoranceCore {
 // Is value type: true
 // CS Name: ::IgnoranceClient::ThreadParamInfo
@@ -95,6 +95,9 @@ public:
   /// @brief Field RootCertificate, offset: 0x30, size: 0x8, def value: None
   ::StringW RootCertificate;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17699 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
@@ -125,7 +128,7 @@ static_assert(offsetof(::IgnoranceCore::__IgnoranceClient__ThreadParamInfo, Root
 
 } // namespace IgnoranceCore
 // Type: IgnoranceCore::IgnoranceClient
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace IgnoranceCore {
 // Is value type: false
 // CS Name: ::IgnoranceCore::IgnoranceClient*
@@ -138,10 +141,10 @@ public:
   __declspec(property(get = __cordl_internal_get_CeaseOperation, put = __cordl_internal_set_CeaseOperation)) bool CeaseOperation;
 
   /// @brief Field Commands, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_Commands, put = __cordl_internal_set_Commands))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>* Commands;
+  __declspec(property(get = __cordl_internal_get_Commands, put = __cordl_internal_set_Commands)) ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>* Commands;
 
   /// @brief Field ConnectAddress, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ConnectAddress, put = __cordl_internal_set_ConnectAddress))::StringW ConnectAddress;
+  __declspec(property(get = __cordl_internal_get_ConnectAddress, put = __cordl_internal_set_ConnectAddress)) ::StringW ConnectAddress;
 
   /// @brief Field ConnectPort, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_ConnectPort, put = __cordl_internal_set_ConnectPort)) int32_t ConnectPort;
@@ -151,17 +154,17 @@ public:
 
   /// @brief Field ConnectionEvents, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_ConnectionEvents,
-                      put = __cordl_internal_set_ConnectionEvents))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* ConnectionEvents;
+                      put = __cordl_internal_set_ConnectionEvents)) ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* ConnectionEvents;
 
   /// @brief Field DisconnectionEvents, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_DisconnectionEvents,
-                      put = __cordl_internal_set_DisconnectionEvents))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* DisconnectionEvents;
+                      put = __cordl_internal_set_DisconnectionEvents)) ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* DisconnectionEvents;
 
   /// @brief Field ExpectedChannels, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_ExpectedChannels, put = __cordl_internal_set_ExpectedChannels)) int32_t ExpectedChannels;
 
   /// @brief Field Incoming, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_Incoming, put = __cordl_internal_set_Incoming))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>* Incoming;
+  __declspec(property(get = __cordl_internal_get_Incoming, put = __cordl_internal_set_Incoming)) ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>* Incoming;
 
   /// @brief Field IncomingOutgoingBufferSize, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_IncomingOutgoingBufferSize, put = __cordl_internal_set_IncomingOutgoingBufferSize)) int32_t IncomingOutgoingBufferSize;
@@ -172,19 +175,19 @@ public:
   __declspec(property(get = __cordl_internal_get_MaximumPacketSize, put = __cordl_internal_set_MaximumPacketSize)) int32_t MaximumPacketSize;
 
   /// @brief Field Outgoing, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_Outgoing, put = __cordl_internal_set_Outgoing))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>* Outgoing;
+  __declspec(property(get = __cordl_internal_get_Outgoing, put = __cordl_internal_set_Outgoing)) ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>* Outgoing;
 
   /// @brief Field PollTime, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_PollTime, put = __cordl_internal_set_PollTime)) int32_t PollTime;
 
   /// @brief Field RootCertificate, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_RootCertificate, put = __cordl_internal_set_RootCertificate))::StringW RootCertificate;
+  __declspec(property(get = __cordl_internal_get_RootCertificate, put = __cordl_internal_set_RootCertificate)) ::StringW RootCertificate;
 
   /// @brief Field RootCertificatePath, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_RootCertificatePath, put = __cordl_internal_set_RootCertificatePath))::StringW RootCertificatePath;
+  __declspec(property(get = __cordl_internal_get_RootCertificatePath, put = __cordl_internal_set_RootCertificatePath)) ::StringW RootCertificatePath;
 
   /// @brief Field StatusUpdates, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_StatusUpdates, put = __cordl_internal_set_StatusUpdates))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceClientStats>* StatusUpdates;
+  __declspec(property(get = __cordl_internal_get_StatusUpdates, put = __cordl_internal_set_StatusUpdates)) ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceClientStats>* StatusUpdates;
 
   /// @brief Field UseSsl, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get_UseSsl, put = __cordl_internal_set_UseSsl)) bool UseSsl;
@@ -196,20 +199,20 @@ public:
   __declspec(property(get = __cordl_internal_get_Verbosity, put = __cordl_internal_set_Verbosity)) int32_t Verbosity;
 
   /// @brief Field WorkerThread, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_WorkerThread, put = __cordl_internal_set_WorkerThread))::System::Threading::Thread* WorkerThread;
+  __declspec(property(get = __cordl_internal_get_WorkerThread, put = __cordl_internal_set_WorkerThread)) ::System::Threading::Thread* WorkerThread;
 
   static inline ::IgnoranceCore::IgnoranceClient* New_ctor();
 
-  /// @brief Method SetupRingBuffersIfNull, addr 0x2604708, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method SetupRingBuffersIfNull, addr 0x3a3dc8c, size 0x230, virtual false, abstract: false, final false
   inline void SetupRingBuffersIfNull();
 
-  /// @brief Method Start, addr 0x2604398, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3a3d918, size 0x374, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x260494c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x3a3debc, size 0x90, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method ThreadWorker, addr 0x26049dc, size 0xe90, virtual false, abstract: false, final false
+  /// @brief Method ThreadWorker, addr 0x3a3df4c, size 0xf34, virtual false, abstract: false, final false
   inline void ThreadWorker(::System::Object* parameters);
 
   constexpr bool const& __cordl_internal_get_CeaseOperation() const;
@@ -332,10 +335,10 @@ public:
 
   constexpr void __cordl_internal_set_WorkerThread(::System::Threading::Thread* value);
 
-  /// @brief Method .ctor, addr 0x260586c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a3ee80, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsAlive, addr 0x2604384, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsAlive, addr 0x3a3d904, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsAlive();
 
 protected:
@@ -411,6 +414,9 @@ public:
 
   /// @brief Field WorkerThread, offset: 0x80, size: 0x8, def value: None
   ::System::Threading::Thread* ___WorkerThread;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17700 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

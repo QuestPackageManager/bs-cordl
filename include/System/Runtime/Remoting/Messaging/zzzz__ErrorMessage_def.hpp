@@ -36,7 +36,7 @@ class ErrorMessage;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ErrorMessage);
 // Type: System.Runtime.Remoting.Messaging::ErrorMessage
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::ErrorMessage*
@@ -45,24 +45,24 @@ public:
   // Declarations
   __declspec(property(get = get_ArgCount)) int32_t ArgCount;
 
-  __declspec(property(get = get_Args))::ArrayW<::System::Object*, ::Array<::System::Object*>*> Args;
+  __declspec(property(get = get_Args)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> Args;
 
-  __declspec(property(get = get_LogicalCallContext))::System::Runtime::Remoting::Messaging::LogicalCallContext* LogicalCallContext;
+  __declspec(property(get = get_LogicalCallContext)) ::System::Runtime::Remoting::Messaging::LogicalCallContext* LogicalCallContext;
 
-  __declspec(property(get = get_MethodBase))::System::Reflection::MethodBase* MethodBase;
+  __declspec(property(get = get_MethodBase)) ::System::Reflection::MethodBase* MethodBase;
 
-  __declspec(property(get = get_MethodName))::StringW MethodName;
+  __declspec(property(get = get_MethodName)) ::StringW MethodName;
 
-  __declspec(property(get = get_MethodSignature))::System::Object* MethodSignature;
+  __declspec(property(get = get_MethodSignature)) ::System::Object* MethodSignature;
 
-  __declspec(property(get = get_Properties))::System::Collections::IDictionary* Properties;
+  __declspec(property(get = get_Properties)) ::System::Collections::IDictionary* Properties;
 
-  __declspec(property(get = get_TypeName))::StringW TypeName;
+  __declspec(property(get = get_TypeName)) ::StringW TypeName;
 
-  __declspec(property(get = get_Uri))::StringW Uri;
+  __declspec(property(get = get_Uri)) ::StringW Uri;
 
   /// @brief Field _uri, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__uri, put = __cordl_internal_set__uri))::StringW _uri;
+  __declspec(property(get = __cordl_internal_get__uri, put = __cordl_internal_set__uri)) ::StringW _uri;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
@@ -73,7 +73,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
 
-  /// @brief Method GetArg, addr 0x285a764, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetArg, addr 0x3c77194, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* GetArg(int32_t arg_num);
 
   static inline ::System::Runtime::Remoting::Messaging::ErrorMessage* New_ctor();
@@ -84,34 +84,34 @@ public:
 
   constexpr void __cordl_internal_set__uri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2850a38, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c6d678, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ArgCount, addr 0x285a6b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ArgCount, addr 0x3c770e4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_ArgCount();
 
-  /// @brief Method get_Args, addr 0x285a6bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Args, addr 0x3c770ec, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_Args();
 
-  /// @brief Method get_LogicalCallContext, addr 0x285a76c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LogicalCallContext, addr 0x3c7719c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
 
-  /// @brief Method get_MethodBase, addr 0x285a6c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MethodBase, addr 0x3c770f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodBase* get_MethodBase();
 
-  /// @brief Method get_MethodName, addr 0x285a6cc, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_MethodName, addr 0x3c770fc, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_MethodName();
 
-  /// @brief Method get_MethodSignature, addr 0x285a70c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MethodSignature, addr 0x3c7713c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_MethodSignature();
 
-  /// @brief Method get_Properties, addr 0x285a714, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x3c77144, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
-  /// @brief Method get_TypeName, addr 0x285a71c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_TypeName, addr 0x3c7714c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_TypeName();
 
-  /// @brief Method get_Uri, addr 0x285a75c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Uri, addr 0x3c7718c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_Uri();
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
@@ -139,6 +139,9 @@ public:
 
   /// @brief Field _uri, offset: 0x10, size: 0x8, def value: None
   ::StringW ____uri;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3163 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

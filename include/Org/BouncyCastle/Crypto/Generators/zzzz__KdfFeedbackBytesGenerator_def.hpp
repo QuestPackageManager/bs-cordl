@@ -32,23 +32,23 @@ class KdfFeedbackBytesGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::KdfFeedbackBytesGenerator);
 // Type: Org.BouncyCastle.Crypto.Generators::KdfFeedbackBytesGenerator
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::KdfFeedbackBytesGenerator*
 class CORDL_TYPE KdfFeedbackBytesGenerator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Digest))::Org::BouncyCastle::Crypto::IDigest* Digest;
+  __declspec(property(get = get_Digest)) ::Org::BouncyCastle::Crypto::IDigest* Digest;
 
   /// @brief Field IntegerMax, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IntegerMax, put = setStaticF_IntegerMax))::Org::BouncyCastle::Math::BigInteger* IntegerMax;
+  static __declspec(property(get = getStaticF_IntegerMax, put = setStaticF_IntegerMax)) ::Org::BouncyCastle::Math::BigInteger* IntegerMax;
 
   /// @brief Field Two, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Two, put = setStaticF_Two))::Org::BouncyCastle::Math::BigInteger* Two;
+  static __declspec(property(get = getStaticF_Two, put = setStaticF_Two)) ::Org::BouncyCastle::Math::BigInteger* Two;
 
   /// @brief Field fixedInputData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_fixedInputData, put = __cordl_internal_set_fixedInputData))::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData;
+  __declspec(property(get = __cordl_internal_get_fixedInputData, put = __cordl_internal_set_fixedInputData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData;
 
   /// @brief Field generatedBytes, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_generatedBytes, put = __cordl_internal_set_generatedBytes)) int32_t generatedBytes;
@@ -57,19 +57,19 @@ public:
   __declspec(property(get = __cordl_internal_get_h, put = __cordl_internal_set_h)) int32_t h;
 
   /// @brief Field ios, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_ios, put = __cordl_internal_set_ios))::ArrayW<uint8_t, ::Array<uint8_t>*> ios;
+  __declspec(property(get = __cordl_internal_get_ios, put = __cordl_internal_set_ios)) ::ArrayW<uint8_t, ::Array<uint8_t>*> ios;
 
   /// @brief Field iv, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv))::ArrayW<uint8_t, ::Array<uint8_t>*> iv;
+  __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv)) ::ArrayW<uint8_t, ::Array<uint8_t>*> iv;
 
   /// @brief Field k, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_k, put = __cordl_internal_set_k))::ArrayW<uint8_t, ::Array<uint8_t>*> k;
+  __declspec(property(get = __cordl_internal_get_k, put = __cordl_internal_set_k)) ::ArrayW<uint8_t, ::Array<uint8_t>*> k;
 
   /// @brief Field maxSizeExcl, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_maxSizeExcl, put = __cordl_internal_set_maxSizeExcl)) int32_t maxSizeExcl;
 
   /// @brief Field prf, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_prf, put = __cordl_internal_set_prf))::Org::BouncyCastle::Crypto::IMac* prf;
+  __declspec(property(get = __cordl_internal_get_prf, put = __cordl_internal_set_prf)) ::Org::BouncyCastle::Crypto::IMac* prf;
 
   /// @brief Field useCounter, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_useCounter, put = __cordl_internal_set_useCounter)) bool useCounter;
@@ -80,13 +80,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMacDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IMacDerivationFunction*() noexcept;
 
-  /// @brief Method GenerateBytes, addr 0x1170080, size 0x208, virtual true, abstract: false, final true
+  /// @brief Method GenerateBytes, addr 0x2348cb8, size 0x200, virtual true, abstract: false, final true
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t length);
 
-  /// @brief Method GetMac, addr 0x1170614, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMac, addr 0x2349230, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IMac* GetMac();
 
-  /// @brief Method Init, addr 0x116fd3c, size 0x2bc, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x234897c, size 0x2b4, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::KdfFeedbackBytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IMac* prf);
@@ -145,17 +145,17 @@ public:
 
   constexpr void __cordl_internal_set_useCounter(bool value);
 
-  /// @brief Method .ctor, addr 0x116fc5c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x234889c, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* prf);
 
-  /// @brief Method generateNext, addr 0x1170288, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method generateNext, addr 0x2348eb8, size 0x378, virtual false, abstract: false, final false
   inline void generateNext();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_IntegerMax();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Two();
 
-  /// @brief Method get_Digest, addr 0x116fff8, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_Digest, addr 0x2348c30, size 0x88, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
@@ -208,6 +208,9 @@ public:
 
   /// @brief Field k, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___k;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 912 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

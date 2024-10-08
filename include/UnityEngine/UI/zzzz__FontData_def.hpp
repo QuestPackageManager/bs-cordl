@@ -36,7 +36,7 @@ class FontData;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::FontData);
 // Type: UnityEngine.UI::FontData
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
 // CS Name: ::UnityEngine.UI::FontData*
@@ -45,17 +45,17 @@ public:
   // Declarations
   __declspec(property(get = get_alignByGeometry, put = set_alignByGeometry)) bool alignByGeometry;
 
-  __declspec(property(get = get_alignment, put = set_alignment))::UnityEngine::TextAnchor alignment;
+  __declspec(property(get = get_alignment, put = set_alignment)) ::UnityEngine::TextAnchor alignment;
 
   __declspec(property(get = get_bestFit, put = set_bestFit)) bool bestFit;
 
-  __declspec(property(get = get_font, put = set_font))::UnityW<::UnityEngine::Font> font;
+  __declspec(property(get = get_font, put = set_font)) ::UnityW<::UnityEngine::Font> font;
 
   __declspec(property(get = get_fontSize, put = set_fontSize)) int32_t fontSize;
 
-  __declspec(property(get = get_fontStyle, put = set_fontStyle))::UnityEngine::FontStyle fontStyle;
+  __declspec(property(get = get_fontStyle, put = set_fontStyle)) ::UnityEngine::FontStyle fontStyle;
 
-  __declspec(property(get = get_horizontalOverflow, put = set_horizontalOverflow))::UnityEngine::HorizontalWrapMode horizontalOverflow;
+  __declspec(property(get = get_horizontalOverflow, put = set_horizontalOverflow)) ::UnityEngine::HorizontalWrapMode horizontalOverflow;
 
   __declspec(property(get = get_lineSpacing, put = set_lineSpacing)) float_t lineSpacing;
 
@@ -63,22 +63,22 @@ public:
   __declspec(property(get = __cordl_internal_get_m_AlignByGeometry, put = __cordl_internal_set_m_AlignByGeometry)) bool m_AlignByGeometry;
 
   /// @brief Field m_Alignment, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Alignment, put = __cordl_internal_set_m_Alignment))::UnityEngine::TextAnchor m_Alignment;
+  __declspec(property(get = __cordl_internal_get_m_Alignment, put = __cordl_internal_set_m_Alignment)) ::UnityEngine::TextAnchor m_Alignment;
 
   /// @brief Field m_BestFit, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_m_BestFit, put = __cordl_internal_set_m_BestFit)) bool m_BestFit;
 
   /// @brief Field m_Font, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Font, put = __cordl_internal_set_m_Font))::UnityW<::UnityEngine::Font> m_Font;
+  __declspec(property(get = __cordl_internal_get_m_Font, put = __cordl_internal_set_m_Font)) ::UnityW<::UnityEngine::Font> m_Font;
 
   /// @brief Field m_FontSize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_FontSize, put = __cordl_internal_set_m_FontSize)) int32_t m_FontSize;
 
   /// @brief Field m_FontStyle, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_FontStyle, put = __cordl_internal_set_m_FontStyle))::UnityEngine::FontStyle m_FontStyle;
+  __declspec(property(get = __cordl_internal_get_m_FontStyle, put = __cordl_internal_set_m_FontStyle)) ::UnityEngine::FontStyle m_FontStyle;
 
   /// @brief Field m_HorizontalOverflow, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_HorizontalOverflow, put = __cordl_internal_set_m_HorizontalOverflow))::UnityEngine::HorizontalWrapMode m_HorizontalOverflow;
+  __declspec(property(get = __cordl_internal_get_m_HorizontalOverflow, put = __cordl_internal_set_m_HorizontalOverflow)) ::UnityEngine::HorizontalWrapMode m_HorizontalOverflow;
 
   /// @brief Field m_LineSpacing, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LineSpacing, put = __cordl_internal_set_m_LineSpacing)) float_t m_LineSpacing;
@@ -93,7 +93,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_RichText, put = __cordl_internal_set_m_RichText)) bool m_RichText;
 
   /// @brief Field m_VerticalOverflow, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_VerticalOverflow, put = __cordl_internal_set_m_VerticalOverflow))::UnityEngine::VerticalWrapMode m_VerticalOverflow;
+  __declspec(property(get = __cordl_internal_get_m_VerticalOverflow, put = __cordl_internal_set_m_VerticalOverflow)) ::UnityEngine::VerticalWrapMode m_VerticalOverflow;
 
   __declspec(property(get = get_maxSize, put = set_maxSize)) int32_t maxSize;
 
@@ -101,17 +101,17 @@ public:
 
   __declspec(property(get = get_richText, put = set_richText)) bool richText;
 
-  __declspec(property(get = get_verticalOverflow, put = set_verticalOverflow))::UnityEngine::VerticalWrapMode verticalOverflow;
+  __declspec(property(get = get_verticalOverflow, put = set_verticalOverflow)) ::UnityEngine::VerticalWrapMode verticalOverflow;
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
   static inline ::UnityEngine::UI::FontData* New_ctor();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x34ec41c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x48e60a4, size 0x44, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x34ec418, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x48e60a0, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
   constexpr bool const& __cordl_internal_get_m_AlignByGeometry() const;
@@ -186,85 +186,85 @@ public:
 
   constexpr void __cordl_internal_set_m_VerticalOverflow(::UnityEngine::VerticalWrapMode value);
 
-  /// @brief Method .ctor, addr 0x34ec344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48e5fcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alignByGeometry, addr 0x34ec3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_alignByGeometry, addr 0x48e6048, size 0x8, virtual false, abstract: false, final false
   inline bool get_alignByGeometry();
 
-  /// @brief Method get_alignment, addr 0x34ec3b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_alignment, addr 0x48e6038, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextAnchor get_alignment();
 
-  /// @brief Method get_bestFit, addr 0x34ec37c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bestFit, addr 0x48e6004, size 0x8, virtual false, abstract: false, final false
   inline bool get_bestFit();
 
-  /// @brief Method get_defaultFontData, addr 0x34ec2b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_defaultFontData, addr 0x48e5f3c, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::FontData* get_defaultFontData();
 
-  /// @brief Method get_font, addr 0x34ec34c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_font, addr 0x48e5fd4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Font> get_font();
 
-  /// @brief Method get_fontSize, addr 0x34ec35c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontSize, addr 0x48e5fe4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fontSize();
 
-  /// @brief Method get_fontStyle, addr 0x34ec36c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontStyle, addr 0x48e5ff4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::FontStyle get_fontStyle();
 
-  /// @brief Method get_horizontalOverflow, addr 0x34ec3e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalOverflow, addr 0x48e6070, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::HorizontalWrapMode get_horizontalOverflow();
 
-  /// @brief Method get_lineSpacing, addr 0x34ec408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineSpacing, addr 0x48e6090, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lineSpacing();
 
-  /// @brief Method get_maxSize, addr 0x34ec3a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxSize, addr 0x48e6028, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxSize();
 
-  /// @brief Method get_minSize, addr 0x34ec390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minSize, addr 0x48e6018, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minSize();
 
-  /// @brief Method get_richText, addr 0x34ec3d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_richText, addr 0x48e605c, size 0x8, virtual false, abstract: false, final false
   inline bool get_richText();
 
-  /// @brief Method get_verticalOverflow, addr 0x34ec3f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalOverflow, addr 0x48e6080, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::VerticalWrapMode get_verticalOverflow();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  /// @brief Method set_alignByGeometry, addr 0x34ec3c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_alignByGeometry, addr 0x48e6050, size 0xc, virtual false, abstract: false, final false
   inline void set_alignByGeometry(bool value);
 
-  /// @brief Method set_alignment, addr 0x34ec3b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_alignment, addr 0x48e6040, size 0x8, virtual false, abstract: false, final false
   inline void set_alignment(::UnityEngine::TextAnchor value);
 
-  /// @brief Method set_bestFit, addr 0x34ec384, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_bestFit, addr 0x48e600c, size 0xc, virtual false, abstract: false, final false
   inline void set_bestFit(bool value);
 
-  /// @brief Method set_font, addr 0x34ec354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_font, addr 0x48e5fdc, size 0x8, virtual false, abstract: false, final false
   inline void set_font(::UnityEngine::Font* value);
 
-  /// @brief Method set_fontSize, addr 0x34ec364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fontSize, addr 0x48e5fec, size 0x8, virtual false, abstract: false, final false
   inline void set_fontSize(int32_t value);
 
-  /// @brief Method set_fontStyle, addr 0x34ec374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fontStyle, addr 0x48e5ffc, size 0x8, virtual false, abstract: false, final false
   inline void set_fontStyle(::UnityEngine::FontStyle value);
 
-  /// @brief Method set_horizontalOverflow, addr 0x34ec3f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalOverflow, addr 0x48e6078, size 0x8, virtual false, abstract: false, final false
   inline void set_horizontalOverflow(::UnityEngine::HorizontalWrapMode value);
 
-  /// @brief Method set_lineSpacing, addr 0x34ec410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineSpacing, addr 0x48e6098, size 0x8, virtual false, abstract: false, final false
   inline void set_lineSpacing(float_t value);
 
-  /// @brief Method set_maxSize, addr 0x34ec3a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxSize, addr 0x48e6030, size 0x8, virtual false, abstract: false, final false
   inline void set_maxSize(int32_t value);
 
-  /// @brief Method set_minSize, addr 0x34ec398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minSize, addr 0x48e6020, size 0x8, virtual false, abstract: false, final false
   inline void set_minSize(int32_t value);
 
-  /// @brief Method set_richText, addr 0x34ec3dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_richText, addr 0x48e6064, size 0xc, virtual false, abstract: false, final false
   inline void set_richText(bool value);
 
-  /// @brief Method set_verticalOverflow, addr 0x34ec400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_verticalOverflow, addr 0x48e6088, size 0x8, virtual false, abstract: false, final false
   inline void set_verticalOverflow(::UnityEngine::VerticalWrapMode value);
 
 protected:
@@ -316,6 +316,9 @@ public:
 
   /// @brief Field m_LineSpacing, offset: 0x3c, size: 0x4, def value: None
   float_t ___m_LineSpacing;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15008 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

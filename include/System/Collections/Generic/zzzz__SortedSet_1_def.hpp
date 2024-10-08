@@ -112,7 +112,7 @@ MARK_GEN_REF_PTR_T(::System::Collections::Generic::__SortedSet_1____c__DisplayCl
 MARK_GEN_VAL_T(::System::Collections::Generic::__SortedSet_1__ElementCount);
 MARK_GEN_VAL_T(::System::Collections::Generic::__SortedSet_1__Enumerator);
 // Type: ::Node
-// SizeInfo { instance_size: 48, native_size: 41, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 41, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -121,7 +121,7 @@ template <typename T>
 class CORDL_TYPE __SortedSet_1__Node : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Color, put = set_Color))::System::Collections::Generic::NodeColor Color;
+  __declspec(property(get = get_Color, put = set_Color)) ::System::Collections::Generic::NodeColor Color;
 
   __declspec(property(get = get_Is2Node)) bool Is2Node;
 
@@ -133,22 +133,23 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) T Item;
 
-  __declspec(property(get = get_Left, put = set_Left))::System::Collections::Generic::__SortedSet_1__Node<T>* Left;
+  __declspec(property(get = get_Left, put = set_Left)) ::System::Collections::Generic::__SortedSet_1__Node<T>* Left;
 
-  __declspec(property(get = get_Right, put = set_Right))::System::Collections::Generic::__SortedSet_1__Node<T>* Right;
+  __declspec(property(get = get_Right, put = set_Right)) ::System::Collections::Generic::__SortedSet_1__Node<T>* Right;
 
   /// @brief Field <Color>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__Color_k__BackingField, put = __cordl_internal_set__Color_k__BackingField))::System::Collections::Generic::NodeColor _Color_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Color_k__BackingField, put = __cordl_internal_set__Color_k__BackingField)) ::System::Collections::Generic::NodeColor _Color_k__BackingField;
 
   /// @brief Field <Item>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Item_k__BackingField, put = __cordl_internal_set__Item_k__BackingField)) T _Item_k__BackingField;
 
   /// @brief Field <Left>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Left_k__BackingField, put = __cordl_internal_set__Left_k__BackingField))::System::Collections::Generic::__SortedSet_1__Node<T>* _Left_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Left_k__BackingField,
+                      put = __cordl_internal_set__Left_k__BackingField)) ::System::Collections::Generic::__SortedSet_1__Node<T>* _Left_k__BackingField;
 
   /// @brief Field <Right>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__Right_k__BackingField,
-                      put = __cordl_internal_set__Right_k__BackingField))::System::Collections::Generic::__SortedSet_1__Node<T>* _Right_k__BackingField;
+                      put = __cordl_internal_set__Right_k__BackingField)) ::System::Collections::Generic::__SortedSet_1__Node<T>* _Right_k__BackingField;
 
   /// @brief Method ColorBlack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ColorBlack();
@@ -283,12 +284,15 @@ public:
   /// @brief Field <Color>k__BackingField, offset: 0x28, size: 0x1, def value: None
   ::System::Collections::Generic::NodeColor ____Color_k__BackingField;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9484 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: ::Enumerator
-// SizeInfo { instance_size: 40, native_size: 49, calculated_instance_size: 40, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 49, calculated_instance_size: 40, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -299,10 +303,10 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field s_dummyNode, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_dummyNode, put = setStaticF_s_dummyNode))::System::Collections::Generic::__SortedSet_1__Node<T>* s_dummyNode;
+  static __declspec(property(get = getStaticF_s_dummyNode, put = setStaticF_s_dummyNode)) ::System::Collections::Generic::__SortedSet_1__Node<T>* s_dummyNode;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
@@ -397,6 +401,9 @@ public:
   /// @brief Field _reverse, offset: 0x20, size: 0x1, def value: None
   bool _reverse;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9485 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -405,7 +412,7 @@ public:
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: ::ElementCount
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -427,6 +434,9 @@ public:
   /// @brief Field UnfoundCount, offset: 0x4, size: 0x4, def value: None
   int32_t UnfoundCount;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9486 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -435,7 +445,7 @@ public:
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: ::<>c__DisplayClass52_0
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -445,7 +455,7 @@ class CORDL_TYPE __SortedSet_1____c__DisplayClass52_0 : public ::System::Object 
 public:
   // Declarations
   /// @brief Field array, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_array, put = __cordl_internal_set_array))::ArrayW<T, ::Array<T>*> array;
+  __declspec(property(get = __cordl_internal_get_array, put = __cordl_internal_set_array)) ::ArrayW<T, ::Array<T>*> array;
 
   /// @brief Field count, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
@@ -502,12 +512,15 @@ public:
   /// @brief Field array, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ___array;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9487 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: ::<>c__DisplayClass53_0
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -520,7 +533,7 @@ public:
   __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field objects, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_objects, put = __cordl_internal_set_objects))::ArrayW<::System::Object*, ::Array<::System::Object*>*> objects;
+  __declspec(property(get = __cordl_internal_get_objects, put = __cordl_internal_set_objects)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> objects;
 
   static inline ::System::Collections::Generic::__SortedSet_1____c__DisplayClass53_0<T>* New_ctor();
 
@@ -562,12 +575,15 @@ public:
   /// @brief Field objects, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___objects;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9488 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: System.Collections.Generic::SortedSet`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -586,7 +602,7 @@ public:
 
   using __c__DisplayClass53_0 = ::System::Collections::Generic::__SortedSet_1____c__DisplayClass53_0<T>;
 
-  __declspec(property(get = get_Comparer))::System::Collections::Generic::IComparer_1<T>* Comparer;
+  __declspec(property(get = get_Comparer)) ::System::Collections::Generic::IComparer_1<T>* Comparer;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -594,22 +610,22 @@ public:
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   /// @brief Field _syncRoot, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot)) ::System::Object* _syncRoot;
 
   /// @brief Field comparer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IComparer_1<T>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer)) ::System::Collections::Generic::IComparer_1<T>* comparer;
 
   /// @brief Field count, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field root, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root))::System::Collections::Generic::__SortedSet_1__Node<T>* root;
+  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root)) ::System::Collections::Generic::__SortedSet_1__Node<T>* root;
 
   /// @brief Field siInfo, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_siInfo, put = __cordl_internal_set_siInfo))::System::Runtime::Serialization::SerializationInfo* siInfo;
+  __declspec(property(get = __cordl_internal_get_siInfo, put = __cordl_internal_set_siInfo)) ::System::Runtime::Serialization::SerializationInfo* siInfo;
 
   /// @brief Field version, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
@@ -844,6 +860,9 @@ public:
 
   /// @brief Field siInfo, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::Serialization::SerializationInfo* ___siInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9489 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

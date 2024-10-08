@@ -27,7 +27,7 @@ class Calendar;
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::Calendar);
 // Type: System.Globalization::Calendar
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::Calendar*
@@ -38,11 +38,11 @@ public:
 
   __declspec(property(get = get_CurrentEraValue)) int32_t CurrentEraValue;
 
-  __declspec(property(get = get_Eras))::ArrayW<int32_t, ::Array<int32_t>*> Eras;
+  __declspec(property(get = get_Eras)) ::ArrayW<int32_t, ::Array<int32_t>*> Eras;
 
-  __declspec(property(get = get_MaxSupportedDateTime))::System::DateTime MaxSupportedDateTime;
+  __declspec(property(get = get_MaxSupportedDateTime)) ::System::DateTime MaxSupportedDateTime;
 
-  __declspec(property(get = get_MinSupportedDateTime))::System::DateTime MinSupportedDateTime;
+  __declspec(property(get = get_MinSupportedDateTime)) ::System::DateTime MinSupportedDateTime;
 
   __declspec(property(get = get_TwoDigitYearMax, put = set_TwoDigitYearMax)) int32_t TwoDigitYearMax;
 
@@ -60,7 +60,7 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x29111b4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x3d25398, size 0x88, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
   /// @brief Method GetDayOfMonth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -84,48 +84,48 @@ public:
   /// @brief Method GetMonthsInYear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetMonthsInYear(int32_t year, int32_t era);
 
-  /// @brief Method GetSystemTwoDigitYearSetting, addr 0x29119e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSystemTwoDigitYearSetting, addr 0x3d25bb4, size 0x54, virtual false, abstract: false, final false
   static inline int32_t GetSystemTwoDigitYearSetting(int32_t CalID, int32_t defaultYearValue);
 
   /// @brief Method GetYear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetYear(::System::DateTime time);
 
-  /// @brief Method IsLeapYear, addr 0x29113ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method IsLeapYear, addr 0x3d255c8, size 0x14, virtual true, abstract: false, final false
   inline bool IsLeapYear(int32_t year);
 
   /// @brief Method IsLeapYear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsLeapYear(int32_t year, int32_t era);
 
-  /// @brief Method IsValidDay, addr 0x2911684, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method IsValidDay, addr 0x3d25860, size 0x80, virtual true, abstract: false, final false
   inline bool IsValidDay(int32_t year, int32_t month, int32_t day, int32_t era);
 
-  /// @brief Method IsValidMonth, addr 0x291160c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method IsValidMonth, addr 0x3d257e8, size 0x78, virtual true, abstract: false, final false
   inline bool IsValidMonth(int32_t year, int32_t month, int32_t era);
 
-  /// @brief Method IsValidYear, addr 0x2911588, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method IsValidYear, addr 0x3d25764, size 0x84, virtual true, abstract: false, final false
   inline bool IsValidYear(int32_t year, int32_t era);
 
   static inline ::System::Globalization::Calendar* New_ctor();
 
-  /// @brief Method SetReadOnlyState, addr 0x29112b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetReadOnlyState, addr 0x3d2548c, size 0xc, virtual false, abstract: false, final false
   inline void SetReadOnlyState(bool readOnly);
 
-  /// @brief Method TimeToTicks, addr 0x291182c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method TimeToTicks, addr 0x3d25a04, size 0x1b0, virtual false, abstract: false, final false
   static inline int64_t TimeToTicks(int32_t hour, int32_t minute, int32_t second, int32_t millisecond);
 
-  /// @brief Method ToDateTime, addr 0x2911400, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x3d255dc, size 0x28, virtual true, abstract: false, final false
   inline ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond);
 
   /// @brief Method ToDateTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era);
 
-  /// @brief Method ToFourDigitYear, addr 0x2911730, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ToFourDigitYear, addr 0x3d2590c, size 0xf8, virtual true, abstract: false, final false
   inline int32_t ToFourDigitYear(int32_t year);
 
-  /// @brief Method TryToDateTime, addr 0x2911428, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method TryToDateTime, addr 0x3d25604, size 0x160, virtual true, abstract: false, final false
   inline bool TryToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era, ByRef<::System::DateTime> result);
 
-  /// @brief Method VerifyWritable, addr 0x291123c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method VerifyWritable, addr 0x3d25420, size 0x6c, virtual false, abstract: false, final false
   inline void VerifyWritable();
 
   constexpr int32_t const& __cordl_internal_get_m_currentEraValue() const;
@@ -146,34 +146,34 @@ public:
 
   constexpr void __cordl_internal_set_twoDigitYearMax(int32_t value);
 
-  /// @brief Method .ctor, addr 0x291118c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d25370, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseCalendarID, addr 0x29111a8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_BaseCalendarID, addr 0x3d2538c, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_BaseCalendarID();
 
-  /// @brief Method get_CurrentEraValue, addr 0x29112bc, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_CurrentEraValue, addr 0x3d25498, size 0x8c, virtual true, abstract: false, final false
   inline int32_t get_CurrentEraValue();
 
   /// @brief Method get_Eras, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_Eras();
 
-  /// @brief Method get_ID, addr 0x29111a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ID, addr 0x3d25384, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ID();
 
-  /// @brief Method get_MaxSupportedDateTime, addr 0x2911134, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_MaxSupportedDateTime, addr 0x3d25318, size 0x58, virtual true, abstract: false, final false
   inline ::System::DateTime get_MaxSupportedDateTime();
 
-  /// @brief Method get_MinSupportedDateTime, addr 0x29110dc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_MinSupportedDateTime, addr 0x3d252c0, size 0x58, virtual true, abstract: false, final false
   inline ::System::DateTime get_MinSupportedDateTime();
 
-  /// @brief Method get_TwoDigitYearMax, addr 0x2911704, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TwoDigitYearMax, addr 0x3d258e0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_TwoDigitYearMax();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_TwoDigitYearMax, addr 0x291170c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_TwoDigitYearMax, addr 0x3d258e8, size 0x24, virtual true, abstract: false, final false
   inline void set_TwoDigitYearMax(int32_t value);
 
 protected:
@@ -315,6 +315,9 @@ public:
 
   /// @brief Field TicksPerSecond offset 0xffffffff size 0x8
   static constexpr int64_t TicksPerSecond{ static_cast<int64_t>(0x989680) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3702 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

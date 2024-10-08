@@ -29,7 +29,7 @@ class Cone;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Cone);
 // Type: UnityEngine.ProBuilder.Shapes::Cone
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Cone*
@@ -45,15 +45,15 @@ public:
   /// @brief Field m_Smooth, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Smooth, put = __cordl_internal_set_m_Smooth)) bool m_Smooth;
 
-  /// @brief Method CopyShape, addr 0x32f8070, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x46d6414, size 0x8c, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Cone* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x32f8268, size 0xc4c, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x46d6604, size 0xc4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds, addr 0x32f80f4, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x46d64a0, size 0x164, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   constexpr int32_t const& __cordl_internal_get_m_NumberOfSides() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Smooth(bool value);
 
-  /// @brief Method .ctor, addr 0x32f8eb4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46d7250, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,6 +99,9 @@ public:
 
   /// @brief Field m_Smooth, offset: 0x18, size: 0x1, def value: None
   bool ___m_Smooth;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14297 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

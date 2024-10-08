@@ -17,7 +17,7 @@ template <typename T> struct BatchQueryJobStruct_1;
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Jobs::LowLevel::Unsafe::BatchQueryJobStruct_1);
 // Type: Unity.Jobs.LowLevel.Unsafe::BatchQueryJobStruct`1
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace Unity::Jobs::LowLevel::Unsafe {
 // cpp template
 template <typename T>
@@ -28,7 +28,7 @@ struct CORDL_TYPE BatchQueryJobStruct_1 {
 public:
   // Declarations
   /// @brief Field jobReflectionData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_jobReflectionData, put = setStaticF_jobReflectionData))::System::IntPtr jobReflectionData;
+  static __declspec(property(get = getStaticF_jobReflectionData, put = setStaticF_jobReflectionData)) ::System::IntPtr jobReflectionData;
 
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::IntPtr Initialize();
@@ -41,8 +41,8 @@ public:
   // @brief default ctor
   constexpr BatchQueryJobStruct_1();
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10518 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

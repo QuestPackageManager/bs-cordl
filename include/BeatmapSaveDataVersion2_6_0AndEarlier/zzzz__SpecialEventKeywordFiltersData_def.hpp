@@ -18,7 +18,7 @@ class SpecialEventKeywordFiltersData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData);
 // Type: BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData*
@@ -27,9 +27,9 @@ public:
   // Declarations
   /// @brief Field _keywords, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__keywords,
-                      put = __cordl_internal_set__keywords))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* _keywords;
+                      put = __cordl_internal_set__keywords)) ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* _keywords;
 
-  __declspec(property(get = get_keywords))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* keywords;
+  __declspec(property(get = get_keywords)) ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* keywords;
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData*
   New_ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* keywords);
@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set__keywords(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* value);
 
-  /// @brief Method .ctor, addr 0x1505aa8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c98c4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* keywords);
 
-  /// @brief Method get_keywords, addr 0x1505aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keywords, addr 0x26c98bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* get_keywords();
 
 protected:
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field _keywords, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* ____keywords;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13396 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

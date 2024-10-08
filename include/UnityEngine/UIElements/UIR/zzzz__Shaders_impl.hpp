@@ -32,5 +32,12 @@ inline void UnityEngine::UIElements::UIR::Shaders::setStaticF_k_GraphView(::Stri
 inline ::StringW UnityEngine::UIElements::UIR::Shaders::getStaticF_k_GraphView() {
   return ::cordl_internals::getStaticField<::StringW, "k_GraphView", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Shaders*>::get>();
 }
+inline void UnityEngine::UIElements::UIR::Shaders::setStaticF_k_ColorConversionBlit(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "k_ColorConversionBlit", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Shaders*>::get>(
+      std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::UIR::Shaders::getStaticF_k_ColorConversionBlit() {
+  return ::cordl_internals::getStaticField<::StringW, "k_ColorConversionBlit", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Shaders*>::get>();
+}
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::Shaders::Shaders() {}

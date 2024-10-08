@@ -20,7 +20,7 @@ template <typename T> struct CustomStyleProperty_1;
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::CustomStyleProperty_1);
 // Type: UnityEngine.UIElements::CustomStyleProperty`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -29,7 +29,7 @@ template <typename T>
 struct CORDL_TYPE CustomStyleProperty_1 {
 public:
   // Declarations
-  __declspec(property(get = get_name, put = set_name))::StringW name;
+  __declspec(property(get = get_name, put = set_name)) ::StringW name;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::CustomStyleProperty_1<T>>*();
@@ -64,6 +64,9 @@ public:
 
   /// @brief Field <name>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::StringW _name_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6025 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

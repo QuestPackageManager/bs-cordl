@@ -19,7 +19,7 @@ template <typename T1, typename T2> class Action_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Action_2);
 // Type: System::Action`2
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // cpp template
 template <typename T1, typename T2>
@@ -49,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Action_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Action_2(Action_2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2325 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

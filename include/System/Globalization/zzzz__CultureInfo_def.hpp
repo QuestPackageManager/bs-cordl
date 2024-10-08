@@ -73,7 +73,7 @@ MARK_REF_PTR_T(::System::Globalization::CultureInfo);
 MARK_REF_PTR_T(::System::Globalization::__CultureInfo__OnCultureInfoChangedDelegate);
 MARK_VAL_T(::System::Globalization::__CultureInfo__Data);
 // Type: ::Data
-// SizeInfo { instance_size: 20, native_size: 24, calculated_instance_size: 20, calculated_native_size: 34, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 20, native_size: 24, calculated_instance_size: 20, calculated_native_size: 34, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
 // CS Name: ::CultureInfo::Data
@@ -107,6 +107,9 @@ public:
   /// @brief Field list_sep, offset: 0x11, size: 0x1, def value: None
   uint8_t list_sep;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3726 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 
@@ -129,19 +132,19 @@ static_assert(offsetof(::System::Globalization::__CultureInfo__Data, list_sep) =
 
 } // namespace System::Globalization
 // Type: ::OnCultureInfoChangedDelegate
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::CultureInfo::OnCultureInfoChangedDelegate*
 class CORDL_TYPE __CultureInfo__OnCultureInfoChangedDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x292af74, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3d3e874, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW language);
 
   static inline ::System::Globalization::__CultureInfo__OnCultureInfoChangedDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x292aaf4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d3e430, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -158,6 +161,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CultureInfo__OnCultureInfoChangedDelegate(__CultureInfo__OnCultureInfoChangedDelegate const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3727 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -165,7 +171,7 @@ static_assert(::cordl_internals::size_check_v<::System::Globalization::__Culture
 
 } // namespace System::Globalization
 // Type: System.Globalization::CultureInfo
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::CultureInfo*
@@ -176,15 +182,15 @@ public:
 
   using OnCultureInfoChangedDelegate = ::System::Globalization::__CultureInfo__OnCultureInfoChangedDelegate;
 
-  __declspec(property(get = get_Calendar))::System::Globalization::Calendar* Calendar;
+  __declspec(property(get = get_Calendar)) ::System::Globalization::Calendar* Calendar;
 
   __declspec(property(get = get_CalendarType)) int32_t CalendarType;
 
-  __declspec(property(get = get_CompareInfo))::System::Globalization::CompareInfo* CompareInfo;
+  __declspec(property(get = get_CompareInfo)) ::System::Globalization::CompareInfo* CompareInfo;
 
-  __declspec(property(get = get_DateTimeFormat, put = set_DateTimeFormat))::System::Globalization::DateTimeFormatInfo* DateTimeFormat;
+  __declspec(property(get = get_DateTimeFormat, put = set_DateTimeFormat)) ::System::Globalization::DateTimeFormatInfo* DateTimeFormat;
 
-  __declspec(property(get = get_EnglishName))::StringW EnglishName;
+  __declspec(property(get = get_EnglishName)) ::StringW EnglishName;
 
   __declspec(property(get = get_IsNeutralCulture)) bool IsNeutralCulture;
 
@@ -193,32 +199,32 @@ public:
 
   __declspec(property(get = get_LCID)) int32_t LCID;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_NumberFormat, put = set_NumberFormat))::System::Globalization::NumberFormatInfo* NumberFormat;
+  __declspec(property(get = get_NumberFormat, put = set_NumberFormat)) ::System::Globalization::NumberFormatInfo* NumberFormat;
 
-  __declspec(property(get = get_Parent))::System::Globalization::CultureInfo* Parent;
+  __declspec(property(get = get_Parent)) ::System::Globalization::CultureInfo* Parent;
 
-  __declspec(property(get = get_SortName))::StringW SortName;
+  __declspec(property(get = get_SortName)) ::StringW SortName;
 
-  __declspec(property(get = get_Territory))::StringW Territory;
+  __declspec(property(get = get_Territory)) ::StringW Territory;
 
-  __declspec(property(get = get_TextInfo))::System::Globalization::TextInfo* TextInfo;
+  __declspec(property(get = get_TextInfo)) ::System::Globalization::TextInfo* TextInfo;
 
-  __declspec(property(get = get__cultureData))::System::Globalization::CultureData* _cultureData;
+  __declspec(property(get = get__cultureData)) ::System::Globalization::CultureData* _cultureData;
 
   __declspec(property(get = get__isInherited)) bool _isInherited;
 
-  __declspec(property(get = get__name))::StringW _name;
+  __declspec(property(get = get__name)) ::StringW _name;
 
   /// @brief Field cached_serialized_form, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_cached_serialized_form, put = __cordl_internal_set_cached_serialized_form))::ArrayW<uint8_t, ::Array<uint8_t>*> cached_serialized_form;
+  __declspec(property(get = __cordl_internal_get_cached_serialized_form, put = __cordl_internal_set_cached_serialized_form)) ::ArrayW<uint8_t, ::Array<uint8_t>*> cached_serialized_form;
 
   /// @brief Field calendar, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_calendar, put = __cordl_internal_set_calendar))::System::Globalization::Calendar* calendar;
+  __declspec(property(get = __cordl_internal_get_calendar, put = __cordl_internal_set_calendar)) ::System::Globalization::Calendar* calendar;
 
   /// @brief Field compareInfo, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_compareInfo, put = __cordl_internal_set_compareInfo))::System::Globalization::CompareInfo* compareInfo;
+  __declspec(property(get = __cordl_internal_get_compareInfo, put = __cordl_internal_set_compareInfo)) ::System::Globalization::CompareInfo* compareInfo;
 
   /// @brief Field constructed, offset 0xb0, size 0x1
   __declspec(property(get = __cordl_internal_get_constructed, put = __cordl_internal_set_constructed)) bool constructed;
@@ -227,7 +233,7 @@ public:
   __declspec(property(get = __cordl_internal_get_cultureID, put = __cordl_internal_set_cultureID)) int32_t cultureID;
 
   /// @brief Field dateTimeInfo, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_dateTimeInfo, put = __cordl_internal_set_dateTimeInfo))::System::Globalization::DateTimeFormatInfo* dateTimeInfo;
+  __declspec(property(get = __cordl_internal_get_dateTimeInfo, put = __cordl_internal_set_dateTimeInfo)) ::System::Globalization::DateTimeFormatInfo* dateTimeInfo;
 
   /// @brief Field datetime_index, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_datetime_index, put = __cordl_internal_set_datetime_index)) int32_t datetime_index;
@@ -236,22 +242,22 @@ public:
   __declspec(property(get = __cordl_internal_get_default_calendar_type, put = __cordl_internal_set_default_calendar_type)) int32_t default_calendar_type;
 
   /// @brief Field default_current_culture, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_default_current_culture, put = setStaticF_default_current_culture))::System::Globalization::CultureInfo* default_current_culture;
+  static __declspec(property(get = getStaticF_default_current_culture, put = setStaticF_default_current_culture)) ::System::Globalization::CultureInfo* default_current_culture;
 
   /// @brief Field englishname, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_englishname, put = __cordl_internal_set_englishname))::StringW englishname;
+  __declspec(property(get = __cordl_internal_get_englishname, put = __cordl_internal_set_englishname)) ::StringW englishname;
 
   /// @brief Field invariant_culture_info, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_invariant_culture_info, put = setStaticF_invariant_culture_info))::System::Globalization::CultureInfo* invariant_culture_info;
+  static __declspec(property(get = getStaticF_invariant_culture_info, put = setStaticF_invariant_culture_info)) ::System::Globalization::CultureInfo* invariant_culture_info;
 
   /// @brief Field iso2lang, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_iso2lang, put = __cordl_internal_set_iso2lang))::StringW iso2lang;
+  __declspec(property(get = __cordl_internal_get_iso2lang, put = __cordl_internal_set_iso2lang)) ::StringW iso2lang;
 
   /// @brief Field iso3lang, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_iso3lang, put = __cordl_internal_set_iso3lang))::StringW iso3lang;
+  __declspec(property(get = __cordl_internal_get_iso3lang, put = __cordl_internal_set_iso3lang)) ::StringW iso3lang;
 
   /// @brief Field m_cultureData, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_cultureData, put = __cordl_internal_set_m_cultureData))::System::Globalization::CultureData* m_cultureData;
+  __declspec(property(get = __cordl_internal_get_m_cultureData, put = __cordl_internal_set_m_cultureData)) ::System::Globalization::CultureData* m_cultureData;
 
   /// @brief Field m_dataItem, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get_m_dataItem, put = __cordl_internal_set_m_dataItem)) int32_t m_dataItem;
@@ -263,61 +269,61 @@ public:
   __declspec(property(get = __cordl_internal_get_m_isReadOnly, put = __cordl_internal_set_m_isReadOnly)) bool m_isReadOnly;
 
   /// @brief Field m_name, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_name, put = __cordl_internal_set_m_name))::StringW m_name;
+  __declspec(property(get = __cordl_internal_get_m_name, put = __cordl_internal_set_m_name)) ::StringW m_name;
 
   /// @brief Field m_useUserOverride, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_m_useUserOverride, put = __cordl_internal_set_m_useUserOverride)) bool m_useUserOverride;
 
   /// @brief Field native_calendar_names, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_native_calendar_names, put = __cordl_internal_set_native_calendar_names))::ArrayW<::StringW, ::Array<::StringW>*> native_calendar_names;
+  __declspec(property(get = __cordl_internal_get_native_calendar_names, put = __cordl_internal_set_native_calendar_names)) ::ArrayW<::StringW, ::Array<::StringW>*> native_calendar_names;
 
   /// @brief Field nativename, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_nativename, put = __cordl_internal_set_nativename))::StringW nativename;
+  __declspec(property(get = __cordl_internal_get_nativename, put = __cordl_internal_set_nativename)) ::StringW nativename;
 
   /// @brief Field numInfo, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_numInfo, put = __cordl_internal_set_numInfo))::System::Globalization::NumberFormatInfo* numInfo;
+  __declspec(property(get = __cordl_internal_get_numInfo, put = __cordl_internal_set_numInfo)) ::System::Globalization::NumberFormatInfo* numInfo;
 
   /// @brief Field number_index, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_number_index, put = __cordl_internal_set_number_index)) int32_t number_index;
 
   /// @brief Field parent_culture, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_parent_culture, put = __cordl_internal_set_parent_culture))::System::Globalization::CultureInfo* parent_culture;
+  __declspec(property(get = __cordl_internal_get_parent_culture, put = __cordl_internal_set_parent_culture)) ::System::Globalization::CultureInfo* parent_culture;
 
   /// @brief Field parent_lcid, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_parent_lcid, put = __cordl_internal_set_parent_lcid)) int32_t parent_lcid;
 
   /// @brief Field s_DefaultThreadCurrentCulture, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultThreadCurrentCulture, put = setStaticF_s_DefaultThreadCurrentCulture))::System::Globalization::CultureInfo* s_DefaultThreadCurrentCulture;
+  static __declspec(property(get = getStaticF_s_DefaultThreadCurrentCulture, put = setStaticF_s_DefaultThreadCurrentCulture)) ::System::Globalization::CultureInfo* s_DefaultThreadCurrentCulture;
 
   /// @brief Field s_DefaultThreadCurrentUICulture, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultThreadCurrentUICulture, put = setStaticF_s_DefaultThreadCurrentUICulture))::System::Globalization::CultureInfo* s_DefaultThreadCurrentUICulture;
+  static __declspec(property(get = getStaticF_s_DefaultThreadCurrentUICulture, put = setStaticF_s_DefaultThreadCurrentUICulture)) ::System::Globalization::CultureInfo* s_DefaultThreadCurrentUICulture;
 
   /// @brief Field s_UserPreferredCultureInfoInAppX, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UserPreferredCultureInfoInAppX,
-                             put = setStaticF_s_UserPreferredCultureInfoInAppX))::System::Globalization::CultureInfo* s_UserPreferredCultureInfoInAppX;
+  static
+      __declspec(property(get = getStaticF_s_UserPreferredCultureInfoInAppX, put = setStaticF_s_UserPreferredCultureInfoInAppX)) ::System::Globalization::CultureInfo* s_UserPreferredCultureInfoInAppX;
 
   /// @brief Field shared_by_name, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_shared_by_name,
-                             put = setStaticF_shared_by_name))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Globalization::CultureInfo*>* shared_by_name;
+                             put = setStaticF_shared_by_name)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Globalization::CultureInfo*>* shared_by_name;
 
   /// @brief Field shared_by_number, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_shared_by_number,
-                             put = setStaticF_shared_by_number))::System::Collections::Generic::Dictionary_2<int32_t, ::System::Globalization::CultureInfo*>* shared_by_number;
+                             put = setStaticF_shared_by_number)) ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Globalization::CultureInfo*>* shared_by_number;
 
   /// @brief Field shared_table_lock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_shared_table_lock, put = setStaticF_shared_table_lock))::System::Object* shared_table_lock;
+  static __declspec(property(get = getStaticF_shared_table_lock, put = setStaticF_shared_table_lock)) ::System::Object* shared_table_lock;
 
   /// @brief Field territory, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_territory, put = __cordl_internal_set_territory))::StringW territory;
+  __declspec(property(get = __cordl_internal_get_territory, put = __cordl_internal_set_territory)) ::StringW territory;
 
   /// @brief Field textInfo, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_textInfo, put = __cordl_internal_set_textInfo))::System::Globalization::TextInfo* textInfo;
+  __declspec(property(get = __cordl_internal_get_textInfo, put = __cordl_internal_set_textInfo)) ::System::Globalization::TextInfo* textInfo;
 
   /// @brief Field textinfo_data, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_textinfo_data, put = __cordl_internal_set_textinfo_data))::cordl_internals::Ptr<void> textinfo_data;
+  __declspec(property(get = __cordl_internal_get_textinfo_data, put = __cordl_internal_set_textinfo_data)) ::cordl_internals::Ptr<void> textinfo_data;
 
   /// @brief Field win3lang, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_win3lang, put = __cordl_internal_set_win3lang))::StringW win3lang;
+  __declspec(property(get = __cordl_internal_get_win3lang, put = __cordl_internal_set_win3lang)) ::StringW win3lang;
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
@@ -325,70 +331,70 @@ public:
   /// @brief Convert operator to "::System::IFormatProvider"
   constexpr operator ::System::IFormatProvider*() noexcept;
 
-  /// @brief Method CheckNeutral, addr 0x2926dc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckNeutral, addr 0x3d3a6e8, size 0x4, virtual false, abstract: false, final false
   inline void CheckNeutral();
 
-  /// @brief Method Clone, addr 0x29266f8, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x3d3a004, size 0x19c, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method Construct, addr 0x29260b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x3d399cc, size 0x20, virtual false, abstract: false, final false
   inline void Construct();
 
-  /// @brief Method ConstructCurrentCulture, addr 0x2925bc0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ConstructCurrentCulture, addr 0x3d394bc, size 0x1e4, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* ConstructCurrentCulture();
 
-  /// @brief Method ConstructCurrentUICulture, addr 0x2925fc4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ConstructCurrentUICulture, addr 0x3d398dc, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* ConstructCurrentUICulture();
 
-  /// @brief Method ConstructInvariant, addr 0x29272a0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ConstructInvariant, addr 0x3d3abb0, size 0x158, virtual false, abstract: false, final false
   inline void ConstructInvariant(bool read_only);
 
-  /// @brief Method ConstructLocaleFromName, addr 0x29278a4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ConstructLocaleFromName, addr 0x3d3b218, size 0xa0, virtual false, abstract: false, final false
   inline bool ConstructLocaleFromName(::StringW name);
 
-  /// @brief Method CreateCalendar, addr 0x29260d4, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method CreateCalendar, addr 0x3d399ec, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Globalization::Calendar* CreateCalendar(int32_t calendarType);
 
-  /// @brief Method CreateCulture, addr 0x2928010, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateCulture, addr 0x3d3b960, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* CreateCulture(::StringW name, bool reference);
 
-  /// @brief Method CreateNotFoundException, addr 0x2927930, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CreateNotFoundException, addr 0x3d3b2b8, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateNotFoundException(::StringW name);
 
-  /// @brief Method CreateSpecificCulture, addr 0x2925da8, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method CreateSpecificCulture, addr 0x3d396a4, size 0x238, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* CreateSpecificCulture(::StringW name);
 
-  /// @brief Method CreateSpecificCultureFromNeutral, addr 0x2928084, size 0x2754, virtual false, abstract: false, final false
+  /// @brief Method CreateSpecificCultureFromNeutral, addr 0x3d3b9d4, size 0x2748, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* CreateSpecificCultureFromNeutral(::StringW name);
 
-  /// @brief Method CreateTextInfo, addr 0x292667c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateTextInfo, addr 0x3d39f88, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Globalization::TextInfo* CreateTextInfo(bool readOnly);
 
-  /// @brief Method Equals, addr 0x2926894, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3d3a1a0, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetCultureInfo, addr 0x2927ba0, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method GetCultureInfo, addr 0x3d3b518, size 0x230, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* GetCultureInfo(int32_t culture);
 
-  /// @brief Method GetCultureInfo, addr 0x2927de4, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetCultureInfo, addr 0x3d3b748, size 0x218, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* GetCultureInfo(::StringW name);
 
-  /// @brief Method GetCultureInfoForUserPreferredLanguageInAppX, addr 0x292aa18, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetCultureInfoForUserPreferredLanguageInAppX, addr 0x3d3e35c, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* GetCultureInfoForUserPreferredLanguageInAppX();
 
-  /// @brief Method GetCultures, addr 0x2926940, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method GetCultures, addr 0x3d3a24c, size 0x258, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Globalization::CultureInfo*, ::Array<::System::Globalization::CultureInfo*>*> GetCultures(::System::Globalization::CultureTypes types);
 
-  /// @brief Method GetFormat, addr 0x2927188, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetFormat, addr 0x3d3aa98, size 0x110, virtual true, abstract: false, final false
   inline ::System::Object* GetFormat(::System::Type* formatType);
 
-  /// @brief Method GetHashCode, addr 0x2926c10, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3d3a540, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTextInfoData, addr 0x2926b80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetTextInfoData, addr 0x3d3a4b4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Globalization::__CultureInfo__Data GetTextInfoData();
 
-  /// @brief Method InitializeUserPreferredCultureInfoInAppX, addr 0x292a9f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InitializeUserPreferredCultureInfoInAppX, addr 0x3d3e33c, size 0x10, virtual false, abstract: false, final false
   static inline void InitializeUserPreferredCultureInfoInAppX(::System::Globalization::__CultureInfo__OnCultureInfoChangedDelegate* onCultureInfoChangedInAppX);
 
   static inline ::System::Globalization::CultureInfo* New_ctor();
@@ -405,22 +411,22 @@ public:
 
   static inline ::System::Globalization::CultureInfo* New_ctor(::StringW name, bool useUserOverride, bool read_only);
 
-  /// @brief Method OnCultureInfoChangedInAppX, addr 0x2925a40, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnCultureInfoChangedInAppX, addr 0x3d39344, size 0x98, virtual false, abstract: false, final false
   static inline void OnCultureInfoChangedInAppX(::StringW language);
 
-  /// @brief Method SetCultureInfoForUserPreferredLanguageInAppX, addr 0x292abc8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetCultureInfoForUserPreferredLanguageInAppX, addr 0x3d3e4cc, size 0x108, virtual false, abstract: false, final false
   static inline void SetCultureInfoForUserPreferredLanguageInAppX(::System::Globalization::CultureInfo* cultureInfo);
 
-  /// @brief Method SetUserPreferredCultureInfoInAppX, addr 0x292aa08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetUserPreferredCultureInfoInAppX, addr 0x3d3e34c, size 0x10, virtual false, abstract: false, final false
   static inline void SetUserPreferredCultureInfoInAppX(::StringW name);
 
-  /// @brief Method ToString, addr 0x2926c1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d3a54c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method VerifyCultureName, addr 0x292ae38, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method VerifyCultureName, addr 0x3d3e744, size 0x94, virtual false, abstract: false, final false
   static inline bool VerifyCultureName(::System::Globalization::CultureInfo* culture, bool throwException);
 
-  /// @brief Method VerifyCultureName, addr 0x292acd4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method VerifyCultureName, addr 0x3d3e5d4, size 0x170, virtual false, abstract: false, final false
   static inline bool VerifyCultureName(::StringW cultureName, bool throwException);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_cached_serialized_form() const;
@@ -585,31 +591,31 @@ public:
 
   constexpr void __cordl_internal_set_win3lang(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29279f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d3b380, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2926554, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d39e60, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t culture);
 
-  /// @brief Method .ctor, addr 0x29273f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d3ad08, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t culture, bool useUserOverride);
 
-  /// @brief Method .ctor, addr 0x2927404, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d3ad14, size 0x2a4, virtual false, abstract: false, final false
   inline void _ctor(int32_t culture, bool useUserOverride, bool read_only);
 
-  /// @brief Method .ctor, addr 0x2926548, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d39e54, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2927668, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d3afb8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool useUserOverride);
 
-  /// @brief Method .ctor, addr 0x2927674, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d3afc4, size 0x254, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool useUserOverride, bool read_only);
 
-  /// @brief Method construct_internal_locale_from_lcid, addr 0x2927298, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method construct_internal_locale_from_lcid, addr 0x3d3aba8, size 0x4, virtual false, abstract: false, final false
   inline bool construct_internal_locale_from_lcid(int32_t lcid);
 
-  /// @brief Method construct_internal_locale_from_name, addr 0x292729c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method construct_internal_locale_from_name, addr 0x3d3abac, size 0x4, virtual false, abstract: false, final false
   inline bool construct_internal_locale_from_name(::StringW name);
 
   static inline bool getStaticF_IsTaiwanSku();
@@ -630,76 +636,76 @@ public:
 
   static inline ::System::Object* getStaticF_shared_table_lock();
 
-  /// @brief Method get_Calendar, addr 0x2926030, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_Calendar, addr 0x3d39948, size 0x84, virtual true, abstract: false, final false
   inline ::System::Globalization::Calendar* get_Calendar();
 
-  /// @brief Method get_CalendarType, addr 0x2926b98, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_CalendarType, addr 0x3d3a4cc, size 0x74, virtual false, abstract: false, final false
   inline int32_t get_CalendarType();
 
-  /// @brief Method get_CompareInfo, addr 0x2926c24, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method get_CompareInfo, addr 0x3d3a554, size 0x14c, virtual true, abstract: false, final false
   inline ::System::Globalization::CompareInfo* get_CompareInfo();
 
-  /// @brief Method get_CurrentCulture, addr 0x2924fd8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentCulture, addr 0x3d38910, size 0x20, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* get_CurrentCulture();
 
-  /// @brief Method get_CurrentUICulture, addr 0x2925b78, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentUICulture, addr 0x3d39474, size 0x20, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* get_CurrentUICulture();
 
-  /// @brief Method get_DateTimeFormat, addr 0x2926f28, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method get_DateTimeFormat, addr 0x3d3a844, size 0x15c, virtual true, abstract: false, final false
   inline ::System::Globalization::DateTimeFormatInfo* get_DateTimeFormat();
 
-  /// @brief Method get_DefaultThreadCurrentCulture, addr 0x292a7d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultThreadCurrentCulture, addr 0x3d3e11c, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* get_DefaultThreadCurrentCulture();
 
-  /// @brief Method get_DefaultThreadCurrentUICulture, addr 0x292a898, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultThreadCurrentUICulture, addr 0x3d3e1dc, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* get_DefaultThreadCurrentUICulture();
 
-  /// @brief Method get_EnglishName, addr 0x2927158, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_EnglishName, addr 0x3d3aa68, size 0x30, virtual true, abstract: false, final false
   inline ::StringW get_EnglishName();
 
-  /// @brief Method get_InvariantCulture, addr 0x2925af0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_InvariantCulture, addr 0x3d393ec, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* get_InvariantCulture();
 
-  /// @brief Method get_IsNeutralCulture, addr 0x2926d7c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_IsNeutralCulture, addr 0x3d3a6a0, size 0x48, virtual true, abstract: false, final false
   inline bool get_IsNeutralCulture();
 
-  /// @brief Method get_LCID, addr 0x2926020, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LCID, addr 0x3d39938, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_LCID();
 
-  /// @brief Method get_Name, addr 0x2926028, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3d39940, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NumberFormat, addr 0x2926dc8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method get_NumberFormat, addr 0x3d3a6ec, size 0x90, virtual true, abstract: false, final false
   inline ::System::Globalization::NumberFormatInfo* get_NumberFormat();
 
-  /// @brief Method get_Parent, addr 0x292630c, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x3d39c14, size 0x240, virtual true, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_Parent();
 
-  /// @brief Method get_SortName, addr 0x292a958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SortName, addr 0x3d3e29c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SortName();
 
-  /// @brief Method get_Territory, addr 0x2926010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Territory, addr 0x3d39928, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Territory();
 
-  /// @brief Method get_TextInfo, addr 0x2926560, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method get_TextInfo, addr 0x3d39e6c, size 0x11c, virtual true, abstract: false, final false
   inline ::System::Globalization::TextInfo* get_TextInfo();
 
-  /// @brief Method get_UserDefaultCulture, addr 0x292a9ac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_UserDefaultCulture, addr 0x3d3e2f0, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* get_UserDefaultCulture();
 
-  /// @brief Method get_UserDefaultUICulture, addr 0x292a960, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_UserDefaultUICulture, addr 0x3d3e2a4, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* get_UserDefaultUICulture();
 
-  /// @brief Method get__cultureData, addr 0x2925ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get__cultureData, addr 0x3d393dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureData* get__cultureData();
 
-  /// @brief Method get__isInherited, addr 0x2925ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get__isInherited, addr 0x3d393e4, size 0x8, virtual false, abstract: false, final false
   inline bool get__isInherited();
 
-  /// @brief Method get__name, addr 0x2926018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get__name, addr 0x3d39930, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get__name();
 
-  /// @brief Method get_current_locale_name, addr 0x2925da4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_current_locale_name, addr 0x3d396a0, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW get_current_locale_name();
 
   /// @brief Convert to "::System::ICloneable"
@@ -708,10 +714,10 @@ public:
   /// @brief Convert to "::System::IFormatProvider"
   constexpr ::System::IFormatProvider* i___System__IFormatProvider() noexcept;
 
-  /// @brief Method insert_into_shared_tables, addr 0x2927a18, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method insert_into_shared_tables, addr 0x3d3b3a0, size 0x178, virtual false, abstract: false, final false
   static inline void insert_into_shared_tables(::System::Globalization::CultureInfo* c);
 
-  /// @brief Method internal_get_cultures, addr 0x2926b70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method internal_get_cultures, addr 0x3d3a4a4, size 0x10, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Globalization::CultureInfo*, ::Array<::System::Globalization::CultureInfo*>*> internal_get_cultures(bool neutral, bool specific, bool installed);
 
   static inline void setStaticF_IsTaiwanSku(bool value);
@@ -732,22 +738,22 @@ public:
 
   static inline void setStaticF_shared_table_lock(::System::Object* value);
 
-  /// @brief Method set_CurrentCulture, addr 0x2925b50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentCulture, addr 0x3d3944c, size 0x28, virtual false, abstract: false, final false
   static inline void set_CurrentCulture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method set_CurrentUICulture, addr 0x2925b98, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentUICulture, addr 0x3d39494, size 0x28, virtual false, abstract: false, final false
   static inline void set_CurrentUICulture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method set_DateTimeFormat, addr 0x2927088, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method set_DateTimeFormat, addr 0x3d3a9a0, size 0xc8, virtual true, abstract: false, final false
   inline void set_DateTimeFormat(::System::Globalization::DateTimeFormatInfo* value);
 
-  /// @brief Method set_DefaultThreadCurrentCulture, addr 0x292a838, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultThreadCurrentCulture, addr 0x3d3e17c, size 0x60, virtual false, abstract: false, final false
   static inline void set_DefaultThreadCurrentCulture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method set_DefaultThreadCurrentUICulture, addr 0x292a8f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultThreadCurrentUICulture, addr 0x3d3e23c, size 0x60, virtual false, abstract: false, final false
   static inline void set_DefaultThreadCurrentUICulture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method set_NumberFormat, addr 0x2926e58, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method set_NumberFormat, addr 0x3d3a77c, size 0xc8, virtual true, abstract: false, final false
   inline void set_NumberFormat(::System::Globalization::NumberFormatInfo* value);
 
 protected:
@@ -856,6 +862,9 @@ public:
 
   /// @brief Field MSG_READONLY offset 0xffffffff size 0x8
   static constexpr ::ConstString MSG_READONLY{ u"This instance is read only" };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3728 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

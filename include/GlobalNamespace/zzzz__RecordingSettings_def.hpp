@@ -50,7 +50,7 @@ class RecordingSettings;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RecordingSettings);
 // Type: ::RecordingSettings
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RecordingSettings*
@@ -61,39 +61,40 @@ public:
   __declspec(property(get = __cordl_internal_get_addDateTimeSuffixToRecordingName, put = __cordl_internal_set_addDateTimeSuffixToRecordingName)) bool addDateTimeSuffixToRecordingName;
 
   /// @brief Field cameraView, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_cameraView, put = __cordl_internal_set_cameraView))::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView;
+  __declspec(property(get = __cordl_internal_get_cameraView, put = __cordl_internal_set_cameraView)) ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView;
 
   /// @brief Field characteristic, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_characteristic, put = __cordl_internal_set_characteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> characteristic;
+  __declspec(property(get = __cordl_internal_get_characteristic, put = __cordl_internal_set_characteristic)) ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> characteristic;
 
   /// @brief Field difficulty, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty))::GlobalNamespace::BeatmapDifficulty difficulty;
+  __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty)) ::GlobalNamespace::BeatmapDifficulty difficulty;
 
   /// @brief Field environmentInfo, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentInfo, put = __cordl_internal_set_environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
+  __declspec(property(get = __cordl_internal_get_environmentInfo, put = __cordl_internal_set_environmentInfo)) ::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
 
   /// @brief Field environmentType, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentType, put = __cordl_internal_set_environmentType))::System::Nullable_1<::GlobalNamespace::EnvironmentType> environmentType;
+  __declspec(property(get = __cordl_internal_get_environmentType, put = __cordl_internal_set_environmentType)) ::System::Nullable_1<::GlobalNamespace::EnvironmentType> environmentType;
 
   /// @brief Field framerate, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_framerate, put = __cordl_internal_set_framerate)) int32_t framerate;
 
   /// @brief Field gameMode, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameMode, put = __cordl_internal_set_gameMode))::StringW gameMode;
+  __declspec(property(get = __cordl_internal_get_gameMode, put = __cordl_internal_set_gameMode)) ::StringW gameMode;
 
   /// @brief Field level, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_level, put = __cordl_internal_set_level))::GlobalNamespace::BeatmapLevel* level;
+  __declspec(property(get = __cordl_internal_get_level, put = __cordl_internal_set_level)) ::GlobalNamespace::BeatmapLevel* level;
 
   /// @brief Field overrideEnvironments, offset 0x74, size 0x1
   __declspec(property(get = __cordl_internal_get_overrideEnvironments, put = __cordl_internal_set_overrideEnvironments)) bool overrideEnvironments;
 
   /// @brief Field pack, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_pack, put = __cordl_internal_set_pack))::GlobalNamespace::BeatmapLevelPack* pack;
+  __declspec(property(get = __cordl_internal_get_pack, put = __cordl_internal_set_pack)) ::GlobalNamespace::BeatmapLevelPack* pack;
 
   /// @brief Field playbackScreenshots, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_playbackScreenshots,
-                      put = __cordl_internal_set_playbackScreenshots))::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*,
-                                                                               ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots;
+  __declspec(property(
+      get = __cordl_internal_get_playbackScreenshots,
+      put = __cordl_internal_set_playbackScreenshots)) ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>
+      playbackScreenshots;
 
   /// @brief Field practice, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_practice, put = __cordl_internal_set_practice)) bool practice;
@@ -102,10 +103,10 @@ public:
   __declspec(property(get = __cordl_internal_get_recordPerformance, put = __cordl_internal_set_recordPerformance)) bool recordPerformance;
 
   /// @brief Field recordingMode, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_recordingMode, put = __cordl_internal_set_recordingMode))::GlobalNamespace::__ObjectsMovementRecorder__Mode recordingMode;
+  __declspec(property(get = __cordl_internal_get_recordingMode, put = __cordl_internal_set_recordingMode)) ::GlobalNamespace::__ObjectsMovementRecorder__Mode recordingMode;
 
   /// @brief Field recordingPath, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_recordingPath, put = __cordl_internal_set_recordingPath))::StringW recordingPath;
+  __declspec(property(get = __cordl_internal_get_recordingPath, put = __cordl_internal_set_recordingPath)) ::StringW recordingPath;
 
   /// @brief Field runLevel, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_runLevel, put = __cordl_internal_set_runLevel)) bool runLevel;
@@ -136,7 +137,7 @@ public:
            bool practice, float_t startSongTime, float_t songSpeedMultiplier, bool overrideEnvironments, ::System::Nullable_1<::GlobalNamespace::EnvironmentType> environmentType,
            ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, bool saveToOldFormat);
 
-  /// @brief Method ToString, addr 0x26c28b4, size 0xa74, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ab73bc, size 0xa6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_addDateTimeSuffixToRecordingName() const;
@@ -279,7 +280,7 @@ public:
 
   constexpr void __cordl_internal_set_startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x26c2760, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab5e84, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::StringW gameMode, ::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty difficulty,
                     ::GlobalNamespace::BeatmapCharacteristicSO* characteristic, bool runLevel, bool recordPerformance, ::GlobalNamespace::__ObjectsMovementRecorder__Mode recordingMode,
                     ::StringW recordingPath, ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName, bool screenshotRecording,
@@ -370,6 +371,9 @@ public:
 
   /// @brief Field saveToOldFormat, offset: 0x88, size: 0x1, def value: None
   bool ___saveToOldFormat;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5123 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

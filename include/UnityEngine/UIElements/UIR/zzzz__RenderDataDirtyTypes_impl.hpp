@@ -14,6 +14,8 @@ constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes UnityEngine::UIEl
 constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes UnityEngine::UIElements::UIR::RenderDataDirtyTypes::ClippingHierarchy{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes UnityEngine::UIElements::UIR::RenderDataDirtyTypes::Visuals{ static_cast<int32_t>(0x10) };
 constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes UnityEngine::UIElements::UIR::RenderDataDirtyTypes::VisualsHierarchy{ static_cast<int32_t>(0x20) };
-constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes UnityEngine::UIElements::UIR::RenderDataDirtyTypes::Opacity{ static_cast<int32_t>(0x40) };
-constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes UnityEngine::UIElements::UIR::RenderDataDirtyTypes::OpacityHierarchy{ static_cast<int32_t>(0x80) };
-constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes UnityEngine::UIElements::UIR::RenderDataDirtyTypes::Color{ static_cast<int32_t>(0x100) };
+constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes UnityEngine::UIElements::UIR::RenderDataDirtyTypes::VisualsOpacityId{ static_cast<int32_t>(0x40) };
+constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes UnityEngine::UIElements::UIR::RenderDataDirtyTypes::Opacity{ static_cast<int32_t>(0x80) };
+constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes UnityEngine::UIElements::UIR::RenderDataDirtyTypes::OpacityHierarchy{ static_cast<int32_t>(0x100) };
+constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes UnityEngine::UIElements::UIR::RenderDataDirtyTypes::Color{ static_cast<int32_t>(0x200) };
+constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes UnityEngine::UIElements::UIR::RenderDataDirtyTypes::AllVisuals{ static_cast<int32_t>(0x70) };

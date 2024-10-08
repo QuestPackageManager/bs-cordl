@@ -47,7 +47,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::IMECompositionString);
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator);
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer);
 // Type: ::<buffer>e__FixedBuffer
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::IMECompositionString::<buffer>e__FixedBuffer
@@ -68,6 +68,9 @@ public:
   /// @brief Size padding 0x80 - 0x2 = 0x7e, packed as 0x7e
   uint8_t _cordl_size_padding[0x7e];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6903 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
 
@@ -81,8 +84,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__IMECompositionStr
 
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: UnityEngine.InputSystem.LowLevel::IMECompositionString
-// SizeInfo { instance_size: 132, native_size: 132, calculated_instance_size: 132, calculated_native_size: 148, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0)
-// }
+// SizeInfo { instance_size: 132, native_size: 132, calculated_instance_size: 132, calculated_native_size: 148, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IMECompositionString
@@ -99,7 +101,7 @@ public:
   __declspec(property(get = get_Item)) char16_t Item[];
 
   /// @brief Field buffer, offset 0x4, size 0x80
-  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer)) ::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer buffer;
 
   /// @brief Field size, offset 0x0, size 0x4
   __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
@@ -110,13 +112,13 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
-  /// @brief Method GetEnumerator, addr 0x318fe94, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x4592e7c, size 0x94, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<char16_t>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x318ff4c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4592f34, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method ToString, addr 0x318fe7c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4592e64, size 0x18, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer const& __cordl_internal_get_buffer() const;
@@ -131,13 +133,13 @@ public:
 
   constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x318fd84, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4592d70, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW characters);
 
-  /// @brief Method get_Count, addr 0x318fe04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4592df0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x318fe0c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4592df8, size 0x6c, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t index);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<char16_t>"
@@ -188,6 +190,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6904 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x84 };
 
@@ -199,7 +204,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLev
 
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: ::Enumerator
-// SizeInfo { instance_size: 140, native_size: 140, calculated_instance_size: 140, calculated_native_size: 156, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 140, native_size: 140, calculated_instance_size: 140, calculated_native_size: 156, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::IMECompositionString::Enumerator
@@ -208,7 +213,7 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) char16_t Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<char16_t>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<char16_t>*();
@@ -219,22 +224,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x318ff90, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4592f74, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x318ff50, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4592f38, size 0x30, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x318ff84, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x4592f68, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x318ff9c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4592f80, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x318ff28, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4592f10, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString);
 
-  /// @brief Method get_Current, addr 0x318ff94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x4592f78, size 0x8, virtual true, abstract: false, final true
   inline char16_t get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<char16_t>"
@@ -262,6 +267,9 @@ public:
 
   /// @brief Field m_CurrentIndex, offset: 0x88, size: 0x4, def value: None
   int32_t m_CurrentIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6902 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8c };

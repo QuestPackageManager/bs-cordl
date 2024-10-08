@@ -19,7 +19,7 @@ class EmptyPosesSerializer;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EmptyPosesSerializer);
 // Type: ::EmptyPosesSerializer
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::EmptyPosesSerializer*
@@ -29,24 +29,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPosesSerializer"
   constexpr operator ::GlobalNamespace::IPosesSerializer*() noexcept;
 
-  /// @brief Method LoadRecording, addr 0x26b0534, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method LoadRecording, addr 0x3aa657c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PosesRecordingData* LoadRecording(::StringW path);
 
   static inline ::GlobalNamespace::EmptyPosesSerializer* New_ctor();
 
-  /// @brief Method RecordingCanBeCreated, addr 0x26b0544, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method RecordingCanBeCreated, addr 0x3aa658c, size 0x8, virtual true, abstract: false, final true
   inline bool RecordingCanBeCreated(::StringW path);
 
-  /// @brief Method RecordingExists, addr 0x26b053c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method RecordingExists, addr 0x3aa6584, size 0x8, virtual true, abstract: false, final true
   inline bool RecordingExists(::StringW path);
 
-  /// @brief Method SaveRecording, addr 0x26b0530, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SaveRecording, addr 0x3aa6578, size 0x4, virtual true, abstract: false, final true
   inline void SaveRecording(::StringW path, ::GlobalNamespace::PosesRecordingData* data, bool saveToOldFormat);
 
-  /// @brief Method SaveToOldFormat, addr 0x26b052c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SaveToOldFormat, addr 0x3aa6574, size 0x4, virtual true, abstract: false, final true
   inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method .ctor, addr 0x26b054c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa6594, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IPosesSerializer"
@@ -65,6 +65,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "EmptyPosesSerializer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   EmptyPosesSerializer(EmptyPosesSerializer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5058 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

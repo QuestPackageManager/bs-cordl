@@ -25,43 +25,43 @@ class OVRCubemapCapture;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRCubemapCapture);
 // Type: ::OVRCubemapCapture
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRCubemapCapture*
 class CORDL_TYPE OVRCubemapCapture : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field autoTriggerAfterLaunch, offset 0x18, size 0x1
+  /// @brief Field autoTriggerAfterLaunch, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_autoTriggerAfterLaunch, put = __cordl_internal_set_autoTriggerAfterLaunch)) bool autoTriggerAfterLaunch;
 
-  /// @brief Field autoTriggerDelay, offset 0x1c, size 0x4
+  /// @brief Field autoTriggerDelay, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_autoTriggerDelay, put = __cordl_internal_set_autoTriggerDelay)) float_t autoTriggerDelay;
 
-  /// @brief Field autoTriggerElapse, offset 0x20, size 0x4
+  /// @brief Field autoTriggerElapse, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_autoTriggerElapse, put = __cordl_internal_set_autoTriggerElapse)) float_t autoTriggerElapse;
 
-  /// @brief Field cubemapSize, offset 0x30, size 0x4
+  /// @brief Field cubemapSize, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_cubemapSize, put = __cordl_internal_set_cubemapSize)) int32_t cubemapSize;
 
-  /// @brief Field pathName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_pathName, put = __cordl_internal_set_pathName))::StringW pathName;
+  /// @brief Field pathName, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_pathName, put = __cordl_internal_set_pathName)) ::StringW pathName;
 
-  /// @brief Field triggeredByKey, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_triggeredByKey, put = __cordl_internal_set_triggeredByKey))::UnityEngine::KeyCode triggeredByKey;
+  /// @brief Field triggeredByKey, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_triggeredByKey, put = __cordl_internal_set_triggeredByKey)) ::UnityEngine::KeyCode triggeredByKey;
 
   static inline ::GlobalNamespace::OVRCubemapCapture* New_ctor();
 
-  /// @brief Method RenderIntoCubemap, addr 0x2bb0fd8, size 0x580, virtual false, abstract: false, final false
+  /// @brief Method RenderIntoCubemap, addr 0x3fb8ad4, size 0x560, virtual false, abstract: false, final false
   static inline void RenderIntoCubemap(::UnityEngine::Camera* ownerCamera, ::UnityEngine::Cubemap* outCubemap);
 
-  /// @brief Method SaveCubemapCapture, addr 0x2bb1558, size 0x774, virtual false, abstract: false, final false
+  /// @brief Method SaveCubemapCapture, addr 0x3fb9034, size 0x798, virtual false, abstract: false, final false
   static inline bool SaveCubemapCapture(::UnityEngine::Cubemap* cubemap, ::StringW pathName);
 
-  /// @brief Method TriggerCubemapCapture, addr 0x2bb0d28, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method TriggerCubemapCapture, addr 0x3fb8828, size 0x2ac, virtual false, abstract: false, final false
   static inline void TriggerCubemapCapture(::UnityEngine::Vector3 capturePos, int32_t cubemapSize, ::StringW pathName);
 
-  /// @brief Method Update, addr 0x2bb0c80, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fb8780, size 0xa8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_autoTriggerAfterLaunch() const;
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_triggeredByKey(::UnityEngine::KeyCode value);
 
-  /// @brief Method .ctor, addr 0x2bb1ccc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fb97cc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -117,40 +117,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRCubemapCapture(OVRCubemapCapture const&) = delete;
 
-  /// @brief Field autoTriggerAfterLaunch, offset: 0x18, size: 0x1, def value: None
+  /// @brief Field autoTriggerAfterLaunch, offset: 0x20, size: 0x1, def value: None
   bool ___autoTriggerAfterLaunch;
 
-  /// @brief Field autoTriggerDelay, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field autoTriggerDelay, offset: 0x24, size: 0x4, def value: None
   float_t ___autoTriggerDelay;
 
-  /// @brief Field autoTriggerElapse, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field autoTriggerElapse, offset: 0x28, size: 0x4, def value: None
   float_t ___autoTriggerElapse;
 
-  /// @brief Field triggeredByKey, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field triggeredByKey, offset: 0x2c, size: 0x4, def value: None
   ::UnityEngine::KeyCode ___triggeredByKey;
 
-  /// @brief Field pathName, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field pathName, offset: 0x30, size: 0x8, def value: None
   ::StringW ___pathName;
 
-  /// @brief Field cubemapSize, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field cubemapSize, offset: 0x38, size: 0x4, def value: None
   int32_t ___cubemapSize;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8366 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRCubemapCapture, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRCubemapCapture, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___autoTriggerAfterLaunch) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___autoTriggerAfterLaunch) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___autoTriggerDelay) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___autoTriggerDelay) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___autoTriggerElapse) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___autoTriggerElapse) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___triggeredByKey) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___triggeredByKey) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___pathName) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___pathName) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___cubemapSize) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRCubemapCapture, ___cubemapSize) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRCubemapCapture);

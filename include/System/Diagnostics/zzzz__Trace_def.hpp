@@ -18,7 +18,7 @@ class Trace;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::Trace);
 // Type: System.Diagnostics::Trace
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
 // CS Name: ::System.Diagnostics::Trace*
@@ -26,17 +26,17 @@ class CORDL_TYPE Trace : public ::System::Object {
 public:
   // Declarations
   /// @brief Field correlationManager, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_correlationManager, put = setStaticF_correlationManager))::System::Diagnostics::CorrelationManager* correlationManager;
+  static __declspec(property(get = getStaticF_correlationManager, put = setStaticF_correlationManager)) ::System::Diagnostics::CorrelationManager* correlationManager;
 
   static inline ::System::Diagnostics::CorrelationManager* getStaticF_correlationManager();
 
-  /// @brief Method get_AutoFlush, addr 0x2fcdb08, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_AutoFlush, addr 0x43b49c0, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_AutoFlush();
 
-  /// @brief Method get_CorrelationManager, addr 0x2fcdbb4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_CorrelationManager, addr 0x43b4a6c, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::CorrelationManager* get_CorrelationManager();
 
-  /// @brief Method get_Listeners, addr 0x2fcd868, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Listeners, addr 0x43b4730, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
 
   static inline void setStaticF_correlationManager(::System::Diagnostics::CorrelationManager* value);
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Trace", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Trace(Trace const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9223 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

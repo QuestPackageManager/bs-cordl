@@ -27,7 +27,7 @@ class PlayableBehaviour;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Playables::PlayableBehaviour);
 // Type: UnityEngine.Playables::PlayableBehaviour
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: false
 // CS Name: ::UnityEngine.Playables::PlayableBehaviour*
@@ -40,36 +40,36 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableBehaviour"
   constexpr operator ::UnityEngine::Playables::IPlayableBehaviour*() noexcept;
 
-  /// @brief Method Clone, addr 0x34706e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x4853f04, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
   static inline ::UnityEngine::Playables::PlayableBehaviour* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x34706d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x4853ef8, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x34706d4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x4853ef4, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnGraphStart, addr 0x34706c4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x4853ee4, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnGraphStop, addr 0x34706c8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStop, addr 0x4853ee8, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStop(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableCreate, addr 0x34706cc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableCreate, addr 0x4853eec, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableCreate(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x34706d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x4853ef0, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method PrepareFrame, addr 0x34706dc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x4853efc, size 0x4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame, addr 0x34706e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x4853f00, size 0x4, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method .ctor, addr 0x34706bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4853edc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::ICloneable"
@@ -91,6 +91,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayableBehaviour", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PlayableBehaviour(PlayableBehaviour const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11235 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

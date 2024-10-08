@@ -16,21 +16,21 @@ class __UTF8Encoding__UTF8EncodingSealed;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::__UTF8Encoding__UTF8EncodingSealed);
 // Type: ::UTF8EncodingSealed
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
 // CS Name: ::UTF8Encoding::UTF8EncodingSealed*
 class CORDL_TYPE __UTF8Encoding__UTF8EncodingSealed : public ::System::Text::UTF8Encoding {
 public:
   // Declarations
-  __declspec(property(get = get_Preamble))::System::ReadOnlySpan_1<uint8_t> Preamble;
+  __declspec(property(get = get_Preamble)) ::System::ReadOnlySpan_1<uint8_t> Preamble;
 
   static inline ::System::Text::__UTF8Encoding__UTF8EncodingSealed* New_ctor(bool encoderShouldEmitUTF8Identifier);
 
-  /// @brief Method .ctor, addr 0x27f2920, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c12c2c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(bool encoderShouldEmitUTF8Identifier);
 
-  /// @brief Method get_Preamble, addr 0x27f2988, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_Preamble, addr 0x3c12c94, size 0xe4, virtual true, abstract: false, final false
   inline ::System::ReadOnlySpan_1<uint8_t> get_Preamble();
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "__UTF8Encoding__UTF8EncodingSealed", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   __UTF8Encoding__UTF8EncodingSealed(__UTF8Encoding__UTF8EncodingSealed const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2865 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

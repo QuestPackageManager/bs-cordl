@@ -18,7 +18,7 @@ struct ContactPoint2D;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ContactPoint2D);
 // Type: UnityEngine::ContactPoint2D
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::ContactPoint2D
@@ -70,6 +70,9 @@ public:
 
   /// @brief Field m_Enabled, offset: 0x34, size: 0x4, def value: None
   int32_t m_Enabled;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18531 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

@@ -13,7 +13,7 @@ struct HAPI_Permissions;
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_Permissions);
 // Type: HoudiniEngineUnity::HAPI_Permissions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HoudiniEngineUnity::HAPI_Permissions
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field HAPI_PERMISSIONS_WRITE_ONLY value: static_cast<int32_t>(0x3)
   static ::HoudiniEngineUnity::HAPI_Permissions const HAPI_PERMISSIONS_WRITE_ONLY;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11638 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -13,7 +13,7 @@ class HEU_VertexEntry;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VertexEntry);
 // Type: HoudiniEngineUnity::HEU_VertexEntry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_VertexEntry*
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__vertexIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25d33a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0e624, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex);
 
 protected:
@@ -74,6 +74,9 @@ public:
 
   /// @brief Field _normalIndex, offset: 0x18, size: 0x4, def value: None
   int32_t ____normalIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11780 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

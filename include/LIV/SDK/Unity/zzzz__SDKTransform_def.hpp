@@ -21,17 +21,17 @@ struct SDKTransform;
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::SDKTransform);
 // Type: LIV.SDK.Unity::SDKTransform
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
 // CS Name: ::LIV.SDK.Unity::SDKTransform
 struct CORDL_TYPE SDKTransform {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2626db4, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3a5e6f0, size 0xe8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x262635c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3a5dc98, size 0x14, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTransform get_empty();
 
   // Ctor Parameters []
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field localScale, offset: 0x1c, size: 0xc, def value: None
   ::LIV::SDK::Unity::SDKVector3 localScale;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17276 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

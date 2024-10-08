@@ -41,45 +41,45 @@ class Avatar;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::Avatar);
 // Type: BeatSaber.AvatarCore::Avatar
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // CS Name: ::BeatSaber.AvatarCore::Avatar*
 class CORDL_TYPE Avatar : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  __declspec(property(get = get_bodyCenterWorldPosition))::UnityEngine::Vector3 bodyCenterWorldPosition;
+  __declspec(property(get = get_bodyCenterWorldPosition)) ::UnityEngine::Vector3 bodyCenterWorldPosition;
 
-  /// @brief Field optionalDataProvider, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_optionalDataProvider, put = __cordl_internal_set_optionalDataProvider))::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* optionalDataProvider;
+  /// @brief Field optionalDataProvider, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_optionalDataProvider, put = __cordl_internal_set_optionalDataProvider)) ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* optionalDataProvider;
 
-  /// @brief Field poseDataProvider, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_poseDataProvider, put = __cordl_internal_set_poseDataProvider))::BeatSaber::AvatarCore::IAvatarPoseDataProvider* poseDataProvider;
+  /// @brief Field poseDataProvider, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_poseDataProvider, put = __cordl_internal_set_poseDataProvider)) ::BeatSaber::AvatarCore::IAvatarPoseDataProvider* poseDataProvider;
 
-  /// @brief Field visualDataProvider, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_visualDataProvider, put = __cordl_internal_set_visualDataProvider))::BeatSaber::AvatarCore::IAvatarVisualDataProvider* visualDataProvider;
+  /// @brief Field visualDataProvider, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_visualDataProvider, put = __cordl_internal_set_visualDataProvider)) ::BeatSaber::AvatarCore::IAvatarVisualDataProvider* visualDataProvider;
 
   static inline ::BeatSaber::AvatarCore::Avatar* New_ctor();
 
   /// @brief Method SetLightColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetLightColor(::UnityEngine::Color lightColor);
 
-  /// @brief Method SetOptionalDataProvider, addr 0x104cfa8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method SetOptionalDataProvider, addr 0x22147dc, size 0x1e8, virtual false, abstract: false, final false
   inline void SetOptionalDataProvider(::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* optionalDataProvider);
 
-  /// @brief Method SetPoseDataProvider, addr 0x104cca4, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method SetPoseDataProvider, addr 0x22144e0, size 0x218, virtual false, abstract: false, final false
   inline void SetPoseDataProvider(::BeatSaber::AvatarCore::IAvatarPoseDataProvider* poseDataProvider);
 
-  /// @brief Method SetVisualDataProvider, addr 0x104cec4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetVisualDataProvider, addr 0x22146f8, size 0xe4, virtual false, abstract: false, final false
   inline void SetVisualDataProvider(::BeatSaber::AvatarCore::IAvatarVisualDataProvider* visualDataProvider);
 
-  /// @brief Method UpdateAvatarFromOptionalData, addr 0x104d2f0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatarFromOptionalData, addr 0x2214b1c, size 0xcc, virtual false, abstract: false, final false
   inline void UpdateAvatarFromOptionalData(::BeatSaber::AvatarCore::OptionalAvatarData data);
 
   /// @brief Method UpdateAvatarFromOptionalData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateAvatarFromOptionalData(::BeatSaber::AvatarCore::OptionalAvatarData data, float_t playbackDelaySeconds);
 
-  /// @brief Method UpdateAvatarFromOptionalDataList, addr 0x104d198, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatarFromOptionalDataList, addr 0x22149c4, size 0x158, virtual false, abstract: false, final false
   inline void UpdateAvatarFromOptionalDataList(::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>* optionalData);
 
   /// @brief Method UpdateAvatarFromPose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_visualDataProvider(::BeatSaber::AvatarCore::IAvatarVisualDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x104d3bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2214be8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_bodyCenterWorldPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -126,25 +126,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Avatar(Avatar const&) = delete;
 
-  /// @brief Field visualDataProvider, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field visualDataProvider, offset: 0x20, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::IAvatarVisualDataProvider* ___visualDataProvider;
 
-  /// @brief Field poseDataProvider, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field poseDataProvider, offset: 0x28, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::IAvatarPoseDataProvider* ___poseDataProvider;
 
-  /// @brief Field optionalDataProvider, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field optionalDataProvider, offset: 0x30, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* ___optionalDataProvider;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17495 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::Avatar, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::Avatar, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::Avatar, ___visualDataProvider) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::Avatar, ___visualDataProvider) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::Avatar, ___poseDataProvider) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::Avatar, ___poseDataProvider) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::Avatar, ___optionalDataProvider) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::Avatar, ___optionalDataProvider) == 0x30, "Offset mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::Avatar);

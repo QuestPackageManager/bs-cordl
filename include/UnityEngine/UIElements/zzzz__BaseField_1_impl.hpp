@@ -5,11 +5,16 @@
 #include "UnityEngine/zzzz__PropertyName_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CustomStyleResolvedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IEditableElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__INotifyValueChanged_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Label_def.hpp"
@@ -65,6 +70,14 @@ template <typename TValueType>
 constexpr ::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>* UnityEngine::UIElements::BaseField_1<TValueType>::i___UnityEngine__UIElements__INotifyValueChanged_1_TValueType_() noexcept {
   return static_cast<::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>*>(static_cast<void*>(this));
 }
+/// @brief Convert operator to "::UnityEngine::UIElements::IEditableElement"
+template <typename TValueType> constexpr UnityEngine::UIElements::BaseField_1<TValueType>::operator ::UnityEngine::UIElements::IEditableElement*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IEditableElement*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IEditableElement"
+template <typename TValueType> constexpr ::UnityEngine::UIElements::IEditableElement* UnityEngine::UIElements::BaseField_1<TValueType>::i___UnityEngine__UIElements__IEditableElement() noexcept {
+  return static_cast<::UnityEngine::UIElements::IEditableElement*>(static_cast<void*>(this));
+}
 template <typename TValueType> constexpr float_t& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_LabelWidthRatio() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LabelWidthRatio;
@@ -101,6 +114,18 @@ template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LabelBaseMinWidth = value;
 }
+template <typename TValueType> constexpr float_t& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_LabelExtraContextWidth() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LabelExtraContextWidth;
+}
+template <typename TValueType> constexpr float_t const& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_LabelExtraContextWidth() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LabelExtraContextWidth;
+}
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_m_LabelExtraContextWidth(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_LabelExtraContextWidth = value;
+}
 template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_VisualInput() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VisualInput;
@@ -125,6 +150,19 @@ template <typename TValueType> constexpr TValueType const& UnityEngine::UIElemen
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_m_Value(TValueType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename TValueType> constexpr ::System::Func_2<TValueType, TValueType>*& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_onValidateValue() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___onValidateValue;
+}
+template <typename TValueType>
+constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TValueType, TValueType>*> const& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_onValidateValue() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___onValidateValue;
+}
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_onValidateValue(::System::Func_2<TValueType, TValueType>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onValidateValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> constexpr ::UnityEngine::UIElements::Label*& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get__labelElement_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -164,6 +202,32 @@ template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MixedValueLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+template <typename TValueType> constexpr bool& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_SkipValidation() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SkipValidation;
+}
+template <typename TValueType> constexpr bool const& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_SkipValidation() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SkipValidation;
+}
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_m_SkipValidation(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_SkipValidation = value;
+}
+template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_CachedContextWidthElement() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CachedContextWidthElement;
+}
+template <typename TValueType>
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const&
+UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_CachedContextWidthElement() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CachedContextWidthElement;
+}
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_m_CachedContextWidthElement(::UnityEngine::UIElements::VisualElement* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CachedContextWidthElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_CachedInspectorElement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedInspectorElement;
@@ -178,17 +242,39 @@ template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CachedInspectorElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TValueType> constexpr int32_t& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_CachedListAndFoldoutDepth() {
+template <typename TValueType>
+constexpr ::System::Action*& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get__UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CachedListAndFoldoutDepth;
+  return this->____UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField;
 }
-template <typename TValueType> constexpr int32_t const& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get_m_CachedListAndFoldoutDepth() const {
+template <typename TValueType>
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> const&
+UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get__UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CachedListAndFoldoutDepth;
+  return this->____UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField;
 }
-template <typename TValueType> constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set_m_CachedListAndFoldoutDepth(int32_t value) {
+template <typename TValueType>
+constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set__UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_CachedListAndFoldoutDepth = value;
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField)),
+                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename TValueType>
+constexpr ::System::Action*& UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get__UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField;
+}
+template <typename TValueType>
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> const&
+UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_get__UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField;
+}
+template <typename TValueType>
+constexpr void UnityEngine::UIElements::BaseField_1<TValueType>::__cordl_internal_set__UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField)),
+                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::setStaticF_ussClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "ussClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get>(
@@ -290,6 +376,16 @@ template <typename TValueType> inline ::UnityEngine::UIElements::CustomStyleProp
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::CustomStyleProperty_1<float_t>, "s_LabelBaseMinWidthProperty",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get>();
 }
+template <typename TValueType>
+inline void UnityEngine::UIElements::BaseField_1<TValueType>::setStaticF_s_LabelExtraContextWidthProperty(::UnityEngine::UIElements::CustomStyleProperty_1<float_t> value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::CustomStyleProperty_1<float_t>, "s_LabelExtraContextWidthProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get>(
+      std::forward<::UnityEngine::UIElements::CustomStyleProperty_1<float_t>>(value));
+}
+template <typename TValueType> inline ::UnityEngine::UIElements::CustomStyleProperty_1<float_t> UnityEngine::UIElements::BaseField_1<TValueType>::getStaticF_s_LabelExtraContextWidthProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::CustomStyleProperty_1<float_t>, "s_LabelExtraContextWidthProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get>();
+}
 template <typename TValueType> inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseField_1<TValueType>::get_visualInput() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(),
                                                                              "get_visualInput", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -312,14 +408,26 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValueType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::add_onValidateValue(::System::Func_2<TValueType, TValueType>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), "add_onValidateValue", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<TValueType, TValueType>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::remove_onValidateValue(::System::Func_2<TValueType, TValueType>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), "remove_onValidateValue", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<TValueType, TValueType>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseField_1<TValueType>::get_value() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 101)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 107)));
   return ::cordl_internals::RunMethodRethrow<TValueType, false>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::set_value(TValueType value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 102)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 108)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 template <typename TValueType> inline ::UnityEngine::UIElements::Label* UnityEngine::UIElements::BaseField_1<TValueType>::get_labelElement() {
@@ -349,10 +457,28 @@ template <typename TValueType> inline bool UnityEngine::UIElements::BaseField_1<
                                                                              "get_showMixedValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
+template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::set_showMixedValue(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), "set_showMixedValue",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 template <typename TValueType> inline ::UnityEngine::UIElements::Label* UnityEngine::UIElements::BaseField_1<TValueType>::get_mixedValueLabel() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(),
                                                                              "get_mixedValueLabel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Label*, false>(this, ___internal_method);
+}
+template <typename TValueType> inline ::System::Action* UnityEngine::UIElements::BaseField_1<TValueType>::UnityEngine_UIElements_IEditableElement_get_editingStarted() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(),
+                                               "UnityEngine.UIElements.IEditableElement.get_editingStarted", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Action*, false>(this, ___internal_method);
+}
+template <typename TValueType> inline ::System::Action* UnityEngine::UIElements::BaseField_1<TValueType>::UnityEngine_UIElements_IEditableElement_get_editingEnded() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(),
+                                               "UnityEngine.UIElements.IEditableElement.get_editingEnded", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Action*, false>(this, ___internal_method);
 }
 template <typename TValueType> inline ::UnityEngine::UIElements::BaseField_1<TValueType>* UnityEngine::UIElements::BaseField_1<TValueType>::New_ctor(::StringW label) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BaseField_1<TValueType>*>(label));
@@ -374,10 +500,43 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, label, visualInput);
 }
+template <typename TValueType> inline bool UnityEngine::UIElements::BaseField_1<TValueType>::EqualsCurrentValue(TValueType value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 113)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
+}
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* e) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), "OnAttachToPanel", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::AttachToPanelEvent*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::OnDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* e) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), "OnDetachFromPanel", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::DetachFromPanelEvent*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::RegisterEditingCallbacks() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 114)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::UnregisterEditingCallbacks() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 115)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::StartEditing(::UnityEngine::UIElements::EventBase* e) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), "StartEditing", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::EndEditing(::UnityEngine::UIElements::EventBase* e) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), "EndEditing", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::OnCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* evt) {
@@ -397,24 +556,30 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<
                                                                              "AlignLabel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseField_1<TValueType>::ValidatedValue(TValueType value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), "ValidatedValue",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValueType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<TValueType, false>(this, ___internal_method, value);
+}
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::UpdateMixedValueContent() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 104)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 116)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::SetValueWithoutNotify(TValueType newValue) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 105)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 117)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseField_1<TValueType>::OnViewDataReady() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 92)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 96)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType> inline ::UnityEngine::Rect UnityEngine::UIElements::BaseField_1<TValueType>::GetTooltipRect() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 91)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseField_1<TValueType>*>::get(), 95)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -23,7 +23,7 @@ class TlsAeadCipher;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher);
 // Type: Org.BouncyCastle.Crypto.Tls::TlsAeadCipher
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsAeadCipher*
@@ -31,19 +31,19 @@ class CORDL_TYPE TlsAeadCipher : public ::System::Object {
 public:
   // Declarations
   /// @brief Field context, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context)) ::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
 
   /// @brief Field decryptCipher, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_decryptCipher, put = __cordl_internal_set_decryptCipher))::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* decryptCipher;
+  __declspec(property(get = __cordl_internal_get_decryptCipher, put = __cordl_internal_set_decryptCipher)) ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* decryptCipher;
 
   /// @brief Field decryptImplicitNonce, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_decryptImplicitNonce, put = __cordl_internal_set_decryptImplicitNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> decryptImplicitNonce;
+  __declspec(property(get = __cordl_internal_get_decryptImplicitNonce, put = __cordl_internal_set_decryptImplicitNonce)) ::ArrayW<uint8_t, ::Array<uint8_t>*> decryptImplicitNonce;
 
   /// @brief Field encryptCipher, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_encryptCipher, put = __cordl_internal_set_encryptCipher))::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* encryptCipher;
+  __declspec(property(get = __cordl_internal_get_encryptCipher, put = __cordl_internal_set_encryptCipher)) ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* encryptCipher;
 
   /// @brief Field encryptImplicitNonce, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_encryptImplicitNonce, put = __cordl_internal_set_encryptImplicitNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> encryptImplicitNonce;
+  __declspec(property(get = __cordl_internal_get_encryptImplicitNonce, put = __cordl_internal_set_encryptImplicitNonce)) ::ArrayW<uint8_t, ::Array<uint8_t>*> encryptImplicitNonce;
 
   /// @brief Field macSize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_macSize, put = __cordl_internal_set_macSize)) int32_t macSize;
@@ -57,16 +57,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept;
 
-  /// @brief Method DecodeCiphertext, addr 0x120a9fc, size 0x568, virtual true, abstract: false, final false
+  /// @brief Method DecodeCiphertext, addr 0x23de4dc, size 0x550, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method EncodePlaintext, addr 0x120a488, size 0x574, virtual true, abstract: false, final false
+  /// @brief Method EncodePlaintext, addr 0x23ddf88, size 0x554, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method GetAdditionalData, addr 0x120af64, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method GetAdditionalData, addr 0x23dea2c, size 0x160, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetAdditionalData(int64_t seqNo, uint8_t type, int32_t len);
 
-  /// @brief Method GetPlaintextLimit, addr 0x120a478, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0x23ddf78, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsAeadCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
@@ -126,11 +126,11 @@ public:
 
   constexpr void __cordl_internal_set_record_iv_length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1209fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ddab8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* clientWriteCipher,
                     ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* serverWriteCipher, int32_t cipherKeySize, int32_t macSize);
 
-  /// @brief Method .ctor, addr 0x1209fb0, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ddac0, size 0x4b8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* clientWriteCipher,
                     ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* serverWriteCipher, int32_t cipherKeySize, int32_t macSize, int32_t nonceMode);
 
@@ -180,6 +180,9 @@ public:
 
   /// @brief Field NONCE_RFC5288 offset 0xffffffff size 0x4
   static constexpr int32_t NONCE_RFC5288{ static_cast<int32_t>(0x1) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1287 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

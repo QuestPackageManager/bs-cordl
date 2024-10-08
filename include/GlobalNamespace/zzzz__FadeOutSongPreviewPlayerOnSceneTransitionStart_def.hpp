@@ -12,6 +12,9 @@ class AudioPlayerBase;
 namespace GlobalNamespace {
 class GameScenesManager;
 }
+namespace GlobalNamespace {
+struct __GameScenesManager__SceneTransitionType;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class FadeOutSongPreviewPlayerOnSceneTransitionStart;
@@ -19,28 +22,28 @@ class FadeOutSongPreviewPlayerOnSceneTransitionStart;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart);
 // Type: ::FadeOutSongPreviewPlayerOnSceneTransitionStart
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FadeOutSongPreviewPlayerOnSceneTransitionStart*
 class CORDL_TYPE FadeOutSongPreviewPlayerOnSceneTransitionStart : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _gameScenesManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
+  /// @brief Field _gameScenesManager, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  /// @brief Field _songPreviewPlayer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::AudioPlayerBase> _songPreviewPlayer;
+  /// @brief Field _songPreviewPlayer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer)) ::UnityW<::GlobalNamespace::AudioPlayerBase> _songPreviewPlayer;
 
-  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x26343cc, size 0x38, virtual false, abstract: false, final false
-  inline void HandleGameScenesManagerTransitionDidStart(float_t duration);
+  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x3a66714, size 0x38, virtual false, abstract: false, final false
+  inline void HandleGameScenesManagerTransitionDidStart(::GlobalNamespace::__GameScenesManager__SceneTransitionType sceneTransitionType, float_t duration);
 
   static inline ::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26342f8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a66644, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x263426c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3a665b4, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
@@ -55,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::AudioPlayerBase> value);
 
-  /// @brief Method .ctor, addr 0x2634404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a6674c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,20 +75,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FadeOutSongPreviewPlayerOnSceneTransitionStart(FadeOutSongPreviewPlayerOnSceneTransitionStart const&) = delete;
 
-  /// @brief Field _songPreviewPlayer, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _songPreviewPlayer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioPlayerBase> ____songPreviewPlayer;
 
-  /// @brief Field _gameScenesManager, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _gameScenesManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4002 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart, ____songPreviewPlayer) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart, ____songPreviewPlayer) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart, ____gameScenesManager) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart, ____gameScenesManager) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart);

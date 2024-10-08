@@ -44,7 +44,7 @@ template <typename TInstantiate, typename TReturn> struct __AddressablesLoader__
 MARK_REF_PTR_T(::BGLib::AsyncInitialization::AddressablesLoader);
 MARK_GEN_VAL_T(::BGLib::AsyncInitialization::__AddressablesLoader___InstantiateFromAddressableToContainer_d__0_2);
 // Type: ::<InstantiateFromAddressableToContainer>d__0`2
-// SizeInfo { instance_size: 56, native_size: 72, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 72, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AsyncInitialization {
 // cpp template
 template <typename TInstantiate, typename TReturn>
@@ -92,6 +92,9 @@ public:
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::GameObject>> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17492 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
@@ -100,7 +103,7 @@ public:
 // Non member Declarations
 } // namespace BGLib::AsyncInitialization
 // Type: BGLib.AsyncInitialization::AddressablesLoader
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AsyncInitialization {
 // Is value type: false
 // CS Name: ::BGLib.AsyncInitialization::AddressablesLoader*
@@ -128,6 +131,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesLoader", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AddressablesLoader(AddressablesLoader const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17493 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

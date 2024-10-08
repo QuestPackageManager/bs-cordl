@@ -17,7 +17,7 @@ class X509NameTokenizer;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509NameTokenizer);
 // Type: Org.BouncyCastle.Asn1.X509::X509NameTokenizer
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509NameTokenizer*
@@ -25,7 +25,7 @@ class CORDL_TYPE X509NameTokenizer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field buffer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::System::Text::StringBuilder* buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer)) ::System::Text::StringBuilder* buffer;
 
   /// @brief Field index, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
@@ -34,16 +34,16 @@ public:
   __declspec(property(get = __cordl_internal_get_separator, put = __cordl_internal_set_separator)) char16_t separator;
 
   /// @brief Field value, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::StringW value;
 
-  /// @brief Method HasMoreTokens, addr 0x1417acc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HasMoreTokens, addr 0x25dd810, size 0x28, virtual false, abstract: false, final false
   inline bool HasMoreTokens();
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* New_ctor(::StringW oid);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* New_ctor(::StringW oid, char16_t separator);
 
-  /// @brief Method NextToken, addr 0x1417874, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method NextToken, addr 0x25dd5c0, size 0x1cc, virtual false, abstract: false, final false
   inline ::StringW NextToken();
 
   constexpr ::System::Text::StringBuilder*& __cordl_internal_get_buffer();
@@ -70,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x141786c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dd5b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
-  /// @brief Method .ctor, addr 0x1417a40, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dd78c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, char16_t separator);
 
 protected:
@@ -101,6 +101,9 @@ public:
 
   /// @brief Field buffer, offset: 0x20, size: 0x8, def value: None
   ::System::Text::StringBuilder* ___buffer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 409 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

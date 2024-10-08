@@ -18,40 +18,40 @@ class MoveInDirectionEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MoveInDirectionEffect);
 // Type: ::MoveInDirectionEffect
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MoveInDirectionEffect*
 class CORDL_TYPE MoveInDirectionEffect : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
   // Declarations
-  /// @brief Field _moveDirection, offset 0x3c, size 0xc
-  __declspec(property(get = __cordl_internal_get__moveDirection, put = __cordl_internal_set__moveDirection))::UnityEngine::Vector3 _moveDirection;
+  /// @brief Field _moveDirection, offset 0x44, size 0xc
+  __declspec(property(get = __cordl_internal_get__moveDirection, put = __cordl_internal_set__moveDirection)) ::UnityEngine::Vector3 _moveDirection;
 
-  /// @brief Field _moveOrigin, offset 0x20, size 0xc
-  __declspec(property(get = __cordl_internal_get__moveOrigin, put = __cordl_internal_set__moveOrigin))::UnityEngine::Vector3 _moveOrigin;
+  /// @brief Field _moveOrigin, offset 0x28, size 0xc
+  __declspec(property(get = __cordl_internal_get__moveOrigin, put = __cordl_internal_set__moveOrigin)) ::UnityEngine::Vector3 _moveOrigin;
 
-  /// @brief Field _moveScale, offset 0x2c, size 0x4
+  /// @brief Field _moveScale, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__moveScale, put = __cordl_internal_set__moveScale)) float_t _moveScale;
 
-  /// @brief Field _startPosition, offset 0x30, size 0xc
-  __declspec(property(get = __cordl_internal_get__startPosition, put = __cordl_internal_set__startPosition))::UnityEngine::Vector3 _startPosition;
+  /// @brief Field _startPosition, offset 0x38, size 0xc
+  __declspec(property(get = __cordl_internal_get__startPosition, put = __cordl_internal_set__startPosition)) ::UnityEngine::Vector3 _startPosition;
 
-  /// @brief Field _transform, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
+  /// @brief Field _transform, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x26f324c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b13a1c, size 0x11c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Move, addr 0x26f336c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x3b13b3c, size 0x4c, virtual false, abstract: false, final false
   inline void Move(float_t value);
 
   static inline ::GlobalNamespace::MoveInDirectionEffect* New_ctor();
 
-  /// @brief Method SetValue, addr 0x26f3368, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b13b38, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x26f33b8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b13b88, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__moveDirection() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x26f33bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b13b8c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,35 +101,38 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MoveInDirectionEffect(MoveInDirectionEffect const&) = delete;
 
-  /// @brief Field _transform, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _transform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 
-  /// @brief Field _moveOrigin, offset: 0x20, size: 0xc, def value: None
+  /// @brief Field _moveOrigin, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____moveOrigin;
 
-  /// @brief Field _moveScale, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _moveScale, offset: 0x34, size: 0x4, def value: None
   float_t ____moveScale;
 
-  /// @brief Field _startPosition, offset: 0x30, size: 0xc, def value: None
+  /// @brief Field _startPosition, offset: 0x38, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____startPosition;
 
-  /// @brief Field _moveDirection, offset: 0x3c, size: 0xc, def value: None
+  /// @brief Field _moveDirection, offset: 0x44, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____moveDirection;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4259 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MoveInDirectionEffect, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MoveInDirectionEffect, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____transform) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____transform) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____moveOrigin) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____moveOrigin) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____moveScale) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____moveScale) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____startPosition) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____startPosition) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____moveDirection) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____moveDirection) == 0x44, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MoveInDirectionEffect);

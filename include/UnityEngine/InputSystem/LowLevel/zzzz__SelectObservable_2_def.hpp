@@ -34,7 +34,7 @@ template <typename TSource, typename TResult> class __SelectObservable_2__Select
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::SelectObservable_2);
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::__SelectObservable_2__Select);
 // Type: ::Select
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TSource, typename TResult>
@@ -44,10 +44,10 @@ class CORDL_TYPE __SelectObservable_2__Select : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Observable, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Observable, put = __cordl_internal_set_m_Observable))::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>* m_Observable;
+  __declspec(property(get = __cordl_internal_get_m_Observable, put = __cordl_internal_set_m_Observable)) ::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>* m_Observable;
 
   /// @brief Field m_Observer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Observer, put = __cordl_internal_set_m_Observer))::System::IObserver_1<TResult>* m_Observer;
+  __declspec(property(get = __cordl_internal_get_m_Observer, put = __cordl_internal_set_m_Observer)) ::System::IObserver_1<TResult>* m_Observer;
 
   /// @brief Convert operator to "::System::IObserver_1<TSource>"
   constexpr operator ::System::IObserver_1<TSource>*() noexcept;
@@ -102,12 +102,15 @@ public:
   /// @brief Field m_Observer, offset: 0x18, size: 0x8, def value: None
   ::System::IObserver_1<TResult>* ___m_Observer;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6953 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: UnityEngine.InputSystem.LowLevel::SelectObservable`2
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TSource, typename TResult>
@@ -119,10 +122,10 @@ public:
   using Select = ::UnityEngine::InputSystem::LowLevel::__SelectObservable_2__Select<TSource, TResult>;
 
   /// @brief Field m_Filter, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Filter, put = __cordl_internal_set_m_Filter))::System::Func_2<TSource, TResult>* m_Filter;
+  __declspec(property(get = __cordl_internal_get_m_Filter, put = __cordl_internal_set_m_Filter)) ::System::Func_2<TSource, TResult>* m_Filter;
 
   /// @brief Field m_Source, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source))::System::IObservable_1<TSource>* m_Source;
+  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source)) ::System::IObservable_1<TSource>* m_Source;
 
   /// @brief Convert operator to "::System::IObservable_1<TResult>"
   constexpr operator ::System::IObservable_1<TResult>*() noexcept;
@@ -169,6 +172,9 @@ public:
 
   /// @brief Field m_Filter, offset: 0x18, size: 0x8, def value: None
   ::System::Func_2<TSource, TResult>* ___m_Filter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6954 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

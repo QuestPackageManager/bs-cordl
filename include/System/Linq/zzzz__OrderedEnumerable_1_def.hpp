@@ -52,7 +52,7 @@ template <typename TElement> class __OrderedEnumerable_1___GetEnumerator_d__1;
 MARK_GEN_REF_PTR_T(::System::Linq::OrderedEnumerable_1);
 MARK_GEN_REF_PTR_T(::System::Linq::__OrderedEnumerable_1___GetEnumerator_d__1);
 // Type: ::<GetEnumerator>d__1
-// SizeInfo { instance_size: 72, native_size: 68, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 68, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TElement>
@@ -63,7 +63,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TElement__get_Current)) TElement System_Collections_Generic_IEnumerator_TElement__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -72,16 +72,16 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TElement __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Linq::OrderedEnumerable_1<TElement>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::System::Linq::OrderedEnumerable_1<TElement>* __4__this;
 
   /// @brief Field <buffer>5__2, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get__buffer_5__2, put = __cordl_internal_set__buffer_5__2))::System::Linq::Buffer_1<TElement> _buffer_5__2;
+  __declspec(property(get = __cordl_internal_get__buffer_5__2, put = __cordl_internal_set__buffer_5__2)) ::System::Linq::Buffer_1<TElement> _buffer_5__2;
 
   /// @brief Field <i>5__4, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__i_5__4, put = __cordl_internal_set__i_5__4)) int32_t _i_5__4;
 
   /// @brief Field <map>5__3, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__map_5__3, put = __cordl_internal_set__map_5__3))::ArrayW<int32_t, ::Array<int32_t>*> _map_5__3;
+  __declspec(property(get = __cordl_internal_get__map_5__3, put = __cordl_internal_set__map_5__3)) ::ArrayW<int32_t, ::Array<int32_t>*> _map_5__3;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TElement>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TElement>*() noexcept;
@@ -189,12 +189,15 @@ public:
   /// @brief Field <i>5__4, offset: 0x40, size: 0x4, def value: None
   int32_t ____i_5__4;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13559 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: System.Linq::OrderedEnumerable`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TElement>
@@ -206,7 +209,7 @@ public:
   using _GetEnumerator_d__1 = ::System::Linq::__OrderedEnumerable_1___GetEnumerator_d__1<TElement>;
 
   /// @brief Field source, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<TElement>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::IEnumerable_1<TElement>* source;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TElement>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TElement>*() noexcept;
@@ -267,6 +270,9 @@ public:
 
   /// @brief Field source, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<TElement>* ___source;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13560 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -42,7 +42,7 @@ class __BitMaskSparse____c;
 MARK_REF_PTR_T(::GlobalNamespace::BitMaskSparse);
 MARK_REF_PTR_T(::GlobalNamespace::__BitMaskSparse____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BitMaskSparse::<>c*
@@ -50,17 +50,17 @@ class CORDL_TYPE __BitMaskSparse____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__BitMaskSparse____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__BitMaskSparse____c* __9;
 
   /// @brief Field <>9__8_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__8_0, put = setStaticF___9__8_0))::System::Func_2<uint32_t, ::StringW>* __9__8_0;
+  static __declspec(property(get = getStaticF___9__8_0, put = setStaticF___9__8_0)) ::System::Func_2<uint32_t, ::StringW>* __9__8_0;
 
   static inline ::GlobalNamespace::__BitMaskSparse____c* New_ctor();
 
-  /// @brief Method <ToString>b__8_0, addr 0x151383c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__8_0, addr 0x26ddbec, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__8_0(uint32_t i);
 
-  /// @brief Method .ctor, addr 0x1513834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ddbe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__BitMaskSparse____c* getStaticF___9();
@@ -85,6 +85,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BitMaskSparse____c(__BitMaskSparse____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16918 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -92,7 +95,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BitMaskSparse
 
 } // namespace GlobalNamespace
 // Type: ::BitMaskSparse
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BitMaskSparse*
@@ -105,7 +108,7 @@ public:
   __declspec(property(get = __cordl_internal_get__bitCount_k__BackingField, put = __cordl_internal_set__bitCount_k__BackingField)) int32_t _bitCount_k__BackingField;
 
   /// @brief Field _sparseSet, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__sparseSet, put = __cordl_internal_set__sparseSet))::System::Collections::Generic::SortedSet_1<uint32_t>* _sparseSet;
+  __declspec(property(get = __cordl_internal_get__sparseSet, put = __cordl_internal_set__sparseSet)) ::System::Collections::Generic::SortedSet_1<uint32_t>* _sparseSet;
 
   __declspec(property(get = get_bitCount)) int32_t bitCount;
 
@@ -118,24 +121,24 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x1512178, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x26dc54c, size 0x94, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x1513518, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x26dd8d0, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BitMaskSparse* other);
 
-  /// @brief Method GetBits, addr 0x1513614, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method GetBits, addr 0x26dd9cc, size 0x98, virtual true, abstract: false, final true
   inline uint64_t GetBits(int32_t offset, int32_t count);
 
   static inline ::GlobalNamespace::BitMaskSparse* New_ctor(int32_t bitCount);
 
-  /// @brief Method Serialize, addr 0x1511fcc, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x26dc348, size 0x1ec, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SetBits, addr 0x1513584, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method SetBits, addr 0x26dd93c, size 0x90, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BitMaskSparse* SetBits(int32_t offset, uint64_t bits);
 
-  /// @brief Method ToString, addr 0x15136ac, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x26dda64, size 0x124, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__bitCount_k__BackingField() const;
@@ -150,10 +153,10 @@ public:
 
   constexpr void __cordl_internal_set__sparseSet(::System::Collections::Generic::SortedSet_1<uint32_t>* value);
 
-  /// @brief Method .ctor, addr 0x1511c2c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dbfbc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitCount);
 
-  /// @brief Method get_bitCount, addr 0x1513510, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_bitCount, addr 0x26dd8c8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_bitCount();
 
   /// @brief Convert to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>"
@@ -184,6 +187,9 @@ public:
 
   /// @brief Field _sparseSet, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::SortedSet_1<uint32_t>* ____sparseSet;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16919 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

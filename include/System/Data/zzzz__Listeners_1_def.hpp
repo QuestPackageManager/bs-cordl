@@ -37,7 +37,7 @@ MARK_GEN_REF_PTR_T(::System::Data::Listeners_1);
 MARK_GEN_REF_PTR_T(::System::Data::__Listeners_1__Action_4);
 MARK_GEN_REF_PTR_T(::System::Data::__Listeners_1__Func_2);
 // Type: ::Action`4
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // cpp template
 template <typename TElem, typename T1, typename T2, typename T3, typename T4>
@@ -68,12 +68,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Listeners_1__Action_4(__Listeners_1__Action_4 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11426 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Data
 // Type: ::Func`2
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // cpp template
 template <typename TElem, typename T1, typename TResult>
@@ -104,12 +107,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Listeners_1__Func_2(__Listeners_1__Func_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11427 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Data
 // Type: System.Data::Listeners`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // cpp template
 template <typename TElem>
@@ -125,13 +131,13 @@ public:
   __declspec(property(get = get_HasListeners)) bool HasListeners;
 
   /// @brief Field _filter, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__filter, put = __cordl_internal_set__filter))::System::Data::__Listeners_1__Func_2<TElem, TElem, bool>* _filter;
+  __declspec(property(get = __cordl_internal_get__filter, put = __cordl_internal_set__filter)) ::System::Data::__Listeners_1__Func_2<TElem, TElem, bool>* _filter;
 
   /// @brief Field _listenerReaderCount, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__listenerReaderCount, put = __cordl_internal_set__listenerReaderCount)) int32_t _listenerReaderCount;
 
   /// @brief Field _listeners, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__listeners, put = __cordl_internal_set__listeners))::System::Collections::Generic::List_1<TElem>* _listeners;
+  __declspec(property(get = __cordl_internal_get__listeners, put = __cordl_internal_set__listeners)) ::System::Collections::Generic::List_1<TElem>* _listeners;
 
   /// @brief Field _objectID, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__objectID, put = __cordl_internal_set__objectID)) int32_t _objectID;
@@ -208,6 +214,9 @@ public:
 
   /// @brief Field _listenerReaderCount, offset: 0x24, size: 0x4, def value: None
   int32_t ____listenerReaderCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11428 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

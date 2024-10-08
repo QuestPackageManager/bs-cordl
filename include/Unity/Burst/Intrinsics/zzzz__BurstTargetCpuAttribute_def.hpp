@@ -16,7 +16,7 @@ class BurstTargetCpuAttribute;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::Intrinsics::BurstTargetCpuAttribute);
 // Type: Unity.Burst.Intrinsics::BurstTargetCpuAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst::Intrinsics {
 // Is value type: false
 // CS Name: ::Unity.Burst.Intrinsics::BurstTargetCpuAttribute*
@@ -24,7 +24,7 @@ class CORDL_TYPE BurstTargetCpuAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field TargetCpu, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_TargetCpu, put = __cordl_internal_set_TargetCpu))::Unity::Burst::BurstTargetCpu TargetCpu;
+  __declspec(property(get = __cordl_internal_get_TargetCpu, put = __cordl_internal_set_TargetCpu)) ::Unity::Burst::BurstTargetCpu TargetCpu;
 
   static inline ::Unity::Burst::Intrinsics::BurstTargetCpuAttribute* New_ctor(::Unity::Burst::BurstTargetCpu TargetCpu);
 
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetCpu(::Unity::Burst::BurstTargetCpu value);
 
-  /// @brief Method .ctor, addr 0x30bfaec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44b08a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Burst::BurstTargetCpu TargetCpu);
 
 protected:
@@ -53,6 +53,9 @@ public:
 
   /// @brief Field TargetCpu, offset: 0x10, size: 0x4, def value: None
   ::Unity::Burst::BurstTargetCpu ___TargetCpu;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14596 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

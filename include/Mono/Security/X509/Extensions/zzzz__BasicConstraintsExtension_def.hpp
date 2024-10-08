@@ -17,7 +17,7 @@ class BasicConstraintsExtension;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::X509::Extensions::BasicConstraintsExtension);
 // Type: Mono.Security.X509.Extensions::BasicConstraintsExtension
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509::Extensions {
 // Is value type: false
 // CS Name: ::Mono.Security.X509.Extensions::BasicConstraintsExtension*
@@ -32,15 +32,15 @@ public:
   /// @brief Field pathLenConstraint, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_pathLenConstraint, put = __cordl_internal_set_pathLenConstraint)) int32_t pathLenConstraint;
 
-  /// @brief Method Decode, addr 0x27a99e4, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x3bcbea0, size 0x134, virtual true, abstract: false, final false
   inline void Decode();
 
-  /// @brief Method Encode, addr 0x27a9b1c, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x3bcbfd4, size 0x128, virtual true, abstract: false, final false
   inline void Encode();
 
   static inline ::Mono::Security::X509::Extensions::BasicConstraintsExtension* New_ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method ToString, addr 0x27a9c58, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3bcc104, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_cA() const;
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set_pathLenConstraint(int32_t value);
 
-  /// @brief Method .ctor, addr 0x27a7df4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bca31c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method get_CertificateAuthority, addr 0x27a9c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateAuthority, addr 0x3bcc0fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_CertificateAuthority();
 
 protected:
@@ -80,6 +80,9 @@ public:
 
   /// @brief Field pathLenConstraint, offset: 0x2c, size: 0x4, def value: None
   int32_t ___pathLenConstraint;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15890 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

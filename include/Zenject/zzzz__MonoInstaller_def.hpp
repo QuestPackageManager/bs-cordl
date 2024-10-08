@@ -15,7 +15,7 @@ class MonoInstaller;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::MonoInstaller);
 // Type: Zenject::MonoInstaller
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::MonoInstaller*
@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::Zenject::MonoInstaller* New_ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x368c238, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ab0c24, size 0x16c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x368c228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ab0c14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,10 +44,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoInstaller(MonoInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12437 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::MonoInstaller, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Zenject::MonoInstaller, 0x28>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::MonoInstaller);

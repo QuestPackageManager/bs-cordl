@@ -34,44 +34,44 @@ class PersonalData;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::SigI::PersonalData);
 // Type: Org.BouncyCastle.Asn1.X509.SigI::PersonalData
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509::SigI {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509.SigI::PersonalData*
 class CORDL_TYPE PersonalData : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_DateOfBirth))::Org::BouncyCastle::Asn1::DerGeneralizedTime* DateOfBirth;
+  __declspec(property(get = get_DateOfBirth)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* DateOfBirth;
 
-  __declspec(property(get = get_Gender))::StringW Gender;
+  __declspec(property(get = get_Gender)) ::StringW Gender;
 
-  __declspec(property(get = get_NameDistinguisher))::Org::BouncyCastle::Math::BigInteger* NameDistinguisher;
+  __declspec(property(get = get_NameDistinguisher)) ::Org::BouncyCastle::Math::BigInteger* NameDistinguisher;
 
-  __declspec(property(get = get_NameOrPseudonym))::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* NameOrPseudonym;
+  __declspec(property(get = get_NameOrPseudonym)) ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* NameOrPseudonym;
 
-  __declspec(property(get = get_PlaceOfBirth))::Org::BouncyCastle::Asn1::X500::DirectoryString* PlaceOfBirth;
+  __declspec(property(get = get_PlaceOfBirth)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* PlaceOfBirth;
 
-  __declspec(property(get = get_PostalAddress))::Org::BouncyCastle::Asn1::X500::DirectoryString* PostalAddress;
+  __declspec(property(get = get_PostalAddress)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* PostalAddress;
 
   /// @brief Field dateOfBirth, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_dateOfBirth, put = __cordl_internal_set_dateOfBirth))::Org::BouncyCastle::Asn1::DerGeneralizedTime* dateOfBirth;
+  __declspec(property(get = __cordl_internal_get_dateOfBirth, put = __cordl_internal_set_dateOfBirth)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* dateOfBirth;
 
   /// @brief Field gender, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_gender, put = __cordl_internal_set_gender))::StringW gender;
+  __declspec(property(get = __cordl_internal_get_gender, put = __cordl_internal_set_gender)) ::StringW gender;
 
   /// @brief Field nameDistinguisher, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_nameDistinguisher, put = __cordl_internal_set_nameDistinguisher))::Org::BouncyCastle::Math::BigInteger* nameDistinguisher;
+  __declspec(property(get = __cordl_internal_get_nameDistinguisher, put = __cordl_internal_set_nameDistinguisher)) ::Org::BouncyCastle::Math::BigInteger* nameDistinguisher;
 
   /// @brief Field nameOrPseudonym, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_nameOrPseudonym, put = __cordl_internal_set_nameOrPseudonym))::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* nameOrPseudonym;
+  __declspec(property(get = __cordl_internal_get_nameOrPseudonym, put = __cordl_internal_set_nameOrPseudonym)) ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* nameOrPseudonym;
 
   /// @brief Field placeOfBirth, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_placeOfBirth, put = __cordl_internal_set_placeOfBirth))::Org::BouncyCastle::Asn1::X500::DirectoryString* placeOfBirth;
+  __declspec(property(get = __cordl_internal_get_placeOfBirth, put = __cordl_internal_set_placeOfBirth)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* placeOfBirth;
 
   /// @brief Field postalAddress, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_postalAddress, put = __cordl_internal_set_postalAddress))::Org::BouncyCastle::Asn1::X500::DirectoryString* postalAddress;
+  __declspec(property(get = __cordl_internal_get_postalAddress, put = __cordl_internal_set_postalAddress)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* postalAddress;
 
-  /// @brief Method GetInstance, addr 0x12f6044, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24c3bdc, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::PersonalData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::PersonalData* New_ctor(::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* nameOrPseudonym,
@@ -81,7 +81,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::PersonalData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x12f65bc, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24c4140, size 0x230, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_dateOfBirth();
@@ -120,30 +120,30 @@ public:
 
   constexpr void __cordl_internal_set_postalAddress(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  /// @brief Method .ctor, addr 0x12f6538, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c40bc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* nameOrPseudonym, ::Org::BouncyCastle::Math::BigInteger* nameDistinguisher,
                     ::Org::BouncyCastle::Asn1::DerGeneralizedTime* dateOfBirth, ::Org::BouncyCastle::Asn1::X500::DirectoryString* placeOfBirth, ::StringW gender,
                     ::Org::BouncyCastle::Asn1::X500::DirectoryString* postalAddress);
 
-  /// @brief Method .ctor, addr 0x12f61cc, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c3d58, size 0x364, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_DateOfBirth, addr 0x12f659c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateOfBirth, addr 0x24c4120, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_DateOfBirth();
 
-  /// @brief Method get_Gender, addr 0x12f65ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Gender, addr 0x24c4130, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Gender();
 
-  /// @brief Method get_NameDistinguisher, addr 0x12f6594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameDistinguisher, addr 0x24c4118, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_NameDistinguisher();
 
-  /// @brief Method get_NameOrPseudonym, addr 0x12f658c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameOrPseudonym, addr 0x24c4110, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* get_NameOrPseudonym();
 
-  /// @brief Method get_PlaceOfBirth, addr 0x12f65a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PlaceOfBirth, addr 0x24c4128, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_PlaceOfBirth();
 
-  /// @brief Method get_PostalAddress, addr 0x12f65b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PostalAddress, addr 0x24c4138, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_PostalAddress();
 
 protected:
@@ -177,6 +177,9 @@ public:
 
   /// @brief Field postalAddress, offset: 0x38, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X500::DirectoryString* ___postalAddress;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 336 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ class NativeMethodAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Bindings::NativeMethodAttribute);
 // Type: UnityEngine.Bindings::NativeMethodAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
 // CS Name: ::UnityEngine.Bindings::NativeMethodAttribute*
@@ -26,7 +26,7 @@ public:
 
   __declspec(property(put = set_IsThreadSafe)) bool IsThreadSafe;
 
-  __declspec(property(put = set_Name))::StringW Name;
+  __declspec(property(put = set_Name)) ::StringW Name;
 
   __declspec(property(put = set_ThrowsException)) bool ThrowsException;
 
@@ -40,7 +40,7 @@ public:
   __declspec(property(get = __cordl_internal_get__IsThreadSafe_k__BackingField, put = __cordl_internal_set__IsThreadSafe_k__BackingField)) bool _IsThreadSafe_k__BackingField;
 
   /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
   /// @brief Field <ThrowsException>k__BackingField, offset 0x1a, size 0x1
   __declspec(property(get = __cordl_internal_get__ThrowsException_k__BackingField, put = __cordl_internal_set__ThrowsException_k__BackingField)) bool _ThrowsException_k__BackingField;
@@ -83,31 +83,31 @@ public:
 
   constexpr void __cordl_internal_set__ThrowsException_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x34aadc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489d850, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x34aadd0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489d858, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x34aaed4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489d954, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction);
 
-  /// @brief Method .ctor, addr 0x34aaefc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489d97c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction, bool isThreadSafe);
 
-  /// @brief Method set_HasExplicitThis, addr 0x34aadbc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_HasExplicitThis, addr 0x489d844, size 0xc, virtual true, abstract: false, final true
   inline void set_HasExplicitThis(bool value);
 
-  /// @brief Method set_IsFreeFunction, addr 0x34aada4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_IsFreeFunction, addr 0x489d82c, size 0xc, virtual true, abstract: false, final true
   inline void set_IsFreeFunction(bool value);
 
-  /// @brief Method set_IsThreadSafe, addr 0x34aad98, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_IsThreadSafe, addr 0x489d820, size 0xc, virtual true, abstract: false, final true
   inline void set_IsThreadSafe(bool value);
 
-  /// @brief Method set_Name, addr 0x34aad90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Name, addr 0x489d818, size 0x8, virtual true, abstract: false, final true
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_ThrowsException, addr 0x34aadb0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_ThrowsException, addr 0x489d838, size 0xc, virtual true, abstract: false, final true
   inline void set_ThrowsException(bool value);
 
 protected:
@@ -138,6 +138,9 @@ public:
 
   /// @brief Field <HasExplicitThis>k__BackingField, offset: 0x1b, size: 0x1, def value: None
   bool ____HasExplicitThis_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18583 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

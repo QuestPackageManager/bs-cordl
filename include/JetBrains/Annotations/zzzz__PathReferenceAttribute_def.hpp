@@ -13,17 +13,17 @@ class PathReferenceAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::PathReferenceAttribute);
 // Type: JetBrains.Annotations::PathReferenceAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::PathReferenceAttribute*
 class CORDL_TYPE PathReferenceAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_BasePath, put = set_BasePath))::StringW BasePath;
+  __declspec(property(get = get_BasePath, put = set_BasePath)) ::StringW BasePath;
 
   /// @brief Field <BasePath>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__BasePath_k__BackingField, put = __cordl_internal_set__BasePath_k__BackingField))::StringW _BasePath_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BasePath_k__BackingField, put = __cordl_internal_set__BasePath_k__BackingField)) ::StringW _BasePath_k__BackingField;
 
   static inline ::JetBrains::Annotations::PathReferenceAttribute* New_ctor();
 
@@ -35,16 +35,16 @@ public:
 
   constexpr void __cordl_internal_set__BasePath_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3651360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77be0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3651368, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77be8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW basePath);
 
-  /// @brief Method get_BasePath, addr 0x3651390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BasePath, addr 0x4a77c10, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BasePath();
 
-  /// @brief Method set_BasePath, addr 0x3651398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BasePath, addr 0x4a77c18, size 0x8, virtual false, abstract: false, final false
   inline void set_BasePath(::StringW value);
 
 protected:
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field <BasePath>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____BasePath_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

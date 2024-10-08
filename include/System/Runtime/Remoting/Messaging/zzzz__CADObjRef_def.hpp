@@ -17,7 +17,7 @@ class CADObjRef;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADObjRef);
 // Type: System.Runtime.Remoting.Messaging::CADObjRef
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::CADObjRef*
@@ -28,10 +28,10 @@ public:
   __declspec(property(get = __cordl_internal_get_SourceDomain, put = __cordl_internal_set_SourceDomain)) int32_t SourceDomain;
 
   /// @brief Field TypeInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_TypeInfo, put = __cordl_internal_set_TypeInfo))::ArrayW<uint8_t, ::Array<uint8_t>*> TypeInfo;
+  __declspec(property(get = __cordl_internal_get_TypeInfo, put = __cordl_internal_set_TypeInfo)) ::ArrayW<uint8_t, ::Array<uint8_t>*> TypeInfo;
 
   /// @brief Field objref, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_objref, put = __cordl_internal_set_objref))::System::Runtime::Remoting::ObjRef* objref;
+  __declspec(property(get = __cordl_internal_get_objref, put = __cordl_internal_set_objref)) ::System::Runtime::Remoting::ObjRef* objref;
 
   static inline ::System::Runtime::Remoting::Messaging::CADObjRef* New_ctor(::System::Runtime::Remoting::ObjRef* o, int32_t sourceDomain);
 
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_objref(::System::Runtime::Remoting::ObjRef* value);
 
-  /// @brief Method .ctor, addr 0x2854e4c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c71a2c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::ObjRef* o, int32_t sourceDomain);
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field TypeInfo, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___TypeInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3152 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

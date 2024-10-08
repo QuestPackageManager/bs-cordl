@@ -26,63 +26,63 @@ class ThaiBuddhistCalendar;
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::ThaiBuddhistCalendar);
 // Type: System.Globalization::ThaiBuddhistCalendar
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::ThaiBuddhistCalendar*
 class CORDL_TYPE ThaiBuddhistCalendar : public ::System::Globalization::Calendar {
 public:
   // Declarations
-  __declspec(property(get = get_Eras))::ArrayW<int32_t, ::Array<int32_t>*> Eras;
+  __declspec(property(get = get_Eras)) ::ArrayW<int32_t, ::Array<int32_t>*> Eras;
 
-  __declspec(property(get = get_MaxSupportedDateTime))::System::DateTime MaxSupportedDateTime;
+  __declspec(property(get = get_MaxSupportedDateTime)) ::System::DateTime MaxSupportedDateTime;
 
-  __declspec(property(get = get_MinSupportedDateTime))::System::DateTime MinSupportedDateTime;
+  __declspec(property(get = get_MinSupportedDateTime)) ::System::DateTime MinSupportedDateTime;
 
   __declspec(property(get = get_TwoDigitYearMax, put = set_TwoDigitYearMax)) int32_t TwoDigitYearMax;
 
   __declspec(property(get = get_ID)) int32_t _cordl_ID;
 
   /// @brief Field helper, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper))::System::Globalization::GregorianCalendarHelper* helper;
+  __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper)) ::System::Globalization::GregorianCalendarHelper* helper;
 
   /// @brief Field thaiBuddhistEraInfo, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_thaiBuddhistEraInfo,
-                             put = setStaticF_thaiBuddhistEraInfo))::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> thaiBuddhistEraInfo;
+  static __declspec(property(get = getStaticF_thaiBuddhistEraInfo, put = setStaticF_thaiBuddhistEraInfo)) ::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*>
+      thaiBuddhistEraInfo;
 
-  /// @brief Method GetDayOfMonth, addr 0x291c7f8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetDayOfMonth, addr 0x3d30108, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetDayOfMonth(::System::DateTime time);
 
-  /// @brief Method GetDayOfWeek, addr 0x291c840, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetDayOfWeek, addr 0x3d30120, size 0x18, virtual true, abstract: false, final false
   inline ::System::DayOfWeek GetDayOfWeek(::System::DateTime time);
 
-  /// @brief Method GetDaysInMonth, addr 0x291c7c8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetDaysInMonth, addr 0x3d300d8, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetDaysInMonth(int32_t year, int32_t month, int32_t era);
 
-  /// @brief Method GetDaysInYear, addr 0x291c7e0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetDaysInYear, addr 0x3d300f0, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetDaysInYear(int32_t year, int32_t era);
 
-  /// @brief Method GetEra, addr 0x291c87c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetEra, addr 0x3d3015c, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetEra(::System::DateTime time);
 
-  /// @brief Method GetMonth, addr 0x291c894, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetMonth, addr 0x3d30174, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetMonth(::System::DateTime time);
 
-  /// @brief Method GetMonthsInYear, addr 0x291c858, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetMonthsInYear, addr 0x3d30138, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetMonthsInYear(int32_t year, int32_t era);
 
-  /// @brief Method GetYear, addr 0x291c8dc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetYear, addr 0x3d3018c, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetYear(::System::DateTime time);
 
-  /// @brief Method IsLeapYear, addr 0x291c8f4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method IsLeapYear, addr 0x3d301a4, size 0x18, virtual true, abstract: false, final false
   inline bool IsLeapYear(int32_t year, int32_t era);
 
   static inline ::System::Globalization::ThaiBuddhistCalendar* New_ctor();
 
-  /// @brief Method ToDateTime, addr 0x291c90c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x3d301bc, size 0x20, virtual true, abstract: false, final false
   inline ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era);
 
-  /// @brief Method ToFourDigitYear, addr 0x291cac4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ToFourDigitYear, addr 0x3d30370, size 0xa8, virtual true, abstract: false, final false
   inline int32_t ToFourDigitYear(int32_t year);
 
   constexpr ::System::Globalization::GregorianCalendarHelper*& __cordl_internal_get_helper();
@@ -91,29 +91,29 @@ public:
 
   constexpr void __cordl_internal_set_helper(::System::Globalization::GregorianCalendarHelper* value);
 
-  /// @brief Method .ctor, addr 0x291c714, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d3002c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> getStaticF_thaiBuddhistEraInfo();
 
-  /// @brief Method get_Eras, addr 0x291c92c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Eras, addr 0x3d301dc, size 0x18, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_Eras();
 
-  /// @brief Method get_ID, addr 0x291c7c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ID, addr 0x3d300d0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ID();
 
-  /// @brief Method get_MaxSupportedDateTime, addr 0x291c6bc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_MaxSupportedDateTime, addr 0x3d2ffd4, size 0x58, virtual true, abstract: false, final false
   inline ::System::DateTime get_MaxSupportedDateTime();
 
-  /// @brief Method get_MinSupportedDateTime, addr 0x291c664, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_MinSupportedDateTime, addr 0x3d2ff7c, size 0x58, virtual true, abstract: false, final false
   inline ::System::DateTime get_MinSupportedDateTime();
 
-  /// @brief Method get_TwoDigitYearMax, addr 0x291c944, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_TwoDigitYearMax, addr 0x3d301f4, size 0x44, virtual true, abstract: false, final false
   inline int32_t get_TwoDigitYearMax();
 
   static inline void setStaticF_thaiBuddhistEraInfo(::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> value);
 
-  /// @brief Method set_TwoDigitYearMax, addr 0x291c988, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method set_TwoDigitYearMax, addr 0x3d30238, size 0x138, virtual true, abstract: false, final false
   inline void set_TwoDigitYearMax(int32_t value);
 
 protected:
@@ -132,6 +132,9 @@ public:
 
   /// @brief Field helper, offset: 0x20, size: 0x8, def value: None
   ::System::Globalization::GregorianCalendarHelper* ___helper;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3713 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

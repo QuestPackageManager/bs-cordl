@@ -13,9 +13,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LocalizedTextAsset__TextInfo::*)()>(
     &::GlobalNamespace::__LocalizedTextAsset__TextInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ae944;
+  constexpr static std::size_t addrs = 0x3aa49bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -55,75 +55,14 @@ inline void GlobalNamespace::__LocalizedTextAsset__TextInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__LocalizedTextAsset__TextInfo::__LocalizedTextAsset__TextInfo() {}
-//  Writing Method size for method: ::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::*)()>(
-    &::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ae934;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0._get_localizedText_b__1
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::*)(
-    ::GlobalNamespace::__LocalizedTextAsset__TextInfo*)>(&::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::_get_localizedText_b__1)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26ae94c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0*>::get(), "<get_localizedText>b__1",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::BGLib::Polyglot::Language& GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::__cordl_internal_get_language() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___language;
-}
-constexpr ::BGLib::Polyglot::Language const& GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::__cordl_internal_get_language() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___language;
-}
-constexpr void GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::__cordl_internal_set_language(::BGLib::Polyglot::Language value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___language = value;
-}
-inline ::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0* GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0*>());
-}
-inline void GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::_get_localizedText_b__1(::GlobalNamespace::__LocalizedTextAsset__TextInfo* t) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0*>::get(), "<get_localizedText>b__1",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, t);
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::__LocalizedTextAsset____c__DisplayClass6_0() {}
 //  Writing Method size for method: ::GlobalNamespace::__LocalizedTextAsset____c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LocalizedTextAsset____c::*)()>(&::GlobalNamespace::__LocalizedTextAsset____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ae9d4;
+  constexpr static std::size_t addrs = 0x3aa4a20;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LocalizedTextAsset____c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -135,9 +74,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__LocalizedTextAsset____c::*)(::GlobalNamespace::__LocalizedTextAsset__TextInfo*)>(
     &::GlobalNamespace::__LocalizedTextAsset____c::_get_localizedText_b__6_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26ae9dc;
+  constexpr static std::size_t addrs = 0x3aa4a28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LocalizedTextAsset____c*>::get(), "<get_localizedText>b__6_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>::get() })));
@@ -177,6 +116,67 @@ inline bool GlobalNamespace::__LocalizedTextAsset____c::_get_localizedText_b__6_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__LocalizedTextAsset____c::__LocalizedTextAsset____c() {}
+//  Writing Method size for method: ::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::*)()>(
+    &::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3aa49ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0._get_localizedText_b__1
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::*)(
+    ::GlobalNamespace::__LocalizedTextAsset__TextInfo*)>(&::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::_get_localizedText_b__1)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x3aa4a48;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0*>::get(), "<get_localizedText>b__1",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>::get() })));
+    return ___internal_method;
+  }
+};
+constexpr ::BGLib::Polyglot::Language& GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::__cordl_internal_get_language() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___language;
+}
+constexpr ::BGLib::Polyglot::Language const& GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::__cordl_internal_get_language() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___language;
+}
+constexpr void GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::__cordl_internal_set_language(::BGLib::Polyglot::Language value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___language = value;
+}
+inline ::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0* GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0*>());
+}
+inline void GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::_get_localizedText_b__1(::GlobalNamespace::__LocalizedTextAsset__TextInfo* t) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0*>::get(), "<get_localizedText>b__1",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, t);
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0::__LocalizedTextAsset____c__DisplayClass6_0() {}
 //  Writing Method size for method: ::GlobalNamespace::LocalizedTextAsset.get_textInfos
 template <>
 
@@ -184,9 +184,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> (::GlobalNamespace::LocalizedTextAsset::*)()>(
         &::GlobalNamespace::LocalizedTextAsset::get_textInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ae61c;
+  constexpr static std::size_t addrs = 0x3aa46a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedTextAsset*>::get(), "get_textInfos",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -196,10 +196,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LocalizedTextAsset::*)()>(&::GlobalNamespace::LocalizedTextAsset::get_localizedText)> {
-  constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x26ae624;
+  constexpr static std::size_t size = 0x304;
+  constexpr static std::size_t addrs = 0x3aa46a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedTextAsset*>::get(),
                                                                                "get_localizedText", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -210,9 +210,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedTextAsset::*)()>(&::GlobalNamespace::LocalizedTextAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ae93c;
+  constexpr static std::size_t addrs = 0x3aa49b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedTextAsset*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;

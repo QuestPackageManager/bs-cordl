@@ -17,7 +17,7 @@ struct MatchTargetWeightMask;
 // Write type traits
 MARK_VAL_T(::UnityEngine::MatchTargetWeightMask);
 // Type: UnityEngine::MatchTargetWeightMask
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::MatchTargetWeightMask
@@ -37,6 +37,9 @@ public:
 
   /// @brief Field m_RotationWeight, offset: 0xc, size: 0x4, def value: None
   float_t m_RotationWeight;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16819 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

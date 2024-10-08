@@ -63,7 +63,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassLight__LightsDataItem);
 MARK_VAL_T(::GlobalNamespace::__BloomPrePassLight__QuadData);
 MARK_VAL_T(::GlobalNamespace::__BloomPrePassLight__VertexData);
 // Type: ::VertexData
-// SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 68, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
+// SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 68, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::BloomPrePassLight::VertexData
@@ -71,16 +71,16 @@ struct CORDL_TYPE __BloomPrePassLight__VertexData {
 public:
   // Declarations
   /// @brief Field color, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
+  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color)) ::UnityEngine::Color color;
 
   /// @brief Field uv, offset 0x28, size 0xc
-  __declspec(property(get = __cordl_internal_get_uv, put = __cordl_internal_set_uv))::UnityEngine::Vector3 uv;
+  __declspec(property(get = __cordl_internal_get_uv, put = __cordl_internal_set_uv)) ::UnityEngine::Vector3 uv;
 
   /// @brief Field vertex, offset 0x0, size 0xc
-  __declspec(property(get = __cordl_internal_get_vertex, put = __cordl_internal_set_vertex))::UnityEngine::Vector3 vertex;
+  __declspec(property(get = __cordl_internal_get_vertex, put = __cordl_internal_set_vertex)) ::UnityEngine::Vector3 vertex;
 
   /// @brief Field viewPos, offset 0xc, size 0xc
-  __declspec(property(get = __cordl_internal_get_viewPos, put = __cordl_internal_set_viewPos))::UnityEngine::Vector3 viewPos;
+  __declspec(property(get = __cordl_internal_get_viewPos, put = __cordl_internal_set_viewPos)) ::UnityEngine::Vector3 viewPos;
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
 
@@ -176,6 +176,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16206 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x34 };
 
@@ -186,7 +189,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassL
 
 } // namespace GlobalNamespace
 // Type: ::QuadData
-// SizeInfo { instance_size: 208, native_size: 208, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
+// SizeInfo { instance_size: 208, native_size: 208, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::BloomPrePassLight::QuadData
@@ -194,16 +197,16 @@ struct CORDL_TYPE __BloomPrePassLight__QuadData {
 public:
   // Declarations
   /// @brief Field vertex0, offset 0x0, size 0x34
-  __declspec(property(get = __cordl_internal_get_vertex0, put = __cordl_internal_set_vertex0))::GlobalNamespace::__BloomPrePassLight__VertexData vertex0;
+  __declspec(property(get = __cordl_internal_get_vertex0, put = __cordl_internal_set_vertex0)) ::GlobalNamespace::__BloomPrePassLight__VertexData vertex0;
 
   /// @brief Field vertex1, offset 0x34, size 0x34
-  __declspec(property(get = __cordl_internal_get_vertex1, put = __cordl_internal_set_vertex1))::GlobalNamespace::__BloomPrePassLight__VertexData vertex1;
+  __declspec(property(get = __cordl_internal_get_vertex1, put = __cordl_internal_set_vertex1)) ::GlobalNamespace::__BloomPrePassLight__VertexData vertex1;
 
   /// @brief Field vertex2, offset 0x68, size 0x34
-  __declspec(property(get = __cordl_internal_get_vertex2, put = __cordl_internal_set_vertex2))::GlobalNamespace::__BloomPrePassLight__VertexData vertex2;
+  __declspec(property(get = __cordl_internal_get_vertex2, put = __cordl_internal_set_vertex2)) ::GlobalNamespace::__BloomPrePassLight__VertexData vertex2;
 
   /// @brief Field vertex3, offset 0x9c, size 0x34
-  __declspec(property(get = __cordl_internal_get_vertex3, put = __cordl_internal_set_vertex3))::GlobalNamespace::__BloomPrePassLight__VertexData vertex3;
+  __declspec(property(get = __cordl_internal_get_vertex3, put = __cordl_internal_set_vertex3)) ::GlobalNamespace::__BloomPrePassLight__VertexData vertex3;
 
   constexpr ::GlobalNamespace::__BloomPrePassLight__VertexData const& __cordl_internal_get_vertex0() const;
 
@@ -301,6 +304,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16207 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };
 
@@ -311,7 +317,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassL
 
 } // namespace GlobalNamespace
 // Type: ::LightsDataItem
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BloomPrePassLight::LightsDataItem*
@@ -319,10 +325,10 @@ class CORDL_TYPE __BloomPrePassLight__LightsDataItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lightType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_lightType, put = __cordl_internal_set_lightType))::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> lightType;
+  __declspec(property(get = __cordl_internal_get_lightType, put = __cordl_internal_set_lightType)) ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> lightType;
 
   /// @brief Field lights, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_lights, put = __cordl_internal_set_lights))::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights;
+  __declspec(property(get = __cordl_internal_get_lights, put = __cordl_internal_set_lights)) ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights;
 
   static inline ::GlobalNamespace::__BloomPrePassLight__LightsDataItem* New_ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType,
                                                                                  ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights);
@@ -339,7 +345,7 @@ public:
 
   constexpr void __cordl_internal_set_lights(::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* value);
 
-  /// @brief Method .ctor, addr 0x25178f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396f6a0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights);
 
 protected:
@@ -362,6 +368,9 @@ public:
   /// @brief Field lights, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* ___lights;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16208 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -373,7 +382,7 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassLight__LightsDataItem, _
 
 } // namespace GlobalNamespace
 // Type: ::BloomPrePassLight
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BloomPrePassLight*
@@ -387,25 +396,25 @@ public:
   using VertexData = ::GlobalNamespace::__BloomPrePassLight__VertexData;
 
   /// @brief Field _bloomLightsDict, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__bloomLightsDict, put = setStaticF__bloomLightsDict))::System::Collections::Generic::Dictionary_2<
+  static __declspec(property(get = getStaticF__bloomLightsDict, put = setStaticF__bloomLightsDict)) ::System::Collections::Generic::Dictionary_2<
       ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>* _bloomLightsDict;
 
-  /// @brief Field _isBeingDestroyed, offset 0x29, size 0x1
+  /// @brief Field _isBeingDestroyed, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get__isBeingDestroyed, put = __cordl_internal_set__isBeingDestroyed)) bool _isBeingDestroyed;
 
-  /// @brief Field _isRegistered, offset 0x28, size 0x1
+  /// @brief Field _isRegistered, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__isRegistered, put = __cordl_internal_set__isRegistered)) bool _isRegistered;
 
-  /// @brief Field _lightType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightType, put = __cordl_internal_set__lightType))::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> _lightType;
+  /// @brief Field _lightType, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightType, put = __cordl_internal_set__lightType)) ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> _lightType;
 
   /// @brief Field _lightsDataItems, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__lightsDataItems,
-                             put = setStaticF__lightsDataItems))::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* _lightsDataItems;
+                             put = setStaticF__lightsDataItems)) ::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* _lightsDataItems;
 
-  /// @brief Field _registeredWithLightType, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__registeredWithLightType,
-                      put = __cordl_internal_set__registeredWithLightType))::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> _registeredWithLightType;
+  /// @brief Field _registeredWithLightType, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__registeredWithLightType, put = __cordl_internal_set__registeredWithLightType)) ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>
+      _registeredWithLightType;
 
   /// @brief Method DidRegisterLight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DidRegisterLight();
@@ -416,22 +425,22 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassLight* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25178e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x396f694, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x2517820, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x396f5cc, size 0x4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2517568, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x396f324, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
   /// @brief Method Refresh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Refresh();
 
-  /// @brief Method RegisterLight, addr 0x251756c, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method RegisterLight, addr 0x396f328, size 0x2a4, virtual false, abstract: false, final false
   inline void RegisterLight();
 
-  /// @brief Method UnregisterLight, addr 0x2517824, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method UnregisterLight, addr 0x396f5d0, size 0xc4, virtual false, abstract: false, final false
   inline void UnregisterLight();
 
   constexpr bool const& __cordl_internal_get__isBeingDestroyed() const;
@@ -458,7 +467,7 @@ public:
 
   constexpr void __cordl_internal_set__registeredWithLightType(::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> value);
 
-  /// @brief Method .ctor, addr 0x2517920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396f6cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
@@ -467,12 +476,12 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* getStaticF__lightsDataItems();
 
-  /// @brief Method get_bloomLightsDict, addr 0x25174b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_bloomLightsDict, addr 0x396f274, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
                                                              ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>*
   get_bloomLightsDict();
 
-  /// @brief Method get_lightsDataItems, addr 0x2517510, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_lightsDataItems, addr 0x396f2cc, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* get_lightsDataItems();
 
   static inline void setStaticF__bloomLightsDict(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
@@ -494,17 +503,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassLight(BloomPrePassLight const&) = delete;
 
-  /// @brief Field _lightType, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _lightType, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> ____lightType;
 
-  /// @brief Field _registeredWithLightType, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _registeredWithLightType, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> ____registeredWithLightType;
 
-  /// @brief Field _isRegistered, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field _isRegistered, offset: 0x30, size: 0x1, def value: None
   bool ____isRegistered;
 
-  /// @brief Field _isBeingDestroyed, offset: 0x29, size: 0x1, def value: None
+  /// @brief Field _isBeingDestroyed, offset: 0x31, size: 0x1, def value: None
   bool ____isBeingDestroyed;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16209 };
 
   /// @brief Field kColorOffset offset 0xffffffff size 0x4
   static constexpr int32_t kColorOffset{ static_cast<int32_t>(0x18) };
@@ -539,15 +551,15 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassLight, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassLight, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassLight, ____lightType) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassLight, ____lightType) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassLight, ____registeredWithLightType) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassLight, ____registeredWithLightType) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassLight, ____isRegistered) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassLight, ____isRegistered) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassLight, ____isBeingDestroyed) == 0x29, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassLight, ____isBeingDestroyed) == 0x31, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassLight);

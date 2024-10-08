@@ -16,31 +16,31 @@ class WellKnownClientTypeEntry;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::WellKnownClientTypeEntry);
 // Type: System.Runtime.Remoting::WellKnownClientTypeEntry
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting::WellKnownClientTypeEntry*
 class CORDL_TYPE WellKnownClientTypeEntry : public ::System::Runtime::Remoting::TypeEntry {
 public:
   // Declarations
-  __declspec(property(get = get_ApplicationUrl))::StringW ApplicationUrl;
+  __declspec(property(get = get_ApplicationUrl)) ::StringW ApplicationUrl;
 
-  __declspec(property(get = get_ObjectType))::System::Type* ObjectType;
+  __declspec(property(get = get_ObjectType)) ::System::Type* ObjectType;
 
-  __declspec(property(get = get_ObjectUrl))::StringW ObjectUrl;
+  __declspec(property(get = get_ObjectUrl)) ::StringW ObjectUrl;
 
   /// @brief Field app_url, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_app_url, put = __cordl_internal_set_app_url))::StringW app_url;
+  __declspec(property(get = __cordl_internal_get_app_url, put = __cordl_internal_set_app_url)) ::StringW app_url;
 
   /// @brief Field obj_type, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_obj_type, put = __cordl_internal_set_obj_type))::System::Type* obj_type;
+  __declspec(property(get = __cordl_internal_get_obj_type, put = __cordl_internal_set_obj_type)) ::System::Type* obj_type;
 
   /// @brief Field obj_url, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_obj_url, put = __cordl_internal_set_obj_url))::StringW obj_url;
+  __declspec(property(get = __cordl_internal_get_obj_url, put = __cordl_internal_set_obj_url)) ::StringW obj_url;
 
   static inline ::System::Runtime::Remoting::WellKnownClientTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl);
 
-  /// @brief Method ToString, addr 0x2844c20, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c61c40, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_app_url() const;
@@ -61,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set_obj_url(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2844ad8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c61b00, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl);
 
-  /// @brief Method get_ApplicationUrl, addr 0x2844c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ApplicationUrl, addr 0x3c61c28, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ApplicationUrl();
 
-  /// @brief Method get_ObjectType, addr 0x2844c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x3c61c30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_ObjectUrl, addr 0x2844c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectUrl, addr 0x3c61c38, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectUrl();
 
 protected:
@@ -95,6 +95,9 @@ public:
 
   /// @brief Field app_url, offset: 0x30, size: 0x8, def value: None
   ::StringW ___app_url;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

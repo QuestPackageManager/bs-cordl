@@ -17,7 +17,7 @@ class CrossAppDomainData;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::CrossAppDomainData);
 // Type: System.Runtime.Remoting.Channels::CrossAppDomainData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Channels::CrossAppDomainData*
@@ -26,16 +26,16 @@ public:
   // Declarations
   __declspec(property(get = get_DomainID)) int32_t DomainID;
 
-  __declspec(property(get = get_ProcessID))::StringW ProcessID;
+  __declspec(property(get = get_ProcessID)) ::StringW ProcessID;
 
   /// @brief Field _ContextID, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ContextID, put = __cordl_internal_set__ContextID))::System::Object* _ContextID;
+  __declspec(property(get = __cordl_internal_get__ContextID, put = __cordl_internal_set__ContextID)) ::System::Object* _ContextID;
 
   /// @brief Field _DomainID, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__DomainID, put = __cordl_internal_set__DomainID)) int32_t _DomainID;
 
   /// @brief Field _processGuid, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__processGuid, put = __cordl_internal_set__processGuid))::StringW _processGuid;
+  __declspec(property(get = __cordl_internal_get__processGuid, put = __cordl_internal_set__processGuid)) ::StringW _processGuid;
 
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainData* New_ctor(int32_t domainId);
 
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__processGuid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28502bc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c6cf2c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t domainId);
 
-  /// @brief Method get_DomainID, addr 0x2850364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DomainID, addr 0x3c6cfd4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DomainID();
 
-  /// @brief Method get_ProcessID, addr 0x285036c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessID, addr 0x3c6cfdc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProcessID();
 
 protected:
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field _processGuid, offset: 0x20, size: 0x8, def value: None
   ::StringW ____processGuid;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3114 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

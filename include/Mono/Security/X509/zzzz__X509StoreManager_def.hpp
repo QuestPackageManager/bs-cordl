@@ -19,7 +19,7 @@ class X509StoreManager;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::X509::X509StoreManager);
 // Type: Mono.Security.X509::X509StoreManager
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
 // CS Name: ::Mono.Security.X509::X509StoreManager*
@@ -27,16 +27,16 @@ class CORDL_TYPE X509StoreManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _localMachinePath, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__localMachinePath, put = setStaticF__localMachinePath))::StringW _localMachinePath;
+  static __declspec(property(get = getStaticF__localMachinePath, put = setStaticF__localMachinePath)) ::StringW _localMachinePath;
 
   /// @brief Field _machineStore, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__machineStore, put = setStaticF__machineStore))::Mono::Security::X509::X509Stores* _machineStore;
+  static __declspec(property(get = getStaticF__machineStore, put = setStaticF__machineStore)) ::Mono::Security::X509::X509Stores* _machineStore;
 
   /// @brief Field _userPath, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__userPath, put = setStaticF__userPath))::StringW _userPath;
+  static __declspec(property(get = getStaticF__userPath, put = setStaticF__userPath)) ::StringW _userPath;
 
   /// @brief Field _userStore, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__userStore, put = setStaticF__userStore))::Mono::Security::X509::X509Stores* _userStore;
+  static __declspec(property(get = getStaticF__userStore, put = setStaticF__userStore)) ::Mono::Security::X509::X509Stores* _userStore;
 
   static inline ::StringW getStaticF__localMachinePath();
 
@@ -46,19 +46,19 @@ public:
 
   static inline ::Mono::Security::X509::X509Stores* getStaticF__userStore();
 
-  /// @brief Method get_CurrentUser, addr 0x27a925c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentUser, addr 0x3bcb750, size 0x98, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Stores* get_CurrentUser();
 
-  /// @brief Method get_CurrentUserPath, addr 0x27a9074, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentUserPath, addr 0x3bcb578, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW get_CurrentUserPath();
 
-  /// @brief Method get_LocalMachine, addr 0x27a932c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_LocalMachine, addr 0x3bcb818, size 0x98, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Stores* get_LocalMachine();
 
-  /// @brief Method get_LocalMachinePath, addr 0x27a9174, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalMachinePath, addr 0x3bcb670, size 0xe0, virtual false, abstract: false, final false
   static inline ::StringW get_LocalMachinePath();
 
-  /// @brief Method get_TrustedRootCertificates, addr 0x27a722c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_TrustedRootCertificates, addr 0x3bc975c, size 0xcc, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509CertificateCollection* get_TrustedRootCertificates();
 
   static inline void setStaticF__localMachinePath(::StringW value);
@@ -82,6 +82,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "X509StoreManager", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   X509StoreManager(X509StoreManager const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15887 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

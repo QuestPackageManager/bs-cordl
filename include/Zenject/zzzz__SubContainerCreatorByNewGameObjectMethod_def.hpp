@@ -30,7 +30,7 @@ class SubContainerCreatorByNewGameObjectMethod;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SubContainerCreatorByNewGameObjectMethod);
 // Type: Zenject::SubContainerCreatorByNewGameObjectMethod
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::SubContainerCreatorByNewGameObjectMethod*
@@ -38,9 +38,9 @@ class CORDL_TYPE SubContainerCreatorByNewGameObjectMethod : public ::Zenject::Su
 public:
   // Declarations
   /// @brief Field _installerMethod, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__installerMethod, put = __cordl_internal_set__installerMethod))::System::Action_1<::Zenject::DiContainer*>* _installerMethod;
+  __declspec(property(get = __cordl_internal_get__installerMethod, put = __cordl_internal_set__installerMethod)) ::System::Action_1<::Zenject::DiContainer*>* _installerMethod;
 
-  /// @brief Method AddInstallers, addr 0x36a31b0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method AddInstallers, addr 0x4ac680c, size 0xb0, virtual true, abstract: false, final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectMethod* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__installerMethod(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method .ctor, addr 0x36a3174, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac67d0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Action_1<::Zenject::DiContainer*>* installerMethod);
 
 protected:
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field _installerMethod, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::Zenject::DiContainer*>* ____installerMethod;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12557 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

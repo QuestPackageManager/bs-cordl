@@ -13,7 +13,7 @@ struct SelectMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ProBuilder::SelectMode);
 // Type: UnityEngine.ProBuilder::SelectMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // CS Name: ::UnityEngine.ProBuilder::SelectMode
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field Vertex value: static_cast<int32_t>(0x2)
   static ::UnityEngine::ProBuilder::SelectMode const Vertex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14225 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

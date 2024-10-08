@@ -20,7 +20,7 @@ class ReceiveState;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::ReceiveState);
 // Type: System.Net::ReceiveState
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::ReceiveState*
@@ -28,13 +28,13 @@ class CORDL_TYPE ReceiveState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Buffer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
+  __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
 
   /// @brief Field Connection, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Connection, put = __cordl_internal_set_Connection))::System::Net::CommandStream* Connection;
+  __declspec(property(get = __cordl_internal_get_Connection, put = __cordl_internal_set_Connection)) ::System::Net::CommandStream* Connection;
 
   /// @brief Field Resp, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Resp, put = __cordl_internal_set_Resp))::System::Net::ResponseDescription* Resp;
+  __declspec(property(get = __cordl_internal_get_Resp, put = __cordl_internal_set_Resp)) ::System::Net::ResponseDescription* Resp;
 
   /// @brief Field ValidThrough, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_ValidThrough, put = __cordl_internal_set_ValidThrough)) int32_t ValidThrough;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_ValidThrough(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2fefc9c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4419da4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::CommandStream* connection);
 
 protected:
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field Connection, offset: 0x28, size: 0x8, def value: None
   ::System::Net::CommandStream* ___Connection;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9524 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

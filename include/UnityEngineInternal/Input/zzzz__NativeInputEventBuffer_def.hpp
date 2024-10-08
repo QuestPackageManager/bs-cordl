@@ -13,7 +13,7 @@ struct NativeInputEventBuffer;
 // Write type traits
 MARK_VAL_T(::UnityEngineInternal::Input::NativeInputEventBuffer);
 // Type: UnityEngineInternal.Input::NativeInputEventBuffer
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
+// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngineInternal::Input {
 // Is value type: true
 // CS Name: ::UnityEngineInternal.Input::NativeInputEventBuffer
@@ -25,7 +25,7 @@ public:
   __declspec(property(get = __cordl_internal_get_capacityInBytes, put = __cordl_internal_set_capacityInBytes)) int32_t capacityInBytes;
 
   /// @brief Field eventBuffer, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_eventBuffer, put = __cordl_internal_set_eventBuffer))::cordl_internals::Ptr<void> eventBuffer;
+  __declspec(property(get = __cordl_internal_get_eventBuffer, put = __cordl_internal_set_eventBuffer)) ::cordl_internals::Ptr<void> eventBuffer;
 
   /// @brief Field eventCount, offset 0x8, size 0x4
   __declspec(property(get = __cordl_internal_get_eventCount, put = __cordl_internal_set_eventCount)) int32_t eventCount;
@@ -127,6 +127,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18842 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 

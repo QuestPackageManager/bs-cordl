@@ -19,7 +19,7 @@ class MissionCompletionResults;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionCompletionResults);
 // Type: ::MissionCompletionResults
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MissionCompletionResults*
@@ -29,12 +29,12 @@ public:
   __declspec(property(get = get_IsMissionComplete)) bool IsMissionComplete;
 
   /// @brief Field levelCompletionResults, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_levelCompletionResults, put = __cordl_internal_set_levelCompletionResults))::GlobalNamespace::LevelCompletionResults* levelCompletionResults;
+  __declspec(property(get = __cordl_internal_get_levelCompletionResults, put = __cordl_internal_set_levelCompletionResults)) ::GlobalNamespace::LevelCompletionResults* levelCompletionResults;
 
   /// @brief Field missionObjectiveResults, offset 0x18, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_missionObjectiveResults,
-               put = __cordl_internal_set_missionObjectiveResults))::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults;
+  __declspec(property(get = __cordl_internal_get_missionObjectiveResults,
+                      put = __cordl_internal_set_missionObjectiveResults)) ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*>
+      missionObjectiveResults;
 
   static inline ::GlobalNamespace::MissionCompletionResults*
   New_ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
@@ -52,11 +52,11 @@ public:
 
   constexpr void __cordl_internal_set_missionObjectiveResults(::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> value);
 
-  /// @brief Method .ctor, addr 0x14d9b78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2693370, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                     ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults);
 
-  /// @brief Method get_IsMissionComplete, addr 0x14d9b10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_IsMissionComplete, addr 0x26932e8, size 0x88, virtual false, abstract: false, final false
   inline bool get_IsMissionComplete();
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field missionObjectiveResults, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> ___missionObjectiveResults;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12991 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

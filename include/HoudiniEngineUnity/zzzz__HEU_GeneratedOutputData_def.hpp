@@ -28,7 +28,7 @@ class HEU_GeneratedOutputData;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GeneratedOutputData);
 // Type: HoudiniEngineUnity::HEU_GeneratedOutputData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_GeneratedOutputData*
@@ -36,19 +36,20 @@ class CORDL_TYPE HEU_GeneratedOutputData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _colliders, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__colliders, put = __cordl_internal_set__colliders))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* _colliders;
+  __declspec(property(get = __cordl_internal_get__colliders, put = __cordl_internal_set__colliders)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* _colliders;
 
   /// @brief Field _gameObject, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameObject, put = __cordl_internal_set__gameObject))::UnityW<::UnityEngine::GameObject> _gameObject;
+  __declspec(property(get = __cordl_internal_get__gameObject, put = __cordl_internal_set__gameObject)) ::UnityW<::UnityEngine::GameObject> _gameObject;
 
   /// @brief Field _renderMaterials, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__renderMaterials,
-                      put = __cordl_internal_set__renderMaterials))::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> _renderMaterials;
+                      put = __cordl_internal_set__renderMaterials)) ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>
+      _renderMaterials;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x2567254, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x39a4fdc, size 0x1ec, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeneratedOutputData* other);
 
   static inline ::HoudiniEngineUnity::HEU_GeneratedOutputData* New_ctor();
@@ -71,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__renderMaterials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
 
-  /// @brief Method .ctor, addr 0x25671d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39a4f60, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>"
@@ -99,6 +100,9 @@ public:
 
   /// @brief Field _colliders, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* ____colliders;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11572 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -6,6 +6,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(TextVertex)
 namespace UnityEngine {
@@ -17,6 +18,9 @@ struct Vector2;
 namespace UnityEngine {
 struct Vector3;
 }
+namespace UnityEngine {
+struct Vector4;
+}
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
 struct TextVertex;
@@ -24,7 +28,7 @@ struct TextVertex;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::TextVertex);
 // Type: UnityEngine.TextCore.Text::TextVertex
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // CS Name: ::UnityEngine.TextCore.Text::TextVertex
@@ -35,25 +39,24 @@ public:
   // @brief default ctor
   constexpr TextVertex();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None
-  // }, CppParam { name: "uv2", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "uv4", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name:
-  // "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }]
-  constexpr TextVertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector2 uv, ::UnityEngine::Vector2 uv2, ::UnityEngine::Vector2 uv4, ::UnityEngine::Color32 color) noexcept;
+  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None
+  // }, CppParam { name: "uv2", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }]
+  constexpr TextVertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector4 uv, ::UnityEngine::Vector2 uv2, ::UnityEngine::Color32 color) noexcept;
 
   /// @brief Field position, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 position;
 
-  /// @brief Field uv, offset: 0xc, size: 0x8, def value: None
-  ::UnityEngine::Vector2 uv;
+  /// @brief Field uv, offset: 0xc, size: 0x10, def value: None
+  ::UnityEngine::Vector4 uv;
 
-  /// @brief Field uv2, offset: 0x14, size: 0x8, def value: None
+  /// @brief Field uv2, offset: 0x1c, size: 0x8, def value: None
   ::UnityEngine::Vector2 uv2;
-
-  /// @brief Field uv4, offset: 0x1c, size: 0x8, def value: None
-  ::UnityEngine::Vector2 uv4;
 
   /// @brief Field color, offset: 0x24, size: 0x4, def value: None
   ::UnityEngine::Color32 color;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15215 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -67,9 +70,7 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextVertex, position) == 0
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextVertex, uv) == 0xc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextVertex, uv2) == 0x14, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextVertex, uv4) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextVertex, uv2) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextVertex, color) == 0x24, "Offset mismatch!");
 

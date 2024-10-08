@@ -24,38 +24,38 @@ class AnniversaryManager;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AnniversaryManager);
 // Type: ::AnniversaryManager
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AnniversaryManager*
 class CORDL_TYPE AnniversaryManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _fireworksController, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__fireworksController, put = __cordl_internal_set__fireworksController))::UnityW<::GlobalNamespace::FireworksController> _fireworksController;
+  /// @brief Field _fireworksController, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__fireworksController, put = __cordl_internal_set__fireworksController)) ::UnityW<::GlobalNamespace::FireworksController> _fireworksController;
 
-  /// @brief Field _mainMenuViewController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainMenuViewController,
-                      put = __cordl_internal_set__mainMenuViewController))::UnityW<::GlobalNamespace::MainMenuViewController> _mainMenuViewController;
+  /// @brief Field _mainMenuViewController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainMenuViewController, put = __cordl_internal_set__mainMenuViewController)) ::UnityW<::GlobalNamespace::MainMenuViewController>
+      _mainMenuViewController;
 
-  /// @brief Method HandleMainMenuViewControllerDidFinish, addr 0x2628414, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMainMenuViewControllerDidFinish, addr 0x3a5fcf8, size 0x4, virtual false, abstract: false, final false
   inline void HandleMainMenuViewControllerDidFinish(::GlobalNamespace::MainMenuViewController* mainMenuViewController, ::GlobalNamespace::__MainMenuViewController__MenuButton menuButton);
 
-  /// @brief Method HandleMainMenuViewControllerPromoButtonWasPressed, addr 0x2628438, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMainMenuViewControllerPromoButtonWasPressed, addr 0x3a5fd1c, size 0x4, virtual false, abstract: false, final false
   inline void HandleMainMenuViewControllerPromoButtonWasPressed(::GlobalNamespace::__DlcPromoPanelModel__PromoInfo* promoInfo);
 
   static inline ::GlobalNamespace::AnniversaryManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26282d4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a5fbcc, size 0x12c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x26281b8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3a5fab8, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartFireworks, addr 0x26282b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method StartFireworks, addr 0x3a5fbac, size 0x20, virtual false, abstract: false, final false
   inline void StartFireworks();
 
-  /// @brief Method StopFireworks, addr 0x2628418, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method StopFireworks, addr 0x3a5fcfc, size 0x20, virtual false, abstract: false, final false
   inline void StopFireworks();
 
   constexpr ::UnityW<::GlobalNamespace::FireworksController> const& __cordl_internal_get__fireworksController() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__mainMenuViewController(::UnityW<::GlobalNamespace::MainMenuViewController> value);
 
-  /// @brief Method .ctor, addr 0x262843c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a5fd20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,20 +87,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnniversaryManager(AnniversaryManager const&) = delete;
 
-  /// @brief Field _fireworksController, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _fireworksController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FireworksController> ____fireworksController;
 
-  /// @brief Field _mainMenuViewController, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _mainMenuViewController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainMenuViewController> ____mainMenuViewController;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3970 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnniversaryManager, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnniversaryManager, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnniversaryManager, ____fireworksController) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnniversaryManager, ____fireworksController) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnniversaryManager, ____mainMenuViewController) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnniversaryManager, ____mainMenuViewController) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AnniversaryManager);

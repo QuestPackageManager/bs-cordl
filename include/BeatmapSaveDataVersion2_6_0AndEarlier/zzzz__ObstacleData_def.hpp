@@ -18,7 +18,7 @@ class ObstacleData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData);
 // Type: BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*
@@ -35,7 +35,7 @@ public:
   __declspec(property(get = __cordl_internal_get__time, put = __cordl_internal_set__time)) float_t _time;
 
   /// @brief Field _type, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType _type;
 
   /// @brief Field _width, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__width, put = __cordl_internal_set__width)) int32_t _width;
@@ -46,7 +46,7 @@ public:
 
   __declspec(property(get = get_time)) float_t time;
 
-  __declspec(property(get = get_type))::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType type;
+  __declspec(property(get = get_type)) ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType type;
 
   __declspec(property(get = get_width)) int32_t width;
 
@@ -83,22 +83,22 @@ public:
 
   constexpr void __cordl_internal_set__width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1505a40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c985c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType type, float_t duration, int32_t width);
 
-  /// @brief Method get_duration, addr 0x1505a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x26c984c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_lineIndex, addr 0x1505a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x26c983c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_time, addr 0x1505a18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_time, addr 0x26c9834, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_type, addr 0x1505a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x26c9844, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType get_type();
 
-  /// @brief Method get_width, addr 0x1505a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x26c9854, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
 protected:
@@ -129,6 +129,9 @@ public:
 
   /// @brief Field _width, offset: 0x20, size: 0x4, def value: None
   int32_t ____width;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13394 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

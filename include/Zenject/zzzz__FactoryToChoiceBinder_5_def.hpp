@@ -24,7 +24,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::FactoryToChoiceBinder_5);
 // Type: Zenject::FactoryToChoiceBinder`5
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
@@ -58,6 +58,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FactoryToChoiceBinder_5", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FactoryToChoiceBinder_5(FactoryToChoiceBinder_5 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12152 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

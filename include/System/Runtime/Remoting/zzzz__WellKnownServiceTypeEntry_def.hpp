@@ -20,32 +20,32 @@ class WellKnownServiceTypeEntry;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::WellKnownServiceTypeEntry);
 // Type: System.Runtime.Remoting::WellKnownServiceTypeEntry
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting::WellKnownServiceTypeEntry*
 class CORDL_TYPE WellKnownServiceTypeEntry : public ::System::Runtime::Remoting::TypeEntry {
 public:
   // Declarations
-  __declspec(property(get = get_Mode))::System::Runtime::Remoting::WellKnownObjectMode Mode;
+  __declspec(property(get = get_Mode)) ::System::Runtime::Remoting::WellKnownObjectMode Mode;
 
-  __declspec(property(get = get_ObjectType))::System::Type* ObjectType;
+  __declspec(property(get = get_ObjectType)) ::System::Type* ObjectType;
 
-  __declspec(property(get = get_ObjectUri))::StringW ObjectUri;
+  __declspec(property(get = get_ObjectUri)) ::StringW ObjectUri;
 
   /// @brief Field obj_mode, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_obj_mode, put = __cordl_internal_set_obj_mode))::System::Runtime::Remoting::WellKnownObjectMode obj_mode;
+  __declspec(property(get = __cordl_internal_get_obj_mode, put = __cordl_internal_set_obj_mode)) ::System::Runtime::Remoting::WellKnownObjectMode obj_mode;
 
   /// @brief Field obj_type, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_obj_type, put = __cordl_internal_set_obj_type))::System::Type* obj_type;
+  __declspec(property(get = __cordl_internal_get_obj_type, put = __cordl_internal_set_obj_type)) ::System::Type* obj_type;
 
   /// @brief Field obj_uri, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_obj_uri, put = __cordl_internal_set_obj_uri))::StringW obj_uri;
+  __declspec(property(get = __cordl_internal_get_obj_uri, put = __cordl_internal_set_obj_uri)) ::StringW obj_uri;
 
   static inline ::System::Runtime::Remoting::WellKnownServiceTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri,
                                                                                  ::System::Runtime::Remoting::WellKnownObjectMode mode);
 
-  /// @brief Method ToString, addr 0x2844d90, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c61dac, size 0xd4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Runtime::Remoting::WellKnownObjectMode const& __cordl_internal_get_obj_mode() const;
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_obj_uri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2844c3c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c61c60, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri, ::System::Runtime::Remoting::WellKnownObjectMode mode);
 
-  /// @brief Method get_Mode, addr 0x2844d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mode, addr 0x3c61d94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::WellKnownObjectMode get_Mode();
 
-  /// @brief Method get_ObjectType, addr 0x2844d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x3c61d9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_ObjectUri, addr 0x2844d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectUri, addr 0x3c61da4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectUri();
 
 protected:
@@ -100,6 +100,9 @@ public:
 
   /// @brief Field obj_mode, offset: 0x30, size: 0x4, def value: None
   ::System::Runtime::Remoting::WellKnownObjectMode ___obj_mode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3082 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

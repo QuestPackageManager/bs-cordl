@@ -28,59 +28,59 @@ class Identity;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Identity);
 // Type: System.Runtime.Remoting::Identity
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting::Identity*
 class CORDL_TYPE Identity : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_ChannelSink, put = set_ChannelSink))::System::Runtime::Remoting::Messaging::IMessageSink* ChannelSink;
+  __declspec(property(get = get_ChannelSink, put = set_ChannelSink)) ::System::Runtime::Remoting::Messaging::IMessageSink* ChannelSink;
 
-  __declspec(property(get = get_ClientDynamicProperties))::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* ClientDynamicProperties;
+  __declspec(property(get = get_ClientDynamicProperties)) ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* ClientDynamicProperties;
 
   __declspec(property(get = get_Disposed, put = set_Disposed)) bool Disposed;
 
-  __declspec(property(get = get_EnvoySink))::System::Runtime::Remoting::Messaging::IMessageSink* EnvoySink;
+  __declspec(property(get = get_EnvoySink)) ::System::Runtime::Remoting::Messaging::IMessageSink* EnvoySink;
 
   __declspec(property(get = get_HasServerDynamicSinks)) bool HasServerDynamicSinks;
 
   __declspec(property(get = get_IsConnected)) bool IsConnected;
 
-  __declspec(property(get = get_ObjectUri, put = set_ObjectUri))::StringW ObjectUri;
+  __declspec(property(get = get_ObjectUri, put = set_ObjectUri)) ::StringW ObjectUri;
 
   /// @brief Field _channelSink, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__channelSink, put = __cordl_internal_set__channelSink))::System::Runtime::Remoting::Messaging::IMessageSink* _channelSink;
+  __declspec(property(get = __cordl_internal_get__channelSink, put = __cordl_internal_set__channelSink)) ::System::Runtime::Remoting::Messaging::IMessageSink* _channelSink;
 
   /// @brief Field _clientDynamicProperties, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__clientDynamicProperties,
-                      put = __cordl_internal_set__clientDynamicProperties))::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _clientDynamicProperties;
+                      put = __cordl_internal_set__clientDynamicProperties)) ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _clientDynamicProperties;
 
   /// @brief Field _disposed, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__disposed, put = __cordl_internal_set__disposed)) bool _disposed;
 
   /// @brief Field _envoySink, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__envoySink, put = __cordl_internal_set__envoySink))::System::Runtime::Remoting::Messaging::IMessageSink* _envoySink;
+  __declspec(property(get = __cordl_internal_get__envoySink, put = __cordl_internal_set__envoySink)) ::System::Runtime::Remoting::Messaging::IMessageSink* _envoySink;
 
   /// @brief Field _objRef, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__objRef, put = __cordl_internal_set__objRef))::System::Runtime::Remoting::ObjRef* _objRef;
+  __declspec(property(get = __cordl_internal_get__objRef, put = __cordl_internal_set__objRef)) ::System::Runtime::Remoting::ObjRef* _objRef;
 
   /// @brief Field _objectUri, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__objectUri, put = __cordl_internal_set__objectUri))::StringW _objectUri;
+  __declspec(property(get = __cordl_internal_get__objectUri, put = __cordl_internal_set__objectUri)) ::StringW _objectUri;
 
   /// @brief Field _serverDynamicProperties, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__serverDynamicProperties,
-                      put = __cordl_internal_set__serverDynamicProperties))::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _serverDynamicProperties;
+                      put = __cordl_internal_set__serverDynamicProperties)) ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _serverDynamicProperties;
 
   /// @brief Method CreateObjRef, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
   static inline ::System::Runtime::Remoting::Identity* New_ctor(::StringW objectUri);
 
-  /// @brief Method NotifyClientDynamicSinks, addr 0x2832f00, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NotifyClientDynamicSinks, addr 0x3c51488, size 0x74, virtual false, abstract: false, final false
   inline void NotifyClientDynamicSinks(bool start, ::System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
 
-  /// @brief Method NotifyServerDynamicSinks, addr 0x2832f74, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NotifyServerDynamicSinks, addr 0x3c514fc, size 0x74, virtual false, abstract: false, final false
   inline void NotifyServerDynamicSinks(bool start, ::System::Runtime::Remoting::Messaging::IMessage* req_msg, bool client_site, bool async);
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__channelSink();
@@ -125,37 +125,37 @@ public:
 
   constexpr void __cordl_internal_set__serverDynamicProperties(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
 
-  /// @brief Method .ctor, addr 0x2832e0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c5139c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri);
 
-  /// @brief Method get_ChannelSink, addr 0x2832e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChannelSink, addr 0x3c513c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_ChannelSink();
 
-  /// @brief Method get_ClientDynamicProperties, addr 0x2832e80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ClientDynamicProperties, addr 0x3c51410, size 0x64, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* get_ClientDynamicProperties();
 
-  /// @brief Method get_Disposed, addr 0x2832e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Disposed, addr 0x3c513fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_Disposed();
 
-  /// @brief Method get_EnvoySink, addr 0x2832e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnvoySink, addr 0x3c513d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySink();
 
-  /// @brief Method get_HasServerDynamicSinks, addr 0x2832eec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_HasServerDynamicSinks, addr 0x3c51474, size 0x14, virtual false, abstract: false, final false
   inline bool get_HasServerDynamicSinks();
 
-  /// @brief Method get_IsConnected, addr 0x2832e5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsConnected, addr 0x3c513ec, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsConnected();
 
-  /// @brief Method get_ObjectUri, addr 0x2832e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectUri, addr 0x3c513dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectUri();
 
-  /// @brief Method set_ChannelSink, addr 0x2832e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ChannelSink, addr 0x3c513cc, size 0x8, virtual false, abstract: false, final false
   inline void set_ChannelSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method set_Disposed, addr 0x2832e74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Disposed, addr 0x3c51404, size 0xc, virtual false, abstract: false, final false
   inline void set_Disposed(bool value);
 
-  /// @brief Method set_ObjectUri, addr 0x2832e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectUri, addr 0x3c513e4, size 0x8, virtual false, abstract: false, final false
   inline void set_ObjectUri(::StringW value);
 
 protected:
@@ -192,6 +192,9 @@ public:
 
   /// @brief Field _disposed, offset: 0x40, size: 0x1, def value: None
   bool ____disposed;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3059 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

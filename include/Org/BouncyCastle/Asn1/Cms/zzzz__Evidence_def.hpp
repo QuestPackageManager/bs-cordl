@@ -30,35 +30,35 @@ class Evidence;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::Evidence);
 // Type: Org.BouncyCastle.Asn1.Cms::Evidence
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::Evidence*
 class CORDL_TYPE Evidence : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_TstEvidence))::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* TstEvidence;
+  __declspec(property(get = get_TstEvidence)) ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* TstEvidence;
 
   /// @brief Field otherEvidence, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_otherEvidence, put = __cordl_internal_set_otherEvidence))::Org::BouncyCastle::Asn1::Asn1Sequence* otherEvidence;
+  __declspec(property(get = __cordl_internal_get_otherEvidence, put = __cordl_internal_set_otherEvidence)) ::Org::BouncyCastle::Asn1::Asn1Sequence* otherEvidence;
 
   /// @brief Field tstEvidence, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_tstEvidence, put = __cordl_internal_set_tstEvidence))::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* tstEvidence;
+  __declspec(property(get = __cordl_internal_get_tstEvidence, put = __cordl_internal_set_tstEvidence)) ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* tstEvidence;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x10e96e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22c6d5c, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x10e957c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22c6bf8, size 0x164, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Evidence* New_ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* tstEvidence);
 
-  /// @brief Method ToAsn1Object, addr 0x10e9708, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22c6d80, size 0x88, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_otherEvidence();
@@ -73,13 +73,13 @@ public:
 
   constexpr void __cordl_internal_set_tstEvidence(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* value);
 
-  /// @brief Method .ctor, addr 0x10e94b4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c6b34, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor, addr 0x10e948c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c6b0c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* tstEvidence);
 
-  /// @brief Method get_TstEvidence, addr 0x10e9700, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TstEvidence, addr 0x22c6d78, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* get_TstEvidence();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -104,6 +104,9 @@ public:
 
   /// @brief Field otherEvidence, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___otherEvidence;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 73 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

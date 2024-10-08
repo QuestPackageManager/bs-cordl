@@ -13,14 +13,14 @@ class Aliasing;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::CompilerServices::Aliasing);
 // Type: Unity.Burst.CompilerServices::Aliasing
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst::CompilerServices {
 // Is value type: false
 // CS Name: ::Unity.Burst.CompilerServices::Aliasing*
 class CORDL_TYPE Aliasing : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExpectAliased, addr 0x30d49b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ExpectAliased, addr 0x44c455c, size 0x4, virtual false, abstract: false, final false
   static inline void ExpectAliased(::cordl_internals::Ptr<void> a, ::cordl_internals::Ptr<void> b);
 
   /// @brief Method ExpectAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -32,7 +32,7 @@ public:
   /// @brief Method ExpectAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename A, typename B> static inline void ExpectAliased(ByRef<A> a, ByRef<B> b);
 
-  /// @brief Method ExpectNotAliased, addr 0x30d49b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ExpectNotAliased, addr 0x44c4560, size 0x4, virtual false, abstract: false, final false
   static inline void ExpectNotAliased(::cordl_internals::Ptr<void> a, ::cordl_internals::Ptr<void> b);
 
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -57,6 +57,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Aliasing", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Aliasing(Aliasing const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14625 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

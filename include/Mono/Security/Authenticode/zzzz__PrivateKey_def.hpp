@@ -18,14 +18,14 @@ class PrivateKey;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Authenticode::PrivateKey);
 // Type: Mono.Security.Authenticode::PrivateKey
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Authenticode {
 // Is value type: false
 // CS Name: ::Mono.Security.Authenticode::PrivateKey*
 class CORDL_TYPE PrivateKey : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_RSA))::System::Security::Cryptography::RSA* RSA;
+  __declspec(property(get = get_RSA)) ::System::Security::Cryptography::RSA* RSA;
 
   /// @brief Field encrypted, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_encrypted, put = __cordl_internal_set_encrypted)) bool encrypted;
@@ -34,21 +34,21 @@ public:
   __declspec(property(get = __cordl_internal_get_keyType, put = __cordl_internal_set_keyType)) int32_t keyType;
 
   /// @brief Field rsa, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_rsa, put = __cordl_internal_set_rsa))::System::Security::Cryptography::RSA* rsa;
+  __declspec(property(get = __cordl_internal_get_rsa, put = __cordl_internal_set_rsa)) ::System::Security::Cryptography::RSA* rsa;
 
   /// @brief Field weak, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_weak, put = __cordl_internal_set_weak)) bool weak;
 
-  /// @brief Method CreateFromFile, addr 0x27b819c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateFromFile, addr 0x3bda3d0, size 0x8, virtual false, abstract: false, final false
   static inline ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename);
 
-  /// @brief Method CreateFromFile, addr 0x27b81a4, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method CreateFromFile, addr 0x3bda3d8, size 0x2ac, virtual false, abstract: false, final false
   static inline ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename, ::StringW password);
 
-  /// @brief Method Decode, addr 0x27b7c2c, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x3bd9e64, size 0x44c, virtual false, abstract: false, final false
   inline bool Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> pvk, ::StringW password);
 
-  /// @brief Method DeriveKey, addr 0x27b8084, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method DeriveKey, addr 0x3bda2b8, size 0x118, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DeriveKey(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::StringW password);
 
   static inline ::Mono::Security::Authenticode::PrivateKey* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_weak(bool value);
 
-  /// @brief Method .ctor, addr 0x27b7b48, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd9d8c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
 
-  /// @brief Method get_RSA, addr 0x27b807c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RSA, addr 0x3bda2b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::RSA* get_RSA();
 
 protected:
@@ -108,6 +108,9 @@ public:
 
   /// @brief Field keyType, offset: 0x24, size: 0x4, def value: None
   int32_t ___keyType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15931 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

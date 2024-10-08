@@ -17,7 +17,7 @@ class InstalledApplication;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::InstalledApplication);
 // Type: Oculus.Platform.Models::InstalledApplication
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::InstalledApplication*
@@ -25,19 +25,19 @@ class CORDL_TYPE InstalledApplication : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ApplicationId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ApplicationId, put = __cordl_internal_set_ApplicationId))::StringW ApplicationId;
+  __declspec(property(get = __cordl_internal_get_ApplicationId, put = __cordl_internal_set_ApplicationId)) ::StringW ApplicationId;
 
   /// @brief Field PackageName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_PackageName, put = __cordl_internal_set_PackageName))::StringW PackageName;
+  __declspec(property(get = __cordl_internal_get_PackageName, put = __cordl_internal_set_PackageName)) ::StringW PackageName;
 
   /// @brief Field Status, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Status, put = __cordl_internal_set_Status))::StringW Status;
+  __declspec(property(get = __cordl_internal_get_Status, put = __cordl_internal_set_Status)) ::StringW Status;
 
   /// @brief Field VersionCode, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_VersionCode, put = __cordl_internal_set_VersionCode)) int32_t VersionCode;
 
   /// @brief Field VersionName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_VersionName, put = __cordl_internal_set_VersionName))::StringW VersionName;
+  __declspec(property(get = __cordl_internal_get_VersionName, put = __cordl_internal_set_VersionName)) ::StringW VersionName;
 
   static inline ::Oculus::Platform::Models::InstalledApplication* New_ctor(::System::IntPtr o);
 
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_VersionName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2b102e8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1b428, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -102,6 +102,9 @@ public:
 
   /// @brief Field VersionName, offset: 0x30, size: 0x8, def value: None
   ::StringW ___VersionName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15476 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

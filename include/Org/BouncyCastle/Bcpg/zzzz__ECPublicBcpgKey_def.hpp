@@ -33,32 +33,32 @@ class ECPublicBcpgKey;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ECPublicBcpgKey);
 // Type: Org.BouncyCastle.Bcpg::ECPublicBcpgKey
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::ECPublicBcpgKey*
 class CORDL_TYPE ECPublicBcpgKey : public ::Org::BouncyCastle::Bcpg::BcpgObject {
 public:
   // Declarations
-  __declspec(property(get = get_CurveOid))::Org::BouncyCastle::Asn1::DerObjectIdentifier* CurveOid;
+  __declspec(property(get = get_CurveOid)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CurveOid;
 
-  __declspec(property(get = get_EncodedPoint))::Org::BouncyCastle::Math::BigInteger* EncodedPoint;
+  __declspec(property(get = get_EncodedPoint)) ::Org::BouncyCastle::Math::BigInteger* EncodedPoint;
 
-  __declspec(property(get = get_Format))::StringW Format;
+  __declspec(property(get = get_Format)) ::StringW Format;
 
   /// @brief Field oid, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_oid, put = __cordl_internal_set_oid))::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid;
+  __declspec(property(get = __cordl_internal_get_oid, put = __cordl_internal_set_oid)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid;
 
   /// @brief Field point, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_point, put = __cordl_internal_set_point))::Org::BouncyCastle::Math::BigInteger* point;
+  __declspec(property(get = __cordl_internal_get_point, put = __cordl_internal_set_point)) ::Org::BouncyCastle::Math::BigInteger* point;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr operator ::Org::BouncyCastle::Bcpg::IBcpgKey*() noexcept;
 
-  /// @brief Method Encode, addr 0x1444424, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x26077dc, size 0xb8, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncoded, addr 0x14443a0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x2607758, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Bcpg::ECPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -67,7 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::ECPublicBcpgKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
-  /// @brief Method ReadBytesOfEncodedLength, addr 0x144412c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ReadBytesOfEncodedLength, addr 0x26074f8, size 0x150, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadBytesOfEncodedLength(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_oid();
@@ -82,22 +82,22 @@ public:
 
   constexpr void __cordl_internal_set_point(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x1444064, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2607430, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x1444334, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26076ec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::BigInteger* encodedPoint);
 
-  /// @brief Method .ctor, addr 0x144428c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2607648, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
-  /// @brief Method get_CurveOid, addr 0x14444dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CurveOid, addr 0x260789c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_CurveOid();
 
-  /// @brief Method get_EncodedPoint, addr 0x14444d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EncodedPoint, addr 0x2607894, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_EncodedPoint();
 
-  /// @brief Method get_Format, addr 0x1444360, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x2607718, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"
@@ -122,6 +122,9 @@ public:
 
   /// @brief Field point, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___point;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 565 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

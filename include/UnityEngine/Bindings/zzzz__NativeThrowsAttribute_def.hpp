@@ -12,7 +12,7 @@ class NativeThrowsAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Bindings::NativeThrowsAttribute);
 // Type: UnityEngine.Bindings::NativeThrowsAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
 // CS Name: ::UnityEngine.Bindings::NativeThrowsAttribute*
@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__ThrowsException_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x34ab28c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489dd04, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_ThrowsException, addr 0x34ab280, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_ThrowsException, addr 0x489dcf8, size 0xc, virtual true, abstract: false, final true
   inline void set_ThrowsException(bool value);
 
 protected:
@@ -54,6 +54,9 @@ public:
 
   /// @brief Field <ThrowsException>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ThrowsException_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18595 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

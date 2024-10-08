@@ -36,7 +36,7 @@ class TimeStampRequestGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TimeStampRequestGenerator);
 // Type: Org.BouncyCastle.Tsp::TimeStampRequestGenerator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampRequestGenerator*
@@ -44,48 +44,48 @@ class CORDL_TYPE TimeStampRequestGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field certReq, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_certReq, put = __cordl_internal_set_certReq))::Org::BouncyCastle::Asn1::DerBoolean* certReq;
+  __declspec(property(get = __cordl_internal_get_certReq, put = __cordl_internal_set_certReq)) ::Org::BouncyCastle::Asn1::DerBoolean* certReq;
 
   /// @brief Field extOrdering, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_extOrdering, put = __cordl_internal_set_extOrdering))::System::Collections::IList* extOrdering;
+  __declspec(property(get = __cordl_internal_get_extOrdering, put = __cordl_internal_set_extOrdering)) ::System::Collections::IList* extOrdering;
 
   /// @brief Field extensions, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::System::Collections::IDictionary* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions)) ::System::Collections::IDictionary* extensions;
 
   /// @brief Field reqPolicy, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_reqPolicy, put = __cordl_internal_set_reqPolicy))::Org::BouncyCastle::Asn1::DerObjectIdentifier* reqPolicy;
+  __declspec(property(get = __cordl_internal_get_reqPolicy, put = __cordl_internal_set_reqPolicy)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* reqPolicy;
 
-  /// @brief Method AddExtension, addr 0x13c25a0, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x258a408, size 0x1a0, virtual true, abstract: false, final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> extValue);
 
-  /// @brief Method AddExtension, addr 0x13c2554, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x258a3bc, size 0x4c, virtual true, abstract: false, final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extValue);
 
-  /// @brief Method AddExtension, addr 0x13c237c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x258a1e8, size 0x1d4, virtual false, abstract: false, final false
   inline void AddExtension(::StringW oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method AddExtension, addr 0x13c2338, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x258a1a4, size 0x44, virtual false, abstract: false, final false
   inline void AddExtension(::StringW oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method Generate, addr 0x13c2a20, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Generate, addr 0x258a868, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method Generate, addr 0x13c2a3c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Generate, addr 0x258a884, size 0x18, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest,
                                                               ::Org::BouncyCastle::Math::BigInteger* nonce);
 
-  /// @brief Method Generate, addr 0x13c2748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x258a5a8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::StringW digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method Generate, addr 0x13c2750, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x258a5b0, size 0x2b8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::StringW digestAlgorithmOid, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest, ::Org::BouncyCastle::Math::BigInteger* nonce);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampRequestGenerator* New_ctor();
 
-  /// @brief Method SetCertReq, addr 0x13c22cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetCertReq, addr 0x258a138, size 0x6c, virtual false, abstract: false, final false
   inline void SetCertReq(bool certReq);
 
-  /// @brief Method SetReqPolicy, addr 0x13c225c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetReqPolicy, addr 0x258a0d0, size 0x68, virtual false, abstract: false, final false
   inline void SetReqPolicy(::StringW reqPolicy);
 
   constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __cordl_internal_get_certReq();
@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set_reqPolicy(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x13c2a54, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258a89c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,6 +140,9 @@ public:
 
   /// @brief Field extOrdering, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::IList* ___extOrdering;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1765 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

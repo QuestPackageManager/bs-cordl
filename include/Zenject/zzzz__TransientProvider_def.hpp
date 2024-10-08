@@ -55,7 +55,7 @@ class __TransientProvider____c__DisplayClass11_0;
 MARK_REF_PTR_T(::Zenject::TransientProvider);
 MARK_REF_PTR_T(::Zenject::__TransientProvider____c__DisplayClass11_0);
 // Type: ::<>c__DisplayClass11_0
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::TransientProvider::<>c__DisplayClass11_0*
@@ -63,23 +63,23 @@ class CORDL_TYPE __TransientProvider____c__DisplayClass11_0 : public ::System::O
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::TransientProvider* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Zenject::TransientProvider* __4__this;
 
   /// @brief Field context, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::Zenject::InjectContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context)) ::Zenject::InjectContext* context;
 
   /// @brief Field extraArgs, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_extraArgs, put = __cordl_internal_set_extraArgs))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs;
+  __declspec(property(get = __cordl_internal_get_extraArgs, put = __cordl_internal_set_extraArgs)) ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs;
 
   /// @brief Field instance, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_instance, put = __cordl_internal_set_instance))::System::Object* instance;
+  __declspec(property(get = __cordl_internal_get_instance, put = __cordl_internal_set_instance)) ::System::Object* instance;
 
   /// @brief Field instanceType, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_instanceType, put = __cordl_internal_set_instanceType))::System::Type* instanceType;
+  __declspec(property(get = __cordl_internal_get_instanceType, put = __cordl_internal_set_instanceType)) ::System::Type* instanceType;
 
   static inline ::Zenject::__TransientProvider____c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <GetAllInstancesWithInjectSplit>b__0, addr 0x36a5024, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method <GetAllInstancesWithInjectSplit>b__0, addr 0x4ac85f4, size 0xf4, virtual false, abstract: false, final false
   inline void _GetAllInstancesWithInjectSplit_b__0();
 
   constexpr ::Zenject::TransientProvider*& __cordl_internal_get___4__this();
@@ -112,13 +112,13 @@ public:
 
   constexpr void __cordl_internal_set_instanceType(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x36a5118, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ac86e8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36a5174, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ac873c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x36a501c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac85ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -150,6 +150,9 @@ public:
   /// @brief Field context, offset: 0x30, size: 0x8, def value: None
   ::Zenject::InjectContext* ___context;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12597 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -167,7 +170,7 @@ static_assert(offsetof(::Zenject::__TransientProvider____c__DisplayClass11_0, __
 
 } // namespace Zenject
 // Type: Zenject::TransientProvider
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::TransientProvider*
@@ -181,32 +184,32 @@ public:
   __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
 
   /// @brief Field _concreteIdentifier, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__concreteIdentifier, put = __cordl_internal_set__concreteIdentifier))::System::Object* _concreteIdentifier;
+  __declspec(property(get = __cordl_internal_get__concreteIdentifier, put = __cordl_internal_set__concreteIdentifier)) ::System::Object* _concreteIdentifier;
 
   /// @brief Field _concreteType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__concreteType, put = __cordl_internal_set__concreteType))::System::Type* _concreteType;
+  __declspec(property(get = __cordl_internal_get__concreteType, put = __cordl_internal_set__concreteType)) ::System::Type* _concreteType;
 
   /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
   /// @brief Field _extraArguments, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__extraArguments, put = __cordl_internal_set__extraArguments))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* _extraArguments;
+  __declspec(property(get = __cordl_internal_get__extraArguments, put = __cordl_internal_set__extraArguments)) ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* _extraArguments;
 
   /// @brief Field _instantiateCallback, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__instantiateCallback,
-                      put = __cordl_internal_set__instantiateCallback))::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* _instantiateCallback;
+                      put = __cordl_internal_set__instantiateCallback)) ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* _instantiateCallback;
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x36a4e04, size 0x218, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4ac83dc, size 0x210, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x36a4d40, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x4ac8318, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetTypeToCreate, addr 0x36a4df4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetTypeToCreate, addr 0x4ac83cc, size 0x10, virtual false, abstract: false, final false
   inline ::System::Type* GetTypeToCreate(::System::Type* contractType);
 
   static inline ::Zenject::TransientProvider* New_ctor(::System::Type* concreteType, ::Zenject::DiContainer* container,
@@ -243,14 +246,14 @@ public:
 
   constexpr void __cordl_internal_set__instantiateCallback(::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x36a4b38, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac8110, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* concreteType, ::Zenject::DiContainer* container, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::StringW bindingContext,
                     ::System::Object* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_IsCached, addr 0x36a4cdc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x4ac82b4, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x36a4ce4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4ac82bc, size 0x5c, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -284,6 +287,9 @@ public:
 
   /// @brief Field _instantiateCallback, offset: 0x30, size: 0x8, def value: None
   ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* ____instantiateCallback;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12598 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

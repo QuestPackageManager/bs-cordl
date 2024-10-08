@@ -25,37 +25,37 @@ class IetfUtilities;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities);
 // Type: Org.BouncyCastle.Asn1.X500.Style::IetfUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X500::Style {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X500.Style::IetfUtilities*
 class CORDL_TYPE IetfUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AtvAreEqual, addr 0x12f2900, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AtvAreEqual, addr 0x24c05a4, size 0xcc, virtual false, abstract: false, final false
   static inline bool AtvAreEqual(::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* atv1, ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* atv2);
 
-  /// @brief Method CanonicalString, addr 0x12f2808, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CanonicalString, addr 0x24c04a4, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW CanonicalString(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method Canonicalize, addr 0x12f22e8, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Canonicalize, addr 0x24bff98, size 0x298, virtual false, abstract: false, final false
   static inline ::StringW Canonicalize(::StringW s);
 
-  /// @brief Method DecodeObject, addr 0x12f258c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method DecodeObject, addr 0x24c0230, size 0x148, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* DecodeObject(::StringW oValue);
 
   static inline ::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities* New_ctor();
 
-  /// @brief Method RdnAreEqual, addr 0x12f2818, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method RdnAreEqual, addr 0x24c04b4, size 0xf0, virtual false, abstract: false, final false
   static inline bool RdnAreEqual(::Org::BouncyCastle::Asn1::X500::Rdn* rdn1, ::Org::BouncyCastle::Asn1::X500::Rdn* rdn2);
 
-  /// @brief Method StripInternalSpaces, addr 0x12f26dc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method StripInternalSpaces, addr 0x24c0378, size 0x12c, virtual false, abstract: false, final false
   static inline ::StringW StripInternalSpaces(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x12f1dec, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x24bfa78, size 0x520, virtual false, abstract: false, final false
   static inline ::StringW ValueToString(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x12f29cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c0670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,6 +71,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IetfUtilities", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IetfUtilities(IetfUtilities const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 323 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

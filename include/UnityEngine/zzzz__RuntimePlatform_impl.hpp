@@ -54,3 +54,8 @@ constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::EmbeddedL
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::LinuxServer{ static_cast<int32_t>(0x2b) };
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::WindowsServer{ static_cast<int32_t>(0x2c) };
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::OSXServer{ static_cast<int32_t>(0x2d) };
+constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::QNXArm32{ static_cast<int32_t>(0x2e) };
+constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::QNXArm64{ static_cast<int32_t>(0x2f) };
+constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::QNXX64{ static_cast<int32_t>(0x30) };
+constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::QNXX86{ static_cast<int32_t>(0x31) };
+constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::VisionOS{ static_cast<int32_t>(0x32) };

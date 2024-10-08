@@ -18,7 +18,7 @@ class ButtonWithTwoModifiers;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers);
 // Type: UnityEngine.InputSystem.Composites::ButtonWithTwoModifiers
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Composites::ButtonWithTwoModifiers*
@@ -37,18 +37,18 @@ public:
   /// @brief Field overrideModifiersNeedToBePressedFirst, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get_overrideModifiersNeedToBePressedFirst, put = __cordl_internal_set_overrideModifiersNeedToBePressedFirst)) bool overrideModifiersNeedToBePressedFirst;
 
-  /// @brief Method EvaluateMagnitude, addr 0x30fc9b4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x44fc2d4, size 0xc, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup, addr 0x30fc9c0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x44fc2e0, size 0x74, virtual true, abstract: false, final false
   inline void FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ModifiersArePressed, addr 0x30fc900, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ModifiersArePressed, addr 0x44fc220, size 0xb4, virtual false, abstract: false, final false
   inline bool ModifiersArePressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x30fc890, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x44fc1b0, size 0x70, virtual true, abstract: false, final false
   inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_button() const;
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value);
 
-  /// @brief Method .ctor, addr 0x30fca34, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44fc354, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,6 +103,9 @@ public:
 
   /// @brief Field overrideModifiersNeedToBePressedFirst, offset: 0x1c, size: 0x1, def value: None
   bool ___overrideModifiersNeedToBePressedFirst;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7092 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

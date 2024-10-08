@@ -24,7 +24,7 @@ class HEU_AssetPreset;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetPreset);
 // Type: HoudiniEngineUnity::HEU_AssetPreset
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_AssetPreset*
@@ -32,29 +32,29 @@ class CORDL_TYPE HEU_AssetPreset : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _assetOPName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__assetOPName, put = __cordl_internal_set__assetOPName))::StringW _assetOPName;
+  __declspec(property(get = __cordl_internal_get__assetOPName, put = __cordl_internal_set__assetOPName)) ::StringW _assetOPName;
 
   /// @brief Field _curveNames, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__curveNames, put = __cordl_internal_set__curveNames))::System::Collections::Generic::List_1<::StringW>* _curveNames;
+  __declspec(property(get = __cordl_internal_get__curveNames, put = __cordl_internal_set__curveNames)) ::System::Collections::Generic::List_1<::StringW>* _curveNames;
 
   /// @brief Field _curvePresets, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__curvePresets, put = __cordl_internal_set__curvePresets))::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* _curvePresets;
+  __declspec(property(get = __cordl_internal_get__curvePresets, put = __cordl_internal_set__curvePresets)) ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* _curvePresets;
 
   /// @brief Field _identifier, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__identifier, put = __cordl_internal_set__identifier))::ArrayW<char16_t, ::Array<char16_t>*> _identifier;
+  __declspec(property(get = __cordl_internal_get__identifier, put = __cordl_internal_set__identifier)) ::ArrayW<char16_t, ::Array<char16_t>*> _identifier;
 
   /// @brief Field _parameterPreset, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__parameterPreset, put = __cordl_internal_set__parameterPreset))::ArrayW<uint8_t, ::Array<uint8_t>*> _parameterPreset;
+  __declspec(property(get = __cordl_internal_get__parameterPreset, put = __cordl_internal_set__parameterPreset)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _parameterPreset;
 
   /// @brief Field _version, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field inputPresets, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_inputPresets, put = __cordl_internal_set_inputPresets))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* inputPresets;
+  __declspec(property(get = __cordl_internal_get_inputPresets, put = __cordl_internal_set_inputPresets)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* inputPresets;
 
   /// @brief Field volumeCachePresets, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_volumeCachePresets,
-                      put = __cordl_internal_set_volumeCachePresets))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* volumeCachePresets;
+                      put = __cordl_internal_set_volumeCachePresets)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* volumeCachePresets;
 
   static inline ::HoudiniEngineUnity::HEU_AssetPreset* New_ctor();
 
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_volumeCachePresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* value);
 
-  /// @brief Method .ctor, addr 0x255e6a0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399c404, size 0x154, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -146,6 +146,9 @@ public:
 
   /// @brief Field volumeCachePresets, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* ___volumeCachePresets;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11551 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -18,7 +18,7 @@ class AvatarMask;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AvatarMask);
 // Type: UnityEngine::AvatarMask
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::AvatarMask*
@@ -27,19 +27,19 @@ public:
   // Declarations
   __declspec(property(get = get_transformCount)) int32_t transformCount;
 
-  /// @brief Method GetHumanoidBodyPartActive, addr 0x33fbf5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetHumanoidBodyPartActive, addr 0x47dd314, size 0x44, virtual false, abstract: false, final false
   inline bool GetHumanoidBodyPartActive(::UnityEngine::AvatarMaskBodyPart index);
 
-  /// @brief Method GetTransformActive, addr 0x33fc064, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetTransformActive, addr 0x47dd41c, size 0x54, virtual false, abstract: false, final false
   inline bool GetTransformActive(int32_t index);
 
-  /// @brief Method GetTransformPath, addr 0x33fbfdc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTransformPath, addr 0x47dd394, size 0x44, virtual false, abstract: false, final false
   inline ::StringW GetTransformPath(int32_t index);
 
-  /// @brief Method GetTransformWeight, addr 0x33fc020, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTransformWeight, addr 0x47dd3d8, size 0x44, virtual false, abstract: false, final false
   inline float_t GetTransformWeight(int32_t index);
 
-  /// @brief Method get_transformCount, addr 0x33fbfa0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_transformCount, addr 0x47dd358, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_transformCount();
 
 protected:
@@ -55,6 +55,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarMask", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarMask(AvatarMask const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16831 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

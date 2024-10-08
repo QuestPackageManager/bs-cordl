@@ -22,7 +22,7 @@ class CommandBufferOwners;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CommandBufferOwners);
 // Type: ::CommandBufferOwners
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CommandBufferOwners*
@@ -32,20 +32,20 @@ public:
   __declspec(property(get = get_NumberOfOwners)) int32_t NumberOfOwners;
 
   /// @brief Field _owners, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__owners, put = __cordl_internal_set__owners))::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>* _owners;
+  __declspec(property(get = __cordl_internal_get__owners, put = __cordl_internal_set__owners)) ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>* _owners;
 
   /// @brief Field commandBuffer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_commandBuffer, put = __cordl_internal_set_commandBuffer))::UnityEngine::Rendering::CommandBuffer* commandBuffer;
+  __declspec(property(get = __cordl_internal_get_commandBuffer, put = __cordl_internal_set_commandBuffer)) ::UnityEngine::Rendering::CommandBuffer* commandBuffer;
 
-  /// @brief Method AddOwner, addr 0x2c087e0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method AddOwner, addr 0x400ab20, size 0xa0, virtual false, abstract: false, final false
   inline void AddOwner(::UnityEngine::Object* owner);
 
-  /// @brief Method ContainsOwner, addr 0x2c08788, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ContainsOwner, addr 0x400aac8, size 0x58, virtual false, abstract: false, final false
   inline bool ContainsOwner(::UnityEngine::Object* owner);
 
   static inline ::GlobalNamespace::CommandBufferOwners* New_ctor();
 
-  /// @brief Method RemoveOwner, addr 0x2c0852c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RemoveOwner, addr 0x400a870, size 0x60, virtual false, abstract: false, final false
   inline void RemoveOwner(::UnityEngine::Object* owner);
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>*& __cordl_internal_get__owners();
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set_commandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
 
-  /// @brief Method .ctor, addr 0x2c08880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400abc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_NumberOfOwners, addr 0x2c0858c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_NumberOfOwners, addr 0x400a8d0, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_NumberOfOwners();
 
 protected:
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field commandBuffer, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::CommandBuffer* ___commandBuffer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17796 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

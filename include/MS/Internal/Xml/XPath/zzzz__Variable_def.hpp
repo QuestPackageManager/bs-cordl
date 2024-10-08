@@ -19,22 +19,22 @@ class Variable;
 // Write type traits
 MARK_REF_PTR_T(::MS::Internal::Xml::XPath::Variable);
 // Type: MS.Internal.Xml.XPath::Variable
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::XPath {
 // Is value type: false
 // CS Name: ::MS.Internal.Xml.XPath::Variable*
 class CORDL_TYPE Variable : public ::MS::Internal::Xml::XPath::AstNode {
 public:
   // Declarations
-  __declspec(property(get = get_ReturnType))::System::Xml::XPath::XPathResultType ReturnType;
+  __declspec(property(get = get_ReturnType)) ::System::Xml::XPath::XPathResultType ReturnType;
 
-  __declspec(property(get = get_Type))::MS::Internal::Xml::XPath::__AstNode__AstType Type;
+  __declspec(property(get = get_Type)) ::MS::Internal::Xml::XPath::__AstNode__AstType Type;
 
   /// @brief Field _localname, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__localname, put = __cordl_internal_set__localname))::StringW _localname;
+  __declspec(property(get = __cordl_internal_get__localname, put = __cordl_internal_set__localname)) ::StringW _localname;
 
   /// @brief Field _prefix, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__prefix, put = __cordl_internal_set__prefix))::StringW _prefix;
+  __declspec(property(get = __cordl_internal_get__prefix, put = __cordl_internal_set__prefix)) ::StringW _prefix;
 
   static inline ::MS::Internal::Xml::XPath::Variable* New_ctor(::StringW name, ::StringW prefix);
 
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__prefix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e8f8c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x428fbac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW prefix);
 
-  /// @brief Method get_ReturnType, addr 0x2e8f8f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x428fbe0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x2e8f8ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x428fbd8, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::__AstNode__AstType get_Type();
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field _prefix, offset: 0x18, size: 0x8, def value: None
   ::StringW ____prefix;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ class CreateAssetMenuAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::CreateAssetMenuAttribute);
 // Type: UnityEngine::CreateAssetMenuAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::CreateAssetMenuAttribute*
@@ -21,14 +21,14 @@ class CORDL_TYPE CreateAssetMenuAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <fileName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__fileName_k__BackingField, put = __cordl_internal_set__fileName_k__BackingField))::StringW _fileName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__fileName_k__BackingField, put = __cordl_internal_set__fileName_k__BackingField)) ::StringW _fileName_k__BackingField;
 
   /// @brief Field <menuName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuName_k__BackingField, put = __cordl_internal_set__menuName_k__BackingField))::StringW _menuName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__menuName_k__BackingField, put = __cordl_internal_set__menuName_k__BackingField)) ::StringW _menuName_k__BackingField;
 
-  __declspec(property(put = set_fileName))::StringW fileName;
+  __declspec(property(put = set_fileName)) ::StringW fileName;
 
-  __declspec(property(put = set_menuName))::StringW menuName;
+  __declspec(property(put = set_menuName)) ::StringW menuName;
 
   static inline ::UnityEngine::CreateAssetMenuAttribute* New_ctor();
 
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__menuName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3448ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4830fb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_fileName, addr 0x3448ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fileName, addr 0x4830fa8, size 0x8, virtual false, abstract: false, final false
   inline void set_fileName(::StringW value);
 
-  /// @brief Method set_menuName, addr 0x3448ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menuName, addr 0x4830fa0, size 0x8, virtual false, abstract: false, final false
   inline void set_menuName(::StringW value);
 
 protected:
@@ -72,6 +72,9 @@ public:
 
   /// @brief Field <fileName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____fileName_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10820 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,19 +33,19 @@ struct PlayerLoopSystem;
 MARK_REF_PTR_T(::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction);
 MARK_VAL_T(::UnityEngine::LowLevel::PlayerLoopSystem);
 // Type: ::UpdateFunction
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::LowLevel {
 // Is value type: false
 // CS Name: ::PlayerLoopSystem::UpdateFunction*
 class CORDL_TYPE __PlayerLoopSystem__UpdateFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3475200, size 0x1014, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4849bbc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3475144, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4849b34, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -62,6 +62,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerLoopSystem__UpdateFunction(__PlayerLoopSystem__UpdateFunction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10973 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -69,7 +72,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::LowLevel::__PlayerL
 
 } // namespace UnityEngine::LowLevel
 // Type: UnityEngine.LowLevel::PlayerLoopSystem
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.LowLevel::PlayerLoopSystem
@@ -78,7 +81,7 @@ public:
   // Declarations
   using UpdateFunction = ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction;
 
-  /// @brief Method ToString, addr 0x3475124, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4849b14, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -106,6 +109,9 @@ public:
 
   /// @brief Field loopConditionFunction, offset: 0x20, size: 0x8, def value: None
   ::System::IntPtr loopConditionFunction;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10974 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

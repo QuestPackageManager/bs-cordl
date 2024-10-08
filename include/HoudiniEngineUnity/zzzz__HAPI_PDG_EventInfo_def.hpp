@@ -13,7 +13,7 @@ struct HAPI_PDG_EventInfo;
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_PDG_EventInfo);
 // Type: HoudiniEngineUnity::HAPI_PDG_EventInfo
-// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HoudiniEngineUnity::HAPI_PDG_EventInfo
@@ -49,6 +49,9 @@ public:
 
   /// @brief Field msgSH, offset: 0x18, size: 0x4, def value: None
   int32_t msgSH;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11696 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

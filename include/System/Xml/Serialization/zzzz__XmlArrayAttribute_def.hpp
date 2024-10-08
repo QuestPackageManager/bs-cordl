@@ -21,39 +21,39 @@ class XmlArrayAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlArrayAttribute);
 // Type: System.Xml.Serialization::XmlArrayAttribute
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlArrayAttribute*
 class CORDL_TYPE XmlArrayAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_ElementName))::StringW ElementName;
+  __declspec(property(get = get_ElementName)) ::StringW ElementName;
 
-  __declspec(property(get = get_Form))::System::Xml::Schema::XmlSchemaForm Form;
+  __declspec(property(get = get_Form)) ::System::Xml::Schema::XmlSchemaForm Form;
 
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  __declspec(property(get = get_Namespace))::StringW Namespace;
+  __declspec(property(get = get_Namespace)) ::StringW Namespace;
 
   __declspec(property(get = get_Order)) int32_t Order;
 
   /// @brief Field elementName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_elementName, put = __cordl_internal_set_elementName))::StringW elementName;
+  __declspec(property(get = __cordl_internal_get_elementName, put = __cordl_internal_set_elementName)) ::StringW elementName;
 
   /// @brief Field form, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_form, put = __cordl_internal_set_form))::System::Xml::Schema::XmlSchemaForm form;
+  __declspec(property(get = __cordl_internal_get_form, put = __cordl_internal_set_form)) ::System::Xml::Schema::XmlSchemaForm form;
 
   /// @brief Field isNullable, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get_isNullable, put = __cordl_internal_set_isNullable)) bool isNullable;
 
   /// @brief Field ns, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns))::StringW ns;
+  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::StringW ns;
 
   /// @brief Field order, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order)) int32_t order;
 
-  /// @brief Method AddKeyHash, addr 0x2efa708, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x42f75bc, size 0x120, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr ::StringW const& __cordl_internal_get_elementName() const;
@@ -86,19 +86,19 @@ public:
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  /// @brief Method get_ElementName, addr 0x2efa694, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_ElementName, addr 0x42f7548, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_ElementName();
 
-  /// @brief Method get_Form, addr 0x2efa6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x42f759c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_IsNullable, addr 0x2efa6f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x42f75a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_Namespace, addr 0x2efa6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x42f75ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_Order, addr 0x2efa700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x42f75b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:
@@ -129,6 +129,9 @@ public:
 
   /// @brief Field order, offset: 0x28, size: 0x4, def value: None
   int32_t ___order;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7374 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

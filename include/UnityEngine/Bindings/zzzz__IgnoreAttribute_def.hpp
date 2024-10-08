@@ -12,7 +12,7 @@ class IgnoreAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Bindings::IgnoreAttribute);
 // Type: UnityEngine.Bindings::IgnoreAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
 // CS Name: ::UnityEngine.Bindings::IgnoreAttribute*
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__DoesNotContributeToSize_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x34ab2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489dd30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_DoesNotContributeToSize, addr 0x34ab2ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_DoesNotContributeToSize, addr 0x489dd24, size 0xc, virtual false, abstract: false, final false
   inline void set_DoesNotContributeToSize(bool value);
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field <DoesNotContributeToSize>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____DoesNotContributeToSize_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18596 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,14 +31,14 @@ class CertStatus;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::CertStatus);
 // Type: Org.BouncyCastle.Asn1.Ocsp::CertStatus
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::CertStatus*
 class CORDL_TYPE CertStatus : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_Status))::Org::BouncyCastle::Asn1::Asn1Encodable* Status;
+  __declspec(property(get = get_Status)) ::Org::BouncyCastle::Asn1::Asn1Encodable* Status;
 
   __declspec(property(get = get_TagNo)) int32_t TagNo;
 
@@ -46,12 +46,12 @@ public:
   __declspec(property(get = __cordl_internal_get_tagNo, put = __cordl_internal_set_tagNo)) int32_t tagNo;
 
   /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::Org::BouncyCastle::Asn1::Asn1Encodable* value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::Org::BouncyCastle::Asn1::Asn1Encodable* value;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x11f0498, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23c5734, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor();
@@ -62,7 +62,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method ToAsn1Object, addr 0x11f0630, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23c58c0, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr int32_t const& __cordl_internal_get_tagNo() const;
@@ -77,22 +77,22 @@ public:
 
   constexpr void __cordl_internal_set_value(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x11f0278, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c551c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x11f0348, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c55ec, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* choice);
 
-  /// @brief Method .ctor, addr 0x11f02e8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c558c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
 
-  /// @brief Method .ctor, addr 0x11f0318, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c55bc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method get_Status, addr 0x11f0628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x23c58b8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Status();
 
-  /// @brief Method get_TagNo, addr 0x11f0620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TagNo, addr 0x23c58b0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TagNo();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -117,6 +117,9 @@ public:
 
   /// @brief Field value, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Encodable* ___value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 208 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

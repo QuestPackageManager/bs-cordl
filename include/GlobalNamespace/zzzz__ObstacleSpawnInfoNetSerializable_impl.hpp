@@ -14,9 +14,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ObstacleSpawnInfoNetSerializable* (*)()>(
     &::GlobalNamespace::ObstacleSpawnInfoNetSerializable::Obtain)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x1516ab8;
+  constexpr static std::size_t addrs = 0x26e0fe0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>::get(),
                                                                                "Obtain", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -26,15 +26,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ObstacleSpawnInfoNetSerializable* (
-    ::GlobalNamespace::ObstacleSpawnInfoNetSerializable::*)(float_t, int32_t, ::GlobalNamespace::NoteLineLayer, float_t, int32_t, int32_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3,
-                                                            ::UnityEngine::Vector3, float_t, float_t, float_t, float_t, float_t)>(&::GlobalNamespace::ObstacleSpawnInfoNetSerializable::Init)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x1516b1c;
+    ::GlobalNamespace::ObstacleSpawnInfoNetSerializable::*)(float_t, float_t, float_t, int32_t, ::GlobalNamespace::NoteLineLayer, float_t, int32_t, int32_t, ::UnityEngine::Vector3,
+                                                            ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, float_t, float_t, float_t, float_t)>(
+    &::GlobalNamespace::ObstacleSpawnInfoNetSerializable::Init)> {
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x26e1044;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 14>{
+        ::std::array<Il2CppType const*, 16>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteLineLayer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
@@ -51,9 +53,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleSpawnInfoNetSerializable::*)()>(
     &::GlobalNamespace::ObstacleSpawnInfoNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x1516c3c;
+  constexpr static std::size_t addrs = 0x26e1160;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -64,10 +66,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ObstacleSpawnInfoNetSerializable::Serialize)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x1516c94;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x26e11b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>::get(),
@@ -81,9 +83,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ObstacleSpawnInfoNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x1516d98;
+  constexpr static std::size_t addrs = 0x26e12fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>::get(),
@@ -102,6 +104,30 @@ constexpr float_t const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__co
 constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__cordl_internal_set_time(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___time = value;
+}
+constexpr float_t& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__cordl_internal_get_startBeat() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___startBeat;
+}
+constexpr float_t const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__cordl_internal_get_startBeat() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___startBeat;
+}
+constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__cordl_internal_set_startBeat(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___startBeat = value;
+}
+constexpr float_t& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__cordl_internal_get_endBeat() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___endBeat;
+}
+constexpr float_t const& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__cordl_internal_get_endBeat() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___endBeat;
+}
+constexpr void GlobalNamespace::ObstacleSpawnInfoNetSerializable::__cordl_internal_set_endBeat(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___endBeat = value;
 }
 constexpr int32_t& GlobalNamespace::ObstacleSpawnInfoNetSerializable::__cordl_internal_get_lineIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -264,14 +290,14 @@ inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* GlobalNamespace::Obs
                                                                              "Obtain", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*, false>(nullptr, ___internal_method);
 }
-inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* GlobalNamespace::ObstacleSpawnInfoNetSerializable::Init(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer,
-                                                                                                                    float_t duration, int32_t width, int32_t height,
-                                                                                                                    ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos,
-                                                                                                                    ::UnityEngine::Vector3 jumpEndPos, float_t obstacleHeight, float_t moveDuration,
-                                                                                                                    float_t jumpDuration, float_t noteLinesDistance, float_t rotation) {
+inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*
+GlobalNamespace::ObstacleSpawnInfoNetSerializable::Init(float_t time, float_t startBeat, float_t endBeat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration,
+                                                        int32_t width, int32_t height, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
+                                                        float_t obstacleHeight, float_t moveDuration, float_t jumpDuration, float_t noteLinesDistance, float_t rotation) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 14>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+      ::std::array<Il2CppType const*, 16>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteLineLayer>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
@@ -279,8 +305,9 @@ inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* GlobalNamespace::Obs
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*, false>(
-      this, ___internal_method, time, lineIndex, lineLayer, duration, width, height, moveStartPos, moveEndPos, jumpEndPos, obstacleHeight, moveDuration, jumpDuration, noteLinesDistance, rotation);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*, false>(this, ___internal_method, time, startBeat, endBeat, lineIndex, lineLayer, duration, width,
+                                                                                                          height, moveStartPos, moveEndPos, jumpEndPos, obstacleHeight, moveDuration, jumpDuration,
+                                                                                                          noteLinesDistance, rotation);
 }
 inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* GlobalNamespace::ObstacleSpawnInfoNetSerializable::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>());

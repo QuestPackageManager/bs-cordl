@@ -16,7 +16,7 @@ class DebuggerTypeProxyAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::DebuggerTypeProxyAttribute);
 // Type: System.Diagnostics::DebuggerTypeProxyAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
 // CS Name: ::System.Diagnostics::DebuggerTypeProxyAttribute*
@@ -24,7 +24,7 @@ class CORDL_TYPE DebuggerTypeProxyAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field typeName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName))::StringW typeName;
+  __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
   static inline ::System::Diagnostics::DebuggerTypeProxyAttribute* New_ctor(::System::Type* type);
 
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x292cf70, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d407d0, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
 protected:
@@ -53,6 +53,9 @@ public:
 
   /// @brief Field typeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___typeName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3742 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

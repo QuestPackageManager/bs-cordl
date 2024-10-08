@@ -14,7 +14,7 @@ class BombNoteData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::BombNoteData);
 // Type: BeatmapSaveDataVersion3::BombNoteData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion3::BombNoteData*
@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1505084, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c8ec4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer);
 
-  /// @brief Method get_layer, addr 0x150507c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x26c8ebc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x1505074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x26c8eb4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
 protected:
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field y, offset: 0x18, size: 0x4, def value: None
   int32_t ___y;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13377 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

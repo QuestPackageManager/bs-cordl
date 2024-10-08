@@ -18,15 +18,15 @@ class LightGroupEditorPrefabContext;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightGroupEditorPrefabContext);
 // Type: ::LightGroupEditorPrefabContext
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightGroupEditorPrefabContext*
 class CORDL_TYPE LightGroupEditorPrefabContext : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field lightGroups, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_lightGroups, put = __cordl_internal_set_lightGroups))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* lightGroups;
+  /// @brief Field lightGroups, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_lightGroups, put = __cordl_internal_set_lightGroups)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* lightGroups;
 
   static inline ::GlobalNamespace::LightGroupEditorPrefabContext* New_ctor();
 
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_lightGroups(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* value);
 
-  /// @brief Method .ctor, addr 0x251f22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3976fbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,15 +53,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightGroupEditorPrefabContext(LightGroupEditorPrefabContext const&) = delete;
 
-  /// @brief Field lightGroups, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field lightGroups, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* ___lightGroups;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16246 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupEditorPrefabContext, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupEditorPrefabContext, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightGroupEditorPrefabContext, ___lightGroups) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightGroupEditorPrefabContext, ___lightGroups) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightGroupEditorPrefabContext);

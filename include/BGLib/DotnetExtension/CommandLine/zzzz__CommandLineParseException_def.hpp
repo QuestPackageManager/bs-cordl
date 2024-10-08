@@ -16,7 +16,7 @@ class CommandLineParseException;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::DotnetExtension::CommandLine::CommandLineParseException);
 // Type: BGLib.DotnetExtension.CommandLine::CommandLineParseException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::DotnetExtension::CommandLine {
 // Is value type: false
 // CS Name: ::BGLib.DotnetExtension.CommandLine::CommandLineParseException*
@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParseException* New_ctor(::StringW hint, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x10839a8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2262110, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW hint, ::System::Exception* innerException);
 
 protected:
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CommandLineParseException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CommandLineParseException(CommandLineParseException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16900 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

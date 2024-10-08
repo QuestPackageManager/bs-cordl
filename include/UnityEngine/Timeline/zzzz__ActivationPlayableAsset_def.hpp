@@ -27,27 +27,27 @@ class ActivationPlayableAsset;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::ActivationPlayableAsset);
 // Type: UnityEngine.Timeline::ActivationPlayableAsset
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::ActivationPlayableAsset*
 class CORDL_TYPE ActivationPlayableAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations
-  __declspec(property(get = get_clipCaps))::UnityEngine::Timeline::ClipCaps clipCaps;
+  __declspec(property(get = get_clipCaps)) ::UnityEngine::Timeline::ClipCaps clipCaps;
 
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x33bc224, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x4795114, size 0x6c, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::UnityEngine::Timeline::ActivationPlayableAsset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33bc290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4795180, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x33bc21c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x479510c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
@@ -66,6 +66,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ActivationPlayableAsset", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ActivationPlayableAsset(ActivationPlayableAsset const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

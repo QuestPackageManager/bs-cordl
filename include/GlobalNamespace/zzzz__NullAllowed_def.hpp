@@ -22,7 +22,7 @@ class NullAllowed;
 MARK_VAL_T(::GlobalNamespace::__NullAllowed__Context);
 MARK_REF_PTR_T(::GlobalNamespace::NullAllowed);
 // Type: ::Context
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::NullAllowed::Context
@@ -63,6 +63,9 @@ public:
   /// @brief Field Prefab value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__NullAllowed__Context const Prefab;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19053 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -75,7 +78,7 @@ static_assert(offsetof(::GlobalNamespace::__NullAllowed__Context, value__) == 0x
 
 } // namespace GlobalNamespace
 // Type: ::NullAllowed
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NullAllowed*
@@ -85,9 +88,9 @@ public:
   using Context = ::GlobalNamespace::__NullAllowed__Context;
 
   /// @brief Field _context, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::GlobalNamespace::__NullAllowed__Context _context;
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context)) ::GlobalNamespace::__NullAllowed__Context _context;
 
-  /// @brief Method IsNullAllowedFor, addr 0x1080a18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsNullAllowedFor, addr 0x225e9e8, size 0x1c, virtual false, abstract: false, final false
   inline bool IsNullAllowedFor(::GlobalNamespace::__NullAllowed__Context context);
 
   static inline ::GlobalNamespace::NullAllowed* New_ctor(::GlobalNamespace::__NullAllowed__Context context);
@@ -98,7 +101,7 @@ public:
 
   constexpr void __cordl_internal_set__context(::GlobalNamespace::__NullAllowed__Context value);
 
-  /// @brief Method .ctor, addr 0x10809f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225e9c0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__NullAllowed__Context context);
 
 protected:
@@ -117,6 +120,9 @@ public:
 
   /// @brief Field _context, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::__NullAllowed__Context ____context;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19054 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

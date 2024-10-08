@@ -17,20 +17,20 @@ class StringReferenceExtensions;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::StringReferenceExtensions);
 // Type: Newtonsoft.Json.Utilities::StringReferenceExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::StringReferenceExtensions*
 class CORDL_TYPE StringReferenceExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EndsWith, addr 0x2a51350, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x3e61824, size 0xc4, virtual false, abstract: false, final false
   static inline bool EndsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
-  /// @brief Method IndexOf, addr 0x2a51218, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3e616e0, size 0x84, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::Newtonsoft::Json::Utilities::StringReference s, char16_t c, int32_t startIndex, int32_t length);
 
-  /// @brief Method StartsWith, addr 0x2a5129c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x3e61764, size 0xc0, virtual false, abstract: false, final false
   static inline bool StartsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "StringReferenceExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   StringReferenceExtensions(StringReferenceExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10241 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,7 +12,7 @@ class ExitGUIException;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ExitGUIException);
 // Type: UnityEngine::ExitGUIException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::ExitGUIException*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::ExitGUIException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x348a7f8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4866160, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ExitGUIException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ExitGUIException(ExitGUIException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16604 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

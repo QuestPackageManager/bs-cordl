@@ -16,7 +16,7 @@ class XmlTypeAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlTypeAttribute);
 // Type: System.Xml.Serialization::XmlTypeAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlTypeAttribute*
@@ -25,20 +25,20 @@ public:
   // Declarations
   __declspec(property(get = get_IncludeInSchema)) bool IncludeInSchema;
 
-  __declspec(property(get = get_Namespace))::StringW Namespace;
+  __declspec(property(get = get_Namespace)) ::StringW Namespace;
 
-  __declspec(property(get = get_TypeName))::StringW TypeName;
+  __declspec(property(get = get_TypeName)) ::StringW TypeName;
 
   /// @brief Field includeInSchema, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_includeInSchema, put = __cordl_internal_set_includeInSchema)) bool includeInSchema;
 
   /// @brief Field ns, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns))::StringW ns;
+  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::StringW ns;
 
   /// @brief Field typeName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName))::StringW typeName;
+  __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
-  /// @brief Method AddKeyHash, addr 0x2f1b7b0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x4317f24, size 0xa4, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr bool const& __cordl_internal_get_includeInSchema() const;
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method get_IncludeInSchema, addr 0x2f1b74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IncludeInSchema, addr 0x4317ec0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IncludeInSchema();
 
-  /// @brief Method get_Namespace, addr 0x2f1b754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x4317ec8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_TypeName, addr 0x2f1b75c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x4317ed0, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field typeName, offset: 0x20, size: 0x8, def value: None
   ::StringW ___typeName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7420 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

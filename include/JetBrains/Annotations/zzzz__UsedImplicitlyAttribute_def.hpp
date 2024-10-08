@@ -20,7 +20,7 @@ class UsedImplicitlyAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::UsedImplicitlyAttribute);
 // Type: JetBrains.Annotations::UsedImplicitlyAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::UsedImplicitlyAttribute*
@@ -29,11 +29,11 @@ public:
   // Declarations
   /// @brief Field <TargetFlags>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__TargetFlags_k__BackingField,
-                      put = __cordl_internal_set__TargetFlags_k__BackingField))::JetBrains::Annotations::ImplicitUseTargetFlags _TargetFlags_k__BackingField;
+                      put = __cordl_internal_set__TargetFlags_k__BackingField)) ::JetBrains::Annotations::ImplicitUseTargetFlags _TargetFlags_k__BackingField;
 
   /// @brief Field <UseKindFlags>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__UseKindFlags_k__BackingField,
-                      put = __cordl_internal_set__UseKindFlags_k__BackingField))::JetBrains::Annotations::ImplicitUseKindFlags _UseKindFlags_k__BackingField;
+                      put = __cordl_internal_set__UseKindFlags_k__BackingField)) ::JetBrains::Annotations::ImplicitUseKindFlags _UseKindFlags_k__BackingField;
 
   static inline ::JetBrains::Annotations::UsedImplicitlyAttribute* New_ctor();
 
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__UseKindFlags_k__BackingField(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
-  /// @brief Method .ctor, addr 0x340e378, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e9910, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x340e39c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e9934, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
 protected:
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field <TargetFlags>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::JetBrains::Annotations::ImplicitUseTargetFlags ____TargetFlags_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10597 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

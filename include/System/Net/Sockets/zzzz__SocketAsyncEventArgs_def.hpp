@@ -65,51 +65,52 @@ class SocketAsyncEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Sockets::SocketAsyncEventArgs);
 // Type: System.Net.Sockets::SocketAsyncEventArgs
-// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
 // CS Name: ::System.Net.Sockets::SocketAsyncEventArgs*
 class CORDL_TYPE SocketAsyncEventArgs : public ::System::EventArgs {
 public:
   // Declarations
-  __declspec(property(get = get_AcceptSocket, put = set_AcceptSocket))::System::Net::Sockets::Socket* AcceptSocket;
+  __declspec(property(get = get_AcceptSocket, put = set_AcceptSocket)) ::System::Net::Sockets::Socket* AcceptSocket;
 
-  __declspec(property(get = get_BufferList))::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* BufferList;
+  __declspec(property(get = get_BufferList)) ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* BufferList;
 
   __declspec(property(get = get_BytesTransferred, put = set_BytesTransferred)) int32_t BytesTransferred;
 
   /// @brief Field Completed, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_Completed, put = __cordl_internal_set_Completed))::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* Completed;
+  __declspec(property(get = __cordl_internal_get_Completed, put = __cordl_internal_set_Completed)) ::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* Completed;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_CurrentSocket))::System::Net::Sockets::Socket* CurrentSocket;
+  __declspec(property(get = get_CurrentSocket)) ::System::Net::Sockets::Socket* CurrentSocket;
 
-  __declspec(property(put = set_LastOperation))::System::Net::Sockets::SocketAsyncOperation LastOperation;
+  __declspec(property(put = set_LastOperation)) ::System::Net::Sockets::SocketAsyncOperation LastOperation;
 
-  __declspec(property(get = get_MemoryBuffer))::System::Memory_1<uint8_t> MemoryBuffer;
+  __declspec(property(get = get_MemoryBuffer)) ::System::Memory_1<uint8_t> MemoryBuffer;
 
   __declspec(property(get = get_Offset)) int32_t Offset;
 
-  __declspec(property(put = set_RemoteEndPoint))::System::Net::EndPoint* RemoteEndPoint;
+  __declspec(property(put = set_RemoteEndPoint)) ::System::Net::EndPoint* RemoteEndPoint;
 
   __declspec(property(put = set_SendPacketsSendSize)) int32_t SendPacketsSendSize;
 
-  __declspec(property(get = get_SocketError, put = set_SocketError))::System::Net::Sockets::SocketError SocketError;
+  __declspec(property(get = get_SocketError, put = set_SocketError)) ::System::Net::Sockets::SocketError SocketError;
 
-  __declspec(property(put = set_SocketFlags))::System::Net::Sockets::SocketFlags SocketFlags;
+  __declspec(property(put = set_SocketFlags)) ::System::Net::Sockets::SocketFlags SocketFlags;
 
-  __declspec(property(get = get_UserToken, put = set_UserToken))::System::Object* UserToken;
+  __declspec(property(get = get_UserToken, put = set_UserToken)) ::System::Object* UserToken;
 
   /// @brief Field <AcceptSocket>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__AcceptSocket_k__BackingField, put = __cordl_internal_set__AcceptSocket_k__BackingField))::System::Net::Sockets::Socket* _AcceptSocket_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__AcceptSocket_k__BackingField,
+                      put = __cordl_internal_set__AcceptSocket_k__BackingField)) ::System::Net::Sockets::Socket* _AcceptSocket_k__BackingField;
 
   /// @brief Field <BytesTransferred>k__BackingField, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__BytesTransferred_k__BackingField, put = __cordl_internal_set__BytesTransferred_k__BackingField)) int32_t _BytesTransferred_k__BackingField;
 
   /// @brief Field <ConnectByNameError>k__BackingField, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__ConnectByNameError_k__BackingField,
-                      put = __cordl_internal_set__ConnectByNameError_k__BackingField))::System::Exception* _ConnectByNameError_k__BackingField;
+                      put = __cordl_internal_set__ConnectByNameError_k__BackingField)) ::System::Exception* _ConnectByNameError_k__BackingField;
 
   /// @brief Field <DisconnectReuseSocket>k__BackingField, offset 0x44, size 0x1
   __declspec(property(get = __cordl_internal_get__DisconnectReuseSocket_k__BackingField,
@@ -117,47 +118,47 @@ public:
 
   /// @brief Field <LastOperation>k__BackingField, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__LastOperation_k__BackingField,
-                      put = __cordl_internal_set__LastOperation_k__BackingField))::System::Net::Sockets::SocketAsyncOperation _LastOperation_k__BackingField;
+                      put = __cordl_internal_set__LastOperation_k__BackingField)) ::System::Net::Sockets::SocketAsyncOperation _LastOperation_k__BackingField;
 
   /// @brief Field <ReceiveMessageFromPacketInfo>k__BackingField, offset 0x50, size 0x10
   __declspec(property(get = __cordl_internal_get__ReceiveMessageFromPacketInfo_k__BackingField,
-                      put = __cordl_internal_set__ReceiveMessageFromPacketInfo_k__BackingField))::System::Net::Sockets::IPPacketInformation _ReceiveMessageFromPacketInfo_k__BackingField;
+                      put = __cordl_internal_set__ReceiveMessageFromPacketInfo_k__BackingField)) ::System::Net::Sockets::IPPacketInformation _ReceiveMessageFromPacketInfo_k__BackingField;
 
   /// @brief Field <SendPacketsElements>k__BackingField, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__SendPacketsElements_k__BackingField,
-                      put = __cordl_internal_set__SendPacketsElements_k__BackingField))::ArrayW<::System::Net::Sockets::SendPacketsElement*,
-                                                                                                ::Array<::System::Net::Sockets::SendPacketsElement*>*> _SendPacketsElements_k__BackingField;
+                      put = __cordl_internal_set__SendPacketsElements_k__BackingField)) ::ArrayW<::System::Net::Sockets::SendPacketsElement*, ::Array<::System::Net::Sockets::SendPacketsElement*>*>
+      _SendPacketsElements_k__BackingField;
 
   /// @brief Field <SendPacketsFlags>k__BackingField, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get__SendPacketsFlags_k__BackingField,
-                      put = __cordl_internal_set__SendPacketsFlags_k__BackingField))::System::Net::Sockets::TransmitFileOptions _SendPacketsFlags_k__BackingField;
+                      put = __cordl_internal_set__SendPacketsFlags_k__BackingField)) ::System::Net::Sockets::TransmitFileOptions _SendPacketsFlags_k__BackingField;
 
   /// @brief Field <SendPacketsSendSize>k__BackingField, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get__SendPacketsSendSize_k__BackingField, put = __cordl_internal_set__SendPacketsSendSize_k__BackingField)) int32_t _SendPacketsSendSize_k__BackingField;
 
   /// @brief Field <SocketError>k__BackingField, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get__SocketError_k__BackingField,
-                      put = __cordl_internal_set__SocketError_k__BackingField))::System::Net::Sockets::SocketError _SocketError_k__BackingField;
+                      put = __cordl_internal_set__SocketError_k__BackingField)) ::System::Net::Sockets::SocketError _SocketError_k__BackingField;
 
   /// @brief Field <SocketFlags>k__BackingField, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get__SocketFlags_k__BackingField,
-                      put = __cordl_internal_set__SocketFlags_k__BackingField))::System::Net::Sockets::SocketFlags _SocketFlags_k__BackingField;
+                      put = __cordl_internal_set__SocketFlags_k__BackingField)) ::System::Net::Sockets::SocketFlags _SocketFlags_k__BackingField;
 
   /// @brief Field <UserToken>k__BackingField, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__UserToken_k__BackingField, put = __cordl_internal_set__UserToken_k__BackingField))::System::Object* _UserToken_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__UserToken_k__BackingField, put = __cordl_internal_set__UserToken_k__BackingField)) ::System::Object* _UserToken_k__BackingField;
 
   /// @brief Field _buffer, offset 0x88, size 0x10
-  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::System::Memory_1<uint8_t> _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer)) ::System::Memory_1<uint8_t> _buffer;
 
   /// @brief Field _bufferIsExplicitArray, offset 0xa0, size 0x1
   __declspec(property(get = __cordl_internal_get__bufferIsExplicitArray, put = __cordl_internal_set__bufferIsExplicitArray)) bool _bufferIsExplicitArray;
 
   /// @brief Field _bufferList, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__bufferList, put = __cordl_internal_set__bufferList))::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* _bufferList;
+  __declspec(property(get = __cordl_internal_get__bufferList, put = __cordl_internal_set__bufferList)) ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* _bufferList;
 
   /// @brief Field _bufferListInternal, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__bufferListInternal,
-                      put = __cordl_internal_set__bufferListInternal))::System::Collections::Generic::List_1<::System::ArraySegment_1<uint8_t>>* _bufferListInternal;
+                      put = __cordl_internal_set__bufferListInternal)) ::System::Collections::Generic::List_1<::System::ArraySegment_1<uint8_t>>* _bufferListInternal;
 
   /// @brief Field _count, offset 0x9c, size 0x4
   __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
@@ -166,7 +167,7 @@ public:
   __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset)) int32_t _offset;
 
   /// @brief Field current_socket, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_current_socket, put = __cordl_internal_set_current_socket))::System::Net::Sockets::Socket* current_socket;
+  __declspec(property(get = __cordl_internal_get_current_socket, put = __cordl_internal_set_current_socket)) ::System::Net::Sockets::Socket* current_socket;
 
   /// @brief Field disposed, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
@@ -175,43 +176,43 @@ public:
   __declspec(property(get = __cordl_internal_get_in_progress, put = __cordl_internal_set_in_progress)) int32_t in_progress;
 
   /// @brief Field remote_ep, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_remote_ep, put = __cordl_internal_set_remote_ep))::System::Net::EndPoint* remote_ep;
+  __declspec(property(get = __cordl_internal_get_remote_ep, put = __cordl_internal_set_remote_ep)) ::System::Net::EndPoint* remote_ep;
 
   /// @brief Field socket_async_result, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_socket_async_result, put = __cordl_internal_set_socket_async_result))::System::Net::Sockets::SocketAsyncResult* socket_async_result;
+  __declspec(property(get = __cordl_internal_get_socket_async_result, put = __cordl_internal_set_socket_async_result)) ::System::Net::Sockets::SocketAsyncResult* socket_async_result;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Complete_internal, addr 0x2f5a010, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Complete_internal, addr 0x438b714, size 0x28, virtual false, abstract: false, final false
   inline void Complete_internal();
 
-  /// @brief Method Dispose, addr 0x2f59ed4, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x438b5e0, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2f59ec0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x438b5cc, size 0x14, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x2f59eb0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x438b5bc, size 0x10, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Net::Sockets::SocketAsyncEventArgs* New_ctor();
 
   static inline ::System::Net::Sockets::SocketAsyncEventArgs* New_ctor(bool flowExecutionContext);
 
-  /// @brief Method OnCompleted, addr 0x2f5a038, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnCompleted, addr 0x438b73c, size 0x28, virtual true, abstract: false, final false
   inline void OnCompleted(::System::Net::Sockets::SocketAsyncEventArgs* e);
 
-  /// @brief Method SetBuffer, addr 0x2f5a084, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetBuffer, addr 0x438b788, size 0xec, virtual false, abstract: false, final false
   inline void SetBuffer(::System::Memory_1<uint8_t> buffer);
 
-  /// @brief Method SetBytesTransferred, addr 0x2f568a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBytesTransferred, addr 0x4388104, size 0x8, virtual false, abstract: false, final false
   inline void SetBytesTransferred(int32_t value);
 
-  /// @brief Method SetCurrentSocket, addr 0x2f59f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentSocket, addr 0x438b64c, size 0x8, virtual false, abstract: false, final false
   inline void SetCurrentSocket(::System::Net::Sockets::Socket* socket);
 
-  /// @brief Method SetLastOperation, addr 0x2f59f48, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetLastOperation, addr 0x438b654, size 0xc0, virtual false, abstract: false, final false
   inline void SetLastOperation(::System::Net::Sockets::SocketAsyncOperation op);
 
   constexpr ::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>*& __cordl_internal_get_Completed();
@@ -358,70 +359,70 @@ public:
 
   constexpr void __cordl_internal_set_socket_async_result(::System::Net::Sockets::SocketAsyncResult* value);
 
-  /// @brief Method .ctor, addr 0x2f59d84, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438b51c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2f59e24, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4384be8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool flowExecutionContext);
 
-  /// @brief Method add_Completed, addr 0x2f59c24, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_Completed, addr 0x438b3bc, size 0xb0, virtual false, abstract: false, final false
   inline void add_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
 
-  /// @brief Method get_AcceptSocket, addr 0x2f59bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AcceptSocket, addr 0x438b35c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* get_AcceptSocket();
 
-  /// @brief Method get_BufferList, addr 0x2f5a07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BufferList, addr 0x438b780, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* get_BufferList();
 
-  /// @brief Method get_BytesTransferred, addr 0x2f59bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BytesTransferred, addr 0x438b36c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_BytesTransferred();
 
-  /// @brief Method get_Count, addr 0x2f5a074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x438b778, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_CurrentSocket, addr 0x2f59f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentSocket, addr 0x438b644, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* get_CurrentSocket();
 
-  /// @brief Method get_MemoryBuffer, addr 0x2f5a060, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MemoryBuffer, addr 0x438b764, size 0xc, virtual false, abstract: false, final false
   inline ::System::Memory_1<uint8_t> get_MemoryBuffer();
 
-  /// @brief Method get_Offset, addr 0x2f5a06c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Offset, addr 0x438b770, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Offset();
 
-  /// @brief Method get_SocketError, addr 0x2f59bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SocketError, addr 0x438b394, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketError get_SocketError();
 
-  /// @brief Method get_UserToken, addr 0x2f59c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserToken, addr 0x438b3ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_UserToken();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_Completed, addr 0x2f59cd4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_Completed, addr 0x438b46c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
 
-  /// @brief Method set_AcceptSocket, addr 0x2f59bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AcceptSocket, addr 0x438b364, size 0x8, virtual false, abstract: false, final false
   inline void set_AcceptSocket(::System::Net::Sockets::Socket* value);
 
-  /// @brief Method set_BytesTransferred, addr 0x2f59bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BytesTransferred, addr 0x438b374, size 0x8, virtual false, abstract: false, final false
   inline void set_BytesTransferred(int32_t value);
 
-  /// @brief Method set_LastOperation, addr 0x2f59be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LastOperation, addr 0x438b37c, size 0x8, virtual false, abstract: false, final false
   inline void set_LastOperation(::System::Net::Sockets::SocketAsyncOperation value);
 
-  /// @brief Method set_RemoteEndPoint, addr 0x2f59bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RemoteEndPoint, addr 0x438b384, size 0x8, virtual false, abstract: false, final false
   inline void set_RemoteEndPoint(::System::Net::EndPoint* value);
 
-  /// @brief Method set_SendPacketsSendSize, addr 0x2f59bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SendPacketsSendSize, addr 0x438b38c, size 0x8, virtual false, abstract: false, final false
   inline void set_SendPacketsSendSize(int32_t value);
 
-  /// @brief Method set_SocketError, addr 0x2f59c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SocketError, addr 0x438b39c, size 0x8, virtual false, abstract: false, final false
   inline void set_SocketError(::System::Net::Sockets::SocketError value);
 
-  /// @brief Method set_SocketFlags, addr 0x2f59c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SocketFlags, addr 0x438b3a4, size 0x8, virtual false, abstract: false, final false
   inline void set_SocketFlags(::System::Net::Sockets::SocketFlags value);
 
-  /// @brief Method set_UserToken, addr 0x2f59c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UserToken, addr 0x438b3b4, size 0x8, virtual false, abstract: false, final false
   inline void set_UserToken(::System::Object* value);
 
 protected:
@@ -509,6 +510,9 @@ public:
 
   /// @brief Field _bufferListInternal, offset: 0xb0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ArraySegment_1<uint8_t>>* ____bufferListInternal;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9843 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ class InternalsVisibleToAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::InternalsVisibleToAttribute);
 // Type: System.Runtime.CompilerServices::InternalsVisibleToAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::InternalsVisibleToAttribute*
@@ -26,7 +26,7 @@ public:
   __declspec(property(get = __cordl_internal_get__allInternalsVisible, put = __cordl_internal_set__allInternalsVisible)) bool _allInternalsVisible;
 
   /// @brief Field _assemblyName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__assemblyName, put = __cordl_internal_set__assemblyName))::StringW _assemblyName;
+  __declspec(property(get = __cordl_internal_get__assemblyName, put = __cordl_internal_set__assemblyName)) ::StringW _assemblyName;
 
   static inline ::System::Runtime::CompilerServices::InternalsVisibleToAttribute* New_ctor(::StringW assemblyName);
 
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__assemblyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x288c67c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca50b4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyName);
 
-  /// @brief Method set_AllInternalsVisible, addr 0x288c6ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllInternalsVisible, addr 0x3ca50e4, size 0xc, virtual false, abstract: false, final false
   inline void set_AllInternalsVisible(bool value);
 
 protected:
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field _allInternalsVisible, offset: 0x18, size: 0x1, def value: None
   bool ____allInternalsVisible;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3414 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

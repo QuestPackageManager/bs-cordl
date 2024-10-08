@@ -16,7 +16,7 @@ class __NotEqualInstruction__NotEqualSingleLiftedToNull;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualSingleLiftedToNull);
 // Type: ::NotEqualSingleLiftedToNull
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::NotEqualInstruction::NotEqualSingleLiftedToNull*
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualSingleLiftedToNull* New_ctor();
 
-  /// @brief Method Run, addr 0x2c77248, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x407a244, size 0xf0, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c75e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4078e90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "__NotEqualInstruction__NotEqualSingleLiftedToNull", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   __NotEqualInstruction__NotEqualSingleLiftedToNull(__NotEqualInstruction__NotEqualSingleLiftedToNull const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14000 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,25 +17,25 @@ struct ExpressionMultiplier;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier);
 // Type: UnityEngine.UIElements.StyleSheets.Syntax::ExpressionMultiplier
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::ExpressionMultiplier
 struct CORDL_TYPE ExpressionMultiplier {
 public:
   // Declarations
-  __declspec(property(get = get_type, put = set_type))::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type;
+  __declspec(property(get = get_type, put = set_type)) ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type;
 
-  /// @brief Method SetType, addr 0x358dab8, size 0x1054, virtual false, abstract: false, final false
+  /// @brief Method SetType, addr 0x49628e8, size 0x54, virtual false, abstract: false, final false
   inline void SetType(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value);
 
-  /// @brief Method .ctor, addr 0x358daa8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49628d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType type);
 
-  /// @brief Method get_type, addr 0x35868bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x4961424, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType get_type();
 
-  /// @brief Method set_type, addr 0x358d838, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x49628e4, size 0x4, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType value);
 
   // Ctor Parameters []
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field Infinity offset 0xffffffff size 0x4
   static constexpr int32_t Infinity{ static_cast<int32_t>(0x64) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6442 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

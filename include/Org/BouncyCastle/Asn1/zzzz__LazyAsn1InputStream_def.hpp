@@ -26,27 +26,27 @@ class LazyAsn1InputStream;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::LazyAsn1InputStream);
 // Type: Org.BouncyCastle.Asn1::LazyAsn1InputStream
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::LazyAsn1InputStream*
 class CORDL_TYPE LazyAsn1InputStream : public ::Org::BouncyCastle::Asn1::Asn1InputStream {
 public:
   // Declarations
-  /// @brief Method CreateDerSequence, addr 0x143873c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method CreateDerSequence, addr 0x25fcc70, size 0x70, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerSequence* CreateDerSequence(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
 
-  /// @brief Method CreateDerSet, addr 0x1438818, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method CreateDerSet, addr 0x25fcd48, size 0x70, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerSet* CreateDerSet(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* dIn);
 
   static inline ::Org::BouncyCastle::Asn1::LazyAsn1InputStream* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   static inline ::Org::BouncyCastle::Asn1::LazyAsn1InputStream* New_ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method .ctor, addr 0x1438708, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fcc3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method .ctor, addr 0x143870c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fcc40, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
 protected:
@@ -62,6 +62,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LazyAsn1InputStream", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LazyAsn1InputStream(LazyAsn1InputStream const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 524 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

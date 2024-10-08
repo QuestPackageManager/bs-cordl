@@ -16,7 +16,7 @@ template <typename T> class AvatarPartSO_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarPartSO_1);
 // Type: BeatSaber.BeatAvatarSDK::AvatarPartSO`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // cpp template
 template <typename T>
@@ -26,17 +26,17 @@ class CORDL_TYPE AvatarPartSO_1 : public ::GlobalNamespace::PersistentScriptable
 public:
   // Declarations
   /// @brief Field _id, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id))::StringW _id;
+  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) ::StringW _id;
 
   /// @brief Field _localizationKey, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__localizationKey, put = __cordl_internal_set__localizationKey))::StringW _localizationKey;
+  __declspec(property(get = __cordl_internal_get__localizationKey, put = __cordl_internal_set__localizationKey)) ::StringW _localizationKey;
 
   /// @brief Field _partAsset, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__partAsset, put = __cordl_internal_set__partAsset)) T _partAsset;
 
-  __declspec(property(get = get_id))::StringW id;
+  __declspec(property(get = get_id)) ::StringW id;
 
-  __declspec(property(get = get_localizationKey))::StringW localizationKey;
+  __declspec(property(get = get_localizationKey)) ::StringW localizationKey;
 
   __declspec(property(get = get_partAsset)) T partAsset;
 
@@ -100,6 +100,9 @@ public:
 
   /// @brief Field _partAsset, offset: 0x28, size: 0x8, def value: None
   T ____partAsset;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18061 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

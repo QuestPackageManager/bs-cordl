@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRSystemPerfMetrics);
 MARK_REF_PTR_T(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer);
 MARK_REF_PTR_T(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics);
 // Type: ::PerfMetrics
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRSystemPerfMetrics::PerfMetrics*
@@ -93,11 +93,11 @@ public:
   __declspec(property(get = __cordl_internal_get_deviceCpuClockLevel_IsValid, put = __cordl_internal_set_deviceCpuClockLevel_IsValid)) bool deviceCpuClockLevel_IsValid;
 
   /// @brief Field deviceCpuCoreUtilPercentage, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_deviceCpuCoreUtilPercentage, put = __cordl_internal_set_deviceCpuCoreUtilPercentage))::ArrayW<float_t, ::Array<float_t>*> deviceCpuCoreUtilPercentage;
+  __declspec(property(get = __cordl_internal_get_deviceCpuCoreUtilPercentage, put = __cordl_internal_set_deviceCpuCoreUtilPercentage)) ::ArrayW<float_t, ::Array<float_t>*> deviceCpuCoreUtilPercentage;
 
   /// @brief Field deviceCpuCoreUtilPercentage_IsValid, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_deviceCpuCoreUtilPercentage_IsValid,
-                      put = __cordl_internal_set_deviceCpuCoreUtilPercentage_IsValid))::ArrayW<bool, ::Array<bool>*> deviceCpuCoreUtilPercentage_IsValid;
+  __declspec(property(get = __cordl_internal_get_deviceCpuCoreUtilPercentage_IsValid, put = __cordl_internal_set_deviceCpuCoreUtilPercentage_IsValid)) ::ArrayW<bool, ::Array<bool>*>
+      deviceCpuCoreUtilPercentage_IsValid;
 
   /// @brief Field deviceGpuClockFrequencyInMHz, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get_deviceGpuClockFrequencyInMHz, put = __cordl_internal_set_deviceGpuClockFrequencyInMHz)) float_t deviceGpuClockFrequencyInMHz;
@@ -136,12 +136,12 @@ public:
   /// @brief Field systemGpuUtilPercentage_IsValid, offset 0x4c, size 0x1
   __declspec(property(get = __cordl_internal_get_systemGpuUtilPercentage_IsValid, put = __cordl_internal_set_systemGpuUtilPercentage_IsValid)) bool systemGpuUtilPercentage_IsValid;
 
-  /// @brief Method LoadFromJSON, addr 0x2bcad50, size 0x948, virtual false, abstract: false, final false
+  /// @brief Method LoadFromJSON, addr 0x3fd2a4c, size 0x954, virtual false, abstract: false, final false
   inline bool LoadFromJSON(::StringW json);
 
   static inline ::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics* New_ctor();
 
-  /// @brief Method ToJSON, addr 0x2bca538, size 0x774, virtual false, abstract: false, final false
+  /// @brief Method ToJSON, addr 0x3fd2278, size 0x730, virtual false, abstract: false, final false
   inline ::StringW ToJSON();
 
   constexpr float_t const& __cordl_internal_get_appCpuTime() const;
@@ -330,7 +330,7 @@ public:
 
   constexpr void __cordl_internal_set_systemGpuUtilPercentage_IsValid(bool value);
 
-  /// @brief Method .ctor, addr 0x2bcbe2c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd3b54, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -440,6 +440,9 @@ public:
   /// @brief Field deviceCpuCoreUtilPercentage, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> ___deviceCpuCoreUtilPercentage;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8463 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -509,34 +512,34 @@ static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, _
 
 } // namespace GlobalNamespace
 // Type: ::OVRSystemPerfMetricsTcpServer
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*
 class CORDL_TYPE __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field listeningPort, offset 0x20, size 0x4
+  /// @brief Field listeningPort, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_listeningPort, put = __cordl_internal_set_listeningPort)) int32_t listeningPort;
 
   /// @brief Field singleton, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_singleton, put = setStaticF_singleton))::UnityW<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer> singleton;
+  static __declspec(property(get = getStaticF_singleton, put = setStaticF_singleton)) ::UnityW<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer> singleton;
 
-  /// @brief Field tcpServer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_tcpServer, put = __cordl_internal_set_tcpServer))::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* tcpServer;
+  /// @brief Field tcpServer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_tcpServer, put = __cordl_internal_set_tcpServer)) ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* tcpServer;
 
-  /// @brief Method GatherPerfMetrics, addr 0x2bcc11c, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method GatherPerfMetrics, addr 0x3fd3e78, size 0x300, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics* GatherPerfMetrics();
 
   static inline ::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2bcbff8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3fd3d54, size 0xa0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2bcbee4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3fd3c0c, size 0x148, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x2bcc098, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fd3df4, size 0x84, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get_listeningPort() const;
@@ -551,7 +554,7 @@ public:
 
   constexpr void __cordl_internal_set_tcpServer(::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* value);
 
-  /// @brief Method .ctor, addr 0x2bcc41c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd4178, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer> getStaticF_singleton();
@@ -572,24 +575,27 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer(__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer const&) = delete;
 
-  /// @brief Field tcpServer, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field tcpServer, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* ___tcpServer;
 
-  /// @brief Field listeningPort, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field listeningPort, offset: 0x28, size: 0x4, def value: None
   int32_t ___listeningPort;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8464 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer, ___tcpServer) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer, ___tcpServer) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer, ___listeningPort) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer, ___listeningPort) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::OVRSystemPerfMetrics
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRSystemPerfMetrics*
@@ -602,7 +608,7 @@ public:
 
   static inline ::GlobalNamespace::OVRSystemPerfMetrics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bca530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd2270, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -630,6 +636,9 @@ public:
 
   /// @brief Field TcpListeningPort offset 0xffffffff size 0x4
   static constexpr int32_t TcpListeningPort{ static_cast<int32_t>(0x7ea3) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8465 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

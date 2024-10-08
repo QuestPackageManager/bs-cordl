@@ -34,7 +34,7 @@ template <typename TParam1, typename TContract> class IFactoryProvider_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::IFactoryProvider_2);
 // Type: Zenject::IFactoryProvider`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TContract>
@@ -65,6 +65,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IFactoryProvider_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IFactoryProvider_2(IFactoryProvider_2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12495 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,7 +17,7 @@ struct HashCode;
 // Write type traits
 MARK_VAL_T(::System::HashCode);
 // Type: System::HashCode
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
 // CS Name: ::System::HashCode
@@ -30,44 +30,47 @@ public:
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Add(T value);
 
-  /// @brief Method Add, addr 0x295d57c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3d71568, size 0x298, virtual false, abstract: false, final false
   inline void Add(int32_t value);
+
+  /// @brief Method Combine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T1, typename T2, typename T3, typename T4> static inline int32_t Combine(T1 value1, T2 value2, T3 value3, T4 value4);
 
   /// @brief Method Combine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
   static inline int32_t Combine(T1 value1, T2 value2, T3 value3, T4 value4, T5 value5, T6 value6, T7 value7);
 
-  /// @brief Method Equals, addr 0x295da94, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3d71aa4, size 0x48, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GenerateGlobalSeed, addr 0x295d290, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GenerateGlobalSeed, addr 0x3d71260, size 0x24, virtual false, abstract: false, final false
   static inline uint32_t GenerateGlobalSeed();
 
-  /// @brief Method GetHashCode, addr 0x295da24, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3d71a38, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initialize, addr 0x295d2c0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3d71290, size 0xb8, virtual false, abstract: false, final false
   static inline void Initialize(ByRef<uint32_t> v1, ByRef<uint32_t> v2, ByRef<uint32_t> v3, ByRef<uint32_t> v4);
 
-  /// @brief Method MixEmptyState, addr 0x295d4f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method MixEmptyState, addr 0x3d714dc, size 0x64, virtual false, abstract: false, final false
   static inline uint32_t MixEmptyState();
 
-  /// @brief Method MixFinal, addr 0x295d554, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method MixFinal, addr 0x3d71540, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t MixFinal(uint32_t hash);
 
-  /// @brief Method MixState, addr 0x295d468, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MixState, addr 0x3d71438, size 0xa4, virtual false, abstract: false, final false
   static inline uint32_t MixState(uint32_t v1, uint32_t v2, uint32_t v3, uint32_t v4);
 
-  /// @brief Method QueueRound, addr 0x295d3f0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method QueueRound, addr 0x3d713c0, size 0x78, virtual false, abstract: false, final false
   static inline uint32_t QueueRound(uint32_t hash, uint32_t queuedValue);
 
-  /// @brief Method Rol, addr 0x295d2b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Rol, addr 0x3d71284, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t Rol(uint32_t value, int32_t count);
 
-  /// @brief Method Round, addr 0x295d378, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x3d71348, size 0x78, virtual false, abstract: false, final false
   static inline uint32_t Round(uint32_t hash, uint32_t input);
 
-  /// @brief Method ToHashCode, addr 0x295d804, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method ToHashCode, addr 0x3d71800, size 0x238, virtual false, abstract: false, final false
   inline int32_t ToHashCode();
 
   static inline uint32_t getStaticF_s_seed();
@@ -107,6 +110,9 @@ public:
 
   /// @brief Field _length, offset: 0x1c, size: 0x4, def value: None
   uint32_t _length;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2409 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

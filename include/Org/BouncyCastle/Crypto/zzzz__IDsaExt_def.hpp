@@ -17,14 +17,14 @@ class IDsaExt;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IDsaExt);
 // Type: Org.BouncyCastle.Crypto::IDsaExt
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto::IDsaExt*
 class CORDL_TYPE IDsaExt {
 public:
   // Declarations
-  __declspec(property(get = get_Order))::Org::BouncyCastle::Math::BigInteger* Order;
+  __declspec(property(get = get_Order)) ::Org::BouncyCastle::Math::BigInteger* Order;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDsa"
   constexpr operator ::Org::BouncyCastle::Crypto::IDsa*() noexcept;
@@ -42,6 +42,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IDsaExt", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IDsaExt(IDsaExt const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1126 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

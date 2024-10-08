@@ -16,7 +16,7 @@ struct MidiEvent;
 // Write type traits
 MARK_VAL_T(::MidiParser::MidiEvent);
 // Type: MidiParser::MidiEvent
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace MidiParser {
 // Is value type: true
 // CS Name: ::MidiParser::MidiEvent
@@ -25,7 +25,7 @@ public:
   // Declarations
   __declspec(property(get = get_Channel)) int32_t Channel;
 
-  __declspec(property(get = get_MetaEventType))::MidiParser::MetaEventType MetaEventType;
+  __declspec(property(get = get_MetaEventType)) ::MidiParser::MetaEventType MetaEventType;
 
   __declspec(property(get = get_Note)) int32_t Note;
 
@@ -33,19 +33,19 @@ public:
 
   __declspec(property(get = get_Velocity)) int32_t Velocity;
 
-  /// @brief Method get_Channel, addr 0x27919a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Channel, addr 0x3bb4188, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Channel();
 
-  /// @brief Method get_MetaEventType, addr 0x27919a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MetaEventType, addr 0x3bb4180, size 0x8, virtual false, abstract: false, final false
   inline ::MidiParser::MetaEventType get_MetaEventType();
 
-  /// @brief Method get_Note, addr 0x27919b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Note, addr 0x3bb4190, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Note();
 
-  /// @brief Method get_Value, addr 0x27919c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3bb41a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Value();
 
-  /// @brief Method get_Velocity, addr 0x27919b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Velocity, addr 0x3bb4198, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Velocity();
 
   // Ctor Parameters []
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field Arg3, offset: 0x10, size: 0x4, def value: None
   int32_t Arg3;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19006 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

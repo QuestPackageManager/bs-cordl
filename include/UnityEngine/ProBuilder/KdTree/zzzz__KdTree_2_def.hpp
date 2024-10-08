@@ -79,7 +79,7 @@ MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::KdTree_2);
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33);
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0);
 // Type: ::<>c__DisplayClass33_0
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -89,11 +89,11 @@ class CORDL_TYPE __KdTree_2____c__DisplayClass33_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field left, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_left, put = __cordl_internal_set_left))::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* left;
+  __declspec(property(get = __cordl_internal_get_left, put = __cordl_internal_set_left)) ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* left;
 
   /// @brief Field right, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_right,
-                      put = __cordl_internal_set_right))::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* right;
+                      put = __cordl_internal_set_right)) ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* right;
 
   static inline ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* New_ctor();
 
@@ -138,12 +138,15 @@ public:
   /// @brief Field right, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* ___right;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18425 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::ProBuilder::KdTree
 // Type: ::<GetEnumerator>d__33
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -152,30 +155,30 @@ template <typename TKey, typename TValue>
 class CORDL_TYPE __KdTree_2___GetEnumerator_d__33 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_ProBuilder_KdTree_KdTreeNode_TKey_TValue___get_Current))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<
-      TKey, TValue>* System_Collections_Generic_IEnumerator_UnityEngine_ProBuilder_KdTree_KdTreeNode_TKey_TValue___Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_ProBuilder_KdTree_KdTreeNode_TKey_TValue___get_Current)) ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*
+      System_Collections_Generic_IEnumerator_UnityEngine_ProBuilder_KdTree_KdTreeNode_TKey_TValue___Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* __4__this;
 
   /// @brief Field <>8__1, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1))::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* __8__1;
+  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1)) ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* __8__1;
 
   /// @brief Field <addLeft>5__2, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__addLeft_5__2,
-                      put = __cordl_internal_set__addLeft_5__2))::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* _addLeft_5__2;
+                      put = __cordl_internal_set__addLeft_5__2)) ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* _addLeft_5__2;
 
   /// @brief Field <addRight>5__3, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__addRight_5__3,
-                      put = __cordl_internal_set__addRight_5__3))::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* _addRight_5__3;
+                      put = __cordl_internal_set__addRight_5__3)) ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* _addRight_5__3;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue>*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*() noexcept;
@@ -285,12 +288,15 @@ public:
   /// @brief Field <addRight>5__3, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* ____addRight_5__3;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18426 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::ProBuilder::KdTree
 // Type: UnityEngine.ProBuilder.KdTree::KdTree`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -303,13 +309,13 @@ public:
 
   using __c__DisplayClass33_0 = ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>;
 
-  __declspec(property(get = get_AddDuplicateBehavior, put = set_AddDuplicateBehavior))::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior AddDuplicateBehavior;
+  __declspec(property(get = get_AddDuplicateBehavior, put = set_AddDuplicateBehavior)) ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior AddDuplicateBehavior;
 
   __declspec(property(get = get_Count, put = set_Count)) int32_t Count;
 
   /// @brief Field <AddDuplicateBehavior>k__BackingField, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__AddDuplicateBehavior_k__BackingField,
-                      put = __cordl_internal_set__AddDuplicateBehavior_k__BackingField))::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior _AddDuplicateBehavior_k__BackingField;
+                      put = __cordl_internal_set__AddDuplicateBehavior_k__BackingField)) ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior _AddDuplicateBehavior_k__BackingField;
 
   /// @brief Field <Count>k__BackingField, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__Count_k__BackingField, put = __cordl_internal_set__Count_k__BackingField)) int32_t _Count_k__BackingField;
@@ -318,10 +324,10 @@ public:
   __declspec(property(get = __cordl_internal_get_dimensions, put = __cordl_internal_set_dimensions)) int32_t dimensions;
 
   /// @brief Field root, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* root;
+  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root)) ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* root;
 
   /// @brief Field typeMath, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_typeMath, put = __cordl_internal_set_typeMath))::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* typeMath;
+  __declspec(property(get = __cordl_internal_get_typeMath, put = __cordl_internal_set_typeMath)) ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* typeMath;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey,TValue>*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*() noexcept;
@@ -497,6 +503,9 @@ public:
 
   /// @brief Field <Count>k__BackingField, offset: 0x2c, size: 0x4, def value: None
   int32_t ____Count_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18427 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

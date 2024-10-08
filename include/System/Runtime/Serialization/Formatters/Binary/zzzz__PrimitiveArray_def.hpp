@@ -23,7 +23,7 @@ class PrimitiveArray;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray);
 // Type: System.Runtime.Serialization.Formatters.Binary::PrimitiveArray
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::PrimitiveArray*
@@ -31,48 +31,48 @@ class CORDL_TYPE PrimitiveArray : public ::System::Object {
 public:
   // Declarations
   /// @brief Field booleanA, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_booleanA, put = __cordl_internal_set_booleanA))::ArrayW<bool, ::Array<bool>*> booleanA;
+  __declspec(property(get = __cordl_internal_get_booleanA, put = __cordl_internal_set_booleanA)) ::ArrayW<bool, ::Array<bool>*> booleanA;
 
   /// @brief Field charA, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_charA, put = __cordl_internal_set_charA))::ArrayW<char16_t, ::Array<char16_t>*> charA;
+  __declspec(property(get = __cordl_internal_get_charA, put = __cordl_internal_set_charA)) ::ArrayW<char16_t, ::Array<char16_t>*> charA;
 
   /// @brief Field code, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_code, put = __cordl_internal_set_code))::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code;
+  __declspec(property(get = __cordl_internal_get_code, put = __cordl_internal_set_code)) ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code;
 
   /// @brief Field doubleA, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_doubleA, put = __cordl_internal_set_doubleA))::ArrayW<double_t, ::Array<double_t>*> doubleA;
+  __declspec(property(get = __cordl_internal_get_doubleA, put = __cordl_internal_set_doubleA)) ::ArrayW<double_t, ::Array<double_t>*> doubleA;
 
   /// @brief Field int16A, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_int16A, put = __cordl_internal_set_int16A))::ArrayW<int16_t, ::Array<int16_t>*> int16A;
+  __declspec(property(get = __cordl_internal_get_int16A, put = __cordl_internal_set_int16A)) ::ArrayW<int16_t, ::Array<int16_t>*> int16A;
 
   /// @brief Field int32A, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_int32A, put = __cordl_internal_set_int32A))::ArrayW<int32_t, ::Array<int32_t>*> int32A;
+  __declspec(property(get = __cordl_internal_get_int32A, put = __cordl_internal_set_int32A)) ::ArrayW<int32_t, ::Array<int32_t>*> int32A;
 
   /// @brief Field int64A, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_int64A, put = __cordl_internal_set_int64A))::ArrayW<int64_t, ::Array<int64_t>*> int64A;
+  __declspec(property(get = __cordl_internal_get_int64A, put = __cordl_internal_set_int64A)) ::ArrayW<int64_t, ::Array<int64_t>*> int64A;
 
   /// @brief Field sbyteA, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_sbyteA, put = __cordl_internal_set_sbyteA))::ArrayW<int8_t, ::Array<int8_t>*> sbyteA;
+  __declspec(property(get = __cordl_internal_get_sbyteA, put = __cordl_internal_set_sbyteA)) ::ArrayW<int8_t, ::Array<int8_t>*> sbyteA;
 
   /// @brief Field singleA, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_singleA, put = __cordl_internal_set_singleA))::ArrayW<float_t, ::Array<float_t>*> singleA;
+  __declspec(property(get = __cordl_internal_get_singleA, put = __cordl_internal_set_singleA)) ::ArrayW<float_t, ::Array<float_t>*> singleA;
 
   /// @brief Field uint16A, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_uint16A, put = __cordl_internal_set_uint16A))::ArrayW<uint16_t, ::Array<uint16_t>*> uint16A;
+  __declspec(property(get = __cordl_internal_get_uint16A, put = __cordl_internal_set_uint16A)) ::ArrayW<uint16_t, ::Array<uint16_t>*> uint16A;
 
   /// @brief Field uint32A, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_uint32A, put = __cordl_internal_set_uint32A))::ArrayW<uint32_t, ::Array<uint32_t>*> uint32A;
+  __declspec(property(get = __cordl_internal_get_uint32A, put = __cordl_internal_set_uint32A)) ::ArrayW<uint32_t, ::Array<uint32_t>*> uint32A;
 
   /// @brief Field uint64A, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_uint64A, put = __cordl_internal_set_uint64A))::ArrayW<uint64_t, ::Array<uint64_t>*> uint64A;
+  __declspec(property(get = __cordl_internal_get_uint64A, put = __cordl_internal_set_uint64A)) ::ArrayW<uint64_t, ::Array<uint64_t>*> uint64A;
 
-  /// @brief Method Init, addr 0x2883dc4, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c9dbe0, size 0x320, virtual false, abstract: false, final false
   inline void Init(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code,
                                                                                                ::System::Array* array);
 
-  /// @brief Method SetValue, addr 0x287c19c, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3c96174, size 0x400, virtual false, abstract: false, final false
   inline void SetValue(::StringW value, int32_t index);
 
   constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_booleanA() const;
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set_uint64A(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x287b894, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c95868, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
 
 protected:
@@ -199,6 +199,9 @@ public:
 
   /// @brief Field uint64A, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<uint64_t, ::Array<uint64_t>*> ___uint64A;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3299 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

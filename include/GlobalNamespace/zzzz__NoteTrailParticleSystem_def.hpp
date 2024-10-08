@@ -20,23 +20,23 @@ class NoteTrailParticleSystem;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteTrailParticleSystem);
 // Type: ::NoteTrailParticleSystem
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoteTrailParticleSystem*
 class CORDL_TYPE NoteTrailParticleSystem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _emitParams, offset 0x20, size 0x90
-  __declspec(property(get = __cordl_internal_get__emitParams, put = __cordl_internal_set__emitParams))::UnityEngine::__ParticleSystem__EmitParams _emitParams;
+  /// @brief Field _emitParams, offset 0x28, size 0x90
+  __declspec(property(get = __cordl_internal_get__emitParams, put = __cordl_internal_set__emitParams)) ::UnityEngine::__ParticleSystem__EmitParams _emitParams;
 
-  /// @brief Field _particleSystem, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem))::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
+  /// @brief Field _particleSystem, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
-  /// @brief Method Awake, addr 0x26e7cac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b0ad3c, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Emit, addr 0x26e7cbc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x3b0ad4c, size 0x110, virtual false, abstract: false, final false
   inline void Emit(::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, int32_t count);
 
   static inline ::GlobalNamespace::NoteTrailParticleSystem* New_ctor();
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  /// @brief Method .ctor, addr 0x26e7dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0ae5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,20 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteTrailParticleSystem(NoteTrailParticleSystem const&) = delete;
 
-  /// @brief Field _particleSystem, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _particleSystem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 
-  /// @brief Field _emitParams, offset: 0x20, size: 0x90, def value: None
+  /// @brief Field _emitParams, offset: 0x28, size: 0x90, def value: None
   ::UnityEngine::__ParticleSystem__EmitParams ____emitParams;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4217 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteTrailParticleSystem, 0xb0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteTrailParticleSystem, 0xb8>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteTrailParticleSystem, ____particleSystem) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteTrailParticleSystem, ____particleSystem) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteTrailParticleSystem, ____emitParams) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteTrailParticleSystem, ____emitParams) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteTrailParticleSystem);

@@ -24,7 +24,7 @@ class CStreamWriter;
 // Write type traits
 MARK_REF_PTR_T(::System::IO::CStreamWriter);
 // Type: System.IO::CStreamWriter
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
 // CS Name: ::System.IO::CStreamWriter*
@@ -32,32 +32,32 @@ class CORDL_TYPE CStreamWriter : public ::System::IO::StreamWriter {
 public:
   // Declarations
   /// @brief Field driver, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_driver, put = __cordl_internal_set_driver))::System::TermInfoDriver* driver;
+  __declspec(property(get = __cordl_internal_get_driver, put = __cordl_internal_set_driver)) ::System::TermInfoDriver* driver;
 
-  /// @brief Method InternalWriteChar, addr 0x28f7ee0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InternalWriteChar, addr 0x3d0e8ac, size 0x84, virtual false, abstract: false, final false
   inline void InternalWriteChar(char16_t val);
 
-  /// @brief Method InternalWriteChars, addr 0x28f7fe8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method InternalWriteChars, addr 0x3d0e9b4, size 0x8c, virtual false, abstract: false, final false
   inline void InternalWriteChars(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t n);
 
-  /// @brief Method InternalWriteString, addr 0x28f7f64, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InternalWriteString, addr 0x3d0e930, size 0x84, virtual false, abstract: false, final false
   inline void InternalWriteString(::StringW val);
 
   static inline ::System::IO::CStreamWriter* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool leaveOpen);
 
-  /// @brief Method Write, addr 0x28f7a0c, size 0x348, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3d0e3dc, size 0x348, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x28f8074, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3d0ea40, size 0x28, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> val);
 
-  /// @brief Method Write, addr 0x28f809c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3d0ea68, size 0xcc, virtual true, abstract: false, final false
   inline void Write(::StringW val);
 
-  /// @brief Method Write, addr 0x28f7d54, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3d0e724, size 0x188, virtual true, abstract: false, final false
   inline void Write(char16_t val);
 
-  /// @brief Method WriteLine, addr 0x28f8168, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3d0eb34, size 0x48, virtual true, abstract: false, final false
   inline void WriteLine(::StringW val);
 
   constexpr ::System::TermInfoDriver*& __cordl_internal_get_driver();
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_driver(::System::TermInfoDriver* value);
 
-  /// @brief Method .ctor, addr 0x28f78e4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0e2b4, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool leaveOpen);
 
 protected:
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field driver, offset: 0x70, size: 0x8, def value: None
   ::System::TermInfoDriver* ___driver;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3644 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

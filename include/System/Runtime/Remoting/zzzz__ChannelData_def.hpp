@@ -19,41 +19,41 @@ class ChannelData;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::ChannelData);
 // Type: System.Runtime.Remoting::ChannelData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting::ChannelData*
 class CORDL_TYPE ChannelData : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_ClientProviders))::System::Collections::ArrayList* ClientProviders;
+  __declspec(property(get = get_ClientProviders)) ::System::Collections::ArrayList* ClientProviders;
 
-  __declspec(property(get = get_CustomProperties))::System::Collections::Hashtable* CustomProperties;
+  __declspec(property(get = get_CustomProperties)) ::System::Collections::Hashtable* CustomProperties;
 
   /// @brief Field DelayLoadAsClientChannel, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_DelayLoadAsClientChannel, put = __cordl_internal_set_DelayLoadAsClientChannel))::StringW DelayLoadAsClientChannel;
+  __declspec(property(get = __cordl_internal_get_DelayLoadAsClientChannel, put = __cordl_internal_set_DelayLoadAsClientChannel)) ::StringW DelayLoadAsClientChannel;
 
   /// @brief Field Id, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id))::StringW Id;
+  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id)) ::StringW Id;
 
   /// @brief Field Ref, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Ref, put = __cordl_internal_set_Ref))::StringW Ref;
+  __declspec(property(get = __cordl_internal_get_Ref, put = __cordl_internal_set_Ref)) ::StringW Ref;
 
-  __declspec(property(get = get_ServerProviders))::System::Collections::ArrayList* ServerProviders;
+  __declspec(property(get = get_ServerProviders)) ::System::Collections::ArrayList* ServerProviders;
 
   /// @brief Field Type, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type))::StringW Type;
+  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type)) ::StringW Type;
 
   /// @brief Field _clientProviders, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__clientProviders, put = __cordl_internal_set__clientProviders))::System::Collections::ArrayList* _clientProviders;
+  __declspec(property(get = __cordl_internal_get__clientProviders, put = __cordl_internal_set__clientProviders)) ::System::Collections::ArrayList* _clientProviders;
 
   /// @brief Field _customProperties, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__customProperties, put = __cordl_internal_set__customProperties))::System::Collections::Hashtable* _customProperties;
+  __declspec(property(get = __cordl_internal_get__customProperties, put = __cordl_internal_set__customProperties)) ::System::Collections::Hashtable* _customProperties;
 
   /// @brief Field _serverProviders, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__serverProviders, put = __cordl_internal_set__serverProviders))::System::Collections::ArrayList* _serverProviders;
+  __declspec(property(get = __cordl_internal_get__serverProviders, put = __cordl_internal_set__serverProviders)) ::System::Collections::ArrayList* _serverProviders;
 
-  /// @brief Method CopyFrom, addr 0x283b484, size 0x940, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x3c586b0, size 0x938, virtual false, abstract: false, final false
   inline void CopyFrom(::System::Runtime::Remoting::ChannelData* other);
 
   static inline ::System::Runtime::Remoting::ChannelData* New_ctor();
@@ -100,16 +100,16 @@ public:
 
   constexpr void __cordl_internal_set__serverProviders(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x283c530, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c59748, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ClientProviders, addr 0x283b3ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ClientProviders, addr 0x3c585e8, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_ClientProviders();
 
-  /// @brief Method get_CustomProperties, addr 0x283b418, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_CustomProperties, addr 0x3c5864c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_CustomProperties();
 
-  /// @brief Method get_ServerProviders, addr 0x283b340, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ServerProviders, addr 0x3c58584, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_ServerProviders();
 
 protected:
@@ -146,6 +146,9 @@ public:
 
   /// @brief Field _customProperties, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Hashtable* ____customProperties;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3065 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

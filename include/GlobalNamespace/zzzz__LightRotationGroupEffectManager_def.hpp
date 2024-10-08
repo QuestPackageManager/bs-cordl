@@ -25,31 +25,31 @@ class LightRotationGroupEffectManager;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightRotationGroupEffectManager);
 // Type: ::LightRotationGroupEffectManager
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightRotationGroupEffectManager*
 class CORDL_TYPE LightRotationGroupEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _container, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  /// @brief Field _container, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
-  /// @brief Field _lightRotationGroupEffects, offset 0x28, size 0x8
+  /// @brief Field _lightRotationGroupEffects, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__lightRotationGroupEffects,
-                      put = __cordl_internal_set__lightRotationGroupEffects))::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>* _lightRotationGroupEffects;
+                      put = __cordl_internal_set__lightRotationGroupEffects)) ::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>* _lightRotationGroupEffects;
 
-  /// @brief Field _lightRotationGroups, offset 0x18, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__lightRotationGroups,
-      put = __cordl_internal_set__lightRotationGroups))::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>, ::Array<::UnityW<::GlobalNamespace::LightRotationGroup>>*> _lightRotationGroups;
+  /// @brief Field _lightRotationGroups, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightRotationGroups,
+                      put = __cordl_internal_set__lightRotationGroups)) ::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>, ::Array<::UnityW<::GlobalNamespace::LightRotationGroup>>*>
+      _lightRotationGroups;
 
   static inline ::GlobalNamespace::LightRotationGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26f6fd0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b177bc, size 0x148, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x26f6a6c, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b17270, size 0x54c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__lightRotationGroups(::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>, ::Array<::UnityW<::GlobalNamespace::LightRotationGroup>>*> value);
 
-  /// @brief Method .ctor, addr 0x26f7118, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b17904, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,25 +87,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightRotationGroupEffectManager(LightRotationGroupEffectManager const&) = delete;
 
-  /// @brief Field _lightRotationGroups, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _lightRotationGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>, ::Array<::UnityW<::GlobalNamespace::LightRotationGroup>>*> ____lightRotationGroups;
 
-  /// @brief Field _container, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _container, offset: 0x28, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
-  /// @brief Field _lightRotationGroupEffects, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _lightRotationGroupEffects, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>* ____lightRotationGroupEffects;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4293 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightRotationGroupEffectManager, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightRotationGroupEffectManager, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffectManager, ____lightRotationGroups) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffectManager, ____lightRotationGroups) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffectManager, ____container) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffectManager, ____container) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffectManager, ____lightRotationGroupEffects) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightRotationGroupEffectManager, ____lightRotationGroupEffects) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightRotationGroupEffectManager);

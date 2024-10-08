@@ -46,55 +46,55 @@ class Delegate;
 // Write type traits
 MARK_REF_PTR_T(::System::Delegate);
 // Type: System::Delegate
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::Delegate*
 class CORDL_TYPE Delegate : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Method))::System::Reflection::MethodInfo* Method;
+  __declspec(property(get = get_Method)) ::System::Reflection::MethodInfo* Method;
 
-  __declspec(property(get = get_Target))::System::Object* Target;
+  __declspec(property(get = get_Target)) ::System::Object* Target;
 
   /// @brief Field data, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::System::DelegateData* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::System::DelegateData* data;
 
   /// @brief Field delegate_trampoline, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_delegate_trampoline, put = __cordl_internal_set_delegate_trampoline))::System::IntPtr delegate_trampoline;
+  __declspec(property(get = __cordl_internal_get_delegate_trampoline, put = __cordl_internal_set_delegate_trampoline)) ::System::IntPtr delegate_trampoline;
 
   /// @brief Field extra_arg, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_extra_arg, put = __cordl_internal_set_extra_arg))::System::IntPtr extra_arg;
+  __declspec(property(get = __cordl_internal_get_extra_arg, put = __cordl_internal_set_extra_arg)) ::System::IntPtr extra_arg;
 
   /// @brief Field interp_invoke_impl, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_interp_invoke_impl, put = __cordl_internal_set_interp_invoke_impl))::System::IntPtr interp_invoke_impl;
+  __declspec(property(get = __cordl_internal_get_interp_invoke_impl, put = __cordl_internal_set_interp_invoke_impl)) ::System::IntPtr interp_invoke_impl;
 
   /// @brief Field interp_method, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_interp_method, put = __cordl_internal_set_interp_method))::System::IntPtr interp_method;
+  __declspec(property(get = __cordl_internal_get_interp_method, put = __cordl_internal_set_interp_method)) ::System::IntPtr interp_method;
 
   /// @brief Field invoke_impl, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_invoke_impl, put = __cordl_internal_set_invoke_impl))::System::IntPtr invoke_impl;
+  __declspec(property(get = __cordl_internal_get_invoke_impl, put = __cordl_internal_set_invoke_impl)) ::System::IntPtr invoke_impl;
 
   /// @brief Field m_target, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_target, put = __cordl_internal_set_m_target))::System::Object* m_target;
+  __declspec(property(get = __cordl_internal_get_m_target, put = __cordl_internal_set_m_target)) ::System::Object* m_target;
 
   /// @brief Field method, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::System::IntPtr method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method)) ::System::IntPtr method;
 
   /// @brief Field method_code, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_method_code, put = __cordl_internal_set_method_code))::System::IntPtr method_code;
+  __declspec(property(get = __cordl_internal_get_method_code, put = __cordl_internal_set_method_code)) ::System::IntPtr method_code;
 
   /// @brief Field method_info, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_method_info, put = __cordl_internal_set_method_info))::System::Reflection::MethodInfo* method_info;
+  __declspec(property(get = __cordl_internal_get_method_info, put = __cordl_internal_set_method_info)) ::System::Reflection::MethodInfo* method_info;
 
   /// @brief Field method_is_virtual, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get_method_is_virtual, put = __cordl_internal_set_method_is_virtual)) bool method_is_virtual;
 
   /// @brief Field method_ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_method_ptr, put = __cordl_internal_set_method_ptr))::System::IntPtr method_ptr;
+  __declspec(property(get = __cordl_internal_get_method_ptr, put = __cordl_internal_set_method_ptr)) ::System::IntPtr method_ptr;
 
   /// @brief Field original_method_info, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_original_method_info, put = __cordl_internal_set_original_method_info))::System::Reflection::MethodInfo* original_method_info;
+  __declspec(property(get = __cordl_internal_get_original_method_info, put = __cordl_internal_set_original_method_info)) ::System::Reflection::MethodInfo* original_method_info;
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
@@ -102,86 +102,86 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method AllocDelegateLike_internal, addr 0x29afa3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AllocDelegateLike_internal, addr 0x3dc0428, size 0x4, virtual false, abstract: false, final false
   static inline ::System::MulticastDelegate* AllocDelegateLike_internal(::System::Delegate* d);
 
-  /// @brief Method Clone, addr 0x29af2f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x3dbfcf8, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method Combine, addr 0x29aa9b8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x3dbb1c4, size 0x160, virtual false, abstract: false, final false
   static inline ::System::Delegate* Combine(::System::Delegate* a, ::System::Delegate* b);
 
-  /// @brief Method Combine, addr 0x29af8f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x3dc02ec, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Delegate* Combine(::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> delegates);
 
-  /// @brief Method CombineImpl, addr 0x29af95c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CombineImpl, addr 0x3dc0350, size 0x54, virtual true, abstract: false, final false
   inline ::System::Delegate* CombineImpl(::System::Delegate* d);
 
-  /// @brief Method CreateDelegate, addr 0x29ae878, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x3dbf284, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Delegate* CreateDelegate(::System::Type* type, ::System::Object* firstArgument, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method CreateDelegate, addr 0x29ae06c, size 0x80c, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x3dbea6c, size 0x818, virtual false, abstract: false, final false
   static inline ::System::Delegate* CreateDelegate(::System::Type* type, ::System::Object* firstArgument, ::System::Reflection::MethodInfo* method, bool throwOnBindFailure, bool allowClosed);
 
-  /// @brief Method CreateDelegate, addr 0x29ae89c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x3dbf2a8, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Delegate* CreateDelegate(::System::Type* type, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method CreateDelegate, addr 0x29ae884, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x3dbf290, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Delegate* CreateDelegate(::System::Type* type, ::System::Reflection::MethodInfo* method, bool throwOnBindFailure);
 
-  /// @brief Method CreateDelegate, addr 0x29ae8b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x3dbf2bc, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Delegate* CreateDelegate(::System::Type* type, ::System::Object* target, ::StringW method);
 
-  /// @brief Method CreateDelegate, addr 0x29ae8bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x3dbf2c8, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Delegate* CreateDelegate(::System::Type* type, ::System::Object* target, ::StringW method, bool ignoreCase);
 
-  /// @brief Method CreateDelegate, addr 0x29aee5c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x3dbf85c, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Delegate* CreateDelegate(::System::Type* type, ::System::Object* target, ::StringW method, bool ignoreCase, bool throwOnBindFailure);
 
-  /// @brief Method CreateDelegate, addr 0x29aee50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x3dbf850, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Delegate* CreateDelegate(::System::Type* type, ::System::Type* target, ::StringW method);
 
-  /// @brief Method CreateDelegate, addr 0x29aed24, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x3dbf728, size 0x128, virtual false, abstract: false, final false
   static inline ::System::Delegate* CreateDelegate(::System::Type* type, ::System::Type* target, ::StringW method, bool ignoreCase, bool throwOnBindFailure);
 
-  /// @brief Method CreateDelegate_internal, addr 0x29adb74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate_internal, addr 0x3dbe558, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Delegate* CreateDelegate_internal(::System::Type* type, ::System::Object* target, ::System::Reflection::MethodInfo* info, bool throwOnBindFailure);
 
-  /// @brief Method DynamicInvoke, addr 0x29aef3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DynamicInvoke, addr 0x3dbf938, size 0xc, virtual false, abstract: false, final false
   inline ::System::Object* DynamicInvoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method DynamicInvokeImpl, addr 0x29af030, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method DynamicInvokeImpl, addr 0x3dbfa30, size 0x2c8, virtual true, abstract: false, final false
   inline ::System::Object* DynamicInvokeImpl(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Equals, addr 0x29af2f8, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3dbfd00, size 0x1b4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetCandidateMethod, addr 0x29ae8c8, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method GetCandidateMethod, addr 0x3dbf2d4, size 0x454, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetCandidateMethod(::System::Type* type, ::System::Type* target, ::StringW method, ::System::Reflection::BindingFlags bflags, bool ignoreCase,
                                                                      bool throwOnBindFailure);
 
-  /// @brief Method GetHashCode, addr 0x29af49c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3dbfeb4, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetInvocationList, addr 0x29af868, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetInvocationList, addr 0x3dc025c, size 0x90, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> GetInvocationList();
 
-  /// @brief Method GetMethodImpl, addr 0x29af514, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetMethodImpl, addr 0x3dbff2c, size 0xd8, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetMethodImpl();
 
-  /// @brief Method GetObjectData, addr 0x29af61c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3dc0010, size 0x4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetVirtualMethod_internal, addr 0x29adb68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetVirtualMethod_internal, addr 0x3dbe54c, size 0x4, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetVirtualMethod_internal();
 
-  /// @brief Method InitializeDelegateData, addr 0x29aef48, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InitializeDelegateData, addr 0x3dbf944, size 0xec, virtual false, abstract: false, final false
   inline void InitializeDelegateData();
 
-  /// @brief Method Remove, addr 0x29aabc4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x3dbb3bc, size 0x15c, virtual false, abstract: false, final false
   static inline ::System::Delegate* Remove(::System::Delegate* source, ::System::Delegate* value);
 
-  /// @brief Method RemoveImpl, addr 0x29af9b8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method RemoveImpl, addr 0x3dc03a4, size 0x24, virtual true, abstract: false, final false
   inline ::System::Delegate* RemoveImpl(::System::Delegate* d);
 
   constexpr ::System::DelegateData*& __cordl_internal_get_data();
@@ -262,16 +262,16 @@ public:
 
   constexpr void __cordl_internal_set_original_method_info(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method arg_type_match, addr 0x29adb7c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method arg_type_match, addr 0x3dbe560, size 0x198, virtual false, abstract: false, final false
   static inline bool arg_type_match(::System::Type* delArgType, ::System::Type* argType);
 
-  /// @brief Method arg_type_match_this, addr 0x29add0c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method arg_type_match_this, addr 0x3dbe6f8, size 0x15c, virtual false, abstract: false, final false
   static inline bool arg_type_match_this(::System::Type* delArgType, ::System::Type* argType, bool boxedThis);
 
-  /// @brief Method get_Method, addr 0x29adb5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x3dbe540, size 0xc, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_Method();
 
-  /// @brief Method get_Target, addr 0x29adb6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Target, addr 0x3dbe550, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Target();
 
   /// @brief Convert to "::System::ICloneable"
@@ -280,13 +280,13 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method op_Equality, addr 0x29af9dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3dc03c8, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Delegate* d1, ::System::Delegate* d2);
 
-  /// @brief Method op_Inequality, addr 0x29afa04, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3dc03f0, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Delegate* d1, ::System::Delegate* d2);
 
-  /// @brief Method return_type_match, addr 0x29ade58, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method return_type_match, addr 0x3dbe854, size 0x218, virtual false, abstract: false, final false
   static inline bool return_type_match(::System::Type* delReturnType, ::System::Type* returnType);
 
 protected:
@@ -341,6 +341,9 @@ public:
 
   /// @brief Field method_is_virtual, offset: 0x70, size: 0x1, def value: None
   bool ___method_is_virtual;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2591 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,17 +19,17 @@ struct IPPacketInformation;
 // Write type traits
 MARK_VAL_T(::System::Net::Sockets::IPPacketInformation);
 // Type: System.Net.Sockets::IPPacketInformation
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: true
 // CS Name: ::System.Net.Sockets::IPPacketInformation
 struct CORDL_TYPE IPPacketInformation {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x2f579b4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4389214, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* comparand);
 
-  /// @brief Method GetHashCode, addr 0x2f57a50, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x43892b0, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters []
@@ -45,6 +45,9 @@ public:
 
   /// @brief Field networkInterface, offset: 0x8, size: 0x4, def value: None
   int32_t networkInterface;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9825 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -37,55 +37,62 @@ class MultiplayerConnectedPlayerInstaller;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerInstaller);
 // Type: ::MultiplayerConnectedPlayerInstaller
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerConnectedPlayerInstaller*
 class CORDL_TYPE MultiplayerConnectedPlayerInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Field _connectedPlayer, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  /// @brief Field _connectedPlayer, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
-  /// @brief Field _connectedPlayerAudioTimeSyncControllerPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayerAudioTimeSyncControllerPrefab, put = __cordl_internal_set__connectedPlayerAudioTimeSyncControllerPrefab))::UnityW<
-      ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> _connectedPlayerAudioTimeSyncControllerPrefab;
+  /// @brief Field _connectedPlayerAudioTimeSyncControllerPrefab, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__connectedPlayerAudioTimeSyncControllerPrefab,
+                      put = __cordl_internal_set__connectedPlayerAudioTimeSyncControllerPrefab)) ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController>
+      _connectedPlayerAudioTimeSyncControllerPrefab;
 
-  /// @brief Field _connectedPlayerBeatmapObjectEventManagerPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayerBeatmapObjectEventManagerPrefab, put = __cordl_internal_set__connectedPlayerBeatmapObjectEventManagerPrefab))::UnityW<
-      ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager> _connectedPlayerBeatmapObjectEventManagerPrefab;
+  /// @brief Field _connectedPlayerBeatmapObjectEventManagerPrefab, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__connectedPlayerBeatmapObjectEventManagerPrefab,
+                      put = __cordl_internal_set__connectedPlayerBeatmapObjectEventManagerPrefab)) ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager>
+      _connectedPlayerBeatmapObjectEventManagerPrefab;
 
-  /// @brief Field _localPlayerStartState, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get__localPlayerStartState, put = __cordl_internal_set__localPlayerStartState))::GlobalNamespace::MultiplayerPlayerStartState _localPlayerStartState;
+  /// @brief Field _localPlayerStartState, offset 0x68, size 0x4
+  __declspec(property(get = __cordl_internal_get__localPlayerStartState, put = __cordl_internal_set__localPlayerStartState)) ::GlobalNamespace::MultiplayerPlayerStartState _localPlayerStartState;
 
-  /// @brief Field _multiplayerBombNoteControllerPrefab, offset 0x48, size 0x8
+  /// @brief Field _multiplayerBombNoteControllerPrefab, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerBombNoteControllerPrefab,
-                      put = __cordl_internal_set__multiplayerBombNoteControllerPrefab))::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController> _multiplayerBombNoteControllerPrefab;
+                      put = __cordl_internal_set__multiplayerBombNoteControllerPrefab)) ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController>
+      _multiplayerBombNoteControllerPrefab;
 
-  /// @brief Field _multiplayerBurstSliderGameNoteControllerPrefab, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerBurstSliderGameNoteControllerPrefab, put = __cordl_internal_set__multiplayerBurstSliderGameNoteControllerPrefab))::UnityW<
-      ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> _multiplayerBurstSliderGameNoteControllerPrefab;
+  /// @brief Field _multiplayerBurstSliderGameNoteControllerPrefab, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__multiplayerBurstSliderGameNoteControllerPrefab,
+                      put = __cordl_internal_set__multiplayerBurstSliderGameNoteControllerPrefab)) ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>
+      _multiplayerBurstSliderGameNoteControllerPrefab;
 
-  /// @brief Field _multiplayerBurstSliderHeadGameNoteControllerPrefab, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerBurstSliderHeadGameNoteControllerPrefab, put = __cordl_internal_set__multiplayerBurstSliderHeadGameNoteControllerPrefab))::UnityW<
-      ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> _multiplayerBurstSliderHeadGameNoteControllerPrefab;
+  /// @brief Field _multiplayerBurstSliderHeadGameNoteControllerPrefab, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__multiplayerBurstSliderHeadGameNoteControllerPrefab,
+                      put = __cordl_internal_set__multiplayerBurstSliderHeadGameNoteControllerPrefab)) ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>
+      _multiplayerBurstSliderHeadGameNoteControllerPrefab;
 
-  /// @brief Field _multiplayerGameNoteControllerPrefab, offset 0x30, size 0x8
+  /// @brief Field _multiplayerGameNoteControllerPrefab, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerGameNoteControllerPrefab,
-                      put = __cordl_internal_set__multiplayerGameNoteControllerPrefab))::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> _multiplayerGameNoteControllerPrefab;
+                      put = __cordl_internal_set__multiplayerGameNoteControllerPrefab)) ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>
+      _multiplayerGameNoteControllerPrefab;
 
-  /// @brief Field _multiplayerObstacleControllerPrefab, offset 0x50, size 0x8
+  /// @brief Field _multiplayerObstacleControllerPrefab, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerObstacleControllerPrefab,
-                      put = __cordl_internal_set__multiplayerObstacleControllerPrefab))::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController> _multiplayerObstacleControllerPrefab;
+                      put = __cordl_internal_set__multiplayerObstacleControllerPrefab)) ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController>
+      _multiplayerObstacleControllerPrefab;
 
-  /// @brief Field _playersSpecificSettingsAtGameStartModel, offset 0x70, size 0x8
+  /// @brief Field _playersSpecificSettingsAtGameStartModel, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__playersSpecificSettingsAtGameStartModel,
-                      put = __cordl_internal_set__playersSpecificSettingsAtGameStartModel))::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playersSpecificSettingsAtGameStartModel;
+                      put = __cordl_internal_set__playersSpecificSettingsAtGameStartModel)) ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playersSpecificSettingsAtGameStartModel;
 
-  /// @brief Field _sceneSetupData, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
+  /// @brief Field _sceneSetupData, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x271e158, size 0x9dc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b3e108, size 0x9c4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerInstaller* New_ctor();
@@ -156,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x271eb70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3eb08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -173,65 +180,68 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerInstaller(MultiplayerConnectedPlayerInstaller const&) = delete;
 
-  /// @brief Field _connectedPlayerAudioTimeSyncControllerPrefab, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _connectedPlayerAudioTimeSyncControllerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> ____connectedPlayerAudioTimeSyncControllerPrefab;
 
-  /// @brief Field _connectedPlayerBeatmapObjectEventManagerPrefab, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _connectedPlayerBeatmapObjectEventManagerPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectEventManager> ____connectedPlayerBeatmapObjectEventManagerPrefab;
 
-  /// @brief Field _multiplayerGameNoteControllerPrefab, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _multiplayerGameNoteControllerPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> ____multiplayerGameNoteControllerPrefab;
 
-  /// @brief Field _multiplayerBurstSliderHeadGameNoteControllerPrefab, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _multiplayerBurstSliderHeadGameNoteControllerPrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> ____multiplayerBurstSliderHeadGameNoteControllerPrefab;
 
-  /// @brief Field _multiplayerBurstSliderGameNoteControllerPrefab, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _multiplayerBurstSliderGameNoteControllerPrefab, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> ____multiplayerBurstSliderGameNoteControllerPrefab;
 
-  /// @brief Field _multiplayerBombNoteControllerPrefab, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _multiplayerBombNoteControllerPrefab, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController> ____multiplayerBombNoteControllerPrefab;
 
-  /// @brief Field _multiplayerObstacleControllerPrefab, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _multiplayerObstacleControllerPrefab, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController> ____multiplayerObstacleControllerPrefab;
 
-  /// @brief Field _connectedPlayer, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _connectedPlayer, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 
-  /// @brief Field _localPlayerStartState, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field _localPlayerStartState, offset: 0x68, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerPlayerStartState ____localPlayerStartState;
 
-  /// @brief Field _sceneSetupData, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _sceneSetupData, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
-  /// @brief Field _playersSpecificSettingsAtGameStartModel, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _playersSpecificSettingsAtGameStartModel, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* ____playersSpecificSettingsAtGameStartModel;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4467 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerInstaller, 0x78>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerInstaller, 0x80>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____connectedPlayerAudioTimeSyncControllerPrefab) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____connectedPlayerAudioTimeSyncControllerPrefab) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____connectedPlayerBeatmapObjectEventManagerPrefab) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____connectedPlayerBeatmapObjectEventManagerPrefab) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerGameNoteControllerPrefab) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerGameNoteControllerPrefab) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerBurstSliderHeadGameNoteControllerPrefab) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerBurstSliderHeadGameNoteControllerPrefab) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerBurstSliderGameNoteControllerPrefab) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerBurstSliderGameNoteControllerPrefab) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerBombNoteControllerPrefab) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerBombNoteControllerPrefab) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerObstacleControllerPrefab) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____multiplayerObstacleControllerPrefab) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____connectedPlayer) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____connectedPlayer) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____localPlayerStartState) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____localPlayerStartState) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____sceneSetupData) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____sceneSetupData) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____playersSpecificSettingsAtGameStartModel) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerInstaller, ____playersSpecificSettingsAtGameStartModel) == 0x78, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerInstaller);

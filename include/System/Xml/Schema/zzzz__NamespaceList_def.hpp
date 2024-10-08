@@ -32,7 +32,7 @@ class NamespaceList;
 MARK_VAL_T(::System::Xml::Schema::__NamespaceList__ListType);
 MARK_REF_PTR_T(::System::Xml::Schema::NamespaceList);
 // Type: ::ListType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
 // CS Name: ::NamespaceList::ListType
@@ -77,6 +77,9 @@ public:
   /// @brief Field Set value: static_cast<int32_t>(0x2)
   static ::System::Xml::Schema::__NamespaceList__ListType const Set;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7570 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -89,7 +92,7 @@ static_assert(offsetof(::System::Xml::Schema::__NamespaceList__ListType, value__
 
 } // namespace System::Xml::Schema
 // Type: System.Xml.Schema::NamespaceList
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::NamespaceList*
@@ -98,50 +101,50 @@ public:
   // Declarations
   using ListType = ::System::Xml::Schema::__NamespaceList__ListType;
 
-  __declspec(property(get = get_Enumerate))::System::Collections::ICollection* Enumerate;
+  __declspec(property(get = get_Enumerate)) ::System::Collections::ICollection* Enumerate;
 
-  __declspec(property(get = get_Excluded))::StringW Excluded;
+  __declspec(property(get = get_Excluded)) ::StringW Excluded;
 
-  __declspec(property(get = get_Type))::System::Xml::Schema::__NamespaceList__ListType Type;
+  __declspec(property(get = get_Type)) ::System::Xml::Schema::__NamespaceList__ListType Type;
 
   /// @brief Field set, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_set, put = __cordl_internal_set_set))::System::Collections::Hashtable* set;
+  __declspec(property(get = __cordl_internal_get_set, put = __cordl_internal_set_set)) ::System::Collections::Hashtable* set;
 
   /// @brief Field targetNamespace, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetNamespace, put = __cordl_internal_set_targetNamespace))::StringW targetNamespace;
+  __declspec(property(get = __cordl_internal_get_targetNamespace, put = __cordl_internal_set_targetNamespace)) ::StringW targetNamespace;
 
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Xml::Schema::__NamespaceList__ListType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Xml::Schema::__NamespaceList__ListType type;
 
-  /// @brief Method Allows, addr 0x2df1398, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Allows, addr 0x41f4d68, size 0x84, virtual true, abstract: false, final false
   inline bool Allows(::StringW ns);
 
-  /// @brief Method Allows, addr 0x2df141c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Allows, addr 0x41f4dec, size 0x20, virtual false, abstract: false, final false
   inline bool Allows(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method Clone, addr 0x2df11f4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x41f4bcc, size 0x128, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::NamespaceList* Clone();
 
-  /// @brief Method CompareSetToOther, addr 0x2df227c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method CompareSetToOther, addr 0x41f5c90, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::NamespaceList* CompareSetToOther(::System::Xml::Schema::NamespaceList* other);
 
-  /// @brief Method Intersection, addr 0x2df23a4, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method Intersection, addr 0x41f5dbc, size 0x548, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::NamespaceList* Intersection(::System::Xml::Schema::NamespaceList* o1, ::System::Xml::Schema::NamespaceList* o2, bool v1Compat);
 
-  /// @brief Method IsSubset, addr 0x2df1904, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method IsSubset, addr 0x41f5314, size 0x3e4, virtual false, abstract: false, final false
   static inline bool IsSubset(::System::Xml::Schema::NamespaceList* sub, ::System::Xml::Schema::NamespaceList* super);
 
   static inline ::System::Xml::Schema::NamespaceList* New_ctor();
 
   static inline ::System::Xml::Schema::NamespaceList* New_ctor(::StringW namespaces, ::StringW targetNamespace);
 
-  /// @brief Method RemoveNamespace, addr 0x2df28d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RemoveNamespace, addr 0x41f6304, size 0x60, virtual false, abstract: false, final false
   inline void RemoveNamespace(::StringW tns);
 
-  /// @brief Method ToString, addr 0x2df143c, size 0x4c8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x41f4e0c, size 0x508, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Union, addr 0x2df1cf0, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method Union, addr 0x41f56f8, size 0x598, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::NamespaceList* Union(::System::Xml::Schema::NamespaceList* o1, ::System::Xml::Schema::NamespaceList* o2, bool v1Compat);
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_set();
@@ -162,19 +165,19 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Xml::Schema::__NamespaceList__ListType value);
 
-  /// @brief Method .ctor, addr 0x2df0f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41f4928, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2df0f54, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41f4930, size 0x29c, virtual false, abstract: false, final false
   inline void _ctor(::StringW namespaces, ::StringW targetNamespace);
 
-  /// @brief Method get_Enumerate, addr 0x2df132c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Enumerate, addr 0x41f4d04, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Enumerate();
 
-  /// @brief Method get_Excluded, addr 0x2df1324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Excluded, addr 0x41f4cfc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Excluded();
 
-  /// @brief Method get_Type, addr 0x2df131c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x41f4cf4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::__NamespaceList__ListType get_Type();
 
 protected:
@@ -199,6 +202,9 @@ public:
 
   /// @brief Field targetNamespace, offset: 0x20, size: 0x8, def value: None
   ::StringW ___targetNamespace;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7571 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

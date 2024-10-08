@@ -18,6 +18,9 @@ namespace GlobalNamespace {
 class IBeatToTimeConverter;
 }
 namespace GlobalNamespace {
+class IBeatmapLightEventConverter;
+}
+namespace GlobalNamespace {
 class IndexFilter;
 }
 namespace GlobalNamespace {
@@ -42,7 +45,7 @@ class LightRotationBeatmapEventDataBox;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightRotationBeatmapEventDataBox);
 // Type: ::LightRotationBeatmapEventDataBox
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightRotationBeatmapEventDataBox*
@@ -50,14 +53,14 @@ class CORDL_TYPE LightRotationBeatmapEventDataBox : public ::GlobalNamespace::Be
 public:
   // Declarations
   /// @brief Field _axis, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__axis, put = __cordl_internal_set__axis))::GlobalNamespace::LightAxis _axis;
+  __declspec(property(get = __cordl_internal_get__axis, put = __cordl_internal_set__axis)) ::GlobalNamespace::LightAxis _axis;
 
   /// @brief Field _beatStep, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__beatStep, put = __cordl_internal_set__beatStep)) float_t _beatStep;
 
   /// @brief Field _lightRotationBaseDataList, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__lightRotationBaseDataList,
-                      put = __cordl_internal_set__lightRotationBaseDataList))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* _lightRotationBaseDataList;
+                      put = __cordl_internal_set__lightRotationBaseDataList)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* _lightRotationBaseDataList;
 
   /// @brief Field _rotationDirection, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__rotationDirection, put = __cordl_internal_set__rotationDirection)) float_t _rotationDirection;
@@ -76,9 +79,10 @@ public:
                                                                               bool rotationDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType rotationDistributionEaseType,
                                                                               ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* lightRotationBaseDataList);
 
-  /// @brief Method Unpack, addr 0x14c3fa8, size 0x580, virtual true, abstract: false, final false
+  /// @brief Method Unpack, addr 0x267ca34, size 0x970, virtual true, abstract: false, final false
   inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
-                     ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
+                     ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter,
+                     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 
   constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis() const;
 
@@ -111,16 +115,16 @@ public:
 
   constexpr void __cordl_internal_set__rotationStep(float_t value);
 
-  /// @brief Method .ctor, addr 0x14c3d74, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267c804, size 0x230, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType,
                     ::GlobalNamespace::LightAxis axis, bool flipRotation, float_t rotationDistributionParam,
                     ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent,
                     ::GlobalNamespace::EaseType rotationDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* lightRotationBaseDataList);
 
-  /// @brief Method get_beatStep, addr 0x14c3d6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_beatStep, addr 0x267c7fc, size 0x8, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_subtypeIdentifier, addr 0x14c3d64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeIdentifier, addr 0x267c7f4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
 protected:
@@ -151,6 +155,9 @@ public:
 
   /// @brief Field _beatStep, offset: 0x4c, size: 0x4, def value: None
   float_t ____beatStep;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12870 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,23 +20,23 @@ class AndroidSupport;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidSupport);
 // Type: UnityEngine.InputSystem.Android::AndroidSupport
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidSupport*
 class CORDL_TYPE AndroidSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x318ba38, size 0x8f4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x458ea0c, size 0x910, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::UnityEngine::InputSystem::Android::AndroidSupport* New_ctor();
 
-  /// @brief Method OnFindLayoutForDevice, addr 0x318c32c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method OnFindLayoutForDevice, addr 0x458f31c, size 0x24c, virtual false, abstract: false, final false
   static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                                 ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
 
-  /// @brief Method .ctor, addr 0x318c640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x458f624, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,6 +52,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AndroidSupport", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidSupport(AndroidSupport const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6819 };
 
   /// @brief Field kAndroidInterface offset 0xffffffff size 0x8
   static constexpr ::ConstString kAndroidInterface{ u"Android" };

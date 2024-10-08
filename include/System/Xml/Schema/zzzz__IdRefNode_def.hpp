@@ -14,7 +14,7 @@ class IdRefNode;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::IdRefNode);
 // Type: System.Xml.Schema::IdRefNode
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::IdRefNode*
@@ -22,7 +22,7 @@ class CORDL_TYPE IdRefNode : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Id, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id))::StringW Id;
+  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id)) ::StringW Id;
 
   /// @brief Field LineNo, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_LineNo, put = __cordl_internal_set_LineNo)) int32_t LineNo;
@@ -31,7 +31,7 @@ public:
   __declspec(property(get = __cordl_internal_get_LinePos, put = __cordl_internal_set_LinePos)) int32_t LinePos;
 
   /// @brief Field Next, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next))::System::Xml::Schema::IdRefNode* Next;
+  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next)) ::System::Xml::Schema::IdRefNode* Next;
 
   static inline ::System::Xml::Schema::IdRefNode* New_ctor(::System::Xml::Schema::IdRefNode* next, ::StringW id, int32_t lineNo, int32_t linePos);
 
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_Next(::System::Xml::Schema::IdRefNode* value);
 
-  /// @brief Method .ctor, addr 0x2e511ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42538f0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::IdRefNode* next, ::StringW id, int32_t lineNo, int32_t linePos);
 
 protected:
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field Next, offset: 0x20, size: 0x8, def value: None
   ::System::Xml::Schema::IdRefNode* ___Next;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7702 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -53,7 +53,7 @@ MARK_VAL_T(::HoudiniEngineUnity::__HEU_Task__TaskStatus);
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Task);
 MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_Task__TaskCallback);
 // Type: ::TaskStatus
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HEU_Task::TaskStatus
@@ -114,6 +114,9 @@ public:
   /// @brief Field UNUSED value: static_cast<int32_t>(0x6)
   static ::HoudiniEngineUnity::__HEU_Task__TaskStatus const UNUSED;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11741 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -126,7 +129,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Task__TaskStatus, value__) ==
 
 } // namespace HoudiniEngineUnity
 // Type: ::TaskResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HEU_Task::TaskResult
@@ -175,6 +178,9 @@ public:
   /// @brief Field SUCCESS value: static_cast<int32_t>(0x1)
   static ::HoudiniEngineUnity::__HEU_Task__TaskResult const SUCCESS;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11742 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -187,25 +193,25 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Task__TaskResult, value__) ==
 
 } // namespace HoudiniEngineUnity
 // Type: ::TaskCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HEU_Task::TaskCallback*
 class CORDL_TYPE __HEU_Task__TaskCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x25bb90c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x39f70d0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_Task* task, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x25bb92c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x39f70f0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x25bb8f8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x39f70bc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::HoudiniEngineUnity::HEU_Task* task);
 
   static inline ::HoudiniEngineUnity::__HEU_Task__TaskCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x25bb7cc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f6fbc, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -222,6 +228,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HEU_Task__TaskCallback(__HEU_Task__TaskCallback const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11743 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -229,7 +238,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Task__
 
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_Task
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_Task*
@@ -242,19 +251,19 @@ public:
 
   using TaskStatus = ::HoudiniEngineUnity::__HEU_Task__TaskStatus;
 
-  __declspec(property(get = get_TaskGuid))::System::Guid TaskGuid;
+  __declspec(property(get = get_TaskGuid)) ::System::Guid TaskGuid;
 
   /// @brief Field _guid, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get__guid, put = __cordl_internal_set__guid))::System::Guid _guid;
+  __declspec(property(get = __cordl_internal_get__guid, put = __cordl_internal_set__guid)) ::System::Guid _guid;
 
   /// @brief Field _result, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__result, put = __cordl_internal_set__result))::HoudiniEngineUnity::__HEU_Task__TaskResult _result;
+  __declspec(property(get = __cordl_internal_get__result, put = __cordl_internal_set__result)) ::HoudiniEngineUnity::__HEU_Task__TaskResult _result;
 
   /// @brief Field _status, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status))::HoudiniEngineUnity::__HEU_Task__TaskStatus _status;
+  __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status)) ::HoudiniEngineUnity::__HEU_Task__TaskStatus _status;
 
   /// @brief Field _taskCompletedDelegate, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__taskCompletedDelegate, put = __cordl_internal_set__taskCompletedDelegate))::HoudiniEngineUnity::__HEU_Task__TaskCallback* _taskCompletedDelegate;
+  __declspec(property(get = __cordl_internal_get__taskCompletedDelegate, put = __cordl_internal_set__taskCompletedDelegate)) ::HoudiniEngineUnity::__HEU_Task__TaskCallback* _taskCompletedDelegate;
 
   /// @brief Method CompleteTask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CompleteTask(::HoudiniEngineUnity::__HEU_Task__TaskResult result);
@@ -267,7 +276,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_Task* New_ctor();
 
-  /// @brief Method UpdateTask, addr 0x25bb7c8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateTask, addr 0x39f6fb8, size 0x4, virtual true, abstract: false, final false
   inline void UpdateTask();
 
   constexpr ::System::Guid const& __cordl_internal_get__guid() const;
@@ -294,10 +303,10 @@ public:
 
   constexpr void __cordl_internal_set__taskCompletedDelegate(::HoudiniEngineUnity::__HEU_Task__TaskCallback* value);
 
-  /// @brief Method .ctor, addr 0x25bb7a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f6f94, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TaskGuid, addr 0x25bb798, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TaskGuid, addr 0x39f6f88, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_TaskGuid();
 
 protected:
@@ -325,6 +334,9 @@ public:
 
   /// @brief Field _taskCompletedDelegate, offset: 0x28, size: 0x8, def value: None
   ::HoudiniEngineUnity::__HEU_Task__TaskCallback* ____taskCompletedDelegate;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11744 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

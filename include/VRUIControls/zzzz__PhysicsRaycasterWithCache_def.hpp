@@ -34,14 +34,14 @@ struct __PhysicsRaycasterWithCache__CachedRaycast;
 MARK_REF_PTR_T(::VRUIControls::PhysicsRaycasterWithCache);
 MARK_VAL_T(::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast);
 // Type: ::CachedRaycast
-// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: true
 // CS Name: ::PhysicsRaycasterWithCache::CachedRaycast
 struct CORDL_TYPE __PhysicsRaycasterWithCache__CachedRaycast {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x364bac4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a71e24, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool wasHit, ::UnityEngine::Ray ray, ::UnityEngine::RaycastHit hitInfo, float_t maxDistance, int32_t layerMask);
 
   // Ctor Parameters []
@@ -68,6 +68,9 @@ public:
   /// @brief Field layerMask, offset: 0x4c, size: 0x4, def value: None
   int32_t layerMask;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18159 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
@@ -88,7 +91,7 @@ static_assert(offsetof(::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycas
 
 } // namespace VRUIControls
 // Type: VRUIControls::PhysicsRaycasterWithCache
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
 // CS Name: ::VRUIControls::PhysicsRaycasterWithCache*
@@ -99,14 +102,14 @@ public:
 
   /// @brief Field _cachedRaycasts, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__cachedRaycasts,
-                      put = __cordl_internal_set__cachedRaycasts))::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>* _cachedRaycasts;
+                      put = __cordl_internal_set__cachedRaycasts)) ::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>* _cachedRaycasts;
 
   /// @brief Field _lastFrameCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__lastFrameCount, put = __cordl_internal_set__lastFrameCount)) int32_t _lastFrameCount;
 
   static inline ::VRUIControls::PhysicsRaycasterWithCache* New_ctor();
 
-  /// @brief Method Raycast, addr 0x364b558, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x4a71950, size 0x4d4, virtual false, abstract: false, final false
   inline bool Raycast(::UnityEngine::Ray ray, ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask);
 
   constexpr ::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>*& __cordl_internal_get__cachedRaycasts();
@@ -122,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set__lastFrameCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x364bb04, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a71e64, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -144,6 +147,9 @@ public:
 
   /// @brief Field _lastFrameCount, offset: 0x18, size: 0x4, def value: None
   int32_t ____lastFrameCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18160 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

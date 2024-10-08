@@ -26,45 +26,48 @@ class X509ChainElement;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainElement);
 // Type: System.Security.Cryptography.X509Certificates::X509ChainElement
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainElement*
 class CORDL_TYPE X509ChainElement : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Certificate))::System::Security::Cryptography::X509Certificates::X509Certificate2* Certificate;
+  __declspec(property(get = get_Certificate)) ::System::Security::Cryptography::X509Certificates::X509Certificate2* Certificate;
 
-  __declspec(property(get = get_ChainElementStatus))::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus,
-                                                             ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> ChainElementStatus;
+  __declspec(property(
+      get = get_ChainElementStatus)) ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*>
+      ChainElementStatus;
 
-  __declspec(property(get = get_StatusFlags, put = set_StatusFlags))::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags StatusFlags;
+  __declspec(property(get = get_StatusFlags, put = set_StatusFlags)) ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags StatusFlags;
 
   /// @brief Field certificate, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_certificate, put = __cordl_internal_set_certificate))::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate;
+  __declspec(property(get = __cordl_internal_get_certificate, put = __cordl_internal_set_certificate)) ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate;
 
   /// @brief Field compressed_status_flags, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_compressed_status_flags,
-                      put = __cordl_internal_set_compressed_status_flags))::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags compressed_status_flags;
+                      put = __cordl_internal_set_compressed_status_flags)) ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags compressed_status_flags;
 
   /// @brief Field info, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::StringW info;
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info)) ::StringW info;
 
   /// @brief Field status, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus,
-                                                                                                     ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> status;
+  __declspec(property(
+      get = __cordl_internal_get_status,
+      put = __cordl_internal_set_status)) ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*>
+      status;
 
-  /// @brief Method Count, addr 0x2fe0f2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Count, addr 0x43c7700, size 0x24, virtual false, abstract: false, final false
   inline int32_t Count(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainElement* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Set, addr 0x2fe0f50, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x43c7724, size 0x74, virtual false, abstract: false, final false
   inline void Set(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> status,
                   ByRef<int32_t> position, ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags,
                   ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags mask);
 
-  /// @brief Method UncompressFlags, addr 0x2fe115c, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method UncompressFlags, addr 0x43c7928, size 0x244, virtual false, abstract: false, final false
   inline void UncompressFlags();
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& __cordl_internal_get_certificate();
@@ -93,19 +96,19 @@ public:
   constexpr void
   __cordl_internal_set_status(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> value);
 
-  /// @brief Method .ctor, addr 0x2fe0ea0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43c7674, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method get_Certificate, addr 0x2fe0f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x43c76e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_Certificate();
 
-  /// @brief Method get_ChainElementStatus, addr 0x2fe0f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChainElementStatus, addr 0x43c76e8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> get_ChainElementStatus();
 
-  /// @brief Method get_StatusFlags, addr 0x2fe0f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusFlags, addr 0x43c76f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_StatusFlags();
 
-  /// @brief Method set_StatusFlags, addr 0x2fe0f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusFlags, addr 0x43c76f8, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusFlags(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
 
 protected:
@@ -133,6 +136,9 @@ public:
 
   /// @brief Field compressed_status_flags, offset: 0x28, size: 0x4, def value: None
   ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags ___compressed_status_flags;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9289 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

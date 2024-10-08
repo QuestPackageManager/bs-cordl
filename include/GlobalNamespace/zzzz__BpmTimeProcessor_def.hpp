@@ -50,14 +50,14 @@ MARK_REF_PTR_T(::GlobalNamespace::BpmTimeProcessor);
 MARK_REF_PTR_T(::GlobalNamespace::__BpmTimeProcessor____c);
 MARK_VAL_T(::GlobalNamespace::__BpmTimeProcessor__BpmChangeData);
 // Type: ::BpmChangeData
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::BpmTimeProcessor::BpmChangeData
 struct CORDL_TYPE __BpmTimeProcessor__BpmChangeData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x14bf1dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2677ba0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t bpmChangeStartTime, float_t bpmChangeStartBpmTime, float_t bpm);
 
   // Ctor Parameters []
@@ -77,6 +77,9 @@ public:
   /// @brief Field bpm, offset: 0x8, size: 0x4, def value: None
   float_t bpm;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12841 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
@@ -93,7 +96,7 @@ static_assert(offsetof(::GlobalNamespace::__BpmTimeProcessor__BpmChangeData, bpm
 
 } // namespace GlobalNamespace
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BpmTimeProcessor::<>c*
@@ -101,17 +104,17 @@ class CORDL_TYPE __BpmTimeProcessor____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__BpmTimeProcessor____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__BpmTimeProcessor____c* __9;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Func_2<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*, bool>* __9__3_0;
+  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_2<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*, bool>* __9__3_0;
 
   static inline ::GlobalNamespace::__BpmTimeProcessor____c* New_ctor();
 
-  /// @brief Method <.ctor>b__3_0, addr 0x14bf9f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__3_0, addr 0x26783a4, size 0x20, virtual false, abstract: false, final false
   inline bool __ctor_b__3_0(::BeatmapSaveDataVersion2_6_0AndEarlier::EventData* e);
 
-  /// @brief Method .ctor, addr 0x14bf9f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267839c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__BpmTimeProcessor____c* getStaticF___9();
@@ -136,6 +139,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BpmTimeProcessor____c(__BpmTimeProcessor____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12842 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -143,7 +149,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BpmTimeProces
 
 } // namespace GlobalNamespace
 // Type: ::BpmTimeProcessor
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BpmTimeProcessor*
@@ -156,7 +162,7 @@ public:
 
   /// @brief Field _bpmChangeDataList, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__bpmChangeDataList,
-                      put = __cordl_internal_set__bpmChangeDataList))::System::Collections::Generic::List_1<::GlobalNamespace::__BpmTimeProcessor__BpmChangeData>* _bpmChangeDataList;
+                      put = __cordl_internal_set__bpmChangeDataList)) ::System::Collections::Generic::List_1<::GlobalNamespace::__BpmTimeProcessor__BpmChangeData>* _bpmChangeDataList;
 
   /// @brief Field currentBpmChangesDataIdx, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_currentBpmChangesDataIdx, put = __cordl_internal_set_currentBpmChangesDataIdx)) int32_t currentBpmChangesDataIdx;
@@ -164,10 +170,10 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatToTimeConverter"
   constexpr operator ::GlobalNamespace::IBeatToTimeConverter*() noexcept;
 
-  /// @brief Method CalculateTime, addr 0x14bf1e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CalculateTime, addr 0x2677bac, size 0x1c, virtual false, abstract: false, final false
   static inline float_t CalculateTime(::GlobalNamespace::__BpmTimeProcessor__BpmChangeData prevBpmChangeData, float_t beat);
 
-  /// @brief Method ConvertBeatToTime, addr 0x14bf87c, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method ConvertBeatToTime, addr 0x2678230, size 0x108, virtual true, abstract: false, final true
   inline float_t ConvertBeatToTime(float_t beat);
 
   static inline ::GlobalNamespace::BpmTimeProcessor* New_ctor(::BeatmapLevelSaveDataVersion4::AudioSaveData* audioSaveData);
@@ -176,7 +182,7 @@ public:
 
   static inline ::GlobalNamespace::BpmTimeProcessor* New_ctor(float_t startBpm, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events);
 
-  /// @brief Method Reset, addr 0x14bf984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2678338, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__BpmTimeProcessor__BpmChangeData>*& __cordl_internal_get__bpmChangeDataList();
@@ -191,13 +197,13 @@ public:
 
   constexpr void __cordl_internal_set_currentBpmChangesDataIdx(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14bf6f8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26780b4, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapLevelSaveDataVersion4::AudioSaveData* audioSaveData);
 
-  /// @brief Method .ctor, addr 0x14bf204, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2677bc8, size 0x4ec, virtual false, abstract: false, final false
   inline void _ctor(float_t startBpm, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* bpmEventsSaveData);
 
-  /// @brief Method .ctor, addr 0x14bee54, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2677824, size 0x37c, virtual false, abstract: false, final false
   inline void _ctor(float_t startBpm, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events);
 
   /// @brief Convert to "::GlobalNamespace::IBeatToTimeConverter"
@@ -222,6 +228,9 @@ public:
 
   /// @brief Field currentBpmChangesDataIdx, offset: 0x18, size: 0x4, def value: None
   int32_t ___currentBpmChangesDataIdx;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12843 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

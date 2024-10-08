@@ -34,7 +34,7 @@ class ConnectedPlayerAvatarPoseDataProvider;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider);
 // Type: BeatSaber.AvatarCore::ConnectedPlayerAvatarPoseDataProvider
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // CS Name: ::BeatSaber.AvatarCore::ConnectedPlayerAvatarPoseDataProvider*
@@ -42,22 +42,22 @@ class CORDL_TYPE ConnectedPlayerAvatarPoseDataProvider : public ::System::Object
 public:
   // Declarations
   /// @brief Field _avatarPoseRestriction, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarPoseRestriction, put = __cordl_internal_set__avatarPoseRestriction))::BeatSaber::AvatarCore::IAvatarPoseRestriction* _avatarPoseRestriction;
+  __declspec(property(get = __cordl_internal_get__avatarPoseRestriction, put = __cordl_internal_set__avatarPoseRestriction)) ::BeatSaber::AvatarCore::IAvatarPoseRestriction* _avatarPoseRestriction;
 
   /// @brief Field _connectedPlayer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
   /// @brief Field _currentPose, offset 0x30, size 0x54
-  __declspec(property(get = __cordl_internal_get__currentPose, put = __cordl_internal_set__currentPose))::BeatSaber::AvatarCore::AvatarPoseData _currentPose;
+  __declspec(property(get = __cordl_internal_get__currentPose, put = __cordl_internal_set__currentPose)) ::BeatSaber::AvatarCore::AvatarPoseData _currentPose;
 
   /// @brief Field _nodePoseSyncStateManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
-                      put = __cordl_internal_set__nodePoseSyncStateManager))::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
+                      put = __cordl_internal_set__nodePoseSyncStateManager)) ::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
 
-  __declspec(property(get = get_currentPose))::BeatSaber::AvatarCore::AvatarPoseData currentPose;
+  __declspec(property(get = get_currentPose)) ::BeatSaber::AvatarCore::AvatarPoseData currentPose;
 
   /// @brief Field poseDidChangeEvent, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_poseDidChangeEvent, put = __cordl_internal_set_poseDidChangeEvent))::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* poseDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_poseDidChangeEvent, put = __cordl_internal_set_poseDidChangeEvent)) ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* poseDidChangeEvent;
 
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarPoseDataProvider"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarPoseDataProvider*() noexcept;
@@ -69,7 +69,7 @@ public:
                                                                                          ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
                                                                                          ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction);
 
-  /// @brief Method Tick, addr 0x105187c, size 0x564, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x2219194, size 0x558, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction*& __cordl_internal_get__avatarPoseRestriction();
@@ -102,14 +102,14 @@ public:
 
   constexpr void __cordl_internal_set_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
-  /// @brief Method .ctor, addr 0x1051840, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2219158, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
                     ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction);
 
-  /// @brief Method add_poseDidChangeEvent, addr 0x10516e0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_poseDidChangeEvent, addr 0x2218ff8, size 0xb0, virtual true, abstract: false, final true
   inline void add_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
-  /// @brief Method get_currentPose, addr 0x10516d0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_currentPose, addr 0x2218fe8, size 0x10, virtual true, abstract: false, final true
   inline ::BeatSaber::AvatarCore::AvatarPoseData get_currentPose();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseDataProvider"
@@ -118,7 +118,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_poseDidChangeEvent, addr 0x1051790, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_poseDidChangeEvent, addr 0x22190a8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
 protected:
@@ -149,6 +149,9 @@ public:
 
   /// @brief Field _currentPose, offset: 0x30, size: 0x54, def value: None
   ::BeatSaber::AvatarCore::AvatarPoseData ____currentPose;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17517 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

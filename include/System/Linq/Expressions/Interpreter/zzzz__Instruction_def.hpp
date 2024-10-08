@@ -26,7 +26,7 @@ class Instruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::Instruction);
 // Type: System.Linq.Expressions.Interpreter::Instruction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::Instruction*
@@ -39,7 +39,7 @@ public:
 
   __declspec(property(get = get_ContinuationsBalance)) int32_t ContinuationsBalance;
 
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
   __declspec(property(get = get_ProducedContinuations)) int32_t ProducedContinuations;
 
@@ -49,41 +49,41 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* New_ctor();
 
-  /// @brief Method NullCheck, addr 0x2c4f1e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method NullCheck, addr 0x4053530, size 0x10, virtual false, abstract: false, final false
   static inline void NullCheck(::System::Object* o);
 
   /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToDebugString, addr 0x2c529d0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x4056c1c, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
                                  ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
 
-  /// @brief Method ToString, addr 0x2c52978, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4056bc4, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2c4efb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4053300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ConsumedContinuations, addr 0x2c528f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedContinuations, addr 0x4056b3c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedContinuations();
 
-  /// @brief Method get_ConsumedStack, addr 0x2c528e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x4056b2c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_ContinuationsBalance, addr 0x2c5293c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ContinuationsBalance, addr 0x4056b88, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_ContinuationsBalance();
 
   /// @brief Method get_InstructionName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedContinuations, addr 0x2c528f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedContinuations, addr 0x4056b44, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedContinuations();
 
-  /// @brief Method get_ProducedStack, addr 0x2c528e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x4056b34, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
-  /// @brief Method get_StackBalance, addr 0x2c52900, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_StackBalance, addr 0x4056b4c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_StackBalance();
 
 protected:
@@ -99,6 +99,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Instruction", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Instruction(Instruction const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13848 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

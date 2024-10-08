@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRScenePlane);
 MARK_VAL_T(::GlobalNamespace::__OVRScenePlane__GetBoundaryJob);
 MARK_VAL_T(::GlobalNamespace::__OVRScenePlane__GetBoundaryLengthJob);
 // Type: ::GetBoundaryLengthJob
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRScenePlane::GetBoundaryLengthJob
@@ -68,7 +68,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x2b8fd10, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3f99674, size 0x84, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -88,6 +88,9 @@ public:
   /// @brief Field Length, offset: 0x8, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> Length;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8255 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -102,7 +105,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRScenePlane__GetBoundaryLengthJob,
 
 } // namespace GlobalNamespace
 // Type: ::GetBoundaryJob
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRScenePlane::GetBoundaryJob
@@ -112,13 +115,13 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x2b8fe58, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3f997b0, size 0xa8, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method HasBoundaryChanged, addr 0x2b8fd94, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HasBoundaryChanged, addr 0x3f996f8, size 0xa4, virtual false, abstract: false, final false
   inline bool HasBoundaryChanged();
 
-  /// @brief Method SetNaN, addr 0x2b8fe44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetNaN, addr 0x3f9979c, size 0x14, virtual false, abstract: false, final false
   static inline void SetNaN(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> array);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -143,6 +146,9 @@ public:
   /// @brief Field PreviousBoundary, offset: 0x18, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> PreviousBoundary;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8256 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -159,7 +165,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRScenePlane__GetBoundaryJob, Previ
 
 } // namespace GlobalNamespace
 // Type: ::OVRScenePlane
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRScenePlane*
@@ -170,13 +176,13 @@ public:
 
   using GetBoundaryLengthJob = ::GlobalNamespace::__OVRScenePlane__GetBoundaryLengthJob;
 
-  __declspec(property(get = get_Boundary))::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>* Boundary;
+  __declspec(property(get = get_Boundary)) ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>* Boundary;
 
-  __declspec(property(get = get_Dimensions))::UnityEngine::Vector2 Dimensions;
+  __declspec(property(get = get_Dimensions)) ::UnityEngine::Vector2 Dimensions;
 
   __declspec(property(get = get_Height, put = set_Height)) float_t Height;
 
-  __declspec(property(get = get_Offset, put = set_Offset))::UnityEngine::Vector2 Offset;
+  __declspec(property(get = get_Offset, put = set_Offset)) ::UnityEngine::Vector2 Offset;
 
   __declspec(property(get = get_OffsetChildren, put = set_OffsetChildren)) bool OffsetChildren;
 
@@ -184,75 +190,75 @@ public:
 
   __declspec(property(get = get_Width, put = set_Width)) float_t Width;
 
-  /// @brief Field <Height>k__BackingField, offset 0x1c, size 0x4
+  /// @brief Field <Height>k__BackingField, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__Height_k__BackingField, put = __cordl_internal_set__Height_k__BackingField)) float_t _Height_k__BackingField;
 
-  /// @brief Field <Offset>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__Offset_k__BackingField, put = __cordl_internal_set__Offset_k__BackingField))::UnityEngine::Vector2 _Offset_k__BackingField;
+  /// @brief Field <Offset>k__BackingField, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__Offset_k__BackingField, put = __cordl_internal_set__Offset_k__BackingField)) ::UnityEngine::Vector2 _Offset_k__BackingField;
 
-  /// @brief Field <Width>k__BackingField, offset 0x18, size 0x4
+  /// @brief Field <Width>k__BackingField, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__Width_k__BackingField, put = __cordl_internal_set__Width_k__BackingField)) float_t _Width_k__BackingField;
 
-  /// @brief Field _boundary, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__boundary, put = __cordl_internal_set__boundary))::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _boundary;
+  /// @brief Field _boundary, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__boundary, put = __cordl_internal_set__boundary)) ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _boundary;
 
-  /// @brief Field _boundaryBuffer, offset 0x68, size 0x10
-  __declspec(property(get = __cordl_internal_get__boundaryBuffer, put = __cordl_internal_set__boundaryBuffer))::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _boundaryBuffer;
+  /// @brief Field _boundaryBuffer, offset 0x70, size 0x10
+  __declspec(property(get = __cordl_internal_get__boundaryBuffer, put = __cordl_internal_set__boundaryBuffer)) ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _boundaryBuffer;
 
-  /// @brief Field _boundaryLength, offset 0x58, size 0x10
-  __declspec(property(get = __cordl_internal_get__boundaryLength, put = __cordl_internal_set__boundaryLength))::Unity::Collections::NativeArray_1<int32_t> _boundaryLength;
+  /// @brief Field _boundaryLength, offset 0x60, size 0x10
+  __declspec(property(get = __cordl_internal_get__boundaryLength, put = __cordl_internal_set__boundaryLength)) ::Unity::Collections::NativeArray_1<int32_t> _boundaryLength;
 
-  /// @brief Field _boundaryRequested, offset 0x78, size 0x1
+  /// @brief Field _boundaryRequested, offset 0x80, size 0x1
   __declspec(property(get = __cordl_internal_get__boundaryRequested, put = __cordl_internal_set__boundaryRequested)) bool _boundaryRequested;
 
-  /// @brief Field _jobHandle, offset 0x30, size 0x18
-  __declspec(property(get = __cordl_internal_get__jobHandle, put = __cordl_internal_set__jobHandle))::System::Nullable_1<::Unity::Jobs::JobHandle> _jobHandle;
+  /// @brief Field _jobHandle, offset 0x38, size 0x18
+  __declspec(property(get = __cordl_internal_get__jobHandle, put = __cordl_internal_set__jobHandle)) ::System::Nullable_1<::Unity::Jobs::JobHandle> _jobHandle;
 
-  /// @brief Field _offsetChildren, offset 0x29, size 0x1
+  /// @brief Field _offsetChildren, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get__offsetChildren, put = __cordl_internal_set__offsetChildren)) bool _offsetChildren;
 
-  /// @brief Field _previousBoundary, offset 0x48, size 0x10
-  __declspec(property(get = __cordl_internal_get__previousBoundary, put = __cordl_internal_set__previousBoundary))::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _previousBoundary;
+  /// @brief Field _previousBoundary, offset 0x50, size 0x10
+  __declspec(property(get = __cordl_internal_get__previousBoundary, put = __cordl_internal_set__previousBoundary)) ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _previousBoundary;
 
-  /// @brief Field _scaleChildren, offset 0x28, size 0x1
+  /// @brief Field _scaleChildren, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__scaleChildren, put = __cordl_internal_set__scaleChildren)) bool _scaleChildren;
 
-  /// @brief Field _sceneAnchor, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneAnchor, put = __cordl_internal_set__sceneAnchor))::UnityW<::GlobalNamespace::OVRSceneAnchor> _sceneAnchor;
+  /// @brief Field _sceneAnchor, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__sceneAnchor, put = __cordl_internal_set__sceneAnchor)) ::UnityW<::GlobalNamespace::OVRSceneAnchor> _sceneAnchor;
 
   /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
   constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
 
-  /// @brief Method Awake, addr 0x2b8f248, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3f98c48, size 0xd4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method IOVRSceneComponent.Initialize, addr 0x2b8f320, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method IOVRSceneComponent.Initialize, addr 0x3f98d20, size 0x4, virtual true, abstract: false, final true
   inline void IOVRSceneComponent_Initialize();
 
   static inline ::GlobalNamespace::OVRScenePlane* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2b8fb80, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3f99518, size 0xd8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RequestBoundary, addr 0x2b8c47c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RequestBoundary, addr 0x3f95fe4, size 0x30, virtual false, abstract: false, final false
   inline void RequestBoundary();
 
-  /// @brief Method ScheduleGetLengthJob, addr 0x2b8f324, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ScheduleGetLengthJob, addr 0x3f98d24, size 0x184, virtual false, abstract: false, final false
   inline void ScheduleGetLengthJob();
 
-  /// @brief Method SetChildOffset, addr 0x2b8f11c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SetChildOffset, addr 0x3f98b1c, size 0x12c, virtual false, abstract: false, final false
   inline void SetChildOffset();
 
-  /// @brief Method SetChildScale, addr 0x2b8ef9c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetChildScale, addr 0x3f9899c, size 0x144, virtual false, abstract: false, final false
   inline void SetChildScale();
 
-  /// @brief Method Start, addr 0x2b8f31c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3f98d1c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2b8f4ac, size 0x6a4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f98ea8, size 0x640, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateTransform, addr 0x2b8c300, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransform, addr 0x3f95e68, size 0x17c, virtual false, abstract: false, final false
   inline void UpdateTransform();
 
   constexpr float_t const& __cordl_internal_get__Height_k__BackingField() const;
@@ -327,46 +333,46 @@ public:
 
   constexpr void __cordl_internal_set__sceneAnchor(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
 
-  /// @brief Method .ctor, addr 0x2b8fc8c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f995f0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Boundary, addr 0x2b8ef58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Boundary, addr 0x3f98958, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>* get_Boundary();
 
-  /// @brief Method get_Dimensions, addr 0x2b8ef50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dimensions, addr 0x3f98950, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_Dimensions();
 
-  /// @brief Method get_Height, addr 0x2b8ef30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Height, addr 0x3f98930, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Height();
 
-  /// @brief Method get_Offset, addr 0x2b8ef40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Offset, addr 0x3f98940, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_Offset();
 
-  /// @brief Method get_OffsetChildren, addr 0x2b8f0e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OffsetChildren, addr 0x3f98ae0, size 0x8, virtual false, abstract: false, final false
   inline bool get_OffsetChildren();
 
-  /// @brief Method get_ScaleChildren, addr 0x2b8ef60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ScaleChildren, addr 0x3f98960, size 0x8, virtual false, abstract: false, final false
   inline bool get_ScaleChildren();
 
-  /// @brief Method get_Width, addr 0x2b8ef20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Width, addr 0x3f98920, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Width();
 
   /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
   constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
 
-  /// @brief Method set_Height, addr 0x2b8ef38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Height, addr 0x3f98938, size 0x8, virtual false, abstract: false, final false
   inline void set_Height(float_t value);
 
-  /// @brief Method set_Offset, addr 0x2b8ef48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Offset, addr 0x3f98948, size 0x8, virtual false, abstract: false, final false
   inline void set_Offset(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_OffsetChildren, addr 0x2b8f0e8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_OffsetChildren, addr 0x3f98ae8, size 0x34, virtual false, abstract: false, final false
   inline void set_OffsetChildren(bool value);
 
-  /// @brief Method set_ScaleChildren, addr 0x2b8ef68, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_ScaleChildren, addr 0x3f98968, size 0x34, virtual false, abstract: false, final false
   inline void set_ScaleChildren(bool value);
 
-  /// @brief Method set_Width, addr 0x2b8ef28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Width, addr 0x3f98928, size 0x8, virtual false, abstract: false, final false
   inline void set_Width(float_t value);
 
 protected:
@@ -383,70 +389,73 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRScenePlane(OVRScenePlane const&) = delete;
 
-  /// @brief Field <Width>k__BackingField, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field <Width>k__BackingField, offset: 0x20, size: 0x4, def value: None
   float_t ____Width_k__BackingField;
 
-  /// @brief Field <Height>k__BackingField, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field <Height>k__BackingField, offset: 0x24, size: 0x4, def value: None
   float_t ____Height_k__BackingField;
 
-  /// @brief Field <Offset>k__BackingField, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field <Offset>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____Offset_k__BackingField;
 
-  /// @brief Field _scaleChildren, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field _scaleChildren, offset: 0x30, size: 0x1, def value: None
   bool ____scaleChildren;
 
-  /// @brief Field _offsetChildren, offset: 0x29, size: 0x1, def value: None
+  /// @brief Field _offsetChildren, offset: 0x31, size: 0x1, def value: None
   bool ____offsetChildren;
 
-  /// @brief Field _jobHandle, offset: 0x30, size: 0x18, def value: None
+  /// @brief Field _jobHandle, offset: 0x38, size: 0x18, def value: None
   ::System::Nullable_1<::Unity::Jobs::JobHandle> ____jobHandle;
 
-  /// @brief Field _previousBoundary, offset: 0x48, size: 0x10, def value: None
+  /// @brief Field _previousBoundary, offset: 0x50, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> ____previousBoundary;
 
-  /// @brief Field _boundaryLength, offset: 0x58, size: 0x10, def value: None
+  /// @brief Field _boundaryLength, offset: 0x60, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<int32_t> ____boundaryLength;
 
-  /// @brief Field _boundaryBuffer, offset: 0x68, size: 0x10, def value: None
+  /// @brief Field _boundaryBuffer, offset: 0x70, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> ____boundaryBuffer;
 
-  /// @brief Field _boundaryRequested, offset: 0x78, size: 0x1, def value: None
+  /// @brief Field _boundaryRequested, offset: 0x80, size: 0x1, def value: None
   bool ____boundaryRequested;
 
-  /// @brief Field _sceneAnchor, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _sceneAnchor, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRSceneAnchor> ____sceneAnchor;
 
-  /// @brief Field _boundary, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _boundary, offset: 0x90, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* ____boundary;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8257 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRScenePlane, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRScenePlane, 0x98>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____Width_k__BackingField) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____Width_k__BackingField) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____Height_k__BackingField) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____Height_k__BackingField) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____Offset_k__BackingField) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____Offset_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____scaleChildren) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____scaleChildren) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____offsetChildren) == 0x29, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____offsetChildren) == 0x31, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____jobHandle) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____jobHandle) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____previousBoundary) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____previousBoundary) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____boundaryLength) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____boundaryLength) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____boundaryBuffer) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____boundaryBuffer) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____boundaryRequested) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____boundaryRequested) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____sceneAnchor) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____sceneAnchor) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____boundary) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRScenePlane, ____boundary) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRScenePlane);

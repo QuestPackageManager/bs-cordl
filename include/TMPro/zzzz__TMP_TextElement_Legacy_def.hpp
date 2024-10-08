@@ -14,7 +14,7 @@ class TMP_TextElement_Legacy;
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_TextElement_Legacy);
 // Type: TMPro::TMP_TextElement_Legacy
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::TMP_TextElement_Legacy*
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_yOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x33af4c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47892c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -147,6 +147,9 @@ public:
 
   /// @brief Field scale, offset: 0x30, size: 0x4, def value: None
   float_t ___scale;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14525 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

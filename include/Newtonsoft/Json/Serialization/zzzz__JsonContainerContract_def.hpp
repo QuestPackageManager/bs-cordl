@@ -33,46 +33,48 @@ class JsonContainerContract;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonContainerContract);
 // Type: Newtonsoft.Json.Serialization::JsonContainerContract
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Serialization::JsonContainerContract*
 class CORDL_TYPE JsonContainerContract : public ::Newtonsoft::Json::Serialization::JsonContract {
 public:
   // Declarations
-  __declspec(property(get = get_FinalItemContract))::Newtonsoft::Json::Serialization::JsonContract* FinalItemContract;
+  __declspec(property(get = get_FinalItemContract)) ::Newtonsoft::Json::Serialization::JsonContract* FinalItemContract;
 
-  __declspec(property(get = get_ItemContract, put = set_ItemContract))::Newtonsoft::Json::Serialization::JsonContract* ItemContract;
+  __declspec(property(get = get_ItemContract, put = set_ItemContract)) ::Newtonsoft::Json::Serialization::JsonContract* ItemContract;
 
-  __declspec(property(get = get_ItemConverter, put = set_ItemConverter))::Newtonsoft::Json::JsonConverter* ItemConverter;
+  __declspec(property(get = get_ItemConverter, put = set_ItemConverter)) ::Newtonsoft::Json::JsonConverter* ItemConverter;
 
-  __declspec(property(get = get_ItemIsReference, put = set_ItemIsReference))::System::Nullable_1<bool> ItemIsReference;
+  __declspec(property(get = get_ItemIsReference, put = set_ItemIsReference)) ::System::Nullable_1<bool> ItemIsReference;
 
-  __declspec(property(get = get_ItemReferenceLoopHandling, put = set_ItemReferenceLoopHandling))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> ItemReferenceLoopHandling;
+  __declspec(property(get = get_ItemReferenceLoopHandling, put = set_ItemReferenceLoopHandling)) ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> ItemReferenceLoopHandling;
 
-  __declspec(property(get = get_ItemTypeNameHandling, put = set_ItemTypeNameHandling))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> ItemTypeNameHandling;
+  __declspec(property(get = get_ItemTypeNameHandling, put = set_ItemTypeNameHandling)) ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> ItemTypeNameHandling;
 
   /// @brief Field <ItemConverter>k__BackingField, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__ItemConverter_k__BackingField,
-                      put = __cordl_internal_set__ItemConverter_k__BackingField))::Newtonsoft::Json::JsonConverter* _ItemConverter_k__BackingField;
+                      put = __cordl_internal_set__ItemConverter_k__BackingField)) ::Newtonsoft::Json::JsonConverter* _ItemConverter_k__BackingField;
 
   /// @brief Field <ItemIsReference>k__BackingField, offset 0xa8, size 0x2
-  __declspec(property(get = __cordl_internal_get__ItemIsReference_k__BackingField,
-                      put = __cordl_internal_set__ItemIsReference_k__BackingField))::System::Nullable_1<bool> _ItemIsReference_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ItemIsReference_k__BackingField, put = __cordl_internal_set__ItemIsReference_k__BackingField)) ::System::Nullable_1<bool>
+      _ItemIsReference_k__BackingField;
 
   /// @brief Field <ItemReferenceLoopHandling>k__BackingField, offset 0xac, size 0x8
   __declspec(property(get = __cordl_internal_get__ItemReferenceLoopHandling_k__BackingField,
-                      put = __cordl_internal_set__ItemReferenceLoopHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _ItemReferenceLoopHandling_k__BackingField;
+                      put = __cordl_internal_set__ItemReferenceLoopHandling_k__BackingField)) ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>
+      _ItemReferenceLoopHandling_k__BackingField;
 
   /// @brief Field <ItemTypeNameHandling>k__BackingField, offset 0xb4, size 0x8
   __declspec(property(get = __cordl_internal_get__ItemTypeNameHandling_k__BackingField,
-                      put = __cordl_internal_set__ItemTypeNameHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _ItemTypeNameHandling_k__BackingField;
+                      put = __cordl_internal_set__ItemTypeNameHandling_k__BackingField)) ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>
+      _ItemTypeNameHandling_k__BackingField;
 
   /// @brief Field _finalItemContract, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__finalItemContract, put = __cordl_internal_set__finalItemContract))::Newtonsoft::Json::Serialization::JsonContract* _finalItemContract;
+  __declspec(property(get = __cordl_internal_get__finalItemContract, put = __cordl_internal_set__finalItemContract)) ::Newtonsoft::Json::Serialization::JsonContract* _finalItemContract;
 
   /// @brief Field _itemContract, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__itemContract, put = __cordl_internal_set__itemContract))::Newtonsoft::Json::Serialization::JsonContract* _itemContract;
+  __declspec(property(get = __cordl_internal_get__itemContract, put = __cordl_internal_set__itemContract)) ::Newtonsoft::Json::Serialization::JsonContract* _itemContract;
 
   static inline ::Newtonsoft::Json::Serialization::JsonContainerContract* New_ctor(::System::Type* underlyingType);
 
@@ -112,40 +114,40 @@ public:
 
   constexpr void __cordl_internal_set__itemContract(::Newtonsoft::Json::Serialization::JsonContract* value);
 
-  /// @brief Method .ctor, addr 0x2a5ef20, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6f1e0, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method get_FinalItemContract, addr 0x2a5f85c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FinalItemContract, addr 0x3e6fb1c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_FinalItemContract();
 
-  /// @brief Method get_ItemContract, addr 0x2a5f810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemContract, addr 0x3e6fad0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_ItemContract();
 
-  /// @brief Method get_ItemConverter, addr 0x2a5f864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemConverter, addr 0x3e6fb24, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonConverter* get_ItemConverter();
 
-  /// @brief Method get_ItemIsReference, addr 0x2a5f874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemIsReference, addr 0x3e6fb34, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ItemIsReference();
 
-  /// @brief Method get_ItemReferenceLoopHandling, addr 0x2a5f884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemReferenceLoopHandling, addr 0x3e6fb44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ItemReferenceLoopHandling();
 
-  /// @brief Method get_ItemTypeNameHandling, addr 0x2a5f894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemTypeNameHandling, addr 0x3e6fb54, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_ItemTypeNameHandling();
 
-  /// @brief Method set_ItemContract, addr 0x2a5f818, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ItemContract, addr 0x3e6fad8, size 0x44, virtual false, abstract: false, final false
   inline void set_ItemContract(::Newtonsoft::Json::Serialization::JsonContract* value);
 
-  /// @brief Method set_ItemConverter, addr 0x2a5f86c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemConverter, addr 0x3e6fb2c, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemConverter(::Newtonsoft::Json::JsonConverter* value);
 
-  /// @brief Method set_ItemIsReference, addr 0x2a5f87c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemIsReference, addr 0x3e6fb3c, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemIsReference(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_ItemReferenceLoopHandling, addr 0x2a5f88c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemReferenceLoopHandling, addr 0x3e6fb4c, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
 
-  /// @brief Method set_ItemTypeNameHandling, addr 0x2a5f89c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemTypeNameHandling, addr 0x3e6fb5c, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
 protected:
@@ -179,6 +181,9 @@ public:
 
   /// @brief Field <ItemTypeNameHandling>k__BackingField, offset: 0xb4, size: 0x8, def value: None
   ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> ____ItemTypeNameHandling_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10277 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

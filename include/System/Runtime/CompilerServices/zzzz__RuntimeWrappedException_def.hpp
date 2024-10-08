@@ -21,19 +21,19 @@ class RuntimeWrappedException;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::RuntimeWrappedException);
 // Type: System.Runtime.CompilerServices::RuntimeWrappedException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::RuntimeWrappedException*
 class CORDL_TYPE RuntimeWrappedException : public ::System::Exception {
 public:
   // Declarations
-  __declspec(property(get = get_WrappedException))::System::Object* WrappedException;
+  __declspec(property(get = get_WrappedException)) ::System::Object* WrappedException;
 
   /// @brief Field _wrappedException, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__wrappedException, put = __cordl_internal_set__wrappedException))::System::Object* _wrappedException;
+  __declspec(property(get = __cordl_internal_get__wrappedException, put = __cordl_internal_set__wrappedException)) ::System::Object* _wrappedException;
 
-  /// @brief Method GetObjectData, addr 0x288a308, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3ca2eec, size 0xdc, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor();
@@ -49,16 +49,16 @@ public:
 
   constexpr void __cordl_internal_set__wrappedException(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x288a3ec, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca2fd0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x288a208, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca2dec, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x288a178, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca2d5c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* thrownObject);
 
-  /// @brief Method get_WrappedException, addr 0x288a3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WrappedException, addr 0x3ca2fc8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_WrappedException();
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field _wrappedException, offset: 0x90, size: 0x8, def value: None
   ::System::Object* ____wrappedException;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3383 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

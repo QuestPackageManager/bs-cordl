@@ -24,7 +24,7 @@ template <typename TContract> class DecoratorToChoiceFromBinder_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::DecoratorToChoiceFromBinder_1);
 // Type: Zenject::DecoratorToChoiceFromBinder`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -34,13 +34,13 @@ class CORDL_TYPE DecoratorToChoiceFromBinder_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _bindContainer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__bindContainer, put = __cordl_internal_set__bindContainer))::Zenject::DiContainer* _bindContainer;
+  __declspec(property(get = __cordl_internal_get__bindContainer, put = __cordl_internal_set__bindContainer)) ::Zenject::DiContainer* _bindContainer;
 
   /// @brief Field _bindInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__bindInfo, put = __cordl_internal_set__bindInfo))::Zenject::BindInfo* _bindInfo;
+  __declspec(property(get = __cordl_internal_get__bindInfo, put = __cordl_internal_set__bindInfo)) ::Zenject::BindInfo* _bindInfo;
 
   /// @brief Field _factoryBindInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__factoryBindInfo, put = __cordl_internal_set__factoryBindInfo))::Zenject::FactoryBindInfo* _factoryBindInfo;
+  __declspec(property(get = __cordl_internal_get__factoryBindInfo, put = __cordl_internal_set__factoryBindInfo)) ::Zenject::FactoryBindInfo* _factoryBindInfo;
 
   static inline ::Zenject::DecoratorToChoiceFromBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field _factoryBindInfo, offset: 0x20, size: 0x8, def value: None
   ::Zenject::FactoryBindInfo* ____factoryBindInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12146 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

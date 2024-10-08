@@ -29,7 +29,7 @@ class DtlsProtocol;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DtlsProtocol);
 // Type: Org.BouncyCastle.Crypto.Tls::DtlsProtocol
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsProtocol*
@@ -37,27 +37,27 @@ class CORDL_TYPE DtlsProtocol : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mSecureRandom, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mSecureRandom, put = __cordl_internal_set_mSecureRandom))::Org::BouncyCastle::Security::SecureRandom* mSecureRandom;
+  __declspec(property(get = __cordl_internal_get_mSecureRandom, put = __cordl_internal_set_mSecureRandom)) ::Org::BouncyCastle::Security::SecureRandom* mSecureRandom;
 
-  /// @brief Method ApplyMaxFragmentLengthExtension, addr 0x11d8f20, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ApplyMaxFragmentLengthExtension, addr 0x23ae718, size 0x94, virtual false, abstract: false, final false
   static inline void ApplyMaxFragmentLengthExtension(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer, int16_t maxFragmentLength);
 
-  /// @brief Method EvaluateMaxFragmentLengthExtension, addr 0x11d8fc0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method EvaluateMaxFragmentLengthExtension, addr 0x23ae7ac, size 0xa4, virtual false, abstract: false, final false
   static inline int16_t EvaluateMaxFragmentLengthExtension(bool resumedSession, ::System::Collections::IDictionary* clientExtensions, ::System::Collections::IDictionary* serverExtensions,
                                                            uint8_t alertDescription);
 
-  /// @brief Method GenerateCertificate, addr 0x11d906c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GenerateCertificate, addr 0x23ae850, size 0x84, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate);
 
-  /// @brief Method GenerateSupplementalData, addr 0x11d90f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GenerateSupplementalData, addr 0x23ae8d4, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSupplementalData(::System::Collections::IList* supplementalData);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsProtocol* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method ProcessFinished, addr 0x11d8df0, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method ProcessFinished, addr 0x23ae5f4, size 0x124, virtual true, abstract: false, final false
   inline void ProcessFinished(::ArrayW<uint8_t, ::Array<uint8_t>*> body, ::ArrayW<uint8_t, ::Array<uint8_t>*> expected_verify_data);
 
-  /// @brief Method ValidateSelectedCipherSuite, addr 0x11d916c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ValidateSelectedCipherSuite, addr 0x23ae950, size 0xac, virtual false, abstract: false, final false
   static inline void ValidateSelectedCipherSuite(int32_t selectedCipherSuite, uint8_t alertDescription);
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_mSecureRandom();
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_mSecureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x11d8d78, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ae580, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
 protected:
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field mSecureRandom, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Security::SecureRandom* ___mSecureRandom;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

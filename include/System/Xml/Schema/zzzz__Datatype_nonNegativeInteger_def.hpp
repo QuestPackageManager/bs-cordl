@@ -18,36 +18,36 @@ class Datatype_nonNegativeInteger;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_nonNegativeInteger);
 // Type: System.Xml.Schema::Datatype_nonNegativeInteger
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::Datatype_nonNegativeInteger*
 class CORDL_TYPE Datatype_nonNegativeInteger : public ::System::Xml::Schema::Datatype_integer {
 public:
   // Declarations
-  __declspec(property(get = get_FacetsChecker))::System::Xml::Schema::FacetsChecker* FacetsChecker;
+  __declspec(property(get = get_FacetsChecker)) ::System::Xml::Schema::FacetsChecker* FacetsChecker;
 
   __declspec(property(get = get_HasValueFacets)) bool HasValueFacets;
 
-  __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
+  __declspec(property(get = get_TypeCode)) ::System::Xml::Schema::XmlTypeCode TypeCode;
 
   /// @brief Field numeric10FacetsChecker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_numeric10FacetsChecker, put = setStaticF_numeric10FacetsChecker))::System::Xml::Schema::FacetsChecker* numeric10FacetsChecker;
+  static __declspec(property(get = getStaticF_numeric10FacetsChecker, put = setStaticF_numeric10FacetsChecker)) ::System::Xml::Schema::FacetsChecker* numeric10FacetsChecker;
 
   static inline ::System::Xml::Schema::Datatype_nonNegativeInteger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f3282c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432e7c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
 
-  /// @brief Method get_FacetsChecker, addr 0x2f3c0dc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x433802c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_HasValueFacets, addr 0x2f3c13c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasValueFacets, addr 0x433808c, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasValueFacets();
 
-  /// @brief Method get_TypeCode, addr 0x2f3c134, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x4338084, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
   static inline void setStaticF_numeric10FacetsChecker(::System::Xml::Schema::FacetsChecker* value);
@@ -65,6 +65,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_nonNegativeInteger", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Datatype_nonNegativeInteger(Datatype_nonNegativeInteger const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7538 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

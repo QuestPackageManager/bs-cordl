@@ -36,17 +36,17 @@ struct __UnitySynchronizationContext__WorkRequest;
 MARK_REF_PTR_T(::UnityEngine::UnitySynchronizationContext);
 MARK_VAL_T(::UnityEngine::__UnitySynchronizationContext__WorkRequest);
 // Type: ::WorkRequest
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnitySynchronizationContext::WorkRequest
 struct CORDL_TYPE __UnitySynchronizationContext__WorkRequest {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x344aea4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x483ae30, size 0xac, virtual false, abstract: false, final false
   inline void Invoke();
 
-  /// @brief Method .ctor, addr 0x344ab04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x483aa64, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SendOrPostCallback* callback, ::System::Object* state, ::System::Threading::ManualResetEvent* waitHandle);
 
   // Ctor Parameters []
@@ -67,6 +67,9 @@ public:
   /// @brief Field m_WaitHandle, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::ManualResetEvent* m_WaitHandle;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10877 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -83,7 +86,7 @@ static_assert(offsetof(::UnityEngine::__UnitySynchronizationContext__WorkRequest
 
 } // namespace UnityEngine
 // Type: UnityEngine::UnitySynchronizationContext
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::UnitySynchronizationContext*
@@ -94,11 +97,11 @@ public:
 
   /// @brief Field m_AsyncWorkQueue, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AsyncWorkQueue,
-                      put = __cordl_internal_set_m_AsyncWorkQueue))::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* m_AsyncWorkQueue;
+                      put = __cordl_internal_set_m_AsyncWorkQueue)) ::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* m_AsyncWorkQueue;
 
   /// @brief Field m_CurrentFrameWork, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CurrentFrameWork,
-                      put = __cordl_internal_set_m_CurrentFrameWork))::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* m_CurrentFrameWork;
+                      put = __cordl_internal_set_m_CurrentFrameWork)) ::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* m_CurrentFrameWork;
 
   /// @brief Field m_MainThreadID, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MainThreadID, put = __cordl_internal_set_m_MainThreadID)) int32_t m_MainThreadID;
@@ -106,38 +109,38 @@ public:
   /// @brief Field m_TrackedCount, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_TrackedCount, put = __cordl_internal_set_m_TrackedCount)) int32_t m_TrackedCount;
 
-  /// @brief Method CreateCopy, addr 0x344ac78, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CreateCopy, addr 0x483abec, size 0x64, virtual true, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* CreateCopy();
 
-  /// @brief Method Exec, addr 0x344ace4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Exec, addr 0x483ac50, size 0x1e0, virtual false, abstract: false, final false
   inline void Exec();
 
-  /// @brief Method ExecutePendingTasks, addr 0x344b090, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ExecutePendingTasks, addr 0x483b00c, size 0xec, virtual false, abstract: false, final false
   static inline bool ExecutePendingTasks(int64_t millisecondsTimeout);
 
-  /// @brief Method ExecuteTasks, addr 0x344b02c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ExecuteTasks, addr 0x483afb4, size 0x58, virtual false, abstract: false, final false
   static inline void ExecuteTasks();
 
-  /// @brief Method HasPendingTasks, addr 0x344af50, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HasPendingTasks, addr 0x483aedc, size 0x60, virtual false, abstract: false, final false
   inline bool HasPendingTasks();
 
-  /// @brief Method InitializeSynchronizationContext, addr 0x344afb0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method InitializeSynchronizationContext, addr 0x483af3c, size 0x78, virtual false, abstract: false, final false
   static inline void InitializeSynchronizationContext();
 
   static inline ::UnityEngine::UnitySynchronizationContext* New_ctor(int32_t mainThreadID);
 
   static inline ::UnityEngine::UnitySynchronizationContext* New_ctor(::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* queue, int32_t mainThreadID);
 
-  /// @brief Method OperationCompleted, addr 0x344ab1c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OperationCompleted, addr 0x483aa7c, size 0xc, virtual true, abstract: false, final false
   inline void OperationCompleted();
 
-  /// @brief Method OperationStarted, addr 0x344ab10, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OperationStarted, addr 0x483aa70, size 0xc, virtual true, abstract: false, final false
   inline void OperationStarted();
 
-  /// @brief Method Post, addr 0x344ab28, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Post, addr 0x483aa88, size 0x164, virtual true, abstract: false, final false
   inline void Post(::System::Threading::SendOrPostCallback* callback, ::System::Object* state);
 
-  /// @brief Method Send, addr 0x344a800, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method Send, addr 0x483a748, size 0x31c, virtual true, abstract: false, final false
   inline void Send(::System::Threading::SendOrPostCallback* callback, ::System::Object* state);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*& __cordl_internal_get_m_AsyncWorkQueue();
@@ -166,10 +169,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TrackedCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x344a6a8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x483a5fc, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(int32_t mainThreadID);
 
-  /// @brief Method .ctor, addr 0x344a760, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x483a6a8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* queue, int32_t mainThreadID);
 
 protected:
@@ -197,6 +200,9 @@ public:
 
   /// @brief Field m_TrackedCount, offset: 0x2c, size: 0x4, def value: None
   int32_t ___m_TrackedCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10878 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

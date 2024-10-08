@@ -13,7 +13,7 @@ class FxBaseData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FxBaseData);
 // Type: ::FxBaseData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FxBaseData*
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousEventValue(bool value);
 
-  /// @brief Method .ctor, addr 0x14c2a24, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267b4dc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue);
 
 protected:
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field usePreviousEventValue, offset: 0x14, size: 0x1, def value: None
   bool ___usePreviousEventValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12860 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

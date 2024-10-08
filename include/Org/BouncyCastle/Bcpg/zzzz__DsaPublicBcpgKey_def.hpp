@@ -30,42 +30,42 @@ class DsaPublicBcpgKey;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::DsaPublicBcpgKey);
 // Type: Org.BouncyCastle.Bcpg::DsaPublicBcpgKey
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::DsaPublicBcpgKey*
 class CORDL_TYPE DsaPublicBcpgKey : public ::Org::BouncyCastle::Bcpg::BcpgObject {
 public:
   // Declarations
-  __declspec(property(get = get_Format))::StringW Format;
+  __declspec(property(get = get_Format)) ::StringW Format;
 
-  __declspec(property(get = get_G))::Org::BouncyCastle::Math::BigInteger* G;
+  __declspec(property(get = get_G)) ::Org::BouncyCastle::Math::BigInteger* G;
 
-  __declspec(property(get = get_P))::Org::BouncyCastle::Math::BigInteger* P;
+  __declspec(property(get = get_P)) ::Org::BouncyCastle::Math::BigInteger* P;
 
-  __declspec(property(get = get_Q))::Org::BouncyCastle::Math::BigInteger* Q;
+  __declspec(property(get = get_Q)) ::Org::BouncyCastle::Math::BigInteger* Q;
 
-  __declspec(property(get = get_Y))::Org::BouncyCastle::Math::BigInteger* Y;
+  __declspec(property(get = get_Y)) ::Org::BouncyCastle::Math::BigInteger* Y;
 
   /// @brief Field g, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Org::BouncyCastle::Bcpg::MPInteger* g;
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g)) ::Org::BouncyCastle::Bcpg::MPInteger* g;
 
   /// @brief Field p, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Org::BouncyCastle::Bcpg::MPInteger* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) ::Org::BouncyCastle::Bcpg::MPInteger* p;
 
   /// @brief Field q, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Org::BouncyCastle::Bcpg::MPInteger* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q)) ::Org::BouncyCastle::Bcpg::MPInteger* q;
 
   /// @brief Field y, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y))::Org::BouncyCastle::Bcpg::MPInteger* y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) ::Org::BouncyCastle::Bcpg::MPInteger* y;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr operator ::Org::BouncyCastle::Bcpg::IBcpgKey*() noexcept;
 
-  /// @brief Method Encode, addr 0x1443cd4, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x26070b0, size 0x12c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncoded, addr 0x1443c50, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x260702c, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Bcpg::DsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -97,25 +97,25 @@ public:
 
   constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
-  /// @brief Method .ctor, addr 0x1443858, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2606c70, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x1443a64, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2606e5c, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* y);
 
-  /// @brief Method get_Format, addr 0x1443c10, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x2606fec, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
-  /// @brief Method get_G, addr 0x1443e00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x26071dc, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_P, addr 0x1443e1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0x26071f8, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q, addr 0x1443e38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0x2607214, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_Y, addr 0x1443e54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x2607230, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Y();
 
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"
@@ -146,6 +146,9 @@ public:
 
   /// @brief Field y, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::MPInteger* ___y;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 563 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ class HEU_TOPWorkResult;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TOPWorkResult);
 // Type: HoudiniEngineUnity::HEU_TOPWorkResult
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_TOPWorkResult*
@@ -27,7 +27,7 @@ class CORDL_TYPE HEU_TOPWorkResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _generatedGOs, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__generatedGOs, put = __cordl_internal_set__generatedGOs))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* _generatedGOs;
+  __declspec(property(get = __cordl_internal_get__generatedGOs, put = __cordl_internal_set__generatedGOs)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* _generatedGOs;
 
   /// @brief Field _workItemID, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__workItemID, put = __cordl_internal_set__workItemID)) int32_t _workItemID;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__workItemIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25ad158, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e8aa0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,6 +80,9 @@ public:
 
   /// @brief Field _generatedGOs, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* ____generatedGOs;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11717 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,7 +26,7 @@ class HEU_ScriptMeshInputUVLayoutExample;
 MARK_VAL_T(::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__OutputMode);
 MARK_REF_PTR_T(::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample);
 // Type: ::OutputMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::HEU_ScriptMeshInputUVLayoutExample::OutputMode
@@ -67,6 +67,9 @@ public:
   /// @brief Field REPLACE value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__OutputMode const REPLACE;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11532 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -79,7 +82,7 @@ static_assert(offsetof(::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__
 
 } // namespace GlobalNamespace
 // Type: ::HEU_ScriptMeshInputUVLayoutExample
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::HEU_ScriptMeshInputUVLayoutExample*
@@ -88,13 +91,13 @@ public:
   // Declarations
   using OutputMode = ::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__OutputMode;
 
-  /// @brief Method ApplyUVLayoutTo, addr 0x255d1c0, size 0x840, virtual false, abstract: false, final false
+  /// @brief Method ApplyUVLayoutTo, addr 0x399ae70, size 0x858, virtual false, abstract: false, final false
   static inline void ApplyUVLayoutTo(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> gameObjects,
                                      ::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__OutputMode outputMode, ::StringW output_name_suffix);
 
   static inline ::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample* New_ctor();
 
-  /// @brief Method .ctor, addr 0x255daa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399b76c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,6 +113,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ScriptMeshInputUVLayoutExample", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ScriptMeshInputUVLayoutExample(HEU_ScriptMeshInputUVLayoutExample const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11533 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

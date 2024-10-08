@@ -16,7 +16,7 @@ class BinaryCrossAppDomainMap;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap);
 // Type: System.Runtime.Serialization.Formatters.Binary::BinaryCrossAppDomainMap
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryCrossAppDomainMap*
@@ -26,12 +26,12 @@ public:
   /// @brief Field crossAppDomainArrayIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_crossAppDomainArrayIndex, put = __cordl_internal_set_crossAppDomainArrayIndex)) int32_t crossAppDomainArrayIndex;
 
-  /// @brief Method Dump, addr 0x286ffc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3c8b430, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap* New_ctor();
 
-  /// @brief Method Read, addr 0x286ffa0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x3c8b408, size 0x28, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
   constexpr int32_t const& __cordl_internal_get_crossAppDomainArrayIndex() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_crossAppDomainArrayIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x286ff98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c8b400, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,6 +59,9 @@ public:
 
   /// @brief Field crossAppDomainArrayIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___crossAppDomainArrayIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3266 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,24 +15,24 @@ class CommonUnixIPGlobalProperties;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::CommonUnixIPGlobalProperties);
 // Type: System.Net.NetworkInformation::CommonUnixIPGlobalProperties
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // CS Name: ::System.Net.NetworkInformation::CommonUnixIPGlobalProperties*
 class CORDL_TYPE CommonUnixIPGlobalProperties : public ::System::Net::NetworkInformation::IPGlobalProperties {
 public:
   // Declarations
-  __declspec(property(get = get_DomainName))::StringW DomainName;
+  __declspec(property(get = get_DomainName)) ::StringW DomainName;
 
   static inline ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3053848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43774ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DomainName, addr 0x30536cc, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method get_DomainName, addr 0x4377320, size 0x18c, virtual true, abstract: false, final false
   inline ::StringW get_DomainName();
 
-  /// @brief Method getdomainname, addr 0x3053640, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method getdomainname, addr 0x4377294, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t getdomainname(::ArrayW<uint8_t, ::Array<uint8_t>*> name, int32_t len);
 
 protected:
@@ -48,6 +48,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CommonUnixIPGlobalProperties", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CommonUnixIPGlobalProperties(CommonUnixIPGlobalProperties const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9771 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

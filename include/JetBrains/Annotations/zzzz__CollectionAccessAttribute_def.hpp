@@ -16,18 +16,18 @@ class CollectionAccessAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::CollectionAccessAttribute);
 // Type: JetBrains.Annotations::CollectionAccessAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::CollectionAccessAttribute*
 class CORDL_TYPE CollectionAccessAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_CollectionAccessType, put = set_CollectionAccessType))::JetBrains::Annotations::CollectionAccessType CollectionAccessType;
+  __declspec(property(get = get_CollectionAccessType, put = set_CollectionAccessType)) ::JetBrains::Annotations::CollectionAccessType CollectionAccessType;
 
   /// @brief Field <CollectionAccessType>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__CollectionAccessType_k__BackingField,
-                      put = __cordl_internal_set__CollectionAccessType_k__BackingField))::JetBrains::Annotations::CollectionAccessType _CollectionAccessType_k__BackingField;
+                      put = __cordl_internal_set__CollectionAccessType_k__BackingField)) ::JetBrains::Annotations::CollectionAccessType _CollectionAccessType_k__BackingField;
 
   static inline ::JetBrains::Annotations::CollectionAccessAttribute* New_ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType);
 
@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set__CollectionAccessType_k__BackingField(::JetBrains::Annotations::CollectionAccessType value);
 
-  /// @brief Method .ctor, addr 0x36516c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77f48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType);
 
-  /// @brief Method get_CollectionAccessType, addr 0x36516f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionAccessType, addr 0x4a77f70, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::CollectionAccessType get_CollectionAccessType();
 
-  /// @brief Method set_CollectionAccessType, addr 0x36516f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CollectionAccessType, addr 0x4a77f78, size 0x8, virtual false, abstract: false, final false
   inline void set_CollectionAccessType(::JetBrains::Annotations::CollectionAccessType value);
 
 protected:
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field <CollectionAccessType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::JetBrains::Annotations::CollectionAccessType ____CollectionAccessType_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18372 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

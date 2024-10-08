@@ -18,7 +18,7 @@ class DropdownUtility;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownUtility);
 // Type: UnityEngine.UIElements::DropdownUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::DropdownUtility*
@@ -26,9 +26,9 @@ class CORDL_TYPE DropdownUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Field MakeDropdownFunc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MakeDropdownFunc, put = setStaticF_MakeDropdownFunc))::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* MakeDropdownFunc;
+  static __declspec(property(get = getStaticF_MakeDropdownFunc, put = setStaticF_MakeDropdownFunc)) ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* MakeDropdownFunc;
 
-  /// @brief Method CreateDropdown, addr 0x3548134, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CreateDropdown, addr 0x49a6b1c, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IGenericMenu* CreateDropdown();
 
   static inline ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* getStaticF_MakeDropdownFunc();
@@ -48,6 +48,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DropdownUtility", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DropdownUtility(DropdownUtility const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

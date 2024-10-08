@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PerceivedLoudnessSO);
 MARK_REF_PTR_T(::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair);
 MARK_REF_PTR_T(::GlobalNamespace::__PerceivedLoudnessSO____c__DisplayClass6_0);
 // Type: ::PerceivedLevelLoudnessPair
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PerceivedLoudnessSO::PerceivedLevelLoudnessPair*
@@ -47,23 +47,23 @@ class CORDL_TYPE __PerceivedLoudnessSO__PerceivedLevelLoudnessPair : public ::Sy
 public:
   // Declarations
   /// @brief Field _checkSum, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__checkSum, put = __cordl_internal_set__checkSum))::StringW _checkSum;
+  __declspec(property(get = __cordl_internal_get__checkSum, put = __cordl_internal_set__checkSum)) ::StringW _checkSum;
 
   /// @brief Field _levelId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelId, put = __cordl_internal_set__levelId))::StringW _levelId;
+  __declspec(property(get = __cordl_internal_get__levelId, put = __cordl_internal_set__levelId)) ::StringW _levelId;
 
   /// @brief Field _perceivedLoudness, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__perceivedLoudness, put = __cordl_internal_set__perceivedLoudness)) float_t _perceivedLoudness;
 
-  __declspec(property(get = get_checksum))::StringW checksum;
+  __declspec(property(get = get_checksum)) ::StringW checksum;
 
-  __declspec(property(get = get_levelId))::StringW levelId;
+  __declspec(property(get = get_levelId)) ::StringW levelId;
 
   __declspec(property(get = get_perceivedLoudness)) float_t perceivedLoudness;
 
   static inline ::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair* New_ctor(::StringW levelId);
 
-  /// @brief Method SetLoudness, addr 0x14e8330, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetLoudness, addr 0x26a1a80, size 0xc, virtual false, abstract: false, final false
   inline void SetLoudness(float_t newPerceivedLoudness, ::StringW newChecksum);
 
   constexpr ::StringW const& __cordl_internal_get__checkSum() const;
@@ -84,16 +84,16 @@ public:
 
   constexpr void __cordl_internal_set__perceivedLoudness(float_t value);
 
-  /// @brief Method .ctor, addr 0x14e82bc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a1a0c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelId);
 
-  /// @brief Method get_checksum, addr 0x14e82b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_checksum, addr 0x26a1a04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_checksum();
 
-  /// @brief Method get_levelId, addr 0x14e82a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelId, addr 0x26a19f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelId();
 
-  /// @brief Method get_perceivedLoudness, addr 0x14e82ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_perceivedLoudness, addr 0x26a19fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_perceivedLoudness();
 
 protected:
@@ -119,6 +119,9 @@ public:
   /// @brief Field _checkSum, offset: 0x20, size: 0x8, def value: None
   ::StringW ____checkSum;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13079 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -132,7 +135,7 @@ static_assert(offsetof(::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelL
 
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass6_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PerceivedLoudnessSO::<>c__DisplayClass6_0*
@@ -140,11 +143,11 @@ class CORDL_TYPE __PerceivedLoudnessSO____c__DisplayClass6_0 : public ::System::
 public:
   // Declarations
   /// @brief Field levelId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId))::StringW levelId;
+  __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId)) ::StringW levelId;
 
   static inline ::GlobalNamespace::__PerceivedLoudnessSO____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <GetLoudnessData>b__0, addr 0x14e833c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetLoudnessData>b__0, addr 0x26a1a8c, size 0x24, virtual false, abstract: false, final false
   inline bool _GetLoudnessData_b__0(::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair* item);
 
   constexpr ::StringW const& __cordl_internal_get_levelId() const;
@@ -153,7 +156,7 @@ public:
 
   constexpr void __cordl_internal_set_levelId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14e8210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a1950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -173,6 +176,9 @@ public:
   /// @brief Field levelId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___levelId;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13080 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -182,7 +188,7 @@ static_assert(offsetof(::GlobalNamespace::__PerceivedLoudnessSO____c__DisplayCla
 
 } // namespace GlobalNamespace
 // Type: ::PerceivedLoudnessSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PerceivedLoudnessSO*
@@ -195,20 +201,21 @@ public:
 
   /// @brief Field _perceivedLoudnessPerLevel, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__perceivedLoudnessPerLevel,
-                      put = __cordl_internal_set__perceivedLoudnessPerLevel))::ArrayW<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*,
-                                                                                      ::Array<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*>*> _perceivedLoudnessPerLevel;
+                      put = __cordl_internal_set__perceivedLoudnessPerLevel)) ::ArrayW<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*,
+                                                                                       ::Array<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*>*>
+      _perceivedLoudnessPerLevel;
 
-  __declspec(property(get = get_perceivedLoudnessPairs))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*>* perceivedLoudnessPairs;
+  __declspec(property(get = get_perceivedLoudnessPairs)) ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*>* perceivedLoudnessPairs;
 
-  /// @brief Method GetLoudnessData, addr 0x14e80fc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetLoudnessData, addr 0x26a1840, size 0x110, virtual false, abstract: false, final false
   inline ::System::Nullable_1<float_t> GetLoudnessData(::StringW levelId);
 
   static inline ::GlobalNamespace::PerceivedLoudnessSO* New_ctor();
 
-  /// @brief Method SetLoudnessData, addr 0x14e80a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetLoudnessData, addr 0x26a17e4, size 0x5c, virtual false, abstract: false, final false
   inline void SetLoudnessData(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*>* loudnessPairs);
 
-  /// @brief Method ToDictionary, addr 0x14e7fc0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ToDictionary, addr 0x26a1704, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*>* ToDictionary();
 
   constexpr ::ArrayW<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*, ::Array<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*>*> const&
@@ -220,10 +227,10 @@ public:
   constexpr void __cordl_internal_set__perceivedLoudnessPerLevel(
       ::ArrayW<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*, ::Array<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*>*> value);
 
-  /// @brief Method .ctor, addr 0x14e8218, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a1958, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_perceivedLoudnessPairs, addr 0x14e7fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_perceivedLoudnessPairs, addr 0x26a16fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*>* get_perceivedLoudnessPairs();
 
 protected:
@@ -242,6 +249,9 @@ public:
 
   /// @brief Field _perceivedLoudnessPerLevel, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*, ::Array<::GlobalNamespace::__PerceivedLoudnessSO__PerceivedLevelLoudnessPair*>*> ____perceivedLoudnessPerLevel;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13081 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

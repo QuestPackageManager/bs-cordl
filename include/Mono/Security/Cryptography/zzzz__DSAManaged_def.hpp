@@ -40,19 +40,19 @@ class __DSAManaged__KeyGeneratedEventHandler;
 MARK_REF_PTR_T(::Mono::Security::Cryptography::DSAManaged);
 MARK_REF_PTR_T(::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler);
 // Type: ::KeyGeneratedEventHandler
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // CS Name: ::DSAManaged::KeyGeneratedEventHandler*
 class CORDL_TYPE __DSAManaged__KeyGeneratedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x27d378c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3bf53a4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::EventArgs* e);
 
   static inline ::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x27d365c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf52a0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -69,6 +69,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DSAManaged__KeyGeneratedEventHandler(__DSAManaged__KeyGeneratedEventHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2285 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -76,7 +79,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::__
 
 } // namespace Mono::Security::Cryptography
 // Type: Mono.Security.Cryptography::DSAManaged
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // CS Name: ::Mono.Security.Cryptography::DSAManaged*
@@ -86,22 +89,22 @@ public:
   using KeyGeneratedEventHandler = ::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler;
 
   /// @brief Field KeyGenerated, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_KeyGenerated, put = __cordl_internal_set_KeyGenerated))::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* KeyGenerated;
+  __declspec(property(get = __cordl_internal_get_KeyGenerated, put = __cordl_internal_set_KeyGenerated)) ::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* KeyGenerated;
 
   __declspec(property(get = get_KeySize)) int32_t KeySize;
 
   __declspec(property(get = get_PublicOnly)) bool PublicOnly;
 
-  __declspec(property(get = get_Random))::System::Security::Cryptography::RandomNumberGenerator* Random;
+  __declspec(property(get = get_Random)) ::System::Security::Cryptography::RandomNumberGenerator* Random;
 
   /// @brief Field counter, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_counter, put = __cordl_internal_set_counter)) int32_t counter;
 
   /// @brief Field g, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Mono::Math::BigInteger* g;
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g)) ::Mono::Math::BigInteger* g;
 
   /// @brief Field j, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_j, put = __cordl_internal_set_j))::Mono::Math::BigInteger* j;
+  __declspec(property(get = __cordl_internal_get_j, put = __cordl_internal_set_j)) ::Mono::Math::BigInteger* j;
 
   /// @brief Field j_missing, offset 0x64, size 0x1
   __declspec(property(get = __cordl_internal_get_j_missing, put = __cordl_internal_set_j_missing)) bool j_missing;
@@ -113,50 +116,50 @@ public:
   __declspec(property(get = __cordl_internal_get_m_disposed, put = __cordl_internal_set_m_disposed)) bool m_disposed;
 
   /// @brief Field p, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Mono::Math::BigInteger* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) ::Mono::Math::BigInteger* p;
 
   /// @brief Field q, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Mono::Math::BigInteger* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q)) ::Mono::Math::BigInteger* q;
 
   /// @brief Field rng, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_rng, put = __cordl_internal_set_rng))::System::Security::Cryptography::RandomNumberGenerator* rng;
+  __declspec(property(get = __cordl_internal_get_rng, put = __cordl_internal_set_rng)) ::System::Security::Cryptography::RandomNumberGenerator* rng;
 
   /// @brief Field seed, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed))::Mono::Math::BigInteger* seed;
+  __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed)) ::Mono::Math::BigInteger* seed;
 
   /// @brief Field x, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::Mono::Math::BigInteger* x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) ::Mono::Math::BigInteger* x;
 
   /// @brief Field y, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y))::Mono::Math::BigInteger* y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) ::Mono::Math::BigInteger* y;
 
-  /// @brief Method Dispose, addr 0x27d3354, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3bf4f98, size 0x1d0, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method ExportParameters, addr 0x27d2908, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method ExportParameters, addr 0x3bf45b8, size 0x26c, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::DSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method Finalize, addr 0x27d1bbc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3bf3874, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Generate, addr 0x27d1c5c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x3bf3914, size 0x4c, virtual false, abstract: false, final false
   inline void Generate();
 
-  /// @brief Method GenerateKeyPair, addr 0x27d21d0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GenerateKeyPair, addr 0x3bf3e88, size 0xe0, virtual false, abstract: false, final false
   inline void GenerateKeyPair();
 
-  /// @brief Method GenerateParams, addr 0x27d1ca8, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method GenerateParams, addr 0x3bf3960, size 0x528, virtual false, abstract: false, final false
   inline void GenerateParams(int32_t keyLength);
 
-  /// @brief Method ImportParameters, addr 0x27d2bec, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method ImportParameters, addr 0x3bf4890, size 0x27c, virtual true, abstract: false, final false
   inline void ImportParameters(::System::Security::Cryptography::DSAParameters parameters);
 
   static inline ::Mono::Security::Cryptography::DSAManaged* New_ctor(int32_t dwKeySize);
 
-  /// @brief Method NormalizeArray, addr 0x27d2864, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NormalizeArray, addr 0x3bf4514, size 0xa4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> NormalizeArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 
-  /// @brief Method VerifySignature, addr 0x27d2e94, size 0x4c0, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3bf4b0c, size 0x48c, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
   constexpr ::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler*& __cordl_internal_get_KeyGenerated();
@@ -237,25 +240,25 @@ public:
 
   constexpr void __cordl_internal_set_y(::Mono::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x27d1adc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf37b8, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(int32_t dwKeySize);
 
-  /// @brief Method add, addr 0x27d23ec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method add, addr 0x3bf40a4, size 0x9c, virtual false, abstract: false, final false
   inline void add(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t value);
 
-  /// @brief Method add_KeyGenerated, addr 0x27d3524, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_KeyGenerated, addr 0x3bf5168, size 0x9c, virtual false, abstract: false, final false
   inline void add_KeyGenerated(::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* value);
 
-  /// @brief Method get_KeySize, addr 0x27d27c4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x3bf4474, size 0x2c, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_PublicOnly, addr 0x27d27f0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_PublicOnly, addr 0x3bf44a0, size 0x74, virtual false, abstract: false, final false
   inline bool get_PublicOnly();
 
-  /// @brief Method get_Random, addr 0x27d2490, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Random, addr 0x3bf4140, size 0x20, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::RandomNumberGenerator* get_Random();
 
-  /// @brief Method remove_KeyGenerated, addr 0x27d35c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_KeyGenerated, addr 0x3bf5204, size 0x9c, virtual false, abstract: false, final false
   inline void remove_KeyGenerated(::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* value);
 
 protected:
@@ -310,6 +313,9 @@ public:
 
   /// @brief Field KeyGenerated, offset: 0x70, size: 0x8, def value: None
   ::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* ___KeyGenerated;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2286 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

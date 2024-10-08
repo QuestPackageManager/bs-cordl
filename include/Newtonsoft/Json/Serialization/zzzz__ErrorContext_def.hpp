@@ -19,39 +19,39 @@ class ErrorContext;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ErrorContext);
 // Type: Newtonsoft.Json.Serialization::ErrorContext
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Serialization::ErrorContext*
 class CORDL_TYPE ErrorContext : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Error))::System::Exception* Error;
+  __declspec(property(get = get_Error)) ::System::Exception* Error;
 
   __declspec(property(get = get_Handled, put = set_Handled)) bool Handled;
 
-  __declspec(property(get = get_Member))::System::Object* Member;
+  __declspec(property(get = get_Member)) ::System::Object* Member;
 
-  __declspec(property(get = get_OriginalObject))::System::Object* OriginalObject;
+  __declspec(property(get = get_OriginalObject)) ::System::Object* OriginalObject;
 
-  __declspec(property(get = get_Path))::StringW Path;
+  __declspec(property(get = get_Path)) ::StringW Path;
 
   __declspec(property(get = get_Traced, put = set_Traced)) bool Traced;
 
   /// @brief Field <Error>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Error_k__BackingField, put = __cordl_internal_set__Error_k__BackingField))::System::Exception* _Error_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Error_k__BackingField, put = __cordl_internal_set__Error_k__BackingField)) ::System::Exception* _Error_k__BackingField;
 
   /// @brief Field <Handled>k__BackingField, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__Handled_k__BackingField, put = __cordl_internal_set__Handled_k__BackingField)) bool _Handled_k__BackingField;
 
   /// @brief Field <Member>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__Member_k__BackingField, put = __cordl_internal_set__Member_k__BackingField))::System::Object* _Member_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Member_k__BackingField, put = __cordl_internal_set__Member_k__BackingField)) ::System::Object* _Member_k__BackingField;
 
   /// @brief Field <OriginalObject>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__OriginalObject_k__BackingField, put = __cordl_internal_set__OriginalObject_k__BackingField))::System::Object* _OriginalObject_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__OriginalObject_k__BackingField, put = __cordl_internal_set__OriginalObject_k__BackingField)) ::System::Object* _OriginalObject_k__BackingField;
 
   /// @brief Field <Path>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__Path_k__BackingField, put = __cordl_internal_set__Path_k__BackingField))::StringW _Path_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Path_k__BackingField, put = __cordl_internal_set__Path_k__BackingField)) ::StringW _Path_k__BackingField;
 
   /// @brief Field <Traced>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__Traced_k__BackingField, put = __cordl_internal_set__Traced_k__BackingField)) bool _Traced_k__BackingField;
@@ -94,31 +94,31 @@ public:
 
   constexpr void __cordl_internal_set__Traced_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x2a5ec88, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6ef48, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* originalObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
 
-  /// @brief Method get_Error, addr 0x2a5ecdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x3e6ef9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_Error();
 
-  /// @brief Method get_Handled, addr 0x2a5ecfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handled, addr 0x3e6efbc, size 0x8, virtual false, abstract: false, final false
   inline bool get_Handled();
 
-  /// @brief Method get_Member, addr 0x2a5ecec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x3e6efac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Member();
 
-  /// @brief Method get_OriginalObject, addr 0x2a5ece4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalObject, addr 0x3e6efa4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_OriginalObject();
 
-  /// @brief Method get_Path, addr 0x2a5ecf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3e6efb4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_Traced, addr 0x2a5ecc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Traced, addr 0x3e6ef88, size 0x8, virtual false, abstract: false, final false
   inline bool get_Traced();
 
-  /// @brief Method set_Handled, addr 0x2a5ed04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Handled, addr 0x3e6efc4, size 0xc, virtual false, abstract: false, final false
   inline void set_Handled(bool value);
 
-  /// @brief Method set_Traced, addr 0x2a5ecd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Traced, addr 0x3e6ef90, size 0xc, virtual false, abstract: false, final false
   inline void set_Traced(bool value);
 
 protected:
@@ -152,6 +152,9 @@ public:
 
   /// @brief Field <Handled>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____Handled_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10268 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,17 +23,17 @@ class OperationCanceledException;
 // Write type traits
 MARK_REF_PTR_T(::System::OperationCanceledException);
 // Type: System::OperationCanceledException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::OperationCanceledException*
 class CORDL_TYPE OperationCanceledException : public ::System::SystemException {
 public:
   // Declarations
-  __declspec(property(get = get_CancellationToken, put = set_CancellationToken))::System::Threading::CancellationToken CancellationToken;
+  __declspec(property(get = get_CancellationToken, put = set_CancellationToken)) ::System::Threading::CancellationToken CancellationToken;
 
   /// @brief Field _cancellationToken, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__cancellationToken, put = __cordl_internal_set__cancellationToken))::System::Threading::CancellationToken _cancellationToken;
+  __declspec(property(get = __cordl_internal_get__cancellationToken, put = __cordl_internal_set__cancellationToken)) ::System::Threading::CancellationToken _cancellationToken;
 
   static inline ::System::OperationCanceledException* New_ctor();
 
@@ -49,22 +49,22 @@ public:
 
   constexpr void __cordl_internal_set__cancellationToken(::System::Threading::CancellationToken value);
 
-  /// @brief Method .ctor, addr 0x2972c40, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d84768, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2972d60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d84888, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2972d10, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d84838, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2972d30, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d84858, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Threading::CancellationToken token);
 
-  /// @brief Method get_CancellationToken, addr 0x2972c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CancellationToken, addr 0x3d84758, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationToken get_CancellationToken();
 
-  /// @brief Method set_CancellationToken, addr 0x2972c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CancellationToken, addr 0x3d84760, size 0x8, virtual false, abstract: false, final false
   inline void set_CancellationToken(::System::Threading::CancellationToken value);
 
 protected:
@@ -83,6 +83,9 @@ public:
 
   /// @brief Field _cancellationToken, offset: 0x90, size: 0x8, def value: None
   ::System::Threading::CancellationToken ____cancellationToken;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2454 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

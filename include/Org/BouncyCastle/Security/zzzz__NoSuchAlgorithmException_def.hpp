@@ -16,7 +16,7 @@ class NoSuchAlgorithmException;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Security::NoSuchAlgorithmException);
 // Type: Org.BouncyCastle.Security::NoSuchAlgorithmException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Security::NoSuchAlgorithmException*
@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::NoSuchAlgorithmException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x13a3ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256d0f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x13a3eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256d100, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x13a3eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256d108, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:
@@ -51,6 +51,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NoSuchAlgorithmException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NoSuchAlgorithmException(NoSuchAlgorithmException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

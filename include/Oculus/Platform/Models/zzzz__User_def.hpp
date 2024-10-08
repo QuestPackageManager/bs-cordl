@@ -18,7 +18,7 @@ class User;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::User);
 // Type: Oculus.Platform.Models::User
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::User*
@@ -26,34 +26,34 @@ class CORDL_TYPE User : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DisplayName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_DisplayName, put = __cordl_internal_set_DisplayName))::StringW DisplayName;
+  __declspec(property(get = __cordl_internal_get_DisplayName, put = __cordl_internal_set_DisplayName)) ::StringW DisplayName;
 
   /// @brief Field ImageURL, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_ImageURL, put = __cordl_internal_set_ImageURL))::StringW ImageURL;
+  __declspec(property(get = __cordl_internal_get_ImageURL, put = __cordl_internal_set_ImageURL)) ::StringW ImageURL;
 
   /// @brief Field OculusID, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_OculusID, put = __cordl_internal_set_OculusID))::StringW OculusID;
+  __declspec(property(get = __cordl_internal_get_OculusID, put = __cordl_internal_set_OculusID)) ::StringW OculusID;
 
   /// @brief Field Presence, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_Presence, put = __cordl_internal_set_Presence))::StringW Presence;
+  __declspec(property(get = __cordl_internal_get_Presence, put = __cordl_internal_set_Presence)) ::StringW Presence;
 
   /// @brief Field PresenceDeeplinkMessage, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_PresenceDeeplinkMessage, put = __cordl_internal_set_PresenceDeeplinkMessage))::StringW PresenceDeeplinkMessage;
+  __declspec(property(get = __cordl_internal_get_PresenceDeeplinkMessage, put = __cordl_internal_set_PresenceDeeplinkMessage)) ::StringW PresenceDeeplinkMessage;
 
   /// @brief Field PresenceDestinationApiName, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_PresenceDestinationApiName, put = __cordl_internal_set_PresenceDestinationApiName))::StringW PresenceDestinationApiName;
+  __declspec(property(get = __cordl_internal_get_PresenceDestinationApiName, put = __cordl_internal_set_PresenceDestinationApiName)) ::StringW PresenceDestinationApiName;
 
   /// @brief Field PresenceLobbySessionId, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_PresenceLobbySessionId, put = __cordl_internal_set_PresenceLobbySessionId))::StringW PresenceLobbySessionId;
+  __declspec(property(get = __cordl_internal_get_PresenceLobbySessionId, put = __cordl_internal_set_PresenceLobbySessionId)) ::StringW PresenceLobbySessionId;
 
   /// @brief Field PresenceMatchSessionId, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_PresenceMatchSessionId, put = __cordl_internal_set_PresenceMatchSessionId))::StringW PresenceMatchSessionId;
+  __declspec(property(get = __cordl_internal_get_PresenceMatchSessionId, put = __cordl_internal_set_PresenceMatchSessionId)) ::StringW PresenceMatchSessionId;
 
   /// @brief Field PresenceStatus, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_PresenceStatus, put = __cordl_internal_set_PresenceStatus))::Oculus::Platform::UserPresenceStatus PresenceStatus;
+  __declspec(property(get = __cordl_internal_get_PresenceStatus, put = __cordl_internal_set_PresenceStatus)) ::Oculus::Platform::UserPresenceStatus PresenceStatus;
 
   /// @brief Field SmallImageUrl, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_SmallImageUrl, put = __cordl_internal_set_SmallImageUrl))::StringW SmallImageUrl;
+  __declspec(property(get = __cordl_internal_get_SmallImageUrl, put = __cordl_internal_set_SmallImageUrl)) ::StringW SmallImageUrl;
 
   /// @brief Field ID, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2b0e3a0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f197c8, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -175,6 +175,9 @@ public:
 
   /// @brief Field SmallImageUrl, offset: 0x60, size: 0x8, def value: None
   ::StringW ___SmallImageUrl;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15523 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

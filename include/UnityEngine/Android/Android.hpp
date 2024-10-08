@@ -3,6 +3,7 @@ module;
 #endif
 
 #pragma once
+#include "UnityEngine/Android/AndroidApp.hpp"
 #include "UnityEngine/Android/AndroidAssetPackError.hpp"
 #include "UnityEngine/Android/AndroidAssetPackInfo.hpp"
 #include "UnityEngine/Android/AndroidAssetPackState.hpp"

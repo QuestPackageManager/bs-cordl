@@ -22,25 +22,25 @@ class BadCutsMissionObjectiveChecker;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BadCutsMissionObjectiveChecker);
 // Type: ::BadCutsMissionObjectiveChecker
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BadCutsMissionObjectiveChecker*
 class CORDL_TYPE BadCutsMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
   // Declarations
-  /// @brief Field _beatmapObjectManager, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  /// @brief Field _beatmapObjectManager, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
-  /// @brief Method HandleNoteWasCut, addr 0x2717548, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x3b3792c, size 0x8c, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method Init, addr 0x2717328, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3b3771c, size 0x144, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::BadCutsMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x27174b0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b3789c, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  /// @brief Method .ctor, addr 0x2717714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b37af8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,15 +66,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BadCutsMissionObjectiveChecker(BadCutsMissionObjectiveChecker const&) = delete;
 
-  /// @brief Field _beatmapObjectManager, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _beatmapObjectManager, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4444 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BadCutsMissionObjectiveChecker, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BadCutsMissionObjectiveChecker, 0x58>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BadCutsMissionObjectiveChecker, ____beatmapObjectManager) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BadCutsMissionObjectiveChecker, ____beatmapObjectManager) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BadCutsMissionObjectiveChecker);

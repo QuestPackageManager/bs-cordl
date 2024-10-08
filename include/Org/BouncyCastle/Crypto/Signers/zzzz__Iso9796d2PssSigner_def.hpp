@@ -33,23 +33,23 @@ class Iso9796d2PssSigner;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner);
 // Type: Org.BouncyCastle.Crypto.Signers::Iso9796d2PssSigner
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::Iso9796d2PssSigner*
 class CORDL_TYPE Iso9796d2PssSigner : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field block, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_block, put = __cordl_internal_set_block))::ArrayW<uint8_t, ::Array<uint8_t>*> block;
+  __declspec(property(get = __cordl_internal_get_block, put = __cordl_internal_set_block)) ::ArrayW<uint8_t, ::Array<uint8_t>*> block;
 
   /// @brief Field cipher, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher)) ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher;
 
   /// @brief Field digest, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest)) ::Org::BouncyCastle::Crypto::IDigest* digest;
 
   /// @brief Field fullMessage, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_fullMessage, put = __cordl_internal_set_fullMessage)) bool fullMessage;
@@ -61,34 +61,34 @@ public:
   __declspec(property(get = __cordl_internal_get_keyBits, put = __cordl_internal_set_keyBits)) int32_t keyBits;
 
   /// @brief Field mBuf, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_mBuf, put = __cordl_internal_set_mBuf))::ArrayW<uint8_t, ::Array<uint8_t>*> mBuf;
+  __declspec(property(get = __cordl_internal_get_mBuf, put = __cordl_internal_set_mBuf)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mBuf;
 
   /// @brief Field messageLength, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_messageLength, put = __cordl_internal_set_messageLength)) int32_t messageLength;
 
   /// @brief Field preBlock, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_preBlock, put = __cordl_internal_set_preBlock))::ArrayW<uint8_t, ::Array<uint8_t>*> preBlock;
+  __declspec(property(get = __cordl_internal_get_preBlock, put = __cordl_internal_set_preBlock)) ::ArrayW<uint8_t, ::Array<uint8_t>*> preBlock;
 
   /// @brief Field preMStart, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_preMStart, put = __cordl_internal_set_preMStart)) int32_t preMStart;
 
   /// @brief Field preSig, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_preSig, put = __cordl_internal_set_preSig))::ArrayW<uint8_t, ::Array<uint8_t>*> preSig;
+  __declspec(property(get = __cordl_internal_get_preSig, put = __cordl_internal_set_preSig)) ::ArrayW<uint8_t, ::Array<uint8_t>*> preSig;
 
   /// @brief Field preTLength, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get_preTLength, put = __cordl_internal_set_preTLength)) int32_t preTLength;
 
   /// @brief Field random, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Field recoveredMessage, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_recoveredMessage, put = __cordl_internal_set_recoveredMessage))::ArrayW<uint8_t, ::Array<uint8_t>*> recoveredMessage;
+  __declspec(property(get = __cordl_internal_get_recoveredMessage, put = __cordl_internal_set_recoveredMessage)) ::ArrayW<uint8_t, ::Array<uint8_t>*> recoveredMessage;
 
   /// @brief Field saltLength, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get_saltLength, put = __cordl_internal_set_saltLength)) int32_t saltLength;
 
   /// @brief Field standardSalt, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_standardSalt, put = __cordl_internal_set_standardSalt))::ArrayW<uint8_t, ::Array<uint8_t>*> standardSalt;
+  __declspec(property(get = __cordl_internal_get_standardSalt, put = __cordl_internal_set_standardSalt)) ::ArrayW<uint8_t, ::Array<uint8_t>*> standardSalt;
 
   /// @brief Field trailer, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_trailer, put = __cordl_internal_set_trailer)) int32_t trailer;
@@ -99,34 +99,34 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISignerWithRecovery"
   constexpr operator ::Org::BouncyCastle::Crypto::ISignerWithRecovery*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x11c1468, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x2397154, size 0x144, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method ClearBlock, addr 0x11c0a88, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ClearBlock, addr 0x2396764, size 0x24, virtual false, abstract: false, final false
   inline void ClearBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> block);
 
-  /// @brief Method GenerateSignature, addr 0x11c1694, size 0x6d0, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x239737c, size 0x6c8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method GetRecoveredMessage, addr 0x11c00c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetRecoveredMessage, addr 0x2395da8, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRecoveredMessage();
 
-  /// @brief Method HasFullMessage, addr 0x11c2464, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HasFullMessage, addr 0x2398168, size 0x8, virtual true, abstract: false, final false
   inline bool HasFullMessage();
 
-  /// @brief Method Init, addr 0x11c0604, size 0x404, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23962e0, size 0x404, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method IsSameAs, addr 0x11c0a08, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsSameAs, addr 0x23966e4, size 0x80, virtual false, abstract: false, final false
   inline bool IsSameAs(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method ItoOSP, addr 0x11c246c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ItoOSP, addr 0x2398170, size 0x54, virtual false, abstract: false, final false
   inline void ItoOSP(int32_t i, ::ArrayW<uint8_t, ::Array<uint8_t>*> sp);
 
-  /// @brief Method LtoOSP, addr 0x11c1d64, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method LtoOSP, addr 0x2397a44, size 0x94, virtual false, abstract: false, final false
   inline void LtoOSP(int64_t l, ::ArrayW<uint8_t, ::Array<uint8_t>*> sp);
 
-  /// @brief Method MaskGeneratorFunction1, addr 0x11c0f20, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method MaskGeneratorFunction1, addr 0x2396c0c, size 0x454, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> MaskGeneratorFunction1(::ArrayW<uint8_t, ::Array<uint8_t>*> Z, int32_t zOff, int32_t zLen, int32_t length);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest,
@@ -135,16 +135,16 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest,
                                                                                    int32_t saltLength, bool isImplicit);
 
-  /// @brief Method Reset, addr 0x11c15b0, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2397298, size 0xe4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x11c1374, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x2397060, size 0xf4, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method UpdateWithRecoveredMessage, addr 0x11c0aac, size 0x474, virtual true, abstract: false, final false
+  /// @brief Method UpdateWithRecoveredMessage, addr 0x2396788, size 0x484, virtual true, abstract: false, final false
   inline void UpdateWithRecoveredMessage(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method VerifySignature, addr 0x11c1df8, size 0x66c, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x2397ad8, size 0x690, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_block() const;
@@ -249,13 +249,13 @@ public:
 
   constexpr void __cordl_internal_set_trailer(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11c053c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2396218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, int32_t saltLength);
 
-  /// @brief Method .ctor, addr 0x11c00d0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2395db0, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, int32_t saltLength, bool isImplicit);
 
-  /// @brief Method get_AlgorithmName, addr 0x11c0544, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2396220, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
@@ -352,6 +352,9 @@ public:
 
   /// @brief Field TrailerWhirlpool offset 0xffffffff size 0x4
   static constexpr int32_t TrailerWhirlpool{ static_cast<int32_t>(0x37cc) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1146 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

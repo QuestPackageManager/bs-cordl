@@ -25,7 +25,7 @@ class NtlmSession;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Http::NtlmSession);
 // Type: Mono.Http::NtlmSession
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Http {
 // Is value type: false
 // CS Name: ::Mono.Http::NtlmSession*
@@ -33,9 +33,9 @@ class CORDL_TYPE NtlmSession : public ::System::Object {
 public:
   // Declarations
   /// @brief Field message, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message))::Mono::Security::Protocol::Ntlm::MessageBase* message;
+  __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message)) ::Mono::Security::Protocol::Ntlm::MessageBase* message;
 
-  /// @brief Method Authenticate, addr 0x2ca064c, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method Authenticate, addr 0x40a165c, size 0x478, virtual false, abstract: false, final false
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   static inline ::Mono::Http::NtlmSession* New_ctor();
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_message(::Mono::Security::Protocol::Ntlm::MessageBase* value);
 
-  /// @brief Method .ctor, addr 0x2ca0644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a1654, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field message, offset: 0x10, size: 0x8, def value: None
   ::Mono::Security::Protocol::Ntlm::MessageBase* ___message;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9135 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

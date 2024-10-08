@@ -80,19 +80,19 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIElementsRuntimeUtility);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__UIElementsRuntimeUtility__CreateRuntimePanelDelegate);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__UIElementsRuntimeUtility____c);
 // Type: ::CreateRuntimePanelDelegate
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UIElementsRuntimeUtility::CreateRuntimePanelDelegate*
 class CORDL_TYPE __UIElementsRuntimeUtility__CreateRuntimePanelDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x359d558, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4a22974, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseRuntimePanel* Invoke(::UnityEngine::ScriptableObject* ownerObject);
 
   static inline ::UnityEngine::UIElements::__UIElementsRuntimeUtility__CreateRuntimePanelDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x359d42c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a22874, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -109,6 +109,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UIElementsRuntimeUtility__CreateRuntimePanelDelegate(__UIElementsRuntimeUtility__CreateRuntimePanelDelegate const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6177 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -116,7 +119,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UIEle
 
 } // namespace UnityEngine::UIElements
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UIElementsRuntimeUtility::<>c*
@@ -124,32 +127,32 @@ class CORDL_TYPE __UIElementsRuntimeUtility____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::UIElements::__UIElementsRuntimeUtility____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__UIElementsRuntimeUtility____c* __9;
 
-  /// @brief Field <>9__46_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__46_0, put = setStaticF___9__46_0))::System::Comparison_1<::UnityEngine::UIElements::Panel*>* __9__46_0;
+  /// @brief Field <>9__48_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__48_0, put = setStaticF___9__48_0)) ::System::Comparison_1<::UnityEngine::UIElements::Panel*>* __9__48_0;
 
   static inline ::UnityEngine::UIElements::__UIElementsRuntimeUtility____c* New_ctor();
 
-  /// @brief Method <SortPanels>b__46_0, addr 0x359d640, size 0x170, virtual false, abstract: false, final false
-  inline int32_t _SortPanels_b__46_0(::UnityEngine::UIElements::Panel* a, ::UnityEngine::UIElements::Panel* b);
+  /// @brief Method <SortPanels>b__48_0, addr 0x4a22a54, size 0x160, virtual false, abstract: false, final false
+  inline int32_t _SortPanels_b__48_0(::UnityEngine::UIElements::Panel* a, ::UnityEngine::UIElements::Panel* b);
 
-  /// @brief Method <.cctor>b__9_0, addr 0x359d5d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__9_0, addr 0x4a229ec, size 0x4, virtual false, abstract: false, final false
   inline void __cctor_b__9_0();
 
-  /// @brief Method <.cctor>b__9_1, addr 0x359d5dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__9_1, addr 0x4a229f0, size 0x64, virtual false, abstract: false, final false
   inline void __cctor_b__9_1(int32_t displayIndex, int32_t sortOrder);
 
-  /// @brief Method .ctor, addr 0x359d5d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a229e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__UIElementsRuntimeUtility____c* getStaticF___9();
 
-  static inline ::System::Comparison_1<::UnityEngine::UIElements::Panel*>* getStaticF___9__46_0();
+  static inline ::System::Comparison_1<::UnityEngine::UIElements::Panel*>* getStaticF___9__48_0();
 
   static inline void setStaticF___9(::UnityEngine::UIElements::__UIElementsRuntimeUtility____c* value);
 
-  static inline void setStaticF___9__46_0(::System::Comparison_1<::UnityEngine::UIElements::Panel*>* value);
+  static inline void setStaticF___9__48_0(::System::Comparison_1<::UnityEngine::UIElements::Panel*>* value);
 
 protected:
   // Ctor Parameters []
@@ -165,6 +168,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UIElementsRuntimeUtility____c(__UIElementsRuntimeUtility____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6178 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -172,7 +178,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UIEle
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::UIElementsRuntimeUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::UIElementsRuntimeUtility*
@@ -184,110 +190,116 @@ public:
   using __c = ::UnityEngine::UIElements::__UIElementsRuntimeUtility____c;
 
   /// @brief Field <activeEventSystem>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__activeEventSystem_k__BackingField,
-                             put = setStaticF__activeEventSystem_k__BackingField))::UnityW<::UnityEngine::Object> _activeEventSystem_k__BackingField;
+  static __declspec(property(get = getStaticF__activeEventSystem_k__BackingField, put = setStaticF__activeEventSystem_k__BackingField)) ::UnityW<::UnityEngine::Object>
+      _activeEventSystem_k__BackingField;
 
   /// @brief Field currentOverlayIndex, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_currentOverlayIndex, put = setStaticF_currentOverlayIndex)) int32_t currentOverlayIndex;
 
   /// @brief Field onCreatePanel, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_onCreatePanel, put = setStaticF_onCreatePanel))::System::Action_1<::UnityEngine::UIElements::BaseRuntimePanel*>* onCreatePanel;
+  static __declspec(property(get = getStaticF_onCreatePanel, put = setStaticF_onCreatePanel)) ::System::Action_1<::UnityEngine::UIElements::BaseRuntimePanel*>* onCreatePanel;
 
   /// @brief Field s_DefaultEventSystem, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultEventSystem, put = setStaticF_s_DefaultEventSystem))::UnityEngine::UIElements::DefaultEventSystem* s_DefaultEventSystem;
+  static __declspec(property(get = getStaticF_s_DefaultEventSystem, put = setStaticF_s_DefaultEventSystem)) ::UnityEngine::UIElements::DefaultEventSystem* s_DefaultEventSystem;
 
   /// @brief Field s_PanelOrderingDirty, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_s_PanelOrderingDirty, put = setStaticF_s_PanelOrderingDirty)) bool s_PanelOrderingDirty;
 
   /// @brief Field s_PotentiallyEmptyPanelSettings, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_s_PotentiallyEmptyPanelSettings,
-               put = setStaticF_s_PotentiallyEmptyPanelSettings))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::PanelSettings>>* s_PotentiallyEmptyPanelSettings;
+  static __declspec(property(
+      get = getStaticF_s_PotentiallyEmptyPanelSettings,
+      put = setStaticF_s_PotentiallyEmptyPanelSettings)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::PanelSettings>>* s_PotentiallyEmptyPanelSettings;
 
   /// @brief Field s_RegisteredPlayerloopCallback, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_s_RegisteredPlayerloopCallback, put = setStaticF_s_RegisteredPlayerloopCallback)) bool s_RegisteredPlayerloopCallback;
 
   /// @brief Field s_RepaintProfilerMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_RepaintProfilerMarker, put = setStaticF_s_RepaintProfilerMarker))::Unity::Profiling::ProfilerMarker s_RepaintProfilerMarker;
+  static __declspec(property(get = getStaticF_s_RepaintProfilerMarker, put = setStaticF_s_RepaintProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_RepaintProfilerMarker;
 
   /// @brief Field s_RepaintProfilerMarkerName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_RepaintProfilerMarkerName, put = setStaticF_s_RepaintProfilerMarkerName))::StringW s_RepaintProfilerMarkerName;
+  static __declspec(property(get = getStaticF_s_RepaintProfilerMarkerName, put = setStaticF_s_RepaintProfilerMarkerName)) ::StringW s_RepaintProfilerMarkerName;
+
+  /// @brief Field s_ResolvedSortingIndexMax, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_s_ResolvedSortingIndexMax, put = setStaticF_s_ResolvedSortingIndexMax)) int32_t s_ResolvedSortingIndexMax;
 
   /// @brief Field s_SortedRuntimePanels, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_SortedRuntimePanels,
-                             put = setStaticF_s_SortedRuntimePanels))::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>* s_SortedRuntimePanels;
+                             put = setStaticF_s_SortedRuntimePanels)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>* s_SortedRuntimePanels;
 
-  /// @brief Method BeginRenderOverlays, addr 0x359c22c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method BeginRenderOverlays, addr 0x4a215d8, size 0x58, virtual false, abstract: false, final false
   static inline void BeginRenderOverlays(int32_t displayIndex);
 
-  /// @brief Method CreateEvent, addr 0x359ba4c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent, addr 0x4a205b8, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventBase* CreateEvent(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method DisposeRuntimePanel, addr 0x359beb0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method DisposeRuntimePanel, addr 0x4a20da4, size 0xd0, virtual false, abstract: false, final false
   static inline void DisposeRuntimePanel(::UnityEngine::ScriptableObject* ownerObject);
 
-  /// @brief Method EndRenderOverlays, addr 0x359c4bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method EndRenderOverlays, addr 0x4a217e0, size 0x70, virtual false, abstract: false, final false
   static inline void EndRenderOverlays(int32_t displayIndex);
 
-  /// @brief Method FindOrCreateRuntimePanel, addr 0x359bac0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method FindOrCreateRuntimePanel, addr 0x4a20920, size 0x1a0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BaseRuntimePanel* FindOrCreateRuntimePanel(::UnityEngine::ScriptableObject* ownerObject,
                                                                                       ::UnityEngine::UIElements::__UIElementsRuntimeUtility__CreateRuntimePanelDelegate* createDelegate);
 
-  /// @brief Method GetSortedPlayerPanels, addr 0x359c434, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetSortedPlayerPanels, addr 0x4a213e0, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>* GetSortedPlayerPanels();
 
-  /// @brief Method MarkPotentiallyEmpty, addr 0x359ce94, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method MarkPotentiallyEmpty, addr 0x4a221c4, size 0x110, virtual false, abstract: false, final false
   static inline void MarkPotentiallyEmpty(::UnityEngine::UIElements::PanelSettings* settings);
 
-  /// @brief Method MultiDisplayBottomLeftToPanelPosition, addr 0x359d16c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method MultiDisplayBottomLeftToPanelPosition, addr 0x4a225b4, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MultiDisplayBottomLeftToPanelPosition(::UnityEngine::Vector2 position, ByRef<::System::Nullable_1<int32_t>> targetDisplay);
 
-  /// @brief Method MultiDisplayToLocalScreenPosition, addr 0x359d1ec, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method MultiDisplayToLocalScreenPosition, addr 0x4a22634, size 0x154, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MultiDisplayToLocalScreenPosition(::UnityEngine::Vector2 position, ByRef<::System::Nullable_1<int32_t>> targetDisplay);
 
-  /// @brief Method RegisterCachedPanelInternal, addr 0x359bd8c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method RegisterCachedPanelInternal, addr 0x4a20c80, size 0x124, virtual false, abstract: false, final false
   static inline void RegisterCachedPanelInternal(int32_t instanceID, ::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method RegisterEventSystem, addr 0x359c69c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method RegisterEventSystem, addr 0x4a219c0, size 0x218, virtual false, abstract: false, final false
   static inline void RegisterEventSystem(::UnityEngine::Object* eventSystem);
 
-  /// @brief Method RegisterPlayerloopCallback, addr 0x359bf80, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RegisterPlayerloopCallback, addr 0x4a20f04, size 0x9c, virtual false, abstract: false, final false
   static inline void RegisterPlayerloopCallback();
 
-  /// @brief Method RemoveCachedPanelInternal, addr 0x359bc5c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method RemoveCachedPanelInternal, addr 0x4a20b50, size 0x130, virtual false, abstract: false, final false
   static inline void RemoveCachedPanelInternal(int32_t instanceID);
 
-  /// @brief Method RemoveUnusedPanels, addr 0x359cc90, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method RemoveUnusedPanels, addr 0x4a21fc0, size 0x204, virtual false, abstract: false, final false
   static inline void RemoveUnusedPanels();
 
-  /// @brief Method RenderOverlaysBeforePriority, addr 0x359c284, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method RenderOverlaysBeforePriority, addr 0x4a21630, size 0x1b0, virtual false, abstract: false, final false
   static inline void RenderOverlaysBeforePriority(int32_t displayIndex, float_t maxPriority);
 
-  /// @brief Method RepaintOverlayPanel, addr 0x359c06c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method RepaintOffscreenPanels, addr 0x4a211c4, size 0x21c, virtual false, abstract: false, final false
+  static inline void RepaintOffscreenPanels();
+
+  /// @brief Method RepaintOverlayPanel, addr 0x4a21468, size 0x170, virtual false, abstract: false, final false
   static inline void RepaintOverlayPanel(::UnityEngine::UIElements::BaseRuntimePanel* panel);
 
-  /// @brief Method ScreenBottomLeftToPanelDelta, addr 0x359d424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ScreenBottomLeftToPanelDelta, addr 0x4a2286c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ScreenBottomLeftToPanelDelta(::UnityEngine::Vector2 delta);
 
-  /// @brief Method ScreenBottomLeftToPanelPosition, addr 0x359d340, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ScreenBottomLeftToPanelPosition, addr 0x4a22788, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ScreenBottomLeftToPanelPosition(::UnityEngine::Vector2 position, int32_t targetDisplay);
 
-  /// @brief Method SetPanelOrderingDirty, addr 0x358efdc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetPanelOrderingDirty, addr 0x4a222d4, size 0x5c, virtual false, abstract: false, final false
   static inline void SetPanelOrderingDirty();
 
-  /// @brief Method SortPanels, addr 0x359cfa8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method SortPanels, addr 0x4a22330, size 0x284, virtual false, abstract: false, final false
   static inline void SortPanels();
 
-  /// @brief Method UnregisterEventSystem, addr 0x359c8b4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method UnregisterEventSystem, addr 0x4a21bd8, size 0x114, virtual false, abstract: false, final false
   static inline void UnregisterEventSystem(::UnityEngine::Object* eventSystem);
 
-  /// @brief Method UnregisterPlayerloopCallback, addr 0x359c01c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method UnregisterPlayerloopCallback, addr 0x4a21174, size 0x50, virtual false, abstract: false, final false
   static inline void UnregisterPlayerloopCallback();
 
-  /// @brief Method UpdateRuntimePanels, addr 0x359ca74, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method UpdateRuntimePanels, addr 0x4a21d90, size 0x230, virtual false, abstract: false, final false
   static inline void UpdateRuntimePanels();
 
-  /// @brief Method add_onCreatePanel, addr 0x359b538, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method add_onCreatePanel, addr 0x4a20070, size 0xf0, virtual false, abstract: false, final false
   static inline void add_onCreatePanel(::System::Action_1<::UnityEngine::UIElements::BaseRuntimePanel*>* value);
 
   static inline ::UnityW<::UnityEngine::Object> getStaticF__activeEventSystem_k__BackingField();
@@ -308,18 +320,20 @@ public:
 
   static inline ::StringW getStaticF_s_RepaintProfilerMarkerName();
 
+  static inline int32_t getStaticF_s_ResolvedSortingIndexMax();
+
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>* getStaticF_s_SortedRuntimePanels();
 
-  /// @brief Method get_activeEventSystem, addr 0x359c52c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_activeEventSystem, addr 0x4a21850, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> get_activeEventSystem();
 
-  /// @brief Method get_defaultEventSystem, addr 0x359c9c8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_defaultEventSystem, addr 0x4a21cec, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DefaultEventSystem* get_defaultEventSystem();
 
-  /// @brief Method get_useDefaultEventSystem, addr 0x359c5e0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_useDefaultEventSystem, addr 0x4a21904, size 0xbc, virtual false, abstract: false, final false
   static inline bool get_useDefaultEventSystem();
 
-  /// @brief Method remove_onCreatePanel, addr 0x359b628, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method remove_onCreatePanel, addr 0x4a20160, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_onCreatePanel(::System::Action_1<::UnityEngine::UIElements::BaseRuntimePanel*>* value);
 
   static inline void setStaticF__activeEventSystem_k__BackingField(::UnityW<::UnityEngine::Object> value);
@@ -340,9 +354,11 @@ public:
 
   static inline void setStaticF_s_RepaintProfilerMarkerName(::StringW value);
 
+  static inline void setStaticF_s_ResolvedSortingIndexMax(int32_t value);
+
   static inline void setStaticF_s_SortedRuntimePanels(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>* value);
 
-  /// @brief Method set_activeEventSystem, addr 0x359c584, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_activeEventSystem, addr 0x4a218a8, size 0x5c, virtual false, abstract: false, final false
   static inline void set_activeEventSystem(::UnityEngine::Object* value);
 
 protected:
@@ -358,6 +374,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtility", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UIElementsRuntimeUtility(UIElementsRuntimeUtility const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6179 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

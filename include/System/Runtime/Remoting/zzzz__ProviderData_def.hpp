@@ -19,7 +19,7 @@ class ProviderData;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::ProviderData);
 // Type: System.Runtime.Remoting::ProviderData
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting::ProviderData*
@@ -27,21 +27,21 @@ class CORDL_TYPE ProviderData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CustomData, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_CustomData, put = __cordl_internal_set_CustomData))::System::Collections::IList* CustomData;
+  __declspec(property(get = __cordl_internal_get_CustomData, put = __cordl_internal_set_CustomData)) ::System::Collections::IList* CustomData;
 
   /// @brief Field CustomProperties, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_CustomProperties, put = __cordl_internal_set_CustomProperties))::System::Collections::Hashtable* CustomProperties;
+  __declspec(property(get = __cordl_internal_get_CustomProperties, put = __cordl_internal_set_CustomProperties)) ::System::Collections::Hashtable* CustomProperties;
 
   /// @brief Field Id, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id))::StringW Id;
+  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id)) ::StringW Id;
 
   /// @brief Field Ref, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Ref, put = __cordl_internal_set_Ref))::StringW Ref;
+  __declspec(property(get = __cordl_internal_get_Ref, put = __cordl_internal_set_Ref)) ::StringW Ref;
 
   /// @brief Field Type, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type))::StringW Type;
+  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type)) ::StringW Type;
 
-  /// @brief Method CopyFrom, addr 0x283be2c, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x3c59048, size 0x700, virtual false, abstract: false, final false
   inline void CopyFrom(::System::Runtime::Remoting::ProviderData* other);
 
   static inline ::System::Runtime::Remoting::ProviderData* New_ctor();
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_Type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x283bdc4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c58fe8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,6 +107,9 @@ public:
 
   /// @brief Field CustomData, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::IList* ___CustomData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3066 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

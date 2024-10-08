@@ -17,7 +17,7 @@ class MeshHandle;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::MeshHandle);
 // Type: UnityEngine.UIElements.UIR::MeshHandle
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.UIR::MeshHandle*
@@ -25,16 +25,16 @@ class CORDL_TYPE MeshHandle : public ::UnityEngine::UIElements::UIR::LinkedPoolI
 public:
   // Declarations
   /// @brief Field allocIndices, offset 0x30, size 0x18
-  __declspec(property(get = __cordl_internal_get_allocIndices, put = __cordl_internal_set_allocIndices))::UnityEngine::UIElements::UIR::Alloc allocIndices;
+  __declspec(property(get = __cordl_internal_get_allocIndices, put = __cordl_internal_set_allocIndices)) ::UnityEngine::UIElements::UIR::Alloc allocIndices;
 
   /// @brief Field allocPage, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_allocPage, put = __cordl_internal_set_allocPage))::UnityEngine::UIElements::UIR::Page* allocPage;
+  __declspec(property(get = __cordl_internal_get_allocPage, put = __cordl_internal_set_allocPage)) ::UnityEngine::UIElements::UIR::Page* allocPage;
 
   /// @brief Field allocTime, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_allocTime, put = __cordl_internal_set_allocTime)) uint32_t allocTime;
 
   /// @brief Field allocVerts, offset 0x18, size 0x18
-  __declspec(property(get = __cordl_internal_get_allocVerts, put = __cordl_internal_set_allocVerts))::UnityEngine::UIElements::UIR::Alloc allocVerts;
+  __declspec(property(get = __cordl_internal_get_allocVerts, put = __cordl_internal_set_allocVerts)) ::UnityEngine::UIElements::UIR::Alloc allocVerts;
 
   /// @brief Field triangleCount, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_triangleCount, put = __cordl_internal_set_triangleCount)) uint32_t triangleCount;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_updateAllocID(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x3562dbc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4939c38, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,6 +114,9 @@ public:
 
   /// @brief Field updateAllocID, offset: 0x5c, size: 0x4, def value: None
   uint32_t ___updateAllocID;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6381 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

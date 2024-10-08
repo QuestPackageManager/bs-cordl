@@ -20,7 +20,7 @@ class ArcBeatIndex;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion4::ArcBeatIndex);
 // Type: BeatmapSaveDataVersion4::ArcBeatIndex
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion4::ArcBeatIndex*
@@ -100,10 +100,10 @@ public:
 
   constexpr void __cordl_internal_set_tr(float_t value);
 
-  /// @brief Method .ctor, addr 0x1503134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c6e3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beat, addr 0x150312c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x26c6e34, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
@@ -146,6 +146,9 @@ public:
 
   /// @brief Field ai, offset: 0x28, size: 0x4, def value: None
   int32_t ___ai;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13325 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

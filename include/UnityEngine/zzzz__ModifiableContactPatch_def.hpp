@@ -29,7 +29,7 @@ struct ModifiableContactPatch;
 MARK_VAL_T(::UnityEngine::__ModifiableContactPatch__Flags);
 MARK_VAL_T(::UnityEngine::ModifiableContactPatch);
 // Type: ::Flags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::ModifiableContactPatch::Flags
@@ -82,6 +82,9 @@ public:
   /// @brief Field RegeneratePatches value: static_cast<int32_t>(0x40)
   static ::UnityEngine::__ModifiableContactPatch__Flags const RegeneratePatches;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15698 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -94,7 +97,7 @@ static_assert(offsetof(::UnityEngine::__ModifiableContactPatch__Flags, value__) 
 
 } // namespace UnityEngine
 // Type: UnityEngine::ModifiableContactPatch
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::ModifiableContactPatch
@@ -148,6 +151,9 @@ public:
 
   /// @brief Field otherMaterialIndex, offset: 0x2e, size: 0x2, def value: None
   uint16_t otherMaterialIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15699 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

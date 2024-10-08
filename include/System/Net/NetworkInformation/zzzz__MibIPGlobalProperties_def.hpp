@@ -14,7 +14,7 @@ class MibIPGlobalProperties;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::MibIPGlobalProperties);
 // Type: System.Net.NetworkInformation::MibIPGlobalProperties
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // CS Name: ::System.Net.NetworkInformation::MibIPGlobalProperties*
@@ -22,25 +22,25 @@ class CORDL_TYPE MibIPGlobalProperties : public ::System::Net::NetworkInformatio
 public:
   // Declarations
   /// @brief Field StatisticsFile, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_StatisticsFile, put = __cordl_internal_set_StatisticsFile))::StringW StatisticsFile;
+  __declspec(property(get = __cordl_internal_get_StatisticsFile, put = __cordl_internal_set_StatisticsFile)) ::StringW StatisticsFile;
 
   /// @brief Field StatisticsFileIPv6, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_StatisticsFileIPv6, put = __cordl_internal_set_StatisticsFileIPv6))::StringW StatisticsFileIPv6;
+  __declspec(property(get = __cordl_internal_get_StatisticsFileIPv6, put = __cordl_internal_set_StatisticsFileIPv6)) ::StringW StatisticsFileIPv6;
 
   /// @brief Field Tcp6File, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Tcp6File, put = __cordl_internal_set_Tcp6File))::StringW Tcp6File;
+  __declspec(property(get = __cordl_internal_get_Tcp6File, put = __cordl_internal_set_Tcp6File)) ::StringW Tcp6File;
 
   /// @brief Field TcpFile, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_TcpFile, put = __cordl_internal_set_TcpFile))::StringW TcpFile;
+  __declspec(property(get = __cordl_internal_get_TcpFile, put = __cordl_internal_set_TcpFile)) ::StringW TcpFile;
 
   /// @brief Field Udp6File, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_Udp6File, put = __cordl_internal_set_Udp6File))::StringW Udp6File;
+  __declspec(property(get = __cordl_internal_get_Udp6File, put = __cordl_internal_set_Udp6File)) ::StringW Udp6File;
 
   /// @brief Field UdpFile, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_UdpFile, put = __cordl_internal_set_UdpFile))::StringW UdpFile;
+  __declspec(property(get = __cordl_internal_get_UdpFile, put = __cordl_internal_set_UdpFile)) ::StringW UdpFile;
 
   /// @brief Field wsChars, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_wsChars, put = setStaticF_wsChars))::ArrayW<char16_t, ::Array<char16_t>*> wsChars;
+  static __declspec(property(get = getStaticF_wsChars, put = setStaticF_wsChars)) ::ArrayW<char16_t, ::Array<char16_t>*> wsChars;
 
   static inline ::System::Net::NetworkInformation::MibIPGlobalProperties* New_ctor(::StringW procDir);
 
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_UdpFile(::StringW value);
 
-  /// @brief Method .ctor, addr 0x30538a8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x437750c, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::StringW procDir);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_wsChars();
@@ -118,6 +118,9 @@ public:
 
   /// @brief Field Udp6File, offset: 0x38, size: 0x8, def value: None
   ::StringW ___Udp6File;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9774 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

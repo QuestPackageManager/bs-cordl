@@ -23,7 +23,7 @@ class TypeLoadException;
 // Write type traits
 MARK_REF_PTR_T(::System::TypeLoadException);
 // Type: System::TypeLoadException
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::TypeLoadException*
@@ -31,15 +31,15 @@ class CORDL_TYPE TypeLoadException : public ::System::SystemException {
 public:
   // Declarations
   /// @brief Field AssemblyName, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_AssemblyName, put = __cordl_internal_set_AssemblyName))::StringW AssemblyName;
+  __declspec(property(get = __cordl_internal_get_AssemblyName, put = __cordl_internal_set_AssemblyName)) ::StringW AssemblyName;
 
   /// @brief Field ClassName, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_ClassName, put = __cordl_internal_set_ClassName))::StringW ClassName;
+  __declspec(property(get = __cordl_internal_get_ClassName, put = __cordl_internal_set_ClassName)) ::StringW ClassName;
 
-  __declspec(property(get = get_Message))::StringW Message;
+  __declspec(property(get = get_Message)) ::StringW Message;
 
   /// @brief Field MessageArg, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_MessageArg, put = __cordl_internal_set_MessageArg))::StringW MessageArg;
+  __declspec(property(get = __cordl_internal_get_MessageArg, put = __cordl_internal_set_MessageArg)) ::StringW MessageArg;
 
   /// @brief Field ResourceId, offset 0xa8, size 0x4
   __declspec(property(get = __cordl_internal_get_ResourceId, put = __cordl_internal_set_ResourceId)) int32_t ResourceId;
@@ -47,7 +47,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x29a8548, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3db8cf0, size 0x1d0, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::TypeLoadException* New_ctor();
@@ -60,7 +60,7 @@ public:
 
   static inline ::System::TypeLoadException* New_ctor(::StringW message);
 
-  /// @brief Method SetMessageField, addr 0x29a82a4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetMessageField, addr 0x3db8a44, size 0xfc, virtual false, abstract: false, final false
   inline void SetMessageField();
 
   constexpr ::StringW const& __cordl_internal_get_AssemblyName() const;
@@ -87,22 +87,22 @@ public:
 
   constexpr void __cordl_internal_set_ResourceId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x29a8204, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db89a4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x29a8394, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db8b40, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW assemblyName);
 
-  /// @brief Method .ctor, addr 0x29a83a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db8b4c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW assemblyName, ::StringW messageArg, int32_t resourceId);
 
-  /// @brief Method .ctor, addr 0x29a8400, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db8bac, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x29a8264, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db8a04, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x29a828c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3db8a2c, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -133,6 +133,9 @@ public:
 
   /// @brief Field ResourceId, offset: 0xa8, size: 0x4, def value: None
   int32_t ___ResourceId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2574 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

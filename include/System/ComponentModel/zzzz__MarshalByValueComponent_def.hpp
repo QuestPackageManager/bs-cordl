@@ -34,23 +34,23 @@ class MarshalByValueComponent;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::MarshalByValueComponent);
 // Type: System.ComponentModel::MarshalByValueComponent
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::MarshalByValueComponent*
 class CORDL_TYPE MarshalByValueComponent : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Site))::System::ComponentModel::ISite* Site;
+  __declspec(property(get = get_Site)) ::System::ComponentModel::ISite* Site;
 
   /// @brief Field _events, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__events, put = __cordl_internal_set__events))::System::ComponentModel::EventHandlerList* _events;
+  __declspec(property(get = __cordl_internal_get__events, put = __cordl_internal_set__events)) ::System::ComponentModel::EventHandlerList* _events;
 
   /// @brief Field _site, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__site, put = __cordl_internal_set__site))::System::ComponentModel::ISite* _site;
+  __declspec(property(get = __cordl_internal_get__site, put = __cordl_internal_set__site)) ::System::ComponentModel::ISite* _site;
 
   /// @brief Field s_eventDisposed, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_eventDisposed, put = setStaticF_s_eventDisposed))::System::Object* s_eventDisposed;
+  static __declspec(property(get = getStaticF_s_eventDisposed, put = setStaticF_s_eventDisposed)) ::System::Object* s_eventDisposed;
 
   /// @brief Convert operator to "::System::ComponentModel::IComponent"
   constexpr operator ::System::ComponentModel::IComponent*() noexcept;
@@ -61,21 +61,21 @@ public:
   /// @brief Convert operator to "::System::IServiceProvider"
   constexpr operator ::System::IServiceProvider*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2f6d664, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x43dddfc, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2f6d6d0, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x43dde68, size 0x288, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x2f6d5bc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x43ddd54, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetService, addr 0x2f6d95c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetService, addr 0x43de0f0, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Object* GetService(::System::Type* service);
 
   static inline ::System::ComponentModel::MarshalByValueComponent* New_ctor();
 
-  /// @brief Method ToString, addr 0x2f6da10, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x43de1a4, size 0x130, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::ComponentModel::EventHandlerList*& __cordl_internal_get__events();
@@ -90,12 +90,12 @@ public:
 
   constexpr void __cordl_internal_set__site(::System::ComponentModel::ISite* value);
 
-  /// @brief Method .ctor, addr 0x2f6d5b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ddd4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_s_eventDisposed();
 
-  /// @brief Method get_Site, addr 0x2f6d65c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Site, addr 0x43dddf4, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ISite* get_Site();
 
   /// @brief Convert to "::System::ComponentModel::IComponent"
@@ -128,6 +128,9 @@ public:
 
   /// @brief Field _events, offset: 0x18, size: 0x8, def value: None
   ::System::ComponentModel::EventHandlerList* ____events;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

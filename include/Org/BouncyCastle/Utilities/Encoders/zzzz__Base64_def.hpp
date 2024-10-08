@@ -18,43 +18,43 @@ class Base64;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Encoders::Base64);
 // Type: Org.BouncyCastle.Utilities.Encoders::Base64
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Encoders {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.Encoders::Base64*
 class CORDL_TYPE Base64 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Decode, addr 0x13cdf94, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x2595a3c, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Decode, addr 0x13ce000, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x2595aa8, size 0x58, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::StringW data);
 
-  /// @brief Method Decode, addr 0x13ce058, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x2595b00, size 0x50, virtual false, abstract: false, final false
   static inline int32_t Decode(::StringW data, ::System::IO::Stream* outStream);
 
-  /// @brief Method Encode, addr 0x13cde60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x2595908, size 0x1c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Encode, addr 0x13cde7c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x2595924, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length);
 
-  /// @brief Method Encode, addr 0x13cdf44, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x25959ec, size 0x50, virtual false, abstract: false, final false
   static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length, ::System::IO::Stream* outStream);
 
-  /// @brief Method Encode, addr 0x13cdef4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x259599c, size 0x50, virtual false, abstract: false, final false
   static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::Base64* New_ctor();
 
-  /// @brief Method ToBase64String, addr 0x13cdd88, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToBase64String, addr 0x2595830, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW ToBase64String(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method ToBase64String, addr 0x13cddf0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ToBase64String, addr 0x2595898, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW ToBase64String(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length);
 
-  /// @brief Method .ctor, addr 0x13cdd80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2595828, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,6 +70,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Base64", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Base64(Base64 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1793 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

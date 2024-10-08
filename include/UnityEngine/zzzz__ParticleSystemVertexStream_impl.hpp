@@ -53,3 +53,10 @@ constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemV
 constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemVertexStream::NoiseImpulseXY{ static_cast<int32_t>(0x2b) };
 constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemVertexStream::NoiseImpulseXYZ{ static_cast<int32_t>(0x2c) };
 constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemVertexStream::MeshIndex{ static_cast<int32_t>(0x2d) };
+constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemVertexStream::ParticleIndex{ static_cast<int32_t>(0x2e) };
+constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemVertexStream::ColorPackedAsTwoFloats{ static_cast<int32_t>(0x2f) };
+constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemVertexStream::MeshAxisOfRotation{ static_cast<int32_t>(0x30) };
+constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemVertexStream::NextTrailCenter{ static_cast<int32_t>(0x31) };
+constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemVertexStream::PreviousTrailCenter{ static_cast<int32_t>(0x32) };
+constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemVertexStream::PercentageAlongTrail{ static_cast<int32_t>(0x33) };
+constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemVertexStream::TrailWidth{ static_cast<int32_t>(0x34) };

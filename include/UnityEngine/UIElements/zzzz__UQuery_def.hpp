@@ -74,7 +74,7 @@ MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::__UQuery__IsOfType_1);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__UQuery__SingleQueryMatcher);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__UQuery__UQueryMatcher);
 // Type: ::IVisualPredicateWrapper
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UQuery::IVisualPredicateWrapper*
@@ -92,12 +92,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UQuery__IVisualPredicateWrapper(__UQuery__IVisualPredicateWrapper const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6185 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
 // Type: ::IsOfType`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -107,7 +110,7 @@ class CORDL_TYPE __UQuery__IsOfType_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityEngine::UIElements::__UQuery__IsOfType_1<T>* s_Instance;
+  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::UIElements::__UQuery__IsOfType_1<T>* s_Instance;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::__UQuery__IVisualPredicateWrapper"
   constexpr operator ::UnityEngine::UIElements::__UQuery__IVisualPredicateWrapper*() noexcept;
@@ -141,12 +144,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UQuery__IsOfType_1(__UQuery__IsOfType_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6186 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UQuery::UQueryMatcher::<>c*
@@ -154,18 +160,18 @@ class CORDL_TYPE __UQuery__UQueryMatcher____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__UQuery__UQueryMatcher____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__UQuery__UQueryMatcher____c* __9;
 
   /// @brief Field <>9__5_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__5_0,
-                             put = setStaticF___9__5_0))::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* __9__5_0;
+                             put = setStaticF___9__5_0)) ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* __9__5_0;
 
   static inline ::GlobalNamespace::__UQuery__UQueryMatcher____c* New_ctor();
 
-  /// @brief Method <TraverseRecursive>b__5_0, addr 0x359ab54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <TraverseRecursive>b__5_0, addr 0x4a255e8, size 0x4, virtual false, abstract: false, final false
   inline void _TraverseRecursive_b__5_0(::UnityEngine::UIElements::VisualElement* e, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo i);
 
-  /// @brief Method .ctor, addr 0x359ab4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a255e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__UQuery__UQueryMatcher____c* getStaticF___9();
@@ -190,6 +196,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UQuery__UQueryMatcher____c(__UQuery__UQueryMatcher____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6187 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -197,7 +206,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UQuery__UQuer
 
 } // namespace GlobalNamespace
 // Type: ::UQueryMatcher
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UQuery::UQueryMatcher*
@@ -207,23 +216,23 @@ public:
   using __c = ::GlobalNamespace::__UQuery__UQueryMatcher____c;
 
   /// @brief Field m_Matchers, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Matchers, put = __cordl_internal_set_m_Matchers))::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* m_Matchers;
+  __declspec(property(get = __cordl_internal_get_m_Matchers, put = __cordl_internal_set_m_Matchers)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* m_Matchers;
 
   static inline ::UnityEngine::UIElements::__UQuery__UQueryMatcher* New_ctor();
 
-  /// @brief Method NoProcessResult, addr 0x359a8d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NoProcessResult, addr 0x4a25378, size 0x4, virtual false, abstract: false, final false
   static inline void NoProcessResult(::UnityEngine::UIElements::VisualElement* e, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo i);
 
-  /// @brief Method OnRuleMatchedElement, addr 0x359a8d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnRuleMatchedElement, addr 0x4a25370, size 0x8, virtual true, abstract: false, final false
   inline bool OnRuleMatchedElement(::UnityEngine::UIElements::RuleMatcher matcher, ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Run, addr 0x359aad8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4a25574, size 0x10, virtual true, abstract: false, final false
   inline void Run(::UnityEngine::UIElements::VisualElement* root, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* matchers);
 
-  /// @brief Method Traverse, addr 0x359a8c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Traverse, addr 0x4a25368, size 0x8, virtual true, abstract: false, final false
   inline void Traverse(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method TraverseRecursive, addr 0x359a8dc, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method TraverseRecursive, addr 0x4a2537c, size 0x1f8, virtual true, abstract: false, final false
   inline void TraverseRecursive(::UnityEngine::UIElements::VisualElement* element, int32_t depth);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>*& __cordl_internal_get_m_Matchers();
@@ -232,7 +241,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Matchers(::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* value);
 
-  /// @brief Method .ctor, addr 0x359a8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a25360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -252,6 +261,9 @@ public:
   /// @brief Field m_Matchers, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* ___m_Matchers;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6188 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -261,7 +273,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__UQuery__UQueryMatcher, ___m_
 
 } // namespace UnityEngine::UIElements
 // Type: ::SingleQueryMatcher
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UQuery::SingleQueryMatcher*
@@ -269,19 +281,19 @@ class CORDL_TYPE __UQuery__SingleQueryMatcher : public ::UnityEngine::UIElements
 public:
   // Declarations
   /// @brief Field <match>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__match_k__BackingField, put = __cordl_internal_set__match_k__BackingField))::UnityEngine::UIElements::VisualElement* _match_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__match_k__BackingField, put = __cordl_internal_set__match_k__BackingField)) ::UnityEngine::UIElements::VisualElement* _match_k__BackingField;
 
-  __declspec(property(get = get_match, put = set_match))::UnityEngine::UIElements::VisualElement* match;
+  __declspec(property(get = get_match, put = set_match)) ::UnityEngine::UIElements::VisualElement* match;
 
   /// @brief Method CreateNew, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::__UQuery__SingleQueryMatcher* CreateNew();
 
-  /// @brief Method IsInUse, addr 0x359ab8c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInUse, addr 0x4a25620, size 0x10, virtual false, abstract: false, final false
   inline bool IsInUse();
 
   static inline ::UnityEngine::UIElements::__UQuery__SingleQueryMatcher* New_ctor();
 
-  /// @brief Method Run, addr 0x359ab68, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4a255fc, size 0x24, virtual true, abstract: false, final false
   inline void Run(::UnityEngine::UIElements::VisualElement* root, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* matchers);
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__match_k__BackingField();
@@ -290,13 +302,13 @@ public:
 
   constexpr void __cordl_internal_set__match_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x359ab9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a25630, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_match, addr 0x359ab58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_match, addr 0x4a255ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_match();
 
-  /// @brief Method set_match, addr 0x359ab60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_match, addr 0x4a255f4, size 0x8, virtual false, abstract: false, final false
   inline void set_match(::UnityEngine::UIElements::VisualElement* value);
 
 protected:
@@ -316,6 +328,9 @@ public:
   /// @brief Field <match>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____match_k__BackingField;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6189 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -325,7 +340,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__UQuery__SingleQueryMatcher, 
 
 } // namespace UnityEngine::UIElements
 // Type: ::FirstQueryMatcher
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UQuery::FirstQueryMatcher*
@@ -333,17 +348,17 @@ class CORDL_TYPE __UQuery__FirstQueryMatcher : public ::UnityEngine::UIElements:
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::UnityEngine::UIElements::__UQuery__FirstQueryMatcher* Instance;
+  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::UnityEngine::UIElements::__UQuery__FirstQueryMatcher* Instance;
 
-  /// @brief Method CreateNew, addr 0x359abb8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CreateNew, addr 0x4a2564c, size 0x54, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::__UQuery__SingleQueryMatcher* CreateNew();
 
   static inline ::UnityEngine::UIElements::__UQuery__FirstQueryMatcher* New_ctor();
 
-  /// @brief Method OnRuleMatchedElement, addr 0x359aba4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method OnRuleMatchedElement, addr 0x4a25638, size 0x14, virtual true, abstract: false, final false
   inline bool OnRuleMatchedElement(::UnityEngine::UIElements::RuleMatcher matcher, ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method .ctor, addr 0x359ac14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a256a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__UQuery__FirstQueryMatcher* getStaticF_Instance();
@@ -364,6 +379,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UQuery__FirstQueryMatcher(__UQuery__FirstQueryMatcher const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6190 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -371,7 +389,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UQuer
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::UQuery
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::UQuery*
@@ -401,6 +419,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UQuery", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UQuery(UQuery const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

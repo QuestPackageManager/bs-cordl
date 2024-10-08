@@ -22,7 +22,7 @@ template <typename T> class Debouncer_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::BGLib::UnityExtension::Debouncer_1);
 // Type: BGLib.UnityExtension::Debouncer`1
-// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // cpp template
 template <typename T>
@@ -32,13 +32,13 @@ class CORDL_TYPE Debouncer_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__callback, put = __cordl_internal_set__callback))::System::Action_1<T>* _callback;
+  __declspec(property(get = __cordl_internal_get__callback, put = __cordl_internal_set__callback)) ::System::Action_1<T>* _callback;
 
   /// @brief Field _debounceDelaySeconds, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__debounceDelaySeconds, put = __cordl_internal_set__debounceDelaySeconds)) float_t _debounceDelaySeconds;
 
   /// @brief Field _debounceQueue, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__debounceQueue, put = __cordl_internal_set__debounceQueue))::System::Collections::Generic::Queue_1<T>* _debounceQueue;
+  __declspec(property(get = __cordl_internal_get__debounceQueue, put = __cordl_internal_set__debounceQueue)) ::System::Collections::Generic::Queue_1<T>* _debounceQueue;
 
   /// @brief Field _nextCallbackTime, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__nextCallbackTime, put = __cordl_internal_set__nextCallbackTime)) float_t _nextCallbackTime;
@@ -115,6 +115,9 @@ public:
 
   /// @brief Field _nextCallbackTime, offset: 0x28, size: 0x4, def value: None
   float_t ____nextCallbackTime;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17218 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,7 +16,7 @@ class Gost3410ValidationParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::Gost3410ValidationParameters
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::Gost3410ValidationParameters*
@@ -43,10 +43,10 @@ public:
   /// @brief Field x0L, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_x0L, put = __cordl_internal_set_x0L)) int64_t x0L;
 
-  /// @brief Method Equals, addr 0x11a7b60, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x237ed40, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x11a7c28, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x237ee08, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* New_ctor(int32_t x0, int32_t c);
@@ -77,22 +77,22 @@ public:
 
   constexpr void __cordl_internal_set_x0L(int64_t value);
 
-  /// @brief Method .ctor, addr 0x11a7ae8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237ecc8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t x0, int32_t c);
 
-  /// @brief Method .ctor, addr 0x11a7b14, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237ecf4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int64_t x0L, int64_t cL);
 
-  /// @brief Method get_C, addr 0x11a7b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_C, addr 0x237ed20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_C();
 
-  /// @brief Method get_CL, addr 0x11a7b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CL, addr 0x237ed30, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_CL();
 
-  /// @brief Method get_X0, addr 0x11a7b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X0, addr 0x237ed28, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_X0();
 
-  /// @brief Method get_X0L, addr 0x11a7b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X0L, addr 0x237ed38, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_X0L();
 
 protected:
@@ -120,6 +120,9 @@ public:
 
   /// @brief Field cL, offset: 0x20, size: 0x8, def value: None
   int64_t ___cL;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1056 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,7 +26,7 @@ class LeaderboardIdsModel;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LeaderboardIdsModel);
 // Type: ::LeaderboardIdsModel
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LeaderboardIdsModel*
@@ -34,11 +34,11 @@ class CORDL_TYPE LeaderboardIdsModel : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _leaderboardIds, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__leaderboardIds, put = __cordl_internal_set__leaderboardIds))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _leaderboardIds;
+  __declspec(property(get = __cordl_internal_get__leaderboardIds, put = __cordl_internal_set__leaderboardIds)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _leaderboardIds;
 
   static inline ::GlobalNamespace::LeaderboardIdsModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps);
 
-  /// @brief Method TryGetPlatformLeaderboardId, addr 0x14b2074, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryGetPlatformLeaderboardId, addr 0x26bfdc0, size 0x78, virtual false, abstract: false, final false
   inline bool TryGetPlatformLeaderboardId(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ByRef<::StringW> platformLeaderboardId);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __cordl_internal_get__leaderboardIds();
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__leaderboardIds(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x14b1a78, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bf7cc, size 0x5f4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps);
 
 protected:
@@ -66,6 +66,9 @@ public:
 
   /// @brief Field _leaderboardIds, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ____leaderboardIds;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13279 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

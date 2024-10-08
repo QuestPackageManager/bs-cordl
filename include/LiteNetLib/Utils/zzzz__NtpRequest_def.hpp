@@ -36,7 +36,7 @@ class NtpRequest;
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::Utils::NtpRequest);
 // Type: LiteNetLib.Utils::NtpRequest
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
 // CS Name: ::LiteNetLib.Utils::NtpRequest*
@@ -44,39 +44,39 @@ class CORDL_TYPE NtpRequest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _ntpEndPoint, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__ntpEndPoint, put = __cordl_internal_set__ntpEndPoint))::System::Net::IPEndPoint* _ntpEndPoint;
+  __declspec(property(get = __cordl_internal_get__ntpEndPoint, put = __cordl_internal_set__ntpEndPoint)) ::System::Net::IPEndPoint* _ntpEndPoint;
 
   /// @brief Field _onRequestComplete, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__onRequestComplete, put = __cordl_internal_set__onRequestComplete))::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* _onRequestComplete;
+  __declspec(property(get = __cordl_internal_get__onRequestComplete, put = __cordl_internal_set__onRequestComplete)) ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* _onRequestComplete;
 
   /// @brief Field _socket, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__socket, put = __cordl_internal_set__socket))::LiteNetLib::NetSocket* _socket;
+  __declspec(property(get = __cordl_internal_get__socket, put = __cordl_internal_set__socket)) ::LiteNetLib::NetSocket* _socket;
 
   /// @brief Convert operator to "::LiteNetLib::INetSocketListener"
   constexpr operator ::LiteNetLib::INetSocketListener*() noexcept;
 
-  /// @brief Method Close, addr 0x261d124, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x3a55e90, size 0x20, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Create, addr 0x261ce90, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3a55c0c, size 0x68, virtual false, abstract: false, final false
   static inline ::LiteNetLib::Utils::NtpRequest* Create(::System::Net::IPEndPoint* endPoint, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
 
-  /// @brief Method Create, addr 0x261cf00, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3a55c74, size 0x70, virtual false, abstract: false, final false
   static inline ::LiteNetLib::Utils::NtpRequest* Create(::System::Net::IPAddress* ipAddress, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
 
-  /// @brief Method Create, addr 0x261cfec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3a55d58, size 0x70, virtual false, abstract: false, final false
   static inline ::LiteNetLib::Utils::NtpRequest* Create(::StringW ntpServerAddress, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
 
-  /// @brief Method Create, addr 0x261cf78, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3a55ce4, size 0x74, virtual false, abstract: false, final false
   static inline ::LiteNetLib::Utils::NtpRequest* Create(::StringW ntpServerAddress, int32_t port, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
 
-  /// @brief Method LiteNetLib.INetSocketListener.OnMessageReceived, addr 0x261d144, size 0x19c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetSocketListener.OnMessageReceived, addr 0x3a55eb0, size 0x19c, virtual true, abstract: false, final true
   inline void LiteNetLib_INetSocketListener_OnMessageReceived(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t length, ::System::Net::Sockets::SocketError errorCode,
                                                               ::System::Net::IPEndPoint* remoteEndPoint);
 
   static inline ::LiteNetLib::Utils::NtpRequest* New_ctor(::System::Net::IPEndPoint* endPoint, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
 
-  /// @brief Method Send, addr 0x261d05c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x3a55dc8, size 0xc8, virtual false, abstract: false, final false
   inline void Send();
 
   constexpr ::System::Net::IPEndPoint*& __cordl_internal_get__ntpEndPoint();
@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set__socket(::LiteNetLib::NetSocket* value);
 
-  /// @brief Method .ctor, addr 0x261cda0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a55b14, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPEndPoint* endPoint, ::System::Action_1<::LiteNetLib::Utils::NtpPacket*>* onRequestComplete);
 
   /// @brief Convert to "::LiteNetLib::INetSocketListener"
@@ -128,6 +128,9 @@ public:
 
   /// @brief Field DefaultPort offset 0xffffffff size 0x4
   static constexpr int32_t DefaultPort{ static_cast<int32_t>(0x7b) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16571 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

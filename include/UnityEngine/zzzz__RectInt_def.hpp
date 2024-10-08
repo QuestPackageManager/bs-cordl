@@ -23,7 +23,7 @@ struct RectInt;
 // Write type traits
 MARK_VAL_T(::UnityEngine::RectInt);
 // Type: UnityEngine::RectInt
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::RectInt
@@ -52,43 +52,43 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Equals, addr 0x343fd2c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x47faab8, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::RectInt other);
 
-  /// @brief Method Overlaps, addr 0x343fa78, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Overlaps, addr 0x47fa600, size 0x2a0, virtual false, abstract: false, final false
   inline bool Overlaps(::UnityEngine::RectInt other);
 
-  /// @brief Method ToString, addr 0x343fb14, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47fa8a0, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x343fb20, size 0x20c, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x47fa8b0, size 0x208, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x343fa6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fa5f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t xMin, int32_t yMin, int32_t width, int32_t height);
 
-  /// @brief Method get_height, addr 0x343f8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x47fa454, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_width, addr 0x343f8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x47fa444, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method get_x, addr 0x343f89c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x47fa424, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();
 
-  /// @brief Method get_xMax, addr 0x343f9a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_xMax, addr 0x47fa52c, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_xMax();
 
-  /// @brief Method get_xMin, addr 0x343f8dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_xMin, addr 0x47fa464, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_xMin();
 
-  /// @brief Method get_y, addr 0x343f8ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x47fa434, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_y();
 
-  /// @brief Method get_yMax, addr 0x343fa08, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_yMax, addr 0x47fa590, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_yMax();
 
-  /// @brief Method get_yMin, addr 0x343f940, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_yMin, addr 0x47fa4c8, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_yMin();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::RectInt>"
@@ -97,16 +97,16 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method set_height, addr 0x343f8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x47fa45c, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method set_width, addr 0x343f8c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x47fa44c, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
-  /// @brief Method set_x, addr 0x343f8a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x47fa42c, size 0x8, virtual false, abstract: false, final false
   inline void set_x(int32_t value);
 
-  /// @brief Method set_y, addr 0x343f8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x47fa43c, size 0x8, virtual false, abstract: false, final false
   inline void set_y(int32_t value);
 
   // Ctor Parameters []
@@ -128,6 +128,9 @@ public:
 
   /// @brief Field m_Height, offset: 0xc, size: 0x4, def value: None
   int32_t m_Height;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10665 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

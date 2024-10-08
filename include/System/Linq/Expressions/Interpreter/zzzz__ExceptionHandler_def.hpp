@@ -20,7 +20,7 @@ class ExceptionHandler;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::ExceptionHandler);
 // Type: System.Linq.Expressions.Interpreter::ExceptionHandler
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::ExceptionHandler*
@@ -28,7 +28,7 @@ class CORDL_TYPE ExceptionHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Filter, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Filter, put = __cordl_internal_set_Filter))::System::Linq::Expressions::Interpreter::ExceptionFilter* Filter;
+  __declspec(property(get = __cordl_internal_get_Filter, put = __cordl_internal_set_Filter)) ::System::Linq::Expressions::Interpreter::ExceptionFilter* Filter;
 
   /// @brief Field HandlerEndIndex, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_HandlerEndIndex, put = __cordl_internal_set_HandlerEndIndex)) int32_t HandlerEndIndex;
@@ -40,15 +40,15 @@ public:
   __declspec(property(get = __cordl_internal_get_LabelIndex, put = __cordl_internal_set_LabelIndex)) int32_t LabelIndex;
 
   /// @brief Field _exceptionType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__exceptionType, put = __cordl_internal_set__exceptionType))::System::Type* _exceptionType;
+  __declspec(property(get = __cordl_internal_get__exceptionType, put = __cordl_internal_set__exceptionType)) ::System::Type* _exceptionType;
 
-  /// @brief Method Matches, addr 0x2c5c860, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x4060878, size 0x24, virtual false, abstract: false, final false
   inline bool Matches(::System::Type* exceptionType);
 
   static inline ::System::Linq::Expressions::Interpreter::ExceptionHandler* New_ctor(int32_t labelIndex, int32_t handlerStartIndex, int32_t handlerEndIndex, ::System::Type* exceptionType,
                                                                                      ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter);
 
-  /// @brief Method ToString, addr 0x2c5c884, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x406089c, size 0xfc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Linq::Expressions::Interpreter::ExceptionFilter*& __cordl_internal_get_Filter();
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__exceptionType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2c5c80c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4060824, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex, int32_t handlerStartIndex, int32_t handlerEndIndex, ::System::Type* exceptionType, ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter);
 
 protected:
@@ -112,6 +112,9 @@ public:
 
   /// @brief Field Filter, offset: 0x28, size: 0x8, def value: None
   ::System::Linq::Expressions::Interpreter::ExceptionFilter* ___Filter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13895 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

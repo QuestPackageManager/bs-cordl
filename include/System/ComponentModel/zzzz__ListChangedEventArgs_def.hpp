@@ -20,14 +20,14 @@ class ListChangedEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::ListChangedEventArgs);
 // Type: System.ComponentModel::ListChangedEventArgs
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::ListChangedEventArgs*
 class CORDL_TYPE ListChangedEventArgs : public ::System::EventArgs {
 public:
   // Declarations
-  __declspec(property(get = get_ListChangedType))::System::ComponentModel::ListChangedType ListChangedType;
+  __declspec(property(get = get_ListChangedType)) ::System::ComponentModel::ListChangedType ListChangedType;
 
   __declspec(property(get = get_NewIndex)) int32_t NewIndex;
 
@@ -35,7 +35,7 @@ public:
 
   /// @brief Field <ListChangedType>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__ListChangedType_k__BackingField,
-                      put = __cordl_internal_set__ListChangedType_k__BackingField))::System::ComponentModel::ListChangedType _ListChangedType_k__BackingField;
+                      put = __cordl_internal_set__ListChangedType_k__BackingField)) ::System::ComponentModel::ListChangedType _ListChangedType_k__BackingField;
 
   /// @brief Field <NewIndex>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__NewIndex_k__BackingField, put = __cordl_internal_set__NewIndex_k__BackingField)) int32_t _NewIndex_k__BackingField;
@@ -45,7 +45,7 @@ public:
 
   /// @brief Field <PropertyDescriptor>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__PropertyDescriptor_k__BackingField,
-                      put = __cordl_internal_set__PropertyDescriptor_k__BackingField))::System::ComponentModel::PropertyDescriptor* _PropertyDescriptor_k__BackingField;
+                      put = __cordl_internal_set__PropertyDescriptor_k__BackingField)) ::System::ComponentModel::PropertyDescriptor* _PropertyDescriptor_k__BackingField;
 
   static inline ::System::ComponentModel::ListChangedEventArgs* New_ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex);
 
@@ -80,25 +80,25 @@ public:
 
   constexpr void __cordl_internal_set__PropertyDescriptor_k__BackingField(::System::ComponentModel::PropertyDescriptor* value);
 
-  /// @brief Method .ctor, addr 0x2f6d32c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ddaf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex);
 
-  /// @brief Method .ctor, addr 0x2f6d334, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ddaf8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, int32_t oldIndex);
 
-  /// @brief Method .ctor, addr 0x2f6d3b4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ddb78, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, ::System::ComponentModel::PropertyDescriptor* propDesc);
 
-  /// @brief Method .ctor, addr 0x2f6d3e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ddba8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, ::System::ComponentModel::PropertyDescriptor* propDesc);
 
-  /// @brief Method get_ListChangedType, addr 0x2f6d458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ListChangedType, addr 0x43ddc1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::ListChangedType get_ListChangedType();
 
-  /// @brief Method get_NewIndex, addr 0x2f6d460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewIndex, addr 0x43ddc24, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NewIndex();
 
-  /// @brief Method get_OldIndex, addr 0x2f6d468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OldIndex, addr 0x43ddc2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_OldIndex();
 
 protected:
@@ -126,6 +126,9 @@ public:
 
   /// @brief Field <PropertyDescriptor>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::ComponentModel::PropertyDescriptor* ____PropertyDescriptor_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9367 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,7 +22,7 @@ class CollectionExtensions;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::Headers::CollectionExtensions);
 // Type: System.Net.Http.Headers::CollectionExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::System.Net.Http.Headers::CollectionExtensions*
@@ -32,7 +32,7 @@ public:
   /// @brief Method SequenceEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline bool SequenceEqual(::System::Collections::Generic::List_1<TSource>* first, ::System::Collections::Generic::List_1<TSource>* second);
 
-  /// @brief Method SetValue, addr 0x2da0460, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x41a6720, size 0x1b8, virtual false, abstract: false, final false
   static inline void SetValue(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* parameters, ::StringW key, ::StringW value);
 
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CollectionExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CollectionExtensions(CollectionExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16649 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

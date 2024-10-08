@@ -13,7 +13,7 @@ class FileBrowserItem;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FileBrowserItem);
 // Type: ::FileBrowserItem
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FileBrowserItem*
@@ -21,17 +21,17 @@ class CORDL_TYPE FileBrowserItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <displayName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__displayName_k__BackingField, put = __cordl_internal_set__displayName_k__BackingField))::StringW _displayName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__displayName_k__BackingField, put = __cordl_internal_set__displayName_k__BackingField)) ::StringW _displayName_k__BackingField;
 
   /// @brief Field <fullPath>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__fullPath_k__BackingField, put = __cordl_internal_set__fullPath_k__BackingField))::StringW _fullPath_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__fullPath_k__BackingField, put = __cordl_internal_set__fullPath_k__BackingField)) ::StringW _fullPath_k__BackingField;
 
   /// @brief Field <isDirectory>k__BackingField, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__isDirectory_k__BackingField, put = __cordl_internal_set__isDirectory_k__BackingField)) bool _isDirectory_k__BackingField;
 
-  __declspec(property(get = get_displayName, put = set_displayName))::StringW displayName;
+  __declspec(property(get = get_displayName, put = set_displayName)) ::StringW displayName;
 
-  __declspec(property(get = get_fullPath, put = set_fullPath))::StringW fullPath;
+  __declspec(property(get = get_fullPath, put = set_fullPath)) ::StringW fullPath;
 
   __declspec(property(get = get_isDirectory, put = set_isDirectory)) bool isDirectory;
 
@@ -55,25 +55,25 @@ public:
 
   constexpr void __cordl_internal_set__isDirectory_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x14abc6c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266cf38, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW fullPath, bool isDirectory);
 
-  /// @brief Method get_displayName, addr 0x14adedc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x266f300, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_fullPath, addr 0x14adeec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullPath, addr 0x266f310, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_fullPath();
 
-  /// @brief Method get_isDirectory, addr 0x14adefc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDirectory, addr 0x266f320, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDirectory();
 
-  /// @brief Method set_displayName, addr 0x14adee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x266f308, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method set_fullPath, addr 0x14adef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fullPath, addr 0x266f318, size 0x8, virtual false, abstract: false, final false
   inline void set_fullPath(::StringW value);
 
-  /// @brief Method set_isDirectory, addr 0x14adf04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isDirectory, addr 0x266f328, size 0xc, virtual false, abstract: false, final false
   inline void set_isDirectory(bool value);
 
 protected:
@@ -98,6 +98,9 @@ public:
 
   /// @brief Field <isDirectory>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____isDirectory_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12812 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

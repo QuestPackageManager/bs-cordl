@@ -19,7 +19,7 @@ class __BindingRestrictions__InstanceRestriction;
 // Write type traits
 MARK_REF_PTR_T(::System::Dynamic::__BindingRestrictions__InstanceRestriction);
 // Type: ::InstanceRestriction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Dynamic {
 // Is value type: false
 // CS Name: ::BindingRestrictions::InstanceRestriction*
@@ -27,18 +27,18 @@ class CORDL_TYPE __BindingRestrictions__InstanceRestriction : public ::System::D
 public:
   // Declarations
   /// @brief Field _expression, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression))::System::Linq::Expressions::Expression* _expression;
+  __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression)) ::System::Linq::Expressions::Expression* _expression;
 
   /// @brief Field _instance, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__instance, put = __cordl_internal_set__instance))::System::Object* _instance;
+  __declspec(property(get = __cordl_internal_get__instance, put = __cordl_internal_set__instance)) ::System::Object* _instance;
 
-  /// @brief Method Equals, addr 0x2c81fe4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4084ef8, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetExpression, addr 0x2c820c4, size 0x380, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x4084fd8, size 0x378, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression();
 
-  /// @brief Method GetHashCode, addr 0x2c82078, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4084f8c, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Dynamic::__BindingRestrictions__InstanceRestriction* New_ctor(::System::Linq::Expressions::Expression* parameter, ::System::Object* instance);
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__instance(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2c81788, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40846a4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* parameter, ::System::Object* instance);
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field _instance, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____instance;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14105 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

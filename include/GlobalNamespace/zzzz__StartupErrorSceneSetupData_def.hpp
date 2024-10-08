@@ -13,7 +13,7 @@ class StartupErrorSceneSetupData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StartupErrorSceneSetupData);
 // Type: ::StartupErrorSceneSetupData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::StartupErrorSceneSetupData*
@@ -21,10 +21,10 @@ class CORDL_TYPE StartupErrorSceneSetupData : public ::GlobalNamespace::SceneSet
 public:
   // Declarations
   /// @brief Field subtitle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_subtitle, put = __cordl_internal_set_subtitle))::StringW subtitle;
+  __declspec(property(get = __cordl_internal_get_subtitle, put = __cordl_internal_set_subtitle)) ::StringW subtitle;
 
   /// @brief Field title, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::StringW title;
+  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title)) ::StringW title;
 
   static inline ::GlobalNamespace::StartupErrorSceneSetupData* New_ctor(::StringW title, ::StringW subtitle);
 
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d213c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac64dc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::StringW subtitle);
 
 protected:
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field subtitle, offset: 0x18, size: 0x8, def value: None
   ::StringW ___subtitle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5223 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

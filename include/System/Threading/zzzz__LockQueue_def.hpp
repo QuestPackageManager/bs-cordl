@@ -16,7 +16,7 @@ class LockQueue;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::LockQueue);
 // Type: System.Threading::LockQueue
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::System.Threading::LockQueue*
@@ -29,14 +29,14 @@ public:
   __declspec(property(get = __cordl_internal_get_lockCount, put = __cordl_internal_set_lockCount)) int32_t lockCount;
 
   /// @brief Field rwlock, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_rwlock, put = __cordl_internal_set_rwlock))::System::Threading::ReaderWriterLock* rwlock;
+  __declspec(property(get = __cordl_internal_get_rwlock, put = __cordl_internal_set_rwlock)) ::System::Threading::ReaderWriterLock* rwlock;
 
   static inline ::System::Threading::LockQueue* New_ctor(::System::Threading::ReaderWriterLock* rwlock);
 
-  /// @brief Method Pulse, addr 0x29d7d18, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Pulse, addr 0x3de6540, size 0xb8, virtual false, abstract: false, final false
   inline void Pulse();
 
-  /// @brief Method Wait, addr 0x29d7aa4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x3de62dc, size 0x1a4, virtual false, abstract: false, final false
   inline bool Wait(int32_t timeout);
 
   constexpr int32_t const& __cordl_internal_get_lockCount() const;
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set_rwlock(::System::Threading::ReaderWriterLock* value);
 
-  /// @brief Method .ctor, addr 0x29d7a7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de62b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ReaderWriterLock* rwlock);
 
-  /// @brief Method get_IsEmpty, addr 0x29d7c58, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x3de6480, size 0xc0, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
 protected:
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field lockCount, offset: 0x18, size: 0x4, def value: None
   int32_t ___lockCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2745 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

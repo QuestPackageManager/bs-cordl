@@ -15,20 +15,20 @@ class GenericSecurityDescriptor;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::GenericSecurityDescriptor);
 // Type: System.Security.AccessControl::GenericSecurityDescriptor
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
 // CS Name: ::System.Security.AccessControl::GenericSecurityDescriptor*
 class CORDL_TYPE GenericSecurityDescriptor : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(put = set_Group))::System::Security::Principal::SecurityIdentifier* Group;
+  __declspec(property(put = set_Group)) ::System::Security::Principal::SecurityIdentifier* Group;
 
-  __declspec(property(put = set_Owner))::System::Security::Principal::SecurityIdentifier* Owner;
+  __declspec(property(put = set_Owner)) ::System::Security::Principal::SecurityIdentifier* Owner;
 
   static inline ::System::Security::AccessControl::GenericSecurityDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2830e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c4f498, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method set_Group, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GenericSecurityDescriptor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GenericSecurityDescriptor(GenericSecurityDescriptor const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3036 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

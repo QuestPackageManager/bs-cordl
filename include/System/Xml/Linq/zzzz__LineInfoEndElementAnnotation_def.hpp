@@ -13,7 +13,7 @@ class LineInfoEndElementAnnotation;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Linq::LineInfoEndElementAnnotation);
 // Type: System.Xml.Linq::LineInfoEndElementAnnotation
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
 // CS Name: ::System.Xml.Linq::LineInfoEndElementAnnotation*
@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::System::Xml::Linq::LineInfoEndElementAnnotation* New_ctor(int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x2dca418, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41ce484, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber, int32_t linePosition);
 
 protected:
@@ -38,6 +38,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LineInfoEndElementAnnotation", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LineInfoEndElementAnnotation(LineInfoEndElementAnnotation const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17889 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

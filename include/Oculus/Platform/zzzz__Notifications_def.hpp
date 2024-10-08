@@ -16,14 +16,14 @@ class Notifications;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Notifications);
 // Type: Oculus.Platform::Notifications
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::Notifications*
 class CORDL_TYPE Notifications : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MarkAsRead, addr 0x2b08fe8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method MarkAsRead, addr 0x3f15780, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* MarkAsRead(uint64_t notificationID);
 
 protected:
@@ -39,6 +39,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Notifications", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Notifications(Notifications const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15406 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

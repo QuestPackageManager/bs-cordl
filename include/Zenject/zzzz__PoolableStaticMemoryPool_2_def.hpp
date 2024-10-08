@@ -12,7 +12,7 @@ template <typename TParam1, typename TValue> class PoolableStaticMemoryPool_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PoolableStaticMemoryPool_2);
 // Type: Zenject::PoolableStaticMemoryPool`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PoolableStaticMemoryPool_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PoolableStaticMemoryPool_2(PoolableStaticMemoryPool_2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12376 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

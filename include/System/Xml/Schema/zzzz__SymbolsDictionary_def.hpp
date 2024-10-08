@@ -32,7 +32,7 @@ class SymbolsDictionary;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::SymbolsDictionary);
 // Type: System.Xml.Schema::SymbolsDictionary
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::SymbolsDictionary*
@@ -52,36 +52,36 @@ public:
   __declspec(property(get = __cordl_internal_get_last, put = __cordl_internal_set_last)) int32_t last;
 
   /// @brief Field names, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_names, put = __cordl_internal_set_names))::System::Collections::Hashtable* names;
+  __declspec(property(get = __cordl_internal_get_names, put = __cordl_internal_set_names)) ::System::Collections::Hashtable* names;
 
   /// @brief Field particleLast, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_particleLast, put = __cordl_internal_set_particleLast))::System::Object* particleLast;
+  __declspec(property(get = __cordl_internal_get_particleLast, put = __cordl_internal_set_particleLast)) ::System::Object* particleLast;
 
   /// @brief Field particles, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_particles, put = __cordl_internal_set_particles))::System::Collections::ArrayList* particles;
+  __declspec(property(get = __cordl_internal_get_particles, put = __cordl_internal_set_particles)) ::System::Collections::ArrayList* particles;
 
   /// @brief Field wildcards, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_wildcards, put = __cordl_internal_set_wildcards))::System::Collections::Hashtable* wildcards;
+  __declspec(property(get = __cordl_internal_get_wildcards, put = __cordl_internal_set_wildcards)) ::System::Collections::Hashtable* wildcards;
 
-  /// @brief Method AddName, addr 0x2f2702c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AddName, addr 0x4323374, size 0x134, virtual false, abstract: false, final false
   inline int32_t AddName(::System::Xml::XmlQualifiedName* name, ::System::Object* particle);
 
-  /// @brief Method AddNamespaceList, addr 0x2f27160, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method AddNamespaceList, addr 0x43234a8, size 0x3a0, virtual false, abstract: false, final false
   inline void AddNamespaceList(::System::Xml::Schema::NamespaceList* list, ::System::Object* particle, bool allowLocal);
 
-  /// @brief Method AddWildcard, addr 0x2f274fc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method AddWildcard, addr 0x4323848, size 0x164, virtual false, abstract: false, final false
   inline void AddWildcard(::StringW wildcard, ::System::Object* particle);
 
-  /// @brief Method Exists, addr 0x2f27eac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x4324208, size 0x30, virtual false, abstract: false, final false
   inline bool Exists(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method GetNamespaceListSymbols, addr 0x2f27664, size 0x790, virtual false, abstract: false, final false
+  /// @brief Method GetNamespaceListSymbols, addr 0x43239ac, size 0x7a4, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetNamespaceListSymbols(::System::Xml::Schema::NamespaceList* list);
 
-  /// @brief Method GetParticle, addr 0x2f27edc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetParticle, addr 0x4324238, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Object* GetParticle(int32_t symbol);
 
-  /// @brief Method NameOf, addr 0x2f27f18, size 0x710, virtual false, abstract: false, final false
+  /// @brief Method NameOf, addr 0x4324274, size 0x6d4, virtual false, abstract: false, final false
   inline ::StringW NameOf(int32_t symbol);
 
   static inline ::System::Xml::Schema::SymbolsDictionary* New_ctor();
@@ -122,19 +122,19 @@ public:
 
   constexpr void __cordl_internal_set_wildcards(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x2f26f68, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43232b4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x2f2700c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4323354, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsUpaEnforced, addr 0x2f27018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsUpaEnforced, addr 0x4323360, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsUpaEnforced();
 
-  /// @brief Method get_Item, addr 0x2f27df4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4324150, size 0xb8, virtual false, abstract: false, final false
   inline int32_t get_Item(::System::Xml::XmlQualifiedName* name);
 
-  /// @brief Method set_IsUpaEnforced, addr 0x2f27020, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsUpaEnforced, addr 0x4323368, size 0xc, virtual false, abstract: false, final false
   inline void set_IsUpaEnforced(bool value);
 
 protected:
@@ -168,6 +168,9 @@ public:
 
   /// @brief Field isUpaEnforced, offset: 0x38, size: 0x1, def value: None
   bool ___isUpaEnforced;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

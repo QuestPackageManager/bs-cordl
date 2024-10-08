@@ -37,7 +37,7 @@ template <typename T> class __Page__DataSet_1;
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::Page);
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UIR::__Page__DataSet_1);
 // Type: ::DataSet`1
-// SizeInfo { instance_size: 104, native_size: 97, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: 97, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
@@ -50,15 +50,15 @@ public:
   __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
   /// @brief Field allocator, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_allocator, put = __cordl_internal_set_allocator))::UnityEngine::UIElements::UIR::GPUBufferAllocator* allocator;
+  __declspec(property(get = __cordl_internal_get_allocator, put = __cordl_internal_set_allocator)) ::UnityEngine::UIElements::UIR::GPUBufferAllocator* allocator;
 
   /// @brief Field cpuData, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get_cpuData, put = __cordl_internal_set_cpuData))::Unity::Collections::NativeArray_1<T> cpuData;
+  __declspec(property(get = __cordl_internal_get_cpuData, put = __cordl_internal_set_cpuData)) ::Unity::Collections::NativeArray_1<T> cpuData;
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
   /// @brief Field gpuData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_gpuData, put = __cordl_internal_set_gpuData))::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>* gpuData;
+  __declspec(property(get = __cordl_internal_get_gpuData, put = __cordl_internal_set_gpuData)) ::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>* gpuData;
 
   /// @brief Field m_ElemStride, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ElemStride, put = __cordl_internal_set_m_ElemStride)) uint32_t m_ElemStride;
@@ -82,8 +82,8 @@ public:
   __declspec(property(get = __cordl_internal_get_m_UpdateRangesSaturated, put = __cordl_internal_set_m_UpdateRangesSaturated)) bool m_UpdateRangesSaturated;
 
   /// @brief Field updateRanges, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get_updateRanges,
-                      put = __cordl_internal_set_updateRanges))::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> updateRanges;
+  __declspec(property(get = __cordl_internal_get_updateRanges, put = __cordl_internal_set_updateRanges)) ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange>
+      updateRanges;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -249,12 +249,15 @@ public:
   /// @brief Field m_UpdateRangesSaturated, offset: 0x60, size: 0x1, def value: None
   bool ___m_UpdateRangesSaturated;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6394 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements::UIR
 // Type: UnityEngine.UIElements.UIR::Page
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.UIR::Page*
@@ -272,23 +275,23 @@ public:
   __declspec(property(get = __cordl_internal_get_framesEmpty, put = __cordl_internal_set_framesEmpty)) int32_t framesEmpty;
 
   /// @brief Field indices, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_indices, put = __cordl_internal_set_indices))::UnityEngine::UIElements::UIR::__Page__DataSet_1<uint16_t>* indices;
+  __declspec(property(get = __cordl_internal_get_indices, put = __cordl_internal_set_indices)) ::UnityEngine::UIElements::UIR::__Page__DataSet_1<uint16_t>* indices;
 
   __declspec(property(get = get_isEmpty)) bool isEmpty;
 
   /// @brief Field next, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::UnityEngine::UIElements::UIR::Page* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::UnityEngine::UIElements::UIR::Page* next;
 
   /// @brief Field vertices, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_vertices, put = __cordl_internal_set_vertices))::UnityEngine::UIElements::UIR::__Page__DataSet_1<::UnityEngine::UIElements::Vertex>* vertices;
+  __declspec(property(get = __cordl_internal_get_vertices, put = __cordl_internal_set_vertices)) ::UnityEngine::UIElements::UIR::__Page__DataSet_1<::UnityEngine::UIElements::Vertex>* vertices;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3569c8c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x493f888, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x356a5d8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4940650, size 0x90, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::Page* New_ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
@@ -323,19 +326,19 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::UnityEngine::UIElements::UIR::__Page__DataSet_1<::UnityEngine::UIElements::Vertex>* value);
 
-  /// @brief Method .ctor, addr 0x35660cc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x493c5e8, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
 
-  /// @brief Method get_disposed, addr 0x356a5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x494063c, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_isEmpty, addr 0x3566218, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x493c738, size 0x48, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x356a5cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x4940644, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -366,6 +369,9 @@ public:
 
   /// @brief Field framesEmpty, offset: 0x30, size: 0x4, def value: None
   int32_t ___framesEmpty;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6395 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

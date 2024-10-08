@@ -63,7 +63,7 @@ struct __MainMenuDestinationRequestController___ProcessDestinationRequest_d__9;
 MARK_REF_PTR_T(::GlobalNamespace::MainMenuDestinationRequestController);
 MARK_VAL_T(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9);
 // Type: ::<ProcessDestinationRequest>d__9
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::MainMenuDestinationRequestController::<ProcessDestinationRequest>d__9
@@ -73,10 +73,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26e1e30, size 0x4cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b04700, size 0x4b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26e22fc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b04bb8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -113,6 +113,9 @@ public:
   /// @brief Field <>u__1, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4176 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
@@ -135,7 +138,7 @@ static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController
 
 } // namespace GlobalNamespace
 // Type: ::MainMenuDestinationRequestController
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MainMenuDestinationRequestController*
@@ -145,21 +148,22 @@ public:
   using _ProcessDestinationRequest_d__9 = ::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9;
 
   /// @brief Field _cancellationTokenSource, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource)) ::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
   /// @brief Field _destinationRequestManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__destinationRequestManager,
-                      put = __cordl_internal_set__destinationRequestManager))::GlobalNamespace::IDestinationRequestManager* _destinationRequestManager;
+                      put = __cordl_internal_set__destinationRequestManager)) ::GlobalNamespace::IDestinationRequestManager* _destinationRequestManager;
 
   /// @brief Field _gameScenesManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _menuScenesTransitionSetupData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__menuScenesTransitionSetupData,
-                      put = __cordl_internal_set__menuScenesTransitionSetupData))::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> _menuScenesTransitionSetupData;
+                      put = __cordl_internal_set__menuScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO>
+      _menuScenesTransitionSetupData;
 
   /// @brief Field _nextMenuDestination, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__nextMenuDestination, put = setStaticF__nextMenuDestination))::GlobalNamespace::MenuDestination* _nextMenuDestination;
+  static __declspec(property(get = getStaticF__nextMenuDestination, put = setStaticF__nextMenuDestination)) ::GlobalNamespace::MenuDestination* _nextMenuDestination;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -167,21 +171,21 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x26e19dc, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3b042b8, size 0x1ac, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleDestinationRequestManagerDidSendMenuDestinationRequest, addr 0x26e1e24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDestinationRequestManagerDidSendMenuDestinationRequest, addr 0x3b046f4, size 0x4, virtual false, abstract: false, final false
   inline void HandleDestinationRequestManagerDidSendMenuDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
-  /// @brief Method HandleGameScenesManagerInstallEarlyBindings, addr 0x26e1b90, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerInstallEarlyBindings, addr 0x3b04464, size 0x290, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerInstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
-  /// @brief Method Initialize, addr 0x26e16c8, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3b03fac, size 0x270, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::MainMenuDestinationRequestController* New_ctor();
 
-  /// @brief Method ProcessDestinationRequest, addr 0x26e193c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ProcessDestinationRequest, addr 0x3b0421c, size 0x9c, virtual false, abstract: false, final false
   inline void ProcessDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
   constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
@@ -208,7 +212,7 @@ public:
 
   constexpr void __cordl_internal_set__menuScenesTransitionSetupData(::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x26e1e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b046f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MenuDestination* getStaticF__nextMenuDestination();
@@ -246,6 +250,9 @@ public:
 
   /// @brief Field _cancellationTokenSource, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4177 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

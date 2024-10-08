@@ -18,7 +18,7 @@ class RegexBoyerMoore;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexBoyerMoore);
 // Type: System.Text.RegularExpressions::RegexBoyerMoore
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
 // CS Name: ::System.Text.RegularExpressions::RegexBoyerMoore*
@@ -35,33 +35,34 @@ public:
   __declspec(property(get = __cordl_internal_get_LowASCII, put = __cordl_internal_set_LowASCII)) int32_t LowASCII;
 
   /// @brief Field NegativeASCII, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_NegativeASCII, put = __cordl_internal_set_NegativeASCII))::ArrayW<int32_t, ::Array<int32_t>*> NegativeASCII;
+  __declspec(property(get = __cordl_internal_get_NegativeASCII, put = __cordl_internal_set_NegativeASCII)) ::ArrayW<int32_t, ::Array<int32_t>*> NegativeASCII;
 
   /// @brief Field NegativeUnicode, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_NegativeUnicode,
-                      put = __cordl_internal_set_NegativeUnicode))::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> NegativeUnicode;
+                      put = __cordl_internal_set_NegativeUnicode)) ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>
+      NegativeUnicode;
 
   /// @brief Field Pattern, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Pattern, put = __cordl_internal_set_Pattern))::StringW Pattern;
+  __declspec(property(get = __cordl_internal_get_Pattern, put = __cordl_internal_set_Pattern)) ::StringW Pattern;
 
   /// @brief Field Positive, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Positive, put = __cordl_internal_set_Positive))::ArrayW<int32_t, ::Array<int32_t>*> Positive;
+  __declspec(property(get = __cordl_internal_get_Positive, put = __cordl_internal_set_Positive)) ::ArrayW<int32_t, ::Array<int32_t>*> Positive;
 
   /// @brief Field RightToLeft, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_RightToLeft, put = __cordl_internal_set_RightToLeft)) bool RightToLeft;
 
   /// @brief Field _culture, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__culture, put = __cordl_internal_set__culture))::System::Globalization::CultureInfo* _culture;
+  __declspec(property(get = __cordl_internal_get__culture, put = __cordl_internal_set__culture)) ::System::Globalization::CultureInfo* _culture;
 
-  /// @brief Method IsMatch, addr 0x2fb4624, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x439f3f8, size 0x6c, virtual false, abstract: false, final false
   inline bool IsMatch(::StringW text, int32_t index, int32_t beglimit, int32_t endlimit);
 
-  /// @brief Method MatchPattern, addr 0x2fb4500, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method MatchPattern, addr 0x439f2d4, size 0x124, virtual false, abstract: false, final false
   inline bool MatchPattern(::StringW text, int32_t index);
 
   static inline ::System::Text::RegularExpressions::RegexBoyerMoore* New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Scan, addr 0x2fb4690, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Scan, addr 0x439f464, size 0x2e4, virtual false, abstract: false, final false
   inline int32_t Scan(::StringW text, int32_t index, int32_t beglimit, int32_t endlimit);
 
   constexpr bool const& __cordl_internal_get_CaseInsensitive() const;
@@ -118,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method .ctor, addr 0x2fb404c, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439ee40, size 0x494, virtual false, abstract: false, final false
   inline void _ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture);
 
 protected:
@@ -161,6 +162,9 @@ public:
 
   /// @brief Field _culture, offset: 0x40, size: 0x8, def value: None
   ::System::Globalization::CultureInfo* ____culture;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9199 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

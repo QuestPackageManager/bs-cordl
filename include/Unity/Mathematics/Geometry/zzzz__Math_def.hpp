@@ -24,20 +24,20 @@ class Math;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Mathematics::Geometry::Math);
 // Type: Unity.Mathematics.Geometry::Math
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Mathematics::Geometry {
 // Is value type: false
 // CS Name: ::Unity.Mathematics.Geometry::Math*
 class CORDL_TYPE Math : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Transform, addr 0x320eac4, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method Transform, addr 0x45f8d2c, size 0x2e8, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::RigidTransform transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-  /// @brief Method Transform, addr 0x320efbc, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Transform, addr 0x45f90cc, size 0x194, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float3x3 transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-  /// @brief Method Transform, addr 0x320edac, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Transform, addr 0x45f9014, size 0xb8, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float4x4 transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
 protected:
@@ -53,6 +53,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Math", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Math(Math const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9998 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

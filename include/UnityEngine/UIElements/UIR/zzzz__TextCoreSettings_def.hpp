@@ -28,7 +28,7 @@ struct TextCoreSettings;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UIR::TextCoreSettings);
 // Type: UnityEngine.UIElements.UIR::TextCoreSettings
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements.UIR::TextCoreSettings
@@ -38,13 +38,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>*();
 
-  /// @brief Method Equals, addr 0x3561954, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4933d10, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x35619e4, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4933da0, size 0xf4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::UIR::TextCoreSettings other);
 
-  /// @brief Method GetHashCode, addr 0x3561acc, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4933e94, size 0x198, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>"
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field underlaySoftness, offset: 0x3c, size: 0x4, def value: None
   float_t underlaySoftness;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6364 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

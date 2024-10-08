@@ -30,7 +30,7 @@ class OVRCustomFace;
 MARK_VAL_T(::GlobalNamespace::__OVRCustomFace__RetargetingType);
 MARK_REF_PTR_T(::GlobalNamespace::OVRCustomFace);
 // Type: ::RetargetingType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRCustomFace::RetargetingType
@@ -71,6 +71,9 @@ public:
   /// @brief Field OculusFace value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__OVRCustomFace__RetargetingType const OculusFace;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8368 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -83,7 +86,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRCustomFace__RetargetingType, valu
 
 } // namespace GlobalNamespace
 // Type: ::OVRCustomFace
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRCustomFace*
@@ -94,33 +97,33 @@ public:
 
   __declspec(property(get = get_AllowDuplicateMapping, put = set_AllowDuplicateMapping)) bool AllowDuplicateMapping;
 
-  __declspec(property(get = get_Mappings,
-                      put = set_Mappings))::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*> Mappings;
+  __declspec(property(get = get_Mappings, put = set_Mappings)) ::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*>
+      Mappings;
 
-  __declspec(property(get = get_RetargetingValue, put = set_RetargetingValue))::GlobalNamespace::__OVRCustomFace__RetargetingType RetargetingValue;
+  __declspec(property(get = get_RetargetingValue, put = set_RetargetingValue)) ::GlobalNamespace::__OVRCustomFace__RetargetingType RetargetingValue;
 
-  /// @brief Field _allowDuplicateMapping, offset 0x3c, size 0x1
+  /// @brief Field _allowDuplicateMapping, offset 0x44, size 0x1
   __declspec(property(get = __cordl_internal_get__allowDuplicateMapping, put = __cordl_internal_set__allowDuplicateMapping)) bool _allowDuplicateMapping;
 
-  /// @brief Field _mappings, offset 0x30, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__mappings,
-               put = __cordl_internal_set__mappings))::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*> _mappings;
+  /// @brief Field _mappings, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__mappings,
+                      put = __cordl_internal_set__mappings)) ::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*>
+      _mappings;
 
-  /// @brief Field retargetingType, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_retargetingType, put = __cordl_internal_set_retargetingType))::GlobalNamespace::__OVRCustomFace__RetargetingType retargetingType;
+  /// @brief Field retargetingType, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_retargetingType, put = __cordl_internal_set_retargetingType)) ::GlobalNamespace::__OVRCustomFace__RetargetingType retargetingType;
 
-  /// @brief Method GetCustomBlendShapeNameAndExpressionPairs, addr 0x2bb1db4, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method GetCustomBlendShapeNameAndExpressionPairs, addr 0x3fb98b4, size 0x138, virtual true, abstract: false, final false
   inline ::System::ValueTuple_2<::ArrayW<::StringW, ::Array<::StringW>*>,
                                 ::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*>>
   GetCustomBlendShapeNameAndExpressionPairs();
 
-  /// @brief Method GetFaceExpression, addr 0x2bb1d84, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetFaceExpression, addr 0x3fb9884, size 0x30, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__OVRFaceExpressions__FaceExpression GetFaceExpression(int32_t blendShapeIndex);
 
   static inline ::GlobalNamespace::OVRCustomFace* New_ctor();
 
-  /// @brief Method Start, addr 0x2bb1d30, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3fb9830, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__allowDuplicateMapping() const;
@@ -141,25 +144,25 @@ public:
 
   constexpr void __cordl_internal_set_retargetingType(::GlobalNamespace::__OVRCustomFace__RetargetingType value);
 
-  /// @brief Method .ctor, addr 0x2bb1eec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fb99ec, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowDuplicateMapping, addr 0x2bb1d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowDuplicateMapping, addr 0x3fb981c, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowDuplicateMapping();
 
-  /// @brief Method get_Mappings, addr 0x2bb1cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mappings, addr 0x3fb97fc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*> get_Mappings();
 
-  /// @brief Method get_RetargetingValue, addr 0x2bb1d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RetargetingValue, addr 0x3fb980c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRCustomFace__RetargetingType get_RetargetingValue();
 
-  /// @brief Method set_AllowDuplicateMapping, addr 0x2bb1d24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllowDuplicateMapping, addr 0x3fb9824, size 0xc, virtual false, abstract: false, final false
   inline void set_AllowDuplicateMapping(bool value);
 
-  /// @brief Method set_Mappings, addr 0x2bb1d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Mappings, addr 0x3fb9804, size 0x8, virtual false, abstract: false, final false
   inline void set_Mappings(::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*> value);
 
-  /// @brief Method set_RetargetingValue, addr 0x2bb1d14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RetargetingValue, addr 0x3fb9814, size 0x8, virtual false, abstract: false, final false
   inline void set_RetargetingValue(::GlobalNamespace::__OVRCustomFace__RetargetingType value);
 
 protected:
@@ -176,25 +179,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRCustomFace(OVRCustomFace const&) = delete;
 
-  /// @brief Field _mappings, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _mappings, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__OVRFaceExpressions__FaceExpression, ::Array<::GlobalNamespace::__OVRFaceExpressions__FaceExpression>*> ____mappings;
 
-  /// @brief Field retargetingType, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field retargetingType, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::__OVRCustomFace__RetargetingType ___retargetingType;
 
-  /// @brief Field _allowDuplicateMapping, offset: 0x3c, size: 0x1, def value: None
+  /// @brief Field _allowDuplicateMapping, offset: 0x44, size: 0x1, def value: None
   bool ____allowDuplicateMapping;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8369 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRCustomFace, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRCustomFace, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRCustomFace, ____mappings) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRCustomFace, ____mappings) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRCustomFace, ___retargetingType) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRCustomFace, ___retargetingType) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRCustomFace, ____allowDuplicateMapping) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRCustomFace, ____allowDuplicateMapping) == 0x44, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRCustomFace__RetargetingType, "", "OVRCustomFace/RetargetingType");

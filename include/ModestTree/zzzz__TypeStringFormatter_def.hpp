@@ -29,7 +29,7 @@ class __TypeStringFormatter____c;
 MARK_REF_PTR_T(::ModestTree::TypeStringFormatter);
 MARK_REF_PTR_T(::ModestTree::__TypeStringFormatter____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
 // CS Name: ::TypeStringFormatter::<>c*
@@ -37,17 +37,17 @@ class CORDL_TYPE __TypeStringFormatter____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::ModestTree::__TypeStringFormatter____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::ModestTree::__TypeStringFormatter____c* __9;
 
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Func_2<::System::Type*, ::StringW>* __9__2_0;
+  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0)) ::System::Func_2<::System::Type*, ::StringW>* __9__2_0;
 
   static inline ::ModestTree::__TypeStringFormatter____c* New_ctor();
 
-  /// @brief Method <PrettyNameInternal>b__2_0, addr 0x3655520, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <PrettyNameInternal>b__2_0, addr 0x4a7be6c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW _PrettyNameInternal_b__2_0(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x3655518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a7be64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ModestTree::__TypeStringFormatter____c* getStaticF___9();
@@ -72,6 +72,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TypeStringFormatter____c(__TypeStringFormatter____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11921 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -79,7 +82,7 @@ static_assert(::cordl_internals::size_check_v<::ModestTree::__TypeStringFormatte
 
 } // namespace ModestTree
 // Type: ModestTree::TypeStringFormatter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
 // CS Name: ::ModestTree::TypeStringFormatter*
@@ -89,15 +92,15 @@ public:
   using __c = ::ModestTree::__TypeStringFormatter____c;
 
   /// @brief Field _prettyNameCache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__prettyNameCache, put = setStaticF__prettyNameCache))::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* _prettyNameCache;
+  static __declspec(property(get = getStaticF__prettyNameCache, put = setStaticF__prettyNameCache)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* _prettyNameCache;
 
-  /// @brief Method GetCSharpTypeName, addr 0x3655130, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method GetCSharpTypeName, addr 0x4a7ba64, size 0x318, virtual false, abstract: false, final false
   static inline ::StringW GetCSharpTypeName(::StringW typeName);
 
-  /// @brief Method PrettyName, addr 0x36533f0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method PrettyName, addr 0x4a79d30, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW PrettyName(::System::Type* type);
 
-  /// @brief Method PrettyNameInternal, addr 0x3654cf8, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method PrettyNameInternal, addr 0x4a7b610, size 0x454, virtual false, abstract: false, final false
   static inline ::StringW PrettyNameInternal(::System::Type* type);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* getStaticF__prettyNameCache();
@@ -117,6 +120,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TypeStringFormatter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TypeStringFormatter(TypeStringFormatter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11922 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

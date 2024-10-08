@@ -18,17 +18,17 @@ class ShortenedDigest;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::ShortenedDigest);
 // Type: Org.BouncyCastle.Crypto.Digests::ShortenedDigest
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::ShortenedDigest*
 class CORDL_TYPE ShortenedDigest : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field baseDigest, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_baseDigest, put = __cordl_internal_set_baseDigest))::Org::BouncyCastle::Crypto::IDigest* baseDigest;
+  __declspec(property(get = __cordl_internal_get_baseDigest, put = __cordl_internal_set_baseDigest)) ::Org::BouncyCastle::Crypto::IDigest* baseDigest;
 
   /// @brief Field length, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) int32_t length;
@@ -36,24 +36,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x1116064, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x22f2a48, size 0xc4, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method DoFinal, addr 0x1116128, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x22f2b0c, size 0x174, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetByteLength, addr 0x1116340, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method GetByteLength, addr 0x22f2d24, size 0xa4, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0x1115fb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetDigestSize, addr 0x22f2994, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetDigestSize();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::ShortenedDigest* New_ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest, int32_t length);
 
-  /// @brief Method Reset, addr 0x111629c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x22f2c80, size 0xa4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Update, addr 0x1115fb8, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x22f299c, size 0xac, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_baseDigest();
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set_length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1115c70, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f265c, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest, int32_t length);
 
-  /// @brief Method get_AlgorithmName, addr 0x1115dc0, size 0x1f0, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x22f27a4, size 0x1f0, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field length, offset: 0x18, size: 0x4, def value: None
   int32_t ___length;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 775 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

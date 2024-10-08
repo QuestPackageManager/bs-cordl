@@ -23,7 +23,7 @@ class BasicConnectionRequestHandler;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BasicConnectionRequestHandler);
 // Type: ::BasicConnectionRequestHandler
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BasicConnectionRequestHandler*
@@ -31,19 +31,19 @@ class CORDL_TYPE BasicConnectionRequestHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <secret>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__secret_k__BackingField, put = __cordl_internal_set__secret_k__BackingField))::StringW _secret_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__secret_k__BackingField, put = __cordl_internal_set__secret_k__BackingField)) ::StringW _secret_k__BackingField;
 
-  __declspec(property(get = get_secret, put = set_secret))::StringW secret;
+  __declspec(property(get = get_secret, put = set_secret)) ::StringW secret;
 
   /// @brief Convert operator to "::GlobalNamespace::IConnectionRequestHandler"
   constexpr operator ::GlobalNamespace::IConnectionRequestHandler*() noexcept;
 
-  /// @brief Method GetConnectionMessage, addr 0x109ac70, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetConnectionMessage, addr 0x22794d8, size 0x70, virtual true, abstract: false, final true
   inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
 
   static inline ::GlobalNamespace::BasicConnectionRequestHandler* New_ctor();
 
-  /// @brief Method ValidateConnectionMessage, addr 0x109ace0, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method ValidateConnectionMessage, addr 0x2279548, size 0xbc, virtual true, abstract: false, final true
   inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
 
   constexpr ::StringW const& __cordl_internal_get__secret_k__BackingField() const;
@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set__secret_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x109ad9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2279604, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_secret, addr 0x109ac60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_secret, addr 0x22794c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_secret();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionRequestHandler"
   constexpr ::GlobalNamespace::IConnectionRequestHandler* i___GlobalNamespace__IConnectionRequestHandler() noexcept;
 
-  /// @brief Method set_secret, addr 0x109ac68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_secret, addr 0x22794d0, size 0x8, virtual false, abstract: false, final false
   inline void set_secret(::StringW value);
 
 protected:
@@ -80,6 +80,9 @@ public:
 
   /// @brief Field <secret>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____secret_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14645 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

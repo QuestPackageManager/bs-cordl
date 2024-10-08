@@ -25,17 +25,17 @@ class AudioPlayableBinding;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Audio::AudioPlayableBinding);
 // Type: UnityEngine.Audio::AudioPlayableBinding
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Audio {
 // Is value type: false
 // CS Name: ::UnityEngine.Audio::AudioPlayableBinding*
 class CORDL_TYPE AudioPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x340b15c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x47e7128, size 0x12c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key);
 
-  /// @brief Method CreateAudioOutput, addr 0x340b298, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateAudioOutput, addr 0x47e7254, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateAudioOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
 protected:
@@ -51,6 +51,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AudioPlayableBinding", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AudioPlayableBinding(AudioPlayableBinding const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17786 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

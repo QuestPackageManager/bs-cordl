@@ -25,40 +25,40 @@ class ServerPasswordEntryViewController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ServerPasswordEntryViewController);
 // Type: ::ServerPasswordEntryViewController
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ServerPasswordEntryViewController*
 class CORDL_TYPE ServerPasswordEntryViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  /// @brief Field _passwordInput, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__passwordInput, put = __cordl_internal_set__passwordInput))::UnityW<::HMUI::InputFieldView> _passwordInput;
+  /// @brief Field _passwordInput, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__passwordInput, put = __cordl_internal_set__passwordInput)) ::UnityW<::HMUI::InputFieldView> _passwordInput;
 
-  /// @brief Field _selectedNetworkPlayer, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectedNetworkPlayer, put = __cordl_internal_set__selectedNetworkPlayer))::GlobalNamespace::INetworkPlayer* _selectedNetworkPlayer;
+  /// @brief Field _selectedNetworkPlayer, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__selectedNetworkPlayer, put = __cordl_internal_set__selectedNetworkPlayer)) ::GlobalNamespace::INetworkPlayer* _selectedNetworkPlayer;
 
-  /// @brief Field _uiKeyboard, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__uiKeyboard, put = __cordl_internal_set__uiKeyboard))::UnityW<::HMUI::UIKeyboard> _uiKeyboard;
+  /// @brief Field _uiKeyboard, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__uiKeyboard, put = __cordl_internal_set__uiKeyboard)) ::UnityW<::HMUI::UIKeyboard> _uiKeyboard;
 
-  /// @brief Field didFinishEvent, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* didFinishEvent;
+  /// @brief Field didFinishEvent, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x26824dc, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3af8680, size 0xc0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x26825a0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3af8740, size 0xb0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleJoinClicked, addr 0x2682654, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleJoinClicked, addr 0x3af87f0, size 0x3c, virtual false, abstract: false, final false
   inline void HandleJoinClicked();
 
-  /// @brief Method HandleUIKeyboardOkButtonWasPressed, addr 0x2682690, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleUIKeyboardOkButtonWasPressed, addr 0x3af882c, size 0x3c, virtual false, abstract: false, final false
   inline void HandleUIKeyboardOkButtonWasPressed();
 
   static inline ::GlobalNamespace::ServerPasswordEntryViewController* New_ctor();
 
-  /// @brief Method Setup, addr 0x26824d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3af8678, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::INetworkPlayer* selectedPlayer);
 
   constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get__passwordInput() const;
@@ -85,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x26826cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af8868, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x2682374, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3af8518, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x2682424, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3af85c8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
 protected:
@@ -108,30 +108,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ServerPasswordEntryViewController(ServerPasswordEntryViewController const&) = delete;
 
-  /// @brief Field _passwordInput, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _passwordInput, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::InputFieldView> ____passwordInput;
 
-  /// @brief Field _uiKeyboard, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _uiKeyboard, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::UIKeyboard> ____uiKeyboard;
 
-  /// @brief Field didFinishEvent, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* ___didFinishEvent;
 
-  /// @brief Field _selectedNetworkPlayer, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _selectedNetworkPlayer, offset: 0x90, size: 0x8, def value: None
   ::GlobalNamespace::INetworkPlayer* ____selectedNetworkPlayer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5352 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ServerPasswordEntryViewController, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ServerPasswordEntryViewController, 0x98>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ServerPasswordEntryViewController, ____passwordInput) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ServerPasswordEntryViewController, ____passwordInput) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ServerPasswordEntryViewController, ____uiKeyboard) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ServerPasswordEntryViewController, ____uiKeyboard) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ServerPasswordEntryViewController, ___didFinishEvent) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ServerPasswordEntryViewController, ___didFinishEvent) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ServerPasswordEntryViewController, ____selectedNetworkPlayer) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ServerPasswordEntryViewController, ____selectedNetworkPlayer) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ServerPasswordEntryViewController);

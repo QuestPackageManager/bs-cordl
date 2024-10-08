@@ -25,7 +25,7 @@ class StaticPacketPoolProvider;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StaticPacketPoolProvider);
 // Type: ::StaticPacketPoolProvider
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::StaticPacketPoolProvider*
@@ -34,12 +34,12 @@ public:
   // Declarations
   /// @brief Field _staticPools, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__staticPools,
-                             put = setStaticF__staticPools))::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::GlobalNamespace::IPacketPool*>* _staticPools;
+                             put = setStaticF__staticPools)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::GlobalNamespace::IPacketPool*>* _staticPools;
 
   /// @brief Method GetPacketPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::GlobalNamespace::PacketPool_1<T>* GetPacketPool();
 
-  /// @brief Method TryGetPacketPool, addr 0x10b0774, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetPacketPool, addr 0x228e928, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetPacketPool(::System::Type* t, ByRef<::GlobalNamespace::IPacketPool*> pool);
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::GlobalNamespace::IPacketPool*>* getStaticF__staticPools();
@@ -59,6 +59,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "StaticPacketPoolProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   StaticPacketPoolProvider(StaticPacketPoolProvider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14769 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

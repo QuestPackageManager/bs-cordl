@@ -20,7 +20,7 @@ class Inflate;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::Inflate);
 // Type: Org.BouncyCastle.Utilities.Zlib::Inflate
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::Inflate*
@@ -28,10 +28,10 @@ class CORDL_TYPE Inflate : public ::System::Object {
 public:
   // Declarations
   /// @brief Field blocks, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_blocks, put = __cordl_internal_set_blocks))::Org::BouncyCastle::Utilities::Zlib::InfBlocks* blocks;
+  __declspec(property(get = __cordl_internal_get_blocks, put = __cordl_internal_set_blocks)) ::Org::BouncyCastle::Utilities::Zlib::InfBlocks* blocks;
 
   /// @brief Field mark, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_mark, put = setStaticF_mark))::ArrayW<uint8_t, ::Array<uint8_t>*> mark;
+  static __declspec(property(get = getStaticF_mark, put = setStaticF_mark)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mark;
 
   /// @brief Field marker, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_marker, put = __cordl_internal_set_marker)) int32_t marker;
@@ -49,7 +49,7 @@ public:
   __declspec(property(get = __cordl_internal_get_nowrap, put = __cordl_internal_set_nowrap)) int32_t nowrap;
 
   /// @brief Field was, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_was, put = __cordl_internal_set_was))::ArrayW<int64_t, ::Array<int64_t>*> was;
+  __declspec(property(get = __cordl_internal_get_was, put = __cordl_internal_set_was)) ::ArrayW<int64_t, ::Array<int64_t>*> was;
 
   /// @brief Field wbits, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_wbits, put = __cordl_internal_set_wbits)) int32_t wbits;
@@ -104,30 +104,30 @@ public:
 
   constexpr void __cordl_internal_set_wbits(int32_t value);
 
-  /// @brief Method .ctor, addr 0x13da0d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a1918, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_mark();
 
-  /// @brief Method inflate, addr 0x13d96e4, size 0x670, virtual false, abstract: false, final false
+  /// @brief Method inflate, addr 0x25a0efc, size 0x698, virtual false, abstract: false, final false
   inline int32_t inflate(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t f);
 
-  /// @brief Method inflateEnd, addr 0x13d95d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method inflateEnd, addr 0x25a0df4, size 0x38, virtual false, abstract: false, final false
   inline int32_t inflateEnd(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflateInit, addr 0x13d960c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x25a0e2c, size 0xd0, virtual false, abstract: false, final false
   inline int32_t inflateInit(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t w);
 
-  /// @brief Method inflateReset, addr 0x13d9580, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method inflateReset, addr 0x25a0da0, size 0x54, virtual false, abstract: false, final false
   inline int32_t inflateReset(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflateSetDictionary, addr 0x13d9d54, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method inflateSetDictionary, addr 0x25a1594, size 0x104, virtual false, abstract: false, final false
   inline int32_t inflateSetDictionary(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::ArrayW<uint8_t, ::Array<uint8_t>*> dictionary, int32_t dictLength);
 
-  /// @brief Method inflateSync, addr 0x13d9e58, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method inflateSync, addr 0x25a1698, size 0x1c0, virtual false, abstract: false, final false
   inline int32_t inflateSync(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflateSyncPoint, addr 0x13da018, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method inflateSyncPoint, addr 0x25a1858, size 0x2c, virtual false, abstract: false, final false
   inline int32_t inflateSyncPoint(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
   static inline void setStaticF_mark(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
@@ -262,6 +262,9 @@ public:
 
   /// @brief Field Z_VERSION_ERROR offset 0xffffffff size 0x4
   static constexpr int32_t Z_VERSION_ERROR{ static_cast<int32_t>(0xfffffffa) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1822 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -18,7 +18,7 @@ template <typename T> class ISortedList_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ISortedList_1);
 // Type: ::ISortedList`1
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -29,7 +29,7 @@ public:
   // Declarations
   __declspec(property(get = get_count)) int32_t count;
 
-  __declspec(property(get = get_items))::System::Collections::Generic::LinkedList_1<T>* items;
+  __declspec(property(get = get_items)) ::System::Collections::Generic::LinkedList_1<T>* items;
 
   /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* Insert(T newItem);
@@ -56,6 +56,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ISortedList_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ISortedList_1(ISortedList_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17043 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

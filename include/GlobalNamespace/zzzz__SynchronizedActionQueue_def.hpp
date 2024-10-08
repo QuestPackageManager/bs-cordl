@@ -27,14 +27,14 @@ struct __SynchronizedActionQueue__SynchronizedAction;
 MARK_REF_PTR_T(::GlobalNamespace::SynchronizedActionQueue);
 MARK_VAL_T(::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction);
 // Type: ::SynchronizedAction
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::SynchronizedActionQueue::SynchronizedAction
 struct CORDL_TYPE __SynchronizedActionQueue__SynchronizedAction {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x10ca868, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a91f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::System::Action* action);
 
   // Ctor Parameters []
@@ -50,6 +50,9 @@ public:
   /// @brief Field action, offset: 0x8, size: 0x8, def value: None
   ::System::Action* action;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14932 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -64,7 +67,7 @@ static_assert(offsetof(::GlobalNamespace::__SynchronizedActionQueue__Synchronize
 
 } // namespace GlobalNamespace
 // Type: ::SynchronizedActionQueue
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SynchronizedActionQueue*
@@ -74,19 +77,19 @@ public:
   using SynchronizedAction = ::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction;
 
   /// @brief Field _synchronizedActionQueue, offset 0x10, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__synchronizedActionQueue,
-               put = __cordl_internal_set__synchronizedActionQueue))::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* _synchronizedActionQueue;
+  __declspec(property(
+      get = __cordl_internal_get__synchronizedActionQueue,
+      put = __cordl_internal_set__synchronizedActionQueue)) ::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* _synchronizedActionQueue;
 
-  /// @brief Method Clear, addr 0x10ca73c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x22a90d0, size 0x70, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method EnqueueAction, addr 0x10ca7ac, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method EnqueueAction, addr 0x22a9140, size 0xb8, virtual false, abstract: false, final false
   inline void EnqueueAction(float_t time, ::System::Action* action);
 
   static inline ::GlobalNamespace::SynchronizedActionQueue* New_ctor();
 
-  /// @brief Method Update, addr 0x10ca874, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22a9204, size 0x114, virtual false, abstract: false, final false
   inline void Update(float_t time);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>*& __cordl_internal_get__synchronizedActionQueue();
@@ -96,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__synchronizedActionQueue(::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* value);
 
-  /// @brief Method .ctor, addr 0x10ca988, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a9318, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,6 +118,9 @@ public:
 
   /// @brief Field _synchronizedActionQueue, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* ____synchronizedActionQueue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14933 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

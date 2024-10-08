@@ -31,7 +31,7 @@ class PgpEncryptedDataList;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList);
 // Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpEncryptedDataList
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpEncryptedDataList*
@@ -42,20 +42,20 @@ public:
 
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
-  __declspec(property(get = get_Item))::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* Item[];
+  __declspec(property(get = get_Item)) ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* Item[];
 
   __declspec(property(get = get_Size)) int32_t Size;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::Org::BouncyCastle::Bcpg::InputStreamPacket* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::Org::BouncyCastle::Bcpg::InputStreamPacket* data;
 
   /// @brief Field list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::IList* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list)) ::System::Collections::IList* list;
 
-  /// @brief Method Get, addr 0x1320854, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x24eca08, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* Get(int32_t index);
 
-  /// @brief Method GetEncryptedDataObjects, addr 0x1320a50, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedDataObjects, addr 0x24ecc04, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetEncryptedDataObjects();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
@@ -72,19 +72,19 @@ public:
 
   constexpr void __cordl_internal_set_list(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x13201d4, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ec398, size 0x54c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_Count, addr 0x13208fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x24ecab0, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsEmpty, addr 0x13209a0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x24ecb54, size 0xb0, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Item, addr 0x1320760, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x24ec914, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* get_Item(int32_t index);
 
-  /// @brief Method get_Size, addr 0x1320858, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x24eca0c, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Size();
 
 protected:
@@ -106,6 +106,9 @@ public:
 
   /// @brief Field data, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::InputStreamPacket* ___data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1643 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

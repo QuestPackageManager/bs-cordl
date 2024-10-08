@@ -28,7 +28,7 @@ class __ClothRandomFluctuation__SineLayer;
 MARK_REF_PTR_T(::GlobalNamespace::ClothRandomFluctuation);
 MARK_REF_PTR_T(::GlobalNamespace::__ClothRandomFluctuation__SineLayer);
 // Type: ::SineLayer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ClothRandomFluctuation::SineLayer*
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_offset(float_t value);
 
-  /// @brief Method .ctor, addr 0x26286c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a5ffac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,6 +78,9 @@ public:
   /// @brief Field offset, offset: 0x14, size: 0x4, def value: None
   float_t ___offset;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3971 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -89,7 +92,7 @@ static_assert(offsetof(::GlobalNamespace::__ClothRandomFluctuation__SineLayer, _
 
 } // namespace GlobalNamespace
 // Type: ::ClothRandomFluctuation
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ClothRandomFluctuation*
@@ -98,40 +101,40 @@ public:
   // Declarations
   using SineLayer = ::GlobalNamespace::__ClothRandomFluctuation__SineLayer;
 
-  /// @brief Field _cloth, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__cloth, put = __cordl_internal_set__cloth))::UnityW<::UnityEngine::Cloth> _cloth;
+  /// @brief Field _cloth, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__cloth, put = __cordl_internal_set__cloth)) ::UnityW<::UnityEngine::Cloth> _cloth;
 
-  /// @brief Field _compoundSins, offset 0x50, size 0x8
+  /// @brief Field _compoundSins, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__compoundSins,
-                      put = __cordl_internal_set__compoundSins))::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>* _compoundSins;
+                      put = __cordl_internal_set__compoundSins)) ::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>* _compoundSins;
 
-  /// @brief Field _externalFluctuations, offset 0x24, size 0xc
-  __declspec(property(get = __cordl_internal_get__externalFluctuations, put = __cordl_internal_set__externalFluctuations))::UnityEngine::Vector3 _externalFluctuations;
+  /// @brief Field _externalFluctuations, offset 0x2c, size 0xc
+  __declspec(property(get = __cordl_internal_get__externalFluctuations, put = __cordl_internal_set__externalFluctuations)) ::UnityEngine::Vector3 _externalFluctuations;
 
-  /// @brief Field _maxFluctuations, offset 0x40, size 0xc
-  __declspec(property(get = __cordl_internal_get__maxFluctuations, put = __cordl_internal_set__maxFluctuations))::UnityEngine::Vector3 _maxFluctuations;
+  /// @brief Field _maxFluctuations, offset 0x48, size 0xc
+  __declspec(property(get = __cordl_internal_get__maxFluctuations, put = __cordl_internal_set__maxFluctuations)) ::UnityEngine::Vector3 _maxFluctuations;
 
-  /// @brief Field _minFluctuations, offset 0x34, size 0xc
-  __declspec(property(get = __cordl_internal_get__minFluctuations, put = __cordl_internal_set__minFluctuations))::UnityEngine::Vector3 _minFluctuations;
+  /// @brief Field _minFluctuations, offset 0x3c, size 0xc
+  __declspec(property(get = __cordl_internal_get__minFluctuations, put = __cordl_internal_set__minFluctuations)) ::UnityEngine::Vector3 _minFluctuations;
 
-  /// @brief Field _speed, offset 0x58, size 0x4
+  /// @brief Field _speed, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__speed, put = __cordl_internal_set__speed)) float_t _speed;
 
-  /// @brief Field _useLocalExternalFluctuations, offset 0x20, size 0x1
+  /// @brief Field _useLocalExternalFluctuations, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__useLocalExternalFluctuations, put = __cordl_internal_set__useLocalExternalFluctuations)) bool _useLocalExternalFluctuations;
 
-  /// @brief Field _useLocalRandomFluctuations, offset 0x30, size 0x1
+  /// @brief Field _useLocalRandomFluctuations, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__useLocalRandomFluctuations, put = __cordl_internal_set__useLocalRandomFluctuations)) bool _useLocalRandomFluctuations;
 
-  /// @brief Method FluctuateCloth, addr 0x262844c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method FluctuateCloth, addr 0x3a5fd30, size 0x170, virtual false, abstract: false, final false
   inline void FluctuateCloth(::UnityEngine::Cloth* cloth);
 
-  /// @brief Method GetNoise, addr 0x26285bc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetNoise, addr 0x3a5fea0, size 0x104, virtual false, abstract: false, final false
   inline float_t GetNoise(float_t time, float_t offset);
 
   static inline ::GlobalNamespace::ClothRandomFluctuation* New_ctor();
 
-  /// @brief Method Update, addr 0x2628444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a5fd28, size 0x8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Cloth> const& __cordl_internal_get__cloth() const;
@@ -182,7 +185,7 @@ public:
 
   constexpr void __cordl_internal_set__useLocalRandomFluctuations(bool value);
 
-  /// @brief Method .ctor, addr 0x26286c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a5ffa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -199,50 +202,53 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ClothRandomFluctuation(ClothRandomFluctuation const&) = delete;
 
-  /// @brief Field _cloth, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _cloth, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Cloth> ____cloth;
 
-  /// @brief Field _useLocalExternalFluctuations, offset: 0x20, size: 0x1, def value: None
+  /// @brief Field _useLocalExternalFluctuations, offset: 0x28, size: 0x1, def value: None
   bool ____useLocalExternalFluctuations;
 
-  /// @brief Field _externalFluctuations, offset: 0x24, size: 0xc, def value: None
+  /// @brief Field _externalFluctuations, offset: 0x2c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____externalFluctuations;
 
-  /// @brief Field _useLocalRandomFluctuations, offset: 0x30, size: 0x1, def value: None
+  /// @brief Field _useLocalRandomFluctuations, offset: 0x38, size: 0x1, def value: None
   bool ____useLocalRandomFluctuations;
 
-  /// @brief Field _minFluctuations, offset: 0x34, size: 0xc, def value: None
+  /// @brief Field _minFluctuations, offset: 0x3c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____minFluctuations;
 
-  /// @brief Field _maxFluctuations, offset: 0x40, size: 0xc, def value: None
+  /// @brief Field _maxFluctuations, offset: 0x48, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____maxFluctuations;
 
-  /// @brief Field _compoundSins, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _compoundSins, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>* ____compoundSins;
 
-  /// @brief Field _speed, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field _speed, offset: 0x60, size: 0x4, def value: None
   float_t ____speed;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3972 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ClothRandomFluctuation, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ClothRandomFluctuation, 0x68>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____cloth) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____cloth) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____useLocalExternalFluctuations) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____useLocalExternalFluctuations) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____externalFluctuations) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____externalFluctuations) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____useLocalRandomFluctuations) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____useLocalRandomFluctuations) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____minFluctuations) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____minFluctuations) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____maxFluctuations) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____maxFluctuations) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____compoundSins) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____compoundSins) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____speed) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____speed) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ClothRandomFluctuation);

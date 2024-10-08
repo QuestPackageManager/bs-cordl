@@ -17,7 +17,7 @@ class UserCapability;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::UserCapability);
 // Type: Oculus.Platform.Models::UserCapability
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::UserCapability*
@@ -25,16 +25,16 @@ class CORDL_TYPE UserCapability : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Description, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Description, put = __cordl_internal_set_Description))::StringW Description;
+  __declspec(property(get = __cordl_internal_get_Description, put = __cordl_internal_set_Description)) ::StringW Description;
 
   /// @brief Field IsEnabled, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_IsEnabled, put = __cordl_internal_set_IsEnabled)) bool IsEnabled;
 
   /// @brief Field Name, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::StringW Name;
 
   /// @brief Field ReasonCode, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_ReasonCode, put = __cordl_internal_set_ReasonCode))::StringW ReasonCode;
+  __declspec(property(get = __cordl_internal_get_ReasonCode, put = __cordl_internal_set_ReasonCode)) ::StringW ReasonCode;
 
   static inline ::Oculus::Platform::Models::UserCapability* New_ctor(::System::IntPtr o);
 
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_ReasonCode(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2b1328c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1e010, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field ReasonCode, offset: 0x28, size: 0x8, def value: None
   ::StringW ___ReasonCode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15526 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

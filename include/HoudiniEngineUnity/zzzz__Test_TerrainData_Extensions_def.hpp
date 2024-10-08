@@ -32,7 +32,7 @@ class __Test_TerrainData_Extensions____c;
 MARK_REF_PTR_T(::HoudiniEngineUnity::Test_TerrainData_Extensions);
 MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_TerrainData_Extensions____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::Test_TerrainData_Extensions::<>c*
@@ -40,23 +40,23 @@ class CORDL_TYPE __Test_TerrainData_Extensions____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::HoudiniEngineUnity::__Test_TerrainData_Extensions____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::HoudiniEngineUnity::__Test_TerrainData_Extensions____c* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Converter_2<::UnityW<::UnityEngine::TerrainData>, ::HoudiniEngineUnity::Test_TerrainData*>* __9__1_0;
+  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Converter_2<::UnityW<::UnityEngine::TerrainData>, ::HoudiniEngineUnity::Test_TerrainData*>* __9__1_0;
 
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Converter_2<::UnityW<::UnityEngine::TerrainData>, ::HoudiniEngineUnity::Test_TerrainData*>* __9__2_0;
+  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0)) ::System::Converter_2<::UnityW<::UnityEngine::TerrainData>, ::HoudiniEngineUnity::Test_TerrainData*>* __9__2_0;
 
   static inline ::HoudiniEngineUnity::__Test_TerrainData_Extensions____c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x25f91b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x3a32d6c, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_TerrainData* _ToTestObject_b__1_0(::UnityEngine::TerrainData* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x25f9218, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x3a32dc8, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_TerrainData* _ToTestObject_b__2_0(::UnityEngine::TerrainData* lod);
 
-  /// @brief Method .ctor, addr 0x25f91ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a32d64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_TerrainData_Extensions____c* getStaticF___9();
@@ -85,6 +85,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Test_TerrainData_Extensions____c(__Test_TerrainData_Extensions____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11887 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -92,7 +95,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_Terra
 
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::Test_TerrainData_Extensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::Test_TerrainData_Extensions*
@@ -101,14 +104,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_TerrainData_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x25f8f54, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a32b20, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_TerrainData*, ::Array<::HoudiniEngineUnity::Test_TerrainData*>*>
   ToTestObject(::ArrayW<::UnityEngine::TerrainData*, ::Array<::UnityEngine::TerrainData*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x25f8ef0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a32ac4, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_TerrainData* ToTestObject(::UnityEngine::TerrainData* self);
 
-  /// @brief Method ToTestObject, addr 0x25f904c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a32c10, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TerrainData*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TerrainData>>* self);
 
 protected:
@@ -124,6 +127,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_TerrainData_Extensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Test_TerrainData_Extensions(Test_TerrainData_Extensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11888 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

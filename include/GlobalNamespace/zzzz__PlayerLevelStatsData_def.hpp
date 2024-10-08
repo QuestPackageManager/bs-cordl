@@ -29,7 +29,7 @@ class PlayerLevelStatsData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerLevelStatsData);
 // Type: ::PlayerLevelStatsData
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerLevelStatsData*
@@ -37,10 +37,11 @@ class CORDL_TYPE PlayerLevelStatsData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _beatmapCharacteristic, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _beatmapCharacteristic;
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic)) ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>
+      _beatmapCharacteristic;
 
   /// @brief Field _difficulty, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__difficulty, put = __cordl_internal_set__difficulty))::GlobalNamespace::BeatmapDifficulty _difficulty;
+  __declspec(property(get = __cordl_internal_get__difficulty, put = __cordl_internal_set__difficulty)) ::GlobalNamespace::BeatmapDifficulty _difficulty;
 
   /// @brief Field _fullCombo, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__fullCombo, put = __cordl_internal_set__fullCombo)) bool _fullCombo;
@@ -49,13 +50,13 @@ public:
   __declspec(property(get = __cordl_internal_get__highScore, put = __cordl_internal_set__highScore)) int32_t _highScore;
 
   /// @brief Field _levelID, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelID, put = __cordl_internal_set__levelID))::StringW _levelID;
+  __declspec(property(get = __cordl_internal_get__levelID, put = __cordl_internal_set__levelID)) ::StringW _levelID;
 
   /// @brief Field _maxCombo, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__maxCombo, put = __cordl_internal_set__maxCombo)) int32_t _maxCombo;
 
   /// @brief Field _maxRank, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxRank, put = __cordl_internal_set__maxRank))::GlobalNamespace::__RankModel__Rank _maxRank;
+  __declspec(property(get = __cordl_internal_get__maxRank, put = __cordl_internal_set__maxRank)) ::GlobalNamespace::__RankModel__Rank _maxRank;
 
   /// @brief Field _playCount, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__playCount, put = __cordl_internal_set__playCount)) int32_t _playCount;
@@ -63,28 +64,28 @@ public:
   /// @brief Field _validScore, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__validScore, put = __cordl_internal_set__validScore)) bool _validScore;
 
-  __declspec(property(get = get_beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
+  __declspec(property(get = get_beatmapCharacteristic)) ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
 
-  __declspec(property(get = get_difficulty))::GlobalNamespace::BeatmapDifficulty difficulty;
+  __declspec(property(get = get_difficulty)) ::GlobalNamespace::BeatmapDifficulty difficulty;
 
   __declspec(property(get = get_fullCombo)) bool fullCombo;
 
   __declspec(property(get = get_highScore)) int32_t highScore;
 
-  __declspec(property(get = get_levelID))::StringW levelID;
+  __declspec(property(get = get_levelID)) ::StringW levelID;
 
   __declspec(property(get = get_maxCombo)) int32_t maxCombo;
 
-  __declspec(property(get = get_maxRank))::GlobalNamespace::__RankModel__Rank maxRank;
+  __declspec(property(get = get_maxRank)) ::GlobalNamespace::__RankModel__Rank maxRank;
 
   __declspec(property(get = get_playCount)) int32_t playCount;
 
   __declspec(property(get = get_validScore)) bool validScore;
 
-  /// @brief Method GetBeatmapKey, addr 0x14f5f08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapKey, addr 0x26aec6c, size 0x20, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey GetBeatmapKey();
 
-  /// @brief Method IncreaseNumberOfGameplays, addr 0x14f6574, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IncreaseNumberOfGameplays, addr 0x26af2b4, size 0x10, virtual false, abstract: false, final false
   inline void IncreaseNumberOfGameplays();
 
   static inline ::GlobalNamespace::PlayerLevelStatsData* New_ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
@@ -96,7 +97,7 @@ public:
                                                                   int32_t highScore, int32_t maxCombo, bool fullCombo, ::GlobalNamespace::__RankModel__Rank maxRank, bool validScore,
                                                                   int32_t playCount);
 
-  /// @brief Method UpdateScoreData, addr 0x14fb8b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UpdateScoreData, addr 0x26b4480, size 0x40, virtual false, abstract: false, final false
   inline void UpdateScoreData(int32_t score, int32_t maxCombo, bool fullCombo, ::GlobalNamespace::__RankModel__Rank rank);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
@@ -153,41 +154,41 @@ public:
 
   constexpr void __cordl_internal_set__validScore(bool value);
 
-  /// @brief Method .ctor, addr 0x14f607c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26aeddc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method .ctor, addr 0x14fb870, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b4440, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method .ctor, addr 0x14fa168, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b2bf4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, int32_t highScore, int32_t maxCombo,
                     bool fullCombo, ::GlobalNamespace::__RankModel__Rank maxRank, bool validScore, int32_t playCount);
 
-  /// @brief Method get_beatmapCharacteristic, addr 0x14fb838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapCharacteristic, addr 0x26b4408, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
 
-  /// @brief Method get_difficulty, addr 0x14fb830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficulty, addr 0x26b4400, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_difficulty();
 
-  /// @brief Method get_fullCombo, addr 0x14fb850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullCombo, addr 0x26b4420, size 0x8, virtual false, abstract: false, final false
   inline bool get_fullCombo();
 
-  /// @brief Method get_highScore, addr 0x14fb840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highScore, addr 0x26b4410, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_highScore();
 
-  /// @brief Method get_levelID, addr 0x14fb828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelID, addr 0x26b43f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelID();
 
-  /// @brief Method get_maxCombo, addr 0x14fb848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxCombo, addr 0x26b4418, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxCombo();
 
-  /// @brief Method get_maxRank, addr 0x14fb858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxRank, addr 0x26b4428, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__RankModel__Rank get_maxRank();
 
-  /// @brief Method get_playCount, addr 0x14fb868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playCount, addr 0x26b4438, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_playCount();
 
-  /// @brief Method get_validScore, addr 0x14fb860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validScore, addr 0x26b4430, size 0x8, virtual false, abstract: false, final false
   inline bool get_validScore();
 
 protected:
@@ -230,6 +231,9 @@ public:
 
   /// @brief Field _beatmapCharacteristic, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____beatmapCharacteristic;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13185 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,20 +25,20 @@ class HEU_AssetSerializedMetaData;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetSerializedMetaData);
 // Type: HoudiniEngineUnity::HEU_AssetSerializedMetaData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_AssetSerializedMetaData*
 class CORDL_TYPE HEU_AssetSerializedMetaData : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  __declspec(
-      property(get = get_SavedCurveNodeData))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* SavedCurveNodeData;
+  __declspec(property(
+      get = get_SavedCurveNodeData)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* SavedCurveNodeData;
 
   __declspec(property(get = get_SoftDeleted, put = set_SoftDeleted)) bool SoftDeleted;
 
   /// @brief Field _savedCurveNodeData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__savedCurveNodeData, put = __cordl_internal_set__savedCurveNodeData))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__savedCurveNodeData, put = __cordl_internal_set__savedCurveNodeData)) ::System::Collections::Generic::Dictionary_2<
       ::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* _savedCurveNodeData;
 
   /// @brief Field _softDeleted, offset 0x18, size 0x1
@@ -47,7 +47,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x2560a24, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x399e768, size 0xbc, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AssetSerializedMetaData* other);
 
   static inline ::HoudiniEngineUnity::HEU_AssetSerializedMetaData* New_ctor();
@@ -66,20 +66,20 @@ public:
 
   constexpr void __cordl_internal_set__softDeleted(bool value);
 
-  /// @brief Method .ctor, addr 0x2560ae0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399e824, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SavedCurveNodeData, addr 0x2560a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SavedCurveNodeData, addr 0x399e760, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* get_SavedCurveNodeData();
 
-  /// @brief Method get_SoftDeleted, addr 0x2560a08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SoftDeleted, addr 0x399e74c, size 0x8, virtual false, abstract: false, final false
   inline bool get_SoftDeleted();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData>>*
   i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_AssetSerializedMetaData__() noexcept;
 
-  /// @brief Method set_SoftDeleted, addr 0x2560a10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SoftDeleted, addr 0x399e754, size 0xc, virtual false, abstract: false, final false
   inline void set_SoftDeleted(bool value);
 
 protected:
@@ -101,6 +101,9 @@ public:
 
   /// @brief Field _savedCurveNodeData, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* ____savedCurveNodeData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11561 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,7 +33,7 @@ class MissionDataSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionDataSO);
 // Type: ::MissionDataSO
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MissionDataSO*
@@ -41,40 +41,42 @@ class CORDL_TYPE MissionDataSO : public ::GlobalNamespace::PersistentScriptableO
 public:
   // Declarations
   /// @brief Field _beatmapCharacteristic, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _beatmapCharacteristic;
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic)) ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>
+      _beatmapCharacteristic;
 
   /// @brief Field _beatmapDifficulty, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__beatmapDifficulty, put = __cordl_internal_set__beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty _beatmapDifficulty;
+  __declspec(property(get = __cordl_internal_get__beatmapDifficulty, put = __cordl_internal_set__beatmapDifficulty)) ::GlobalNamespace::BeatmapDifficulty _beatmapDifficulty;
 
   /// @brief Field _gameplayModifiers, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
   /// @brief Field _levelId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelId, put = __cordl_internal_set__levelId))::StringW _levelId;
+  __declspec(property(get = __cordl_internal_get__levelId, put = __cordl_internal_set__levelId)) ::StringW _levelId;
 
   /// @brief Field _missionHelp, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__missionHelp, put = __cordl_internal_set__missionHelp))::UnityW<::GlobalNamespace::MissionHelpSO> _missionHelp;
+  __declspec(property(get = __cordl_internal_get__missionHelp, put = __cordl_internal_set__missionHelp)) ::UnityW<::GlobalNamespace::MissionHelpSO> _missionHelp;
 
   /// @brief Field _missionObjectives, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__missionObjectives,
-                      put = __cordl_internal_set__missionObjectives))::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> _missionObjectives;
+                      put = __cordl_internal_set__missionObjectives)) ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>
+      _missionObjectives;
 
   /// @brief Field _songName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__songName, put = __cordl_internal_set__songName))::StringW _songName;
+  __declspec(property(get = __cordl_internal_get__songName, put = __cordl_internal_set__songName)) ::StringW _songName;
 
-  __declspec(property(get = get_beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
+  __declspec(property(get = get_beatmapCharacteristic)) ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
 
-  __declspec(property(get = get_beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
+  __declspec(property(get = get_beatmapDifficulty)) ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
 
-  __declspec(property(get = get_beatmapKey))::GlobalNamespace::BeatmapKey beatmapKey;
+  __declspec(property(get = get_beatmapKey)) ::GlobalNamespace::BeatmapKey beatmapKey;
 
-  __declspec(property(get = get_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
+  __declspec(property(get = get_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  __declspec(property(get = get_missionHelp))::UnityW<::GlobalNamespace::MissionHelpSO> missionHelp;
+  __declspec(property(get = get_missionHelp)) ::UnityW<::GlobalNamespace::MissionHelpSO> missionHelp;
 
-  __declspec(property(get = get_missionObjectives))::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives;
+  __declspec(property(get = get_missionObjectives)) ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives;
 
-  __declspec(property(get = get_songName))::StringW songName;
+  __declspec(property(get = get_songName)) ::StringW songName;
 
   static inline ::GlobalNamespace::MissionDataSO* New_ctor();
 
@@ -120,28 +122,28 @@ public:
 
   constexpr void __cordl_internal_set__songName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14da064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2693850, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmapCharacteristic, addr 0x14da044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapCharacteristic, addr 0x2693830, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
 
-  /// @brief Method get_beatmapDifficulty, addr 0x14da04c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapDifficulty, addr 0x2693838, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
 
-  /// @brief Method get_beatmapKey, addr 0x14da024, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x2693810, size 0x20, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_gameplayModifiers, addr 0x14da054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x2693840, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_missionHelp, addr 0x14da05c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionHelp, addr 0x2693848, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionHelpSO> get_missionHelp();
 
-  /// @brief Method get_missionObjectives, addr 0x14da01c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionObjectives, addr 0x2693808, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> get_missionObjectives();
 
-  /// @brief Method get_songName, addr 0x14da014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songName, addr 0x2693800, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songName();
 
 protected:
@@ -178,6 +180,9 @@ public:
 
   /// @brief Field _missionHelp, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionHelpSO> ____missionHelp;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

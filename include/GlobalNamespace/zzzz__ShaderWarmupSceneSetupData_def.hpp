@@ -15,7 +15,7 @@ class ShaderWarmupSceneSetupData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ShaderWarmupSceneSetupData);
 // Type: ::ShaderWarmupSceneSetupData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ShaderWarmupSceneSetupData*
@@ -23,11 +23,11 @@ class CORDL_TYPE ShaderWarmupSceneSetupData : public ::GlobalNamespace::SceneSet
 public:
   // Declarations
   /// @brief Field <nextScenesTransitionSetupData>k__BackingField, offset 0x10, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__nextScenesTransitionSetupData_k__BackingField,
-               put = __cordl_internal_set__nextScenesTransitionSetupData_k__BackingField))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> _nextScenesTransitionSetupData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__nextScenesTransitionSetupData_k__BackingField,
+                      put = __cordl_internal_set__nextScenesTransitionSetupData_k__BackingField)) ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>
+      _nextScenesTransitionSetupData_k__BackingField;
 
-  __declspec(property(get = get_nextScenesTransitionSetupData, put = set_nextScenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> nextScenesTransitionSetupData;
+  __declspec(property(get = get_nextScenesTransitionSetupData, put = set_nextScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> nextScenesTransitionSetupData;
 
   static inline ::GlobalNamespace::ShaderWarmupSceneSetupData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set__nextScenesTransitionSetupData_k__BackingField(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x26d20b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac6450, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
-  /// @brief Method get_nextScenesTransitionSetupData, addr 0x26d20a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nextScenesTransitionSetupData, addr 0x3ac6440, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> get_nextScenesTransitionSetupData();
 
-  /// @brief Method set_nextScenesTransitionSetupData, addr 0x26d20a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nextScenesTransitionSetupData, addr 0x3ac6448, size 0x8, virtual false, abstract: false, final false
   inline void set_nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
 
 protected:
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field <nextScenesTransitionSetupData>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ____nextScenesTransitionSetupData_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5221 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

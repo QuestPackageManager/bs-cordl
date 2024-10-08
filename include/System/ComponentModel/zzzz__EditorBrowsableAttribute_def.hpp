@@ -20,7 +20,7 @@ class EditorBrowsableAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::EditorBrowsableAttribute);
 // Type: System.ComponentModel::EditorBrowsableAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::EditorBrowsableAttribute*
@@ -28,12 +28,12 @@ class CORDL_TYPE EditorBrowsableAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field browsableState, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_browsableState, put = __cordl_internal_set_browsableState))::System::ComponentModel::EditorBrowsableState browsableState;
+  __declspec(property(get = __cordl_internal_get_browsableState, put = __cordl_internal_set_browsableState)) ::System::ComponentModel::EditorBrowsableState browsableState;
 
-  /// @brief Method Equals, addr 0x2f5ee78, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x43cf4b4, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2f5ef04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x43cf540, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::EditorBrowsableAttribute* New_ctor(::System::ComponentModel::EditorBrowsableState state);
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_browsableState(::System::ComponentModel::EditorBrowsableState value);
 
-  /// @brief Method .ctor, addr 0x2f5ee50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43cf48c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::EditorBrowsableState state);
 
 protected:
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field browsableState, offset: 0x10, size: 0x4, def value: None
   ::System::ComponentModel::EditorBrowsableState ___browsableState;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9305 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

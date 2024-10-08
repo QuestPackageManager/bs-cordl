@@ -18,14 +18,14 @@ class IXmlDocument;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::IXmlDocument);
 // Type: Newtonsoft.Json.Converters::IXmlDocument
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Converters::IXmlDocument*
 class CORDL_TYPE IXmlDocument {
 public:
   // Declarations
-  __declspec(property(get = get_DocumentElement))::Newtonsoft::Json::Converters::IXmlElement* DocumentElement;
+  __declspec(property(get = get_DocumentElement)) ::Newtonsoft::Json::Converters::IXmlElement* DocumentElement;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
@@ -79,6 +79,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IXmlDocument", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IXmlDocument(IXmlDocument const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10454 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

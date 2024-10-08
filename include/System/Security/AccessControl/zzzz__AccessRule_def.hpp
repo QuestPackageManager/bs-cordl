@@ -26,17 +26,17 @@ class AccessRule;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::AccessRule);
 // Type: System.Security.AccessControl::AccessRule
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
 // CS Name: ::System.Security.AccessControl::AccessRule*
 class CORDL_TYPE AccessRule : public ::System::Security::AccessControl::AuthorizationRule {
 public:
   // Declarations
-  __declspec(property(get = get_AccessControlType))::System::Security::AccessControl::AccessControlType AccessControlType;
+  __declspec(property(get = get_AccessControlType)) ::System::Security::AccessControl::AccessControlType AccessControlType;
 
   /// @brief Field type, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Security::AccessControl::AccessControlType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Security::AccessControl::AccessControlType type;
 
   static inline ::System::Security::AccessControl::AccessRule* New_ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask, bool isInherited,
                                                                         ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
@@ -49,11 +49,11 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Security::AccessControl::AccessControlType value);
 
-  /// @brief Method .ctor, addr 0x282e484, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c4cbf8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask, bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                     ::System::Security::AccessControl::PropagationFlags propagationFlags, ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method get_AccessControlType, addr 0x282e6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessControlType, addr 0x3c4ce0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AccessControlType get_AccessControlType();
 
 protected:
@@ -72,6 +72,9 @@ public:
 
   /// @brief Field type, offset: 0x28, size: 0x4, def value: None
   ::System::Security::AccessControl::AccessControlType ___type;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3014 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,6 +13,12 @@ template <typename TKey, typename TValue> class Dictionary_2;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+class Type;
+}
+namespace UnityEngine::Scripting::APIUpdating {
+class MovedFromAttribute;
+}
 namespace UnityEngine::UIElements {
 class IUxmlFactory;
 }
@@ -23,7 +29,7 @@ class VisualElementFactoryRegistry;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementFactoryRegistry);
 // Type: UnityEngine.UIElements::VisualElementFactoryRegistry
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::VisualElementFactoryRegistry*
@@ -31,28 +37,40 @@ class CORDL_TYPE VisualElementFactoryRegistry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_Factories, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_s_Factories,
-               put = setStaticF_s_Factories))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* s_Factories;
+  static __declspec(property(
+      get = getStaticF_s_Factories,
+      put = setStaticF_s_Factories)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* s_Factories;
 
-  /// @brief Method RegisterEngineFactories, addr 0x35a7270, size 0xb2c, virtual false, abstract: false, final false
+  /// @brief Field s_MovedTypesFactories, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_MovedTypesFactories, put = setStaticF_s_MovedTypesFactories)) ::System::Collections::Generic::Dictionary_2<
+      ::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* s_MovedTypesFactories;
+
+  /// @brief Method GetMovedUIControlTypeName, addr 0x4a29a00, size 0x160, virtual false, abstract: false, final false
+  static inline ::StringW GetMovedUIControlTypeName(::System::Type* type, ::UnityEngine::Scripting::APIUpdating::MovedFromAttribute* attr);
+
+  /// @brief Method RegisterEngineFactories, addr 0x4a29c40, size 0x10c4, virtual false, abstract: false, final false
   static inline void RegisterEngineFactories();
 
-  /// @brief Method RegisterFactory, addr 0x35a806c, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method RegisterFactory, addr 0x4a2afd4, size 0x5d0, virtual false, abstract: false, final false
   static inline void RegisterFactory(::UnityEngine::UIElements::IUxmlFactory* factory);
 
-  /// @brief Method RegisterUserFactories, addr 0x35a7d9c, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method RegisterUserFactories, addr 0x4a2ad04, size 0x2d0, virtual false, abstract: false, final false
   static inline void RegisterUserFactories();
 
-  /// @brief Method TryGetValue, addr 0x35a84dc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x4a2b5a4, size 0xa4, virtual false, abstract: false, final false
   static inline bool TryGetValue(::StringW fullTypeName, ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*> factoryList);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* getStaticF_s_Factories();
 
-  /// @brief Method get_factories, addr 0x35a71c0, size 0xb0, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* getStaticF_s_MovedTypesFactories();
+
+  /// @brief Method get_factories, addr 0x4a29b60, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* get_factories();
 
   static inline void setStaticF_s_Factories(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* value);
+
+  static inline void
+  setStaticF_s_MovedTypesFactories(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* value);
 
 protected:
   // Ctor Parameters []
@@ -67,6 +85,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementFactoryRegistry", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   VisualElementFactoryRegistry(VisualElementFactoryRegistry const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6252 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

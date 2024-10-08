@@ -26,7 +26,7 @@ class BakedLightTexturePacking;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BakedLightTexturePacking);
 // Type: ::BakedLightTexturePacking
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BakedLightTexturePacking*
@@ -34,12 +34,12 @@ class CORDL_TYPE BakedLightTexturePacking : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _material, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__material, put = setStaticF__material))::UnityW<::UnityEngine::Material> _material;
+  static __declspec(property(get = getStaticF__material, put = setStaticF__material)) ::UnityW<::UnityEngine::Material> _material;
 
   /// @brief Field _texPropertyIds, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__texPropertyIds, put = setStaticF__texPropertyIds))::ArrayW<int32_t, ::Array<int32_t>*> _texPropertyIds;
+  static __declspec(property(get = getStaticF__texPropertyIds, put = setStaticF__texPropertyIds)) ::ArrayW<int32_t, ::Array<int32_t>*> _texPropertyIds;
 
-  /// @brief Method PackTextures, addr 0x26abecc, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method PackTextures, addr 0x3aa20b8, size 0x348, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> PackTextures(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::RenderTexture>>* textures,
                                                                     ::UnityEngine::RenderTextureDescriptor descriptor);
 
@@ -64,6 +64,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BakedLightTexturePacking", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BakedLightTexturePacking(BakedLightTexturePacking const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5025 };
 
   /// @brief Field kBakedLightTexturePackingShaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString kBakedLightTexturePackingShaderName{ u"Hidden/BakedLightTexturePacking" };

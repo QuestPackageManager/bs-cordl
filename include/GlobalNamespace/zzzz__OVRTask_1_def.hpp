@@ -114,7 +114,7 @@ MARK_GEN_VAL_T(::GlobalNamespace::__OVRTask_1__Awaiter);
 MARK_GEN_VAL_T(::GlobalNamespace::__OVRTask_1__Callback);
 MARK_GEN_VAL_T(::GlobalNamespace::__OVRTask_1__CallbackWithState_1);
 // Type: ::CallbackInvoker
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
@@ -151,12 +151,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTask_1__CallbackInvoker(__OVRTask_1__CallbackInvoker const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8348 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::CallbackRemover
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
@@ -193,12 +196,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTask_1__CallbackRemover(__OVRTask_1__CallbackRemover const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8349 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::InternalDataRemover
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
@@ -235,12 +241,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTask_1__InternalDataRemover(__OVRTask_1__InternalDataRemover const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8350 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::InternalData`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TResult, typename T>
@@ -250,13 +259,13 @@ class CORDL_TYPE __OVRTask_1__InternalData_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Clearer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer))::System::Action* Clearer;
+  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer)) ::System::Action* Clearer;
 
   /// @brief Field Data, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Data, put = setStaticF_Data))::System::Collections::Generic::Dictionary_2<::System::Guid, T>* Data;
+  static __declspec(property(get = getStaticF_Data, put = setStaticF_Data)) ::System::Collections::Generic::Dictionary_2<::System::Guid, T>* Data;
 
   /// @brief Field Remover, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Remover, put = setStaticF_Remover))::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>* Remover;
+  static __declspec(property(get = getStaticF_Remover, put = setStaticF_Remover)) ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>* Remover;
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Clear();
@@ -296,12 +305,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTask_1__InternalData_1(__OVRTask_1__InternalData_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8351 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::IncrementalResultSubscriber`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TResult, typename T>
@@ -311,13 +323,13 @@ class CORDL_TYPE __OVRTask_1__IncrementalResultSubscriber_1 : public ::System::O
 public:
   // Declarations
   /// @brief Field Clearer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer))::System::Action* Clearer;
+  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer)) ::System::Action* Clearer;
 
   /// @brief Field Remover, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Remover, put = setStaticF_Remover))::System::Action_1<::System::Guid>* Remover;
+  static __declspec(property(get = getStaticF_Remover, put = setStaticF_Remover)) ::System::Action_1<::System::Guid>* Remover;
 
   /// @brief Field Subscribers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Subscribers, put = setStaticF_Subscribers))::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<T>*>* Subscribers;
+  static __declspec(property(get = getStaticF_Subscribers, put = setStaticF_Subscribers)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<T>*>* Subscribers;
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Clear();
@@ -357,12 +369,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTask_1__IncrementalResultSubscriber_1(__OVRTask_1__IncrementalResultSubscriber_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8352 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::OVRTask`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
@@ -388,45 +403,45 @@ public:
   template <typename T> using InternalData_1 = ::GlobalNamespace::__OVRTask_1__InternalData_1<TResult, T>;
 
   /// @brief Field CallbackClearers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CallbackClearers, put = setStaticF_CallbackClearers))::System::Collections::Generic::HashSet_1<::System::Action*>* CallbackClearers;
+  static __declspec(property(get = getStaticF_CallbackClearers, put = setStaticF_CallbackClearers)) ::System::Collections::Generic::HashSet_1<::System::Action*>* CallbackClearers;
 
   /// @brief Field CallbackInvokers, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_CallbackInvokers,
-               put = setStaticF_CallbackInvokers))::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>*>* CallbackInvokers;
+  static
+      __declspec(property(get = getStaticF_CallbackInvokers,
+                          put = setStaticF_CallbackInvokers)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>*>* CallbackInvokers;
 
   /// @brief Field CallbackRemovers, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_CallbackRemovers,
-               put = setStaticF_CallbackRemovers))::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>*>* CallbackRemovers;
+  static
+      __declspec(property(get = getStaticF_CallbackRemovers,
+                          put = setStaticF_CallbackRemovers)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>*>* CallbackRemovers;
 
   /// @brief Field Continuations, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Continuations, put = setStaticF_Continuations))::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action*>* Continuations;
+  static __declspec(property(get = getStaticF_Continuations, put = setStaticF_Continuations)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action*>* Continuations;
 
   /// @brief Field InternalDataClearers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InternalDataClearers, put = setStaticF_InternalDataClearers))::System::Collections::Generic::HashSet_1<::System::Action*>* InternalDataClearers;
+  static __declspec(property(get = getStaticF_InternalDataClearers, put = setStaticF_InternalDataClearers)) ::System::Collections::Generic::HashSet_1<::System::Action*>* InternalDataClearers;
 
   /// @brief Field InternalDataRemovers, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_InternalDataRemovers,
-               put = setStaticF_InternalDataRemovers))::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>*>* InternalDataRemovers;
+  static __declspec(property(
+      get = getStaticF_InternalDataRemovers,
+      put = setStaticF_InternalDataRemovers)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>*>* InternalDataRemovers;
 
   __declspec(property(get = get_IsCompleted)) bool IsCompleted;
 
   __declspec(property(get = get_IsPending)) bool IsPending;
 
   /// @brief Field Pending, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Pending, put = setStaticF_Pending))::System::Collections::Generic::HashSet_1<::System::Guid>* Pending;
+  static __declspec(property(get = getStaticF_Pending, put = setStaticF_Pending)) ::System::Collections::Generic::HashSet_1<::System::Guid>* Pending;
 
   /// @brief Field Results, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Results, put = setStaticF_Results))::System::Collections::Generic::Dictionary_2<::System::Guid, TResult>* Results;
+  static __declspec(property(get = getStaticF_Results, put = setStaticF_Results)) ::System::Collections::Generic::Dictionary_2<::System::Guid, TResult>* Results;
 
   /// @brief Field SubscriberClearers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SubscriberClearers, put = setStaticF_SubscriberClearers))::System::Collections::Generic::HashSet_1<::System::Action*>* SubscriberClearers;
+  static __declspec(property(get = getStaticF_SubscriberClearers, put = setStaticF_SubscriberClearers)) ::System::Collections::Generic::HashSet_1<::System::Action*>* SubscriberClearers;
 
   /// @brief Field SubscriberRemovers, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SubscriberRemovers,
-                             put = setStaticF_SubscriberRemovers))::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<::System::Guid>*>* SubscriberRemovers;
+                             put = setStaticF_SubscriberRemovers)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::Action_1<::System::Guid>*>* SubscriberRemovers;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
@@ -556,6 +571,9 @@ public:
   /// @brief Field _id, offset: 0x0, size: 0x10, def value: None
   ::System::Guid _id;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8356 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -564,7 +582,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::Awaiter
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
@@ -603,6 +621,9 @@ public:
   /// @brief Field _task, offset: 0x0, size: 0x10, def value: None
   ::GlobalNamespace::OVRTask_1<TResult> _task;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8353 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -611,7 +632,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::Callback
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
@@ -622,16 +643,16 @@ public:
   // Declarations
   /// @brief Field Callbacks, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Callbacks,
-                             put = setStaticF_Callbacks))::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__Callback<TResult>>* Callbacks;
+                             put = setStaticF_Callbacks)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__Callback<TResult>>* Callbacks;
 
   /// @brief Field Clearer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer))::System::Action* Clearer;
+  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer)) ::System::Action* Clearer;
 
   /// @brief Field Invoker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Invoker, put = setStaticF_Invoker))::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* Invoker;
+  static __declspec(property(get = getStaticF_Invoker, put = setStaticF_Invoker)) ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* Invoker;
 
   /// @brief Field Remover, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Remover, put = setStaticF_Remover))::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* Remover;
+  static __declspec(property(get = getStaticF_Remover, put = setStaticF_Remover)) ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* Remover;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Add(::System::Guid taskId, ::System::Action_1<TResult>* delegate);
@@ -677,6 +698,9 @@ public:
   /// @brief Field _delegate, offset: 0x0, size: 0x8, def value: None
   ::System::Action_1<TResult>* _delegate;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8354 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -685,7 +709,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::CallbackWithState`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TResult, typename T>
@@ -696,16 +720,16 @@ public:
   // Declarations
   /// @brief Field Callbacks, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Callbacks,
-                             put = setStaticF_Callbacks))::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackWithState_1<TResult, T>>* Callbacks;
+                             put = setStaticF_Callbacks)) ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::__OVRTask_1__CallbackWithState_1<TResult, T>>* Callbacks;
 
   /// @brief Field Clearer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer))::System::Action* Clearer;
+  static __declspec(property(get = getStaticF_Clearer, put = setStaticF_Clearer)) ::System::Action* Clearer;
 
   /// @brief Field Invoker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Invoker, put = setStaticF_Invoker))::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* Invoker;
+  static __declspec(property(get = getStaticF_Invoker, put = setStaticF_Invoker)) ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* Invoker;
 
   /// @brief Field Remover, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Remover, put = setStaticF_Remover))::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* Remover;
+  static __declspec(property(get = getStaticF_Remover, put = setStaticF_Remover)) ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* Remover;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Add(::System::Guid taskId, T data, ::System::Action_2<TResult, T>* callback);
@@ -753,6 +777,9 @@ public:
 
   /// @brief Field _delegate, offset: 0x8, size: 0x8, def value: None
   ::System::Action_2<TResult, T>* _delegate;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8355 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

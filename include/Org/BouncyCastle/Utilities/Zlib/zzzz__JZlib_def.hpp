@@ -14,7 +14,7 @@ class JZlib;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::JZlib);
 // Type: Org.BouncyCastle.Utilities.Zlib::JZlib
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::JZlib*
@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::Zlib::JZlib* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13dac24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a2494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method version, addr 0x13dabe4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method version, addr 0x25a2454, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW version();
 
 protected:
@@ -105,6 +105,9 @@ public:
 
   /// @brief Field Z_VERSION_ERROR offset 0xffffffff size 0x4
   static constexpr int32_t Z_VERSION_ERROR{ static_cast<int32_t>(0xfffffffa) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1824 };
 
   /// @brief Field _version offset 0xffffffff size 0x8
   static constexpr ::ConstString _version{ u"1.0.7" };

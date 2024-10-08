@@ -21,26 +21,26 @@ class ExceptionHelper;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::ExceptionHelper);
 // Type: System.Net::ExceptionHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::ExceptionHelper*
 class CORDL_TYPE ExceptionHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_MethodNotImplementedException, addr 0x3000188, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_MethodNotImplementedException, addr 0x4427b24, size 0x80, virtual false, abstract: false, final false
   static inline ::System::NotImplementedException* get_MethodNotImplementedException();
 
-  /// @brief Method get_PropertyNotImplementedException, addr 0x3000210, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNotImplementedException, addr 0x4427a80, size 0x80, virtual false, abstract: false, final false
   static inline ::System::NotImplementedException* get_PropertyNotImplementedException();
 
-  /// @brief Method get_PropertyNotSupportedException, addr 0x300032c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNotSupportedException, addr 0x4426560, size 0x80, virtual false, abstract: false, final false
   static inline ::System::NotSupportedException* get_PropertyNotSupportedException();
 
-  /// @brief Method get_RequestAbortedException, addr 0x30003b4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_RequestAbortedException, addr 0x442627c, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* get_RequestAbortedException();
 
-  /// @brief Method get_TimeoutException, addr 0x3000298, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_TimeoutException, addr 0x4421294, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* get_TimeoutException();
 
 protected:
@@ -56,6 +56,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ExceptionHelper", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ExceptionHelper(ExceptionHelper const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9562 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

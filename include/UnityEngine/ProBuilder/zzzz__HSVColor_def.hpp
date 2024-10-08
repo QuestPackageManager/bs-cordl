@@ -17,7 +17,7 @@ class HSVColor;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::HSVColor);
 // Type: UnityEngine.ProBuilder::HSVColor
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::HSVColor*
@@ -33,17 +33,17 @@ public:
   /// @brief Field v, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_v, put = __cordl_internal_set_v)) float_t v;
 
-  /// @brief Method FromRGB, addr 0x32ae828, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FromRGB, addr 0x468ea84, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::HSVColor* FromRGB(::UnityEngine::Color col);
 
   static inline ::UnityEngine::ProBuilder::HSVColor* New_ctor(float_t h, float_t s, float_t v);
 
   static inline ::UnityEngine::ProBuilder::HSVColor* New_ctor(float_t h, float_t s, float_t v, float_t sv_modifier);
 
-  /// @brief Method SqrDistance, addr 0x32aeb88, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SqrDistance, addr 0x468ed94, size 0x48, virtual false, abstract: false, final false
   inline float_t SqrDistance(::UnityEngine::ProBuilder::HSVColor* InColor);
 
-  /// @brief Method ToString, addr 0x32aeac4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x468ecd0, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_h() const;
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_v(float_t value);
 
-  /// @brief Method .ctor, addr 0x32ae7a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x468ea00, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t h, float_t s, float_t v);
 
-  /// @brief Method .ctor, addr 0x32ae7e0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x468ea3c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t h, float_t s, float_t v, float_t sv_modifier);
 
 protected:
@@ -92,6 +92,9 @@ public:
 
   /// @brief Field v, offset: 0x18, size: 0x4, def value: None
   float_t ___v;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14185 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

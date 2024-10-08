@@ -26,7 +26,7 @@ class Challenge;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::Challenge);
 // Type: Oculus.Platform.Models::Challenge
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::Challenge*
@@ -34,37 +34,37 @@ class CORDL_TYPE Challenge : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CreationType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_CreationType, put = __cordl_internal_set_CreationType))::Oculus::Platform::ChallengeCreationType CreationType;
+  __declspec(property(get = __cordl_internal_get_CreationType, put = __cordl_internal_set_CreationType)) ::Oculus::Platform::ChallengeCreationType CreationType;
 
   /// @brief Field Description, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Description, put = __cordl_internal_set_Description))::StringW Description;
+  __declspec(property(get = __cordl_internal_get_Description, put = __cordl_internal_set_Description)) ::StringW Description;
 
   /// @brief Field EndDate, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_EndDate, put = __cordl_internal_set_EndDate))::System::DateTime EndDate;
+  __declspec(property(get = __cordl_internal_get_EndDate, put = __cordl_internal_set_EndDate)) ::System::DateTime EndDate;
 
   /// @brief Field InvitedUsers, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_InvitedUsers, put = __cordl_internal_set_InvitedUsers))::Oculus::Platform::Models::UserList* InvitedUsers;
+  __declspec(property(get = __cordl_internal_get_InvitedUsers, put = __cordl_internal_set_InvitedUsers)) ::Oculus::Platform::Models::UserList* InvitedUsers;
 
   /// @brief Field InvitedUsersOptional, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_InvitedUsersOptional, put = __cordl_internal_set_InvitedUsersOptional))::Oculus::Platform::Models::UserList* InvitedUsersOptional;
+  __declspec(property(get = __cordl_internal_get_InvitedUsersOptional, put = __cordl_internal_set_InvitedUsersOptional)) ::Oculus::Platform::Models::UserList* InvitedUsersOptional;
 
   /// @brief Field Leaderboard, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_Leaderboard, put = __cordl_internal_set_Leaderboard))::Oculus::Platform::Models::Leaderboard* Leaderboard;
+  __declspec(property(get = __cordl_internal_get_Leaderboard, put = __cordl_internal_set_Leaderboard)) ::Oculus::Platform::Models::Leaderboard* Leaderboard;
 
   /// @brief Field Participants, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_Participants, put = __cordl_internal_set_Participants))::Oculus::Platform::Models::UserList* Participants;
+  __declspec(property(get = __cordl_internal_get_Participants, put = __cordl_internal_set_Participants)) ::Oculus::Platform::Models::UserList* Participants;
 
   /// @brief Field ParticipantsOptional, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_ParticipantsOptional, put = __cordl_internal_set_ParticipantsOptional))::Oculus::Platform::Models::UserList* ParticipantsOptional;
+  __declspec(property(get = __cordl_internal_get_ParticipantsOptional, put = __cordl_internal_set_ParticipantsOptional)) ::Oculus::Platform::Models::UserList* ParticipantsOptional;
 
   /// @brief Field StartDate, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_StartDate, put = __cordl_internal_set_StartDate))::System::DateTime StartDate;
+  __declspec(property(get = __cordl_internal_get_StartDate, put = __cordl_internal_set_StartDate)) ::System::DateTime StartDate;
 
   /// @brief Field Title, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_Title, put = __cordl_internal_set_Title))::StringW Title;
+  __declspec(property(get = __cordl_internal_get_Title, put = __cordl_internal_set_Title)) ::StringW Title;
 
   /// @brief Field Visibility, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get_Visibility, put = __cordl_internal_set_Visibility))::Oculus::Platform::ChallengeVisibility Visibility;
+  __declspec(property(get = __cordl_internal_get_Visibility, put = __cordl_internal_set_Visibility)) ::Oculus::Platform::ChallengeVisibility Visibility;
 
   /// @brief Field ID, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2b0f204, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1a518, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -195,6 +195,9 @@ public:
 
   /// @brief Field Visibility, offset: 0x68, size: 0x4, def value: None
   ::Oculus::Platform::ChallengeVisibility ___Visibility;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15465 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

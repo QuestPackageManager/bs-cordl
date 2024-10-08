@@ -27,7 +27,7 @@ class AxisComposite;
 MARK_VAL_T(::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::AxisComposite);
 // Type: ::WhichSideWins
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: true
 // CS Name: ::AxisComposite::WhichSideWins
@@ -72,6 +72,9 @@ public:
   /// @brief Field Positive value: static_cast<int32_t>(0x1)
   static ::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins const Positive;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7089 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -84,7 +87,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Composites::__AxisComposite__
 
 } // namespace UnityEngine::InputSystem::Composites
 // Type: UnityEngine.InputSystem.Composites::AxisComposite
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Composites::AxisComposite*
@@ -108,14 +111,14 @@ public:
   __declspec(property(get = __cordl_internal_get_positive, put = __cordl_internal_set_positive)) int32_t positive;
 
   /// @brief Field whichSideWins, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_whichSideWins, put = __cordl_internal_set_whichSideWins))::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins whichSideWins;
+  __declspec(property(get = __cordl_internal_get_whichSideWins, put = __cordl_internal_set_whichSideWins)) ::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins whichSideWins;
 
-  /// @brief Method EvaluateMagnitude, addr 0x30fc638, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x44fbf58, size 0x4c, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::AxisComposite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x30fc518, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x44fbe38, size 0x120, virtual true, abstract: false, final false
   inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr float_t const& __cordl_internal_get_maxValue() const;
@@ -148,10 +151,10 @@ public:
 
   constexpr void __cordl_internal_set_whichSideWins(::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins value);
 
-  /// @brief Method .ctor, addr 0x30fc684, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44fbfa4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_midPoint, addr 0x30fc504, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_midPoint, addr 0x44fbe24, size 0x14, virtual false, abstract: false, final false
   inline float_t get_midPoint();
 
 protected:
@@ -182,6 +185,9 @@ public:
 
   /// @brief Field whichSideWins, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins ___whichSideWins;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7090 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

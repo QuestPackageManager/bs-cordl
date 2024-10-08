@@ -17,7 +17,7 @@ class LocalVariableInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::LocalVariableInfo);
 // Type: System.Reflection::LocalVariableInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::LocalVariableInfo*
@@ -31,11 +31,11 @@ public:
   __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) uint16_t position;
 
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
   static inline ::System::Reflection::LocalVariableInfo* New_ctor();
 
-  /// @brief Method ToString, addr 0x289ffd4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3cb8348, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_is_pinned() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x289ffcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb8340, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field position, offset: 0x1a, size: 0x2, def value: None
   uint16_t ___position;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3519 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

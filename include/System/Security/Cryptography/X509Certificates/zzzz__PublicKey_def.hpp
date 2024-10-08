@@ -29,7 +29,7 @@ class PublicKey;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::PublicKey);
 // Type: System.Security.Cryptography.X509Certificates::PublicKey
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography.X509Certificates::PublicKey*
@@ -37,32 +37,32 @@ class CORDL_TYPE PublicKey : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Empty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::ArrayW<uint8_t, ::Array<uint8_t>*> Empty;
+  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Empty;
 
-  __declspec(property(get = get_EncodedKeyValue))::System::Security::Cryptography::AsnEncodedData* EncodedKeyValue;
+  __declspec(property(get = get_EncodedKeyValue)) ::System::Security::Cryptography::AsnEncodedData* EncodedKeyValue;
 
-  __declspec(property(get = get_EncodedParameters))::System::Security::Cryptography::AsnEncodedData* EncodedParameters;
+  __declspec(property(get = get_EncodedParameters)) ::System::Security::Cryptography::AsnEncodedData* EncodedParameters;
 
-  __declspec(property(get = get_Key))::System::Security::Cryptography::AsymmetricAlgorithm* Key;
+  __declspec(property(get = get_Key)) ::System::Security::Cryptography::AsymmetricAlgorithm* Key;
 
-  __declspec(property(get = get_Oid))::System::Security::Cryptography::Oid* Oid;
+  __declspec(property(get = get_Oid)) ::System::Security::Cryptography::Oid* Oid;
 
   /// @brief Field _keyValue, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__keyValue, put = __cordl_internal_set__keyValue))::System::Security::Cryptography::AsnEncodedData* _keyValue;
+  __declspec(property(get = __cordl_internal_get__keyValue, put = __cordl_internal_set__keyValue)) ::System::Security::Cryptography::AsnEncodedData* _keyValue;
 
   /// @brief Field _oid, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__oid, put = __cordl_internal_set__oid))::System::Security::Cryptography::Oid* _oid;
+  __declspec(property(get = __cordl_internal_get__oid, put = __cordl_internal_set__oid)) ::System::Security::Cryptography::Oid* _oid;
 
   /// @brief Field _params, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__params, put = __cordl_internal_set__params))::System::Security::Cryptography::AsnEncodedData* _params;
+  __declspec(property(get = __cordl_internal_get__params, put = __cordl_internal_set__params)) ::System::Security::Cryptography::AsnEncodedData* _params;
 
-  /// @brief Method DecodeDSA, addr 0x2fd9134, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method DecodeDSA, addr 0x43bfa78, size 0x480, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t, ::Array<uint8_t>*> rawPublicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawParameters);
 
-  /// @brief Method DecodeRSA, addr 0x2fd8d7c, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method DecodeRSA, addr 0x43bf6dc, size 0x39c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t, ::Array<uint8_t>*> rawPublicKey);
 
-  /// @brief Method GetUnsignedBigInteger, addr 0x2fd95e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetUnsignedBigInteger, addr 0x43bff00, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetUnsignedBigInteger(::ArrayW<uint8_t, ::Array<uint8_t>*> integer);
 
   static inline ::System::Security::Cryptography::X509Certificates::PublicKey* New_ctor(::System::Security::Cryptography::Oid* oid, ::System::Security::Cryptography::AsnEncodedData* parameters,
@@ -86,21 +86,21 @@ public:
 
   constexpr void __cordl_internal_set__params(::System::Security::Cryptography::AsnEncodedData* value);
 
-  /// @brief Method .ctor, addr 0x2fd8a54, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43bf3c0, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::Oid* oid, ::System::Security::Cryptography::AsnEncodedData* parameters, ::System::Security::Cryptography::AsnEncodedData* keyValue);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Empty();
 
-  /// @brief Method get_EncodedKeyValue, addr 0x2fd8bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncodedKeyValue, addr 0x43bf528, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnEncodedData* get_EncodedKeyValue();
 
-  /// @brief Method get_EncodedParameters, addr 0x2fd8bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncodedParameters, addr 0x43bf530, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnEncodedData* get_EncodedParameters();
 
-  /// @brief Method get_Key, addr 0x2fd8bd8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x43bf538, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsymmetricAlgorithm* get_Key();
 
-  /// @brief Method get_Oid, addr 0x2fd95e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Oid, addr 0x43bfef8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::Oid* get_Oid();
 
   static inline void setStaticF_Empty(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
@@ -127,6 +127,9 @@ public:
 
   /// @brief Field _oid, offset: 0x20, size: 0x8, def value: None
   ::System::Security::Cryptography::Oid* ____oid;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9276 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

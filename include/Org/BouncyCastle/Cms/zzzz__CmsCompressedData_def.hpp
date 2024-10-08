@@ -20,25 +20,25 @@ class CmsCompressedData;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsCompressedData);
 // Type: Org.BouncyCastle.Cms::CmsCompressedData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::CmsCompressedData*
 class CORDL_TYPE CmsCompressedData : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_ContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* ContentInfo;
+  __declspec(property(get = get_ContentInfo)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* ContentInfo;
 
   /// @brief Field contentInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
+  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
 
-  /// @brief Method GetContent, addr 0x144fa40, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x2612b6c, size 0x260, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContent();
 
-  /// @brief Method GetContent, addr 0x144fcac, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x2612dcc, size 0x1dc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContent(int32_t limit);
 
-  /// @brief Method GetEncoded, addr 0x144fe9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x2612fb0, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
@@ -53,16 +53,16 @@ public:
 
   constexpr void __cordl_internal_set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  /// @brief Method .ctor, addr 0x144f9a8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2612ad4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
 
-  /// @brief Method .ctor, addr 0x144fa08, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2612b34, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* compressedDataStream);
 
-  /// @brief Method .ctor, addr 0x144f9e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2612b0c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method get_ContentInfo, addr 0x144fe94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x2612fa8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo();
 
 protected:
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field contentInfo, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cms::ContentInfo* ___contentInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 628 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

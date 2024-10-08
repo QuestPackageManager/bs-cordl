@@ -15,7 +15,7 @@ class LightColorGroup;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightColorGroup);
 // Type: ::LightColorGroup
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightColorGroup*
@@ -27,7 +27,7 @@ public:
 
   static inline ::GlobalNamespace::LightColorGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26f4a10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b15490, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
@@ -47,10 +47,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightColorGroup(LightColorGroup const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4271 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightColorGroup, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightColorGroup, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightColorGroup);

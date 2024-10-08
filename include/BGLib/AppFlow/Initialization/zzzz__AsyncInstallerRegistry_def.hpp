@@ -24,7 +24,7 @@ class AsyncInstallerRegistry;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::AppFlow::Initialization::AsyncInstallerRegistry);
 // Type: BGLib.AppFlow.Initialization::AsyncInstallerRegistry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
 // CS Name: ::BGLib.AppFlow.Initialization::AsyncInstallerRegistry*
@@ -32,19 +32,19 @@ class CORDL_TYPE AsyncInstallerRegistry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field monoInstallers, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_monoInstallers, put = __cordl_internal_set_monoInstallers))::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* monoInstallers;
+  __declspec(property(get = __cordl_internal_get_monoInstallers, put = __cordl_internal_set_monoInstallers)) ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* monoInstallers;
 
   /// @brief Field scriptableObjectInstallers, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_scriptableObjectInstallers,
-                      put = __cordl_internal_set_scriptableObjectInstallers))::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* scriptableObjectInstallers;
+                      put = __cordl_internal_set_scriptableObjectInstallers)) ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* scriptableObjectInstallers;
 
   /// @brief Convert operator to "::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry"
   constexpr operator ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*() noexcept;
 
-  /// @brief Method AddMonoInstaller, addr 0x107ec24, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method AddMonoInstaller, addr 0x225ca60, size 0xa4, virtual true, abstract: false, final true
   inline void AddMonoInstaller(::Zenject::MonoInstaller* newMonoInstaller);
 
-  /// @brief Method AddScriptableObjectInstaller, addr 0x107eccc, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method AddScriptableObjectInstaller, addr 0x225cb04, size 0xa4, virtual true, abstract: false, final true
   inline void AddScriptableObjectInstaller(::Zenject::ScriptableObjectInstaller* newScriptableObjectInstaller);
 
   static inline ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* New_ctor();
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_scriptableObjectInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
 
-  /// @brief Method .ctor, addr 0x107ed74, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225cba8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry"
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field scriptableObjectInstallers, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* ___scriptableObjectInstallers;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

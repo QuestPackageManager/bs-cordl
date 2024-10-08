@@ -22,7 +22,7 @@ class __NullableMethodCallInstruction__GetValueOrDefault;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__GetValueOrDefault);
 // Type: ::GetValueOrDefault
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::NullableMethodCallInstruction::GetValueOrDefault*
@@ -30,11 +30,11 @@ class CORDL_TYPE __NullableMethodCallInstruction__GetValueOrDefault : public ::S
 public:
   // Declarations
   /// @brief Field _defaultValueType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultValueType, put = __cordl_internal_set__defaultValueType))::System::Type* _defaultValueType;
+  __declspec(property(get = __cordl_internal_get__defaultValueType, put = __cordl_internal_set__defaultValueType)) ::System::Type* _defaultValueType;
 
   static inline ::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__GetValueOrDefault* New_ctor(::System::Reflection::MethodInfo* mi);
 
-  /// @brief Method Run, addr 0x2c7ea84, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4081930, size 0x60, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type*& __cordl_internal_get__defaultValueType();
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultValueType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2c7e8f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40817ac, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* mi);
 
 protected:
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field _defaultValueType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____defaultValueType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14064 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

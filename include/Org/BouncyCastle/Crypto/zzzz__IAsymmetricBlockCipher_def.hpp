@@ -17,14 +17,14 @@ class IAsymmetricBlockCipher;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher);
 // Type: Org.BouncyCastle.Crypto::IAsymmetricBlockCipher
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto::IAsymmetricBlockCipher*
 class CORDL_TYPE IAsymmetricBlockCipher {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Method GetInputBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetInputBlockSize();
@@ -48,6 +48,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IAsymmetricBlockCipher", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IAsymmetricBlockCipher(IAsymmetricBlockCipher const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 818 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

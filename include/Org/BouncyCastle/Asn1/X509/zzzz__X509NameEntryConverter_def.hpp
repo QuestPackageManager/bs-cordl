@@ -20,17 +20,17 @@ class X509NameEntryConverter;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter);
 // Type: Org.BouncyCastle.Asn1.X509::X509NameEntryConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509NameEntryConverter*
 class CORDL_TYPE X509NameEntryConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CanBePrintable, addr 0x140fc1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CanBePrintable, addr 0x25d5a9c, size 0xc, virtual false, abstract: false, final false
   inline bool CanBePrintable(::StringW str);
 
-  /// @brief Method ConvertHexEncoded, addr 0x140fba4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ConvertHexEncoded, addr 0x25d5a24, size 0x78, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ConvertHexEncoded(::StringW hexString, int32_t offset);
 
   /// @brief Method GetConvertedValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -38,7 +38,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x140fc28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d5aa8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "X509NameEntryConverter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   X509NameEntryConverter(X509NameEntryConverter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 403 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

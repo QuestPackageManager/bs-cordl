@@ -93,7 +93,7 @@ MARK_VAL_T(::GlobalNamespace::__Interop__ErrorInfo);
 MARK_VAL_T(::GlobalNamespace::__Interop__Sys__DirectoryEntry);
 MARK_VAL_T(::GlobalNamespace::__Interop__Sys__FileStatus);
 // Type: ::Error
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::Interop::Error
@@ -209,6 +209,9 @@ public:
 
   /// @brief Field SUCCESS value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__Interop__Error const SUCCESS;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2211 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -462,33 +465,33 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Error, value__) == 0x0, "Of
 
 } // namespace GlobalNamespace
 // Type: ::ErrorInfo
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::Interop::ErrorInfo
 struct CORDL_TYPE __Interop__ErrorInfo {
 public:
   // Declarations
-  __declspec(property(get = get_Error))::GlobalNamespace::__Interop__Error Error;
+  __declspec(property(get = get_Error)) ::GlobalNamespace::__Interop__Error Error;
 
   __declspec(property(get = get_RawErrno)) int32_t RawErrno;
 
-  /// @brief Method GetErrorMessage, addr 0x27bc1f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetErrorMessage, addr 0x3bde464, size 0x64, virtual false, abstract: false, final false
   inline ::StringW GetErrorMessage();
 
-  /// @brief Method ToString, addr 0x27bc4bc, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3bde6b0, size 0xd4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x27bc2c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bde530, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t _cordl_errno);
 
-  /// @brief Method .ctor, addr 0x27bc330, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bde59c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__Interop__Error error);
 
-  /// @brief Method get_Error, addr 0x27bc33c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x3bde5a8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__Interop__Error get_Error();
 
-  /// @brief Method get_RawErrno, addr 0x27bc18c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_RawErrno, addr 0x3bde3f8, size 0x6c, virtual false, abstract: false, final false
   inline int32_t get_RawErrno();
 
   // Ctor Parameters []
@@ -505,6 +508,9 @@ public:
   /// @brief Field _rawErrno, offset: 0x4, size: 0x4, def value: None
   int32_t _rawErrno;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2212 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -519,7 +525,7 @@ static_assert(offsetof(::GlobalNamespace::__Interop__ErrorInfo, _rawErrno) == 0x
 
 } // namespace GlobalNamespace
 // Type: ::NodeType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::Interop::Sys::NodeType
@@ -588,6 +594,9 @@ public:
   /// @brief Field DT_WHT value: static_cast<int32_t>(0xe)
   static ::GlobalNamespace::__Interop__Sys__NodeType const DT_WHT;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2213 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -600,14 +609,14 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__NodeType, value__) == 
 
 } // namespace GlobalNamespace
 // Type: ::DirectoryEntry
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::Interop::Sys::DirectoryEntry
 struct CORDL_TYPE __Interop__Sys__DirectoryEntry {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0x27bcecc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x3bdf01c, size 0x124, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> GetName(::System::Span_1<char16_t> buffer);
 
   // Ctor Parameters []
@@ -627,6 +636,9 @@ public:
   /// @brief Field InodeType, offset: 0xc, size: 0x4, def value: None
   ::GlobalNamespace::__Interop__Sys__NodeType InodeType;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2214 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -643,7 +655,7 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__DirectoryEntry, InodeT
 
 } // namespace GlobalNamespace
 // Type: ::FileStatusFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::Interop::Sys::FileStatusFlags
@@ -684,6 +696,9 @@ public:
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__Interop__Sys__FileStatusFlags const None;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2216 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -696,7 +711,7 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__FileStatusFlags, value
 
 } // namespace GlobalNamespace
 // Type: ::FileStatus
-// SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 124, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::Interop::Sys::FileStatus
@@ -766,6 +781,9 @@ public:
   /// @brief Field UserFlags, offset: 0x68, size: 0x4, def value: None
   uint32_t UserFlags;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2215 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
 
@@ -808,7 +826,7 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__FileStatus, UserFlags)
 
 } // namespace GlobalNamespace
 // Type: ::Permissions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::Interop::Sys::Permissions
@@ -893,6 +911,9 @@ public:
   /// @brief Field S_IXUSR value: static_cast<int32_t>(0x40)
   static ::GlobalNamespace::__Interop__Sys__Permissions const S_IXUSR;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2217 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -905,7 +926,7 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__Permissions, value__) 
 
 } // namespace GlobalNamespace
 // Type: ::Sys
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Interop::Sys*
@@ -925,91 +946,91 @@ public:
   /// @brief Field CanSetHiddenFlag, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_CanSetHiddenFlag, put = setStaticF_CanSetHiddenFlag)) bool CanSetHiddenFlag;
 
-  /// @brief Method CloseDir, addr 0x27bc5d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CloseDir, addr 0x3bde7c4, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t CloseDir(::System::IntPtr dir);
 
-  /// @brief Method ConvertErrorPalToPlatform, addr 0x27bc344, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ConvertErrorPalToPlatform, addr 0x3bde5b0, size 0x4, virtual false, abstract: false, final false
   static inline int32_t ConvertErrorPalToPlatform(::GlobalNamespace::__Interop__Error error);
 
-  /// @brief Method ConvertErrorPlatformToPal, addr 0x27bc32c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConvertErrorPlatformToPal, addr 0x3bde598, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__Interop__Error ConvertErrorPlatformToPal(int32_t platformErrno);
 
-  /// @brief Method CopyFile, addr 0x27bc980, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CopyFile, addr 0x3bdeb10, size 0xb4, virtual false, abstract: false, final false
   static inline int32_t CopyFile(::Microsoft::Win32::SafeHandles::SafeFileHandle* source, ::Microsoft::Win32::SafeHandles::SafeFileHandle* destination);
 
-  /// @brief Method DoubleToString, addr 0x27bce74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DoubleToString, addr 0x3bdefc4, size 0x4, virtual false, abstract: false, final false
   static inline int32_t DoubleToString(double_t value, ::cordl_internals::Ptr<uint8_t> format, ::cordl_internals::Ptr<uint8_t> buffer, int32_t bufferLength);
 
-  /// @brief Method GetEGid, addr 0x27bca34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetEGid, addr 0x3bdebc4, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t GetEGid();
 
-  /// @brief Method GetEUid, addr 0x27bca38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetEUid, addr 0x3bdebc8, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t GetEUid();
 
-  /// @brief Method GetLastErrorInfo, addr 0x27bc008, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetLastErrorInfo, addr 0x3bde27c, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__Interop__ErrorInfo GetLastErrorInfo();
 
-  /// @brief Method GetNonCryptographicallySecureRandomBytes, addr 0x27bc2c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetNonCryptographicallySecureRandomBytes, addr 0x3bde52c, size 0x4, virtual false, abstract: false, final false
   static inline void GetNonCryptographicallySecureRandomBytes(::cordl_internals::Ptr<uint8_t> buffer, int32_t length);
 
-  /// @brief Method GetReadDirRBufferSize, addr 0x27bc5c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetReadDirRBufferSize, addr 0x3bde7bc, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetReadDirRBufferSize();
 
-  /// @brief Method LChflagsCanSetHiddenFlag, addr 0x27bca3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LChflagsCanSetHiddenFlag, addr 0x3bdebcc, size 0x4, virtual false, abstract: false, final false
   static inline int32_t LChflagsCanSetHiddenFlag();
 
-  /// @brief Method LStat, addr 0x27bc88c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LStat, addr 0x3bdea80, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t LStat(::StringW path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
 
-  /// @brief Method LStat, addr 0x27bcce8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method LStat, addr 0x3bdee58, size 0x138, virtual false, abstract: false, final false
   static inline int32_t LStat(::System::ReadOnlySpan_1<char16_t> path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
 
-  /// @brief Method LStat, addr 0x27bcccc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LStat, addr 0x3bdee3c, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t LStat(ByRef<uint8_t> path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
 
-  /// @brief Method Link, addr 0x27bca40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Link, addr 0x3bdebd0, size 0x54, virtual false, abstract: false, final false
   static inline int32_t Link(::StringW source, ::StringW link);
 
-  /// @brief Method MkDir, addr 0x27bca94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method MkDir, addr 0x3bdec24, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t MkDir(::StringW path, int32_t mode);
 
-  /// @brief Method OpenDir, addr 0x27bc594, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OpenDir, addr 0x3bde788, size 0x34, virtual false, abstract: false, final false
   static inline ::System::IntPtr OpenDir(::StringW path);
 
-  /// @brief Method ReadDirR, addr 0x27bc5cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReadDirR, addr 0x3bde7c0, size 0x4, virtual false, abstract: false, final false
   static inline int32_t ReadDirR(::System::IntPtr dir, ::cordl_internals::Ptr<uint8_t> buffer, int32_t bufferSize, ByRef<::GlobalNamespace::__Interop__Sys__DirectoryEntry> outputEntry);
 
-  /// @brief Method ReadLink, addr 0x27bc638, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ReadLink, addr 0x3bde82c, size 0x218, virtual false, abstract: false, final false
   static inline ::StringW ReadLink(::StringW path);
 
-  /// @brief Method ReadLink, addr 0x27bc5ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ReadLink, addr 0x3bde7e0, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t ReadLink(::StringW path, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t bufferSize);
 
-  /// @brief Method Rename, addr 0x27bcad0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Rename, addr 0x3bdec60, size 0x54, virtual false, abstract: false, final false
   static inline int32_t Rename(::StringW oldPath, ::StringW newPath);
 
-  /// @brief Method RmDir, addr 0x27bcb24, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method RmDir, addr 0x3bdecb4, size 0x34, virtual false, abstract: false, final false
   static inline int32_t RmDir(::StringW path);
 
-  /// @brief Method Stat, addr 0x27bc850, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Stat, addr 0x3bdea44, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t Stat(::StringW path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
 
-  /// @brief Method Stat, addr 0x27bcb74, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Stat, addr 0x3bded04, size 0x138, virtual false, abstract: false, final false
   static inline int32_t Stat(::System::ReadOnlySpan_1<char16_t> path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
 
-  /// @brief Method Stat, addr 0x27bcb58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Stat, addr 0x3bdece8, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t Stat(ByRef<uint8_t> path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
 
-  /// @brief Method StrError, addr 0x27bc3c0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method StrError, addr 0x3bde5b4, size 0xfc, virtual false, abstract: false, final false
   static inline ::StringW StrError(int32_t platformErrno);
 
-  /// @brief Method StrErrorR, addr 0x27bc590, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method StrErrorR, addr 0x3bde784, size 0x4, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<uint8_t> StrErrorR(int32_t platformErrno, ::cordl_internals::Ptr<uint8_t> buffer, int32_t bufferSize);
 
-  /// @brief Method Symlink, addr 0x27bc8c8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Symlink, addr 0x3bdeabc, size 0x54, virtual false, abstract: false, final false
   static inline int32_t Symlink(::StringW target, ::StringW linkPath);
 
-  /// @brief Method Unlink, addr 0x27bce40, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Unlink, addr 0x3bdef90, size 0x34, virtual false, abstract: false, final false
   static inline int32_t Unlink(::StringW pathname);
 
   static inline bool getStaticF_CanSetHiddenFlag();
@@ -1030,6 +1051,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Interop__Sys(__Interop__Sys const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2218 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1037,7 +1061,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Interop__Sys,
 
 } // namespace GlobalNamespace
 // Type: ::Interop
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Interop*
@@ -1050,22 +1074,22 @@ public:
 
   using Sys = ::GlobalNamespace::__Interop__Sys;
 
-  /// @brief Method CheckIo, addr 0x27bc070, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CheckIo, addr 0x3bde2e4, size 0x20, virtual false, abstract: false, final false
   static inline int32_t CheckIo(int32_t result, ::StringW path, bool isDirectory, ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo, ::GlobalNamespace::__Interop__ErrorInfo>* errorRewriter);
 
-  /// @brief Method CheckIo, addr 0x27bbf90, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CheckIo, addr 0x3bde204, size 0x78, virtual false, abstract: false, final false
   static inline int64_t CheckIo(int64_t result, ::StringW path, bool isDirectory, ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo, ::GlobalNamespace::__Interop__ErrorInfo>* errorRewriter);
 
-  /// @brief Method GetExceptionForIoErrno, addr 0x27bba98, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method GetExceptionForIoErrno, addr 0x3bddd18, size 0x4ec, virtual false, abstract: false, final false
   static inline ::System::Exception* GetExceptionForIoErrno(::GlobalNamespace::__Interop__ErrorInfo errorInfo, ::StringW path, bool isDirectory);
 
-  /// @brief Method GetIOException, addr 0x27bc100, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetIOException, addr 0x3bde374, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Exception* GetIOException(::GlobalNamespace::__Interop__ErrorInfo errorInfo);
 
-  /// @brief Method GetRandomBytes, addr 0x27bc25c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetRandomBytes, addr 0x3bde4c8, size 0x64, virtual false, abstract: false, final false
   static inline void GetRandomBytes(::cordl_internals::Ptr<uint8_t> buffer, int32_t length);
 
-  /// @brief Method ThrowExceptionForIoErrno, addr 0x27bba40, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ThrowExceptionForIoErrno, addr 0x3bddcc0, size 0x58, virtual false, abstract: false, final false
   static inline void ThrowExceptionForIoErrno(::GlobalNamespace::__Interop__ErrorInfo errorInfo, ::StringW path, bool isDirectory,
                                               ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo, ::GlobalNamespace::__Interop__ErrorInfo>* errorRewriter);
 
@@ -1082,6 +1106,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Interop", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Interop(Interop const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2219 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

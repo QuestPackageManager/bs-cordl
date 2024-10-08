@@ -45,7 +45,7 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::__StringUtils__SeparatedCaseState);
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::StringUtils);
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1);
 // Type: ::SeparatedCaseState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
 // CS Name: ::StringUtils::SeparatedCaseState
@@ -94,6 +94,9 @@ public:
   /// @brief Field Upper value: static_cast<int32_t>(0x2)
   static ::Newtonsoft::Json::Utilities::__StringUtils__SeparatedCaseState const Upper;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10242 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -106,7 +109,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__StringUtils__SeparatedCa
 
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass14_0`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TSource>
@@ -116,10 +119,10 @@ class CORDL_TYPE __StringUtils____c__DisplayClass14_0_1 : public ::System::Objec
 public:
   // Declarations
   /// @brief Field testValue, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_testValue, put = __cordl_internal_set_testValue))::StringW testValue;
+  __declspec(property(get = __cordl_internal_get_testValue, put = __cordl_internal_set_testValue)) ::StringW testValue;
 
   /// @brief Field valueSelector, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_valueSelector, put = __cordl_internal_set_valueSelector))::System::Func_2<TSource, ::StringW>* valueSelector;
+  __declspec(property(get = __cordl_internal_get_valueSelector, put = __cordl_internal_set_valueSelector)) ::System::Func_2<TSource, ::StringW>* valueSelector;
 
   static inline ::Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>* New_ctor();
 
@@ -164,12 +167,15 @@ public:
   /// @brief Field testValue, offset: 0x18, size: 0x8, def value: None
   ::StringW ___testValue;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10243 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: Newtonsoft.Json.Utilities::StringUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::StringUtils*
@@ -180,71 +186,71 @@ public:
 
   template <typename TSource> using __c__DisplayClass14_0_1 = ::Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>;
 
-  /// @brief Method CreateStringWriter, addr 0x2a51998, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CreateStringWriter, addr 0x3e61e74, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::IO::StringWriter* CreateStringWriter(int32_t capacity);
 
-  /// @brief Method EndsWith, addr 0x2a5218c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x3e62684, size 0x40, virtual false, abstract: false, final false
   static inline bool EndsWith(::StringW source, char16_t value);
 
   /// @brief Method ForgivingCaseSensitiveFind, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource>
   static inline TSource ForgivingCaseSensitiveFind(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, ::StringW>* valueSelector, ::StringW testValue);
 
-  /// @brief Method FormatWith, addr 0x2a51410, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x3e618f0, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0);
 
-  /// @brief Method FormatWith, addr 0x2a51524, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x3e61a04, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1);
 
-  /// @brief Method FormatWith, addr 0x2a51600, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x3e61ae0, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method FormatWith, addr 0x2a51708, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x3e61be8, size 0x13c, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2, ::System::Object* arg3);
 
-  /// @brief Method FormatWith, addr 0x2a514b8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method FormatWith, addr 0x3e61998, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method IndexOf, addr 0x2a52120, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3e62618, size 0x14, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::StringW s, char16_t c);
 
-  /// @brief Method IsHighSurrogate, addr 0x2a52070, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsHighSurrogate, addr 0x3e62568, size 0x58, virtual false, abstract: false, final false
   static inline bool IsHighSurrogate(char16_t c);
 
-  /// @brief Method IsLowSurrogate, addr 0x2a520c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsLowSurrogate, addr 0x3e625c0, size 0x58, virtual false, abstract: false, final false
   static inline bool IsLowSurrogate(char16_t c);
 
-  /// @brief Method IsNullOrEmpty, addr 0x2a51408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsNullOrEmpty, addr 0x3e618e8, size 0x8, virtual false, abstract: false, final false
   static inline bool IsNullOrEmpty(::StringW value);
 
-  /// @brief Method IsWhiteSpace, addr 0x2a51898, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method IsWhiteSpace, addr 0x3e61d70, size 0x104, virtual false, abstract: false, final false
   static inline bool IsWhiteSpace(::StringW s);
 
-  /// @brief Method Replace, addr 0x2a52134, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Replace, addr 0x3e6262c, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW Replace(::StringW s, ::StringW oldValue, ::StringW newValue);
 
-  /// @brief Method StartsWith, addr 0x2a52148, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x3e62640, size 0x44, virtual false, abstract: false, final false
   static inline bool StartsWith(::StringW source, char16_t value);
 
-  /// @brief Method ToCamelCase, addr 0x2a51b28, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ToCamelCase, addr 0x3e61ff8, size 0x1e8, virtual false, abstract: false, final false
   static inline ::StringW ToCamelCase(::StringW s);
 
-  /// @brief Method ToCharAsUnicode, addr 0x2a51a6c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ToCharAsUnicode, addr 0x3e61f3c, size 0xbc, virtual false, abstract: false, final false
   static inline void ToCharAsUnicode(char16_t c, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
-  /// @brief Method ToKebabCase, addr 0x2a52068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToKebabCase, addr 0x3e62560, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW ToKebabCase(::StringW s);
 
-  /// @brief Method ToLower, addr 0x2a51d10, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ToLower, addr 0x3e621e0, size 0x90, virtual false, abstract: false, final false
   static inline char16_t ToLower(char16_t c);
 
-  /// @brief Method ToSeparatedCase, addr 0x2a51da8, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method ToSeparatedCase, addr 0x3e62278, size 0x2e8, virtual false, abstract: false, final false
   static inline ::StringW ToSeparatedCase(::StringW s, char16_t separator);
 
-  /// @brief Method ToSnakeCase, addr 0x2a51da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToSnakeCase, addr 0x3e62270, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW ToSnakeCase(::StringW s);
 
-  /// @brief Method Trim, addr 0x2a521cc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x3e626c4, size 0x1b4, virtual false, abstract: false, final false
   static inline ::StringW Trim(::StringW s, int32_t start, int32_t length);
 
 protected:
@@ -275,6 +281,9 @@ public:
 
   /// @brief Field Tab offset 0xffffffff size 0x2
   static constexpr char16_t Tab{ u'\t' };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10244 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

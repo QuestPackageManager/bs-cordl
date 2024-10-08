@@ -13,20 +13,20 @@ class TargetFrameworkAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Versioning::TargetFrameworkAttribute);
 // Type: System.Runtime.Versioning::TargetFrameworkAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Versioning {
 // Is value type: false
 // CS Name: ::System.Runtime.Versioning::TargetFrameworkAttribute*
 class CORDL_TYPE TargetFrameworkAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(put = set_FrameworkDisplayName))::StringW FrameworkDisplayName;
+  __declspec(property(put = set_FrameworkDisplayName)) ::StringW FrameworkDisplayName;
 
   /// @brief Field _frameworkDisplayName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__frameworkDisplayName, put = __cordl_internal_set__frameworkDisplayName))::StringW _frameworkDisplayName;
+  __declspec(property(get = __cordl_internal_get__frameworkDisplayName, put = __cordl_internal_set__frameworkDisplayName)) ::StringW _frameworkDisplayName;
 
   /// @brief Field _frameworkName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__frameworkName, put = __cordl_internal_set__frameworkName))::StringW _frameworkName;
+  __declspec(property(get = __cordl_internal_get__frameworkName, put = __cordl_internal_set__frameworkName)) ::StringW _frameworkName;
 
   static inline ::System::Runtime::Versioning::TargetFrameworkAttribute* New_ctor(::StringW frameworkName);
 
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__frameworkName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28621f0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c7d7f0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW frameworkName);
 
-  /// @brief Method set_FrameworkDisplayName, addr 0x2862268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FrameworkDisplayName, addr 0x3c7d864, size 0x8, virtual false, abstract: false, final false
   inline void set_FrameworkDisplayName(::StringW value);
 
 protected:
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field _frameworkDisplayName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____frameworkDisplayName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

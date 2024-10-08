@@ -16,21 +16,21 @@ class ValidationEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Schema::ValidationEventArgs);
 // Type: Newtonsoft.Json.Schema::ValidationEventArgs
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Schema::ValidationEventArgs*
 class CORDL_TYPE ValidationEventArgs : public ::System::EventArgs {
 public:
   // Declarations
-  __declspec(property(get = get_Exception))::Newtonsoft::Json::Schema::JsonSchemaException* Exception;
+  __declspec(property(get = get_Exception)) ::Newtonsoft::Json::Schema::JsonSchemaException* Exception;
 
-  __declspec(property(get = get_Message))::StringW Message;
+  __declspec(property(get = get_Message)) ::StringW Message;
 
-  __declspec(property(get = get_Path))::StringW Path;
+  __declspec(property(get = get_Path)) ::StringW Path;
 
   /// @brief Field _ex, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ex, put = __cordl_internal_set__ex))::Newtonsoft::Json::Schema::JsonSchemaException* _ex;
+  __declspec(property(get = __cordl_internal_get__ex, put = __cordl_internal_set__ex)) ::Newtonsoft::Json::Schema::JsonSchemaException* _ex;
 
   static inline ::Newtonsoft::Json::Schema::ValidationEventArgs* New_ctor(::Newtonsoft::Json::Schema::JsonSchemaException* ex);
 
@@ -40,16 +40,16 @@ public:
 
   constexpr void __cordl_internal_set__ex(::Newtonsoft::Json::Schema::JsonSchemaException* value);
 
-  /// @brief Method .ctor, addr 0x2a87b68, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e96c5c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Schema::JsonSchemaException* ex);
 
-  /// @brief Method get_Exception, addr 0x2a87bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exception, addr 0x3e96cec, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaException* get_Exception();
 
-  /// @brief Method get_Message, addr 0x2a7c940, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3e8ba1c, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_Path, addr 0x2a87c00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3e96cf4, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
 protected:
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field _ex, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Schema::JsonSchemaException* ____ex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10341 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

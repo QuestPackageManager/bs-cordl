@@ -13,7 +13,7 @@ struct AssetLoadingSubsystem;
 // Write type traits
 MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem);
 // Type: Unity.IO.LowLevel.Unsafe::AssetLoadingSubsystem
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
 // CS Name: ::Unity.IO.LowLevel.Unsafe::AssetLoadingSubsystem
@@ -33,6 +33,7 @@ public:
     __E_EntitiesScene = static_cast<int32_t>(0x6),
     __E_EntitiesStreamBinaryReader = static_cast<int32_t>(0x7),
     __E_FileInfo = static_cast<int32_t>(0x8),
+    __E_ContentLoading = static_cast<int32_t>(0x9),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -58,6 +59,9 @@ public:
   /// @brief Field Audio value: static_cast<int32_t>(0x4)
   static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Audio;
 
+  /// @brief Field ContentLoading value: static_cast<int32_t>(0x9)
+  static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const ContentLoading;
+
   /// @brief Field EntitiesScene value: static_cast<int32_t>(0x6)
   static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const EntitiesScene;
 
@@ -81,6 +85,9 @@ public:
 
   /// @brief Field VirtualTexture value: static_cast<int32_t>(0x2)
   static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const VirtualTexture;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10539 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

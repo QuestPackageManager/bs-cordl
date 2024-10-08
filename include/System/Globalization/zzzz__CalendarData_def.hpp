@@ -15,7 +15,7 @@ class CalendarData;
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::CalendarData);
 // Type: System.Globalization::CalendarData
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::CalendarData*
@@ -23,13 +23,13 @@ class CORDL_TYPE CalendarData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field HEBREW_LEAP_MONTH_NAMES, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HEBREW_LEAP_MONTH_NAMES, put = setStaticF_HEBREW_LEAP_MONTH_NAMES))::ArrayW<::StringW, ::Array<::StringW>*> HEBREW_LEAP_MONTH_NAMES;
+  static __declspec(property(get = getStaticF_HEBREW_LEAP_MONTH_NAMES, put = setStaticF_HEBREW_LEAP_MONTH_NAMES)) ::ArrayW<::StringW, ::Array<::StringW>*> HEBREW_LEAP_MONTH_NAMES;
 
   /// @brief Field HEBREW_MONTH_NAMES, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HEBREW_MONTH_NAMES, put = setStaticF_HEBREW_MONTH_NAMES))::ArrayW<::StringW, ::Array<::StringW>*> HEBREW_MONTH_NAMES;
+  static __declspec(property(get = getStaticF_HEBREW_MONTH_NAMES, put = setStaticF_HEBREW_MONTH_NAMES)) ::ArrayW<::StringW, ::Array<::StringW>*> HEBREW_MONTH_NAMES;
 
   /// @brief Field Invariant, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Invariant, put = setStaticF_Invariant))::System::Globalization::CalendarData* Invariant;
+  static __declspec(property(get = getStaticF_Invariant, put = setStaticF_Invariant)) ::System::Globalization::CalendarData* Invariant;
 
   /// @brief Field bUseUserOverrides, offset 0x98, size 0x1
   __declspec(property(get = __cordl_internal_get_bUseUserOverrides, put = __cordl_internal_set_bUseUserOverrides)) bool bUseUserOverrides;
@@ -41,69 +41,70 @@ public:
   __declspec(property(get = __cordl_internal_get_iTwoDigitYearMax, put = __cordl_internal_set_iTwoDigitYearMax)) int32_t iTwoDigitYearMax;
 
   /// @brief Field sMonthDay, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_sMonthDay, put = __cordl_internal_set_sMonthDay))::StringW sMonthDay;
+  __declspec(property(get = __cordl_internal_get_sMonthDay, put = __cordl_internal_set_sMonthDay)) ::StringW sMonthDay;
 
   /// @brief Field sNativeName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_sNativeName, put = __cordl_internal_set_sNativeName))::StringW sNativeName;
+  __declspec(property(get = __cordl_internal_get_sNativeName, put = __cordl_internal_set_sNativeName)) ::StringW sNativeName;
 
   /// @brief Field saAbbrevDayNames, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_saAbbrevDayNames, put = __cordl_internal_set_saAbbrevDayNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevDayNames;
+  __declspec(property(get = __cordl_internal_get_saAbbrevDayNames, put = __cordl_internal_set_saAbbrevDayNames)) ::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevDayNames;
 
   /// @brief Field saAbbrevEnglishEraNames, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_saAbbrevEnglishEraNames, put = __cordl_internal_set_saAbbrevEnglishEraNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevEnglishEraNames;
+  __declspec(property(get = __cordl_internal_get_saAbbrevEnglishEraNames, put = __cordl_internal_set_saAbbrevEnglishEraNames)) ::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevEnglishEraNames;
 
   /// @brief Field saAbbrevEraNames, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_saAbbrevEraNames, put = __cordl_internal_set_saAbbrevEraNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevEraNames;
+  __declspec(property(get = __cordl_internal_get_saAbbrevEraNames, put = __cordl_internal_set_saAbbrevEraNames)) ::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevEraNames;
 
   /// @brief Field saAbbrevMonthGenitiveNames, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_saAbbrevMonthGenitiveNames, put = __cordl_internal_set_saAbbrevMonthGenitiveNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevMonthGenitiveNames;
+  __declspec(property(get = __cordl_internal_get_saAbbrevMonthGenitiveNames, put = __cordl_internal_set_saAbbrevMonthGenitiveNames)) ::ArrayW<::StringW, ::Array<::StringW>*>
+      saAbbrevMonthGenitiveNames;
 
   /// @brief Field saAbbrevMonthNames, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_saAbbrevMonthNames, put = __cordl_internal_set_saAbbrevMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevMonthNames;
+  __declspec(property(get = __cordl_internal_get_saAbbrevMonthNames, put = __cordl_internal_set_saAbbrevMonthNames)) ::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevMonthNames;
 
   /// @brief Field saDayNames, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_saDayNames, put = __cordl_internal_set_saDayNames))::ArrayW<::StringW, ::Array<::StringW>*> saDayNames;
+  __declspec(property(get = __cordl_internal_get_saDayNames, put = __cordl_internal_set_saDayNames)) ::ArrayW<::StringW, ::Array<::StringW>*> saDayNames;
 
   /// @brief Field saEraNames, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_saEraNames, put = __cordl_internal_set_saEraNames))::ArrayW<::StringW, ::Array<::StringW>*> saEraNames;
+  __declspec(property(get = __cordl_internal_get_saEraNames, put = __cordl_internal_set_saEraNames)) ::ArrayW<::StringW, ::Array<::StringW>*> saEraNames;
 
   /// @brief Field saLeapYearMonthNames, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_saLeapYearMonthNames, put = __cordl_internal_set_saLeapYearMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> saLeapYearMonthNames;
+  __declspec(property(get = __cordl_internal_get_saLeapYearMonthNames, put = __cordl_internal_set_saLeapYearMonthNames)) ::ArrayW<::StringW, ::Array<::StringW>*> saLeapYearMonthNames;
 
   /// @brief Field saLongDates, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_saLongDates, put = __cordl_internal_set_saLongDates))::ArrayW<::StringW, ::Array<::StringW>*> saLongDates;
+  __declspec(property(get = __cordl_internal_get_saLongDates, put = __cordl_internal_set_saLongDates)) ::ArrayW<::StringW, ::Array<::StringW>*> saLongDates;
 
   /// @brief Field saMonthGenitiveNames, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_saMonthGenitiveNames, put = __cordl_internal_set_saMonthGenitiveNames))::ArrayW<::StringW, ::Array<::StringW>*> saMonthGenitiveNames;
+  __declspec(property(get = __cordl_internal_get_saMonthGenitiveNames, put = __cordl_internal_set_saMonthGenitiveNames)) ::ArrayW<::StringW, ::Array<::StringW>*> saMonthGenitiveNames;
 
   /// @brief Field saMonthNames, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_saMonthNames, put = __cordl_internal_set_saMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> saMonthNames;
+  __declspec(property(get = __cordl_internal_get_saMonthNames, put = __cordl_internal_set_saMonthNames)) ::ArrayW<::StringW, ::Array<::StringW>*> saMonthNames;
 
   /// @brief Field saShortDates, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_saShortDates, put = __cordl_internal_set_saShortDates))::ArrayW<::StringW, ::Array<::StringW>*> saShortDates;
+  __declspec(property(get = __cordl_internal_get_saShortDates, put = __cordl_internal_set_saShortDates)) ::ArrayW<::StringW, ::Array<::StringW>*> saShortDates;
 
   /// @brief Field saSuperShortDayNames, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_saSuperShortDayNames, put = __cordl_internal_set_saSuperShortDayNames))::ArrayW<::StringW, ::Array<::StringW>*> saSuperShortDayNames;
+  __declspec(property(get = __cordl_internal_get_saSuperShortDayNames, put = __cordl_internal_set_saSuperShortDayNames)) ::ArrayW<::StringW, ::Array<::StringW>*> saSuperShortDayNames;
 
   /// @brief Field saYearMonths, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_saYearMonths, put = __cordl_internal_set_saYearMonths))::ArrayW<::StringW, ::Array<::StringW>*> saYearMonths;
+  __declspec(property(get = __cordl_internal_get_saYearMonths, put = __cordl_internal_set_saYearMonths)) ::ArrayW<::StringW, ::Array<::StringW>*> saYearMonths;
 
-  /// @brief Method CalendarIdToCultureName, addr 0x2914014, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CalendarIdToCultureName, addr 0x3d27814, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW CalendarIdToCultureName(int32_t calendarId);
 
-  /// @brief Method GetCalendarData, addr 0x2911348, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetCalendarData, addr 0x3d25524, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Globalization::CalendarData* GetCalendarData(int32_t calendarId);
 
-  /// @brief Method GetJapaneseEnglishEraNames, addr 0x2913c14, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetJapaneseEnglishEraNames, addr 0x3d274a4, size 0xe4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetJapaneseEnglishEraNames();
 
-  /// @brief Method GetJapaneseEraNames, addr 0x2913d00, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetJapaneseEraNames, addr 0x3d27588, size 0xe4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetJapaneseEraNames();
 
-  /// @brief Method InitializeAbbreviatedEraNames, addr 0x2913918, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method InitializeAbbreviatedEraNames, addr 0x3d271e8, size 0x2bc, virtual false, abstract: false, final false
   inline void InitializeAbbreviatedEraNames(::StringW localeName, int32_t calendarId);
 
-  /// @brief Method InitializeEraNames, addr 0x291355c, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method InitializeEraNames, addr 0x3d26e1c, size 0x3cc, virtual false, abstract: false, final false
   inline void InitializeEraNames(::StringW localeName, int32_t calendarId);
 
   static inline ::System::Globalization::CalendarData* New_ctor();
@@ -224,13 +225,13 @@ public:
 
   constexpr void __cordl_internal_set_saYearMonths(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x2911a44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d25c10, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2912f80, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d26868, size 0x4f4, virtual false, abstract: false, final false
   inline void _ctor(::StringW localeName, int32_t calendarId, bool bUseUserOverrides);
 
-  /// @brief Method fill_calendar_data, addr 0x29141f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method fill_calendar_data, addr 0x3d279f4, size 0x4, virtual false, abstract: false, final false
   inline bool fill_calendar_data(::StringW localeName, int32_t datetimeIndex);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_HEBREW_LEAP_MONTH_NAMES();
@@ -239,10 +240,10 @@ public:
 
   static inline ::System::Globalization::CalendarData* getStaticF_Invariant();
 
-  /// @brief Method nativeGetCalendarData, addr 0x2913498, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method nativeGetCalendarData, addr 0x3d26d5c, size 0xb8, virtual false, abstract: false, final false
   static inline bool nativeGetCalendarData(::System::Globalization::CalendarData* data, ::StringW localeName, int32_t calendarId);
 
-  /// @brief Method nativeGetTwoDigitYearMax, addr 0x2911a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method nativeGetTwoDigitYearMax, addr 0x3d25c08, size 0x8, virtual false, abstract: false, final false
   static inline int32_t nativeGetTwoDigitYearMax(int32_t calID);
 
   static inline void setStaticF_HEBREW_LEAP_MONTH_NAMES(::ArrayW<::StringW, ::Array<::StringW>*> value);
@@ -324,6 +325,9 @@ public:
 
   /// @brief Field MAX_CALENDARS offset 0xffffffff size 0x4
   static constexpr int32_t MAX_CALENDARS{ static_cast<int32_t>(0x17) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3703 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

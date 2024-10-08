@@ -25,7 +25,7 @@ template <typename TElement> struct __Set_1__Slot;
 MARK_GEN_REF_PTR_T(::System::Linq::Set_1);
 MARK_GEN_VAL_T(::System::Linq::__Set_1__Slot);
 // Type: ::Slot
-// SizeInfo { instance_size: 24, native_size: 36, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 36, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TElement>
@@ -51,6 +51,9 @@ public:
   /// @brief Field next, offset: 0x10, size: 0x4, def value: None
   int32_t next;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13556 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -59,7 +62,7 @@ public:
 // Non member Declarations
 } // namespace System::Linq
 // Type: System.Linq::Set`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TElement>
@@ -71,10 +74,10 @@ public:
   using Slot = ::System::Linq::__Set_1__Slot<TElement>;
 
   /// @brief Field buckets, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_buckets, put = __cordl_internal_set_buckets))::ArrayW<int32_t, ::Array<int32_t>*> buckets;
+  __declspec(property(get = __cordl_internal_get_buckets, put = __cordl_internal_set_buckets)) ::ArrayW<int32_t, ::Array<int32_t>*> buckets;
 
   /// @brief Field comparer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IEqualityComparer_1<TElement>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer)) ::System::Collections::Generic::IEqualityComparer_1<TElement>* comparer;
 
   /// @brief Field count, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
@@ -83,7 +86,7 @@ public:
   __declspec(property(get = __cordl_internal_get_freeList, put = __cordl_internal_set_freeList)) int32_t freeList;
 
   /// @brief Field slots, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_slots, put = __cordl_internal_set_slots))::ArrayW<::System::Linq::__Set_1__Slot<TElement>, ::Array<::System::Linq::__Set_1__Slot<TElement>>*> slots;
+  __declspec(property(get = __cordl_internal_get_slots, put = __cordl_internal_set_slots)) ::ArrayW<::System::Linq::__Set_1__Slot<TElement>, ::Array<::System::Linq::__Set_1__Slot<TElement>>*> slots;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Add(TElement value);
@@ -163,6 +166,9 @@ public:
 
   /// @brief Field comparer, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::IEqualityComparer_1<TElement>* ___comparer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13557 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

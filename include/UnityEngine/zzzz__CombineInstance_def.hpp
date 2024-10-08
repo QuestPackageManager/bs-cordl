@@ -24,29 +24,29 @@ struct CombineInstance;
 // Write type traits
 MARK_VAL_T(::UnityEngine::CombineInstance);
 // Type: UnityEngine::CombineInstance
-// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::CombineInstance
 struct CORDL_TYPE CombineInstance {
 public:
   // Declarations
-  __declspec(property(get = get_mesh, put = set_mesh))::UnityW<::UnityEngine::Mesh> mesh;
+  __declspec(property(get = get_mesh, put = set_mesh)) ::UnityW<::UnityEngine::Mesh> mesh;
 
   __declspec(property(put = set_subMeshIndex)) int32_t subMeshIndex;
 
-  __declspec(property(put = set_transform))::UnityEngine::Matrix4x4 transform;
+  __declspec(property(put = set_transform)) ::UnityEngine::Matrix4x4 transform;
 
-  /// @brief Method get_mesh, addr 0x3436244, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x4818cd8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method set_mesh, addr 0x3436250, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x4818d14, size 0x90, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_subMeshIndex, addr 0x343647c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_subMeshIndex, addr 0x4818da4, size 0x8, virtual false, abstract: false, final false
   inline void set_subMeshIndex(int32_t value);
 
-  /// @brief Method set_transform, addr 0x3436484, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_transform, addr 0x4818dac, size 0x1c, virtual false, abstract: false, final false
   inline void set_transform(::UnityEngine::Matrix4x4 value);
 
   // Ctor Parameters []
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field m_RealtimeLightmapScaleOffset, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Vector4 m_RealtimeLightmapScaleOffset;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10747 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };

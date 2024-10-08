@@ -12,7 +12,7 @@ class WaitForFixedUpdate;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::WaitForFixedUpdate);
 // Type: UnityEngine::WaitForFixedUpdate
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::WaitForFixedUpdate*
@@ -32,6 +32,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "WaitForFixedUpdate", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   WaitForFixedUpdate(WaitForFixedUpdate const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10880 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

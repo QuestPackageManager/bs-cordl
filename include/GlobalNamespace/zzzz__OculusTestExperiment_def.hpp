@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OculusTestExperiment);
 MARK_REF_PTR_T(::GlobalNamespace::__OculusTestExperiment__ExperimentData);
 MARK_VAL_T(::GlobalNamespace::__OculusTestExperiment___Init_d__3);
 // Type: ::ExperimentData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OculusTestExperiment::ExperimentData*
@@ -54,9 +54,9 @@ class CORDL_TYPE __OculusTestExperiment__ExperimentData : public ::System::Objec
 public:
   // Declarations
   /// @brief Field _experimentPlatformKey, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__experimentPlatformKey, put = __cordl_internal_set__experimentPlatformKey))::StringW _experimentPlatformKey;
+  __declspec(property(get = __cordl_internal_get__experimentPlatformKey, put = __cordl_internal_set__experimentPlatformKey)) ::StringW _experimentPlatformKey;
 
-  __declspec(property(get = get_experimentPlatformKey))::StringW experimentPlatformKey;
+  __declspec(property(get = get_experimentPlatformKey)) ::StringW experimentPlatformKey;
 
   /// @brief Convert operator to "::GlobalNamespace::IExperimentData"
   constexpr operator ::GlobalNamespace::IExperimentData*() noexcept;
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__experimentPlatformKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14ada38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266ee58, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW experimentPlatformKey);
 
-  /// @brief Method get_experimentPlatformKey, addr 0x14ada30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_experimentPlatformKey, addr 0x266ee50, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_experimentPlatformKey();
 
   /// @brief Convert to "::GlobalNamespace::IExperimentData"
@@ -95,6 +95,9 @@ public:
   /// @brief Field _experimentPlatformKey, offset: 0x10, size: 0x8, def value: None
   ::StringW ____experimentPlatformKey;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12809 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -104,7 +107,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusTestExperiment__ExperimentData
 
 } // namespace GlobalNamespace
 // Type: ::<Init>d__3
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OculusTestExperiment::<Init>d__3
@@ -114,10 +117,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x14ada60, size 0x470, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x266ee80, size 0x474, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x14aded0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x266f2f4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -145,6 +148,9 @@ public:
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12810 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
@@ -163,7 +169,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusTestExperiment___Init_d__3, __
 
 } // namespace GlobalNamespace
 // Type: ::OculusTestExperiment
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OculusTestExperiment*
@@ -175,9 +181,9 @@ public:
   using _Init_d__3 = ::GlobalNamespace::__OculusTestExperiment___Init_d__3;
 
   /// @brief Field _experimentModel, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__experimentModel, put = __cordl_internal_set__experimentModel))::GlobalNamespace::IExperimentModel* _experimentModel;
+  __declspec(property(get = __cordl_internal_get__experimentModel, put = __cordl_internal_set__experimentModel)) ::GlobalNamespace::IExperimentModel* _experimentModel;
 
-  /// @brief Method Init, addr 0x14ad994, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x266edb8, size 0x90, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::OculusTestExperiment* New_ctor();
@@ -188,7 +194,7 @@ public:
 
   constexpr void __cordl_internal_set__experimentModel(::GlobalNamespace::IExperimentModel* value);
 
-  /// @brief Method .ctor, addr 0x14ada28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266ee48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -207,6 +213,9 @@ public:
 
   /// @brief Field _experimentModel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IExperimentModel* ____experimentModel;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12811 };
 
   /// @brief Field kIsInTest1Key offset 0xffffffff size 0x8
   static constexpr ::ConstString kIsInTest1Key{ u"beatsaber_experiments:test_parameter" };

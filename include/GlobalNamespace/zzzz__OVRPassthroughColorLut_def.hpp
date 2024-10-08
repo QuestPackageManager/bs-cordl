@@ -84,7 +84,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter
 MARK_VAL_T(::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings);
 MARK_VAL_T(::GlobalNamespace::__OVRPassthroughColorLut__WriteColorsAsBytesJob);
 // Type: ::ColorChannels
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRPassthroughColorLut::ColorChannels
@@ -125,6 +125,9 @@ public:
   /// @brief Field Rgba value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels const Rgba;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8470 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -137,7 +140,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughColorLut__ColorChannel
 
 } // namespace GlobalNamespace
 // Type: ::WriteColorsAsBytesJob
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRPassthroughColorLut::WriteColorsAsBytesJob
@@ -147,7 +150,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x2bcf614, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3fd7224, size 0xa0, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -171,6 +174,9 @@ public:
   /// @brief Field channelCount, offset: 0x20, size: 0x4, def value: None
   int32_t channelCount;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8471 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -187,7 +193,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughColorLut__WriteColorsA
 
 } // namespace GlobalNamespace
 // Type: ::TextureSettings
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRPassthroughColorLut::ColorLutTextureConverter::TextureSettings
@@ -206,25 +212,25 @@ public:
 
   __declspec(property(get = get_Width)) int32_t Width;
 
-  /// @brief Method .ctor, addr 0x2bcf9ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd755c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t resolution, int32_t slicesPerRow, int32_t channelCount, bool flipY);
 
-  /// @brief Method get_ChannelCount, addr 0x2bcfac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChannelCount, addr 0x3fd7634, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ChannelCount();
 
-  /// @brief Method get_FlipY, addr 0x2bcfacc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FlipY, addr 0x3fd763c, size 0x8, virtual false, abstract: false, final false
   inline bool get_FlipY();
 
-  /// @brief Method get_Height, addr 0x2bcfaac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Height, addr 0x3fd761c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Height();
 
-  /// @brief Method get_Resolution, addr 0x2bcfab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Resolution, addr 0x3fd7624, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Resolution();
 
-  /// @brief Method get_SlicesPerRow, addr 0x2bcfabc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SlicesPerRow, addr 0x3fd762c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SlicesPerRow();
 
-  /// @brief Method get_Width, addr 0x2bcfaa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Width, addr 0x3fd7614, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Width();
 
   // Ctor Parameters []
@@ -255,6 +261,9 @@ public:
   /// @brief Field <FlipY>k__BackingField, offset: 0x14, size: 0x1, def value: None
   bool _FlipY_k__BackingField;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8473 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -277,7 +286,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughColorLut__ColorLutText
 
 } // namespace GlobalNamespace
 // Type: ::MapColorValuesJob
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRPassthroughColorLut::ColorLutTextureConverter::MapColorValuesJob
@@ -287,7 +296,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x2bcfa04, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3fd7574, size 0xa0, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -312,6 +321,9 @@ public:
   /// @brief Field source, offset: 0x28, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<uint8_t> source;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8472 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
@@ -328,7 +340,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughColorLut__ColorLutText
 
 } // namespace GlobalNamespace
 // Type: ::ColorLutTextureConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRPassthroughColorLut::ColorLutTextureConverter*
@@ -339,17 +351,17 @@ public:
 
   using TextureSettings = ::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings;
 
-  /// @brief Method GetTextureSettings, addr 0x2bcf744, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetTextureSettings, addr 0x3fd72c4, size 0xfc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings GetTextureSettings(::UnityEngine::Texture2D* lut, int32_t channelCount, bool flipY);
 
-  /// @brief Method MapColorValues, addr 0x2bcf848, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method MapColorValues, addr 0x3fd73c0, size 0x19c, virtual false, abstract: false, final false
   static inline void MapColorValues(::GlobalNamespace::__OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings settings, ::Unity::Collections::NativeArray_1<uint8_t> source,
                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> target);
 
-  /// @brief Method TextureToColorByteMap, addr 0x2bced50, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TextureToColorByteMap, addr 0x3fd697c, size 0xb4, virtual false, abstract: false, final false
   static inline void TextureToColorByteMap(::UnityEngine::Texture2D* lut, int32_t channelCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> target, bool flipY);
 
-  /// @brief Method TryGetTextureLayout, addr 0x2bcf108, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method TryGetTextureLayout, addr 0x3fd6d30, size 0x224, virtual false, abstract: false, final false
   static inline bool TryGetTextureLayout(int32_t width, int32_t height, ByRef<int32_t> resolution, ByRef<int32_t> slicesPerRow, ByRef<::StringW> errorMessage);
 
 protected:
@@ -366,6 +378,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRPassthroughColorLut__ColorLutTextureConverter(__OVRPassthroughColorLut__ColorLutTextureConverter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8474 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -373,7 +388,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroug
 
 } // namespace GlobalNamespace
 // Type: ::OVRPassthroughColorLut
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRPassthroughColorLut*
@@ -386,7 +401,7 @@ public:
 
   using WriteColorsAsBytesJob = ::GlobalNamespace::__OVRPassthroughColorLut__WriteColorsAsBytesJob;
 
-  __declspec(property(get = get_Channels, put = set_Channels))::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels Channels;
+  __declspec(property(get = get_Channels, put = set_Channels)) ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels Channels;
 
   __declspec(property(get = get_IsInitialized, put = set_IsInitialized)) bool IsInitialized;
 
@@ -394,7 +409,7 @@ public:
 
   /// @brief Field <Channels>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__Channels_k__BackingField,
-                      put = __cordl_internal_set__Channels_k__BackingField))::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels _Channels_k__BackingField;
+                      put = __cordl_internal_set__Channels_k__BackingField)) ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels _Channels_k__BackingField;
 
   /// @brief Field <IsInitialized>k__BackingField, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__IsInitialized_k__BackingField, put = __cordl_internal_set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
@@ -403,84 +418,84 @@ public:
   __declspec(property(get = __cordl_internal_get__Resolution_k__BackingField, put = __cordl_internal_set__Resolution_k__BackingField)) uint32_t _Resolution_k__BackingField;
 
   /// @brief Field _allocHandle, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__allocHandle, put = __cordl_internal_set__allocHandle))::System::Runtime::InteropServices::GCHandle _allocHandle;
+  __declspec(property(get = __cordl_internal_get__allocHandle, put = __cordl_internal_set__allocHandle)) ::System::Runtime::InteropServices::GCHandle _allocHandle;
 
   /// @brief Field _channelCount, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__channelCount, put = __cordl_internal_set__channelCount)) int32_t _channelCount;
 
   /// @brief Field _colorBytes, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorBytes, put = __cordl_internal_set__colorBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> _colorBytes;
+  __declspec(property(get = __cordl_internal_get__colorBytes, put = __cordl_internal_set__colorBytes)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _colorBytes;
 
   /// @brief Field _colorLutHandle, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__colorLutHandle, put = __cordl_internal_set__colorLutHandle)) uint64_t _colorLutHandle;
 
   /// @brief Field _locker, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__locker, put = __cordl_internal_set__locker))::System::Object* _locker;
+  __declspec(property(get = __cordl_internal_get__locker, put = __cordl_internal_set__locker)) ::System::Object* _locker;
 
   /// @brief Field _lutData, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get__lutData, put = __cordl_internal_set__lutData))::GlobalNamespace::__OVRPlugin__PassthroughColorLutData _lutData;
+  __declspec(property(get = __cordl_internal_get__lutData, put = __cordl_internal_set__lutData)) ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData _lutData;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ChannelsToCount, addr 0x2bcf4bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ChannelsToCount, addr 0x3fd70cc, size 0x10, virtual false, abstract: false, final false
   static inline int32_t ChannelsToCount(::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels channels);
 
-  /// @brief Method Create, addr 0x2bce0e8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3fd5dcc, size 0xf0, virtual false, abstract: false, final false
   inline void Create(::GlobalNamespace::__OVRPlugin__PassthroughColorLutData lutData);
 
-  /// @brief Method CreateLutData, addr 0x2bcf4ec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateLutData, addr 0x3fd70fc, size 0x94, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData CreateLutData(ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> colorBytes);
 
-  /// @brief Method CreateLutDataFromArray, addr 0x2bce274, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CreateLutDataFromArray, addr 0x3fd5f58, size 0x4c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData CreateLutDataFromArray(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors);
 
-  /// @brief Method CreateLutDataFromArray, addr 0x2bce35c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CreateLutDataFromArray, addr 0x3fd6040, size 0x4c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData CreateLutDataFromArray(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors);
 
-  /// @brief Method CreateLutDataFromArray, addr 0x2bce51c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateLutDataFromArray, addr 0x3fd61f8, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData CreateLutDataFromArray(::ArrayW<uint8_t, ::Array<uint8_t>*> colors);
 
-  /// @brief Method CreateLutDataFromTexture, addr 0x2bce090, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateLutDataFromTexture, addr 0x3fd5d74, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData CreateLutDataFromTexture(::UnityEngine::Texture2D* lut, bool flipY);
 
-  /// @brief Method Destroy, addr 0x2bcee48, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x3fd6a74, size 0x110, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Dispose, addr 0x2bcee04, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3fd6a30, size 0x44, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x2bcf580, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3fd7190, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// @brief Method GetArraySize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t GetArraySize(::ArrayW<T, ::Array<T>*> array);
 
-  /// @brief Method GetChannelsForTextureFormat, addr 0x2bcdd8c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetChannelsForTextureFormat, addr 0x3fd5a94, size 0x98, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels GetChannelsForTextureFormat(::UnityEngine::TextureFormat format);
 
-  /// @brief Method GetResolutionFromSize, addr 0x2bcf344, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetResolutionFromSize, addr 0x3fd6f54, size 0xb4, virtual false, abstract: false, final false
   static inline uint32_t GetResolutionFromSize(int32_t size);
 
-  /// @brief Method GetTextureSize, addr 0x2bcdcac, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetTextureSize, addr 0x3fd59b8, size 0xdc, virtual false, abstract: false, final false
   static inline int32_t GetTextureSize(::UnityEngine::Texture2D* texture);
 
-  /// @brief Method GetTextureSizeFromByteArray, addr 0x2bce404, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetTextureSizeFromByteArray, addr 0x3fd60e8, size 0x110, virtual false, abstract: false, final false
   static inline int32_t GetTextureSizeFromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> initialColorLut, ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels channels);
 
-  /// @brief Method IsPowerOfTwo, addr 0x2bcf4cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsPowerOfTwo, addr 0x3fd70dc, size 0x20, virtual false, abstract: false, final false
   static inline bool IsPowerOfTwo(uint32_t x);
 
-  /// @brief Method IsResolutionAccepted, addr 0x2bcf3f8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method IsResolutionAccepted, addr 0x3fd7008, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsResolutionAccepted(uint32_t resolution, int32_t size, ByRef<::StringW> errorMessage);
 
-  /// @brief Method IsTextureSupported, addr 0x2bcef5c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method IsTextureSupported, addr 0x3fd6b84, size 0x1ac, virtual false, abstract: false, final false
   static inline bool IsTextureSupported(::UnityEngine::Texture2D* texture, ByRef<::StringW> errorMessage);
 
   /// @brief Method IsValidLutUpdate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool IsValidLutUpdate(::ArrayW<T, ::Array<T>*> colorArray, int32_t elementByteSize);
 
-  /// @brief Method IsValidUpdateResolution, addr 0x2bcec34, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method IsValidUpdateResolution, addr 0x3fd6858, size 0x124, virtual false, abstract: false, final false
   inline bool IsValidUpdateResolution(int32_t lutSize, int32_t elementByteSize);
 
   static inline ::GlobalNamespace::OVRPassthroughColorLut* New_ctor(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> initialColorLut,
@@ -495,22 +510,22 @@ public:
 
   static inline ::GlobalNamespace::OVRPassthroughColorLut* New_ctor(int32_t size, ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels channels);
 
-  /// @brief Method UpdateFrom, addr 0x2bce574, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method UpdateFrom, addr 0x3fd6250, size 0xc0, virtual false, abstract: false, final false
   inline void UpdateFrom(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors);
 
-  /// @brief Method UpdateFrom, addr 0x2bce874, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method UpdateFrom, addr 0x3fd6548, size 0xc0, virtual false, abstract: false, final false
   inline void UpdateFrom(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors);
 
-  /// @brief Method UpdateFrom, addr 0x2bceab0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method UpdateFrom, addr 0x3fd66d4, size 0xcc, virtual false, abstract: false, final false
   inline void UpdateFrom(::ArrayW<uint8_t, ::Array<uint8_t>*> colors);
 
-  /// @brief Method UpdateFrom, addr 0x2bceb7c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UpdateFrom, addr 0x3fd67a0, size 0xb8, virtual false, abstract: false, final false
   inline void UpdateFrom(::UnityEngine::Texture2D* lutTexture, bool flipY);
 
-  /// @brief Method WriteColorsAsBytes, addr 0x2bce634, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method WriteColorsAsBytes, addr 0x3fd6310, size 0x238, virtual false, abstract: false, final false
   inline void WriteColorsAsBytes(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors, ::ArrayW<uint8_t, ::Array<uint8_t>*> target);
 
-  /// @brief Method WriteColorsAsBytes, addr 0x2bce934, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method WriteColorsAsBytes, addr 0x3fd6608, size 0xcc, virtual false, abstract: false, final false
   inline void WriteColorsAsBytes(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors, ::ArrayW<uint8_t, ::Array<uint8_t>*> target);
 
   constexpr ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels const& __cordl_internal_get__Channels_k__BackingField() const;
@@ -567,40 +582,40 @@ public:
 
   constexpr void __cordl_internal_set__lutData(::GlobalNamespace::__OVRPlugin__PassthroughColorLutData value);
 
-  /// @brief Method .ctor, addr 0x2bce1d8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd5ebc, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> initialColorLut, ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels channels);
 
-  /// @brief Method .ctor, addr 0x2bce2c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd5fa4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> initialColorLut, ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels channels);
 
-  /// @brief Method .ctor, addr 0x2bce3a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd608c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> initialColorLut, ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels channels);
 
-  /// @brief Method .ctor, addr 0x2bcdc18, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd5924, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture2D* initialLutTexture, bool flipY);
 
-  /// @brief Method .ctor, addr 0x2bcde2c, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd5b2c, size 0x248, virtual false, abstract: false, final false
   inline void _ctor(int32_t size, ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels channels);
 
-  /// @brief Method get_Channels, addr 0x2bcdbf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Channels, addr 0x3fd5900, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels get_Channels();
 
-  /// @brief Method get_IsInitialized, addr 0x2bcdc04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInitialized, addr 0x3fd5910, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
-  /// @brief Method get_Resolution, addr 0x2bcdbe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Resolution, addr 0x3fd58f0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Resolution();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_Channels, addr 0x2bcdbfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Channels, addr 0x3fd5908, size 0x8, virtual false, abstract: false, final false
   inline void set_Channels(::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels value);
 
-  /// @brief Method set_IsInitialized, addr 0x2bcdc0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x3fd5918, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
-  /// @brief Method set_Resolution, addr 0x2bcdbec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Resolution, addr 0x3fd58f8, size 0x8, virtual false, abstract: false, final false
   inline void set_Resolution(uint32_t value);
 
 protected:
@@ -646,6 +661,9 @@ public:
 
   /// @brief Field RecomendedBatchSize offset 0xffffffff size 0x4
   static constexpr int32_t RecomendedBatchSize{ static_cast<int32_t>(0x80) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8475 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

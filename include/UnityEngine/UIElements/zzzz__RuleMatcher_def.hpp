@@ -19,14 +19,14 @@ struct RuleMatcher;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::RuleMatcher);
 // Type: UnityEngine.UIElements::RuleMatcher
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::RuleMatcher
 struct CORDL_TYPE RuleMatcher {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x359a8a0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a25340, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -42,6 +42,9 @@ public:
 
   /// @brief Field complexSelector, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::UIElements::StyleComplexSelector* complexSelector;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6184 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

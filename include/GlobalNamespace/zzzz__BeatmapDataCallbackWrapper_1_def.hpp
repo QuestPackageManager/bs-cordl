@@ -21,7 +21,7 @@ template <typename T> class BeatmapDataCallbackWrapper_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::BeatmapDataCallbackWrapper_1);
 // Type: ::BeatmapDataCallbackWrapper`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -31,7 +31,7 @@ class CORDL_TYPE BeatmapDataCallbackWrapper_1 : public ::GlobalNamespace::Beatma
 public:
   // Declarations
   /// @brief Field _callback, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__callback, put = __cordl_internal_set__callback))::GlobalNamespace::BeatmapDataCallback_1<T>* _callback;
+  __declspec(property(get = __cordl_internal_get__callback, put = __cordl_internal_set__callback)) ::GlobalNamespace::BeatmapDataCallback_1<T>* _callback;
 
   /// @brief Method CallCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CallCallback(::GlobalNamespace::BeatmapDataItem* beatmapData);
@@ -64,6 +64,9 @@ public:
 
   /// @brief Field _callback, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallback_1<T>* ____callback;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4050 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

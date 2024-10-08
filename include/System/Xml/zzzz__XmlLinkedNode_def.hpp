@@ -18,19 +18,19 @@ class XmlLinkedNode;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlLinkedNode);
 // Type: System.Xml::XmlLinkedNode
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::XmlLinkedNode*
 class CORDL_TYPE XmlLinkedNode : public ::System::Xml::XmlNode {
 public:
   // Declarations
-  __declspec(property(get = get_NextSibling))::System::Xml::XmlNode* NextSibling;
+  __declspec(property(get = get_NextSibling)) ::System::Xml::XmlNode* NextSibling;
 
-  __declspec(property(get = get_PreviousSibling))::System::Xml::XmlNode* PreviousSibling;
+  __declspec(property(get = get_PreviousSibling)) ::System::Xml::XmlNode* PreviousSibling;
 
   /// @brief Field next, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Xml::XmlLinkedNode* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::System::Xml::XmlLinkedNode* next;
 
   static inline ::System::Xml::XmlLinkedNode* New_ctor(::System::Xml::XmlDocument* doc);
 
@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set_next(::System::Xml::XmlLinkedNode* value);
 
-  /// @brief Method .ctor, addr 0x2ebffcc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42be4ec, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_NextSibling, addr 0x2ec8390, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_NextSibling, addr 0x42c665c, size 0x50, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_NextSibling();
 
-  /// @brief Method get_PreviousSibling, addr 0x2ec8328, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_PreviousSibling, addr 0x42c65f4, size 0x68, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_PreviousSibling();
 
 protected:
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field next, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::XmlLinkedNode* ___next;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7268 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

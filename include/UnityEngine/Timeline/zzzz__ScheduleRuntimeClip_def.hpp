@@ -23,30 +23,30 @@ class ScheduleRuntimeClip;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::ScheduleRuntimeClip);
 // Type: UnityEngine.Timeline::ScheduleRuntimeClip
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::ScheduleRuntimeClip*
 class CORDL_TYPE ScheduleRuntimeClip : public ::UnityEngine::Timeline::RuntimeClipBase {
 public:
   // Declarations
-  __declspec(property(get = get_clip))::UnityEngine::Timeline::TimelineClip* clip;
+  __declspec(property(get = get_clip)) ::UnityEngine::Timeline::TimelineClip* clip;
 
   __declspec(property(get = get_duration)) double_t duration;
 
   __declspec(property(put = set_enable)) bool enable;
 
   /// @brief Field m_Clip, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Clip, put = __cordl_internal_set_m_Clip))::UnityEngine::Timeline::TimelineClip* m_Clip;
+  __declspec(property(get = __cordl_internal_get_m_Clip, put = __cordl_internal_set_m_Clip)) ::UnityEngine::Timeline::TimelineClip* m_Clip;
 
   /// @brief Field m_FinishTail, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FinishTail, put = __cordl_internal_set_m_FinishTail)) double_t m_FinishTail;
 
   /// @brief Field m_ParentMixer, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_ParentMixer, put = __cordl_internal_set_m_ParentMixer))::UnityEngine::Playables::Playable m_ParentMixer;
+  __declspec(property(get = __cordl_internal_get_m_ParentMixer, put = __cordl_internal_set_m_ParentMixer)) ::UnityEngine::Playables::Playable m_ParentMixer;
 
   /// @brief Field m_Playable, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Playable, put = __cordl_internal_set_m_Playable))::UnityEngine::Playables::Playable m_Playable;
+  __declspec(property(get = __cordl_internal_get_m_Playable, put = __cordl_internal_set_m_Playable)) ::UnityEngine::Playables::Playable m_Playable;
 
   /// @brief Field m_StartDelay, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_StartDelay, put = __cordl_internal_set_m_StartDelay)) double_t m_StartDelay;
@@ -54,26 +54,26 @@ public:
   /// @brief Field m_Started, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Started, put = __cordl_internal_set_m_Started)) bool m_Started;
 
-  __declspec(property(get = get_mixer))::UnityEngine::Playables::Playable mixer;
+  __declspec(property(get = get_mixer)) ::UnityEngine::Playables::Playable mixer;
 
-  __declspec(property(get = get_playable))::UnityEngine::Playables::Playable playable;
+  __declspec(property(get = get_playable)) ::UnityEngine::Playables::Playable playable;
 
   __declspec(property(get = get_start)) double_t start;
 
-  /// @brief Method Create, addr 0x33d5774, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x47ae2e0, size 0x98, virtual false, abstract: false, final false
   inline void Create(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer, double_t startDelay,
                      double_t finishTail);
 
-  /// @brief Method DisableAt, addr 0x33d5b78, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method DisableAt, addr 0x47ae70c, size 0x10, virtual true, abstract: false, final false
   inline void DisableAt(double_t localTime, double_t rootDuration, ::UnityEngine::Playables::FrameData frameData);
 
-  /// @brief Method EvaluateAt, addr 0x33d5910, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method EvaluateAt, addr 0x47ae47c, size 0x290, virtual true, abstract: false, final false
   inline void EvaluateAt(double_t localTime, ::UnityEngine::Playables::FrameData frameData);
 
   static inline ::UnityEngine::Timeline::ScheduleRuntimeClip* New_ctor(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable,
                                                                        ::UnityEngine::Playables::Playable parentMixer, double_t startDelay, double_t finishTail);
 
-  /// @brief Method SetTime, addr 0x33d56fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetTime, addr 0x47ae268, size 0x58, virtual false, abstract: false, final false
   inline void SetTime(double_t time);
 
   constexpr ::UnityEngine::Timeline::TimelineClip*& __cordl_internal_get_m_Clip();
@@ -112,26 +112,26 @@ public:
 
   constexpr void __cordl_internal_set_m_Started(bool value);
 
-  /// @brief Method .ctor, addr 0x33cff34, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a8b00, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer, double_t startDelay,
                     double_t finishTail);
 
-  /// @brief Method get_clip, addr 0x33d5754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x47ae2c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* get_clip();
 
-  /// @brief Method get_duration, addr 0x33d56b0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x47ae21c, size 0x4c, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_mixer, addr 0x33d575c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_mixer, addr 0x47ae2c8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable get_mixer();
 
-  /// @brief Method get_playable, addr 0x33d5768, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_playable, addr 0x47ae2d4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable get_playable();
 
-  /// @brief Method get_start, addr 0x33d5638, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_start, addr 0x47ae1a4, size 0x78, virtual true, abstract: false, final false
   inline double_t get_start();
 
-  /// @brief Method set_enable, addr 0x33d580c, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method set_enable, addr 0x47ae378, size 0x104, virtual true, abstract: false, final false
   inline void set_enable(bool value);
 
 protected:
@@ -165,6 +165,9 @@ public:
 
   /// @brief Field m_Started, offset: 0x50, size: 0x1, def value: None
   bool ___m_Started;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15800 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

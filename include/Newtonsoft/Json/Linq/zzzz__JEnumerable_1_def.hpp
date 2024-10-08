@@ -37,7 +37,7 @@ template <typename T> struct JEnumerable_1;
 // Write type traits
 MARK_GEN_VAL_T(::Newtonsoft::Json::Linq::JEnumerable_1);
 // Type: Newtonsoft.Json.Linq::JEnumerable`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
@@ -47,9 +47,9 @@ struct CORDL_TYPE JEnumerable_1 {
 public:
   // Declarations
   /// @brief Field Empty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::Newtonsoft::Json::Linq::JEnumerable_1<T> Empty;
+  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::Newtonsoft::Json::Linq::JEnumerable_1<T> Empty;
 
-  __declspec(property(get = get_Item))::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Item[];
+  __declspec(property(get = get_Item)) ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Item[];
 
   /// @brief Convert operator to "::Newtonsoft::Json::Linq::IJEnumerable_1<T>"
   constexpr operator ::Newtonsoft::Json::Linq::IJEnumerable_1<T>*();
@@ -109,6 +109,9 @@ public:
 
   /// @brief Field _enumerable, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<T>* _enumerable;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10365 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

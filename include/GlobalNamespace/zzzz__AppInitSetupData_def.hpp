@@ -22,7 +22,7 @@ class AppInitSetupData;
 MARK_VAL_T(::GlobalNamespace::__AppInitSetupData__RunMode);
 MARK_REF_PTR_T(::GlobalNamespace::AppInitSetupData);
 // Type: ::RunMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::AppInitSetupData::RunMode
@@ -63,6 +63,9 @@ public:
   /// @brief Field PlayTest value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__AppInitSetupData__RunMode const PlayTest;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17550 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -75,7 +78,7 @@ static_assert(offsetof(::GlobalNamespace::__AppInitSetupData__RunMode, value__) 
 
 } // namespace GlobalNamespace
 // Type: ::AppInitSetupData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AppInitSetupData*
@@ -85,7 +88,7 @@ public:
   using RunMode = ::GlobalNamespace::__AppInitSetupData__RunMode;
 
   /// @brief Field runMode, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_runMode, put = __cordl_internal_set_runMode))::GlobalNamespace::__AppInitSetupData__RunMode runMode;
+  __declspec(property(get = __cordl_internal_get_runMode, put = __cordl_internal_set_runMode)) ::GlobalNamespace::__AppInitSetupData__RunMode runMode;
 
   static inline ::GlobalNamespace::AppInitSetupData* New_ctor();
 
@@ -95,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_runMode(::GlobalNamespace::__AppInitSetupData__RunMode value);
 
-  /// @brief Method .ctor, addr 0x10797a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22562f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,6 +117,9 @@ public:
 
   /// @brief Field runMode, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::__AppInitSetupData__RunMode ___runMode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17551 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

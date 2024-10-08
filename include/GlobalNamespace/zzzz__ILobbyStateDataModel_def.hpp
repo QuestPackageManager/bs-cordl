@@ -27,22 +27,22 @@ class ILobbyStateDataModel;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ILobbyStateDataModel);
 // Type: ::ILobbyStateDataModel
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ILobbyStateDataModel*
 class CORDL_TYPE ILobbyStateDataModel {
 public:
   // Declarations
-  __declspec(property(get = get_configuration))::GlobalNamespace::GameplayServerConfiguration configuration;
+  __declspec(property(get = get_configuration)) ::GlobalNamespace::GameplayServerConfiguration configuration;
 
-  __declspec(property(get = get_connectedPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* connectedPlayers;
+  __declspec(property(get = get_connectedPlayers)) ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* connectedPlayers;
 
   __declspec(property(get = get_isConnected)) bool isConnected;
 
-  __declspec(property(get = get_localPlayer))::GlobalNamespace::IConnectedPlayer* localPlayer;
+  __declspec(property(get = get_localPlayer)) ::GlobalNamespace::IConnectedPlayer* localPlayer;
 
-  __declspec(property(get = get_rawConnectedPlayers))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* rawConnectedPlayers;
+  __declspec(property(get = get_rawConnectedPlayers)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* rawConnectedPlayers;
 
   /// @brief Method Activate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Activate();
@@ -87,6 +87,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ILobbyStateDataModel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ILobbyStateDataModel(ILobbyStateDataModel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13048 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

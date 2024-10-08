@@ -18,7 +18,7 @@ class AppDomainSetup;
 // Write type traits
 MARK_REF_PTR_T(::System::AppDomainSetup);
 // Type: System::AppDomainSetup
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::AppDomainSetup*
@@ -26,28 +26,28 @@ class CORDL_TYPE AppDomainSetup : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <TargetFrameworkName>k__BackingField, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__TargetFrameworkName_k__BackingField, put = __cordl_internal_set__TargetFrameworkName_k__BackingField))::StringW _TargetFrameworkName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TargetFrameworkName_k__BackingField, put = __cordl_internal_set__TargetFrameworkName_k__BackingField)) ::StringW _TargetFrameworkName_k__BackingField;
 
   /// @brief Field _activationArguments, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__activationArguments, put = __cordl_internal_set__activationArguments))::System::Object* _activationArguments;
+  __declspec(property(get = __cordl_internal_get__activationArguments, put = __cordl_internal_set__activationArguments)) ::System::Object* _activationArguments;
 
   /// @brief Field application_base, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_application_base, put = __cordl_internal_set_application_base))::StringW application_base;
+  __declspec(property(get = __cordl_internal_get_application_base, put = __cordl_internal_set_application_base)) ::StringW application_base;
 
   /// @brief Field application_name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_application_name, put = __cordl_internal_set_application_name))::StringW application_name;
+  __declspec(property(get = __cordl_internal_get_application_name, put = __cordl_internal_set_application_name)) ::StringW application_name;
 
   /// @brief Field application_trust, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_application_trust, put = __cordl_internal_set_application_trust))::System::Object* application_trust;
+  __declspec(property(get = __cordl_internal_get_application_trust, put = __cordl_internal_set_application_trust)) ::System::Object* application_trust;
 
   /// @brief Field cache_path, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_cache_path, put = __cordl_internal_set_cache_path))::StringW cache_path;
+  __declspec(property(get = __cordl_internal_get_cache_path, put = __cordl_internal_set_cache_path)) ::StringW cache_path;
 
   /// @brief Field configuration_bytes, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_configuration_bytes, put = __cordl_internal_set_configuration_bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> configuration_bytes;
+  __declspec(property(get = __cordl_internal_get_configuration_bytes, put = __cordl_internal_set_configuration_bytes)) ::ArrayW<uint8_t, ::Array<uint8_t>*> configuration_bytes;
 
   /// @brief Field configuration_file, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_configuration_file, put = __cordl_internal_set_configuration_file))::StringW configuration_file;
+  __declspec(property(get = __cordl_internal_get_configuration_file, put = __cordl_internal_set_configuration_file)) ::StringW configuration_file;
 
   /// @brief Field disallow_appbase_probe, offset 0x90, size 0x1
   __declspec(property(get = __cordl_internal_get_disallow_appbase_probe, put = __cordl_internal_set_disallow_appbase_probe)) bool disallow_appbase_probe;
@@ -59,49 +59,50 @@ public:
   __declspec(property(get = __cordl_internal_get_disallow_code_downloads, put = __cordl_internal_set_disallow_code_downloads)) bool disallow_code_downloads;
 
   /// @brief Field domain_initializer, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_domain_initializer, put = __cordl_internal_set_domain_initializer))::System::Object* domain_initializer;
+  __declspec(property(get = __cordl_internal_get_domain_initializer, put = __cordl_internal_set_domain_initializer)) ::System::Object* domain_initializer;
 
   /// @brief Field domain_initializer_args, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_domain_initializer_args, put = __cordl_internal_set_domain_initializer_args))::ArrayW<::StringW, ::Array<::StringW>*> domain_initializer_args;
+  __declspec(property(get = __cordl_internal_get_domain_initializer_args, put = __cordl_internal_set_domain_initializer_args)) ::ArrayW<::StringW, ::Array<::StringW>*> domain_initializer_args;
 
   /// @brief Field dynamic_base, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_dynamic_base, put = __cordl_internal_set_dynamic_base))::StringW dynamic_base;
+  __declspec(property(get = __cordl_internal_get_dynamic_base, put = __cordl_internal_set_dynamic_base)) ::StringW dynamic_base;
 
   /// @brief Field license_file, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_license_file, put = __cordl_internal_set_license_file))::StringW license_file;
+  __declspec(property(get = __cordl_internal_get_license_file, put = __cordl_internal_set_license_file)) ::StringW license_file;
 
   /// @brief Field loader_optimization, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_loader_optimization, put = __cordl_internal_set_loader_optimization)) int32_t loader_optimization;
 
   /// @brief Field manager_assembly, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_manager_assembly, put = __cordl_internal_set_manager_assembly))::StringW manager_assembly;
+  __declspec(property(get = __cordl_internal_get_manager_assembly, put = __cordl_internal_set_manager_assembly)) ::StringW manager_assembly;
 
   /// @brief Field manager_type, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_manager_type, put = __cordl_internal_set_manager_type))::StringW manager_type;
+  __declspec(property(get = __cordl_internal_get_manager_type, put = __cordl_internal_set_manager_type)) ::StringW manager_type;
 
   /// @brief Field partial_visible_assemblies, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_partial_visible_assemblies, put = __cordl_internal_set_partial_visible_assemblies))::ArrayW<::StringW, ::Array<::StringW>*> partial_visible_assemblies;
+  __declspec(property(get = __cordl_internal_get_partial_visible_assemblies, put = __cordl_internal_set_partial_visible_assemblies)) ::ArrayW<::StringW, ::Array<::StringW>*>
+      partial_visible_assemblies;
 
   /// @brief Field path_changed, offset 0x61, size 0x1
   __declspec(property(get = __cordl_internal_get_path_changed, put = __cordl_internal_set_path_changed)) bool path_changed;
 
   /// @brief Field private_bin_path, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_private_bin_path, put = __cordl_internal_set_private_bin_path))::StringW private_bin_path;
+  __declspec(property(get = __cordl_internal_get_private_bin_path, put = __cordl_internal_set_private_bin_path)) ::StringW private_bin_path;
 
   /// @brief Field private_bin_path_probe, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_private_bin_path_probe, put = __cordl_internal_set_private_bin_path_probe))::StringW private_bin_path_probe;
+  __declspec(property(get = __cordl_internal_get_private_bin_path_probe, put = __cordl_internal_set_private_bin_path_probe)) ::StringW private_bin_path_probe;
 
   /// @brief Field publisher_policy, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_publisher_policy, put = __cordl_internal_set_publisher_policy)) bool publisher_policy;
 
   /// @brief Field serialized_non_primitives, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_serialized_non_primitives, put = __cordl_internal_set_serialized_non_primitives))::ArrayW<uint8_t, ::Array<uint8_t>*> serialized_non_primitives;
+  __declspec(property(get = __cordl_internal_get_serialized_non_primitives, put = __cordl_internal_set_serialized_non_primitives)) ::ArrayW<uint8_t, ::Array<uint8_t>*> serialized_non_primitives;
 
   /// @brief Field shadow_copy_directories, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_shadow_copy_directories, put = __cordl_internal_set_shadow_copy_directories))::StringW shadow_copy_directories;
+  __declspec(property(get = __cordl_internal_get_shadow_copy_directories, put = __cordl_internal_set_shadow_copy_directories)) ::StringW shadow_copy_directories;
 
   /// @brief Field shadow_copy_files, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_shadow_copy_files, put = __cordl_internal_set_shadow_copy_files))::StringW shadow_copy_files;
+  __declspec(property(get = __cordl_internal_get_shadow_copy_files, put = __cordl_internal_set_shadow_copy_files)) ::StringW shadow_copy_files;
 
   static inline ::System::AppDomainSetup* New_ctor();
 
@@ -261,7 +262,7 @@ public:
 
   constexpr void __cordl_internal_set_shadow_copy_files(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29ac25c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dbcb74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -355,6 +356,9 @@ public:
 
   /// @brief Field <TargetFrameworkName>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::StringW ____TargetFrameworkName_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2584 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

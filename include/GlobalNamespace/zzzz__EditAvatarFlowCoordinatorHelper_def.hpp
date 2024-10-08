@@ -82,7 +82,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EditAvatarFlowCoordinatorHelper);
 MARK_VAL_T(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13);
 MARK_VAL_T(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12);
 // Type: ::FinishAction
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::EditAvatarFlowCoordinatorHelper::FinishAction
@@ -123,6 +123,9 @@ public:
   /// @brief Field Continue value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction const Continue;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4763 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -134,8 +137,77 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EditAvatarFlo
 static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
+// Type: ::<Initialize>d__13
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: ::EditAvatarFlowCoordinatorHelper::<Initialize>d__13
+struct CORDL_TYPE __EditAvatarFlowCoordinatorHelper___Initialize_d__13 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Method MoveNext, addr 0x3b897dc, size 0x494, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x3b89c70, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __EditAvatarFlowCoordinatorHelper___Initialize_d__13();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::EditAvatarFlowCoordinatorHelper*",
+  // modifiers: "", def_value: None }, CppParam { name: "_avatarSystem_5__2", ty: "::BeatSaber::AvatarCore::IAvatarSystem*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>", modifiers: "", def_value: None }]
+  constexpr __EditAvatarFlowCoordinatorHelper___Initialize_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                                 ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* __4__this, ::BeatSaber::AvatarCore::IAvatarSystem* _avatarSystem_5__2,
+                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>> __u__1) noexcept;
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
+  ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* __4__this;
+
+  /// @brief Field <avatarSystem>5__2, offset: 0x30, size: 0x8, def value: None
+  ::BeatSaber::AvatarCore::IAvatarSystem* _avatarSystem_5__2;
+
+  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>> __u__1;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4764 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, _avatarSystem_5__2) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, __u__1) == 0x38, "Offset mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::<Show>d__12
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::EditAvatarFlowCoordinatorHelper::<Show>d__12
@@ -145,10 +217,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2773474, size 0x2b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b89c7c, size 0x2a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x277382c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b8a01c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -191,6 +263,9 @@ public:
   /// @brief Field <>u__1, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4765 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
@@ -216,74 +291,8 @@ static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Sh
 static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12, __u__1) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<Initialize>d__13
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: true
-// CS Name: ::EditAvatarFlowCoordinatorHelper::<Initialize>d__13
-struct CORDL_TYPE __EditAvatarFlowCoordinatorHelper___Initialize_d__13 {
-public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
-
-  /// @brief Method MoveNext, addr 0x2773838, size 0x498, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x2773cd0, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EditAvatarFlowCoordinatorHelper___Initialize_d__13();
-
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::EditAvatarFlowCoordinatorHelper*",
-  // modifiers: "", def_value: None }, CppParam { name: "_avatarSystem_5__2", ty: "::BeatSaber::AvatarCore::IAvatarSystem*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>", modifiers: "", def_value: None }]
-  constexpr __EditAvatarFlowCoordinatorHelper___Initialize_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                 ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* __4__this, ::BeatSaber::AvatarCore::IAvatarSystem* _avatarSystem_5__2,
-                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>> __u__1) noexcept;
-
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
-
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
-  ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
-
-  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* __4__this;
-
-  /// @brief Field <avatarSystem>5__2, offset: 0x30, size: 0x8, def value: None
-  ::BeatSaber::AvatarCore::IAvatarSystem* _avatarSystem_5__2;
-
-  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>> __u__1;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, 0x40>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, __1__state) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, __t__builder) == 0x8, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, __4__this) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, _avatarSystem_5__2) == 0x30, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Initialize_d__13, __u__1) == 0x38, "Offset mismatch!");
-
-} // namespace GlobalNamespace
 // Type: ::EditAvatarFlowCoordinatorHelper
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::EditAvatarFlowCoordinatorHelper*
@@ -297,50 +306,52 @@ public:
   using _Show_d__12 = ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper___Show_d__12;
 
   /// @brief Field _avatarSystemCollection, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarSystemCollection, put = __cordl_internal_set__avatarSystemCollection))::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
+  __declspec(property(get = __cordl_internal_get__avatarSystemCollection, put = __cordl_internal_set__avatarSystemCollection)) ::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
 
   /// @brief Field _avatarSystemSelectionFlowCoordinator, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__avatarSystemSelectionFlowCoordinator,
-                      put = __cordl_internal_set__avatarSystemSelectionFlowCoordinator))::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator> _avatarSystemSelectionFlowCoordinator;
+                      put = __cordl_internal_set__avatarSystemSelectionFlowCoordinator)) ::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>
+      _avatarSystemSelectionFlowCoordinator;
 
   /// @brief Field _container, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
   __declspec(property(get = get__hasOnlyOneAvatarSystem)) bool _hasOnlyOneAvatarSystem;
 
   /// @brief Field _parentFlowCoordinator, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__parentFlowCoordinator, put = __cordl_internal_set__parentFlowCoordinator))::UnityW<::HMUI::FlowCoordinator> _parentFlowCoordinator;
+  __declspec(property(get = __cordl_internal_get__parentFlowCoordinator, put = __cordl_internal_set__parentFlowCoordinator)) ::UnityW<::HMUI::FlowCoordinator> _parentFlowCoordinator;
 
   /// @brief Field _playerDataModel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _singleAvatarEditorFlowCoordinator, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__singleAvatarEditorFlowCoordinator,
-                      put = __cordl_internal_set__singleAvatarEditorFlowCoordinator))::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator> _singleAvatarEditorFlowCoordinator;
+                      put = __cordl_internal_set__singleAvatarEditorFlowCoordinator)) ::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>
+      _singleAvatarEditorFlowCoordinator;
 
   /// @brief Field didFinishEvent, offset 0x30, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_didFinishEvent,
-               put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction>* didFinishEvent;
+  __declspec(property(
+      get = __cordl_internal_get_didFinishEvent,
+      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction>* didFinishEvent;
 
-  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x2773358, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x3b896b8, size 0xd4, virtual false, abstract: false, final false
   inline void HandleAvatarEditorFlowCoordinatorDidFinish(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem,
                                                          ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__FinishAction finishAction);
 
-  /// @brief Method HandleAvatarSystemSelectionFlowCoordinatorDidFinish, addr 0x2773424, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarSystemSelectionFlowCoordinatorDidFinish, addr 0x3b8978c, size 0x48, virtual false, abstract: false, final false
   inline void HandleAvatarSystemSelectionFlowCoordinatorDidFinish(::GlobalNamespace::AvatarSystemSelectionFlowCoordinator* flowCoordinator,
                                                                   ::GlobalNamespace::__AvatarSystemSelectionFlowCoordinator__FinishAction finishAction);
 
-  /// @brief Method Initialize, addr 0x27731dc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3b89544, size 0x8c, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::EditAvatarFlowCoordinatorHelper* New_ctor();
 
-  /// @brief Method PresentAvatarEditorFlowCoordinator, addr 0x277326c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method PresentAvatarEditorFlowCoordinator, addr 0x3b895d0, size 0xe8, virtual false, abstract: false, final false
   inline void PresentAvatarEditorFlowCoordinator(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode editMode,
                                                  ::HMUI::FlowCoordinator* parentFlowCoordinator, bool immediately, bool replaceTopViewController);
 
-  /// @brief Method Show, addr 0x277311c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x3b8947c, size 0xc8, virtual false, abstract: false, final false
   inline void Show(::HMUI::FlowCoordinator* parentFlowCoordinator, bool backButtonVisible, bool immediately, bool replaceTopViewController);
 
   constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __cordl_internal_get__avatarSystemCollection();
@@ -386,16 +397,16 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction>* value);
 
-  /// @brief Method .ctor, addr 0x277346c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b897d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x2772f5c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b892bc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction>* value);
 
-  /// @brief Method get__hasOnlyOneAvatarSystem, addr 0x27730bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get__hasOnlyOneAvatarSystem, addr 0x3b8941c, size 0x60, virtual false, abstract: false, final false
   inline bool get__hasOnlyOneAvatarSystem();
 
-  /// @brief Method remove_didFinishEvent, addr 0x277300c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b8936c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::__EditAvatarFlowCoordinatorHelper__FinishAction>* value);
 
 protected:
@@ -432,6 +443,9 @@ public:
 
   /// @brief Field _singleAvatarEditorFlowCoordinator, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator> ____singleAvatarEditorFlowCoordinator;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4766 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -29,7 +29,7 @@ class SpawnRotationBeatmapEventData;
 MARK_VAL_T(::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType);
 MARK_REF_PTR_T(::GlobalNamespace::SpawnRotationBeatmapEventData);
 // Type: ::SpawnRotationEventType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::SpawnRotationBeatmapEventData::SpawnRotationEventType
@@ -70,6 +70,9 @@ public:
   /// @brief Field Late value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType const Late;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17005 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -82,7 +85,7 @@ static_assert(offsetof(::GlobalNamespace::__SpawnRotationBeatmapEventData__Spawn
 
 } // namespace GlobalNamespace
 // Type: ::SpawnRotationBeatmapEventData
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SpawnRotationBeatmapEventData*
@@ -92,7 +95,7 @@ public:
   using SpawnRotationEventType = ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType;
 
   /// @brief Field _defaultCopy, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__defaultCopy, put = setStaticF__defaultCopy))::GlobalNamespace::BeatmapEventData* _defaultCopy;
+  static __declspec(property(get = getStaticF__defaultCopy, put = setStaticF__defaultCopy)) ::GlobalNamespace::BeatmapEventData* _defaultCopy;
 
   /// @brief Field _deltaRotation, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__deltaRotation, put = __cordl_internal_set__deltaRotation)) float_t _deltaRotation;
@@ -104,26 +107,26 @@ public:
 
   /// @brief Field spawnRotationEventType, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_spawnRotationEventType,
-                      put = __cordl_internal_set_spawnRotationEventType))::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType spawnRotationEventType;
+                      put = __cordl_internal_set_spawnRotationEventType)) ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType spawnRotationEventType;
 
   __declspec(property(get = get_subtypeGroupIdentifier)) int32_t subtypeGroupIdentifier;
 
-  /// @brief Method GetCopy, addr 0x10468c4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0x220dfcc, size 0x90, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault, addr 0x1046994, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x220e08c, size 0x58, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
-  /// @brief Method Mirror, addr 0x10468a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Mirror, addr 0x220dfb0, size 0x1c, virtual false, abstract: false, final false
   inline void Mirror();
 
   static inline ::GlobalNamespace::SpawnRotationBeatmapEventData* New_ctor(float_t time, ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType spawnRotationEventType,
                                                                            float_t deltaRotation);
 
-  /// @brief Method RecalculateRotationFromPreviousEvent, addr 0x1046964, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RecalculateRotationFromPreviousEvent, addr 0x220e05c, size 0x24, virtual false, abstract: false, final false
   inline void RecalculateRotationFromPreviousEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* previousSpawnRotationBeatmapEventData);
 
-  /// @brief Method SetFirstRotationEventRotation, addr 0x1046988, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetFirstRotationEventRotation, addr 0x220e080, size 0xc, virtual false, abstract: false, final false
   inline void SetFirstRotationEventRotation();
 
   constexpr float_t const& __cordl_internal_get__deltaRotation() const;
@@ -144,20 +147,20 @@ public:
 
   constexpr void __cordl_internal_set_spawnRotationEventType(::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType value);
 
-  /// @brief Method .ctor, addr 0x1046850, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x220df58, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType spawnRotationEventType, float_t deltaRotation);
 
   static inline ::GlobalNamespace::BeatmapEventData* getStaticF__defaultCopy();
 
-  /// @brief Method get_rotation, addr 0x1046840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x220df48, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
-  /// @brief Method get_subtypeGroupIdentifier, addr 0x1046838, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeGroupIdentifier, addr 0x220df40, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeGroupIdentifier();
 
   static inline void setStaticF__defaultCopy(::GlobalNamespace::BeatmapEventData* value);
 
-  /// @brief Method set_rotation, addr 0x1046848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x220df50, size 0x8, virtual false, abstract: false, final false
   inline void set_rotation(float_t value);
 
 protected:
@@ -182,6 +185,9 @@ public:
 
   /// @brief Field _deltaRotation, offset: 0x38, size: 0x4, def value: None
   float_t ____deltaRotation;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17006 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -18,21 +18,21 @@ class LiteralDataPacket;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::LiteralDataPacket);
 // Type: Org.BouncyCastle.Bcpg::LiteralDataPacket
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::LiteralDataPacket*
 class CORDL_TYPE LiteralDataPacket : public ::Org::BouncyCastle::Bcpg::InputStreamPacket {
 public:
   // Declarations
-  __declspec(property(get = get_FileName))::StringW FileName;
+  __declspec(property(get = get_FileName)) ::StringW FileName;
 
   __declspec(property(get = get_Format)) int32_t Format;
 
   __declspec(property(get = get_ModificationTime)) int64_t ModificationTime;
 
   /// @brief Field fileName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName))::ArrayW<uint8_t, ::Array<uint8_t>*> fileName;
+  __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName)) ::ArrayW<uint8_t, ::Array<uint8_t>*> fileName;
 
   /// @brief Field format, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format)) int32_t format;
@@ -40,7 +40,7 @@ public:
   /// @brief Field modDate, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_modDate, put = __cordl_internal_set_modDate)) int64_t modDate;
 
-  /// @brief Method GetRawFileName, addr 0x144501c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetRawFileName, addr 0x2608390, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawFileName();
 
   static inline ::Org::BouncyCastle::Bcpg::LiteralDataPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_modDate(int64_t value);
 
-  /// @brief Method .ctor, addr 0x1441f10, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260533c, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method get_FileName, addr 0x1445010, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x2608384, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method get_Format, addr 0x1445000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x2608374, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Format();
 
-  /// @brief Method get_ModificationTime, addr 0x1445008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ModificationTime, addr 0x260837c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ModificationTime();
 
 protected:
@@ -97,6 +97,9 @@ public:
 
   /// @brief Field modDate, offset: 0x28, size: 0x8, def value: None
   int64_t ___modDate;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 573 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,50 +36,51 @@ class SignerInfo;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::SignerInfo);
 // Type: Org.BouncyCastle.Asn1.Pkcs::SignerInfo
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::SignerInfo*
 class CORDL_TYPE SignerInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_AuthenticatedAttributes))::Org::BouncyCastle::Asn1::Asn1Set* AuthenticatedAttributes;
+  __declspec(property(get = get_AuthenticatedAttributes)) ::Org::BouncyCastle::Asn1::Asn1Set* AuthenticatedAttributes;
 
-  __declspec(property(get = get_DigestAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DigestAlgorithm;
+  __declspec(property(get = get_DigestAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DigestAlgorithm;
 
-  __declspec(property(get = get_DigestEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DigestEncryptionAlgorithm;
+  __declspec(property(get = get_DigestEncryptionAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DigestEncryptionAlgorithm;
 
-  __declspec(property(get = get_EncryptedDigest))::Org::BouncyCastle::Asn1::Asn1OctetString* EncryptedDigest;
+  __declspec(property(get = get_EncryptedDigest)) ::Org::BouncyCastle::Asn1::Asn1OctetString* EncryptedDigest;
 
-  __declspec(property(get = get_IssuerAndSerialNumber))::Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber* IssuerAndSerialNumber;
+  __declspec(property(get = get_IssuerAndSerialNumber)) ::Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber* IssuerAndSerialNumber;
 
-  __declspec(property(get = get_UnauthenticatedAttributes))::Org::BouncyCastle::Asn1::Asn1Set* UnauthenticatedAttributes;
+  __declspec(property(get = get_UnauthenticatedAttributes)) ::Org::BouncyCastle::Asn1::Asn1Set* UnauthenticatedAttributes;
 
-  __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
+  __declspec(property(get = get_Version)) ::Org::BouncyCastle::Asn1::DerInteger* Version;
 
   /// @brief Field authenticatedAttributes, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_authenticatedAttributes, put = __cordl_internal_set_authenticatedAttributes))::Org::BouncyCastle::Asn1::Asn1Set* authenticatedAttributes;
+  __declspec(property(get = __cordl_internal_get_authenticatedAttributes, put = __cordl_internal_set_authenticatedAttributes)) ::Org::BouncyCastle::Asn1::Asn1Set* authenticatedAttributes;
 
   /// @brief Field digAlgorithm, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_digAlgorithm, put = __cordl_internal_set_digAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digAlgorithm;
+  __declspec(property(get = __cordl_internal_get_digAlgorithm, put = __cordl_internal_set_digAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digAlgorithm;
 
   /// @brief Field digEncryptionAlgorithm, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_digEncryptionAlgorithm,
-                      put = __cordl_internal_set_digEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digEncryptionAlgorithm;
+                      put = __cordl_internal_set_digEncryptionAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digEncryptionAlgorithm;
 
   /// @brief Field encryptedDigest, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_encryptedDigest, put = __cordl_internal_set_encryptedDigest))::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedDigest;
+  __declspec(property(get = __cordl_internal_get_encryptedDigest, put = __cordl_internal_set_encryptedDigest)) ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedDigest;
 
   /// @brief Field issuerAndSerialNumber, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_issuerAndSerialNumber, put = __cordl_internal_set_issuerAndSerialNumber))::Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber* issuerAndSerialNumber;
+  __declspec(property(get = __cordl_internal_get_issuerAndSerialNumber,
+                      put = __cordl_internal_set_issuerAndSerialNumber)) ::Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber* issuerAndSerialNumber;
 
   /// @brief Field unauthenticatedAttributes, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_unauthenticatedAttributes, put = __cordl_internal_set_unauthenticatedAttributes))::Org::BouncyCastle::Asn1::Asn1Set* unauthenticatedAttributes;
+  __declspec(property(get = __cordl_internal_get_unauthenticatedAttributes, put = __cordl_internal_set_unauthenticatedAttributes)) ::Org::BouncyCastle::Asn1::Asn1Set* unauthenticatedAttributes;
 
   /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x1200470, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23d51cc, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SignerInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SignerInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -89,7 +90,7 @@ public:
                                                                       ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digEncryptionAlgorithm,
                                                                       ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedDigest, ::Org::BouncyCastle::Asn1::Asn1Set* unauthenticatedAttributes);
 
-  /// @brief Method ToAsn1Object, addr 0x1200d38, size 0x11fc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23d5a88, size 0x1f8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_authenticatedAttributes();
@@ -134,34 +135,34 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x12005f8, size 0x6a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d5348, size 0x6a4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x1200c9c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d59ec, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* version, ::Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber* issuerAndSerialNumber,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digAlgorithm, ::Org::BouncyCastle::Asn1::Asn1Set* authenticatedAttributes,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digEncryptionAlgorithm, ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedDigest,
                     ::Org::BouncyCastle::Asn1::Asn1Set* unauthenticatedAttributes);
 
-  /// @brief Method get_AuthenticatedAttributes, addr 0x1200d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthenticatedAttributes, addr 0x23d5a60, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_AuthenticatedAttributes();
 
-  /// @brief Method get_DigestAlgorithm, addr 0x1200d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestAlgorithm, addr 0x23d5a68, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestAlgorithm();
 
-  /// @brief Method get_DigestEncryptionAlgorithm, addr 0x1200d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestEncryptionAlgorithm, addr 0x23d5a78, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestEncryptionAlgorithm();
 
-  /// @brief Method get_EncryptedDigest, addr 0x1200d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedDigest, addr 0x23d5a70, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_EncryptedDigest();
 
-  /// @brief Method get_IssuerAndSerialNumber, addr 0x1200d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerAndSerialNumber, addr 0x23d5a58, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::IssuerAndSerialNumber* get_IssuerAndSerialNumber();
 
-  /// @brief Method get_UnauthenticatedAttributes, addr 0x1200d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnauthenticatedAttributes, addr 0x23d5a80, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_UnauthenticatedAttributes();
 
-  /// @brief Method get_Version, addr 0x1200d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x23d5a50, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:
@@ -198,6 +199,9 @@ public:
 
   /// @brief Field unauthenticatedAttributes, offset: 0x40, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Set* ___unauthenticatedAttributes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 253 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

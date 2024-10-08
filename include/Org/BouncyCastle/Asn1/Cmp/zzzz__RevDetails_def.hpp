@@ -27,24 +27,24 @@ class RevDetails;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::RevDetails);
 // Type: Org.BouncyCastle.Asn1.Cmp::RevDetails
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::RevDetails*
 class CORDL_TYPE RevDetails : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_CertDetails))::Org::BouncyCastle::Asn1::Crmf::CertTemplate* CertDetails;
+  __declspec(property(get = get_CertDetails)) ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* CertDetails;
 
-  __declspec(property(get = get_CrlEntryDetails))::Org::BouncyCastle::Asn1::X509::X509Extensions* CrlEntryDetails;
+  __declspec(property(get = get_CrlEntryDetails)) ::Org::BouncyCastle::Asn1::X509::X509Extensions* CrlEntryDetails;
 
   /// @brief Field certDetails, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_certDetails, put = __cordl_internal_set_certDetails))::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails;
+  __declspec(property(get = __cordl_internal_get_certDetails, put = __cordl_internal_set_certDetails)) ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails;
 
   /// @brief Field crlEntryDetails, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_crlEntryDetails, put = __cordl_internal_set_crlEntryDetails))::Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryDetails;
+  __declspec(property(get = __cordl_internal_get_crlEntryDetails, put = __cordl_internal_set_crlEntryDetails)) ::Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryDetails;
 
-  /// @brief Method GetInstance, addr 0x10dfc94, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22bd4dc, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* New_ctor(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails);
@@ -53,7 +53,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10dfe80, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22bd6bc, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplate*& __cordl_internal_get_certDetails();
@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set_crlEntryDetails(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  /// @brief Method .ctor, addr 0x10dfe1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bd658, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails);
 
-  /// @brief Method .ctor, addr 0x10dfe44, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bd680, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails, ::Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryDetails);
 
-  /// @brief Method .ctor, addr 0x10dfbc0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22bd408, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertDetails, addr 0x10dfe70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertDetails, addr 0x22bd6ac, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* get_CertDetails();
 
-  /// @brief Method get_CrlEntryDetails, addr 0x10dfe78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CrlEntryDetails, addr 0x22bd6b4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_CrlEntryDetails();
 
 protected:
@@ -102,6 +102,9 @@ public:
 
   /// @brief Field crlEntryDetails, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::X509Extensions* ___crlEntryDetails;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 50 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

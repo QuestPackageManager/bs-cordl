@@ -87,7 +87,7 @@ MARK_GEN_REF_PTR_T(::Zenject::__FromBinderGeneric_1____c__DisplayClass14_0);
 MARK_GEN_REF_PTR_T(::Zenject::__FromBinderGeneric_1____c__DisplayClass15_0);
 MARK_GEN_REF_PTR_T(::Zenject::__FromBinderGeneric_1____c__DisplayClass3_0);
 // Type: ::<>c__1`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract, typename TFactory>
@@ -97,10 +97,10 @@ class CORDL_TYPE __FromBinderGeneric_1____c__1_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Zenject::__FromBinderGeneric_1____c__1_1<TContract, TFactory>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Zenject::__FromBinderGeneric_1____c__1_1<TContract, TFactory>* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* __9__1_0;
+  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* __9__1_0;
 
   static inline ::Zenject::__FromBinderGeneric_1____c__1_1<TContract, TFactory>* New_ctor();
 
@@ -138,66 +138,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FromBinderGeneric_1____c__1_1(__FromBinderGeneric_1____c__1_1 const&) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace Zenject
-// Type: ::<>c__DisplayClass3_0
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace Zenject {
-// cpp template
-template <typename TContract>
-// Is value type: false
-// CS Name: ::FromBinderGeneric`1::<>c__DisplayClass3_0<TContract>*
-class CORDL_TYPE __FromBinderGeneric_1____c__DisplayClass3_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field method, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::System::Func_1<TContract>* method;
-
-  static inline ::Zenject::__FromBinderGeneric_1____c__DisplayClass3_0<TContract>* New_ctor();
-
-  /// @brief Method <FromMethod>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TContract _FromMethod_b__0(::Zenject::InjectContext* ctx);
-
-  constexpr ::System::Func_1<TContract>*& __cordl_internal_get_method();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<TContract>*> const& __cordl_internal_get_method() const;
-
-  constexpr void __cordl_internal_set_method(::System::Func_1<TContract>* value);
-
-  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FromBinderGeneric_1____c__DisplayClass3_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__FromBinderGeneric_1____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __FromBinderGeneric_1____c__DisplayClass3_0(__FromBinderGeneric_1____c__DisplayClass3_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__FromBinderGeneric_1____c__DisplayClass3_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __FromBinderGeneric_1____c__DisplayClass3_0(__FromBinderGeneric_1____c__DisplayClass3_0 const&) = delete;
-
-  /// @brief Field method, offset: 0x10, size: 0x8, def value: None
-  ::System::Func_1<TContract>* ___method;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12209 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: ::<>c__DisplayClass14_0
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -207,7 +156,7 @@ class CORDL_TYPE __FromBinderGeneric_1____c__DisplayClass14_0 : public ::System:
 public:
   // Declarations
   /// @brief Field predicate, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate))::System::Func_2<TContract, bool>* predicate;
+  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate)) ::System::Func_2<TContract, bool>* predicate;
 
   static inline ::Zenject::__FromBinderGeneric_1____c__DisplayClass14_0<TContract>* New_ctor();
 
@@ -246,12 +195,15 @@ public:
   /// @brief Field predicate, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<TContract, bool>* ___predicate;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12210 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: ::<>c__DisplayClass15_0
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -261,7 +213,7 @@ class CORDL_TYPE __FromBinderGeneric_1____c__DisplayClass15_0 : public ::System:
 public:
   // Declarations
   /// @brief Field predicate, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate))::System::Func_2<TContract, bool>* predicate;
+  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate)) ::System::Func_2<TContract, bool>* predicate;
 
   static inline ::Zenject::__FromBinderGeneric_1____c__DisplayClass15_0<TContract>* New_ctor();
 
@@ -300,12 +252,72 @@ public:
   /// @brief Field predicate, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<TContract, bool>* ___predicate;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12211 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace Zenject
+// Type: ::<>c__DisplayClass3_0
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace Zenject {
+// cpp template
+template <typename TContract>
+// Is value type: false
+// CS Name: ::FromBinderGeneric`1::<>c__DisplayClass3_0<TContract>*
+class CORDL_TYPE __FromBinderGeneric_1____c__DisplayClass3_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field method, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method)) ::System::Func_1<TContract>* method;
+
+  static inline ::Zenject::__FromBinderGeneric_1____c__DisplayClass3_0<TContract>* New_ctor();
+
+  /// @brief Method <FromMethod>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TContract _FromMethod_b__0(::Zenject::InjectContext* ctx);
+
+  constexpr ::System::Func_1<TContract>*& __cordl_internal_get_method();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<TContract>*> const& __cordl_internal_get_method() const;
+
+  constexpr void __cordl_internal_set_method(::System::Func_1<TContract>* value);
+
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FromBinderGeneric_1____c__DisplayClass3_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__FromBinderGeneric_1____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __FromBinderGeneric_1____c__DisplayClass3_0(__FromBinderGeneric_1____c__DisplayClass3_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__FromBinderGeneric_1____c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __FromBinderGeneric_1____c__DisplayClass3_0(__FromBinderGeneric_1____c__DisplayClass3_0 const&) = delete;
+
+  /// @brief Field method, offset: 0x10, size: 0x8, def value: None
+  ::System::Func_1<TContract>* ___method;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12212 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: Zenject::FromBinderGeneric`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -387,6 +399,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FromBinderGeneric_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FromBinderGeneric_1(FromBinderGeneric_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12213 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

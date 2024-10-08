@@ -13,22 +13,22 @@ class EventSourceAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::Tracing::EventSourceAttribute);
 // Type: System.Diagnostics.Tracing::EventSourceAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::Tracing {
 // Is value type: false
 // CS Name: ::System.Diagnostics.Tracing::EventSourceAttribute*
 class CORDL_TYPE EventSourceAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(put = set_Guid))::StringW Guid;
+  __declspec(property(put = set_Guid)) ::StringW Guid;
 
-  __declspec(property(put = set_Name))::StringW Name;
+  __declspec(property(put = set_Name)) ::StringW Name;
 
   /// @brief Field <Guid>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Guid_k__BackingField, put = __cordl_internal_set__Guid_k__BackingField))::StringW _Guid_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Guid_k__BackingField, put = __cordl_internal_set__Guid_k__BackingField)) ::StringW _Guid_k__BackingField;
 
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
   static inline ::System::Diagnostics::Tracing::EventSourceAttribute* New_ctor();
 
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x292f420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d42c54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_Guid, addr 0x292f410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Guid, addr 0x3d42c44, size 0x8, virtual false, abstract: false, final false
   inline void set_Guid(::StringW value);
 
-  /// @brief Method set_Name, addr 0x292f418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x3d42c4c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:
@@ -72,6 +72,9 @@ public:
 
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3754 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

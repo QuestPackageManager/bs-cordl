@@ -17,22 +17,22 @@ class SkinColorSO;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::SkinColorSO);
 // Type: BeatSaber.BeatAvatarSDK::SkinColorSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
 // CS Name: ::BeatSaber.BeatAvatarSDK::SkinColorSO*
 class CORDL_TYPE SkinColorSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  __declspec(property(get = get_Color))::UnityEngine::Color Color;
+  __declspec(property(get = get_Color)) ::UnityEngine::Color Color;
 
   /// @brief Field _color, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color)) ::UnityEngine::Color _color;
 
   /// @brief Field _id, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id))::StringW _id;
+  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) ::StringW _id;
 
-  __declspec(property(get = get_id))::StringW id;
+  __declspec(property(get = get_id)) ::StringW id;
 
   static inline ::BeatSaber::BeatAvatarSDK::SkinColorSO* New_ctor();
 
@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__id(::StringW value);
 
-  /// @brief Method .ctor, addr 0x105fd1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x222776c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Color, addr 0x105fd10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Color, addr 0x2227760, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_Color();
 
-  /// @brief Method get_id, addr 0x105fd08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x2227758, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
 protected:
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field _color, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18076 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

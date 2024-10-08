@@ -42,29 +42,29 @@ struct HAPI_ParmInfo;
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_ParmInfo);
 // Type: HoudiniEngineUnity::HAPI_ParmInfo
-// SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HoudiniEngineUnity::HAPI_ParmInfo
 struct CORDL_TYPE HAPI_ParmInfo {
 public:
   // Declarations
-  /// @brief Method isFloat, addr 0x25a1c88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method isFloat, addr 0x39de714, size 0x14, virtual false, abstract: false, final false
   inline bool isFloat();
 
-  /// @brief Method isInt, addr 0x25a1c68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method isInt, addr 0x39de6f8, size 0x1c, virtual false, abstract: false, final false
   inline bool isInt();
 
-  /// @brief Method isNode, addr 0x25a1cec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method isNode, addr 0x39de774, size 0x10, virtual false, abstract: false, final false
   inline bool isNode();
 
-  /// @brief Method isNonValue, addr 0x25a1cfc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method isNonValue, addr 0x39de784, size 0x14, virtual false, abstract: false, final false
   inline bool isNonValue();
 
-  /// @brief Method isPath, addr 0x25a1ccc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method isPath, addr 0x39de754, size 0x20, virtual false, abstract: false, final false
   inline bool isPath();
 
-  /// @brief Method isString, addr 0x25a1c9c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method isString, addr 0x39de728, size 0x2c, virtual false, abstract: false, final false
   inline bool isString();
 
   // Ctor Parameters []
@@ -223,6 +223,9 @@ public:
 
   /// @brief Field disabledConditionSH, offset: 0x8c, size: 0x4, def value: None
   int32_t disabledConditionSH;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11678 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };

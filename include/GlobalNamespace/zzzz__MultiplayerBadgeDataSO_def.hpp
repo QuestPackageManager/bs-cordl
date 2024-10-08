@@ -33,7 +33,7 @@ class MultiplayerBadgeDataSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataSO);
 // Type: ::MultiplayerBadgeDataSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerBadgeDataSO*
@@ -41,19 +41,19 @@ class CORDL_TYPE MultiplayerBadgeDataSO : public ::UnityEngine::ScriptableObject
 public:
   // Declarations
   /// @brief Field _icon, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon))::UnityW<::UnityEngine::Sprite> _icon;
+  __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon)) ::UnityW<::UnityEngine::Sprite> _icon;
 
   /// @brief Field _subtitleLocalizationKey, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__subtitleLocalizationKey, put = __cordl_internal_set__subtitleLocalizationKey))::StringW _subtitleLocalizationKey;
+  __declspec(property(get = __cordl_internal_get__subtitleLocalizationKey, put = __cordl_internal_set__subtitleLocalizationKey)) ::StringW _subtitleLocalizationKey;
 
   /// @brief Field _titleLocalizationKey, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__titleLocalizationKey, put = __cordl_internal_set__titleLocalizationKey))::StringW _titleLocalizationKey;
+  __declspec(property(get = __cordl_internal_get__titleLocalizationKey, put = __cordl_internal_set__titleLocalizationKey)) ::StringW _titleLocalizationKey;
 
-  __declspec(property(get = get_icon))::UnityW<::UnityEngine::Sprite> icon;
+  __declspec(property(get = get_icon)) ::UnityW<::UnityEngine::Sprite> icon;
 
-  __declspec(property(get = get_subtitleLocalizationKey))::StringW subtitleLocalizationKey;
+  __declspec(property(get = get_subtitleLocalizationKey)) ::StringW subtitleLocalizationKey;
 
-  __declspec(property(get = get_titleLocalizationKey))::StringW titleLocalizationKey;
+  __declspec(property(get = get_titleLocalizationKey)) ::StringW titleLocalizationKey;
 
   /// @brief Method CalculateBadgeData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
@@ -80,16 +80,16 @@ public:
 
   constexpr void __cordl_internal_set__titleLocalizationKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14dc314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2695b68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_icon, addr 0x14de020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x269783c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_subtitleLocalizationKey, addr 0x14de030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subtitleLocalizationKey, addr 0x269784c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_subtitleLocalizationKey();
 
-  /// @brief Method get_titleLocalizationKey, addr 0x14de028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleLocalizationKey, addr 0x2697844, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_titleLocalizationKey();
 
 protected:
@@ -114,6 +114,9 @@ public:
 
   /// @brief Field _icon, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____icon;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13032 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

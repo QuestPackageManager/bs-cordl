@@ -24,7 +24,7 @@ class DefaultPKMacPrimitivesProvider;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider);
 // Type: Org.BouncyCastle.Crmf::DefaultPKMacPrimitivesProvider
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crmf::DefaultPKMacPrimitivesProvider*
@@ -34,15 +34,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider"
   constexpr operator ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*() noexcept;
 
-  /// @brief Method CreateDigest, addr 0x1483ad0, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method CreateDigest, addr 0x26444e8, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* CreateDigest(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlg);
 
-  /// @brief Method CreateMac, addr 0x1483b48, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method CreateMac, addr 0x2644560, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IMac* CreateMac(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlg);
 
   static inline ::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1483bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26445d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider"
@@ -61,6 +61,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultPKMacPrimitivesProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultPKMacPrimitivesProvider(DefaultPKMacPrimitivesProvider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 700 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

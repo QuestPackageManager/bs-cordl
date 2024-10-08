@@ -15,19 +15,19 @@ class SteamInit;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SteamInit);
 // Type: ::SteamInit
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SteamInit*
 class CORDL_TYPE SteamInit : public ::GlobalNamespace::BasePlatformInit {
 public:
   // Declarations
-  /// @brief Method InitializeInternalAsync, addr 0x26309a4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method InitializeInternalAsync, addr 0x26db820, size 0x68, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeInternalAsync();
 
   static inline ::GlobalNamespace::SteamInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2630a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26db888, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -43,6 +43,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SteamInit", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SteamInit(SteamInit const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17878 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

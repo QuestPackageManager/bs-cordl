@@ -13,7 +13,7 @@ struct StyleEnumType;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StyleEnumType);
 // Type: UnityEngine.UIElements.StyleSheets::StyleEnumType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleEnumType
@@ -25,23 +25,27 @@ public:
   /// @brief Nested struct __StyleEnumType_Unwrapped
   enum struct __StyleEnumType_Unwrapped : int32_t {
     __E_Align = static_cast<int32_t>(0x0),
-    __E_DisplayStyle = static_cast<int32_t>(0x1),
-    __E_EasingMode = static_cast<int32_t>(0x2),
-    __E_FlexDirection = static_cast<int32_t>(0x3),
-    __E_FontStyle = static_cast<int32_t>(0x4),
-    __E_Justify = static_cast<int32_t>(0x5),
-    __E_Overflow = static_cast<int32_t>(0x6),
-    __E_OverflowClipBox = static_cast<int32_t>(0x7),
-    __E_OverflowInternal = static_cast<int32_t>(0x8),
-    __E_Position = static_cast<int32_t>(0x9),
-    __E_ScaleMode = static_cast<int32_t>(0xa),
-    __E_TextAnchor = static_cast<int32_t>(0xb),
-    __E_TextOverflow = static_cast<int32_t>(0xc),
-    __E_TextOverflowPosition = static_cast<int32_t>(0xd),
-    __E_TransformOriginOffset = static_cast<int32_t>(0xe),
-    __E_Visibility = static_cast<int32_t>(0xf),
-    __E_WhiteSpace = static_cast<int32_t>(0x10),
-    __E_Wrap = static_cast<int32_t>(0x11),
+    __E_BackgroundPositionKeyword = static_cast<int32_t>(0x1),
+    __E_BackgroundSizeType = static_cast<int32_t>(0x2),
+    __E_DisplayStyle = static_cast<int32_t>(0x3),
+    __E_EasingMode = static_cast<int32_t>(0x4),
+    __E_FlexDirection = static_cast<int32_t>(0x5),
+    __E_FontStyle = static_cast<int32_t>(0x6),
+    __E_Justify = static_cast<int32_t>(0x7),
+    __E_Overflow = static_cast<int32_t>(0x8),
+    __E_OverflowClipBox = static_cast<int32_t>(0x9),
+    __E_OverflowInternal = static_cast<int32_t>(0xa),
+    __E_Position = static_cast<int32_t>(0xb),
+    __E_Repeat = static_cast<int32_t>(0xc),
+    __E_RepeatXY = static_cast<int32_t>(0xd),
+    __E_ScaleMode = static_cast<int32_t>(0xe),
+    __E_TextAnchor = static_cast<int32_t>(0xf),
+    __E_TextOverflow = static_cast<int32_t>(0x10),
+    __E_TextOverflowPosition = static_cast<int32_t>(0x11),
+    __E_TransformOriginOffset = static_cast<int32_t>(0x12),
+    __E_Visibility = static_cast<int32_t>(0x13),
+    __E_WhiteSpace = static_cast<int32_t>(0x14),
+    __E_Wrap = static_cast<int32_t>(0x15),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -67,56 +71,71 @@ public:
   /// @brief Field Align value: static_cast<int32_t>(0x0)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Align;
 
-  /// @brief Field DisplayStyle value: static_cast<int32_t>(0x1)
+  /// @brief Field BackgroundPositionKeyword value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const BackgroundPositionKeyword;
+
+  /// @brief Field BackgroundSizeType value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const BackgroundSizeType;
+
+  /// @brief Field DisplayStyle value: static_cast<int32_t>(0x3)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const DisplayStyle;
 
-  /// @brief Field EasingMode value: static_cast<int32_t>(0x2)
+  /// @brief Field EasingMode value: static_cast<int32_t>(0x4)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const EasingMode;
 
-  /// @brief Field FlexDirection value: static_cast<int32_t>(0x3)
+  /// @brief Field FlexDirection value: static_cast<int32_t>(0x5)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const FlexDirection;
 
-  /// @brief Field FontStyle value: static_cast<int32_t>(0x4)
+  /// @brief Field FontStyle value: static_cast<int32_t>(0x6)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const FontStyle;
 
-  /// @brief Field Justify value: static_cast<int32_t>(0x5)
+  /// @brief Field Justify value: static_cast<int32_t>(0x7)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Justify;
 
-  /// @brief Field Overflow value: static_cast<int32_t>(0x6)
+  /// @brief Field Overflow value: static_cast<int32_t>(0x8)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Overflow;
 
-  /// @brief Field OverflowClipBox value: static_cast<int32_t>(0x7)
+  /// @brief Field OverflowClipBox value: static_cast<int32_t>(0x9)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const OverflowClipBox;
 
-  /// @brief Field OverflowInternal value: static_cast<int32_t>(0x8)
+  /// @brief Field OverflowInternal value: static_cast<int32_t>(0xa)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const OverflowInternal;
 
-  /// @brief Field Position value: static_cast<int32_t>(0x9)
+  /// @brief Field Position value: static_cast<int32_t>(0xb)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Position;
 
-  /// @brief Field ScaleMode value: static_cast<int32_t>(0xa)
+  /// @brief Field Repeat value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Repeat;
+
+  /// @brief Field RepeatXY value: static_cast<int32_t>(0xd)
+  static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const RepeatXY;
+
+  /// @brief Field ScaleMode value: static_cast<int32_t>(0xe)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const ScaleMode;
 
-  /// @brief Field TextAnchor value: static_cast<int32_t>(0xb)
+  /// @brief Field TextAnchor value: static_cast<int32_t>(0xf)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TextAnchor;
 
-  /// @brief Field TextOverflow value: static_cast<int32_t>(0xc)
+  /// @brief Field TextOverflow value: static_cast<int32_t>(0x10)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TextOverflow;
 
-  /// @brief Field TextOverflowPosition value: static_cast<int32_t>(0xd)
+  /// @brief Field TextOverflowPosition value: static_cast<int32_t>(0x11)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TextOverflowPosition;
 
-  /// @brief Field TransformOriginOffset value: static_cast<int32_t>(0xe)
+  /// @brief Field TransformOriginOffset value: static_cast<int32_t>(0x12)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TransformOriginOffset;
 
-  /// @brief Field Visibility value: static_cast<int32_t>(0xf)
+  /// @brief Field Visibility value: static_cast<int32_t>(0x13)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Visibility;
 
-  /// @brief Field WhiteSpace value: static_cast<int32_t>(0x10)
+  /// @brief Field WhiteSpace value: static_cast<int32_t>(0x14)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const WhiteSpace;
 
-  /// @brief Field Wrap value: static_cast<int32_t>(0x11)
+  /// @brief Field Wrap value: static_cast<int32_t>(0x15)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Wrap;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6412 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

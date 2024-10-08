@@ -16,7 +16,7 @@ class SharedStatics;
 // Write type traits
 MARK_REF_PTR_T(::System::SharedStatics);
 // Type: System::SharedStatics
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::SharedStatics*
@@ -24,17 +24,17 @@ class CORDL_TYPE SharedStatics : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _maker, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__maker, put = __cordl_internal_set__maker))::System::Security::Util::__Tokenizer__StringMaker* _maker;
+  __declspec(property(get = __cordl_internal_get__maker, put = __cordl_internal_set__maker)) ::System::Security::Util::__Tokenizer__StringMaker* _maker;
 
   /// @brief Field _sharedStatics, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__sharedStatics, put = setStaticF__sharedStatics))::System::SharedStatics* _sharedStatics;
+  static __declspec(property(get = getStaticF__sharedStatics, put = setStaticF__sharedStatics)) ::System::SharedStatics* _sharedStatics;
 
-  /// @brief Method GetSharedStringMaker, addr 0x29a7870, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetSharedStringMaker, addr 0x3db80bc, size 0x1c8, virtual false, abstract: false, final false
   static inline ::System::Security::Util::__Tokenizer__StringMaker* GetSharedStringMaker();
 
   static inline ::System::SharedStatics* New_ctor();
 
-  /// @brief Method ReleaseSharedStringMaker, addr 0x29a7a40, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ReleaseSharedStringMaker, addr 0x3db8284, size 0x150, virtual false, abstract: false, final false
   static inline void ReleaseSharedStringMaker(ByRef<::System::Security::Util::__Tokenizer__StringMaker*> maker);
 
   constexpr ::System::Security::Util::__Tokenizer__StringMaker*& __cordl_internal_get__maker();
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__maker(::System::Security::Util::__Tokenizer__StringMaker* value);
 
-  /// @brief Method .ctor, addr 0x29a7868, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db80b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::SharedStatics* getStaticF__sharedStatics();
@@ -66,6 +66,9 @@ public:
 
   /// @brief Field _maker, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Util::__Tokenizer__StringMaker* ____maker;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2570 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

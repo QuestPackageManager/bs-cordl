@@ -22,7 +22,7 @@ class MixedNafR2LMultiplier;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier);
 // Type: Org.BouncyCastle.Math.EC.Multiplier::MixedNafR2LMultiplier
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::MixedNafR2LMultiplier*
@@ -35,10 +35,10 @@ public:
   /// @brief Field doublingCoord, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_doublingCoord, put = __cordl_internal_set_doublingCoord)) int32_t doublingCoord;
 
-  /// @brief Method ConfigureCurve, addr 0x12aa40c, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ConfigureCurve, addr 0x2478acc, size 0x130, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* c, int32_t coord);
 
-  /// @brief Method MultiplyPositive, addr 0x12a9fb0, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x2478674, size 0x1e8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* New_ctor();
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set_doublingCoord(int32_t value);
 
-  /// @brief Method .ctor, addr 0x12a9f60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2478624, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x12a9f84, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2478648, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t additionCoord, int32_t doublingCoord);
 
 protected:
@@ -82,6 +82,9 @@ public:
 
   /// @brief Field doublingCoord, offset: 0x14, size: 0x4, def value: None
   int32_t ___doublingCoord;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1534 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

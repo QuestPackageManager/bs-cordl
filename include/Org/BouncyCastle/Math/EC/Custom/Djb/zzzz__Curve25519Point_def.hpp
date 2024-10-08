@@ -26,30 +26,30 @@ class Curve25519Point;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point);
 // Type: Org.BouncyCastle.Math.EC.Custom.Djb::Curve25519Point
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Custom::Djb {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Math.EC.Custom.Djb::Curve25519Point*
 class CORDL_TYPE Curve25519Point : public ::Org::BouncyCastle::Math::EC::AbstractFpPoint {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x124260c, size 0x6f8, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x2415238, size 0x6f4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Add(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method CalculateJacobianModifiedW, addr 0x1242fcc, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method CalculateJacobianModifiedW, addr 0x2415be8, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* CalculateJacobianModifiedW(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* Z,
                                                                                                         ::ArrayW<uint32_t, ::Array<uint32_t>*> ZSquared);
 
-  /// @brief Method Detach, addr 0x1242558, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Detach, addr 0x241518c, size 0x90, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Detach();
 
-  /// @brief Method GetJacobianModifiedW, addr 0x124314c, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GetJacobianModifiedW, addr 0x2415d5c, size 0x128, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* GetJacobianModifiedW();
 
-  /// @brief Method GetZCoord, addr 0x12425f0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetZCoord, addr 0x241521c, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* GetZCoord(int32_t index);
 
-  /// @brief Method Negate, addr 0x1242ef8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Negate, addr 0x2415b1c, size 0xcc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Negate();
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
@@ -62,25 +62,25 @@ public:
   New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
            ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
-  /// @brief Method ThreeTimes, addr 0x1242e78, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ThreeTimes, addr 0x2415aa0, size 0x7c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ThreeTimes();
 
-  /// @brief Method Twice, addr 0x1242d04, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Twice, addr 0x241592c, size 0xa4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Twice();
 
-  /// @brief Method TwiceJacobianModified, addr 0x1243274, size 0x470, virtual true, abstract: false, final false
+  /// @brief Method TwiceJacobianModified, addr 0x2415e84, size 0x450, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point* TwiceJacobianModified(bool calculateW);
 
-  /// @brief Method TwicePlus, addr 0x1242da8, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method TwicePlus, addr 0x24159d0, size 0xd0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method .ctor, addr 0x123d7bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2410468, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method .ctor, addr 0x123daec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241077c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x123dc04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2410888, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
@@ -97,6 +97,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Curve25519Point", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Curve25519Point(Curve25519Point const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1376 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

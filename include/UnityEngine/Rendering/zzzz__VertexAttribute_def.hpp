@@ -13,7 +13,7 @@ struct VertexAttribute;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::VertexAttribute);
 // Type: UnityEngine.Rendering::VertexAttribute
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: ::UnityEngine.Rendering::VertexAttribute
@@ -101,6 +101,9 @@ public:
 
   /// @brief Field TexCoord7 value: static_cast<int32_t>(0xb)
   static ::UnityEngine::Rendering::VertexAttribute const TexCoord7;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11140 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

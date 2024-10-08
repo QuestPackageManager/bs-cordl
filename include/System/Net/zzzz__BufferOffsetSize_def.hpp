@@ -14,7 +14,7 @@ class BufferOffsetSize;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::BufferOffsetSize);
 // Type: System.Net::BufferOffsetSize
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::BufferOffsetSize*
@@ -22,7 +22,7 @@ class CORDL_TYPE BufferOffsetSize : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Buffer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
+  __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
 
   /// @brief Field Offset, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_Offset, put = __cordl_internal_set_Offset)) int32_t Offset;
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_Size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x300805c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443183c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, bool copyBuffer);
 
-  /// @brief Method .ctor, addr 0x3007fb0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4431790, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, bool copyBuffer);
 
 protected:
@@ -80,6 +80,9 @@ public:
 
   /// @brief Field Size, offset: 0x1c, size: 0x4, def value: None
   int32_t ___Size;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9586 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

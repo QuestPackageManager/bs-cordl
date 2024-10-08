@@ -11,6 +11,38 @@
 #include "System/zzzz__Tuple_4_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "UnityEngine/UI/zzzz__InputField_def.hpp"
+template <typename T> inline void HMUI::__InputFieldDataBinder____c__3_1<T>::setStaticF___9(::HMUI::__InputFieldDataBinder____c__3_1<T>* value) {
+  ::cordl_internals::setStaticField<::HMUI::__InputFieldDataBinder____c__3_1<T>*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__InputFieldDataBinder____c__3_1<T>*>::get>(
+      std::forward<::HMUI::__InputFieldDataBinder____c__3_1<T>*>(value));
+}
+template <typename T> inline ::HMUI::__InputFieldDataBinder____c__3_1<T>* HMUI::__InputFieldDataBinder____c__3_1<T>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::HMUI::__InputFieldDataBinder____c__3_1<T>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__InputFieldDataBinder____c__3_1<T>*>::get>();
+}
+template <typename T> inline void HMUI::__InputFieldDataBinder____c__3_1<T>::setStaticF___9__3_0(::System::Func_2<::StringW, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::StringW, ::StringW>*, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__InputFieldDataBinder____c__3_1<T>*>::get>(
+      std::forward<::System::Func_2<::StringW, ::StringW>*>(value));
+}
+template <typename T> inline ::System::Func_2<::StringW, ::StringW>* HMUI::__InputFieldDataBinder____c__3_1<T>::getStaticF___9__3_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::StringW, ::StringW>*, "<>9__3_0",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__InputFieldDataBinder____c__3_1<T>*>::get>();
+}
+template <typename T> inline ::HMUI::__InputFieldDataBinder____c__3_1<T>* HMUI::__InputFieldDataBinder____c__3_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__InputFieldDataBinder____c__3_1<T>*>());
+}
+template <typename T> inline void HMUI::__InputFieldDataBinder____c__3_1<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__InputFieldDataBinder____c__3_1<T>*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::StringW HMUI::__InputFieldDataBinder____c__3_1<T>::_AddStringBindings_b__3_0(::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__InputFieldDataBinder____c__3_1<T>*>::get(), "<AddStringBindings>b__3_0",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, value);
+}
+// Ctor Parameters []
+template <typename T> constexpr ::HMUI::__InputFieldDataBinder____c__3_1<T>::__InputFieldDataBinder____c__3_1() {}
 template <typename T0, typename T1> constexpr ::System::Func_2<::StringW, T1>*& HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>::__cordl_internal_get_toValueConvertor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toValueConvertor;
@@ -84,46 +116,14 @@ template <typename T0, typename T1> inline void HMUI::__InputFieldDataBinder____
 }
 // Ctor Parameters []
 template <typename T0, typename T1> constexpr ::HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>::__InputFieldDataBinder____c__DisplayClass2_0_2() {}
-template <typename T> inline void HMUI::__InputFieldDataBinder____c__3_1<T>::setStaticF___9(::HMUI::__InputFieldDataBinder____c__3_1<T>* value) {
-  ::cordl_internals::setStaticField<::HMUI::__InputFieldDataBinder____c__3_1<T>*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__InputFieldDataBinder____c__3_1<T>*>::get>(
-      std::forward<::HMUI::__InputFieldDataBinder____c__3_1<T>*>(value));
-}
-template <typename T> inline ::HMUI::__InputFieldDataBinder____c__3_1<T>* HMUI::__InputFieldDataBinder____c__3_1<T>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::HMUI::__InputFieldDataBinder____c__3_1<T>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__InputFieldDataBinder____c__3_1<T>*>::get>();
-}
-template <typename T> inline void HMUI::__InputFieldDataBinder____c__3_1<T>::setStaticF___9__3_0(::System::Func_2<::StringW, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::StringW, ::StringW>*, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__InputFieldDataBinder____c__3_1<T>*>::get>(
-      std::forward<::System::Func_2<::StringW, ::StringW>*>(value));
-}
-template <typename T> inline ::System::Func_2<::StringW, ::StringW>* HMUI::__InputFieldDataBinder____c__3_1<T>::getStaticF___9__3_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::StringW, ::StringW>*, "<>9__3_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__InputFieldDataBinder____c__3_1<T>*>::get>();
-}
-template <typename T> inline ::HMUI::__InputFieldDataBinder____c__3_1<T>* HMUI::__InputFieldDataBinder____c__3_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__InputFieldDataBinder____c__3_1<T>*>());
-}
-template <typename T> inline void HMUI::__InputFieldDataBinder____c__3_1<T>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__InputFieldDataBinder____c__3_1<T>*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T> inline ::StringW HMUI::__InputFieldDataBinder____c__3_1<T>::_AddStringBindings_b__3_0(::StringW value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__InputFieldDataBinder____c__3_1<T>*>::get(), "<AddStringBindings>b__3_0",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, value);
-}
-// Ctor Parameters []
-template <typename T> constexpr ::HMUI::__InputFieldDataBinder____c__3_1<T>::__InputFieldDataBinder____c__3_1() {}
 //  Writing Method size for method: ::HMUI::InputFieldDataBinder._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldDataBinder::*)()>(&::HMUI::InputFieldDataBinder::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x25289a4;
+  constexpr static std::size_t addrs = 0x39801cc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldDataBinder*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -134,9 +134,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldDataBinder::*)()>(&::HMUI::InputFieldDataBinder::ClearBindings)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x2528a24;
+  constexpr static std::size_t addrs = 0x398024c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldDataBinder*>::get(), "ClearBindings",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;

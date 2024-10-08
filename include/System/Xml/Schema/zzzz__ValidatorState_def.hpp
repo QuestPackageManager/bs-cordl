@@ -13,7 +13,7 @@ struct ValidatorState;
 // Write type traits
 MARK_VAL_T(::System::Xml::Schema::ValidatorState);
 // Type: System.Xml.Schema::ValidatorState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
 // CS Name: ::System.Xml.Schema::ValidatorState
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field Whitespace value: static_cast<int32_t>(0x8)
   static ::System::Xml::Schema::ValidatorState const Whitespace;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7701 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

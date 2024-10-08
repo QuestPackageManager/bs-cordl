@@ -21,7 +21,7 @@ class HexEncoder;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Encoders::HexEncoder);
 // Type: Org.BouncyCastle.Utilities.Encoders::HexEncoder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Encoders {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.Encoders::HexEncoder*
@@ -29,33 +29,33 @@ class CORDL_TYPE HexEncoder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field decodingTable, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_decodingTable, put = __cordl_internal_set_decodingTable))::ArrayW<uint8_t, ::Array<uint8_t>*> decodingTable;
+  __declspec(property(get = __cordl_internal_get_decodingTable, put = __cordl_internal_set_decodingTable)) ::ArrayW<uint8_t, ::Array<uint8_t>*> decodingTable;
 
   /// @brief Field encodingTable, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_encodingTable, put = __cordl_internal_set_encodingTable))::ArrayW<uint8_t, ::Array<uint8_t>*> encodingTable;
+  __declspec(property(get = __cordl_internal_get_encodingTable, put = __cordl_internal_set_encodingTable)) ::ArrayW<uint8_t, ::Array<uint8_t>*> encodingTable;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
   constexpr operator ::Org::BouncyCastle::Utilities::Encoders::IEncoder*() noexcept;
 
-  /// @brief Method Decode, addr 0x13d0088, size 0x2e4, virtual true, abstract: false, final true
+  /// @brief Method Decode, addr 0x2597af4, size 0x2f4, virtual true, abstract: false, final true
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length, ::System::IO::Stream* outStream);
 
-  /// @brief Method DecodeStrict, addr 0x13d0824, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method DecodeStrict, addr 0x2598290, size 0x238, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeStrict(::StringW str, int32_t off, int32_t len);
 
-  /// @brief Method DecodeString, addr 0x13d043c, size 0x2fc, virtual true, abstract: false, final true
+  /// @brief Method DecodeString, addr 0x2597eb8, size 0x2ec, virtual true, abstract: false, final true
   inline int32_t DecodeString(::StringW data, ::System::IO::Stream* outStream);
 
-  /// @brief Method Encode, addr 0x13cfd94, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method Encode, addr 0x2597800, size 0x110, virtual true, abstract: false, final true
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::System::IO::Stream* outStream);
 
-  /// @brief Method Encode, addr 0x13d0d60, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x25987b4, size 0xd8, virtual false, abstract: false, final false
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBuf, int32_t outOff);
 
-  /// @brief Method Ignore, addr 0x13d0e30, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Ignore, addr 0x259888c, size 0x2c, virtual false, abstract: false, final false
   static inline bool Ignore(char16_t c);
 
-  /// @brief Method InitialiseDecodingTable, addr 0x13d0bfc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method InitialiseDecodingTable, addr 0x2598650, size 0x164, virtual false, abstract: false, final false
   inline void InitialiseDecodingTable();
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* New_ctor();
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_encodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x13d0b60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25985b4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
@@ -97,6 +97,9 @@ public:
 
   /// @brief Field decodingTable, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___decodingTable;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1799 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

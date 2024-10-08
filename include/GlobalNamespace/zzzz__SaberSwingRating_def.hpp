@@ -13,20 +13,20 @@ class SaberSwingRating;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SaberSwingRating);
 // Type: ::SaberSwingRating
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SaberSwingRating*
 class CORDL_TYPE SaberSwingRating : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AfterCutStepRating, addr 0x14aeecc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AfterCutStepRating, addr 0x26702b4, size 0x3c, virtual false, abstract: false, final false
   static inline float_t AfterCutStepRating(float_t angleDiff, float_t normalDiff);
 
-  /// @brief Method BeforeCutStepRating, addr 0x14aee64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeforeCutStepRating, addr 0x267024c, size 0x3c, virtual false, abstract: false, final false
   static inline float_t BeforeCutStepRating(float_t angleDiff, float_t normalDiff);
 
-  /// @brief Method NormalRating, addr 0x14aeea0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method NormalRating, addr 0x2670288, size 0x2c, virtual false, abstract: false, final false
   static inline float_t NormalRating(float_t normalDiff);
 
 protected:
@@ -42,6 +42,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SaberSwingRating", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SaberSwingRating(SaberSwingRating const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12814 };
 
   /// @brief Field kAfterCutAngleFor1Rating offset 0xffffffff size 0x4
   static constexpr float_t kAfterCutAngleFor1Rating{ 60.0 };

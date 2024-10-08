@@ -12,7 +12,7 @@ class ThemeStyleSheet;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ThemeStyleSheet);
 // Type: UnityEngine.UIElements::ThemeStyleSheet
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::ThemeStyleSheet*
@@ -21,10 +21,10 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ThemeStyleSheet* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3601474, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4a14c88, size 0x24, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method .ctor, addr 0x36015f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a14cac, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,6 +40,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ThemeStyleSheet", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ThemeStyleSheet(ThemeStyleSheet const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6159 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

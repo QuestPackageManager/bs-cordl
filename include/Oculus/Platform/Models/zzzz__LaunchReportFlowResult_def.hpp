@@ -16,7 +16,7 @@ class LaunchReportFlowResult;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::LaunchReportFlowResult);
 // Type: Oculus.Platform.Models::LaunchReportFlowResult
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::LaunchReportFlowResult*
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_UserReportId(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2b10968, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1ba2c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field UserReportId, offset: 0x18, size: 0x8, def value: None
   uint64_t ___UserReportId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15484 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

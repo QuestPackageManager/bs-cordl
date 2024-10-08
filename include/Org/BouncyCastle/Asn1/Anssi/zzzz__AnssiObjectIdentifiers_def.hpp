@@ -15,7 +15,7 @@ class AnssiObjectIdentifiers;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers);
 // Type: Org.BouncyCastle.Asn1.Anssi::AnssiObjectIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Anssi {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Anssi::AnssiObjectIdentifiers*
@@ -23,11 +23,11 @@ class CORDL_TYPE AnssiObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field FRP256v1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_FRP256v1, put = setStaticF_FRP256v1))::Org::BouncyCastle::Asn1::DerObjectIdentifier* FRP256v1;
+  static __declspec(property(get = getStaticF_FRP256v1, put = setStaticF_FRP256v1)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* FRP256v1;
 
   static inline ::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10d3de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b19f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_FRP256v1();
@@ -47,6 +47,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AnssiObjectIdentifiers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AnssiObjectIdentifiers(AnssiObjectIdentifiers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,7 +22,7 @@ template <typename T> struct ValueListBuilder_1;
 // Write type traits
 MARK_GEN_VAL_T(::System::Collections::Generic::ValueListBuilder_1);
 // Type: System.Collections.Generic::ValueListBuilder`1
-// SizeInfo { instance_size: 32, native_size: 44, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 44, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field _pos, offset: 0x18, size: 0x4, def value: None
   int32_t _pos;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9478 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

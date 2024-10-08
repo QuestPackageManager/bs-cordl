@@ -27,22 +27,22 @@ class DefaultSignatureCalculator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator);
 // Type: Org.BouncyCastle.Crypto.Operators::DefaultSignatureCalculator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::DefaultSignatureCalculator*
 class CORDL_TYPE DefaultSignatureCalculator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Stream))::System::IO::Stream* Stream;
+  __declspec(property(get = get_Stream)) ::System::IO::Stream* Stream;
 
   /// @brief Field mSignerSink, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mSignerSink, put = __cordl_internal_set_mSignerSink))::Org::BouncyCastle::Crypto::IO::SignerSink* mSignerSink;
+  __declspec(property(get = __cordl_internal_get_mSignerSink, put = __cordl_internal_set_mSignerSink)) ::Org::BouncyCastle::Crypto::IO::SignerSink* mSignerSink;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCalculator*() noexcept;
 
-  /// @brief Method GetResult, addr 0x119f080, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method GetResult, addr 0x2376484, size 0x80, virtual true, abstract: false, final true
   inline ::System::Object* GetResult();
 
   static inline ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_mSignerSink(::Org::BouncyCastle::Crypto::IO::SignerSink* value);
 
-  /// @brief Method .ctor, addr 0x119e024, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2375464, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-  /// @brief Method get_Stream, addr 0x119f078, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Stream, addr 0x237647c, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCalculator"
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field mSignerSink, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IO::SignerSink* ___mSignerSink;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 999 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

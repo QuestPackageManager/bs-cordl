@@ -27,20 +27,20 @@ class Gost3410DigestSigner;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner);
 // Type: Org.BouncyCastle.Crypto.Signers::Gost3410DigestSigner
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::Gost3410DigestSigner*
 class CORDL_TYPE Gost3410DigestSigner : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field digest, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest)) ::Org::BouncyCastle::Crypto::IDigest* digest;
 
   /// @brief Field dsaSigner, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_dsaSigner, put = __cordl_internal_set_dsaSigner))::Org::BouncyCastle::Crypto::IDsa* dsaSigner;
+  __declspec(property(get = __cordl_internal_get_dsaSigner, put = __cordl_internal_set_dsaSigner)) ::Org::BouncyCastle::Crypto::IDsa* dsaSigner;
 
   /// @brief Field forSigning, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_forSigning, put = __cordl_internal_set_forSigning)) bool forSigning;
@@ -54,24 +54,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x11be830, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x2394564, size 0xc4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method GenerateSignature, addr 0x11be8f4, size 0x3b8, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x2394628, size 0x3ac, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method Init, addr 0x11be55c, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2394298, size 0x220, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner* New_ctor(::Org::BouncyCastle::Crypto::IDsa* signer, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Reset, addr 0x11bf010, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2394d18, size 0xa4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x11be784, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x23944b8, size 0xac, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method VerifySignature, addr 0x11becac, size 0x364, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x23949d4, size 0x344, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
@@ -104,10 +104,10 @@ public:
 
   constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11be350, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239408c, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDsa* signer, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_AlgorithmName, addr 0x11be41c, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2394158, size 0x140, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
@@ -141,6 +141,9 @@ public:
 
   /// @brief Field forSigning, offset: 0x28, size: 0x1, def value: None
   bool ___forSigning;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1140 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

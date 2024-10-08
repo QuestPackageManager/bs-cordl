@@ -3,6 +3,39 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
+template <typename T> inline void UnityEngine::UIElements::__ObjectPool_1____c<T>::setStaticF___9(::UnityEngine::UIElements::__ObjectPool_1____c<T>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::__ObjectPool_1____c<T>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ObjectPool_1____c<T>*>::get>(
+      std::forward<::UnityEngine::UIElements::__ObjectPool_1____c<T>*>(value));
+}
+template <typename T> inline ::UnityEngine::UIElements::__ObjectPool_1____c<T>* UnityEngine::UIElements::__ObjectPool_1____c<T>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::__ObjectPool_1____c<T>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ObjectPool_1____c<T>*>::get>();
+}
+template <typename T> inline void UnityEngine::UIElements::__ObjectPool_1____c<T>::setStaticF___9__6_0(::System::Func_1<T>* value) {
+  ::cordl_internals::setStaticField<::System::Func_1<T>*, "<>9__6_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ObjectPool_1____c<T>*>::get>(
+      std::forward<::System::Func_1<T>*>(value));
+}
+template <typename T> inline ::System::Func_1<T>* UnityEngine::UIElements::__ObjectPool_1____c<T>::getStaticF___9__6_0() {
+  return ::cordl_internals::getStaticField<::System::Func_1<T>*, "<>9__6_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ObjectPool_1____c<T>*>::get>();
+}
+template <typename T> inline ::UnityEngine::UIElements::__ObjectPool_1____c<T>* UnityEngine::UIElements::__ObjectPool_1____c<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__ObjectPool_1____c<T>*>());
+}
+template <typename T> inline void UnityEngine::UIElements::__ObjectPool_1____c<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ObjectPool_1____c<T>*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline T UnityEngine::UIElements::__ObjectPool_1____c<T>::__ctor_b__6_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ObjectPool_1____c<T>*>::get(),
+                                                                             "<.ctor>b__6_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
+}
+// Ctor Parameters []
+template <typename T> constexpr ::UnityEngine::UIElements::__ObjectPool_1____c<T>::__ObjectPool_1____c() {}
 template <typename T> constexpr ::System::Collections::Generic::Stack_1<T>*& UnityEngine::UIElements::ObjectPool_1<T>::__cordl_internal_get_m_Stack() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Stack;
@@ -27,6 +60,18 @@ template <typename T> constexpr void UnityEngine::UIElements::ObjectPool_1<T>::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MaxSize = value;
 }
+template <typename T> constexpr ::System::Func_1<T>*& UnityEngine::UIElements::ObjectPool_1<T>::__cordl_internal_get_CreateFunc() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CreateFunc;
+}
+template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& UnityEngine::UIElements::ObjectPool_1<T>::__cordl_internal_get_CreateFunc() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CreateFunc;
+}
+template <typename T> constexpr void UnityEngine::UIElements::ObjectPool_1<T>::__cordl_internal_set_CreateFunc(::System::Func_1<T>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CreateFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 template <typename T> inline int32_t UnityEngine::UIElements::ObjectPool_1<T>::get_maxSize() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ObjectPool_1<T>*>::get(), "get_maxSize",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -39,15 +84,16 @@ template <typename T> inline void UnityEngine::UIElements::ObjectPool_1<T>::set_
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 /// @param maxSize: int32_t (default: static_cast<int32_t>(0x64))
-template <typename T> inline ::UnityEngine::UIElements::ObjectPool_1<T>* UnityEngine::UIElements::ObjectPool_1<T>::New_ctor(int32_t maxSize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ObjectPool_1<T>*>(maxSize));
+template <typename T> inline ::UnityEngine::UIElements::ObjectPool_1<T>* UnityEngine::UIElements::ObjectPool_1<T>::New_ctor(::System::Func_1<T>* CreateFunc, int32_t maxSize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ObjectPool_1<T>*>(CreateFunc, maxSize));
 }
 /// @param maxSize: int32_t (default: static_cast<int32_t>(0x64))
-template <typename T> inline void UnityEngine::UIElements::ObjectPool_1<T>::_ctor(int32_t maxSize) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ObjectPool_1<T>*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, maxSize);
+template <typename T> inline void UnityEngine::UIElements::ObjectPool_1<T>::_ctor(::System::Func_1<T>* CreateFunc, int32_t maxSize) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ObjectPool_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_1<T>*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, CreateFunc, maxSize);
 }
 template <typename T> inline int32_t UnityEngine::UIElements::ObjectPool_1<T>::Size() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ObjectPool_1<T>*>::get(), "Size",

@@ -19,7 +19,7 @@ class __BindingRestrictions__CustomRestriction;
 // Write type traits
 MARK_REF_PTR_T(::System::Dynamic::__BindingRestrictions__CustomRestriction);
 // Type: ::CustomRestriction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Dynamic {
 // Is value type: false
 // CS Name: ::BindingRestrictions::CustomRestriction*
@@ -27,15 +27,15 @@ class CORDL_TYPE __BindingRestrictions__CustomRestriction : public ::System::Dyn
 public:
   // Declarations
   /// @brief Field _expression, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression))::System::Linq::Expressions::Expression* _expression;
+  __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression)) ::System::Linq::Expressions::Expression* _expression;
 
-  /// @brief Method Equals, addr 0x2c81dc4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4084cd8, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetExpression, addr 0x2c81e64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x4084d78, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression();
 
-  /// @brief Method GetHashCode, addr 0x2c81e34, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4084d48, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Dynamic::__BindingRestrictions__CustomRestriction* New_ctor(::System::Linq::Expressions::Expression* expression);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__expression(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x2c818b4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40847c8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression);
 
 protected:
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field _expression, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____expression;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14103 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

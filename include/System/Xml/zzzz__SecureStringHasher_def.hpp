@@ -31,19 +31,19 @@ class __SecureStringHasher__HashCodeOfStringDelegate;
 MARK_REF_PTR_T(::System::Xml::SecureStringHasher);
 MARK_REF_PTR_T(::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate);
 // Type: ::HashCodeOfStringDelegate
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::SecureStringHasher::HashCodeOfStringDelegate*
 class CORDL_TYPE __SecureStringHasher__HashCodeOfStringDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e956b4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x429582c, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::StringW s, int32_t sLen, int64_t additionalEntropy);
 
   static inline ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2e955dc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x429578c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -60,6 +60,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecureStringHasher__HashCodeOfStringDelegate(__SecureStringHasher__HashCodeOfStringDelegate const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7171 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -67,7 +70,7 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::__SecureStringHashe
 
 } // namespace System::Xml
 // Type: System.Xml::SecureStringHasher
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::SecureStringHasher*
@@ -77,7 +80,7 @@ public:
   using HashCodeOfStringDelegate = ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate;
 
   /// @brief Field hashCodeDelegate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_hashCodeDelegate, put = setStaticF_hashCodeDelegate))::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* hashCodeDelegate;
+  static __declspec(property(get = getStaticF_hashCodeDelegate, put = setStaticF_hashCodeDelegate)) ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* hashCodeDelegate;
 
   /// @brief Field hashCodeRandomizer, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_hashCodeRandomizer, put = __cordl_internal_set_hashCodeRandomizer)) int32_t hashCodeRandomizer;
@@ -85,16 +88,16 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::StringW>*() noexcept;
 
-  /// @brief Method Equals, addr 0x2e95364, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4295518, size 0x18, virtual true, abstract: false, final true
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x2e9537c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x4295530, size 0x9c, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::StringW key);
 
-  /// @brief Method GetHashCodeDelegate, addr 0x2e95418, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeDelegate, addr 0x42955cc, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* GetHashCodeDelegate();
 
-  /// @brief Method GetHashCodeOfString, addr 0x2e95570, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeOfString, addr 0x4295720, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeOfString(::StringW key, int32_t sLen, int64_t additionalEntropy);
 
   static inline ::System::Xml::SecureStringHasher* New_ctor();
@@ -105,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_hashCodeRandomizer(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2e95340, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42954f4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* getStaticF_hashCodeDelegate();
@@ -131,6 +134,9 @@ public:
 
   /// @brief Field hashCodeRandomizer, offset: 0x10, size: 0x4, def value: None
   int32_t ___hashCodeRandomizer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7172 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

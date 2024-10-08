@@ -23,7 +23,7 @@ class PointGenerator;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PointGenerator);
 // Type: UnityEngine.ProBuilder.Poly2Tri::PointGenerator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PointGenerator*
@@ -31,17 +31,17 @@ class CORDL_TYPE PointGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field RNG, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RNG, put = setStaticF_RNG))::System::Random* RNG;
+  static __declspec(property(get = getStaticF_RNG, put = setStaticF_RNG)) ::System::Random* RNG;
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PointGenerator* New_ctor();
 
-  /// @brief Method UniformDistribution, addr 0x32a6ea0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method UniformDistribution, addr 0x46874f0, size 0x1c0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformDistribution(int32_t n, double_t scale);
 
-  /// @brief Method UniformGrid, addr 0x32a7068, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method UniformGrid, addr 0x46876b0, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformGrid(int32_t n, double_t scale);
 
-  /// @brief Method .ctor, addr 0x32a71f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x468783c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Random* getStaticF_RNG();
@@ -61,6 +61,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PointGenerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PointGenerator(PointGenerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17747 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

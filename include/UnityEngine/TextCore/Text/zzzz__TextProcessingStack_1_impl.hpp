@@ -13,6 +13,32 @@ template <typename T> inline void UnityEngine::TextCore::Text::TextProcessingSta
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, capacity);
 }
+template <typename T> inline void UnityEngine::TextCore::Text::TextProcessingStack_1<T>::_ctor(int32_t capacity, int32_t rolloverSize) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextProcessingStack_1<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, capacity, rolloverSize);
+}
+template <typename T> inline int32_t UnityEngine::TextCore::Text::TextProcessingStack_1<T>::get_Count() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextProcessingStack_1<T>>::get(),
+                                                                             "get_Count", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+template <typename T> inline T UnityEngine::TextCore::Text::TextProcessingStack_1<T>::get_current() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextProcessingStack_1<T>>::get(),
+                                                                             "get_current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
+}
+template <typename T>
+inline void UnityEngine::TextCore::Text::TextProcessingStack_1<T>::SetDefault(
+    ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<T>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<T>>*> stack, T item) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextProcessingStack_1<T>>::get(), "SetDefault", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                              ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<T>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<T>>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, stack, item);
+}
 template <typename T> inline void UnityEngine::TextCore::Text::TextProcessingStack_1<T>::Clear() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextProcessingStack_1<T>>::get(),
                                                                              "Clear", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));

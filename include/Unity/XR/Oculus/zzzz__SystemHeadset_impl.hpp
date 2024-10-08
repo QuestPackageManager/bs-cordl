@@ -10,6 +10,7 @@ constexpr ::Unity::XR::Oculus::SystemHeadset::SystemHeadset() {}
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::None{ static_cast<int32_t>(0x0) };
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::Oculus_Quest{ static_cast<int32_t>(0x8) };
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::Oculus_Quest_2{ static_cast<int32_t>(0x9) };
+constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::Meta_Quest_Pro{ static_cast<int32_t>(0xa) };
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::Placeholder_10{ static_cast<int32_t>(0xa) };
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::Placeholder_11{ static_cast<int32_t>(0xb) };
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::Placeholder_12{ static_cast<int32_t>(0xc) };
@@ -22,6 +23,7 @@ constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::R
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::Rift_S{ static_cast<int32_t>(0x1004) };
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::Oculus_Link_Quest{ static_cast<int32_t>(0x1005) };
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::Oculus_Link_Quest_2{ static_cast<int32_t>(0x1006) };
+constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::Meta_Link_Quest_Pro{ static_cast<int32_t>(0x1007) };
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::PC_Placeholder_4103{ static_cast<int32_t>(0x1007) };
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::PC_Placeholder_4104{ static_cast<int32_t>(0x1008) };
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::PC_Placeholder_4105{ static_cast<int32_t>(0x1009) };

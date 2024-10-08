@@ -13,7 +13,7 @@ class AudioClipProperties;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::AudioClipProperties);
 // Type: UnityEngine.Timeline::AudioClipProperties
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::AudioClipProperties*
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_volume(float_t value);
 
-  /// @brief Method .ctor, addr 0x33cf044, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a7b30, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field volume, offset: 0x10, size: 0x4, def value: None
   float_t ___volume;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15780 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

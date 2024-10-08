@@ -23,7 +23,7 @@ class AndroidAssetPackInfo;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Android::AndroidAssetPackInfo);
 // Type: UnityEngine.Android::AndroidAssetPackInfo
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: false
 // CS Name: ::UnityEngine.Android::AndroidAssetPackInfo*
@@ -34,16 +34,16 @@ public:
   __declspec(property(get = __cordl_internal_get__bytesDownloaded_k__BackingField, put = __cordl_internal_set__bytesDownloaded_k__BackingField)) uint64_t _bytesDownloaded_k__BackingField;
 
   /// @brief Field <error>k__BackingField, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__error_k__BackingField, put = __cordl_internal_set__error_k__BackingField))::UnityEngine::Android::AndroidAssetPackError _error_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__error_k__BackingField, put = __cordl_internal_set__error_k__BackingField)) ::UnityEngine::Android::AndroidAssetPackError _error_k__BackingField;
 
   /// @brief Field <name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__name_k__BackingField, put = __cordl_internal_set__name_k__BackingField))::StringW _name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__name_k__BackingField, put = __cordl_internal_set__name_k__BackingField)) ::StringW _name_k__BackingField;
 
   /// @brief Field <size>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__size_k__BackingField, put = __cordl_internal_set__size_k__BackingField)) uint64_t _size_k__BackingField;
 
   /// @brief Field <status>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__status_k__BackingField, put = __cordl_internal_set__status_k__BackingField))::UnityEngine::Android::AndroidAssetPackStatus _status_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__status_k__BackingField, put = __cordl_internal_set__status_k__BackingField)) ::UnityEngine::Android::AndroidAssetPackStatus _status_k__BackingField;
 
   /// @brief Field <transferProgress>k__BackingField, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__transferProgress_k__BackingField, put = __cordl_internal_set__transferProgress_k__BackingField)) float_t _transferProgress_k__BackingField;
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__transferProgress_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x33f9bdc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d3d7c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress,
                     ::UnityEngine::Android::AndroidAssetPackError error);
 
@@ -122,6 +122,9 @@ public:
 
   /// @brief Field <error>k__BackingField, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::Android::AndroidAssetPackError ____error_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16721 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

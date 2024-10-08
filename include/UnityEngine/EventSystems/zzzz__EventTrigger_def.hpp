@@ -98,7 +98,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::EventTrigger);
 MARK_REF_PTR_T(::UnityEngine::EventSystems::__EventTrigger__Entry);
 MARK_REF_PTR_T(::UnityEngine::EventSystems::__EventTrigger__TriggerEvent);
 // Type: ::TriggerEvent
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: ::EventTrigger::TriggerEvent*
@@ -107,7 +107,7 @@ public:
   // Declarations
   static inline ::UnityEngine::EventSystems::__EventTrigger__TriggerEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x352bb20, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a5ec30, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,6 +124,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __EventTrigger__TriggerEvent(__EventTrigger__TriggerEvent const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15159 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -131,7 +134,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__Eve
 
 } // namespace UnityEngine::EventSystems
 // Type: ::Entry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: ::EventTrigger::Entry*
@@ -139,10 +142,10 @@ class CORDL_TYPE __EventTrigger__Entry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::UnityEngine::EventSystems::__EventTrigger__TriggerEvent* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::UnityEngine::EventSystems::__EventTrigger__TriggerEvent* callback;
 
   /// @brief Field eventID, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_eventID, put = __cordl_internal_set_eventID))::UnityEngine::EventSystems::EventTriggerType eventID;
+  __declspec(property(get = __cordl_internal_get_eventID, put = __cordl_internal_set_eventID)) ::UnityEngine::EventSystems::EventTriggerType eventID;
 
   static inline ::UnityEngine::EventSystems::__EventTrigger__Entry* New_ctor();
 
@@ -158,7 +161,7 @@ public:
 
   constexpr void __cordl_internal_set_eventID(::UnityEngine::EventSystems::EventTriggerType value);
 
-  /// @brief Method .ctor, addr 0x352bb68, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a5ec78, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -181,6 +184,9 @@ public:
   /// @brief Field callback, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::EventSystems::__EventTrigger__TriggerEvent* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15160 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -192,7 +198,7 @@ static_assert(offsetof(::UnityEngine::EventSystems::__EventTrigger__Entry, ___ca
 
 } // namespace UnityEngine::EventSystems
 // Type: UnityEngine.EventSystems::EventTrigger
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: ::UnityEngine.EventSystems::EventTrigger*
@@ -203,13 +209,13 @@ public:
 
   using TriggerEvent = ::UnityEngine::EventSystems::__EventTrigger__TriggerEvent;
 
-  __declspec(property(get = get_delegates, put = set_delegates))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* delegates;
+  __declspec(property(get = get_delegates, put = set_delegates)) ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* delegates;
 
-  /// @brief Field m_Delegates, offset 0x18, size 0x8
+  /// @brief Field m_Delegates, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Delegates,
-                      put = __cordl_internal_set_m_Delegates))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* m_Delegates;
+                      put = __cordl_internal_set_m_Delegates)) ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* m_Delegates;
 
-  __declspec(property(get = get_triggers, put = set_triggers))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* triggers;
+  __declspec(property(get = get_triggers, put = set_triggers)) ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* triggers;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IBeginDragHandler"
   constexpr operator ::UnityEngine::EventSystems::IBeginDragHandler*() noexcept;
@@ -265,60 +271,60 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IUpdateSelectedHandler"
   constexpr operator ::UnityEngine::EventSystems::IUpdateSelectedHandler*() noexcept;
 
-  /// @brief Method Execute, addr 0x352b968, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x4a5ea80, size 0xe4, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::EventSystems::EventTriggerType id, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
   static inline ::UnityEngine::EventSystems::EventTrigger* New_ctor();
 
-  /// @brief Method OnBeginDrag, addr 0x352baf0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnBeginDrag, addr 0x4a5ec00, size 0xc, virtual true, abstract: false, final false
   inline void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnCancel, addr 0x352bb14, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnCancel, addr 0x4a5ec24, size 0xc, virtual true, abstract: false, final false
   inline void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnDeselect, addr 0x352bab4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnDeselect, addr 0x4a5ebc4, size 0xc, virtual true, abstract: false, final false
   inline void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnDrag, addr 0x352ba6c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnDrag, addr 0x4a5eb7c, size 0xc, virtual true, abstract: false, final false
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnDrop, addr 0x352ba78, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnDrop, addr 0x4a5eb88, size 0xc, virtual true, abstract: false, final false
   inline void OnDrop(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnEndDrag, addr 0x352bafc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnEndDrag, addr 0x4a5ec0c, size 0xc, virtual true, abstract: false, final false
   inline void OnEndDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnInitializePotentialDrag, addr 0x352bae4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnInitializePotentialDrag, addr 0x4a5ebf4, size 0xc, virtual true, abstract: false, final false
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnMove, addr 0x352bacc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnMove, addr 0x4a5ebdc, size 0xc, virtual true, abstract: false, final false
   inline void OnMove(::UnityEngine::EventSystems::AxisEventData* eventData);
 
-  /// @brief Method OnPointerClick, addr 0x352ba9c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x4a5ebac, size 0xc, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerDown, addr 0x352ba84, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x4a5eb94, size 0xc, virtual true, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerEnter, addr 0x352ba54, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnPointerEnter, addr 0x4a5eb64, size 0xc, virtual true, abstract: false, final false
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x352ba60, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnPointerExit, addr 0x4a5eb70, size 0xc, virtual true, abstract: false, final false
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerUp, addr 0x352ba90, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x4a5eba0, size 0xc, virtual true, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnScroll, addr 0x352bac0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnScroll, addr 0x4a5ebd0, size 0xc, virtual true, abstract: false, final false
   inline void OnScroll(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSelect, addr 0x352baa8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnSelect, addr 0x4a5ebb8, size 0xc, virtual true, abstract: false, final false
   inline void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnSubmit, addr 0x352bb08, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnSubmit, addr 0x4a5ec18, size 0xc, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnUpdateSelected, addr 0x352bad8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnUpdateSelected, addr 0x4a5ebe8, size 0xc, virtual true, abstract: false, final false
   inline void OnUpdateSelected(::UnityEngine::EventSystems::BaseEventData* eventData);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>*& __cordl_internal_get_m_Delegates();
@@ -327,13 +333,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Delegates(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* value);
 
-  /// @brief Method .ctor, addr 0x352b958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a5ea70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_delegates, addr 0x352b8cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_delegates, addr 0x4a5e9ec, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* get_delegates();
 
-  /// @brief Method get_triggers, addr 0x352b8d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_triggers, addr 0x4a5e9f0, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* get_triggers();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IBeginDragHandler"
@@ -390,10 +396,10 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IUpdateSelectedHandler"
   constexpr ::UnityEngine::EventSystems::IUpdateSelectedHandler* i___UnityEngine__EventSystems__IUpdateSelectedHandler() noexcept;
 
-  /// @brief Method set_delegates, addr 0x352b950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_delegates, addr 0x4a5ea68, size 0x8, virtual false, abstract: false, final false
   inline void set_delegates(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* value);
 
-  /// @brief Method set_triggers, addr 0x352b960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_triggers, addr 0x4a5ea78, size 0x8, virtual false, abstract: false, final false
   inline void set_triggers(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* value);
 
 protected:
@@ -410,15 +416,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventTrigger(EventTrigger const&) = delete;
 
-  /// @brief Field m_Delegates, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field m_Delegates, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__EventTrigger__Entry*>* ___m_Delegates;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15161 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::EventTrigger, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::EventTrigger, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::EventTrigger, ___m_Delegates) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::EventTrigger, ___m_Delegates) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::EventTrigger);

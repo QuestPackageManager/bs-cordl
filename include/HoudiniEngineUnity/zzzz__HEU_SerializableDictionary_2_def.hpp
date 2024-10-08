@@ -42,7 +42,7 @@ template <typename TKey, typename TValue> class HEU_SerializableDictionary_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::HoudiniEngineUnity::HEU_SerializableDictionary_2);
 // Type: HoudiniEngineUnity::HEU_SerializableDictionary`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // cpp template
 template <typename TKey, typename TValue>
@@ -57,18 +57,18 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) TValue Item[];
 
-  __declspec(property(get = get_Keys))::System::Collections::Generic::ICollection_1<TKey>* Keys;
+  __declspec(property(get = get_Keys)) ::System::Collections::Generic::ICollection_1<TKey>* Keys;
 
-  __declspec(property(get = get_Values))::System::Collections::Generic::ICollection_1<TValue>* Values;
+  __declspec(property(get = get_Values)) ::System::Collections::Generic::ICollection_1<TValue>* Values;
 
   /// @brief Field _dictionary, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__dictionary, put = __cordl_internal_set__dictionary))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
+  __declspec(property(get = __cordl_internal_get__dictionary, put = __cordl_internal_set__dictionary)) ::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
 
   /// @brief Field _keys, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__keys, put = __cordl_internal_set__keys))::ArrayW<TKey, ::Array<TKey>*> _keys;
+  __declspec(property(get = __cordl_internal_get__keys, put = __cordl_internal_set__keys)) ::ArrayW<TKey, ::Array<TKey>*> _keys;
 
   /// @brief Field _values, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values))::ArrayW<TValue, ::Array<TValue>*> _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::ArrayW<TValue, ::Array<TValue>*> _values;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
@@ -204,6 +204,9 @@ public:
 
   /// @brief Field _values, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<TValue, ::Array<TValue>*> ____values;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11799 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

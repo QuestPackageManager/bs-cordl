@@ -22,7 +22,7 @@ struct ifaddrs;
 // Write type traits
 MARK_VAL_T(::System::Net::NetworkInformation::ifaddrs);
 // Type: System.Net.NetworkInformation::ifaddrs
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // CS Name: ::System.Net.NetworkInformation::ifaddrs
@@ -60,6 +60,9 @@ public:
 
   /// @brief Field ifa_data, offset: 0x30, size: 0x8, def value: None
   ::System::IntPtr ifa_data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9757 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

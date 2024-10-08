@@ -22,7 +22,7 @@ struct TMP_LineInfo;
 // Write type traits
 MARK_VAL_T(::TMPro::TMP_LineInfo);
 // Type: TMPro::TMP_LineInfo
-// SizeInfo { instance_size: 92, native_size: 92, calculated_instance_size: 92, calculated_native_size: 108, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 92, native_size: 92, calculated_instance_size: 92, calculated_native_size: 108, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
 // CS Name: ::TMPro::TMP_LineInfo
@@ -107,6 +107,9 @@ public:
 
   /// @brief Field lineExtents, offset: 0x4c, size: 0x10, def value: None
   ::TMPro::Extents lineExtents;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14470 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x5c };

@@ -27,26 +27,26 @@ class UnixIPInterfaceProperties;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixIPInterfaceProperties);
 // Type: System.Net.NetworkInformation::UnixIPInterfaceProperties
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // CS Name: ::System.Net.NetworkInformation::UnixIPInterfaceProperties*
 class CORDL_TYPE UnixIPInterfaceProperties : public ::System::Net::NetworkInformation::IPInterfaceProperties {
 public:
   // Declarations
-  __declspec(property(get = get_UnicastAddresses))::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* UnicastAddresses;
+  __declspec(property(get = get_UnicastAddresses)) ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* UnicastAddresses;
 
   /// @brief Field addresses, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_addresses, put = __cordl_internal_set_addresses))::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses;
+  __declspec(property(get = __cordl_internal_get_addresses, put = __cordl_internal_set_addresses)) ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses;
 
   /// @brief Field iface, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_iface, put = __cordl_internal_set_iface))::System::Net::NetworkInformation::UnixNetworkInterface* iface;
+  __declspec(property(get = __cordl_internal_get_iface, put = __cordl_internal_set_iface)) ::System::Net::NetworkInformation::UnixNetworkInterface* iface;
 
   /// @brief Field ns, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ns, put = setStaticF_ns))::System::Text::RegularExpressions::Regex* ns;
+  static __declspec(property(get = getStaticF_ns, put = setStaticF_ns)) ::System::Text::RegularExpressions::Regex* ns;
 
   /// @brief Field search, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_search, put = setStaticF_search))::System::Text::RegularExpressions::Regex* search;
+  static __declspec(property(get = getStaticF_search, put = setStaticF_search)) ::System::Text::RegularExpressions::Regex* search;
 
   static inline ::System::Net::NetworkInformation::UnixIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::UnixNetworkInterface* iface,
                                                                                        ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
@@ -63,14 +63,14 @@ public:
 
   constexpr void __cordl_internal_set_iface(::System::Net::NetworkInformation::UnixNetworkInterface* value);
 
-  /// @brief Method .ctor, addr 0x304f344, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4373070, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::UnixNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_ns();
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_search();
 
-  /// @brief Method get_UnicastAddresses, addr 0x3053aec, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method get_UnicastAddresses, addr 0x4377750, size 0x268, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* get_UnicastAddresses();
 
   static inline void setStaticF_ns(::System::Text::RegularExpressions::Regex* value);
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field addresses, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* ___addresses;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9776 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

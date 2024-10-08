@@ -32,7 +32,7 @@ template <typename T> class ObjectPool_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::Pool::ObjectPool_1);
 // Type: UnityEngine.Pool::ObjectPool`1
-// SizeInfo { instance_size: 72, native_size: 68, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 68, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
@@ -49,22 +49,22 @@ public:
   __declspec(property(get = __cordl_internal_get__CountAll_k__BackingField, put = __cordl_internal_set__CountAll_k__BackingField)) int32_t _CountAll_k__BackingField;
 
   /// @brief Field m_ActionOnDestroy, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ActionOnDestroy, put = __cordl_internal_set_m_ActionOnDestroy))::System::Action_1<T>* m_ActionOnDestroy;
+  __declspec(property(get = __cordl_internal_get_m_ActionOnDestroy, put = __cordl_internal_set_m_ActionOnDestroy)) ::System::Action_1<T>* m_ActionOnDestroy;
 
   /// @brief Field m_ActionOnGet, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ActionOnGet, put = __cordl_internal_set_m_ActionOnGet))::System::Action_1<T>* m_ActionOnGet;
+  __declspec(property(get = __cordl_internal_get_m_ActionOnGet, put = __cordl_internal_set_m_ActionOnGet)) ::System::Action_1<T>* m_ActionOnGet;
 
   /// @brief Field m_ActionOnRelease, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ActionOnRelease, put = __cordl_internal_set_m_ActionOnRelease))::System::Action_1<T>* m_ActionOnRelease;
+  __declspec(property(get = __cordl_internal_get_m_ActionOnRelease, put = __cordl_internal_set_m_ActionOnRelease)) ::System::Action_1<T>* m_ActionOnRelease;
 
   /// @brief Field m_CollectionCheck, offset 0x3c, size 0x1
   __declspec(property(get = __cordl_internal_get_m_CollectionCheck, put = __cordl_internal_set_m_CollectionCheck)) bool m_CollectionCheck;
 
   /// @brief Field m_CreateFunc, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CreateFunc, put = __cordl_internal_set_m_CreateFunc))::System::Func_1<T>* m_CreateFunc;
+  __declspec(property(get = __cordl_internal_get_m_CreateFunc, put = __cordl_internal_set_m_CreateFunc)) ::System::Func_1<T>* m_CreateFunc;
 
   /// @brief Field m_List, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List))::System::Collections::Generic::List_1<T>* m_List;
+  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List)) ::System::Collections::Generic::List_1<T>* m_List;
 
   /// @brief Field m_MaxSize, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MaxSize, put = __cordl_internal_set_m_MaxSize)) int32_t m_MaxSize;
@@ -197,6 +197,9 @@ public:
 
   /// @brief Field <CountAll>k__BackingField, offset: 0x40, size: 0x4, def value: None
   int32_t ____CountAll_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11117 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

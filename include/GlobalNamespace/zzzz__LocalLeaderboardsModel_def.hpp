@@ -134,7 +134,7 @@ MARK_VAL_T(::GlobalNamespace::__LocalLeaderboardsModel___LoadLeaderboardsDataAsy
 MARK_VAL_T(::GlobalNamespace::__LocalLeaderboardsModel___SaveAsync_d__23);
 MARK_VAL_T(::GlobalNamespace::__LocalLeaderboardsModel___SaveLeaderboardsData_d__19);
 // Type: ::LeaderboardType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::LocalLeaderboardsModel::LeaderboardType
@@ -175,6 +175,9 @@ public:
   /// @brief Field Daily value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType const Daily;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13288 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -187,7 +190,7 @@ static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardT
 
 } // namespace GlobalNamespace
 // Type: ::ScoreData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LocalLeaderboardsModel::ScoreData*
@@ -198,7 +201,7 @@ public:
   __declspec(property(get = __cordl_internal_get__fullCombo, put = __cordl_internal_set__fullCombo)) bool _fullCombo;
 
   /// @brief Field _playerName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerName, put = __cordl_internal_set__playerName))::StringW _playerName;
+  __declspec(property(get = __cordl_internal_get__playerName, put = __cordl_internal_set__playerName)) ::StringW _playerName;
 
   /// @brief Field _score, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__score, put = __cordl_internal_set__score)) int32_t _score;
@@ -232,7 +235,7 @@ public:
 
   constexpr void __cordl_internal_set__timestamp(int64_t value);
 
-  /// @brief Method .ctor, addr 0x14b4be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c2f30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -261,6 +264,9 @@ public:
   /// @brief Field _timestamp, offset: 0x28, size: 0x8, def value: None
   int64_t ____timestamp;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13289 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -276,7 +282,7 @@ static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__ScoreData, _
 
 } // namespace GlobalNamespace
 // Type: ::LeaderboardData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LocalLeaderboardsModel::LeaderboardData*
@@ -284,10 +290,10 @@ class CORDL_TYPE __LocalLeaderboardsModel__LeaderboardData : public ::System::Ob
 public:
   // Declarations
   /// @brief Field _leaderboardId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__leaderboardId, put = __cordl_internal_set__leaderboardId))::StringW _leaderboardId;
+  __declspec(property(get = __cordl_internal_get__leaderboardId, put = __cordl_internal_set__leaderboardId)) ::StringW _leaderboardId;
 
   /// @brief Field _scores, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__scores, put = __cordl_internal_set__scores))::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* _scores;
+  __declspec(property(get = __cordl_internal_get__scores, put = __cordl_internal_set__scores)) ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* _scores;
 
   static inline ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData* New_ctor();
 
@@ -303,7 +309,7 @@ public:
 
   constexpr void __cordl_internal_set__scores(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* value);
 
-  /// @brief Method .ctor, addr 0x14b4be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c2f38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -326,6 +332,9 @@ public:
   /// @brief Field _scores, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* ____scores;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13290 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -337,7 +346,7 @@ static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardD
 
 } // namespace GlobalNamespace
 // Type: ::SavedLeaderboardsData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LocalLeaderboardsModel::SavedLeaderboardsData*
@@ -346,7 +355,7 @@ public:
   // Declarations
   /// @brief Field _leaderboardsData, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__leaderboardsData,
-                      put = __cordl_internal_set__leaderboardsData))::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* _leaderboardsData;
+                      put = __cordl_internal_set__leaderboardsData)) ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* _leaderboardsData;
 
   static inline ::GlobalNamespace::__LocalLeaderboardsModel__SavedLeaderboardsData* New_ctor();
 
@@ -357,7 +366,7 @@ public:
 
   constexpr void __cordl_internal_set__leaderboardsData(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* value);
 
-  /// @brief Method .ctor, addr 0x14b53ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c2f40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -377,6 +386,9 @@ public:
   /// @brief Field _leaderboardsData, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* ____leaderboardsData;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13291 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -385,8 +397,214 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderbo
 static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel__SavedLeaderboardsData, ____leaderboardsData) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
+// Type: ::<>c
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::LocalLeaderboardsModel::<>c*
+class CORDL_TYPE __LocalLeaderboardsModel____c : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__LocalLeaderboardsModel____c* __9;
+
+  /// @brief Field <>9__21_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__21_0, put = setStaticF___9__21_0)) ::System::Comparison_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* __9__21_0;
+
+  /// @brief Field <>9__22_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__22_0, put = setStaticF___9__22_0)) ::System::Func_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*, bool>* __9__22_0;
+
+  /// @brief Field <>9__22_1, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__22_1, put = setStaticF___9__22_1)) ::System::Predicate_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* __9__22_1;
+
+  static inline ::GlobalNamespace::__LocalLeaderboardsModel____c* New_ctor();
+
+  /// @brief Method <AppendLeaderboardScores>b__21_0, addr 0x26c2fac, size 0x24, virtual false, abstract: false, final false
+  inline int32_t _AppendLeaderboardScores_b__21_0(::GlobalNamespace::__LocalLeaderboardsModel__ScoreData* a, ::GlobalNamespace::__LocalLeaderboardsModel__ScoreData* b);
+
+  /// @brief Method <MigrateQuestLeaderboards>b__22_0, addr 0x26c2fd0, size 0x58, virtual false, abstract: false, final false
+  inline bool _MigrateQuestLeaderboards_b__22_0(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData* leaderboardData);
+
+  /// @brief Method <MigrateQuestLeaderboards>b__22_1, addr 0x26c3028, size 0xc, virtual false, abstract: false, final false
+  inline bool _MigrateQuestLeaderboards_b__22_1(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData* leaderboardData);
+
+  /// @brief Method .ctor, addr 0x26c2fa4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::GlobalNamespace::__LocalLeaderboardsModel____c* getStaticF___9();
+
+  static inline ::System::Comparison_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* getStaticF___9__21_0();
+
+  static inline ::System::Func_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*, bool>* getStaticF___9__22_0();
+
+  static inline ::System::Predicate_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* getStaticF___9__22_1();
+
+  static inline void setStaticF___9(::GlobalNamespace::__LocalLeaderboardsModel____c* value);
+
+  static inline void setStaticF___9__21_0(::System::Comparison_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* value);
+
+  static inline void setStaticF___9__22_0(::System::Func_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*, bool>* value);
+
+  static inline void setStaticF___9__22_1(::System::Predicate_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LocalLeaderboardsModel____c();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__LocalLeaderboardsModel____c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __LocalLeaderboardsModel____c(__LocalLeaderboardsModel____c&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__LocalLeaderboardsModel____c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __LocalLeaderboardsModel____c(__LocalLeaderboardsModel____c const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13292 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderboardsModel____c, 0x10>, "Size mismatch!");
+
+} // namespace GlobalNamespace
+// Type: ::<ClearAllLeaderboardsAsync>d__38
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: ::LocalLeaderboardsModel::<ClearAllLeaderboardsAsync>d__38
+struct CORDL_TYPE __LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Method MoveNext, addr 0x26c3034, size 0x430, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x26c3464, size 0x68, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LocalLeaderboardsModel*", modifiers: "",
+  // def_value: None }, CppParam { name: "deleteLeaderboardFile", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None }]
+  constexpr __LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                       ::GlobalNamespace::LocalLeaderboardsModel* __4__this, bool deleteLeaderboardFile,
+                                                                       ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::GlobalNamespace::LocalLeaderboardsModel* __4__this;
+
+  /// @brief Field deleteLeaderboardFile, offset: 0x28, size: 0x1, def value: None
+  bool deleteLeaderboardFile;
+
+  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13293 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38, 0x38>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38, deleteLeaderboardFile) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38, __u__1) == 0x30, "Offset mismatch!");
+
+} // namespace GlobalNamespace
+// Type: ::<LoadAsync>d__39
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: ::LocalLeaderboardsModel::<LoadAsync>d__39
+struct CORDL_TYPE __LocalLeaderboardsModel___LoadAsync_d__39 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Method MoveNext, addr 0x26c34cc, size 0x344, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x26c3810, size 0x68, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LocalLeaderboardsModel___LoadAsync_d__39();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LocalLeaderboardsModel*", modifiers: "",
+  // def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*>", modifiers: "", def_value: None }]
+  constexpr __LocalLeaderboardsModel___LoadAsync_d__39(
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::LocalLeaderboardsModel* __4__this,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*> __u__1) noexcept;
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::GlobalNamespace::LocalLeaderboardsModel* __4__this;
+
+  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*> __u__1;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13294 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderboardsModel___LoadAsync_d__39, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___LoadAsync_d__39, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___LoadAsync_d__39, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___LoadAsync_d__39, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___LoadAsync_d__39, __u__1) == 0x28, "Offset mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::<LoadLeaderboardsDataAsync>d__16
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::LocalLeaderboardsModel::<LoadLeaderboardsDataAsync>d__16
@@ -396,10 +614,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x14b53f4, size 0x204, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c3878, size 0x260, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x14b55f8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c3ad8, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -434,6 +652,9 @@ public:
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__LocalLeaderboardsModel__SavedLeaderboardsData*> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13295 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
@@ -453,8 +674,70 @@ static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___LoadLeaderb
 static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___LoadLeaderboardsDataAsync_d__16, __u__1) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
+// Type: ::<SaveAsync>d__23
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: ::LocalLeaderboardsModel::<SaveAsync>d__23
+struct CORDL_TYPE __LocalLeaderboardsModel___SaveAsync_d__23 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Method MoveNext, addr 0x26c3b54, size 0x2c8, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x26c3e1c, size 0x68, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LocalLeaderboardsModel___SaveAsync_d__23();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LocalLeaderboardsModel*", modifiers: "",
+  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  constexpr __LocalLeaderboardsModel___SaveAsync_d__23(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                       ::GlobalNamespace::LocalLeaderboardsModel* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::GlobalNamespace::LocalLeaderboardsModel* __4__this;
+
+  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13296 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderboardsModel___SaveAsync_d__23, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___SaveAsync_d__23, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___SaveAsync_d__23, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___SaveAsync_d__23, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___SaveAsync_d__23, __u__1) == 0x28, "Offset mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::<SaveLeaderboardsData>d__19
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::LocalLeaderboardsModel::<SaveLeaderboardsData>d__19
@@ -464,10 +747,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x14b5650, size 0x2c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26c3e84, size 0x32c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x14b5918, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26c41b0, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -505,6 +788,9 @@ public:
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13297 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
@@ -526,264 +812,8 @@ static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___SaveLeaderb
 static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___SaveLeaderboardsData_d__19, __u__1) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::LocalLeaderboardsModel::<>c*
-class CORDL_TYPE __LocalLeaderboardsModel____c : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__LocalLeaderboardsModel____c* __9;
-
-  /// @brief Field <>9__21_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__21_0, put = setStaticF___9__21_0))::System::Comparison_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* __9__21_0;
-
-  /// @brief Field <>9__22_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__22_0, put = setStaticF___9__22_0))::System::Func_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*, bool>* __9__22_0;
-
-  /// @brief Field <>9__22_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__22_1, put = setStaticF___9__22_1))::System::Predicate_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* __9__22_1;
-
-  static inline ::GlobalNamespace::__LocalLeaderboardsModel____c* New_ctor();
-
-  /// @brief Method <AppendLeaderboardScores>b__21_0, addr 0x14b5990, size 0x24, virtual false, abstract: false, final false
-  inline int32_t _AppendLeaderboardScores_b__21_0(::GlobalNamespace::__LocalLeaderboardsModel__ScoreData* a, ::GlobalNamespace::__LocalLeaderboardsModel__ScoreData* b);
-
-  /// @brief Method <MigrateQuestLeaderboards>b__22_0, addr 0x14b59b4, size 0x58, virtual false, abstract: false, final false
-  inline bool _MigrateQuestLeaderboards_b__22_0(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData* leaderboardData);
-
-  /// @brief Method <MigrateQuestLeaderboards>b__22_1, addr 0x14b5a0c, size 0xc, virtual false, abstract: false, final false
-  inline bool _MigrateQuestLeaderboards_b__22_1(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData* leaderboardData);
-
-  /// @brief Method .ctor, addr 0x14b5988, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::GlobalNamespace::__LocalLeaderboardsModel____c* getStaticF___9();
-
-  static inline ::System::Comparison_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* getStaticF___9__21_0();
-
-  static inline ::System::Func_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*, bool>* getStaticF___9__22_0();
-
-  static inline ::System::Predicate_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* getStaticF___9__22_1();
-
-  static inline void setStaticF___9(::GlobalNamespace::__LocalLeaderboardsModel____c* value);
-
-  static inline void setStaticF___9__21_0(::System::Comparison_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* value);
-
-  static inline void setStaticF___9__22_0(::System::Func_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*, bool>* value);
-
-  static inline void setStaticF___9__22_1(::System::Predicate_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* value);
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LocalLeaderboardsModel____c();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LocalLeaderboardsModel____c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __LocalLeaderboardsModel____c(__LocalLeaderboardsModel____c&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__LocalLeaderboardsModel____c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __LocalLeaderboardsModel____c(__LocalLeaderboardsModel____c const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderboardsModel____c, 0x10>, "Size mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<SaveAsync>d__23
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: true
-// CS Name: ::LocalLeaderboardsModel::<SaveAsync>d__23
-struct CORDL_TYPE __LocalLeaderboardsModel___SaveAsync_d__23 {
-public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
-
-  /// @brief Method MoveNext, addr 0x14b5a18, size 0x25c, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x14b5c74, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LocalLeaderboardsModel___SaveAsync_d__23();
-
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LocalLeaderboardsModel*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __LocalLeaderboardsModel___SaveAsync_d__23(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                       ::GlobalNamespace::LocalLeaderboardsModel* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
-
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
-
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
-
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::LocalLeaderboardsModel* __4__this;
-
-  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderboardsModel___SaveAsync_d__23, 0x30>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___SaveAsync_d__23, __1__state) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___SaveAsync_d__23, __t__builder) == 0x8, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___SaveAsync_d__23, __4__this) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___SaveAsync_d__23, __u__1) == 0x28, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<ClearAllLeaderboardsAsync>d__38
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: true
-// CS Name: ::LocalLeaderboardsModel::<ClearAllLeaderboardsAsync>d__38
-struct CORDL_TYPE __LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38 {
-public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
-
-  /// @brief Method MoveNext, addr 0x14b5c80, size 0x3c4, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x14b6044, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38();
-
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LocalLeaderboardsModel*", modifiers: "",
-  // def_value: None }, CppParam { name: "deleteLeaderboardFile", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
-  // modifiers: "", def_value: None }]
-  constexpr __LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                                       ::GlobalNamespace::LocalLeaderboardsModel* __4__this, bool deleteLeaderboardFile,
-                                                                       ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
-
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
-
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
-
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::LocalLeaderboardsModel* __4__this;
-
-  /// @brief Field deleteLeaderboardFile, offset: 0x28, size: 0x1, def value: None
-  bool deleteLeaderboardFile;
-
-  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38, 0x38>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38, __1__state) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38, __t__builder) == 0x8, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38, __4__this) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38, deleteLeaderboardFile) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___ClearAllLeaderboardsAsync_d__38, __u__1) == 0x30, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<LoadAsync>d__39
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: true
-// CS Name: ::LocalLeaderboardsModel::<LoadAsync>d__39
-struct CORDL_TYPE __LocalLeaderboardsModel___LoadAsync_d__39 {
-public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
-
-  /// @brief Method MoveNext, addr 0x14b6050, size 0x2cc, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x14b631c, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LocalLeaderboardsModel___LoadAsync_d__39();
-
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LocalLeaderboardsModel*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*>", modifiers: "", def_value: None }]
-  constexpr __LocalLeaderboardsModel___LoadAsync_d__39(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::LocalLeaderboardsModel* __4__this,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*> __u__1) noexcept;
-
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
-
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
-
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::LocalLeaderboardsModel* __4__this;
-
-  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*> __u__1;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalLeaderboardsModel___LoadAsync_d__39, 0x30>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___LoadAsync_d__39, __1__state) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___LoadAsync_d__39, __t__builder) == 0x8, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___LoadAsync_d__39, __4__this) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LocalLeaderboardsModel___LoadAsync_d__39, __u__1) == 0x28, "Offset mismatch!");
-
-} // namespace GlobalNamespace
 // Type: ::LocalLeaderboardsModel
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LocalLeaderboardsModel*
@@ -812,22 +842,22 @@ public:
 
   /// @brief Field _dailyLeaderboardsData, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__dailyLeaderboardsData,
-                      put = __cordl_internal_set__dailyLeaderboardsData))::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* _dailyLeaderboardsData;
+                      put = __cordl_internal_set__dailyLeaderboardsData)) ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* _dailyLeaderboardsData;
 
   /// @brief Field _fileStorage, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__fileStorage, put = __cordl_internal_set__fileStorage))::GlobalNamespace::IFileStorage* _fileStorage;
+  __declspec(property(get = __cordl_internal_get__fileStorage, put = __cordl_internal_set__fileStorage)) ::GlobalNamespace::IFileStorage* _fileStorage;
 
   /// @brief Field _lastScoreLeaderboardId, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__lastScoreLeaderboardId, put = __cordl_internal_set__lastScoreLeaderboardId))::StringW _lastScoreLeaderboardId;
+  __declspec(property(get = __cordl_internal_get__lastScoreLeaderboardId, put = __cordl_internal_set__lastScoreLeaderboardId)) ::StringW _lastScoreLeaderboardId;
 
   /// @brief Field _lastScorePositions, offset 0x28, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__lastScorePositions,
-               put = __cordl_internal_set__lastScorePositions))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType, int32_t>* _lastScorePositions;
+  __declspec(property(
+      get = __cordl_internal_get__lastScorePositions,
+      put = __cordl_internal_set__lastScorePositions)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType, int32_t>* _lastScorePositions;
 
   /// @brief Field _leaderboardsData, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__leaderboardsData,
-                      put = __cordl_internal_set__leaderboardsData))::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* _leaderboardsData;
+                      put = __cordl_internal_set__leaderboardsData)) ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* _leaderboardsData;
 
   /// @brief Field _maxNumberOfScoresInLeaderboard, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__maxNumberOfScoresInLeaderboard, put = __cordl_internal_set__maxNumberOfScoresInLeaderboard)) int32_t _maxNumberOfScoresInLeaderboard;
@@ -835,91 +865,91 @@ public:
   /// @brief Field newScoreWasAddedToLeaderboardEvent, offset 0x10, size 0x8
   __declspec(property(
       get = __cordl_internal_get_newScoreWasAddedToLeaderboardEvent,
-      put = __cordl_internal_set_newScoreWasAddedToLeaderboardEvent))::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* newScoreWasAddedToLeaderboardEvent;
+      put = __cordl_internal_set_newScoreWasAddedToLeaderboardEvent)) ::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* newScoreWasAddedToLeaderboardEvent;
 
-  /// @brief Method AddScore, addr 0x14b48cc, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method AddScore, addr 0x26c2438, size 0x308, virtual false, abstract: false, final false
   inline void AddScore(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType, ::StringW playerName, int32_t score, bool fullCombo);
 
-  /// @brief Method AddScore, addr 0x14b4f38, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AddScore, addr 0x26c2a88, size 0x5c, virtual false, abstract: false, final false
   inline void AddScore(::StringW leaderboardId, ::StringW playerName, int32_t score, bool fullCombo);
 
-  /// @brief Method AppendLeaderboardScores, addr 0x14b3f78, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AppendLeaderboardScores, addr 0x26c1acc, size 0x17c, virtual false, abstract: false, final false
   static inline void AppendLeaderboardScores(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* main,
                                              ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* tail, int32_t maxNumberOfScores);
 
-  /// @brief Method ClearAllLeaderboardsAsync, addr 0x14b5120, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ClearAllLeaderboardsAsync, addr 0x26c2c70, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ClearAllLeaderboardsAsync(bool deleteLeaderboardFile);
 
-  /// @brief Method ClearLastScorePosition, addr 0x14b4ee0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearLastScorePosition, addr 0x26c2a30, size 0x58, virtual false, abstract: false, final false
   inline void ClearLastScorePosition();
 
-  /// @brief Method ClearLeaderboard, addr 0x14b4fe4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ClearLeaderboard, addr 0x26c2b34, size 0x13c, virtual false, abstract: false, final false
   inline void ClearLeaderboard(::StringW leaderboardId);
 
-  /// @brief Method GetCurrentTimestamp, addr 0x14b4610, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentTimestamp, addr 0x26c2154, size 0xf4, virtual false, abstract: false, final false
   inline int64_t GetCurrentTimestamp();
 
-  /// @brief Method GetHighScore, addr 0x14b4cd0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetHighScore, addr 0x26c2820, size 0xa4, virtual false, abstract: false, final false
   inline int32_t GetHighScore(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method GetLastScorePosition, addr 0x14b4e48, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetLastScorePosition, addr 0x26c2998, size 0x98, virtual false, abstract: false, final false
   inline int32_t GetLastScorePosition(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method GetLeaderboardData, addr 0x14b453c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetLeaderboardData, addr 0x26c2080, size 0xd4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData* GetLeaderboardData(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method GetLeaderboardsData, addr 0x14b4514, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetLeaderboardsData, addr 0x26c2058, size 0x28, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*
   GetLeaderboardsData(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method GetPositionInLeaderboard, addr 0x14b4d74, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetPositionInLeaderboard, addr 0x26c28c4, size 0xd4, virtual false, abstract: false, final false
   inline int32_t GetPositionInLeaderboard(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType, int32_t score);
 
-  /// @brief Method GetScores, addr 0x14b4cb8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetScores, addr 0x26c2808, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* GetScores(::StringW leaderboardId,
                                                                                                                     ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method Load, addr 0x14b52c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x26c2e08, size 0x80, virtual false, abstract: false, final false
   inline void Load();
 
-  /// @brief Method LoadAsync, addr 0x14b51fc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x26c2d48, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadAsync();
 
-  /// @brief Method LoadInternal, addr 0x14b5344, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LoadInternal, addr 0x26c2e88, size 0xa8, virtual false, abstract: false, final false
   inline void LoadInternal();
 
-  /// @brief Method LoadLeaderboardsData, addr 0x14b3d00, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LoadLeaderboardsData, addr 0x26c1864, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* LoadLeaderboardsData(::StringW filename);
 
-  /// @brief Method LoadLeaderboardsDataAsync, addr 0x14b3c04, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LoadLeaderboardsDataAsync, addr 0x26c1778, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*>* LoadLeaderboardsDataAsync(::StringW filename);
 
-  /// @brief Method LoadLeaderboardsDataInternal, addr 0x14b3d60, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method LoadLeaderboardsDataInternal, addr 0x26c18c4, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*
   LoadLeaderboardsDataInternal(::GlobalNamespace::__LocalLeaderboardsModel__SavedLeaderboardsData* savedLeaderboardsData);
 
-  /// @brief Method MigrateQuestLeaderboards, addr 0x14b40ec, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method MigrateQuestLeaderboards, addr 0x26c1c48, size 0x350, virtual false, abstract: false, final false
   static inline void MigrateQuestLeaderboards(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* leaderboardDataList, int32_t maxNumberOfScores);
 
   static inline ::GlobalNamespace::LocalLeaderboardsModel* New_ctor(::GlobalNamespace::IFileStorage* fileStorage, ::GlobalNamespace::LocalLeaderboardsSettingsSO* localLeaderboardsSettingsSo);
 
-  /// @brief Method SaveAsync, addr 0x14b444c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x26c1f98, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync();
 
-  /// @brief Method SaveLeaderboardsData, addr 0x14b3de0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SaveLeaderboardsData, addr 0x26c193c, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveLeaderboardsData(::StringW filename,
                                                                 ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* leaderboardsData);
 
-  /// @brief Method SaveLeaderboardsDataAsync, addr 0x14b3ebc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SaveLeaderboardsDataAsync, addr 0x26c1a10, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveLeaderboardsDataAsync(::StringW filename, ::StringW json);
 
-  /// @brief Method UpdateDailyLeaderboard, addr 0x14b46dc, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method UpdateDailyLeaderboard, addr 0x26c2248, size 0x1f0, virtual false, abstract: false, final false
   inline void UpdateDailyLeaderboard(::StringW leaderboardId);
 
-  /// @brief Method WillScoreGoIntoLeaderboard, addr 0x14b4bf0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method WillScoreGoIntoLeaderboard, addr 0x26c2740, size 0xc8, virtual false, abstract: false, final false
   inline bool WillScoreGoIntoLeaderboard(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType, int32_t score);
 
-  /// @brief Method WillScoreGoIntoLeaderboard, addr 0x14b4f94, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WillScoreGoIntoLeaderboard, addr 0x26c2ae4, size 0x50, virtual false, abstract: false, final false
   inline bool WillScoreGoIntoLeaderboard(::StringW leaderboardId, int32_t score);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*& __cordl_internal_get__dailyLeaderboardsData();
@@ -968,13 +998,13 @@ public:
 
   constexpr void __cordl_internal_set_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* value);
 
-  /// @brief Method .ctor, addr 0x14b3b64, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c16d4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IFileStorage* fileStorage, ::GlobalNamespace::LocalLeaderboardsSettingsSO* localLeaderboardsSettingsSo);
 
-  /// @brief Method add_newScoreWasAddedToLeaderboardEvent, addr 0x14b3a04, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_newScoreWasAddedToLeaderboardEvent, addr 0x26c1574, size 0xb0, virtual false, abstract: false, final false
   inline void add_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* value);
 
-  /// @brief Method remove_newScoreWasAddedToLeaderboardEvent, addr 0x14b3ab4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_newScoreWasAddedToLeaderboardEvent, addr 0x26c1624, size 0xb0, virtual false, abstract: false, final false
   inline void remove_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* value);
 
 protected:
@@ -1011,6 +1041,9 @@ public:
 
   /// @brief Field _dailyLeaderboardsData, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* ____dailyLeaderboardsData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13298 };
 
   /// @brief Field kLocalDailyLeaderboardsFileName offset 0xffffffff size 0x8
   static constexpr ::ConstString kLocalDailyLeaderboardsFileName{ u"LocalDailyLeaderboards.dat" };

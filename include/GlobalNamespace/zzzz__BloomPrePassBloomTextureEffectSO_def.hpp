@@ -26,7 +26,7 @@ class BloomPrePassBloomTextureEffectSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBloomTextureEffectSO);
 // Type: ::BloomPrePassBloomTextureEffectSO
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BloomPrePassBloomTextureEffectSO*
@@ -34,22 +34,22 @@ class CORDL_TYPE BloomPrePassBloomTextureEffectSO : public ::GlobalNamespace::Bl
 public:
   // Declarations
   /// @brief Field _bloomFog, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomFog, put = __cordl_internal_set__bloomFog))::UnityW<::GlobalNamespace::BloomFogSO> _bloomFog;
+  __declspec(property(get = __cordl_internal_get__bloomFog, put = __cordl_internal_set__bloomFog)) ::UnityW<::GlobalNamespace::BloomFogSO> _bloomFog;
 
   /// @brief Field _bloomRenderer, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomRenderer, put = __cordl_internal_set__bloomRenderer))::UnityW<::GlobalNamespace::PyramidBloomRendererSO> _bloomRenderer;
+  __declspec(property(get = __cordl_internal_get__bloomRenderer, put = __cordl_internal_set__bloomRenderer)) ::UnityW<::GlobalNamespace::PyramidBloomRendererSO> _bloomRenderer;
 
   /// @brief Field _downBloomIntensityOffset, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__downBloomIntensityOffset, put = __cordl_internal_set__downBloomIntensityOffset)) float_t _downBloomIntensityOffset;
 
   /// @brief Field _downsamplePass, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get__downsamplePass, put = __cordl_internal_set__downsamplePass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _downsamplePass;
+  __declspec(property(get = __cordl_internal_get__downsamplePass, put = __cordl_internal_set__downsamplePass)) ::GlobalNamespace::__PyramidBloomRendererSO__Pass _downsamplePass;
 
   /// @brief Field _finalUpsampleBrightness, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__finalUpsampleBrightness, put = __cordl_internal_set__finalUpsampleBrightness)) float_t _finalUpsampleBrightness;
 
   /// @brief Field _finalUpsamplePass, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get__finalUpsamplePass, put = __cordl_internal_set__finalUpsamplePass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _finalUpsamplePass;
+  __declspec(property(get = __cordl_internal_get__finalUpsamplePass, put = __cordl_internal_set__finalUpsamplePass)) ::GlobalNamespace::__PyramidBloomRendererSO__Pass _finalUpsamplePass;
 
   /// @brief Field _firstUpsampleBrightness, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__firstUpsampleBrightness, put = __cordl_internal_set__firstUpsampleBrightness)) float_t _firstUpsampleBrightness;
@@ -58,7 +58,7 @@ public:
   __declspec(property(get = __cordl_internal_get__intensity, put = __cordl_internal_set__intensity)) float_t _intensity;
 
   /// @brief Field _prefilterPass, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__prefilterPass, put = __cordl_internal_set__prefilterPass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _prefilterPass;
+  __declspec(property(get = __cordl_internal_get__prefilterPass, put = __cordl_internal_set__prefilterPass)) ::GlobalNamespace::__PyramidBloomRendererSO__Pass _prefilterPass;
 
   /// @brief Field _pyramidWeightsParam, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__pyramidWeightsParam, put = __cordl_internal_set__pyramidWeightsParam)) float_t _pyramidWeightsParam;
@@ -70,13 +70,13 @@ public:
   __declspec(property(get = __cordl_internal_get__uniformPyramidWeights, put = __cordl_internal_set__uniformPyramidWeights)) bool _uniformPyramidWeights;
 
   /// @brief Field _upsamplePass, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__upsamplePass, put = __cordl_internal_set__upsamplePass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _upsamplePass;
+  __declspec(property(get = __cordl_internal_get__upsamplePass, put = __cordl_internal_set__upsamplePass)) ::GlobalNamespace::__PyramidBloomRendererSO__Pass _upsamplePass;
 
-  __declspec(property(get = get_toneMapping))::GlobalNamespace::ToneMapping toneMapping;
+  __declspec(property(get = get_toneMapping)) ::GlobalNamespace::ToneMapping toneMapping;
 
   static inline ::GlobalNamespace::BloomPrePassBloomTextureEffectSO* New_ctor();
 
-  /// @brief Method Render, addr 0x2c0d680, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x400f93c, size 0x6c, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
@@ -157,10 +157,10 @@ public:
 
   constexpr void __cordl_internal_set__upsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
 
-  /// @brief Method .ctor, addr 0x2c0d6ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400f9a8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_toneMapping, addr 0x2c0d660, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_toneMapping, addr 0x400f91c, size 0x20, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();
 
 protected:
@@ -215,6 +215,9 @@ public:
 
   /// @brief Field _bloomFog, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17829 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

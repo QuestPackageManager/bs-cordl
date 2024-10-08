@@ -27,30 +27,30 @@ class Challenge;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::Challenge);
 // Type: Org.BouncyCastle.Asn1.Cmp::Challenge
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::Challenge*
 class CORDL_TYPE Challenge : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_Owf))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Owf;
+  __declspec(property(get = get_Owf)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Owf;
 
   /// @brief Field challenge, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_challenge, put = __cordl_internal_set_challenge))::Org::BouncyCastle::Asn1::Asn1OctetString* challenge;
+  __declspec(property(get = __cordl_internal_get_challenge, put = __cordl_internal_set_challenge)) ::Org::BouncyCastle::Asn1::Asn1OctetString* challenge;
 
   /// @brief Field owf, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_owf, put = __cordl_internal_set_owf))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf;
+  __declspec(property(get = __cordl_internal_get_owf, put = __cordl_internal_set_owf)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf;
 
   /// @brief Field witness, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_witness, put = __cordl_internal_set_witness))::Org::BouncyCastle::Asn1::Asn1OctetString* witness;
+  __declspec(property(get = __cordl_internal_get_witness, put = __cordl_internal_set_witness)) ::Org::BouncyCastle::Asn1::Asn1OctetString* witness;
 
-  /// @brief Method GetInstance, addr 0x10d74f8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22b502c, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::Challenge* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::Challenge* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10d7688, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22b51b0, size 0x17c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_challenge();
@@ -71,10 +71,10 @@ public:
 
   constexpr void __cordl_internal_set_witness(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x10d7444, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b4f78, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Owf, addr 0x10d7680, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Owf, addr 0x22b51a8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Owf();
 
 protected:
@@ -99,6 +99,9 @@ public:
 
   /// @brief Field challenge, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1OctetString* ___challenge;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

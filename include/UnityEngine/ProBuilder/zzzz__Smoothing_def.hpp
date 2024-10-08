@@ -46,7 +46,7 @@ class __Smoothing____c;
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Smoothing);
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::__Smoothing____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::Smoothing::<>c*
@@ -54,23 +54,23 @@ class CORDL_TYPE __Smoothing____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::ProBuilder::__Smoothing____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::ProBuilder::__Smoothing____c* __9;
 
   /// @brief Field <>9__5_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0))::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>* __9__5_0;
+  static __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0)) ::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>* __9__5_0;
 
   /// @brief Field <>9__9_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__9_0, put = setStaticF___9__9_0))::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>* __9__9_0;
+  static __declspec(property(get = getStaticF___9__9_0, put = setStaticF___9__9_0)) ::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>* __9__9_0;
 
   static inline ::UnityEngine::ProBuilder::__Smoothing____c* New_ctor();
 
-  /// @brief Method <ApplySmoothingGroups>b__9_0, addr 0x32e9cf8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ApplySmoothingGroups>b__9_0, addr 0x46c916c, size 0x18, virtual false, abstract: false, final false
   inline int32_t _ApplySmoothingGroups_b__9_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <GetUnusedSmoothingGroup>b__5_0, addr 0x32e9ce0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetUnusedSmoothingGroup>b__5_0, addr 0x46c9154, size 0x18, virtual false, abstract: false, final false
   inline int32_t _GetUnusedSmoothingGroup_b__5_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x32e9cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46c914c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::__Smoothing____c* getStaticF___9();
@@ -99,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Smoothing____c(__Smoothing____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14275 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -106,7 +109,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__Smoot
 
 } // namespace UnityEngine::ProBuilder
 // Type: UnityEngine.ProBuilder::Smoothing
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::Smoothing*
@@ -115,28 +118,28 @@ public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::__Smoothing____c;
 
-  /// @brief Method ApplySmoothingGroups, addr 0x32e8d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ApplySmoothingGroups, addr 0x46c819c, size 0x8, virtual false, abstract: false, final false
   static inline void ApplySmoothingGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces,
                                           float_t angleThreshold);
 
-  /// @brief Method ApplySmoothingGroups, addr 0x32e8d64, size 0x81c, virtual false, abstract: false, final false
+  /// @brief Method ApplySmoothingGroups, addr 0x46c81a4, size 0x858, virtual false, abstract: false, final false
   static inline void ApplySmoothingGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces,
                                           float_t angleThreshold, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals);
 
-  /// @brief Method FindSoftEdgesRecursive, addr 0x32e9580, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method FindSoftEdgesRecursive, addr 0x46c89fc, size 0x2dc, virtual false, abstract: false, final false
   static inline bool FindSoftEdgesRecursive(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals, ::UnityEngine::ProBuilder::WingedEdge* wing, float_t angleThreshold,
                                             ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* processed);
 
-  /// @brief Method GetNextUnusedSmoothingGroup, addr 0x32e8c94, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetNextUnusedSmoothingGroup, addr 0x46c80cc, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t GetNextUnusedSmoothingGroup(int32_t start, ::System::Collections::Generic::HashSet_1<int32_t>* used);
 
-  /// @brief Method GetUnusedSmoothingGroup, addr 0x32e8ab8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetUnusedSmoothingGroup, addr 0x46c7ef4, size 0x1d8, virtual false, abstract: false, final false
   static inline int32_t GetUnusedSmoothingGroup(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method IsSmooth, addr 0x32e8d3c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsSmooth, addr 0x46c817c, size 0x20, virtual false, abstract: false, final false
   static inline bool IsSmooth(int32_t index);
 
-  /// @brief Method IsSoftEdge, addr 0x32e9850, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method IsSoftEdge, addr 0x46c8cd8, size 0x418, virtual false, abstract: false, final false
   static inline bool IsSoftEdge(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals, ::UnityEngine::ProBuilder::EdgeLookup left, ::UnityEngine::ProBuilder::EdgeLookup right,
                                 float_t threshold);
 
@@ -153,6 +156,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Smoothing", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Smoothing(Smoothing const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14276 };
 
   /// @brief Field hardRangeMax offset 0xffffffff size 0x4
   static constexpr int32_t hardRangeMax{ static_cast<int32_t>(0x2a) };

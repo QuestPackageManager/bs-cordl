@@ -49,7 +49,7 @@ struct GameplayServerConfiguration;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::GameplayServerConfiguration);
 // Type: ::GameplayServerConfiguration
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::GameplayServerConfiguration
@@ -62,31 +62,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>*();
 
-  /// @brief Method CreateFromSerializedData, addr 0x10ad144, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method CreateFromSerializedData, addr 0x228b1dc, size 0x34, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GameplayServerConfiguration CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Deserialize, addr 0x10ad178, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x228b210, size 0x98, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayServerConfiguration Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x10acfa4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x228b03c, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x10acfa0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x228b038, size 0x4, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::GameplayServerConfiguration other);
 
-  /// @brief Method Equals, addr 0x10acf34, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x228afcc, size 0x6c, virtual false, abstract: false, final false
   inline bool Equals(ByRef<::GlobalNamespace::GameplayServerConfiguration> other);
 
-  /// @brief Method GetHashCode, addr 0x10ad06c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x228b104, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Serialize, addr 0x10ad0c8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x228b160, size 0x7c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method WithMaxPlayerCount, addr 0x10ad210, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithMaxPlayerCount, addr 0x228b2a8, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayServerConfiguration WithMaxPlayerCount(int32_t maxPlayerCount);
 
-  /// @brief Method .ctor, addr 0x10aa0a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228814c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxPlayerCount, ::GlobalNamespace::DiscoveryPolicy discoveryPolicy, ::GlobalNamespace::InvitePolicy invitePolicy, ::GlobalNamespace::GameplayServerMode gameplayServerMode,
                     ::GlobalNamespace::SongSelectionMode songSelectionMode, ::GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings);
 
@@ -97,10 +97,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::GameplayServerConfiguration>* i___System__IEquatable_1___GlobalNamespace__GameplayServerConfiguration_();
 
-  /// @brief Method op_Equality, addr 0x10ad0ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x228b144, size 0x4, virtual false, abstract: false, final false
   static inline bool op_Equality(ByRef<::GlobalNamespace::GameplayServerConfiguration> a, ByRef<::GlobalNamespace::GameplayServerConfiguration> b);
 
-  /// @brief Method op_Inequality, addr 0x10ad0b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x228b148, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(ByRef<::GlobalNamespace::GameplayServerConfiguration> a, ByRef<::GlobalNamespace::GameplayServerConfiguration> b);
 
   // Ctor Parameters []
@@ -132,6 +132,9 @@ public:
 
   /// @brief Field gameplayServerControlSettings, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14720 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

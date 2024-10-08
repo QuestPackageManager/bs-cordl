@@ -40,6 +40,7 @@ module;
 #include "BeatSaber/AvatarCore/OptionalAvatarDataPacket.hpp"
 #include "BeatSaber/AvatarCore/OptionalAvatarDataSender.hpp"
 #include "BeatSaber/AvatarCore/OptionalAvatarDataSyncHandler.hpp"
+#include "BeatSaber/AvatarCore/StaticAvatarVisualDataProvider.hpp"
 #ifdef __cpp_modules
 export module AvatarCore;
 #endif

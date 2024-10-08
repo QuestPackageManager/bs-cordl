@@ -28,7 +28,7 @@ class TargetInformation;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::TargetInformation);
 // Type: Org.BouncyCastle.Asn1.X509::TargetInformation
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::TargetInformation*
@@ -36,12 +36,12 @@ class CORDL_TYPE TargetInformation : public ::Org::BouncyCastle::Asn1::Asn1Encod
 public:
   // Declarations
   /// @brief Field targets, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_targets, put = __cordl_internal_set_targets))::Org::BouncyCastle::Asn1::Asn1Sequence* targets;
+  __declspec(property(get = __cordl_internal_get_targets, put = __cordl_internal_set_targets)) ::Org::BouncyCastle::Asn1::Asn1Sequence* targets;
 
-  /// @brief Method GetInstance, addr 0x140a200, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25d0230, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetTargetsObjects, addr 0x140a3b4, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetTargetsObjects, addr 0x25d03d8, size 0x110, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::Targets*, ::Array<::Org::BouncyCastle::Asn1::X509::Targets*>*> GetTargetsObjects();
 
   static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*, ::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> targets);
@@ -50,7 +50,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::Org::BouncyCastle::Asn1::X509::Targets* targets);
 
-  /// @brief Method ToAsn1Object, addr 0x140a7b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25d07b8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_targets();
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set_targets(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x140a6cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d06dc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*, ::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> targets);
 
-  /// @brief Method .ctor, addr 0x140a38c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d03b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* targets);
 
-  /// @brief Method .ctor, addr 0x140a650, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d0668, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::Targets* targets);
 
 protected:
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field targets, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___targets;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 387 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

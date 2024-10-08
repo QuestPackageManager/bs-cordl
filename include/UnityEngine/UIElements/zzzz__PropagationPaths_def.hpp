@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PropagationPaths)
 namespace System::Collections::Generic {
@@ -20,109 +19,95 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct __PropagationPaths__Type;
+class __PropagationPaths____c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-struct __PropagationPaths__Type;
-}
-namespace UnityEngine::UIElements {
 class PropagationPaths;
 }
-// Write type traits
-MARK_VAL_T(::UnityEngine::UIElements::__PropagationPaths__Type);
-MARK_REF_PTR_T(::UnityEngine::UIElements::PropagationPaths);
-// Type: ::Type
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
-// Is value type: true
-// CS Name: ::PropagationPaths::Type
-struct CORDL_TYPE __PropagationPaths__Type {
+class __PropagationPaths____c;
+}
+// Write type traits
+MARK_REF_PTR_T(::UnityEngine::UIElements::PropagationPaths);
+MARK_REF_PTR_T(::UnityEngine::UIElements::__PropagationPaths____c);
+// Type: ::<>c
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: ::PropagationPaths::<>c*
+class CORDL_TYPE __PropagationPaths____c : public ::System::Object {
 public:
   // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__PropagationPaths____c* __9;
 
-  /// @brief Nested struct ____PropagationPaths__Type_Unwrapped
-  enum struct ____PropagationPaths__Type_Unwrapped : int32_t {
-    __E_None = static_cast<int32_t>(0x0),
-    __E_TrickleDown = static_cast<int32_t>(0x1),
-    __E_BubbleUp = static_cast<int32_t>(0x2),
-  };
+  static inline ::UnityEngine::UIElements::__PropagationPaths____c* New_ctor();
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____PropagationPaths__Type_Unwrapped() const noexcept {
-    return static_cast<____PropagationPaths__Type_Unwrapped>(this->value__);
-  }
+  /// @brief Method <.cctor>b__12_0, addr 0x49b9340, size 0x50, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::PropagationPaths* __cctor_b__12_0();
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+  /// @brief Method .ctor, addr 0x49b9338, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
+  static inline ::UnityEngine::UIElements::__PropagationPaths____c* getStaticF___9();
+
+  static inline void setStaticF___9(::UnityEngine::UIElements::__PropagationPaths____c* value);
+
+protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PropagationPaths__Type();
+  constexpr __PropagationPaths____c();
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PropagationPaths__Type(int32_t value__) noexcept;
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__PropagationPaths____c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __PropagationPaths____c(__PropagationPaths____c&&) = delete;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  // Ctor Parameters [CppParam { name: "", ty: "__PropagationPaths____c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __PropagationPaths____c(__PropagationPaths____c const&) = delete;
 
-  /// @brief Field BubbleUp value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::UIElements::__PropagationPaths__Type const BubbleUp;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5896 };
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UIElements::__PropagationPaths__Type const None;
-
-  /// @brief Field TrickleDown value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::UIElements::__PropagationPaths__Type const TrickleDown;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__PropagationPaths__Type, 0x4>, "Size mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::__PropagationPaths__Type, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__PropagationPaths____c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::PropagationPaths
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::PropagationPaths*
 class CORDL_TYPE PropagationPaths : public ::System::Object {
 public:
   // Declarations
-  using Type = ::UnityEngine::UIElements::__PropagationPaths__Type;
+  using __c = ::UnityEngine::UIElements::__PropagationPaths____c;
 
   /// @brief Field bubbleUpPath, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_bubbleUpPath, put = __cordl_internal_set_bubbleUpPath))::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* bubbleUpPath;
+  __declspec(property(get = __cordl_internal_get_bubbleUpPath,
+                      put = __cordl_internal_set_bubbleUpPath)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* bubbleUpPath;
 
   /// @brief Field s_Pool, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Pool, put = setStaticF_s_Pool))::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>* s_Pool;
+  static __declspec(property(get = getStaticF_s_Pool, put = setStaticF_s_Pool)) ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>* s_Pool;
 
   /// @brief Field targetElements, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_targetElements,
-                      put = __cordl_internal_set_targetElements))::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* targetElements;
+                      put = __cordl_internal_set_targetElements)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* targetElements;
 
   /// @brief Field trickleDownPath, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_trickleDownPath,
-                      put = __cordl_internal_set_trickleDownPath))::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* trickleDownPath;
+                      put = __cordl_internal_set_trickleDownPath)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* trickleDownPath;
 
-  /// @brief Method Build, addr 0x35e2ae0, size 0x29c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::PropagationPaths* Build(::UnityEngine::UIElements::VisualElement* elem, ::UnityEngine::UIElements::EventBase* evt,
-                                                                   ::UnityEngine::UIElements::__PropagationPaths__Type pathTypesRequested);
-
-  /// @brief Method Copy, addr 0x35e2a00, size 0xe0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::PropagationPaths* Copy(::UnityEngine::UIElements::PropagationPaths* paths);
+  /// @brief Method Build, addr 0x49a7d94, size 0x2a4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::PropagationPaths* Build(::UnityEngine::UIElements::VisualElement* elem, ::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::PropagationPaths* New_ctor();
 
-  /// @brief Method Release, addr 0x35e2dd8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x49ac060, size 0x110, virtual false, abstract: false, final false
   inline void Release();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_bubbleUpPath();
@@ -143,7 +128,7 @@ public:
 
   constexpr void __cordl_internal_set_trickleDownPath(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x35e2934, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b9110, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>* getStaticF_s_Pool();
@@ -173,6 +158,9 @@ public:
   /// @brief Field bubbleUpPath, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* ___bubbleUpPath;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5897 };
+
   /// @brief Field k_DefaultPropagationDepth offset 0xffffffff size 0x4
   static constexpr int32_t k_DefaultPropagationDepth{ static_cast<int32_t>(0x10) };
 
@@ -191,6 +179,7 @@ static_assert(offsetof(::UnityEngine::UIElements::PropagationPaths, ___targetEle
 static_assert(offsetof(::UnityEngine::UIElements::PropagationPaths, ___bubbleUpPath) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__PropagationPaths__Type, "UnityEngine.UIElements", "PropagationPaths/Type");
 NEED_NO_BOX(::UnityEngine::UIElements::PropagationPaths);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PropagationPaths*, "UnityEngine.UIElements", "PropagationPaths");
+NEED_NO_BOX(::UnityEngine::UIElements::__PropagationPaths____c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__PropagationPaths____c*, "UnityEngine.UIElements", "PropagationPaths/<>c");

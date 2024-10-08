@@ -16,25 +16,25 @@ class MaterialPropertyBlockFloatCurve;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockFloatCurve);
 // Type: ::MaterialPropertyBlockFloatCurve
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MaterialPropertyBlockFloatCurve*
 class CORDL_TYPE MaterialPropertyBlockFloatCurve : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
   // Declarations
-  /// @brief Field _curve, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__curve, put = __cordl_internal_set__curve))::UnityEngine::AnimationCurve* _curve;
+  /// @brief Field _curve, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__curve, put = __cordl_internal_set__curve)) ::UnityEngine::AnimationCurve* _curve;
 
-  /// @brief Field _speedMultiplier, offset 0x3c, size 0x4
+  /// @brief Field _speedMultiplier, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__speedMultiplier, put = __cordl_internal_set__speedMultiplier)) float_t _speedMultiplier;
 
-  /// @brief Field _valueMultiplier, offset 0x38, size 0x4
+  /// @brief Field _valueMultiplier, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__valueMultiplier, put = __cordl_internal_set__valueMultiplier)) float_t _valueMultiplier;
 
   static inline ::GlobalNamespace::MaterialPropertyBlockFloatCurve* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x2525178, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x397c764, size 0x98, virtual true, abstract: false, final false
   inline void SetProperty();
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__curve();
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__valueMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x2525210, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397c7fc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,25 +72,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialPropertyBlockFloatCurve(MaterialPropertyBlockFloatCurve const&) = delete;
 
-  /// @brief Field _curve, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _curve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____curve;
 
-  /// @brief Field _valueMultiplier, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _valueMultiplier, offset: 0x40, size: 0x4, def value: None
   float_t ____valueMultiplier;
 
-  /// @brief Field _speedMultiplier, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field _speedMultiplier, offset: 0x44, size: 0x4, def value: None
   float_t ____speedMultiplier;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16307 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockFloatCurve, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockFloatCurve, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockFloatCurve, ____curve) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockFloatCurve, ____curve) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockFloatCurve, ____valueMultiplier) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockFloatCurve, ____valueMultiplier) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockFloatCurve, ____speedMultiplier) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockFloatCurve, ____speedMultiplier) == 0x44, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockFloatCurve);

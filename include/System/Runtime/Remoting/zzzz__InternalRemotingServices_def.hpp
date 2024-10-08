@@ -21,7 +21,7 @@ class InternalRemotingServices;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::InternalRemotingServices);
 // Type: System.Runtime.Remoting::InternalRemotingServices
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting::InternalRemotingServices*
@@ -29,9 +29,9 @@ class CORDL_TYPE InternalRemotingServices : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _soapAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__soapAttributes, put = setStaticF__soapAttributes))::System::Collections::Hashtable* _soapAttributes;
+  static __declspec(property(get = getStaticF__soapAttributes, put = setStaticF__soapAttributes)) ::System::Collections::Hashtable* _soapAttributes;
 
-  /// @brief Method GetCachedSoapAttribute, addr 0x2833210, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method GetCachedSoapAttribute, addr 0x3c51790, size 0x518, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Metadata::SoapAttribute* GetCachedSoapAttribute(::System::Object* reflectionObject);
 
   static inline ::System::Collections::Hashtable* getStaticF__soapAttributes();
@@ -51,6 +51,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InternalRemotingServices", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InternalRemotingServices(InternalRemotingServices const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3061 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

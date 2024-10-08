@@ -21,7 +21,7 @@ struct Bone;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::XR::Bone);
 // Type: UnityEngine.InputSystem.XR::Bone
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.XR::Bone
@@ -30,26 +30,26 @@ public:
   // Declarations
   __declspec(property(get = get_parentBoneIndex, put = set_parentBoneIndex)) uint32_t parentBoneIndex;
 
-  __declspec(property(get = get_position, put = set_position))::UnityEngine::Vector3 position;
+  __declspec(property(get = get_position, put = set_position)) ::UnityEngine::Vector3 position;
 
-  __declspec(property(get = get_rotation, put = set_rotation))::UnityEngine::Quaternion rotation;
+  __declspec(property(get = get_rotation, put = set_rotation)) ::UnityEngine::Quaternion rotation;
 
-  /// @brief Method get_parentBoneIndex, addr 0x316cc84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentBoneIndex, addr 0x4570614, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_parentBoneIndex();
 
-  /// @brief Method get_position, addr 0x316cc94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x4570624, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_rotation, addr 0x316ccac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x457063c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method set_parentBoneIndex, addr 0x316cc8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parentBoneIndex, addr 0x457061c, size 0x8, virtual false, abstract: false, final false
   inline void set_parentBoneIndex(uint32_t value);
 
-  /// @brief Method set_position, addr 0x316cca0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x4570630, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rotation, addr 0x316ccb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x4570648, size 0xc, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
   // Ctor Parameters []
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field m_Rotation, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Quaternion m_Rotation;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6711 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

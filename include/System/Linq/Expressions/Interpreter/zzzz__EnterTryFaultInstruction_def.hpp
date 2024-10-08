@@ -20,28 +20,28 @@ class EnterTryFaultInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction);
 // Type: System.Linq.Expressions.Interpreter::EnterTryFaultInstruction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::EnterTryFaultInstruction*
 class CORDL_TYPE EnterTryFaultInstruction : public ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction {
 public:
   // Declarations
-  __declspec(property(get = get_Handler))::System::Linq::Expressions::Interpreter::TryFaultHandler* Handler;
+  __declspec(property(get = get_Handler)) ::System::Linq::Expressions::Interpreter::TryFaultHandler* Handler;
 
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
   __declspec(property(get = get_ProducedContinuations)) int32_t ProducedContinuations;
 
   /// @brief Field _tryHandler, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__tryHandler, put = __cordl_internal_set__tryHandler))::System::Linq::Expressions::Interpreter::TryFaultHandler* _tryHandler;
+  __declspec(property(get = __cordl_internal_get__tryHandler, put = __cordl_internal_set__tryHandler)) ::System::Linq::Expressions::Interpreter::TryFaultHandler* _tryHandler;
 
   static inline ::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction* New_ctor(int32_t targetIndex);
 
-  /// @brief Method Run, addr 0x2c496d0, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x404da48, size 0x1fc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method SetTryHandler, addr 0x2c496c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTryHandler, addr 0x404da40, size 0x8, virtual false, abstract: false, final false
   inline void SetTryHandler(::System::Linq::Expressions::Interpreter::TryFaultHandler* tryHandler);
 
   constexpr ::System::Linq::Expressions::Interpreter::TryFaultHandler*& __cordl_internal_get__tryHandler();
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__tryHandler(::System::Linq::Expressions::Interpreter::TryFaultHandler* value);
 
-  /// @brief Method .ctor, addr 0x2c49650, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x404d9c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t targetIndex);
 
-  /// @brief Method get_Handler, addr 0x2c496c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handler, addr 0x404da38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::TryFaultHandler* get_Handler();
 
-  /// @brief Method get_InstructionName, addr 0x2c49678, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x404d9f0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedContinuations, addr 0x2c496b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedContinuations, addr 0x404da30, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedContinuations();
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field _tryHandler, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Interpreter::TryFaultHandler* ____tryHandler;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13743 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

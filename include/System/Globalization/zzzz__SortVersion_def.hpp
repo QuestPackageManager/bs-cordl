@@ -14,7 +14,7 @@ class SortVersion;
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::SortVersion);
 // Type: System.Globalization::SortVersion
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::SortVersion*
@@ -25,7 +25,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_NlsVersion, put = __cordl_internal_set_m_NlsVersion)) int32_t m_NlsVersion;
 
   /// @brief Field m_SortId, offset 0x14, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_SortId, put = __cordl_internal_set_m_SortId))::System::Guid m_SortId;
+  __declspec(property(get = __cordl_internal_get_m_SortId, put = __cordl_internal_set_m_SortId)) ::System::Guid m_SortId;
 
   constexpr int32_t const& __cordl_internal_get_m_NlsVersion() const;
 
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field m_SortId, offset: 0x14, size: 0x10, def value: None
   ::System::Guid ___m_SortId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3686 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,20 +1,26 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/TextCore/Text/TextGenerator.hpp"
+#include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Extents_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyleStack_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_impl.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__HighlightState_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__MaterialReference_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextAlignment_impl.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextBackingContainer_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElementType_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextFontWeight_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextGenerator_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextProcessingStack_1_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__WordWrapState_impl.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
+#include "UnityEngine/zzzz__Quaternion_impl.hpp"
+#include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextGenerator_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Character_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_def.hpp"
@@ -28,23 +34,78 @@
 #include "UnityEngine/TextCore/Text/zzzz__TextGenerationSettings_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextGenerator_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextInfo_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextProcessingElement_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextProcessingStack_1_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextWrappingMode_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__WordWrapState_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__XmlTagAttribute_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback::*)(
+    ::System::Object*, ::System::IntPtr)>(&::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback::_ctor)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x48ce9ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback::*)(
+    uint32_t, int32_t, ::UnityEngine::TextCore::Text::TextInfo*, ::UnityEngine::TextCore::Text::FontAsset*)>(&::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x48cea38;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback*>::get(), 13));
+    return ___internal_method;
+  }
+};
+inline ::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback* UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback::New_ctor(::System::Object* object,
+                                                                                                                                                                            ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback*>(object, method));
+}
+inline void UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline void UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback::Invoke(uint32_t unicode, int32_t stringIndex, ::UnityEngine::TextCore::Text::TextInfo* text,
+                                                                                                ::UnityEngine::TextCore::Text::FontAsset* fontAsset) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, unicode, stringIndex, text, fontAsset);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback::__TextGenerator__MissingCharacterEventCallback() {}
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::__TextGenerator__SpecialCharacter._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::__TextGenerator__SpecialCharacter::*)(
     ::UnityEngine::TextCore::Text::Character*, int32_t)>(&::UnityEngine::TextCore::Text::__TextGenerator__SpecialCharacter::_ctor)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x34d3b94;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x48cea4c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::__TextGenerator__SpecialCharacter>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::Character*>::get(),
@@ -77,10 +138,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::TextGenerator* (*)()>(
     &::UnityEngine::TextCore::Text::TextGenerator::GetTextGenerator)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x34bbf80;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x48c1430;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(),
                                                                                "GetTextGenerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -92,30 +153,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(
     &::UnityEngine::TextCore::Text::TextGenerator::GenerateText)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x34bc4d4;
+  constexpr static std::size_t addrs = 0x48c1b20;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "GenerateText", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGenerator.GetCursorPosition
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::TextCore::Text::TextInfo*, ::UnityEngine::Rect, int32_t, bool)>(
-    &::UnityEngine::TextCore::Text::TextGenerator::GetCursorPosition)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x34bc77c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "GetCursorPosition", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -124,14 +168,27 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(
     ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGenerator::GetPreferredValues)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x34bc8b4;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x48c1d88;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "GetPreferredValues", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGenerator.get_isTextTruncated
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::TextCore::Text::TextGenerator::get_isTextTruncated)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x48c1ff4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(),
+                                                                               "get_isTextTruncated", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -140,10 +197,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(
     ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGenerator::Prepare)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x34bc648;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x48c1c94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "Prepare", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
@@ -156,10 +213,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(
     ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGenerator::GenerateTextMesh)> {
-  constexpr static std::size_t size = 0x68c8;
-  constexpr static std::size_t addrs = 0x34b56b8;
+  constexpr static std::size_t size = 0x7654;
+  constexpr static std::size_t addrs = 0x48b9ddc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "GenerateTextMesh", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
@@ -172,10 +229,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(
     ByRef<::UnityEngine::TextCore::Text::WordWrapState>, int32_t, int32_t, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGenerator::SaveWordWrappingState)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x34bdad4;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x48c423c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "SaveWordWrappingState", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::TextCore::Text::WordWrapState>>::get(),
@@ -189,10 +246,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::Text::TextGenerator::*)(
     ByRef<::UnityEngine::TextCore::Text::WordWrapState>, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGenerator::RestoreWordWrappingState)> {
-  constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x34bdcec;
+  constexpr static std::size_t size = 0x2c0;
+  constexpr static std::size_t addrs = 0x48c44d0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "RestoreWordWrappingState", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::TextCore::Text::WordWrapState>>::get(),
@@ -204,15 +261,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::Text::TextGenerator::*)(
-    ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, ByRef<int32_t>, ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(
-    &::UnityEngine::TextCore::Text::TextGenerator::ValidateHtmlTag)> {
-  constexpr static std::size_t size = 0x42ac;
-  constexpr static std::size_t addrs = 0x34bdf28;
+    ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>, int32_t, ByRef<int32_t>,
+    ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGenerator::ValidateHtmlTag)> {
+  constexpr static std::size_t size = 0x4780;
+  constexpr static std::size_t addrs = 0x48c4790;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "ValidateHtmlTag", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
@@ -225,10 +283,10 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(
     float_t, float_t, ::UnityEngine::Color32, ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(
     &::UnityEngine::TextCore::Text::TextGenerator::SaveGlyphVertexInfo)> {
-  constexpr static std::size_t size = 0x1dec;
-  constexpr static std::size_t addrs = 0x34c21d4;
+  constexpr static std::size_t size = 0xb6c;
+  constexpr static std::size_t addrs = 0x48c8f74;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "SaveGlyphVertexInfo", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
@@ -243,10 +301,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(
     ::UnityEngine::Color32, ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGenerator::SaveSpriteVertexInfo)> {
-  constexpr static std::size_t size = 0x1ab4;
-  constexpr static std::size_t addrs = 0x34c3fc0;
+  constexpr static std::size_t size = 0x824;
+  constexpr static std::size_t addrs = 0x48c9ae0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "SaveSpriteVertexInfo", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get(),
@@ -259,21 +317,20 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(
-    ::UnityEngine::Vector3, ::UnityEngine::Vector3, ByRef<int32_t>, float_t, float_t, float_t, float_t, ::UnityEngine::Color32, ::UnityEngine::TextCore::Text::TextGenerationSettings*,
+    ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, float_t, float_t, float_t, ::UnityEngine::Color32, ::UnityEngine::TextCore::Text::TextGenerationSettings*,
     ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGenerator::DrawUnderlineMesh)> {
-  constexpr static std::size_t size = 0xf68;
-  constexpr static std::size_t addrs = 0x34c5a74;
+  constexpr static std::size_t size = 0xba8;
+  constexpr static std::size_t addrs = 0x48ca304;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "DrawUnderlineMesh", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 10>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
+        ::std::array<Il2CppType const*, 9>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
     return ___internal_method;
   }
 };
@@ -281,19 +338,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(
-    ::UnityEngine::Vector3, ::UnityEngine::Vector3, ByRef<int32_t>, ::UnityEngine::Color32, ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(
+    ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Color32, ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(
     &::UnityEngine::TextCore::Text::TextGenerator::DrawTextHighlight)> {
-  constexpr static std::size_t size = 0x5ac;
-  constexpr static std::size_t addrs = 0x34c6b14;
+  constexpr static std::size_t size = 0x57c;
+  constexpr static std::size_t addrs = 0x48caf30;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "DrawTextHighlight", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 6>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
     return ___internal_method;
   }
 };
@@ -302,9 +359,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGenerator::ClearMesh)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x34c70c0;
+  constexpr static std::size_t addrs = 0x48cb4ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "ClearMesh", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
@@ -312,47 +369,20 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGenerator.EnableMasking
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)()>(
-    &::UnityEngine::TextCore::Text::TextGenerator::EnableMasking)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x34c70e0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(),
-                                                                               "EnableMasking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGenerator.DisableMasking
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)()>(
-    &::UnityEngine::TextCore::Text::TextGenerator::DisableMasking)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34c70ec;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(),
-                                                                               "DisableMasking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGenerator.SetArraySizes
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(
-    ::ArrayW<int32_t, ::Array<int32_t>*>, ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(
-    &::UnityEngine::TextCore::Text::TextGenerator::SetArraySizes)> {
-  constexpr static std::size_t size = 0xe78;
-  constexpr static std::size_t addrs = 0x34bcc5c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::Text::TextGenerator::*)(
+    ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>, ::UnityEngine::TextCore::Text::TextGenerationSettings*,
+    ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGenerator::SetArraySizes)> {
+  constexpr static std::size_t size = 0x13f8;
+  constexpr static std::size_t addrs = 0x48c2e44;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "SetArraySizes", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
     return ___internal_method;
@@ -366,9 +396,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                      ::UnityEngine::TextCore::Text::FontStyles, ::UnityEngine::TextCore::Text::TextFontWeight, ByRef<bool>)>(
     &::UnityEngine::TextCore::Text::TextGenerator::GetTextElement)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x34c70f4;
+  constexpr static std::size_t addrs = 0x48cb668;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "GetTextElement", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{
@@ -384,10 +414,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(::UnityEngine::Rect, ::UnityEngine::Vector4)>(
     &::UnityEngine::TextCore::Text::TextGenerator::ComputeMarginSize)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x34bcb1c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x48c2064;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "ComputeMarginSize", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
@@ -401,9 +431,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(::UnityEngine::TextCore::Text::TextGenerationSettings*)>(
     &::UnityEngine::TextCore::Text::TextGenerator::GetSpecialCharacters)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x34bcaf4;
+  constexpr static std::size_t addrs = 0x48c203c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "GetSpecialCharacters", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get() })));
@@ -415,10 +445,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(::UnityEngine::TextCore::Text::TextGenerationSettings*)>(
     &::UnityEngine::TextCore::Text::TextGenerator::GetEllipsisSpecialCharacter)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x34c73e0;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x48cb4cc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "GetEllipsisSpecialCharacter", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get() })));
@@ -430,29 +460,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(::UnityEngine::TextCore::Text::TextGenerationSettings*)>(
     &::UnityEngine::TextCore::Text::TextGenerator::GetUnderlineSpecialCharacter)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x34c69dc;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x48caeac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "GetUnderlineSpecialCharacter", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGenerator.GetPaddingForMaterial
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::Text::TextGenerator::*)(::UnityEngine::Material*, bool)>(
-    &::UnityEngine::TextCore::Text::TextGenerator::GetPaddingForMaterial)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x34c756c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "GetPaddingForMaterial", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -461,10 +475,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::TextCore::Text::TextGenerator::*)(
     ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGenerator::GetPreferredValuesInternal)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x34bc9e0;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x48c1eb8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "GetPreferredValuesInternal", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
@@ -476,15 +490,114 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::TextCore::Text::TextGenerator::*)(
-    float_t, ::UnityEngine::Vector2, bool, ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(
+    ByRef<float_t>, ::UnityEngine::Vector2, bool, ::UnityEngine::TextCore::Text::TextWrappingMode, ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(
     &::UnityEngine::TextCore::Text::TextGenerator::CalculatePreferredValues)> {
-  constexpr static std::size_t size = 0x2c10;
-  constexpr static std::size_t addrs = 0x34c7680;
+  constexpr static std::size_t size = 0x29bc;
+  constexpr static std::size_t addrs = 0x48cb9f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGenerator.PopulateTextBackingArray
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(::StringW)>(
+    &::UnityEngine::TextCore::Text::TextGenerator::PopulateTextBackingArray)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x48c20cc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "PopulateTextBackingArray",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGenerator.PopulateTextBackingArray
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(::StringW, int32_t, int32_t)>(
+    &::UnityEngine::TextCore::Text::TextGenerator::PopulateTextBackingArray)> {
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x48ce3ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "PopulateTextBackingArray", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGenerator.PopulateTextProcessingArray
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(::UnityEngine::TextCore::Text::TextGenerationSettings*)>(
+    &::UnityEngine::TextCore::Text::TextGenerator::PopulateTextProcessingArray)> {
+  constexpr static std::size_t size = 0xd60;
+  constexpr static std::size_t addrs = 0x48c20e4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "PopulateTextProcessingArray", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGenerator.InsertNewLine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(
+    int32_t, float_t, float_t, float_t, float_t, float_t, float_t, float_t, ByRef<bool>, ByRef<float_t>, ::UnityEngine::TextCore::Text::TextGenerationSettings*,
+    ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGenerator::InsertNewLine)> {
+  constexpr static std::size_t size = 0x50c;
+  constexpr static std::size_t addrs = 0x48ce4a0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "InsertNewLine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 12>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGenerator.DoMissingGlyphCallback
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)(
+    uint32_t, int32_t, ::UnityEngine::TextCore::Text::FontAsset*, ::UnityEngine::TextCore::Text::TextInfo*)>(&::UnityEngine::TextCore::Text::TextGenerator::DoMissingGlyphCallback)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x48cb954;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "DoMissingGlyphCallback", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGenerator.ClearMarkupTagAttributes
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)()>(
+    &::UnityEngine::TextCore::Text::TextGenerator::ClearMarkupTagAttributes)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x48c8f10;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(),
+                                                                               "ClearMarkupTagAttributes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -492,15 +605,102 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerator::*)()>(&::UnityEngine::TextCore::Text::TextGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x34bbff8;
+  constexpr static std::size_t size = 0x680;
+  constexpr static std::size_t addrs = 0x48c14a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
+constexpr ::UnityEngine::TextCore::Text::TextBackingContainer& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_TextBackingArray() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TextBackingArray;
+}
+constexpr ::UnityEngine::TextCore::Text::TextBackingContainer const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_TextBackingArray() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TextBackingArray;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_TextBackingArray(::UnityEngine::TextCore::Text::TextBackingContainer value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_TextBackingArray = value;
+}
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>&
+UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_TextProcessingArray() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TextProcessingArray;
+}
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*> const&
+UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_TextProcessingArray() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TextProcessingArray;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_TextProcessingArray(
+    ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TextProcessingArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr int32_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_InternalTextProcessingArraySize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_InternalTextProcessingArraySize;
+}
+constexpr int32_t const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_InternalTextProcessingArraySize() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_InternalTextProcessingArraySize;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_InternalTextProcessingArraySize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_InternalTextProcessingArraySize = value;
+}
+constexpr bool& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_VertexBufferAutoSizeReduction() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_VertexBufferAutoSizeReduction;
+}
+constexpr bool const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_VertexBufferAutoSizeReduction() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_VertexBufferAutoSizeReduction;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_VertexBufferAutoSizeReduction(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_VertexBufferAutoSizeReduction = value;
+}
+constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_HtmlTag() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HtmlTag;
+}
+constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_HtmlTag() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HtmlTag;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_HtmlTag(::ArrayW<char16_t, ::Array<char16_t>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_HtmlTag)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityEngine::TextCore::Text::HighlightState& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_HighlightState() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HighlightState;
+}
+constexpr ::UnityEngine::TextCore::Text::HighlightState const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_HighlightState() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HighlightState;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_HighlightState(::UnityEngine::TextCore::Text::HighlightState value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_HighlightState = value;
+}
+constexpr bool& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsIgnoringAlignment() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsIgnoringAlignment;
+}
+constexpr bool const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsIgnoringAlignment() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsIgnoringAlignment;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_IsIgnoringAlignment(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_IsIgnoringAlignment = value;
+}
 constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_RectTransformCorners() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RectTransformCorners;
@@ -536,18 +736,6 @@ constexpr float_t const& UnityEngine::TextCore::Text::TextGenerator::__cordl_int
 constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_MarginHeight(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MarginHeight = value;
-}
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_CharBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CharBuffer;
-}
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_CharBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CharBuffer;
-}
-constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_CharBuffer(::ArrayW<int32_t, ::Array<int32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CharBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_PreferredWidth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -660,18 +848,6 @@ constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TotalCharacterCount = value;
 }
-constexpr float_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_FontScale() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_FontScale;
-}
-constexpr float_t const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_FontScale() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_FontScale;
-}
-constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_FontScale(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_FontScale = value;
-}
 constexpr float_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_FontSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FontSize;
@@ -719,6 +895,33 @@ constexpr ::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t> const& U
 constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_SizeStack(::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SizeStack = value;
+}
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>&
+UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_TextStyleStacks() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TextStyleStacks;
+}
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*> const&
+UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_TextStyleStacks() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TextStyleStacks;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_TextStyleStacks(
+    ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TextStyleStacks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr int32_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_TextStyleStackDepth() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TextStyleStackDepth;
+}
+constexpr int32_t const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_TextStyleStackDepth() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TextStyleStackDepth;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_TextStyleStackDepth(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_TextStyleStackDepth = value;
 }
 constexpr ::UnityEngine::TextCore::Text::FontStyles& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_FontStyleInternal() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -917,6 +1120,33 @@ constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HighlightColorStack = value;
 }
+constexpr ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::HighlightState>&
+UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_HighlightStateStack() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HighlightStateStack;
+}
+constexpr ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::HighlightState> const&
+UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_HighlightStateStack() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HighlightStateStack;
+}
+constexpr void
+UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_HighlightStateStack(::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::HighlightState> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_HighlightStateStack = value;
+}
+constexpr ::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_ItalicAngleStack() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ItalicAngleStack;
+}
+constexpr ::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t> const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_ItalicAngleStack() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ItalicAngleStack;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_ItalicAngleStack(::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ItalicAngleStack = value;
+}
 constexpr ::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_ColorGradientPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ColorGradientPreset;
@@ -944,6 +1174,18 @@ constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ColorGradientStack = value;
 }
+constexpr bool& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_ColorGradientPresetIsTinted() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ColorGradientPresetIsTinted;
+}
+constexpr bool const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_ColorGradientPresetIsTinted() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ColorGradientPresetIsTinted;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_ColorGradientPresetIsTinted(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ColorGradientPresetIsTinted = value;
+}
 constexpr ::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_ActionStack() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionStack;
@@ -955,18 +1197,6 @@ constexpr ::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t> const& U
 constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_ActionStack(::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ActionStack = value;
-}
-constexpr bool& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsFxMatrixSet() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IsFxMatrixSet;
-}
-constexpr bool const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsFxMatrixSet() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IsFxMatrixSet;
-}
-constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_IsFxMatrixSet(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_IsFxMatrixSet = value;
 }
 constexpr float_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_LineOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -991,6 +1221,18 @@ constexpr float_t const& UnityEngine::TextCore::Text::TextGenerator::__cordl_int
 constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_LineHeight(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LineHeight = value;
+}
+constexpr bool& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsDrivenLineSpacing() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsDrivenLineSpacing;
+}
+constexpr bool const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsDrivenLineSpacing() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsDrivenLineSpacing;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_IsDrivenLineSpacing(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_IsDrivenLineSpacing = value;
 }
 constexpr float_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_CSpacing() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1184,6 +1426,18 @@ constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LineVisibleCharacterCount = value;
 }
+constexpr int32_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_LineVisibleSpaceCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LineVisibleSpaceCount;
+}
+constexpr int32_t const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_LineVisibleSpaceCount() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LineVisibleSpaceCount;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_LineVisibleSpaceCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_LineVisibleSpaceCount = value;
+}
 constexpr int32_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_FirstOverflowCharacterIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstOverflowCharacterIndex;
@@ -1340,17 +1594,41 @@ constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SavedLineState = value;
 }
-constexpr int32_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_LoopCountA() {
+constexpr ::UnityEngine::TextCore::Text::WordWrapState& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_SavedEllipsisState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_LoopCountA;
+  return this->___m_SavedEllipsisState;
 }
-constexpr int32_t const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_LoopCountA() const {
+constexpr ::UnityEngine::TextCore::Text::WordWrapState const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_SavedEllipsisState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_LoopCountA;
+  return this->___m_SavedEllipsisState;
 }
-constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_LoopCountA(int32_t value) {
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_SavedEllipsisState(::UnityEngine::TextCore::Text::WordWrapState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_LoopCountA = value;
+  this->___m_SavedEllipsisState = value;
+}
+constexpr ::UnityEngine::TextCore::Text::WordWrapState& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_SavedLastValidState() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SavedLastValidState;
+}
+constexpr ::UnityEngine::TextCore::Text::WordWrapState const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_SavedLastValidState() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SavedLastValidState;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_SavedLastValidState(::UnityEngine::TextCore::Text::WordWrapState value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_SavedLastValidState = value;
+}
+constexpr ::UnityEngine::TextCore::Text::WordWrapState& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_SavedSoftLineBreakState() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SavedSoftLineBreakState;
+}
+constexpr ::UnityEngine::TextCore::Text::WordWrapState const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_SavedSoftLineBreakState() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_SavedSoftLineBreakState;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_SavedSoftLineBreakState(::UnityEngine::TextCore::Text::WordWrapState value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_SavedSoftLineBreakState = value;
 }
 constexpr ::UnityEngine::TextCore::Text::TextElementType& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_TextElementType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1364,17 +1642,17 @@ constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TextElementType = value;
 }
-constexpr bool& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsParsingText() {
+constexpr bool& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_isTextLayoutPhase() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IsParsingText;
+  return this->___m_isTextLayoutPhase;
 }
-constexpr bool const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsParsingText() const {
+constexpr bool const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_isTextLayoutPhase() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IsParsingText;
+  return this->___m_isTextLayoutPhase;
 }
-constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_IsParsingText(bool value) {
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_isTextLayoutPhase(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_IsParsingText = value;
+  this->___m_isTextLayoutPhase = value;
 }
 constexpr int32_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_SpriteIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1436,18 +1714,6 @@ constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CharWidthAdjDelta = value;
 }
-constexpr ::UnityEngine::Matrix4x4& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_FxMatrix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_FxMatrix;
-}
-constexpr ::UnityEngine::Matrix4x4 const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_FxMatrix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_FxMatrix;
-}
-constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_FxMatrix(::UnityEngine::Matrix4x4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_FxMatrix = value;
-}
 constexpr float_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_MaxFontSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxFontSize;
@@ -1472,17 +1738,41 @@ constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MinFontSize = value;
 }
-constexpr bool& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsCharacterWrappingEnabled() {
+constexpr int32_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_AutoSizeIterationCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IsCharacterWrappingEnabled;
+  return this->___m_AutoSizeIterationCount;
 }
-constexpr bool const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsCharacterWrappingEnabled() const {
+constexpr int32_t const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_AutoSizeIterationCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IsCharacterWrappingEnabled;
+  return this->___m_AutoSizeIterationCount;
 }
-constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_IsCharacterWrappingEnabled(bool value) {
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_AutoSizeIterationCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_IsCharacterWrappingEnabled = value;
+  this->___m_AutoSizeIterationCount = value;
+}
+constexpr int32_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_AutoSizeMaxIterationCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AutoSizeMaxIterationCount;
+}
+constexpr int32_t const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_AutoSizeMaxIterationCount() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AutoSizeMaxIterationCount;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_AutoSizeMaxIterationCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_AutoSizeMaxIterationCount = value;
+}
+constexpr bool& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsAutoSizePointSizeSet() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsAutoSizePointSizeSet;
+}
+constexpr bool const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsAutoSizePointSizeSet() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsAutoSizePointSizeSet;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_IsAutoSizePointSizeSet(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_IsAutoSizePointSizeSet = value;
 }
 constexpr float_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_StartOfLineAscender() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1507,18 +1797,6 @@ constexpr float_t const& UnityEngine::TextCore::Text::TextGenerator::__cordl_int
 constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_LineSpacingDelta(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LineSpacingDelta = value;
-}
-constexpr bool& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsMaskingEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IsMaskingEnabled;
-}
-constexpr bool const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsMaskingEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IsMaskingEnabled;
-}
-constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_IsMaskingEnabled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_IsMaskingEnabled = value;
 }
 constexpr ::ArrayW<::UnityEngine::TextCore::Text::MaterialReference, ::Array<::UnityEngine::TextCore::Text::MaterialReference>*>&
 UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_MaterialReferences() {
@@ -1559,6 +1837,21 @@ constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StyleStack = value;
 }
+constexpr ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::WordWrapState>&
+UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_EllipsisInsertionCandidateStack() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_EllipsisInsertionCandidateStack;
+}
+constexpr ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::WordWrapState> const&
+UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_EllipsisInsertionCandidateStack() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_EllipsisInsertionCandidateStack;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_EllipsisInsertionCandidateStack(
+    ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::WordWrapState> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_EllipsisInsertionCandidateStack = value;
+}
 constexpr int32_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_SpriteAnimationId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SpriteAnimationId;
@@ -1571,59 +1864,92 @@ constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SpriteAnimationId = value;
 }
-constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_InternalTextParsingBuffer() {
+constexpr int32_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_ItalicAngle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_InternalTextParsingBuffer;
+  return this->___m_ItalicAngle;
 }
-constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_InternalTextParsingBuffer() const {
+constexpr int32_t const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_ItalicAngle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_InternalTextParsingBuffer;
+  return this->___m_ItalicAngle;
 }
-constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_InternalTextParsingBuffer(::ArrayW<uint32_t, ::Array<uint32_t>*> value) {
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_ItalicAngle(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_InternalTextParsingBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  this->___m_ItalicAngle = value;
+}
+constexpr ::UnityEngine::Vector3& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_FXScale() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FXScale;
+}
+constexpr ::UnityEngine::Vector3 const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_FXScale() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FXScale;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_FXScale(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_FXScale = value;
+}
+constexpr ::UnityEngine::Quaternion& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_FXRotation() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FXRotation;
+}
+constexpr ::UnityEngine::Quaternion const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_FXRotation() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FXRotation;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_FXRotation(::UnityEngine::Quaternion value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_FXRotation = value;
+}
+constexpr int32_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_LastBaseGlyphIndex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LastBaseGlyphIndex;
+}
+constexpr int32_t const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_LastBaseGlyphIndex() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LastBaseGlyphIndex;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_LastBaseGlyphIndex(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_LastBaseGlyphIndex = value;
+}
+constexpr float_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_PageAscender() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PageAscender;
+}
+constexpr float_t const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_PageAscender() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PageAscender;
+}
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_PageAscender(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_PageAscender = value;
 }
 constexpr ::ArrayW<::UnityEngine::TextCore::Text::RichTextTagAttribute, ::Array<::UnityEngine::TextCore::Text::RichTextTagAttribute>*>&
-UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_Attributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Attributes;
-}
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::RichTextTagAttribute, ::Array<::UnityEngine::TextCore::Text::RichTextTagAttribute>*> const&
-UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_Attributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Attributes;
-}
-constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_Attributes(
-    ::ArrayW<::UnityEngine::TextCore::Text::RichTextTagAttribute, ::Array<::UnityEngine::TextCore::Text::RichTextTagAttribute>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Attributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::XmlTagAttribute, ::Array<::UnityEngine::TextCore::Text::XmlTagAttribute>*>&
 UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_XmlAttribute() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_XmlAttribute;
 }
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::XmlTagAttribute, ::Array<::UnityEngine::TextCore::Text::XmlTagAttribute>*> const&
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::RichTextTagAttribute, ::Array<::UnityEngine::TextCore::Text::RichTextTagAttribute>*> const&
 UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_XmlAttribute() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_XmlAttribute;
 }
 constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_XmlAttribute(
-    ::ArrayW<::UnityEngine::TextCore::Text::XmlTagAttribute, ::Array<::UnityEngine::TextCore::Text::XmlTagAttribute>*> value) {
+    ::ArrayW<::UnityEngine::TextCore::Text::RichTextTagAttribute, ::Array<::UnityEngine::TextCore::Text::RichTextTagAttribute>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_XmlAttribute)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_RichTextTag() {
+constexpr ::ArrayW<float_t, ::Array<float_t>*>& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_AttributeParameterValues() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_RichTextTag;
+  return this->___m_AttributeParameterValues;
 }
-constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_RichTextTag() const {
+constexpr ::ArrayW<float_t, ::Array<float_t>*> const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_AttributeParameterValues() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_RichTextTag;
+  return this->___m_AttributeParameterValues;
 }
-constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_RichTextTag(::ArrayW<char16_t, ::Array<char16_t>*> value) {
+constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_AttributeParameterValues(::ArrayW<float_t, ::Array<float_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RichTextTag)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AttributeParameterValues)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_MaterialReferenceIndexLookup() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1698,30 +2024,6 @@ constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Underline = value;
 }
-constexpr bool& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsUsingBold() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IsUsingBold;
-}
-constexpr bool const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsUsingBold() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IsUsingBold;
-}
-constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_IsUsingBold(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_IsUsingBold = value;
-}
-constexpr bool& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsSdfShader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IsSdfShader;
-}
-constexpr bool const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_IsSdfShader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IsSdfShader;
-}
-constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_IsSdfShader(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_IsSdfShader = value;
-}
 constexpr ::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo, ::Array<::UnityEngine::TextCore::Text::TextElementInfo>*>&
 UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_InternalTextElementInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1737,18 +2039,6 @@ constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_InternalTextElementInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_RecursiveCount() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_RecursiveCount;
-}
-constexpr int32_t const& UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_get_m_RecursiveCount() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_RecursiveCount;
-}
-constexpr void UnityEngine::TextCore::Text::TextGenerator::__cordl_internal_set_m_RecursiveCount(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_RecursiveCount = value;
-}
 inline void UnityEngine::TextCore::Text::TextGenerator::setStaticF_s_TextGenerator(::UnityEngine::TextCore::Text::TextGenerator* value) {
   ::cordl_internals::setStaticField<::UnityEngine::TextCore::Text::TextGenerator*, "s_TextGenerator",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get>(
@@ -1756,6 +2046,21 @@ inline void UnityEngine::TextCore::Text::TextGenerator::setStaticF_s_TextGenerat
 }
 inline ::UnityEngine::TextCore::Text::TextGenerator* UnityEngine::TextCore::Text::TextGenerator::getStaticF_s_TextGenerator() {
   return ::cordl_internals::getStaticField<::UnityEngine::TextCore::Text::TextGenerator*, "s_TextGenerator",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get>();
+}
+inline void UnityEngine::TextCore::Text::TextGenerator::setStaticF_m_IsTextTruncated(bool value) {
+  ::cordl_internals::setStaticField<bool, "m_IsTextTruncated", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get>(std::forward<bool>(value));
+}
+inline bool UnityEngine::TextCore::Text::TextGenerator::getStaticF_m_IsTextTruncated() {
+  return ::cordl_internals::getStaticField<bool, "m_IsTextTruncated", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get>();
+}
+inline void UnityEngine::TextCore::Text::TextGenerator::setStaticF_OnMissingCharacter(::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback*, "OnMissingCharacter",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get>(
+      std::forward<::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback*>(value));
+}
+inline ::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback* UnityEngine::TextCore::Text::TextGenerator::getStaticF_OnMissingCharacter() {
+  return ::cordl_internals::getStaticField<::UnityEngine::TextCore::Text::__TextGenerator__MissingCharacterEventCallback*, "OnMissingCharacter",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get>();
 }
 inline ::UnityEngine::TextCore::Text::TextGenerator* UnityEngine::TextCore::Text::TextGenerator::GetTextGenerator() {
@@ -1770,16 +2075,6 @@ inline void UnityEngine::TextCore::Text::TextGenerator::GenerateText(::UnityEngi
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, settings, textInfo);
 }
-/// @param inverseYAxis: bool (default: true)
-inline ::UnityEngine::Vector2 UnityEngine::TextCore::Text::TextGenerator::GetCursorPosition(::UnityEngine::TextCore::Text::TextInfo* textInfo, ::UnityEngine::Rect screenRect, int32_t index,
-                                                                                            bool inverseYAxis) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "GetCursorPosition", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(nullptr, ___internal_method, textInfo, screenRect, index, inverseYAxis);
-}
 inline ::UnityEngine::Vector2 UnityEngine::TextCore::Text::TextGenerator::GetPreferredValues(::UnityEngine::TextCore::Text::TextGenerationSettings* settings,
                                                                                              ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1787,6 +2082,11 @@ inline ::UnityEngine::Vector2 UnityEngine::TextCore::Text::TextGenerator::GetPre
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(nullptr, ___internal_method, settings, textInfo);
+}
+inline bool UnityEngine::TextCore::Text::TextGenerator::get_isTextTruncated() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(),
+                                                                             "get_isTextTruncated", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
 inline void UnityEngine::TextCore::Text::TextGenerator::Prepare(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1818,14 +2118,17 @@ inline int32_t UnityEngine::TextCore::Text::TextGenerator::RestoreWordWrappingSt
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, state, textInfo);
 }
-inline bool UnityEngine::TextCore::Text::TextGenerator::ValidateHtmlTag(::ArrayW<int32_t, ::Array<int32_t>*> chars, int32_t startIndex, ByRef<int32_t> endIndex,
-                                                                        ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
+inline bool
+UnityEngine::TextCore::Text::TextGenerator::ValidateHtmlTag(::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*> chars,
+                                                            int32_t startIndex, ByRef<int32_t> endIndex, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
+                                                            ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "ValidateHtmlTag", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
+      ::std::array<Il2CppType const*, 5>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, chars, startIndex, endIndex, generationSettings, textInfo);
 }
 inline void UnityEngine::TextCore::Text::TextGenerator::SaveGlyphVertexInfo(float_t padding, float_t stylePadding, ::UnityEngine::Color32 vertexColor,
@@ -1848,32 +2151,31 @@ inline void UnityEngine::TextCore::Text::TextGenerator::SaveSpriteVertexInfo(::U
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, vertexColor, generationSettings, textInfo);
 }
-inline void UnityEngine::TextCore::Text::TextGenerator::DrawUnderlineMesh(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ByRef<int32_t> index, float_t startScale, float_t endScale,
-                                                                          float_t maxScale, float_t sdfScale, ::UnityEngine::Color32 underlineColor,
+inline void UnityEngine::TextCore::Text::TextGenerator::DrawUnderlineMesh(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t startScale, float_t endScale, float_t maxScale,
+                                                                          float_t sdfScale, ::UnityEngine::Color32 underlineColor,
                                                                           ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
                                                                           ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "DrawUnderlineMesh", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 10>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, start, end, index, startScale, endScale, maxScale, sdfScale, underlineColor, generationSettings, textInfo);
+      ::std::array<Il2CppType const*, 9>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, start, end, startScale, endScale, maxScale, sdfScale, underlineColor, generationSettings, textInfo);
 }
-inline void UnityEngine::TextCore::Text::TextGenerator::DrawTextHighlight(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ByRef<int32_t> index, ::UnityEngine::Color32 highlightColor,
+inline void UnityEngine::TextCore::Text::TextGenerator::DrawTextHighlight(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::UnityEngine::Color32 highlightColor,
                                                                           ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
                                                                           ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "DrawTextHighlight", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 6>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, start, end, index, highlightColor, generationSettings, textInfo);
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, start, end, highlightColor, generationSettings, textInfo);
 }
 inline void UnityEngine::TextCore::Text::TextGenerator::ClearMesh(bool updateMesh, ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1882,24 +2184,16 @@ inline void UnityEngine::TextCore::Text::TextGenerator::ClearMesh(bool updateMes
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, updateMesh, textInfo);
 }
-inline void UnityEngine::TextCore::Text::TextGenerator::EnableMasking() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(),
-                                                                             "EnableMasking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void UnityEngine::TextCore::Text::TextGenerator::DisableMasking() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(),
-                                                                             "DisableMasking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void UnityEngine::TextCore::Text::TextGenerator::SetArraySizes(::ArrayW<int32_t, ::Array<int32_t>*> chars, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
-                                                                      ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
+inline int32_t UnityEngine::TextCore::Text::TextGenerator::SetArraySizes(
+    ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*> textProcessingArray,
+    ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "SetArraySizes", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, chars, generationSettings, textInfo);
+      ::std::array<Il2CppType const*, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, textProcessingArray, generationSettings, textInfo);
 }
 inline ::UnityEngine::TextCore::Text::TextElement* UnityEngine::TextCore::Text::TextGenerator::GetTextElement(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
                                                                                                               uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* fontAsset,
@@ -1941,13 +2235,6 @@ inline void UnityEngine::TextCore::Text::TextGenerator::GetUnderlineSpecialChara
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, generationSettings);
 }
-inline float_t UnityEngine::TextCore::Text::TextGenerator::GetPaddingForMaterial(::UnityEngine::Material* material, bool extraPadding) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(),
-                                                                             "GetPaddingForMaterial", std::span<Il2CppClass const* const, 0>(),
-                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Material*>::get(),
-                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, material, extraPadding);
-}
 inline ::UnityEngine::Vector2 UnityEngine::TextCore::Text::TextGenerator::GetPreferredValuesInternal(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
                                                                                                      ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1956,12 +2243,62 @@ inline ::UnityEngine::Vector2 UnityEngine::TextCore::Text::TextGenerator::GetPre
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, generationSettings, textInfo);
 }
-inline ::UnityEngine::Vector2 UnityEngine::TextCore::Text::TextGenerator::CalculatePreferredValues(float_t defaultFontSize, ::UnityEngine::Vector2 marginSize, bool ignoreTextAutoSizing,
+inline ::UnityEngine::Vector2 UnityEngine::TextCore::Text::TextGenerator::CalculatePreferredValues(ByRef<float_t> fontSize, ::UnityEngine::Vector2 marginSize, bool isTextAutoSizingEnabled,
+                                                                                                   ::UnityEngine::TextCore::Text::TextWrappingMode textWrapMode,
                                                                                                    ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
                                                                                                    ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, defaultFontSize, marginSize, ignoreTextAutoSizing, generationSettings, textInfo);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, fontSize, marginSize, isTextAutoSizingEnabled, textWrapMode, generationSettings, textInfo);
+}
+inline void UnityEngine::TextCore::Text::TextGenerator::PopulateTextBackingArray(::StringW sourceText) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "PopulateTextBackingArray",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sourceText);
+}
+inline void UnityEngine::TextCore::Text::TextGenerator::PopulateTextBackingArray(::StringW sourceText, int32_t start, int32_t length) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "PopulateTextBackingArray", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sourceText, start, length);
+}
+inline void UnityEngine::TextCore::Text::TextGenerator::PopulateTextProcessingArray(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "PopulateTextProcessingArray", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, generationSettings);
+}
+inline void UnityEngine::TextCore::Text::TextGenerator::InsertNewLine(int32_t i, float_t baseScale, float_t currentElementScale, float_t currentEmScale, float_t boldSpacingAdjustment,
+                                                                      float_t characterSpacingAdjustment, float_t width, float_t lineGap, ByRef<bool> isMaxVisibleDescenderSet,
+                                                                      ByRef<float_t> maxVisibleDescender, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
+                                                                      ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "InsertNewLine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 12>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i, baseScale, currentElementScale, currentEmScale, boldSpacingAdjustment, characterSpacingAdjustment, width,
+                                                          lineGap, isMaxVisibleDescenderSet, maxVisibleDescender, generationSettings, textInfo);
+}
+inline void UnityEngine::TextCore::Text::TextGenerator::DoMissingGlyphCallback(uint32_t unicode, int32_t stringIndex, ::UnityEngine::TextCore::Text::FontAsset* fontAsset,
+                                                                               ::UnityEngine::TextCore::Text::TextInfo* textInfo) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(), "DoMissingGlyphCallback", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextInfo*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, unicode, stringIndex, fontAsset, textInfo);
+}
+inline void UnityEngine::TextCore::Text::TextGenerator::ClearMarkupTagAttributes() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerator*>::get(),
+                                                                             "ClearMarkupTagAttributes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityEngine::TextCore::Text::TextGenerator* UnityEngine::TextCore::Text::TextGenerator::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::TextGenerator*>());

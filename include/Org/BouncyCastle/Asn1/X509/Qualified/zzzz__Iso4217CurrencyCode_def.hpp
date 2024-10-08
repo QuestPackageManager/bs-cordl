@@ -26,33 +26,33 @@ class Iso4217CurrencyCode;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode);
 // Type: Org.BouncyCastle.Asn1.X509.Qualified::Iso4217CurrencyCode
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509.Qualified::Iso4217CurrencyCode*
 class CORDL_TYPE Iso4217CurrencyCode : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_Alphabetic))::StringW Alphabetic;
+  __declspec(property(get = get_Alphabetic)) ::StringW Alphabetic;
 
   __declspec(property(get = get_IsAlphabetic)) bool IsAlphabetic;
 
   __declspec(property(get = get_Numeric)) int32_t Numeric;
 
   /// @brief Field obj, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj))::Org::BouncyCastle::Asn1::Asn1Encodable* obj;
+  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj)) ::Org::BouncyCastle::Asn1::Asn1Encodable* obj;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x12f3d78, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24c19c4, size 0x1e8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* New_ctor(::StringW alphabetic);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* New_ctor(int32_t numeric);
 
-  /// @brief Method ToAsn1Object, addr 0x12f4438, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24c203c, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_obj();
@@ -61,19 +61,19 @@ public:
 
   constexpr void __cordl_internal_set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x12f418c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c1dc4, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::StringW alphabetic);
 
-  /// @brief Method .ctor, addr 0x12f3f64, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c1bac, size 0x218, virtual false, abstract: false, final false
   inline void _ctor(int32_t numeric);
 
-  /// @brief Method get_Alphabetic, addr 0x12f4310, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_Alphabetic, addr 0x24c1f3c, size 0x80, virtual false, abstract: false, final false
   inline ::StringW get_Alphabetic();
 
-  /// @brief Method get_IsAlphabetic, addr 0x12f4294, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsAlphabetic, addr 0x24c1ec0, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsAlphabetic();
 
-  /// @brief Method get_Numeric, addr 0x12f43b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Numeric, addr 0x24c1fbc, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_Numeric();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -104,6 +104,9 @@ public:
 
   /// @brief Field NumericMinSize offset 0xffffffff size 0x4
   static constexpr int32_t NumericMinSize{ static_cast<int32_t>(0x1) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 329 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,34 +31,34 @@ class ProcurationSyntax;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax);
 // Type: Org.BouncyCastle.Asn1.IsisMtt.X509::ProcurationSyntax
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.IsisMtt.X509::ProcurationSyntax*
 class CORDL_TYPE ProcurationSyntax : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_CertRef))::Org::BouncyCastle::Asn1::X509::IssuerSerial* CertRef;
+  __declspec(property(get = get_CertRef)) ::Org::BouncyCastle::Asn1::X509::IssuerSerial* CertRef;
 
-  __declspec(property(get = get_Country))::StringW Country;
+  __declspec(property(get = get_Country)) ::StringW Country;
 
-  __declspec(property(get = get_ThirdPerson))::Org::BouncyCastle::Asn1::X509::GeneralName* ThirdPerson;
+  __declspec(property(get = get_ThirdPerson)) ::Org::BouncyCastle::Asn1::X509::GeneralName* ThirdPerson;
 
-  __declspec(property(get = get_TypeOfSubstitution))::Org::BouncyCastle::Asn1::X500::DirectoryString* TypeOfSubstitution;
+  __declspec(property(get = get_TypeOfSubstitution)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* TypeOfSubstitution;
 
   /// @brief Field certRef, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_certRef, put = __cordl_internal_set_certRef))::Org::BouncyCastle::Asn1::X509::IssuerSerial* certRef;
+  __declspec(property(get = __cordl_internal_get_certRef, put = __cordl_internal_set_certRef)) ::Org::BouncyCastle::Asn1::X509::IssuerSerial* certRef;
 
   /// @brief Field country, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_country, put = __cordl_internal_set_country))::StringW country;
+  __declspec(property(get = __cordl_internal_get_country, put = __cordl_internal_set_country)) ::StringW country;
 
   /// @brief Field thirdPerson, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_thirdPerson, put = __cordl_internal_set_thirdPerson))::Org::BouncyCastle::Asn1::X509::GeneralName* thirdPerson;
+  __declspec(property(get = __cordl_internal_get_thirdPerson, put = __cordl_internal_set_thirdPerson)) ::Org::BouncyCastle::Asn1::X509::GeneralName* thirdPerson;
 
   /// @brief Field typeOfSubstitution, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_typeOfSubstitution, put = __cordl_internal_set_typeOfSubstitution))::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution;
+  __declspec(property(get = __cordl_internal_get_typeOfSubstitution, put = __cordl_internal_set_typeOfSubstitution)) ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution;
 
-  /// @brief Method GetInstance, addr 0x11e9938, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23bedf4, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* New_ctor(::StringW country, ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution,
@@ -69,7 +69,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x11e9e54, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23bf2fc, size 0x16c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial*& __cordl_internal_get_certRef();
@@ -96,25 +96,25 @@ public:
 
   constexpr void __cordl_internal_set_typeOfSubstitution(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  /// @brief Method .ctor, addr 0x11e9dbc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bf264, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW country, ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* certRef);
 
-  /// @brief Method .ctor, addr 0x11e9df8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bf2a0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW country, ::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution, ::Org::BouncyCastle::Asn1::X509::GeneralName* thirdPerson);
 
-  /// @brief Method .ctor, addr 0x11e9ac0, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bef70, size 0x2f4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertRef, addr 0x11e9e4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertRef, addr 0x23bf2f4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_CertRef();
 
-  /// @brief Method get_Country, addr 0x11e9e34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Country, addr 0x23bf2dc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Country();
 
-  /// @brief Method get_ThirdPerson, addr 0x11e9e44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ThirdPerson, addr 0x23bf2ec, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_ThirdPerson();
 
-  /// @brief Method get_TypeOfSubstitution, addr 0x11e9e3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeOfSubstitution, addr 0x23bf2e4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_TypeOfSubstitution();
 
 protected:
@@ -142,6 +142,9 @@ public:
 
   /// @brief Field certRef, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::IssuerSerial* ___certRef;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 189 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

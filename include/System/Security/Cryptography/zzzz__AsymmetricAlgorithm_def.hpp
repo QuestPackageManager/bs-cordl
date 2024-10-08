@@ -21,7 +21,7 @@ class AsymmetricAlgorithm;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::AsymmetricAlgorithm);
 // Type: System.Security.Cryptography::AsymmetricAlgorithm
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::AsymmetricAlgorithm*
@@ -35,26 +35,27 @@ public:
 
   /// @brief Field LegalKeySizesValue, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_LegalKeySizesValue,
-                      put = __cordl_internal_set_LegalKeySizesValue))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> LegalKeySizesValue;
+                      put = __cordl_internal_set_LegalKeySizesValue)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
+      LegalKeySizesValue;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Clear, addr 0x2809c68, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3c28c74, size 0x6c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x2809c64, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3c28c70, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2809cd4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c28ce0, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method FromXmlString, addr 0x2809de4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method FromXmlString, addr 0x3c28de8, size 0x38, virtual true, abstract: false, final false
   inline void FromXmlString(::StringW xmlString);
 
   static inline ::System::Security::Cryptography::AsymmetricAlgorithm* New_ctor();
 
-  /// @brief Method ToXmlString, addr 0x2809e24, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x3c28e20, size 0x38, virtual true, abstract: false, final false
   inline ::StringW ToXmlString(bool includePrivateParameters);
 
   constexpr int32_t const& __cordl_internal_get_KeySizeValue() const;
@@ -69,16 +70,16 @@ public:
 
   constexpr void __cordl_internal_set_LegalKeySizesValue(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
-  /// @brief Method .ctor, addr 0x2809c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c28c68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_KeySize, addr 0x2809cd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x3c28ce4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_KeySize, addr 0x2809ce0, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method set_KeySize, addr 0x3c28cec, size 0xd4, virtual true, abstract: false, final false
   inline void set_KeySize(int32_t value);
 
 protected:
@@ -100,6 +101,9 @@ public:
 
   /// @brief Field LegalKeySizesValue, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> ___LegalKeySizesValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2917 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

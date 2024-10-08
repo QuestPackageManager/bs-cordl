@@ -15,7 +15,7 @@ class OcspObjectIdentifiers;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers);
 // Type: Org.BouncyCastle.Asn1.Ocsp::OcspObjectIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::OcspObjectIdentifiers*
@@ -23,32 +23,32 @@ class CORDL_TYPE OcspObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field PkixOcsp, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PkixOcsp, put = setStaticF_PkixOcsp))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcsp;
+  static __declspec(property(get = getStaticF_PkixOcsp, put = setStaticF_PkixOcsp)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcsp;
 
   /// @brief Field PkixOcspArchiveCutoff, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PkixOcspArchiveCutoff, put = setStaticF_PkixOcspArchiveCutoff))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspArchiveCutoff;
+  static __declspec(property(get = getStaticF_PkixOcspArchiveCutoff, put = setStaticF_PkixOcspArchiveCutoff)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspArchiveCutoff;
 
   /// @brief Field PkixOcspBasic, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PkixOcspBasic, put = setStaticF_PkixOcspBasic))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspBasic;
+  static __declspec(property(get = getStaticF_PkixOcspBasic, put = setStaticF_PkixOcspBasic)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspBasic;
 
   /// @brief Field PkixOcspCrl, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PkixOcspCrl, put = setStaticF_PkixOcspCrl))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspCrl;
+  static __declspec(property(get = getStaticF_PkixOcspCrl, put = setStaticF_PkixOcspCrl)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspCrl;
 
   /// @brief Field PkixOcspNocheck, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PkixOcspNocheck, put = setStaticF_PkixOcspNocheck))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspNocheck;
+  static __declspec(property(get = getStaticF_PkixOcspNocheck, put = setStaticF_PkixOcspNocheck)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspNocheck;
 
   /// @brief Field PkixOcspNonce, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PkixOcspNonce, put = setStaticF_PkixOcspNonce))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspNonce;
+  static __declspec(property(get = getStaticF_PkixOcspNonce, put = setStaticF_PkixOcspNonce)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspNonce;
 
   /// @brief Field PkixOcspResponse, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PkixOcspResponse, put = setStaticF_PkixOcspResponse))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspResponse;
+  static __declspec(property(get = getStaticF_PkixOcspResponse, put = setStaticF_PkixOcspResponse)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspResponse;
 
   /// @brief Field PkixOcspServiceLocator, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PkixOcspServiceLocator, put = setStaticF_PkixOcspServiceLocator))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspServiceLocator;
+  static __declspec(property(get = getStaticF_PkixOcspServiceLocator, put = setStaticF_PkixOcspServiceLocator)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspServiceLocator;
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11f0e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c608c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_PkixOcsp();
@@ -99,6 +99,9 @@ public:
 
   /// @brief Field PkixOcspId offset 0xffffffff size 0x8
   static constexpr ::ConstString PkixOcspId{ u"1.3.6.1.5.5.7.48.1" };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 210 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

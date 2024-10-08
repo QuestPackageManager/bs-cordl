@@ -22,7 +22,7 @@ class HEU_LoadBufferMesh;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferMesh);
 // Type: HoudiniEngineUnity::HEU_LoadBufferMesh
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferMesh*
@@ -31,7 +31,7 @@ public:
   // Declarations
   /// @brief Field _LODGroupMeshes, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__LODGroupMeshes,
-                      put = __cordl_internal_set__LODGroupMeshes))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>* _LODGroupMeshes;
+                      put = __cordl_internal_set__LODGroupMeshes)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>* _LODGroupMeshes;
 
   /// @brief Field _bGenerateNormals, offset 0x46, size 0x1
   __declspec(property(get = __cordl_internal_get__bGenerateNormals, put = __cordl_internal_set__bGenerateNormals)) bool _bGenerateNormals;
@@ -49,7 +49,7 @@ public:
   __declspec(property(get = __cordl_internal_get__defaultMaterialKey, put = __cordl_internal_set__defaultMaterialKey)) int32_t _defaultMaterialKey;
 
   /// @brief Field _geoCache, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__geoCache, put = __cordl_internal_set__geoCache))::HoudiniEngineUnity::HEU_GenerateGeoCache* _geoCache;
+  __declspec(property(get = __cordl_internal_get__geoCache, put = __cordl_internal_set__geoCache)) ::HoudiniEngineUnity::HEU_GenerateGeoCache* _geoCache;
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferMesh* New_ctor();
 
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__geoCache(::HoudiniEngineUnity::HEU_GenerateGeoCache* value);
 
-  /// @brief Method .ctor, addr 0x25bccfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f8464, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,6 +132,9 @@ public:
 
   /// @brief Field _bPartInstanced, offset: 0x47, size: 0x1, def value: None
   bool ____bPartInstanced;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

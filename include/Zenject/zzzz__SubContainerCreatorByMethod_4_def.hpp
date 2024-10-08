@@ -30,7 +30,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::SubContainerCreatorByMethod_4);
 // Type: Zenject::SubContainerCreatorByMethod`4
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4>
@@ -41,7 +41,7 @@ public:
   // Declarations
   /// @brief Field _installMethod, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__installMethod,
-                      put = __cordl_internal_set__installMethod))::System::Action_5<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4>* _installMethod;
+                      put = __cordl_internal_set__installMethod)) ::System::Action_5<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4>* _installMethod;
 
   /// @brief Method CreateSubContainer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field _installMethod, offset: 0x20, size: 0x8, def value: None
   ::System::Action_5<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4>* ____installMethod;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12550 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

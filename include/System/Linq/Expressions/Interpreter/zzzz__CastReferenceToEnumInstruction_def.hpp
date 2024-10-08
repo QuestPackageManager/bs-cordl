@@ -19,7 +19,7 @@ class CastReferenceToEnumInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::CastReferenceToEnumInstruction);
 // Type: System.Linq.Expressions.Interpreter::CastReferenceToEnumInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::CastReferenceToEnumInstruction*
@@ -27,11 +27,11 @@ class CORDL_TYPE CastReferenceToEnumInstruction : public ::System::Linq::Express
 public:
   // Declarations
   /// @brief Field _t, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__t, put = __cordl_internal_set__t))::System::Type* _t;
+  __declspec(property(get = __cordl_internal_get__t, put = __cordl_internal_set__t)) ::System::Type* _t;
 
   static inline ::System::Linq::Expressions::Interpreter::CastReferenceToEnumInstruction* New_ctor(::System::Type* t);
 
-  /// @brief Method Run, addr 0x2c7f764, size 0x48c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4082628, size 0x4cc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type*& __cordl_internal_get__t();
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__t(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2c7f73c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4082600, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:
@@ -59,6 +59,9 @@ public:
 
   /// @brief Field _t, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____t;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14076 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

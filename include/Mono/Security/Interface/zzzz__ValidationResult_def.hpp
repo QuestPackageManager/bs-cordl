@@ -21,7 +21,7 @@ class ValidationResult;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Interface::ValidationResult);
 // Type: Mono.Security.Interface::ValidationResult
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
 // CS Name: ::Mono.Security.Interface::ValidationResult*
@@ -36,7 +36,7 @@ public:
   __declspec(property(get = __cordl_internal_get_error_code, put = __cordl_internal_set_error_code)) int32_t error_code;
 
   /// @brief Field policy_errors, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_policy_errors, put = __cordl_internal_set_policy_errors))::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors;
+  __declspec(property(get = __cordl_internal_get_policy_errors, put = __cordl_internal_set_policy_errors)) ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors;
 
   /// @brief Field trusted, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_trusted, put = __cordl_internal_set_trusted)) bool trusted;
@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set_user_denied(bool value);
 
-  /// @brief Method .ctor, addr 0x27add20, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd01d8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool trusted, bool user_denied, int32_t error_code, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors);
 
-  /// @brief Method get_Trusted, addr 0x27add68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Trusted, addr 0x3bd0220, size 0x8, virtual false, abstract: false, final false
   inline bool get_Trusted();
 
-  /// @brief Method get_UserDenied, addr 0x27add70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserDenied, addr 0x3bd0228, size 0x8, virtual false, abstract: false, final false
   inline bool get_UserDenied();
 
 protected:
@@ -105,6 +105,9 @@ public:
 
   /// @brief Field policy_errors, offset: 0x18, size: 0x8, def value: None
   ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> ___policy_errors;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15903 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

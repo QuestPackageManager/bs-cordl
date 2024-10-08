@@ -13,7 +13,7 @@ struct TableViewSelectionType;
 // Write type traits
 MARK_VAL_T(::HMUI::TableViewSelectionType);
 // Type: HMUI::TableViewSelectionType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
 // CS Name: ::HMUI::TableViewSelectionType
@@ -27,6 +27,7 @@ public:
     __E_None = static_cast<int32_t>(0x0),
     __E_Single = static_cast<int32_t>(0x1),
     __E_Multiple = static_cast<int32_t>(0x2),
+    __E_DeselectableSingle = static_cast<int32_t>(0x3),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -49,6 +50,9 @@ public:
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
+  /// @brief Field DeselectableSingle value: static_cast<int32_t>(0x3)
+  static ::HMUI::TableViewSelectionType const DeselectableSingle;
+
   /// @brief Field Multiple value: static_cast<int32_t>(0x2)
   static ::HMUI::TableViewSelectionType const Multiple;
 
@@ -57,6 +61,9 @@ public:
 
   /// @brief Field Single value: static_cast<int32_t>(0x1)
   static ::HMUI::TableViewSelectionType const Single;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16062 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

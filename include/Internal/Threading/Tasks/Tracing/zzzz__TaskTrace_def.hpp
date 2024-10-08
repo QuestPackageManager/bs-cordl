@@ -16,7 +16,7 @@ class TaskTrace;
 // Write type traits
 MARK_REF_PTR_T(::Internal::Threading::Tasks::Tracing::TaskTrace);
 // Type: Internal.Threading.Tasks.Tracing::TaskTrace
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Threading::Tasks::Tracing {
 // Is value type: false
 // CS Name: ::Internal.Threading.Tasks.Tracing::TaskTrace*
@@ -24,23 +24,23 @@ class CORDL_TYPE TaskTrace : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_callbacks, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_callbacks, put = setStaticF_s_callbacks))::Internal::Runtime::Augments::TaskTraceCallbacks* s_callbacks;
+  static __declspec(property(get = getStaticF_s_callbacks, put = setStaticF_s_callbacks)) ::Internal::Runtime::Augments::TaskTraceCallbacks* s_callbacks;
 
-  /// @brief Method TaskScheduled, addr 0x27d77f0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TaskScheduled, addr 0x3bf93b0, size 0xa0, virtual false, abstract: false, final false
   static inline void TaskScheduled(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID, int32_t CreatingTaskID, int32_t TaskCreationOptions);
 
-  /// @brief Method TaskWaitBegin_Asynchronous, addr 0x27d7664, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TaskWaitBegin_Asynchronous, addr 0x3bf9224, size 0x84, virtual false, abstract: false, final false
   static inline void TaskWaitBegin_Asynchronous(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
 
-  /// @brief Method TaskWaitBegin_Synchronous, addr 0x27d76e8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TaskWaitBegin_Synchronous, addr 0x3bf92a8, size 0x84, virtual false, abstract: false, final false
   static inline void TaskWaitBegin_Synchronous(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
 
-  /// @brief Method TaskWaitEnd, addr 0x27d776c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TaskWaitEnd, addr 0x3bf932c, size 0x84, virtual false, abstract: false, final false
   static inline void TaskWaitEnd(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
 
   static inline ::Internal::Runtime::Augments::TaskTraceCallbacks* getStaticF_s_callbacks();
 
-  /// @brief Method get_Enabled, addr 0x27d7604, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Enabled, addr 0x3bf91c4, size 0x60, virtual false, abstract: false, final false
   static inline bool get_Enabled();
 
   static inline void setStaticF_s_callbacks(::Internal::Runtime::Augments::TaskTraceCallbacks* value);
@@ -58,6 +58,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TaskTrace", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TaskTrace(TaskTrace const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2303 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

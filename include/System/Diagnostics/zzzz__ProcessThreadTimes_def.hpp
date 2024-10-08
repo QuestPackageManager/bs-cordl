@@ -16,14 +16,14 @@ class ProcessThreadTimes;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::ProcessThreadTimes);
 // Type: System.Diagnostics::ProcessThreadTimes
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
 // CS Name: ::System.Diagnostics::ProcessThreadTimes*
 class CORDL_TYPE ProcessThreadTimes : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_TotalProcessorTime))::System::TimeSpan TotalProcessorTime;
+  __declspec(property(get = get_TotalProcessorTime)) ::System::TimeSpan TotalProcessorTime;
 
   /// @brief Field create, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_create, put = __cordl_internal_set_create)) int64_t create;
@@ -63,10 +63,10 @@ public:
 
   constexpr void __cordl_internal_set_user(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2fd0f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43b7ca0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TotalProcessorTime, addr 0x2fd1394, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TotalProcessorTime, addr 0x43b8088, size 0xc, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_TotalProcessorTime();
 
 protected:
@@ -94,6 +94,9 @@ public:
 
   /// @brief Field user, offset: 0x28, size: 0x8, def value: None
   int64_t ___user;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9239 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

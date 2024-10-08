@@ -23,56 +23,56 @@ class Gizmos;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Gizmos);
 // Type: UnityEngine::Gizmos
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::Gizmos*
 class CORDL_TYPE Gizmos : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DrawCube, addr 0x34559b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DrawCube, addr 0x47fb56c, size 0x50, virtual false, abstract: false, final false
   static inline void DrawCube(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 size);
 
-  /// @brief Method DrawCube_Injected, addr 0x3455a00, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DrawCube_Injected, addr 0x47fb5bc, size 0x44, virtual false, abstract: false, final false
   static inline void DrawCube_Injected(ByRef<::UnityEngine::Vector3> center, ByRef<::UnityEngine::Vector3> size);
 
-  /// @brief Method DrawLine, addr 0x3455748, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DrawLine, addr 0x47fb304, size 0x50, virtual false, abstract: false, final false
   static inline void DrawLine(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to);
 
-  /// @brief Method DrawLine_Injected, addr 0x3455798, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DrawLine_Injected, addr 0x47fb354, size 0x44, virtual false, abstract: false, final false
   static inline void DrawLine_Injected(ByRef<::UnityEngine::Vector3> from, ByRef<::UnityEngine::Vector3> to);
 
-  /// @brief Method DrawRay, addr 0x3455738, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DrawRay, addr 0x47fb6f8, size 0x10, virtual false, abstract: false, final false
   static inline void DrawRay(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 direction);
 
-  /// @brief Method DrawSphere, addr 0x345587c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DrawSphere, addr 0x47fb438, size 0x54, virtual false, abstract: false, final false
   static inline void DrawSphere(::UnityEngine::Vector3 center, float_t radius);
 
-  /// @brief Method DrawSphere_Injected, addr 0x34558d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method DrawSphere_Injected, addr 0x47fb48c, size 0x4c, virtual false, abstract: false, final false
   static inline void DrawSphere_Injected(ByRef<::UnityEngine::Vector3> center, float_t radius);
 
-  /// @brief Method DrawWireCube, addr 0x345591c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method DrawWireCube, addr 0x47fb4d8, size 0x50, virtual false, abstract: false, final false
   static inline void DrawWireCube(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 size);
 
-  /// @brief Method DrawWireCube_Injected, addr 0x345596c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DrawWireCube_Injected, addr 0x47fb528, size 0x44, virtual false, abstract: false, final false
   static inline void DrawWireCube_Injected(ByRef<::UnityEngine::Vector3> center, ByRef<::UnityEngine::Vector3> size);
 
-  /// @brief Method DrawWireSphere, addr 0x34557dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DrawWireSphere, addr 0x47fb398, size 0x54, virtual false, abstract: false, final false
   static inline void DrawWireSphere(::UnityEngine::Vector3 center, float_t radius);
 
-  /// @brief Method DrawWireSphere_Injected, addr 0x3455830, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method DrawWireSphere_Injected, addr 0x47fb3ec, size 0x4c, virtual false, abstract: false, final false
   static inline void DrawWireSphere_Injected(ByRef<::UnityEngine::Vector3> center, float_t radius);
 
-  /// @brief Method set_color, addr 0x3455a44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x47fb600, size 0x44, virtual false, abstract: false, final false
   static inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_color_Injected, addr 0x3455a88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_color_Injected, addr 0x47fb644, size 0x3c, virtual false, abstract: false, final false
   static inline void set_color_Injected(ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method set_matrix, addr 0x3455ac4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_matrix, addr 0x47fb680, size 0x3c, virtual false, abstract: false, final false
   static inline void set_matrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method set_matrix_Injected, addr 0x3455b00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_matrix_Injected, addr 0x47fb6bc, size 0x3c, virtual false, abstract: false, final false
   static inline void set_matrix_Injected(ByRef<::UnityEngine::Matrix4x4> value);
 
 protected:
@@ -88,6 +88,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Gizmos", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Gizmos(Gizmos const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10667 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

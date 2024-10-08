@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Meta::XR::Samples::Telemetry::SampleTelemetryEvents);
 MARK_REF_PTR_T(::Meta::XR::Samples::Telemetry::__SampleTelemetryEvents__AnnotationTypes);
 MARK_REF_PTR_T(::Meta::XR::Samples::Telemetry::__SampleTelemetryEvents__EventTypes);
 // Type: ::EventTypes
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Meta::XR::Samples::Telemetry {
 // Is value type: false
 // CS Name: ::SampleTelemetryEvents::EventTypes*
@@ -57,6 +57,9 @@ public:
   /// @brief Field Run offset 0xffffffff size 0x4
   static constexpr int32_t Run{ static_cast<int32_t>(0x9b81f62) };
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9014 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -64,7 +67,7 @@ static_assert(::cordl_internals::size_check_v<::Meta::XR::Samples::Telemetry::__
 
 } // namespace Meta::XR::Samples::Telemetry
 // Type: ::AnnotationTypes
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Meta::XR::Samples::Telemetry {
 // Is value type: false
 // CS Name: ::SampleTelemetryEvents::AnnotationTypes*
@@ -103,6 +106,9 @@ public:
   /// @brief Field TimeSpent offset 0xffffffff size 0x8
   static constexpr ::ConstString TimeSpent{ u"TimeSpent" };
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9015 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -110,7 +116,7 @@ static_assert(::cordl_internals::size_check_v<::Meta::XR::Samples::Telemetry::__
 
 } // namespace Meta::XR::Samples::Telemetry
 // Type: Meta.XR.Samples.Telemetry::SampleTelemetryEvents
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Meta::XR::Samples::Telemetry {
 // Is value type: false
 // CS Name: ::Meta.XR.Samples.Telemetry::SampleTelemetryEvents*
@@ -134,6 +140,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SampleTelemetryEvents", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SampleTelemetryEvents(SampleTelemetryEvents const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9016 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

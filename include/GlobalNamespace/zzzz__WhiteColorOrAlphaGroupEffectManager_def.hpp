@@ -26,33 +26,34 @@ class WhiteColorOrAlphaGroupEffectManager;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager);
 // Type: ::WhiteColorOrAlphaGroupEffectManager
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::WhiteColorOrAlphaGroupEffectManager*
 class CORDL_TYPE WhiteColorOrAlphaGroupEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _color, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
+  /// @brief Field _color, offset 0x28, size 0x10
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color)) ::UnityEngine::Color _color;
 
-  /// @brief Field _container, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  /// @brief Field _container, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
-  /// @brief Field _lightGroup, offset 0x18, size 0x8
+  /// @brief Field _lightGroup, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__lightGroup,
-                      put = __cordl_internal_set__lightGroup))::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> _lightGroup;
+                      put = __cordl_internal_set__lightGroup)) ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*>
+      _lightGroup;
 
-  /// @brief Field _whiteColorOrAlphaEffects, offset 0x38, size 0x8
+  /// @brief Field _whiteColorOrAlphaEffects, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__whiteColorOrAlphaEffects,
-                      put = __cordl_internal_set__whiteColorOrAlphaEffects))::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>* _whiteColorOrAlphaEffects;
+                      put = __cordl_internal_set__whiteColorOrAlphaEffects)) ::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>* _whiteColorOrAlphaEffects;
 
   static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26f6014, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b167f4, size 0x148, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x26f5d94, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b1657c, size 0x278, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -80,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__whiteColorOrAlphaEffects(::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>* value);
 
-  /// @brief Method .ctor, addr 0x26f615c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1693c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,30 +98,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WhiteColorOrAlphaGroupEffectManager(WhiteColorOrAlphaGroupEffectManager const&) = delete;
 
-  /// @brief Field _lightGroup, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _lightGroup, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> ____lightGroup;
 
-  /// @brief Field _color, offset: 0x20, size: 0x10, def value: None
+  /// @brief Field _color, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 
-  /// @brief Field _container, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _container, offset: 0x38, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
-  /// @brief Field _whiteColorOrAlphaEffects, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _whiteColorOrAlphaEffects, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>* ____whiteColorOrAlphaEffects;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4277 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, ____lightGroup) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, ____lightGroup) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, ____color) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, ____color) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, ____container) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, ____container) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, ____whiteColorOrAlphaEffects) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager, ____whiteColorOrAlphaEffects) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager);

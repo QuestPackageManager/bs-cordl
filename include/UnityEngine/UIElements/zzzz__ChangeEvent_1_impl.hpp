@@ -1,7 +1,33 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/ChangeEvent_1.hpp"
+#include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
+template <typename T> inline void UnityEngine::UIElements::__ChangeEvent_1____c<T>::setStaticF___9(::UnityEngine::UIElements::__ChangeEvent_1____c<T>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::__ChangeEvent_1____c<T>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ChangeEvent_1____c<T>*>::get>(
+      std::forward<::UnityEngine::UIElements::__ChangeEvent_1____c<T>*>(value));
+}
+template <typename T> inline ::UnityEngine::UIElements::__ChangeEvent_1____c<T>* UnityEngine::UIElements::__ChangeEvent_1____c<T>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::__ChangeEvent_1____c<T>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ChangeEvent_1____c<T>*>::get>();
+}
+template <typename T> inline ::UnityEngine::UIElements::__ChangeEvent_1____c<T>* UnityEngine::UIElements::__ChangeEvent_1____c<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__ChangeEvent_1____c<T>*>());
+}
+template <typename T> inline void UnityEngine::UIElements::__ChangeEvent_1____c<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ChangeEvent_1____c<T>*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::UIElements::ChangeEvent_1<T>* UnityEngine::UIElements::__ChangeEvent_1____c<T>::__cctor_b__0_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ChangeEvent_1____c<T>*>::get(),
+                                                                             "<.cctor>b__0_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ChangeEvent_1<T>*, false>(this, ___internal_method);
+}
+// Ctor Parameters []
+template <typename T> constexpr ::UnityEngine::UIElements::__ChangeEvent_1____c<T>::__ChangeEvent_1____c() {}
 template <typename T> constexpr T& UnityEngine::UIElements::ChangeEvent_1<T>::__cordl_internal_get__previousValue_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previousValue_k__BackingField;

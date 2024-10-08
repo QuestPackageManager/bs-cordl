@@ -13,7 +13,7 @@ class MonoTODOAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::MonoTODOAttribute);
 // Type: System::MonoTODOAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::MonoTODOAttribute*
@@ -21,7 +21,7 @@ class CORDL_TYPE MonoTODOAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field comment, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_comment, put = __cordl_internal_set_comment))::StringW comment;
+  __declspec(property(get = __cordl_internal_get_comment, put = __cordl_internal_set_comment)) ::StringW comment;
 
   static inline ::System::MonoTODOAttribute* New_ctor();
 
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_comment(::StringW value);
 
-  /// @brief Method .ctor, addr 0x298ca5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d9dd88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x298ca6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d9dd98, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment);
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field comment, offset: 0x10, size: 0x8, def value: None
   ::StringW ___comment;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2537 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -94,8 +94,126 @@ MARK_GEN_REF_PTR_T(::Zenject::__FactoryFromBinder_1____c__5_1);
 MARK_GEN_REF_PTR_T(::Zenject::__FactoryFromBinder_1____c__DisplayClass3_0_1);
 MARK_GEN_REF_PTR_T(::Zenject::__FactoryFromBinder_1____c__DisplayClass4_0);
 MARK_GEN_REF_PTR_T(::Zenject::__FactoryFromBinder_1____c__DisplayClass8_0);
+// Type: ::<>c
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace Zenject {
+// cpp template
+template <typename TContract>
+// Is value type: false
+// CS Name: ::FactoryFromBinder`1::<>c<TContract>*
+class CORDL_TYPE __FactoryFromBinder_1____c : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Zenject::__FactoryFromBinder_1____c<TContract>* __9;
+
+  /// @brief Field <>9__8_2, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__8_2, put = setStaticF___9__8_2)) ::System::Func_2<TContract, bool>* __9__8_2;
+
+  static inline ::Zenject::__FactoryFromBinder_1____c<TContract>* New_ctor();
+
+  /// @brief Method <FromComponentInHierarchy>b__8_2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool _FromComponentInHierarchy_b__8_2(TContract x);
+
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::Zenject::__FactoryFromBinder_1____c<TContract>* getStaticF___9();
+
+  static inline ::System::Func_2<TContract, bool>* getStaticF___9__8_2();
+
+  static inline void setStaticF___9(::Zenject::__FactoryFromBinder_1____c<TContract>* value);
+
+  static inline void setStaticF___9__8_2(::System::Func_2<TContract, bool>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FactoryFromBinder_1____c();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder_1____c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __FactoryFromBinder_1____c(__FactoryFromBinder_1____c&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder_1____c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __FactoryFromBinder_1____c(__FactoryFromBinder_1____c const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12010 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace Zenject
+// Type: ::<>c__5`1
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace Zenject {
+// cpp template
+template <typename TContract, typename TSubFactory>
+// Is value type: false
+// CS Name: ::FactoryFromBinder`1::<>c__5`1<TContract,TSubFactory>*
+class CORDL_TYPE __FactoryFromBinder_1____c__5_1 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>* __9;
+
+  /// @brief Field <>9__5_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0)) ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* __9__5_0;
+
+  static inline ::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>* New_ctor();
+
+  /// @brief Method <FromFactory>b__5_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _FromFactory_b__5_0(::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>* x);
+
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>* getStaticF___9();
+
+  static inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* getStaticF___9__5_0();
+
+  static inline void setStaticF___9(::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>* value);
+
+  static inline void setStaticF___9__5_0(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FactoryFromBinder_1____c__5_1();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder_1____c__5_1", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __FactoryFromBinder_1____c__5_1(__FactoryFromBinder_1____c__5_1&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder_1____c__5_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __FactoryFromBinder_1____c__5_1(__FactoryFromBinder_1____c__5_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12011 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace Zenject
 // Type: ::<>c__DisplayClass3_0`1
-// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract, typename TObj>
@@ -105,13 +223,13 @@ class CORDL_TYPE __FactoryFromBinder_1____c__DisplayClass3_0_1 : public ::System
 public:
   // Declarations
   /// @brief Field method, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::System::Func_2<TObj, TContract>* method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method)) ::System::Func_2<TObj, TContract>* method;
 
   /// @brief Field source, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::Zenject::InjectSources source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::Zenject::InjectSources source;
 
   /// @brief Field subIdentifier, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_subIdentifier, put = __cordl_internal_set_subIdentifier))::System::Object* subIdentifier;
+  __declspec(property(get = __cordl_internal_get_subIdentifier, put = __cordl_internal_set_subIdentifier)) ::System::Object* subIdentifier;
 
   static inline ::Zenject::__FactoryFromBinder_1____c__DisplayClass3_0_1<TContract, TObj>* New_ctor();
 
@@ -168,12 +286,15 @@ public:
   /// @brief Field source, offset: 0x20, size: 0x4, def value: None
   ::Zenject::InjectSources ___source;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12012 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: ::<>c__DisplayClass4_0
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -183,7 +304,7 @@ class CORDL_TYPE __FactoryFromBinder_1____c__DisplayClass4_0 : public ::System::
 public:
   // Declarations
   /// @brief Field method, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::System::Func_2<::Zenject::DiContainer*, TContract>* method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method)) ::System::Func_2<::Zenject::DiContainer*, TContract>* method;
 
   static inline ::Zenject::__FactoryFromBinder_1____c__DisplayClass4_0<TContract>* New_ctor();
 
@@ -222,68 +343,15 @@ public:
   /// @brief Field method, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::Zenject::DiContainer*, TContract>* ___method;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace Zenject
-// Type: ::<>c__5`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace Zenject {
-// cpp template
-template <typename TContract, typename TSubFactory>
-// Is value type: false
-// CS Name: ::FactoryFromBinder`1::<>c__5`1<TContract,TSubFactory>*
-class CORDL_TYPE __FactoryFromBinder_1____c__5_1 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>* __9;
-
-  /// @brief Field <>9__5_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0))::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* __9__5_0;
-
-  static inline ::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>* New_ctor();
-
-  /// @brief Method <FromFactory>b__5_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _FromFactory_b__5_0(::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>* x);
-
-  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>* getStaticF___9();
-
-  static inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* getStaticF___9__5_0();
-
-  static inline void setStaticF___9(::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>* value);
-
-  static inline void setStaticF___9__5_0(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* value);
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FactoryFromBinder_1____c__5_1();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder_1____c__5_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __FactoryFromBinder_1____c__5_1(__FactoryFromBinder_1____c__5_1&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder_1____c__5_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __FactoryFromBinder_1____c__5_1(__FactoryFromBinder_1____c__5_1 const&) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12013 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: ::<>c__DisplayClass8_0
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -293,10 +361,10 @@ class CORDL_TYPE __FactoryFromBinder_1____c__DisplayClass8_0 : public ::System::
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::FactoryFromBinder_1<TContract>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Zenject::FactoryFromBinder_1<TContract>* __4__this;
 
   /// @brief Field <>9__1, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___9__1, put = __cordl_internal_set___9__1))::System::Func_2<::UnityW<::UnityEngine::GameObject>, TContract>* __9__1;
+  __declspec(property(get = __cordl_internal_get___9__1, put = __cordl_internal_set___9__1)) ::System::Func_2<::UnityW<::UnityEngine::GameObject>, TContract>* __9__1;
 
   /// @brief Field includeInactive, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_includeInactive, put = __cordl_internal_set_includeInactive)) bool includeInactive;
@@ -359,68 +427,15 @@ public:
   /// @brief Field <>9__1, offset: 0x20, size: 0x8, def value: None
   ::System::Func_2<::UnityW<::UnityEngine::GameObject>, TContract>* _____9__1;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace Zenject
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace Zenject {
-// cpp template
-template <typename TContract>
-// Is value type: false
-// CS Name: ::FactoryFromBinder`1::<>c<TContract>*
-class CORDL_TYPE __FactoryFromBinder_1____c : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Zenject::__FactoryFromBinder_1____c<TContract>* __9;
-
-  /// @brief Field <>9__8_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__8_2, put = setStaticF___9__8_2))::System::Func_2<TContract, bool>* __9__8_2;
-
-  static inline ::Zenject::__FactoryFromBinder_1____c<TContract>* New_ctor();
-
-  /// @brief Method <FromComponentInHierarchy>b__8_2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool _FromComponentInHierarchy_b__8_2(TContract x);
-
-  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::Zenject::__FactoryFromBinder_1____c<TContract>* getStaticF___9();
-
-  static inline ::System::Func_2<TContract, bool>* getStaticF___9__8_2();
-
-  static inline void setStaticF___9(::Zenject::__FactoryFromBinder_1____c<TContract>* value);
-
-  static inline void setStaticF___9__8_2(::System::Func_2<TContract, bool>* value);
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FactoryFromBinder_1____c();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder_1____c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __FactoryFromBinder_1____c(__FactoryFromBinder_1____c&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder_1____c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __FactoryFromBinder_1____c(__FactoryFromBinder_1____c const&) = delete;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12014 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: Zenject::FactoryFromBinder`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -481,6 +496,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FactoryFromBinder_1(FactoryFromBinder_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12015 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -44,7 +44,7 @@ class __NtlmClient____c;
 MARK_REF_PTR_T(::Mono::Http::NtlmClient);
 MARK_REF_PTR_T(::Mono::Http::__NtlmClient____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Http {
 // Is value type: false
 // CS Name: ::NtlmClient::<>c*
@@ -52,19 +52,19 @@ class CORDL_TYPE __NtlmClient____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Mono::Http::__NtlmClient____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Mono::Http::__NtlmClient____c* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF___9__1_0,
-               put = setStaticF___9__1_0))::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>* __9__1_0;
+  static __declspec(property(
+      get = getStaticF___9__1_0,
+      put = setStaticF___9__1_0)) ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>* __9__1_0;
 
   static inline ::Mono::Http::__NtlmClient____c* New_ctor();
 
-  /// @brief Method <Authenticate>b__1_0, addr 0x2ca0fa4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Authenticate>b__1_0, addr 0x40a1f78, size 0x54, virtual false, abstract: false, final false
   inline ::Mono::Http::NtlmSession* _Authenticate_b__1_0(::System::Net::HttpWebRequest* x);
 
-  /// @brief Method .ctor, addr 0x2ca0f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a1f70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::Http::__NtlmClient____c* getStaticF___9();
@@ -89,6 +89,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NtlmClient____c(__NtlmClient____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9136 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -96,7 +99,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Http::__NtlmClient____c, 0
 
 } // namespace Mono::Http
 // Type: Mono.Http::NtlmClient
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Http {
 // Is value type: false
 // CS Name: ::Mono.Http::NtlmClient*
@@ -105,29 +108,29 @@ public:
   // Declarations
   using __c = ::Mono::Http::__NtlmClient____c;
 
-  __declspec(property(get = get_AuthenticationType))::StringW AuthenticationType;
+  __declspec(property(get = get_AuthenticationType)) ::StringW AuthenticationType;
 
   /// @brief Field cache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_cache,
-                             put = setStaticF_cache))::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>* cache;
+                             put = setStaticF_cache)) ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>* cache;
 
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-  /// @brief Method Authenticate, addr 0x2ca0ad8, size 0x384, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x40a1ad4, size 0x364, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   static inline ::Mono::Http::NtlmClient* New_ctor();
 
-  /// @brief Method PreAuthenticate, addr 0x2ca0e5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x40a1e38, size 0x8, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method .ctor, addr 0x2ca0ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a1e80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>* getStaticF_cache();
 
-  /// @brief Method get_AuthenticationType, addr 0x2ca0e64, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x40a1e40, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
   /// @brief Convert to "::System::Net::IAuthenticationModule"
@@ -148,6 +151,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NtlmClient", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NtlmClient(NtlmClient const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9137 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,27 +26,27 @@ class __InitializeLocalInstruction__ImmutableValue;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue);
 // Type: ::ImmutableValue
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::InitializeLocalInstruction::ImmutableValue*
 class CORDL_TYPE __InitializeLocalInstruction__ImmutableValue : public ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction {
 public:
   // Declarations
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
   /// @brief Field _defaultValue, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultValue, put = __cordl_internal_set__defaultValue))::System::Object* _defaultValue;
+  __declspec(property(get = __cordl_internal_get__defaultValue, put = __cordl_internal_set__defaultValue)) ::System::Object* _defaultValue;
 
   /// @brief Convert operator to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
   constexpr operator ::System::Linq::Expressions::Interpreter::IBoxableInstruction*() noexcept;
 
-  /// @brief Method BoxIfIndexMatches, addr 0x2c700fc, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method BoxIfIndexMatches, addr 0x4073154, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int32_t index);
 
   static inline ::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ImmutableValue* New_ctor(int32_t index, ::System::Object* defaultValue);
 
-  /// @brief Method Run, addr 0x2c70090, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40730e8, size 0x6c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Object*& __cordl_internal_get__defaultValue();
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__defaultValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2c70060, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40730b8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::System::Object* defaultValue);
 
-  /// @brief Method get_InstructionName, addr 0x2c701b0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x4073200, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
   /// @brief Convert to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
@@ -80,6 +80,9 @@ public:
 
   /// @brief Field _defaultValue, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____defaultValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

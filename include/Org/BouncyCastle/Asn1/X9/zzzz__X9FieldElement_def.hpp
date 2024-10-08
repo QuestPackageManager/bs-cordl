@@ -25,17 +25,17 @@ class X9FieldElement;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::X9FieldElement);
 // Type: Org.BouncyCastle.Asn1.X9::X9FieldElement
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X9::X9FieldElement*
 class CORDL_TYPE X9FieldElement : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_Value))::Org::BouncyCastle::Math::EC::ECFieldElement* Value;
+  __declspec(property(get = get_Value)) ::Org::BouncyCastle::Math::EC::ECFieldElement* Value;
 
   /// @brief Field f, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_f, put = __cordl_internal_set_f))::Org::BouncyCastle::Math::EC::ECFieldElement* f;
+  __declspec(property(get = __cordl_internal_get_f, put = __cordl_internal_set_f)) ::Org::BouncyCastle::Math::EC::ECFieldElement* f;
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldElement* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* f);
 
@@ -43,7 +43,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method ToAsn1Object, addr 0x142456c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25e8f7c, size 0xac, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __cordl_internal_get_f();
@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set_f(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
 
-  /// @brief Method .ctor, addr 0x1423050, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e7ab0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* f);
 
-  /// @brief Method .ctor, addr 0x1424468, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e8e80, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method .ctor, addr 0x1424394, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e8db4, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method get_Value, addr 0x1424564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x25e8f74, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_Value();
 
 protected:
@@ -80,6 +80,9 @@ public:
 
   /// @brief Field f, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::EC::ECFieldElement* ___f;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 445 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

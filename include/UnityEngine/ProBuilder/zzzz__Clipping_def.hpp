@@ -25,7 +25,7 @@ class Clipping;
 MARK_VAL_T(::UnityEngine::ProBuilder::__Clipping__OutCode);
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Clipping);
 // Type: ::OutCode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // CS Name: ::Clipping::OutCode
@@ -78,6 +78,9 @@ public:
   /// @brief Field Top value: static_cast<int32_t>(0x8)
   static ::UnityEngine::ProBuilder::__Clipping__OutCode const Top;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14181 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -90,7 +93,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__Clipping__OutCode, value__) 
 
 } // namespace UnityEngine::ProBuilder
 // Type: UnityEngine.ProBuilder::Clipping
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::Clipping*
@@ -99,10 +102,10 @@ public:
   // Declarations
   using OutCode = ::UnityEngine::ProBuilder::__Clipping__OutCode;
 
-  /// @brief Method ComputeOutCode, addr 0x32ad798, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ComputeOutCode, addr 0x468da7c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::__Clipping__OutCode ComputeOutCode(::UnityEngine::Rect rect, float_t x, float_t y);
 
-  /// @brief Method RectContainsLineSegment, addr 0x32ad834, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method RectContainsLineSegment, addr 0x468dac8, size 0x1c0, virtual false, abstract: false, final false
   static inline bool RectContainsLineSegment(::UnityEngine::Rect rect, float_t x0, float_t y0, float_t x1, float_t y1);
 
 protected:
@@ -118,6 +121,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Clipping", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Clipping(Clipping const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14182 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

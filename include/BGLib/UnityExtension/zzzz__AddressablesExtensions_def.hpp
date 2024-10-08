@@ -41,7 +41,7 @@ template <typename T> class __AddressablesExtensions____c__DisplayClass3_0_1;
 MARK_REF_PTR_T(::BGLib::UnityExtension::AddressablesExtensions);
 MARK_GEN_REF_PTR_T(::BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1);
 // Type: ::<>c__DisplayClass3_0`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // cpp template
 template <typename T>
@@ -51,11 +51,11 @@ class CORDL_TYPE __AddressablesExtensions____c__DisplayClass3_0_1 : public ::Sys
 public:
   // Declarations
   /// @brief Field asyncOperationHandle, offset 0x10, size 0x20
-  __declspec(property(get = __cordl_internal_get_asyncOperationHandle,
-                      put = __cordl_internal_set_asyncOperationHandle))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> asyncOperationHandle;
+  __declspec(property(get = __cordl_internal_get_asyncOperationHandle, put = __cordl_internal_set_asyncOperationHandle)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>
+      asyncOperationHandle;
 
   /// @brief Field taskSource, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_taskSource, put = __cordl_internal_set_taskSource))::System::Threading::Tasks::TaskCompletionSource_1<T>* taskSource;
+  __declspec(property(get = __cordl_internal_get_taskSource, put = __cordl_internal_set_taskSource)) ::System::Threading::Tasks::TaskCompletionSource_1<T>* taskSource;
 
   static inline ::BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>* New_ctor();
 
@@ -97,12 +97,15 @@ public:
   /// @brief Field taskSource, offset: 0x30, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<T>* ___taskSource;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17211 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace BGLib::UnityExtension
 // Type: BGLib.UnityExtension::AddressablesExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: false
 // CS Name: ::BGLib.UnityExtension::AddressablesExtensions*
@@ -138,6 +141,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AddressablesExtensions(AddressablesExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17212 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

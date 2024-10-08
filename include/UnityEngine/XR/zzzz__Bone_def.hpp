@@ -19,7 +19,7 @@ struct Bone;
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::Bone);
 // Type: UnityEngine.XR::Bone
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
 // CS Name: ::UnityEngine.XR::Bone
@@ -33,19 +33,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::Bone>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::Bone>*();
 
-  /// @brief Method Equals, addr 0x36497b8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a6fef4, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3649840, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a6ff7c, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::Bone other);
 
-  /// @brief Method GetHashCode, addr 0x3649864, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a6ffa0, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_deviceId, addr 0x36497a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceId, addr 0x4a6fee4, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_deviceId();
 
-  /// @brief Method get_featureIndex, addr 0x36497b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_featureIndex, addr 0x4a6feec, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_featureIndex();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::Bone>"
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field m_FeatureIndex, offset: 0x8, size: 0x4, def value: None
   uint32_t m_FeatureIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18185 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

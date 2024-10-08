@@ -31,7 +31,7 @@ class __CrossContextChannel__ContextRestoreSink;
 MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::CrossContextChannel);
 MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::__CrossContextChannel__ContextRestoreSink);
 // Type: ::ContextRestoreSink
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // CS Name: ::CrossContextChannel::ContextRestoreSink*
@@ -39,25 +39,25 @@ class CORDL_TYPE __CrossContextChannel__ContextRestoreSink : public ::System::Ob
 public:
   // Declarations
   /// @brief Field _call, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__call, put = __cordl_internal_set__call))::System::Runtime::Remoting::Messaging::IMessage* _call;
+  __declspec(property(get = __cordl_internal_get__call, put = __cordl_internal_set__call)) ::System::Runtime::Remoting::Messaging::IMessage* _call;
 
   /// @brief Field _context, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::System::Runtime::Remoting::Contexts::Context* _context;
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context)) ::System::Runtime::Remoting::Contexts::Context* _context;
 
   /// @brief Field _next, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next))::System::Runtime::Remoting::Messaging::IMessageSink* _next;
+  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next)) ::System::Runtime::Remoting::Messaging::IMessageSink* _next;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x284dbc4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x3c6a8e0, size 0x38, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Contexts::__CrossContextChannel__ContextRestoreSink*
   New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Runtime::Remoting::Messaging::IMessage* call);
 
-  /// @brief Method SyncProcessMessage, addr 0x284d908, size 0x2bc, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x3c6a62c, size 0x2b4, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessage*& __cordl_internal_get__call();
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__next(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x284d8c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c6a5e8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Runtime::Remoting::Messaging::IMessage* call);
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
@@ -107,6 +107,9 @@ public:
   /// @brief Field _call, offset: 0x20, size: 0x8, def value: None
   ::System::Runtime::Remoting::Messaging::IMessage* ____call;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3101 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -120,7 +123,7 @@ static_assert(offsetof(::System::Runtime::Remoting::Contexts::__CrossContextChan
 
 } // namespace System::Runtime::Remoting::Contexts
 // Type: System.Runtime.Remoting.Contexts::CrossContextChannel
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Contexts::CrossContextChannel*
@@ -132,16 +135,16 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x284d478, size 0x44c, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x3c6a1b4, size 0x434, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Contexts::CrossContextChannel* New_ctor();
 
-  /// @brief Method SyncProcessMessage, addr 0x284d0a0, size 0x3d8, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x3c69dec, size 0x3c8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method .ctor, addr 0x284d900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c6a624, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
@@ -160,6 +163,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CrossContextChannel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CrossContextChannel(CrossContextChannel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3102 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

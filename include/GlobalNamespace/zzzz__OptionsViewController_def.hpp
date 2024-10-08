@@ -27,7 +27,7 @@ class OptionsViewController;
 MARK_VAL_T(::GlobalNamespace::__OptionsViewController__OptionsButton);
 MARK_REF_PTR_T(::GlobalNamespace::OptionsViewController);
 // Type: ::OptionsButton
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OptionsViewController::OptionsButton
@@ -72,6 +72,9 @@ public:
   /// @brief Field Settings value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__OptionsViewController__OptionsButton const Settings;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4926 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -84,7 +87,7 @@ static_assert(offsetof(::GlobalNamespace::__OptionsViewController__OptionsButton
 
 } // namespace GlobalNamespace
 // Type: ::OptionsViewController
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OptionsViewController*
@@ -93,31 +96,31 @@ public:
   // Declarations
   using OptionsButton = ::GlobalNamespace::__OptionsViewController__OptionsButton;
 
-  /// @brief Field _editAvatarButton, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__editAvatarButton, put = __cordl_internal_set__editAvatarButton))::UnityW<::UnityEngine::UI::Button> _editAvatarButton;
+  /// @brief Field _editAvatarButton, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__editAvatarButton, put = __cordl_internal_set__editAvatarButton)) ::UnityW<::UnityEngine::UI::Button> _editAvatarButton;
 
-  /// @brief Field _playerOptionsButton, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerOptionsButton, put = __cordl_internal_set__playerOptionsButton))::UnityW<::UnityEngine::UI::Button> _playerOptionsButton;
+  /// @brief Field _playerOptionsButton, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerOptionsButton, put = __cordl_internal_set__playerOptionsButton)) ::UnityW<::UnityEngine::UI::Button> _playerOptionsButton;
 
-  /// @brief Field _settingsButton, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__settingsButton, put = __cordl_internal_set__settingsButton))::UnityW<::UnityEngine::UI::Button> _settingsButton;
+  /// @brief Field _settingsButton, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__settingsButton, put = __cordl_internal_set__settingsButton)) ::UnityW<::UnityEngine::UI::Button> _settingsButton;
 
-  /// @brief Field didFinishEvent, offset 0x88, size 0x8
+  /// @brief Field didFinishEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent))::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* didFinishEvent;
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x268e138, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3bab96c, size 0x150, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::OptionsViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__7_0, addr 0x268e29c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_0, addr 0x3babac4, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_0();
 
-  /// @brief Method <DidActivate>b__7_1, addr 0x268e2bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_1, addr 0x3babae4, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_1();
 
-  /// @brief Method <DidActivate>b__7_2, addr 0x268e2dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_2, addr 0x3babb04, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_2();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__editAvatarButton() const;
@@ -144,13 +147,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
-  /// @brief Method .ctor, addr 0x268e294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bababc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x268dfd8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3bab80c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x268e088, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3bab8bc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
 protected:
@@ -167,30 +170,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OptionsViewController(OptionsViewController const&) = delete;
 
-  /// @brief Field _editAvatarButton, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _editAvatarButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____editAvatarButton;
 
-  /// @brief Field _playerOptionsButton, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _playerOptionsButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____playerOptionsButton;
 
-  /// @brief Field _settingsButton, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _settingsButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____settingsButton;
 
-  /// @brief Field didFinishEvent, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* ___didFinishEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4927 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OptionsViewController, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OptionsViewController, 0x98>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OptionsViewController, ____editAvatarButton) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OptionsViewController, ____editAvatarButton) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OptionsViewController, ____playerOptionsButton) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OptionsViewController, ____playerOptionsButton) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OptionsViewController, ____settingsButton) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OptionsViewController, ____settingsButton) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OptionsViewController, ___didFinishEvent) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OptionsViewController, ___didFinishEvent) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OptionsViewController__OptionsButton, "", "OptionsViewController/OptionsButton");

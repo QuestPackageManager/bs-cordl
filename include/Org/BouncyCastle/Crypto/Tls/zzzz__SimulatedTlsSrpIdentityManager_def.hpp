@@ -29,7 +29,7 @@ class SimulatedTlsSrpIdentityManager;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager);
 // Type: Org.BouncyCastle.Crypto.Tls::SimulatedTlsSrpIdentityManager
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SimulatedTlsSrpIdentityManager*
@@ -37,28 +37,28 @@ class CORDL_TYPE SimulatedTlsSrpIdentityManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field PREFIX_PASSWORD, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PREFIX_PASSWORD, put = setStaticF_PREFIX_PASSWORD))::ArrayW<uint8_t, ::Array<uint8_t>*> PREFIX_PASSWORD;
+  static __declspec(property(get = getStaticF_PREFIX_PASSWORD, put = setStaticF_PREFIX_PASSWORD)) ::ArrayW<uint8_t, ::Array<uint8_t>*> PREFIX_PASSWORD;
 
   /// @brief Field PREFIX_SALT, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PREFIX_SALT, put = setStaticF_PREFIX_SALT))::ArrayW<uint8_t, ::Array<uint8_t>*> PREFIX_SALT;
+  static __declspec(property(get = getStaticF_PREFIX_SALT, put = setStaticF_PREFIX_SALT)) ::ArrayW<uint8_t, ::Array<uint8_t>*> PREFIX_SALT;
 
   /// @brief Field mGroup, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mGroup, put = __cordl_internal_set_mGroup))::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* mGroup;
+  __declspec(property(get = __cordl_internal_get_mGroup, put = __cordl_internal_set_mGroup)) ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* mGroup;
 
   /// @brief Field mMac, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mMac, put = __cordl_internal_set_mMac))::Org::BouncyCastle::Crypto::IMac* mMac;
+  __declspec(property(get = __cordl_internal_get_mMac, put = __cordl_internal_set_mMac)) ::Org::BouncyCastle::Crypto::IMac* mMac;
 
   /// @brief Field mVerifierGenerator, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mVerifierGenerator,
-                      put = __cordl_internal_set_mVerifierGenerator))::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* mVerifierGenerator;
+                      put = __cordl_internal_set_mVerifierGenerator)) ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* mVerifierGenerator;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*() noexcept;
 
-  /// @brief Method GetLoginParameters, addr 0x1208160, size 0x4bc, virtual true, abstract: false, final false
+  /// @brief Method GetLoginParameters, addr 0x23dbce0, size 0x4b8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* GetLoginParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> identity);
 
-  /// @brief Method GetRfc5054Default, addr 0x1207fa8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetRfc5054Default, addr 0x23dbb30, size 0x174, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager* GetRfc5054Default(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group,
                                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> seedKey);
 
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_mVerifierGenerator(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* value);
 
-  /// @brief Method .ctor, addr 0x1208124, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dbca4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* verifierGenerator,
                     ::Org::BouncyCastle::Crypto::IMac* mac);
 
@@ -121,6 +121,9 @@ public:
 
   /// @brief Field mMac, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IMac* ___mMac;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1279 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

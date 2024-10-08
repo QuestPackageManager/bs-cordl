@@ -24,7 +24,7 @@ class NetworkConfigSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NetworkConfigSO);
 // Type: ::NetworkConfigSO
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NetworkConfigSO*
@@ -38,13 +38,13 @@ public:
   __declspec(property(get = __cordl_internal_get__forceGameLift, put = __cordl_internal_set__forceGameLift)) bool _forceGameLift;
 
   /// @brief Field _graphAppId, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__graphAppId, put = __cordl_internal_set__graphAppId))::StringW _graphAppId;
+  __declspec(property(get = __cordl_internal_get__graphAppId, put = __cordl_internal_set__graphAppId)) ::StringW _graphAppId;
 
   /// @brief Field _graphUrl, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__graphUrl, put = __cordl_internal_set__graphUrl))::StringW _graphUrl;
+  __declspec(property(get = __cordl_internal_get__graphUrl, put = __cordl_internal_set__graphUrl)) ::StringW _graphUrl;
 
   /// @brief Field _masterServerHostName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__masterServerHostName, put = __cordl_internal_set__masterServerHostName))::StringW _masterServerHostName;
+  __declspec(property(get = __cordl_internal_get__masterServerHostName, put = __cordl_internal_set__masterServerHostName)) ::StringW _masterServerHostName;
 
   /// @brief Field _masterServerPort, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__masterServerPort, put = __cordl_internal_set__masterServerPort)) int32_t _masterServerPort;
@@ -56,40 +56,40 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplayerPort, put = __cordl_internal_set__multiplayerPort)) int32_t _multiplayerPort;
 
   /// @brief Field _multiplayerStatusUrl, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerStatusUrl, put = __cordl_internal_set__multiplayerStatusUrl))::StringW _multiplayerStatusUrl;
+  __declspec(property(get = __cordl_internal_get__multiplayerStatusUrl, put = __cordl_internal_set__multiplayerStatusUrl)) ::StringW _multiplayerStatusUrl;
 
   /// @brief Field _partyPort, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__partyPort, put = __cordl_internal_set__partyPort)) int32_t _partyPort;
 
   /// @brief Field _quickPlaySetupUrl, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__quickPlaySetupUrl, put = __cordl_internal_set__quickPlaySetupUrl))::StringW _quickPlaySetupUrl;
+  __declspec(property(get = __cordl_internal_get__quickPlaySetupUrl, put = __cordl_internal_set__quickPlaySetupUrl)) ::StringW _quickPlaySetupUrl;
 
   /// @brief Field _serviceEnvironment, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get__serviceEnvironment, put = __cordl_internal_set__serviceEnvironment))::GlobalNamespace::ServiceEnvironment _serviceEnvironment;
+  __declspec(property(get = __cordl_internal_get__serviceEnvironment, put = __cordl_internal_set__serviceEnvironment)) ::GlobalNamespace::ServiceEnvironment _serviceEnvironment;
 
-  __declspec(property(get = get_appId))::StringW appId;
+  __declspec(property(get = get_appId)) ::StringW appId;
 
   __declspec(property(get = get_discoveryPort)) int32_t discoveryPort;
 
   __declspec(property(get = get_forceGameLift)) bool forceGameLift;
 
-  __declspec(property(get = get_graphAccessToken))::StringW graphAccessToken;
+  __declspec(property(get = get_graphAccessToken)) ::StringW graphAccessToken;
 
-  __declspec(property(get = get_graphUrl))::StringW graphUrl;
+  __declspec(property(get = get_graphUrl)) ::StringW graphUrl;
 
-  __declspec(property(get = get_masterServerEndPoint))::GlobalNamespace::DnsEndPoint* masterServerEndPoint;
+  __declspec(property(get = get_masterServerEndPoint)) ::GlobalNamespace::DnsEndPoint* masterServerEndPoint;
 
   __declspec(property(get = get_maxPartySize)) int32_t maxPartySize;
 
   __declspec(property(get = get_multiplayerPort)) int32_t multiplayerPort;
 
-  __declspec(property(get = get_multiplayerStatusUrl))::StringW multiplayerStatusUrl;
+  __declspec(property(get = get_multiplayerStatusUrl)) ::StringW multiplayerStatusUrl;
 
   __declspec(property(get = get_partyPort)) int32_t partyPort;
 
-  __declspec(property(get = get_quickPlaySetupUrl))::StringW quickPlaySetupUrl;
+  __declspec(property(get = get_quickPlaySetupUrl)) ::StringW quickPlaySetupUrl;
 
-  __declspec(property(get = get_serviceEnvironment))::GlobalNamespace::ServiceEnvironment serviceEnvironment;
+  __declspec(property(get = get_serviceEnvironment)) ::GlobalNamespace::ServiceEnvironment serviceEnvironment;
 
   /// @brief Convert operator to "::GlobalNamespace::INetworkConfig"
   constexpr operator ::GlobalNamespace::INetworkConfig*() noexcept;
@@ -168,43 +168,43 @@ public:
 
   constexpr void __cordl_internal_set__serviceEnvironment(::GlobalNamespace::ServiceEnvironment value);
 
-  /// @brief Method .ctor, addr 0x29ee0c8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfc8c4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_appId, addr 0x29ee08c, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method get_appId, addr 0x3dfc844, size 0x70, virtual true, abstract: false, final true
   inline ::StringW get_appId();
 
-  /// @brief Method get_discoveryPort, addr 0x29edf84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_discoveryPort, addr 0x3dfc744, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_discoveryPort();
 
-  /// @brief Method get_forceGameLift, addr 0x29ee0b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_forceGameLift, addr 0x3dfc8b4, size 0x8, virtual true, abstract: false, final true
   inline bool get_forceGameLift();
 
-  /// @brief Method get_graphAccessToken, addr 0x29ee024, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method get_graphAccessToken, addr 0x3dfc7dc, size 0x68, virtual true, abstract: false, final true
   inline ::StringW get_graphAccessToken();
 
-  /// @brief Method get_graphUrl, addr 0x29ee01c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphUrl, addr 0x3dfc7d4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_graphUrl();
 
-  /// @brief Method get_masterServerEndPoint, addr 0x29edf9c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method get_masterServerEndPoint, addr 0x3dfc75c, size 0x68, virtual true, abstract: false, final true
   inline ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
 
-  /// @brief Method get_maxPartySize, addr 0x29edf7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_maxPartySize, addr 0x3dfc73c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_maxPartySize();
 
-  /// @brief Method get_multiplayerPort, addr 0x29edf94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerPort, addr 0x3dfc754, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_multiplayerPort();
 
-  /// @brief Method get_multiplayerStatusUrl, addr 0x29ee00c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerStatusUrl, addr 0x3dfc7c4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_multiplayerStatusUrl();
 
-  /// @brief Method get_partyPort, addr 0x29edf8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_partyPort, addr 0x3dfc74c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_partyPort();
 
-  /// @brief Method get_quickPlaySetupUrl, addr 0x29ee014, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_quickPlaySetupUrl, addr 0x3dfc7cc, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_quickPlaySetupUrl();
 
-  /// @brief Method get_serviceEnvironment, addr 0x29ee0c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_serviceEnvironment, addr 0x3dfc8bc, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
 
   /// @brief Convert to "::GlobalNamespace::INetworkConfig"
@@ -259,6 +259,9 @@ public:
 
   /// @brief Field _serviceEnvironment, offset: 0x5c, size: 0x4, def value: None
   ::GlobalNamespace::ServiceEnvironment ____serviceEnvironment;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17300 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

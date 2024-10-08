@@ -22,7 +22,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MonoPoolableMemoryPool_4);
 // Type: Zenject::MonoPoolableMemoryPool`4
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
@@ -32,7 +32,7 @@ class CORDL_TYPE MonoPoolableMemoryPool_4 : public ::Zenject::MemoryPool_4<TPara
 public:
   // Declarations
   /// @brief Field _originalParent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__originalParent, put = __cordl_internal_set__originalParent))::UnityW<::UnityEngine::Transform> _originalParent;
+  __declspec(property(get = __cordl_internal_get__originalParent, put = __cordl_internal_set__originalParent)) ::UnityW<::UnityEngine::Transform> _originalParent;
 
   static inline ::Zenject::MonoPoolableMemoryPool_4<TParam1, TParam2, TParam3, TValue>* New_ctor();
 
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field _originalParent, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____originalParent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12358 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

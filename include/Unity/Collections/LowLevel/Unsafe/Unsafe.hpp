@@ -3,6 +3,8 @@ module;
 #endif
 
 #pragma once
+#include "Unity/Collections/LowLevel/Unsafe/BurstLike.hpp"
+#include "Unity/Collections/LowLevel/Unsafe/BurstRuntime.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/NativeArrayUnsafeUtility.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/NativeContainerAttribute.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/NativeContainerIsAtomicWriteOnlyAttribute.hpp"

@@ -42,7 +42,7 @@ struct TMP_MeshInfo;
 // Write type traits
 MARK_VAL_T(::TMPro::TMP_MeshInfo);
 // Type: TMPro::TMP_MeshInfo
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
 // CS Name: ::TMPro::TMP_MeshInfo
@@ -50,51 +50,51 @@ struct CORDL_TYPE TMP_MeshInfo {
 public:
   // Declarations
   /// @brief Field s_DefaultBounds, offset 0xffffffff, size 0x18
-  static __declspec(property(get = getStaticF_s_DefaultBounds, put = setStaticF_s_DefaultBounds))::UnityEngine::Bounds s_DefaultBounds;
+  static __declspec(property(get = getStaticF_s_DefaultBounds, put = setStaticF_s_DefaultBounds)) ::UnityEngine::Bounds s_DefaultBounds;
 
   /// @brief Field s_DefaultColor, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_DefaultColor, put = setStaticF_s_DefaultColor))::UnityEngine::Color32 s_DefaultColor;
+  static __declspec(property(get = getStaticF_s_DefaultColor, put = setStaticF_s_DefaultColor)) ::UnityEngine::Color32 s_DefaultColor;
 
   /// @brief Field s_DefaultNormal, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_s_DefaultNormal, put = setStaticF_s_DefaultNormal))::UnityEngine::Vector3 s_DefaultNormal;
+  static __declspec(property(get = getStaticF_s_DefaultNormal, put = setStaticF_s_DefaultNormal)) ::UnityEngine::Vector3 s_DefaultNormal;
 
   /// @brief Field s_DefaultTangent, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_s_DefaultTangent, put = setStaticF_s_DefaultTangent))::UnityEngine::Vector4 s_DefaultTangent;
+  static __declspec(property(get = getStaticF_s_DefaultTangent, put = setStaticF_s_DefaultTangent)) ::UnityEngine::Vector4 s_DefaultTangent;
 
-  /// @brief Method Clear, addr 0x33abe9c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4785bec, size 0xa4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clear, addr 0x33abf40, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4785c90, size 0x138, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices, addr 0x33ac078, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x4785dc8, size 0x3c, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method ClearUnusedVertices, addr 0x33ac0b4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x4785e04, size 0x34, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(int32_t startIndex);
 
-  /// @brief Method ClearUnusedVertices, addr 0x33ac0e8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x4785e38, size 0xc4, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(int32_t startIndex, bool updateMesh);
 
-  /// @brief Method ResizeMeshInfo, addr 0x33ab154, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x4784ea0, size 0x474, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size);
 
-  /// @brief Method ResizeMeshInfo, addr 0x33ab5c8, size 0x8d4, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x4785314, size 0x8d8, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size, bool isVolumetric);
 
-  /// @brief Method SortGeometry, addr 0x33ac1ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x4785efc, size 0xb4, virtual false, abstract: false, final false
   inline void SortGeometry(::TMPro::VertexSortingOrder order);
 
-  /// @brief Method SortGeometry, addr 0x33ac7b4, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x478653c, size 0x1f8, virtual false, abstract: false, final false
   inline void SortGeometry(::System::Collections::Generic::IList_1<int32_t>* sortingOrder);
 
-  /// @brief Method SwapVertexData, addr 0x33ac228, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method SwapVertexData, addr 0x4785fb0, size 0x58c, virtual false, abstract: false, final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
-  /// @brief Method .ctor, addr 0x33aa4d8, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4784228, size 0x4f4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* mesh, int32_t size);
 
-  /// @brief Method .ctor, addr 0x33aa9d0, size 0x784, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x478471c, size 0x784, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* mesh, int32_t size, bool isVolumetric);
 
   static inline ::UnityEngine::Bounds getStaticF_s_DefaultBounds();
@@ -160,6 +160,9 @@ public:
 
   /// @brief Field material, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> material;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14481 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

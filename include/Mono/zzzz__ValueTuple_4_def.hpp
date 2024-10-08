@@ -12,7 +12,7 @@ template <typename T1, typename T2, typename T3, typename T4> struct ValueTuple_
 // Write type traits
 MARK_GEN_VAL_T(::Mono::ValueTuple_4);
 // Type: Mono::ValueTuple`4
-// SizeInfo { instance_size: 32, native_size: 48, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 48, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4>
@@ -40,6 +40,9 @@ public:
 
   /// @brief Field Item4, offset: 0x18, size: 0x8, def value: None
   T4 Item4;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2246 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

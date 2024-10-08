@@ -20,14 +20,14 @@ class IdentityReference;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Principal::IdentityReference);
 // Type: System.Security.Principal::IdentityReference
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
 // CS Name: ::System.Security.Principal::IdentityReference*
 class CORDL_TYPE IdentityReference : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Value))::StringW Value;
+  __declspec(property(get = get_Value)) ::StringW Value;
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Equals(::System::Object* o);
@@ -43,13 +43,13 @@ public:
   /// @brief Method Translate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Principal::IdentityReference* Translate(::System::Type* targetType);
 
-  /// @brief Method .ctor, addr 0x2824bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c43554, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Value();
 
-  /// @brief Method op_Equality, addr 0x2824bd0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3c4355c, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Security::Principal::IdentityReference* left, ::System::Security::Principal::IdentityReference* right);
 
 protected:
@@ -65,6 +65,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IdentityReference", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IdentityReference(IdentityReference const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2999 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

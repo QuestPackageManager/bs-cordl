@@ -22,7 +22,7 @@ class InvariantComparer;
 // Write type traits
 MARK_REF_PTR_T(::System::InvariantComparer);
 // Type: System::InvariantComparer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::InvariantComparer*
@@ -30,15 +30,15 @@ class CORDL_TYPE InvariantComparer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Default, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::System::InvariantComparer* Default;
+  static __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::System::InvariantComparer* Default;
 
   /// @brief Field m_compareInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_compareInfo, put = __cordl_internal_set_m_compareInfo))::System::Globalization::CompareInfo* m_compareInfo;
+  __declspec(property(get = __cordl_internal_get_m_compareInfo, put = __cordl_internal_set_m_compareInfo)) ::System::Globalization::CompareInfo* m_compareInfo;
 
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x2fa848c, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x4393530, size 0xec, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
   static inline ::System::InvariantComparer* New_ctor();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_m_compareInfo(::System::Globalization::CompareInfo* value);
 
-  /// @brief Method .ctor, addr 0x2fa8410, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43934b4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::InvariantComparer* getStaticF_Default();
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field m_compareInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Globalization::CompareInfo* ___m_compareInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

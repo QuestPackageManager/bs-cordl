@@ -25,7 +25,7 @@ class ActionInstaller;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ActionInstaller);
 // Type: Zenject::ActionInstaller
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::ActionInstaller*
@@ -33,9 +33,9 @@ class CORDL_TYPE ActionInstaller : public ::Zenject::Installer_1<::Zenject::Acti
 public:
   // Declarations
   /// @brief Field _installMethod, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__installMethod, put = __cordl_internal_set__installMethod))::System::Action_1<::Zenject::DiContainer*>* _installMethod;
+  __declspec(property(get = __cordl_internal_get__installMethod, put = __cordl_internal_set__installMethod)) ::System::Action_1<::Zenject::DiContainer*>* _installMethod;
 
-  /// @brief Method InstallBindings, addr 0x36b3f8c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x4ad7140, size 0x28, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::ActionInstaller* New_ctor(::System::Action_1<::Zenject::DiContainer*>* installMethod);
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__installMethod(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method __zenCreate, addr 0x36b3fb4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ad7168, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36b4068, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ad7218, size 0x268, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x36a2d84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac6418, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::Zenject::DiContainer*>* installMethod);
 
 protected:
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field _installMethod, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::Zenject::DiContainer*>* ____installMethod;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12645 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

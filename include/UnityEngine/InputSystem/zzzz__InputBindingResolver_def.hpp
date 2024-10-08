@@ -37,9 +37,6 @@ namespace UnityEngine::InputSystem::Utilities {
 struct TypeTable;
 }
 namespace UnityEngine::InputSystem {
-class IInputInteraction;
-}
-namespace UnityEngine::InputSystem {
 class InputActionMap;
 }
 namespace UnityEngine::InputSystem {
@@ -67,7 +64,7 @@ struct InputBindingResolver;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::InputBindingResolver);
 // Type: UnityEngine.InputSystem::InputBindingResolver
-// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 312, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 312, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem::InputBindingResolver
@@ -85,21 +82,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AddActionMap, addr 0x30f6a1c, size 0x1610, virtual false, abstract: false, final false
+  /// @brief Method AddActionMap, addr 0x44e5cbc, size 0x1594, virtual false, abstract: false, final false
   inline void AddActionMap(::UnityEngine::InputSystem::InputActionMap* actionMap);
 
-  /// @brief Method ApplyParameters, addr 0x30f8558, size 0x684, virtual false, abstract: false, final false
+  /// @brief Method ApplyParameters, addr 0x44e770c, size 0x4f0, virtual false, abstract: false, final false
   static inline void ApplyParameters(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> parameters, ::System::Object* instance,
                                      ::UnityEngine::InputSystem::InputActionMap* actionMap, ByRef<::UnityEngine::InputSystem::InputBinding> binding, ::StringW objectRegistrationName,
                                      ::StringW namesAndParameters);
 
-  /// @brief Method AssignCompositePartIndex, addr 0x30f8320, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method AssignCompositePartIndex, addr 0x44e74dc, size 0x230, virtual false, abstract: false, final false
   static inline int32_t AssignCompositePartIndex(::System::Object* composite, ::StringW name, ByRef<int32_t> currentCompositePartCount);
 
-  /// @brief Method Dispose, addr 0x30f68ec, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x44e5b8c, size 0x48, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method InstantiateBindingComposite, addr 0x30f802c, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method InstantiateBindingComposite, addr 0x44e7250, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputBindingComposite* InstantiateBindingComposite(ByRef<::UnityEngine::InputSystem::InputBinding> binding,
                                                                                                ::UnityEngine::InputSystem::InputActionMap* actionMap);
 
@@ -108,19 +105,19 @@ public:
   inline int32_t InstantiateWithParameters(::UnityEngine::InputSystem::Utilities::TypeTable registrations, ::StringW namesAndParameters, ByRef<::ArrayW<TType, ::Array<TType>*>> array,
                                            ByRef<int32_t> count, ::UnityEngine::InputSystem::InputActionMap* actionMap, ByRef<::UnityEngine::InputSystem::InputBinding> binding);
 
-  /// @brief Method StartWithPreviousResolve, addr 0x30f6934, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method StartWithPreviousResolve, addr 0x44e5bd4, size 0xe8, virtual false, abstract: false, final false
   inline void StartWithPreviousResolve(::UnityEngine::InputSystem::InputActionState* state, bool isFullResolve);
 
-  /// @brief Method get_totalActionCount, addr 0x30f68d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalActionCount, addr 0x44e5b74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalActionCount();
 
-  /// @brief Method get_totalBindingCount, addr 0x30f68dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalBindingCount, addr 0x44e5b7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalBindingCount();
 
-  /// @brief Method get_totalControlCount, addr 0x30f68e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalControlCount, addr 0x44e5b84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalControlCount();
 
-  /// @brief Method get_totalMapCount, addr 0x30f68cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalMapCount, addr 0x44e5b6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalMapCount();
 
   /// @brief Convert to "::System::IDisposable"
@@ -134,17 +131,16 @@ public:
   // CppParam { name: "totalInteractionCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maps", ty:
   // "::ArrayW<::UnityEngine::InputSystem::InputActionMap*,::Array<::UnityEngine::InputSystem::InputActionMap*>*>", modifiers: "", def_value: None }, CppParam { name: "controls", ty:
   // "::ArrayW<::UnityEngine::InputSystem::InputControl*,::Array<::UnityEngine::InputSystem::InputControl*>*>", modifiers: "", def_value: None }, CppParam { name: "memory", ty:
-  // "::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory", modifiers: "", def_value: None }, CppParam { name: "interactions", ty:
-  // "::ArrayW<::UnityEngine::InputSystem::IInputInteraction*,::Array<::UnityEngine::InputSystem::IInputInteraction*>*>", modifiers: "", def_value: None }, CppParam { name: "processors", ty:
-  // "::ArrayW<::UnityEngine::InputSystem::InputProcessor*,::Array<::UnityEngine::InputSystem::InputProcessor*>*>", modifiers: "", def_value: None }, CppParam { name: "composites", ty:
-  // "::ArrayW<::UnityEngine::InputSystem::InputBindingComposite*,::Array<::UnityEngine::InputSystem::InputBindingComposite*>*>", modifiers: "", def_value: None }, CppParam { name: "bindingMask", ty:
-  // "::System::Nullable_1<::UnityEngine::InputSystem::InputBinding>", modifiers: "", def_value: None }, CppParam { name: "m_IsControlOnlyResolve", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "m_Parameters", ty: "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>*", modifiers: "", def_value: None }]
+  // "::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory", modifiers: "", def_value: None }, CppParam { name: "interactions", ty: "::ArrayW<Il2CppObject*,::Array<Il2CppObject*>*>",
+  // modifiers: "", def_value: None }, CppParam { name: "processors", ty: "::ArrayW<::UnityEngine::InputSystem::InputProcessor*,::Array<::UnityEngine::InputSystem::InputProcessor*>*>", modifiers: "",
+  // def_value: None }, CppParam { name: "composites", ty: "::ArrayW<::UnityEngine::InputSystem::InputBindingComposite*,::Array<::UnityEngine::InputSystem::InputBindingComposite*>*>", modifiers: "",
+  // def_value: None }, CppParam { name: "bindingMask", ty: "::System::Nullable_1<::UnityEngine::InputSystem::InputBinding>", modifiers: "", def_value: None }, CppParam { name:
+  // "m_IsControlOnlyResolve", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Parameters", ty:
+  // "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>*", modifiers: "", def_value: None }]
   constexpr InputBindingResolver(int32_t totalProcessorCount, int32_t totalCompositeCount, int32_t totalInteractionCount,
                                  ::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> maps,
                                  ::ArrayW<::UnityEngine::InputSystem::InputControl*, ::Array<::UnityEngine::InputSystem::InputControl*>*> controls,
-                                 ::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory memory,
-                                 ::ArrayW<::UnityEngine::InputSystem::IInputInteraction*, ::Array<::UnityEngine::InputSystem::IInputInteraction*>*> interactions,
+                                 ::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory memory, ::ArrayW<Il2CppObject*, ::Array<Il2CppObject*>*> interactions,
                                  ::ArrayW<::UnityEngine::InputSystem::InputProcessor*, ::Array<::UnityEngine::InputSystem::InputProcessor*>*> processors,
                                  ::ArrayW<::UnityEngine::InputSystem::InputBindingComposite*, ::Array<::UnityEngine::InputSystem::InputBindingComposite*>*> composites,
                                  ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> bindingMask, bool m_IsControlOnlyResolve,
@@ -169,7 +165,7 @@ public:
   ::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory memory;
 
   /// @brief Field interactions, offset: 0xa0, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::InputSystem::IInputInteraction*, ::Array<::UnityEngine::InputSystem::IInputInteraction*>*> interactions;
+  ::ArrayW<Il2CppObject*, ::Array<Il2CppObject*>*> interactions;
 
   /// @brief Field processors, offset: 0xa8, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::InputSystem::InputProcessor*, ::Array<::UnityEngine::InputSystem::InputProcessor*>*> processors;
@@ -185,6 +181,9 @@ public:
 
   /// @brief Field m_Parameters, offset: 0x120, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>* m_Parameters;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6566 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x128 };

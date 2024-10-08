@@ -25,7 +25,7 @@ class Boundary;
 MARK_VAL_T(::Unity::XR::Oculus::__Boundary__BoundaryType);
 MARK_REF_PTR_T(::Unity::XR::Oculus::Boundary);
 // Type: ::BoundaryType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: true
 // CS Name: ::Boundary::BoundaryType
@@ -66,6 +66,9 @@ public:
   /// @brief Field PlayArea value: static_cast<int32_t>(0x1)
   static ::Unity::XR::Oculus::__Boundary__BoundaryType const PlayArea;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17336 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -78,7 +81,7 @@ static_assert(offsetof(::Unity::XR::Oculus::__Boundary__BoundaryType, value__) =
 
 } // namespace Unity::XR::Oculus
 // Type: Unity.XR.Oculus::Boundary
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
 // CS Name: ::Unity.XR.Oculus::Boundary*
@@ -87,16 +90,16 @@ public:
   // Declarations
   using BoundaryType = ::Unity::XR::Oculus::__Boundary__BoundaryType;
 
-  /// @brief Method GetBoundaryConfigured, addr 0x33e3d64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryConfigured, addr 0x47bc0b0, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryConfigured();
 
-  /// @brief Method GetBoundaryDimensions, addr 0x33e3d6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryDimensions, addr 0x47bc0b8, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryDimensions(::Unity::XR::Oculus::__Boundary__BoundaryType boundaryType, ByRef<::UnityEngine::Vector3> dimensions);
 
-  /// @brief Method GetBoundaryVisible, addr 0x33e3d74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryVisible, addr 0x47bc0c0, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryVisible();
 
-  /// @brief Method SetBoundaryVisible, addr 0x33e3d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBoundaryVisible, addr 0x47bc0c8, size 0x8, virtual false, abstract: false, final false
   static inline void SetBoundaryVisible(bool boundaryVisible);
 
 protected:
@@ -112,6 +115,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Boundary", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Boundary(Boundary const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17337 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

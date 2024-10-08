@@ -14,7 +14,7 @@ struct FontReference;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::FontReference);
 // Type: UnityEngine.TextCore.LowLevel::FontReference
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.TextCore.LowLevel::FontReference
@@ -40,6 +40,9 @@ public:
 
   /// @brief Field filePath, offset: 0x18, size: 0x8, def value: None
   ::StringW filePath;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18090 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -18,7 +18,7 @@ class BufferedAudioStream;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BufferedAudioStream);
 // Type: ::BufferedAudioStream
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BufferedAudioStream*
@@ -26,10 +26,10 @@ class CORDL_TYPE BufferedAudioStream : public ::System::Object {
 public:
   // Declarations
   /// @brief Field audio, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_audio, put = __cordl_internal_set_audio))::UnityW<::UnityEngine::AudioSource> audio;
+  __declspec(property(get = __cordl_internal_get_audio, put = __cordl_internal_set_audio)) ::UnityW<::UnityEngine::AudioSource> audio;
 
   /// @brief Field audioBuffer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_audioBuffer, put = __cordl_internal_set_audioBuffer))::ArrayW<float_t, ::Array<float_t>*> audioBuffer;
+  __declspec(property(get = __cordl_internal_get_audioBuffer, put = __cordl_internal_set_audioBuffer)) ::ArrayW<float_t, ::Array<float_t>*> audioBuffer;
 
   /// @brief Field playbackDelayRemaining, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_playbackDelayRemaining, put = __cordl_internal_set_playbackDelayRemaining)) float_t playbackDelayRemaining;
@@ -40,15 +40,15 @@ public:
   /// @brief Field writePos, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_writePos, put = __cordl_internal_set_writePos)) int32_t writePos;
 
-  /// @brief Method AddData, addr 0x2ad787c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method AddData, addr 0x3ee4ba4, size 0x114, virtual false, abstract: false, final false
   inline void AddData(::ArrayW<float_t, ::Array<float_t>*> samples);
 
   static inline ::GlobalNamespace::BufferedAudioStream* New_ctor(::UnityEngine::AudioSource* audio);
 
-  /// @brief Method Stop, addr 0x2ad7668, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x3ee4984, size 0x44, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Update, addr 0x2ad76ac, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ee49c8, size 0x1dc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get_audio() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_writePos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2ad75a4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee48c0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioSource* audio);
 
 protected:
@@ -115,6 +115,9 @@ public:
 
   /// @brief Field VerboseLogging offset 0xffffffff size 0x1
   static constexpr bool VerboseLogging{ false };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15257 };
 
   /// @brief Field bufferLengthSeconds offset 0xffffffff size 0x4
   static constexpr float_t bufferLengthSeconds{ 0.25 };

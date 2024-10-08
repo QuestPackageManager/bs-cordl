@@ -12,7 +12,7 @@ class CamelliaWrapEngine;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::CamelliaWrapEngine);
 // Type: Org.BouncyCastle.Crypto.Engines::CamelliaWrapEngine
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::CamelliaWrapEngine*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Engines::CamelliaWrapEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1133000, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230e5cc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CamelliaWrapEngine", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CamelliaWrapEngine(CamelliaWrapEngine const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 832 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

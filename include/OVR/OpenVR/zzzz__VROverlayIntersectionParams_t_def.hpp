@@ -20,7 +20,7 @@ struct VROverlayIntersectionParams_t;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::VROverlayIntersectionParams_t);
 // Type: OVR.OpenVR::VROverlayIntersectionParams_t
-// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::VROverlayIntersectionParams_t
@@ -43,6 +43,9 @@ public:
 
   /// @brief Field eOrigin, offset: 0x18, size: 0x4, def value: None
   ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8989 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

@@ -13,7 +13,7 @@ struct PoolExpandMethods;
 // Write type traits
 MARK_VAL_T(::Zenject::PoolExpandMethods);
 // Type: Zenject::PoolExpandMethods
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: true
 // CS Name: ::Zenject::PoolExpandMethods
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field OneAtATime value: static_cast<int32_t>(0x0)
   static ::Zenject::PoolExpandMethods const OneAtATime;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12249 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -19,24 +19,24 @@ class MultiplayerLocalPlayerInstaller;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalPlayerInstaller);
 // Type: ::MultiplayerLocalPlayerInstaller
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerLocalPlayerInstaller*
 class CORDL_TYPE MultiplayerLocalPlayerInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Field _levelSceneSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelSceneSetupData, put = __cordl_internal_set__levelSceneSetupData))::GlobalNamespace::MultiplayerLevelSceneSetupData* _levelSceneSetupData;
+  /// @brief Field _levelSceneSetupData, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__levelSceneSetupData, put = __cordl_internal_set__levelSceneSetupData)) ::GlobalNamespace::MultiplayerLevelSceneSetupData* _levelSceneSetupData;
 
-  /// @brief Field _multiplayerSessionManager, offset 0x28, size 0x8
+  /// @brief Field _multiplayerSessionManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
-  /// @brief Field _startState, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__startState, put = __cordl_internal_set__startState))::GlobalNamespace::MultiplayerPlayerStartState _startState;
+  /// @brief Field _startState, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__startState, put = __cordl_internal_set__startState)) ::GlobalNamespace::MultiplayerPlayerStartState _startState;
 
-  /// @brief Method InstallBindings, addr 0x275e5b0, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b7b2dc, size 0x218, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerLocalPlayerInstaller* New_ctor();
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__startState(::GlobalNamespace::MultiplayerPlayerStartState value);
 
-  /// @brief Method .ctor, addr 0x275e7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7b4f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,25 +76,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalPlayerInstaller(MultiplayerLocalPlayerInstaller const&) = delete;
 
-  /// @brief Field _levelSceneSetupData, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _levelSceneSetupData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLevelSceneSetupData* ____levelSceneSetupData;
 
-  /// @brief Field _multiplayerSessionManager, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _multiplayerSessionManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 
-  /// @brief Field _startState, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _startState, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerPlayerStartState ____startState;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4708 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalPlayerInstaller, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalPlayerInstaller, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalPlayerInstaller, ____levelSceneSetupData) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalPlayerInstaller, ____levelSceneSetupData) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalPlayerInstaller, ____multiplayerSessionManager) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalPlayerInstaller, ____multiplayerSessionManager) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalPlayerInstaller, ____startState) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalPlayerInstaller, ____startState) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalPlayerInstaller);

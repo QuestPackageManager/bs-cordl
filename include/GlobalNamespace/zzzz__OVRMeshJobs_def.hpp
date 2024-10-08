@@ -75,7 +75,7 @@ MARK_GEN_VAL_T(::GlobalNamespace::__OVRMeshJobs__NativeArrayHelper_1);
 MARK_VAL_T(::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob);
 MARK_VAL_T(::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob);
 // Type: ::TransformToUnitySpaceJob
-// SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRMeshJobs::TransformToUnitySpaceJob
@@ -85,7 +85,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x2bba448, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3fc1f4c, size 0x180, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -138,6 +138,9 @@ public:
   /// @brief Field MeshBoneIndices, offset: 0x80, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::GlobalNamespace::__OVRPlugin__Vector4s> MeshBoneIndices;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8405 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
 
@@ -166,7 +169,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJo
 
 } // namespace GlobalNamespace
 // Type: ::TransformTrianglesJob
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRMeshJobs::TransformTrianglesJob
@@ -176,7 +179,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x2bba5c8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3fc20cc, size 0x20, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -199,6 +202,9 @@ public:
   /// @brief Field NumIndices, offset: 0x20, size: 0x4, def value: None
   int32_t NumIndices;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8406 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -215,7 +221,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob, 
 
 } // namespace GlobalNamespace
 // Type: ::NativeArrayHelper`1
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -250,6 +256,9 @@ public:
   /// @brief Field _handle, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::InteropServices::GCHandle _handle;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8407 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -258,7 +267,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::OVRMeshJobs
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRMeshJobs*
@@ -273,7 +282,7 @@ public:
 
   static inline ::GlobalNamespace::OVRMeshJobs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bba440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc1f44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -289,6 +298,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRMeshJobs", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRMeshJobs(OVRMeshJobs const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8408 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

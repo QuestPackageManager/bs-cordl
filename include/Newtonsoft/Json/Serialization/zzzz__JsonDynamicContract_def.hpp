@@ -44,48 +44,48 @@ class JsonDynamicContract;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonDynamicContract);
 // Type: Newtonsoft.Json.Serialization::JsonDynamicContract
-// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Serialization::JsonDynamicContract*
 class CORDL_TYPE JsonDynamicContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
 public:
   // Declarations
-  __declspec(property(get = get_Properties))::Newtonsoft::Json::Serialization::JsonPropertyCollection* Properties;
+  __declspec(property(get = get_Properties)) ::Newtonsoft::Json::Serialization::JsonPropertyCollection* Properties;
 
-  __declspec(property(get = get_PropertyNameResolver, put = set_PropertyNameResolver))::System::Func_2<::StringW, ::StringW>* PropertyNameResolver;
+  __declspec(property(get = get_PropertyNameResolver, put = set_PropertyNameResolver)) ::System::Func_2<::StringW, ::StringW>* PropertyNameResolver;
 
   /// @brief Field <Properties>k__BackingField, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__Properties_k__BackingField,
-                      put = __cordl_internal_set__Properties_k__BackingField))::Newtonsoft::Json::Serialization::JsonPropertyCollection* _Properties_k__BackingField;
+                      put = __cordl_internal_set__Properties_k__BackingField)) ::Newtonsoft::Json::Serialization::JsonPropertyCollection* _Properties_k__BackingField;
 
   /// @brief Field <PropertyNameResolver>k__BackingField, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__PropertyNameResolver_k__BackingField,
-                      put = __cordl_internal_set__PropertyNameResolver_k__BackingField))::System::Func_2<::StringW, ::StringW>* _PropertyNameResolver_k__BackingField;
+                      put = __cordl_internal_set__PropertyNameResolver_k__BackingField)) ::System::Func_2<::StringW, ::StringW>* _PropertyNameResolver_k__BackingField;
 
   /// @brief Field _callSiteGetters, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get__callSiteGetters, put = __cordl_internal_set__callSiteGetters))::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
+  __declspec(property(get = __cordl_internal_get__callSiteGetters, put = __cordl_internal_set__callSiteGetters)) ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
       ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*>*>*>* _callSiteGetters;
 
   /// @brief Field _callSiteSetters, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get__callSiteSetters, put = __cordl_internal_set__callSiteSetters))::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
-      ::StringW,
-      ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>* _callSiteSetters;
+  __declspec(property(get = __cordl_internal_get__callSiteSetters, put = __cordl_internal_set__callSiteSetters)) ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
+      ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>*
+      _callSiteSetters;
 
-  /// @brief Method CreateCallSiteGetter, addr 0x2a60d60, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CreateCallSiteGetter, addr 0x3e70fec, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*>*>*
   CreateCallSiteGetter(::StringW name);
 
-  /// @brief Method CreateCallSiteSetter, addr 0x2a60e94, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CreateCallSiteSetter, addr 0x3e71118, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*
   CreateCallSiteSetter(::StringW name);
 
   static inline ::Newtonsoft::Json::Serialization::JsonDynamicContract* New_ctor(::System::Type* underlyingType);
 
-  /// @brief Method TryGetMember, addr 0x2a60fc8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method TryGetMember, addr 0x3e71244, size 0x100, virtual false, abstract: false, final false
   inline bool TryGetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, ByRef<::System::Object*> value);
 
-  /// @brief Method TrySetMember, addr 0x2a610c8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method TrySetMember, addr 0x3e71344, size 0xfc, virtual false, abstract: false, final false
   inline bool TrySetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, ::System::Object* value);
 
   constexpr ::Newtonsoft::Json::Serialization::JsonPropertyCollection*& __cordl_internal_get__Properties_k__BackingField();
@@ -125,16 +125,16 @@ public:
           ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>*
           value);
 
-  /// @brief Method .ctor, addr 0x2a5b260, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6b5fc, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method get_Properties, addr 0x2a60d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x3e70fd4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_Properties();
 
-  /// @brief Method get_PropertyNameResolver, addr 0x2a60d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNameResolver, addr 0x3e70fdc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::StringW, ::StringW>* get_PropertyNameResolver();
 
-  /// @brief Method set_PropertyNameResolver, addr 0x2a60d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PropertyNameResolver, addr 0x3e70fe4, size 0x8, virtual false, abstract: false, final false
   inline void set_PropertyNameResolver(::System::Func_2<::StringW, ::StringW>* value);
 
 protected:
@@ -165,6 +165,9 @@ public:
   ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
       ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>*
       ____callSiteSetters;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10287 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

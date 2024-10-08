@@ -22,7 +22,7 @@ class MarshalAsAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::MarshalAsAttribute);
 // Type: System.Runtime.InteropServices::MarshalAsAttribute
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 70, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 70, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // CS Name: ::System.Runtime.InteropServices::MarshalAsAttribute*
@@ -30,25 +30,25 @@ class CORDL_TYPE MarshalAsAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field ArraySubType, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_ArraySubType, put = __cordl_internal_set_ArraySubType))::System::Runtime::InteropServices::UnmanagedType ArraySubType;
+  __declspec(property(get = __cordl_internal_get_ArraySubType, put = __cordl_internal_set_ArraySubType)) ::System::Runtime::InteropServices::UnmanagedType ArraySubType;
 
   /// @brief Field IidParameterIndex, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_IidParameterIndex, put = __cordl_internal_set_IidParameterIndex)) int32_t IidParameterIndex;
 
   /// @brief Field MarshalCookie, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_MarshalCookie, put = __cordl_internal_set_MarshalCookie))::StringW MarshalCookie;
+  __declspec(property(get = __cordl_internal_get_MarshalCookie, put = __cordl_internal_set_MarshalCookie)) ::StringW MarshalCookie;
 
   /// @brief Field MarshalType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_MarshalType, put = __cordl_internal_set_MarshalType))::StringW MarshalType;
+  __declspec(property(get = __cordl_internal_get_MarshalType, put = __cordl_internal_set_MarshalType)) ::StringW MarshalType;
 
   /// @brief Field MarshalTypeRef, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_MarshalTypeRef, put = __cordl_internal_set_MarshalTypeRef))::System::Type* MarshalTypeRef;
+  __declspec(property(get = __cordl_internal_get_MarshalTypeRef, put = __cordl_internal_set_MarshalTypeRef)) ::System::Type* MarshalTypeRef;
 
   /// @brief Field SafeArraySubType, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_SafeArraySubType, put = __cordl_internal_set_SafeArraySubType))::System::Runtime::InteropServices::VarEnum SafeArraySubType;
+  __declspec(property(get = __cordl_internal_get_SafeArraySubType, put = __cordl_internal_set_SafeArraySubType)) ::System::Runtime::InteropServices::VarEnum SafeArraySubType;
 
   /// @brief Field SafeArrayUserDefinedSubType, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_SafeArrayUserDefinedSubType, put = __cordl_internal_set_SafeArrayUserDefinedSubType))::System::Type* SafeArrayUserDefinedSubType;
+  __declspec(property(get = __cordl_internal_get_SafeArrayUserDefinedSubType, put = __cordl_internal_set_SafeArrayUserDefinedSubType)) ::System::Type* SafeArrayUserDefinedSubType;
 
   /// @brief Field SizeConst, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_SizeConst, put = __cordl_internal_set_SizeConst)) int32_t SizeConst;
@@ -56,12 +56,12 @@ public:
   /// @brief Field SizeParamIndex, offset 0x44, size 0x2
   __declspec(property(get = __cordl_internal_get_SizeParamIndex, put = __cordl_internal_set_SizeParamIndex)) int16_t SizeParamIndex;
 
-  __declspec(property(get = get_Value))::System::Runtime::InteropServices::UnmanagedType Value;
+  __declspec(property(get = get_Value)) ::System::Runtime::InteropServices::UnmanagedType Value;
 
   /// @brief Field utype, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_utype, put = __cordl_internal_set_utype))::System::Runtime::InteropServices::UnmanagedType utype;
+  __declspec(property(get = __cordl_internal_get_utype, put = __cordl_internal_set_utype)) ::System::Runtime::InteropServices::UnmanagedType utype;
 
-  /// @brief Method Copy, addr 0x2889328, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x3ca1e88, size 0x64, virtual false, abstract: false, final false
   inline ::System::Runtime::InteropServices::MarshalAsAttribute* Copy();
 
   static inline ::System::Runtime::InteropServices::MarshalAsAttribute* New_ctor(::System::Runtime::InteropServices::UnmanagedType unmanagedType);
@@ -126,10 +126,10 @@ public:
 
   constexpr void __cordl_internal_set_utype(::System::Runtime::InteropServices::UnmanagedType value);
 
-  /// @brief Method .ctor, addr 0x28892f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca1e58, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::UnmanagedType unmanagedType);
 
-  /// @brief Method get_Value, addr 0x2889320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3ca1e80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::InteropServices::UnmanagedType get_Value();
 
 protected:
@@ -175,6 +175,9 @@ public:
 
   /// @brief Field SizeParamIndex, offset: 0x44, size: 0x2, def value: None
   int16_t ___SizeParamIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3341 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

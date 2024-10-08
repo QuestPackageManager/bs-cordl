@@ -22,7 +22,7 @@ class TargetInvocationException;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::TargetInvocationException);
 // Type: System.Reflection::TargetInvocationException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::TargetInvocationException*
@@ -35,13 +35,13 @@ public:
 
   static inline ::System::Reflection::TargetInvocationException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x289a4a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb28b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x289a410, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb2824, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x289a47c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb2890, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
@@ -57,6 +57,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TargetInvocationException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TargetInvocationException(TargetInvocationException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3500 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

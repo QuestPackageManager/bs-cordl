@@ -54,7 +54,7 @@ template <typename TObject> struct AsyncOperationHandle_1;
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1);
 // Type: UnityEngine.ResourceManagement.AsyncOperations::AsyncOperationHandle`1
-// SizeInfo { instance_size: 32, native_size: 41, calculated_instance_size: 32, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 41, calculated_instance_size: 32, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
@@ -63,15 +63,15 @@ template <typename TObject>
 struct CORDL_TYPE AsyncOperationHandle_1 {
 public:
   // Declarations
-  __declspec(property(get = get_DebugName))::StringW DebugName;
+  __declspec(property(get = get_DebugName)) ::StringW DebugName;
 
-  __declspec(property(get = get_InternalOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* InternalOp;
+  __declspec(property(get = get_InternalOp)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* InternalOp;
 
   __declspec(property(get = get_IsDone)) bool IsDone;
 
-  __declspec(property(get = get_LocationName, put = set_LocationName))::StringW LocationName;
+  __declspec(property(get = get_LocationName, put = set_LocationName)) ::StringW LocationName;
 
-  __declspec(property(get = get_OperationException))::System::Exception* OperationException;
+  __declspec(property(get = get_OperationException)) ::System::Exception* OperationException;
 
   __declspec(property(get = get_PercentComplete)) float_t PercentComplete;
 
@@ -79,11 +79,11 @@ public:
 
   __declspec(property(get = get_Result)) TObject Result;
 
-  __declspec(property(get = get_Status))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus Status;
+  __declspec(property(get = get_Status)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus Status;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
-  __declspec(property(get = get_Task))::System::Threading::Tasks::Task_1<TObject>* Task;
+  __declspec(property(get = get_Task)) ::System::Threading::Tasks::Task_1<TObject>* Task;
 
   __declspec(property(get = get_UnloadSceneOpExcludeReleaseCallback, put = set_UnloadSceneOpExcludeReleaseCallback)) bool UnloadSceneOpExcludeReleaseCallback;
 
@@ -233,6 +233,9 @@ public:
 
   /// @brief Field m_UnloadSceneOpExcludeReleaseCallback, offset: 0x18, size: 0x1, def value: None
   bool m_UnloadSceneOpExcludeReleaseCallback;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15650 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

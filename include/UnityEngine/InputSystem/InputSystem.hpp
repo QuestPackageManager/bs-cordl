@@ -18,7 +18,6 @@ module;
 #include "UnityEngine/InputSystem/HumiditySensor.hpp"
 #include "UnityEngine/InputSystem/IInputActionCollection.hpp"
 #include "UnityEngine/InputSystem/IInputActionCollection2.hpp"
-#include "UnityEngine/InputSystem/IInputInteraction.hpp"
 #include "UnityEngine/InputSystem/IInputInteraction_1.hpp"
 #include "UnityEngine/InputSystem/InputAction.hpp"
 #include "UnityEngine/InputSystem/InputActionAsset.hpp"

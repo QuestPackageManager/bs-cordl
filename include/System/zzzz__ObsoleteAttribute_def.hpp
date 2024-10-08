@@ -13,20 +13,22 @@ class ObsoleteAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::ObsoleteAttribute);
 // Type: System::ObsoleteAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::ObsoleteAttribute*
 class CORDL_TYPE ObsoleteAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_Message))::StringW Message;
+  __declspec(property(get = get_IsError)) bool IsError;
+
+  __declspec(property(get = get_Message)) ::StringW Message;
 
   /// @brief Field _error, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__error, put = __cordl_internal_set__error)) bool _error;
 
   /// @brief Field _message, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__message, put = __cordl_internal_set__message))::StringW _message;
+  __declspec(property(get = __cordl_internal_get__message, put = __cordl_internal_set__message)) ::StringW _message;
 
   static inline ::System::ObsoleteAttribute* New_ctor();
 
@@ -46,16 +48,19 @@ public:
 
   constexpr void __cordl_internal_set__message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2972bac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d846cc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2972bcc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d846ec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2972bf8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d84718, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, bool error);
 
-  /// @brief Method get_Message, addr 0x2972c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsError, addr 0x3d84750, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsError();
+
+  /// @brief Method get_Message, addr 0x3d84748, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -77,6 +82,9 @@ public:
 
   /// @brief Field _error, offset: 0x18, size: 0x1, def value: None
   bool ____error;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2453 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

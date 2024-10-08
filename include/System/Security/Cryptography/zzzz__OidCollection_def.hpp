@@ -37,7 +37,7 @@ class OidCollection;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::OidCollection);
 // Type: System.Security.Cryptography::OidCollection
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::OidCollection*
@@ -48,12 +48,12 @@ public:
 
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
-  __declspec(property(get = get_Item))::System::Security::Cryptography::Oid* Item[];
+  __declspec(property(get = get_Item)) ::System::Security::Cryptography::Oid* Item[];
 
-  __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
+  __declspec(property(get = get_SyncRoot)) ::System::Object* SyncRoot;
 
   /// @brief Field _list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* _list;
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list)) ::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* _list;
 
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
@@ -61,18 +61,18 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x2fd7170, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x43bdad0, size 0xb0, virtual false, abstract: false, final false
   inline int32_t Add(::System::Security::Cryptography::Oid* oid);
 
-  /// @brief Method GetEnumerator, addr 0x2fd72c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x43bdc20, size 0x64, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::OidEnumerator* GetEnumerator();
 
   static inline ::System::Security::Cryptography::OidCollection* New_ctor();
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2fd7364, size 0x1bc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x43bdcb8, size 0x1ac, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2fd7360, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x43bdcb4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>*& __cordl_internal_get__list();
@@ -81,19 +81,19 @@ public:
 
   constexpr void __cordl_internal_set__list(::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* value);
 
-  /// @brief Method .ctor, addr 0x2fd70f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43bda50, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x2fd727c, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x43bdbd8, size 0x48, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x2fd7520, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x43bde64, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x2fd7224, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x43bdb80, size 0x58, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::Oid* get_Item(int32_t index);
 
-  /// @brief Method get_SyncRoot, addr 0x2fd7528, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x43bde6c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -118,6 +118,9 @@ public:
 
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* ____list;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9259 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

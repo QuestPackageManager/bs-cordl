@@ -22,7 +22,7 @@ class SyncBackgroundCommand;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SyncBackgroundCommand);
 // Type: ::SyncBackgroundCommand
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SyncBackgroundCommand*
@@ -31,14 +31,14 @@ public:
   // Declarations
   /// @brief Field _taskCompletionSource, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__taskCompletionSource,
-                      put = __cordl_internal_set__taskCompletionSource))::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* _taskCompletionSource;
+                      put = __cordl_internal_set__taskCompletionSource)) ::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* _taskCompletionSource;
 
-  __declspec(property(get = get_resultTask))::System::Threading::Tasks::Task* resultTask;
+  __declspec(property(get = get_resultTask)) ::System::Threading::Tasks::Task* resultTask;
 
   /// @brief Convert operator to "::GlobalNamespace::IBackgroundCommand"
   constexpr operator ::GlobalNamespace::IBackgroundCommand*() noexcept;
 
-  /// @brief Method Execute, addr 0x1095c48, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x2272d28, size 0x168, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* Execute();
 
   /// @brief Method ExecuteInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set__taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x1095db0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2272e90, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_resultTask, addr 0x1095c00, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_resultTask, addr 0x2272ce0, size 0x48, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* get_resultTask();
 
   /// @brief Convert to "::GlobalNamespace::IBackgroundCommand"
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field _taskCompletionSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* ____taskCompletionSource;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17168 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

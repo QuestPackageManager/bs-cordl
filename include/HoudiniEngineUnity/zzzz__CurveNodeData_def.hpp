@@ -22,7 +22,7 @@ class CurveNodeData;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::CurveNodeData);
 // Type: HoudiniEngineUnity::CurveNodeData
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::CurveNodeData*
@@ -30,21 +30,21 @@ class CORDL_TYPE CurveNodeData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field position, offset 0x10, size 0xc
-  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector3 position;
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) ::UnityEngine::Vector3 position;
 
   /// @brief Field rotation, offset 0x1c, size 0xc
-  __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation))::UnityEngine::Vector3 rotation;
+  __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation)) ::UnityEngine::Vector3 rotation;
 
   /// @brief Field scale, offset 0x28, size 0xc
-  __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale))::UnityEngine::Vector3 scale;
+  __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale)) ::UnityEngine::Vector3 scale;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>*() noexcept;
 
-  /// @brief Method GetRotation, addr 0x256109c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetRotation, addr 0x399ede0, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetRotation();
 
-  /// @brief Method IsEquivalentTo, addr 0x25610c0, size 0x1ac, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x399ee04, size 0x1ac, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::CurveNodeData* other);
 
   static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor();
@@ -75,19 +75,19 @@ public:
 
   constexpr void __cordl_internal_set_scale(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x2560bd0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399e914, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2560fac, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399ecf0, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::CurveNodeData* other);
 
-  /// @brief Method .ctor, addr 0x2560c78, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399e9bc, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position);
 
-  /// @brief Method .ctor, addr 0x2560d48, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399ea8c, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x2560e74, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399ebb8, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>"
@@ -115,6 +115,9 @@ public:
 
   /// @brief Field scale, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___scale;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11563 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

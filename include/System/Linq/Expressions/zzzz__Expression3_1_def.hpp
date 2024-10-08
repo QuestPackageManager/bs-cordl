@@ -26,7 +26,7 @@ template <typename TDelegate> class Expression3_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::Expression3_1);
 // Type: System.Linq.Expressions::Expression3`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // cpp template
 template <typename TDelegate>
@@ -38,13 +38,13 @@ public:
   __declspec(property(get = get_ParameterCount)) int32_t ParameterCount;
 
   /// @brief Field _par0, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__par0, put = __cordl_internal_set__par0))::System::Object* _par0;
+  __declspec(property(get = __cordl_internal_get__par0, put = __cordl_internal_set__par0)) ::System::Object* _par0;
 
   /// @brief Field _par1, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__par1, put = __cordl_internal_set__par1))::System::Linq::Expressions::ParameterExpression* _par1;
+  __declspec(property(get = __cordl_internal_get__par1, put = __cordl_internal_set__par1)) ::System::Linq::Expressions::ParameterExpression* _par1;
 
   /// @brief Field _par2, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__par2, put = __cordl_internal_set__par2))::System::Linq::Expressions::ParameterExpression* _par2;
+  __declspec(property(get = __cordl_internal_get__par2, put = __cordl_internal_set__par2)) ::System::Linq::Expressions::ParameterExpression* _par2;
 
   /// @brief Method GetParameter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::ParameterExpression* GetParameter(int32_t index);
@@ -103,6 +103,9 @@ public:
 
   /// @brief Field _par2, offset: 0x28, size: 0x8, def value: None
   ::System::Linq::Expressions::ParameterExpression* ____par2;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13650 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

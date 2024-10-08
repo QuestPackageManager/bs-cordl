@@ -14,7 +14,7 @@ class HEU_UnityMaterialInfo;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_UnityMaterialInfo);
 // Type: HoudiniEngineUnity::HEU_UnityMaterialInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_UnityMaterialInfo*
@@ -25,10 +25,10 @@ public:
   __declspec(property(get = __cordl_internal_get__substanceIndex, put = __cordl_internal_set__substanceIndex)) int32_t _substanceIndex;
 
   /// @brief Field _substancePath, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__substancePath, put = __cordl_internal_set__substancePath))::StringW _substancePath;
+  __declspec(property(get = __cordl_internal_get__substancePath, put = __cordl_internal_set__substancePath)) ::StringW _substancePath;
 
   /// @brief Field _unityMaterialPath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__unityMaterialPath, put = __cordl_internal_set__unityMaterialPath))::StringW _unityMaterialPath;
+  __declspec(property(get = __cordl_internal_get__unityMaterialPath, put = __cordl_internal_set__unityMaterialPath)) ::StringW _unityMaterialPath;
 
   static inline ::HoudiniEngineUnity::HEU_UnityMaterialInfo* New_ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex);
 
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__unityMaterialPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x25b2ac4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ee3b4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex);
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field _substanceIndex, offset: 0x20, size: 0x4, def value: None
   int32_t ____substanceIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11724 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

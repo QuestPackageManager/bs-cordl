@@ -26,7 +26,7 @@ class HEU_ParameterModifier;
 MARK_VAL_T(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction);
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ParameterModifier);
 // Type: ::ModifierAction
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HEU_ParameterModifier::ModifierAction
@@ -79,6 +79,9 @@ public:
   /// @brief Field SET_INT value: static_cast<int32_t>(0x4)
   static ::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction const SET_INT;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11705 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -91,7 +94,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAc
 
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_ParameterModifier
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_ParameterModifier*
@@ -101,7 +104,7 @@ public:
   using ModifierAction = ::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction;
 
   /// @brief Field _action, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__action, put = __cordl_internal_set__action))::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction _action;
+  __declspec(property(get = __cordl_internal_get__action, put = __cordl_internal_set__action)) ::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction _action;
 
   /// @brief Field _floatValue, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__floatValue, put = __cordl_internal_set__floatValue)) float_t _floatValue;
@@ -121,11 +124,11 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>*() noexcept;
 
-  /// @brief Method GetNewModifier, addr 0x25a2e30, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetNewModifier, addr 0x39df8b8, size 0x84, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_ParameterModifier* GetNewModifier(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction action, int32_t parameterIndex, int32_t instanceIndex,
                                                                             int32_t modifierValue);
 
-  /// @brief Method IsEquivalentTo, addr 0x25a2ebc, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x39df944, size 0x28c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterModifier* other);
 
   static inline ::HoudiniEngineUnity::HEU_ParameterModifier* New_ctor();
@@ -166,7 +169,7 @@ public:
 
   constexpr void __cordl_internal_set__parameterIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25a2eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39df93c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>"
@@ -203,6 +206,9 @@ public:
 
   /// @brief Field _intValue, offset: 0x24, size: 0x4, def value: None
   int32_t ____intValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11706 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

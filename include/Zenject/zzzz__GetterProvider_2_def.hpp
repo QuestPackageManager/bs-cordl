@@ -44,7 +44,7 @@ template <typename TObj, typename TResult> class GetterProvider_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::GetterProvider_2);
 // Type: Zenject::GetterProvider`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TObj, typename TResult>
@@ -58,19 +58,19 @@ public:
   __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
 
   /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
   /// @brief Field _identifier, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__identifier, put = __cordl_internal_set__identifier))::System::Object* _identifier;
+  __declspec(property(get = __cordl_internal_get__identifier, put = __cordl_internal_set__identifier)) ::System::Object* _identifier;
 
   /// @brief Field _matchAll, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__matchAll, put = __cordl_internal_set__matchAll)) bool _matchAll;
 
   /// @brief Field _method, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method))::System::Func_2<TObj, TResult>* _method;
+  __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method)) ::System::Func_2<TObj, TResult>* _method;
 
   /// @brief Field _sourceType, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__sourceType, put = __cordl_internal_set__sourceType))::Zenject::InjectSources _sourceType;
+  __declspec(property(get = __cordl_internal_get__sourceType, put = __cordl_internal_set__sourceType)) ::Zenject::InjectSources _sourceType;
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
@@ -158,6 +158,9 @@ public:
 
   /// @brief Field _sourceType, offset: 0x2c, size: 0x4, def value: None
   ::Zenject::InjectSources ____sourceType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12492 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,25 +21,25 @@ class RevocationDetails;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::RevocationDetails);
 // Type: Org.BouncyCastle.Cmp::RevocationDetails
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cmp::RevocationDetails*
 class CORDL_TYPE RevocationDetails : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Issuer))::Org::BouncyCastle::Asn1::X509::X509Name* Issuer;
+  __declspec(property(get = get_Issuer)) ::Org::BouncyCastle::Asn1::X509::X509Name* Issuer;
 
-  __declspec(property(get = get_SerialNumber))::Org::BouncyCastle::Math::BigInteger* SerialNumber;
+  __declspec(property(get = get_SerialNumber)) ::Org::BouncyCastle::Math::BigInteger* SerialNumber;
 
-  __declspec(property(get = get_Subject))::Org::BouncyCastle::Asn1::X509::X509Name* Subject;
+  __declspec(property(get = get_Subject)) ::Org::BouncyCastle::Asn1::X509::X509Name* Subject;
 
   /// @brief Field revDetails, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_revDetails, put = __cordl_internal_set_revDetails))::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails;
+  __declspec(property(get = __cordl_internal_get_revDetails, put = __cordl_internal_set_revDetails)) ::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails;
 
   static inline ::Org::BouncyCastle::Cmp::RevocationDetails* New_ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails);
 
-  /// @brief Method ToASN1Structure, addr 0x144b2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToASN1Structure, addr 0x260e4f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* ToASN1Structure();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::RevDetails*& __cordl_internal_get_revDetails();
@@ -48,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set_revDetails(::Org::BouncyCastle::Asn1::Cmp::RevDetails* value);
 
-  /// @brief Method .ctor, addr 0x144b218, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260e434, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails);
 
-  /// @brief Method get_Issuer, addr 0x144b270, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x260e48c, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_SerialNumber, addr 0x144b2a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x260e4bc, size 0x3c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method get_Subject, addr 0x144b240, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x260e45c, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
 
 protected:
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field revDetails, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cmp::RevDetails* ___revDetails;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 608 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

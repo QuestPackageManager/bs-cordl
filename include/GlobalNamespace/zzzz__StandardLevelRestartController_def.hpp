@@ -21,27 +21,28 @@ class StandardLevelRestartController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StandardLevelRestartController);
 // Type: ::StandardLevelRestartController
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::StandardLevelRestartController*
 class CORDL_TYPE StandardLevelRestartController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _prepareLevelCompletionResults, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults,
-                      put = __cordl_internal_set__prepareLevelCompletionResults))::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> _prepareLevelCompletionResults;
+  /// @brief Field _prepareLevelCompletionResults, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults, put = __cordl_internal_set__prepareLevelCompletionResults)) ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>
+      _prepareLevelCompletionResults;
 
-  /// @brief Field _standardLevelSceneSetupData, offset 0x18, size 0x8
+  /// @brief Field _standardLevelSceneSetupData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__standardLevelSceneSetupData,
-                      put = __cordl_internal_set__standardLevelSceneSetupData))::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> _standardLevelSceneSetupData;
+                      put = __cordl_internal_set__standardLevelSceneSetupData)) ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>
+      _standardLevelSceneSetupData;
 
   /// @brief Convert operator to "::GlobalNamespace::ILevelRestartController"
   constexpr operator ::GlobalNamespace::ILevelRestartController*() noexcept;
 
   static inline ::GlobalNamespace::StandardLevelRestartController* New_ctor();
 
-  /// @brief Method RestartLevel, addr 0x2717248, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method RestartLevel, addr 0x3b3763c, size 0x40, virtual true, abstract: false, final true
   inline void RestartLevel();
 
   constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
@@ -56,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x2717288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3767c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ILevelRestartController"
@@ -76,20 +77,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandardLevelRestartController(StandardLevelRestartController const&) = delete;
 
-  /// @brief Field _standardLevelSceneSetupData, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _standardLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____standardLevelSceneSetupData;
 
-  /// @brief Field _prepareLevelCompletionResults, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _prepareLevelCompletionResults, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4440 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelRestartController, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelRestartController, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelRestartController, ____standardLevelSceneSetupData) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelRestartController, ____standardLevelSceneSetupData) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelRestartController, ____prepareLevelCompletionResults) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelRestartController, ____prepareLevelCompletionResults) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardLevelRestartController);

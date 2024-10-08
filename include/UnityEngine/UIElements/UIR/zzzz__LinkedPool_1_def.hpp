@@ -19,7 +19,7 @@ template <typename T> class LinkedPool_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UIR::LinkedPool_1);
 // Type: UnityEngine.UIElements.UIR::LinkedPool`1
-// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
@@ -34,7 +34,7 @@ public:
   __declspec(property(get = __cordl_internal_get__Count_k__BackingField, put = __cordl_internal_set__Count_k__BackingField)) int32_t _Count_k__BackingField;
 
   /// @brief Field m_CreateFunc, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CreateFunc, put = __cordl_internal_set_m_CreateFunc))::System::Func_1<T>* m_CreateFunc;
+  __declspec(property(get = __cordl_internal_get_m_CreateFunc, put = __cordl_internal_set_m_CreateFunc)) ::System::Func_1<T>* m_CreateFunc;
 
   /// @brief Field m_Limit, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Limit, put = __cordl_internal_set_m_Limit)) int32_t m_Limit;
@@ -43,7 +43,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_PoolFirst, put = __cordl_internal_set_m_PoolFirst)) T m_PoolFirst;
 
   /// @brief Field m_ResetAction, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ResetAction, put = __cordl_internal_set_m_ResetAction))::System::Action_1<T>* m_ResetAction;
+  __declspec(property(get = __cordl_internal_get_m_ResetAction, put = __cordl_internal_set_m_ResetAction)) ::System::Action_1<T>* m_ResetAction;
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
@@ -123,6 +123,9 @@ public:
 
   /// @brief Field <Count>k__BackingField, offset: 0x30, size: 0x4, def value: None
   int32_t ____Count_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6335 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

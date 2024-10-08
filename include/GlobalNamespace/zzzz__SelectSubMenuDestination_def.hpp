@@ -22,7 +22,7 @@ class SelectSubMenuDestination;
 MARK_VAL_T(::GlobalNamespace::__SelectSubMenuDestination__Destination);
 MARK_REF_PTR_T(::GlobalNamespace::SelectSubMenuDestination);
 // Type: ::Destination
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::SelectSubMenuDestination::Destination
@@ -83,6 +83,9 @@ public:
   /// @brief Field Tutorial value: static_cast<int32_t>(0x5)
   static ::GlobalNamespace::__SelectSubMenuDestination__Destination const Tutorial;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12775 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -95,7 +98,7 @@ static_assert(offsetof(::GlobalNamespace::__SelectSubMenuDestination__Destinatio
 
 } // namespace GlobalNamespace
 // Type: ::SelectSubMenuDestination
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SelectSubMenuDestination*
@@ -105,7 +108,7 @@ public:
   using Destination = ::GlobalNamespace::__SelectSubMenuDestination__Destination;
 
   /// @brief Field menuDestination, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_menuDestination, put = __cordl_internal_set_menuDestination))::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination;
+  __declspec(property(get = __cordl_internal_get_menuDestination, put = __cordl_internal_set_menuDestination)) ::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination;
 
   static inline ::GlobalNamespace::SelectSubMenuDestination* New_ctor(::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination);
 
@@ -115,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_menuDestination(::GlobalNamespace::__SelectSubMenuDestination__Destination value);
 
-  /// @brief Method .ctor, addr 0x14abd94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266d058, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination);
 
 protected:
@@ -134,6 +137,9 @@ public:
 
   /// @brief Field menuDestination, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::__SelectSubMenuDestination__Destination ___menuDestination;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12776 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

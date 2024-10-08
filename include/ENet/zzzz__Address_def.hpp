@@ -18,42 +18,42 @@ struct Address;
 // Write type traits
 MARK_VAL_T(::ENet::Address);
 // Type: ENet::Address
-// SizeInfo { instance_size: 18, native_size: 18, calculated_instance_size: 18, calculated_native_size: 34, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 18, native_size: 18, calculated_instance_size: 18, calculated_native_size: 34, minimum_alignment: 2, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: true
 // CS Name: ::ENet::Address
 struct CORDL_TYPE Address {
 public:
   // Declarations
-  __declspec(property(get = get_NativeData, put = set_NativeData))::ENet::ENetAddress NativeData;
+  __declspec(property(get = get_NativeData, put = set_NativeData)) ::ENet::ENetAddress NativeData;
 
   __declspec(property(get = get_Port, put = set_Port)) uint16_t Port;
 
-  /// @brief Method GetHost, addr 0x25ffae4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetHost, addr 0x3a3954c, size 0xc0, virtual false, abstract: false, final false
   inline ::StringW GetHost();
 
-  /// @brief Method GetIP, addr 0x25ff860, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetIP, addr 0x3a392cc, size 0xc0, virtual false, abstract: false, final false
   inline ::StringW GetIP();
 
-  /// @brief Method SetHost, addr 0x25ffc60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetHost, addr 0x3a396c8, size 0x64, virtual false, abstract: false, final false
   inline bool SetHost(::StringW hostName);
 
-  /// @brief Method SetIP, addr 0x25ff9dc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetIP, addr 0x3a39448, size 0x64, virtual false, abstract: false, final false
   inline bool SetIP(::StringW ip);
 
-  /// @brief Method .ctor, addr 0x25ff83c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a392a8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::ENet::ENetAddress address);
 
-  /// @brief Method get_NativeData, addr 0x25ff814, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x3a39280, size 0x14, virtual false, abstract: false, final false
   inline ::ENet::ENetAddress get_NativeData();
 
-  /// @brief Method get_Port, addr 0x25ff850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Port, addr 0x3a392bc, size 0x8, virtual false, abstract: false, final false
   inline uint16_t get_Port();
 
-  /// @brief Method set_NativeData, addr 0x25ff828, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x3a39294, size 0x14, virtual false, abstract: false, final false
   inline void set_NativeData(::ENet::ENetAddress value);
 
-  /// @brief Method set_Port, addr 0x25ff858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Port, addr 0x3a392c4, size 0x8, virtual false, abstract: false, final false
   inline void set_Port(uint16_t value);
 
   // Ctor Parameters []
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field nativeAddress, offset: 0x0, size: 0x12, def value: None
   ::ENet::ENetAddress nativeAddress;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17689 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x12 };

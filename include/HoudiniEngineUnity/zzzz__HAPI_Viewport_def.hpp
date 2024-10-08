@@ -14,17 +14,17 @@ struct HAPI_Viewport;
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_Viewport);
 // Type: HoudiniEngineUnity::HAPI_Viewport
-// SizeInfo { instance_size: 24, native_size: 32, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 32, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HoudiniEngineUnity::HAPI_Viewport
 struct CORDL_TYPE HAPI_Viewport {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x25a20ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39deb74, size 0x70, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method .ctor, addr 0x25a2064, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39deaec, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(bool initializeFields);
 
   // Ctor Parameters []
@@ -43,6 +43,9 @@ public:
 
   /// @brief Field offset, offset: 0x10, size: 0x4, def value: None
   float_t offset;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11699 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

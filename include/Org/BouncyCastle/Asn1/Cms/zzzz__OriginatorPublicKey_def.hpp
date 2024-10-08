@@ -32,34 +32,34 @@ class OriginatorPublicKey;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey);
 // Type: Org.BouncyCastle.Asn1.Cms::OriginatorPublicKey
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::OriginatorPublicKey*
 class CORDL_TYPE OriginatorPublicKey : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_Algorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Algorithm;
+  __declspec(property(get = get_Algorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Algorithm;
 
-  __declspec(property(get = get_PublicKey))::Org::BouncyCastle::Asn1::DerBitString* PublicKey;
+  __declspec(property(get = get_PublicKey)) ::Org::BouncyCastle::Asn1::DerBitString* PublicKey;
 
   /// @brief Field mAlgorithm, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mAlgorithm, put = __cordl_internal_set_mAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mAlgorithm;
+  __declspec(property(get = __cordl_internal_get_mAlgorithm, put = __cordl_internal_set_mAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mAlgorithm;
 
   /// @brief Field mPublicKey, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPublicKey, put = __cordl_internal_set_mPublicKey))::Org::BouncyCastle::Asn1::DerBitString* mPublicKey;
+  __declspec(property(get = __cordl_internal_get_mPublicKey, put = __cordl_internal_set_mPublicKey)) ::Org::BouncyCastle::Asn1::DerBitString* mPublicKey;
 
-  /// @brief Method GetInstance, addr 0x10ec4c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22c9a4c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x10e0abc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22be2b4, size 0x150, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10ec9dc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22c9f54, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_mAlgorithm();
@@ -74,16 +74,16 @@ public:
 
   constexpr void __cordl_internal_set_mPublicKey(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method .ctor, addr 0x10ec898, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c9e18, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
-  /// @brief Method .ctor, addr 0x10ec91c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c9e94, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Algorithm, addr 0x10ec9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x22c9f44, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
-  /// @brief Method get_PublicKey, addr 0x10ec9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0x22c9f4c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_PublicKey();
 
 protected:
@@ -105,6 +105,9 @@ public:
 
   /// @brief Field mPublicKey, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerBitString* ___mPublicKey;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 83 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

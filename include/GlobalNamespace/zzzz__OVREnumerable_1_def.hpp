@@ -57,7 +57,7 @@ MARK_GEN_VAL_T(::GlobalNamespace::__OVREnumerable_1__Enumerator__CollectionType)
 MARK_GEN_VAL_T(::GlobalNamespace::OVREnumerable_1);
 MARK_GEN_VAL_T(::GlobalNamespace::__OVREnumerable_1__Enumerator);
 // Type: ::CollectionType
-// SizeInfo { instance_size: 4, native_size: 20, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 20, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -112,6 +112,9 @@ public:
   /// @brief Field Set value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__OVREnumerable_1__Enumerator__CollectionType<T> const Set;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8385 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -120,7 +123,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::Enumerator
-// SizeInfo { instance_size: 80, native_size: 96, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: 96, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -133,7 +136,7 @@ public:
 
   __declspec(property(get = get_Current)) T Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
@@ -212,6 +215,9 @@ public:
   /// @brief Field _queueEnumerator, offset: 0x38, size: 0x18, def value: None
   ::System::Collections::Generic::__Queue_1__Enumerator<T> _queueEnumerator;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8386 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
@@ -220,7 +226,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::OVREnumerable`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -264,6 +270,9 @@ public:
 
   /// @brief Field _enumerable, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<T>* _enumerable;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8387 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -24,29 +24,29 @@ class Datatype_anyAtomicType;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_anyAtomicType);
 // Type: System.Xml.Schema::Datatype_anyAtomicType
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::Datatype_anyAtomicType*
 class CORDL_TYPE Datatype_anyAtomicType : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
   // Declarations
-  __declspec(property(get = get_BuiltInWhitespaceFacet))::System::Xml::Schema::XmlSchemaWhiteSpace BuiltInWhitespaceFacet;
+  __declspec(property(get = get_BuiltInWhitespaceFacet)) ::System::Xml::Schema::XmlSchemaWhiteSpace BuiltInWhitespaceFacet;
 
-  __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
+  __declspec(property(get = get_TypeCode)) ::System::Xml::Schema::XmlTypeCode TypeCode;
 
-  /// @brief Method CreateValueConverter, addr 0x2f36ff4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x4332f1c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::Datatype_anyAtomicType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f32d98, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432ed34, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x2f3704c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x4332f74, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_TypeCode, addr 0x2f37054, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x4332f7c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -62,6 +62,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_anyAtomicType", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Datatype_anyAtomicType(Datatype_anyAtomicType const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7492 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ struct DiagnosticId;
 // Write type traits
 MARK_VAL_T(::Unity::Burst::DiagnosticId);
 // Type: Unity.Burst::DiagnosticId
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: true
 // CS Name: ::Unity.Burst::DiagnosticId
@@ -109,6 +109,7 @@ public:
     __E_ERR_StringLiteralTooBig = static_cast<int32_t>(0x44c),
     __E_ERR_LdftnNonCCallingConventionNotSupported = static_cast<int32_t>(0x44d),
     __E_ERR_UnableToCallMethodOnInterfaceObject = static_cast<int32_t>(0x44e),
+    __E_ERR_UnsupportedCpuDependentBranch = static_cast<int32_t>(0x4af),
     __E_ERR_InstructionTargetCpuFeatureNotAllowedInThisBlock = static_cast<int32_t>(0x4b0),
     __E_ERR_AssumeRangeTypeMustBeInteger = static_cast<int32_t>(0x4b1),
     __E_ERR_AssumeRangeTypeMustBeSameSign = static_cast<int32_t>(0x4b2),
@@ -519,6 +520,9 @@ public:
   /// @brief Field ERR_UnmanagedStringMethodMissing value: static_cast<int32_t>(0x54b)
   static ::Unity::Burst::DiagnosticId const ERR_UnmanagedStringMethodMissing;
 
+  /// @brief Field ERR_UnsupportedCpuDependentBranch value: static_cast<int32_t>(0x4af)
+  static ::Unity::Burst::DiagnosticId const ERR_UnsupportedCpuDependentBranch;
+
   /// @brief Field ERR_UnsupportedSpillTransform value: static_cast<int32_t>(0x514)
   static ::Unity::Burst::DiagnosticId const ERR_UnsupportedSpillTransform;
 
@@ -545,6 +549,9 @@ public:
 
   /// @brief Field WRN_LoopIntrinsicCalledButLoopOptimizedAway value: static_cast<int32_t>(0x52a)
   static ::Unity::Burst::DiagnosticId const WRN_LoopIntrinsicCalledButLoopOptimizedAway;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14585 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

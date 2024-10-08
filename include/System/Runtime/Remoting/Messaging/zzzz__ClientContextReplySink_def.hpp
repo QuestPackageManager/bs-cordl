@@ -24,7 +24,7 @@ class ClientContextReplySink;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ClientContextReplySink);
 // Type: System.Runtime.Remoting.Messaging::ClientContextReplySink
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::ClientContextReplySink*
@@ -32,22 +32,22 @@ class CORDL_TYPE ClientContextReplySink : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _context, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::System::Runtime::Remoting::Contexts::Context* _context;
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context)) ::System::Runtime::Remoting::Contexts::Context* _context;
 
   /// @brief Field _replySink, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__replySink, put = __cordl_internal_set__replySink))::System::Runtime::Remoting::Messaging::IMessageSink* _replySink;
+  __declspec(property(get = __cordl_internal_get__replySink, put = __cordl_internal_set__replySink)) ::System::Runtime::Remoting::Messaging::IMessageSink* _replySink;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x285823c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x3c74d74, size 0x38, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Messaging::ClientContextReplySink* New_ctor(::System::Runtime::Remoting::Contexts::Context* ctx,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method SyncProcessMessage, addr 0x2858138, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x3c74c70, size 0x104, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   constexpr ::System::Runtime::Remoting::Contexts::Context*& __cordl_internal_get__context();
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__replySink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x285810c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c74c44, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Contexts::Context* ctx, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field _context, offset: 0x18, size: 0x8, def value: None
   ::System::Runtime::Remoting::Contexts::Context* ____context;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3158 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,7 @@ class GetXPlatformAccessTokenRequestSteam;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GetXPlatformAccessTokenRequestSteam);
 // Type: ::GetXPlatformAccessTokenRequestSteam
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GetXPlatformAccessTokenRequestSteam*
@@ -22,7 +22,7 @@ class CORDL_TYPE GetXPlatformAccessTokenRequestSteam : public ::System::Object {
 public:
   // Declarations
   /// @brief Field platformToken, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_platformToken, put = __cordl_internal_set_platformToken))::StringW platformToken;
+  __declspec(property(get = __cordl_internal_get_platformToken, put = __cordl_internal_set_platformToken)) ::StringW platformToken;
 
   /// @brief Field platformUserId, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_platformUserId, put = __cordl_internal_set_platformUserId)) int64_t platformUserId;
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_platformUserId(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2c0754c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4009814, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW platformToken, int64_t platformUserId);
 
 protected:
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field platformUserId, offset: 0x18, size: 0x8, def value: None
   int64_t ___platformUserId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18639 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

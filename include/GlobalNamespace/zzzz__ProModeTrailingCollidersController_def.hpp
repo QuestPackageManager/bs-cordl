@@ -22,37 +22,38 @@ class ProModeTrailingCollidersController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ProModeTrailingCollidersController);
 // Type: ::ProModeTrailingCollidersController
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ProModeTrailingCollidersController*
 class CORDL_TYPE ProModeTrailingCollidersController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _mainSmallCuttableBySaber, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainSmallCuttableBySaber,
-                      put = __cordl_internal_set__mainSmallCuttableBySaber))::UnityW<::GlobalNamespace::BoxCuttableBySaber> _mainSmallCuttableBySaber;
+  /// @brief Field _mainSmallCuttableBySaber, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainSmallCuttableBySaber, put = __cordl_internal_set__mainSmallCuttableBySaber)) ::UnityW<::GlobalNamespace::BoxCuttableBySaber>
+      _mainSmallCuttableBySaber;
 
-  /// @brief Field _noteMovement, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteMovement, put = __cordl_internal_set__noteMovement))::UnityW<::GlobalNamespace::NoteMovement> _noteMovement;
+  /// @brief Field _noteMovement, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__noteMovement, put = __cordl_internal_set__noteMovement)) ::UnityW<::GlobalNamespace::NoteMovement> _noteMovement;
 
-  /// @brief Field _trailingSmallCuttableBySaberList, offset 0x20, size 0x8
+  /// @brief Field _trailingSmallCuttableBySaberList, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__trailingSmallCuttableBySaberList,
-                      put = __cordl_internal_set__trailingSmallCuttableBySaberList))::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>,
-                                                                                             ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*> _trailingSmallCuttableBySaberList;
+                      put =
+                          __cordl_internal_set__trailingSmallCuttableBySaberList)) ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*>
+      _trailingSmallCuttableBySaberList;
 
-  /// @brief Field _transform, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
+  /// @brief Field _transform, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method HandleNoteDidMoveInJumpPhase, addr 0x264fbfc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidMoveInJumpPhase, addr 0x3a80c38, size 0x170, virtual false, abstract: false, final false
   inline void HandleNoteDidMoveInJumpPhase();
 
   static inline ::GlobalNamespace::ProModeTrailingCollidersController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x264fb2c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a80b6c, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x264fa94, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3a80ad0, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BoxCuttableBySaber> const& __cordl_internal_get__mainSmallCuttableBySaber() const;
@@ -79,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x264fd6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a80da8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,30 +97,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ProModeTrailingCollidersController(ProModeTrailingCollidersController const&) = delete;
 
-  /// @brief Field _mainSmallCuttableBySaber, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _mainSmallCuttableBySaber, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoxCuttableBySaber> ____mainSmallCuttableBySaber;
 
-  /// @brief Field _trailingSmallCuttableBySaberList, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _trailingSmallCuttableBySaberList, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::BoxCuttableBySaber>, ::Array<::UnityW<::GlobalNamespace::BoxCuttableBySaber>>*> ____trailingSmallCuttableBySaberList;
 
-  /// @brief Field _noteMovement, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _noteMovement, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteMovement> ____noteMovement;
 
-  /// @brief Field _transform, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _transform, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4122 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ProModeTrailingCollidersController, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ProModeTrailingCollidersController, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ProModeTrailingCollidersController, ____mainSmallCuttableBySaber) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ProModeTrailingCollidersController, ____mainSmallCuttableBySaber) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ProModeTrailingCollidersController, ____trailingSmallCuttableBySaberList) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ProModeTrailingCollidersController, ____trailingSmallCuttableBySaberList) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ProModeTrailingCollidersController, ____noteMovement) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ProModeTrailingCollidersController, ____noteMovement) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ProModeTrailingCollidersController, ____transform) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ProModeTrailingCollidersController, ____transform) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ProModeTrailingCollidersController);

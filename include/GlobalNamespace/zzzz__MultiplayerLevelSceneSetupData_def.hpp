@@ -17,7 +17,7 @@ class MultiplayerLevelSceneSetupData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLevelSceneSetupData);
 // Type: ::MultiplayerLevelSceneSetupData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerLevelSceneSetupData*
@@ -25,7 +25,7 @@ class CORDL_TYPE MultiplayerLevelSceneSetupData : public ::GlobalNamespace::Scen
 public:
   // Declarations
   /// @brief Field beatmapKey, offset 0x10, size 0x18
-  __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey))::GlobalNamespace::BeatmapKey beatmapKey;
+  __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey)) ::GlobalNamespace::BeatmapKey beatmapKey;
 
   /// @brief Field hasSong, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_hasSong, put = __cordl_internal_set_hasSong)) bool hasSong;
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_hasSong(bool value);
 
-  /// @brief Method .ctor, addr 0x26d2034, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac63d4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong);
 
 protected:
@@ -66,6 +66,9 @@ public:
 
   /// @brief Field hasSong, offset: 0x28, size: 0x1, def value: None
   bool ___hasSong;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5219 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

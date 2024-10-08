@@ -21,7 +21,7 @@ struct HumanDescription;
 // Write type traits
 MARK_VAL_T(::UnityEngine::HumanDescription);
 // Type: UnityEngine::HumanDescription
-// SizeInfo { instance_size: 64, native_size: 72, calculated_instance_size: 64, calculated_native_size: 75, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 72, calculated_instance_size: 64, calculated_native_size: 75, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::HumanDescription
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field m_SkeletonHasParents, offset: 0x3a, size: 0x1, def value: None
   bool m_SkeletonHasParents;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16829 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

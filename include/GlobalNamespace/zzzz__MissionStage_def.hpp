@@ -19,22 +19,22 @@ class MissionStage;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionStage);
 // Type: ::MissionStage
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MissionStage*
 class CORDL_TYPE MissionStage : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _minimumMissionsToUnlock, offset 0x18, size 0x4
+  /// @brief Field _minimumMissionsToUnlock, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__minimumMissionsToUnlock, put = __cordl_internal_set__minimumMissionsToUnlock)) int32_t _minimumMissionsToUnlock;
 
-  /// @brief Field _rectTransform, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform))::UnityW<::UnityEngine::RectTransform> _rectTransform;
+  /// @brief Field _rectTransform, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform)) ::UnityW<::UnityEngine::RectTransform> _rectTransform;
 
   __declspec(property(get = get_minimumMissionsToUnlock)) int32_t minimumMissionsToUnlock;
 
-  __declspec(property(get = get_position))::UnityEngine::Vector2 position;
+  __declspec(property(get = get_position)) ::UnityEngine::Vector2 position;
 
   static inline ::GlobalNamespace::MissionStage* New_ctor();
 
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x14da43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2693c28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_minimumMissionsToUnlock, addr 0x14da418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minimumMissionsToUnlock, addr 0x2693c04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minimumMissionsToUnlock();
 
-  /// @brief Method get_position, addr 0x14da420, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x2693c0c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
 protected:
@@ -73,20 +73,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionStage(MissionStage const&) = delete;
 
-  /// @brief Field _minimumMissionsToUnlock, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _minimumMissionsToUnlock, offset: 0x20, size: 0x4, def value: None
   int32_t ____minimumMissionsToUnlock;
 
-  /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _rectTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13003 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionStage, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionStage, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionStage, ____minimumMissionsToUnlock) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionStage, ____minimumMissionsToUnlock) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionStage, ____rectTransform) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionStage, ____rectTransform) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionStage);

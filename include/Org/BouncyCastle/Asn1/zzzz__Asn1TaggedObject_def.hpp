@@ -29,7 +29,7 @@ class Asn1TaggedObject;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1TaggedObject);
 // Type: Org.BouncyCastle.Asn1::Asn1TaggedObject
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1TaggedObject*
@@ -42,7 +42,7 @@ public:
   __declspec(property(get = __cordl_internal_get_explicitly, put = __cordl_internal_set_explicitly)) bool explicitly;
 
   /// @brief Field obj, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj))::Org::BouncyCastle::Asn1::Asn1Encodable* obj;
+  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj)) ::Org::BouncyCastle::Asn1::Asn1Encodable* obj;
 
   /// @brief Field tagNo, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_tagNo, put = __cordl_internal_set_tagNo)) int32_t tagNo;
@@ -53,38 +53,38 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method Asn1Equals, addr 0x142d348, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x25f1b84, size 0xf0, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x142d440, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x25f1c74, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method GetInstance, addr 0x142d100, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25f1944, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1TaggedObject* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x142d178, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25f19b8, size 0xfc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1TaggedObject* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetObject, addr 0x141cf24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetObject, addr 0x25e1c0c, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetObject();
 
-  /// @brief Method GetObjectParser, addr 0x142d494, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method GetObjectParser, addr 0x25f1cc8, size 0x130, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetObjectParser(int32_t tag, bool isExplicit);
 
-  /// @brief Method IsConstructed, addr 0x142cfd0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method IsConstructed, addr 0x25f1820, size 0x124, virtual false, abstract: false, final false
   static inline bool IsConstructed(bool isExplicit, ::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method IsEmpty, addr 0x142d48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x25f1cc0, size 0x8, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method IsExplicit, addr 0x142d484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsExplicit, addr 0x25f1cb8, size 0x8, virtual false, abstract: false, final false
   inline bool IsExplicit();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1TaggedObject* New_ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1TaggedObject* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method ToString, addr 0x142d5c4, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25f1df8, size 0x178, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_explicitly() const;
@@ -105,13 +105,13 @@ public:
 
   constexpr void __cordl_internal_set_tagNo(int32_t value);
 
-  /// @brief Method .ctor, addr 0x142d2bc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f1af8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x142d278, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f1ab4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method get_TagNo, addr 0x142d47c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TagNo, addr 0x25f1cb0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_TagNo();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser"
@@ -142,6 +142,9 @@ public:
 
   /// @brief Field obj, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Encodable* ___obj;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 469 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

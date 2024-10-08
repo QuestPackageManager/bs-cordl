@@ -62,7 +62,7 @@ MARK_VAL_T(::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius);
 MARK_VAL_T(::GlobalNamespace::__CloudsMeshGenerator__RadiusChunk);
 MARK_VAL_T(::GlobalNamespace::__CloudsMeshGenerator__Ring);
 // Type: ::Cloud
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::CloudsMeshGenerator::Cloud
@@ -104,6 +104,9 @@ public:
   /// @brief Field generatedCount, offset: 0x24, size: 0x4, def value: None
   int32_t generatedCount;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17623 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -130,7 +133,7 @@ static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Cloud, generate
 
 } // namespace GlobalNamespace
 // Type: ::Ring
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::CloudsMeshGenerator::Ring
@@ -161,6 +164,9 @@ public:
   /// @brief Field sizeMultiplier, offset: 0x18, size: 0x4, def value: None
   float_t sizeMultiplier;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17624 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
@@ -181,7 +187,7 @@ static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Ring, sizeMulti
 
 } // namespace GlobalNamespace
 // Type: ::ProhibitedRadius
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::CloudsMeshGenerator::ProhibitedRadius
@@ -205,6 +211,9 @@ public:
   /// @brief Field radius, offset: 0xc, size: 0x4, def value: None
   float_t radius;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17625 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -221,7 +230,7 @@ static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadiu
 
 } // namespace GlobalNamespace
 // Type: ::RadiusChunk
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::CloudsMeshGenerator::RadiusChunk
@@ -248,6 +257,9 @@ public:
   /// @brief Field absoluteEnd, offset: 0xc, size: 0x4, def value: None
   float_t absoluteEnd;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17626 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -266,7 +278,7 @@ static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__RadiusChunk, ab
 
 } // namespace GlobalNamespace
 // Type: ::CloudsMeshGenerator
-// SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CloudsMeshGenerator*
@@ -281,111 +293,115 @@ public:
 
   using Ring = ::GlobalNamespace::__CloudsMeshGenerator__Ring;
 
-  /// @brief Field _bottomHorizontalScale, offset 0x38, size 0x4
+  /// @brief Field _bottomHorizontalScale, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__bottomHorizontalScale, put = __cordl_internal_set__bottomHorizontalScale)) float_t _bottomHorizontalScale;
 
-  /// @brief Field _bottomPushDistance, offset 0x2c, size 0x4
+  /// @brief Field _bottomPushDistance, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__bottomPushDistance, put = __cordl_internal_set__bottomPushDistance)) float_t _bottomPushDistance;
 
-  /// @brief Field _bottomPushEnabled, offset 0x29, size 0x1
+  /// @brief Field _bottomPushEnabled, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get__bottomPushEnabled, put = __cordl_internal_set__bottomPushEnabled)) bool _bottomPushEnabled;
 
-  /// @brief Field _bottomScaleTopBottom, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__bottomScaleTopBottom, put = __cordl_internal_set__bottomScaleTopBottom))::UnityEngine::Vector2 _bottomScaleTopBottom;
+  /// @brief Field _bottomScaleTopBottom, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__bottomScaleTopBottom, put = __cordl_internal_set__bottomScaleTopBottom)) ::UnityEngine::Vector2 _bottomScaleTopBottom;
 
-  /// @brief Field _clouds, offset 0xa0, size 0x8
+  /// @brief Field _clouds, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__clouds,
-                      put = __cordl_internal_set__clouds))::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__Cloud, ::Array<::GlobalNamespace::__CloudsMeshGenerator__Cloud>*> _clouds;
+                      put = __cordl_internal_set__clouds)) ::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__Cloud, ::Array<::GlobalNamespace::__CloudsMeshGenerator__Cloud>*>
+      _clouds;
 
-  /// @brief Field _curveMesh, offset 0x9d, size 0x1
+  /// @brief Field _curveMesh, offset 0xa5, size 0x1
   __declspec(property(get = __cordl_internal_get__curveMesh, put = __cordl_internal_set__curveMesh)) bool _curveMesh;
 
-  /// @brief Field _drawRingGizmos, offset 0x3c, size 0x1
+  /// @brief Field _drawRingGizmos, offset 0x44, size 0x1
   __declspec(property(get = __cordl_internal_get__drawRingGizmos, put = __cordl_internal_set__drawRingGizmos)) bool _drawRingGizmos;
 
-  /// @brief Field _flipNormals, offset 0x9c, size 0x1
+  /// @brief Field _flipNormals, offset 0xa4, size 0x1
   __declspec(property(get = __cordl_internal_get__flipNormals, put = __cordl_internal_set__flipNormals)) bool _flipNormals;
 
-  /// @brief Field _generatedMesh, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__generatedMesh, put = __cordl_internal_set__generatedMesh))::UnityW<::UnityEngine::Mesh> _generatedMesh;
+  /// @brief Field _generatedMesh, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get__generatedMesh, put = __cordl_internal_set__generatedMesh)) ::UnityW<::UnityEngine::Mesh> _generatedMesh;
 
-  /// @brief Field _heightCloseFar, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__heightCloseFar, put = __cordl_internal_set__heightCloseFar))::UnityEngine::AnimationCurve* _heightCloseFar;
+  /// @brief Field _heightCloseFar, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__heightCloseFar, put = __cordl_internal_set__heightCloseFar)) ::UnityEngine::AnimationCurve* _heightCloseFar;
 
-  /// @brief Field _heightRandomness, offset 0x6c, size 0x4
+  /// @brief Field _heightRandomness, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get__heightRandomness, put = __cordl_internal_set__heightRandomness)) float_t _heightRandomness;
 
-  /// @brief Field _lowPolyThreshold, offset 0x98, size 0x4
+  /// @brief Field _lowPolyThreshold, offset 0xa0, size 0x4
   __declspec(property(get = __cordl_internal_get__lowPolyThreshold, put = __cordl_internal_set__lowPolyThreshold)) float_t _lowPolyThreshold;
 
-  /// @brief Field _meshBounds, offset 0xb8, size 0x18
-  __declspec(property(get = __cordl_internal_get__meshBounds, put = __cordl_internal_set__meshBounds))::UnityEngine::Bounds _meshBounds;
+  /// @brief Field _meshBounds, offset 0xc0, size 0x18
+  __declspec(property(get = __cordl_internal_get__meshBounds, put = __cordl_internal_set__meshBounds)) ::UnityEngine::Bounds _meshBounds;
 
-  /// @brief Field _meshCount, offset 0xa8, size 0x4
+  /// @brief Field _meshCount, offset 0xb0, size 0x4
   __declspec(property(get = __cordl_internal_get__meshCount, put = __cordl_internal_set__meshCount)) int32_t _meshCount;
 
-  /// @brief Field _meshFilter, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
+  /// @brief Field _meshFilter, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter)) ::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
-  /// @brief Field _meshName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__meshName, put = __cordl_internal_set__meshName))::StringW _meshName;
+  /// @brief Field _meshName, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__meshName, put = __cordl_internal_set__meshName)) ::StringW _meshName;
 
-  /// @brief Field _meshSize, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__meshSize, put = __cordl_internal_set__meshSize))::UnityEngine::Vector2 _meshSize;
+  /// @brief Field _meshSize, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__meshSize, put = __cordl_internal_set__meshSize)) ::UnityEngine::Vector2 _meshSize;
 
-  /// @brief Field _meshesPerRadius, offset 0x78, size 0x4
+  /// @brief Field _meshesPerRadius, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get__meshesPerRadius, put = __cordl_internal_set__meshesPerRadius)) float_t _meshesPerRadius;
 
-  /// @brief Field _pauseGenerator, offset 0x28, size 0x1
+  /// @brief Field _pauseGenerator, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__pauseGenerator, put = __cordl_internal_set__pauseGenerator)) bool _pauseGenerator;
 
-  /// @brief Field _perMeshRadiusOffset, offset 0x58, size 0x4
+  /// @brief Field _perMeshRadiusOffset, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__perMeshRadiusOffset, put = __cordl_internal_set__perMeshRadiusOffset)) float_t _perMeshRadiusOffset;
 
-  /// @brief Field _possibleColors, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__possibleColors, put = __cordl_internal_set__possibleColors))::UnityEngine::Gradient* _possibleColors;
+  /// @brief Field _possibleColors, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__possibleColors, put = __cordl_internal_set__possibleColors)) ::UnityEngine::Gradient* _possibleColors;
 
-  /// @brief Field _prohibitedRadii, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__prohibitedRadii,
-                      put = __cordl_internal_set__prohibitedRadii))::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius,
-                                                                            ::Array<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius>*> _prohibitedRadii;
+  /// @brief Field _prohibitedRadii, offset 0x48, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__prohibitedRadii,
+      put = __cordl_internal_set__prohibitedRadii)) ::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius, ::Array<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius>*>
+      _prohibitedRadii;
 
-  /// @brief Field _radiusChunks, offset 0xd0, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__radiusChunks,
-               put = __cordl_internal_set__radiusChunks))::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__RadiusChunk, ::Array<::GlobalNamespace::__CloudsMeshGenerator__RadiusChunk>*> _radiusChunks;
+  /// @brief Field _radiusChunks, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get__radiusChunks,
+                      put = __cordl_internal_set__radiusChunks)) ::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__RadiusChunk, ::Array<::GlobalNamespace::__CloudsMeshGenerator__RadiusChunk>*>
+      _radiusChunks;
 
-  /// @brief Field _radiusCloseFar, offset 0x7c, size 0x8
-  __declspec(property(get = __cordl_internal_get__radiusCloseFar, put = __cordl_internal_set__radiusCloseFar))::UnityEngine::Vector2 _radiusCloseFar;
+  /// @brief Field _radiusCloseFar, offset 0x84, size 0x8
+  __declspec(property(get = __cordl_internal_get__radiusCloseFar, put = __cordl_internal_set__radiusCloseFar)) ::UnityEngine::Vector2 _radiusCloseFar;
 
-  /// @brief Field _randomSeed, offset 0x68, size 0x4
+  /// @brief Field _randomSeed, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get__randomSeed, put = __cordl_internal_set__randomSeed)) int32_t _randomSeed;
 
-  /// @brief Field _ratioRandomness, offset 0x54, size 0x4
+  /// @brief Field _ratioRandomness, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get__ratioRandomness, put = __cordl_internal_set__ratioRandomness)) float_t _ratioRandomness;
 
-  /// @brief Field _ringCount, offset 0x74, size 0x4
+  /// @brief Field _ringCount, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get__ringCount, put = __cordl_internal_set__ringCount)) int32_t _ringCount;
 
-  /// @brief Field _ringRotationRandomness, offset 0x70, size 0x4
+  /// @brief Field _ringRotationRandomness, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get__ringRotationRandomness, put = __cordl_internal_set__ringRotationRandomness)) float_t _ringRotationRandomness;
 
-  /// @brief Field _rings, offset 0xd8, size 0x8
+  /// @brief Field _rings, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__rings,
-                      put = __cordl_internal_set__rings))::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__Ring, ::Array<::GlobalNamespace::__CloudsMeshGenerator__Ring>*> _rings;
+                      put = __cordl_internal_set__rings)) ::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__Ring, ::Array<::GlobalNamespace::__CloudsMeshGenerator__Ring>*>
+      _rings;
 
-  /// @brief Field _sizeCloseFar, offset 0x84, size 0x8
-  __declspec(property(get = __cordl_internal_get__sizeCloseFar, put = __cordl_internal_set__sizeCloseFar))::UnityEngine::Vector2 _sizeCloseFar;
+  /// @brief Field _sizeCloseFar, offset 0x8c, size 0x8
+  __declspec(property(get = __cordl_internal_get__sizeCloseFar, put = __cordl_internal_set__sizeCloseFar)) ::UnityEngine::Vector2 _sizeCloseFar;
 
-  /// @brief Field _sizeRandomness, offset 0x50, size 0x4
+  /// @brief Field _sizeRandomness, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__sizeRandomness, put = __cordl_internal_set__sizeRandomness)) float_t _sizeRandomness;
 
-  /// @brief Field _sortedProhibitedRadii, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get__sortedProhibitedRadii,
-                      put = __cordl_internal_set__sortedProhibitedRadii))::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius,
-                                                                                  ::Array<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius>*> _sortedProhibitedRadii;
+  /// @brief Field _sortedProhibitedRadii, offset 0xe8, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__sortedProhibitedRadii,
+      put = __cordl_internal_set__sortedProhibitedRadii)) ::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius, ::Array<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius>*>
+      _sortedProhibitedRadii;
 
-  /// @brief Field _vertexCount, offset 0xac, size 0x4
+  /// @brief Field _vertexCount, offset 0xb4, size 0x4
   __declspec(property(get = __cordl_internal_get__vertexCount, put = __cordl_internal_set__vertexCount)) int32_t _vertexCount;
 
   static inline ::GlobalNamespace::CloudsMeshGenerator* New_ctor();
@@ -592,7 +608,7 @@ public:
 
   constexpr void __cordl_internal_set__vertexCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1065018, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x222eb9c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -609,175 +625,178 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CloudsMeshGenerator(CloudsMeshGenerator const&) = delete;
 
-  /// @brief Field _meshFilter, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _meshFilter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
-  /// @brief Field _meshName, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _meshName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____meshName;
 
-  /// @brief Field _pauseGenerator, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field _pauseGenerator, offset: 0x30, size: 0x1, def value: None
   bool ____pauseGenerator;
 
-  /// @brief Field _bottomPushEnabled, offset: 0x29, size: 0x1, def value: None
+  /// @brief Field _bottomPushEnabled, offset: 0x31, size: 0x1, def value: None
   bool ____bottomPushEnabled;
 
-  /// @brief Field _bottomPushDistance, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _bottomPushDistance, offset: 0x34, size: 0x4, def value: None
   float_t ____bottomPushDistance;
 
-  /// @brief Field _bottomScaleTopBottom, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _bottomScaleTopBottom, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____bottomScaleTopBottom;
 
-  /// @brief Field _bottomHorizontalScale, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _bottomHorizontalScale, offset: 0x40, size: 0x4, def value: None
   float_t ____bottomHorizontalScale;
 
-  /// @brief Field _drawRingGizmos, offset: 0x3c, size: 0x1, def value: None
+  /// @brief Field _drawRingGizmos, offset: 0x44, size: 0x1, def value: None
   bool ____drawRingGizmos;
 
-  /// @brief Field _prohibitedRadii, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _prohibitedRadii, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius, ::Array<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius>*> ____prohibitedRadii;
 
-  /// @brief Field _meshSize, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _meshSize, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____meshSize;
 
-  /// @brief Field _sizeRandomness, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field _sizeRandomness, offset: 0x58, size: 0x4, def value: None
   float_t ____sizeRandomness;
 
-  /// @brief Field _ratioRandomness, offset: 0x54, size: 0x4, def value: None
+  /// @brief Field _ratioRandomness, offset: 0x5c, size: 0x4, def value: None
   float_t ____ratioRandomness;
 
-  /// @brief Field _perMeshRadiusOffset, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field _perMeshRadiusOffset, offset: 0x60, size: 0x4, def value: None
   float_t ____perMeshRadiusOffset;
 
-  /// @brief Field _possibleColors, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _possibleColors, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Gradient* ____possibleColors;
 
-  /// @brief Field _randomSeed, offset: 0x68, size: 0x4, def value: None
+  /// @brief Field _randomSeed, offset: 0x70, size: 0x4, def value: None
   int32_t ____randomSeed;
 
-  /// @brief Field _heightRandomness, offset: 0x6c, size: 0x4, def value: None
+  /// @brief Field _heightRandomness, offset: 0x74, size: 0x4, def value: None
   float_t ____heightRandomness;
 
-  /// @brief Field _ringRotationRandomness, offset: 0x70, size: 0x4, def value: None
+  /// @brief Field _ringRotationRandomness, offset: 0x78, size: 0x4, def value: None
   float_t ____ringRotationRandomness;
 
-  /// @brief Field _ringCount, offset: 0x74, size: 0x4, def value: None
+  /// @brief Field _ringCount, offset: 0x7c, size: 0x4, def value: None
   int32_t ____ringCount;
 
-  /// @brief Field _meshesPerRadius, offset: 0x78, size: 0x4, def value: None
+  /// @brief Field _meshesPerRadius, offset: 0x80, size: 0x4, def value: None
   float_t ____meshesPerRadius;
 
-  /// @brief Field _radiusCloseFar, offset: 0x7c, size: 0x8, def value: None
+  /// @brief Field _radiusCloseFar, offset: 0x84, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____radiusCloseFar;
 
-  /// @brief Field _sizeCloseFar, offset: 0x84, size: 0x8, def value: None
+  /// @brief Field _sizeCloseFar, offset: 0x8c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____sizeCloseFar;
 
-  /// @brief Field _heightCloseFar, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _heightCloseFar, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____heightCloseFar;
 
-  /// @brief Field _lowPolyThreshold, offset: 0x98, size: 0x4, def value: None
+  /// @brief Field _lowPolyThreshold, offset: 0xa0, size: 0x4, def value: None
   float_t ____lowPolyThreshold;
 
-  /// @brief Field _flipNormals, offset: 0x9c, size: 0x1, def value: None
+  /// @brief Field _flipNormals, offset: 0xa4, size: 0x1, def value: None
   bool ____flipNormals;
 
-  /// @brief Field _curveMesh, offset: 0x9d, size: 0x1, def value: None
+  /// @brief Field _curveMesh, offset: 0xa5, size: 0x1, def value: None
   bool ____curveMesh;
 
-  /// @brief Field _clouds, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _clouds, offset: 0xa8, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__Cloud, ::Array<::GlobalNamespace::__CloudsMeshGenerator__Cloud>*> ____clouds;
 
-  /// @brief Field _meshCount, offset: 0xa8, size: 0x4, def value: None
+  /// @brief Field _meshCount, offset: 0xb0, size: 0x4, def value: None
   int32_t ____meshCount;
 
-  /// @brief Field _vertexCount, offset: 0xac, size: 0x4, def value: None
+  /// @brief Field _vertexCount, offset: 0xb4, size: 0x4, def value: None
   int32_t ____vertexCount;
 
-  /// @brief Field _generatedMesh, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _generatedMesh, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____generatedMesh;
 
-  /// @brief Field _meshBounds, offset: 0xb8, size: 0x18, def value: None
+  /// @brief Field _meshBounds, offset: 0xc0, size: 0x18, def value: None
   ::UnityEngine::Bounds ____meshBounds;
 
-  /// @brief Field _radiusChunks, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _radiusChunks, offset: 0xd8, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__RadiusChunk, ::Array<::GlobalNamespace::__CloudsMeshGenerator__RadiusChunk>*> ____radiusChunks;
 
-  /// @brief Field _rings, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _rings, offset: 0xe0, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__Ring, ::Array<::GlobalNamespace::__CloudsMeshGenerator__Ring>*> ____rings;
 
-  /// @brief Field _sortedProhibitedRadii, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _sortedProhibitedRadii, offset: 0xe8, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius, ::Array<::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadius>*> ____sortedProhibitedRadii;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17627 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CloudsMeshGenerator, 0xe8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CloudsMeshGenerator, 0xf0>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshFilter) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshFilter) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshName) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshName) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____pauseGenerator) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____pauseGenerator) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____bottomPushEnabled) == 0x29, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____bottomPushEnabled) == 0x31, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____bottomPushDistance) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____bottomPushDistance) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____bottomScaleTopBottom) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____bottomScaleTopBottom) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____bottomHorizontalScale) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____bottomHorizontalScale) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____drawRingGizmos) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____drawRingGizmos) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____prohibitedRadii) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____prohibitedRadii) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshSize) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshSize) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____sizeRandomness) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____sizeRandomness) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____ratioRandomness) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____ratioRandomness) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____perMeshRadiusOffset) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____perMeshRadiusOffset) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____possibleColors) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____possibleColors) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____randomSeed) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____randomSeed) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____heightRandomness) == 0x6c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____heightRandomness) == 0x74, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____ringRotationRandomness) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____ringRotationRandomness) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____ringCount) == 0x74, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____ringCount) == 0x7c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshesPerRadius) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshesPerRadius) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____radiusCloseFar) == 0x7c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____radiusCloseFar) == 0x84, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____sizeCloseFar) == 0x84, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____sizeCloseFar) == 0x8c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____heightCloseFar) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____heightCloseFar) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____lowPolyThreshold) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____lowPolyThreshold) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____flipNormals) == 0x9c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____flipNormals) == 0xa4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____curveMesh) == 0x9d, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____curveMesh) == 0xa5, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____clouds) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____clouds) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshCount) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshCount) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____vertexCount) == 0xac, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____vertexCount) == 0xb4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____generatedMesh) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____generatedMesh) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshBounds) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____meshBounds) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____radiusChunks) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____radiusChunks) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____rings) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____rings) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____sortedProhibitedRadii) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CloudsMeshGenerator, ____sortedProhibitedRadii) == 0xe8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CloudsMeshGenerator);

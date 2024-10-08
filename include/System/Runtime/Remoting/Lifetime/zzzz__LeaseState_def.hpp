@@ -13,7 +13,7 @@ struct LeaseState;
 // Write type traits
 MARK_VAL_T(::System::Runtime::Remoting::Lifetime::LeaseState);
 // Type: System.Runtime.Remoting.Lifetime::LeaseState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: true
 // CS Name: ::System.Runtime.Remoting.Lifetime::LeaseState
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field Renewing value: static_cast<int32_t>(0x3)
   static ::System::Runtime::Remoting::Lifetime::LeaseState const Renewing;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3095 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

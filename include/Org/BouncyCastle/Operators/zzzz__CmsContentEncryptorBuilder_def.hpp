@@ -25,7 +25,7 @@ class CmsContentEncryptorBuilder;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder);
 // Type: Org.BouncyCastle.Operators::CmsContentEncryptorBuilder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Operators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Operators::CmsContentEncryptorBuilder*
@@ -33,21 +33,21 @@ class CORDL_TYPE CmsContentEncryptorBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field KeySizes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_KeySizes, put = setStaticF_KeySizes))::System::Collections::IDictionary* KeySizes;
+  static __declspec(property(get = getStaticF_KeySizes, put = setStaticF_KeySizes)) ::System::Collections::IDictionary* KeySizes;
 
   /// @brief Field encryptionOID, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_encryptionOID, put = __cordl_internal_set_encryptionOID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID;
+  __declspec(property(get = __cordl_internal_get_encryptionOID, put = __cordl_internal_set_encryptionOID)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID;
 
   /// @brief Field helper, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper))::Org::BouncyCastle::Cms::EnvelopedDataHelper* helper;
+  __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper)) ::Org::BouncyCastle::Cms::EnvelopedDataHelper* helper;
 
   /// @brief Field keySize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_keySize, put = __cordl_internal_set_keySize)) int32_t keySize;
 
-  /// @brief Method Build, addr 0x119ec34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x2376040, size 0x60, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* Build();
 
-  /// @brief Method GetKeySize, addr 0x119e99c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetKeySize, addr 0x2375db0, size 0x1a4, virtual false, abstract: false, final false
   static inline int32_t GetKeySize(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID);
@@ -72,10 +72,10 @@ public:
 
   constexpr void __cordl_internal_set_keySize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x119eb40, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2375f54, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID);
 
-  /// @brief Method .ctor, addr 0x119ebb0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2375fc4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize);
 
   static inline ::System::Collections::IDictionary* getStaticF_KeySizes();
@@ -104,6 +104,9 @@ public:
 
   /// @brief Field helper, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Cms::EnvelopedDataHelper* ___helper;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 997 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

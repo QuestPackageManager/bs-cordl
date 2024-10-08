@@ -6,6 +6,7 @@ module;
 #include "UnityEngine/Tilemaps/ITilemap.hpp"
 #include "UnityEngine/Tilemaps/Tile.hpp"
 #include "UnityEngine/Tilemaps/TileAnimationData.hpp"
+#include "UnityEngine/Tilemaps/TileAnimationFlags.hpp"
 #include "UnityEngine/Tilemaps/TileBase.hpp"
 #include "UnityEngine/Tilemaps/TileChangeData.hpp"
 #include "UnityEngine/Tilemaps/TileData.hpp"

@@ -26,7 +26,7 @@ template <typename TStateTable, typename TType, typename TState> class RemoteSta
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::RemoteStateBuffer_3);
 // Type: ::RemoteStateBuffer`3
-// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
@@ -43,8 +43,9 @@ public:
 
   /// @brief Field _receivedDeltas, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__receivedDeltas,
-                      put = __cordl_internal_set__receivedDeltas))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                                                                           ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _receivedDeltas;
+                      put = __cordl_internal_set__receivedDeltas)) ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
+                                                                            ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
+      _receivedDeltas;
 
   /// @brief Field _receivedStateCount, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__receivedStateCount, put = __cordl_internal_set__receivedStateCount)) int32_t _receivedStateCount;
@@ -54,8 +55,9 @@ public:
 
   /// @brief Field _receivedStates, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__receivedStates,
-                      put = __cordl_internal_set__receivedStates))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                                                                           ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _receivedStates;
+                      put = __cordl_internal_set__receivedStates)) ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
+                                                                            ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
+      _receivedStates;
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Clear();
@@ -158,6 +160,9 @@ public:
 
   /// @brief Field _receivedDeltaCount, offset: 0x4c, size: 0x4, def value: None
   int32_t ____receivedDeltaCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14951 };
 
   /// @brief Field kMaxDeltaQueueSize offset 0xffffffff size 0x4
   static constexpr int32_t kMaxDeltaQueueSize{ static_cast<int32_t>(0x40) };

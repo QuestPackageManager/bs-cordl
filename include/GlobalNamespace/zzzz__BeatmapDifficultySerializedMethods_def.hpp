@@ -17,17 +17,17 @@ class BeatmapDifficultySerializedMethods;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDifficultySerializedMethods);
 // Type: ::BeatmapDifficultySerializedMethods
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapDifficultySerializedMethods*
 class CORDL_TYPE BeatmapDifficultySerializedMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BeatmapDifficultyFromSerializedName, addr 0x1044b70, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method BeatmapDifficultyFromSerializedName, addr 0x220c200, size 0x164, virtual false, abstract: false, final false
   static inline bool BeatmapDifficultyFromSerializedName(::StringW name, ByRef<::GlobalNamespace::BeatmapDifficulty> difficulty);
 
-  /// @brief Method SerializedName, addr 0x1044acc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SerializedName, addr 0x220c168, size 0x98, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:
@@ -43,6 +43,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySerializedMethods", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDifficultySerializedMethods(BeatmapDifficultySerializedMethods const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16985 };
 
   /// @brief Field kDifficultyEasySerializedName offset 0xffffffff size 0x8
   static constexpr ::ConstString kDifficultyEasySerializedName{ u"Easy" };

@@ -28,7 +28,7 @@ class BerTaggedObjectParser;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerTaggedObjectParser);
 // Type: Org.BouncyCastle.Asn1::BerTaggedObjectParser
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::BerTaggedObjectParser*
@@ -43,7 +43,7 @@ public:
   __declspec(property(get = __cordl_internal_get__constructed, put = __cordl_internal_set__constructed)) bool _constructed;
 
   /// @brief Field _parser, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__parser, put = __cordl_internal_set__parser))::Org::BouncyCastle::Asn1::Asn1StreamParser* _parser;
+  __declspec(property(get = __cordl_internal_get__parser, put = __cordl_internal_set__parser)) ::Org::BouncyCastle::Asn1::Asn1StreamParser* _parser;
 
   /// @brief Field _tagNumber, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__tagNumber, put = __cordl_internal_set__tagNumber)) int32_t _tagNumber;
@@ -54,14 +54,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method GetObjectParser, addr 0x1431c48, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method GetObjectParser, addr 0x25f641c, size 0x94, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetObjectParser(int32_t tag, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* New_ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream);
 
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* New_ctor(bool constructed, int32_t tagNumber, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method ToAsn1Object, addr 0x142887c, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x25ed1cc, size 0xf4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr bool const& __cordl_internal_get__constructed() const;
@@ -82,16 +82,16 @@ public:
 
   constexpr void __cordl_internal_set__tagNumber(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1431b94, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f6370, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream);
 
-  /// @brief Method .ctor, addr 0x142883c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ed18c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool constructed, int32_t tagNumber, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method get_IsConstructed, addr 0x1431c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsConstructed, addr 0x25f640c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsConstructed();
 
-  /// @brief Method get_TagNo, addr 0x1431c40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TagNo, addr 0x25f6414, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_TagNo();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser"
@@ -122,6 +122,9 @@ public:
 
   /// @brief Field _parser, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1StreamParser* ____parser;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 497 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

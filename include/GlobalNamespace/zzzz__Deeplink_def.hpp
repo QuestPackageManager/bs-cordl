@@ -13,7 +13,7 @@ class Deeplink;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Deeplink);
 // Type: ::Deeplink
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Deeplink*
@@ -21,27 +21,27 @@ class CORDL_TYPE Deeplink : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Characteristic, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_Characteristic, put = __cordl_internal_set_Characteristic))::StringW Characteristic;
+  __declspec(property(get = __cordl_internal_get_Characteristic, put = __cordl_internal_set_Characteristic)) ::StringW Characteristic;
 
   /// @brief Field Destination, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Destination, put = __cordl_internal_set_Destination))::StringW Destination;
+  __declspec(property(get = __cordl_internal_get_Destination, put = __cordl_internal_set_Destination)) ::StringW Destination;
 
   /// @brief Field Difficulty, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Difficulty, put = __cordl_internal_set_Difficulty))::StringW Difficulty;
+  __declspec(property(get = __cordl_internal_get_Difficulty, put = __cordl_internal_set_Difficulty)) ::StringW Difficulty;
 
   /// @brief Field LevelID, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_LevelID, put = __cordl_internal_set_LevelID))::StringW LevelID;
+  __declspec(property(get = __cordl_internal_get_LevelID, put = __cordl_internal_set_LevelID)) ::StringW LevelID;
 
   /// @brief Field MultiplayerLobbyCode, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_MultiplayerLobbyCode, put = __cordl_internal_set_MultiplayerLobbyCode))::StringW MultiplayerLobbyCode;
+  __declspec(property(get = __cordl_internal_get_MultiplayerLobbyCode, put = __cordl_internal_set_MultiplayerLobbyCode)) ::StringW MultiplayerLobbyCode;
 
   /// @brief Field MultiplayerSecret, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_MultiplayerSecret, put = __cordl_internal_set_MultiplayerSecret))::StringW MultiplayerSecret;
+  __declspec(property(get = __cordl_internal_get_MultiplayerSecret, put = __cordl_internal_set_MultiplayerSecret)) ::StringW MultiplayerSecret;
 
   /// @brief Field PackID, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_PackID, put = __cordl_internal_set_PackID))::StringW PackID;
+  __declspec(property(get = __cordl_internal_get_PackID, put = __cordl_internal_set_PackID)) ::StringW PackID;
 
-  /// @brief Method FromJson, addr 0x14abd3c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x266d000, size 0x48, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Deeplink* FromJson(::StringW jsonDeeplink);
 
   static inline ::GlobalNamespace::Deeplink* New_ctor();
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_PackID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14abd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266d048, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,6 +125,9 @@ public:
 
   /// @brief Field MultiplayerSecret, offset: 0x40, size: 0x8, def value: None
   ::StringW ___MultiplayerSecret;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12772 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
